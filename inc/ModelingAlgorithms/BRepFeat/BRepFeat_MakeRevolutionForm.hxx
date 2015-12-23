@@ -16,7 +16,7 @@
 #include <Handle_Geom_Plane.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFeat_RibSlot.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_RibSlot.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Geom_Plane;
 class Standard_ConstructionError;
@@ -112,7 +112,7 @@ private:
 };
 
 
-#include <BRepFeat_MakeRevolutionForm.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeRevolutionForm.lxx>
 
 
 

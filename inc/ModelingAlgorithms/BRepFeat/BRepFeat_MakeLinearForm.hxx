@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFeat_RibSlot.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_RibSlot.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Curve;
@@ -126,7 +126,7 @@ private:
 };
 
 
-#include <BRepFeat_MakeLinearForm.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeLinearForm.lxx>
 
 
 

@@ -22,7 +22,7 @@
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 

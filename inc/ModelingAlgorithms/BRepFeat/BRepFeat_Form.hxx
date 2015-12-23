@@ -14,10 +14,10 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFeat_PerfSelection.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_PerfSelection.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <BRepFeat_StatusError.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_StatusError.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
@@ -190,7 +190,7 @@ private:
 };
 
 
-#include <BRepFeat_Form.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Form.lxx>
 
 
 

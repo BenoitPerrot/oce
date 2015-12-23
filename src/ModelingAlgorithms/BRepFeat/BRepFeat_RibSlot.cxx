@@ -26,8 +26,8 @@
 #include <LocOpe_Gluer.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
-#include <BRepFeat_RibSlot.hxx>
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_RibSlot.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 
 #include <LocOpe.hxx>
 #include <LocOpe_Gluer.hxx>
@@ -111,7 +111,7 @@
 #include <Precision.hxx>
 
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <BRepFeat_Builder.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Builder.hxx>
 
 
 #ifdef OCCT_DEBUG

@@ -32,7 +32,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
-#include <BRepFeat_SplitShape.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

@@ -108,7 +108,7 @@ private:
 };
 
 
-#include <BRepFeat_Gluer.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Gluer.lxx>
 
 
 

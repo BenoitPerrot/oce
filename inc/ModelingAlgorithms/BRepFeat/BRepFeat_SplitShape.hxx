@@ -117,7 +117,7 @@ private:
 };
 
 
-#include <BRepFeat_SplitShape.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.lxx>
 
 
 

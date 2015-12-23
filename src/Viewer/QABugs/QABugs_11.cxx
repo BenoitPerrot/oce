@@ -85,7 +85,7 @@
 #include <IGESData_IGESModel.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <V3d_View.hxx>
-#include <BRepFeat_SplitShape.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 
 #if ! defined(_WIN32)

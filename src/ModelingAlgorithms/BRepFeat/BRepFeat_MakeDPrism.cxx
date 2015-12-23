@@ -21,9 +21,9 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFeat_MakeDPrism.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.hxx>
 
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 #include <LocOpe.hxx>
 #include <LocOpe_CSIntersector.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
@@ -82,7 +82,7 @@
 
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 #ifdef OCCT_DEBUG

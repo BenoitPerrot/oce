@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <BRepFeat_StatusError.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_StatusError.hxx>
 class TopoDS_Shape;
 class TColgp_SequenceOfPnt;
 class gp_Pnt;

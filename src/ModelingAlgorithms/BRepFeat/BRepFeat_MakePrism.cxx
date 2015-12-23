@@ -21,9 +21,9 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <BRepFeat_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakePrism.hxx>
 
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 #include <LocOpe.hxx>
 #include <LocOpe_Prism.hxx>
 #include <LocOpe_CSIntersector.hxx>

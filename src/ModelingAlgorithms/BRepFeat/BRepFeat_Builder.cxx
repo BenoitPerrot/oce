@@ -16,7 +16,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepFeat_Builder.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Builder.hxx>
 
 #include <Precision.hxx>
 

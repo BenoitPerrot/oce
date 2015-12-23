@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFeat_SplitShape.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

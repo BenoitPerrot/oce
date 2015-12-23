@@ -68,7 +68,7 @@
 #include <LocOpe_CSIntersector.hxx>
 #include <LocOpe_SequenceOfLin.hxx>
 #include <LocOpe_PntFace.hxx>
-#include <BRepFeat_MakeDPrism.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>

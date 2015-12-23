@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFeat_Gluer.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Gluer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 

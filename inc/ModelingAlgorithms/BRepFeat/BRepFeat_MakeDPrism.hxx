@@ -16,8 +16,8 @@
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFeat_StatusError.hxx>
-#include <BRepFeat_Form.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_StatusError.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Form.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Curve;
@@ -148,7 +148,7 @@ private:
 };
 
 
-#include <BRepFeat_MakeDPrism.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.lxx>
 
 
 

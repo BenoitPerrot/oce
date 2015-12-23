@@ -21,9 +21,9 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <BRepFeat_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeRevol.hxx>
 
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 #include <LocOpe.hxx>
 #include <LocOpe_Revol.hxx>
 #include <LocOpe_Gluer.hxx>
@@ -76,7 +76,7 @@
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 
 #include <ElCLib.hxx>
 

@@ -1420,7 +1420,7 @@ static Standard_Integer OCC1174_2 (Draw_Interpretor& di, Standard_Integer argc, 
 }
 
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepFeat_MakeDPrism.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.hxx>
 //=======================================================================
 //function : OCCN1
 //purpose  : FEATURE OPERATION (BOSS and SLOT)

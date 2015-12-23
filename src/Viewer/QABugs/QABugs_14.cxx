@@ -36,7 +36,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <BRepFeat_SplitShape.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

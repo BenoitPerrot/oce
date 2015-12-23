@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFeat_MakeCylindricalHole.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeCylindricalHole.hxx>
 
 
 #include <LocOpe_CurveShapeIntersector.hxx>

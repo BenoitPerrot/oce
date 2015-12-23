@@ -15,8 +15,8 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <BRepFeat_StatusError.hxx>
-#include <BRepFeat_Form.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_StatusError.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Form.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -146,7 +146,7 @@ private:
 };
 
 
-#include <BRepFeat_MakePrism.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakePrism.lxx>
 
 
 

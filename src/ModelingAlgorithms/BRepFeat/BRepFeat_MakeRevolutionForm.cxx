@@ -23,9 +23,9 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepFeat_MakeRevolutionForm.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeRevolutionForm.hxx>
 
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 
 #include <LocOpe.hxx>
 #include <LocOpe_RevolutionForm.hxx>

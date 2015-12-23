@@ -21,9 +21,9 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <BRepFeat_MakePipe.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakePipe.hxx>
 
-#include <BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 #include <LocOpe.hxx>
 
 //modified by NIZNHY-PKV Thu Mar 21 17:54:27 2002 f

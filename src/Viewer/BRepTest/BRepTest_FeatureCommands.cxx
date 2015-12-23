@@ -37,19 +37,19 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 
-//#include <BRepFeat_LocalOperation.hxx>
-#include <BRepFeat_Builder.hxx>
-#include <BRepFeat_MakeCylindricalHole.hxx>
-#include <BRepFeat_SplitShape.hxx>
-#include <BRepFeat_Gluer.hxx>
+//#include <ModelingAlgorithms/BRepFeat/BRepFeat_LocalOperation.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Builder.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeCylindricalHole.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Gluer.hxx>
 
-#include <BRepFeat.hxx>
-#include <BRepFeat_MakePrism.hxx>
-#include <BRepFeat_MakeRevol.hxx>
-#include <BRepFeat_MakePipe.hxx>
-#include <BRepFeat_MakeDPrism.hxx>
-#include <BRepFeat_MakeLinearForm.hxx>
-#include <BRepFeat_MakeRevolutionForm.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakePipe.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeLinearForm.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeRevolutionForm.hxx>
 
 #include <LocOpe_FindEdges.hxx>
 #include <LocOpe_FindEdgesInFace.hxx>

@@ -12,9 +12,9 @@
 
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepFeat_Status.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Status.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepFeat_Builder.hxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_Builder.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;
 class Standard_ConstructionError;
@@ -111,7 +111,7 @@ private:
 };
 
 
-#include <BRepFeat_MakeCylindricalHole.lxx>
+#include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeCylindricalHole.lxx>
 
 
 
