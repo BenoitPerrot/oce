@@ -29,7 +29,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IVtkOCC_ShapeMesher.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_ShapeMesher.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>

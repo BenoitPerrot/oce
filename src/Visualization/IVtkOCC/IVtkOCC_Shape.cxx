@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IVtkOCC_Shape.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 // Handle implementation

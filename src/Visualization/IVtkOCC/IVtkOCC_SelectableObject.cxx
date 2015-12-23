@@ -15,7 +15,7 @@
 
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <IVtkOCC_SelectableObject.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_SelectableObject.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

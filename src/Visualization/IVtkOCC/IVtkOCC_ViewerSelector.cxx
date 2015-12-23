@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IVtkOCC_ViewerSelector.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_ViewerSelector.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Quaternion.hxx>

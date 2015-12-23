@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/IVtk/IVtk_Types.hxx>
-#include <IVtkOCC_ShapePickerAlgo.hxx>
-#include <IVtkOCC_Shape.hxx>
-#include <IVtkOCC_SelectableObject.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_ShapePickerAlgo.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_SelectableObject.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <StdSelect_BRepOwner.hxx>

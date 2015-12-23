@@ -74,8 +74,8 @@
 
 #include <Visualization/IVtk/IVtk_Types.hxx>
 #include <IVtkVTK_ShapeData.hxx>
-#include <IVtkOCC_Shape.hxx>
-#include <IVtkOCC_ShapeMesher.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_ShapeMesher.hxx>
 #include <IVtkTools_ShapeDataSource.hxx>
 #include <IVtkTools_ShapeObject.hxx>
 #include <IVtkTools_SubPolyDataFilter.hxx>

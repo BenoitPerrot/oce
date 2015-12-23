@@ -18,7 +18,7 @@
 
 #include <IVtkTools.hxx>
 #include <Visualization/IVtk/IVtk_Types.hxx>
-#include <IVtkOCC_ShapePickerAlgo.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_ShapePickerAlgo.hxx>
 #include <vtkAbstractPropPicker.h>
 
 class vtkRenderer;

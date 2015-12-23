@@ -22,7 +22,7 @@
 #include <vtkAppendPolyData.h>
 #include <vtkProperty.h>
 
-#include <IVtkOCC_Shape.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <IVtkTools_DisplayModeFilter.hxx>
 #include <IVtkTools_ShapeDataSource.hxx>
 #include <IVtkTools_ShapeObject.hxx>

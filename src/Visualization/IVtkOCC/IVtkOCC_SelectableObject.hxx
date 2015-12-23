@@ -17,7 +17,7 @@
 #define __IVTKOCC_SELECTABLEOBJECT_H__
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IVtkOCC_Shape.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_Selection.hxx>

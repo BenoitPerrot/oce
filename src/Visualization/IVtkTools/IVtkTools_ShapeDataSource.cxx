@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 // VIS includes
-#include <IVtkOCC_ShapeMesher.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_ShapeMesher.hxx>
 #include <IVtkTools_ShapeDataSource.hxx>
 #include <IVtkTools_ShapeObject.hxx>
 

@@ -17,7 +17,7 @@
 #define __IVTKOCC_SHAPEMESHER_H__
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <IVtkOCC_Shape.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <Visualization/IVtk/IVtk_IShapeMesher.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>

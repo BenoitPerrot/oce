@@ -17,7 +17,7 @@
 #define __IVTKTOOLS_SHAPEOBJECT_H__
 
 #include <IVtkTools.hxx>
-#include <IVtkOCC_Shape.hxx>
+#include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <vtkDataObject.h>
 #include <vtkSetGet.h>
 #include <vtkSmartPointer.h>
