@@ -28,7 +28,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' un cercle de prostep a partir d' un cercle 3d de gp

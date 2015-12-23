@@ -51,7 +51,7 @@
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndVolumeUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 
 //=======================================================================

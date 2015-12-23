@@ -22,7 +22,7 @@
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' un Parabola de Geom a partir d' un Parabola de Step

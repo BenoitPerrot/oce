@@ -18,7 +18,7 @@
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' un CartesianPoint de Geom a partir d' un CartesianPoint de Step

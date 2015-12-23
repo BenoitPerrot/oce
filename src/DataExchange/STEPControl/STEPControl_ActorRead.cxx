@@ -82,7 +82,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 
 #include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //  Representation Relationship & cie
 #include <DataExchange/Interface/Interface_Graph.hxx>

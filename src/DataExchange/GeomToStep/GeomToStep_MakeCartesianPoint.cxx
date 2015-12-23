@@ -29,7 +29,7 @@
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' un cartesian_point de prostep a partir d' un point3d de gp

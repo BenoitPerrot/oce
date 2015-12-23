@@ -34,7 +34,7 @@
 // MGE 21/07/98
 #include <Foundation/Message/Message_Msg.hxx>
 
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //  valeurs en MILLIMETRE pardefaut, reajustable
 //static Standard_Real convunit = 1000.;

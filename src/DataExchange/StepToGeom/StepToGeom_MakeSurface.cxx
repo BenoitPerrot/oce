@@ -39,7 +39,7 @@
 #include <DataExchange/StepGeom/StepGeom_SurfaceReplica.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeTransformation3d.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

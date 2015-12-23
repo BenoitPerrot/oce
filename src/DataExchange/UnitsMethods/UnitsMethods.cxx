@@ -13,7 +13,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' un VectorWithMagnitude de Geom a partir d' un Vector de Step

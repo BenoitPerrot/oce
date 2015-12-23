@@ -40,7 +40,7 @@
 #include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint2d.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve2d.hxx>
 
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d'une Trimmed Curve de Geom2d a partir d' une Trimmed Curve de Step

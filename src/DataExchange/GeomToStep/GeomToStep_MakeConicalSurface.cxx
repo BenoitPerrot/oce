@@ -26,7 +26,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' une conical_surface de prostep a partir d' une ConicalSurface

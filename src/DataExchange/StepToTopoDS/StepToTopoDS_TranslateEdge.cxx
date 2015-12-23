@@ -69,7 +69,7 @@
 
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve2d.hxx>
 #include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //:d8
 #include <DataExchange/StepShape/StepShape_VertexPoint.hxx>

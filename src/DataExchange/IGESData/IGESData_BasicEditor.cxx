@@ -35,7 +35,7 @@
 
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 
 IGESData_BasicEditor::IGESData_BasicEditor

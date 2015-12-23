@@ -29,7 +29,7 @@
 #include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeDirection.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' un vector de prostep a partir d' un Vec de gp

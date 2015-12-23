@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Precision.hxx>//#2(K3-3) rln
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' une ConicalSurface de Geom a partir d' une ConicalSurface de

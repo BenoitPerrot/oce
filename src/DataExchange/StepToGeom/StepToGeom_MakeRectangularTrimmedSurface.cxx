@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' une RectangularTrimmedSurface de Geom a partir d' une

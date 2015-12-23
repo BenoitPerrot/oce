@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' une toroidal_surface de prostep a partir d' une ToroidalSurface

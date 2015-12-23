@@ -25,7 +25,7 @@
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 
 //=============================================================================

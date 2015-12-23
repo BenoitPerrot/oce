@@ -109,7 +109,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx> //:d6
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 

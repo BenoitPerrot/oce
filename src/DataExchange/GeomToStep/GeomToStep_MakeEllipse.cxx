@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d'une ellipse de prostep a partir d'une ellipse 3d de gp

@@ -31,7 +31,7 @@
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' une Surface de prostep a partir d' une Surface de Geom

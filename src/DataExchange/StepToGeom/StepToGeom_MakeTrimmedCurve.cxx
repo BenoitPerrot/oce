@@ -43,7 +43,7 @@
 //#include <BRepAPI.hxx>
 #include <ElCLib.hxx>
 
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>

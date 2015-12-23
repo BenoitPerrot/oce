@@ -24,7 +24,7 @@
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' une conical_surface de prostep a partir d' une SphericalSurface

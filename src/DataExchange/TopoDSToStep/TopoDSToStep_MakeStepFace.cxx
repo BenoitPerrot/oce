@@ -82,7 +82,7 @@
 #include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_DegenerateToroidalSurface.hxx>
 
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 #include <DataExchange/GeomToStep/GeomToStep_MakeSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>

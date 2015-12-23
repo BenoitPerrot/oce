@@ -22,7 +22,7 @@
 #include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <UnitsMethods.hxx>
+#include <DataExchange/UnitsMethods/UnitsMethods.hxx>
 
 //=============================================================================
 // Creation d' une CylindricalSurface de Geom a partir d' une 
