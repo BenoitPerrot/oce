@@ -41,7 +41,7 @@
 #include <DataExchange/STEPControl/STEPControl_Reader.hxx>
 #include <DataExchange/STEPControl/STEPControl_Writer.hxx>
 //for stl export
-#include <StlAPI_Writer.hxx>
+#include <DataExchange/StlAPI/StlAPI_Writer.hxx>
 //for vrml export
 #include <VrmlAPI_Writer.hxx>
 //wrapper of pure C++ classes to ref classes

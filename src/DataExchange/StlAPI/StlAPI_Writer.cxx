@@ -13,7 +13,7 @@
 
 #include <StlMesh_Mesh.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StlAPI_Writer.hxx>
+#include <DataExchange/StlAPI/StlAPI_Writer.hxx>
 #include <StlTransfer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

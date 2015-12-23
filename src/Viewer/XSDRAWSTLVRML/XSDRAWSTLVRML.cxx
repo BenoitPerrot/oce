@@ -18,13 +18,13 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <VrmlAPI.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <StlAPI.hxx>
+#include <DataExchange/StlAPI/StlAPI.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <VrmlAPI_Writer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
-#include <StlAPI_Writer.hxx>
+#include <DataExchange/StlAPI/StlAPI_Writer.hxx>
 #include <Viewer/Draw/Draw_PluginMacro.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/XSDRAWSTEP/XSDRAWSTEP.hxx>

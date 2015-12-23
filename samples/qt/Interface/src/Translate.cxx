@@ -39,7 +39,7 @@
 #include <DataExchange/Interface/Interface_Static.hxx>
 //#include <DataExchange/Interface/Interface_TraceFile.hxx>
 
-#include <StlAPI_Writer.hxx>
+#include <DataExchange/StlAPI/StlAPI_Writer.hxx>
 #include <VrmlAPI_Writer.hxx>
 
 #include <OCAF/MgtBRep/MgtBRep.hxx>

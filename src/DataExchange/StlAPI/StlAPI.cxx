@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StlAPI.hxx>
-#include <StlAPI_Writer.hxx>
-#include <StlAPI_Reader.hxx>
+#include <DataExchange/StlAPI/StlAPI.hxx>
+#include <DataExchange/StlAPI/StlAPI_Writer.hxx>
+#include <DataExchange/StlAPI/StlAPI_Reader.hxx>
 
 void StlAPI::Write(const TopoDS_Shape& aShape,
 		   const Standard_CString aFile,

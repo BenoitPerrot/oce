@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StlAPI_Reader.hxx>
+#include <DataExchange/StlAPI/StlAPI_Reader.hxx>
 #include <DataExchange/RWStl/RWStl.hxx>
 #include <StlMesh_Mesh.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
