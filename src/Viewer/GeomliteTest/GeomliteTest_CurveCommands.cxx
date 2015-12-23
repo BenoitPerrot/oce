@@ -18,7 +18,7 @@
 // Modified by PMN 14/04/97 : Passage a Geomlite
 // Modified by JPI 01/08/97 : ajout de la commande approxcurve
 
-#include <GeomliteTest.hxx>
+#include <Viewer/GeomliteTest/GeomliteTest.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>

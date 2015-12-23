@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <GeomliteTest.hxx>
+#include <Viewer/GeomliteTest/GeomliteTest.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>

@@ -16,7 +16,7 @@
 
 // modified by jct (15.04.97) ajout de ModificationCommands
 
-#include <GeomliteTest.hxx>
+#include <Viewer/GeomliteTest/GeomliteTest.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 

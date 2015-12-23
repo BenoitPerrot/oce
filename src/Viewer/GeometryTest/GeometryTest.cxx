@@ -18,7 +18,7 @@
 //             jpi 09/06/97 utilisation des commandes de GeomliteTest
 
 #include <Viewer/GeometryTest/GeometryTest.hxx>
-#include <GeomliteTest.hxx>
+#include <Viewer/GeomliteTest/GeomliteTest.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 

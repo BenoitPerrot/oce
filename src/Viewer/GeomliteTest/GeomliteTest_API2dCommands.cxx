@@ -17,7 +17,7 @@
 // modified : pmn 11/04/97 : mis dans GeomliteTest
 
 
-#include <GeomliteTest.hxx>
+#include <Viewer/GeomliteTest/GeomliteTest.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

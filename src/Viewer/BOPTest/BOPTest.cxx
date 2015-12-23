@@ -16,7 +16,7 @@
 #include <Viewer/BOPTest/BOPTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <GeomliteTest.hxx>
+#include <Viewer/GeomliteTest/GeomliteTest.hxx>
 #include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <MeshTest.hxx>
