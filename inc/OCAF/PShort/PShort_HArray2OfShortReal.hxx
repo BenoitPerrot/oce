@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <PShort_FieldOfHArray2OfShortReal.hxx>
+#include <OCAF/PShort/PShort_FieldOfHArray2OfShortReal.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
@@ -96,21 +96,21 @@ private:
 #define Item Standard_ShortReal
 #define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define PCollection_FieldOfHArray2 PShort_FieldOfHArray2OfShortReal
-#define PCollection_FieldOfHArray2_hxx <PShort_FieldOfHArray2OfShortReal.hxx>
+#define PCollection_FieldOfHArray2_hxx <OCAF/PShort/PShort_FieldOfHArray2OfShortReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PShort_VArrayNodeOfFieldOfHArray2OfShortReal
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PShort/PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PShort_VArrayTNodeOfFieldOfHArray2OfShortReal
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PShort/PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PShort_VArrayNodeOfFieldOfHArray2OfShortReal
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PShort/PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PShort_VArrayTNodeOfFieldOfHArray2OfShortReal
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PShort/PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PShort_VArrayNodeOfFieldOfHArray2OfShortReal_Type_()
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PShort_VArrayNodeOfFieldOfHArray2OfShortReal_Type_()
 #define PCollection_HArray2 PShort_HArray2OfShortReal
-#define PCollection_HArray2_hxx <PShort_HArray2OfShortReal.hxx>
+#define PCollection_HArray2_hxx <OCAF/PShort/PShort_HArray2OfShortReal.hxx>
 #define Handle_PCollection_HArray2 Handle_PShort_HArray2OfShortReal
 #define PCollection_HArray2_Type_() PShort_HArray2OfShortReal_Type_()
 

@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
+#include <OCAF/PShort/PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
 
-#include <PShort_FieldOfHArray2OfShortReal.hxx>
-#include <PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
+#include <OCAF/PShort/PShort_FieldOfHArray2OfShortReal.hxx>
+#include <OCAF/PShort/PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
  
 
 #define Item Standard_ShortReal
 #define Item_hxx <Foundation/Standard/Standard_ShortReal.hxx>
 #define DBC_VArrayNode PShort_VArrayNodeOfFieldOfHArray2OfShortReal
-#define DBC_VArrayNode_hxx <PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PShort/PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
 #define DBC_VArrayTNode PShort_VArrayTNodeOfFieldOfHArray2OfShortReal
-#define DBC_VArrayTNode_hxx <PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PShort/PShort_VArrayTNodeOfFieldOfHArray2OfShortReal.hxx>
 #define Handle_DBC_VArrayNode Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal
 #define DBC_VArrayNode_Type_() PShort_VArrayNodeOfFieldOfHArray2OfShortReal_Type_()
 #define DBC_VArray PShort_FieldOfHArray2OfShortReal
-#define DBC_VArray_hxx <PShort_FieldOfHArray2OfShortReal.hxx>
+#define DBC_VArray_hxx <OCAF/PShort/PShort_FieldOfHArray2OfShortReal.hxx>
 #include <OCAF/DBC/DBC_VArrayTNode.gxx>
 
