@@ -25,7 +25,7 @@
 #include <Visualization/IVtkTools/IVtkTools_DisplayModeFilter.hxx>
 #include <Visualization/IVtkTools/IVtkTools_ShapeObject.hxx>
 #include <Visualization/IVtkTools/IVtkTools_ShapeDataSource.hxx>
-#include <IVtkDraw_Interactor.hxx>
+#include <Viewer/IVtkDraw/IVtkDraw_Interactor.hxx>
 
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

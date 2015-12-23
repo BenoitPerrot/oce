@@ -82,9 +82,9 @@
 #include <Visualization/IVtkTools/IVtkTools_DisplayModeFilter.hxx>
 #include <Visualization/IVtkTools/IVtkTools_ShapePicker.hxx>
 
-#include <IVtkDraw.hxx>
-#include <IVtkDraw_HighlightAndSelectionPipeline.hxx>
-#include <IVtkDraw_Interactor.hxx>
+#include <Viewer/IVtkDraw/IVtkDraw.hxx>
+#include <Viewer/IVtkDraw/IVtkDraw_HighlightAndSelectionPipeline.hxx>
+#include <Viewer/IVtkDraw/IVtkDraw_Interactor.hxx>
 
 #include <vtkAlgorithmOutput.h>
 #include <vtkAppendPolyData.h>
