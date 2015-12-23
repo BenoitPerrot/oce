@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NIS_Allocator.hxx>
+#include <Visualization/NIS/NIS_Allocator.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_Allocator, NCollection_IncAllocator)
 IMPLEMENT_STANDARD_RTTIEXT (NIS_Allocator, NCollection_IncAllocator)

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NIS_SelectFilter.hxx>
+#include <Visualization/NIS/NIS_SelectFilter.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_SelectFilter, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT (NIS_SelectFilter, Standard_Transient)

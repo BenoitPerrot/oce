@@ -20,7 +20,7 @@
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <NIS_DrawList.hxx>
+#include <Visualization/NIS/NIS_DrawList.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 
 #ifdef WNT

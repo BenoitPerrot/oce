@@ -16,7 +16,7 @@
 #ifndef NIS_InteractiveObject_HeaderFile
 #define NIS_InteractiveObject_HeaderFile
 
-#include <NIS_Drawer.hxx>
+#include <Visualization/NIS/NIS_Drawer.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 
 /**

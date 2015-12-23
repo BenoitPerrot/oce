@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NIS_Triangulated.hxx>
-#include <NIS_TriangulatedDrawer.hxx>
-#include <NIS_InteractiveContext.hxx>
+#include <Visualization/NIS/NIS_Triangulated.hxx>
+#include <Visualization/NIS/NIS_TriangulatedDrawer.hxx>
+#include <Visualization/NIS/NIS_InteractiveContext.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Precision.hxx>
 

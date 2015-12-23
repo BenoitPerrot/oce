@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NIS_Surface.hxx>
-#include <NIS_SurfaceDrawer.hxx>
-#include <NIS_Triangulated.hxx>
+#include <Visualization/NIS/NIS_Surface.hxx>
+#include <Visualization/NIS/NIS_SurfaceDrawer.hxx>
+#include <Visualization/NIS/NIS_Triangulated.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>

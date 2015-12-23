@@ -16,7 +16,7 @@
 #ifndef NIS_Surface_HeaderFile
 #define NIS_Surface_HeaderFile
 
-#include <NIS_InteractiveObject.hxx>
+#include <Visualization/NIS/NIS_InteractiveObject.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 

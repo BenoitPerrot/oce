@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NIS_Drawer.hxx>
-#include <NIS_View.hxx>
+#include <Visualization/NIS/NIS_Drawer.hxx>
+#include <Visualization/NIS/NIS_View.hxx>
 
 #include <OpenGl_GlCore11.hxx>
 

@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <NIS_InteractiveObject.hxx>
-#include <NIS_InteractiveContext.hxx>
+#include <Visualization/NIS/NIS_InteractiveObject.hxx>
+#include <Visualization/NIS/NIS_InteractiveContext.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_InteractiveObject, Standard_Transient)

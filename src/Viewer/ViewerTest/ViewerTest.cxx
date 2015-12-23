@@ -79,8 +79,8 @@
 #pragma warning(4:4190)
 #endif
 
-#include <NIS_InteractiveContext.hxx>
-#include <NIS_Triangulated.hxx>
+#include <Visualization/NIS/NIS_InteractiveContext.hxx>
+#include <Visualization/NIS/NIS_Triangulated.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

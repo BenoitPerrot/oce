@@ -17,17 +17,17 @@
 #define NIS_InteractiveContext_HeaderFile
 
 #ifdef __BORLANDC__
-# include <NIS_InteractiveObject.hxx>
-# include <NIS_View.hxx>
+# include <Visualization/NIS/NIS_InteractiveObject.hxx>
+# include <Visualization/NIS/NIS_View.hxx>
 #else
 # include <Handle_NIS_InteractiveObject.hxx>
 # include <Handle_NIS_View.hxx>
 #endif
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_SparseArray.hxx>
-#include <NIS_Allocator.hxx>
-#include <NIS_Drawer.hxx>
-#include <NIS_SelectFilter.hxx>
+#include <Visualization/NIS/NIS_Allocator.hxx>
+#include <Visualization/NIS/NIS_Drawer.hxx>
+#include <Visualization/NIS/NIS_SelectFilter.hxx>
 
 // undefine WinAPI macros
 #ifdef GetObject

@@ -44,9 +44,9 @@
 #include <Foundation/NCollection/NCollection_DoubleMap.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <NIS_View.hxx>
-#include <NIS_Triangulated.hxx>
-#include <NIS_InteractiveContext.hxx>
+#include <Visualization/NIS/NIS_View.hxx>
+#include <Visualization/NIS/NIS_Triangulated.hxx>
+#include <Visualization/NIS/NIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>

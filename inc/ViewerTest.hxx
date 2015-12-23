@@ -23,7 +23,7 @@
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <Handle_AIS_InteractiveContext.hxx>
-#include <NIS_InteractiveContext.hxx>
+#include <Visualization/NIS/NIS_InteractiveContext.hxx>
 #include <Handle_ViewerTest_EventManager.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class TCollection_AsciiString;
