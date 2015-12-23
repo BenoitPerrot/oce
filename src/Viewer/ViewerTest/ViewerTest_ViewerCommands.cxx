@@ -81,8 +81,8 @@
 #include <cstdlib>
 
 #if defined(_WIN32)
-  #include <WNT_WClass.hxx>
-  #include <WNT_Window.hxx>
+  #include <Visualization/WNT/WNT_WClass.hxx>
+  #include <Visualization/WNT/WNT_Window.hxx>
 
   #if defined(_MSC_VER)
     #define _CRT_SECURE_NO_DEPRECATE

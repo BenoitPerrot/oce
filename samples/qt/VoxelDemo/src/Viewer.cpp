@@ -7,7 +7,7 @@
 
 #include <QMouseEvent>
 
-#include <WNT_Window.hxx>
+#include <Visualization/WNT/WNT_Window.hxx>
 
 #include <Visualization/Voxel/Voxel_Prs.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>

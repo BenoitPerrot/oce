@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <WNT_Dword.hxx>
+#include <Visualization/WNT/WNT_Dword.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfResize.hxx>
@@ -128,7 +128,7 @@ private:
 };
 
 
-#include <WNT_Window.lxx>
+#include <Visualization/WNT/WNT_Window.lxx>
 
 
 

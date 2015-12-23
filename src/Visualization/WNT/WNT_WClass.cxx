@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <windows.h>
-#include <WNT_ClassDefinitionError.hxx>
-#include <WNT_Window.hxx>
-#include <WNT_WClass.hxx>
+#include <Visualization/WNT/WNT_ClassDefinitionError.hxx>
+#include <Visualization/WNT/WNT_Window.hxx>
+#include <Visualization/WNT/WNT_WClass.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(WNT_WClass)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

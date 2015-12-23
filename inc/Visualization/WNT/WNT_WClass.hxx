@@ -14,7 +14,7 @@
 #include <Visualization/Aspect/Aspect_Handle.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <WNT_Uint.hxx>
+#include <Visualization/WNT/WNT_Uint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class WNT_ClassDefinitionError;
 class WNT_Window;
@@ -85,7 +85,7 @@ private:
 };
 
 
-#include <WNT_WClass.lxx>
+#include <Visualization/WNT/WNT_WClass.lxx>
 
 
 

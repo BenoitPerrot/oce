@@ -5,7 +5,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 //for OCC graphic
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
-#include <WNT_Window.hxx>
+#include <Visualization/WNT/WNT_Window.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CView.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Camera.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>

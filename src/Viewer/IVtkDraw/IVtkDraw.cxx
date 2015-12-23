@@ -53,8 +53,8 @@
 #ifdef _WIN32
 #define _WIN32_WINNT 0x0400  // for TrackMouseEvent support requires Win95 with IE 3.0 or greater.
 #include <windows.h>
-#include <WNT_WClass.hxx>
-#include <WNT_Window.hxx>
+#include <Visualization/WNT/WNT_WClass.hxx>
+#include <Visualization/WNT/WNT_Window.hxx>
 #endif
 
 #include <Viewer/Draw/Draw.hxx>

@@ -3,7 +3,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 //for OCC graphic
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
-#include <WNT_Window.hxx>
+#include <Visualization/WNT/WNT_Window.hxx>
 #include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 //for object display
 #include <Visualization/V3d/V3d_Viewer.hxx>

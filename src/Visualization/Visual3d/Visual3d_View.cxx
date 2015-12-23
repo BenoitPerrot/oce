@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_View)
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 #if defined(_WIN32)
-  #include <WNT_Window.hxx>
+  #include <Visualization/WNT/WNT_Window.hxx>
 #elif (defined(__APPLE__) && !defined(MACOSX_USE_GLX))
   #include <Visualization/Cocoa/Cocoa_Window.hxx>
 #else

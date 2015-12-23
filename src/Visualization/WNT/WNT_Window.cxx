@@ -15,10 +15,10 @@
 // include windows.h first to have all definitions available
 #include <windows.h>
 
-#include <WNT_WClass.hxx>
+#include <Visualization/WNT/WNT_WClass.hxx>
 #include <Visualization/Aspect/Aspect_WindowDefinitionError.hxx>
 #include <Visualization/Aspect/Aspect_WindowError.hxx>
-#include <WNT_Window.hxx>
+#include <Visualization/WNT/WNT_Window.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(WNT_Window)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
