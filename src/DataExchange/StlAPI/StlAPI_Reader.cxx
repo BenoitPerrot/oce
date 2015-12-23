@@ -13,7 +13,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StlAPI_Reader.hxx>
-#include <RWStl.hxx>
+#include <DataExchange/RWStl/RWStl.hxx>
 #include <StlMesh_Mesh.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

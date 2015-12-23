@@ -17,7 +17,7 @@
 #include <StlMesh_Mesh.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <RWStl.hxx>
+#include <DataExchange/RWStl/RWStl.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

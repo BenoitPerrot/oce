@@ -17,7 +17,7 @@
 #include <StlTransfer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <RWStl.hxx>
+#include <DataExchange/RWStl/RWStl.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 
