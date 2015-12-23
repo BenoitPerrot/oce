@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_EditHeader.hxx>
 
-#include <IFSelect_Editor.hxx>
+#include <DataExchange/IFSelect/IFSelect_Editor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IFSelect_EditForm.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

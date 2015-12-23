@@ -12,7 +12,7 @@
 
 #include <Handle_XSControl_TransferReader.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
-#include <IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

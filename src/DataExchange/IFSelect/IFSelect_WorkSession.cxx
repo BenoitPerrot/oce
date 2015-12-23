@@ -14,16 +14,16 @@
 //#1 svv   10.01.00 : porting on DEC 
 //smh#14 17.03.2000 : FRA62479 Clearing of gtool
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <IFSelect_ShareOut.hxx>
-#include <IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/IFSelect_ShareOut.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_HGraph.hxx>
 #include <Interface_GTool.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <IFSelect_ModelCopier.hxx>
+#include <DataExchange/IFSelect/IFSelect_ModelCopier.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Graph.hxx>
@@ -32,22 +32,22 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IFSelect_SelectionIterator.hxx>
-#include <IFSelect_SignCounter.hxx>
-#include <IFSelect_Dispatch.hxx>
-#include <IFSelect_GeneralModifier.hxx>
-#include <IFSelect_Modifier.hxx>
-#include <IFSelect_Transformer.hxx>
-#include <IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectionIterator.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Transformer.hxx>
+#include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IFSelect_SignatureList.hxx>
-#include <IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignatureList.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_WorkSession)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -57,17 +57,17 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_WorkSession)
 IMPLEMENT_DOWNCAST(IFSelect_WorkSession,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
-#include <IFSelect_DispPerOne.hxx>
-#include <IFSelect_DispPerCount.hxx>
-#include <IFSelect_DispGlobal.hxx>
-#include <IFSelect_ShareOutResult.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerOne.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerCount.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispGlobal.hxx>
+#include <DataExchange/IFSelect/IFSelect_ShareOutResult.hxx>
 #include <Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
-#include <IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_Static.hxx>
 
-#include <IFSelect_SignValidity.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignValidity.hxx>
 #include <Interface_Category.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CheckTool.hxx>
@@ -81,24 +81,24 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <Interface_CopyTool.hxx>
 #include <Interface_CopyControl.hxx>
 
-#include <IFSelect_SelectDeduct.hxx>
-#include <IFSelect_SelectExtract.hxx>
-#include <IFSelect_SelectModelRoots.hxx>
-#include <IFSelect_SelectModelEntities.hxx>
-#include <IFSelect_SelectEntityNumber.hxx>
-#include <IFSelect_SelectPointed.hxx>
-#include <IFSelect_SelectControl.hxx>
-#include <IFSelect_SelectDiff.hxx>
-#include <IFSelect_SelectCombine.hxx>
-#include <IFSelect_SelectUnion.hxx>
-#include <IFSelect_SelectIntersection.hxx>
-#include <IFSelect_SelectSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExtract.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectEntityNumber.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectPointed.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectControl.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectDiff.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectCombine.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectUnion.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectIntersection.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
 
-#include <IFSelect_EditForm.hxx>
-#include <IFSelect_Editor.hxx>
-#include <IFSelect_ParamEditor.hxx>
-#include <IFSelect_CheckCounter.hxx>
-#include <IFSelect_TransformStandard.hxx>
+#include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/IFSelect_Editor.hxx>
+#include <DataExchange/IFSelect/IFSelect_ParamEditor.hxx>
+#include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_TransformStandard.hxx>
 
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

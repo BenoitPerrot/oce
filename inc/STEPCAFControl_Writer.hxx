@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDocStd_Document.hxx>
 #include <STEPControl_StepModelType.hxx>

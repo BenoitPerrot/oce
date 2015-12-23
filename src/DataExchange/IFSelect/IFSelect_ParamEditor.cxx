@@ -13,12 +13,12 @@
 
 #include <Interface_TypedValue.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <IFSelect_ParamEditor.hxx>
+#include <DataExchange/IFSelect/IFSelect_ParamEditor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ParamEditor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

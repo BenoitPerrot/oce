@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <XSControl_Controller.hxx>
 #include <Interface_Protocol.hxx>
@@ -27,8 +27,8 @@
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <IFSelect_Functions.hxx>
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_Functions.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 //#include <Viewer/XSDRAW/XSDRAW_Shape.hxx>
 #include <Viewer/XSDRAW/XSDRAW_Vars.hxx>
 #include <XSControl_Functions.hxx>

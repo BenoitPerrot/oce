@@ -11,7 +11,7 @@
 #include <Handle_IGESSelect_SelectLevelNumber.hxx>
 
 #include <Handle_IFSelect_IntParam.hxx>
-#include <IFSelect_SelectExtract.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExtract.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>

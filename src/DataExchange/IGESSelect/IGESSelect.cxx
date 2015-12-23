@@ -14,11 +14,11 @@
 #include <IGESData_IGESEntity.hxx>
 #include <Interface_Graph.hxx>
 #include <IGESSelect.hxx>
-#include <IFSelect_Functions.hxx>
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_Functions.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <IGESSelect_Activator.hxx>
-#include <IFSelect_WorkSession.hxx>
-#include <IFSelect_ShareOut.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_ShareOut.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
 
 #include <IGESData_IGESEntity.hxx>

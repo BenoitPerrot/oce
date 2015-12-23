@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ContextModif.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_RebuildDrawings)
 IMPLEMENT_DOWNCAST(IGESSelect_RebuildDrawings,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildDrawings)
 #include <IGESSelect_ViewSorter.hxx>
-#include <IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESDraw_Drawing.hxx>

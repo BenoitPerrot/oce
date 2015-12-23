@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_Activator.hxx>
 
-#include <IFSelect_Activator.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_Activator.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IFSelect_SessionPilot.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

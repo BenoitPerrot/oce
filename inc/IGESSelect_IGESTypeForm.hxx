@@ -11,7 +11,7 @@
 #include <Handle_IGESSelect_IGESTypeForm.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

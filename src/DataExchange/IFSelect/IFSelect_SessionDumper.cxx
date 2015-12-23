@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SessionDumper.hxx>
-#include <IFSelect_SessionFile.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionDumper.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionFile.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SessionDumper.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionDumper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SessionDumper)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SessionDumper)
 IMPLEMENT_DOWNCAST(IFSelect_SessionDumper,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SessionDumper)
-#include <IFSelect_BasicDumper.hxx>
+#include <DataExchange/IFSelect/IFSelect_BasicDumper.hxx>
 
 
 

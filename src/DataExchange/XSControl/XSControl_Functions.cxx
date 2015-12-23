@@ -15,16 +15,16 @@
 
 #include <XSControl.hxx>
 #include <XSControl_Controller.hxx>
-#include <IFSelect_Profile.hxx>
-#include <IFSelect_Option.hxx>
+#include <DataExchange/IFSelect/IFSelect_Profile.hxx>
+#include <DataExchange/IFSelect/IFSelect_Option.hxx>
 #include <MoniTool_TypedValue.hxx>
 #include <Interface_Static.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
 #include <XSControl_WorkSession.hxx>
-#include <IFSelect_Act.hxx>
-#include <IFSelect_SessionPilot.hxx>
-#include <IFSelect_Functions.hxx>
+#include <DataExchange/IFSelect/IFSelect_Act.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
@@ -33,7 +33,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <Transfer_Binder.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <IFSelect_CheckCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 #include <Transfer_TransferIterator.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 

@@ -11,20 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ShareOut.hxx>
+#include <DataExchange/IFSelect/IFSelect_ShareOut.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IFSelect_AppliedModifiers.hxx>
+#include <DataExchange/IFSelect/IFSelect_AppliedModifiers.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <IFSelect_ShareOutResult.hxx>
-#include <IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/IFSelect_ShareOutResult.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IFSelect_ModelCopier.hxx>
+#include <DataExchange/IFSelect/IFSelect_ModelCopier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ModelCopier)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,11 +34,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_ModelCopier)
 IMPLEMENT_DOWNCAST(IFSelect_ModelCopier,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_ModelCopier)
-#include <IFSelect_Selection.hxx>
-#include <IFSelect_GeneralModifier.hxx>
-#include <IFSelect_Modifier.hxx>
-#include <IFSelect_ContextModif.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Check.hxx>

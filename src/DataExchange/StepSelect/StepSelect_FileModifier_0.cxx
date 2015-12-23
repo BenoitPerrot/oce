@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <StepData_StepWriter.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 
  
 
@@ -33,5 +33,5 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_FileModifier)
 #define IFSelect_FileModifier_hxx <StepSelect_FileModifier.hxx>
 #define Handle_IFSelect_FileModifier Handle_StepSelect_FileModifier
 #define IFSelect_FileModifier_Type_() StepSelect_FileModifier_Type_()
-#include <IFSelect_FileModifier.gxx>
+#include <DataExchange/IFSelect/IFSelect_FileModifier.gxx>
 

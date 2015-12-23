@@ -58,14 +58,14 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Interface_EntityIterator.hxx>
-#include <IFSelect_SignatureList.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignatureList.hxx>
 #include <Interface_MSG.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 
 #include <Transfer_IteratorOfProcessForTransient.hxx>
-#include <IFSelect_CheckCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_SignLabel.hxx>

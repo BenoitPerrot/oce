@@ -16,7 +16,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IFSelect_ListEditor.hxx>
+#include <DataExchange/IFSelect/IFSelect_ListEditor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ListEditor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

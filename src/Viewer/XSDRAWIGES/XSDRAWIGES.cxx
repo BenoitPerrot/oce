@@ -70,11 +70,11 @@
 #include <XSControl_WorkSession.hxx>
 
 // + tplosttrim
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <XSControl.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
-#include <IFSelect_Functions.hxx>
+#include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <IGESControl_Reader.hxx>
 #include <Interface_InterfaceModel.hxx>

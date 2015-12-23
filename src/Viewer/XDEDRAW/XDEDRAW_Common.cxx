@@ -43,7 +43,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <Viewer/XSDRAW/XSDRAW_Vars.hxx>

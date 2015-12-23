@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_HSeqOfSelection.hxx>
+#include <DataExchange/IFSelect/IFSelect_HSeqOfSelection.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IFSelect_Selection.hxx>
-#include <IFSelect_TSeqOfSelection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_TSeqOfSelection.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_HSeqOfSelection)
 
 
 #define Item Handle(IFSelect_Selection)
-#define Item_hxx <IFSelect_Selection.hxx>
+#define Item_hxx <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #define TheSequence IFSelect_TSeqOfSelection
-#define TheSequence_hxx <IFSelect_TSeqOfSelection.hxx>
+#define TheSequence_hxx <DataExchange/IFSelect/IFSelect_TSeqOfSelection.hxx>
 #define TCollection_HSequence IFSelect_HSeqOfSelection
-#define TCollection_HSequence_hxx <IFSelect_HSeqOfSelection.hxx>
+#define TCollection_HSequence_hxx <DataExchange/IFSelect/IFSelect_HSeqOfSelection.hxx>
 #define Handle_TCollection_HSequence Handle_IFSelect_HSeqOfSelection
 #define TCollection_HSequence_Type_() IFSelect_HSeqOfSelection_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

@@ -14,7 +14,7 @@
 #include <XSControl_Controller.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_XSControl_WorkSession.hxx>

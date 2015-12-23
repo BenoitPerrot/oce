@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
-#include <IFSelect_DispPerSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerSignature.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_DispPerSignature)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispPerSignature)
 IMPLEMENT_DOWNCAST(IFSelect_DispPerSignature,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerSignature)
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>

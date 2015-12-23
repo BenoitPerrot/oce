@@ -11,15 +11,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_Editor.hxx>
+#include <DataExchange/IFSelect/IFSelect_Editor.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <IFSelect_ListEditor.hxx>
+#include <DataExchange/IFSelect/IFSelect_ListEditor.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_EditForm)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

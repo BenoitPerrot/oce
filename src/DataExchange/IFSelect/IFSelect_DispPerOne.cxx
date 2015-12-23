@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
-#include <IFSelect_DispPerOne.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerOne.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_DispPerOne)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispPerOne)
 IMPLEMENT_DOWNCAST(IFSelect_DispPerOne,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerOne)
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <DataExchange/IFGraph/IFGraph_SCRoots.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_EntityIterator.hxx>

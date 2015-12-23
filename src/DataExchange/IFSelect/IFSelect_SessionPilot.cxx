@@ -13,12 +13,12 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SignCounter.hxx>
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SessionPilot)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SessionPilot)
 IMPLEMENT_DOWNCAST(IFSelect_SessionPilot,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SessionPilot)
-#include <IFSelect_Activator.hxx>
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Activator.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>

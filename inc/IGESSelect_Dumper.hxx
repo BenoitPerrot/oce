@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_Dumper.hxx>
 
-#include <IFSelect_SessionDumper.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionDumper.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 class IFSelect_SessionFile;

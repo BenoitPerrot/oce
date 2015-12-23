@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SelectRange.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectRange.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectRange)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

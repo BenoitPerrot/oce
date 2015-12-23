@@ -15,8 +15,8 @@
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IFSelect_PrintFail.hxx>
-#include <IFSelect_PrintCount.hxx>
+#include <DataExchange/IFSelect/IFSelect_PrintFail.hxx>
+#include <DataExchange/IFSelect/IFSelect_PrintCount.hxx>
 class XSControl_WorkSession;
 class IGESData_IGESModel;
 

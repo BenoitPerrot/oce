@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SessionFile.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionFile.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_BasicDumper.hxx>
+#include <DataExchange/IFSelect/IFSelect_BasicDumper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_BasicDumper)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,30 +25,30 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_BasicDumper)
 IMPLEMENT_DOWNCAST(IFSelect_BasicDumper,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_BasicDumper)
-#include <IFSelect_IntParam.hxx>
-#include <IFSelect_WorkSession.hxx>
-#include <IFSelect_ShareOut.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_ShareOut.hxx>
 
-#include <IFSelect_SelectModelRoots.hxx>
-#include <IFSelect_SelectModelEntities.hxx>
-#include <IFSelect_SelectEntityNumber.hxx>
-#include <IFSelect_SelectPointed.hxx>
-#include <IFSelect_SelectUnion.hxx>
-#include <IFSelect_SelectIntersection.hxx>
-#include <IFSelect_SelectDiff.hxx>
-#include <IFSelect_SelectUnknownEntities.hxx>
-#include <IFSelect_SelectErrorEntities.hxx>
-#include <IFSelect_SelectIncorrectEntities.hxx>
-#include <IFSelect_SelectRoots.hxx>
-#include <IFSelect_SelectRootComps.hxx>
-#include <IFSelect_SelectRange.hxx>
-//#include <IFSelect_SelectTextType.hxx>
-#include <IFSelect_SelectShared.hxx>
-#include <IFSelect_SelectSharing.hxx>
-#include <IFSelect_DispPerOne.hxx>
-#include <IFSelect_DispGlobal.hxx>
-#include <IFSelect_DispPerCount.hxx>
-#include <IFSelect_TransformStandard.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectEntityNumber.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectPointed.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectUnion.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectIntersection.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectDiff.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectUnknownEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectErrorEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectIncorrectEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectRootComps.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectRange.hxx>
+//#include <DataExchange/IFSelect/IFSelect_SelectTextType.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectShared.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSharing.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerOne.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispGlobal.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerCount.hxx>
+#include <DataExchange/IFSelect/IFSelect_TransformStandard.hxx>
 
 #include <Interface_Macros.hxx>
 

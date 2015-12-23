@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Interface_Protocol.hxx>
-#include <IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
@@ -36,42 +36,42 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XSControl_Controller)
 IMPLEMENT_DOWNCAST(XSControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
-#include <IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
-#include <IFSelect_Option.hxx>
+#include <DataExchange/IFSelect/IFSelect_Option.hxx>
 
-#include <IFSelect_SelectModelEntities.hxx>
-#include <IFSelect_SelectModelRoots.hxx>
-#include <IFSelect_SelectPointed.hxx>
-#include <IFSelect_SelectSharing.hxx>
-#include <IFSelect_SelectShared.hxx>
-#include <IFSelect_GraphCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectPointed.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSharing.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectShared.hxx>
+#include <DataExchange/IFSelect/IFSelect_GraphCounter.hxx>
 #include <XSControl_SelectForTransfer.hxx>
 #include <XSControl_ConnectedShapes.hxx>
 #include <XSControl_SignTransferStatus.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <XSControl_WorkSession.hxx>
 
-#include <IFSelect_SignType.hxx>
-#include <IFSelect_SignCounter.hxx>
-#include <IFSelect_SignCategory.hxx>
-#include <IFSelect_SignValidity.hxx>
-#include <IFSelect_SignAncestor.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignType.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCategory.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignValidity.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignAncestor.hxx>
 
-#include <IFSelect_DispPerOne.hxx>
-#include <IFSelect_DispPerCount.hxx>
-#include <IFSelect_DispPerFiles.hxx>
-#include <IFSelect_DispPerSignature.hxx>
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerOne.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerCount.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerFiles.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 
 //  ParamEditor
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_Static.hxx>
-#include <IFSelect_ParamEditor.hxx>
-#include <IFSelect_EditForm.hxx>
-#include <IFSelect_SelectModelRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_ParamEditor.hxx>
+#include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
 
 //  Transferts
 #include <Transfer_Binder.hxx>

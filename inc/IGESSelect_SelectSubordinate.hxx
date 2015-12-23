@@ -11,7 +11,7 @@
 #include <Handle_IGESSelect_SelectSubordinate.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IFSelect_SelectExtract.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExtract.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

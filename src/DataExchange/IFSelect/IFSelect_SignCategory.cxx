@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IFSelect_SignCategory.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCategory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignCategory)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SequenceNodeOfSequenceOfAppliedModifiers.hxx>
+#include <DataExchange/IFSelect/IFSelect_SequenceNodeOfSequenceOfAppliedModifiers.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IFSelect_AppliedModifiers.hxx>
-#include <IFSelect_SequenceOfAppliedModifiers.hxx>
+#include <DataExchange/IFSelect/IFSelect_AppliedModifiers.hxx>
+#include <DataExchange/IFSelect/IFSelect_SequenceOfAppliedModifiers.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SequenceNodeOfSequenceOfAppliedModifiers)
 
 
 #define SeqItem Handle(IFSelect_AppliedModifiers)
-#define SeqItem_hxx <IFSelect_AppliedModifiers.hxx>
+#define SeqItem_hxx <DataExchange/IFSelect/IFSelect_AppliedModifiers.hxx>
 #define TCollection_SequenceNode IFSelect_SequenceNodeOfSequenceOfAppliedModifiers
-#define TCollection_SequenceNode_hxx <IFSelect_SequenceNodeOfSequenceOfAppliedModifiers.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/IFSelect/IFSelect_SequenceNodeOfSequenceOfAppliedModifiers.hxx>
 #define Handle_TCollection_SequenceNode Handle_IFSelect_SequenceNodeOfSequenceOfAppliedModifiers
 #define TCollection_SequenceNode_Type_() IFSelect_SequenceNodeOfSequenceOfAppliedModifiers_Type_()
 #define TCollection_Sequence IFSelect_SequenceOfAppliedModifiers
-#define TCollection_Sequence_hxx <IFSelect_SequenceOfAppliedModifiers.hxx>
+#define TCollection_Sequence_hxx <DataExchange/IFSelect/IFSelect_SequenceOfAppliedModifiers.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

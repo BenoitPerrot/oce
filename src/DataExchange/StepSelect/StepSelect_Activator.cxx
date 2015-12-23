@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <StepSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_Activator)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_Activator)
 #include <Interface_Macros.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <Interface_Macros.hxx>
 #include <StepData_UndefinedEntity.hxx>
 #include <StepData_Simple.hxx>

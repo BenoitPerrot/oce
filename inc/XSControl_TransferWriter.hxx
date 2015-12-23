@@ -16,7 +16,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 class XSControl_Controller;
 class Transfer_FinderProcess;

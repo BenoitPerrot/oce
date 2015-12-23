@@ -11,25 +11,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IFSelect_SessionFile.hxx>
-#include <IFSelect_SessionDumper.hxx>
-#include <IFSelect_BasicDumper.hxx>
-#include <IFSelect_IntParam.hxx>
-#include <IFSelect_Selection.hxx>
-#include <IFSelect_SelectExtract.hxx>
-#include <IFSelect_SelectDeduct.hxx>
-#include <IFSelect_SelectControl.hxx>
-#include <IFSelect_SelectCombine.hxx>
-#include <IFSelect_SelectAnyType.hxx>
-#include <IFSelect_SelectAnyList.hxx>
-#include <IFSelect_Dispatch.hxx>
-#include <IFSelect_Modifier.hxx>
-#include <IFSelect_Transformer.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionFile.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionDumper.hxx>
+#include <DataExchange/IFSelect/IFSelect_BasicDumper.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExtract.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectControl.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectCombine.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectAnyType.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectAnyList.hxx>
+#include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Transformer.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 

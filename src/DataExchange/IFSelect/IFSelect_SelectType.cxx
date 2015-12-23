@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SelectType.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectType.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectType)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_Selection.hxx>
-#include <IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_GeneralModifier)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

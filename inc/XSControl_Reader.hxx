@@ -15,12 +15,12 @@
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IFSelect_PrintCount.hxx>
+#include <DataExchange/IFSelect/IFSelect_PrintCount.hxx>
 class XSControl_WorkSession;
 class Interface_InterfaceModel;
 class TColStd_HSequenceOfTransient;

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_FileModifier.hxx>
 
-#include <IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 class IGESData_IGESWriter;
 class IFSelect_ContextWrite;
 

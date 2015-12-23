@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IFSelect_SignatureList.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignatureList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignatureList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

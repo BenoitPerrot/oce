@@ -23,7 +23,7 @@
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <Interface_ShareFlags.hxx>
-#include <IFSelect_Functions.hxx>
+#include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>

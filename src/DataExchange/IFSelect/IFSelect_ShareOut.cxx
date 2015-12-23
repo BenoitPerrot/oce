@@ -15,11 +15,11 @@
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IFSelect_Dispatch.hxx>
-#include <IFSelect_GeneralModifier.hxx>
-#include <IFSelect_Modifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_ShareOut.hxx>
+#include <DataExchange/IFSelect/IFSelect_ShareOut.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ShareOut)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

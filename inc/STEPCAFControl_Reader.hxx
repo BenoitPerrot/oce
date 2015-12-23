@@ -14,7 +14,7 @@
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDocStd_Document.hxx>

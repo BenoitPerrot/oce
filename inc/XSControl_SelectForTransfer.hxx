@@ -12,7 +12,7 @@
 
 #include <Handle_XSControl_TransferReader.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
-#include <IFSelect_SelectExtract.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExtract.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>

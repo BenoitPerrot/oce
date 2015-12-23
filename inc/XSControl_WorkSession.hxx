@@ -16,7 +16,7 @@
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_XSControl_Vars.hxx>
-#include <IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Message_Messenger.hxx>
@@ -24,7 +24,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 class XSControl_Controller;
 class XSControl_TransferReader;
 class XSControl_TransferWriter;

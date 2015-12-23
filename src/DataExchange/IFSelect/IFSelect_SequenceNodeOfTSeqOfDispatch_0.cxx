@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IFSelect_Dispatch.hxx>
-#include <IFSelect_TSeqOfDispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_TSeqOfDispatch.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SequenceNodeOfTSeqOfDispatch)
 
 
 #define SeqItem Handle(IFSelect_Dispatch)
-#define SeqItem_hxx <IFSelect_Dispatch.hxx>
+#define SeqItem_hxx <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #define TCollection_SequenceNode IFSelect_SequenceNodeOfTSeqOfDispatch
-#define TCollection_SequenceNode_hxx <IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/IFSelect/IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
 #define Handle_TCollection_SequenceNode Handle_IFSelect_SequenceNodeOfTSeqOfDispatch
 #define TCollection_SequenceNode_Type_() IFSelect_SequenceNodeOfTSeqOfDispatch_Type_()
 #define TCollection_Sequence IFSelect_TSeqOfDispatch
-#define TCollection_Sequence_hxx <IFSelect_TSeqOfDispatch.hxx>
+#define TCollection_Sequence_hxx <DataExchange/IFSelect/IFSelect_TSeqOfDispatch.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

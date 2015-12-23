@@ -14,12 +14,12 @@
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_WorkLibrary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

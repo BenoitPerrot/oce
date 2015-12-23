@@ -14,7 +14,7 @@
 #include <MoniTool_SignText.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IFSelect_CheckCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_CheckCounter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

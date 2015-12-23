@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 #include <Interface_HGraph.hxx>
 #include <Interface_Graph.hxx>
 
-#include <IFSelect_Profile.hxx>
+#include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_ResultFromModel.hxx>

@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_DispPerDrawing)
 IMPLEMENT_DOWNCAST(IGESSelect_DispPerDrawing,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_DispPerDrawing)
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <IGESData_IGESModel.hxx>
-#include <IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <Interface_Macros.hxx>
 
 

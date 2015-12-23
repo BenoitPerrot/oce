@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(STEPControl_Controller)
 IMPLEMENT_DOWNCAST(STEPControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <StepSelect_WorkLibrary.hxx>
-#include <IFSelect_Option.hxx>
-#include <IFSelect_Profile.hxx>
+#include <DataExchange/IFSelect/IFSelect_Option.hxx>
+#include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 
 //#include <StepAP214.hxx>
 #include <RWStepAP214.hxx>
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <StepData_FileProtocol.hxx>
 #include <DataExchange/HeaderSection/HeaderSection.hxx>
 #include <RWHeaderSection.hxx>
-#include <IFSelect_SignCounter.hxx>
-#include <IFSelect_SelectSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
 #include <StepSelect_StepType.hxx>
 
 //  Pour NewModel et Write : definition de produit (temporaire ...)
@@ -55,13 +55,13 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <STEPEdit_EditSDR.hxx>
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_EditHeader.hxx>
-#include <IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>
-#include <IFSelect_SignAncestor.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignAncestor.hxx>
 #include <STEPSelections_SelectFaces.hxx>
 #include <STEPSelections_SelectDerived.hxx>
 #include <STEPSelections_SelectGSCurves.hxx>
@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <STEPSelections_SelectAssembly.hxx>
 #include <XSAlgo.hxx>
 #include <STEPSelections_SelectForTransfer.hxx>
-#include <IFSelect_SelectModelRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
 
 
 STEPControl_Controller::STEPControl_Controller ()

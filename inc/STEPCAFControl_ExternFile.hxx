@@ -11,7 +11,7 @@
 #include <Handle_STEPCAFControl_ExternFile.hxx>
 
 #include <Handle_XSControl_WorkSession.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

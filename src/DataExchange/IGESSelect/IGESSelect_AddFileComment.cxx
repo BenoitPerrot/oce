@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_AddFileComment.hxx>

@@ -13,15 +13,15 @@
 
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
-#include <IFSelect_AppliedModifiers.hxx>
+#include <DataExchange/IFSelect/IFSelect_AppliedModifiers.hxx>
 #include <Interface_HGraph.hxx>
-#include <IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 

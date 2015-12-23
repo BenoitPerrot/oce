@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XSControl_Controller.hxx>
 
-#include <IFSelect_Profile.hxx>
+#include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_IFSelect_WorkLibrary.hxx>
 #include <Handle_Interface_Protocol.hxx>
@@ -29,7 +29,7 @@
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 class IFSelect_WorkLibrary;
 class Interface_Protocol;

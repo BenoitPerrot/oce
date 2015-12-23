@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Interface_CopyControl.hxx>
-#include <IFSelect_Modifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_CheckIterator.hxx>
@@ -21,7 +21,7 @@
 #include <Interface_CopyTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_TransformStandard.hxx>
+#include <DataExchange/IFSelect/IFSelect_TransformStandard.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_TransformStandard)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_TransformStandard)
 IMPLEMENT_DOWNCAST(IFSelect_TransformStandard,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_TransformStandard)
-#include <IFSelect_Selection.hxx>
-#include <IFSelect_ContextModif.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_EntityIterator.hxx>

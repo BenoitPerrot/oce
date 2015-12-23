@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <IFSelect_SessionPilot.hxx>
-#include <IFSelect_Activator.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_Activator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_Activator)
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
-#include <IFSelect_Profile.hxx>
-#include <IFSelect_Option.hxx>
+#include <DataExchange/IFSelect/IFSelect_Profile.hxx>
+#include <DataExchange/IFSelect/IFSelect_Option.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Interface_Macros.hxx>

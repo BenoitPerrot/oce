@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <IGESData_IGESWriter.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 
  
 
@@ -33,5 +33,5 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_FileModifier)
 #define IFSelect_FileModifier_hxx <IGESSelect_FileModifier.hxx>
 #define Handle_IFSelect_FileModifier Handle_IGESSelect_FileModifier
 #define IFSelect_FileModifier_Type_() IGESSelect_FileModifier_Type_()
-#include <IFSelect_FileModifier.gxx>
+#include <DataExchange/IFSelect/IFSelect_FileModifier.gxx>
 

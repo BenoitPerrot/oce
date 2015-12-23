@@ -49,20 +49,20 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <IGESSelect_SelectPCurves.hxx>
 #include <IGESSelect_SelectVisibleStatus.hxx>
 #include <IGESSelect_SelectSubordinate.hxx>
-#include <IFSelect_SelectType.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectType.hxx>
 #include <IGESBasic_SubfigureDef.hxx>
 #include <IGESSelect_IGESTypeForm.hxx>
 #include <IGESSelect_SignStatus.hxx>
 #include <IGESSelect_SignLevelNumber.hxx>
 #include <IGESSelect_SignColor.hxx>
 #include <IGESSelect_IGESName.hxx>
-#include <IFSelect_SignType.hxx>
-#include <IFSelect_SignMultiple.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignType.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignMultiple.hxx>
 #include <IGESSelect_CounterOfLevelNumber.hxx>
-#include <IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
 #include <IGESSelect_EditHeader.hxx>
 #include <IGESSelect_EditDirPart.hxx>
-#include <IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <IGESSelect_RemoveCurves.hxx>
 #include <IGESSelect_SetLabel.hxx>
 
@@ -74,9 +74,9 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <XSAlgo.hxx>
 #include <Interface_Macros.hxx>
 #include <IGESToBRep.hxx>
-#include <IFSelect_SelectModelEntities.hxx>
-#include <IFSelect_SelectModelEntities.hxx>
-#include <IFSelect_SelectModelRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
 #include <XSControl_SelectForTransfer.hxx>
 
 //szv#4:S4163:12Mar99 never referenced

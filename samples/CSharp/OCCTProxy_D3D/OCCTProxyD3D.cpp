@@ -35,7 +35,7 @@
 #include <IGESControl_Reader.hxx>
 #include <IGESControl_Controller.hxx>
 #include <IGESControl_Writer.hxx>
-#include <IFSelect_ReturnStatus.hxx>
+#include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Interface_Static.hxx>
 //step I/E
 #include <STEPControl_Reader.hxx>

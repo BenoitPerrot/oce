@@ -11,7 +11,7 @@
 #include <Handle_IGESSelect_DispPerDrawing.hxx>
 
 #include <Handle_IGESSelect_ViewSorter.hxx>
-#include <IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESSelect_ViewSorter;
 class TCollection_AsciiString;

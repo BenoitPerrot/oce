@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_HSeqOfSelection.hxx>
+#include <DataExchange/IFSelect/IFSelect_HSeqOfSelection.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <IFSelect_Selection.hxx>
-#include <IFSelect_TSeqOfSelection.hxx>
-#include <IFSelect_SelectionIterator.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_TSeqOfSelection.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectionIterator.hxx>
 
 
 IFSelect_SelectionIterator::IFSelect_SelectionIterator ()

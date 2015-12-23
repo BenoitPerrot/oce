@@ -22,9 +22,9 @@
 #include <XSControl_Controller.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <XSControl_Vars.hxx>
-#include <IFSelect_Act.hxx>
-#include <IFSelect_SessionPilot.hxx>
-#include <IFSelect_Functions.hxx>
+#include <DataExchange/IFSelect/IFSelect_Act.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -58,7 +58,7 @@
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
-#include <IFSelect_CheckCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>

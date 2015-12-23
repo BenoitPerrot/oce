@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <IGESSelect_FloatFormat.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -51,7 +51,7 @@
 
 #include <stdio.h>
 #include <Interface_Static.hxx>
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <STEPSelections_Counter.hxx>
 #include <STEPSelections_AssemblyExplorer.hxx>
 

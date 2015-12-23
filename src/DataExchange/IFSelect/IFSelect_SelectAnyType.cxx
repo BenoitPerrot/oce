@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IFSelect_SelectAnyType.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectAnyType.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectAnyType)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

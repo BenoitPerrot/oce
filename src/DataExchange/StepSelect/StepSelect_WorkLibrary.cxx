@@ -13,7 +13,7 @@
 
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Interface_ParamType.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_UndefinedContent.hxx>

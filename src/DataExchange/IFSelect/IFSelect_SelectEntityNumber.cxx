@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SelectEntityNumber.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectEntityNumber.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectEntityNumber)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

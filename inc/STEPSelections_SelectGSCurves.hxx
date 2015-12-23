@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPSelections_SelectGSCurves.hxx>
 
-#include <IFSelect_SelectExplore.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExplore.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>

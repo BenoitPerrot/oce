@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_ModelModifier.hxx>
 
-#include <IFSelect_Modifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

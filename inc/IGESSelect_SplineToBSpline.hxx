@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_CopyControl.hxx>
-#include <IFSelect_Transformer.hxx>
+#include <DataExchange/IFSelect/IFSelect_Transformer.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Standard_Transient.hxx>

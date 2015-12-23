@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SessionFile.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionFile.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_Dumper.hxx>
@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_Dumper)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 
 #include <Interface_Macros.hxx>
 #include <stdio.h>

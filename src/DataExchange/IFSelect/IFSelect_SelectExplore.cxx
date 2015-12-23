@@ -15,7 +15,7 @@
 #include <Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SelectExplore.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExplore.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectExplore)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

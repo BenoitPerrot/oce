@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Graph.hxx>
-#include <IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <IGESSelect_ViewSorter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_ViewSorter)

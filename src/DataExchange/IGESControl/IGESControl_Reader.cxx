@@ -21,7 +21,7 @@
 #include <XSControl_TransferReader.hxx>
 #include <Interface_ShareFlags.hxx>
 
-#include <IFSelect_Functions.hxx>
+#include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <IGESData_IGESModel.hxx>
 
@@ -36,7 +36,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
-#include <IFSelect_CheckCounter.hxx>//Transfer_Iterator.hxx>
+#include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>//Transfer_Iterator.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>

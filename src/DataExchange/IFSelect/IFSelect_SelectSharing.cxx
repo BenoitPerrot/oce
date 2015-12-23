@@ -14,7 +14,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SelectSharing.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSharing.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectSharing)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

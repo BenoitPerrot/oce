@@ -15,7 +15,7 @@
 
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
-#include <IFSelect_ContextWrite.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <IGESData_FileProtocol.hxx>
 #include <IGESFile_Read.hxx>
 #include <IGESSelect_Dumper.hxx>
-#include <IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <IGESSelect_FileModifier.hxx>
 

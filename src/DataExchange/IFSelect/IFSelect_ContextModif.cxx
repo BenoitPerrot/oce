@@ -19,11 +19,11 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <IFSelect_ContextModif.hxx>
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

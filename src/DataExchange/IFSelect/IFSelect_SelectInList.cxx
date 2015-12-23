@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IFSelect_SelectInList.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectInList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectInList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

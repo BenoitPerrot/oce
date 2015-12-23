@@ -12,7 +12,7 @@
 
 #include <Handle_StepData_Protocol.hxx>
 #include <StepData_WriterLib.hxx>
-#include <IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>

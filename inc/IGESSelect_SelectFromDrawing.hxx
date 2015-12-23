@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_SelectFromDrawing.hxx>
 
-#include <IFSelect_SelectDeduct.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
 class Interface_InterfaceError;
 class Interface_EntityIterator;
 class Interface_Graph;

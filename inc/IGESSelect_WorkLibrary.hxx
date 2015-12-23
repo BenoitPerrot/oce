@@ -11,7 +11,7 @@
 #include <Handle_IGESSelect_WorkLibrary.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_SelectionIterator.hxx>
-#include <IFSelect_SelectBase.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectionIterator.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectBase.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectBase)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

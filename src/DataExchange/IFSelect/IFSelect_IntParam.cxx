@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_IntParam)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

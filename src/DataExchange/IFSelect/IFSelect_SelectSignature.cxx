@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_Signature.hxx>
-#include <IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IFSelect_SelectSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectSignature)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

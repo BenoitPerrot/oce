@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <IGESSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_Activator)
@@ -28,24 +28,24 @@ IMPLEMENT_DOWNCAST(IGESSelect_Activator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_Activator)
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Macros.hxx>
-#include <IFSelect_WorkSession.hxx>
-#include <IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 
 #include <IGESData_IGESModel.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_Protocol.hxx>
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <IGESSelect_IGESTypeForm.hxx>
 
 #include <IGESSelect_ViewSorter.hxx>
-#include <IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 
 #include <IGESSelect_DispPerSingleView.hxx>
 #include <IGESSelect_DispPerDrawing.hxx>
 
-#include <IFSelect_SelectSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
 #include <IGESSelect_SelectVisibleStatus.hxx>
 #include <IGESSelect_SelectLevelNumber.hxx>
 #include <IGESSelect_SelectName.hxx>

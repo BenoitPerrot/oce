@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_ContextModif.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_ModifReorder.hxx>
+#include <DataExchange/IFSelect/IFSelect_ModifReorder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ModifReorder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

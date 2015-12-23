@@ -13,8 +13,8 @@
 
 #include <Interface_Protocol.hxx>
 #include <StepData_StepModel.hxx>
-#include <IFSelect_Signature.hxx>
-#include <IFSelect_SelectSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
 #include <STEPEdit.hxx>
 //#include <StepData_FileProtocol.hxx>
 #include <StepAP214.hxx>
@@ -23,9 +23,9 @@
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 
 #include <StepSelect_StepType.hxx>
-#include <IFSelect_SelectSignature.hxx>
-#include <IFSelect_SelectModelEntities.hxx>
-#include <IFSelect_SelectModelRoots.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
 
 
 Handle(Interface_Protocol)  STEPEdit::Protocol ()

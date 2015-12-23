@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IFSelect_SessionPilot.hxx>
-#include <IFSelect_Act.hxx>
+#include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/IFSelect_Act.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_Act)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

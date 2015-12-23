@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IFSelect_SignAncestor.hxx>
+#include <DataExchange/IFSelect/IFSelect_SignAncestor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignAncestor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

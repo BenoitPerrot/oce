@@ -12,14 +12,14 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <IFSelect_SelectionIterator.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectionIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
-#include <IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_Dispatch)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

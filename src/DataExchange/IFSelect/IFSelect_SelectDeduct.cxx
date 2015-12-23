@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_Selection.hxx>
-#include <IFSelect_SelectPointed.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectPointed.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
-#include <IFSelect_SelectionIterator.hxx>
-#include <IFSelect_SelectDeduct.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectionIterator.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SelectDeduct)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

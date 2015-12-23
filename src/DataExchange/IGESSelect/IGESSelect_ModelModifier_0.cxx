@@ -9,7 +9,7 @@
 
 #include <IGESData_IGESModel.hxx>
 #include <IGESData_Protocol.hxx>
-#include <IFSelect_ContextModif.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_CopyTool.hxx>
@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_ModelModifier)
 #define IFSelect_ModelModifier_hxx <IGESSelect_ModelModifier.hxx>
 #define Handle_IFSelect_ModelModifier Handle_IGESSelect_ModelModifier
 #define IFSelect_ModelModifier_Type_() IGESSelect_ModelModifier_Type_()
-#include <IFSelect_ModelModifier.gxx>
+#include <DataExchange/IFSelect/IFSelect_ModelModifier.gxx>
 

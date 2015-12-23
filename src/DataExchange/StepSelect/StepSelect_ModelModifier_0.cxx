@@ -9,7 +9,7 @@
 
 #include <StepData_StepModel.hxx>
 #include <StepData_Protocol.hxx>
-#include <IFSelect_ContextModif.hxx>
+#include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
 #include <Interface_CopyTool.hxx>
@@ -42,5 +42,5 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_ModelModifier)
 #define IFSelect_ModelModifier_hxx <StepSelect_ModelModifier.hxx>
 #define Handle_IFSelect_ModelModifier Handle_StepSelect_ModelModifier
 #define IFSelect_ModelModifier_Type_() StepSelect_ModelModifier_Type_()
-#include <IFSelect_ModelModifier.gxx>
+#include <DataExchange/IFSelect/IFSelect_ModelModifier.gxx>
 

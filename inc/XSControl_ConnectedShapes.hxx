@@ -11,7 +11,7 @@
 #include <Handle_XSControl_ConnectedShapes.hxx>
 
 #include <Handle_XSControl_TransferReader.hxx>
-#include <IFSelect_SelectExplore.hxx>
+#include <DataExchange/IFSelect/IFSelect_SelectExplore.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>

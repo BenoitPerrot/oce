@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
-#include <IFSelect_DispPerCount.hxx>
+#include <DataExchange/IFSelect/IFSelect_DispPerCount.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_DispPerCount)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispPerCount)
 IMPLEMENT_DOWNCAST(IFSelect_DispPerCount,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerCount)
-#include <IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <DataExchange/IFGraph/IFGraph_SCRoots.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_EntityIterator.hxx>
