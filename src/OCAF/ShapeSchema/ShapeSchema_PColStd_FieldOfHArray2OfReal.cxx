@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PColStd_FieldOfHArray2OfReal_HeaderFile
-#include <ShapeSchema_PColStd_FieldOfHArray2OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_FieldOfHArray2OfReal.hxx>
 #endif
 #ifndef _PColStd_FieldOfHArray2OfReal_HeaderFile
 #include <OCAF/PColStd/PColStd_FieldOfHArray2OfReal.hxx>

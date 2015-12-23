@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_ToroidalSurface_HeaderFile
-#include <ShapeSchema_PGeom_ToroidalSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_ToroidalSurface.hxx>
 #endif
 #ifndef _PGeom_ToroidalSurface_HeaderFile
 #include <OCAF/PGeom/PGeom_ToroidalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax3_HeaderFile
-#include <ShapeSchema_gp_Ax3.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Ax3.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

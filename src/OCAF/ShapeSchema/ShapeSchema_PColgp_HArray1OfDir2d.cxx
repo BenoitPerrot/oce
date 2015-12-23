@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PColgp_HArray1OfDir2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfDir2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfDir2d.hxx>
 #endif
 #ifndef _PColgp_HArray1OfDir2d_HeaderFile
 #include <OCAF/PColgp/PColgp_HArray1OfDir2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_FieldOfHArray1OfDir2d_HeaderFile
-#include <ShapeSchema_PColgp_FieldOfHArray1OfDir2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_FieldOfHArray1OfDir2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

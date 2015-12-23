@@ -26,7 +26,7 @@
 #include <Foundation/Storage/Storage_HArrayOfSchema.hxx>
 #include <StdSchema.hxx>
 #include <StdLSchema.hxx>
-#include <ShapeSchema.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema.hxx>
 
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 

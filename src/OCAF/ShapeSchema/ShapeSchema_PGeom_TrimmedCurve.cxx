@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_TrimmedCurve_HeaderFile
-#include <ShapeSchema_PGeom_TrimmedCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_TrimmedCurve.hxx>
 #endif
 #ifndef _PGeom_TrimmedCurve_HeaderFile
 #include <OCAF/PGeom/PGeom_TrimmedCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
-#include <ShapeSchema_PGeom_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Curve.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

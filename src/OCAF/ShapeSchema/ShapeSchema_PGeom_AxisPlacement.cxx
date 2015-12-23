@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_AxisPlacement_HeaderFile
-#include <ShapeSchema_PGeom_AxisPlacement.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_AxisPlacement.hxx>
 #endif
 #ifndef _PGeom_AxisPlacement_HeaderFile
 #include <OCAF/PGeom/PGeom_AxisPlacement.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax1_HeaderFile
-#include <ShapeSchema_gp_Ax1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Ax1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

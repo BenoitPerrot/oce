@@ -1969,7 +1969,7 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <OCAF/MgtBRep/MgtBRep.hxx>
 #include <Foundation/FSD/FSD_File.hxx>
-#include <ShapeSchema.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <Foundation/Storage/Storage_Root.hxx>

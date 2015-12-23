@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
-#include <ShapeSchema_PGeom_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Curve.hxx>
 #endif
 #ifndef _PGeom_Curve_HeaderFile
 #include <OCAF/PGeom/PGeom_Curve.hxx>

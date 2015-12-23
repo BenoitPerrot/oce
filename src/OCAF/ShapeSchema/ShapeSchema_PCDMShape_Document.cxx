@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PCDMShape_Document_HeaderFile
-#include <ShapeSchema_PCDMShape_Document.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCDMShape_Document.hxx>
 #endif
 #ifndef _PCDMShape_Document_HeaderFile
 #include <OCAF/PCDMShape/PCDMShape_Document.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Shape1_HeaderFile
-#include <ShapeSchema_PTopoDS_Shape1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Shape1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

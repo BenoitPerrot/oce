@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 #ifndef _PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
 #include <OCAF/PColgp/PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Vec_HeaderFile
-#include <ShapeSchema_gp_Vec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Vec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

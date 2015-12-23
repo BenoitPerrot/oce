@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PPoly_PolygonOnTriangulation_HeaderFile
-#include <ShapeSchema_PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _PPoly_PolygonOnTriangulation_HeaderFile
 #include <OCAF/PPoly/PPoly_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfInteger_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfReal_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

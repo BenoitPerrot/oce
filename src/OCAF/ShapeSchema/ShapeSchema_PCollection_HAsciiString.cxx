@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
-#include <ShapeSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _PCollection_HAsciiString_HeaderFile
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #endif
 #ifndef _ShapeSchema_DBC_VArrayOfCharacter_HeaderFile
-#include <ShapeSchema_DBC_VArrayOfCharacter.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_DBC_VArrayOfCharacter.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

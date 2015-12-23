@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_SphericalSurface_HeaderFile
-#include <ShapeSchema_PGeom_SphericalSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_SphericalSurface.hxx>
 #endif
 #ifndef _PGeom_SphericalSurface_HeaderFile
 #include <OCAF/PGeom/PGeom_SphericalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax3_HeaderFile
-#include <ShapeSchema_gp_Ax3.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Ax3.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

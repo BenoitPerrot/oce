@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PBRep_PointOnSurface_HeaderFile
-#include <ShapeSchema_PBRep_PointOnSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointOnSurface.hxx>
 #endif
 #ifndef _PBRep_PointOnSurface_HeaderFile
 #include <OCAF/PBRep/PBRep_PointOnSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
-#include <ShapeSchema_PTopLoc_Location.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PointRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_PointRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointRepresentation.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Surface_HeaderFile
-#include <ShapeSchema_PGeom_Surface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Surface.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

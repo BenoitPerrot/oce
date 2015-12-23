@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PPoly_Triangulation_HeaderFile
-#include <ShapeSchema_PPoly_Triangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Triangulation.hxx>
 #endif
 #ifndef _PPoly_Triangulation_HeaderFile
 #include <OCAF/PPoly/PPoly_Triangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_HArray1OfTriangle_HeaderFile
-#include <ShapeSchema_PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_HArray1OfTriangle.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

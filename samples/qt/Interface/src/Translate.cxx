@@ -22,7 +22,7 @@
 
 #include <Foundation/FSD/FSD_File.hxx>
 
-#include <ShapeSchema.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <Foundation/Storage/Storage_Root.hxx>
 #include <Foundation/Storage/Storage_HSeqOfRoot.hxx>

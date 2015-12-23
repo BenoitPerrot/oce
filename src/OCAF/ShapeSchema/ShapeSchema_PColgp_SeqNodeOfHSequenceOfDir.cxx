@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #endif
 #ifndef _PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
 #include <OCAF/PColgp/PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Dir_HeaderFile
-#include <ShapeSchema_gp_Dir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Dir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

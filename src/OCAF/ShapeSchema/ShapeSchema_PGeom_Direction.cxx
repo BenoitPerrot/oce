@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_Direction_HeaderFile
-#include <ShapeSchema_PGeom_Direction.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Direction.hxx>
 #endif
 #ifndef _PGeom_Direction_HeaderFile
 #include <OCAF/PGeom/PGeom_Direction.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Vec_HeaderFile
-#include <ShapeSchema_gp_Vec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Vec.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

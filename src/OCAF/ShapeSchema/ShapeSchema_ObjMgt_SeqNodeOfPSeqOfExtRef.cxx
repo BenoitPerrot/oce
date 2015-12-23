@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
-#include <ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 #ifndef _ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
 #include <OCAF/ObjMgt/ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
-#include <ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_ExternRef_HeaderFile
-#include <ShapeSchema_ObjMgt_ExternRef.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_ExternRef.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
-#include <ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

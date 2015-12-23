@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PGeom_BoundedCurve_HeaderFile
-#include <ShapeSchema_PGeom_BoundedCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BoundedCurve.hxx>
 #endif
 #ifndef _PGeom_BoundedCurve_HeaderFile
 #include <OCAF/PGeom/PGeom_BoundedCurve.hxx>

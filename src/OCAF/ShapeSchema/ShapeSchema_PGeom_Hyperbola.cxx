@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_Hyperbola_HeaderFile
-#include <ShapeSchema_PGeom_Hyperbola.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Hyperbola.hxx>
 #endif
 #ifndef _PGeom_Hyperbola_HeaderFile
 #include <OCAF/PGeom/PGeom_Hyperbola.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax2_HeaderFile
-#include <ShapeSchema_gp_Ax2.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Ax2.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

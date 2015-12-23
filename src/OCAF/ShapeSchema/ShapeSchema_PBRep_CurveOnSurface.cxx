@@ -1,26 +1,26 @@
 #ifndef _ShapeSchema_PBRep_CurveOnSurface_HeaderFile
-#include <ShapeSchema_PBRep_CurveOnSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveOnSurface.hxx>
 #endif
 #ifndef _PBRep_CurveOnSurface_HeaderFile
 #include <OCAF/PBRep/PBRep_CurveOnSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
-#include <ShapeSchema_PTopLoc_Location.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_CurveRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveRepresentation.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Curve_HeaderFile
-#include <ShapeSchema_PGeom2d_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Curve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Surface_HeaderFile
-#include <ShapeSchema_PGeom_Surface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Surface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt2d_HeaderFile
-#include <ShapeSchema_gp_Pnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Pnt2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt2d_HeaderFile
-#include <ShapeSchema_gp_Pnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Pnt2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

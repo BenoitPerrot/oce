@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PTopoDS_FieldOfHArray1OfHShape_HeaderFile
-#include <ShapeSchema_PTopoDS_FieldOfHArray1OfHShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_FieldOfHArray1OfHShape.hxx>
 #endif
 #ifndef _PTopoDS_FieldOfHArray1OfHShape_HeaderFile
 #include <OCAF/PTopoDS/PTopoDS_FieldOfHArray1OfHShape.hxx>

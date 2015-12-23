@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PGeom_Geometry_HeaderFile
-#include <ShapeSchema_PGeom_Geometry.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Geometry.hxx>
 #endif
 #ifndef _PGeom_Geometry_HeaderFile
 #include <OCAF/PGeom/PGeom_Geometry.hxx>

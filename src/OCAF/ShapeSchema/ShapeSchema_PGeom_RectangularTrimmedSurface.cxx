@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_RectangularTrimmedSurface_HeaderFile
-#include <ShapeSchema_PGeom_RectangularTrimmedSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_RectangularTrimmedSurface.hxx>
 #endif
 #ifndef _PGeom_RectangularTrimmedSurface_HeaderFile
 #include <OCAF/PGeom/PGeom_RectangularTrimmedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Surface_HeaderFile
-#include <ShapeSchema_PGeom_Surface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Surface.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom_OffsetSurface_HeaderFile
-#include <ShapeSchema_PGeom_OffsetSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_OffsetSurface.hxx>
 #endif
 #ifndef _PGeom_OffsetSurface_HeaderFile
 #include <OCAF/PGeom/PGeom_OffsetSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Surface_HeaderFile
-#include <ShapeSchema_PGeom_Surface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Surface.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PTopoDS_TFace1_HeaderFile
-#include <ShapeSchema_PTopoDS_TFace1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TFace1.hxx>
 #endif
 #ifndef _PTopoDS_TFace1_HeaderFile
 #include <OCAF/PTopoDS/PTopoDS_TFace1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfShape1_HeaderFile
-#include <ShapeSchema_PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HArray1OfShape1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

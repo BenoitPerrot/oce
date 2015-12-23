@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PPoly_Polygon2D_HeaderFile
-#include <ShapeSchema_PPoly_Polygon2D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Polygon2D.hxx>
 #endif
 #ifndef _PPoly_Polygon2D_HeaderFile
 #include <OCAF/PPoly/PPoly_Polygon2D.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

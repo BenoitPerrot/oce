@@ -1,20 +1,20 @@
 #ifndef _ShapeSchema_PGeom_BSplineCurve_HeaderFile
-#include <ShapeSchema_PGeom_BSplineCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BSplineCurve.hxx>
 #endif
 #ifndef _PGeom_BSplineCurve_HeaderFile
 #include <OCAF/PGeom/PGeom_BSplineCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfReal_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfReal_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfInteger_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

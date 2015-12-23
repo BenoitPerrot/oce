@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PCDM_Document_HeaderFile
-#include <ShapeSchema_PCDM_Document.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCDM_Document.hxx>
 #endif
 #ifndef _PCDM_Document_HeaderFile
 #include <OCAF/PCDM/PCDM_Document.hxx>

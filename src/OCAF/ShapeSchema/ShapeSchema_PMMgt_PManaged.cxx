@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PMMgt_PManaged_HeaderFile
-#include <ShapeSchema_PMMgt_PManaged.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PMMgt_PManaged.hxx>
 #endif
 #ifndef _PMMgt_PManaged_HeaderFile
 #include <OCAF/PMMgt/PMMgt_PManaged.hxx>

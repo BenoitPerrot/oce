@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
-#include <ShapeSchema_PTopLoc_Location.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _PTopLoc_Location_HeaderFile
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_ItemLocation_HeaderFile
-#include <ShapeSchema_PTopLoc_ItemLocation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

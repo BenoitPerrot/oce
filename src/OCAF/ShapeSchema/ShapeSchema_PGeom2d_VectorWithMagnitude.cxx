@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom2d_VectorWithMagnitude_HeaderFile
-#include <ShapeSchema_PGeom2d_VectorWithMagnitude.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_VectorWithMagnitude.hxx>
 #endif
 #ifndef _PGeom2d_VectorWithMagnitude_HeaderFile
 #include <OCAF/PGeom2d/PGeom2d_VectorWithMagnitude.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Vec2d_HeaderFile
-#include <ShapeSchema_gp_Vec2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Vec2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

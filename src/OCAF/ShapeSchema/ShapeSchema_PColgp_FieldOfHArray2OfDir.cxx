@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PColgp_FieldOfHArray2OfDir_HeaderFile
-#include <ShapeSchema_PColgp_FieldOfHArray2OfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_FieldOfHArray2OfDir.hxx>
 #endif
 #ifndef _PColgp_FieldOfHArray2OfDir_HeaderFile
 #include <OCAF/PColgp/PColgp_FieldOfHArray2OfDir.hxx>

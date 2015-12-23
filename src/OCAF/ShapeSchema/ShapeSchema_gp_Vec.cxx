@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_gp_Vec_HeaderFile
-#include <ShapeSchema_gp_Vec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Vec.hxx>
 #endif
 #ifndef _gp_Vec_HeaderFile
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #endif
 #ifndef _ShapeSchema_gp_XYZ_HeaderFile
-#include <ShapeSchema_gp_XYZ.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_XYZ.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

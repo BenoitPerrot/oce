@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_ObjMgt_ExternShareable_HeaderFile
-#include <ShapeSchema_ObjMgt_ExternShareable.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_ExternShareable.hxx>
 #endif
 #ifndef _ObjMgt_ExternShareable_HeaderFile
 #include <OCAF/ObjMgt/ObjMgt_ExternShareable.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
-#include <ShapeSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

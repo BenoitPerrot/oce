@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PGeom_SurfaceOfLinearExtrusion_HeaderFile
-#include <ShapeSchema_PGeom_SurfaceOfLinearExtrusion.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_SurfaceOfLinearExtrusion.hxx>
 #endif
 #ifndef _PGeom_SurfaceOfLinearExtrusion_HeaderFile
 #include <OCAF/PGeom/PGeom_SurfaceOfLinearExtrusion.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
-#include <ShapeSchema_PGeom_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Curve.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Dir_HeaderFile
-#include <ShapeSchema_gp_Dir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Dir.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

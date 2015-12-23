@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PColgp_HSequenceOfPnt_HeaderFile
-#include <ShapeSchema_PColgp_HSequenceOfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HSequenceOfPnt.hxx>
 #endif
 #ifndef _PColgp_HSequenceOfPnt_HeaderFile
 #include <OCAF/PColgp/PColgp_HSequenceOfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

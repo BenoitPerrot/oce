@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_DBC_VArrayOfExtCharacter_HeaderFile
-#include <ShapeSchema_DBC_VArrayOfExtCharacter.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_DBC_VArrayOfExtCharacter.hxx>
 #endif
 #ifndef _DBC_VArrayOfExtCharacter_HeaderFile
 #include <OCAF/DBC/DBC_VArrayOfExtCharacter.hxx>

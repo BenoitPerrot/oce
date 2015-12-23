@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_gp_Ax1_HeaderFile
-#include <ShapeSchema_gp_Ax1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Ax1.hxx>
 #endif
 #ifndef _gp_Ax1_HeaderFile
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt_HeaderFile
-#include <ShapeSchema_gp_Pnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Pnt.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Dir_HeaderFile
-#include <ShapeSchema_gp_Dir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Dir.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

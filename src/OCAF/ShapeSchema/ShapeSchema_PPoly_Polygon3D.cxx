@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PPoly_Polygon3D_HeaderFile
-#include <ShapeSchema_PPoly_Polygon3D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Polygon3D.hxx>
 #endif
 #ifndef _PPoly_Polygon3D_HeaderFile
 #include <OCAF/PPoly/PPoly_Polygon3D.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfReal_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

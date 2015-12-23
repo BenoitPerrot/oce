@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_gp_Trsf2d_HeaderFile
-#include <ShapeSchema_gp_Trsf2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Trsf2d.hxx>
 #endif
 #ifndef _gp_Trsf2d_HeaderFile
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Mat2d_HeaderFile
-#include <ShapeSchema_gp_Mat2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Mat2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_XY_HeaderFile
-#include <ShapeSchema_gp_XY.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_XY.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

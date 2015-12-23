@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_HeaderFile
-#include <ShapeSchema.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema.hxx>
 #endif
 #ifndef _Storage_StreamUnknownTypeError_HeaderFile
 #include <Foundation/Storage/Storage_StreamUnknownTypeError.hxx>
@@ -8,472 +8,472 @@
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_ExternShareable_HeaderFile
-#include <ShapeSchema_ObjMgt_ExternShareable.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_ExternShareable.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_ExternRef_HeaderFile
-#include <ShapeSchema_ObjMgt_ExternRef.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_ExternRef.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_PSeqOfExtRef_HeaderFile
-#include <ShapeSchema_ObjMgt_PSeqOfExtRef.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_PSeqOfExtRef.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
-#include <ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Datum3D_HeaderFile
-#include <ShapeSchema_PTopLoc_Datum3D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Datum3D.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_ItemLocation_HeaderFile
-#include <ShapeSchema_PTopLoc_ItemLocation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfCirc2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfCirc2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfCirc2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfDir2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfDir2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfDir2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfLin2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfLin2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfLin2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfVec2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfVec2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfVec2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfXY_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfXY.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfXY.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfDir_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfDir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfVec_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfXYZ_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfXYZ.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfXYZ.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfCirc2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfCirc2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfCirc2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfDir2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfDir2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfDir2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfLin2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfLin2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfLin2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfPnt2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfPnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfPnt2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfVec2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfVec2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfVec2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfXY_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfXY.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfXY.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfDir_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfDir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfPnt_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfVec_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfXYZ_HeaderFile
-#include <ShapeSchema_PColgp_HArray2OfXYZ.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray2OfXYZ.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HSequenceOfDir_HeaderFile
-#include <ShapeSchema_PColgp_HSequenceOfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HSequenceOfDir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HSequenceOfPnt_HeaderFile
-#include <ShapeSchema_PColgp_HSequenceOfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HSequenceOfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_HSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HSequenceOfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HSequenceOfXYZ_HeaderFile
-#include <ShapeSchema_PColgp_HSequenceOfXYZ.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HSequenceOfXYZ.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfXYZ_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Transformation_HeaderFile
-#include <ShapeSchema_PGeom2d_Transformation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Transformation.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Geometry_HeaderFile
-#include <ShapeSchema_PGeom2d_Geometry.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Geometry.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Point_HeaderFile
-#include <ShapeSchema_PGeom2d_Point.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Point.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_CartesianPoint_HeaderFile
-#include <ShapeSchema_PGeom2d_CartesianPoint.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_CartesianPoint.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Vector_HeaderFile
-#include <ShapeSchema_PGeom2d_Vector.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Vector.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Direction_HeaderFile
-#include <ShapeSchema_PGeom2d_Direction.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Direction.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_VectorWithMagnitude_HeaderFile
-#include <ShapeSchema_PGeom2d_VectorWithMagnitude.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_VectorWithMagnitude.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_AxisPlacement_HeaderFile
-#include <ShapeSchema_PGeom2d_AxisPlacement.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_AxisPlacement.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Curve_HeaderFile
-#include <ShapeSchema_PGeom2d_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Curve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Line_HeaderFile
-#include <ShapeSchema_PGeom2d_Line.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Line.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Conic_HeaderFile
-#include <ShapeSchema_PGeom2d_Conic.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Conic.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Circle_HeaderFile
-#include <ShapeSchema_PGeom2d_Circle.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Circle.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Ellipse_HeaderFile
-#include <ShapeSchema_PGeom2d_Ellipse.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Ellipse.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Hyperbola_HeaderFile
-#include <ShapeSchema_PGeom2d_Hyperbola.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Hyperbola.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Parabola_HeaderFile
-#include <ShapeSchema_PGeom2d_Parabola.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Parabola.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_BoundedCurve_HeaderFile
-#include <ShapeSchema_PGeom2d_BoundedCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_BoundedCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_BezierCurve_HeaderFile
-#include <ShapeSchema_PGeom2d_BezierCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_BezierCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_BSplineCurve_HeaderFile
-#include <ShapeSchema_PGeom2d_BSplineCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_BSplineCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_TrimmedCurve_HeaderFile
-#include <ShapeSchema_PGeom2d_TrimmedCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_TrimmedCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_OffsetCurve_HeaderFile
-#include <ShapeSchema_PGeom2d_OffsetCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_OffsetCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Transformation_HeaderFile
-#include <ShapeSchema_PGeom_Transformation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Transformation.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Geometry_HeaderFile
-#include <ShapeSchema_PGeom_Geometry.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Geometry.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Point_HeaderFile
-#include <ShapeSchema_PGeom_Point.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Point.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_CartesianPoint_HeaderFile
-#include <ShapeSchema_PGeom_CartesianPoint.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_CartesianPoint.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Vector_HeaderFile
-#include <ShapeSchema_PGeom_Vector.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Vector.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Direction_HeaderFile
-#include <ShapeSchema_PGeom_Direction.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Direction.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_VectorWithMagnitude_HeaderFile
-#include <ShapeSchema_PGeom_VectorWithMagnitude.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_VectorWithMagnitude.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_AxisPlacement_HeaderFile
-#include <ShapeSchema_PGeom_AxisPlacement.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_AxisPlacement.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Axis1Placement_HeaderFile
-#include <ShapeSchema_PGeom_Axis1Placement.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Axis1Placement.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Axis2Placement_HeaderFile
-#include <ShapeSchema_PGeom_Axis2Placement.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Axis2Placement.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
-#include <ShapeSchema_PGeom_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Curve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Line_HeaderFile
-#include <ShapeSchema_PGeom_Line.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Line.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Conic_HeaderFile
-#include <ShapeSchema_PGeom_Conic.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Conic.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Circle_HeaderFile
-#include <ShapeSchema_PGeom_Circle.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Circle.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Ellipse_HeaderFile
-#include <ShapeSchema_PGeom_Ellipse.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Ellipse.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Hyperbola_HeaderFile
-#include <ShapeSchema_PGeom_Hyperbola.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Hyperbola.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Parabola_HeaderFile
-#include <ShapeSchema_PGeom_Parabola.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Parabola.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_BoundedCurve_HeaderFile
-#include <ShapeSchema_PGeom_BoundedCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BoundedCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_BezierCurve_HeaderFile
-#include <ShapeSchema_PGeom_BezierCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BezierCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_BSplineCurve_HeaderFile
-#include <ShapeSchema_PGeom_BSplineCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BSplineCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_TrimmedCurve_HeaderFile
-#include <ShapeSchema_PGeom_TrimmedCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_TrimmedCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_OffsetCurve_HeaderFile
-#include <ShapeSchema_PGeom_OffsetCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_OffsetCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Surface_HeaderFile
-#include <ShapeSchema_PGeom_Surface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Surface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_ElementarySurface_HeaderFile
-#include <ShapeSchema_PGeom_ElementarySurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_ElementarySurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Plane_HeaderFile
-#include <ShapeSchema_PGeom_Plane.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Plane.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_ConicalSurface_HeaderFile
-#include <ShapeSchema_PGeom_ConicalSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_ConicalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_CylindricalSurface_HeaderFile
-#include <ShapeSchema_PGeom_CylindricalSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_CylindricalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_SphericalSurface_HeaderFile
-#include <ShapeSchema_PGeom_SphericalSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_SphericalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_ToroidalSurface_HeaderFile
-#include <ShapeSchema_PGeom_ToroidalSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_ToroidalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_SweptSurface_HeaderFile
-#include <ShapeSchema_PGeom_SweptSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_SweptSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_SurfaceOfLinearExtrusion_HeaderFile
-#include <ShapeSchema_PGeom_SurfaceOfLinearExtrusion.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_SurfaceOfLinearExtrusion.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_SurfaceOfRevolution_HeaderFile
-#include <ShapeSchema_PGeom_SurfaceOfRevolution.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_SurfaceOfRevolution.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_BoundedSurface_HeaderFile
-#include <ShapeSchema_PGeom_BoundedSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BoundedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_BezierSurface_HeaderFile
-#include <ShapeSchema_PGeom_BezierSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BezierSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_BSplineSurface_HeaderFile
-#include <ShapeSchema_PGeom_BSplineSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BSplineSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_RectangularTrimmedSurface_HeaderFile
-#include <ShapeSchema_PGeom_RectangularTrimmedSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_RectangularTrimmedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_OffsetSurface_HeaderFile
-#include <ShapeSchema_PGeom_OffsetSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_OffsetSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_Triangulation_HeaderFile
-#include <ShapeSchema_PPoly_Triangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Triangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_Polygon3D_HeaderFile
-#include <ShapeSchema_PPoly_Polygon3D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Polygon3D.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_Polygon2D_HeaderFile
-#include <ShapeSchema_PPoly_Polygon2D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Polygon2D.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_PolygonOnTriangulation_HeaderFile
-#include <ShapeSchema_PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_HArray1OfTriangle_HeaderFile
-#include <ShapeSchema_PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_HArray1OfTriangle.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HShape_HeaderFile
-#include <ShapeSchema_PTopoDS_HShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HShape.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TShape_HeaderFile
-#include <ShapeSchema_PTopoDS_TShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TShape.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TVertex_HeaderFile
-#include <ShapeSchema_PTopoDS_TVertex.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TVertex.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Vertex_HeaderFile
-#include <ShapeSchema_PTopoDS_Vertex.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Vertex.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TEdge_HeaderFile
-#include <ShapeSchema_PTopoDS_TEdge.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TEdge.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Edge_HeaderFile
-#include <ShapeSchema_PTopoDS_Edge.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Edge.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TWire_HeaderFile
-#include <ShapeSchema_PTopoDS_TWire.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TWire.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Wire_HeaderFile
-#include <ShapeSchema_PTopoDS_Wire.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Wire.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TFace_HeaderFile
-#include <ShapeSchema_PTopoDS_TFace.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TFace.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Face_HeaderFile
-#include <ShapeSchema_PTopoDS_Face.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Face.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TShell_HeaderFile
-#include <ShapeSchema_PTopoDS_TShell.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TShell.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Shell_HeaderFile
-#include <ShapeSchema_PTopoDS_Shell.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Shell.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TSolid_HeaderFile
-#include <ShapeSchema_PTopoDS_TSolid.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TSolid.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Solid_HeaderFile
-#include <ShapeSchema_PTopoDS_Solid.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Solid.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TCompSolid_HeaderFile
-#include <ShapeSchema_PTopoDS_TCompSolid.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TCompSolid.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_CompSolid_HeaderFile
-#include <ShapeSchema_PTopoDS_CompSolid.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_CompSolid.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TCompound_HeaderFile
-#include <ShapeSchema_PTopoDS_TCompound.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TCompound.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Compound_HeaderFile
-#include <ShapeSchema_PTopoDS_Compound.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_Compound.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfHShape_HeaderFile
-#include <ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TShape1_HeaderFile
-#include <ShapeSchema_PTopoDS_TShape1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TShape1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TVertex1_HeaderFile
-#include <ShapeSchema_PTopoDS_TVertex1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TVertex1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TEdge1_HeaderFile
-#include <ShapeSchema_PTopoDS_TEdge1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TEdge1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TWire1_HeaderFile
-#include <ShapeSchema_PTopoDS_TWire1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TWire1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TFace1_HeaderFile
-#include <ShapeSchema_PTopoDS_TFace1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TFace1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TShell1_HeaderFile
-#include <ShapeSchema_PTopoDS_TShell1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TShell1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TSolid1_HeaderFile
-#include <ShapeSchema_PTopoDS_TSolid1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TSolid1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TCompSolid1_HeaderFile
-#include <ShapeSchema_PTopoDS_TCompSolid1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TCompSolid1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TCompound1_HeaderFile
-#include <ShapeSchema_PTopoDS_TCompound1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TCompound1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfShape1_HeaderFile
-#include <ShapeSchema_PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HArray1OfShape1.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_CurveRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveRepresentation.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_GCurve_HeaderFile
-#include <ShapeSchema_PBRep_GCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_GCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_Curve3D_HeaderFile
-#include <ShapeSchema_PBRep_Curve3D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_Curve3D.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveOnSurface_HeaderFile
-#include <ShapeSchema_PBRep_CurveOnSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveOnSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveOnClosedSurface_HeaderFile
-#include <ShapeSchema_PBRep_CurveOnClosedSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveOnClosedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_Polygon3D_HeaderFile
-#include <ShapeSchema_PBRep_Polygon3D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_Polygon3D.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PolygonOnTriangulation_HeaderFile
-#include <ShapeSchema_PBRep_PolygonOnTriangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PolygonOnClosedTriangulation_HeaderFile
-#include <ShapeSchema_PBRep_PolygonOnClosedTriangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PolygonOnClosedTriangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PolygonOnSurface_HeaderFile
-#include <ShapeSchema_PBRep_PolygonOnSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PolygonOnSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PolygonOnClosedSurface_HeaderFile
-#include <ShapeSchema_PBRep_PolygonOnClosedSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PolygonOnClosedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveOn2Surfaces_HeaderFile
-#include <ShapeSchema_PBRep_CurveOn2Surfaces.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveOn2Surfaces.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PointRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_PointRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointRepresentation.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PointOnCurve_HeaderFile
-#include <ShapeSchema_PBRep_PointOnCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointOnCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PointsOnSurface_HeaderFile
-#include <ShapeSchema_PBRep_PointsOnSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointsOnSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PointOnCurveOnSurface_HeaderFile
-#include <ShapeSchema_PBRep_PointOnCurveOnSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointOnCurveOnSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PointOnSurface_HeaderFile
-#include <ShapeSchema_PBRep_PointOnSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointOnSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_TFace_HeaderFile
-#include <ShapeSchema_PBRep_TFace.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TFace.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_TEdge_HeaderFile
-#include <ShapeSchema_PBRep_TEdge.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TEdge.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_TVertex_HeaderFile
-#include <ShapeSchema_PBRep_TVertex.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TVertex.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_TFace1_HeaderFile
-#include <ShapeSchema_PBRep_TFace1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TFace1.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_TEdge1_HeaderFile
-#include <ShapeSchema_PBRep_TEdge1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TEdge1.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_TVertex1_HeaderFile
-#include <ShapeSchema_PBRep_TVertex1.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TVertex1.hxx>
 #endif
 #ifndef _ShapeSchema_PCDMShape_Document_HeaderFile
-#include <ShapeSchema_PCDMShape_Document.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCDMShape_Document.hxx>
 #endif
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile
-#include <ShapeSchema_Standard_Persistent.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_Standard_Persistent.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
-#include <ShapeSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _ShapeSchema_PMMgt_PManaged_HeaderFile
-#include <ShapeSchema_PMMgt_PManaged.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PMMgt_PManaged.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfReal_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfInteger_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray2OfReal_HeaderFile
-#include <ShapeSchema_PColStd_HArray2OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray2OfReal.hxx>
 #endif
 #ifndef _ShapeSchema_PCDM_Document_HeaderFile
-#include <ShapeSchema_PCDM_Document.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCDM_Document.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HExtendedString_HeaderFile
-#include <ShapeSchema_PCollection_HExtendedString.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCollection_HExtendedString.hxx>
 #endif
 
 // avoid warnings on 'extern "C"' functions returning C++ classes

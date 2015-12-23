@@ -20,7 +20,7 @@
 #include <StdDrivers_DocumentRetrievalDriver.hxx>
 #include <StdSchema.hxx>
 #include <StdLSchema.hxx>
-#include <ShapeSchema.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema.hxx>
 #include <Foundation/Storage/Storage_HArrayOfSchema.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>

@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PBRep_TVertex_HeaderFile
-#include <ShapeSchema_PBRep_TVertex.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TVertex.hxx>
 #endif
 #ifndef _PBRep_TVertex_HeaderFile
 #include <OCAF/PBRep/PBRep_TVertex.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfHShape_HeaderFile
-#include <ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt_HeaderFile
-#include <ShapeSchema_gp_Pnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Pnt.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_PointRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_PointRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PointRepresentation.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

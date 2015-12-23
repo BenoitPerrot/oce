@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PGeom_Point_HeaderFile
-#include <ShapeSchema_PGeom_Point.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Point.hxx>
 #endif
 #ifndef _PGeom_Point_HeaderFile
 #include <OCAF/PGeom/PGeom_Point.hxx>

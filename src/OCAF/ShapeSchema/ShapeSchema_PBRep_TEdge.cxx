@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PBRep_TEdge_HeaderFile
-#include <ShapeSchema_PBRep_TEdge.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TEdge.hxx>
 #endif
 #ifndef _PBRep_TEdge_HeaderFile
 #include <OCAF/PBRep/PBRep_TEdge.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfHShape_HeaderFile
-#include <ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_CurveRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveRepresentation.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

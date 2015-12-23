@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_gp_Mat_HeaderFile
-#include <ShapeSchema_gp_Mat.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Mat.hxx>
 #endif
 #ifndef _gp_Mat_HeaderFile
 #include <Mathematics/Primitives/gp_Mat.hxx>

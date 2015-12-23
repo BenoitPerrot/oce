@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PGeom_BoundedSurface_HeaderFile
-#include <ShapeSchema_PGeom_BoundedSurface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_BoundedSurface.hxx>
 #endif
 #ifndef _PGeom_BoundedSurface_HeaderFile
 #include <OCAF/PGeom/PGeom_BoundedSurface.hxx>

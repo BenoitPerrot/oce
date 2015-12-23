@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PBRep_Curve3D_HeaderFile
-#include <ShapeSchema_PBRep_Curve3D.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_Curve3D.hxx>
 #endif
 #ifndef _PBRep_Curve3D_HeaderFile
 #include <OCAF/PBRep/PBRep_Curve3D.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
-#include <ShapeSchema_PTopLoc_Location.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_CurveRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveRepresentation.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
-#include <ShapeSchema_PGeom_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Curve.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

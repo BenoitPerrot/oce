@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PGeom2d_BezierCurve_HeaderFile
-#include <ShapeSchema_PGeom2d_BezierCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_BezierCurve.hxx>
 #endif
 #ifndef _PGeom2d_BezierCurve_HeaderFile
 #include <OCAF/PGeom2d/PGeom2d_BezierCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt2d_HeaderFile
-#include <ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HArray1OfPnt2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfReal_HeaderFile
-#include <ShapeSchema_PColStd_HArray1OfReal.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PTopoDS_HShape_HeaderFile
-#include <ShapeSchema_PTopoDS_HShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HShape.hxx>
 #endif
 #ifndef _PTopoDS_HShape_HeaderFile
 #include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
-#include <ShapeSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_TShape_HeaderFile
-#include <ShapeSchema_PTopoDS_TShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_TShape.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
-#include <ShapeSchema_PTopLoc_Location.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

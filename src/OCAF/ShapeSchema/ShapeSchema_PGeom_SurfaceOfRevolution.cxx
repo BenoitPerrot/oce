@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_PGeom_SurfaceOfRevolution_HeaderFile
-#include <ShapeSchema_PGeom_SurfaceOfRevolution.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_SurfaceOfRevolution.hxx>
 #endif
 #ifndef _PGeom_SurfaceOfRevolution_HeaderFile
 #include <OCAF/PGeom/PGeom_SurfaceOfRevolution.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
-#include <ShapeSchema_PGeom_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Curve.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Dir_HeaderFile
-#include <ShapeSchema_gp_Dir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Dir.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt_HeaderFile
-#include <ShapeSchema_gp_Pnt.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Pnt.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

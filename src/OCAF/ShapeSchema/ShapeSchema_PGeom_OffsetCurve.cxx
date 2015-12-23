@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PGeom_OffsetCurve_HeaderFile
-#include <ShapeSchema_PGeom_OffsetCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_OffsetCurve.hxx>
 #endif
 #ifndef _PGeom_OffsetCurve_HeaderFile
 #include <OCAF/PGeom/PGeom_OffsetCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
-#include <ShapeSchema_PGeom_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Curve.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Dir_HeaderFile
-#include <ShapeSchema_gp_Dir.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Dir.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

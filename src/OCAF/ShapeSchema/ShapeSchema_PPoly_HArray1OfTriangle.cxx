@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PPoly_HArray1OfTriangle_HeaderFile
-#include <ShapeSchema_PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_HArray1OfTriangle.hxx>
 #endif
 #ifndef _PPoly_HArray1OfTriangle_HeaderFile
 #include <OCAF/PPoly/PPoly_HArray1OfTriangle.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_FieldOfHArray1OfTriangle_HeaderFile
-#include <ShapeSchema_PPoly_FieldOfHArray1OfTriangle.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_FieldOfHArray1OfTriangle.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

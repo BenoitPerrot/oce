@@ -1,17 +1,17 @@
 #ifndef _ShapeSchema_gp_Ax22d_HeaderFile
-#include <ShapeSchema_gp_Ax22d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Ax22d.hxx>
 #endif
 #ifndef _gp_Ax22d_HeaderFile
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt2d_HeaderFile
-#include <ShapeSchema_gp_Pnt2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Pnt2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Dir2d_HeaderFile
-#include <ShapeSchema_gp_Dir2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Dir2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Dir2d_HeaderFile
-#include <ShapeSchema_gp_Dir2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Dir2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

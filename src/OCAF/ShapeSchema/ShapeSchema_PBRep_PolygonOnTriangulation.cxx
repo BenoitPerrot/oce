@@ -1,20 +1,20 @@
 #ifndef _ShapeSchema_PBRep_PolygonOnTriangulation_HeaderFile
-#include <ShapeSchema_PBRep_PolygonOnTriangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _PBRep_PolygonOnTriangulation_HeaderFile
 #include <OCAF/PBRep/PBRep_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
-#include <ShapeSchema_PTopLoc_Location.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _ShapeSchema_PBRep_CurveRepresentation_HeaderFile
-#include <ShapeSchema_PBRep_CurveRepresentation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_CurveRepresentation.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_PolygonOnTriangulation_HeaderFile
-#include <ShapeSchema_PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_Triangulation_HeaderFile
-#include <ShapeSchema_PPoly_Triangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Triangulation.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

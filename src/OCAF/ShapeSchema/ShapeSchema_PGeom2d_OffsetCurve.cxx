@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_PGeom2d_OffsetCurve_HeaderFile
-#include <ShapeSchema_PGeom2d_OffsetCurve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_OffsetCurve.hxx>
 #endif
 #ifndef _PGeom2d_OffsetCurve_HeaderFile
 #include <OCAF/PGeom2d/PGeom2d_OffsetCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Curve_HeaderFile
-#include <ShapeSchema_PGeom2d_Curve.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom2d_Curve.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

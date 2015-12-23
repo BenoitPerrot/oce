@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_PColgp_FieldOfHArray1OfXY_HeaderFile
-#include <ShapeSchema_PColgp_FieldOfHArray1OfXY.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_FieldOfHArray1OfXY.hxx>
 #endif
 #ifndef _PColgp_FieldOfHArray1OfXY_HeaderFile
 #include <OCAF/PColgp/PColgp_FieldOfHArray1OfXY.hxx>

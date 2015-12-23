@@ -1,5 +1,5 @@
 #ifndef _ShapeSchema_gp_XY_HeaderFile
-#include <ShapeSchema_gp_XY.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_XY.hxx>
 #endif
 #ifndef _gp_XY_HeaderFile
 #include <Mathematics/Primitives/gp_XY.hxx>

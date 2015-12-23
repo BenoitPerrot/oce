@@ -1,20 +1,20 @@
 #ifndef _ShapeSchema_PBRep_TFace_HeaderFile
-#include <ShapeSchema_PBRep_TFace.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PBRep_TFace.hxx>
 #endif
 #ifndef _PBRep_TFace_HeaderFile
 #include <OCAF/PBRep/PBRep_TFace.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfHShape_HeaderFile
-#include <ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopoDS_HArray1OfHShape.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Surface_HeaderFile
-#include <ShapeSchema_PGeom_Surface.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PGeom_Surface.hxx>
 #endif
 #ifndef _ShapeSchema_PPoly_Triangulation_HeaderFile
-#include <ShapeSchema_PPoly_Triangulation.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PPoly_Triangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
-#include <ShapeSchema_PTopLoc_Location.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

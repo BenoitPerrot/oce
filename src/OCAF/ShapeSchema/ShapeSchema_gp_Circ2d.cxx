@@ -1,11 +1,11 @@
 #ifndef _ShapeSchema_gp_Circ2d_HeaderFile
-#include <ShapeSchema_gp_Circ2d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Circ2d.hxx>
 #endif
 #ifndef _gp_Circ2d_HeaderFile
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax22d_HeaderFile
-#include <ShapeSchema_gp_Ax22d.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_gp_Ax22d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

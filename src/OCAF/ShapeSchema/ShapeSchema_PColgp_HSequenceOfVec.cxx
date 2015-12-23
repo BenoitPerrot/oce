@@ -1,14 +1,14 @@
 #ifndef _ShapeSchema_PColgp_HSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_HSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_HSequenceOfVec.hxx>
 #endif
 #ifndef _PColgp_HSequenceOfVec_HeaderFile
 #include <OCAF/PColgp/PColgp_HSequenceOfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
-#include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/ShapeSchema/ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>
