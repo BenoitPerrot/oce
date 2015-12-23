@@ -70,7 +70,7 @@
 #include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_DimTol.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_Material.hxx>
-#include <XCAFPrs_Driver.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Driver.hxx>
 #include <DataExchange/XCAFApp/XCAFApp_Application.hxx>
 
 #include <Viewer/XDEDRAW/XDEDRAW_Shapes.hxx>
@@ -81,7 +81,7 @@
 #include <Viewer/XSDRAWIGES/XSDRAWIGES.hxx>
 #include <Viewer/XSDRAWSTEP/XSDRAWSTEP.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
-#include <XCAFPrs.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs.hxx>
 #include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Viewer/Draw/Draw_PluginMacro.hxx>
 

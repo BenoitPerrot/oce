@@ -11,7 +11,7 @@
 #include <Handle_XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XCAFPrs_Style.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -56,17 +56,17 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem XCAFPrs_Style
-#define TheItem_hxx <XCAFPrs_Style.hxx>
+#define TheItem_hxx <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode XCAFPrs_DataMapNodeOfDataMapOfShapeStyle
-#define TCollection_DataMapNode_hxx <XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/XCAFPrs/XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 #define TCollection_DataMapIterator XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle
-#define TCollection_DataMapIterator_hxx <XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/XCAFPrs/XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle.hxx>
 #define Handle_TCollection_DataMapNode Handle_XCAFPrs_DataMapNodeOfDataMapOfShapeStyle
 #define TCollection_DataMapNode_Type_() XCAFPrs_DataMapNodeOfDataMapOfShapeStyle_Type_()
 #define TCollection_DataMap XCAFPrs_DataMapOfShapeStyle
-#define TCollection_DataMap_hxx <XCAFPrs_DataMapOfShapeStyle.hxx>
+#define TCollection_DataMap_hxx <DataExchange/XCAFPrs/XCAFPrs_DataMapOfShapeStyle.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

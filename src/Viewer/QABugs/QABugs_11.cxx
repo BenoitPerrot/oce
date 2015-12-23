@@ -1047,7 +1047,7 @@ static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, con
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <XCAFPrs_Driver.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Driver.hxx>
 
 //------------------------------------------------------------------------------------------
 // name    : OCC363

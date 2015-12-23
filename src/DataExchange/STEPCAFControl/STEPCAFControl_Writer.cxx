@@ -34,11 +34,11 @@
 #include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XCAFPrs_DataMapOfShapeStyle.hxx>
-#include <XCAFPrs.hxx>
-#include <XCAFPrs_DataMapOfStyleShape.hxx>
-#include <XCAFPrs_Style.hxx>
-#include <XCAFPrs_DataMapIteratorOfDataMapOfStyleShape.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapOfShapeStyle.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapOfStyleShape.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapIteratorOfDataMapOfStyleShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Styles.hxx>

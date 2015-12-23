@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <XCAFPrs_Style.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
 
 //=======================================================================
 //function : XCAFPrs_Style

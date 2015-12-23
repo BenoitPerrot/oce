@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFPrs_AISObject.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_AISObject.hxx>
 
 #include <Visualization/AIS/AIS_DisplayMode.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
@@ -31,10 +31,10 @@
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
-#include <XCAFPrs.hxx>
-#include <XCAFPrs_DataMapOfShapeStyle.hxx>
-#include <XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle.hxx>
-#include <XCAFPrs_Style.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapOfShapeStyle.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (XCAFPrs_AISObject, AIS_ColoredShape)
 IMPLEMENT_STANDARD_RTTIEXT(XCAFPrs_AISObject, AIS_ColoredShape)

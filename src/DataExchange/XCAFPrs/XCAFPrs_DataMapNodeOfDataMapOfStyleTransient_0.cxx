@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XCAFPrs_DataMapNodeOfDataMapOfStyleTransient.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapNodeOfDataMapOfStyleTransient.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <XCAFPrs_Style.hxx>
-#include <XCAFPrs_DataMapOfStyleTransient.hxx>
-#include <XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapOfStyleTransient.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient.hxx>
 
  
 
@@ -30,18 +30,18 @@ IMPLEMENT_STANDARD_RTTI(XCAFPrs_DataMapNodeOfDataMapOfStyleTransient)
 
 
 #define TheKey XCAFPrs_Style
-#define TheKey_hxx <XCAFPrs_Style.hxx>
+#define TheKey_hxx <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher XCAFPrs_Style
-#define Hasher_hxx <XCAFPrs_Style.hxx>
+#define Hasher_hxx <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>
 #define TCollection_DataMapNode XCAFPrs_DataMapNodeOfDataMapOfStyleTransient
-#define TCollection_DataMapNode_hxx <XCAFPrs_DataMapNodeOfDataMapOfStyleTransient.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/XCAFPrs/XCAFPrs_DataMapNodeOfDataMapOfStyleTransient.hxx>
 #define TCollection_DataMapIterator XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient
-#define TCollection_DataMapIterator_hxx <XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/XCAFPrs/XCAFPrs_DataMapIteratorOfDataMapOfStyleTransient.hxx>
 #define Handle_TCollection_DataMapNode Handle_XCAFPrs_DataMapNodeOfDataMapOfStyleTransient
 #define TCollection_DataMapNode_Type_() XCAFPrs_DataMapNodeOfDataMapOfStyleTransient_Type_()
 #define TCollection_DataMap XCAFPrs_DataMapOfStyleTransient
-#define TCollection_DataMap_hxx <XCAFPrs_DataMapOfStyleTransient.hxx>
+#define TCollection_DataMap_hxx <DataExchange/XCAFPrs/XCAFPrs_DataMapOfStyleTransient.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

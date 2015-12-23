@@ -16,7 +16,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <XCAFPrs_Driver.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_Driver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFPrs_Driver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFPrs_Driver)
 IMPLEMENT_DOWNCAST(XCAFPrs_Driver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFPrs_Driver)
-#include <XCAFPrs_AISObject.hxx>
+#include <DataExchange/XCAFPrs/XCAFPrs_AISObject.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
