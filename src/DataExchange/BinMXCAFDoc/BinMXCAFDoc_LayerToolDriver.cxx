@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_LayerToolDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_LayerToolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_LayerToolDriver)
-#include <XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 
 //=======================================================================
 //function :

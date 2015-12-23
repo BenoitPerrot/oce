@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_DatumDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_DatumDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_DatumDriver)
-#include <XCAFDoc_Datum.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Datum.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

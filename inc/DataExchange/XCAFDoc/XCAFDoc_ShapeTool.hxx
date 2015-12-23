@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFDoc_ShapeTool.hxx>
 
-#include <XCAFDoc_DataMapOfShapeLabel.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

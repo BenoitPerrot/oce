@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_MaterialToolStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_MaterialToolStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialToolStorageDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_MaterialTool.hxx>
-#include <XCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
 
 //=======================================================================
 //function : Constructor

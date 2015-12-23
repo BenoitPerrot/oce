@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_ShapeToolDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_ShapeToolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_ShapeToolDriver)
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 
 //=======================================================================
 //function :

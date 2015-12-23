@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_VolumeDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_VolumeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_VolumeDriver)
-#include <XCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Volume.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 //=======================================================================

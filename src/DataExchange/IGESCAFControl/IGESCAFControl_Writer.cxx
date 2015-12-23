@@ -23,10 +23,10 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <DataExchange/IGESCAFControl/IGESCAFControl_Writer.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
 #include <XCAFPrs.hxx>
 #include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <DataExchange/TransferBRep/TransferBRep.hxx>
@@ -35,11 +35,11 @@
 #include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <DataExchange/Transfer/Transfer_TransientListBinder.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

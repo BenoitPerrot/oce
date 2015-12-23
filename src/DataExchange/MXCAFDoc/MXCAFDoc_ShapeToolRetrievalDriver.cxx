@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_ShapeToolRetrievalDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <DataExchange/PXCAFDoc/PXCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 
 
 //=======================================================================

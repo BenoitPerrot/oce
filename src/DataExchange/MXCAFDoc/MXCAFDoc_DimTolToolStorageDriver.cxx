@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_DimTolToolStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_DimTolToolStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DimTolToolStorageDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_DimTolTool.hxx>
-#include <XCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTolTool.hxx>
 
 //=======================================================================
 //function : Constructor

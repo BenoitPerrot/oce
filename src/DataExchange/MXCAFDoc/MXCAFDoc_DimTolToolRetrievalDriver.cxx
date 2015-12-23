@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_DimTolToolRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_DimTolToolRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DimTolToolRetrievalDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_DimTolTool.hxx>
-#include <XCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTolTool.hxx>
 
 
 //=======================================================================

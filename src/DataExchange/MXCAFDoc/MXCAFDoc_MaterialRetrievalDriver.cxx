@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_MaterialRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_MaterialRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialRetrievalDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Material.hxx>
-#include <XCAFDoc_Material.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Material.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>

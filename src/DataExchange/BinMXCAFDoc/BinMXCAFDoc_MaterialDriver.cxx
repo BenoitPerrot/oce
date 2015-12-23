@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_MaterialDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_MaterialDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_MaterialDriver)
-#include <XCAFDoc_Material.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Material.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

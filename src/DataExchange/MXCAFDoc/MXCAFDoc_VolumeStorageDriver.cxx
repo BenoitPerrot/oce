@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_VolumeStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_VolumeStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_VolumeStorageDriver)
-#include <XCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Volume.hxx>
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Volume.hxx>
 
 //=======================================================================

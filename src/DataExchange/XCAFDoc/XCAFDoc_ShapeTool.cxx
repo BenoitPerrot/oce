@@ -21,10 +21,10 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #include <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_ShapeTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_ShapeTool)
 IMPLEMENT_DOWNCAST(XCAFDoc_ShapeTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
-#include <XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
 
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
@@ -61,17 +61,17 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <XCAFDoc_Location.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Location.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #include <Mathematics/TopLoc/TopLoc_IndexedMapOfLocation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <XCAFDoc_ShapeMapTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeMapTool.hxx>
 
 static Standard_Boolean theAutoNaming = Standard_True;
 

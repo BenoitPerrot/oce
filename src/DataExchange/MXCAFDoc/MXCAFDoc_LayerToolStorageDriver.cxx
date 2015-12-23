@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_LayerToolStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_LayerToolStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_LayerToolStorageDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_LayerTool.hxx>
-#include <XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 
 //=======================================================================
 //function : Constructor

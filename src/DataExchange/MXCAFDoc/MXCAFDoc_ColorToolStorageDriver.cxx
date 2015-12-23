@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_ColorToolStorageDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <DataExchange/PXCAFDoc/PXCAFDoc_ColorTool.hxx>
-#include <XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
 
 //=======================================================================
 //function : Constructor

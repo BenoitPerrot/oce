@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_LocationDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_LocationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_LocationDriver)
-#include <XCAFDoc_Location.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Location.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

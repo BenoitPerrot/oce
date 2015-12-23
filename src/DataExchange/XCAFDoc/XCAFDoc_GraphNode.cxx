@@ -18,7 +18,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_DataSet.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_GraphNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

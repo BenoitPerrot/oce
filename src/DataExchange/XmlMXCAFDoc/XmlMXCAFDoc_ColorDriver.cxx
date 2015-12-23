@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_ColorDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_ColorDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_ColorDriver)
 #include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
-#include <XCAFDoc_Color.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Color.hxx>
 
 //=======================================================================
 //function : XmlMXCAFDoc_ColorDriver

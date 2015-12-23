@@ -33,13 +33,13 @@
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 
-#include <XCAFDoc_DocumentTool.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_Area.hxx>
-#include <XCAFDoc_Volume.hxx>
-#include <XCAFDoc_Centroid.hxx>
-#include <XCAFDoc_MaterialTool.hxx>
-#include <XCAFDoc_Location.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Area.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Centroid.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Location.hxx>
 #include <Precision.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
@@ -60,7 +60,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
-#include <XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 

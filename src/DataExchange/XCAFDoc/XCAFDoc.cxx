@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDoc.hxx>
-#include <XCAFDoc_ColorType.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorType.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

@@ -30,7 +30,7 @@
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <XCAFPrs.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 #include <XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle.hxx>

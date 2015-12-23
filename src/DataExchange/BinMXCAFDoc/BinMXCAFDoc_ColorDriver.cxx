@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_ColorDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_ColorDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_ColorDriver)
-#include <XCAFDoc_Color.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Color.hxx>
 
 //=======================================================================
 //function :

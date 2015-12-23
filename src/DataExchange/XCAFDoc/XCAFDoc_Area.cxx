@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <XCAFDoc_Area.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Area.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_Area)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

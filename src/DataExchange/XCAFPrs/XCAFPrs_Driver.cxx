@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XCAFPrs_Driver)
 IMPLEMENT_DOWNCAST(XCAFPrs_Driver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFPrs_Driver)
 #include <XCAFPrs_AISObject.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>

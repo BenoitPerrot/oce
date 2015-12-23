@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_DimTolDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_DimTolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_DimTolDriver)
-#include <XCAFDoc_DimTol.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTol.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

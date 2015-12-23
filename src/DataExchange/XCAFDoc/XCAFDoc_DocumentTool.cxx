@@ -16,14 +16,14 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_ColorTool.hxx>
-#include <XCAFDoc_LayerTool.hxx>
-#include <XCAFDoc_DimTolTool.hxx>
-#include <XCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_DocumentTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

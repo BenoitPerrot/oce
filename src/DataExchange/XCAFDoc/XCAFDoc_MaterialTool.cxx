@@ -11,14 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <XCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_MaterialTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_MaterialTool)
 IMPLEMENT_DOWNCAST(XCAFDoc_MaterialTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_MaterialTool)
 
-#include <XCAFDoc.hxx>
-#include <XCAFDoc_Material.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Material.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_ChildIDIterator.hxx>

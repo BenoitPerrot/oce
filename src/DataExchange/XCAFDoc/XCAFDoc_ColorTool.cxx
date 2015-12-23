@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_ColorTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,17 +30,17 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_ColorTool)
 IMPLEMENT_DOWNCAST(XCAFDoc_ColorTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_ColorTool)
-#include <XCAFDoc.hxx>
-#include <XCAFDoc_Color.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Color.hxx>
 
 #include <OCAF/TDF/TDF_ChildIDIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
-#include <XCAFDoc_Color.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Color.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 
 #define AUTONAMING // automatically set names for labels
 

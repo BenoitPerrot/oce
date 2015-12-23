@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <XCAFDoc_DataMapOfShapeLabel.hxx>
-#include <XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DataMapOfShapeLabel.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx>
 
  
 
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_DataMapNodeOfDataMapOfShapeLabel)
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode XCAFDoc_DataMapNodeOfDataMapOfShapeLabel
-#define TCollection_DataMapNode_hxx <XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/XCAFDoc/XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
 #define TCollection_DataMapIterator XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel
-#define TCollection_DataMapIterator_hxx <XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/XCAFDoc/XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx>
 #define Handle_TCollection_DataMapNode Handle_XCAFDoc_DataMapNodeOfDataMapOfShapeLabel
 #define TCollection_DataMapNode_Type_() XCAFDoc_DataMapNodeOfDataMapOfShapeLabel_Type_()
 #define TCollection_DataMap XCAFDoc_DataMapOfShapeLabel
-#define TCollection_DataMap_hxx <XCAFDoc_DataMapOfShapeLabel.hxx>
+#define TCollection_DataMap_hxx <DataExchange/XCAFDoc/XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

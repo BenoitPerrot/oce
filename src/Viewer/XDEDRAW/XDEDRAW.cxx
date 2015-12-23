@@ -58,18 +58,18 @@
 #include <OCAF/TPrsStd/TPrsStd_NamedShapeDriver.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 
-#include <XCAFDoc.hxx>
-#include <XCAFDoc_Color.hxx>
-#include <XCAFDoc_Volume.hxx>
-#include <XCAFDoc_Area.hxx>
-#include <XCAFDoc_Centroid.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_ColorTool.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
-#include <XCAFDoc_GraphNode.hxx>
-#include <XCAFDoc_LayerTool.hxx>
-#include <XCAFDoc_DimTol.hxx>
-#include <XCAFDoc_Material.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Color.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Area.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Centroid.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTol.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Material.hxx>
 #include <XCAFPrs_Driver.hxx>
 #include <DataExchange/XCAFApp/XCAFApp_Application.hxx>
 

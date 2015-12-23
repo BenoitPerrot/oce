@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_MaterialToolDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_MaterialToolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_MaterialToolDriver)
-#include <XCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
 
 //=======================================================================
 //function :

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_DocumentToolDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_DocumentToolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_DocumentToolDriver)
-#include <XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
 
 //=======================================================================
 //function :

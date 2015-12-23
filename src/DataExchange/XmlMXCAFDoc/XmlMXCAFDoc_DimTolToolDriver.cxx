@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_DimTolToolDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_DimTolToolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_DimTolToolDriver)
-#include <XCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTolTool.hxx>
 
 //=======================================================================
 //function :

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_AreaRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_AreaRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_AreaRetrievalDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Area.hxx>
-#include <XCAFDoc_Area.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Area.hxx>
 
 //=======================================================================
 //function : MCAFDoc_AreaRetrievalDriver

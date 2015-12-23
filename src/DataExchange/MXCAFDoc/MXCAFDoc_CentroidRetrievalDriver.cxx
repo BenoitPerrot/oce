@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_CentroidRetrievalDriver)
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Centroid.hxx>
-#include <XCAFDoc_Centroid.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Centroid.hxx>
 
 //=======================================================================
 //function : Constructor

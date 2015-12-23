@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_DimTolDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_DimTolDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_DimTolDriver)
 #include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
-#include <XCAFDoc_DimTol.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTol.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 

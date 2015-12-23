@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_LayerTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,12 +33,12 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_LayerTool)
 IMPLEMENT_DOWNCAST(XCAFDoc_LayerTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_LayerTool)
-#include <XCAFDoc_DocumentTool.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_ChildIDIterator.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 
 //=======================================================================

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_VolumeRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_VolumeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_VolumeRetrievalDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Volume.hxx>
-#include <XCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Volume.hxx>
 
 //=======================================================================
 //function : MCAFDoc_VolumeRetrievalDriver

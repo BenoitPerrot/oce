@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_AreaDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_AreaDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_AreaDriver)
-#include <XCAFDoc_Area.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Area.hxx>
 
 //=======================================================================
 //function :

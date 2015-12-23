@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_LocationDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_LocationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_LocationDriver)
 
-#include <XCAFDoc_Location.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Location.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_DOMString.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>

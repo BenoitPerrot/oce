@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_GraphNodeRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_GraphNodeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_GraphNodeRetrievalDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNode.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 //=======================================================================

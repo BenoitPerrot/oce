@@ -60,13 +60,13 @@ private:
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode XCAFDoc_DataMapNodeOfDataMapOfShapeLabel
-#define TCollection_DataMapNode_hxx <XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/XCAFDoc/XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
 #define TCollection_DataMapIterator XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel
-#define TCollection_DataMapIterator_hxx <XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/XCAFDoc/XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel.hxx>
 #define Handle_TCollection_DataMapNode Handle_XCAFDoc_DataMapNodeOfDataMapOfShapeLabel
 #define TCollection_DataMapNode_Type_() XCAFDoc_DataMapNodeOfDataMapOfShapeLabel_Type_()
 #define TCollection_DataMap XCAFDoc_DataMapOfShapeLabel
-#define TCollection_DataMap_hxx <XCAFDoc_DataMapOfShapeLabel.hxx>
+#define TCollection_DataMap_hxx <DataExchange/XCAFDoc/XCAFDoc_DataMapOfShapeLabel.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

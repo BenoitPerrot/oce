@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_DatumRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_DatumRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DatumRetrievalDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Datum.hxx>
-#include <XCAFDoc_Datum.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Datum.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>

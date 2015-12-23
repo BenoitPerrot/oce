@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_MaterialDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_MaterialDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_MaterialDriver)
 #include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
-#include <XCAFDoc_Material.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Material.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 IMPLEMENT_DOMSTRING (NameIndexString,     "name")

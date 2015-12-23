@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_AreaDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_AreaDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_AreaDriver)
-#include <XCAFDoc_Area.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Area.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 //=======================================================================

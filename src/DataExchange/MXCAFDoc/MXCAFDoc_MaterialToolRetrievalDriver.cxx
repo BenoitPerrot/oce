@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_MaterialToolRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_MaterialToolRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialToolRetrievalDriver)
 #include <DataExchange/PXCAFDoc/PXCAFDoc_MaterialTool.hxx>
-#include <XCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
 
 
 //=======================================================================

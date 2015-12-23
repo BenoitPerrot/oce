@@ -13,7 +13,7 @@
 #include <Handle_XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <XCAFDoc_ColorType.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorType.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 class XCAFDoc_ShapeTool;

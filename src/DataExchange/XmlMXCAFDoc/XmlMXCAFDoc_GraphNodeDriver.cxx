@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_GraphNodeDriver)
 
 #include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_PCharacter.hxx>

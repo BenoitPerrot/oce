@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNodeSequence.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <XCAFDoc_GraphNode.hxx>
-#include <XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
  
 
 #define SeqItem Handle(XCAFDoc_GraphNode)
-#define SeqItem_hxx <XCAFDoc_GraphNode.hxx>
+#define SeqItem_hxx <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #define TCollection_SequenceNode XCAFDoc_SequenceNodeOfGraphNodeSequence
-#define TCollection_SequenceNode_hxx <XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/XCAFDoc/XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
 #define Handle_TCollection_SequenceNode Handle_XCAFDoc_SequenceNodeOfGraphNodeSequence
 #define TCollection_SequenceNode_Type_() XCAFDoc_SequenceNodeOfGraphNodeSequence_Type_()
 #define TCollection_Sequence XCAFDoc_GraphNodeSequence
-#define TCollection_Sequence_hxx <XCAFDoc_GraphNodeSequence.hxx>
+#define TCollection_Sequence_hxx <DataExchange/XCAFDoc/XCAFDoc_GraphNodeSequence.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

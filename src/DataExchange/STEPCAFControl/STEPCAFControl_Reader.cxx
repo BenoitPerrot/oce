@@ -22,11 +22,11 @@
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfShapePD.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
-#include <XCAFDoc_DataMapOfShapeLabel.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
@@ -73,28 +73,28 @@
 
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <XCAFDoc_ColorTool.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
-#include <XCAFDoc_DimTolTool.hxx>
-#include <XCAFDoc_MaterialTool.hxx>
-#include <XCAFDoc_DataMapOfShapeLabel.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_ValidationProps.hxx>
 #include <DataExchange/StepRepr/StepRepr_Representation.hxx>
-#include <XCAFDoc_Area.hxx>
-#include <XCAFDoc_Volume.hxx>
-#include <XCAFDoc_Centroid.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Area.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Centroid.hxx>
 #include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/StepVisual/StepVisual_LayeredItem.hxx>
-#include <XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <DataExchange/StepVisual/StepVisual_Invisibility.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
-#include <XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 
@@ -109,7 +109,7 @@
 #include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_SpecifiedHigherUsageOccurrence.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
 // skl 21.08.2003 for reading G&DT

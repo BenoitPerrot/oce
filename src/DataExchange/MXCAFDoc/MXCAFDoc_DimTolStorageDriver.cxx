@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_DimTolStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_DimTolStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DimTolStorageDriver)
-#include <XCAFDoc_DimTol.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DimTol.hxx>
 #include <DataExchange/PXCAFDoc/PXCAFDoc_DimTol.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

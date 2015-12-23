@@ -18,7 +18,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <XCAFDoc_Location.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Location.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_Location)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -223,8 +223,8 @@ static Standard_Integer OCC22980 (Draw_Interpretor& di, Standard_Integer /*argc*
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <DataExchange/XCAFApp/XCAFApp_Application.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 
@@ -1769,7 +1769,7 @@ struct QABugs_NHandleClass
   }
 };
 
-#include <XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
 #include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Writer.hxx>
 static Standard_Integer OCC23951 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)

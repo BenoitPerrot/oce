@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <XCAFDoc_ColorType.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorType.hxx>
 class Standard_GUID;
 class XCAFDoc_DocumentTool;
 class XCAFDoc_Location;

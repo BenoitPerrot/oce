@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMXCAFDoc_VolumeDriver)
 IMPLEMENT_DOWNCAST(BinMXCAFDoc_VolumeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_VolumeDriver)
-#include <XCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Volume.hxx>
 
 //=======================================================================
 //function :

@@ -20,20 +20,20 @@
 #include <XCAFPrs_DataMapOfStyleShape.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <XCAFPrs.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ColorTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
-#include <XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_IndexedMapOfLocation.hxx>
 #include <OCAF/TDF/TDF_AttributeSequence.hxx>
-#include <XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNode.hxx>
 
 static Standard_Boolean viewnameMode = Standard_False;
 

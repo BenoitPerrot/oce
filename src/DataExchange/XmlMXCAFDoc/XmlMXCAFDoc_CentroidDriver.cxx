@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMXCAFDoc_CentroidDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_CentroidDriver)
 
 #include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
-#include <XCAFDoc_Centroid.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Centroid.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <stdio.h>

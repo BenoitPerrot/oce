@@ -1041,8 +1041,8 @@ static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, con
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <Viewer/Draw/Draw.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
@@ -1584,7 +1584,7 @@ static Standard_Integer OCC669 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <XCAFDoc.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc.hxx>
 //=======================================================================
 //function :  OCC738_ShapeRef
 //purpose  :

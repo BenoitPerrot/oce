@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <XCAFDoc_ShapeMapTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeMapTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_ShapeMapTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

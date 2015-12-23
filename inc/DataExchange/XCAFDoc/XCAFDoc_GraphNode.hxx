@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFDoc_GraphNode.hxx>
 
-#include <XCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_GraphNodeSequence.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

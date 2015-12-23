@@ -28,9 +28,9 @@
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 
-#include <XCAFDoc_DocumentTool.hxx>
-#include <XCAFDoc_ShapeTool.hxx>
-#include <XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_LayerTool.hxx>
 
 //=======================================================================
 // Section: Work with layers

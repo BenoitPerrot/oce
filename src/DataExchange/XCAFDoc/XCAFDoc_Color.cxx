@@ -19,7 +19,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <XCAFDoc_Color.hxx>
+#include <DataExchange/XCAFDoc/XCAFDoc_Color.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_Color)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
