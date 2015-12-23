@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlConverter_IsoAspect.hxx>
-#include <VrmlConverter_LineAspect.hxx>
-#include <VrmlConverter_ShadingAspect.hxx>
-#include <VrmlConverter_PointAspect.hxx>
-#include <VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_IsoAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_LineAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_ShadingAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_PointAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Drawer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(VrmlConverter_Drawer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

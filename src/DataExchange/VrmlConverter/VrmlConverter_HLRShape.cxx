@@ -12,15 +12,15 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <VrmlConverter_Drawer.hxx>
-#include <VrmlConverter_Projector.hxx>
-#include <VrmlConverter_HLRShape.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Projector.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_HLRShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/StdPrs/StdPrs_HLRToolShape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <VrmlConverter_DeflectionCurve.hxx>
-#include <VrmlConverter_LineAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_DeflectionCurve.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_LineAspect.hxx>
 #include <Precision.hxx>
 #include <DataExchange/Vrml/Vrml_Separator.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>

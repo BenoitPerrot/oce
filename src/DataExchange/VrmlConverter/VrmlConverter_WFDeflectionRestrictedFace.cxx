@@ -12,16 +12,16 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <VrmlConverter_Drawer.hxx>
-#include <VrmlConverter_WFDeflectionRestrictedFace.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_WFDeflectionRestrictedFace.hxx>
 #include <ModelingAlgorithms/Hatch/Hatch_Hatcher.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <VrmlConverter_IsoAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_IsoAspect.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
-#include <VrmlConverter_DeflectionCurve.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_DeflectionCurve.hxx>
 #include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>

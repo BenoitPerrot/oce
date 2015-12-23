@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlConverter_Drawer.hxx>
-#include <VrmlConverter_ShadedShape.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_ShadedShape.hxx>
 #include <DataExchange/Vrml/Vrml_Normal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -45,7 +45,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>
-#include <VrmlConverter_ShadingAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_ShadingAspect.hxx>
 #include <DataExchange/Vrml/Vrml_ShapeHints.hxx>
 #include <DataExchange/Vrml/Vrml_MaterialBindingAndNormalBinding.hxx>
 #include <DataExchange/Vrml/Vrml_NormalBinding.hxx>

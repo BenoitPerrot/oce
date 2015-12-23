@@ -13,7 +13,7 @@
 
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <VrmlConverter_Projector.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Projector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(VrmlConverter_Projector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Vrml/Vrml_Material.hxx>
-#include <VrmlConverter_IsoAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_IsoAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(VrmlConverter_IsoAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

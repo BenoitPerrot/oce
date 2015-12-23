@@ -11,7 +11,7 @@
 #include <Handle_VrmlConverter_IsoAspect.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <VrmlConverter_LineAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_LineAspect.hxx>
 #include <Handle_Vrml_Material.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Vrml_Material;

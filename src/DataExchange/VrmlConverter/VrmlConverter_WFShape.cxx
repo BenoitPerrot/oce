@@ -12,21 +12,21 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <VrmlConverter_Drawer.hxx>
-#include <VrmlConverter_WFShape.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_WFShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Prs3d/Prs3d_ShapeTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <VrmlConverter_IsoAspect.hxx>
-#include <VrmlConverter_LineAspect.hxx>
-#include <VrmlConverter_WFRestrictedFace.hxx>
-#include <VrmlConverter_Curve.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_IsoAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_LineAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_WFRestrictedFace.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Curve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx> 
 #include <ModelingData/BRep/BRep_Tool.hxx> 
-#include <VrmlConverter_PointAspect.hxx> 
+#include <DataExchange/VrmlConverter/VrmlConverter_PointAspect.hxx> 
 #include <DataExchange/Vrml/Vrml_Separator.hxx>
 #include <DataExchange/Vrml/Vrml_Coordinate3.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>

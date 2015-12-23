@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <VrmlConverter_Drawer.hxx>
-#include <VrmlConverter_DeflectionCurve.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_DeflectionCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -23,7 +23,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>
-#include <VrmlConverter_LineAspect.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_LineAspect.hxx>
 #include <DataExchange/Vrml/Vrml_Separator.hxx>
 #include <DataExchange/Vrml/Vrml_Coordinate3.hxx>
 #include <DataExchange/Vrml/Vrml_IndexedLineSet.hxx>

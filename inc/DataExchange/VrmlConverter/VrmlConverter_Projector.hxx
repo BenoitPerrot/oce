@@ -16,8 +16,8 @@
 #include <DataExchange/Vrml/Vrml_DirectionalLight.hxx>
 #include <DataExchange/Vrml/Vrml_PointLight.hxx>
 #include <DataExchange/Vrml/Vrml_SpotLight.hxx>
-#include <VrmlConverter_TypeOfCamera.hxx>
-#include <VrmlConverter_TypeOfLight.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_TypeOfCamera.hxx>
+#include <DataExchange/VrmlConverter/VrmlConverter_TypeOfLight.hxx>
 #include <DataExchange/Vrml/Vrml_MatrixTransform.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
