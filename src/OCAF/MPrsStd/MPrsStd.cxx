@@ -17,16 +17,16 @@
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
-#include <MPrsStd.hxx>
+#include <OCAF/MPrsStd/MPrsStd.hxx>
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
-#include <MPrsStd_AISPresentationStorageDriver.hxx>
-#include <MPrsStd_AISPresentationRetrievalDriver.hxx>
-#include <MPrsStd_AISPresentationRetrievalDriver_1.hxx>
-//#include <MPrsStd_AISViewerStorageDriver.hxx>
-//#include <MPrsStd_AISViewerRetrievalDriver.hxx> 
-#include <MPrsStd_PositionStorageDriver.hxx>
-#include <MPrsStd_PositionRetrievalDriver.hxx>
+#include <OCAF/MPrsStd/MPrsStd_AISPresentationStorageDriver.hxx>
+#include <OCAF/MPrsStd/MPrsStd_AISPresentationRetrievalDriver.hxx>
+#include <OCAF/MPrsStd/MPrsStd_AISPresentationRetrievalDriver_1.hxx>
+//#include <OCAF/MPrsStd/MPrsStd_AISViewerStorageDriver.hxx>
+//#include <OCAF/MPrsStd/MPrsStd_AISViewerRetrievalDriver.hxx> 
+#include <OCAF/MPrsStd/MPrsStd_PositionStorageDriver.hxx>
+#include <OCAF/MPrsStd/MPrsStd_PositionRetrievalDriver.hxx>
 
 //=======================================================================
 //function : AddStorageDriver

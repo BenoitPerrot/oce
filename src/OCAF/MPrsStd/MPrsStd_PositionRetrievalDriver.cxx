@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <MPrsStd_PositionRetrievalDriver.hxx>
+#include <OCAF/MPrsStd/MPrsStd_PositionRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MPrsStd_PositionRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

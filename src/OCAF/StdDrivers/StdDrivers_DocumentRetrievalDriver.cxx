@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(StdDrivers_DocumentRetrievalDriver)
 #include <OCAF/MNaming/MNaming.hxx>  
 #include <OCAF/MDocStd/MDocStd.hxx> 
 #include <OCAF/MFunction/MFunction.hxx>
-#include <MPrsStd.hxx>
+#include <OCAF/MPrsStd/MPrsStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 //=======================================================================
 //function : PAppStd_DocumentRetrievalDriver

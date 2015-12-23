@@ -19,7 +19,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <MPrsStd_AISPresentationStorageDriver.hxx>
+#include <OCAF/MPrsStd/MPrsStd_AISPresentationStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MPrsStd_AISPresentationStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
