@@ -16,7 +16,7 @@
 #include <StepGeom_EvaluatedDegeneratePcurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWEvaluatedDegeneratePcurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWEvaluatedDegeneratePcurve.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Surface.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>

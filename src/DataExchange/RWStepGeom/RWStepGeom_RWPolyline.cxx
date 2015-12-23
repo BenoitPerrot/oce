@@ -16,7 +16,7 @@
 #include <StepGeom_Polyline.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWPolyline.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPolyline.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 

@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepGeom_RWGeometricRepresentationItem.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationItem.hxx>
 
 
 RWStepGeom_RWGeometricRepresentationItem::RWStepGeom_RWGeometricRepresentationItem () {}

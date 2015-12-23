@@ -16,7 +16,7 @@
 #include <StepGeom_RectangularTrimmedSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWRectangularTrimmedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRectangularTrimmedSurface.hxx>
 #include <StepGeom_Surface.hxx>
 
 

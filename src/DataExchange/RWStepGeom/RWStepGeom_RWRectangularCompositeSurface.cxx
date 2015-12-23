@@ -16,7 +16,7 @@
 #include <StepGeom_RectangularCompositeSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWRectangularCompositeSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRectangularCompositeSurface.hxx>
 #include <StepGeom_HArray2OfSurfacePatch.hxx>
 #include <StepGeom_SurfacePatch.hxx>
 

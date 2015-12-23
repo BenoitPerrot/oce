@@ -16,7 +16,7 @@
 #include <StepGeom_Circle.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWCircle.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCircle.hxx>
 #include <StepGeom_Axis2Placement.hxx>
 
 

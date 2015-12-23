@@ -18,7 +18,7 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <StepGeom_RationalBSplineCurve.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
@@ -29,8 +29,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_KnotType.hxx>
 
-#include <RWStepGeom_RWBSplineCurveWithKnots.hxx>
-#include <RWStepGeom_RWRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurveWithKnots.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRationalBSplineCurve.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

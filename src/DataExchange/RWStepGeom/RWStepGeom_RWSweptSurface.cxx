@@ -16,7 +16,7 @@
 #include <StepGeom_SweptSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWSweptSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSweptSurface.hxx>
 #include <StepGeom_Curve.hxx>
 
 

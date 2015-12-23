@@ -16,7 +16,7 @@
 #include <StepGeom_Line.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWLine.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWLine.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Vector.hxx>
 

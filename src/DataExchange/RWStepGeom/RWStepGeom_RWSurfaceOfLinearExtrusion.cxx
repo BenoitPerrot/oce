@@ -16,7 +16,7 @@
 #include <StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWSurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceOfLinearExtrusion.hxx>
 #include <StepGeom_Vector.hxx>
 #include <StepGeom_Curve.hxx>
 

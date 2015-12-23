@@ -16,7 +16,7 @@
 #include <StepGeom_BezierCurveAndRationalBSplineCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWBezierCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBezierCurveAndRationalBSplineCurve.hxx>
 #include <StepGeom_BezierCurve.hxx>
 #include <StepGeom_RationalBSplineCurve.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>

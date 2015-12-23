@@ -16,7 +16,7 @@
 #include <StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWQuasiUniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformCurveAndRationalBSplineCurve.hxx>
 #include <StepGeom_QuasiUniformCurve.hxx>
 #include <StepGeom_RationalBSplineCurve.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>

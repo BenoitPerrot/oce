@@ -16,7 +16,7 @@
 #include <StepGeom_SurfaceOfRevolution.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWSurfaceOfRevolution.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceOfRevolution.hxx>
 #include <StepGeom_Axis1Placement.hxx>
 #include <StepGeom_Curve.hxx>
 

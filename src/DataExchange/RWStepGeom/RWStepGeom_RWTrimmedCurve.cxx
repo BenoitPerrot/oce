@@ -16,7 +16,7 @@
 #include <StepGeom_TrimmedCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWTrimmedCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWTrimmedCurve.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_HArray1OfTrimmingSelect.hxx>
 #include <StepGeom_TrimmingSelect.hxx>

@@ -21,7 +21,7 @@
 #include <StepGeom_CurveBoundedSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWCurveBoundedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCurveBoundedSurface.hxx>
 #include <StepGeom_HArray1OfSurfaceBoundary.hxx>
 #include <StepGeom_SurfaceBoundary.hxx>
 

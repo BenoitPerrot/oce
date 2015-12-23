@@ -16,7 +16,7 @@
 #include <StepGeom_Placement.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWPlacement.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPlacement.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 
 

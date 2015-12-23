@@ -16,7 +16,7 @@
 #include <StepGeom_Conic.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWConic.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWConic.hxx>
 #include <StepGeom_Axis2Placement.hxx>
 
 

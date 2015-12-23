@@ -480,21 +480,21 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignPresentedItem.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepAP214_RWAutoDesignViewArea.hxx>
-#include <RWStepGeom_RWAxis1Placement.hxx>
-#include <RWStepGeom_RWAxis2Placement2d.hxx>
-#include <RWStepGeom_RWAxis2Placement3d.hxx>
-#include <RWStepGeom_RWBSplineCurve.hxx>
-#include <RWStepGeom_RWBSplineCurveWithKnots.hxx>
-#include <RWStepGeom_RWBSplineSurface.hxx>
-#include <RWStepGeom_RWBSplineSurfaceWithKnots.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWAxis1Placement.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWAxis2Placement2d.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWAxis2Placement3d.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurveWithKnots.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineSurfaceWithKnots.hxx>
 #include <RWStepVisual_RWBackgroundColour.hxx>
-#include <RWStepGeom_RWBezierCurve.hxx>
-#include <RWStepGeom_RWBezierSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBezierCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBezierSurface.hxx>
 #include <RWStepShape_RWBlock.hxx>
 #include <RWStepShape_RWBooleanResult.hxx>
-#include <RWStepGeom_RWBoundaryCurve.hxx>
-#include <RWStepGeom_RWBoundedCurve.hxx>
-#include <RWStepGeom_RWBoundedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBoundaryCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBoundedCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBoundedSurface.hxx>
 #include <RWStepShape_RWBoxDomain.hxx>
 #include <RWStepShape_RWBoxedHalfSpace.hxx>
 #include <RWStepShape_RWBrepWithVoids.hxx>
@@ -504,17 +504,17 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepVisual_RWCameraModelD2.hxx>
 #include <RWStepVisual_RWCameraModelD3.hxx>
 #include <RWStepVisual_RWCameraUsage.hxx>
-#include <RWStepGeom_RWCartesianPoint.hxx>
-#include <RWStepGeom_RWCartesianTransformationOperator.hxx>
-#include <RWStepGeom_RWCartesianTransformationOperator3d.hxx>
-#include <RWStepGeom_RWCircle.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCartesianPoint.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCartesianTransformationOperator.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCartesianTransformationOperator3d.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCircle.hxx>
 #include <RWStepShape_RWClosedShell.hxx>
 #include <RWStepVisual_RWColour.hxx>
 #include <RWStepVisual_RWColourRgb.hxx>
 #include <RWStepVisual_RWColourSpecification.hxx>
-#include <RWStepGeom_RWCompositeCurve.hxx>
-#include <RWStepGeom_RWCompositeCurveOnSurface.hxx>
-#include <RWStepGeom_RWCompositeCurveSegment.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCompositeCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCompositeCurveOnSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCompositeCurveSegment.hxx>
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <RWStepVisual_RWCompositeText.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWCompositeTextWithAssociatedCurves.hxx>
@@ -522,8 +522,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <RWStepVisual_RWCompositeTextWithExtent.hxx>
 
-#include <RWStepGeom_RWConic.hxx>
-#include <RWStepGeom_RWConicalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWConic.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWConicalSurface.hxx>
 #include <RWStepShape_RWConnectedFaceSet.hxx>
 #include <RWStepVisual_RWContextDependentInvisibility.hxx>
 #include <RWStepVisual_RWContextDependentOverRidingStyledItem.hxx>
@@ -532,26 +532,26 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from Rev2 to Rev4 :  <RWStepShape_RWCsgRepresentation.hxx>
 #include <RWStepShape_RWCsgShapeRepresentation.hxx>
 #include <RWStepShape_RWCsgSolid.hxx>
-#include <RWStepGeom_RWCurve.hxx>
-#include <RWStepGeom_RWCurveBoundedSurface.hxx>
-#include <RWStepGeom_RWCurveReplica.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCurveBoundedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCurveReplica.hxx>
 #include <RWStepVisual_RWCurveStyle.hxx>
 #include <RWStepVisual_RWCurveStyleFont.hxx>
 #include <RWStepVisual_RWCurveStyleFontPattern.hxx>
-#include <RWStepGeom_RWCylindricalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCylindricalSurface.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDate.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDateAndTime.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDateRole.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDateTimeRole.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDefinedSymbol.hxx>
 #include <RWStepRepr_RWDefinitionalRepresentation.hxx>
-#include <RWStepGeom_RWDegeneratePcurve.hxx>
-#include <RWStepGeom_RWDegenerateToroidalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWDegeneratePcurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWDegenerateToroidalSurface.hxx>
 #include <RWStepRepr_RWDescriptiveRepresentationItem.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDimensionCurve.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDimensionCurveTerminator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDimensionalExponents.hxx>
-#include <RWStepGeom_RWDirection.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWDirection.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDraughtingAnnotationOccurrence.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDraughtingCallout.hxx>
 #include <RWStepVisual_RWDraughtingPreDefinedColour.hxx>
@@ -564,9 +564,9 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepShape_RWEdge.hxx>
 #include <RWStepShape_RWEdgeCurve.hxx>
 #include <RWStepShape_RWEdgeLoop.hxx>
-#include <RWStepGeom_RWElementarySurface.hxx>
-#include <RWStepGeom_RWEllipse.hxx>
-#include <RWStepGeom_RWEvaluatedDegeneratePcurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWElementarySurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWEllipse.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWEvaluatedDegeneratePcurve.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWExternalSource.hxx>
 #include <RWStepVisual_RWExternallyDefinedCurveFont.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWExternallyDefinedHatchStyle.hxx>
@@ -589,8 +589,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWFillAreaStyleTiles.hxx>
 #include <RWStepRepr_RWFunctionallyDefinedTransformation.hxx>
 #include <RWStepShape_RWGeometricCurveSet.hxx>
-#include <RWStepGeom_RWGeometricRepresentationContext.hxx>
-#include <RWStepGeom_RWGeometricRepresentationItem.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationContext.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationItem.hxx>
 #include <RWStepShape_RWGeometricSet.hxx>
 #include <RWStepShape_RWGeometricallyBoundedSurfaceShapeRepresentation.hxx>
 #include <RWStepShape_RWGeometricallyBoundedWireframeShapeRepresentation.hxx>
@@ -599,12 +599,12 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepBasic/RWStepBasic_RWGroup.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWGroupRelationship.hxx>
 #include <RWStepShape_RWHalfSpaceSolid.hxx>
-#include <RWStepGeom_RWHyperbola.hxx>
-#include <RWStepGeom_RWIntersectionCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWHyperbola.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWIntersectionCurve.hxx>
 #include <RWStepVisual_RWInvisibility.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWLengthMeasureWithUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWLengthUnit.hxx>
-#include <RWStepGeom_RWLine.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWLine.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWLocalTime.hxx>
 #include <RWStepShape_RWLoop.hxx>
 #include <RWStepShape_RWManifoldSolidBrep.hxx>
@@ -616,8 +616,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWMechanicalDesignPresentationArea.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWNamedUnit.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepShape_RWNonManifoldSurfaceShapeRepresentation.hxx>
-#include <RWStepGeom_RWOffsetCurve3d.hxx>
-#include <RWStepGeom_RWOffsetSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWOffsetCurve3d.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWOffsetSurface.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepAP214_RWOneDirectionRepeatFactor.hxx>
 #include <RWStepShape_RWOpenShell.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWOrdinalDate.hxx>
@@ -629,29 +629,29 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepShape_RWOrientedFace.hxx>
 #include <RWStepShape_RWOrientedOpenShell.hxx>
 #include <RWStepShape_RWOrientedPath.hxx>
-#include <RWStepGeom_RWOuterBoundaryCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWOuterBoundaryCurve.hxx>
 #include <RWStepVisual_RWOverRidingStyledItem.hxx>
-#include <RWStepGeom_RWParabola.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWParabola.hxx>
 #include <RWStepRepr_RWParametricRepresentationContext.hxx>
 #include <RWStepShape_RWPath.hxx>
-#include <RWStepGeom_RWPcurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPcurve.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPerson.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPersonAndOrganization.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPersonAndOrganizationRole.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPersonalAddress.hxx>
-#include <RWStepGeom_RWPlacement.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPlacement.hxx>
 #include <RWStepVisual_RWPlanarBox.hxx>
 #include <RWStepVisual_RWPlanarExtent.hxx>
-#include <RWStepGeom_RWPlane.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPlane.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPlaneAngleMeasureWithUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPlaneAngleUnit.hxx>
-#include <RWStepGeom_RWPoint.hxx>
-#include <RWStepGeom_RWPointOnCurve.hxx>
-#include <RWStepGeom_RWPointOnSurface.hxx>
-#include <RWStepGeom_RWPointReplica.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPoint.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPointOnCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPointOnSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPointReplica.hxx>
 #include <RWStepVisual_RWPointStyle.hxx>
 #include <RWStepShape_RWPolyLoop.hxx>
-#include <RWStepGeom_RWPolyline.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPolyline.hxx>
 #include <RWStepVisual_RWPreDefinedColour.hxx>
 #include <RWStepVisual_RWPreDefinedCurveFont.hxx>
 #include <RWStepVisual_RWPreDefinedItem.hxx>
@@ -678,15 +678,15 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductType.hxx>
 #include <RWStepRepr_RWPropertyDefinition.hxx>
 #include <RWStepRepr_RWPropertyDefinitionRepresentation.hxx>
-#include <RWStepGeom_RWQuasiUniformCurve.hxx>
-#include <RWStepGeom_RWQuasiUniformSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformSurface.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWRatioMeasureWithUnit.hxx>
-#include <RWStepGeom_RWRationalBSplineCurve.hxx>
-#include <RWStepGeom_RWRationalBSplineSurface.hxx>
-#include <RWStepGeom_RWRectangularCompositeSurface.hxx>
-#include <RWStepGeom_RWRectangularTrimmedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRationalBSplineSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRectangularCompositeSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRectangularTrimmedSurface.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWRepItemGroup.hxx>
-#include <RWStepGeom_RWReparametrisedCompositeCurveSegment.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWReparametrisedCompositeCurveSegment.hxx>
 #include <RWStepRepr_RWRepresentation.hxx>
 #include <RWStepRepr_RWRepresentationContext.hxx>
 #include <RWStepRepr_RWRepresentationItem.hxx>
@@ -696,7 +696,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepShape_RWRightAngularWedge.hxx>
 #include <RWStepShape_RWRightCircularCone.hxx>
 #include <RWStepShape_RWRightCircularCylinder.hxx>
-#include <RWStepGeom_RWSeamCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSeamCurve.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassification.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassificationLevel.hxx>
 #include <RWStepRepr_RWShapeAspect.hxx>
@@ -710,15 +710,15 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepShape_RWSolidModel.hxx>
 #include <RWStepShape_RWSolidReplica.hxx>
 #include <RWStepShape_RWSphere.hxx>
-#include <RWStepGeom_RWSphericalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSphericalSurface.hxx>
 #include <RWStepVisual_RWStyledItem.hxx>
-#include <RWStepGeom_RWSurface.hxx>
-#include <RWStepGeom_RWSurfaceCurve.hxx>
-#include <RWStepGeom_RWSurfaceOfLinearExtrusion.hxx>
-#include <RWStepGeom_RWSurfaceOfRevolution.hxx>
-#include <RWStepGeom_RWSurfaceCurveAndBoundedCurve.hxx>
-#include <RWStepGeom_RWSurfacePatch.hxx>
-#include <RWStepGeom_RWSurfaceReplica.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceOfRevolution.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceCurveAndBoundedCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfacePatch.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceReplica.hxx>
 #include <RWStepVisual_RWSurfaceSideStyle.hxx>
 #include <RWStepVisual_RWSurfaceStyleBoundary.hxx>
 #include <RWStepVisual_RWSurfaceStyleControlGrid.hxx>
@@ -728,7 +728,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepVisual_RWSurfaceStyleSilhouette.hxx>
 #include <RWStepVisual_RWSurfaceStyleUsage.hxx>
 #include <RWStepShape_RWSweptAreaSolid.hxx>
-#include <RWStepGeom_RWSweptSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSweptSurface.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWSymbolColour.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWSymbolRepresentation.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWSymbolRepresentationMap.hxx>
@@ -749,38 +749,38 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepVisual_RWTextStyleWithBoxCharacteristics.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWTextStyleWithMirror.hxx>
 #include <RWStepShape_RWTopologicalRepresentationItem.hxx>
-#include <RWStepGeom_RWToroidalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWToroidalSurface.hxx>
 #include <RWStepShape_RWTorus.hxx>
 #include <RWStepShape_RWTransitionalShapeRepresentation.hxx>
-#include <RWStepGeom_RWTrimmedCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWTrimmedCurve.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepAP214_RWTwoDirectionRepeatFactor.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWUncertaintyMeasureWithUnit.hxx>
-#include <RWStepGeom_RWUniformCurve.hxx>
-#include <RWStepGeom_RWUniformSurface.hxx>
-#include <RWStepGeom_RWVector.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWUniformCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWUniformSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWVector.hxx>
 #include <RWStepShape_RWVertex.hxx>
 #include <RWStepShape_RWVertexLoop.hxx>
 #include <RWStepShape_RWVertexPoint.hxx>
 #include <RWStepVisual_RWViewVolume.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWWeekOfYearAndDayDate.hxx>
-#include <RWStepGeom_RWUniformCurveAndRationalBSplineCurve.hxx>
-#include <RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
-#include <RWStepGeom_RWQuasiUniformCurveAndRationalBSplineCurve.hxx>
-#include <RWStepGeom_RWBezierCurveAndRationalBSplineCurve.hxx>
-#include <RWStepGeom_RWBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
-#include <RWStepGeom_RWUniformSurfaceAndRationalBSplineSurface.hxx>
-#include <RWStepGeom_RWQuasiUniformSurfaceAndRationalBSplineSurface.hxx>
-#include <RWStepGeom_RWBezierSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWUniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBezierCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBezierSurfaceAndRationalBSplineSurface.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndLengthUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndPlaneAngleUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndLengthUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit.hxx>
-#include <RWStepGeom_RWGeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <RWStepShape_RWLoopAndPath.hxx>
 
 // Added by FMA  for Rev4
-#include <RWStepGeom_RWGeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
-#include <RWStepGeom_RWGeometricRepresentationContextAndParametricRepresentationContext.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationContextAndParametricRepresentationContext.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndSolidAngleUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSolidAngleUnit.hxx>
@@ -1025,7 +1025,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_Subedge.hxx>
 #include <StepShape_SeamEdge.hxx>
 #include <StepShape_ConnectedFaceSubSet.hxx>
-#include <RWStepGeom_RWOrientedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWOrientedSurface.hxx>
 #include <RWStepShape_RWSubface.hxx>
 #include <RWStepShape_RWSubedge.hxx>
 #include <RWStepShape_RWSeamEdge.hxx>

@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_Point.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepGeom_RWPoint.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPoint.hxx>
 
 
 RWStepGeom_RWPoint::RWStepGeom_RWPoint () {}

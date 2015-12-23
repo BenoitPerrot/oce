@@ -20,7 +20,7 @@
 #include <StepGeom_OrientedSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWOrientedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWOrientedSurface.hxx>
 
 //=======================================================================
 //function : RWStepGeom_RWOrientedSurface

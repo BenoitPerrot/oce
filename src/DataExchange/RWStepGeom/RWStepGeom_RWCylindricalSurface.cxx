@@ -16,7 +16,7 @@
 #include <StepGeom_CylindricalSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWCylindricalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCylindricalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
 

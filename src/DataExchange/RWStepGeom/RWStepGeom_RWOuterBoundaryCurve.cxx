@@ -16,7 +16,7 @@
 #include <StepGeom_OuterBoundaryCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWOuterBoundaryCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWOuterBoundaryCurve.hxx>
 #include <StepGeom_HArray1OfCompositeCurveSegment.hxx>
 #include <StepGeom_CompositeCurveSegment.hxx>
 #include <StepData_Logical.hxx>

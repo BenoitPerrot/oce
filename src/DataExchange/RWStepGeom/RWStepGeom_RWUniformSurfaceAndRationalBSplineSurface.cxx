@@ -16,7 +16,7 @@
 #include <StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <StepGeom_UniformSurface.hxx>
 #include <StepGeom_RationalBSplineSurface.hxx>
 #include <StepGeom_HArray2OfCartesianPoint.hxx>

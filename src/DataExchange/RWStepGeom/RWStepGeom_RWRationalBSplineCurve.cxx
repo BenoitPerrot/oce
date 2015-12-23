@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepGeom_RWRationalBSplineCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWRationalBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>

@@ -16,7 +16,7 @@
 #include <StepGeom_CartesianTransformationOperator.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWCartesianTransformationOperator.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCartesianTransformationOperator.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 

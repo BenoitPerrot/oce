@@ -16,7 +16,7 @@
 #include <StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWGeometricRepresentationContextAndParametricRepresentationContext.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationContextAndParametricRepresentationContext.hxx>
 #include <StepGeom_GeometricRepresentationContext.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepGeom_RWToroidalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWToroidalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
 

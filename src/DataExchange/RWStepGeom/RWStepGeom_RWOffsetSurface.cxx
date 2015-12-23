@@ -16,7 +16,7 @@
 #include <StepGeom_OffsetSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWOffsetSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWOffsetSurface.hxx>
 #include <StepGeom_Surface.hxx>
 #include <StepData_Logical.hxx>
 

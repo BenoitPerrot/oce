@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepGeom_RWCartesianPoint.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCartesianPoint.hxx>
 //#include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepGeom_RWCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCurve.hxx>
 
 
 RWStepGeom_RWCurve::RWStepGeom_RWCurve () {}

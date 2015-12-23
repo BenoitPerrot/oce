@@ -16,7 +16,7 @@
 #include <StepGeom_CompositeCurveOnSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWCompositeCurveOnSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCompositeCurveOnSurface.hxx>
 #include <StepGeom_HArray1OfCompositeCurveSegment.hxx>
 #include <StepGeom_CompositeCurveSegment.hxx>
 #include <StepData_Logical.hxx>

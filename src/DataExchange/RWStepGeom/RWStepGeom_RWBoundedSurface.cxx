@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_BoundedSurface.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepGeom_RWBoundedSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBoundedSurface.hxx>
 
 
 RWStepGeom_RWBoundedSurface::RWStepGeom_RWBoundedSurface () {}

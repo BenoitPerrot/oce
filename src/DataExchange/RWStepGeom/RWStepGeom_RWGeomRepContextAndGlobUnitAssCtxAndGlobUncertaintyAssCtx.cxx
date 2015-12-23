@@ -16,7 +16,7 @@
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWGeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWGeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepBasic_HArray1OfNamedUnit.hxx>

@@ -16,7 +16,7 @@
 #include <StepGeom_Parabola.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWParabola.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWParabola.hxx>
 #include <StepGeom_Axis2Placement.hxx>
 
 

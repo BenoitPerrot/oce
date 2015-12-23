@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepGeom_RWBSplineCurveWithKnots.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurveWithKnots.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepGeom_KnotType.hxx>

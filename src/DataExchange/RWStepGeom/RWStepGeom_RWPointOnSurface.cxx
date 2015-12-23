@@ -16,7 +16,7 @@
 #include <StepGeom_PointOnSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWPointOnSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPointOnSurface.hxx>
 #include <StepGeom_Surface.hxx>
 
 

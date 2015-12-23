@@ -23,13 +23,13 @@
 #include <StepGeom_SurfaceCurveAndBoundedCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWSurfaceCurveAndBoundedCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceCurveAndBoundedCurve.hxx>
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_SurfaceCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWSurfaceCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceCurve.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_BoundedCurve.hxx>
 #include <StepGeom_HArray1OfPcurveOrSurface.hxx>

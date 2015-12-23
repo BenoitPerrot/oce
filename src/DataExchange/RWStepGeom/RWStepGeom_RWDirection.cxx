@@ -16,7 +16,7 @@
 #include <StepGeom_Direction.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepGeom_RWDirection.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWDirection.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 

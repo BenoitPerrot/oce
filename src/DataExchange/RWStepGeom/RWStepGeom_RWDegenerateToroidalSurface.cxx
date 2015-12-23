@@ -16,7 +16,7 @@
 #include <StepGeom_DegenerateToroidalSurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWDegenerateToroidalSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWDegenerateToroidalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
 

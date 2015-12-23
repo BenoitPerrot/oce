@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_Surface.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepGeom_RWSurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSurface.hxx>
 
 
 RWStepGeom_RWSurface::RWStepGeom_RWSurface () {}

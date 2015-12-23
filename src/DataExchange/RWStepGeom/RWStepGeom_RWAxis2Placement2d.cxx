@@ -16,7 +16,7 @@
 #include <StepGeom_Axis2Placement2d.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWAxis2Placement2d.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWAxis2Placement2d.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 

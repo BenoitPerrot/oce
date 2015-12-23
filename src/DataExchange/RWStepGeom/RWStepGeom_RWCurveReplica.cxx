@@ -16,7 +16,7 @@
 #include <StepGeom_CurveReplica.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWCurveReplica.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWCurveReplica.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_CartesianTransformationOperator.hxx>
 

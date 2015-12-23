@@ -16,7 +16,7 @@
 #include <StepGeom_PointOnCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWPointOnCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWPointOnCurve.hxx>
 #include <StepGeom_Curve.hxx>
 
 

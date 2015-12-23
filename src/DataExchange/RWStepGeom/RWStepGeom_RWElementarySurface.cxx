@@ -16,7 +16,7 @@
 #include <StepGeom_ElementarySurface.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWElementarySurface.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWElementarySurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
 

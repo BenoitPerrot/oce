@@ -16,7 +16,7 @@
 #include <StepGeom_SeamCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepGeom_RWSeamCurve.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWSeamCurve.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_HArray1OfPcurveOrSurface.hxx>
 #include <StepGeom_PcurveOrSurface.hxx>

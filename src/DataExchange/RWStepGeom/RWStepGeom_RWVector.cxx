@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepGeom_RWVector.hxx>
+#include <DataExchange/RWStepGeom/RWStepGeom_RWVector.hxx>
 #include <StepGeom_Direction.hxx>
 
 
