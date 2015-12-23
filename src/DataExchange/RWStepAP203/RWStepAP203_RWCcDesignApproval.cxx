@@ -21,7 +21,7 @@
 #include <StepAP203_CcDesignApproval.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP203_RWCcDesignApproval.hxx>
+#include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignApproval.hxx>
 #include <StepAP203_HArray1OfApprovedItem.hxx>
 #include <StepAP203_ApprovedItem.hxx>
 

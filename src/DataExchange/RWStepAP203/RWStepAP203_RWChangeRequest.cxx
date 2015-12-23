@@ -21,7 +21,7 @@
 #include <StepAP203_ChangeRequest.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP203_RWChangeRequest.hxx>
+#include <DataExchange/RWStepAP203/RWStepAP203_RWChangeRequest.hxx>
 #include <StepAP203_HArray1OfChangeRequestItem.hxx>
 #include <StepAP203_ChangeRequestItem.hxx>
 

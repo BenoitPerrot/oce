@@ -21,7 +21,7 @@
 #include <StepAP203_CcDesignSpecificationReference.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP203_RWCcDesignSpecificationReference.hxx>
+#include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignSpecificationReference.hxx>
 #include <StepAP203_HArray1OfSpecifiedItem.hxx>
 #include <StepAP203_SpecifiedItem.hxx>
 

@@ -21,7 +21,7 @@
 #include <StepAP203_CcDesignContract.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP203_RWCcDesignContract.hxx>
+#include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignContract.hxx>
 #include <StepAP203_HArray1OfContractedItem.hxx>
 #include <StepAP203_ContractedItem.hxx>
 

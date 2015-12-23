@@ -21,7 +21,7 @@
 #include <StepAP203_StartWork.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP203_RWStartWork.hxx>
+#include <DataExchange/RWStepAP203/RWStepAP203_RWStartWork.hxx>
 #include <StepAP203_HArray1OfWorkItem.hxx>
 #include <StepAP203_WorkItem.hxx>
 

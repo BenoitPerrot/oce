@@ -21,7 +21,7 @@
 #include <StepAP203_CcDesignSecurityClassification.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP203_RWCcDesignSecurityClassification.hxx>
+#include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignSecurityClassification.hxx>
 #include <StepAP203_HArray1OfClassifiedItem.hxx>
 #include <StepAP203_ClassifiedItem.hxx>
 

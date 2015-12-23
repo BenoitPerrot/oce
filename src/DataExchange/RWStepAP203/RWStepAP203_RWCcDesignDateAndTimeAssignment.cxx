@@ -21,7 +21,7 @@
 #include <StepAP203_CcDesignDateAndTimeAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP203_RWCcDesignDateAndTimeAssignment.hxx>
+#include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignDateAndTimeAssignment.hxx>
 #include <StepAP203_HArray1OfDateTimeItem.hxx>
 #include <StepAP203_DateTimeItem.hxx>
 
