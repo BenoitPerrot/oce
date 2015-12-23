@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Shape)
 IMPLEMENT_DOWNCAST(TDataXtd_Shape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Shape)
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 #include <TDataXtd.hxx>
 #include <TDF_Label.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

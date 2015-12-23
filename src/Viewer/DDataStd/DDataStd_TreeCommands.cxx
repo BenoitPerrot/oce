@@ -29,8 +29,8 @@
 #include <TDF_Label.hxx>
 
 #include <DDataStd_TreeBrowser.hxx>
-#include <TDataStd_TreeNode.hxx>
-#include <TDataStd_ChildNodeIterator.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_ChildNodeIterator.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

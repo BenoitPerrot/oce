@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataStd_DirectoryDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_DirectoryDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <TDataStd_Directory.hxx>
+#include <OCAF/TDataStd/TDataStd_Directory.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

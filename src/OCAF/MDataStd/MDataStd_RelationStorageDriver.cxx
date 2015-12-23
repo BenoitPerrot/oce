@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_RelationStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_RelationStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_RelationStorageDriver)
 #include <OCAF/PDataStd/PDataStd_Relation.hxx>
-#include <TDataStd_Relation.hxx>
+#include <OCAF/TDataStd/TDataStd_Relation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx> 

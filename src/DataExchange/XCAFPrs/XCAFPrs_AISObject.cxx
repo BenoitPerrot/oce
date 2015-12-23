@@ -26,7 +26,7 @@
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TPrsStd_AISPresentation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

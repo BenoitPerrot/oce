@@ -68,7 +68,7 @@
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
-#include <TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <TDF_CopyLabel.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -1039,7 +1039,7 @@ static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, con
 
 
 #include <DDocStd_DrawDocument.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <Draw.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
@@ -3272,20 +3272,20 @@ static Standard_Integer OCC15755 (Draw_Interpretor& di, Standard_Integer argc, c
 // Iterators
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
-#include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
-#include <TDataStd_ListIteratorOfListOfByte.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfExtendedString.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfByte.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
 // Attributes
-#include <TDataStd_Tick.hxx>
-#include <TDataStd_IntegerList.hxx>
-#include <TDataStd_RealList.hxx>
-#include <TDataStd_ExtStringList.hxx>
-#include <TDataStd_BooleanList.hxx>
-#include <TDataStd_ReferenceList.hxx>
-#include <TDataStd_BooleanArray.hxx>
-#include <TDataStd_ReferenceArray.hxx>
-#include <TDataStd_ByteArray.hxx>
-#include <TDataStd_NamedData.hxx>
+#include <OCAF/TDataStd/TDataStd_Tick.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerList.hxx>
+#include <OCAF/TDataStd/TDataStd_RealList.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringList.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanList.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_NamedData.hxx>
 #include <TDF_Reference.hxx>
 //
 Handle(AppStd_Application) app;

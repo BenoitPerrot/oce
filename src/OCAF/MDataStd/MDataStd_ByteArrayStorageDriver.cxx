@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_ByteArrayStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ByteArrayStorageDriver)
 #include <OCAF/PDataStd/PDataStd_ByteArray.hxx>
 #include <OCAF/PDataStd/PDataStd_ByteArray_1.hxx>
-#include <TDataStd_ByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>

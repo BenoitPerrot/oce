@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_BoxDriver)
 IMPLEMENT_DOWNCAST(DNaming_BoxDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
 #include <TFunction_Function.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TFunction_Logbook.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>

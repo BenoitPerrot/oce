@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_IntegerListStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_IntegerListStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_IntegerListStorageDriver)
 #include <OCAF/PDataStd/PDataStd_IntegerList.hxx>
-#include <TDataStd_IntegerList.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerList.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

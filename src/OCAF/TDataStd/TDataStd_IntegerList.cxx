@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_IntegerList.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_IntegerList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 #include <TNaming_NamedShape.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TPrsStd_DriverTable.hxx> 
 #include <TNaming_Tool.hxx>

@@ -34,12 +34,12 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ColorTool)
 #include <XCAFDoc_Color.hxx>
 
 #include <TDF_ChildIDIterator.hxx>
-#include <TDataStd_TreeNode.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_Color.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 
 #define AUTONAMING // automatically set names for labels

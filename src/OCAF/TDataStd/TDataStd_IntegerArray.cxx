@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <TDataStd_DeltaOnModificationOfIntArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DeltaOnModification.hxx>
-#include <TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_IntegerArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_IntegerArray)
 IMPLEMENT_DOWNCAST(TDataStd_IntegerArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_IntegerArray)
-#include <TDataStd_DeltaOnModificationOfIntArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntArray.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
 #define OCC925
 #define OCC2932

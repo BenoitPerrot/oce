@@ -37,7 +37,7 @@
 #include <TDF_ComparisonTool.hxx>
 #include <TDF_Reference.hxx>
 #include <TDocStd_XLink.hxx> 
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 

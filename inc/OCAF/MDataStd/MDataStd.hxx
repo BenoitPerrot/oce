@@ -14,7 +14,7 @@
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_MDF_ARDriverHSequence.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TDataStd_RealEnum.hxx>
+#include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
 class MDF_ASDriverHSequence;
 class CDM_MessageDriver;
 class MDF_ARDriverHSequence;

@@ -30,16 +30,16 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_NamedDataRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_NamedDataRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_NamedData.hxx>
-#include <TDataStd_NamedData.hxx>
+#include <OCAF/TDataStd/TDataStd_NamedData.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
-#include <TDataStd_DataMapOfStringReal.hxx>
-#include <TDataStd_DataMapOfStringByte.hxx>
-#include <TDataStd_DataMapOfStringString.hxx>
-#include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
-#include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringByte.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringString.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>

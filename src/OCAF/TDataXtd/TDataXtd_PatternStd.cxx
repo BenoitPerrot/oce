@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <TNaming_NamedShape.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDataXtd_Array1OfTrsf.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataXtd_PatternStd)
 IMPLEMENT_DOWNCAST(TDataXtd_PatternStd,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_PatternStd)
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <TDF_Label.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

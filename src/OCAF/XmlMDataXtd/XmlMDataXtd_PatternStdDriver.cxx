@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_PatternStdDriver)
 IMPLEMENT_DOWNCAST(XmlMDataXtd_PatternStdDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_PatternStdDriver)
 
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TDataXtd_PatternStd.hxx>
 #include <TNaming_NamedShape.hxx>
 

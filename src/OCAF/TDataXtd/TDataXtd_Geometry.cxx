@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Geometry)
 IMPLEMENT_DOWNCAST(TDataXtd_Geometry,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Geometry)
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 #include <TDataXtd.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>

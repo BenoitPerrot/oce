@@ -24,13 +24,13 @@
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDataStd_Directory.hxx>
+#include <OCAF/TDataStd/TDataStd_Directory.hxx>
 #include <TDataXtd_Shape.hxx>
 
 
 // LES ATTRIBUTES
 
-#include <TDataStd_NoteBook.hxx>
+#include <OCAF/TDataStd/TDataStd_NoteBook.hxx>
 #include <TDataXtd_Shape.hxx>
 
 

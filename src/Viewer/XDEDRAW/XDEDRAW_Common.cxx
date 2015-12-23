@@ -32,7 +32,7 @@
 #include <DDocStd_DrawDocument.hxx>
 #include <DDocStd.hxx>
 #include <TDocStd_Application.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDF_Data.hxx>
 
 #include <IGESCAFControl_Reader.hxx>

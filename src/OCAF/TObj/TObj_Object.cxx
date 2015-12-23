@@ -25,7 +25,7 @@
 #include <TObj_Persistence.hxx>
 #include <TObj_ReferenceIterator.hxx>
 #include <TObj_SequenceIterator.hxx>
-#include <TDataStd_AsciiString.hxx>
+#include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
 #include <TObj_TModel.hxx>
 #include <TObj_TNameContainer.hxx>
 #include <TObj_TObject.hxx>
@@ -43,12 +43,12 @@
 #include <TDF_Data.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_Tool.hxx>
-#include <TDataStd_ExtStringArray.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_IntegerArray.hxx>
-#include <TDataStd_Name.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_Owner.hxx>
 

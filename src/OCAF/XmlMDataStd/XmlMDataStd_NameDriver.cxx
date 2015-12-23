@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_NameDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 //=======================================================================
 //function : XmlMDataStd_NameDriver

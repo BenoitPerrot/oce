@@ -1353,7 +1353,7 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 
 
 #include<TDF_Label.hxx>
-#include<TDataStd_TreeNode.hxx>
+#include<OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
 #include<DDocStd.hxx>
 

@@ -19,10 +19,10 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 #include <TDataXtd.hxx>
-#include <TDataStd_RealEnum.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TNaming_NamedShape.hxx>
 
 //=======================================================================

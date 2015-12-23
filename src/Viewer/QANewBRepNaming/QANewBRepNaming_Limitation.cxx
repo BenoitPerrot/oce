@@ -26,7 +26,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 // OCAF
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <QANewBRepNaming_Loader.hxx>

@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
-#include <TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringHArray1OfInteger)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

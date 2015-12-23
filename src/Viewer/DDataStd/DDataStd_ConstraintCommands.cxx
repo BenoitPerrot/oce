@@ -28,8 +28,8 @@
 #include <TNaming_NamedShape.hxx>
 
 #include <TDataXtd.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TDataXtd_PatternStd.hxx>
 #include <TDataXtd_Position.hxx>

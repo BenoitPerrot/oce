@@ -23,7 +23,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TNaming_NamedShape.hxx>
 #endif
 enum BoolArguments {

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_PointDriver)
 #include <TDF_Label.hxx>
 #include <TDataXtd_Point.hxx>
 #include <TDataXtd_Geometry.hxx>
-//#include <TDataStd_Datum.hxx>
+//#include <OCAF/TDataStd/TDataStd_Datum.hxx>
 #include <Visualization/AIS/AIS_Point.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

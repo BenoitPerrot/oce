@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ReferenceListDriver)
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>
-#include <TDataStd_ReferenceList.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")

@@ -31,7 +31,7 @@
 #include <TDF_Label.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TDocStd_Document.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 #include <XCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
@@ -59,7 +59,7 @@
 #include <stdio.h>
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <XCAFDoc.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

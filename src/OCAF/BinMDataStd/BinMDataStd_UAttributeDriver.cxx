@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_UAttributeDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_UAttributeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_UAttributeDriver)
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 
 //=======================================================================
 //function : BinMDataStd_UAttributeDriver

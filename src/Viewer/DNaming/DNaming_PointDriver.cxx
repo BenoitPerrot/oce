@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 // OCAF
 #include <TNaming.hxx>
 #include <TDF_Label.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TFunction_Logbook.hxx>
 #include <TFunction_Function.hxx>
 #include <TNaming_NamedShape.hxx>

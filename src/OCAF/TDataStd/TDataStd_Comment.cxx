@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_Comment.hxx>
+#include <OCAF/TDataStd/TDataStd_Comment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Comment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_Comment)
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 
 
 #define lid1 45

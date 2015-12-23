@@ -46,7 +46,7 @@
 #include <STEPConstruct.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <XSControl_TransferWriter.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
@@ -87,7 +87,7 @@
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientListBinder.hxx>
 #include <StepVisual_InvisibleItem.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <StepVisual_Invisibility.hxx>
 #include <StepVisual_HArray1OfInvisibleItem.hxx>
 #include <HeaderSection_FileSchema.hxx>
@@ -168,7 +168,7 @@
 // added by skl 12.02.2004 for writing materials
 #include <XCAFDoc_MaterialTool.hxx>
 #include <XCAFDoc_Material.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <StepRepr_DescriptiveRepresentationItem.hxx>
 #include <StepBasic_SiUnitAndMassUnit.hxx>
 #include <StepBasic_DerivedUnitElement.hxx>

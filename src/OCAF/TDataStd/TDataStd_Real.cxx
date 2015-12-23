@@ -18,7 +18,7 @@
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Real)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_Real)
 IMPLEMENT_DOWNCAST(TDataStd_Real,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_Real)
 #include <TDF_Reference.hxx>
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 
 
 //=======================================================================

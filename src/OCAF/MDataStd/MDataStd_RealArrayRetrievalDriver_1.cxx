@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_RealArrayRetrievalDriver_1)
 
 #include <OCAF/PDataStd/PDataStd_RealArray.hxx>
 #include <OCAF/PDataStd/PDataStd_RealArray_1.hxx>
-#include <TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

@@ -15,10 +15,10 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TDataStd_ListOfByte.hxx>
+#include <OCAF/TDataStd/TDataStd_ListOfByte.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_BooleanList.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_BooleanList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_BooleanList)
 IMPLEMENT_DOWNCAST(TDataStd_BooleanList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_BooleanList)
-#include <TDataStd_ListIteratorOfListOfByte.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfByte.hxx>
 
 //=======================================================================
 //function : GetID

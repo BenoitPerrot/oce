@@ -14,14 +14,14 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfExtendedString.hxx>
-#include <TDataStd_DeltaOnModificationOfExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfExtStringArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DeltaOnModification.hxx>
-#include <TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_ExtStringArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_ExtStringArray)
 IMPLEMENT_DOWNCAST(TDataStd_ExtStringArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_ExtStringArray)
-#include <TDataStd_DeltaOnModificationOfExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfExtStringArray.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
 
 //=======================================================================

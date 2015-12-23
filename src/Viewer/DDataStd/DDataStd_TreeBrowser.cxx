@@ -25,7 +25,7 @@
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <DDataStd_TreeBrowser.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDataStd_TreeBrowser)
@@ -39,8 +39,8 @@ IMPLEMENT_DOWNCAST(DDataStd_TreeBrowser,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DDataStd_TreeBrowser)
 #include <DDataStd.hxx>
 #include <TDF_Tool.hxx>
-#include <TDataStd_Name.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

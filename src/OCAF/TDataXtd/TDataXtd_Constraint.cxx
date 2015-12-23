@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Constraint)
 IMPLEMENT_DOWNCAST(TDataXtd_Constraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Constraint)
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 #include <TDataXtd.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>

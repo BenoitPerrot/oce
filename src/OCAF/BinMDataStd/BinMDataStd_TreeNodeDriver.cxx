@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_TreeNodeDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_TreeNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_TreeNodeDriver)
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 //=======================================================================

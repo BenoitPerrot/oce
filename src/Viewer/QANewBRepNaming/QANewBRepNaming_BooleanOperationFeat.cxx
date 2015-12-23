@@ -45,10 +45,10 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_TagSource.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_IntegerArray.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp.hxx>
@@ -56,7 +56,7 @@
 #include <QANewBRepNaming_Loader.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #endif
 
 #ifdef OCCT_DEBUG

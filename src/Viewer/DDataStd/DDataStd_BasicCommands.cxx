@@ -51,49 +51,49 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 // LES ATTRIBUTES
-#include <TDataStd.hxx>
-#include <TDataStd_Comment.hxx>
-#include <TDataStd_Name.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd_Comment.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TDF_Reference.hxx>
-#include <TDataStd_UAttribute.hxx>
-#include <TDataStd_IntegerArray.hxx>
-#include <TDataStd_BooleanArray.hxx>
-#include <TDataStd_RealArray.hxx>
-#include <TDataStd_BooleanList.hxx>
-#include <TDataStd_IntegerList.hxx>
-#include <TDataStd_RealList.hxx>
-#include <TDataStd_Variable.hxx>
-#include <TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanList.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerList.hxx>
+#include <OCAF/TDataStd/TDataStd_RealList.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_Tool.hxx>
 
-#include <TDataStd_NamedData.hxx>
+#include <OCAF/TDataStd/TDataStd_NamedData.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
-#include <TDataStd_DataMapOfStringReal.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
-#include <TDataStd_DataMapOfStringByte.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>
-#include <TDataStd_DataMapOfStringString.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
-#include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx>
-#include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringByte.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringString.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TDataStd_AsciiString.hxx>
-#include <TDataStd_IntPackedMap.hxx>
+#include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
+#include <OCAF/TDataStd/TDataStd_IntPackedMap.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <TDataStd_ByteArray.hxx>
-#include <TDataStd_ListIteratorOfListOfByte.hxx>
+#include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfByte.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
-#include <TDataStd_ReferenceArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceArray.hxx>
 
 //=======================================================================
 //function : DDataStd_SetInteger
@@ -876,8 +876,8 @@ static Standard_Integer DDataStd_GetVariable (Draw_Interpretor& di,
   return 1; 
 } 
 
-#include <TDataStd_Relation.hxx>
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Relation.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 //=======================================================================
 //function : SetRelation (DF, entry, expression, var1[, var2, ...])
 //=======================================================================

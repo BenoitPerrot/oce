@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_IntegerDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_IntegerDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntegerDriver)
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 
 //=======================================================================
 //function : BinMDataStd_IntegerDriver

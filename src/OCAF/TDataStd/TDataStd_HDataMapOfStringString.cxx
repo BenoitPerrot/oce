@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_DataMapOfStringString.hxx>
-#include <TDataStd_HDataMapOfStringString.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringString.hxx>
+#include <OCAF/TDataStd/TDataStd_HDataMapOfStringString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringString)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

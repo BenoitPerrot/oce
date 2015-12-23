@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ExtStringArrayDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_ExtStringArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExtStringArrayDriver)
-#include <TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfExtendedString.hxx>

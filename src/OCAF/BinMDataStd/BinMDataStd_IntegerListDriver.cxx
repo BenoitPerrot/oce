@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_IntegerListDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_IntegerListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntegerListDriver)
-#include <TDataStd_IntegerList.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerList.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 

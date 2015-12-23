@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TFunction_Function.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <TNaming_Builder.hxx>
@@ -64,7 +64,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TDF_Reference.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

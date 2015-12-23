@@ -31,11 +31,11 @@
 
 // ATTRIBUTES
 
-#include <TDataStd.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDataStd_ListOfExtendedString.hxx>
+#include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>
 
 
 

@@ -36,7 +36,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #endif
 
 //=======================================================================

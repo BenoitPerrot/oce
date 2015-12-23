@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_UAttribute)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_UAttribute)
 IMPLEMENT_DOWNCAST(TDataStd_UAttribute,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_UAttribute)
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 #include <TDF_Label.hxx>
 
 //=======================================================================

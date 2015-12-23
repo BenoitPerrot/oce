@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_IntegerArrayDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_IntegerArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntegerArrayDriver)
-#include <TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlMDataStd.hxx>

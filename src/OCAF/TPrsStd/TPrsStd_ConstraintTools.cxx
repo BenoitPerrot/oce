@@ -32,8 +32,8 @@
 #include <TNaming_Iterator.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TDF_Label.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <TDF_Reference.hxx>
 

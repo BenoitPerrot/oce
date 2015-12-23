@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_RealDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_RealDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealDriver)
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <XmlObjMgt.hxx>
 
 //=======================================================================

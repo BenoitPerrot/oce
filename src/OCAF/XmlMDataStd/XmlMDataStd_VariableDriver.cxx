@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_VariableDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_VariableDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_VariableDriver)
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 
 IMPLEMENT_DOMSTRING (IsConstString, "isconst")
 IMPLEMENT_DOMSTRING (UnitString,    "unit")

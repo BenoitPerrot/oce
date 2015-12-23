@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_ChildNodeIterator.hxx>
+#include <OCAF/TDataStd/TDataStd_ChildNodeIterator.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_AttributeDelta.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_TreeNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

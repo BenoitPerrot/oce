@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataStd_AsciiStringDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_AsciiStringDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
-#include <TDataStd_AsciiString.hxx>
+#include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

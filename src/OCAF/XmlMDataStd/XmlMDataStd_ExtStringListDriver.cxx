@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_ExtStringListDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_ExtStringListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExtStringListDriver)
-#include <TDataStd_ExtStringList.hxx>
-#include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringList.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <OCAF/LDOM/LDOM_MemManager.hxx>

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_VariableRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_VariableRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_VariableRetrievalDriver)
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 #include <OCAF/PDataStd/PDataStd_Variable.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>

@@ -44,11 +44,11 @@
 #include <TDF_ChildIterator.hxx>
 #include <TDF_ChildIDIterator.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_TreeNode.hxx>
-#include <TDataStd_Name.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <TFunction_Function.hxx>
 #include <TFunction_Logbook.hxx>
 #include <TFunction_Driver.hxx>

@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataStd_TickDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_TickDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <TDataStd_Tick.hxx>
+#include <OCAF/TDataStd/TDataStd_Tick.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

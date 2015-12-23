@@ -64,8 +64,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 
 // OCAF
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TNaming.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>

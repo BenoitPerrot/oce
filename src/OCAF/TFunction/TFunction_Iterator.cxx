@@ -27,7 +27,7 @@
 #include <TDF_LabelIntegerMap.hxx>
 #include <TDF_DataMapIteratorOfLabelIntegerMap.hxx>
 
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 

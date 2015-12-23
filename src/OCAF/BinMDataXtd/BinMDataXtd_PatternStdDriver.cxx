@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataXtd_PatternStdDriver)
 IMPLEMENT_DOWNCAST(BinMDataXtd_PatternStdDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataXtd_PatternStdDriver)
 
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TDataXtd_PatternStd.hxx>
 #include <TNaming_NamedShape.hxx>
 

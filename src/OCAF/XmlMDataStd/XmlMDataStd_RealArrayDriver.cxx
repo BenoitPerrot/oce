@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_RealArrayDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_RealArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealArrayDriver)
-#include <TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlMDataStd.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

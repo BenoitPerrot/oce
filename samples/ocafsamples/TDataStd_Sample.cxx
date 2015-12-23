@@ -17,19 +17,19 @@
 #include <TDF_Data.hxx>
 #include <TDF_Label.hxx>
 #include <TDataXtd_Axis.hxx>
-#include <TDataStd_Current.hxx>
-#include <TDataStd_Comment.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_IntegerArray.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_Current.hxx>
+#include <OCAF/TDataStd/TDataStd_Comment.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <TDF_Reference.hxx>
-#include <TDataStd_UAttribute.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TDataXtd_Shape.hxx>
-#include <TDataStd_Name.hxx>
-#include <TDataStd_Directory.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Directory.hxx>
 #include <TDataXtd_Point.hxx>
 #include <TDataXtd_Plane.hxx>
 #include <TDataXtd_Geometry.hxx>
@@ -46,9 +46,9 @@
 #include <TDF_AttributeList.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDataStd_ListOfExtendedString.hxx>
+#include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>
 #include <TDocStd_Document.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
 // ====================================================================================
 // This sample contains templates for typical actions with standard OCAF attributes

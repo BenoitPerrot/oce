@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TDataStd_DeltaOnModificationOfRealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfRealArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DeltaOnModification.hxx>
-#include <TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_RealArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_RealArray)
 IMPLEMENT_DOWNCAST(TDataStd_RealArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_RealArray)
-#include <TDataStd_DeltaOnModificationOfRealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfRealArray.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
 #define OCC2932
 

@@ -29,22 +29,22 @@ IMPLEMENT_DOWNCAST(BinMDataStd_NamedDataDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_NamedDataDriver)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDataStd_NamedData.hxx>
+#include <OCAF/TDataStd/TDataStd_NamedData.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
-#include <TDataStd_DataMapOfStringReal.hxx>
-#include <TDataStd_DataMapOfStringString.hxx>
-#include <TDataStd_DataMapOfStringByte.hxx>
-#include <TDataStd_DataMapOfStringHArray1OfInteger.hxx>
-#include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringString.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringByte.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfStringInteger.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringString.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
 
 
 //=======================================================================

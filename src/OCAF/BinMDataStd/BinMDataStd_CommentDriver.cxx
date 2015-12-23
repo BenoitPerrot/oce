@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_CommentDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_CommentDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_CommentDriver)
-#include <TDataStd_Comment.hxx>
+#include <OCAF/TDataStd/TDataStd_Comment.hxx>
 
 //=======================================================================
 //function : BinMDataStd_CommentDriver

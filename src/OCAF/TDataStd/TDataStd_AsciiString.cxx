@@ -18,7 +18,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_AsciiString.hxx>
+#include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_AsciiString)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

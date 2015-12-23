@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_BooleanArrayStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_BooleanArrayStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_BooleanArrayStorageDriver)
 #include <OCAF/PDataStd/PDataStd_BooleanArray.hxx>
-#include <TDataStd_BooleanArray.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>

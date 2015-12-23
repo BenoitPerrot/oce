@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
-#include <TDataStd_ReferenceList.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_ReferenceList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

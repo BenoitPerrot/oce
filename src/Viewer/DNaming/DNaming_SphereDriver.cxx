@@ -45,9 +45,9 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>

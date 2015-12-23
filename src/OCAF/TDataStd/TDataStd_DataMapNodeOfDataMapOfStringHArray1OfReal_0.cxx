@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
-#include <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
 
  
 
@@ -36,12 +36,12 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal)
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal
-#define TCollection_DataMapNode_hxx <TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TDataStd/TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 #define TCollection_DataMapIterator TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal
-#define TCollection_DataMapIterator_hxx <TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx>
 #define Handle_TCollection_DataMapNode Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal
 #define TCollection_DataMapNode_Type_() TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal_Type_()
 #define TCollection_DataMap TDataStd_DataMapOfStringHArray1OfReal
-#define TCollection_DataMap_hxx <TDataStd_DataMapOfStringHArray1OfReal.hxx>
+#define TCollection_DataMap_hxx <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

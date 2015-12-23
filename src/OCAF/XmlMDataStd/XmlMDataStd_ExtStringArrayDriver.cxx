@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_ExtStringArrayDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_ExtStringArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExtStringArrayDriver)
 
-#include <TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
 
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <XmlObjMgt.hxx>

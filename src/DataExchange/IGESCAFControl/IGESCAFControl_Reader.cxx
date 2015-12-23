@@ -34,7 +34,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <IGESData_LevelListEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

@@ -92,7 +92,7 @@
 #include <OCAF/MDataStd/MDataStd_IntPackedMapRetrievalDriver_1.hxx>
 
 // enums
-#include <TDataStd_RealEnum.hxx>
+#include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================

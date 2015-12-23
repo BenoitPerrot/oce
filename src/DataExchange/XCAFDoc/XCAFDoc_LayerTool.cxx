@@ -35,11 +35,11 @@ IMPLEMENT_DOWNCAST(XCAFDoc_LayerTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_LayerTool)
 #include <XCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_GraphNode.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDF_ChildIDIterator.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <XCAFDoc.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 
 //=======================================================================
 //function : Constructor

@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_RealRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_RealRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_RealRetrievalDriver)
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/PDataStd/PDataStd_Real.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
-#include <TDataStd_RealEnum.hxx>
+#include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 

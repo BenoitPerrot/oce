@@ -14,13 +14,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
-#include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DeltaOnModification.hxx>
-#include <TDataStd_IntPackedMap.hxx>
+#include <OCAF/TDataStd/TDataStd_IntPackedMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_IntPackedMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_IntPackedMap)
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <TDF_DefaultDeltaOnModification.hxx>
-#include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>

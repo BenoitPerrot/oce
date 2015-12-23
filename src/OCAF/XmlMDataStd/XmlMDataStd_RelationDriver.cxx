@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_RelationDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_RelationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RelationDriver)
-#include <TDataStd_Relation.hxx>
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Relation.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 
 #include <TDF_ListIteratorOfAttributeList.hxx>
 

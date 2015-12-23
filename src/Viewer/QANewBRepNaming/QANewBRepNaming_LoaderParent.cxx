@@ -34,7 +34,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TNaming_NamedShape.hxx>
 
 

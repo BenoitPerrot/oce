@@ -32,7 +32,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TDF_Label.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 

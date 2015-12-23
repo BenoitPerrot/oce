@@ -16,10 +16,10 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDataStd_ListOfExtendedString.hxx>
+#include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_ExtStringList.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_ExtStringList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_ExtStringList)
 IMPLEMENT_DOWNCAST(TDataStd_ExtStringList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_ExtStringList)
-#include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfExtendedString.hxx>
 
 //=======================================================================
 //function : GetID

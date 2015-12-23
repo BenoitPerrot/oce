@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataStd_HLabelArray1.hxx>
+#include <OCAF/TDataStd/TDataStd_HLabelArray1.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
-#include <TDataStd_ReferenceArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_ReferenceArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

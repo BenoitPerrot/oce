@@ -41,7 +41,7 @@
 #include <DBRep.hxx>
 
 #include <TNaming_Builder.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDF_TagSource.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

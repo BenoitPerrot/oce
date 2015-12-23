@@ -20,7 +20,7 @@
 #include <TDF_AttributeList.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_Relation.hxx>
+#include <OCAF/TDataStd/TDataStd_Relation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Relation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_Relation)
 IMPLEMENT_DOWNCAST(TDataStd_Relation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_Relation)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx>
 
 #define OCC387

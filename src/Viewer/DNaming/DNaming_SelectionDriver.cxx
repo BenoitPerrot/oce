@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
 #include <TNaming_Selector.hxx>
 #include <TNaming_Tool.hxx>
 #include <TFunction_Function.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <ModelDefinitions.hxx>
 
 //#define SEL_DEB 1

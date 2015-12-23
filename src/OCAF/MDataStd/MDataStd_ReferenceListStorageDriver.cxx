@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_ReferenceListStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_ReferenceListStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ReferenceListStorageDriver)
 #include <OCAF/PDataStd/PDataStd_ReferenceList.hxx>
-#include <TDataStd_ReferenceList.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>

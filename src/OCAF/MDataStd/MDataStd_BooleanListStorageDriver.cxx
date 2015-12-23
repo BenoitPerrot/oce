@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_BooleanListStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_BooleanListStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_BooleanListStorageDriver)
 #include <OCAF/PDataStd/PDataStd_BooleanList.hxx>
-#include <TDataStd_BooleanList.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanList.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDataStd_ListIteratorOfListOfByte.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfByte.hxx>
 
 //=======================================================================
 //function : MDataStd_BooleanListStorageDriver

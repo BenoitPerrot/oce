@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_IntPackedMapStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_IntPackedMapStorageDriver)
 #include <OCAF/PDataStd/PDataStd_IntPackedMap.hxx>
 #include <OCAF/PDataStd/PDataStd_IntPackedMap_1.hxx>
-#include <TDataStd_IntPackedMap.hxx>
+#include <OCAF/TDataStd/TDataStd_IntPackedMap.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>

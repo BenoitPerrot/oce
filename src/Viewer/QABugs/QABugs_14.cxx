@@ -845,7 +845,7 @@ static Standard_Integer OCC1919_set (Draw_Interpretor& di, Standard_Integer argc
 }
 #include <DDF.hxx>
 #include <TDF_Label.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <Foundation/NCollection/NCollection_BaseMap.hxx>
 static Standard_Integer OCC1919_real (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
@@ -867,7 +867,7 @@ static Standard_Integer OCC1919_real (Draw_Interpretor& di, Standard_Integer arg
   return 1;
 }
 
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 static Standard_Integer OCC2932_SetIDUAttribute (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if( argc != 5)
@@ -916,7 +916,7 @@ static Standard_Integer OCC2932_SetTag (Draw_Interpretor& di, Standard_Integer a
   return 0;
 }
 
-#include <TDataStd_Current.hxx>
+#include <OCAF/TDataStd/TDataStd_Current.hxx>
 static Standard_Integer OCC2932_SetCurrent (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if( argc != 3)
@@ -932,7 +932,7 @@ static Standard_Integer OCC2932_SetCurrent (Draw_Interpretor& di, Standard_Integ
   return 0;
 }
 
-#include <TDataStd_Expression.hxx>
+#include <OCAF/TDataStd/TDataStd_Expression.hxx>
 static Standard_Integer OCC2932_SetExpression (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if( argc != 4)
@@ -950,7 +950,7 @@ static Standard_Integer OCC2932_SetExpression (Draw_Interpretor& di, Standard_In
   return 0;
 }
 
-#include <TDataStd_Relation.hxx>
+#include <OCAF/TDataStd/TDataStd_Relation.hxx>
 static Standard_Integer OCC2932_SetRelation (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if( argc != 4)

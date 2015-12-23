@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_AsciiStringDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
-#include <TDataStd_AsciiString.hxx>
+#include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
 
 //=======================================================================
 //function : XmlMDataStd_AsciiStringDriver

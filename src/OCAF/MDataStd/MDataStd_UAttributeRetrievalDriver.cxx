@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_UAttributeRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_UAttributeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_UAttributeRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_UAttribute.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>

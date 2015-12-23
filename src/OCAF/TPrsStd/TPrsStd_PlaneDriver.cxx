@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_PlaneDriver)
 
 #include <TDF_Label.hxx>
 #include <TDataXtd_Plane.hxx>
-//#include <TDataStd_Datum.hxx>
+//#include <OCAF/TDataStd/TDataStd_Datum.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <Visualization/AIS/AIS_Plane.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

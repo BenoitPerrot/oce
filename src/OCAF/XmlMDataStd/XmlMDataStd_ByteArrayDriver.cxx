@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_ByteArrayDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_ByteArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ByteArrayDriver)
-#include <TDataStd_ByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>

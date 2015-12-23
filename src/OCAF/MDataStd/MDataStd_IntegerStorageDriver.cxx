@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_IntegerStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_IntegerStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_IntegerStorageDriver)
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/PDataStd/PDataStd_Integer.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

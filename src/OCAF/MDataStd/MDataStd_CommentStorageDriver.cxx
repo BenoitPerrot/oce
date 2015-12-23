@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MDataStd_CommentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_CommentStorageDriver)
 
 #include <OCAF/PDataStd/PDataStd_Comment.hxx>
-#include <TDataStd_Comment.hxx>
+#include <OCAF/TDataStd/TDataStd_Comment.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

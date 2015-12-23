@@ -15,8 +15,8 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TDataStd_RealArray.hxx>
-#include <TDataStd_DeltaOnModificationOfRealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfRealArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfRealArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfRealArray)
 IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfRealArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfRealArray)
-#include <TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_NoteBookDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_NoteBookDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_NoteBookDriver)
-#include <TDataStd_NoteBook.hxx>
+#include <OCAF/TDataStd/TDataStd_NoteBook.hxx>
 
 //=======================================================================
 //function : XmlMDataStd_NoteBookDriver

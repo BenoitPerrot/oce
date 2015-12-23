@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_TreeNodeDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_TreeNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_TreeNodeDriver)
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <XmlObjMgt.hxx>
 
 IMPLEMENT_DOMSTRING (TreeIdString,   "treeid")

@@ -18,7 +18,7 @@
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_Current.hxx>
+#include <OCAF/TDataStd/TDataStd_Current.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Current)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

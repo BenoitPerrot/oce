@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_VariableStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_VariableStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_VariableStorageDriver)
 #include <OCAF/PDataStd/PDataStd_Variable.hxx>
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(DDF_Browser)
 #include <TDF_Attribute.hxx>
 #include <TDF.hxx>
 
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 

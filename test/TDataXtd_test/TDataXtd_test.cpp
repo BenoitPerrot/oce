@@ -2,8 +2,8 @@
 #include "TDF_Label.hxx"
 #include "XCAFApp_Application.hxx"
 #include "TDocStd_Document.hxx"
-#include "TDataStd_Integer.hxx"
-#include "TDataStd_Real.hxx"
+#include "OCAF/TDataStd/TDataStd_Integer.hxx"
+#include "OCAF/TDataStd/TDataStd_Real.hxx"
 #include "TDataXtd_Array1OfTrsf.hxx"
 #include "TNaming_NamedShape.hxx"
 

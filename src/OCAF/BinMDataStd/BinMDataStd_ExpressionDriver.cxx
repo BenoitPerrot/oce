@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ExpressionDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_ExpressionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExpressionDriver)
-#include <TDataStd_Expression.hxx>
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Expression.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx>
 
 //=======================================================================

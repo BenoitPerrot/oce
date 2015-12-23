@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_DirectoryDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_DirectoryDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_DirectoryDriver)
-#include <TDataStd_Directory.hxx>
+#include <OCAF/TDataStd/TDataStd_Directory.hxx>
 
 //=======================================================================
 //function : XmlMDataStd_DirectoryDriver

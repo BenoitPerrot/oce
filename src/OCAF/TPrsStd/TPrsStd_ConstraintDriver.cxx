@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_ConstraintDriver)
 #include <TPrsStd_ConstraintTools.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TDataXtd_Position.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_CommentDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_CommentDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_CommentDriver)
-#include <TDataStd_Comment.hxx>
+#include <OCAF/TDataStd/TDataStd_Comment.hxx>
 #include <XmlObjMgt.hxx>
 
 //=======================================================================

@@ -51,7 +51,7 @@
 #include <OCAF/MDataXtd/MDataXtd_PatternStdRetrievalDriver.hxx>
 
 // enums
-#include <TDataStd_RealEnum.hxx>
+#include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>
 #include <TDataXtd_GeometryEnum.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

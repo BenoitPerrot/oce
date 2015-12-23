@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_NoteBookRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_NoteBookRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NoteBookRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_NoteBook.hxx>
-#include <TDataStd_NoteBook.hxx>
+#include <OCAF/TDataStd/TDataStd_NoteBook.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataStd_NoteBookRetrievalDriver::MDataStd_NoteBookRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

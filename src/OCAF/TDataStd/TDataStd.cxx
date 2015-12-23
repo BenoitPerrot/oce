@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_IDList.hxx>
-#include <TDataStd.hxx>
+#include <OCAF/TDataStd/TDataStd.hxx>
 
 #include <TDF_AttributeIterator.hxx>
 #include <TDF_AttributeList.hxx>
@@ -27,13 +27,13 @@
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <TDF_DataSet.hxx>  
 #include <TDF_ChildIterator.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Name.hxx>
-#include <TDataStd_UAttribute.hxx>
-#include <TDataStd_IntegerArray.hxx>
-#include <TDataStd_RealArray.hxx>
-#include <TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_RealArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 

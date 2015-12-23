@@ -54,8 +54,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <TDF_Label.hxx>
 #include <TDF_AttributeMap.hxx>
 #include <TDF_MapIteratorOfAttributeMap.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TNaming.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <TFunction_Function.hxx>
 #include <DNaming.hxx>
 #include <ModelDefinitions.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 //=======================================================================
 //function : DNaming_Line3DDriver

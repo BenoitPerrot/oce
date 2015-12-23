@@ -20,7 +20,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Name)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

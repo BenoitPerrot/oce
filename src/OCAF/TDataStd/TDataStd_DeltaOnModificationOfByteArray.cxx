@@ -15,8 +15,8 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
-#include <TDataStd_ByteArray.hxx>
-#include <TDataStd_DeltaOnModificationOfByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfByteArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfByteArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfByteArray)
 IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfByteArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfByteArray)
-#include <TDataStd_ByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

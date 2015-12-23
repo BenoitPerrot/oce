@@ -22,8 +22,8 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TDataStd_Integer.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDocStd_Document.hxx>

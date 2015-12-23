@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_RealDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_RealDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_RealDriver)
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 
 //=======================================================================
 //function : BinMDataStd_RealDriver

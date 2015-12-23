@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_BooleanListDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_BooleanListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_BooleanListDriver)
-#include <TDataStd_BooleanList.hxx>
-#include <TDataStd_ListIteratorOfListOfByte.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanList.hxx>
+#include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfByte.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <XmlObjMgt.hxx>
 

@@ -71,7 +71,7 @@
 #include <STEPCAFControl_Controller.hxx>
 #include <STEPCAFControl_DataMapOfSDRExternFile.hxx>
 
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDF_Label.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
@@ -93,12 +93,12 @@
 #include <STEPConstruct_Assembly.hxx>
 #include <TDF_Tool.hxx>
 #include <StepVisual_Invisibility.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <XCAFDoc.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
@@ -139,9 +139,9 @@
 #include <StepBasic_DerivedUnitElement.hxx>
 #include <StepBasic_MeasureValueMember.hxx>
 
-//#include <TDataStd_Real.hxx>
-//#include <TDataStd_Constraint.hxx>
-//#include <TDataStd_ConstraintEnum.hxx>
+//#include <OCAF/TDataStd/TDataStd_Real.hxx>
+//#include <OCAF/TDataStd/TDataStd_Constraint.hxx>
+//#include <OCAF/TDataStd/TDataStd_ConstraintEnum.hxx>
 //#include <TNaming_Tool.hxx>
 //#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 //#include <TPrsStd_ConstraintTools.hxx>

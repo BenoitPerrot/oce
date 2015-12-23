@@ -48,7 +48,7 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TDF_ChildIterator.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <IGESData_NameEntity.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>

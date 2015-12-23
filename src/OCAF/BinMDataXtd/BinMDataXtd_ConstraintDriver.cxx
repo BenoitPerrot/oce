@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(BinMDataXtd_ConstraintDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataXtd_ConstraintDriver)
 
 #include <TDataXtd_Constraint.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TNaming_NamedShape.hxx>
 
 //=======================================================================

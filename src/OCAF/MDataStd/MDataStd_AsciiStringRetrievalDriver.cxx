@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_AsciiStringRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_AsciiStringRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_AsciiStringRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_AsciiString.hxx>
-#include <TDataStd_AsciiString.hxx>
+#include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TDF_Label.hxx>
-#include <TDataStd_Real.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TNaming.hxx>
 #include <TNaming_Iterator.hxx>
 #include <TNaming_Builder.hxx>

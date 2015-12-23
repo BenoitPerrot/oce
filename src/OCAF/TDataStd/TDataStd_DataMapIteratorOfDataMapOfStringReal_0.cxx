@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDataStd_DataMapOfStringReal.hxx>
-#include <TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
  
 
 #define TheKey TCollection_ExtendedString
@@ -18,12 +18,12 @@
 #define Hasher TCollection_ExtendedString
 #define Hasher_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DataMapNode TDataStd_DataMapNodeOfDataMapOfStringReal
-#define TCollection_DataMapNode_hxx <TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TDataStd/TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
 #define TCollection_DataMapIterator TDataStd_DataMapIteratorOfDataMapOfStringReal
-#define TCollection_DataMapIterator_hxx <TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TDataStd/TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx>
 #define Handle_TCollection_DataMapNode Handle_TDataStd_DataMapNodeOfDataMapOfStringReal
 #define TCollection_DataMapNode_Type_() TDataStd_DataMapNodeOfDataMapOfStringReal_Type_()
 #define TCollection_DataMap TDataStd_DataMapOfStringReal
-#define TCollection_DataMap_hxx <TDataStd_DataMapOfStringReal.hxx>
+#define TCollection_DataMap_hxx <OCAF/TDataStd/TDataStd_DataMapOfStringReal.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

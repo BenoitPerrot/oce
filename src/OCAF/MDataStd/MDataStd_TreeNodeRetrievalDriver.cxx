@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_TreeNodeRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_TreeNodeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_TreeNodeRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_TreeNode.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

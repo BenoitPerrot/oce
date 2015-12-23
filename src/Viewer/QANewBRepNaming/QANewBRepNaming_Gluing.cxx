@@ -48,12 +48,12 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 
 #include <QANewModTopOpe_Glue.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #endif
 
 #define SOURCES_SUBLABEL 1

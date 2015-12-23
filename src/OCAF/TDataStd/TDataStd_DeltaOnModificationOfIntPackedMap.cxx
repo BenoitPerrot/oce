@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
-#include <TDataStd_IntPackedMap.hxx>
-#include <TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
+#include <OCAF/TDataStd/TDataStd_IntPackedMap.hxx>
+#include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_DeltaOnModificationOfIntPackedMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

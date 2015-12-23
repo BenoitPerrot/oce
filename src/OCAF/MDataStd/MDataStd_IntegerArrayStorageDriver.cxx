@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MDataStd_IntegerArrayStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_IntegerArrayStorageDriver)
 #include <OCAF/PDataStd/PDataStd_IntegerArray.hxx>
 #include <OCAF/PDataStd/PDataStd_IntegerArray_1.hxx>
-#include <TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

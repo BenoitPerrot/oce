@@ -20,7 +20,7 @@
 #include <DDocStd_DrawDocument.hxx>
 #include <TDocStd_Application.hxx>
 #include <TDocStd_Document.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <Draw.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>

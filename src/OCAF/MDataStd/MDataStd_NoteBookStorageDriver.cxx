@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_NoteBookStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_NoteBookStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NoteBookStorageDriver)
 #include <OCAF/PDataStd/PDataStd_NoteBook.hxx>
-#include <TDataStd_NoteBook.hxx>
+#include <OCAF/TDataStd/TDataStd_NoteBook.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataStd_NoteBookStorageDriver::MDataStd_NoteBookStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)

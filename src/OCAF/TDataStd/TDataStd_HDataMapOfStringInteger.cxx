@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
-#include <TDataStd_HDataMapOfStringInteger.hxx>
+#include <OCAF/TDataStd/TDataStd_HDataMapOfStringInteger.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_HDataMapOfStringInteger)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

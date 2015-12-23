@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ExtStringArrayStorageDriver)
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <OCAF/PDataStd/PDataStd_ExtStringArray.hxx>
 #include <OCAF/PDataStd/PDataStd_ExtStringArray_1.hxx>
-#include <TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
 
 //=======================================================================
 //function : MDataStd_ExtStringArrayStorageDriver

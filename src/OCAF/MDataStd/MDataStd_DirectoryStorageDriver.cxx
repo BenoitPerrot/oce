@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_DirectoryStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_DirectoryStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_DirectoryStorageDriver)
 #include <OCAF/PDataStd/PDataStd_Directory.hxx>
-#include <TDataStd_Directory.hxx>
+#include <OCAF/TDataStd/TDataStd_Directory.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataStd_DirectoryStorageDriver::MDataStd_DirectoryStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)

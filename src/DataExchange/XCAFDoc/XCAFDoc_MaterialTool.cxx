@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_MaterialTool)
 #include <XCAFDoc.hxx>
 #include <XCAFDoc_Material.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TDataStd_TreeNode.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDF_ChildIDIterator.hxx>
 
 

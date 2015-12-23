@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <TFunction_Function.hxx>
 #include <TFunction_Logbook.hxx>
 #include <DNaming.hxx>
-#include <TDataStd_Real.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

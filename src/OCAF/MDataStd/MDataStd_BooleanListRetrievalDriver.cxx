@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_BooleanListRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_BooleanListRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_BooleanListRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_BooleanList.hxx>
-#include <TDataStd_BooleanList.hxx>
+#include <OCAF/TDataStd/TDataStd_BooleanList.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

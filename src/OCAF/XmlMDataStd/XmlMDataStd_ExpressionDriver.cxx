@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_ExpressionDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_ExpressionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExpressionDriver)
-#include <TDataStd_Expression.hxx>
-#include <TDataStd_Variable.hxx>
+#include <OCAF/TDataStd/TDataStd_Expression.hxx>
+#include <OCAF/TDataStd/TDataStd_Variable.hxx>
 
 #include <TDF_ListIteratorOfAttributeList.hxx>
 

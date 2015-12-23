@@ -20,7 +20,7 @@
 #include <TObj_Model.hxx>
 #include <TObj_TNameContainer.hxx>
 
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_Partition,TObj_Object)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_Partition,TObj_Object)

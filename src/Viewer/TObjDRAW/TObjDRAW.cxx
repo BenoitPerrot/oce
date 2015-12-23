@@ -34,7 +34,7 @@
 
 #include <TDF_Tool.hxx>
 #include <TDF_Data.hxx>
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDocStd_Document.hxx>
 
 #include <Draw_PluginMacro.hxx>

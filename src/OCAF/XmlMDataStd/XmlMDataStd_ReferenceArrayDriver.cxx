@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ReferenceArrayDriver)
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>
-#include <TDataStd_ReferenceArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceArray.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")
 IMPLEMENT_DOMSTRING (LastIndexString,  "last")

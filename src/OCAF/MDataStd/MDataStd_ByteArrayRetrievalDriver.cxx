@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_ByteArrayRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_ByteArrayRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ByteArrayRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_ByteArray.hxx>
-#include <TDataStd_ByteArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>

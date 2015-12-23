@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_UAttributeDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_UAttributeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_UAttributeDriver)
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 
 IMPLEMENT_DOMSTRING (GuidString, "guid")
 

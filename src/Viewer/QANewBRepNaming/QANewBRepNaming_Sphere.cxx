@@ -33,7 +33,7 @@
 #include <TNaming_NamedShape.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #endif
 
 

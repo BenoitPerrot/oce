@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_DocumentTool)
 IMPLEMENT_DOWNCAST(XCAFDoc_DocumentTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_DocumentTool)
-#include <TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDF_Data.hxx>
 #include <TDF_Tool.hxx>
-#include <TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
 //=======================================================================
 //function : GetID

@@ -45,10 +45,10 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <TDF_ChildIDIterator.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
-#include <TDataStd_Name.hxx>
-#include <TDataStd_TreeNode.hxx>
-#include <TDataStd_ChildNodeIterator.hxx>
-#include <TDataStd_UAttribute.hxx>
+#include <OCAF/TDataStd/TDataStd_Name.hxx>
+#include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/TDataStd_ChildNodeIterator.hxx>
+#include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 
 #include <TDocStd_Document.hxx>
 

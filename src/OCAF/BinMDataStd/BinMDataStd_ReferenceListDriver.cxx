@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ReferenceListDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_ReferenceListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ReferenceListDriver)
-#include <TDataStd_ReferenceList.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>

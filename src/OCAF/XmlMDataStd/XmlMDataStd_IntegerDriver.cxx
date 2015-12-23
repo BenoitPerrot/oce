@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_IntegerDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_IntegerDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntegerDriver)
 #include <XmlObjMgt.hxx>
-#include <TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
 
 //=======================================================================
 //function : XmlMDataStd_IntegerDriver

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ReferenceArrayDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_ReferenceArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ReferenceArrayDriver)
-#include <TDataStd_ReferenceArray.hxx>
+#include <OCAF/TDataStd/TDataStd_ReferenceArray.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 
