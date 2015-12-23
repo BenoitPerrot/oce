@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Geom2dHatch_FClass2dOfClassifier.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntRes2d_Position.hxx>
@@ -74,15 +74,15 @@ private:
 };
 
 #define TheFaceExplorer Geom2dHatch_Elements
-#define TheFaceExplorer_hxx <Geom2dHatch_Elements.hxx>
+#define TheFaceExplorer_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Elements.hxx>
 #define TheEdge Geom2dAdaptor_Curve
 #define TheEdge_hxx <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #define TheIntersection2d Geom2dHatch_Intersector
-#define TheIntersection2d_hxx <Geom2dHatch_Intersector.hxx>
+#define TheIntersection2d_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #define TopClass_FClass2d Geom2dHatch_FClass2dOfClassifier
-#define TopClass_FClass2d_hxx <Geom2dHatch_FClass2dOfClassifier.hxx>
+#define TopClass_FClass2d_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 #define TopClass_FaceClassifier Geom2dHatch_Classifier
-#define TopClass_FaceClassifier_hxx <Geom2dHatch_Classifier.hxx>
+#define TopClass_FaceClassifier_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Classifier.hxx>
 
 #include <TopClass_FaceClassifier.lxx>
 

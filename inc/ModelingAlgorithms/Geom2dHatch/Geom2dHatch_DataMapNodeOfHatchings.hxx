@@ -11,7 +11,7 @@
 #include <Handle_Geom2dHatch_DataMapNodeOfHatchings.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Geom2dHatch_Hatching.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatching.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Geom2dHatch_Hatching;
@@ -55,17 +55,17 @@ private:
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Geom2dHatch_Hatching
-#define TheItem_hxx <Geom2dHatch_Hatching.hxx>
+#define TheItem_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatching.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode Geom2dHatch_DataMapNodeOfHatchings
-#define TCollection_DataMapNode_hxx <Geom2dHatch_DataMapNodeOfHatchings.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_DataMapNodeOfHatchings.hxx>
 #define TCollection_DataMapIterator Geom2dHatch_DataMapIteratorOfHatchings
-#define TCollection_DataMapIterator_hxx <Geom2dHatch_DataMapIteratorOfHatchings.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_DataMapIteratorOfHatchings.hxx>
 #define Handle_TCollection_DataMapNode Handle_Geom2dHatch_DataMapNodeOfHatchings
 #define TCollection_DataMapNode_Type_() Geom2dHatch_DataMapNodeOfHatchings_Type_()
 #define TCollection_DataMap Geom2dHatch_Hatchings
-#define TCollection_DataMap_hxx <Geom2dHatch_Hatchings.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatchings.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

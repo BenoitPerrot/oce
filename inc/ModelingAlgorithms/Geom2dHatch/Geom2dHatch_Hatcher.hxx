@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Geom2dHatch_Elements.hxx>
-#include <Geom2dHatch_Hatchings.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Elements.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatchings.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <HatchGen_ErrorStatus.hxx>
 class Standard_NoSuchObject;
@@ -201,7 +201,7 @@ private:
 };
 
 
-#include <Geom2dHatch_Hatcher.lxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.lxx>
 
 
 

@@ -18,14 +18,14 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Geom2dHatch_Element.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Element.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dHatch_Elements.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Elements.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Geom2dHatch_Element.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Element.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 

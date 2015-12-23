@@ -3,19 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dHatch_FClass2dOfClassifier.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
  
 
 #define TheEdge Geom2dAdaptor_Curve
 #define TheEdge_hxx <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #define TheIntersector Geom2dHatch_Intersector
-#define TheIntersector_hxx <Geom2dHatch_Intersector.hxx>
+#define TheIntersector_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #define TopClass_Classifier2d Geom2dHatch_FClass2dOfClassifier
-#define TopClass_Classifier2d_hxx <Geom2dHatch_FClass2dOfClassifier.hxx>
+#define TopClass_Classifier2d_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 #include <TopClass_Classifier2d.gxx>
 

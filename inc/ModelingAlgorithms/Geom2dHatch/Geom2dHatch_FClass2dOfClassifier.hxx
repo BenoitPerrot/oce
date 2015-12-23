@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TopTrans_CurveTransition.hxx>
-#include <Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
@@ -79,9 +79,9 @@ private:
 #define TheEdge Geom2dAdaptor_Curve
 #define TheEdge_hxx <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #define TheIntersector Geom2dHatch_Intersector
-#define TheIntersector_hxx <Geom2dHatch_Intersector.hxx>
+#define TheIntersector_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #define TopClass_Classifier2d Geom2dHatch_FClass2dOfClassifier
-#define TopClass_Classifier2d_hxx <Geom2dHatch_FClass2dOfClassifier.hxx>
+#define TopClass_Classifier2d_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 
 #include <TopClass_Classifier2d.lxx>
 

@@ -20,9 +20,9 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dHatch_Intersector.hxx>
-#include <Geom2dHatch_Hatching.hxx>
-#include <Geom2dHatch_Element.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatching.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Element.hxx>
 
 //=======================================================================
 // Function : Intersector

@@ -20,7 +20,7 @@
 //=======================================================================
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dHatch_Element.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Element.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 

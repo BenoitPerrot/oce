@@ -3,25 +3,25 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dHatch_Classifier.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Classifier.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Geom2dHatch_Elements.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Elements.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dHatch_Intersector.hxx>
-#include <Geom2dHatch_FClass2dOfClassifier.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
 
 #define TheFaceExplorer Geom2dHatch_Elements
-#define TheFaceExplorer_hxx <Geom2dHatch_Elements.hxx>
+#define TheFaceExplorer_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Elements.hxx>
 #define TheEdge Geom2dAdaptor_Curve
 #define TheEdge_hxx <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #define TheIntersection2d Geom2dHatch_Intersector
-#define TheIntersection2d_hxx <Geom2dHatch_Intersector.hxx>
+#define TheIntersection2d_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #define TopClass_FClass2d Geom2dHatch_FClass2dOfClassifier
-#define TopClass_FClass2d_hxx <Geom2dHatch_FClass2dOfClassifier.hxx>
+#define TopClass_FClass2d_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 #define TopClass_FaceClassifier Geom2dHatch_Classifier
-#define TopClass_FaceClassifier_hxx <Geom2dHatch_Classifier.hxx>
+#define TopClass_FaceClassifier_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Classifier.hxx>
 #include <TopClass_FaceClassifier.gxx>
 

@@ -17,13 +17,13 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2dHatch_Intersector.hxx>
-#include <Geom2dHatch_Element.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Element.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dHatch_Hatching.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatching.hxx>
 #include <HatchGen_PointOnHatching.hxx>
 #include <HatchGen_Domain.hxx>
-#include <Geom2dHatch_Hatcher.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
 
 #include <HatchGen_Domain.hxx>
 #include <HatchGen_Domains.hxx>
@@ -37,8 +37,8 @@
 #include <TopTrans_CurveTransition.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dHatch_Intersector.hxx>
-#include <Geom2dHatch_Classifier.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Classifier.hxx>
 
 #define RAISE_IF_NOSUCHOBJECT 0
 #define TRACE_HATCHER 0

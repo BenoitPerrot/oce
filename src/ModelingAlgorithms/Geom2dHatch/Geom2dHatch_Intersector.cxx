@@ -17,7 +17,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>

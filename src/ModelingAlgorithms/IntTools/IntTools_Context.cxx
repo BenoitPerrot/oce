@@ -21,7 +21,7 @@
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <Geom2dHatch_Hatcher.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
-#include <Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

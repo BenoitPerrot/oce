@@ -84,7 +84,7 @@ private:
 };
 
 
-#include <Geom2dHatch_Intersector.lxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.lxx>
 
 
 

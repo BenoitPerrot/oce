@@ -37,8 +37,8 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Geom2dHatch_Hatcher.hxx>
-#include <Geom2dHatch_Intersector.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #include <HatchGen_ErrorStatus.hxx>
 #include <HatchGen_Domain.hxx>
 #include <HatchGen_PointOnHatching.hxx>

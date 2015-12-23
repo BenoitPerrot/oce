@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Geom2dHatch_MapOfElements.hxx>
-#include <Geom2dHatch_DataMapIteratorOfMapOfElements.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_MapOfElements.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_DataMapIteratorOfMapOfElements.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
