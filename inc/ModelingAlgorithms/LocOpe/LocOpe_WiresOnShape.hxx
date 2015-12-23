@@ -114,7 +114,7 @@ private:
 };
 
 
-#include <LocOpe_WiresOnShape.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_WiresOnShape.lxx>
 
 
 

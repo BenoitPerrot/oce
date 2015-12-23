@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <LocOpe_SequenceOfLin.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfLin.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <LocOpe_SequenceNodeOfSequenceOfLin.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceNodeOfSequenceOfLin.hxx>
  
 
 #define SeqItem gp_Lin
 #define SeqItem_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TCollection_SequenceNode LocOpe_SequenceNodeOfSequenceOfLin
-#define TCollection_SequenceNode_hxx <LocOpe_SequenceNodeOfSequenceOfLin.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceNodeOfSequenceOfLin.hxx>
 #define Handle_TCollection_SequenceNode Handle_LocOpe_SequenceNodeOfSequenceOfLin
 #define TCollection_SequenceNode_Type_() LocOpe_SequenceNodeOfSequenceOfLin_Type_()
 #define TCollection_Sequence LocOpe_SequenceOfLin
-#define TCollection_Sequence_hxx <LocOpe_SequenceOfLin.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfLin.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -20,11 +20,11 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_WiresOnShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <LocOpe_Spliter.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Spliter.hxx>
 
-//#include <LocOpe_ProjectedWires.hxx>
+//#include <ModelingAlgorithms/LocOpe/LocOpe_ProjectedWires.hxx>
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
@@ -42,7 +42,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
-#include <LocOpe_BuildWires.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildWires.hxx>
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -51,7 +51,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
-#include <LocOpe_SplitShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SplitShape.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

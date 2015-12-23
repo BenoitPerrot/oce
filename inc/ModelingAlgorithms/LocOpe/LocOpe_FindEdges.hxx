@@ -69,7 +69,7 @@ private:
 };
 
 
-#include <LocOpe_FindEdges.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.lxx>
 
 
 

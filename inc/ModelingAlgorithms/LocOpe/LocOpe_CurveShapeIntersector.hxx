@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <LocOpe_SequenceOfPntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfPntFace.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
@@ -131,7 +131,7 @@ private:
 };
 
 
-#include <LocOpe_CurveShapeIntersector.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CurveShapeIntersector.lxx>
 
 
 

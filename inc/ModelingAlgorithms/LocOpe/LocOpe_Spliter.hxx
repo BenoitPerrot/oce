@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _LocOpe_Generator_HeaderFile
-#define _LocOpe_Generator_HeaderFile
+#ifndef _LocOpe_Spliter_HeaderFile
+#define _LocOpe_Spliter_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_LocOpe_GeneratedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-class LocOpe_GeneratedShape;
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <Handle_LocOpe_WiresOnShape.hxx>
 class StdFail_NotDone;
 class Standard_NullObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
+class LocOpe_WiresOnShape;
 class TopTools_ListOfShape;
-class TopoDS_Face;
 
 
 
-class LocOpe_Generator 
+class LocOpe_Spliter 
 {
 public:
 
@@ -32,15 +32,15 @@ public:
 
   
   //! Empty constructor.
-    LocOpe_Generator();
+    LocOpe_Spliter();
   
   //! Creates the algorithm on the shape <S>.
-    LocOpe_Generator(const TopoDS_Shape& S);
+    LocOpe_Spliter(const TopoDS_Shape& S);
   
   //! Initializes the algorithm on the shape <S>.
       void Init (const TopoDS_Shape& S) ;
   
-  Standard_EXPORT   void Perform (const Handle(LocOpe_GeneratedShape)& G) ;
+  Standard_EXPORT   void Perform (const Handle(LocOpe_WiresOnShape)& PW) ;
   
       Standard_Boolean IsDone()  const;
   
@@ -50,11 +50,17 @@ public:
   //! Returns the initial shape
      const  TopoDS_Shape& Shape()  const;
   
-  //! Returns  the  descendant  face  of <F>.    <F> may
-  //! belong to the original shape or to the "generated"
-  //! shape.  The returned    face may be   a null shape
-  //! (when <F> disappears).
-  Standard_EXPORT  const  TopTools_ListOfShape& DescendantFace (const TopoDS_Face& F) ;
+  //! Returns  the faces   which  are the  left of   the
+  //! projected wires and which are
+  Standard_EXPORT  const  TopTools_ListOfShape& DirectLeft()  const;
+  
+  //! Returns the faces of the "left" part on the shape.
+  //! (It  is build   from  DirectLeft,  with  the faces
+  //! connected to this set, and so on...).
+  Standard_EXPORT  const  TopTools_ListOfShape& Left()  const;
+  
+  //! Returns the list of descendant shapes of <S>.
+  Standard_EXPORT  const  TopTools_ListOfShape& DescendantShapes (const TopoDS_Shape& S) ;
 
 
 
@@ -70,19 +76,20 @@ private:
 
 
   TopoDS_Shape myShape;
-  Handle(LocOpe_GeneratedShape) myGen;
   Standard_Boolean myDone;
   TopoDS_Shape myRes;
-  TopTools_DataMapOfShapeListOfShape myModShapes;
+  TopTools_DataMapOfShapeListOfShape myMap;
+  TopTools_ListOfShape myDLeft;
+  TopTools_ListOfShape myLeft;
 
 
 };
 
 
-#include <LocOpe_Generator.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Spliter.lxx>
 
 
 
 
 
-#endif // _LocOpe_Generator_HeaderFile
+#endif // _LocOpe_Spliter_HeaderFile

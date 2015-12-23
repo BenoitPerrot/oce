@@ -107,7 +107,7 @@ private:
 };
 
 
-#include <LocOpe_SplitDrafts.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SplitDrafts.lxx>
 
 
 

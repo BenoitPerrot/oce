@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <LocOpe_LinearForm.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_LinearForm.hxx>
 
 
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
@@ -35,8 +35,8 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <LocOpe_BuildShape.hxx>
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>

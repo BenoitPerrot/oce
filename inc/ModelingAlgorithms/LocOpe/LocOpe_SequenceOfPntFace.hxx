@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem LocOpe_PntFace
-#define SeqItem_hxx <LocOpe_PntFace.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 #define TCollection_SequenceNode LocOpe_SequenceNodeOfSequenceOfPntFace
-#define TCollection_SequenceNode_hxx <LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
 #define Handle_TCollection_SequenceNode Handle_LocOpe_SequenceNodeOfSequenceOfPntFace
 #define TCollection_SequenceNode_Type_() LocOpe_SequenceNodeOfSequenceOfPntFace_Type_()
 #define TCollection_Sequence LocOpe_SequenceOfPntFace
-#define TCollection_Sequence_hxx <LocOpe_SequenceOfPntFace.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfPntFace.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

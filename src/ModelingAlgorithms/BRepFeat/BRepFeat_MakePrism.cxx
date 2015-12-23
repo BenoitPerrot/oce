@@ -24,10 +24,10 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakePrism.hxx>
 
 #include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
-#include <LocOpe.hxx>
-#include <LocOpe_Prism.hxx>
-#include <LocOpe_CSIntersector.hxx>
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Prism.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

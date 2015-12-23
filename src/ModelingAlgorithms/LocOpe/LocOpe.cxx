@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

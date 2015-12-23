@@ -21,13 +21,13 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <LocOpe_Revol.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Revol.hxx>
 
 
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
@@ -44,7 +44,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>

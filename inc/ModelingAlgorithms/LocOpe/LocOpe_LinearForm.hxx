@@ -81,7 +81,7 @@ private:
 };
 
 
-#include <LocOpe_LinearForm.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_LinearForm.lxx>
 
 
 

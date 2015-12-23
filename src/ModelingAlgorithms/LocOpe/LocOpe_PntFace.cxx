@@ -16,4 +16,4 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>

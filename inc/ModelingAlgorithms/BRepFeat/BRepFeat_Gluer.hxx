@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
-#include <LocOpe_Operation.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Operation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;

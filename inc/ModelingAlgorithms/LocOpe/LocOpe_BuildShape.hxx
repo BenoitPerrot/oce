@@ -54,7 +54,7 @@ private:
 };
 
 
-#include <LocOpe_BuildShape.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.lxx>
 
 
 

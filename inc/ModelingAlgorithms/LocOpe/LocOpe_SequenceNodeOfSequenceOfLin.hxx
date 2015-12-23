@@ -49,11 +49,11 @@ private:
 #define SeqItem gp_Lin
 #define SeqItem_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TCollection_SequenceNode LocOpe_SequenceNodeOfSequenceOfLin
-#define TCollection_SequenceNode_hxx <LocOpe_SequenceNodeOfSequenceOfLin.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceNodeOfSequenceOfLin.hxx>
 #define Handle_TCollection_SequenceNode Handle_LocOpe_SequenceNodeOfSequenceOfLin
 #define TCollection_SequenceNode_Type_() LocOpe_SequenceNodeOfSequenceOfLin_Type_()
 #define TCollection_Sequence LocOpe_SequenceOfLin
-#define TCollection_Sequence_hxx <LocOpe_SequenceOfLin.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfLin.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

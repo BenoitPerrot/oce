@@ -67,7 +67,7 @@ private:
 };
 
 
-#include <LocOpe_FindEdgesInFace.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdgesInFace.lxx>
 
 
 

@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <LocOpe_GeneratedShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_GeneratedShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(LocOpe_GeneratedShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

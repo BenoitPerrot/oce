@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_WiresOnShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(LocOpe_WiresOnShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 #include <Precision.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

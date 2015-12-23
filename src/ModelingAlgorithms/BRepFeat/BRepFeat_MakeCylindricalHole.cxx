@@ -21,8 +21,8 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeCylindricalHole.hxx>
 
 
-#include <LocOpe_CurveShapeIntersector.hxx>
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CurveShapeIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

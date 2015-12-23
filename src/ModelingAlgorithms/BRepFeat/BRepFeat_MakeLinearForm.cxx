@@ -28,10 +28,10 @@
 
 #include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 
-#include <LocOpe.hxx>
-#include <LocOpe_LinearForm.hxx>
-#include <LocOpe_Gluer.hxx>
-#include <LocOpe_FindEdges.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_LinearForm.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

@@ -147,7 +147,7 @@ private:
 };
 
 
-#include <LocOpe_CSIntersector.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.lxx>
 
 
 

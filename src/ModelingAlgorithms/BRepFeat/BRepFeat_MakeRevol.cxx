@@ -24,14 +24,14 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeRevol.hxx>
 
 #include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
-#include <LocOpe.hxx>
-#include <LocOpe_Revol.hxx>
-#include <LocOpe_Gluer.hxx>
-#include <LocOpe_FindEdges.hxx>
-#include <LocOpe_SequenceOfCirc.hxx>
-#include <LocOpe_BuildShape.hxx>
-#include <LocOpe_CSIntersector.hxx>
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Revol.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfCirc.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

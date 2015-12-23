@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <LocOpe_Operation.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Operation.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
@@ -94,7 +94,7 @@ private:
 };
 
 
-#include <LocOpe_Gluer.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.lxx>
 
 
 

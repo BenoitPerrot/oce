@@ -69,7 +69,7 @@ private:
 };
 
 
-#include <LocOpe_PntFace.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.lxx>
 
 
 

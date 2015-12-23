@@ -18,18 +18,18 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_Form.hxx>
 
-#include <LocOpe.hxx>
-#include <LocOpe_Gluer.hxx>
-#include <LocOpe_FindEdges.hxx>
-#include <LocOpe_CSIntersector.hxx>
-#include <LocOpe_SequenceOfCirc.hxx>
-#include <LocOpe_PntFace.hxx>
-#include <LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfCirc.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>

@@ -21,13 +21,13 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
 
-#include <LocOpe_Spliter.hxx>
-#include <LocOpe_GluedShape.hxx>
-#include <LocOpe_WiresOnShape.hxx>
-#include <LocOpe_Generator.hxx>
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Spliter.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_GluedShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Generator.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

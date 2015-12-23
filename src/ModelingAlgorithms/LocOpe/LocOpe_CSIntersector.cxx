@@ -17,14 +17,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <LocOpe_SequenceOfLin.hxx>
-#include <LocOpe_SequenceOfCirc.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfLin.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfCirc.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <LocOpe_PntFace.hxx>
-#include <LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
 
-#include <LocOpe_PntFace.hxx>
-#include <LocOpe_SequenceOfPntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfPntFace.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>

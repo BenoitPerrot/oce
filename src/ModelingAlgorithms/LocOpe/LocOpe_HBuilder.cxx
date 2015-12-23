@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_BuildTool.hxx>
-#include <LocOpe_HBuilder.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_HBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(LocOpe_HBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

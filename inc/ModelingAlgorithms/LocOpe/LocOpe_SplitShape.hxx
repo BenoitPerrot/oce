@@ -104,7 +104,7 @@ private:
 };
 
 
-#include <LocOpe_SplitShape.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SplitShape.lxx>
 
 
 

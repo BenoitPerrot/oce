@@ -24,12 +24,12 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.hxx>
 
 #include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
-#include <LocOpe.hxx>
-#include <LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <LocOpe_DPrism.hxx>
-#include <LocOpe_SequenceOfLin.hxx>
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_DPrism.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfLin.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

@@ -22,11 +22,11 @@
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <LocOpe_Pipe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Pipe.hxx>
 
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 
-#include <LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

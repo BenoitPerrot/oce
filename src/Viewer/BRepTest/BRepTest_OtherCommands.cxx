@@ -65,9 +65,9 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
-#include <LocOpe_CSIntersector.hxx>
-#include <LocOpe_SequenceOfLin.hxx>
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfLin.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>

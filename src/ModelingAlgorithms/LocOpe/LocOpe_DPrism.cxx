@@ -22,7 +22,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <LocOpe_DPrism.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_DPrism.hxx>
 
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -46,8 +46,8 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <LocOpe_BuildShape.hxx>
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>

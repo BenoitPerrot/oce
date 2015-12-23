@@ -46,7 +46,7 @@ private:
 };
 
 
-#include <LocOpe_HBuilder.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_HBuilder.lxx>
 
 
 

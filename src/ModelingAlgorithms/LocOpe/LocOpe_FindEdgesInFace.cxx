@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <LocOpe_FindEdgesInFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdgesInFace.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

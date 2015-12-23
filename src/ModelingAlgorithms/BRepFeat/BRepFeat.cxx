@@ -59,14 +59,14 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
-#include <LocOpe_CSIntersector.hxx>
-#include <LocOpe_PntFace.hxx>
-#include <LocOpe_BuildShape.hxx> 
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx> 
 
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
 
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 
 #define NECHANTBARYC 11
 

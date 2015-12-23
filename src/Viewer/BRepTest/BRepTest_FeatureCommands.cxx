@@ -51,8 +51,8 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeLinearForm.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeRevolutionForm.hxx>
 
-#include <LocOpe_FindEdges.hxx>
-#include <LocOpe_FindEdgesInFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdgesInFace.hxx>
 
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>

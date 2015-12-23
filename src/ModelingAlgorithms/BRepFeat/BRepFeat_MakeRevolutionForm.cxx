@@ -27,12 +27,12 @@
 
 #include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 
-#include <LocOpe.hxx>
-#include <LocOpe_RevolutionForm.hxx>
-#include <LocOpe_CSIntersector.hxx>
-#include <LocOpe_PntFace.hxx>
-#include <LocOpe_Gluer.hxx>
-#include <LocOpe_FindEdges.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_RevolutionForm.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

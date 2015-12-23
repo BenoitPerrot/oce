@@ -78,7 +78,7 @@ private:
 };
 
 
-#include <LocOpe_Pipe.lxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Pipe.lxx>
 
 
 

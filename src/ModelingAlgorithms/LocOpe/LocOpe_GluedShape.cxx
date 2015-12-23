@@ -19,7 +19,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <LocOpe_GluedShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_GluedShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(LocOpe_GluedShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

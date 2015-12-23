@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <LocOpe_SplitDrafts.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SplitDrafts.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
@@ -34,11 +34,11 @@
 
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 
-#include <LocOpe_WiresOnShape.hxx>
-#include <LocOpe_Spliter.hxx>
-#include <LocOpe_SplitShape.hxx>
-#include <LocOpe_FindEdges.hxx>
-#include <LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Spliter.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SplitShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
 
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

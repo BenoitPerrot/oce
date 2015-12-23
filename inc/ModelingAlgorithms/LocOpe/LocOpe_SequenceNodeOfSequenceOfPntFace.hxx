@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
 
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class LocOpe_PntFace;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem LocOpe_PntFace
-#define SeqItem_hxx <LocOpe_PntFace.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 #define TCollection_SequenceNode LocOpe_SequenceNodeOfSequenceOfPntFace
-#define TCollection_SequenceNode_hxx <LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
 #define Handle_TCollection_SequenceNode Handle_LocOpe_SequenceNodeOfSequenceOfPntFace
 #define TCollection_SequenceNode_Type_() LocOpe_SequenceNodeOfSequenceOfPntFace_Type_()
 #define TCollection_Sequence LocOpe_SequenceOfPntFace
-#define TCollection_Sequence_hxx <LocOpe_SequenceOfPntFace.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/LocOpe/LocOpe_SequenceOfPntFace.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

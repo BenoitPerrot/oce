@@ -23,7 +23,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <LocOpe_SplitShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_SplitShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
@@ -59,7 +59,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 static Standard_Boolean IsInside(const TopoDS_Face&,

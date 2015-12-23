@@ -19,13 +19,13 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <LocOpe_PntFace.hxx>
-#include <LocOpe_CurveShapeIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CurveShapeIntersector.hxx>
 
 #include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 
 
 #include <Precision.hxx>

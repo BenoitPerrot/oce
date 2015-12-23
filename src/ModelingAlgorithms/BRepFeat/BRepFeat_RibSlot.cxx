@@ -23,17 +23,17 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_RibSlot.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
 
-#include <LocOpe.hxx>
-#include <LocOpe_Gluer.hxx>
-#include <LocOpe_FindEdges.hxx>
-#include <LocOpe_CSIntersector.hxx>
-#include <LocOpe_PntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_FindEdges.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_CSIntersector.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 

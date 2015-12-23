@@ -16,14 +16,14 @@
 
 // Modifed:     Portage NT 7-5-97 DPF (return NewParameter)
 
-#include <LocOpe_GeneratedShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_GeneratedShape.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <LocOpe_Generator.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Generator.hxx>
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
@@ -58,7 +58,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
-#include <LocOpe_BuildShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

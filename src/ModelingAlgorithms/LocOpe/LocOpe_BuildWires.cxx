@@ -18,8 +18,8 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <LocOpe_WiresOnShape.hxx>
-#include <LocOpe_BuildWires.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_BuildWires.hxx>
 
 
 

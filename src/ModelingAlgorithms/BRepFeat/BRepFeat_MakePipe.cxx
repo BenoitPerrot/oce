@@ -24,7 +24,7 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakePipe.hxx>
 
 #include <ModelingAlgorithms/BRepFeat/BRepFeat.hxx>
-#include <LocOpe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 
 //modified by NIZNHY-PKV Thu Mar 21 17:54:27 2002 f
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
@@ -40,7 +40,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
-#include <LocOpe_Pipe.hxx>
+#include <ModelingAlgorithms/LocOpe/LocOpe_Pipe.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
