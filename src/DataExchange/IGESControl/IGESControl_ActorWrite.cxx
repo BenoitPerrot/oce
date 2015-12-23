@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <Transfer_TransientMapper.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomToIGES_GeomCurve.hxx>
-#include <GeomToIGES_GeomSurface.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
 #include <Interface_Static.hxx>

@@ -81,8 +81,8 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
-#include <GeomToIGES_GeomCurve.hxx>
-#include <GeomToIGES_GeomSurface.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
 

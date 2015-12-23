@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <GeomToIGES_GeomEntity.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
 #include <Handle_IGESGeom_Point.hxx>
 #include <Handle_Geom_Point.hxx>
 #include <Handle_Geom_CartesianPoint.hxx>

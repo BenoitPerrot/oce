@@ -39,7 +39,7 @@
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
-#include <GeomToIGES_GeomSurface.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 
 #include <IGESBasic_Group.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

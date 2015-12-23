@@ -18,7 +18,7 @@
 //S4181 pdn 20.04.99 implementing of writing IGES elementary surfaces.
 //szv#10:PRO19566:05Oct99 workaround against weights array loss
 
-#include <GeomToIGES_GeomEntity.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
@@ -35,10 +35,10 @@
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <GeomToIGES_GeomSurface.hxx>
-#include <GeomToIGES_GeomCurve.hxx>
-#include <GeomToIGES_GeomPoint.hxx>
-#include <GeomToIGES_GeomVector.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomPoint.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomVector.hxx>
 
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>

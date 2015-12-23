@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomToIGES_GeomEntity.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_BoundedSurface.hxx>

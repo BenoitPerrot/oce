@@ -28,8 +28,8 @@
 #include <DataExchange/BRepToIGESBRep/BRepToIGESBRep_Entity.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomToIGES_GeomCurve.hxx>
-#include <GeomToIGES_GeomSurface.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 #include <IGESData_IGESWriter.hxx>
 #include <XSControl_TransferWriter.hxx>
 

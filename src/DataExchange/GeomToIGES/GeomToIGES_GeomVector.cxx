@@ -15,12 +15,12 @@
 // prise en compte de l'unite choisi par l'utilisateur
 // pour l'ecriture du fichier IGES.
 
-#include <GeomToIGES_GeomEntity.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
 #include <IGESGeom_Direction.hxx>
 #include <Geometry/Geom/Geom_Vector.hxx>
 #include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
-#include <GeomToIGES_GeomVector.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomVector.hxx>
 
 #include <Geometry/Geom/Geom_Vector.hxx>
 #include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>

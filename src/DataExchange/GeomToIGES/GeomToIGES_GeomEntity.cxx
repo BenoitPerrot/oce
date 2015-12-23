@@ -18,7 +18,7 @@
 
 
 #include <IGESData_IGESModel.hxx>
-#include <GeomToIGES_GeomEntity.hxx>
+#include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
 
 #include <IGESData_IGESModel.hxx>
 
