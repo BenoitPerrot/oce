@@ -16,7 +16,7 @@
 #include <StepVisual_CurveStyle.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWCurveStyle.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWCurveStyle.hxx>
 #include <StepVisual_CurveStyleFontSelect.hxx>
 #include <StepBasic_SizeSelect.hxx>
 #include <StepVisual_Colour.hxx>

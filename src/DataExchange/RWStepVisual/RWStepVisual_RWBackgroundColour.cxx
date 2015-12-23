@@ -16,7 +16,7 @@
 #include <StepVisual_BackgroundColour.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWBackgroundColour.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWBackgroundColour.hxx>
 #include <StepVisual_AreaOrView.hxx>
 
 

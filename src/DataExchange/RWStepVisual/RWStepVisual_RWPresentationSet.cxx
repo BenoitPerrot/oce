@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_PresentationSet.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWPresentationSet.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWPresentationSet.hxx>
 
 
 RWStepVisual_RWPresentationSet::RWStepVisual_RWPresentationSet () {}

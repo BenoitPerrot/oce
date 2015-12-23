@@ -16,7 +16,7 @@
 #include <StepVisual_SurfaceStyleUsage.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWSurfaceStyleUsage.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWSurfaceStyleUsage.hxx>
 #include <StepVisual_SurfaceSide.hxx>
 #include <StepVisual_SurfaceSideStyle.hxx>
 

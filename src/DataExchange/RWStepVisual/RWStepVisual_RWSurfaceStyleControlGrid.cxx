@@ -16,7 +16,7 @@
 #include <StepVisual_SurfaceStyleControlGrid.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWSurfaceStyleControlGrid.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWSurfaceStyleControlGrid.hxx>
 #include <StepVisual_CurveStyle.hxx>
 
 

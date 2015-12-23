@@ -16,7 +16,7 @@
 #include <StepVisual_TextStyleForDefinedFont.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWTextStyleForDefinedFont.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWTextStyleForDefinedFont.hxx>
 #include <StepVisual_Colour.hxx>
 
 

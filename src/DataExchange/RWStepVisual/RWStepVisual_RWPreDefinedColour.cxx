@@ -17,7 +17,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_PreDefinedColour.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWPreDefinedColour.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWPreDefinedColour.hxx>
 #include <StepVisual_PreDefinedItem.hxx>
 
 RWStepVisual_RWPreDefinedColour::RWStepVisual_RWPreDefinedColour () {}

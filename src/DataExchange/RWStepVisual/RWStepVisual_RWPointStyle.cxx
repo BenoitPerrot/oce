@@ -16,7 +16,7 @@
 #include <StepVisual_PointStyle.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWPointStyle.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWPointStyle.hxx>
 #include <StepVisual_MarkerSelect.hxx>
 #include <StepBasic_SizeSelect.hxx>
 #include <StepVisual_Colour.hxx>

@@ -16,7 +16,7 @@
 #include <StepVisual_CompositeText.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWCompositeText.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWCompositeText.hxx>
 #include <StepVisual_HArray1OfTextOrCharacter.hxx>
 #include <StepVisual_TextOrCharacter.hxx>
 

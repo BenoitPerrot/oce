@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_DraughtingPreDefinedCurveFont.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWDraughtingPreDefinedCurveFont.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWDraughtingPreDefinedCurveFont.hxx>
 
 
 RWStepVisual_RWDraughtingPreDefinedCurveFont::RWStepVisual_RWDraughtingPreDefinedCurveFont () {}

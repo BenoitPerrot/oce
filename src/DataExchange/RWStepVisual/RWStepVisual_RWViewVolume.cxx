@@ -16,7 +16,7 @@
 #include <StepVisual_ViewVolume.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWViewVolume.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWViewVolume.hxx>
 #include <StepVisual_CentralOrParallel.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepVisual_PlanarBox.hxx>

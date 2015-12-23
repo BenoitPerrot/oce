@@ -16,7 +16,7 @@
 #include <StepVisual_PresentationSize.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWPresentationSize.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWPresentationSize.hxx>
 #include <StepVisual_PresentationSizeAssignmentSelect.hxx>
 #include <StepVisual_PlanarBox.hxx>
 

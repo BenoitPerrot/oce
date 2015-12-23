@@ -16,7 +16,7 @@
 #include <StepVisual_CameraModelD2.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWCameraModelD2.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWCameraModelD2.hxx>
 #include <StepVisual_PlanarBox.hxx>
 
 

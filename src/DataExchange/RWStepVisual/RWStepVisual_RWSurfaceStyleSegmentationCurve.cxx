@@ -16,7 +16,7 @@
 #include <StepVisual_SurfaceStyleSegmentationCurve.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWSurfaceStyleSegmentationCurve.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWSurfaceStyleSegmentationCurve.hxx>
 #include <StepVisual_CurveStyle.hxx>
 
 

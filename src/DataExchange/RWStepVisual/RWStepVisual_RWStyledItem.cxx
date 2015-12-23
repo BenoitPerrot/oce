@@ -16,7 +16,7 @@
 #include <StepVisual_StyledItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWStyledItem.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWStyledItem.hxx>
 #include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <StepVisual_PresentationStyleAssignment.hxx>
 #include <StepRepr_RepresentationItem.hxx>

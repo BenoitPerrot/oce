@@ -16,7 +16,7 @@
 #include <StepVisual_ContextDependentInvisibility.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWContextDependentInvisibility.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWContextDependentInvisibility.hxx>
 #include <StepVisual_InvisibilityContext.hxx>
 #include <StepVisual_HArray1OfInvisibleItem.hxx>
 #include <StepVisual_InvisibleItem.hxx>

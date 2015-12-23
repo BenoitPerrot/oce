@@ -16,7 +16,7 @@
 #include <StepVisual_AreaInSet.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWAreaInSet.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWAreaInSet.hxx>
 #include <StepVisual_PresentationArea.hxx>
 #include <StepVisual_PresentationSet.hxx>
 

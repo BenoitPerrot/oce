@@ -16,7 +16,7 @@
 #include <StepVisual_SurfaceStyleFillArea.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWSurfaceStyleFillArea.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWSurfaceStyleFillArea.hxx>
 #include <StepVisual_FillAreaStyle.hxx>
 
 

@@ -16,7 +16,7 @@
 #include <StepVisual_TemplateInstance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWTemplateInstance.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWTemplateInstance.hxx>
 #include <StepRepr_RepresentationMap.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

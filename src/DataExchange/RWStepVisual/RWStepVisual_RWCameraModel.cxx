@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_CameraModel.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWCameraModel.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWCameraModel.hxx>
 
 
 RWStepVisual_RWCameraModel::RWStepVisual_RWCameraModel () {}

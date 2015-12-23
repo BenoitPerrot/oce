@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_PreDefinedItem.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWPreDefinedItem.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWPreDefinedItem.hxx>
 
 
 RWStepVisual_RWPreDefinedItem::RWStepVisual_RWPreDefinedItem () {}

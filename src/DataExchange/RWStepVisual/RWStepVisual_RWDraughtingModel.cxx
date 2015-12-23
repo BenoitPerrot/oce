@@ -20,7 +20,7 @@
 #include <StepVisual_DraughtingModel.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWDraughtingModel.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWDraughtingModel.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_PlanarExtent.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWPlanarExtent.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWPlanarExtent.hxx>
 
 
 RWStepVisual_RWPlanarExtent::RWStepVisual_RWPlanarExtent () {}

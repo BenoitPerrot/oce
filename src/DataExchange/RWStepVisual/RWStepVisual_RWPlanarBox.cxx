@@ -16,7 +16,7 @@
 #include <StepVisual_PlanarBox.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWPlanarBox.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWPlanarBox.hxx>
 #include <StepGeom_Axis2Placement.hxx>
 
 

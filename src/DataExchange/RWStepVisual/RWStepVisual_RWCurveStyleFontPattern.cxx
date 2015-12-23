@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_CurveStyleFontPattern.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWCurveStyleFontPattern.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWCurveStyleFontPattern.hxx>
 
 
 RWStepVisual_RWCurveStyleFontPattern::RWStepVisual_RWCurveStyleFontPattern () {}

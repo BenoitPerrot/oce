@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_ColourSpecification.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepVisual_RWColourSpecification.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWColourSpecification.hxx>
 
 
 RWStepVisual_RWColourSpecification::RWStepVisual_RWColourSpecification () {}

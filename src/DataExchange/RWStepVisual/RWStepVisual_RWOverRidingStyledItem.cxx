@@ -16,7 +16,7 @@
 #include <StepVisual_OverRidingStyledItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepVisual_RWOverRidingStyledItem.hxx>
+#include <DataExchange/RWStepVisual/RWStepVisual_RWOverRidingStyledItem.hxx>
 #include <StepVisual_StyledItem.hxx>
 #include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <StepVisual_PresentationStyleAssignment.hxx>
