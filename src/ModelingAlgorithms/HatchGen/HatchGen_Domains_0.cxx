@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HatchGen_Domains.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domains.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <HatchGen_Domain.hxx>
-#include <HatchGen_SequenceNodeOfDomains.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_SequenceNodeOfDomains.hxx>
  
 
 #define SeqItem HatchGen_Domain
-#define SeqItem_hxx <HatchGen_Domain.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #define TCollection_SequenceNode HatchGen_SequenceNodeOfDomains
-#define TCollection_SequenceNode_hxx <HatchGen_SequenceNodeOfDomains.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/HatchGen/HatchGen_SequenceNodeOfDomains.hxx>
 #define Handle_TCollection_SequenceNode Handle_HatchGen_SequenceNodeOfDomains
 #define TCollection_SequenceNode_Type_() HatchGen_SequenceNodeOfDomains_Type_()
 #define TCollection_Sequence HatchGen_Domains
-#define TCollection_Sequence_hxx <HatchGen_Domains.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/HatchGen/HatchGen_Domains.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

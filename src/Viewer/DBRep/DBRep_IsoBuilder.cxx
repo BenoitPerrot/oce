@@ -26,7 +26,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

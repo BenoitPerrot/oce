@@ -47,7 +47,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
-#include <HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem HatchGen_PointOnHatching
-#define SeqItem_hxx <HatchGen_PointOnHatching.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
 #define TCollection_SequenceNode HatchGen_SequenceNodeOfPointsOnHatching
-#define TCollection_SequenceNode_hxx <HatchGen_SequenceNodeOfPointsOnHatching.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/HatchGen/HatchGen_SequenceNodeOfPointsOnHatching.hxx>
 #define Handle_TCollection_SequenceNode Handle_HatchGen_SequenceNodeOfPointsOnHatching
 #define TCollection_SequenceNode_Type_() HatchGen_SequenceNodeOfPointsOnHatching_Type_()
 #define TCollection_Sequence HatchGen_PointsOnHatching
-#define TCollection_Sequence_hxx <HatchGen_PointsOnHatching.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/HatchGen/HatchGen_PointsOnHatching.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

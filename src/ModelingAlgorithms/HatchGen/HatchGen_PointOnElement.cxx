@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <HatchGen_PointOnElement.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
 
 //=======================================================================
 // Function : HatchGen_PointOnElement

@@ -45,9 +45,9 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <HatchGen_PointOnElement.hxx>
-#include <HatchGen_PointOnHatching.hxx>
-#include <HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
 

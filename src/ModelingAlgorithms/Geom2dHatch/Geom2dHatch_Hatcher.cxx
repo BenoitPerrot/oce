@@ -21,14 +21,14 @@
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Element.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatching.hxx>
-#include <HatchGen_PointOnHatching.hxx>
-#include <HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
 
-#include <HatchGen_Domain.hxx>
-#include <HatchGen_Domains.hxx>
-#include <HatchGen_PointOnElement.hxx>
-#include <HatchGen_PointOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domains.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntRes2d_Transition.hxx>

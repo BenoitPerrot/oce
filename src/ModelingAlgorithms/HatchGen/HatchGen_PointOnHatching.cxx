@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <HatchGen_PointOnElement.hxx>
-#include <HatchGen_PointOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
 
 #define RAISE_IF_NOSUCHOBJECT 0
 

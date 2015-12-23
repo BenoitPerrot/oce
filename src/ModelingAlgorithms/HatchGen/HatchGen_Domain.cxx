@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <HatchGen_PointOnHatching.hxx>
-#include <HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 
 //=======================================================================
 // Function : HatchGen_Domain

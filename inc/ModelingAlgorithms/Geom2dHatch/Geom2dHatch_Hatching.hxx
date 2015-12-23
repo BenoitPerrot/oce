@@ -12,9 +12,9 @@
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <HatchGen_PointsOnHatching.hxx>
-#include <HatchGen_ErrorStatus.hxx>
-#include <HatchGen_Domains.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointsOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_ErrorStatus.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domains.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;

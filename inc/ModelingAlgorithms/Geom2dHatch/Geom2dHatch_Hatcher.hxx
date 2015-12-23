@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Elements.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatchings.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <HatchGen_ErrorStatus.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_ErrorStatus.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class StdFail_NotDone;

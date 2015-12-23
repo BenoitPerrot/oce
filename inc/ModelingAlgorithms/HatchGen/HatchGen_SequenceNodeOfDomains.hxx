@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HatchGen_SequenceNodeOfDomains.hxx>
 
-#include <HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class HatchGen_Domain;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem HatchGen_Domain
-#define SeqItem_hxx <HatchGen_Domain.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #define TCollection_SequenceNode HatchGen_SequenceNodeOfDomains
-#define TCollection_SequenceNode_hxx <HatchGen_SequenceNodeOfDomains.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/HatchGen/HatchGen_SequenceNodeOfDomains.hxx>
 #define Handle_TCollection_SequenceNode Handle_HatchGen_SequenceNodeOfDomains
 #define TCollection_SequenceNode_Type_() HatchGen_SequenceNodeOfDomains_Type_()
 #define TCollection_Sequence HatchGen_Domains
-#define TCollection_Sequence_hxx <HatchGen_Domains.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/HatchGen/HatchGen_Domains.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

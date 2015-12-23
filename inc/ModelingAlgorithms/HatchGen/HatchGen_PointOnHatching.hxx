@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <HatchGen_PointsOnElement.hxx>
-#include <HatchGen_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointsOnElement.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_IntersectionPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

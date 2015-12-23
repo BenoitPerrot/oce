@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <HatchGen_PointOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class HatchGen_PointOnHatching;
@@ -98,7 +98,7 @@ private:
 };
 
 
-#include <HatchGen_Domain.lxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.lxx>
 
 
 

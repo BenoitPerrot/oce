@@ -39,10 +39,10 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>
-#include <HatchGen_ErrorStatus.hxx>
-#include <HatchGen_Domain.hxx>
-#include <HatchGen_PointOnHatching.hxx>
-#include <HatchGen_PointOnElement.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_ErrorStatus.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
+#include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
 #include <Precision.hxx>
 
 const Standard_Real IntersectorConfusion = 1.e-10;
