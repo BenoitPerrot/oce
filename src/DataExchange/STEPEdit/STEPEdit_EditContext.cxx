@@ -16,7 +16,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <STEPEdit_EditContext.hxx>
+#include <DataExchange/STEPEdit/STEPEdit_EditContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPEdit_EditContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

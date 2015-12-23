@@ -15,7 +15,7 @@
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
-#include <STEPEdit.hxx>
+#include <DataExchange/STEPEdit/STEPEdit.hxx>
 //#include <DataExchange/StepData/StepData_FileProtocol.hxx>
 #include <DataExchange/StepAP214/StepAP214.hxx>
 //#include <DataExchange/HeaderSection/HeaderSection.hxx>

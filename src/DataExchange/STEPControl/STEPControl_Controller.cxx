@@ -50,9 +50,9 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
 #include <DataExchange/STEPControl/STEPControl_ActorWrite.hxx>
 
-#include <STEPEdit.hxx>
-#include <STEPEdit_EditContext.hxx>
-#include <STEPEdit_EditSDR.hxx>
+#include <DataExchange/STEPEdit/STEPEdit.hxx>
+#include <DataExchange/STEPEdit/STEPEdit_EditContext.hxx>
+#include <DataExchange/STEPEdit/STEPEdit_EditSDR.hxx>
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_EditHeader.hxx>
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
