@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BinTools_LocationSet.hxx>
+#include <OCAF/BinTools/BinTools_LocationSet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BinTools_SurfaceSet.hxx>
-#include <BinTools_CurveSet.hxx>
-#include <BinTools_Curve2dSet.hxx>
+#include <OCAF/BinTools/BinTools_SurfaceSet.hxx>
+#include <OCAF/BinTools/BinTools_CurveSet.hxx>
+#include <OCAF/BinTools/BinTools_Curve2dSet.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

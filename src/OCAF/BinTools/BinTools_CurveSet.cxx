@@ -15,8 +15,8 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BinTools_CurveSet.hxx>
-#include <BinTools.hxx>
+#include <OCAF/BinTools/BinTools_CurveSet.hxx>
+#include <OCAF/BinTools/BinTools.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>

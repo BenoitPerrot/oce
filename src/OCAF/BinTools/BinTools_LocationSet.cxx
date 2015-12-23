@@ -15,8 +15,8 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BinTools_LocationSet.hxx>
-#include <BinTools.hxx>
+#include <OCAF/BinTools/BinTools_LocationSet.hxx>
+#include <OCAF/BinTools/BinTools.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>

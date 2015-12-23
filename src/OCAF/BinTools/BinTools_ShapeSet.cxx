@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BinTools_LocationSet.hxx>
-#include <BinTools_ShapeSet.hxx>
+#include <OCAF/BinTools/BinTools_LocationSet.hxx>
+#include <OCAF/BinTools/BinTools_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
@@ -44,10 +44,10 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <BinTools.hxx>
-#include <BinTools_Curve2dSet.hxx>
-#include <BinTools_CurveSet.hxx>
-#include <BinTools_SurfaceSet.hxx>
+#include <OCAF/BinTools/BinTools.hxx>
+#include <OCAF/BinTools/BinTools_Curve2dSet.hxx>
+#include <OCAF/BinTools/BinTools_CurveSet.hxx>
+#include <OCAF/BinTools/BinTools_SurfaceSet.hxx>
 #include <string.h>
 //#define MDTV_DEB 1
 const char* Version_1  = "Open CASCADE Topology V1 (c)";

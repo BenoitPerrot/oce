@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMNaming_NamedShapeDriver.hxx>
 
-#include <BinTools_ShapeSet.hxx>
+#include <OCAF/BinTools/BinTools_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>

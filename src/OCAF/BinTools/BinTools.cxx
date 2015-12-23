@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinTools.hxx>
+#include <OCAF/BinTools/BinTools.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <Foundation/Storage/Storage_StreamTypeMismatchError.hxx>
 

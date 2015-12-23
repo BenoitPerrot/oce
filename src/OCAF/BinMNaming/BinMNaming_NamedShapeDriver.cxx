@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
-#include <BinTools_LocationSet.hxx>
+#include <OCAF/BinTools/BinTools_LocationSet.hxx>
 #include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMNaming_NamedShapeDriver)
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
 #include <CDM_MessageDriver.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BinTools_ShapeSet.hxx>
+#include <OCAF/BinTools/BinTools_ShapeSet.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #define SHAPESET "SHAPE_SECTION"

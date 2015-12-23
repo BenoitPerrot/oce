@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BinTools_Curve2dSet.hxx>
+#include <OCAF/BinTools/BinTools_Curve2dSet.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
@@ -39,7 +39,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
-#include <BinTools.hxx>
+#include <OCAF/BinTools/BinTools.hxx>
 
 #define LINE      1
 #define CIRCLE    2

@@ -15,10 +15,10 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BinTools_SurfaceSet.hxx>
-#include <BinTools.hxx>
+#include <OCAF/BinTools/BinTools_SurfaceSet.hxx>
+#include <OCAF/BinTools/BinTools.hxx>
 
-#include <BinTools_CurveSet.hxx>
+#include <OCAF/BinTools/BinTools_CurveSet.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
