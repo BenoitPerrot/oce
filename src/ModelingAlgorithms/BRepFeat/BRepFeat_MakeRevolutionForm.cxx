@@ -107,7 +107,7 @@
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 

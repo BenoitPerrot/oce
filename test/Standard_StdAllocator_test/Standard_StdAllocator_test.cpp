@@ -1,7 +1,7 @@
 #include <Foundation/Standard/Standard_StdAllocator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <list>
 #include <vector>
 

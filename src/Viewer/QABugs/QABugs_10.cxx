@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <BRepPrimAPI_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
@@ -281,7 +281,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <BRepPrimAPI_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
 //=======================================================================
 //function : OCC712
@@ -441,8 +441,8 @@ Standard_Integer performTriangulation (TopoDS_Shape aShape, Draw_Interpretor& di
   return 0;
 }
 
-#include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepPrimAPI_MakeCone.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCone.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //=======================================================================
@@ -533,8 +533,8 @@ static Standard_Integer OCC822_1 (Draw_Interpretor& di, Standard_Integer argc, c
 
 }
 
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 //=======================================================================
 //  OCC822_2
 //=======================================================================
@@ -737,7 +737,7 @@ static Standard_Integer OCC824 (Draw_Interpretor& di,Standard_Integer argc, cons
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
-#include <BRepPrimAPI_MakeHalfSpace.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeHalfSpace.hxx>
 
 //=======================================================================
 //  OCC825
@@ -923,7 +923,7 @@ static Standard_Integer OCC826 (Draw_Interpretor& di,Standard_Integer argc, cons
   return 0;
 }
 
-#include <BRepPrimAPI_MakeTorus.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeTorus.hxx>
 //=======================================================================
 //  OCC827
 //=======================================================================

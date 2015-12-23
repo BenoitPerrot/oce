@@ -54,8 +54,8 @@
 #include <IGESToBRep_BasicSurface.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <BRepPrimAPI_MakePrism.hxx>
-#include <BRepPrimAPI_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 //S4054: ShapeTool_MakeWire -> ShapeExtend_WireData //:g8: BRepLib_MakeWire -> ShapeTool_MakeWire
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>

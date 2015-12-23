@@ -4,9 +4,9 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRepPrimAPI_MakeTorus.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeTorus.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

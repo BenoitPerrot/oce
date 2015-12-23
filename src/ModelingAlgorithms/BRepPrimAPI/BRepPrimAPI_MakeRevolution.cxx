@@ -18,7 +18,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Revolution.hxx>
-#include <BRepPrimAPI_MakeRevolution.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevolution.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

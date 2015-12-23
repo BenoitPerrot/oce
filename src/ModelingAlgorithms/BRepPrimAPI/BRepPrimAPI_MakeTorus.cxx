@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Torus.hxx>
-#include <BRepPrimAPI_MakeTorus.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeTorus.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 
 

@@ -2640,7 +2640,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 
-#include <BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

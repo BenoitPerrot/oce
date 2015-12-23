@@ -1,5 +1,5 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeEvolved.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

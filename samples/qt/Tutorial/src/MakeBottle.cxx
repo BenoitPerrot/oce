@@ -14,8 +14,8 @@
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>
 
-#include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepPrimAPI_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
 
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geometry/GC/GC_MakeSegment.hxx>

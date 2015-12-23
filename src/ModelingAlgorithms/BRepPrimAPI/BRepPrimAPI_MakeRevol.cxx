@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <BRepSweep_Revol.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepPrimAPI_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>

@@ -20,7 +20,7 @@
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Wedge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepPrimAPI_MakeWedge.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeWedge.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 

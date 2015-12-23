@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepPrimAPI_MakeHalfSpace.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeHalfSpace.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>

@@ -52,7 +52,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>

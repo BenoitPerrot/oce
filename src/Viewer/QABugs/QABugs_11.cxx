@@ -30,13 +30,13 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <AIS_Trihedron.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
-#include <BRepPrimAPI_MakeCone.hxx>
-#include <BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCone.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <IGESToBRep_Reader.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -589,7 +589,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 #include<ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include<ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 
-#include<BRepPrimAPI_MakeHalfSpace.hxx>
+#include<ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeHalfSpace.hxx>
 #include<Handle_Geom_CartesianPoint.hxx>
 #include<Geometry/Geom/Geom_CartesianPoint.hxx>
 #include<AIS_Point.hxx>
@@ -1428,11 +1428,11 @@ static Standard_Integer OCC525(Draw_Interpretor& di, Standard_Integer /*argc*/, 
   return 0;
 }
 
-#include <BRepPrimAPI_MakeWedge.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeWedge.hxx>
 #include <Geometry/gce/gce_MakeRotation.hxx>
 #include <Geometry/gce/gce_MakeTranslation.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
-#include <BRepPrimAPI_MakeWedge.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeWedge.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>

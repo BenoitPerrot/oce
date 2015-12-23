@@ -24,7 +24,7 @@
 #include <VrmlData_Cylinder.hxx>
 #include <VrmlData_Sphere.hxx>
 #include <VrmlData_UnknownNode.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Cone.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Cylinder.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Sphere.hxx>

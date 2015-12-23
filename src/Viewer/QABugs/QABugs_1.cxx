@@ -463,7 +463,7 @@ static Standard_Integer OCC74bug_get (Draw_Interpretor& di, Standard_Integer arg
   return 0;
 }
 
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <TDF_Data.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>

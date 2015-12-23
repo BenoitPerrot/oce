@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <BRepPrimAPI_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_Revol.hxx>
 #include <QANewBRepNaming_Loader.hxx>

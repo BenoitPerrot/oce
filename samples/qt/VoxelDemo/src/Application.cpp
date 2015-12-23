@@ -29,10 +29,10 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrimAPI_MakeTorus.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
-#include <BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeTorus.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <Aspect_ColorScale.hxx>
 
 #include <Windows.h>

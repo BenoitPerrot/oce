@@ -41,8 +41,8 @@
 #include <iostream>
 #include <Foundation/OSD/OSD_PerfMeter.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
@@ -520,7 +520,7 @@ static Standard_Integer OCC23683 (Draw_Interpretor& di, Standard_Integer argc,co
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
-#include <BRepPrimAPI_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 
 static int test_offset(Draw_Interpretor& di, Standard_Integer argc, const char** argv)
@@ -2186,7 +2186,7 @@ static Standard_Integer OCC24565 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <Handle_BRepTools_NurbsConvertModification.hxx>
-#include <BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
 #include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>
 static TopoDS_Shape CreateTestShape (int& theShapeNb)

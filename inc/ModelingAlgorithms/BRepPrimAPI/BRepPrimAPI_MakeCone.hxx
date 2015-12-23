@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Cone.hxx>
-#include <BRepPrimAPI_MakeOneAxis.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeOneAxis.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

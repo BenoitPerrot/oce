@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <QANewBRepNaming_Sphere.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <TNaming_Builder.hxx>

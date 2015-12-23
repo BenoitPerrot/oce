@@ -1,5 +1,5 @@
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

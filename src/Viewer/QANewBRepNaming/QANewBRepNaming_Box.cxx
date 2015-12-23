@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <QANewBRepNaming_Box.hxx>
 
 #include <QANewBRepNaming_Loader.hxx>

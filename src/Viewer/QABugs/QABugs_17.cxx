@@ -57,7 +57,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <AIS_LengthDimension.hxx>
 #include <AIS_RadiusDimension.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
@@ -1479,8 +1479,8 @@ static Standard_Integer OCCN1 (Draw_Interpretor& di, Standard_Integer argc, cons
   return 0;
 }
 
-#include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 //=======================================================================

@@ -41,12 +41,12 @@
 #include <QANewBRepNaming_Revol.hxx>
 #include <QANewBRepNaming_ImportShape.hxx>
 
-#include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 
-#include <BRepPrimAPI_MakePrism.hxx>
-#include <BRepPrimAPI_MakeRevol.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 

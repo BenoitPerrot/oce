@@ -15,7 +15,7 @@
 
 #include <TFunction_Logbook.hxx>
 #include <TDF_Label.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <DNaming_BoxDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_BoxDriver)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
 #include <TFunction_Logbook.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>

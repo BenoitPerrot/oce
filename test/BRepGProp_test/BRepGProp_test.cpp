@@ -1,5 +1,5 @@
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <gtest/gtest.h>

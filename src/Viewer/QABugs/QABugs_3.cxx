@@ -352,8 +352,8 @@ static Standard_Integer BUC60574(Draw_Interpretor& di, Standard_Integer /*n*/, c
 }
 
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
@@ -1062,8 +1062,8 @@ static Standard_Integer BUC60773 (Draw_Interpretor& /*di*/, Standard_Integer /*n
   return 0;
 }
 
-#include<BRepPrimAPI_MakeCylinder.hxx>
-#include<BRepPrimAPI_MakeCone.hxx>
+#include<ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
+#include<ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCone.hxx>
 
 static int TestCMD(Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 
@@ -1730,7 +1730,7 @@ static Standard_Integer BUC60921 (Draw_Interpretor& di,
 }
 
 #include<IGESControl_Reader.hxx>
-#include<BRepPrimAPI_MakeHalfSpace.hxx>
+#include<ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeHalfSpace.hxx>
 
 static Standard_Integer BUC60951_(Draw_Interpretor& di, Standard_Integer argc, const char ** a)
 {

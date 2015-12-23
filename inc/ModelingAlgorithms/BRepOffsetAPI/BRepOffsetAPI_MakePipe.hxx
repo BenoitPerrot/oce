@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_Pipe.hxx>
-#include <BRepPrimAPI_MakeSweep.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>
 #include <GeomFill_Trihedron.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

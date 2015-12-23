@@ -15,7 +15,7 @@
 
 #include <TFunction_Logbook.hxx>
 #include <TDF_Label.hxx>
-#include <BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <DNaming_CylinderDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_CylinderDriver)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <TFunction_Logbook.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>

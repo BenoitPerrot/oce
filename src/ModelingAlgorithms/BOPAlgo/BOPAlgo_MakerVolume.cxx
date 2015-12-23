@@ -24,7 +24,7 @@
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>

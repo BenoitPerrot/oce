@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Sphere.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 
 

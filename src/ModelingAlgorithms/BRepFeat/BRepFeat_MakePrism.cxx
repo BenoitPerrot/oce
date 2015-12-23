@@ -58,7 +58,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 
 //modified by NIZNHY-PKV Thu Mar 21 18:14:23 2002 f
 //#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>

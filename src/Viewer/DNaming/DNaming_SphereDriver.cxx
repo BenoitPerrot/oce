@@ -15,7 +15,7 @@
 
 #include <TFunction_Logbook.hxx>
 #include <TDF_Label.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <DNaming_SphereDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_SphereDriver)
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>

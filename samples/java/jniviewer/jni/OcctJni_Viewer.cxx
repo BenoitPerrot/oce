@@ -24,7 +24,7 @@
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Foundation/Standard/Standard_Version.hxx>
 
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 
 #include <STEPControl_Reader.hxx>
 #include <IGESControl_Reader.hxx>

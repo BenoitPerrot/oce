@@ -1,6 +1,6 @@
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 
 #include <gtest/gtest.h>

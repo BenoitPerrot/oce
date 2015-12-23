@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Revolution.hxx>
-#include <BRepPrimAPI_MakeOneAxis.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeOneAxis.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

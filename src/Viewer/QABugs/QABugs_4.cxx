@@ -23,7 +23,7 @@
 #include <AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <BRepPrimAPI_MakeSphere.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <AIS_Drawer.hxx>
 #include <Prs3d_ShadingAspect.hxx>

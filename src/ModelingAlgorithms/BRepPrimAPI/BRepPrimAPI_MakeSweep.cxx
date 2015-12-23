@@ -15,4 +15,4 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepPrimAPI_MakeSweep.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>

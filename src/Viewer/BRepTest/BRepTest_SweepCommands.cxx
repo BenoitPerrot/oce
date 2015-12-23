@@ -22,8 +22,8 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_PipeError.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_Generator.hxx>
-#include <BRepPrimAPI_MakePrism.hxx>
-#include <BRepPrimAPI_MakeRevol.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipe.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeEvolved.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>

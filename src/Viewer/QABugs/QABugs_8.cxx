@@ -33,7 +33,7 @@
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 
 static Standard_Integer  OCC162 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepSweep_Prism.hxx>
-#include <BRepPrimAPI_MakeSweep.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class gp_Vec;

@@ -18,7 +18,7 @@
 // Modified by vro, Thu Dec 21 10:34:59 2000
 
 #include <TDF_Label.hxx>
-#include <BRepPrimAPI_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_Prism.hxx>
 #include <QANewBRepNaming_Loader.hxx>

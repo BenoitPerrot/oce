@@ -28,7 +28,7 @@
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
 
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>

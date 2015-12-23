@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <BRepSweep_Prism.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepPrimAPI_MakePrism.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 // perform checks on the argument

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_BRepFill_PipeShell.hxx>
-#include <BRepPrimAPI_MakeSweep.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TypeOfContact.hxx>
 #include <Handle_Law_Function.hxx>

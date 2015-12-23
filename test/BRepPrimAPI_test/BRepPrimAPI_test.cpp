@@ -1,4 +1,4 @@
-#include <BRepPrimAPI_MakeBox.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <gtest/gtest.h>
 
 TEST(BRepPrimAPITestSuite, testCreateBox)

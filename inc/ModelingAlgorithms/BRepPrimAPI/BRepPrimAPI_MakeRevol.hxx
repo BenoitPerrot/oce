@@ -12,7 +12,7 @@
 
 #include <BRepSweep_Revol.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepPrimAPI_MakeSweep.hxx>
+#include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
