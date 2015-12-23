@@ -13,7 +13,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <ShapeConstruct_MakeTriangulation.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_MakeTriangulation.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Precision.hxx>

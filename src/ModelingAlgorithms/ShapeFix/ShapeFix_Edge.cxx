@@ -21,7 +21,7 @@
 //:r4 abv 02.04.99 improving method FixSameParameter()
 //:s5 abv 22.04.99 Adding debug printouts in catch {} blocks
 //    abv 05.05.99 S4137: method CopyPCurves moved to ShapeBuild_Edge
-#include <ShapeConstruct_ProjectCurveOnSurface.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_ProjectCurveOnSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

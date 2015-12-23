@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeFix_Edge.hxx>
-#include <ShapeConstruct_Curve.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <ShapeConstruct.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 

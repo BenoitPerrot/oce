@@ -52,7 +52,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
-#include <ShapeConstruct_Curve.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_OrientedEdge.hxx>

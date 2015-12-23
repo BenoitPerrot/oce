@@ -23,7 +23,7 @@
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ShapeConstruct.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
@@ -44,7 +44,7 @@
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
-#include <ShapeConstruct_Curve.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 #include <Precision.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

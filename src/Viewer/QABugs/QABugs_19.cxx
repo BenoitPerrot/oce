@@ -574,7 +574,7 @@ static int test_offset(Draw_Interpretor& di, Standard_Integer argc, const char**
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Precision.hxx>
-#include <ShapeConstruct_ProjectCurveOnSurface.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_ProjectCurveOnSurface.hxx>
 //=======================================================================
 //function : OCC24008
 //purpose  : 

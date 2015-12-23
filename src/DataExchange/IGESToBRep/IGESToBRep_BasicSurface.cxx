@@ -85,7 +85,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
-#include <ShapeConstruct_Curve.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 
 //=======================================================================
 //function : CheckBSplineSurface

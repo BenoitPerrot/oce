@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <ShapeConstruct.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>

@@ -19,7 +19,7 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <ShapeConstruct_Curve.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

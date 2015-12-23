@@ -109,7 +109,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 // S3767
 #include <Foundation/Message/Message_Msg.hxx>  
-#include <ShapeConstruct_Curve.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 
 //=======================================================================

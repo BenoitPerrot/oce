@@ -121,7 +121,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
-#include <ShapeConstruct_ProjectCurveOnSurface.hxx>  
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_ProjectCurveOnSurface.hxx>  
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>

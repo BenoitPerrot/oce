@@ -23,7 +23,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <ShapeConstruct_CompBezierCurves2dToBSplineCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_CompBezierCurves2dToBSplineCurve2d.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
