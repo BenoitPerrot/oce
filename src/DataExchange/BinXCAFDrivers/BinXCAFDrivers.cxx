@@ -23,7 +23,7 @@
 #include <BinMXCAFDoc.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <BinDrivers.hxx>
+#include <OCAF/BinDrivers/BinDrivers.hxx>
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID BinXCAFStorageDriver  ("a78ff496-a779-11d5-aab4-0050044b1af1");

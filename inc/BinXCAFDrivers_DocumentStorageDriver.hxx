@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinXCAFDrivers_DocumentStorageDriver.hxx>
 
-#include <BinDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinDrivers/BinDrivers_DocumentStorageDriver.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 class BinMDF_ADriverTable;

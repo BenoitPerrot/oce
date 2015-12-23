@@ -18,7 +18,7 @@
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BinDrivers.hxx>
+#include <OCAF/BinDrivers/BinDrivers.hxx>
 #include <BinLDrivers.hxx>
 #include <BinMDF.hxx>
 #include <BinMDataStd.hxx>
@@ -28,8 +28,8 @@
 #include <BinMFunction.hxx>
 #include <BinMPrsStd.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <BinDrivers_DocumentStorageDriver.hxx>
-#include <BinDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/BinDrivers/BinDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinDrivers/BinDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID BinStorageDriver  ("03a56835-8269-11d5-aab2-0050044b1af1");
