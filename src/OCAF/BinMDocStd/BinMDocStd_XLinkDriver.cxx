@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDocStd_XLinkDriver.hxx>
+#include <OCAF/BinMDocStd/BinMDocStd_XLinkDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDocStd_XLinkDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

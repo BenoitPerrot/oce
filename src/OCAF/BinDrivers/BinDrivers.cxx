@@ -24,7 +24,7 @@
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <OCAF/BinMDataXtd/BinMDataXtd.hxx>
 #include <BinMNaming.hxx>
-#include <BinMDocStd.hxx>
+#include <OCAF/BinMDocStd/BinMDocStd.hxx>
 #include <BinMFunction.hxx>
 #include <BinMPrsStd.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

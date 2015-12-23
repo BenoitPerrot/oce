@@ -15,10 +15,10 @@
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMDocStd.hxx>
+#include <OCAF/BinMDocStd/BinMDocStd.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMDocStd_XLinkDriver.hxx>
+#include <OCAF/BinMDocStd/BinMDocStd_XLinkDriver.hxx>
 
 //=======================================================================
 //function : AddDrivers
