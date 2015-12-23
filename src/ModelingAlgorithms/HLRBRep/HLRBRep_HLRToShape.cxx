@@ -14,18 +14,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <HLRBRep_Data.hxx>
-#include <HLRBRep_EdgeData.hxx>
-#include <HLRBRep_HLRToShape.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_HLRToShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <HLRBRep.hxx>
-#include <HLRBRep_Data.hxx>
-#include <HLRBRep_ShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 
 //=======================================================================

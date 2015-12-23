@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <HLRBRep_EdgeFaceTool.hxx>
-#include <HLRBRep_Curve.hxx>
-#include <HLRBRep_Surface.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeFaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Surface.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 
 #include <IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <HLRBRep_LineTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
  
 
 #define TheQuadric IntSurf_Quadric
@@ -15,8 +15,8 @@
 #define TheCurve gp_Lin
 #define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool
-#define TheCurveTool_hxx <HLRBRep_LineTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #define IntCurveSurface_QuadricCurveFunc HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf
-#define IntCurveSurface_QuadricCurveFunc_hxx <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
+#define IntCurveSurface_QuadricCurveFunc_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 #include <IntCurveSurface_QuadricCurveFunc.gxx>
 

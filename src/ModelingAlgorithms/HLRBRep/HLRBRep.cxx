@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <HLRBRep_Curve.hxx>
-#include <HLRBRep.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge2d.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>

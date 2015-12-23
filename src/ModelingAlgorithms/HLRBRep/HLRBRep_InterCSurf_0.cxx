@@ -3,20 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_InterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_InterCSurf.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <HLRBRep_LineTool.hxx>
-#include <HLRBRep_SurfaceTool.hxx>
-#include <HLRBRep_ThePolygonOfInterCSurf.hxx>
-#include <HLRBRep_ThePolygonToolOfInterCSurf.hxx>
-#include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
-#include <HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
-#include <HLRBRep_TheInterferenceOfInterCSurf.hxx>
-#include <HLRBRep_TheCSFunctionOfInterCSurf.hxx>
-#include <HLRBRep_TheExactInterCSurf.hxx>
-#include <HLRBRep_TheQuadCurvExactInterCSurf.hxx>
-#include <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SurfaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonToolOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheInterferenceOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheCSFunctionOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheExactInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvExactInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
@@ -31,32 +31,32 @@
 #define TheCurve gp_Lin
 #define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool
-#define TheCurveTool_hxx <HLRBRep_LineTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #define TheSurface Standard_Address
 #define TheSurface_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheSurfaceTool HLRBRep_SurfaceTool
-#define TheSurfaceTool_hxx <HLRBRep_SurfaceTool.hxx>
+#define TheSurfaceTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SurfaceTool.hxx>
 #define IntCurveSurface_ThePolygon HLRBRep_ThePolygonOfInterCSurf
-#define IntCurveSurface_ThePolygon_hxx <HLRBRep_ThePolygonOfInterCSurf.hxx>
+#define IntCurveSurface_ThePolygon_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
 #define IntCurveSurface_ThePolygonTool HLRBRep_ThePolygonToolOfInterCSurf
-#define IntCurveSurface_ThePolygonTool_hxx <HLRBRep_ThePolygonToolOfInterCSurf.hxx>
+#define IntCurveSurface_ThePolygonTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonToolOfInterCSurf.hxx>
 #define IntCurveSurface_ThePolyhedron HLRBRep_ThePolyhedronOfInterCSurf
-#define IntCurveSurface_ThePolyhedron_hxx <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
+#define IntCurveSurface_ThePolyhedron_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #define IntCurveSurface_ThePolyhedronTool HLRBRep_ThePolyhedronToolOfInterCSurf
-#define IntCurveSurface_ThePolyhedronTool_hxx <HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
+#define IntCurveSurface_ThePolyhedronTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
 #define IntCurveSurface_TheInterference HLRBRep_TheInterferenceOfInterCSurf
-#define IntCurveSurface_TheInterference_hxx <HLRBRep_TheInterferenceOfInterCSurf.hxx>
+#define IntCurveSurface_TheInterference_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheInterferenceOfInterCSurf.hxx>
 #define IntCurveSurface_TheCSFunction HLRBRep_TheCSFunctionOfInterCSurf
-#define IntCurveSurface_TheCSFunction_hxx <HLRBRep_TheCSFunctionOfInterCSurf.hxx>
+#define IntCurveSurface_TheCSFunction_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheCSFunctionOfInterCSurf.hxx>
 #define IntCurveSurface_TheExactInter HLRBRep_TheExactInterCSurf
-#define IntCurveSurface_TheExactInter_hxx <HLRBRep_TheExactInterCSurf.hxx>
+#define IntCurveSurface_TheExactInter_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheExactInterCSurf.hxx>
 #define IntCurveSurface_TheQuadCurvExactInter HLRBRep_TheQuadCurvExactInterCSurf
-#define IntCurveSurface_TheQuadCurvExactInter_hxx <HLRBRep_TheQuadCurvExactInterCSurf.hxx>
+#define IntCurveSurface_TheQuadCurvExactInter_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvExactInterCSurf.hxx>
 #define IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactInter HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf
-#define IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactInter_hxx <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
+#define IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactInter_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 #define IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactInter HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf
-#define IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactInter_hxx <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
+#define IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactInter_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 #define IntCurveSurface_Inter HLRBRep_InterCSurf
-#define IntCurveSurface_Inter_hxx <HLRBRep_InterCSurf.hxx>
+#define IntCurveSurface_Inter_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_InterCSurf.hxx>
 #include <IntCurveSurface_Inter.gxx>
 

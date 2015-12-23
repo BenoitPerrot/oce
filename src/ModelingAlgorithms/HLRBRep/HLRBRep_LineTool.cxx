@@ -26,4 +26,4 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <HLRBRep_LineTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>

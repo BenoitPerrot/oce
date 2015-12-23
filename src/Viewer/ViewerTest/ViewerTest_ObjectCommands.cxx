@@ -81,8 +81,8 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <HLRBRep_PolyAlgo.hxx>
-#include <HLRBRep_PolyHLRToShape.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyHLRToShape.hxx>
 #include <Aspect_Window.hxx>
 
 #include <Graphic3d_ArrayOfPoints.hxx>

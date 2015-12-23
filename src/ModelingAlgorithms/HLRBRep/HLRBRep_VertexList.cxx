@@ -17,10 +17,10 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRBRep_EdgeInterferenceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeInterferenceTool.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
-#include <HLRBRep_VertexList.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_VertexList.hxx>
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

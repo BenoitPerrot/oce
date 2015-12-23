@@ -16,16 +16,16 @@
 
 // Modified by cma, Fri Nov 10 17:36:13 1995
 
-#include <HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <HLRBRep_PolyHLRToShape.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyHLRToShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge2d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <HLRBRep_BiPnt2D.hxx>
-#include <HLRBRep_ListIteratorOfListOfBPnt2D.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BiPnt2D.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListIteratorOfListOfBPnt2D.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 

@@ -12,14 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdPrs_HLRToolShape.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <HLRBRep_Algo.hxx>
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 
 StdPrs_HLRToolShape::StdPrs_HLRToolShape (
 		  const TopoDS_Shape& TheShape,

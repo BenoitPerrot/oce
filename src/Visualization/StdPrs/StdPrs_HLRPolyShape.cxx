@@ -27,12 +27,12 @@
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
-#include <HLRBRep_PolyAlgo.hxx>
-#include <HLRBRep_ListOfBPoint.hxx>
-#include <HLRBRep_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BiPoint.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
-#include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListIteratorOfListOfBPoint.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #define PntX1 ((Standard_Real*)Coordinates)[0]

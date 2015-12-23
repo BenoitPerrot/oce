@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_CLProps.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CLProps.hxx>
 
 #include <Geometry/LProp/LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -12,7 +12,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <HLRBRep_CLPropsATool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CLPropsATool.hxx>
  
 
 #define Curve Standard_Address
@@ -24,8 +24,8 @@
 #define Dir gp_Dir2d
 #define Dir_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define Tool HLRBRep_CLPropsATool
-#define Tool_hxx <HLRBRep_CLPropsATool.hxx>
+#define Tool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CLPropsATool.hxx>
 #define LProp_CLProps HLRBRep_CLProps
-#define LProp_CLProps_hxx <HLRBRep_CLProps.hxx>
+#define LProp_CLProps_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CLProps.hxx>
 #include <Geometry/LProp/LProp_CLProps.gxx>
 

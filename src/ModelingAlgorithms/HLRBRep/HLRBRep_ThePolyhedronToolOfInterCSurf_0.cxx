@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
  
 
 #define ThePolyhedron HLRBRep_ThePolyhedronOfInterCSurf
-#define ThePolyhedron_hxx <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
+#define ThePolyhedron_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #define IntCurveSurface_PolyhedronTool HLRBRep_ThePolyhedronToolOfInterCSurf
-#define IntCurveSurface_PolyhedronTool_hxx <HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
+#define IntCurveSurface_PolyhedronTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
 #include <IntCurveSurface_PolyhedronTool.gxx>
 

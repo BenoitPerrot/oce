@@ -22,7 +22,7 @@
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <HLRBRep_SurfaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SurfaceTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 Standard_Integer  HLRBRep_SurfaceTool::NbSamplesU(const Standard_Address S) { 

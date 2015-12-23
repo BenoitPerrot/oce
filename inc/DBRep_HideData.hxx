@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <HLRBRep_ListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListOfBPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_Trsf;

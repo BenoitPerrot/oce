@@ -24,7 +24,7 @@
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <HLRBRep_BCurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BCurveTool.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

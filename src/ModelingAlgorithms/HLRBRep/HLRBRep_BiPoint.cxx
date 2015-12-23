@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <HLRBRep_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BiPoint.hxx>
 
 //=======================================================================
 //function : HLRBRep_BiPoint

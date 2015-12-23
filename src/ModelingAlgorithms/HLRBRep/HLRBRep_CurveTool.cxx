@@ -22,8 +22,8 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <HLRBRep_CurveTool.hxx>
-#include <HLRBRep_Curve.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>

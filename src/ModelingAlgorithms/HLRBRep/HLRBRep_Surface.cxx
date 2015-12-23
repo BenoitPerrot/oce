@@ -23,14 +23,14 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <HLRBRep_Surface.hxx>
-#include <HLRBRep_BSurfaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Surface.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BSurfaceTool.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/GProp/GProp_PEquation.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <HLRBRep_Curve.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>

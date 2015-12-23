@@ -17,11 +17,11 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
-#include <HLRBRep_EdgeInterferenceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeInterferenceTool.hxx>
 
 //=======================================================================
 //function : HLRBRep_EdgeInterferenceTool

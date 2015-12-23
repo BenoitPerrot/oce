@@ -16,8 +16,8 @@
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_WiresBlock.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <HLRBRep_Surface.hxx>
-#include <HLRBRep_FaceData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Surface.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_FaceData.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgesBlock.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

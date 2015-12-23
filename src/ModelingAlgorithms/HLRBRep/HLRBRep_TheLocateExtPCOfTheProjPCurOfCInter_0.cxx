@@ -3,23 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
-#include <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
  
 
 #define Curve Standard_Address
 #define Curve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool HLRBRep_CurveTool
-#define Tool_hxx <HLRBRep_CurveTool.hxx>
+#define Tool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define POnC Extrema_POnCurv2d
 #define POnC_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
@@ -27,12 +27,12 @@
 #define Vec gp_Vec2d
 #define Vec_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Extrema_PCLocF HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter
-#define Extrema_PCLocF_hxx <HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#define Extrema_PCLocF_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #define Extrema_SeqPCOfPCLocF HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter
-#define Extrema_SeqPCOfPCLocF_hxx <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#define Extrema_SeqPCOfPCLocF_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #define Extrema_SeqPCOfPCLocF HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter
-#define Extrema_SeqPCOfPCLocF_hxx <HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#define Extrema_SeqPCOfPCLocF_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #define Extrema_GenLocateExtPC HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter
-#define Extrema_GenLocateExtPC_hxx <HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#define Extrema_GenLocateExtPC_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #include <Geometry/Extrema/Extrema_GenLocateExtPC.gxx>
 

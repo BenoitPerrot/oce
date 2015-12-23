@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_ThePolygonToolOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonToolOfInterCSurf.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <HLRBRep_ThePolygonOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
  
 
 #define ThePoint gp_Pnt
 #define ThePoint_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define ThePolygon HLRBRep_ThePolygonOfInterCSurf
-#define ThePolygon_hxx <HLRBRep_ThePolygonOfInterCSurf.hxx>
+#define ThePolygon_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
 #define TheBoundingBox Bnd_Box
 #define TheBoundingBox_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define IntCurveSurface_PolygonTool HLRBRep_ThePolygonToolOfInterCSurf
-#define IntCurveSurface_PolygonTool_hxx <HLRBRep_ThePolygonToolOfInterCSurf.hxx>
+#define IntCurveSurface_PolygonTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonToolOfInterCSurf.hxx>
 #include <IntCurveSurface_PolygonTool.gxx>
 

@@ -31,7 +31,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyInternalData.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
-#include <HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_PolyAlgo)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

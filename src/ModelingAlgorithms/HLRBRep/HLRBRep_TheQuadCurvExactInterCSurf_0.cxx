@@ -3,25 +3,25 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_TheQuadCurvExactInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvExactInterCSurf.hxx>
 
-#include <HLRBRep_SurfaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SurfaceTool.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <HLRBRep_LineTool.hxx>
-#include <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
  
 
 #define TheSurface Standard_Address
 #define TheSurface_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheSurfaceTool HLRBRep_SurfaceTool
-#define TheSurfaceTool_hxx <HLRBRep_SurfaceTool.hxx>
+#define TheSurfaceTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SurfaceTool.hxx>
 #define TheCurve gp_Lin
 #define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool
-#define TheCurveTool_hxx <HLRBRep_LineTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #define IntCurveSurface_TheQuadCurvFunc HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf
-#define IntCurveSurface_TheQuadCurvFunc_hxx <HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
+#define IntCurveSurface_TheQuadCurvFunc_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 #define IntCurveSurface_QuadricCurveExactInter HLRBRep_TheQuadCurvExactInterCSurf
-#define IntCurveSurface_QuadricCurveExactInter_hxx <HLRBRep_TheQuadCurvExactInterCSurf.hxx>
+#define IntCurveSurface_QuadricCurveExactInter_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvExactInterCSurf.hxx>
 #include <IntCurveSurface_QuadricCurveExactInter.gxx>
 

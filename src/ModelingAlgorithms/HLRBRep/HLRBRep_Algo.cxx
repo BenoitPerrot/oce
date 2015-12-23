@@ -18,7 +18,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_Algo)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(HLRBRep_Algo)
 IMPLEMENT_DOWNCAST(HLRBRep_Algo,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRBRep_Algo)
-#include <HLRBRep_ShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 
 //=======================================================================

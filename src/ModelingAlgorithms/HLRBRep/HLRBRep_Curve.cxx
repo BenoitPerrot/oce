@@ -34,7 +34,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <HLRBRep_Curve.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -43,7 +43,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <HLRBRep_CLProps.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CLProps.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 

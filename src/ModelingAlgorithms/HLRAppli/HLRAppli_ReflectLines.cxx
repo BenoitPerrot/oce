@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/HLRAppli/HLRAppli_ReflectLines.hxx>
-#include <HLRBRep_Algo.hxx>
-#include <HLRBRep_HLRToShape.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_HLRToShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>

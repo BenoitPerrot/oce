@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_IntConicCurveOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_IntConicCurveOfCInter.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntCurve_IConicTool.hxx>
-#include <HLRBRep_CurveTool.hxx>
-#include <HLRBRep_TheIntConicCurveOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
@@ -22,10 +22,10 @@
 #define ThePCurve Standard_Address
 #define ThePCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePCurveTool HLRBRep_CurveTool
-#define ThePCurveTool_hxx <HLRBRep_CurveTool.hxx>
+#define ThePCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define TheIntConicCurve HLRBRep_TheIntConicCurveOfCInter
-#define TheIntConicCurve_hxx <HLRBRep_TheIntConicCurveOfCInter.hxx>
+#define TheIntConicCurve_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 #define IntCurve_UserIntConicCurveGen HLRBRep_IntConicCurveOfCInter
-#define IntCurve_UserIntConicCurveGen_hxx <HLRBRep_IntConicCurveOfCInter.hxx>
+#define IntCurve_UserIntConicCurveGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_IntConicCurveOfCInter.hxx>
 #include <IntCurve_UserIntConicCurveGen.gxx>
 

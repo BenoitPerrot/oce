@@ -19,10 +19,10 @@
 #include <Draw_Display.hxx>
 #include <Draw_Color.hxx>
 #include <DBRep_HideData.hxx>
-#include <HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
-#include <HLRBRep_BiPoint.hxx>
-#include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListIteratorOfListOfBPoint.hxx>
 
 #define PntX1 ((Standard_Real*)Coordinates)[0]
 #define PntY1 ((Standard_Real*)Coordinates)[1]

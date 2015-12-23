@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <HLRBRep_SeqOfShapeBounds.hxx>
-#include <HLRBRep_ShapeBounds.hxx>
-#include <HLRBRep_InternalAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SeqOfShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_InternalAlgo.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_InternalAlgo)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_InternalAlgo)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>
-#include <HLRBRep_ShapeToHLR.hxx>
-#include <HLRBRep_Hider.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeToHLR.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Hider.hxx>
 #include <stdio.h>
 
 extern Standard_Integer nbPtIntersection;   // total P.I.

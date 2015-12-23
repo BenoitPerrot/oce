@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
-#include <HLRBRep.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>

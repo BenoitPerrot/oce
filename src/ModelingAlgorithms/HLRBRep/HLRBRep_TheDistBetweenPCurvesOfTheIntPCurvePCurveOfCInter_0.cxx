@@ -3,17 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
 
-#include <HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define TheCurve Standard_Address
 #define TheCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define TheCurveTool HLRBRep_CurveTool
-#define TheCurveTool_hxx <HLRBRep_CurveTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define IntCurve_DistBetweenPCurvesGen HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter
-#define IntCurve_DistBetweenPCurvesGen_hxx <HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
+#define IntCurve_DistBetweenPCurvesGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
 #include <IntCurve_DistBetweenPCurvesGen.gxx>
 

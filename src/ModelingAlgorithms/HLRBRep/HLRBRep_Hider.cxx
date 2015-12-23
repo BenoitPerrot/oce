@@ -16,19 +16,19 @@
 
 #define No_Standard_OutOfRange
 
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
-#include <HLRBRep_Hider.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Hider.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Coincidence.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_InterferenceList.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
-#include <HLRBRep_EdgeIList.hxx>
-#include <HLRBRep_EdgeBuilder.hxx>
-#include <HLRBRep_VertexList.hxx>
-#include <HLRBRep_EdgeInterferenceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeIList.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeBuilder.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_VertexList.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeInterferenceTool.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 

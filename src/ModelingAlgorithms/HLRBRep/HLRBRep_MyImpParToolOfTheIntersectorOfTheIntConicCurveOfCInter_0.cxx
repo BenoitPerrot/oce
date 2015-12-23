@@ -3,10 +3,10 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 
 #include <IntCurve_IConicTool.hxx>
-#include <HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
  
 
 #define ImpTool IntCurve_IConicTool
@@ -14,8 +14,8 @@
 #define ParCurve Standard_Address
 #define ParCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ParTool HLRBRep_CurveTool
-#define ParTool_hxx <HLRBRep_CurveTool.hxx>
+#define ParTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define IntImpParGen_ImpParTool HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter
-#define IntImpParGen_ImpParTool_hxx <HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
+#define IntImpParGen_ImpParTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #include <IntImpParGen_ImpParTool.gxx>
 

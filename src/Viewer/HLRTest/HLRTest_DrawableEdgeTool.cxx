@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
 #include <Draw_Display.hxx>
-#include <HLRBRep_Data.hxx>
-#include <HLRBRep_EdgeData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
 #include <HLRTest_DrawableEdgeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_DrawableEdgeTool)
@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_TYPE_END(HLRTest_DrawableEdgeTool)
 IMPLEMENT_DOWNCAST(HLRTest_DrawableEdgeTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRTest_DrawableEdgeTool)
 #include <HLRTest_ShapeData.hxx>
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
-#include <HLRBRep_ShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
 
 //=======================================================================
 //function : HLRTest_DrawableEdgeTool

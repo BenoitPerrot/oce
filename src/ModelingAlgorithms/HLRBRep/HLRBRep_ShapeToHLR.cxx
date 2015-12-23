@@ -17,13 +17,13 @@
 #ifndef No_Exception
 // #define No_Exception
 #endif
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <HLRBRep_ShapeToHLR.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeToHLR.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -39,7 +39,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <HLRBRep.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 
 //=======================================================================

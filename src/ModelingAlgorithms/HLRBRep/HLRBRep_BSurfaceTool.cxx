@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <HLRBRep_BSurfaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BSurfaceTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 //=======================================================================

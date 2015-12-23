@@ -25,8 +25,8 @@
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>
-#include <HLRBRep_Algo.hxx>
-#include <HLRBRep_HLRToShape.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_HLRToShape.hxx>
 #include <ModelingAlgorithms/HLRAppli/HLRAppli_ReflectLines.hxx>
 
 static Handle(HLRBRep_Algo) hider;

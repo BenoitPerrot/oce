@@ -16,8 +16,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
-#include <HLRBRep_Curve.hxx>
-#include <HLRBRep_EdgeData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================

@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_ThePolygonOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <HLRBRep_LineTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -17,8 +17,8 @@
 #define TheCurve gp_Lin
 #define TheCurve_hxx <Mathematics/Primitives/gp_Lin.hxx>
 #define TheCurveTool HLRBRep_LineTool
-#define TheCurveTool_hxx <HLRBRep_LineTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #define IntCurveSurface_Polygon HLRBRep_ThePolygonOfInterCSurf
-#define IntCurveSurface_Polygon_hxx <HLRBRep_ThePolygonOfInterCSurf.hxx>
+#define IntCurveSurface_Polygon_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
 #include <IntCurveSurface_Polygon.gxx>
 

@@ -16,7 +16,7 @@
 
 // Modified by cma, Mon Oct 23 16:11:46 1995
 
-#include <HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <Draw_Display.hxx>
 #include <HLRTest_DrawablePolyEdgeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(HLRTest_DrawablePolyEdgeTool)
 IMPLEMENT_DOWNCAST(HLRTest_DrawablePolyEdgeTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRTest_DrawablePolyEdgeTool)
-#include <HLRBRep_BiPoint.hxx>
-#include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListIteratorOfListOfBPoint.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <Draw_Color.hxx>

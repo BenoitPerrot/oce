@@ -16,4 +16,4 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <HLRBRep_CLPropsATool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CLPropsATool.hxx>

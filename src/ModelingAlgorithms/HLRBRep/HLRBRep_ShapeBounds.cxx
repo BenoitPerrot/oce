@@ -16,7 +16,7 @@
 
 #include <HLRTopoBRep_OutLiner.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <HLRBRep_ShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
 
 //=======================================================================
 //function : HLRBRep_ShapeBounds

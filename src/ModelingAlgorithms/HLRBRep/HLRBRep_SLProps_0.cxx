@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_SLProps.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SLProps.hxx>
 
 #include <Geometry/LProp/LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/LProp/LProp_NotDefined.hxx>
-#include <HLRBRep_SLPropsATool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SLPropsATool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -18,8 +18,8 @@
 #define Surface Standard_Address
 #define Surface_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool HLRBRep_SLPropsATool
-#define Tool_hxx <HLRBRep_SLPropsATool.hxx>
+#define Tool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SLPropsATool.hxx>
 #define LProp_SLProps HLRBRep_SLProps
-#define LProp_SLProps_hxx <HLRBRep_SLProps.hxx>
+#define LProp_SLProps_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SLProps.hxx>
 #include <Geometry/LProp/LProp_SLProps.gxx>
 

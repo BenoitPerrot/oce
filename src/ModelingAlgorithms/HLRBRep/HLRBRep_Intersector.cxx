@@ -23,12 +23,12 @@
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntCurveSurface_IntersectionSegment.hxx>
-#include <HLRBRep_Intersector.hxx>
-#include <HLRBRep_EdgeData.hxx>
-#include <HLRBRep_Curve.hxx>
-#include <HLRBRep_SurfaceTool.hxx>
-#include <HLRBRep_ThePolyhedronOfInterCSurf.hxx>
-#include <HLRBRep_ThePolygonOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Intersector.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SurfaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronOfInterCSurf.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
@@ -37,7 +37,7 @@
 #include <IntRes2d_Position.hxx>
 #include <IntRes2d_Transition.hxx>
 
-#include <HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 
 #include <stdio.h>
 

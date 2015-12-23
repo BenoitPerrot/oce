@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_TheIntConicCurveOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 
 #include <IntCurve_IConicTool.hxx>
-#include <HLRBRep_CurveTool.hxx>
-#include <HLRBRep_TheProjPCurOfCInter.hxx>
-#include <HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx>
-#include <HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheProjPCurOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
@@ -23,16 +23,16 @@
 #define ThePCurve Standard_Address
 #define ThePCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePCurveTool HLRBRep_CurveTool
-#define ThePCurveTool_hxx <HLRBRep_CurveTool.hxx>
+#define ThePCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define TheProjPCur HLRBRep_TheProjPCurOfCInter
-#define TheProjPCur_hxx <HLRBRep_TheProjPCurOfCInter.hxx>
+#define TheProjPCur_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheProjPCurOfCInter.hxx>
 #define IntCurve_TheIntersector HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter
-#define IntCurve_TheIntersector_hxx <HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx>
+#define IntCurve_TheIntersector_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #define IntCurve_MyImpParToolOfTheIntersector HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter
-#define IntCurve_MyImpParToolOfTheIntersector_hxx <HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
+#define IntCurve_MyImpParToolOfTheIntersector_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #define IntCurve_MyImpParToolOfTheIntersector HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter
-#define IntCurve_MyImpParToolOfTheIntersector_hxx <HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
+#define IntCurve_MyImpParToolOfTheIntersector_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #define IntCurve_IntConicCurveGen HLRBRep_TheIntConicCurveOfCInter
-#define IntCurve_IntConicCurveGen_hxx <HLRBRep_TheIntConicCurveOfCInter.hxx>
+#define IntCurve_IntConicCurveGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 #include <IntCurve_IntConicCurveGen.gxx>
 

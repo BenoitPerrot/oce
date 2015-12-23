@@ -20,18 +20,18 @@
 
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
-#include <HLRBRep_Array1OfEData.hxx>
-#include <HLRBRep_Array1OfFData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Array1OfEData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Array1OfFData.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <HLRBRep_EdgeData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_InterferenceList.hxx>
-#include <HLRBRep_FaceData.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_FaceData.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_Data)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
-#include <HLRBRep_EdgeFaceTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeFaceTool.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <stdio.h>

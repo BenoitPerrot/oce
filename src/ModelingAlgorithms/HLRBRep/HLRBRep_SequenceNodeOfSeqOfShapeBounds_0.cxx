@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <HLRBRep_ShapeBounds.hxx>
-#include <HLRBRep_SeqOfShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_SeqOfShapeBounds.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_SequenceNodeOfSeqOfShapeBounds)
 
 
 #define SeqItem HLRBRep_ShapeBounds
-#define SeqItem_hxx <HLRBRep_ShapeBounds.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
 #define TCollection_SequenceNode HLRBRep_SequenceNodeOfSeqOfShapeBounds
-#define TCollection_SequenceNode_hxx <HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SequenceNodeOfSeqOfShapeBounds.hxx>
 #define Handle_TCollection_SequenceNode Handle_HLRBRep_SequenceNodeOfSeqOfShapeBounds
 #define TCollection_SequenceNode_Type_() HLRBRep_SequenceNodeOfSeqOfShapeBounds_Type_()
 #define TCollection_Sequence HLRBRep_SeqOfShapeBounds
-#define TCollection_Sequence_hxx <HLRBRep_SeqOfShapeBounds.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SeqOfShapeBounds.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

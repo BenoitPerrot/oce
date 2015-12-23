@@ -3,9 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
 
-#include <HLRBRep_CurveTool.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
  
@@ -13,16 +13,16 @@
 #define Curve1 Standard_Address
 #define Curve1_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool1 HLRBRep_CurveTool
-#define Tool1_hxx <HLRBRep_CurveTool.hxx>
+#define Tool1_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define Curve2 Standard_Address
 #define Curve2_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Tool2 HLRBRep_CurveTool
-#define Tool2_hxx <HLRBRep_CurveTool.hxx>
+#define Tool2_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define POnC Extrema_POnCurv2d
 #define POnC_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
 #define Pnt_hxx <Mathematics/Primitives/gp_Pnt2d.hxx>
 #define Extrema_CurveLocator HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter
-#define Extrema_CurveLocator_hxx <HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
+#define Extrema_CurveLocator_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter.hxx>
 #include <Geometry/Extrema/Extrema_CurveLocator.gxx>
 

@@ -17,13 +17,13 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRBRep_AreaLimit.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_AreaLimit.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <HLRBRep_VertexList.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_VertexList.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
-#include <HLRBRep_EdgeBuilder.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeBuilder.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

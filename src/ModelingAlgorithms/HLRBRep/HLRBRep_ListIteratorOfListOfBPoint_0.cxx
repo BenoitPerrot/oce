@@ -3,24 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListIteratorOfListOfBPoint.hxx>
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <HLRBRep_ListOfBPoint.hxx>
-#include <HLRBRep_BiPoint.hxx>
-#include <HLRBRep_ListNodeOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/HLRBRep_ListNodeOfListOfBPoint.hxx>
  
 
 #define Item HLRBRep_BiPoint
-#define Item_hxx <HLRBRep_BiPoint.hxx>
+#define Item_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_BiPoint.hxx>
 #define TCollection_ListNode HLRBRep_ListNodeOfListOfBPoint
-#define TCollection_ListNode_hxx <HLRBRep_ListNodeOfListOfBPoint.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ListNodeOfListOfBPoint.hxx>
 #define TCollection_ListIterator HLRBRep_ListIteratorOfListOfBPoint
-#define TCollection_ListIterator_hxx <HLRBRep_ListIteratorOfListOfBPoint.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ListIteratorOfListOfBPoint.hxx>
 #define Handle_TCollection_ListNode Handle_HLRBRep_ListNodeOfListOfBPoint
 #define TCollection_ListNode_Type_() HLRBRep_ListNodeOfListOfBPoint_Type_()
 #define TCollection_List HLRBRep_ListOfBPoint
-#define TCollection_List_hxx <HLRBRep_ListOfBPoint.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ListOfBPoint.hxx>
 #include <Foundation/TCollection/TCollection_ListIterator.gxx>
 
