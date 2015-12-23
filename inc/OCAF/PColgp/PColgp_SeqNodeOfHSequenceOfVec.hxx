@@ -13,7 +13,7 @@
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #include <Handle_PColgp_HSequenceOfVec.hxx>
 class PColgp_HSequenceOfVec;
 class PColgp_SeqExplorerOfHSequenceOfVec;

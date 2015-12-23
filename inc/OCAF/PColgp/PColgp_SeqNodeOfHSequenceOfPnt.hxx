@@ -13,7 +13,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #include <Handle_PColgp_HSequenceOfPnt.hxx>
 class PColgp_HSequenceOfPnt;
 class PColgp_SeqExplorerOfHSequenceOfPnt;

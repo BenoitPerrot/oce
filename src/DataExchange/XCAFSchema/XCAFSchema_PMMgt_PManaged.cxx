@@ -2,7 +2,7 @@
 #include <XCAFSchema_PMMgt_PManaged.hxx>
 #endif
 #ifndef _PMMgt_PManaged_HeaderFile
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

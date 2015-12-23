@@ -13,7 +13,7 @@
 
 #include <Handle_ObjMgt_ExternRef.hxx>
 #include <Handle_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #include <Handle_ObjMgt_PSeqOfExtRef.hxx>
 class ObjMgt_ExternRef;
 class ObjMgt_PSeqOfExtRef;

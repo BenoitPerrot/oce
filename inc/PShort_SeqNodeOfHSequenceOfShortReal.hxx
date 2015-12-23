@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Handle_PShort_SeqNodeOfHSequenceOfShortReal.hxx>
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #include <Handle_PShort_HSequenceOfShortReal.hxx>
 class PShort_HSequenceOfShortReal;
 class PShort_SeqExplorerOfHSequenceOfShortReal;

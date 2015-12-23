@@ -13,7 +13,7 @@
 
 #include <Handle_PXCAFDoc_GraphNode.hxx>
 #include <Handle_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #include <Handle_PXCAFDoc_GraphNodeSequence.hxx>
 class PXCAFDoc_GraphNode;
 class PXCAFDoc_GraphNodeSequence;

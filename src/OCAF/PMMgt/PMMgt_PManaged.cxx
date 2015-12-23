@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PMMgt_PManaged)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

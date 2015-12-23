@@ -13,7 +13,7 @@
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Handle_PColgp_SeqNodeOfHSequenceOfDir.hxx>
-#include <PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/PMMgt_PManaged.hxx>
 #include <Handle_PColgp_HSequenceOfDir.hxx>
 class PColgp_HSequenceOfDir;
 class PColgp_SeqExplorerOfHSequenceOfDir;
