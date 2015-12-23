@@ -12,13 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Tools.hxx>
-#include <BOPDS_DS.hxx>
-#include <BOPDS_MapOfPaveBlock.hxx>
-#include <BOPDS_IndexedMapOfPaveBlock.hxx>
-#include <BOPDS_CommonBlock.hxx>
-#include <BOPDS_DataMapOfPaveBlockListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IndexedMapOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_CommonBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DataMapOfPaveBlockListOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfInteger.hxx>
 
 //=======================================================================

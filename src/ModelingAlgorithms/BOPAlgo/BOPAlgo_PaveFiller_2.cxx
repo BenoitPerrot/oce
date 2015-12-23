@@ -16,12 +16,12 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_Context.hxx>
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
-#include <BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BOPDS_Curve.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
@@ -35,11 +35,11 @@
 
 #include <IntTools_Context.hxx>
 
-#include <BOPDS_Iterator.hxx>
-#include <BOPDS_VectorOfInterfVE.hxx>
-#include <BOPDS_Interf.hxx>
-#include <BOPDS_PassKey.hxx>
-#include <BOPDS_MapOfPassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfVE.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Interf.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKey.hxx>
 #include <BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

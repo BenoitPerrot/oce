@@ -12,9 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_Pave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Pave.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BOPDS_PaveBlock)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -24,8 +24,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BOPDS_PaveBlock)
 IMPLEMENT_DOWNCAST(BOPDS_PaveBlock,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BOPDS_PaveBlock)
-#include <BOPDS_ListOfPave.hxx>
-#include <BOPDS_VectorOfPave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfPave.hxx>
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>

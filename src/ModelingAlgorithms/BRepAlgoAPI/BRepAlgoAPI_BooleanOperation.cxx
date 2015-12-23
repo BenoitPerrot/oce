@@ -27,7 +27,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>

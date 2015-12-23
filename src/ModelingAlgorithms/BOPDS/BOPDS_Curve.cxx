@@ -14,5 +14,5 @@
 
 #include <IntTools_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BOPDS_PaveBlock.hxx>
-#include <BOPDS_Curve.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Curve.hxx>

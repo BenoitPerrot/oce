@@ -56,8 +56,8 @@
 //
 #include <IntTools_Context.hxx>
 //
-#include <BOPDS_DS.hxx>
-#include <BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 //
 #include <BOPTools.hxx>
 #include <BOPTools_AlgoTools.hxx>

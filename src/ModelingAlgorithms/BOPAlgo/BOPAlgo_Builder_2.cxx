@@ -44,15 +44,15 @@
 //
 #include <IntTools_Context.hxx>
 //
-#include <BOPDS_PaveBlock.hxx>
-#include <BOPDS_ShapeInfo.hxx>
-#include <BOPDS_DS.hxx>
-#include <BOPDS_FaceInfo.hxx>
-#include <BOPDS_MapOfPaveBlock.hxx>
-#include <BOPDS_VectorOfInterfFF.hxx>
-#include <BOPDS_Interf.hxx>
-#include <BOPDS_VectorOfCurve.hxx>
-#include <BOPDS_VectorOfPoint.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_FaceInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfFF.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Interf.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfCurve.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfPoint.hxx>
 //
 #include <BOPTools.hxx>
 #include <BOPTools_AlgoTools.hxx>

@@ -35,8 +35,8 @@
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_MapOfPassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKey.hxx>
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckerSI.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ArgumentAnalyzer.hxx>

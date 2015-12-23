@@ -53,8 +53,8 @@
 #include <BOPTools_AlgoTools3D.hxx>
 #include <BOPTools_AlgoTools.hxx>
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_MapOfPassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKey.hxx>
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckerSI.hxx>

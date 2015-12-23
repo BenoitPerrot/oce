@@ -12,14 +12,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_IndexRange.hxx>
-#include <BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IndexRange.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPDS_PaveBlock.hxx>
-#include <BOPDS_CommonBlock.hxx>
-#include <BOPDS_FaceInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_CommonBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_FaceInfo.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 //
 #include <Foundation/Standard/Standard_Assert.hxx>
 //
@@ -42,14 +42,14 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
 //
-#include <BOPDS_IndexRange.hxx>
-#include <BOPDS_ShapeInfo.hxx>
-#include <BOPDS_PassKey.hxx>
-#include <BOPDS_DataMapOfPassKeyListOfPaveBlock.hxx>
-#include <BOPDS_PassKey.hxx>
-#include <BOPDS_MapOfPave.hxx>
-#include <BOPDS_MapOfPaveBlock.hxx>
-#include <BOPDS_VectorOfPave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IndexRange.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DataMapOfPassKeyListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfPave.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

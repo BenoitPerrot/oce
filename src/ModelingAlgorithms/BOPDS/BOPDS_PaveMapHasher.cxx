@@ -12,6 +12,6 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_Pave.hxx>
-#include <BOPDS_PaveMapHasher.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Pave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveMapHasher.hxx>
 

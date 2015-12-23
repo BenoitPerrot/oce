@@ -26,18 +26,18 @@
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_IteratorSI.hxx>
-#include <BOPDS_PIteratorSI.hxx>
-#include <BOPDS_Interf.hxx>
-#include <BOPDS_MapOfPassKey.hxx>
-#include <BOPDS_PassKey.hxx>
-#include <BOPDS_VectorOfInterfVV.hxx>
-#include <BOPDS_VectorOfInterfVE.hxx>
-#include <BOPDS_VectorOfInterfVE.hxx>
-#include <BOPDS_VectorOfInterfVF.hxx>
-#include <BOPDS_VectorOfInterfEF.hxx>
-#include <BOPDS_VectorOfInterfFF.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IteratorSI.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PIteratorSI.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Interf.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfVV.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfVE.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfVE.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfVF.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfEF.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfFF.hxx>
 
 #include <IntTools_Context.hxx>
 

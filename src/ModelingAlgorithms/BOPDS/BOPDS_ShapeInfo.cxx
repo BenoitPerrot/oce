@@ -14,7 +14,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 
 #include <stdio.h>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>

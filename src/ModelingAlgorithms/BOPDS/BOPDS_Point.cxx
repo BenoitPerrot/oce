@@ -14,4 +14,4 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BOPDS_Point.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Point.hxx>

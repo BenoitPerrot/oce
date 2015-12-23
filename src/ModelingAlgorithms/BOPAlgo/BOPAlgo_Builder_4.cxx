@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 
 #include <BOPTools_AlgoTools.hxx>
 #include <BOPTools.hxx>

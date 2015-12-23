@@ -15,7 +15,7 @@
 #ifndef BOPDS_DataMapOfShapeCoupleOfPaveBlocks_HeaderFile
 #define BOPDS_DataMapOfShapeCoupleOfPaveBlocks_HeaderFile
 
-#include <BOPDS_CoupleOfPaveBlocks.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_CoupleOfPaveBlocks.hxx>
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>

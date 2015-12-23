@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BOPDS_PDS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PDS.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PBuilder.hxx>
 class BOPAlgo_PaveFiller;

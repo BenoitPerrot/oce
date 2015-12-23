@@ -41,12 +41,12 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <IntTools_CommonPrt.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <BOPDS_CommonBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_CommonBlock.hxx>
 #include <BOPTools_AlgoTools3D.hxx>
 
 #include <Foundation/NCollection/NCollection_Array1.hxx>

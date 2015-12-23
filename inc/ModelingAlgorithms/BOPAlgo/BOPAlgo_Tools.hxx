@@ -13,12 +13,12 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfIntegerListOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerListOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
-#include <BOPDS_IndexedDataMapOfPaveBlockListOfPaveBlock.hxx>
-#include <BOPDS_DataMapOfIntegerListOfPaveBlock.hxx>
-#include <BOPDS_PDS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IndexedDataMapOfPaveBlockListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DataMapOfIntegerListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PDS.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
-#include <BOPDS_IndexedDataMapOfPaveBlockListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IndexedDataMapOfPaveBlockListOfInteger.hxx>
 class BOPDS_PaveBlock;
 
 

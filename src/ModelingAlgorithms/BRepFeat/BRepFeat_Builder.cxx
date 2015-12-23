@@ -36,13 +36,13 @@
 
 #include <IntTools_Tools.hxx>
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_ShapeInfo.hxx>
-#include <BOPDS_FaceInfo.hxx>
-#include <BOPDS_Pave.hxx>
-#include <BOPDS_ListOfPave.hxx>
-#include <BOPDS_ListOfPaveBlock.hxx>
-#include <BOPDS_MapOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_FaceInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Pave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPaveBlock.hxx>
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderFace.hxx>
 

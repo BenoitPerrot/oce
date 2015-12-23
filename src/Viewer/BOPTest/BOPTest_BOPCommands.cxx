@@ -30,7 +30,7 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_MakerVolume.hxx>
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <BOPTest_DrawableShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 

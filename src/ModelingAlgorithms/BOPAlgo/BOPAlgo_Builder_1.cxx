@@ -31,11 +31,11 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_VectorOfListOfPaveBlock.hxx>
-#include <BOPDS_PaveBlock.hxx>
-#include <BOPDS_ListOfPaveBlock.hxx>
-#include <BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 
 #include <BOPTools_AlgoTools.hxx>
 

@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_SubIterator.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_SubIterator.hxx>
 //
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 //
@@ -30,11 +30,11 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BoxBndTree.hxx>
 //
-#include <BOPDS_IndexRange.hxx>
-#include <BOPDS_PassKeyBoolean.hxx>
-#include <BOPDS_MapOfPassKeyBoolean.hxx>
-#include <BOPDS_Tools.hxx>
-#include <BOPDS_MapOfPassKeyBoolean.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IndexRange.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKeyBoolean.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKeyBoolean.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Tools.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKeyBoolean.hxx>
 
 //=======================================================================
 //function : 

@@ -13,7 +13,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PPaveFiller.hxx>
-#include <BOPDS_PDS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PDS.hxx>
 #include <Handle_IntTools_Context.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>

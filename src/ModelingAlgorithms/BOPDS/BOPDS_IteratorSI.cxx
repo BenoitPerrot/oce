@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPDS_IteratorSI.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IteratorSI.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -27,18 +27,18 @@
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_BoxBndTree.hxx>
-#include <BOPDS_IndexRange.hxx>
-#include <BOPDS_PassKeyBoolean.hxx>
-#include <BOPDS_MapOfPassKeyBoolean.hxx>
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_IndexRange.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKeyBoolean.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKeyBoolean.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeBox.hxx>
-#include <BOPDS_Tools.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Tools.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerListOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfInteger.hxx>
-#include <BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfInteger.hxx>
 

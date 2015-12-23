@@ -35,14 +35,14 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeShape.hxx>
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_PaveBlock.hxx>
-#include <BOPDS_CommonBlock.hxx>
-#include <BOPDS_FaceInfo.hxx>
-#include <BOPDS_ListOfPaveBlock.hxx>
-#include <BOPDS_MapOfPaveBlock.hxx>
-#include <BOPDS_VectorOfListOfPaveBlock.hxx>
-#include <BOPDS_VectorOfFaceInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_CommonBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_FaceInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfFaceInfo.hxx>
 //
 #include <BOPTools.hxx>
 #include <BOPTools_AlgoTools.hxx>

@@ -17,9 +17,9 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
-#include <BOPDS_PassKey.hxx>
-#include <BOPDS_PassKeyMapHasher.hxx>
-#include <BOPDS_ListOfPaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKey.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKeyMapHasher.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
 
 typedef NCollection_DataMap<BOPDS_PassKey, BOPDS_ListOfPaveBlock, BOPDS_PassKeyMapHasher> BOPDS_DataMapOfPassKeyListOfPaveBlock; 
 typedef BOPDS_DataMapOfPassKeyListOfPaveBlock::Iterator BOPDS_DataMapIteratorOfDataMapOfPassKeyListOfPaveBlock;

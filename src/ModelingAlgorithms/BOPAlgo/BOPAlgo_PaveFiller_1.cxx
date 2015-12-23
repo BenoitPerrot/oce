@@ -16,12 +16,12 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_Context.hxx>
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
-#include <BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BOPDS_Curve.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
@@ -38,11 +38,11 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
-#include <BOPDS_DS.hxx>
-#include <BOPDS_Iterator.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>
 #include <BOPTools_AlgoTools.hxx>
-#include <BOPDS_VectorOfInterfVV.hxx>
-#include <BOPDS_ShapeInfo.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfVV.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Tools.hxx>
 
 

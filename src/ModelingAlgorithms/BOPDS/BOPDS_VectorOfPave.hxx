@@ -16,7 +16,7 @@
 #define BOPDS_VectorOfPave_HeaderFile
 
 #include <Foundation/NCollection/NCollection_Array1.hxx>
-#include <BOPDS_Pave.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_Pave.hxx>
 
 typedef NCollection_Array1<BOPDS_Pave> BOPDS_VectorOfPave;
 

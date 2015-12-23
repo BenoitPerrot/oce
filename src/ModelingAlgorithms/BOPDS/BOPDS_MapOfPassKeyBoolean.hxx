@@ -16,8 +16,8 @@
 #define BOPDS_MapOfPassKeyBoolean_HeaderFile
 
 #include <Foundation/NCollection/NCollection_Map.hxx>   
-#include <BOPDS_PassKeyMapHasher.hxx>
-#include <BOPDS_PassKeyBoolean.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKeyMapHasher.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_PassKeyBoolean.hxx>
 
 typedef NCollection_Map<BOPDS_PassKeyBoolean, BOPDS_PassKeyMapHasher> BOPDS_MapOfPassKeyBoolean; 
 typedef BOPDS_MapOfPassKeyBoolean::Iterator BOPDS_MapIteratorMapOfPassKeyBoolean;  

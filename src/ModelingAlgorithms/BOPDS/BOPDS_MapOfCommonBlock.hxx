@@ -17,7 +17,7 @@
 
 #include <Foundation/NCollection/NCollection_Map.hxx>   
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <BOPDS_CommonBlock.hxx>   
+#include <ModelingAlgorithms/BOPDS/BOPDS_CommonBlock.hxx>   
 
 typedef NCollection_Map<Handle(BOPDS_CommonBlock), TColStd_MapTransientHasher> BOPDS_MapOfCommonBlock; 
 typedef BOPDS_MapOfCommonBlock::Iterator BOPDS_MapIteratorOfMapOfCommonBlock;  

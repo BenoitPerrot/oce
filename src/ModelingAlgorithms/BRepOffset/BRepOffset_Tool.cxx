@@ -152,7 +152,7 @@
 #include <ShapeCustom_Curve2d.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <BOPTools_AlgoTools2D.hxx>
 

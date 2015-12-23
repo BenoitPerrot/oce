@@ -66,7 +66,7 @@
 
 #include <IntTools_Tools.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
-#include <BOPDS_DS.hxx>
+#include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
