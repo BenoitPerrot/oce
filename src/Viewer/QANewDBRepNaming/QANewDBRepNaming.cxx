@@ -27,7 +27,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TNaming/TNaming_Selector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
@@ -44,7 +44,7 @@
 #include <OCAF/TNaming/TNaming_Naming.hxx>
 #include <OCAF/TNaming/TNaming_Name.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
 #include <OCAF/TNaming/TNaming_Builder.hxx>

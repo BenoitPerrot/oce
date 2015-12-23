@@ -64,7 +64,7 @@ static int BUC60623(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   return 0;
 }
 
-#include<ViewerTest.hxx>
+#include<Viewer/ViewerTest/ViewerTest.hxx>
 #include<Visualization/AIS/AIS_InteractiveContext.hxx>
 #include<Visualization/AIS/AIS_Shape.hxx>
   

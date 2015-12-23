@@ -20,7 +20,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
@@ -66,8 +66,8 @@ static Standard_Integer BUC60857 (Draw_Interpretor& di, Standard_Integer /*argc*
   return 0;
 }
 
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>

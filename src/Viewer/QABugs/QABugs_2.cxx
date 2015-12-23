@@ -20,7 +20,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

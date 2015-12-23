@@ -24,7 +24,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
@@ -65,7 +65,7 @@
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <ViewerTest_AutoUpdater.hxx>
+#include <Viewer/ViewerTest/ViewerTest_AutoUpdater.hxx>
 
 #include <stdio.h>
 
@@ -180,9 +180,9 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <Visualization/AIS/AIS_DisplayMode.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Visualization/AIS/AIS_MapOfInteractive.hxx>
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
-#include <ViewerTest_EventManager.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

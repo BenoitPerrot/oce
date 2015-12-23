@@ -22,7 +22,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
@@ -32,7 +32,7 @@
 #include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCone.hxx>
@@ -76,8 +76,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

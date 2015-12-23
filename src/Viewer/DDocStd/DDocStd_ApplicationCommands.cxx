@@ -36,7 +36,7 @@
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <V3d_Viewer.hxx>
 
 #ifndef _WIN32

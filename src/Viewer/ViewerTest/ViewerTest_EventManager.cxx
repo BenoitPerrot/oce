@@ -17,7 +17,7 @@
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <ViewerTest_EventManager.hxx>
+#include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ViewerTest_EventManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

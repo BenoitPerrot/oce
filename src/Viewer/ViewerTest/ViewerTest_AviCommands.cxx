@@ -20,7 +20,7 @@
   #include <V3d_View.hxx>
 #endif
 
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 
 static Standard_Integer avi_record(Draw_Interpretor& /*di*/,

@@ -20,8 +20,8 @@
 #include <Viewer/Draw/Draw_Viewer.hxx>
 #include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <V3d_View.hxx>
-#include <ViewerTest.hxx>
-#include <ViewerTest_EventManager.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
@@ -172,7 +172,7 @@ extern Handle(AIS_InteractiveContext)& TheAISContext();
 Standard_EXPORT ViewerTest_DoubleMapOfInteractiveAndName& GetMapOfAIS();
 Standard_EXPORT Handle(AIS_InteractiveContext)& TheAISContext();
 #endif
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <Visualization/AIS/AIS_Axis.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

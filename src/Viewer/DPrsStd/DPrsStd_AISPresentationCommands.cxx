@@ -25,7 +25,7 @@
 #include <OCAF/TDF/TDF_Data.hxx> 
 #include <Viewer/DDF/DDF.hxx>
 #include <Viewer/DDocStd/DDocStd.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 
 
 #include <V3d_View.hxx>
@@ -35,11 +35,11 @@
 
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx> 
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx> 
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

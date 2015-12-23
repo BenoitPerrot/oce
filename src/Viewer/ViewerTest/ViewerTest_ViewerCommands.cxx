@@ -28,11 +28,11 @@
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTextureFilter.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
-#include <ViewerTest.hxx>
-#include <ViewerTest_AutoUpdater.hxx>
-#include <ViewerTest_EventManager.hxx>
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest_AutoUpdater.hxx>
+#include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <Visual3d_View.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <V3d_AmbientLight.hxx>

@@ -71,7 +71,7 @@ private:
 };
 
 
-#include <ViewerTest_EventManager.lxx>
+#include <Viewer/ViewerTest/ViewerTest_EventManager.lxx>
 
 
 

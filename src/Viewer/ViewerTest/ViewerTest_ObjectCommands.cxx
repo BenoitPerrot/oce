@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
@@ -36,10 +36,10 @@
 #include <Visualization/AIS/AIS_PointCloud.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Visualization/AIS/AIS_MapOfInteractive.hxx>
-#include <ViewerTest_AutoUpdater.hxx>
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
-#include <ViewerTest_EventManager.hxx>
+#include <Viewer/ViewerTest/ViewerTest_AutoUpdater.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

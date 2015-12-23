@@ -20,7 +20,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
@@ -45,7 +45,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <Visualization/AIS/AIS_PlaneTrihedron.hxx>
-#include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
@@ -72,7 +72,7 @@
 //#include <QAModTopOpe_ReShaper.hxx>
 #include <Viewer/QANewModTopOpe/QANewModTopOpe_ReShaper.hxx>
 
-#include <ViewerTest_EventManager.hxx>
+#include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 

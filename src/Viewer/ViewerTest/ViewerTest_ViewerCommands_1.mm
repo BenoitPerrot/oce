@@ -20,7 +20,7 @@
 #import <Cocoa/Cocoa.h>
 
 #include <Visualization/Cocoa/Cocoa_Window.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

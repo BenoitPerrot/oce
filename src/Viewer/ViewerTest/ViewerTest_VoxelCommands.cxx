@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

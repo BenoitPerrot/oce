@@ -30,7 +30,7 @@
 #include <XSDRAWSTEP.hxx>
 #include <XSDRAWIGES.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <ViewerTest.hxx>
+#include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <RWStl.hxx>
