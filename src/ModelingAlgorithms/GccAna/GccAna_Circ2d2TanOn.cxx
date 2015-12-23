@@ -20,7 +20,7 @@
 #include <GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <GccAna_Circ2d2TanOn.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2d2TanOn.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
@@ -36,7 +36,7 @@
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <GccEnt_BadQualifier.hxx>
-#include <GccAna_Circ2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2dBisec.hxx>
 
 //=========================================================================
 //  Circles tangent to two circles C1 and C2 and centered on a straight line.   +

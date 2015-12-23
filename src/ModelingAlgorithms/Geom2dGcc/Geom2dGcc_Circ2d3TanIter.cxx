@@ -40,7 +40,7 @@
 #include <GccEnt_BadQualifier.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
-#include <GccAna_Circ2d3Tan.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2d3Tan.hxx>
 
 #include <Geom2dGcc_CurveTool.hxx>
 #include <Geom2dGcc_FunctionTanCuCuCu.hxx>

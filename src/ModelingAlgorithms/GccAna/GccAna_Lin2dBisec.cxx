@@ -20,7 +20,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GccAna_Lin2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Lin2dBisec.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

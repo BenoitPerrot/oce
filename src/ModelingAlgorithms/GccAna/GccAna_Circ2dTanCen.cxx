@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <GccAna_Circ2dTanCen.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2dTanCen.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>

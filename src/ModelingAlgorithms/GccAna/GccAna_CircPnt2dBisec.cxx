@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GccInt_Bisec.hxx>
-#include <GccAna_CircPnt2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_CircPnt2dBisec.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

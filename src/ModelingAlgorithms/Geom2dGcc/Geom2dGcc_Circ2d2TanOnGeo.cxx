@@ -35,12 +35,12 @@
 #include <Geom2dGcc_Circ2d2TanOnGeo.hxx>
 
 #include <ElCLib.hxx>
-#include <GccAna_Circ2dBisec.hxx>
-#include <GccAna_CircLin2dBisec.hxx>
-#include <GccAna_Lin2dBisec.hxx>
-#include <GccAna_CircPnt2dBisec.hxx>
-#include <GccAna_LinPnt2dBisec.hxx>
-#include <GccAna_Pnt2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_CircLin2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Lin2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_CircPnt2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_LinPnt2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Pnt2dBisec.hxx>
 
 #include <GccInt_BHyper.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

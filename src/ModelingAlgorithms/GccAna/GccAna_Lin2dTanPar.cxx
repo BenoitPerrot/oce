@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
-#include <GccAna_Lin2dTanPar.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Lin2dTanPar.hxx>
 
 #include <ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

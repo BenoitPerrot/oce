@@ -24,7 +24,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geom2dGcc_Lin2d2Tan.hxx>
 #include <Geom2dGcc_QCurve.hxx>
-#include <GccAna_Lin2d2Tan.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Lin2d2Tan.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <GccEnt_QualifiedCirc.hxx>

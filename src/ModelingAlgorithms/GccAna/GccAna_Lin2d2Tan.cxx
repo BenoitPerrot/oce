@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <GccAna_Lin2d2Tan.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Lin2d2Tan.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

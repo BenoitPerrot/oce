@@ -22,7 +22,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <GccInt_Bisec.hxx>
-#include <GccAna_Circ2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2dBisec.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

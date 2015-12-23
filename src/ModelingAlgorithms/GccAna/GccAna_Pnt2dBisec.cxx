@@ -21,13 +21,13 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <GccAna_Pnt2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Pnt2dBisec.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GccAna_NoSolution.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_NoSolution.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 //=========================================================================

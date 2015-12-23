@@ -19,7 +19,7 @@
 #include <GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <GccAna_Circ2d3Tan.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2d3Tan.hxx>
 
 #include <ElCLib.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
@@ -27,8 +27,8 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <GccAna_LinPnt2dBisec.hxx>
-#include <GccAna_Lin2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_LinPnt2dBisec.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Lin2dBisec.hxx>
 #include <GccInt_IType.hxx>
 #include <GccInt_BLine.hxx>
 #include <GccInt_BParab.hxx>

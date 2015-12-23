@@ -20,13 +20,13 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
-#include <GccAna_Circ2d2TanRad.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2d2TanRad.hxx>
 #include <Geom2dGcc_Circ2d2TanRadGeo.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <GccAna_Circ2d2TanRad.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2d2TanRad.hxx>
 #include <Geom2dGcc_Circ2d2TanRadGeo.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <GccEnt_BadQualifier.hxx>

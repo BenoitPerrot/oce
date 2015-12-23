@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
-#include <GccAna_Circ2d3Tan.hxx>
+#include <ModelingAlgorithms/GccAna/GccAna_Circ2d3Tan.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geom2dGcc_Circ2d3Tan.hxx>
