@@ -30,5 +30,5 @@
 #define ApproxInt_TheFunctionOfTheInt2S_hxx <BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #define ApproxInt_PrmPrmSvSurfaces BRepApprox_ThePrmPrmSvSurfacesOfApprox
 #define ApproxInt_PrmPrmSvSurfaces_hxx <BRepApprox_ThePrmPrmSvSurfacesOfApprox.hxx>
-#include <ApproxInt_PrmPrmSvSurfaces.gxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_PrmPrmSvSurfaces.gxx>
 

@@ -80,11 +80,11 @@ private:
 #define TheMultiLine GeomInt_TheMultiLineOfWLApprox
 #define TheMultiLine_hxx <GeomInt_TheMultiLineOfWLApprox.hxx>
 #define TheMultiMPoint ApproxInt_SvSurfaces
-#define TheMultiMPoint_hxx <ApproxInt_SvSurfaces.hxx>
+#define TheMultiMPoint_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLineTool GeomInt_TheMultiLineToolOfWLApprox
 #define ApproxInt_MultiLineTool_hxx <GeomInt_TheMultiLineToolOfWLApprox.hxx>
 
-#include <ApproxInt_MultiLineTool.lxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_MultiLineTool.lxx>
 
 #undef TheMultiLine
 #undef TheMultiLine_hxx

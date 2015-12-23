@@ -6,7 +6,7 @@
 #include <BRepApprox_TheMultiLineOfApprox.hxx>
 
 #include <BRepApprox_ApproxLine.hxx>
-#include <ApproxInt_SvSurfaces.hxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
@@ -17,8 +17,8 @@
 #define TheLine BRepApprox_ApproxLine
 #define TheLine_hxx <BRepApprox_ApproxLine.hxx>
 #define TheSvSurfaces ApproxInt_SvSurfaces
-#define TheSvSurfaces_hxx <ApproxInt_SvSurfaces.hxx>
+#define TheSvSurfaces_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLine BRepApprox_TheMultiLineOfApprox
 #define ApproxInt_MultiLine_hxx <BRepApprox_TheMultiLineOfApprox.hxx>
-#include <ApproxInt_MultiLine.gxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_MultiLine.gxx>
 

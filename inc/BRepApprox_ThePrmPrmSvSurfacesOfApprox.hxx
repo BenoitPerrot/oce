@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
-#include <ApproxInt_SvSurfaces.hxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #include <Handle_BRepApprox_ApproxLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BRepAdaptor_Surface;

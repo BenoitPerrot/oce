@@ -31,5 +31,5 @@
 #define ApproxInt_TheZerImpFunc_hxx <GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #define ApproxInt_ImpPrmSvSurfaces GeomInt_TheImpPrmSvSurfacesOfWLApprox
 #define ApproxInt_ImpPrmSvSurfaces_hxx <GeomInt_TheImpPrmSvSurfacesOfWLApprox.hxx>
-#include <ApproxInt_ImpPrmSvSurfaces.gxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_ImpPrmSvSurfaces.gxx>
 

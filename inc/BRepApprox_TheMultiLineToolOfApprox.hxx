@@ -80,11 +80,11 @@ private:
 #define TheMultiLine BRepApprox_TheMultiLineOfApprox
 #define TheMultiLine_hxx <BRepApprox_TheMultiLineOfApprox.hxx>
 #define TheMultiMPoint ApproxInt_SvSurfaces
-#define TheMultiMPoint_hxx <ApproxInt_SvSurfaces.hxx>
+#define TheMultiMPoint_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLineTool BRepApprox_TheMultiLineToolOfApprox
 #define ApproxInt_MultiLineTool_hxx <BRepApprox_TheMultiLineToolOfApprox.hxx>
 
-#include <ApproxInt_MultiLineTool.lxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_MultiLineTool.lxx>
 
 #undef TheMultiLine
 #undef TheMultiLine_hxx

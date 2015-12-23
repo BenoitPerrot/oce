@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <ApproxInt_SvSurfaces.hxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 
 void ApproxInt_SvSurfaces::Delete()
 {}

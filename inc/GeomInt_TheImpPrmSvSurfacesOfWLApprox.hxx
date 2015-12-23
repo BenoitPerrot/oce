@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
-#include <ApproxInt_SvSurfaces.hxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_IntPatch_WLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

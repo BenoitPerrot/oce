@@ -71,5 +71,5 @@
 #define ApproxInt_MyGradientOfTheComputeLineBezier_hxx <BRepApprox_MyGradientOfTheComputeLineBezierOfApprox.hxx>
 #define ApproxInt_Approx BRepApprox_Approx
 #define ApproxInt_Approx_hxx <BRepApprox_Approx.hxx>
-#include <ApproxInt_Approx.gxx>
+#include <ModelingAlgorithms/ApproxInt/ApproxInt_Approx.gxx>
 
