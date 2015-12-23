@@ -21,7 +21,7 @@
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <MeshTest.hxx>
 //#include <CorrectTest.hxx>
-#include <HLRTest.hxx>
+#include <Viewer/HLRTest/HLRTest.hxx>
 //#include <stdio.h>
 
 //=======================================================================

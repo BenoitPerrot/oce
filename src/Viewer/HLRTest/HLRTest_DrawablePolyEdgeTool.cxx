@@ -18,7 +18,7 @@
 
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <HLRTest_DrawablePolyEdgeTool.hxx>
+#include <Viewer/HLRTest/HLRTest_DrawablePolyEdgeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_DrawablePolyEdgeTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

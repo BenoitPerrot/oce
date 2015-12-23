@@ -72,7 +72,7 @@ private:
 };
 
 
-#include <HLRTest_ShapeData.lxx>
+#include <Viewer/HLRTest/HLRTest_ShapeData.lxx>
 
 
 

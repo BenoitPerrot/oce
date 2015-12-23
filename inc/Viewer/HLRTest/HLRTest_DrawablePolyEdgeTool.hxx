@@ -77,7 +77,7 @@ private:
 };
 
 
-#include <HLRTest_DrawablePolyEdgeTool.lxx>
+#include <Viewer/HLRTest/HLRTest_DrawablePolyEdgeTool.lxx>
 
 
 

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <HLRTest_ShapeData.hxx>
+#include <Viewer/HLRTest/HLRTest_ShapeData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_ShapeData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -17,9 +17,9 @@
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.hxx>
-#include <HLRTest.hxx>
-#include <HLRTest_Projector.hxx>
-#include <HLRTest_OutLiner.hxx>
+#include <Viewer/HLRTest/HLRTest.hxx>
+#include <Viewer/HLRTest/HLRTest_Projector.hxx>
+#include <Viewer/HLRTest/HLRTest_OutLiner.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>

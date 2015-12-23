@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <HLRTest_OutLiner.hxx>
+#include <Viewer/HLRTest/HLRTest_OutLiner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_OutLiner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

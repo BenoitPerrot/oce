@@ -3,33 +3,34 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _HLRTest_Projector_HeaderFile
-#define _HLRTest_Projector_HeaderFile
+#ifndef _HLRTest_OutLiner_HeaderFile
+#define _HLRTest_OutLiner_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRTest_Projector.hxx>
+#include <Handle_HLRTest_OutLiner.hxx>
 
-#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
+#include <Handle_HLRTopoBRep_OutLiner.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-class HLRAlgo_Projector;
+class HLRTopoBRep_OutLiner;
+class TopoDS_Shape;
 class Draw_Display;
 class Draw_Drawable3D;
 
 
-//! Draw Variable Projector to test.
-class HLRTest_Projector : public Draw_Drawable3D
+
+class HLRTest_OutLiner : public Draw_Drawable3D
 {
 
 public:
 
   
-  Standard_EXPORT HLRTest_Projector(const HLRAlgo_Projector& P);
+  Standard_EXPORT HLRTest_OutLiner(const TopoDS_Shape& S);
   
-     const  HLRAlgo_Projector& Projector()  const;
+      Handle(HLRTopoBRep_OutLiner) OutLiner()  const;
   
   //! Does nothhing,
   Standard_EXPORT   void DrawOn (Draw_Display& dis)  const;
@@ -47,7 +48,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(HLRTest_Projector)
+  DEFINE_STANDARD_RTTI(HLRTest_OutLiner)
 
 protected:
 
@@ -57,16 +58,16 @@ protected:
 private: 
 
 
-  HLRAlgo_Projector myProjector;
+  Handle(HLRTopoBRep_OutLiner) myOutLiner;
 
 
 };
 
 
-#include <HLRTest_Projector.lxx>
+#include <Viewer/HLRTest/HLRTest_OutLiner.lxx>
 
 
 
 
 
-#endif // _HLRTest_Projector_HeaderFile
+#endif // _HLRTest_OutLiner_HeaderFile

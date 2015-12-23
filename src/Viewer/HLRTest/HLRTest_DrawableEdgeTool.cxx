@@ -18,7 +18,7 @@
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
-#include <HLRTest_DrawableEdgeTool.hxx>
+#include <Viewer/HLRTest/HLRTest_DrawableEdgeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_DrawableEdgeTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(HLRTest_DrawableEdgeTool)
 IMPLEMENT_DOWNCAST(HLRTest_DrawableEdgeTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRTest_DrawableEdgeTool)
-#include <HLRTest_ShapeData.hxx>
+#include <Viewer/HLRTest/HLRTest_ShapeData.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
