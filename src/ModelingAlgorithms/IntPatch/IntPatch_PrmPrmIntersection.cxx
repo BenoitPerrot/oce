@@ -20,20 +20,20 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <IntPatch_Polyhedron.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Polyhedron.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
-#include <IntPatch_Line.hxx>
-#include <IntPatch_PrmPrmIntersection_T3Bits.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_PrmPrmIntersection_T3Bits.hxx>
 #include <IntSurf_LineOn2S.hxx>
-#include <IntPatch_PrmPrmIntersection.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_PrmPrmIntersection.hxx>
 
-#include <IntPatch_InterferencePolyhedron.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_InterferencePolyhedron.hxx>
 #include <IntWalk_PWalking.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_RstInt.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RstInt.hxx>
 
-#include <IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_LineOn2S.hxx>

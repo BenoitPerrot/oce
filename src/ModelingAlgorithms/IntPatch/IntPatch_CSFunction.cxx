@@ -16,12 +16,12 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntPatch_CSFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_CSFunction.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <IntPatch_HCurve2dTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HCurve2dTool.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

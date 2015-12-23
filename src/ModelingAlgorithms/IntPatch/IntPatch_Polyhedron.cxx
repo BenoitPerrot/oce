@@ -20,9 +20,9 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IntPatch_Polyhedron.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Polyhedron.hxx>
 
-#include <IntPatch_HInterTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

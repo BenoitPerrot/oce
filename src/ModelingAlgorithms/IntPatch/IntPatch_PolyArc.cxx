@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntPatch_PolyArc.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_PolyArc.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

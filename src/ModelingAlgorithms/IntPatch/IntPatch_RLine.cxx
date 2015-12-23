@@ -18,9 +18,9 @@
 #include <IntSurf_LineOn2S.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_RLine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

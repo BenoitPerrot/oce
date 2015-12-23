@@ -27,7 +27,7 @@
 #include <TopOpeBRep_DRAW.hxx>
 #endif
 
-#include <IntPatch_LineConstructor.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_LineConstructor.hxx>
 #include <TopOpeBRep_TypeLineCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -76,9 +76,9 @@ Standard_EXPORT TOPKRO KRO_DSFILLER_INTFF("intersection face/face");
 
 
 // modified by NIZHNY-MKK  Mon Apr  2 12:14:32 2001.BEGIN
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_RLine.hxx>
-#include <IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>

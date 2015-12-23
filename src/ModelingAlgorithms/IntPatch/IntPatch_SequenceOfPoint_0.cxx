@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_SequenceOfPoint.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPoint.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntPatch_Point.hxx>
-#include <IntPatch_SequenceNodeOfSequenceOfPoint.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfPoint.hxx>
  
 
 #define SeqItem IntPatch_Point
-#define SeqItem_hxx <IntPatch_Point.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #define TCollection_SequenceNode IntPatch_SequenceNodeOfSequenceOfPoint
-#define TCollection_SequenceNode_hxx <IntPatch_SequenceNodeOfSequenceOfPoint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfPoint.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntPatch_SequenceNodeOfSequenceOfPoint
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfPoint_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfPoint
-#define TCollection_Sequence_hxx <IntPatch_SequenceOfPoint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPoint.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

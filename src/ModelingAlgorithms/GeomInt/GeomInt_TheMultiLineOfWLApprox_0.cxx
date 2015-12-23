@@ -5,7 +5,7 @@
 
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 
-#include <IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -15,7 +15,7 @@
 
 #define Handle_TheLine Handle_IntPatch_WLine
 #define TheLine IntPatch_WLine
-#define TheLine_hxx <IntPatch_WLine.hxx>
+#define TheLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #define TheSvSurfaces ApproxInt_SvSurfaces
 #define TheSvSurfaces_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLine GeomInt_TheMultiLineOfWLApprox

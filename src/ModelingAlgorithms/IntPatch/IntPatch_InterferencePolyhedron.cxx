@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_Polyhedron.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Polyhedron.hxx>
 #include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
-#include <IntPatch_InterferencePolyhedron.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_InterferencePolyhedron.hxx>
 
-#include <IntPatch_Polyhedron.hxx>
-#include <IntPatch_PolyhedronTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Polyhedron.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_PolyhedronTool.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

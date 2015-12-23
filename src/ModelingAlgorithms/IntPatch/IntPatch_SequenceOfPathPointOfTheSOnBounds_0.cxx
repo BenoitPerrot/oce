@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
-#include <IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
  
 
 #define SeqItem IntPatch_ThePathPointOfTheSOnBounds
-#define SeqItem_hxx <IntPatch_ThePathPointOfTheSOnBounds.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
 #define TCollection_SequenceNode IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds
-#define TCollection_SequenceNode_hxx <IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfPathPointOfTheSOnBounds
-#define TCollection_Sequence_hxx <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

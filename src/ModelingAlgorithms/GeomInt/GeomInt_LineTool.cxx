@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_Line.hxx>
-#include <IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_LineTool.hxx>
 
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_RLine.hxx>
-#include <IntPatch_ALine.hxx>
-#include <IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
 #include <Precision.hxx>
 
 

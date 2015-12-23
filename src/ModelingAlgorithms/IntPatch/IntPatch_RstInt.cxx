@@ -26,10 +26,10 @@
 //--      Chercher(Nbvtx++). 
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntPatch_RstInt.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RstInt.hxx>
 
 #include <IntSurf.hxx>
 
@@ -41,14 +41,14 @@
 #include <Precision.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_RLine.hxx>
-#include <IntPatch_HInterTool.hxx>
-#include <IntPatch_SearchPnt.hxx>
-#include <IntPatch_PolyLine.hxx>
-#include <IntPatch_PolyArc.hxx>
-#include <IntPatch_CSFunction.hxx>
-#include <IntPatch_CurvIntSurf.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SearchPnt.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_PolyLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_PolyArc.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_CSFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_CurvIntSurf.hxx>
 
 #define myInfinite 1.e15 // the same as was in Adaptor3d_TopolTool
 

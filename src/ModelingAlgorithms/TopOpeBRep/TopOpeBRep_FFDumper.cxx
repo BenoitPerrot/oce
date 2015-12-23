@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_FFDumper)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
 #include <TopOpeBRep_define.hxx>
-#include <IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepDS_GettraceDSNC(); 

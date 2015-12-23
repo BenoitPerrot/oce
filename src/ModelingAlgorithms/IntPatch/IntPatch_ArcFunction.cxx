@@ -18,9 +18,9 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntPatch_ArcFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ArcFunction.hxx>
 
-#include <IntPatch_HInterTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
 
 
 IntPatch_ArcFunction::IntPatch_ArcFunction ()

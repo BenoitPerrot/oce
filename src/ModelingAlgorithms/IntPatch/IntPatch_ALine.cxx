@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/IntAna/IntAna_Curve.hxx>
-#include <IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_ALine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

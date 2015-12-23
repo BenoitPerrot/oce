@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
-#include <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds)
 
 
 #define SeqItem IntPatch_TheSegmentOfTheSOnBounds
-#define SeqItem_hxx <IntPatch_TheSegmentOfTheSOnBounds.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
 #define TCollection_SequenceNode IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds
-#define TCollection_SequenceNode_hxx <IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds
 #define TCollection_SequenceNode_Type_() IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds_Type_()
 #define TCollection_Sequence IntPatch_SequenceOfSegmentOfTheSOnBounds
-#define TCollection_Sequence_hxx <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -55,11 +55,11 @@
 #include <IntRes2d_Domain.hxx>
 #include <Geometry/ProjLib/ProjLib_Plane.hxx>
 
-#include <IntPatch_GLine.hxx>
-#include <IntPatch_RLine.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_ALine.hxx>
-#include <IntPatch_ALineToWLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
 
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>

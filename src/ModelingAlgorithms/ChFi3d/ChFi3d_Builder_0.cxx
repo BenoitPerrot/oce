@@ -120,7 +120,7 @@
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntWalk_PWalking.hxx>
-#include <IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_WLApprox.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>

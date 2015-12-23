@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntPatch_Intersection.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Intersection.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_LineConstructor.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

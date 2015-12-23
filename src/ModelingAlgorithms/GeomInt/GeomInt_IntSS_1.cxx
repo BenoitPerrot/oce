@@ -40,12 +40,12 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntPatch_Line.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_GLine.hxx>
-#include <IntPatch_RLine.hxx>
-#include <IntPatch_ALineToWLine.hxx>
-#include <IntPatch_IType.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_IType.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>

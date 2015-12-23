@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <IntSurf_Quadric.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_ALine.hxx>
-#include <IntPatch_ALineToWLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
 
 #include <IntSurf_LineOn2S.hxx>
 #include <IntSurf_PntOn2S.hxx>

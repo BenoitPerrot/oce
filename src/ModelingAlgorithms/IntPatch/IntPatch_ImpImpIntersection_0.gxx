@@ -16,9 +16,9 @@
 
 //  Modified by skv - Thu Jan 15 15:57:15 2004 OCC4455
 
-#include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
-#include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
-#include <IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
 #include <IntSurf.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>

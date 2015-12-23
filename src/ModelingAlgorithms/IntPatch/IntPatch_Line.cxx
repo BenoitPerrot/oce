@@ -14,7 +14,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

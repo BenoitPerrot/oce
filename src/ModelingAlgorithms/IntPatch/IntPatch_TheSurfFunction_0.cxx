@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_TheSurfFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSurfFunction.hxx>
 
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
@@ -25,6 +25,6 @@
 #define TheISurfaceTool IntSurf_QuadricTool
 #define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
 #define IntImp_ZerImpFunc IntPatch_TheSurfFunction
-#define IntImp_ZerImpFunc_hxx <IntPatch_TheSurfFunction.hxx>
+#define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSurfFunction.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ZerImpFunc.gxx>
 

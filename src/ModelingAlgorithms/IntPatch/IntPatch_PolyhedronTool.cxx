@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntPatch_Polyhedron.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Polyhedron.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntPatch_PolyhedronTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_PolyhedronTool.hxx>

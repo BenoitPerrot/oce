@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntPatch_Polygo.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Polygo.hxx>
 
 //=======================================================================
 //function : Initialize

@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_TheSearchInside.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSearchInside.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntPatch_HInterTool.hxx>
-#include <IntPatch_TheSurfFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSurfFunction.hxx>
 #include <IntSurf_InteriorPoint.hxx>
  
 
@@ -23,10 +23,10 @@
 #define TheTopolTool Adaptor3d_TopolTool
 #define TheTopolTool_hxx <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #define TheSITool IntPatch_HInterTool
-#define TheSITool_hxx <IntPatch_HInterTool.hxx>
+#define TheSITool_hxx <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
 #define TheFunction IntPatch_TheSurfFunction
-#define TheFunction_hxx <IntPatch_TheSurfFunction.hxx>
+#define TheFunction_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSurfFunction.hxx>
 #define IntStart_SearchInside IntPatch_TheSearchInside
-#define IntStart_SearchInside_hxx <IntPatch_TheSearchInside.hxx>
+#define IntStart_SearchInside_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSearchInside.hxx>
 #include <IntStart_SearchInside.gxx>
 

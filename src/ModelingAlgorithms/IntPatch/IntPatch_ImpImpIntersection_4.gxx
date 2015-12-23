@@ -16,7 +16,7 @@
 
 #include <Geometry/IntAna/IntAna_ListOfCurve.hxx>
 #include <Geometry/IntAna/IntAna_ListIteratorOfListOfCurve.hxx>
-#include <IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 
 //
 static 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntPatch_Intersection.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TopOpeBRep_HArray1OfLineInter.hxx>

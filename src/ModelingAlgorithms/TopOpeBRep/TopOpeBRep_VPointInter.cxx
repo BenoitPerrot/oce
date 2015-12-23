@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

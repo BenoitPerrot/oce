@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_TheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheIWalking.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -15,10 +15,10 @@
 #include <IntSurf_SequenceOfInteriorPoint.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
-#include <IntPatch_TheSurfFunction.hxx>
-#include <IntPatch_TheIWLineOfTheIWalking.hxx>
-#include <IntPatch_SequenceOfIWLineOfTheIWalking.hxx>
-#include <IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSurfFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <IntSurf_PntOn2S.hxx>
  
@@ -40,15 +40,15 @@
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define TheIWFunction IntPatch_TheSurfFunction
-#define TheIWFunction_hxx <IntPatch_TheSurfFunction.hxx>
+#define TheIWFunction_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSurfFunction.hxx>
 #define IntWalk_TheIWLine IntPatch_TheIWLineOfTheIWalking
-#define IntWalk_TheIWLine_hxx <IntPatch_TheIWLineOfTheIWalking.hxx>
+#define IntWalk_TheIWLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheIWLineOfTheIWalking.hxx>
 #define IntWalk_SequenceOfIWLine IntPatch_SequenceOfIWLineOfTheIWalking
-#define IntWalk_SequenceOfIWLine_hxx <IntPatch_SequenceOfIWLineOfTheIWalking.hxx>
+#define IntWalk_SequenceOfIWLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfIWLineOfTheIWalking.hxx>
 #define IntWalk_SequenceNodeOfSequenceOfIWLine IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking
-#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #define IntWalk_SequenceNodeOfSequenceOfIWLine IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking
-#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #define Handle_IntWalk_TheIWLine Handle_IntPatch_TheIWLineOfTheIWalking
 #define IntWalk_TheIWLine_Type_() IntPatch_TheIWLineOfTheIWalking_Type_()
 #define Handle_IntWalk_SequenceNodeOfSequenceOfIWLine Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking
@@ -56,6 +56,6 @@
 #define Handle_IntWalk_SequenceNodeOfSequenceOfIWLine Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking
 #define IntWalk_SequenceNodeOfSequenceOfIWLine_Type_() IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking_Type_()
 #define IntWalk_IWalking IntPatch_TheIWalking
-#define IntWalk_IWalking_hxx <IntPatch_TheIWalking.hxx>
+#define IntWalk_IWalking_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheIWalking.hxx>
 #include <IntWalk_IWalking.gxx>
 

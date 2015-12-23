@@ -21,8 +21,8 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
-#include <IntPatch_Point.hxx>
-#include <IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_GLine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

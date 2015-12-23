@@ -3,23 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntPatch_TheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSOnBounds.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <IntPatch_HCurve2dTool.hxx>
-#include <IntPatch_HInterTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HCurve2dTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntPatch_ArcFunction.hxx>
-#include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
-#include <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
-#include <IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
-#include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
-#include <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
-#include <IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ArcFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
  
 
 #define TheVertex Handle(Adaptor3d_HVertex)
@@ -27,30 +27,30 @@
 #define TheArc Handle(Adaptor2d_HCurve2d)
 #define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define TheArcTool IntPatch_HCurve2dTool
-#define TheArcTool_hxx <IntPatch_HCurve2dTool.hxx>
+#define TheArcTool_hxx <ModelingAlgorithms/IntPatch/IntPatch_HCurve2dTool.hxx>
 #define TheSOBTool IntPatch_HInterTool
-#define TheSOBTool_hxx <IntPatch_HInterTool.hxx>
+#define TheSOBTool_hxx <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
 #define Handle_TheTopolTool Handle_Adaptor3d_TopolTool
 #define TheTopolTool Adaptor3d_TopolTool
 #define TheTopolTool_hxx <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #define TheFunction IntPatch_ArcFunction
-#define TheFunction_hxx <IntPatch_ArcFunction.hxx>
+#define TheFunction_hxx <ModelingAlgorithms/IntPatch/IntPatch_ArcFunction.hxx>
 #define IntStart_ThePathPoint IntPatch_ThePathPointOfTheSOnBounds
-#define IntStart_ThePathPoint_hxx <IntPatch_ThePathPointOfTheSOnBounds.hxx>
+#define IntStart_ThePathPoint_hxx <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
 #define IntStart_SequenceOfPathPoint IntPatch_SequenceOfPathPointOfTheSOnBounds
-#define IntStart_SequenceOfPathPoint_hxx <IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
+#define IntStart_SequenceOfPathPoint_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
 #define IntStart_SequenceNodeOfSequenceOfPathPoint IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds
-#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
+#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
 #define IntStart_SequenceNodeOfSequenceOfPathPoint IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds
-#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
+#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
 #define IntStart_TheSegment IntPatch_TheSegmentOfTheSOnBounds
-#define IntStart_TheSegment_hxx <IntPatch_TheSegmentOfTheSOnBounds.hxx>
+#define IntStart_TheSegment_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
 #define IntStart_SequenceOfSegment IntPatch_SequenceOfSegmentOfTheSOnBounds
-#define IntStart_SequenceOfSegment_hxx <IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
+#define IntStart_SequenceOfSegment_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
 #define IntStart_SequenceNodeOfSequenceOfSegment IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds
-#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
+#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
 #define IntStart_SequenceNodeOfSequenceOfSegment IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds
-#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
+#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <ModelingAlgorithms/IntPatch/IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
 #define Handle_IntStart_SequenceNodeOfSequenceOfPathPoint Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds
 #define IntStart_SequenceNodeOfSequenceOfPathPoint_Type_() IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds_Type_()
 #define Handle_IntStart_SequenceNodeOfSequenceOfPathPoint Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds
@@ -60,6 +60,6 @@
 #define Handle_IntStart_SequenceNodeOfSequenceOfSegment Handle_IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds
 #define IntStart_SequenceNodeOfSequenceOfSegment_Type_() IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds_Type_()
 #define IntStart_SearchOnBoundaries IntPatch_TheSOnBounds
-#define IntStart_SearchOnBoundaries_hxx <IntPatch_TheSOnBounds.hxx>
+#define IntStart_SearchOnBoundaries_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSOnBounds.hxx>
 #include <IntStart_SearchOnBoundaries.gxx>
 

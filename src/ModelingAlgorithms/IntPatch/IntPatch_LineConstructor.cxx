@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_SequenceOfLine.hxx>
-#include <IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntPatch_LineConstructor.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_LineConstructor.hxx>
 
-#include <IntPatch_GLine.hxx>
-#include <IntPatch_ALine.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 #define XPU1009 1

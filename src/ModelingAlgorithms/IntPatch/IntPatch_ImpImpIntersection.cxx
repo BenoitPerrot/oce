@@ -20,12 +20,12 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntPatch_Point.hxx>
-#include <IntPatch_Line.hxx>
-#include <IntPatch_ImpImpIntersection.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <IntPatch_SequenceOfLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfLine.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
@@ -46,18 +46,18 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <IntPatch_HInterTool.hxx>
-#include <IntPatch_ArcFunction.hxx>
-#include <IntPatch_GLine.hxx>
-#include <IntPatch_ALine.hxx>
-#include <IntPatch_RLine.hxx>
-#include <IntPatch_ThePathPointOfTheSOnBounds.hxx>
-#include <IntPatch_TheSegmentOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_HInterTool.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ArcFunction.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
 
-#include <IntPatch_ImpImpIntersection_0.gxx>
-#include <IntPatch_ImpImpIntersection_1.gxx>
-#include <IntPatch_ImpImpIntersection_2.gxx>
-#include <IntPatch_ImpImpIntersection_3.gxx>
-#include <IntPatch_ImpImpIntersection_4.gxx>
-#include <IntPatch_ImpImpIntersection_5.gxx>
-#include <IntPatch_ImpImpIntersection_6.gxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection_0.gxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection_1.gxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection_2.gxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection_3.gxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection_4.gxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection_5.gxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection_6.gxx>

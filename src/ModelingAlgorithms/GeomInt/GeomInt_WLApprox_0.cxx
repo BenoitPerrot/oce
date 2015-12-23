@@ -11,7 +11,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_QuadricTool.hxx>
-#include <IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_ThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheImpPrmSvSurfacesOfWLApprox.hxx>
@@ -36,7 +36,7 @@
 #define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
 #define Handle_TheWLine Handle_IntPatch_WLine
 #define TheWLine IntPatch_WLine
-#define TheWLine_hxx <IntPatch_WLine.hxx>
+#define TheWLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #define ApproxInt_ThePrmPrmSvSurfaces GeomInt_ThePrmPrmSvSurfacesOfWLApprox
 #define ApproxInt_ThePrmPrmSvSurfaces_hxx <ModelingAlgorithms/GeomInt/GeomInt_ThePrmPrmSvSurfacesOfWLApprox.hxx>
 #define ApproxInt_TheInt2SOfThePrmPrmSvSurfaces GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox

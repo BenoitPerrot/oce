@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntPatch_Line.hxx>
-#include <IntPatch_ALine.hxx>
-#include <IntPatch_RLine.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
 #include <TopOpeBRep_HArray1OfVPointInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -36,14 +36,14 @@
 #include <TopOpeBRep_VPointInterIterator.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>
 
-#include <IntPatch_IType.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_IType.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <IntPatch_ALineToWLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <GeomAbs_SurfaceType.hxx> 
 #include <Mathematics/Primitives/gp_Pnt.hxx>

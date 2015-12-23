@@ -18,17 +18,17 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_LineConstructor.hxx>
 
 #include <ModelingAlgorithms/GeomInt/GeomInt_LineTool.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_SequenceOfParameterAndOrientation.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_ParameterAndOrientation.hxx>
 
-#include <IntPatch_Point.hxx>
-#include <IntPatch_GLine.hxx>
-#include <IntPatch_WLine.hxx>
-#include <IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
 #include <IntSurf_Transition.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 

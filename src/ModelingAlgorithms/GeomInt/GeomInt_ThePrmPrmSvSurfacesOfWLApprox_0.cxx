@@ -7,7 +7,7 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
-#include <IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -21,7 +21,7 @@
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define Handle_TheLine Handle_IntPatch_WLine
 #define TheLine IntPatch_WLine
-#define TheLine_hxx <IntPatch_WLine.hxx>
+#define TheLine_hxx <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #define ApproxInt_TheInt2S GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox
 #define ApproxInt_TheInt2S_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #define ApproxInt_TheFunctionOfTheInt2S GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox

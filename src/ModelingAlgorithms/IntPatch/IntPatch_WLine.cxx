@@ -18,11 +18,11 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntPatch_WLine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

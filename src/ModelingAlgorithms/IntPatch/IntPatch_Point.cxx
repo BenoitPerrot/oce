@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntSurf_Transition.hxx>
 #include <IntSurf_PntOn2S.hxx>
-#include <IntPatch_Point.hxx>
+#include <ModelingAlgorithms/IntPatch/IntPatch_Point.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <stdio.h>
