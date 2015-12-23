@@ -44,7 +44,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ChFi3d_FilletShape.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 static Standard_Integer OCC426 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)

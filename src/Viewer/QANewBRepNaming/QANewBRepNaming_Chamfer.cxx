@@ -16,7 +16,7 @@
 
 #include <TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFilletAPI_MakeChamfer.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeChamfer.hxx>
 #include <QANewBRepNaming_Chamfer.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 

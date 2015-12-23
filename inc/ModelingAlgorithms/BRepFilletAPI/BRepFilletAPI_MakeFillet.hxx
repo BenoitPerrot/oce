@@ -12,7 +12,7 @@
 
 #include <ChFi3d_FilBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepFilletAPI_LocalOperation.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_LocalOperation.hxx>
 #include <ChFi3d_FilletShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>

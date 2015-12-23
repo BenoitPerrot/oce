@@ -26,7 +26,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ChFiDS_SecHArray1.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

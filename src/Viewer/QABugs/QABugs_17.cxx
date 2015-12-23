@@ -773,7 +773,7 @@ static Standard_Integer OCC566(Draw_Interpretor& di,Standard_Integer n,const cha
   return 0;
 }
 
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 //=======================================================================
 //function : OCC570
 //purpose  : 

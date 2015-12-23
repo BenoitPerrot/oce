@@ -678,7 +678,7 @@ static Standard_Integer BUC60792(Draw_Interpretor& di, Standard_Integer /*argc*/
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <BRepFilletAPI_MakeFillet2d.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet2d.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 

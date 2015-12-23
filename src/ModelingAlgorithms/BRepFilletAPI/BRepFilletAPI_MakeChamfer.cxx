@@ -22,7 +22,7 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ChFiDS_SecHArray1.hxx>
-#include <BRepFilletAPI_MakeChamfer.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeChamfer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ChFiDS_Spine.hxx>

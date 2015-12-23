@@ -15,10 +15,10 @@
 
 #include <TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <QANewBRepNaming_Fillet.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_Builder.hxx>

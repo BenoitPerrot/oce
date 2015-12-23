@@ -20,7 +20,7 @@
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFilletAPI_MakeFillet2d.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet2d.hxx>
 
 //=======================================================================
 //function : BRepFilletAPI_MakeFillet2d

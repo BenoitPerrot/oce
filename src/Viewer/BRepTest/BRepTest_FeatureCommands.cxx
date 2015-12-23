@@ -62,7 +62,7 @@
 #include <DBRep_DrawableShape.hxx>
 #include <BRepTest.hxx>
 
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ChFi3d_FilletShape.hxx>
 
 #include <Precision.hxx>

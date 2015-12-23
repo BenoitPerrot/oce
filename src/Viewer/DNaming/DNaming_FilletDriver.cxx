@@ -15,7 +15,7 @@
 
 #include <TFunction_Logbook.hxx>
 #include <TDF_Label.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DNaming_FilletDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>

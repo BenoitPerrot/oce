@@ -12,7 +12,7 @@
 
 #include <ChFi3d_ChBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepFilletAPI_LocalOperation.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_LocalOperation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

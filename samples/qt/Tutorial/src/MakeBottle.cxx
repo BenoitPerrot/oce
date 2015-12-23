@@ -7,7 +7,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 
 #include <BRepLib.hxx>
 

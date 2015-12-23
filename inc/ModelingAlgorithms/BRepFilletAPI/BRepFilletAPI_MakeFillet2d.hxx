@@ -290,7 +290,7 @@ private:
 };
 
 
-#include <BRepFilletAPI_MakeFillet2d.lxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet2d.lxx>
 
 
 

@@ -2119,7 +2119,7 @@ static Standard_Integer OCC1487 (Draw_Interpretor& di, Standard_Integer argc, co
 }
 
 #include<ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include<BRepFilletAPI_MakeFillet.hxx>
+#include<ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 //=======================================================================
 //function :  OCC1077
 //purpose  :

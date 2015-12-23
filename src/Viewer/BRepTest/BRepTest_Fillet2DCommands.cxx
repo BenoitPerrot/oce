@@ -25,7 +25,7 @@
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
-#include <BRepFilletAPI_MakeFillet2d.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet2d.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

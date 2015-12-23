@@ -27,7 +27,7 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>

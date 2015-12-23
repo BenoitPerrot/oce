@@ -59,9 +59,9 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <QADNaming.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <QANewBRepNaming_Fillet.hxx>
-#include <BRepFilletAPI_MakeChamfer.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeChamfer.hxx>
 #include <QANewBRepNaming_Chamfer.hxx>
 
 //=======================================================================

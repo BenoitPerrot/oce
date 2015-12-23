@@ -18,7 +18,7 @@
 #include <BRepTest.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>
-#include <BRepFilletAPI_MakeChamfer.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeChamfer.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

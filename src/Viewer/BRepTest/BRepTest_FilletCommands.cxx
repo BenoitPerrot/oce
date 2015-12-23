@@ -19,7 +19,7 @@
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
-#include <BRepFilletAPI_MakeFillet.hxx>
+#include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperation.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
