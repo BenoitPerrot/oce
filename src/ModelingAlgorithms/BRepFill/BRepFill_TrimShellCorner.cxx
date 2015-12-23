@@ -30,9 +30,9 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
-#include <IntTools_BeanFaceIntersector.hxx>
-#include <IntTools_Context.hxx>
-#include <IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_BeanFaceIntersector.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -64,7 +64,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>

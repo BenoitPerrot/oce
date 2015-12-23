@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
-#include <IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

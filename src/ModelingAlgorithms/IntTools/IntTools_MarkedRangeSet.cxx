@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_CArray1OfReal.hxx>
-#include <IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CArray1OfReal.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <IntTools_MarkedRangeSet.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_MarkedRangeSet.hxx>
 
 IntTools_MarkedRangeSet::IntTools_MarkedRangeSet() :
 myRangeNumber(0)

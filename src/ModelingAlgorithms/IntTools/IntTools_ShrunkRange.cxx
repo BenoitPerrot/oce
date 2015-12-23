@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntTools_ShrunkRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ShrunkRange.hxx>
 
 #include <Precision.hxx>
 
@@ -29,7 +29,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ElCLib.hxx>
 

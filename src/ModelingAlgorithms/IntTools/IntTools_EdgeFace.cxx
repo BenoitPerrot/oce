@@ -13,31 +13,31 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <IntTools_Range.hxx>
-#include <IntTools_SequenceOfCommonPrts.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCommonPrts.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <IntTools_CArray1OfReal.hxx>
-#include <IntTools_CommonPrt.hxx>
-#include <IntTools_EdgeFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CArray1OfReal.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_EdgeFace.hxx>
 
 
 
-#include <IntTools_CArray1OfReal.hxx>
-#include <IntTools.hxx>
-#include <IntTools_CArray1OfInteger.hxx>
-#include <IntTools_Range.hxx>
-#include <IntTools_Tools.hxx>
-#include <IntTools_Array1OfRange.hxx>
-#include <IntTools_QuickSortRange.hxx>
-#include <IntTools_CompareRange.hxx>
-#include <IntTools_CommonPrt.hxx>
-#include <IntTools_Root.hxx>
-#include <IntTools_BeanFaceIntersector.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CArray1OfReal.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CArray1OfInteger.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Array1OfRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_QuickSortRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CompareRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Root.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_BeanFaceIntersector.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

@@ -3,20 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_QuickSortRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_QuickSortRange.hxx>
 
-#include <IntTools_Range.hxx>
-#include <IntTools_Array1OfRange.hxx>
-#include <IntTools_CompareRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Array1OfRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CompareRange.hxx>
  
 
 #define Item IntTools_Range
-#define Item_hxx <IntTools_Range.hxx>
+#define Item_hxx <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
 #define Array IntTools_Array1OfRange
-#define Array_hxx <IntTools_Array1OfRange.hxx>
+#define Array_hxx <ModelingAlgorithms/IntTools/IntTools_Array1OfRange.hxx>
 #define Comparator IntTools_CompareRange
-#define Comparator_hxx <IntTools_CompareRange.hxx>
+#define Comparator_hxx <ModelingAlgorithms/IntTools/IntTools_CompareRange.hxx>
 #define SortTools_QuickSort IntTools_QuickSortRange
-#define SortTools_QuickSort_hxx <IntTools_QuickSortRange.hxx>
+#define SortTools_QuickSort_hxx <ModelingAlgorithms/IntTools/IntTools_QuickSortRange.hxx>
 #include <Foundation/SortTools/SortTools_QuickSort.gxx>
 

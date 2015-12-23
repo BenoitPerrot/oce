@@ -1187,9 +1187,9 @@ static Standard_Integer OCC11758 (Draw_Interpretor& di, Standard_Integer n, cons
 }
 
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
-#include <IntTools_FaceFace.hxx>
-#include <IntTools_Curve.hxx>
-#include <IntTools_PntOn2Faces.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FaceFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_PntOn2Faces.hxx>
 
 static Standard_Integer OCC24005 (Draw_Interpretor& theDI, Standard_Integer theNArg, const char** theArgv) 
 {

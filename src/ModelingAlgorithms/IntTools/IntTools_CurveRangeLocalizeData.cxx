@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_CurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CurveRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntTools_ListOfCurveRangeSample.hxx>
-#include <IntTools_CurveRangeLocalizeData.hxx>
-#include <IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
-#include <IntTools_ListIteratorOfListOfBox.hxx>
-#include <IntTools_MapIteratorOfMapOfCurveSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfCurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CurveRangeLocalizeData.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfCurveSample.hxx>
 
 IntTools_CurveRangeLocalizeData::IntTools_CurveRangeLocalizeData(const Standard_Integer theNbSample,
 								 const Standard_Real theMinRange)

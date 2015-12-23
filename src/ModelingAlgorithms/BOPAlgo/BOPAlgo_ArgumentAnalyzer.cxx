@@ -44,11 +44,11 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_SequenceOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
-#include <IntTools_Range.hxx>
-#include <IntTools_EdgeEdge.hxx>
-#include <IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_EdgeEdge.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>

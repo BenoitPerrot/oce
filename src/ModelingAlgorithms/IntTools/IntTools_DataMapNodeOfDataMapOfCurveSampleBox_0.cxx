@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_DataMapNodeOfDataMapOfCurveSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_DataMapNodeOfDataMapOfCurveSampleBox.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IntTools_CurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CurveRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntTools_CurveRangeSampleMapHasher.hxx>
-#include <IntTools_DataMapOfCurveSampleBox.hxx>
-#include <IntTools_DataMapIteratorOfDataMapOfCurveSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CurveRangeSampleMapHasher.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_DataMapOfCurveSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_DataMapIteratorOfDataMapOfCurveSampleBox.hxx>
 
  
 
@@ -31,18 +31,18 @@ IMPLEMENT_STANDARD_RTTI(IntTools_DataMapNodeOfDataMapOfCurveSampleBox)
 
 
 #define TheKey IntTools_CurveRangeSample
-#define TheKey_hxx <IntTools_CurveRangeSample.hxx>
+#define TheKey_hxx <ModelingAlgorithms/IntTools/IntTools_CurveRangeSample.hxx>
 #define TheItem Bnd_Box
 #define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher IntTools_CurveRangeSampleMapHasher
-#define Hasher_hxx <IntTools_CurveRangeSampleMapHasher.hxx>
+#define Hasher_hxx <ModelingAlgorithms/IntTools/IntTools_CurveRangeSampleMapHasher.hxx>
 #define TCollection_DataMapNode IntTools_DataMapNodeOfDataMapOfCurveSampleBox
-#define TCollection_DataMapNode_hxx <IntTools_DataMapNodeOfDataMapOfCurveSampleBox.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/IntTools/IntTools_DataMapNodeOfDataMapOfCurveSampleBox.hxx>
 #define TCollection_DataMapIterator IntTools_DataMapIteratorOfDataMapOfCurveSampleBox
-#define TCollection_DataMapIterator_hxx <IntTools_DataMapIteratorOfDataMapOfCurveSampleBox.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/IntTools/IntTools_DataMapIteratorOfDataMapOfCurveSampleBox.hxx>
 #define Handle_TCollection_DataMapNode Handle_IntTools_DataMapNodeOfDataMapOfCurveSampleBox
 #define TCollection_DataMapNode_Type_() IntTools_DataMapNodeOfDataMapOfCurveSampleBox_Type_()
 #define TCollection_DataMap IntTools_DataMapOfCurveSampleBox
-#define TCollection_DataMap_hxx <IntTools_DataMapOfCurveSampleBox.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/IntTools/IntTools_DataMapOfCurveSampleBox.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
@@ -78,8 +78,8 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 
-#include <IntTools_Tools.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 

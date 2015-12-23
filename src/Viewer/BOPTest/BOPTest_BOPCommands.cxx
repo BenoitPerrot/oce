@@ -35,8 +35,8 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IntTools_FaceFace.hxx>
-#include <IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FaceFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
 #include <DrawTrSurf.hxx>
 #include <Draw_Color.hxx>
 #include <Draw.hxx>

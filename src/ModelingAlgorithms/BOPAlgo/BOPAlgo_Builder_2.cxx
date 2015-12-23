@@ -15,7 +15,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
@@ -42,7 +42,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 //
 #include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>

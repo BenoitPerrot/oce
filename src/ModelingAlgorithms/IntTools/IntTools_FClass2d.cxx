@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntTools_FClass2d.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
 
 #include <stdio.h>
 
@@ -46,7 +46,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec2d.hxx>
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 //=======================================================================

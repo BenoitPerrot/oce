@@ -15,14 +15,14 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
-#include <IntTools_SurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntTools_ListOfSurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfSurfaceRangeSample.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_SurfaceRangeLocalizeData.hxx>
-#include <IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
-#include <IntTools_ListIteratorOfListOfBox.hxx>
-#include <IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeLocalizeData.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
 #include <Precision.hxx>
 
 IntTools_SurfaceRangeLocalizeData::IntTools_SurfaceRangeLocalizeData()

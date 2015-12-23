@@ -14,14 +14,14 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <IntTools_SequenceOfCurves.hxx>
-#include <IntTools_SequenceOfPntOn2Faces.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCurves.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfPntOn2Faces.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <IntTools_FaceFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FaceFace.hxx>
 
 #include <Precision.hxx>
 
@@ -113,13 +113,13 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <IntTools_Curve.hxx>
-#include <IntTools_Tools.hxx>
-#include <IntTools_Tools.hxx>
-#include <IntTools_TopolTool.hxx>
-#include <IntTools_PntOnFace.hxx>
-#include <IntTools_PntOn2Faces.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_TopolTool.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_PntOnFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_PntOn2Faces.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_ListIteratorOfListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 

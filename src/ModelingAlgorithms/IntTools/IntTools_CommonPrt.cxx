@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <IntTools_Range.hxx>
-#include <IntTools_SequenceOfRanges.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_CommonPrt.hxx>
-#include <IntTools_Range.hxx>
-#include <IntTools_SequenceOfRanges.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 
 //=======================================================================
 //function : IntTools_CommonPrt::IntTools_CommonPr

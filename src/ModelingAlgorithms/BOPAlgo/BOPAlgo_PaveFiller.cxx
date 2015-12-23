@@ -15,7 +15,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
@@ -31,7 +31,7 @@
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>
 

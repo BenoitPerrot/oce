@@ -3,26 +3,26 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <IntTools_SurfaceRangeSample.hxx>
-#include <IntTools_SurfaceRangeSampleMapHasher.hxx>
-#include <IntTools_MapOfSurfaceSample.hxx>
-#include <IntTools_StdMapNodeOfMapOfSurfaceSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSampleMapHasher.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_MapOfSurfaceSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_StdMapNodeOfMapOfSurfaceSample.hxx>
  
 
 #define TheKey IntTools_SurfaceRangeSample
-#define TheKey_hxx <IntTools_SurfaceRangeSample.hxx>
+#define TheKey_hxx <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
 #define Hasher IntTools_SurfaceRangeSampleMapHasher
-#define Hasher_hxx <IntTools_SurfaceRangeSampleMapHasher.hxx>
+#define Hasher_hxx <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSampleMapHasher.hxx>
 #define TCollection_StdMapNode IntTools_StdMapNodeOfMapOfSurfaceSample
-#define TCollection_StdMapNode_hxx <IntTools_StdMapNodeOfMapOfSurfaceSample.hxx>
+#define TCollection_StdMapNode_hxx <ModelingAlgorithms/IntTools/IntTools_StdMapNodeOfMapOfSurfaceSample.hxx>
 #define TCollection_MapIterator IntTools_MapIteratorOfMapOfSurfaceSample
-#define TCollection_MapIterator_hxx <IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
+#define TCollection_MapIterator_hxx <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
 #define Handle_TCollection_StdMapNode Handle_IntTools_StdMapNodeOfMapOfSurfaceSample
 #define TCollection_StdMapNode_Type_() IntTools_StdMapNodeOfMapOfSurfaceSample_Type_()
 #define TCollection_Map IntTools_MapOfSurfaceSample
-#define TCollection_Map_hxx <IntTools_MapOfSurfaceSample.hxx>
+#define TCollection_Map_hxx <ModelingAlgorithms/IntTools/IntTools_MapOfSurfaceSample.hxx>
 #include <Foundation/TCollection/TCollection_MapIterator.gxx>
 

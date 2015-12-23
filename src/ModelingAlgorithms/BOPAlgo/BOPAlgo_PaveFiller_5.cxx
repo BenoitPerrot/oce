@@ -15,7 +15,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
@@ -40,17 +40,17 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //
-#include <IntTools_EdgeFace.hxx>
-#include <IntTools_Range.hxx>
-#include <IntTools_SequenceOfCommonPrts.hxx>
-#include <IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_EdgeFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCommonPrts.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
-#include <IntTools_Context.hxx>
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 //
 #include <ModelingAlgorithms/BOPDS/BOPDS_Interf.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>

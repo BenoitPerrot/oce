@@ -59,7 +59,7 @@
 #include <TNaming_DataMapOfShapePtrRefShape.hxx>
 #include <TNaming_Tool.hxx>
 
-#include <IntTools_FClass2d.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 // CopyShape

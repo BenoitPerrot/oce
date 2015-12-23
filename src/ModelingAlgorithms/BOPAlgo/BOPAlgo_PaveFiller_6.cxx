@@ -15,7 +15,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
@@ -52,12 +52,12 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <IntTools_FaceFace.hxx>
-#include <IntTools_SequenceOfCurves.hxx>
-#include <IntTools_SequenceOfPntOn2Faces.hxx>
-#include <IntTools_Curve.hxx>
-#include <IntTools_PntOn2Faces.hxx>
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FaceFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCurves.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfPntOn2Faces.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_PntOn2Faces.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
@@ -74,8 +74,8 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 
-#include <IntTools_Context.hxx>
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_Interf.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>
@@ -97,7 +97,7 @@
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Tools.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <IntTools_ShrunkRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ShrunkRange.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DataMapOfPaveBlockListOfPaveBlock.hxx>
 
 static void ToleranceFF(const BRepAdaptor_Surface& aBAS1,

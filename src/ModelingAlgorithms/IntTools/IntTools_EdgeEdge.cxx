@@ -14,12 +14,12 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <IntTools_Range.hxx>
-#include <IntTools_SequenceOfRanges.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <IntTools_SequenceOfCommonPrts.hxx>
-#include <IntTools_EdgeEdge.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCommonPrts.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_EdgeEdge.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -41,7 +41,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
-#include <IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 

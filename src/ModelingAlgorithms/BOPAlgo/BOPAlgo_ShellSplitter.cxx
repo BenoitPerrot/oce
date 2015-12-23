@@ -33,7 +33,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 //
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 //
 #include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>

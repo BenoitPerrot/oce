@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_SequenceNodeOfSequenceOfCommonPrts.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceNodeOfSequenceOfCommonPrts.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IntTools_CommonPrt.hxx>
-#include <IntTools_SequenceOfCommonPrts.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCommonPrts.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(IntTools_SequenceNodeOfSequenceOfCommonPrts)
 
 
 #define SeqItem IntTools_CommonPrt
-#define SeqItem_hxx <IntTools_CommonPrt.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
 #define TCollection_SequenceNode IntTools_SequenceNodeOfSequenceOfCommonPrts
-#define TCollection_SequenceNode_hxx <IntTools_SequenceNodeOfSequenceOfCommonPrts.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntTools/IntTools_SequenceNodeOfSequenceOfCommonPrts.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntTools_SequenceNodeOfSequenceOfCommonPrts
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfCommonPrts_Type_()
 #define TCollection_Sequence IntTools_SequenceOfCommonPrts
-#define TCollection_Sequence_hxx <IntTools_SequenceOfCommonPrts.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntTools/IntTools_SequenceOfCommonPrts.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

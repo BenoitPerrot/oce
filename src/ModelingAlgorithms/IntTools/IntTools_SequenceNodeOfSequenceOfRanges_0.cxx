@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_SequenceNodeOfSequenceOfRanges.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceNodeOfSequenceOfRanges.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IntTools_Range.hxx>
-#include <IntTools_SequenceOfRanges.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(IntTools_SequenceNodeOfSequenceOfRanges)
 
 
 #define SeqItem IntTools_Range
-#define SeqItem_hxx <IntTools_Range.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
 #define TCollection_SequenceNode IntTools_SequenceNodeOfSequenceOfRanges
-#define TCollection_SequenceNode_hxx <IntTools_SequenceNodeOfSequenceOfRanges.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntTools/IntTools_SequenceNodeOfSequenceOfRanges.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntTools_SequenceNodeOfSequenceOfRanges
 #define TCollection_SequenceNode_Type_() IntTools_SequenceNodeOfSequenceOfRanges_Type_()
 #define TCollection_Sequence IntTools_SequenceOfRanges
-#define TCollection_Sequence_hxx <IntTools_SequenceOfRanges.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

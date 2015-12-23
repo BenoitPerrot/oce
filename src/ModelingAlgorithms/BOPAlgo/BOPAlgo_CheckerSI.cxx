@@ -39,7 +39,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfEF.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfFF.hxx>
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 
 #include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>

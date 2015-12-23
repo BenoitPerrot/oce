@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_Array1OfRoots.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Array1OfRoots.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IntTools_Root.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Root.hxx>
  
 
 #define Array1Item IntTools_Root
-#define Array1Item_hxx <IntTools_Root.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/IntTools/IntTools_Root.hxx>
 #define TCollection_Array1 IntTools_Array1OfRoots
-#define TCollection_Array1_hxx <IntTools_Array1OfRoots.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/IntTools/IntTools_Array1OfRoots.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

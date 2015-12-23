@@ -15,7 +15,7 @@
 #ifndef BOPDS_Interf_HeaderFile
 #define BOPDS_Interf_HeaderFile
 
-#include <IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfCurve.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfPoint.hxx>

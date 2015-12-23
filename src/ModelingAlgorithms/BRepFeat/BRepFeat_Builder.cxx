@@ -34,7 +34,7 @@
 
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>

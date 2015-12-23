@@ -17,13 +17,13 @@
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -66,7 +66,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 //
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 //
 #include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_CoupleOfShape.hxx>
@@ -77,7 +77,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 //
-#include <IntTools_ShrunkRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ShrunkRange.hxx>
 //
 
 static

@@ -76,7 +76,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 
 #include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt.hxx>

@@ -12,22 +12,22 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <IntTools_SequenceOfRanges.hxx>
-#include <IntTools_CurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CurveRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntTools_SurfaceRangeSample.hxx>
-#include <IntTools_CurveRangeLocalizeData.hxx>
-#include <IntTools_SurfaceRangeLocalizeData.hxx>
-#include <IntTools_ListOfCurveRangeSample.hxx>
-#include <IntTools_ListOfSurfaceRangeSample.hxx>
-#include <IntTools_BeanFaceIntersector.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CurveRangeLocalizeData.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeLocalizeData.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfCurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfSurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_BeanFaceIntersector.hxx>
 
-#include <IntTools_Root.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Root.hxx>
 #include <Precision.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
@@ -37,14 +37,14 @@
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <IntTools_EdgeFace.hxx>
-#include <IntTools_ListOfCurveRangeSample.hxx>
-#include <IntTools_ListOfSurfaceRangeSample.hxx>
-#include <IntTools_ListOfBox.hxx>
-#include <IntTools_ListIteratorOfListOfBox.hxx>
-#include <IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
-#include <IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
-#include <IntTools_MapIteratorOfMapOfCurveSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_EdgeFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfCurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfSurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfCurveSample.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -54,9 +54,9 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtCS.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <IntTools.hxx>
-#include <IntTools_Context.hxx>
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>

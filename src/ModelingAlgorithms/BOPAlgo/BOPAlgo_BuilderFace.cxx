@@ -49,8 +49,8 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <IntTools_FClass2d.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 //
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>

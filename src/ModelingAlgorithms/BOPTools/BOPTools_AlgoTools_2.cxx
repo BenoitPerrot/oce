@@ -14,13 +14,13 @@
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -36,7 +36,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>

@@ -15,7 +15,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_TopolTool.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntTools_TopolTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -70,7 +70,7 @@
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 //
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 //
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ShellSplitter.hxx>
 

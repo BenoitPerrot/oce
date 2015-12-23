@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_CArray1OfReal.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CArray1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -13,6 +13,6 @@
 #define Array1Item Standard_Real
 #define Array1Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define IntTools_CArray1 IntTools_CArray1OfReal
-#define IntTools_CArray1_hxx <IntTools_CArray1OfReal.hxx>
-#include <IntTools_CArray1.gxx>
+#define IntTools_CArray1_hxx <ModelingAlgorithms/IntTools/IntTools_CArray1OfReal.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CArray1.gxx>
 

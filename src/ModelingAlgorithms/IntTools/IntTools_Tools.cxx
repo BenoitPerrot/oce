@@ -18,17 +18,17 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <IntTools_CommonPrt.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_Curve.hxx>
-#include <IntTools_SequenceOfCurves.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCurves.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntTools_Range.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Range.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
 
 #include <Precision.hxx>
 
@@ -70,9 +70,9 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
-#include <IntTools_FClass2d.hxx>
-#include <IntTools_Curve.hxx>
-#include <IntTools_SequenceOfCurves.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SequenceOfCurves.hxx>
 
 static
   void ParabolaTolerance(const Handle(Geom_Curve)& ,

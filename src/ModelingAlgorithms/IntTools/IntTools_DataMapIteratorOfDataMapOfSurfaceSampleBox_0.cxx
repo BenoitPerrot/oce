@@ -3,29 +3,29 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <IntTools_SurfaceRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntTools_SurfaceRangeSampleMapHasher.hxx>
-#include <IntTools_DataMapOfSurfaceSampleBox.hxx>
-#include <IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSampleMapHasher.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_DataMapOfSurfaceSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
  
 
 #define TheKey IntTools_SurfaceRangeSample
-#define TheKey_hxx <IntTools_SurfaceRangeSample.hxx>
+#define TheKey_hxx <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
 #define TheItem Bnd_Box
 #define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher IntTools_SurfaceRangeSampleMapHasher
-#define Hasher_hxx <IntTools_SurfaceRangeSampleMapHasher.hxx>
+#define Hasher_hxx <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSampleMapHasher.hxx>
 #define TCollection_DataMapNode IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox
-#define TCollection_DataMapNode_hxx <IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/IntTools/IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
 #define TCollection_DataMapIterator IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox
-#define TCollection_DataMapIterator_hxx <IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/IntTools/IntTools_DataMapIteratorOfDataMapOfSurfaceSampleBox.hxx>
 #define Handle_TCollection_DataMapNode Handle_IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox
 #define TCollection_DataMapNode_Type_() IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox_Type_()
 #define TCollection_DataMap IntTools_DataMapOfSurfaceSampleBox
-#define TCollection_DataMap_hxx <IntTools_DataMapOfSurfaceSampleBox.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/IntTools/IntTools_DataMapOfSurfaceSampleBox.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

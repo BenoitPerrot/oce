@@ -12,21 +12,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_FClass2d.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <IntTools_SurfaceRangeLocalizeData.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeLocalizeData.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntTools_Curve.hxx>
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntTools_Context)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -55,14 +55,14 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <IntTools_Tools.hxx>
-#include <IntTools_FClass2d.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Tools.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
 // 
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
-#include <IntTools_SurfaceRangeLocalizeData.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeLocalizeData.hxx>
 
 
 //=======================================================================

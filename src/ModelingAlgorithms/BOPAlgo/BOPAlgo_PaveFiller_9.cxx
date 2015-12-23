@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
@@ -37,7 +37,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
 
-#include <IntTools_ShrunkRange.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ShrunkRange.hxx>
 
 //=======================================================================
 //class    : BOPAlgo_ShrunkRange

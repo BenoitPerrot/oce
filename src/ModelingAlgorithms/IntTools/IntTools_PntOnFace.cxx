@@ -15,7 +15,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntTools_PntOnFace.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_PntOnFace.hxx>
 //=======================================================================
 //function : IntTools_PntOnFace::IntTools_PntOnFace
 //purpose  : 
