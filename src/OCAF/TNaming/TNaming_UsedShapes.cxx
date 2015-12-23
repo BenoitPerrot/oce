@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_Builder.hxx>
-#include <TNaming_DataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_DataMapOfShapePtrRefShape.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_AttributeDelta.hxx>
@@ -23,7 +23,7 @@
 #include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_DataSet.hxx>
-#include <TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_UsedShapes)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,9 +36,9 @@ IMPLEMENT_DOWNCAST(TNaming_UsedShapes,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_UsedShapes)
 
 #include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
-#include <TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx>
-#include <TNaming_RefShape.hxx>
-#include <TNaming_PtrNode.hxx>
+#include <OCAF/TNaming/TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_RefShape.hxx>
+#include <OCAF/TNaming/TNaming_PtrNode.hxx>
 #define BUC60862
 
 #ifdef BUC60862

@@ -53,11 +53,11 @@
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TFunction/TFunction_Driver.hxx>
 #include <OCAF/TFunction/TFunction_DriverTable.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Selector.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Selector.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 
 #include <DNaming_BoxDriver.hxx>

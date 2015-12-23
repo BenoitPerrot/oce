@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <TNaming_PtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_PtrRefShape.hxx>
 #include <Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

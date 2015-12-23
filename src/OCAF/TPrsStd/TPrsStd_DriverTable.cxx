@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_DriverTable)
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 

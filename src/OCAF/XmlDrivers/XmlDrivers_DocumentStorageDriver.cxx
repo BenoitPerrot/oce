@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(XmlDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentStorageDriver)
 #include <XmlDrivers.hxx>
 #include <XmlMNaming_NamedShapeDriver.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <XmlObjMgt_Element.hxx>
 //=======================================================================
 //function : XmlDrivers_DocumentStorageDriver

@@ -49,9 +49,9 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <TNaming.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
 
 #include <DNaming.hxx>

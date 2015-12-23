@@ -16,7 +16,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <QANewBRepNaming_Intersection.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
@@ -24,7 +24,7 @@
 
 #ifdef OCCT_DEBUG
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #endif
 enum BoolArguments {
   SOLID_SOLID,

@@ -16,20 +16,20 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TDF/TDF_AttributeMap.hxx>
-#include <TNaming_Selector.hxx>
-#include <TNaming.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_Builder.hxx> 
-#include <TNaming_Identifier.hxx>
-#include <TNaming_NameType.hxx>
+#include <OCAF/TNaming/TNaming_Selector.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx> 
+#include <OCAF/TNaming/TNaming_Identifier.hxx>
+#include <OCAF/TNaming/TNaming_NameType.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx> 
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_IDFilter.hxx>
-#include <TNaming_NamingTool.hxx>
-#include <TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_NamingTool.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
@@ -44,10 +44,10 @@
 //#define MDTV_DEB_BNP
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
 void PrintEntry(const TDF_Label&       label, const Standard_Boolean allLevels)
 {
   TCollection_AsciiString entry;
@@ -92,9 +92,9 @@ static void Write(const TopoDS_Shape& shape,
 #include <ModelingData/TopTools/TopTools_MapOfOrientedShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 #include <OCAF/TDF/TDF_ChildIDIterator.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
 //==========================================================================================
 inline static void MapOfOrientedShapes(const TopoDS_Shape& S, TopTools_MapOfOrientedShape& M) 
 {

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TNaming_StdMapNodeOfMapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_StdMapNodeOfMapOfNamedShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_NamedShapeHasher.hxx>
-#include <TNaming_MapOfNamedShape.hxx>
-#include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShapeHasher.hxx>
+#include <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_MapIteratorOfMapOfNamedShape.hxx>
 
  
 
@@ -30,16 +30,16 @@ IMPLEMENT_STANDARD_RTTI(TNaming_StdMapNodeOfMapOfNamedShape)
 
 
 #define TheKey Handle(TNaming_NamedShape)
-#define TheKey_hxx <TNaming_NamedShape.hxx>
+#define TheKey_hxx <OCAF/TNaming/TNaming_NamedShape.hxx>
 #define Hasher TNaming_NamedShapeHasher
-#define Hasher_hxx <TNaming_NamedShapeHasher.hxx>
+#define Hasher_hxx <OCAF/TNaming/TNaming_NamedShapeHasher.hxx>
 #define TCollection_StdMapNode TNaming_StdMapNodeOfMapOfNamedShape
-#define TCollection_StdMapNode_hxx <TNaming_StdMapNodeOfMapOfNamedShape.hxx>
+#define TCollection_StdMapNode_hxx <OCAF/TNaming/TNaming_StdMapNodeOfMapOfNamedShape.hxx>
 #define TCollection_MapIterator TNaming_MapIteratorOfMapOfNamedShape
-#define TCollection_MapIterator_hxx <TNaming_MapIteratorOfMapOfNamedShape.hxx>
+#define TCollection_MapIterator_hxx <OCAF/TNaming/TNaming_MapIteratorOfMapOfNamedShape.hxx>
 #define Handle_TCollection_StdMapNode Handle_TNaming_StdMapNodeOfMapOfNamedShape
 #define TCollection_StdMapNode_Type_() TNaming_StdMapNodeOfMapOfNamedShape_Type_()
 #define TCollection_Map TNaming_MapOfNamedShape
-#define TCollection_Map_hxx <TNaming_MapOfNamedShape.hxx>
+#define TCollection_Map_hxx <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
 #include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

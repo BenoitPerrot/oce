@@ -14,23 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <TNaming_Name.hxx>
-#include <TNaming.hxx>
-#include <TNaming_NamingTool.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_ShapesSet.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_NamingTool.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_ShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -42,7 +42,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_LabelList.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -71,7 +71,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 // end of mpv modifications 08.04.2002
 
-#include <TNaming_NCollections.hxx>
+#include <OCAF/TNaming/TNaming_NCollections.hxx>
 
 #define BUC60925
 #define OCC352

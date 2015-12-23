@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_PtrNode.hxx>
+#include <OCAF/TNaming/TNaming_PtrNode.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 class TopoDS_Shape;
 class TDF_Label;
@@ -62,7 +62,7 @@ private:
 };
 
 
-#include <TNaming_RefShape.lxx>
+#include <OCAF/TNaming/TNaming_RefShape.lxx>
 
 
 

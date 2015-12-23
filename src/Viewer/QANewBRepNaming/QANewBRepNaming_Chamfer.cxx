@@ -20,7 +20,7 @@
 #include <QANewBRepNaming_Chamfer.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 

@@ -34,11 +34,11 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <DDataStd.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <DBRep.hxx>
 #include <Draw_Appli.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 // attribut affichable
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Point.hxx>

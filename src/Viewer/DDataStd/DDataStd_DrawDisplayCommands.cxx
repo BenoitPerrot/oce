@@ -35,12 +35,12 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <OCAF/TDF/TDF_AttributeList.hxx>
 #include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_LabelList.hxx>
 #include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx> 
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>

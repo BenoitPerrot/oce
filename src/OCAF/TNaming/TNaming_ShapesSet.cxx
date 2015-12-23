@@ -16,9 +16,9 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <TNaming_ShapesSet.hxx>
-#include <TNaming_IteratorOnShapesSet.hxx>
-#include <TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_ShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_IteratorOnShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

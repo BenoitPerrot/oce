@@ -14,29 +14,29 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_MapOfNamedShape.hxx>
-#include <TNaming_Localizer.hxx>
-#include <TNaming_Identifier.hxx>
-#include <TNaming_ShapesSet.hxx>
-#include <TNaming_ListIteratorOfListOfMapOfShape.hxx>
-#include <TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx>
-#include <TNaming_DataMapOfShapeShapesSet.hxx>
-#include <TNaming_IteratorOnShapesSet.hxx>
-#include <TNaming_Evolution.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Localizer.hxx>
+#include <OCAF/TNaming/TNaming_Identifier.hxx>
+#include <OCAF/TNaming/TNaming_ShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfMapOfShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx>
+#include <OCAF/TNaming/TNaming_DataMapOfShapeShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_IteratorOnShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>

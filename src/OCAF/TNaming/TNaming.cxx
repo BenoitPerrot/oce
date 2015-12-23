@@ -18,7 +18,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
@@ -27,7 +27,7 @@
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <OCAF/TDF/TDF_IDList.hxx>
-#include <TNaming.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -47,24 +47,24 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_UsedShapes.hxx>
-#include <TNaming_ShapesSet.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
-#include <TNaming_RefShape.hxx>
-#include <TNaming_DataMapOfShapePtrRefShape.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_ShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_RefShape.hxx>
+#include <OCAF/TNaming/TNaming_DataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 
 #include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 // CopyShape
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <TNaming_TranslateTool.hxx>
+#include <OCAF/TNaming/TNaming_TranslateTool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 
 //=======================================================================

@@ -23,14 +23,14 @@
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <DDF.hxx>
 #include <DDF_Data.hxx>
-#include <TNaming.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_MapOfNamedShape.hxx>
-#include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_MapIteratorOfMapOfNamedShape.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
@@ -40,7 +40,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep.hxx>
 
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_TagSource.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

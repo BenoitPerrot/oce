@@ -28,9 +28,9 @@
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>

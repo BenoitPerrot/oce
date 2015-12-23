@@ -61,7 +61,7 @@ private:
 };
 
 
-#include <TNaming_IteratorOnShapesSet.lxx>
+#include <OCAF/TNaming/TNaming_IteratorOnShapesSet.lxx>
 
 
 

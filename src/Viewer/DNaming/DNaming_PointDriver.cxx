@@ -35,13 +35,13 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 // OCAF
-#include <TNaming.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <DNaming.hxx>
 #include <ModelDefinitions.hxx>

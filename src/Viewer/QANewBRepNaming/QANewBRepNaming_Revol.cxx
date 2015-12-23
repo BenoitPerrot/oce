@@ -20,7 +20,7 @@
 #include <QANewBRepNaming_Revol.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>

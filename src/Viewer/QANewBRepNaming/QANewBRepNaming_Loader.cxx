@@ -16,15 +16,15 @@
 
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 
-#include <TNaming.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
@@ -39,7 +39,7 @@
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 //=======================================================================
 //function : LoadGeneratedShapes

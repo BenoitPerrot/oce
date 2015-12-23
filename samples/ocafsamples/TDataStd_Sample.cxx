@@ -35,7 +35,7 @@
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
 #include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

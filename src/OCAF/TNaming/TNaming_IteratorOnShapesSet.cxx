@@ -16,6 +16,6 @@
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TNaming_ShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_ShapesSet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_IteratorOnShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_IteratorOnShapesSet.hxx>

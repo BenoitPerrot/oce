@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(MDataXtd_ConstraintStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintStorageDriver)
 #include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

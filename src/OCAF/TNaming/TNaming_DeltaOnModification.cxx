@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_DeltaOnModification.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_DeltaOnModification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_DeltaOnModification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TNaming_DeltaOnModification)
 IMPLEMENT_DOWNCAST(TNaming_DeltaOnModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_DeltaOnModification)
-#include <TNaming_Iterator.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
 #include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 

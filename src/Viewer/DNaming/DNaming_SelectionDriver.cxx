@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_Selector.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Selector.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <ModelDefinitions.hxx>
@@ -83,7 +83,7 @@ static void Write(const TopoDS_Shape& shape,
 //purpose  : Execute the function and push in <theLog> the impacted
 //           labels (see method SetImpacted).
 //=======================================================================
-#include <TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 #include <OCAF/TDF/TDF_AttributeMap.hxx>
 #include <OCAF/TDF/TDF_IDFilter.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <TNaming_TranslateTool.hxx>
+#include <OCAF/TNaming/TNaming_TranslateTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_TranslateTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_TranslateTool)
 #include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 #include <ModelingData/BRep/BRep_PointOnCurve.hxx>
 #include <ModelingData/BRep/BRep_PointOnCurveOnSurface.hxx>
-#include <TNaming_CopyShape.hxx>
+#include <OCAF/TNaming/TNaming_CopyShape.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_PointOnSurface.hxx>

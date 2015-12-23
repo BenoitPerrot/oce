@@ -31,9 +31,9 @@ IMPLEMENT_DOWNCAST(TDataXtd_Plane,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Plane)
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

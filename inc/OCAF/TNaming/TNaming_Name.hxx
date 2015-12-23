@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TNaming_NameType.hxx>
+#include <OCAF/TNaming/TNaming_NameType.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -100,7 +100,7 @@ private:
 };
 
 
-#include <TNaming_Name.lxx>
+#include <OCAF/TNaming/TNaming_Name.lxx>
 
 
 

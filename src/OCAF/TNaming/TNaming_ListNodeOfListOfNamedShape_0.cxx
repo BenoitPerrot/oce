@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TNaming_ListNodeOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListNodeOfListOfNamedShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(TNaming_ListNodeOfListOfNamedShape)
 
 
 #define Item Handle(TNaming_NamedShape)
-#define Item_hxx <TNaming_NamedShape.hxx>
+#define Item_hxx <OCAF/TNaming/TNaming_NamedShape.hxx>
 #define TCollection_ListNode TNaming_ListNodeOfListOfNamedShape
-#define TCollection_ListNode_hxx <TNaming_ListNodeOfListOfNamedShape.hxx>
+#define TCollection_ListNode_hxx <OCAF/TNaming/TNaming_ListNodeOfListOfNamedShape.hxx>
 #define TCollection_ListIterator TNaming_ListIteratorOfListOfNamedShape
-#define TCollection_ListIterator_hxx <TNaming_ListIteratorOfListOfNamedShape.hxx>
+#define TCollection_ListIterator_hxx <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
 #define Handle_TCollection_ListNode Handle_TNaming_ListNodeOfListOfNamedShape
 #define TCollection_ListNode_Type_() TNaming_ListNodeOfListOfNamedShape_Type_()
 #define TCollection_List TNaming_ListOfNamedShape
-#define TCollection_List_hxx <TNaming_ListOfNamedShape.hxx>
+#define TCollection_List_hxx <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

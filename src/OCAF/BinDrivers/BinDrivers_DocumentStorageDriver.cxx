@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentStorageDriver)
 #include <OCAF/BinDrivers/BinDrivers.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 //=======================================================================
 //function : BinDrivers_DocumentStorageDriver
 //purpose  : Constructor

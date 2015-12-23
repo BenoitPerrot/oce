@@ -42,9 +42,9 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeStorageDriver)
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Evolution.hxx>
-#include <TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 

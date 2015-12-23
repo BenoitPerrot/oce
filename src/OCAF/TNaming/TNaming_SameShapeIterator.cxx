@@ -16,10 +16,10 @@
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_SameShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_SameShapeIterator.hxx>
 
 // See methods'body in TNaming_NamedShape.cxx

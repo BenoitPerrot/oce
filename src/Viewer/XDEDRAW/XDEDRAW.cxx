@@ -50,7 +50,7 @@
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataStd/TDataStd_Comment.hxx>
 #include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <OCAF/TDataStd/TDataStd_ByteArray.hxx>

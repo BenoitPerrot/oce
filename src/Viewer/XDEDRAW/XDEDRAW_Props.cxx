@@ -41,7 +41,7 @@
 #include <XCAFDoc_MaterialTool.hxx>
 #include <XCAFDoc_Location.hxx>
 #include <Precision.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

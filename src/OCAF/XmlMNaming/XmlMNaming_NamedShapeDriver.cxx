@@ -36,9 +36,9 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamedShapeDriver)
 #include <XmlMNaming_Shape1.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

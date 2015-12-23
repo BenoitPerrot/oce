@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_UsedShapes.hxx>
 
-#include <TNaming_DataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_DataMapOfShapePtrRefShape.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -122,7 +122,7 @@ private:
 };
 
 
-#include <TNaming_UsedShapes.lxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.lxx>
 
 
 

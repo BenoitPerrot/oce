@@ -16,16 +16,16 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDF/TDF_IDFilter.hxx>
 #include <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
-#include <TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_Naming)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,19 +37,19 @@ IMPLEMENT_STANDARD_TYPE_END(TNaming_Naming)
 IMPLEMENT_DOWNCAST(TNaming_Naming,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 
-#include <TNaming_Builder.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_Scope.hxx>
-#include <TNaming_NamingTool.hxx>
-#include <TNaming_Name.hxx>
-#include <TNaming_Identifier.hxx>
-#include <TNaming_Localizer.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_Selector.hxx>
-#include <TNaming.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Scope.hxx>
+#include <OCAF/TNaming/TNaming_NamingTool.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming_Identifier.hxx>
+#include <OCAF/TNaming/TNaming_Localizer.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Selector.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_LabelList.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-// #include <TNaming_NCollections.hxx>
+// #include <OCAF/TNaming/TNaming_NCollections.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>   
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 typedef NCollection_Map<TopoDS_Shape> TNaming_MapOfShape; 
@@ -102,7 +102,7 @@ typedef TNaming_DataMapOfShapeMapOfShape::Iterator TNaming_DataMapIteratorOfData
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 

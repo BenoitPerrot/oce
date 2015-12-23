@@ -79,7 +79,7 @@ private:
 };
 
 
-#include <TNaming_ShapesSet.lxx>
+#include <OCAF/TNaming/TNaming_ShapesSet.lxx>
 
 
 

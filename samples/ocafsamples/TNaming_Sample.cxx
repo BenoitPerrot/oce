@@ -40,11 +40,11 @@
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Selector.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Selector.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
 
 // =======================================================================================
 // This sample contains template for typical actions with OCAF Topologigal Naming services

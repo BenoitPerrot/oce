@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentRetrievalDriver)
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
 #include <OCAF/BinMNaming/BinMNaming.hxx>
 #include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

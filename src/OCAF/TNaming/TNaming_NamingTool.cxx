@@ -14,18 +14,18 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_NamingTool.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_NewShapeIterator.hxx> 
-#include <TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NamingTool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx> 
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 
 #ifdef OCCT_DEBUG_DESC

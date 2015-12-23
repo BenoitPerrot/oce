@@ -29,8 +29,8 @@ IMPLEMENT_DOWNCAST(TPrsStd_GeometryDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
 #include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

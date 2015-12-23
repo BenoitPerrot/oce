@@ -16,7 +16,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <QANewBRepNaming_Cylinder.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #ifdef OCCT_DEBUG

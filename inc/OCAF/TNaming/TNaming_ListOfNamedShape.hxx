@@ -98,15 +98,15 @@ private:
 };
 
 #define Item Handle(TNaming_NamedShape)
-#define Item_hxx <TNaming_NamedShape.hxx>
+#define Item_hxx <OCAF/TNaming/TNaming_NamedShape.hxx>
 #define TCollection_ListNode TNaming_ListNodeOfListOfNamedShape
-#define TCollection_ListNode_hxx <TNaming_ListNodeOfListOfNamedShape.hxx>
+#define TCollection_ListNode_hxx <OCAF/TNaming/TNaming_ListNodeOfListOfNamedShape.hxx>
 #define TCollection_ListIterator TNaming_ListIteratorOfListOfNamedShape
-#define TCollection_ListIterator_hxx <TNaming_ListIteratorOfListOfNamedShape.hxx>
+#define TCollection_ListIterator_hxx <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
 #define Handle_TCollection_ListNode Handle_TNaming_ListNodeOfListOfNamedShape
 #define TCollection_ListNode_Type_() TNaming_ListNodeOfListOfNamedShape_Type_()
 #define TCollection_List TNaming_ListOfNamedShape
-#define TCollection_List_hxx <TNaming_ListOfNamedShape.hxx>
+#define TCollection_List_hxx <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 
 #include <Foundation/TCollection/TCollection_List.lxx>
 

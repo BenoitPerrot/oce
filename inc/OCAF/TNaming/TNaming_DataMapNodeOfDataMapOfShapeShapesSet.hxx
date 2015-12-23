@@ -11,7 +11,7 @@
 #include <Handle_TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_ShapesSet.hxx>
+#include <OCAF/TNaming/TNaming_ShapesSet.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -56,17 +56,17 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TNaming_ShapesSet
-#define TheItem_hxx <TNaming_ShapesSet.hxx>
+#define TheItem_hxx <OCAF/TNaming/TNaming_ShapesSet.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TNaming_DataMapNodeOfDataMapOfShapeShapesSet
-#define TCollection_DataMapNode_hxx <TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TNaming/TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
 #define TCollection_DataMapIterator TNaming_DataMapIteratorOfDataMapOfShapeShapesSet
-#define TCollection_DataMapIterator_hxx <TNaming_DataMapIteratorOfDataMapOfShapeShapesSet.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TNaming/TNaming_DataMapIteratorOfDataMapOfShapeShapesSet.hxx>
 #define Handle_TCollection_DataMapNode Handle_TNaming_DataMapNodeOfDataMapOfShapeShapesSet
 #define TCollection_DataMapNode_Type_() TNaming_DataMapNodeOfDataMapOfShapeShapesSet_Type_()
 #define TCollection_DataMap TNaming_DataMapOfShapeShapesSet
-#define TCollection_DataMap_hxx <TNaming_DataMapOfShapeShapesSet.hxx>
+#define TCollection_DataMap_hxx <OCAF/TNaming/TNaming_DataMapOfShapeShapesSet.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

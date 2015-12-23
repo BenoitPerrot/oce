@@ -13,9 +13,9 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TNaming_NameType.hxx>
+#include <OCAF/TNaming/TNaming_NameType.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TNaming_NamedShape;
 class TDF_Label;

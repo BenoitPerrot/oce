@@ -28,13 +28,13 @@ IMPLEMENT_DOWNCAST(TPrsStd_NamedShapeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TPrsStd_DriverTable.hxx> 
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

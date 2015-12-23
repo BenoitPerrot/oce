@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <TNaming_DataMapOfShapePtrRefShape.hxx>
-#include <TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_DataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx>
 
  
 
@@ -32,16 +32,16 @@ IMPLEMENT_STANDARD_RTTI(TNaming_DataMapNodeOfDataMapOfShapePtrRefShape)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TNaming_PtrRefShape
-#define TheItem_hxx <TNaming_PtrRefShape.hxx>
+#define TheItem_hxx <OCAF/TNaming/TNaming_PtrRefShape.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TNaming_DataMapNodeOfDataMapOfShapePtrRefShape
-#define TCollection_DataMapNode_hxx <TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TNaming/TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 #define TCollection_DataMapIterator TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape
-#define TCollection_DataMapIterator_hxx <TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TNaming/TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape
 #define TCollection_DataMapNode_Type_() TNaming_DataMapNodeOfDataMapOfShapePtrRefShape_Type_()
 #define TCollection_DataMap TNaming_DataMapOfShapePtrRefShape
-#define TCollection_DataMap_hxx <TNaming_DataMapOfShapePtrRefShape.hxx>
+#define TCollection_DataMap_hxx <OCAF/TNaming/TNaming_DataMapOfShapePtrRefShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

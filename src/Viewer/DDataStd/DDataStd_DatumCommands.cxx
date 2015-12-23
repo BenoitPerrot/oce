@@ -48,7 +48,7 @@
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <DDataStd_DrawPresentation.hxx>
 

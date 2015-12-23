@@ -19,7 +19,7 @@
 #include <QANewBRepNaming_Box.hxx>
 
 #include <QANewBRepNaming_Loader.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>

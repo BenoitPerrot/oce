@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TNaming_PtrNode.hxx>
+#include <OCAF/TNaming/TNaming_PtrNode.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class TNaming_NewShapeIterator;
@@ -94,7 +94,7 @@ private:
 };
 
 
-#include <TNaming_Iterator.lxx>
+#include <OCAF/TNaming/TNaming_Iterator.lxx>
 
 
 

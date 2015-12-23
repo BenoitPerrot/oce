@@ -25,7 +25,7 @@
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 #include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>

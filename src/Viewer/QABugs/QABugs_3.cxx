@@ -1367,9 +1367,9 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 #include<OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include<TPrsStd_AISPresentation.hxx>
 #include<TPrsStd_AISViewer.hxx>
-#include<TNaming_Builder.hxx>
-#include<TNaming_Naming.hxx>
-#include<TNaming_NamedShape.hxx>
+#include<OCAF/TNaming/TNaming_Builder.hxx>
+#include<OCAF/TNaming/TNaming_Naming.hxx>
+#include<OCAF/TNaming/TNaming_NamedShape.hxx>
   
 static int BUC60817(Draw_Interpretor& di, Standard_Integer argc, const char ** argv) {
   if(argc!=2) {

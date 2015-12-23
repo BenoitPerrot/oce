@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <QANewBRepNaming.hxx>
@@ -23,10 +23,10 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <TNaming.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 //=======================================================================
 //function : CleanStructure

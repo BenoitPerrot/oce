@@ -25,29 +25,29 @@
 #include <Draw.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_Selector.hxx>
+#include <OCAF/TNaming/TNaming_Selector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ViewerTest.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <TNaming.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TNaming_NamingTool.hxx>
+#include <OCAF/TNaming/TNaming_NamingTool.hxx>
 #include <DBRep.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ViewerTest.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

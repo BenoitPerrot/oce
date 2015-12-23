@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamingDriver)
 
 #include <XmlObjMgt.hxx>
 #include <XmlMNaming.hxx>
-#include <TNaming_Name.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
-#include <TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 
 //=======================================================================

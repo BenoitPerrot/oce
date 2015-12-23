@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BinMDataXtd_PatternStdDriver)
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataXtd/TDataXtd_PatternStd.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 //=======================================================================
 //function : BinMDataXtd_PatternStdDriver

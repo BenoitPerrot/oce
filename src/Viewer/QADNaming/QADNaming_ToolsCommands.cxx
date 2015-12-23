@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TNaming_Translator.hxx>
+#include <OCAF/TNaming/TNaming_Translator.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <DNaming_DataMapOfShapeOfName.hxx>
 #include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>

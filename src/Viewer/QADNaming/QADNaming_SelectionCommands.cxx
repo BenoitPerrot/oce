@@ -18,22 +18,22 @@
 
 #include <DDF.hxx>
 
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_AttributeMap.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <TNaming_Name.hxx>
-#include <TNaming.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_MapOfNamedShape.hxx>
-#include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_MapIteratorOfMapOfNamedShape.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <TNaming_Selector.hxx>
+#include <OCAF/TNaming/TNaming_Selector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

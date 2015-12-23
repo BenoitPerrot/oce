@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_DeltaOnModification.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_DeltaOnRemoval.hxx>
+#include <OCAF/TNaming/TNaming_DeltaOnModification.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_DeltaOnRemoval.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_DeltaOnRemoval)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TNaming_DeltaOnRemoval)
 IMPLEMENT_DOWNCAST(TNaming_DeltaOnRemoval,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_DeltaOnRemoval)
-#include <TNaming_DeltaOnModification.hxx>
+#include <OCAF/TNaming/TNaming_DeltaOnModification.hxx>
 #include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
 
 //=======================================================================

@@ -14,8 +14,8 @@
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <TNaming_Evolution.hxx>
-#include <TNaming_NameType.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_NameType.hxx>
 class TDF_Label;
 class TopTools_DataMapOfShapeShape;
 class TopLoc_Location;

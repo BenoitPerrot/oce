@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TDF_Label;
 class TNaming_Builder;

@@ -31,7 +31,7 @@
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Interpretor.hxx>

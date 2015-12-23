@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TNaming_PtrNode.hxx>
+#include <OCAF/TNaming/TNaming_PtrNode.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TNaming_UsedShapes.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -86,7 +86,7 @@ private:
 };
 
 
-#include <TNaming_OldShapeIterator.lxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.lxx>
 
 
 

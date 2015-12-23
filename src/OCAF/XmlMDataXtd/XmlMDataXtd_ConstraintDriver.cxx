@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_ConstraintDriver)
 
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 #include <XmlObjMgt.hxx>
 

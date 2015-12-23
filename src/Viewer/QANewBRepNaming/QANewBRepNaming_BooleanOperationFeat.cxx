@@ -49,8 +49,8 @@
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 #include <QANewBRepNaming_Loader.hxx>
@@ -63,7 +63,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 static void ModDbgTools_Write(const TopoDS_Shape& shape,
 		      const Standard_CString filename) 
 {

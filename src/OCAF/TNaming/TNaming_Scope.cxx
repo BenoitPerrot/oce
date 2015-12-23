@@ -17,12 +17,12 @@
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Scope.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Scope.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 
 //=======================================================================
 //function : TNaming_Scope

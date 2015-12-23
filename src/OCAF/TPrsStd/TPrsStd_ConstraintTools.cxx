@@ -28,9 +28,9 @@
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <TNaming_Tool.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>

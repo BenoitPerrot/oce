@@ -21,7 +21,7 @@
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
 

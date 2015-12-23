@@ -24,14 +24,14 @@
 
 #include <DDF.hxx>
 
-#include <TNaming.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_MapOfNamedShape.hxx>
-#include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_MapIteratorOfMapOfNamedShape.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>

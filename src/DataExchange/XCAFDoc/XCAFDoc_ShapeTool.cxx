@@ -52,9 +52,9 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

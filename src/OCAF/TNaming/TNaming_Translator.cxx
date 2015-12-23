@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <TNaming_Translator.hxx>
+#include <OCAF/TNaming/TNaming_Translator.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_TSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_TCompSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_TCompound.hxx>
-#include <TNaming_CopyShape.hxx>
+#include <OCAF/TNaming/TNaming_CopyShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 
 //=======================================================================

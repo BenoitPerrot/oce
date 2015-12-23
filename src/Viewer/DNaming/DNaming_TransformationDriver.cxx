@@ -15,7 +15,7 @@
 
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <DNaming_TransformationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -48,9 +48,9 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <DNaming.hxx>

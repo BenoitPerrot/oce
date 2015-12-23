@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TNaming_Builder.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
@@ -26,7 +26,7 @@
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDF/TDF_AttributeDelta.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_NamedShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,30 +37,30 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TNaming_NamedShape)
 IMPLEMENT_DOWNCAST(TNaming_NamedShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
-#include <TNaming_UsedShapes.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
 #include <OCAF/TDF/TDF_AttributeIterator.hxx>
-#include <TNaming_PtrNode.hxx>
-#include <TNaming_PtrRefShape.hxx>
-#include <TNaming_RefShape.hxx>
-#include <TNaming_PtrDataMapOfShapePtrRefShape.hxx>
-#include <TNaming_UsedShapes.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_SameShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_PtrNode.hxx>
+#include <OCAF/TNaming/TNaming_PtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_RefShape.hxx>
+#include <OCAF/TNaming/TNaming_PtrDataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_SameShapeIterator.hxx>
 
-#include <TNaming_DeltaOnModification.hxx>
-#include <TNaming_DeltaOnRemoval.hxx>
+#include <OCAF/TNaming/TNaming_DeltaOnModification.hxx>
+#include <OCAF/TNaming/TNaming_DeltaOnRemoval.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 // Defines the nodes classes
 
 #include <Foundation/Standard/Standard.hxx>
-#include <TNaming_CopyShape.hxx>
+#include <OCAF/TNaming/TNaming_CopyShape.hxx>
 
 #define BUC60921   //SRN 15/05/01 : Fixes the memory leak due to pointer to RefShape is not deleted
 //#define MDTV_DEB_HASL

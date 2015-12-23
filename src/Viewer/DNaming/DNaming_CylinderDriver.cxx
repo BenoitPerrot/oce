@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
-#include <TNaming.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <ModelDefinitions.hxx>
 
 #include <DNaming.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

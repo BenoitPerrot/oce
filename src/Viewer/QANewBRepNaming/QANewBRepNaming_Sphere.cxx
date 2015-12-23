@@ -18,7 +18,7 @@
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <QANewBRepNaming_Sphere.hxx>
 #include <QANewBRepNaming_Loader.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_TagSource.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -30,7 +30,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 #ifdef OCCT_DEBUG
 #include <OCAF/TDataStd/TDataStd_Name.hxx>

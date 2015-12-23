@@ -30,9 +30,9 @@
 
 // LES ATTRIBUTES
 
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 
 
 //=======================================================================

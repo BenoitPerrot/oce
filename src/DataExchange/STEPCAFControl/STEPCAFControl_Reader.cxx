@@ -99,7 +99,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <STEPCAFControl_DataMapOfShapePD.hxx>
@@ -142,13 +142,13 @@
 //#include <OCAF/TDataStd/TDataStd_Real.hxx>
 //#include <OCAF/TDataStd/TDataStd_Constraint.hxx>
 //#include <OCAF/TDataStd/TDataStd_ConstraintEnum.hxx>
-//#include <TNaming_Tool.hxx>
+//#include <OCAF/TNaming/TNaming_Tool.hxx>
 //#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 //#include <TPrsStd_ConstraintTools.hxx>
 //#include <Visualization/AIS/AIS_DiameterDimension.hxx>
 //#include <TPrsStd_Position.hxx>
 //#include <TPrsStd_AISPresentation.hxx>
-//#include <TNaming_Builder.hxx>
+//#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepShape_AdvancedFace.hxx>
 #include <StepDimTol_HArray1OfDatumReference.hxx>

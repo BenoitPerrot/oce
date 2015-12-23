@@ -36,11 +36,11 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingRetrievalDriver_1)
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_NameType.hxx>
-#include <TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_NameType.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <TNaming_PtrRefShape.hxx>
+#include <OCAF/TNaming/TNaming_PtrRefShape.hxx>
 #include <Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;

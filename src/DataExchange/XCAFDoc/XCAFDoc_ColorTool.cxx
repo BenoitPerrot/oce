@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ColorTool)
 #include <OCAF/TDF/TDF_ChildIDIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_Color.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>

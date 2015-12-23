@@ -465,8 +465,8 @@ static Standard_Integer OCC74bug_get (Draw_Interpretor& di, Standard_Integer arg
 
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
-#include <TNaming_Builder.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 static Standard_Integer OCC361bug (Draw_Interpretor& di, Standard_Integer nb, const char ** a)
 {

@@ -16,6 +16,6 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_RefShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_RefShape.hxx>
 // See methods'body in TNaming_NamedShape.cxx

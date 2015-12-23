@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_TYPE_END(BinMNaming_NamedShapeDriver)
 IMPLEMENT_DOWNCAST(BinMNaming_NamedShapeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_Evolution.hxx>
-#include <TNaming_Builder.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

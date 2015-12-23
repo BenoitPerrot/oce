@@ -26,8 +26,8 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TNaming_CopyShape.hxx>
-#include <TNaming_Translator.hxx>
+#include <OCAF/TNaming/TNaming_CopyShape.hxx>
+#include <OCAF/TNaming/TNaming_Translator.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <DNaming_DataMapOfShapeOfName.hxx>
 #include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>

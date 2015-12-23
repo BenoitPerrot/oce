@@ -32,11 +32,11 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include  <TNaming_Iterator.hxx>
-#include <TNaming_NameType.hxx>
-#include <TNaming_Naming.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include  <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NameType.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

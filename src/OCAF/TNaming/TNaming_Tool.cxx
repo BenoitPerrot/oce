@@ -15,22 +15,22 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_LabelList.hxx>
-#include <TNaming_Localizer.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Localizer.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TNaming_MapOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
 #include <OCAF/TDF/TDF_LabelList.hxx>
-#include <TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/TNaming_UsedShapes.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <TNaming_Tool.hxx>
-#include <TNaming_NamedShape.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_RefShape.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_RefShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
@@ -41,14 +41,14 @@
 #define BUC60862
 
 #ifdef BUC60862
-#include <TNaming_Naming.hxx>
-#include <TNaming_ListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_Naming.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 #include <OCAF/TDF/TDF_AttributeMap.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TNaming_ListIteratorOfListOfNamedShape.hxx>
+#include <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
 #endif
 
 //=======================================================================

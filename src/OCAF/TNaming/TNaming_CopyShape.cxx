@@ -15,9 +15,9 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <TNaming_TranslateTool.hxx>
+#include <OCAF/TNaming/TNaming_TranslateTool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TNaming_CopyShape.hxx>
+#include <OCAF/TNaming/TNaming_CopyShape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

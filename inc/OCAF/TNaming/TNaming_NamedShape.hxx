@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 
-#include <TNaming_PtrNode.hxx>
-#include <TNaming_Evolution.hxx>
+#include <OCAF/TNaming/TNaming_PtrNode.hxx>
+#include <OCAF/TNaming/TNaming_Evolution.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -156,7 +156,7 @@ private:
 };
 
 
-#include <TNaming_NamedShape.lxx>
+#include <OCAF/TNaming/TNaming_NamedShape.lxx>
 
 
 

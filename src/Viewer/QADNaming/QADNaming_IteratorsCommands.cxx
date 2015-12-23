@@ -18,15 +18,15 @@
 #include <QADNaming.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TNaming_Iterator.hxx>
-#include <TNaming_NewShapeIterator.hxx>
-#include <TNaming_OldShapeIterator.hxx>
-#include <TNaming_SameShapeIterator.hxx>
-#include <TNaming_Tool.hxx>
+#include <OCAF/TNaming/TNaming_Iterator.hxx>
+#include <OCAF/TNaming/TNaming_NewShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_OldShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_SameShapeIterator.hxx>
+#include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep.hxx>
-#include <TNaming.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 #include <DDF.hxx>
 

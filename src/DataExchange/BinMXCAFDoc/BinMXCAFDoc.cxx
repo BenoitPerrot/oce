@@ -35,7 +35,7 @@
 #include <BinMXCAFDoc_MaterialToolDriver.hxx>
 
 #include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
-#include <TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 //=======================================================================
 //function :

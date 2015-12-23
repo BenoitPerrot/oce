@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_Naming.hxx>
 
-#include <TNaming_Name.hxx>
+#include <OCAF/TNaming/TNaming_Name.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
