@@ -12,8 +12,8 @@
 
 #include <ChFi2d_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_SequenceOfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

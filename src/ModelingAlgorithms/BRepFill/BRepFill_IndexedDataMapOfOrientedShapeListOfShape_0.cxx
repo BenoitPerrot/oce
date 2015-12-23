@@ -9,17 +9,17 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_OrientedShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #include <BRepFill_IndexedDataMapNodeOfIndexedDataMapOfOrientedShapeListOfShape.hxx>
  
 
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopTools_ListOfShape
-#define TheItem_hxx <TopTools_ListOfShape.hxx>
+#define TheItem_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
-#define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode BRepFill_IndexedDataMapNodeOfIndexedDataMapOfOrientedShapeListOfShape
 #define TCollection_IndexedDataMapNode_hxx <BRepFill_IndexedDataMapNodeOfIndexedDataMapOfOrientedShapeListOfShape.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_BRepFill_IndexedDataMapNodeOfIndexedDataMapOfOrientedShapeListOfShape

@@ -18,7 +18,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Data.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <QADNaming.hxx>

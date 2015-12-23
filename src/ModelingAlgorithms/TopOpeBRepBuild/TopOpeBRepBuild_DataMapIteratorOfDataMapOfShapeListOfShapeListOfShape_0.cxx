@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape.hxx>
 #include <TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TopOpeBRepBuild_ListOfShapeListOfShape
 #define TheItem_hxx <TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape
 #define TCollection_DataMapNode_hxx <TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape.hxx>
 #define TCollection_DataMapIterator TopOpeBRepBuild_DataMapIteratorOfDataMapOfShapeListOfShapeListOfShape

@@ -23,24 +23,24 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_DataMapOfIntegerListOfShape.hxx>
-#include <TopTools_DataMapOfIntegerShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <BRepLib_FuseEdges.hxx>
 
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
-#include <TopTools_DataMapOfIntegerListOfShape.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

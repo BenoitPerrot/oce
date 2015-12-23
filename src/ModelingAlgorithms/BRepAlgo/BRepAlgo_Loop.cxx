@@ -18,8 +18,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <BRepAlgo_Loop.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -29,10 +29,10 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_SequenceOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
@@ -44,7 +44,7 @@
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 
 #ifdef DRAW
 #include <DBRep.hxx>

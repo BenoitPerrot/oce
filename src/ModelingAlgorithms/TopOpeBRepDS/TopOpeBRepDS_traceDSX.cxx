@@ -86,7 +86,7 @@ Standard_Integer TopOpeBRepDS_traceCURVE::Nelem() const
 //////////////////////////////////////////////////////////////
 
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 
 TopOpeBRepDS_traceSHAPE::TopOpeBRepDS_traceSHAPE() {myns = 0;}
 void TopOpeBRepDS_traceSHAPE::SetSS(const TopoDS_Shape& s1,const TopoDS_Shape& s2)

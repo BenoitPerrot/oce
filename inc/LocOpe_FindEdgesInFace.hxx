@@ -12,8 +12,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class Standard_NoSuchObject;

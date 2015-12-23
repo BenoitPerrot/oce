@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepDS_DataMapOfShapeState.hxx>
 #include <TopOpeBRepDS_DataMapNodeOfDataMapOfShapeState.hxx>
  
@@ -17,7 +17,7 @@
 #define TheItem TopAbs_State
 #define TheItem_hxx <ModelingData/TopAbs/TopAbs_State.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfDataMapOfShapeState
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfDataMapOfShapeState.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfDataMapOfShapeState

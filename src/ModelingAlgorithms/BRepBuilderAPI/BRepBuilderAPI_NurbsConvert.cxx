@@ -20,7 +20,7 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>

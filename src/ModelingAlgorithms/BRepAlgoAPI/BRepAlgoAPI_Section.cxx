@@ -30,8 +30,8 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

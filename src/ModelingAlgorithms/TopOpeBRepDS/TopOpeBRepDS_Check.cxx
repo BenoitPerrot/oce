@@ -17,7 +17,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>
 #include <TopOpeBRepDS_Check.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Check)
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRepDS_InterferenceTool.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

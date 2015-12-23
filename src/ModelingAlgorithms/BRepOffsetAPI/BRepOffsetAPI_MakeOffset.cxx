@@ -17,7 +17,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
 #include <BRepLib_MakeFace.hxx>
@@ -32,7 +32,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx> 
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx> 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

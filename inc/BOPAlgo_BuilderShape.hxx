@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BOPCol_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>

@@ -17,9 +17,9 @@
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <TDF_Label.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 
 #include <TNaming.hxx>
@@ -27,16 +27,16 @@
 #include <TNaming_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <TDataStd_Name.hxx>
 #include <TNaming_NamedShape.hxx>

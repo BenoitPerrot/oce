@@ -58,7 +58,7 @@ private:
 #define TheItem MAT_SequenceOfBasicElt
 #define TheItem_hxx <MAT_SequenceOfBasicElt.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepMAT2d_DataMapNodeOfDataMapOfShapeSequenceOfBasicElt
 #define TCollection_DataMapNode_hxx <BRepMAT2d_DataMapNodeOfDataMapOfShapeSequenceOfBasicElt.hxx>
 #define TCollection_DataMapIterator BRepMAT2d_DataMapIteratorOfDataMapOfShapeSequenceOfBasicElt

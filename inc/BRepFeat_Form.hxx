@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepFeat_PerfSelection.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <BRepFeat_StatusError.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <Handle_Geom_Curve.hxx>

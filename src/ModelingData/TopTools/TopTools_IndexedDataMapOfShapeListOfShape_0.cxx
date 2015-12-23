@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
-#include <TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape.hxx>
  
 
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopTools_ListOfShape
-#define TheItem_hxx <TopTools_ListOfShape.hxx>
+#define TheItem_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape
-#define TCollection_IndexedDataMapNode_hxx <TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape.hxx>
+#define TCollection_IndexedDataMapNode_hxx <ModelingData/TopTools/TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape
 #define TCollection_IndexedDataMapNode_Type_() TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape_Type_()
 #define TCollection_IndexedDataMap TopTools_IndexedDataMapOfShapeListOfShape
-#define TCollection_IndexedDataMap_hxx <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#define TCollection_IndexedDataMap_hxx <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

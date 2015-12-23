@@ -20,7 +20,7 @@
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopOpeBRep_HArray1OfLineInter;

@@ -58,7 +58,7 @@ private:
 #define TheItem Handle(TopOpeBRepDS_Interference)
 #define TheItem_hxx <TopOpeBRepDS_Interference.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepAlgo_DataMapNodeOfDataMapOfShapeInterference
 #define TCollection_DataMapNode_hxx <BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
 #define TCollection_DataMapIterator BRepAlgo_DataMapIteratorOfDataMapOfShapeInterference

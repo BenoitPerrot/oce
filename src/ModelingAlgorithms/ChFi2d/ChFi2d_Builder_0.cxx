@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ChFi2d_Builder.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

@@ -58,7 +58,7 @@ private:
 #define TheItem Draft_EdgeInfo
 #define TheItem_hxx <Draft_EdgeInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo
 #define TCollection_DataMapNode_hxx <Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo.hxx>
 #define TCollection_DataMapIterator Draft_DataMapIteratorOfDataMapOfEdgeEdgeInfo

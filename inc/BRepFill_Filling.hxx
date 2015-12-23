@@ -14,8 +14,8 @@
 #include <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
 #include <BRepFill_SequenceOfFaceAndOrder.hxx>
 #include <GeomPlate_SequenceOfPointConstraint.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

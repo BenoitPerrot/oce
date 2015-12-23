@@ -58,7 +58,7 @@ private:
 #define TheItem BRepCheck_ListOfStatus
 #define TheItem_hxx <BRepCheck_ListOfStatus.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus
 #define TCollection_DataMapNode_hxx <BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus.hxx>
 #define TCollection_DataMapIterator BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus

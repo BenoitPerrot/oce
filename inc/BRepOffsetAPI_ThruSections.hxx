@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

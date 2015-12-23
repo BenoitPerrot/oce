@@ -21,7 +21,7 @@
 #include <BRepLib_MakeShell.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

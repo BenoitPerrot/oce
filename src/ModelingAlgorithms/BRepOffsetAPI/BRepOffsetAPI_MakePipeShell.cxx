@@ -23,7 +23,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Law_Function.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
 
 #include <GeomFill_PipeError.hxx>

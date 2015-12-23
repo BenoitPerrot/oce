@@ -9,7 +9,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepDS_DoubleMapOfIntegerShape.hxx>
 #include <TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape.hxx>
 
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape)
 #define Hasher1 TColStd_MapIntegerHasher
 #define Hasher1_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define Hasher2 TopTools_ShapeMapHasher
-#define Hasher2_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher2_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DoubleMapNode TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape
 #define TCollection_DoubleMapNode_hxx <TopOpeBRepDS_DoubleMapNodeOfDoubleMapOfIntegerShape.hxx>
 #define TCollection_DoubleMapIterator TopOpeBRepDS_DoubleMapIteratorOfDoubleMapOfIntegerShape

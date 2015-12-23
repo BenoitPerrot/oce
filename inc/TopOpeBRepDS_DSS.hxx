@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_MapOfIntegerShapeData.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Config.hxx>

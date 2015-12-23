@@ -29,7 +29,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -54,7 +54,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>  
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>

@@ -19,7 +19,7 @@
 #include <TNaming_Builder.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TNaming_Tool.hxx>

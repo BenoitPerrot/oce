@@ -12,10 +12,10 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

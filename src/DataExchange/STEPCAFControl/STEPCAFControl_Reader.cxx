@@ -23,7 +23,7 @@
 #include <TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <STEPCAFControl_DataMapOfShapePD.hxx>
 #include <STEPCAFControl_DataMapOfPDExternFile.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
@@ -39,7 +39,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 #include <Transfer_TransientProcess.hxx>
@@ -182,8 +182,8 @@
 #include <Interface_Static.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx>
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_HArray1OfFace.hxx>

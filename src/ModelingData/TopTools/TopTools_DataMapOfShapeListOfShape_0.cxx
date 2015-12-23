@@ -3,30 +3,30 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
-#include <TopTools_DataMapNodeOfDataMapOfShapeListOfShape.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
  
 
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopTools_ListOfShape
-#define TheItem_hxx <TopTools_ListOfShape.hxx>
+#define TheItem_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfShapeListOfShape
-#define TCollection_DataMapNode_hxx <TopTools_DataMapNodeOfDataMapOfShapeListOfShape.hxx>
+#define TCollection_DataMapNode_hxx <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfShapeListOfShape.hxx>
 #define TCollection_DataMapIterator TopTools_DataMapIteratorOfDataMapOfShapeListOfShape
-#define TCollection_DataMapIterator_hxx <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfShape
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfShapeListOfShape_Type_()
 #define TCollection_DataMap TopTools_DataMapOfShapeListOfShape
-#define TCollection_DataMap_hxx <TopTools_DataMapOfShapeListOfShape.hxx>
+#define TCollection_DataMap_hxx <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAlgo_EdgeConnector.hxx>
 
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepAlgo_DataMapOfShapeBoolean.hxx>
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

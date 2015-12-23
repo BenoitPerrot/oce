@@ -16,11 +16,11 @@
 #include <Handle_BRepAlgo_EdgeConnector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <BRepAlgo_CheckStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

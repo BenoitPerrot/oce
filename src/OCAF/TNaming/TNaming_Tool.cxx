@@ -24,7 +24,7 @@
 #include <TNaming_MapOfNamedShape.hxx>
 #include <TDF_LabelList.hxx>
 #include <TNaming_UsedShapes.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_NewShapeIterator.hxx>
@@ -33,8 +33,8 @@
 #include <TNaming_RefShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 

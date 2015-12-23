@@ -26,8 +26,8 @@
 #include <TNaming_Tool.hxx>
 #include <TNaming_MapOfNamedShape.hxx>
 #include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TDF_ChildIterator.hxx>
 
 //#define MDTV_DEB_IDF

@@ -21,7 +21,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <STEPControl_ActorWrite.hxx>
@@ -105,7 +105,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <Interface_Static.hxx>
 
 #include <Interface_Macros.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx> //:d6
@@ -128,11 +128,11 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 
 // Non-manifold topology processing (ssv; 10.11.2010)
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 // ============================================================================
 // Function: DumpWhatIs   

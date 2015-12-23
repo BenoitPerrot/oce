@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
-#include <TopTools_OrientedShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #include <TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF.hxx>
 #include <TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem TopOpeBRepTool_C2DF
 #define TheItem_hxx <TopOpeBRepTool_C2DF.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
-#define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF
 #define TCollection_DataMapNode_hxx <TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF.hxx>
 #define TCollection_DataMapIterator TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF

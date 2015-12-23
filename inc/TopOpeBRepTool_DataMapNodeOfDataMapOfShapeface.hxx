@@ -58,7 +58,7 @@ private:
 #define TheItem TopOpeBRepTool_face
 #define TheItem_hxx <TopOpeBRepTool_face.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface
 #define TCollection_DataMapNode_hxx <TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface.hxx>
 #define TCollection_DataMapIterator TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface

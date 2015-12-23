@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
-#include <TopTools_IndexedMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

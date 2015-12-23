@@ -796,7 +796,7 @@ static Standard_Integer OCC544 (Draw_Interpretor& di, Standard_Integer argc, con
 
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepBndLib.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
 #include <BRepAlgoAPI_Cut.hxx>

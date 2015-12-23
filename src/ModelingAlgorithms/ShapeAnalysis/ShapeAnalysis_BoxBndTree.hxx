@@ -20,7 +20,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
 #include <ShapeExtend.hxx>
 #include <ShapeExtend_Status.hxx>

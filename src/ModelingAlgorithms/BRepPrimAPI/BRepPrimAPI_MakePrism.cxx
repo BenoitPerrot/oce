@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <BRepSweep_Prism.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepLib.hxx>
 

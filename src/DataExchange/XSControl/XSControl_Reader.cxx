@@ -17,7 +17,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XSControl_Reader.hxx>
 #include <XSControl_Controller.hxx>

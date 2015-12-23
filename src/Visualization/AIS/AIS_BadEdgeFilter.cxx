@@ -32,9 +32,9 @@ IMPLEMENT_DOWNCAST(AIS_BadEdgeFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_BadEdgeFilter)
 
 #include <StdSelect_BRepOwner.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
 
 
 

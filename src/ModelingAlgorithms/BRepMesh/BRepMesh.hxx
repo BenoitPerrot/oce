@@ -38,7 +38,7 @@
 #include <BRepMesh_PairOfPolygon.hxx>
 #include <BRepMesh_PairOfIndex.hxx>
 #include <BRepMesh_Circle.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

@@ -16,9 +16,9 @@
 
 #include <stdio.h>
 
-#include <TopTools_HArray2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <GeomFill_SequenceOfTrsf.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomFill_SectionLaw.hxx>
@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 
 #include <Precision.hxx>
 

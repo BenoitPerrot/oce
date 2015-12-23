@@ -50,8 +50,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 
 namespace
 {

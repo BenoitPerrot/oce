@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 
 #include <BRepMesh_FastDiscret.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_DataMapOfShapeReal.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <BRepMesh.hxx>

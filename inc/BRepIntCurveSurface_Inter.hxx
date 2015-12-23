@@ -17,7 +17,7 @@
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>

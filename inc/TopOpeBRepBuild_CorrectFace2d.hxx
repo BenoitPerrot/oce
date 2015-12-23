@@ -15,10 +15,10 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_IndexedMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class TopoDS_Face;
 class TopTools_IndexedMapOfOrientedShape;

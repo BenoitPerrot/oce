@@ -9,7 +9,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_ShapeWithState.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
 
  
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWi
 #define TheItem TopOpeBRepDS_ShapeWithState
 #define TheItem_hxx <TopOpeBRepDS_ShapeWithState.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState
 #define TCollection_IndexedDataMapNode_hxx <TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState

@@ -12,9 +12,9 @@
 
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopOpeBRepBuild_HBuilder;

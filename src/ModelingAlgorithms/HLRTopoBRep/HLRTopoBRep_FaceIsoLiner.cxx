@@ -26,9 +26,9 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

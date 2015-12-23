@@ -28,11 +28,11 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TNaming_CopyShape.hxx>
 #include <TNaming_Translator.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <DNaming_DataMapOfShapeOfName.hxx>
 #include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 //=======================================================================
 //function : DNaming_CheckHasSame 
 //purpose  : CheckIsSame  Shape1 Shape2 

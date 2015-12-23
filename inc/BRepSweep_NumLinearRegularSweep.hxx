@@ -15,7 +15,7 @@
 #include <Sweep_NumShape.hxx>
 #include <BRepSweep_Tool.hxx>
 #include <Sweep_NumShapeTool.hxx>
-#include <TopTools_Array2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfBoolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

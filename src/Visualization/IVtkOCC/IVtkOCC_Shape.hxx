@@ -18,7 +18,7 @@
 
 #include <IVtk_IShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 
 DEFINE_STANDARD_HANDLE( IVtkOCC_Shape, IVtk_IShape )

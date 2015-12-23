@@ -22,7 +22,7 @@
 #include <XSControl_TransferReader.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <XSDRAW.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

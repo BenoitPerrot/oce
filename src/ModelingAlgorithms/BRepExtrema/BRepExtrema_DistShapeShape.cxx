@@ -19,7 +19,7 @@
 #include <BRepExtrema_DistShapeShape.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <TopTools_OrientedShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #include <TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d.hxx>
  
 
@@ -19,7 +19,7 @@
 #define TheItem Bnd_Box2d
 #define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
-#define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d
 #define TCollection_IndexedDataMapNode_hxx <TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d

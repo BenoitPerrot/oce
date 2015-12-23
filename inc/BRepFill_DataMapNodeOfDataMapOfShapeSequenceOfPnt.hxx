@@ -58,7 +58,7 @@ private:
 #define TheItem TColgp_SequenceOfPnt
 #define TheItem_hxx <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfPnt
 #define TCollection_DataMapNode_hxx <BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfPnt.hxx>
 #define TCollection_DataMapIterator BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfPnt

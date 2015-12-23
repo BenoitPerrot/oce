@@ -11,7 +11,7 @@
 #include <Handle_STEPCAFControl_ActorWrite.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <STEPControl_ActorWrite.hxx>
 class TopoDS_Shape;
 

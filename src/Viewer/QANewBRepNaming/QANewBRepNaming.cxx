@@ -19,8 +19,8 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <QANewBRepNaming.hxx>
 
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TNaming.hxx>

@@ -35,7 +35,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 

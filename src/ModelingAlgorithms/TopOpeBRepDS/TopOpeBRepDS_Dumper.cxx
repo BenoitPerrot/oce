@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 

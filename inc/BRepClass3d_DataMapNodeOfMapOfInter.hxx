@@ -57,7 +57,7 @@ private:
 #define TheItem Standard_Address
 #define TheItem_hxx <Foundation/Standard/Standard_Address.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepClass3d_DataMapNodeOfMapOfInter
 #define TCollection_DataMapNode_hxx <BRepClass3d_DataMapNodeOfMapOfInter.hxx>
 #define TCollection_DataMapIterator BRepClass3d_DataMapIteratorOfMapOfInter

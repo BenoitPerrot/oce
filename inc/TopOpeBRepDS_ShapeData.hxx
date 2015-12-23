@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

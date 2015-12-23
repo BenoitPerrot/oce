@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_ListNodeOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListNodeOfListOfShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
  
 
@@ -31,12 +31,12 @@ IMPLEMENT_STANDARD_RTTI(TopTools_ListNodeOfListOfShape)
 #define Item TopoDS_Shape
 #define Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_ListNode TopTools_ListNodeOfListOfShape
-#define TCollection_ListNode_hxx <TopTools_ListNodeOfListOfShape.hxx>
+#define TCollection_ListNode_hxx <ModelingData/TopTools/TopTools_ListNodeOfListOfShape.hxx>
 #define TCollection_ListIterator TopTools_ListIteratorOfListOfShape
-#define TCollection_ListIterator_hxx <TopTools_ListIteratorOfListOfShape.hxx>
+#define TCollection_ListIterator_hxx <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #define Handle_TCollection_ListNode Handle_TopTools_ListNodeOfListOfShape
 #define TCollection_ListNode_Type_() TopTools_ListNodeOfListOfShape_Type_()
 #define TCollection_List TopTools_ListOfShape
-#define TCollection_List_hxx <TopTools_ListOfShape.hxx>
+#define TCollection_List_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

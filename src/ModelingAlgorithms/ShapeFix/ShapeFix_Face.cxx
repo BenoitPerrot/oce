@@ -34,8 +34,8 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -101,10 +101,10 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ShapeBuild_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
@@ -116,14 +116,14 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_Transition.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 
 #include <ShapeFix_IntersectionTool.hxx>
 #include <ShapeFix_SplitTool.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 
 #ifdef OCCT_DEBUG

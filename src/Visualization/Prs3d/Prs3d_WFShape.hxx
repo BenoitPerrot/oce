@@ -16,7 +16,7 @@
 
 #include <Prs3d_Root.hxx>
 #include <Prs3d_NListOfSequenceOfPnt.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 
 class Adaptor3d_Curve;

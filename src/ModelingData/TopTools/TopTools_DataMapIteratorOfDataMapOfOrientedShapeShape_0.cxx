@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_OrientedShapeMapHasher.hxx>
-#include <TopTools_DataMapOfOrientedShapeShape.hxx>
-#include <TopTools_DataMapNodeOfDataMapOfOrientedShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfOrientedShapeShape.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -17,14 +17,14 @@
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
-#define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfOrientedShapeShape
-#define TCollection_DataMapNode_hxx <TopTools_DataMapNodeOfDataMapOfOrientedShapeShape.hxx>
+#define TCollection_DataMapNode_hxx <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfOrientedShapeShape.hxx>
 #define TCollection_DataMapIterator TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape
-#define TCollection_DataMapIterator_hxx <TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopTools_DataMapNodeOfDataMapOfOrientedShapeShape
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfOrientedShapeShape_Type_()
 #define TCollection_DataMap TopTools_DataMapOfOrientedShapeShape
-#define TCollection_DataMap_hxx <TopTools_DataMapOfOrientedShapeShape.hxx>
+#define TCollection_DataMap_hxx <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

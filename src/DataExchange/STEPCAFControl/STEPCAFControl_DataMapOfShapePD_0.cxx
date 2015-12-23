@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepBasic_ProductDefinition.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <STEPCAFControl_DataMapNodeOfDataMapOfShapePD.hxx>
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem Handle(StepBasic_ProductDefinition)
 #define TheItem_hxx <StepBasic_ProductDefinition.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfShapePD
 #define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfShapePD.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfShapePD

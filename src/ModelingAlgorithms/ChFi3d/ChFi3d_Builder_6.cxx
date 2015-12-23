@@ -31,7 +31,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
@@ -120,8 +120,8 @@
 #include <ChFiDS_CommonPoint.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #ifdef OCCT_DEBUG
 // For measurements.

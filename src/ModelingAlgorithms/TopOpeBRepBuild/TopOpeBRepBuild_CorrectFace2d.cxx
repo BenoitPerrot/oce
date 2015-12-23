@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_IndexedMapOfOrientedShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
@@ -39,11 +39,11 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepBuild_Tools2d.hxx>
 
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_SequenceOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

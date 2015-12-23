@@ -46,14 +46,14 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <TopTools_SequenceOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -63,20 +63,20 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 #include <ShapeBuild_ReShape.hxx> 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 
 //=======================================================================
 //function : ShapeFix_Shell

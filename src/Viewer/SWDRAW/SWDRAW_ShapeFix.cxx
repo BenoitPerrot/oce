@@ -56,15 +56,15 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfAsciiStringInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfAsciiStringInteger.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 #include <Draw_ProgressIndicator.hxx>
 #include <ShapeAnalysis_FreeBounds.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #ifdef AIX

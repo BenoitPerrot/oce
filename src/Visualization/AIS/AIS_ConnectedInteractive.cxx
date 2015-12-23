@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <StdSelect_BRepOwner.hxx>
 
 #include <StdSelect.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_OrientedShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 
 #include <AIS_InteractiveContext.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

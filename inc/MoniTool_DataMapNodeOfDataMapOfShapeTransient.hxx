@@ -58,7 +58,7 @@ private:
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfShapeTransient
 #define TCollection_DataMapNode_hxx <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 #define TCollection_DataMapIterator MoniTool_DataMapIteratorOfDataMapOfShapeTransient

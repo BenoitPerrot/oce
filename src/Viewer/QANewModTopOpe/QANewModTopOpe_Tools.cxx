@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <QANewModTopOpe_Tools.hxx>
 
 #include <BRepAlgoAPI_Cut.hxx>
@@ -32,8 +32,8 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_DataMapOfIntegerShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
@@ -45,7 +45,7 @@
 #include <BOPAlgo_Builder.hxx>
 #include <BOPAlgo_BOP.hxx>
 #include <IntTools_CommonPrt.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <BOPDS_CommonBlock.hxx>
 #include <BOPTools_AlgoTools3D.hxx>
 

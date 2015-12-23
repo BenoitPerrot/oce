@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
 #include <BiTgte_DataMapIteratorOfDataMapOfShapeBox.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem Bnd_Box
 #define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BiTgte_DataMapNodeOfDataMapOfShapeBox
 #define TCollection_DataMapNode_hxx <BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
 #define TCollection_DataMapIterator BiTgte_DataMapIteratorOfDataMapOfShapeBox

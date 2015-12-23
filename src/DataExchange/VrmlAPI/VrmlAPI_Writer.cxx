@@ -27,7 +27,7 @@
 #include <VrmlConverter_LineAspect.hxx>
 #include <VrmlConverter_PointAspect.hxx>
 #include <VrmlConverter_ShadingAspect.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Vrml.hxx>
 #include <VrmlConverter_Projector.hxx>
 #include <VrmlConverter_ShadedShape.hxx>

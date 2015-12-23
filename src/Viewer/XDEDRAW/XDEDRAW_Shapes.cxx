@@ -39,7 +39,7 @@
 #include <stdio.h>
 #include <XCAFDoc_GraphNode.hxx>
 #include <TDF_AttributeSequence.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 
 //=======================================================================
 // Section: Work with shapes

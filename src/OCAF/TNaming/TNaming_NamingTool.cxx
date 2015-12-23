@@ -15,14 +15,14 @@
 
 #include <TDF_LabelMap.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_NamingTool.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NewShapeIterator.hxx> 
 #include <TNaming_Iterator.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TNaming_OldShapeIterator.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_Naming.hxx>

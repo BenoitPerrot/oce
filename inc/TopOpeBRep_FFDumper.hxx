@@ -12,7 +12,7 @@
 
 #include <TopOpeBRep_PFacesFiller.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <TopOpeBRepDS_Kind.hxx>

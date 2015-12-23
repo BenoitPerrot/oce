@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
@@ -138,7 +138,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
@@ -151,7 +151,7 @@
 #include <TopOpeBRepDS_SolidSurfaceInterference.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <ChFiDS_HData.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_CommonPoint.hxx>

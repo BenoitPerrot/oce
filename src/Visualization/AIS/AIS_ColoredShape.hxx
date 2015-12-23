@@ -21,7 +21,7 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 //! Customizable properties.

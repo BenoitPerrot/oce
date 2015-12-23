@@ -19,7 +19,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_NormalProjection.hxx>
 
 BRepOffsetAPI_NormalProjection::BRepOffsetAPI_NormalProjection()

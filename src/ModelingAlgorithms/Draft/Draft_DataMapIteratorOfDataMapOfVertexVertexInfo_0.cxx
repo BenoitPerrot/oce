@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Draft_VertexInfo.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <Draft_DataMapOfVertexVertexInfo.hxx>
 #include <Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Draft_VertexInfo
 #define TheItem_hxx <Draft_VertexInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode Draft_DataMapNodeOfDataMapOfVertexVertexInfo
 #define TCollection_DataMapNode_hxx <Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
 #define TCollection_DataMapIterator Draft_DataMapIteratorOfDataMapOfVertexVertexInfo

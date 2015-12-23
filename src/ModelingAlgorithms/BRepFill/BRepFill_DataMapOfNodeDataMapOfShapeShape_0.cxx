@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_Node.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape.hxx>
 #include <BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape.hxx>
@@ -17,7 +17,7 @@
 #define TheKey Handle(MAT_Node)
 #define TheKey_hxx <MAT_Node.hxx>
 #define TheItem TopTools_DataMapOfShapeShape
-#define TheItem_hxx <TopTools_DataMapOfShapeShape.hxx>
+#define TheItem_hxx <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape

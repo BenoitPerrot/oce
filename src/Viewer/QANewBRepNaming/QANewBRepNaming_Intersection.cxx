@@ -18,7 +18,7 @@
 #include <QANewBRepNaming_Intersection.hxx>
 #include <TNaming_Builder.hxx>
 #include <QANewBRepNaming_Loader.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 

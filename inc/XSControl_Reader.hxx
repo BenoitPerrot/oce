@@ -13,7 +13,7 @@
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <IFSelect_ReturnStatus.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(TopTools_HSequenceOfShape)
 #define Item TopoDS_Shape
 #define Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheSequence TopTools_SequenceOfShape
-#define TheSequence_hxx <TopTools_SequenceOfShape.hxx>
+#define TheSequence_hxx <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #define TCollection_HSequence TopTools_HSequenceOfShape
-#define TCollection_HSequence_hxx <TopTools_HSequenceOfShape.hxx>
+#define TCollection_HSequence_hxx <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #define Handle_TCollection_HSequence Handle_TopTools_HSequenceOfShape
 #define TCollection_HSequence_Type_() TopTools_HSequenceOfShape_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

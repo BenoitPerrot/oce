@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepCheck_Shell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Shell)
@@ -32,11 +32,11 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>
 
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 
 //=======================================================================
 //function : Propagate

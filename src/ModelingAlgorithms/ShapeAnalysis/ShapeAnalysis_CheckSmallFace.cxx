@@ -14,13 +14,13 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeAnalysis_CheckSmallFace.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>  
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <ShapeExtend.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -49,7 +49,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 
@@ -74,7 +74,7 @@
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeAnalysis_Wire.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx> 
 //=======================================================
 //function : ShapeAnalysis_CheckSmallFace

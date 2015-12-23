@@ -58,7 +58,7 @@ private:
 #define TheItem HLRTopoBRep_ListOfVData
 #define TheItem_hxx <HLRTopoBRep_ListOfVData.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData
 #define TCollection_DataMapNode_hxx <HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData.hxx>
 #define TCollection_DataMapIterator HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData

@@ -62,7 +62,7 @@
 
 #include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 #include <ElSLib.hxx>

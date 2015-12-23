@@ -49,7 +49,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 //gka 06.09.04 BUG 6555 shape is modified always independently either intersection was fixed or not 

@@ -64,7 +64,7 @@ private:
 #define TheItem ChFiDS_ListOfStripe
 #define TheItem_hxx <ChFiDS_ListOfStripe.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe
 #define TCollection_IndexedDataMapNode_hxx <ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe

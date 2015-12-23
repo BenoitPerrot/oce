@@ -54,7 +54,7 @@
 #include <ShapeFix_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <BRepLib.hxx>
 
 #include <ShapeAnalysis_Edge.hxx>
@@ -62,10 +62,10 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_SequenceOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Foundation/Message/Message_ProgressSentry.hxx>

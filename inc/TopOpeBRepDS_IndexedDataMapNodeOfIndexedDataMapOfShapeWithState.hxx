@@ -64,7 +64,7 @@ private:
 #define TheItem TopOpeBRepDS_ShapeWithState
 #define TheItem_hxx <TopOpeBRepDS_ShapeWithState.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState
 #define TCollection_IndexedDataMapNode_hxx <TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfShapeWithState

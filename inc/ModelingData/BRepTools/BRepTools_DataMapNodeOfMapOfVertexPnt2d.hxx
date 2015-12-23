@@ -58,7 +58,7 @@ private:
 #define TheItem TColgp_SequenceOfPnt2d
 #define TheItem_hxx <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepTools_DataMapNodeOfMapOfVertexPnt2d
 #define TCollection_DataMapNode_hxx <ModelingData/BRepTools/BRepTools_DataMapNodeOfMapOfVertexPnt2d.hxx>
 #define TCollection_DataMapIterator BRepTools_DataMapIteratorOfMapOfVertexPnt2d

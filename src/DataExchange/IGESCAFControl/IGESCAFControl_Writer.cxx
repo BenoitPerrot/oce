@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 #include <XCAFPrs_DataMapOfStyleTransient.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <IGESCAFControl_Writer.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
@@ -50,7 +50,7 @@
 #include <TDF_ChildIterator.hxx>
 #include <TDataStd_Name.hxx>
 #include <IGESData_NameEntity.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 

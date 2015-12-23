@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <QANewModTopOpe_ReShaper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QANewModTopOpe_ReShaper)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(QANewModTopOpe_ReShaper)
 IMPLEMENT_DOWNCAST(QANewModTopOpe_ReShaper,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(QANewModTopOpe_ReShaper)
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

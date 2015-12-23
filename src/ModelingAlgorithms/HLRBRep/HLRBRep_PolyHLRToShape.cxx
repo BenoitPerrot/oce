@@ -23,7 +23,7 @@
 #include <BRepLib_MakeEdge2d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <HLRBRep_BiPnt2D.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPnt2D.hxx>
 #include <HLRAlgo_EdgeStatus.hxx>

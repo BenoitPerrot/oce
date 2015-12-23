@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepTopAdaptor_Tool.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <BRepTopAdaptor_DataMapNodeOfMapOfShapeTool.hxx>
 #include <BRepTopAdaptor_DataMapIteratorOfMapOfShapeTool.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem BRepTopAdaptor_Tool
 #define TheItem_hxx <BRepTopAdaptor_Tool.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepTopAdaptor_DataMapNodeOfMapOfShapeTool
 #define TCollection_DataMapNode_hxx <BRepTopAdaptor_DataMapNodeOfMapOfShapeTool.hxx>
 #define TCollection_DataMapIterator BRepTopAdaptor_DataMapIteratorOfMapOfShapeTool

@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <BOPAlgo_PaveFiller.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPAlgo_Section.hxx>
 

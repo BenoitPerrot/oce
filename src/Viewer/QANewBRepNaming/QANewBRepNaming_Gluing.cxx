@@ -18,7 +18,7 @@
 #include <QANewModTopOpe_Glue.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_LabelMap.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <QANewBRepNaming_Gluing.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
@@ -36,8 +36,8 @@
 #include <TNaming_Tool.hxx>
 #include <TDF_AttributeMap.hxx>
 #include <TDF_MapIteratorOfAttributeMap.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>

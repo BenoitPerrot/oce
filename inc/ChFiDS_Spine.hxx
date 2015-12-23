@@ -13,7 +13,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ChFiDS_State.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>

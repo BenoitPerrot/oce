@@ -26,8 +26,8 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_UnifySameDomain)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_UnifySameDomain,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ShapeUpgrade_UnifySameDomain.hxx>
-#include <TopTools_SequenceOfShape.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
@@ -73,9 +73,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

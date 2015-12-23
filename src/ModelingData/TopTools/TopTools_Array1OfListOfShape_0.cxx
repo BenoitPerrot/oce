@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_Array1OfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfListOfShape.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
  
 
 #define Array1Item TopTools_ListOfShape
-#define Array1Item_hxx <TopTools_ListOfShape.hxx>
+#define Array1Item_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #define TCollection_Array1 TopTools_Array1OfListOfShape
-#define TCollection_Array1_hxx <TopTools_Array1OfListOfShape.hxx>
+#define TCollection_Array1_hxx <ModelingData/TopTools/TopTools_Array1OfListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

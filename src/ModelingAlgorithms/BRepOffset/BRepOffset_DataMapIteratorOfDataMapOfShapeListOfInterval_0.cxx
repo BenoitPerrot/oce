@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffset_ListOfInterval.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <BRepOffset_DataMapOfShapeListOfInterval.hxx>
 #include <BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem BRepOffset_ListOfInterval
 #define TheItem_hxx <BRepOffset_ListOfInterval.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval
 #define TCollection_DataMapNode_hxx <BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval.hxx>
 #define TCollection_DataMapIterator BRepOffset_DataMapIteratorOfDataMapOfShapeListOfInterval

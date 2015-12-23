@@ -21,8 +21,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeAnalysis_FreeBounds.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -52,13 +52,13 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ShapeAnalysis_BoxBndTree.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 //=======================================================================

@@ -26,7 +26,7 @@
 #include <BRepMesh_DiscretRoot.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

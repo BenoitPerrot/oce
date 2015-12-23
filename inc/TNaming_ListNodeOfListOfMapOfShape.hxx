@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_ListNodeOfListOfMapOfShape.hxx>
 
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopTools_MapOfShape;
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item TopTools_MapOfShape
-#define Item_hxx <TopTools_MapOfShape.hxx>
+#define Item_hxx <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #define TCollection_ListNode TNaming_ListNodeOfListOfMapOfShape
 #define TCollection_ListNode_hxx <TNaming_ListNodeOfListOfMapOfShape.hxx>
 #define TCollection_ListIterator TNaming_ListIteratorOfListOfMapOfShape

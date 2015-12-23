@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepDS_ShapeSurface.hxx>
 #include <TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Handle(Geom_Surface)
 #define TheItem_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfShapeSurface
 #define TCollection_DataMapNode_hxx <TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
 #define TCollection_DataMapIterator TopOpeBRepDS_DataMapIteratorOfShapeSurface

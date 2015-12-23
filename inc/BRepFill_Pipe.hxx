@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Handle_BRepFill_LocationLaw.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>

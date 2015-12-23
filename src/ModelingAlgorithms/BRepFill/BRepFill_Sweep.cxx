@@ -18,12 +18,12 @@
 
 #include <BRepFill_LocationLaw.hxx>
 #include <BRepFill_SectionLaw.hxx>
-#include <TopTools_HArray2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
@@ -104,14 +104,14 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 
-#include <TopTools_Array1OfShape.hxx>
-#include <TopTools_Array2OfShape.hxx>
-#include <TopTools_HArray2OfShape.hxx>
-#include <TopTools_HArray1OfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx> 
-#include <TopTools_ListOfShape.hxx> 
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_SequenceOfShape.hxx> 
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx> 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx> 
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx> 
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -119,7 +119,7 @@
 #include <BRepLib_MakeWire.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 //OCC500(apo)

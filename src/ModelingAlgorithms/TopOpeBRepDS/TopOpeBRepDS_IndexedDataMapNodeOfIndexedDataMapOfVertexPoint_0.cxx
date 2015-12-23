@@ -9,7 +9,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Point.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepDS_IndexedDataMapOfVertexPoint.hxx>
 
  
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexP
 #define TheItem TopOpeBRepDS_Point
 #define TheItem_hxx <TopOpeBRepDS_Point.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint
 #define TCollection_IndexedDataMapNode_hxx <TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopOpeBRepDS_IndexedDataMapNodeOfIndexedDataMapOfVertexPoint

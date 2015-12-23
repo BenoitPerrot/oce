@@ -58,7 +58,7 @@ private:
 #define TheItem BRepOffset_ListOfInterval
 #define TheItem_hxx <BRepOffset_ListOfInterval.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval
 #define TCollection_DataMapNode_hxx <BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval.hxx>
 #define TCollection_DataMapIterator BRepOffset_DataMapIteratorOfDataMapOfShapeListOfInterval

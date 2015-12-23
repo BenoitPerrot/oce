@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
 #include <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfShapeTransient
 #define TCollection_DataMapNode_hxx <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 #define TCollection_DataMapIterator MoniTool_DataMapIteratorOfDataMapOfShapeTransient

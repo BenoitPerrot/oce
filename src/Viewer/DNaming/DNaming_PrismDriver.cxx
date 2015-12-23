@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PrismDriver)
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 
 // OCAF
 #include <TDataStd_Integer.hxx>

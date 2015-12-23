@@ -20,9 +20,9 @@
 #include <BRepMesh_DataStructureOfDelaun.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <BRepMesh_Status.hxx>
-#include <TopTools_DataMapOfShapeReal.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_MutexForShapeProvider.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MutexForShapeProvider.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
@@ -35,7 +35,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepMesh_ShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 
 class BRepMesh_DataStructureOfDelaun;
 class Bnd_Box;

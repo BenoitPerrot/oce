@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(XSControl_ConnectedShapes)
 IMPLEMENT_DOWNCAST(XSControl_ConnectedShapes,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_ConnectedShapes)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <TransferBRep.hxx>
 
 

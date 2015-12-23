@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPAlgo_PPaveFiller.hxx>
 #include <BOPAlgo_PBuilder.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;

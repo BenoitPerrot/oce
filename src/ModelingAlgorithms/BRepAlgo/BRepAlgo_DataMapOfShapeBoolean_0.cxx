@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
 #include <BRepAlgo_DataMapIteratorOfDataMapOfShapeBoolean.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Standard_Boolean
 #define TheItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean
 #define TCollection_DataMapNode_hxx <BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
 #define TCollection_DataMapIterator BRepAlgo_DataMapIteratorOfDataMapOfShapeBoolean

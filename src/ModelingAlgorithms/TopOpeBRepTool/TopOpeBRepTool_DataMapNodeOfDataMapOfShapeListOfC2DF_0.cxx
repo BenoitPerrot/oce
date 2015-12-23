@@ -9,7 +9,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_ListOfC2DF.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepTool_DataMapOfShapeListOfC2DF.hxx>
 #include <TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeListOfC2DF.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF)
 #define TheItem TopOpeBRepTool_ListOfC2DF
 #define TheItem_hxx <TopOpeBRepTool_ListOfC2DF.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF
 #define TCollection_DataMapNode_hxx <TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF.hxx>
 #define TCollection_DataMapIterator TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeListOfC2DF

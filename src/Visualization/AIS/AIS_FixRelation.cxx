@@ -63,9 +63,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 

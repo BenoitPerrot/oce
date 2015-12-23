@@ -16,7 +16,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeProcess_OperLibrary.hxx>
 
 #include <Precision.hxx>

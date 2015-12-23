@@ -17,13 +17,13 @@
 
 #include <BRepFill_DraftLaw.hxx>
 #include <BRepFill_SectionLaw.hxx>
-#include <TopTools_HArray2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepFill_Draft.hxx>
 
@@ -82,8 +82,8 @@
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 
 #include <Precision.hxx> 

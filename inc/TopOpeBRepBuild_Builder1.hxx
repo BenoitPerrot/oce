@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_DataMapOfOrientedShapeInteger.hxx>
-#include <TopTools_IndexedMapOfOrientedShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

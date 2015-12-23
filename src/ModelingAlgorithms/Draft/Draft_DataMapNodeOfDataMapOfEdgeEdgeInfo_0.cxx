@@ -9,7 +9,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Draft_EdgeInfo.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <Draft_DataMapOfEdgeEdgeInfo.hxx>
 #include <Draft_DataMapIteratorOfDataMapOfEdgeEdgeInfo.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo)
 #define TheItem Draft_EdgeInfo
 #define TheItem_hxx <Draft_EdgeInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo
 #define TCollection_DataMapNode_hxx <Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo.hxx>
 #define TCollection_DataMapIterator Draft_DataMapIteratorOfDataMapOfEdgeEdgeInfo

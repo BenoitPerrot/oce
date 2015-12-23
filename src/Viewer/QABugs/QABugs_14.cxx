@@ -39,7 +39,7 @@
 #include <BRepFeat_SplitShape.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <Draw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
@@ -58,7 +58,7 @@
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 #include <V3d_View.hxx>

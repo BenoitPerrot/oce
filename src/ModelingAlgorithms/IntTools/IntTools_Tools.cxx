@@ -33,7 +33,7 @@
 #include <Precision.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

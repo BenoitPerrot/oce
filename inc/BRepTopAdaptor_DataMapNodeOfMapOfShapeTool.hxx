@@ -58,7 +58,7 @@ private:
 #define TheItem BRepTopAdaptor_Tool
 #define TheItem_hxx <BRepTopAdaptor_Tool.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepTopAdaptor_DataMapNodeOfMapOfShapeTool
 #define TCollection_DataMapNode_hxx <BRepTopAdaptor_DataMapNodeOfMapOfShapeTool.hxx>
 #define TCollection_DataMapIterator BRepTopAdaptor_DataMapIteratorOfMapOfShapeTool

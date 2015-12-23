@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <VrmlConverter_Projector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

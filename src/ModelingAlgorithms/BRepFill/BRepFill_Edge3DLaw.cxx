@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_Edge3DLaw)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
 #include <GeomFill_LocationLaw.hxx>
 #include <GeomFill_HArray1OfLocationLaw.hxx>

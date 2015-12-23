@@ -58,7 +58,7 @@ private:
 #define TheItem TopOpeBRepTool_ListOfC2DF
 #define TheItem_hxx <TopOpeBRepTool_ListOfC2DF.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF
 #define TCollection_DataMapNode_hxx <TopOpeBRepTool_DataMapNodeOfDataMapOfShapeListOfC2DF.hxx>
 #define TCollection_DataMapIterator TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeListOfC2DF

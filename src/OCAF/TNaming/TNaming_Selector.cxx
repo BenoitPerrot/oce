@@ -31,9 +31,9 @@
 #include <TNaming_NamingTool.hxx>
 #include <TNaming_NewShapeIterator.hxx>
 
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #define BUC60862
 #define OCC273
@@ -89,8 +89,8 @@ static void Write(const TopoDS_Shape& shape,
 
 #define ORIENTATION_DSOPT
 #ifdef ORIENTATION_DSOPT
-#include <TopTools_MapOfOrientedShape.hxx>
-#include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 #include <TDF_ChildIDIterator.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_Iterator.hxx>

@@ -58,7 +58,7 @@ private:
 #define TheItem Draft_FaceInfo
 #define TheItem_hxx <Draft_FaceInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode Draft_DataMapNodeOfDataMapOfFaceFaceInfo
 #define TCollection_DataMapNode_hxx <Draft_DataMapNodeOfDataMapOfFaceFaceInfo.hxx>
 #define TCollection_DataMapIterator Draft_DataMapIteratorOfDataMapOfFaceFaceInfo

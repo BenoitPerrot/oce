@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFPrs_Style.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 #include <XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem XCAFPrs_Style
 #define TheItem_hxx <XCAFPrs_Style.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode XCAFPrs_DataMapNodeOfDataMapOfShapeStyle
 #define TCollection_DataMapNode_hxx <XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 #define TCollection_DataMapIterator XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle

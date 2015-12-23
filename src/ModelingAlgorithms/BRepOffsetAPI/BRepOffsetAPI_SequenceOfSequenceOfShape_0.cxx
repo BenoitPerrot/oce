@@ -7,12 +7,12 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfShape.hxx>
  
 
 #define SeqItem TopTools_SequenceOfShape
-#define SeqItem_hxx <TopTools_SequenceOfShape.hxx>
+#define SeqItem_hxx <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #define TCollection_SequenceNode BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfShape
 #define TCollection_SequenceNode_hxx <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfShape.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfShape

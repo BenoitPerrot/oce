@@ -12,7 +12,7 @@
 
 #include <StepToTopoDS_DataMapOfRI.hxx>
 #include <StepToTopoDS_DataMapOfRINames.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>
 class StepToTopoDS_DataMapOfRI;

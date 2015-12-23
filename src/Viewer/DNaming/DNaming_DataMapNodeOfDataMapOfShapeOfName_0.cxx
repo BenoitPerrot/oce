@@ -9,7 +9,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <DNaming_DataMapOfShapeOfName.hxx>
 #include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_DataMapNodeOfDataMapOfShapeOfName)
 #define TheItem TCollection_AsciiString
 #define TheItem_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode DNaming_DataMapNodeOfDataMapOfShapeOfName
 #define TCollection_DataMapNode_hxx <DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
 #define TCollection_DataMapIterator DNaming_DataMapIteratorOfDataMapOfShapeOfName

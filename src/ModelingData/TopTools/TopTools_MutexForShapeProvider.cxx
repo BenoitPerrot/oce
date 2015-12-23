@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopTools_MutexForShapeProvider.hxx>
+#include <ModelingData/TopTools/TopTools_MutexForShapeProvider.hxx>
 
 #include <Foundation/Standard/Standard_Mutex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

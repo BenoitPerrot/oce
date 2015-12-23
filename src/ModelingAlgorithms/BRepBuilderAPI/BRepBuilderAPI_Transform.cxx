@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>

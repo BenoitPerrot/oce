@@ -690,7 +690,7 @@ static Standard_Integer vecdc(Draw_Interpretor& di,Standard_Integer ,const char*
 // nproject
 //=======================================================================
 
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
  static Standard_Integer nproject(Draw_Interpretor& di, Standard_Integer n, const char** a)
 {
   if ( n < 4) return 1;

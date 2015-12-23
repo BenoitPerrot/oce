@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepTool_PURGE_HeaderFile
 #define _TopOpeBRepTool_PURGE_HeaderFile
 #include <TopOpeBRepTool_define.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #ifdef OCCT_DEBUG

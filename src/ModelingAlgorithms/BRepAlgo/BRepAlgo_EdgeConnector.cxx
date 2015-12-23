@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepAlgo_EdgeConnector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_DOWNCAST(BRepAlgo_EdgeConnector,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepAlgo_EdgeConnector)
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopOpeBRepBuild_ShapeSet.hxx>

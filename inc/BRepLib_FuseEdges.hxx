@@ -12,12 +12,12 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_DataMapOfIntegerListOfShape.hxx>
-#include <TopTools_DataMapOfIntegerShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_ConstructionError;
 class Standard_NullObject;

@@ -28,7 +28,7 @@
 #include <TNaming_Selector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ViewerTest.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
@@ -45,7 +45,7 @@
 #include <TNaming_Name.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ViewerTest.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
 #include <TNaming_Builder.hxx>
 

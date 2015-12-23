@@ -22,8 +22,8 @@
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>

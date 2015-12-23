@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopTools_IndexedDataMapOfShapeListOfShape;
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item TopTools_IndexedDataMapOfShapeListOfShape
-#define Item_hxx <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#define Item_hxx <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #define TCollection_ListNode TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape
 #define TCollection_ListNode_hxx <TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 #define TCollection_ListIterator TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape

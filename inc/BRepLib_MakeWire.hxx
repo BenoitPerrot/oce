@@ -13,7 +13,7 @@
 #include <BRepLib_WireError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <BRepLib_MakeShape.hxx>
 class StdFail_NotDone;
 class TopoDS_Edge;

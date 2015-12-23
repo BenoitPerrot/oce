@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TopOpeBRepTool_connexity.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

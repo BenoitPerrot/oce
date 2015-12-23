@@ -32,9 +32,9 @@
 #include <StepRepr_MappedItem.hxx>
 #include <StepShape_FaceSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <STEPControl_ActorRead.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_ActorRead)
@@ -141,10 +141,10 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 // For non-manifold topology processing (ssv; 12.11.2010)
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepCheck_Shell.hxx>
 #include <BRepCheck_Status.hxx>

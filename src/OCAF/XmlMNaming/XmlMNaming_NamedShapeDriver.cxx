@@ -18,7 +18,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <TopTools_LocationSet.hxx>
+#include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 #include <XmlMNaming_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMNaming_NamedShapeDriver)

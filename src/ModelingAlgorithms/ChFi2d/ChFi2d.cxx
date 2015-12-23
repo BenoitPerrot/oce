@@ -19,8 +19,8 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ChFi2d.hxx>
 
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>

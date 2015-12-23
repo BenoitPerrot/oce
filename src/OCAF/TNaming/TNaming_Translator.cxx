@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <TNaming_Translator.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -33,7 +33,7 @@
 #include <ModelingData/TopoDS/TopoDS_TCompSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_TCompound.hxx>
 #include <TNaming_CopyShape.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 
 //=======================================================================
 //function : TNaming_Translator

@@ -21,7 +21,7 @@
 
 #include <Precision.hxx>
 #include <BRepBndLib.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 
 

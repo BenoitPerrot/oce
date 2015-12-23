@@ -16,7 +16,7 @@
 #include <TNaming_NameType.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TNaming_NamedShape;
 class TDF_Label;
 class TopoDS_Shape;

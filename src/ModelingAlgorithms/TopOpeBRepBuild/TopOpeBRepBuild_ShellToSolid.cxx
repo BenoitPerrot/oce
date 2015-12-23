@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TopOpeBRepBuild_ShellToSolid.hxx>
 #include <TopOpeBRepBuild_ShellFaceSet.hxx>
 #include <TopOpeBRepBuild_SolidBuilder.hxx>
@@ -24,7 +24,7 @@
 
 #include <TopOpeBRepDS_BuildTool.hxx>
 
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 //=======================================================================
 //function : TopOpeBRepBuild_ShellToSolid

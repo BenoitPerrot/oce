@@ -23,13 +23,13 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ChFiDS_SecHArray1.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <ChFiDS_ErrorStatus.hxx>
 #include <Law_Linear.hxx>

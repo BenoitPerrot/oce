@@ -35,7 +35,7 @@
 #include <Sweep_NumShapeTool.hxx>
 #include <BRepSweep_Iterator.hxx>
 #include <Sweep_NumShapeIterator.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

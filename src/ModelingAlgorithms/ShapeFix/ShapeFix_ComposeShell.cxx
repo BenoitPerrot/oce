@@ -36,7 +36,7 @@
 #include <ShapeFix_WireSegment.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -78,8 +78,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

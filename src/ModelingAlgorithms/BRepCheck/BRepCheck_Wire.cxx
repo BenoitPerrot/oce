@@ -40,14 +40,14 @@ IMPLEMENT_DOWNCAST(BRepCheck_Wire,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <BRepCheck_ListOfStatus.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -72,9 +72,9 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <BRepCheck.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_MapOfOrientedShape.hxx>
-#include <TopTools_HArray1OfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 
 //Patch
 #include <Precision.hxx>
@@ -87,7 +87,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <ModelingData/TopExp/TopExp.hxx>
 //#endif
 
-#include <TopTools_IndexedMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <ElCLib.hxx>
 
 

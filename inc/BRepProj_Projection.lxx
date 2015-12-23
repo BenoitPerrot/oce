@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 
 inline Standard_Boolean BRepProj_Projection::IsDone() const
 {

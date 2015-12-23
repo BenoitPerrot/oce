@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <BRepBuilderAPI_Copy.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 
 #include <BOPCol_MapOfShape.hxx>
 

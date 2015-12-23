@@ -15,7 +15,7 @@
 #include <Handle_BRepFill_DraftLaw.hxx>
 #include <Handle_BRepFill_SectionLaw.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

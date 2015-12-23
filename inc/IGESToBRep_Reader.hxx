@@ -12,7 +12,7 @@
 
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Handle_IGESToBRep_Actor.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

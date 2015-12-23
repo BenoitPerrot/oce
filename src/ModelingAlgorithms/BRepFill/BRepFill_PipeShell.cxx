@@ -19,7 +19,7 @@
 #include <Law_Function.hxx>
 #include <BRepFill_LocationLaw.hxx>
 #include <BRepFill_SectionLaw.hxx>
-#include <TopTools_HArray2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepFill_Section.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <BRepFill_Sweep.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
@@ -111,8 +111,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 static Standard_Boolean Affich = 0;
 #endif
 
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 static Standard_Boolean UpdateMap(const TopoDS_Shape&                 theKey,

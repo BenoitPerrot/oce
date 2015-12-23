@@ -32,7 +32,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDataStd_Name.hxx>
 #include <XCAFDoc_LayerTool.hxx>

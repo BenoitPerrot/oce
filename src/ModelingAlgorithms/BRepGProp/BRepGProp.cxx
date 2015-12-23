@@ -22,11 +22,11 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
-#include <TopTools.hxx>
+#include <ModelingData/TopTools/TopTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>  
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepCheck_Shell.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #ifdef OCCT_DEBUG
 static Standard_Integer AffichEps = 0;
 #endif

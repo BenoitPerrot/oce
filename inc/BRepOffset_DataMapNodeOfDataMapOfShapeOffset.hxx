@@ -58,7 +58,7 @@ private:
 #define TheItem BRepOffset_Offset
 #define TheItem_hxx <BRepOffset_Offset.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepOffset_DataMapNodeOfDataMapOfShapeOffset
 #define TCollection_DataMapNode_hxx <BRepOffset_DataMapNodeOfDataMapOfShapeOffset.hxx>
 #define TCollection_DataMapIterator BRepOffset_DataMapIteratorOfDataMapOfShapeOffset

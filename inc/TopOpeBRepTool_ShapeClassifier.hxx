@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_Plos.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

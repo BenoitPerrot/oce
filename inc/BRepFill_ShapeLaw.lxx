@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
 //=======================================================================
 //function : Edge

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <XSControl_WorkSession.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XSControl_FuncShape.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -45,7 +45,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ResultFromModel.hxx>
 
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TransferBRep.hxx>

@@ -232,12 +232,12 @@ Standard_IMPORT Draw_Color DBRep_ColorOrientation (const TopAbs_Orientation Or);
 #include <DrawTrSurf.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx>
-#include <TopTools_DataMapOfOrientedShapeInteger.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfIntegerShape.hxx>
-#include <TopTools_DataMapOfIntegerShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfIntegerShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
 
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

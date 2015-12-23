@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopOpeBRepTool_PSoClassif.hxx>
-#include <TopTools_IndexedDataMapOfShapeAddress.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeAddress.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>

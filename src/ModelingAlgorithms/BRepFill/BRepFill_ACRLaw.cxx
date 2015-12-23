@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ACRLaw)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #include <BRepFill.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <GeomFill_LocationGuide.hxx>

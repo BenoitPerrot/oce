@@ -58,7 +58,7 @@ private:
 #define TheItem XCAFPrs_Style
 #define TheItem_hxx <XCAFPrs_Style.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode XCAFPrs_DataMapNodeOfDataMapOfShapeStyle
 #define TCollection_DataMapNode_hxx <XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 #define TCollection_DataMapIterator XCAFPrs_DataMapIteratorOfDataMapOfShapeStyle

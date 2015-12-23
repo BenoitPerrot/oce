@@ -61,7 +61,7 @@ private:
 };
 
 #define Item TopTools_IndexedDataMapOfShapeListOfShape
-#define Item_hxx <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#define Item_hxx <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #define TCollection_ListNode TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape
 #define TCollection_ListNode_hxx <TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 #define TCollection_ListIterator TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape

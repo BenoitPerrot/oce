@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <LocOpe_DataMapOfShapePnt.hxx>
 #include <LocOpe_DataMapNodeOfDataMapOfShapePnt.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem gp_Pnt
 #define TheItem_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode LocOpe_DataMapNodeOfDataMapOfShapePnt
 #define TCollection_DataMapNode_hxx <LocOpe_DataMapNodeOfDataMapOfShapePnt.hxx>
 #define TCollection_DataMapIterator LocOpe_DataMapIteratorOfDataMapOfShapePnt

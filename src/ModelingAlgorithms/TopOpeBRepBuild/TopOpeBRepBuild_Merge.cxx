@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopTools_HArray1OfShape.hxx>
-#include <TopTools_HArray1OfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfListOfShape.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <TopOpeBRepBuild_ShapeSet.hxx>
@@ -33,16 +33,16 @@
 #include <TopOpeBRepBuild_WireEdgeSet.hxx>
 #include <TopOpeBRepDS_PointIterator.hxx>
 #include <TopOpeBRepBuild_PaveSet.hxx>
-#include <TopTools_DataMapOfIntegerListOfShape.hxx>
-#include <TopTools_DataMapOfIntegerShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
 #include <TopOpeBRepBuild_GTopo.hxx>
 #include <TopOpeBRepBuild_ShellFaceSet.hxx>
 #include <TopOpeBRepDS_SurfaceIterator.hxx>
-#include <TopTools_IndexedMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TopOpeBRepDS_CurveIterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -53,9 +53,9 @@
 #include <TopOpeBRepDS_ListOfShapeOn1State.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepBuild_define.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepCheck_Wire.hxx>
 #include <BRepCheck.hxx>

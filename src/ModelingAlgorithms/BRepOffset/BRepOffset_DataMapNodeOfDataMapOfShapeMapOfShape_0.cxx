@@ -8,8 +8,8 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <BRepOffset_DataMapOfShapeMapOfShape.hxx>
 #include <BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape.hxx>
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopTools_MapOfShape
-#define TheItem_hxx <TopTools_MapOfShape.hxx>
+#define TheItem_hxx <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape
 #define TCollection_DataMapNode_hxx <BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape.hxx>
 #define TCollection_DataMapIterator BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape

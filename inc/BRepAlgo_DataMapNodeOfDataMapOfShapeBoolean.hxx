@@ -57,7 +57,7 @@ private:
 #define TheItem Standard_Boolean
 #define TheItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean
 #define TCollection_DataMapNode_hxx <BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
 #define TCollection_DataMapIterator BRepAlgo_DataMapIteratorOfDataMapOfShapeBoolean

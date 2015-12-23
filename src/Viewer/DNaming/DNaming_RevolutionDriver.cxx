@@ -56,10 +56,10 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepLib_MakeWire.hxx>
 

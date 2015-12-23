@@ -11,7 +11,7 @@
 #include <Handle_BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -56,9 +56,9 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopTools_ListOfShape
-#define TheItem_hxx <TopTools_ListOfShape.hxx>
+#define TheItem_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
-#define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape
 #define TCollection_DataMapNode_hxx <BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
 #define TCollection_DataMapIterator BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape

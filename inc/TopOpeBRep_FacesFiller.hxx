@@ -19,8 +19,8 @@
 #include <TopOpeBRep_PLineInter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRep_PointClassifier.hxx>
 #include <TopOpeBRepTool_PShapeClassifier.hxx>

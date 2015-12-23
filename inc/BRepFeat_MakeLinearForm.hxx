@@ -14,8 +14,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepFeat_RibSlot.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

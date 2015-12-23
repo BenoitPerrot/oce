@@ -17,7 +17,7 @@
 
 #include <GeomFill_HArray1OfLocationLaw.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

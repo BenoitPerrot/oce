@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_C0RegularityFilter)
 IMPLEMENT_DOWNCAST(AIS_C0RegularityFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_C0RegularityFilter)
 
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

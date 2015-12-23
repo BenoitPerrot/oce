@@ -26,7 +26,7 @@
 //#include <BRepAlgo_Cut.hxx>
 #include <BiTgte_Blend.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -39,12 +39,12 @@
 #include <FilletSurf_Builder.hxx>
 #include <ChFi3d_FilletShape.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <FilletSurf_StatusType.hxx>
 #include <FilletSurf_ErrorTypeStatus.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <DrawTrSurf.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
 #include <AIS_InteractiveContext.hxx>
 #include <AIS_InteractiveObject.hxx>

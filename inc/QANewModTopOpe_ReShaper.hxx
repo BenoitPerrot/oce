@@ -11,7 +11,7 @@
 #include <Handle_QANewModTopOpe_ReShaper.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 class TopoDS_Shape;

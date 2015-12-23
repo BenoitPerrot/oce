@@ -21,7 +21,7 @@
 #include <HLRBRep_HLRToShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <HLRBRep.hxx>
 #include <HLRBRep_Data.hxx>

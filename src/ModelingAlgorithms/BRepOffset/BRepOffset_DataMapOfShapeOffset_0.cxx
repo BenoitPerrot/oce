@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffset_Offset.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <BRepOffset_DataMapNodeOfDataMapOfShapeOffset.hxx>
 #include <BRepOffset_DataMapIteratorOfDataMapOfShapeOffset.hxx>
  
@@ -19,7 +19,7 @@
 #define TheItem BRepOffset_Offset
 #define TheItem_hxx <BRepOffset_Offset.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepOffset_DataMapNodeOfDataMapOfShapeOffset
 #define TCollection_DataMapNode_hxx <BRepOffset_DataMapNodeOfDataMapOfShapeOffset.hxx>
 #define TCollection_DataMapIterator BRepOffset_DataMapIteratorOfDataMapOfShapeOffset

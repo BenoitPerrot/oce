@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools.hxx>
-#include <TopTools_ShapeSet.hxx>
+#include <ModelingData/TopTools/TopTools.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeSet.hxx>
 
 //=======================================================================
 //function : Dump

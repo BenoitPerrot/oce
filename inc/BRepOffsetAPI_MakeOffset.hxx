@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepFill_ListOfOffsetWire.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

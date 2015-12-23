@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_IndexedMapNodeOfIndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapNodeOfIndexedMapOfShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 
  
 
@@ -31,12 +31,12 @@ IMPLEMENT_STANDARD_RTTI(TopTools_IndexedMapNodeOfIndexedMapOfShape)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedMapNode TopTools_IndexedMapNodeOfIndexedMapOfShape
-#define TCollection_IndexedMapNode_hxx <TopTools_IndexedMapNodeOfIndexedMapOfShape.hxx>
+#define TCollection_IndexedMapNode_hxx <ModelingData/TopTools/TopTools_IndexedMapNodeOfIndexedMapOfShape.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_TopTools_IndexedMapNodeOfIndexedMapOfShape
 #define TCollection_IndexedMapNode_Type_() TopTools_IndexedMapNodeOfIndexedMapOfShape_Type_()
 #define TCollection_IndexedMap TopTools_IndexedMapOfShape
-#define TCollection_IndexedMap_hxx <TopTools_IndexedMapOfShape.hxx>
+#define TCollection_IndexedMap_hxx <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TCollection/TCollection_IndexedMapNode.gxx>
 

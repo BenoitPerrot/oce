@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepCheck_Result.hxx>
-#include <TopTools_OrientedShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #include <BRepCheck_DataMapOfShapeResult.hxx>
 #include <BRepCheck_DataMapNodeOfDataMapOfShapeResult.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Handle(BRepCheck_Result)
 #define TheItem_hxx <BRepCheck_Result.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
-#define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepCheck_DataMapNodeOfDataMapOfShapeResult
 #define TCollection_DataMapNode_hxx <BRepCheck_DataMapNodeOfDataMapOfShapeResult.hxx>
 #define TCollection_DataMapIterator BRepCheck_DataMapIteratorOfDataMapOfShapeResult

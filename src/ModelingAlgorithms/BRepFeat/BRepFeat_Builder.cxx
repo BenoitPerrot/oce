@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepFeat_Builder.hxx>
 
@@ -25,7 +25,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 

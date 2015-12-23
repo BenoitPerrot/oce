@@ -93,7 +93,7 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ChFiDS_Regul.hxx>
 #include <ChFiDS_State.hxx>

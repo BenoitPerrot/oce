@@ -22,7 +22,7 @@
 #include <StdPrs_DeflectionCurve.hxx>
 #include <StdPrs_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 
 // Computes the wireframe presentation of surfaces
 // by displaying planar sections.

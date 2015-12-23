@@ -21,8 +21,8 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepFill_Filling.hxx>
 #include <BRepFill_EdgeFaceAndOrder.hxx>
@@ -44,7 +44,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
@@ -63,7 +63,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>

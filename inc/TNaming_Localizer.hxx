@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TNaming_UsedShapes.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TNaming_ListOfMapOfShape.hxx>
 #include <TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

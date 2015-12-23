@@ -23,7 +23,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <TDF_AttributeSequence.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_ShapeTool)

@@ -13,8 +13,8 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopTools_IndexedMapOfOrientedShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Vertex;
 class TopoDS_Edge;

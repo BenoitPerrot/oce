@@ -23,7 +23,7 @@
 #include <HLRBRep_Array1OfEData.hxx>
 #include <HLRBRep_Array1OfFData.hxx>
 #include <HLRAlgo_Projector.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <HLRAlgo_Interference.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

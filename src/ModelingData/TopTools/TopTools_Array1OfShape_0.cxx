@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item TopoDS_Shape
 #define Array1Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_Array1 TopTools_Array1OfShape
-#define TCollection_Array1_hxx <TopTools_Array1OfShape.hxx>
+#define TCollection_Array1_hxx <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

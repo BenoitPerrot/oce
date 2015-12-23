@@ -25,8 +25,8 @@
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
 
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 //=======================================================================
 //function : QANewBRepNaming_BooleanOperation

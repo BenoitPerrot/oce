@@ -11,7 +11,7 @@
 #include <Handle_HLRBRep_Data.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <HLRBRep_Array1OfEData.hxx>
 #include <HLRBRep_Array1OfFData.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

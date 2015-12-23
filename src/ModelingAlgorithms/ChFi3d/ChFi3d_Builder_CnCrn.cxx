@@ -52,7 +52,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
@@ -127,7 +127,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
@@ -151,7 +151,7 @@
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
-#include <TopTools_Array2OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
 #include <BRepLib_MakeFace.hxx> 
 #include <Precision.hxx>
 // performances 

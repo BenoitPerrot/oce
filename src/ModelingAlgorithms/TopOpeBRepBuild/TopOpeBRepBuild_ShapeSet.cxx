@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <TopOpeBRepBuild_define.hxx>
@@ -29,7 +29,7 @@
 #include <TestTopOpeDraw_DrawableSHA.hxx>
 #include <TestTopOpeDraw_TTOT.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 static TCollection_AsciiString PRODINS("dins ");
 #endif
 

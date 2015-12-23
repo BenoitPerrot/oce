@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_LocOpe_GeneratedShape.hxx>
 
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopTools_ListOfShape;
 class TopoDS_Edge;

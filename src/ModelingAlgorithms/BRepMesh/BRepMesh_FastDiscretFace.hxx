@@ -21,7 +21,7 @@
 #include <BRepMesh.hxx>
 #include <BRepMesh_FaceAttribute.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TopTools_MutexForShapeProvider.hxx>
+#include <ModelingData/TopTools/TopTools_MutexForShapeProvider.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <BRepMesh_Delaun.hxx>

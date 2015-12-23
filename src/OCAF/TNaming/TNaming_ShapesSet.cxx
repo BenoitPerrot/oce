@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <TNaming_ShapesSet.hxx>
 #include <TNaming_IteratorOnShapesSet.hxx>
 #include <TNaming_Iterator.hxx>

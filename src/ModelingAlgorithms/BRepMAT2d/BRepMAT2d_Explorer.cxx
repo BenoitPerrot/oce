@@ -44,7 +44,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 
 //  Modified by Sergey KHROMOV - Thu Dec  5 10:38:14 2002 Begin
 static TopoDS_Edge MakeEdge(const Handle(Geom2d_Curve) &theCurve,

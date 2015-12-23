@@ -19,11 +19,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <BRepAlgo_NormalProjection.hxx>
 #include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
@@ -55,7 +55,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO
 #include <Foundation/OSD/OSD_Timer.hxx>

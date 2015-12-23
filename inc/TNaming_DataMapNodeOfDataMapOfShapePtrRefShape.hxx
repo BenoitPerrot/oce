@@ -57,7 +57,7 @@ private:
 #define TheItem TNaming_PtrRefShape
 #define TheItem_hxx <TNaming_PtrRefShape.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TNaming_DataMapNodeOfDataMapOfShapePtrRefShape
 #define TCollection_DataMapNode_hxx <TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 #define TCollection_DataMapIterator TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape

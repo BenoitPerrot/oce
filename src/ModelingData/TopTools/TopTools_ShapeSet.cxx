@@ -24,9 +24,9 @@
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_LocationSet.hxx>
+#include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopTools_ShapeSet.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeSet.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

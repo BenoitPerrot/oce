@@ -32,7 +32,7 @@
 #include <BRepAlgo_FaceRestrictor.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -42,7 +42,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 //=======================================================================

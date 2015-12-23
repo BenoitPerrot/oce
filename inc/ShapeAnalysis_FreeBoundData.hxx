@@ -13,7 +13,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <TopTools_DataMapOfShapeReal.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopTools_HSequenceOfShape;

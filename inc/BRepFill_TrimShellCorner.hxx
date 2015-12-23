@@ -16,7 +16,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 class TopTools_HArray2OfShape;
 class gp_Ax2;
 class TopoDS_Face;

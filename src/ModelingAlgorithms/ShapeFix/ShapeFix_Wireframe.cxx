@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ShapeFix_Wireframe.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Wireframe)
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 
 //#include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
@@ -53,16 +53,16 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <GeomAPI.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ShapeConstruct.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeAnalysis_TransferParametersProj.hxx>
@@ -478,7 +478,7 @@ ShapeFix_Wireframe::ShapeFix_Wireframe(const TopoDS_Shape& shape)
 //purpose  : 
 //=======================================================================
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 Standard_Boolean ShapeFix_Wireframe::CheckSmallEdges(TopTools_MapOfShape& theSmallEdges,
                                                      TopTools_DataMapOfShapeListOfShape& theEdgeToFaces,
                                                      TopTools_DataMapOfShapeListOfShape& theFaceWithSmall,

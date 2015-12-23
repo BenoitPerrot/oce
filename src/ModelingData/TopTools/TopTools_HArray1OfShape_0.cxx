@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(TopTools_HArray1OfShape)
 #define ItemHArray1 TopoDS_Shape
 #define ItemHArray1_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheArray1 TopTools_Array1OfShape
-#define TheArray1_hxx <TopTools_Array1OfShape.hxx>
+#define TheArray1_hxx <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #define TCollection_HArray1 TopTools_HArray1OfShape
-#define TCollection_HArray1_hxx <TopTools_HArray1OfShape.hxx>
+#define TCollection_HArray1_hxx <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #define Handle_TCollection_HArray1 Handle_TopTools_HArray1OfShape
 #define TCollection_HArray1_Type_() TopTools_HArray1OfShape_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

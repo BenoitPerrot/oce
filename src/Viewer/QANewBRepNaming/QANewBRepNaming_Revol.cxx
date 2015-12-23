@@ -23,7 +23,7 @@
 #include <TNaming_Builder.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

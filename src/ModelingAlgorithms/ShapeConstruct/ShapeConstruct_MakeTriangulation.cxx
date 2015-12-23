@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <BRepLib_MakePolygon.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <ShapeAnalysis_Edge.hxx>

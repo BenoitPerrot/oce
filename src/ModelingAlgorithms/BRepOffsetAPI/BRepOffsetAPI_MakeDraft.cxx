@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_MakeDraft.hxx>
 
 

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_DataMapOfOrientedShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeInteger.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_OrientedShapeMapHasher.hxx>
-#include <TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -18,14 +18,14 @@
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
-#define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger
-#define TCollection_DataMapNode_hxx <TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger.hxx>
+#define TCollection_DataMapNode_hxx <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger.hxx>
 #define TCollection_DataMapIterator TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger
-#define TCollection_DataMapIterator_hxx <TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfOrientedShapeInteger_Type_()
 #define TCollection_DataMap TopTools_DataMapOfOrientedShapeInteger
-#define TCollection_DataMap_hxx <TopTools_DataMapOfOrientedShapeInteger.hxx>
+#define TCollection_DataMap_hxx <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeInteger.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

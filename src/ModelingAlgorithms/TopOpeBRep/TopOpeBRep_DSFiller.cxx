@@ -44,7 +44,7 @@
 
 #include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
 #include <TopOpeBRepDS_ShapeWithState.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 
 extern void BREP_sortonparameter(const Handle(TopOpeBRepDS_HDataStructure)& HDS);
 extern void BREP_mergePDS(const Handle(TopOpeBRepDS_HDataStructure)& HDS);

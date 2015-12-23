@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepAlgo.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <TFunction_Logbook.hxx>
 #include <TFunction_Function.hxx>
 #include <DNaming.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelDefinitions.hxx>
 
 

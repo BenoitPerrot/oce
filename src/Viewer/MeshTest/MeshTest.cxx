@@ -28,7 +28,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <DBRep.hxx>
 #include <BRepTest.hxx>
 #include <GeometryTest.hxx>
@@ -92,7 +92,7 @@
 //OAN: for triepoints
 #include <BRepLib_MakeVertex.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
-#include <TopTools_MapIteratorOfMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

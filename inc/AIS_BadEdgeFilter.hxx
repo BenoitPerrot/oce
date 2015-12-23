@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_AIS_BadEdgeFilter.hxx>
 
-#include <TopTools_DataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

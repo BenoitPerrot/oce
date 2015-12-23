@@ -13,7 +13,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffset_Status.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_JoinType.hxx>

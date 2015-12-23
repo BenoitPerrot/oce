@@ -19,8 +19,8 @@
 #include <Handle_BRepFill_LocationLaw.hxx>
 #include <Handle_BRepFill_SectionLaw.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <BRepFill_TransitionStyle.hxx>
 class BRepFill_LocationLaw;

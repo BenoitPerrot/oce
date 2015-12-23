@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_DataMapOfShapeListOfInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
-#include <TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -19,14 +19,14 @@
 #define TheItem TColStd_ListOfInteger
 #define TheItem_hxx <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopTools_DataMapNodeOfDataMapOfShapeListOfInteger
-#define TCollection_DataMapNode_hxx <TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
+#define TCollection_DataMapNode_hxx <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
 #define TCollection_DataMapIterator TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger
-#define TCollection_DataMapIterator_hxx <TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfInteger.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfInteger
 #define TCollection_DataMapNode_Type_() TopTools_DataMapNodeOfDataMapOfShapeListOfInteger_Type_()
 #define TCollection_DataMap TopTools_DataMapOfShapeListOfInteger
-#define TCollection_DataMap_hxx <TopTools_DataMapOfShapeListOfInteger.hxx>
+#define TCollection_DataMap_hxx <ModelingData/TopTools/TopTools_DataMapOfShapeListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

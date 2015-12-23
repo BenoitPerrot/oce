@@ -27,7 +27,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx> 
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

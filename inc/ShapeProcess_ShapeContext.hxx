@@ -11,7 +11,7 @@
 #include <Handle_ShapeProcess_ShapeContext.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Handle_ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ShapeProcess_Context.hxx>

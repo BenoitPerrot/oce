@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_LocationDriver)
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 
 #include <XmlMNaming.hxx>
-#include <TopTools_LocationSet.hxx>
+#include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 
 IMPLEMENT_DOMSTRING (DatumString,    "datum")
 IMPLEMENT_DOMSTRING (LocationString, "location")

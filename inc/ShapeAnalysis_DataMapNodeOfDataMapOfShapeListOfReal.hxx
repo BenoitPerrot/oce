@@ -58,7 +58,7 @@ private:
 #define TheItem TColStd_ListOfReal
 #define TheItem_hxx <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal
 #define TCollection_DataMapNode_hxx <ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal.hxx>
 #define TCollection_DataMapIterator ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal

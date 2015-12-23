@@ -21,7 +21,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

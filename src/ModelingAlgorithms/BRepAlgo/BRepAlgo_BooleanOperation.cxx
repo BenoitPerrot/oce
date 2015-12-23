@@ -19,7 +19,7 @@
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepAlgo_BooleanOperation.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
@@ -29,9 +29,9 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 
@@ -47,7 +47,7 @@
 #include <TopOpeBRepBuild_Tools.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 
 
 #ifdef OCCT_DEBUG

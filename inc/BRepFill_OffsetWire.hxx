@@ -18,7 +18,7 @@
 #include <BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
 #include <BRepMAT2d_BisectingLocus.hxx>
 #include <BRepMAT2d_LinkTopoBilo.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 class Standard_ConstructionError;
 class Standard_NoSuchObject;
 class TopoDS_Face;

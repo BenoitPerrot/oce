@@ -11,7 +11,7 @@
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 
 #include <TopOpeBRepBuild_Builder1.hxx>
-#include <TopTools_DataMapOfShapeInteger.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

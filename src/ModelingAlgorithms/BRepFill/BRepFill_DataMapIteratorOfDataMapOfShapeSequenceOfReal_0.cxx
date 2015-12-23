@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <BRepFill_DataMapOfShapeSequenceOfReal.hxx>
 #include <BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TColStd_SequenceOfReal
 #define TheItem_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal
 #define TCollection_DataMapNode_hxx <BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal.hxx>
 #define TCollection_DataMapIterator BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal

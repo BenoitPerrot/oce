@@ -17,7 +17,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <TopTools_LocationSet.hxx>
+#include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 
 // This file defines global functions not declared in any public header,
 // intended for use from debugger prompt (Command Window in Visual Studio)

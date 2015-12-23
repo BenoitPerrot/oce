@@ -90,7 +90,7 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 const Standard_Real SquareTolerance = Precision::SquareConfusion();

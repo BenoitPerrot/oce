@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRTopoBRep_FaceData.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <HLRTopoBRep_DataMapOfShapeFaceData.hxx>
 #include <HLRTopoBRep_DataMapNodeOfDataMapOfShapeFaceData.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem HLRTopoBRep_FaceData
 #define TheItem_hxx <HLRTopoBRep_FaceData.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode HLRTopoBRep_DataMapNodeOfDataMapOfShapeFaceData
 #define TCollection_DataMapNode_hxx <HLRTopoBRep_DataMapNodeOfDataMapOfShapeFaceData.hxx>
 #define TCollection_DataMapIterator HLRTopoBRep_DataMapIteratorOfDataMapOfShapeFaceData

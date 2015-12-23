@@ -58,7 +58,7 @@ private:
 #define TheItem Message_ListOfMsg
 #define TheItem_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg
 #define TCollection_DataMapNode_hxx <ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 #define TCollection_DataMapIterator ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg

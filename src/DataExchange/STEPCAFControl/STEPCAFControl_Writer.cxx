@@ -39,12 +39,12 @@
 #include <XCAFPrs_DataMapOfStyleShape.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <XCAFPrs_DataMapIteratorOfDataMapOfStyleShape.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <STEPConstruct_Styles.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <STEPConstruct.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <XSControl_TransferWriter.hxx>
 #include <TDataStd_Name.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>

@@ -58,7 +58,7 @@ private:
 #define TheItem Bnd_Box2d
 #define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeFix_DataMapNodeOfDataMapOfShapeBox2d
 #define TCollection_DataMapNode_hxx <ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
 #define TCollection_DataMapIterator ShapeFix_DataMapIteratorOfDataMapOfShapeBox2d

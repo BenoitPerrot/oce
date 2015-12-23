@@ -53,8 +53,8 @@
 #include <Foundation/SortTools/SortTools_ShellSortOfReal.hxx>
 #include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 
-#include <TopTools_SequenceOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

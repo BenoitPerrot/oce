@@ -25,10 +25,10 @@
 #include <HLRAlgo_Projector.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <HLRAlgo_PolyInternalData.hxx>
 #include <HLRAlgo_EdgeStatus.hxx>
 #include <HLRBRep_PolyAlgo.hxx>
@@ -56,9 +56,9 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_Array1OfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>

@@ -1580,7 +1580,7 @@ static Standard_Integer OCC2569 (Draw_Interpretor& di, Standard_Integer argc, co
   return 0;
 }
 
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 static Standard_Integer OCC1642 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)

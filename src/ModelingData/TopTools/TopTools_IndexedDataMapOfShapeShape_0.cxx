@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTools_IndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
-#include <TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -18,12 +18,12 @@
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape
-#define TCollection_IndexedDataMapNode_hxx <TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape.hxx>
+#define TCollection_IndexedDataMapNode_hxx <ModelingData/TopTools/TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape
 #define TCollection_IndexedDataMapNode_Type_() TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeShape_Type_()
 #define TCollection_IndexedDataMap TopTools_IndexedDataMapOfShapeShape
-#define TCollection_IndexedDataMap_hxx <TopTools_IndexedDataMapOfShapeShape.hxx>
+#define TCollection_IndexedDataMap_hxx <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

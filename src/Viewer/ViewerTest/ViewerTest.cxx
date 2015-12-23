@@ -27,7 +27,7 @@
 #include <ViewerTest.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
@@ -64,7 +64,7 @@
 #include <StdSelect_BRepOwner.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <Select3D_Projector.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ViewerTest_AutoUpdater.hxx>
 
 #include <stdio.h>
@@ -197,7 +197,7 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_DisplayMode.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_MakeThickSolid.hxx>
 #include <BRepOffset.hxx>
 

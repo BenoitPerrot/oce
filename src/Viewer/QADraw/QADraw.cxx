@@ -34,7 +34,7 @@
 #include <BRepBndLib.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <stdio.h>

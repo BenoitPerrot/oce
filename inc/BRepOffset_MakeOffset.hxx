@@ -15,11 +15,11 @@
 #include <BRepOffset_Mode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_JoinType.hxx>
-#include <TopTools_DataMapOfShapeReal.hxx>
-#include <TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <BRepOffset_Analyse.hxx>
 #include <BRepAlgo_Image.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
 #include <BRepOffset_Error.hxx>
 #include <BRepOffset_MakeLoops.hxx>

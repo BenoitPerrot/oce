@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlMXCAFDoc_LocationDriver.hxx>
 
-#include <TopTools_LocationSetPtr.hxx>
+#include <ModelingData/TopTools/TopTools_LocationSetPtr.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TopOpeBRepBuild_ShapeListOfShape.hxx>
 
 #define MTTdmiomoslos TopTools_DataMapIteratorOfDataMapOfShapeListOfShape

@@ -30,7 +30,7 @@
 #include <XCAFDoc_DocumentTool.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <XCAFDoc_LayerTool.hxx>
-#include <TopTools_SequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_IndexedMapOfLocation.hxx>
 #include <TDF_AttributeSequence.hxx>
 #include <XCAFDoc_GraphNode.hxx>

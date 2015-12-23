@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Mathematics/Primitives/gp_Vec.hxx>
 //#include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <TopTools_Array1OfShape.hxx>
+#include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 
@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <ShapeFix_Shape.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

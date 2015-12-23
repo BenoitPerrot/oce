@@ -9,7 +9,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRTopoBRep_ListOfVData.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <HLRTopoBRep_MapOfShapeListOfVData.hxx>
 #include <HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData.hxx>
 
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData)
 #define TheItem HLRTopoBRep_ListOfVData
 #define TheItem_hxx <HLRTopoBRep_ListOfVData.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData
 #define TCollection_DataMapNode_hxx <HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData.hxx>
 #define TCollection_DataMapIterator HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData

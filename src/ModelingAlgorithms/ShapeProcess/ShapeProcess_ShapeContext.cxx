@@ -15,7 +15,7 @@
 
 #include <ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeProcess_ShapeContext)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>

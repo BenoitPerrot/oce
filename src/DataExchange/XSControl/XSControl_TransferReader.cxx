@@ -19,7 +19,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <TransferBRep_ShapeBinder.hxx>
 #include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 #include <XSControl_Utils.hxx>
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
 //  Precision :
 #include <Interface_Static.hxx>

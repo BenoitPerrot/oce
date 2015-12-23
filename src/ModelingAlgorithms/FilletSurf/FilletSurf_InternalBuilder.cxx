@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_Spine.hxx>
@@ -51,7 +51,7 @@
 #include <BRepBlend_ConstRadInv.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

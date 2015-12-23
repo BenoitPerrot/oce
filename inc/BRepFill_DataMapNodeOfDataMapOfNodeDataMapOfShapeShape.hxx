@@ -11,7 +11,7 @@
 #include <Handle_BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape.hxx>
 
 #include <Handle_MAT_Node.hxx>
-#include <TopTools_DataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MAT_Node;
@@ -56,7 +56,7 @@ private:
 #define TheKey Handle(MAT_Node)
 #define TheKey_hxx <MAT_Node.hxx>
 #define TheItem TopTools_DataMapOfShapeShape
-#define TheItem_hxx <TopTools_DataMapOfShapeShape.hxx>
+#define TheItem_hxx <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape

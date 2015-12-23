@@ -18,7 +18,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopTools_LocationSet.hxx>
+#include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 

@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 #include <ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem Message_ListOfMsg
 #define TheItem_hxx <Foundation/Message/Message_ListOfMsg.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg
 #define TCollection_DataMapNode_hxx <ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 #define TCollection_DataMapIterator ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg

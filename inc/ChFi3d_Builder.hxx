@@ -19,8 +19,8 @@
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFiDS_StripeMap.hxx>
 #include <ChFiDS_Regularities.hxx>
-#include <TopTools_ListOfShape.hxx>
-#include <TopTools_DataMapOfShapeListOfInteger.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ChFiDS_Spine.hxx>

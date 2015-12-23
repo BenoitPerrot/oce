@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
-#include <TopTools_ListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 
 #include <BRepAlgoAPI.hxx>
@@ -24,8 +24,8 @@
 
 #include <BRepLib_FuseEdges.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopTools_MapOfShape.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <BOPDS_DS.hxx>
 

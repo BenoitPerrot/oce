@@ -1282,7 +1282,7 @@ static Standard_Integer OCC22 (Draw_Interpretor& di, Standard_Integer argc, cons
 #include <ShapeProcess_ShapeContext.hxx>
 #include <ShapeProcess.hxx>
 
-#include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
+#include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 
 //=======================================================================
@@ -2118,7 +2118,7 @@ static Standard_Integer OCC1487 (Draw_Interpretor& di, Standard_Integer argc, co
   return 0;
 }
 
-#include<TopTools_ListIteratorOfListOfShape.hxx>
+#include<ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include<BRepFilletAPI_MakeFillet.hxx>
 //=======================================================================
 //function :  OCC1077

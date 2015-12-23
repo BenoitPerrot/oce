@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
 #include <TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape
 
 
 #define Item TopTools_IndexedDataMapOfShapeListOfShape
-#define Item_hxx <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
+#define Item_hxx <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #define TCollection_ListNode TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape
 #define TCollection_ListNode_hxx <TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 #define TCollection_ListIterator TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape

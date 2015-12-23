@@ -58,7 +58,7 @@ private:
 #define TheItem Handle(StepShape_ShapeDefinitionRepresentation)
 #define TheItem_hxx <StepShape_ShapeDefinitionRepresentation.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR
 #define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR

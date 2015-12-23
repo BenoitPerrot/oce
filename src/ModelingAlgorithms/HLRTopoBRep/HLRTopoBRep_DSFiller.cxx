@@ -62,7 +62,7 @@
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <BRepExtrema_ExtPC.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #define INTERPOLATE 0
 #define BRISE       0

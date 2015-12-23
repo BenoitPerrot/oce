@@ -32,7 +32,7 @@
 #include <Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 
-#include <TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

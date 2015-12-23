@@ -63,7 +63,7 @@
 #include <ChFiDS_ListIteratorOfRegularities.hxx>
 #include <ChFiDS_Regul.hxx>
 #include <ChFiDS_ErrorStatus.hxx>
-#include <TopTools_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 #include <TopOpeBRepDS_Curve.hxx>

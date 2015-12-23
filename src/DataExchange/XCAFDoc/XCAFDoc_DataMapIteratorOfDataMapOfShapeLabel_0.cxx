@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Label.hxx>
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
  
@@ -18,7 +18,7 @@
 #define TheItem TDF_Label
 #define TheItem_hxx <TDF_Label.hxx>
 #define Hasher TopTools_ShapeMapHasher
-#define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
+#define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode XCAFDoc_DataMapNodeOfDataMapOfShapeLabel
 #define TCollection_DataMapNode_hxx <XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
 #define TCollection_DataMapIterator XCAFDoc_DataMapIteratorOfDataMapOfShapeLabel

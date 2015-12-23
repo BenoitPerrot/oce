@@ -16,7 +16,7 @@
 #define BOPCol_IndexedDataMapOfShapeInteger_HeaderFile
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
-#include <TopTools_ShapeMapHasher.hxx>
+#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
   
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 
