@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Conic.hxx>
 #endif
 #ifndef _PGeom_Conic_HeaderFile
-#include <PGeom_Conic.hxx>
+#include <OCAF/PGeom/PGeom_Conic.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax2_HeaderFile
 #include <ShapeSchema_gp_Ax2.hxx>

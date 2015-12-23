@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_BSplineSurface.hxx>
 #endif
 #ifndef _PGeom_BSplineSurface_HeaderFile
-#include <PGeom_BSplineSurface.hxx>
+#include <OCAF/PGeom/PGeom_BSplineSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfPnt_HeaderFile
 #include <ShapeSchema_PColgp_HArray2OfPnt.hxx>

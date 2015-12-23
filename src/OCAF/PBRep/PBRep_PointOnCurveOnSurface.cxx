@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PGeom2d_Curve.hxx>
-#include <PGeom_Surface.hxx>
+#include <OCAF/PGeom/PGeom_Surface.hxx>
 #include <PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_PointOnCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

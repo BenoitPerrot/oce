@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <PGeom_Ellipse.hxx>
+#include <OCAF/PGeom/PGeom_Ellipse.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Ellipse)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_VectorWithMagnitude.hxx>
 #endif
 #ifndef _PGeom_VectorWithMagnitude_HeaderFile
-#include <PGeom_VectorWithMagnitude.hxx>
+#include <OCAF/PGeom/PGeom_VectorWithMagnitude.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Vec_HeaderFile
 #include <ShapeSchema_gp_Vec.hxx>

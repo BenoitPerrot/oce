@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Circle.hxx>
 #endif
 #ifndef _PGeom_Circle_HeaderFile
-#include <PGeom_Circle.hxx>
+#include <OCAF/PGeom/PGeom_Circle.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax2_HeaderFile
 #include <ShapeSchema_gp_Ax2.hxx>

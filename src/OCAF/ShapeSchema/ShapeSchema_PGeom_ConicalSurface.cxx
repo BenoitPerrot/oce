@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_ConicalSurface.hxx>
 #endif
 #ifndef _PGeom_ConicalSurface_HeaderFile
-#include <PGeom_ConicalSurface.hxx>
+#include <OCAF/PGeom/PGeom_ConicalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax3_HeaderFile
 #include <ShapeSchema_gp_Ax3.hxx>

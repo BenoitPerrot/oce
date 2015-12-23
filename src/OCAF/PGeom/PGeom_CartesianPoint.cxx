@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <PGeom_CartesianPoint.hxx>
+#include <OCAF/PGeom/PGeom_CartesianPoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_CartesianPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

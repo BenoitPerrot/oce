@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_Curve.hxx>
+#include <OCAF/PGeom/PGeom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <PGeom_SweptSurface.hxx>
+#include <OCAF/PGeom/PGeom_SweptSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_SweptSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

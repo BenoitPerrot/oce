@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_ToroidalSurface.hxx>
 #endif
 #ifndef _PGeom_ToroidalSurface_HeaderFile
-#include <PGeom_ToroidalSurface.hxx>
+#include <OCAF/PGeom/PGeom_ToroidalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax3_HeaderFile
 #include <ShapeSchema_gp_Ax3.hxx>

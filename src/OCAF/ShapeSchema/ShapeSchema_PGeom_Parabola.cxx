@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Parabola.hxx>
 #endif
 #ifndef _PGeom_Parabola_HeaderFile
-#include <PGeom_Parabola.hxx>
+#include <OCAF/PGeom/PGeom_Parabola.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax2_HeaderFile
 #include <ShapeSchema_gp_Ax2.hxx>

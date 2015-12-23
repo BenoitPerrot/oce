@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_Surface.hxx>
-#include <PGeom_RectangularTrimmedSurface.hxx>
+#include <OCAF/PGeom/PGeom_Surface.hxx>
+#include <OCAF/PGeom/PGeom_RectangularTrimmedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_RectangularTrimmedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

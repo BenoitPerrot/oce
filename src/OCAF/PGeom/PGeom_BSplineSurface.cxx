@@ -18,7 +18,7 @@
 #include <OCAF/PColStd/PColStd_HArray2OfReal.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
-#include <PGeom_BSplineSurface.hxx>
+#include <OCAF/PGeom/PGeom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_BSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

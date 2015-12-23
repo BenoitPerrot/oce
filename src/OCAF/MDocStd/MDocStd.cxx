@@ -49,7 +49,7 @@ static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064
 //#include <OCAF/PBRep/PBRep_TEdge1.hxx>
 //#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 //#include <OCAF/PBRep/PBRep_TFace1.hxx>
-//#include <PGeom_Surface.hxx>
+//#include <OCAF/PGeom/PGeom_Surface.hxx>
 //#include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
 //=======================================================================
 //function : WeightWatcher

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Transformation.hxx>
 #endif
 #ifndef _PGeom_Transformation_HeaderFile
-#include <PGeom_Transformation.hxx>
+#include <OCAF/PGeom/PGeom_Transformation.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Trsf_HeaderFile
 #include <ShapeSchema_gp_Trsf.hxx>

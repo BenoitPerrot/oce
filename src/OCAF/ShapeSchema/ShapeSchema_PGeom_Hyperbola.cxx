@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Hyperbola.hxx>
 #endif
 #ifndef _PGeom_Hyperbola_HeaderFile
-#include <PGeom_Hyperbola.hxx>
+#include <OCAF/PGeom/PGeom_Hyperbola.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax2_HeaderFile
 #include <ShapeSchema_gp_Ax2.hxx>

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_SphericalSurface.hxx>
 #endif
 #ifndef _PGeom_SphericalSurface_HeaderFile
-#include <PGeom_SphericalSurface.hxx>
+#include <OCAF/PGeom/PGeom_SphericalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax3_HeaderFile
 #include <ShapeSchema_gp_Ax3.hxx>

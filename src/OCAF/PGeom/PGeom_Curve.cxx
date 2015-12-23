@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_Curve.hxx>
+#include <OCAF/PGeom/PGeom_Curve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Curve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

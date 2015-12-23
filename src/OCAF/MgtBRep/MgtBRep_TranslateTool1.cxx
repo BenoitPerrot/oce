@@ -22,13 +22,13 @@
 
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <PGeom_Curve.hxx>
+#include <OCAF/PGeom/PGeom_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <PGeom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <PGeom_Surface.hxx>
+#include <OCAF/PGeom/PGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <PTopoDS_Shape1.hxx>

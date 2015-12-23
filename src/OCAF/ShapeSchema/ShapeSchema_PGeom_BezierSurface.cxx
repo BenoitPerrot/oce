@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_BezierSurface.hxx>
 #endif
 #ifndef _PGeom_BezierSurface_HeaderFile
-#include <PGeom_BezierSurface.hxx>
+#include <OCAF/PGeom/PGeom_BezierSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray2OfPnt_HeaderFile
 #include <ShapeSchema_PColgp_HArray2OfPnt.hxx>

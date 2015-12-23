@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_BSplineCurve.hxx>
 #endif
 #ifndef _PGeom_BSplineCurve_HeaderFile
-#include <PGeom_BSplineCurve.hxx>
+#include <OCAF/PGeom/PGeom_BSplineCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt_HeaderFile
 #include <ShapeSchema_PColgp_HArray1OfPnt.hxx>

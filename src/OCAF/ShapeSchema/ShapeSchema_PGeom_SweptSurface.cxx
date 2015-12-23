@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_SweptSurface.hxx>
 #endif
 #ifndef _PGeom_SweptSurface_HeaderFile
-#include <PGeom_SweptSurface.hxx>
+#include <OCAF/PGeom/PGeom_SweptSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
 #include <ShapeSchema_PGeom_Curve.hxx>

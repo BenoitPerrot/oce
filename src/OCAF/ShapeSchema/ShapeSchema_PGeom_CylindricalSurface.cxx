@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_CylindricalSurface.hxx>
 #endif
 #ifndef _PGeom_CylindricalSurface_HeaderFile
-#include <PGeom_CylindricalSurface.hxx>
+#include <OCAF/PGeom/PGeom_CylindricalSurface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax3_HeaderFile
 #include <ShapeSchema_gp_Ax3.hxx>

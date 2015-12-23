@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <PGeom_Direction.hxx>
+#include <OCAF/PGeom/PGeom_Direction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Direction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

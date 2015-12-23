@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Point.hxx>
 #endif
 #ifndef _PGeom_Point_HeaderFile
-#include <PGeom_Point.hxx>
+#include <OCAF/PGeom/PGeom_Point.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

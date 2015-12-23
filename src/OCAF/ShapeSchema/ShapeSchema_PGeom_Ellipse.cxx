@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Ellipse.hxx>
 #endif
 #ifndef _PGeom_Ellipse_HeaderFile
-#include <PGeom_Ellipse.hxx>
+#include <OCAF/PGeom/PGeom_Ellipse.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax2_HeaderFile
 #include <ShapeSchema_gp_Ax2.hxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_Surface.hxx>
+#include <OCAF/PGeom/PGeom_Surface.hxx>
 #include <PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_PointOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

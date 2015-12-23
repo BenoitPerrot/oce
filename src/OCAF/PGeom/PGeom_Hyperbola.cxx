@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <PGeom_Hyperbola.hxx>
+#include <OCAF/PGeom/PGeom_Hyperbola.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Hyperbola)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_BoundedSurface.hxx>
 #endif
 #ifndef _PGeom_BoundedSurface_HeaderFile
-#include <PGeom_BoundedSurface.hxx>
+#include <OCAF/PGeom/PGeom_BoundedSurface.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <PGeom_ToroidalSurface.hxx>
+#include <OCAF/PGeom/PGeom_ToroidalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_ToroidalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

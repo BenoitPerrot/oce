@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_SurfaceOfLinearExtrusion.hxx>
 #endif
 #ifndef _PGeom_SurfaceOfLinearExtrusion_HeaderFile
-#include <PGeom_SurfaceOfLinearExtrusion.hxx>
+#include <OCAF/PGeom/PGeom_SurfaceOfLinearExtrusion.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
 #include <ShapeSchema_PGeom_Curve.hxx>

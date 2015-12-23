@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <PGeom_Axis2Placement.hxx>
+#include <OCAF/PGeom/PGeom_Axis2Placement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Axis2Placement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

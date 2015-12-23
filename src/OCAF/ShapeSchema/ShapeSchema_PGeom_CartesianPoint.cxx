@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_CartesianPoint.hxx>
 #endif
 #ifndef _PGeom_CartesianPoint_HeaderFile
-#include <PGeom_CartesianPoint.hxx>
+#include <OCAF/PGeom/PGeom_CartesianPoint.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Pnt_HeaderFile
 #include <ShapeSchema_gp_Pnt.hxx>

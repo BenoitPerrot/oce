@@ -24,7 +24,7 @@
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
-#include <PGeom_Geometry.hxx>
+#include <OCAF/PGeom/PGeom_Geometry.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
@@ -63,13 +63,13 @@
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
 #include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
-#include <PGeom_Curve.hxx>
-#include <PGeom_Surface.hxx>
-#include <PGeom_Point.hxx>
-#include <PGeom_Axis1Placement.hxx>
-#include <PGeom_Axis2Placement.hxx>
-#include <PGeom_Direction.hxx>
-#include <PGeom_VectorWithMagnitude.hxx>
+#include <OCAF/PGeom/PGeom_Curve.hxx>
+#include <OCAF/PGeom/PGeom_Surface.hxx>
+#include <OCAF/PGeom/PGeom_Point.hxx>
+#include <OCAF/PGeom/PGeom_Axis1Placement.hxx>
+#include <OCAF/PGeom/PGeom_Axis2Placement.hxx>
+#include <OCAF/PGeom/PGeom_Direction.hxx>
+#include <OCAF/PGeom/PGeom_VectorWithMagnitude.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
 //=======================================================================

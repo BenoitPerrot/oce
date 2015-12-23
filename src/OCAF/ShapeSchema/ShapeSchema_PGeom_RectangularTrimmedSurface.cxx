@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_RectangularTrimmedSurface.hxx>
 #endif
 #ifndef _PGeom_RectangularTrimmedSurface_HeaderFile
-#include <PGeom_RectangularTrimmedSurface.hxx>
+#include <OCAF/PGeom/PGeom_RectangularTrimmedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Surface_HeaderFile
 #include <ShapeSchema_PGeom_Surface.hxx>

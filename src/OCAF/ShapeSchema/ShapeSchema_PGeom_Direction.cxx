@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Direction.hxx>
 #endif
 #ifndef _PGeom_Direction_HeaderFile
-#include <PGeom_Direction.hxx>
+#include <OCAF/PGeom/PGeom_Direction.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Vec_HeaderFile
 #include <ShapeSchema_gp_Vec.hxx>

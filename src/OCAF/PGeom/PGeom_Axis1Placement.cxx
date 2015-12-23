@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <PGeom_Axis1Placement.hxx>
+#include <OCAF/PGeom/PGeom_Axis1Placement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Axis1Placement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

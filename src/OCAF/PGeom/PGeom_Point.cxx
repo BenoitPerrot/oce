@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PGeom_Point.hxx>
+#include <OCAF/PGeom/PGeom_Point.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

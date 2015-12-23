@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <PGeom_Line.hxx>
+#include <OCAF/PGeom/PGeom_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

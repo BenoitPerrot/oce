@@ -16,7 +16,7 @@
 
 #include <OCAF/PColgp/PColgp_HArray2OfPnt.hxx>
 #include <OCAF/PColStd/PColStd_HArray2OfReal.hxx>
-#include <PGeom_BezierSurface.hxx>
+#include <OCAF/PGeom/PGeom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_BezierSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

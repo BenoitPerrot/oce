@@ -16,7 +16,7 @@
 
 // Update:      Frederic MAUPAS
 
-#include <PGeom_Curve.hxx>
+#include <OCAF/PGeom/PGeom_Curve.hxx>
 #include <PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_Curve3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

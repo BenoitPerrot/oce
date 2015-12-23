@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_TrimmedCurve.hxx>
 #endif
 #ifndef _PGeom_TrimmedCurve_HeaderFile
-#include <PGeom_TrimmedCurve.hxx>
+#include <OCAF/PGeom/PGeom_TrimmedCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
 #include <ShapeSchema_PGeom_Curve.hxx>

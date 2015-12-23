@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <PGeom_ConicalSurface.hxx>
+#include <OCAF/PGeom/PGeom_ConicalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_ConicalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

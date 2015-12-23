@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_ElementarySurface.hxx>
 #endif
 #ifndef _PGeom_ElementarySurface_HeaderFile
-#include <PGeom_ElementarySurface.hxx>
+#include <OCAF/PGeom/PGeom_ElementarySurface.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax3_HeaderFile
 #include <ShapeSchema_gp_Ax3.hxx>

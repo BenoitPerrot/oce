@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_Axis1Placement.hxx>
 #endif
 #ifndef _PGeom_Axis1Placement_HeaderFile
-#include <PGeom_Axis1Placement.hxx>
+#include <OCAF/PGeom/PGeom_Axis1Placement.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax1_HeaderFile
 #include <ShapeSchema_gp_Ax1.hxx>

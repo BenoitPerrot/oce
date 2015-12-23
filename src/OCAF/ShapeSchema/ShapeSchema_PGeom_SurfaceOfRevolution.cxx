@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom_SurfaceOfRevolution.hxx>
 #endif
 #ifndef _PGeom_SurfaceOfRevolution_HeaderFile
-#include <PGeom_SurfaceOfRevolution.hxx>
+#include <OCAF/PGeom/PGeom_SurfaceOfRevolution.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom_Curve_HeaderFile
 #include <ShapeSchema_PGeom_Curve.hxx>
