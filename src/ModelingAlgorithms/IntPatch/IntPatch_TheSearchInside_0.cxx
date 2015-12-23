@@ -28,5 +28,5 @@
 #define TheFunction_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSurfFunction.hxx>
 #define IntStart_SearchInside IntPatch_TheSearchInside
 #define IntStart_SearchInside_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSearchInside.hxx>
-#include <IntStart_SearchInside.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchInside.gxx>
 

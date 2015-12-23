@@ -81,7 +81,7 @@ private:
 #define IntStart_PathPoint IntPatch_ThePathPointOfTheSOnBounds
 #define IntStart_PathPoint_hxx <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
 
-#include <IntStart_PathPoint.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_PathPoint.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

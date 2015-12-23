@@ -81,7 +81,7 @@ private:
 #define IntStart_SearchInside Contap_TheSearchInside
 #define IntStart_SearchInside_hxx <ModelingAlgorithms/Contap/Contap_TheSearchInside.hxx>
 
-#include <IntStart_SearchInside.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchInside.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx

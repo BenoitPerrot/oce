@@ -17,5 +17,5 @@
 #define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define IntStart_PathPoint IntPatch_ThePathPointOfTheSOnBounds
 #define IntStart_PathPoint_hxx <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
-#include <IntStart_PathPoint.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_PathPoint.gxx>
 

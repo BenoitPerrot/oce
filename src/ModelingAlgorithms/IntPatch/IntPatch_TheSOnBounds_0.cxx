@@ -61,5 +61,5 @@
 #define IntStart_SequenceNodeOfSequenceOfSegment_Type_() IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds_Type_()
 #define IntStart_SearchOnBoundaries IntPatch_TheSOnBounds
 #define IntStart_SearchOnBoundaries_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSOnBounds.hxx>
-#include <IntStart_SearchOnBoundaries.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchOnBoundaries.gxx>
 

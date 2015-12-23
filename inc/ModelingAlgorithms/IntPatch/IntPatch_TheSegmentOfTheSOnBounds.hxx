@@ -75,7 +75,7 @@ private:
 #define IntStart_Segment IntPatch_TheSegmentOfTheSOnBounds
 #define IntStart_Segment_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
 
-#include <IntStart_Segment.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_Segment.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

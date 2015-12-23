@@ -28,5 +28,5 @@
 #define TheFunction_hxx <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
 #define IntStart_SearchInside Contap_TheSearchInside
 #define IntStart_SearchInside_hxx <ModelingAlgorithms/Contap/Contap_TheSearchInside.hxx>
-#include <IntStart_SearchInside.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchInside.gxx>
 

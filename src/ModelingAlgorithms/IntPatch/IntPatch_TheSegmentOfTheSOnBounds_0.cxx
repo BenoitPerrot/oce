@@ -19,5 +19,5 @@
 #define ThePathPoint_hxx <ModelingAlgorithms/IntPatch/IntPatch_ThePathPointOfTheSOnBounds.hxx>
 #define IntStart_Segment IntPatch_TheSegmentOfTheSOnBounds
 #define IntStart_Segment_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSegmentOfTheSOnBounds.hxx>
-#include <IntStart_Segment.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_Segment.gxx>
 

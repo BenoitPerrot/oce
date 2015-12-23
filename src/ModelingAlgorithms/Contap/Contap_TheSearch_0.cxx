@@ -61,5 +61,5 @@
 #define IntStart_SequenceNodeOfSequenceOfSegment_Type_() Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch_Type_()
 #define IntStart_SearchOnBoundaries Contap_TheSearch
 #define IntStart_SearchOnBoundaries_hxx <ModelingAlgorithms/Contap/Contap_TheSearch.hxx>
-#include <IntStart_SearchOnBoundaries.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchOnBoundaries.gxx>
 

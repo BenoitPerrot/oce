@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntStart_SITopolTool.hxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SITopolTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntStart_SITopolTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

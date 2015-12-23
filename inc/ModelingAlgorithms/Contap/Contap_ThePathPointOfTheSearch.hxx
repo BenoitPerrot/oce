@@ -81,7 +81,7 @@ private:
 #define IntStart_PathPoint Contap_ThePathPointOfTheSearch
 #define IntStart_PathPoint_hxx <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
 
-#include <IntStart_PathPoint.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_PathPoint.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

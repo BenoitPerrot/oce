@@ -19,5 +19,5 @@
 #define ThePathPoint_hxx <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
 #define IntStart_Segment Contap_TheSegmentOfTheSearch
 #define IntStart_Segment_hxx <ModelingAlgorithms/Contap/Contap_TheSegmentOfTheSearch.hxx>
-#include <IntStart_Segment.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_Segment.gxx>
 

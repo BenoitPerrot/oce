@@ -17,5 +17,5 @@
 #define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define IntStart_PathPoint Contap_ThePathPointOfTheSearch
 #define IntStart_PathPoint_hxx <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
-#include <IntStart_PathPoint.gxx>
+#include <ModelingAlgorithms/IntStart/IntStart_PathPoint.gxx>
 

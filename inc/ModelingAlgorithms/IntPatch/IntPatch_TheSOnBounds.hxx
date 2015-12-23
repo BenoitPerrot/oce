@@ -122,7 +122,7 @@ private:
 #define IntStart_SearchOnBoundaries IntPatch_TheSOnBounds
 #define IntStart_SearchOnBoundaries_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSOnBounds.hxx>
 
-#include <IntStart_SearchOnBoundaries.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchOnBoundaries.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

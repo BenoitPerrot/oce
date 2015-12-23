@@ -122,7 +122,7 @@ private:
 #define IntStart_SearchOnBoundaries Contap_TheSearch
 #define IntStart_SearchOnBoundaries_hxx <ModelingAlgorithms/Contap/Contap_TheSearch.hxx>
 
-#include <IntStart_SearchOnBoundaries.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchOnBoundaries.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

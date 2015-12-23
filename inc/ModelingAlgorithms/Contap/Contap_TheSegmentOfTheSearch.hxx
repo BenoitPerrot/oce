@@ -75,7 +75,7 @@ private:
 #define IntStart_Segment Contap_TheSegmentOfTheSearch
 #define IntStart_Segment_hxx <ModelingAlgorithms/Contap/Contap_TheSegmentOfTheSearch.hxx>
 
-#include <IntStart_Segment.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_Segment.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

@@ -81,7 +81,7 @@ private:
 #define IntStart_SearchInside IntPatch_TheSearchInside
 #define IntStart_SearchInside_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheSearchInside.hxx>
 
-#include <IntStart_SearchInside.lxx>
+#include <ModelingAlgorithms/IntStart/IntStart_SearchInside.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx
