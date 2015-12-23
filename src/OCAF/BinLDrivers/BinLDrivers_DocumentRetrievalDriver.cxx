@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
 #include <OCAF/BinLDrivers/BinLDrivers_Marker.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Foundation/FSD/FSD_BinaryFile.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

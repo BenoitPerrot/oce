@@ -17,7 +17,7 @@
 
 #include <BinTObjDrivers_ModelDriver.hxx>
 
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>

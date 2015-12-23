@@ -15,7 +15,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <BinTools_LocationSet.hxx>
 #include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinLDrivers_DocumentRetrievalDriver.hxx>
 
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
-#include <BinObjMgt_RRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_VectorOfDocumentSection.hxx>

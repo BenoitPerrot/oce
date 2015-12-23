@@ -15,7 +15,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMFunction/BinMFunction_ScopeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMFunction_ScopeDriver)
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BinMFunction_ScopeDriver)
 #include <TDF_Attribute.hxx>
 #include <TFunction_Scope.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
-#include <BinObjMgt_Persistent.hxx>
-#include <BinObjMgt_RRelocationTable.hxx>
-#include <BinObjMgt_SRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 #include <TDF_Label.hxx>

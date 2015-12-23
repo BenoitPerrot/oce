@@ -18,7 +18,7 @@
 #include <BinTObjDrivers_IntSparseArrayDriver.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TObj_TIntSparseArray.hxx>
 #include <TObj_Assistant.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

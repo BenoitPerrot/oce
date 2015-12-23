@@ -14,8 +14,8 @@
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BinObjMgt_RRelocationTable.hxx>
-#include <BinObjMgt_SRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 class CDM_MessageDriver;
 class TDF_Attribute;
 class BinObjMgt_Persistent;

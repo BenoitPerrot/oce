@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinLDrivers_DocumentStorageDriver.hxx>
 
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
-#include <BinObjMgt_SRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <TDF_LabelList.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>

@@ -15,7 +15,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMFunction/BinMFunction_FunctionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMFunction_FunctionDriver)
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BinMFunction_FunctionDriver)
 #include <TDF_Attribute.hxx>
 #include <TFunction_Function.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
-#include <BinObjMgt_Persistent.hxx>
-#include <BinObjMgt_RRelocationTable.hxx>
-#include <BinObjMgt_SRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 //=======================================================================
 //function : BinMFunction_FunctionDriver
 //purpose  : 

@@ -19,12 +19,12 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <BinObjMgt_PChar.hxx>
-#include <BinObjMgt_PByte.hxx>
-#include <BinObjMgt_PExtChar.hxx>
-#include <BinObjMgt_PInteger.hxx>
-#include <BinObjMgt_PReal.hxx>
-#include <BinObjMgt_PShortReal.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_PChar.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_PByte.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_PExtChar.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_PInteger.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_PReal.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_PShortReal.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
@@ -354,7 +354,7 @@ private:
 };
 
 
-#include <BinObjMgt_Persistent.lxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.lxx>
 
 
 

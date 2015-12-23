@@ -15,7 +15,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMDocStd/BinMDocStd_XLinkDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDocStd_XLinkDriver)
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BinMDocStd_XLinkDriver)
 #include <TDF_Attribute.hxx>
 #include <TDocStd_XLink.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
-#include <BinObjMgt_Persistent.hxx>
-#include <BinObjMgt_RRelocationTable.hxx>
-#include <BinObjMgt_SRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 //=======================================================================
 //function : BinMDocStd_XLinkDriver
 //purpose  : 

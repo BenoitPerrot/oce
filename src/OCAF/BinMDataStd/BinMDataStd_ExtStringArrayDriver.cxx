@@ -15,7 +15,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd_ExtStringArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataStd_ExtStringArrayDriver)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_ExtStringArrayDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_ExtStringArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExtStringArrayDriver)
 #include <TDataStd_ExtStringArray.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfExtendedString.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>

@@ -15,7 +15,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMNaming/BinMNaming_NamingDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMNaming_NamingDriver)
@@ -38,9 +38,9 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
-#include <BinObjMgt_Persistent.hxx>
-#include <BinObjMgt_RRelocationTable.hxx>
-#include <BinObjMgt_SRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 #include <OCAF/BinMNaming/BinMNaming.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>

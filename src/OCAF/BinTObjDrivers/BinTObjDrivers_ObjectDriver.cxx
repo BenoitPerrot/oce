@@ -17,7 +17,7 @@
 
 
 #include <CDM_MessageDriver.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TDF_Tool.hxx>
 
 #include <BinTObjDrivers_ObjectDriver.hxx>

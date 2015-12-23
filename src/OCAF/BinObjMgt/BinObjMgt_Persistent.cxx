@@ -18,7 +18,7 @@
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Data.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TDF_Tool.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

@@ -17,7 +17,7 @@
 #include <TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -19,7 +19,7 @@
 #include <BinTObjDrivers_XYZDriver.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TObj_TXYZ.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(BinTObjDrivers_XYZDriver,BinMDF_ADriver)

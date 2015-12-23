@@ -20,7 +20,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <TObj_TReference.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TObj_Object.hxx>
 #include <TObj_Model.hxx>
 #include <TObj_Assistant.hxx>

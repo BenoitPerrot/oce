@@ -15,7 +15,7 @@
 
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd_AsciiStringDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataStd_AsciiStringDriver)
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BinMDataStd_AsciiStringDriver)
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <TDataStd_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
-#include <BinObjMgt_Persistent.hxx>
-#include <BinObjMgt_RRelocationTable.hxx>
-#include <BinObjMgt_SRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
+#include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 //=======================================================================
 //function : BinMDataStd_AsciiStringDriver
 //purpose  :
