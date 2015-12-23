@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_AsciiStringDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_AsciiStringDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_AsciiStringDriver)
 #include <CDM_MessageDriver.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <TDataStd_AsciiString.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>

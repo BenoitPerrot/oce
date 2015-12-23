@@ -15,7 +15,7 @@
 
 // modified   13.04.2009 Sergey Zaritchny
 
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <OCAF/BinMDataXtd/BinMDataXtd.hxx>
 #include <OCAF/BinMDataXtd/BinMDataXtd_ConstraintDriver.hxx>

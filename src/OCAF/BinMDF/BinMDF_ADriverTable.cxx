@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDF_ADriverTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_TYPE_END(BinMDF_ADriverTable)
 IMPLEMENT_DOWNCAST(BinMDF_ADriverTable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDF_ADriverTable)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <BinMDF_StringIdMap.hxx>
+#include <OCAF/BinMDF/BinMDF_StringIdMap.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
+#include <OCAF/BinMDF/BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
 
 //=======================================================================
 //function : BinMDF_ADriverTable

@@ -12,7 +12,7 @@
 
 #include <BinTools_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

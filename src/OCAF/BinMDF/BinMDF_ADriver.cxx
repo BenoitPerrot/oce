@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDF_ADriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

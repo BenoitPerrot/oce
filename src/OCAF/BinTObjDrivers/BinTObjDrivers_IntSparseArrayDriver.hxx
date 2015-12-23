@@ -19,7 +19,7 @@
 #define BinTObjDrivers_IntSparseArrayDriver_HeaderFile
 
 #include <TObj_Common.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 
 class BinTObjDrivers_IntSparseArrayDriver : public BinMDF_ADriver 
 {

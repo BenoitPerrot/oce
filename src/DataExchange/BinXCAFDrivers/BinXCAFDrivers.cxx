@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <BinXCAFDrivers.hxx>
 #include <BinXCAFDrivers_DocumentStorageDriver.hxx>

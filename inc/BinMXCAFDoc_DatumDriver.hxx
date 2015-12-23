@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMXCAFDoc_DatumDriver.hxx>
 
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <BinMPrsStd.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <BinMPrsStd_AISPresentationDriver.hxx>
 #include <BinMPrsStd_PositionDriver.hxx>
 

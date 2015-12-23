@@ -56,17 +56,17 @@ private:
 #define TheKey Handle(Standard_Type)
 #define TheKey_hxx <Foundation/Standard/Standard_Type.hxx>
 #define TheItem Handle(BinMDF_ADriver)
-#define TheItem_hxx <BinMDF_ADriver.hxx>
+#define TheItem_hxx <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BinMDF_DataMapNodeOfTypeADriverMap
-#define TCollection_DataMapNode_hxx <BinMDF_DataMapNodeOfTypeADriverMap.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/BinMDF/BinMDF_DataMapNodeOfTypeADriverMap.hxx>
 #define TCollection_DataMapIterator BinMDF_DataMapIteratorOfTypeADriverMap
-#define TCollection_DataMapIterator_hxx <BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/BinMDF/BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_BinMDF_DataMapNodeOfTypeADriverMap
 #define TCollection_DataMapNode_Type_() BinMDF_DataMapNodeOfTypeADriverMap_Type_()
 #define TCollection_DataMap BinMDF_TypeADriverMap
-#define TCollection_DataMap_hxx <BinMDF_TypeADriverMap.hxx>
+#define TCollection_DataMap_hxx <OCAF/BinMDF/BinMDF_TypeADriverMap.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

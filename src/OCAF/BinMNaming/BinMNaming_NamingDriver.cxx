@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <TNaming_Naming.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>

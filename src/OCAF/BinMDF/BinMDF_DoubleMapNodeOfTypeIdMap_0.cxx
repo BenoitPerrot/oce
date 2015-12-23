@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
+#include <OCAF/BinMDF/BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <BinMDF_TypeIdMap.hxx>
-#include <BinMDF_DoubleMapIteratorOfTypeIdMap.hxx>
+#include <OCAF/BinMDF/BinMDF_TypeIdMap.hxx>
+#include <OCAF/BinMDF/BinMDF_DoubleMapIteratorOfTypeIdMap.hxx>
 
  
 
@@ -39,12 +39,12 @@ IMPLEMENT_STANDARD_RTTI(BinMDF_DoubleMapNodeOfTypeIdMap)
 #define Hasher2 TColStd_MapIntegerHasher
 #define Hasher2_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DoubleMapNode BinMDF_DoubleMapNodeOfTypeIdMap
-#define TCollection_DoubleMapNode_hxx <BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
+#define TCollection_DoubleMapNode_hxx <OCAF/BinMDF/BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
 #define TCollection_DoubleMapIterator BinMDF_DoubleMapIteratorOfTypeIdMap
-#define TCollection_DoubleMapIterator_hxx <BinMDF_DoubleMapIteratorOfTypeIdMap.hxx>
+#define TCollection_DoubleMapIterator_hxx <OCAF/BinMDF/BinMDF_DoubleMapIteratorOfTypeIdMap.hxx>
 #define Handle_TCollection_DoubleMapNode Handle_BinMDF_DoubleMapNodeOfTypeIdMap
 #define TCollection_DoubleMapNode_Type_() BinMDF_DoubleMapNodeOfTypeIdMap_Type_()
 #define TCollection_DoubleMap BinMDF_TypeIdMap
-#define TCollection_DoubleMap_hxx <BinMDF_TypeIdMap.hxx>
+#define TCollection_DoubleMap_hxx <OCAF/BinMDF/BinMDF_TypeIdMap.hxx>
 #include <Foundation/TCollection/TCollection_DoubleMapNode.gxx>
 

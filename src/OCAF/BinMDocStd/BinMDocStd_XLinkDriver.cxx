@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(BinMDocStd_XLinkDriver)
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDocStd_XLink.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>

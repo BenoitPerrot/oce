@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BinMDF_DataMapNodeOfTypeADriverMap.hxx>
+#include <OCAF/BinMDF/BinMDF_DataMapNodeOfTypeADriverMap.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <BinMDF_TypeADriverMap.hxx>
-#include <BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
+#include <OCAF/BinMDF/BinMDF_TypeADriverMap.hxx>
+#include <OCAF/BinMDF/BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
 
  
 
@@ -33,16 +33,16 @@ IMPLEMENT_STANDARD_RTTI(BinMDF_DataMapNodeOfTypeADriverMap)
 #define TheKey Handle(Standard_Type)
 #define TheKey_hxx <Foundation/Standard/Standard_Type.hxx>
 #define TheItem Handle(BinMDF_ADriver)
-#define TheItem_hxx <BinMDF_ADriver.hxx>
+#define TheItem_hxx <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BinMDF_DataMapNodeOfTypeADriverMap
-#define TCollection_DataMapNode_hxx <BinMDF_DataMapNodeOfTypeADriverMap.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/BinMDF/BinMDF_DataMapNodeOfTypeADriverMap.hxx>
 #define TCollection_DataMapIterator BinMDF_DataMapIteratorOfTypeADriverMap
-#define TCollection_DataMapIterator_hxx <BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/BinMDF/BinMDF_DataMapIteratorOfTypeADriverMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_BinMDF_DataMapNodeOfTypeADriverMap
 #define TCollection_DataMapNode_Type_() BinMDF_DataMapNodeOfTypeADriverMap_Type_()
 #define TCollection_DataMap BinMDF_TypeADriverMap
-#define TCollection_DataMap_hxx <BinMDF_TypeADriverMap.hxx>
+#define TCollection_DataMap_hxx <OCAF/BinMDF/BinMDF_TypeADriverMap.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

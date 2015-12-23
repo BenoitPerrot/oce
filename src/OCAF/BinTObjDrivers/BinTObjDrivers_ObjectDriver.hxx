@@ -20,7 +20,7 @@
 #define BinTObjDrivers_ObjectDriver_HeaderFile
 
 #include <TObj_Common.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 
 class BinTObjDrivers_ObjectDriver : public BinMDF_ADriver 
 {

@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDF_TagSourceDriver.hxx>
+#include <OCAF/BinMDF/BinMDF_TagSourceDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDF_TagSourceDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

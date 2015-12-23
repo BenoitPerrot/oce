@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntPackedMapDriver)
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <TDataStd_IntPackedMap.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>

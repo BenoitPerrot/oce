@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_DOWNCAST(BinLDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <OCAF/BinLDrivers/BinLDrivers.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_Marker.hxx>
-#include <BinMDF_ADriver.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <CDM_Application.hxx>
 #include <Foundation/FSD/FSD_BinaryFile.hxx>

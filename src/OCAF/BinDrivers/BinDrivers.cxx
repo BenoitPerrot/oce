@@ -15,12 +15,12 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/BinDrivers/BinDrivers.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers.hxx>
-#include <BinMDF.hxx>
+#include <OCAF/BinMDF/BinMDF.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <OCAF/BinMDataXtd/BinMDataXtd.hxx>
 #include <BinMNaming.hxx>

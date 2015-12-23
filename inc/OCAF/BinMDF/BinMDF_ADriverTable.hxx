@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
 
-#include <BinMDF_TypeADriverMap.hxx>
-#include <BinMDF_TypeIdMap.hxx>
+#include <OCAF/BinMDF/BinMDF_TypeADriverMap.hxx>
+#include <OCAF/BinMDF/BinMDF_TypeIdMap.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_BinMDF_ADriver.hxx>
 #include <Handle_Standard_Type.hxx>
@@ -80,7 +80,7 @@ private:
 };
 
 
-#include <BinMDF_ADriverTable.lxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.lxx>
 
 
 

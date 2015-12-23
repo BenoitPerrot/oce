@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMDF.hxx>
-#include <BinMDF_ReferenceDriver.hxx>
-#include <BinMDF_TagSourceDriver.hxx>
+#include <OCAF/BinMDF/BinMDF.hxx>
+#include <OCAF/BinMDF/BinMDF_ReferenceDriver.hxx>
+#include <OCAF/BinMDF/BinMDF_TagSourceDriver.hxx>
 
 //=======================================================================
 //function : AddDrivers
