@@ -16,7 +16,7 @@
 #include <StepShape_RevolvedFaceSolid.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWRevolvedFaceSolid.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWRevolvedFaceSolid.hxx>
 #include <StepGeom_Axis1Placement.hxx>
 #include <StepShape_FaceSurface.hxx>
 

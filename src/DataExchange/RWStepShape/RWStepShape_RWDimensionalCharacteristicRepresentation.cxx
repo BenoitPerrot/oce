@@ -20,7 +20,7 @@
 #include <StepShape_DimensionalCharacteristicRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWDimensionalCharacteristicRepresentation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWDimensionalCharacteristicRepresentation.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWDimensionalCharacteristicRepresentation

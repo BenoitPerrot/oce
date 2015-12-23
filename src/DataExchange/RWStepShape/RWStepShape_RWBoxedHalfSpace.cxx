@@ -16,7 +16,7 @@
 #include <StepShape_BoxedHalfSpace.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWBoxedHalfSpace.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWBoxedHalfSpace.hxx>
 #include <StepShape_BoxDomain.hxx>
 #include <StepGeom_Surface.hxx>
 

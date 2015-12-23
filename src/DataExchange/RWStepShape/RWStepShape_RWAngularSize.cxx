@@ -20,7 +20,7 @@
 #include <StepShape_AngularSize.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWAngularSize.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWAngularSize.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWAngularSize

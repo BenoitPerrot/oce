@@ -20,7 +20,7 @@
 #include <StepShape_AngularLocation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWAngularLocation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWAngularLocation.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWAngularLocation

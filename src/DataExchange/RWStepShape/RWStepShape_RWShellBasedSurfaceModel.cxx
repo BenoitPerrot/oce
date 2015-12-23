@@ -16,7 +16,7 @@
 #include <StepShape_ShellBasedSurfaceModel.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWShellBasedSurfaceModel.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWShellBasedSurfaceModel.hxx>
 #include <StepShape_HArray1OfShell.hxx>
 #include <StepShape_Shell.hxx>
 

@@ -16,7 +16,7 @@
 #include <StepShape_RevolvedAreaSolid.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWRevolvedAreaSolid.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWRevolvedAreaSolid.hxx>
 #include <StepGeom_Axis1Placement.hxx>
 #include <StepGeom_CurveBoundedSurface.hxx>
 

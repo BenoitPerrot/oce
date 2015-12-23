@@ -16,7 +16,7 @@
 #include <StepShape_ToleranceValue.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWToleranceValue.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWToleranceValue.hxx>
 #include <StepBasic_MeasureWithUnit.hxx>
 
 

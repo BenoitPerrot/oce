@@ -16,7 +16,7 @@
 #include <StepShape_LoopAndPath.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWLoopAndPath.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWLoopAndPath.hxx>
 #include <StepShape_Loop.hxx>
 #include <StepShape_Path.hxx>
 #include <StepShape_HArray1OfOrientedEdge.hxx>

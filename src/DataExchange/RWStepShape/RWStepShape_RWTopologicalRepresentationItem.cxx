@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepShape_RWTopologicalRepresentationItem.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWTopologicalRepresentationItem.hxx>
 
 
 RWStepShape_RWTopologicalRepresentationItem::RWStepShape_RWTopologicalRepresentationItem () {}

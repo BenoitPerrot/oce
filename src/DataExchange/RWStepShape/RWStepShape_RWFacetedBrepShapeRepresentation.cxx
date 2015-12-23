@@ -16,7 +16,7 @@
 #include <StepShape_FacetedBrepShapeRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWFacetedBrepShapeRepresentation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWFacetedBrepShapeRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>

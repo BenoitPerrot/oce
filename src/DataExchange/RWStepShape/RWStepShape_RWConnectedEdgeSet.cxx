@@ -20,7 +20,7 @@
 #include <StepShape_ConnectedEdgeSet.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWConnectedEdgeSet.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWConnectedEdgeSet.hxx>
 #include <StepShape_HArray1OfEdge.hxx>
 #include <StepShape_Edge.hxx>
 

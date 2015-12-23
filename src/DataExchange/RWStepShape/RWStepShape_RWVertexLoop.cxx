@@ -16,7 +16,7 @@
 #include <StepShape_VertexLoop.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWVertexLoop.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWVertexLoop.hxx>
 #include <StepShape_Vertex.hxx>
 
 

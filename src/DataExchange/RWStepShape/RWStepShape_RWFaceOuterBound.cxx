@@ -16,7 +16,7 @@
 #include <StepShape_FaceOuterBound.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWFaceOuterBound.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWFaceOuterBound.hxx>
 #include <StepShape_Loop.hxx>
 
 

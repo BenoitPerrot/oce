@@ -16,7 +16,7 @@
 #include <StepShape_HalfSpaceSolid.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWHalfSpaceSolid.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWHalfSpaceSolid.hxx>
 #include <StepGeom_Surface.hxx>
 
 

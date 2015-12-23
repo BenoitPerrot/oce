@@ -16,7 +16,7 @@
 #include <StepShape_ExtrudedAreaSolid.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWExtrudedAreaSolid.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWExtrudedAreaSolid.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepGeom_CurveBoundedSurface.hxx>
 

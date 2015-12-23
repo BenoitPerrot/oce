@@ -16,7 +16,7 @@
 #include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <StepBasic_MeasureValueMember.hxx>
 #include <StepBasic_Unit.hxx>
 #include <StepBasic_MeasureWithUnit.hxx>

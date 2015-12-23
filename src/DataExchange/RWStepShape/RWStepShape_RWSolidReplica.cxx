@@ -16,7 +16,7 @@
 #include <StepShape_SolidReplica.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWSolidReplica.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWSolidReplica.hxx>
 #include <StepShape_SolidModel.hxx>
 #include <StepGeom_CartesianTransformationOperator3d.hxx>
 

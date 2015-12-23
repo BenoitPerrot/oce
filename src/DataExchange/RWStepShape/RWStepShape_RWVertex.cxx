@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_Vertex.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepShape_RWVertex.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWVertex.hxx>
 
 
 RWStepShape_RWVertex::RWStepShape_RWVertex () {}

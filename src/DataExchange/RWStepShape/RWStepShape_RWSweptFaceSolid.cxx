@@ -16,7 +16,7 @@
 #include <StepShape_SweptFaceSolid.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWSweptFaceSolid.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWSweptFaceSolid.hxx>
 #include <StepShape_FaceSurface.hxx>
 
 

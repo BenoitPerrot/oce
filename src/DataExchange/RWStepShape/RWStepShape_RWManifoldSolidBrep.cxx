@@ -16,7 +16,7 @@
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWManifoldSolidBrep.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWManifoldSolidBrep.hxx>
 #include <StepShape_ClosedShell.hxx>
 
 

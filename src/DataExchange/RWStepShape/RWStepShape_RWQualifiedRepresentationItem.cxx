@@ -16,7 +16,7 @@
 #include <StepShape_QualifiedRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWQualifiedRepresentationItem.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWQualifiedRepresentationItem.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_HArray1OfValueQualifier.hxx>

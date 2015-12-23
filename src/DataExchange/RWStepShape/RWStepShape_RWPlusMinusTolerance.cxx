@@ -16,7 +16,7 @@
 #include <StepShape_PlusMinusTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWPlusMinusTolerance.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWPlusMinusTolerance.hxx>
 #include <StepShape_ToleranceMethodDefinition.hxx>
 #include <StepShape_DimensionalCharacteristic.hxx>
 

@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_PrecisionQualifier.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepShape_RWPrecisionQualifier.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWPrecisionQualifier.hxx>
 
 
 RWStepShape_RWPrecisionQualifier::RWStepShape_RWPrecisionQualifier () {}

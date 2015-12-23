@@ -20,7 +20,7 @@
 #include <StepShape_DimensionalLocation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWDimensionalLocation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWDimensionalLocation.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWDimensionalLocation

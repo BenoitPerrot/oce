@@ -16,7 +16,7 @@
 #include <StepShape_MeasureQualification.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWMeasureQualification.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWMeasureQualification.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_MeasureWithUnit.hxx>
 #include <StepShape_ValueQualifier.hxx>

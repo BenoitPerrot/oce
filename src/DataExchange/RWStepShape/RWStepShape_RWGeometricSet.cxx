@@ -16,7 +16,7 @@
 #include <StepShape_GeometricSet.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWGeometricSet.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWGeometricSet.hxx>
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 

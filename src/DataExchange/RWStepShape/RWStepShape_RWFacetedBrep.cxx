@@ -16,7 +16,7 @@
 #include <StepShape_FacetedBrep.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWFacetedBrep.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWFacetedBrep.hxx>
 #include <StepShape_ClosedShell.hxx>
 
 

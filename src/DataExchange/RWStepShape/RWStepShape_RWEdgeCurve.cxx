@@ -17,7 +17,7 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepShape_RWEdgeCurve.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWEdgeCurve.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepShape_Vertex.hxx>
 #include <StepShape_OrientedEdge.hxx>

@@ -16,7 +16,7 @@
 #include <StepShape_Block.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWBlock.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWBlock.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
 

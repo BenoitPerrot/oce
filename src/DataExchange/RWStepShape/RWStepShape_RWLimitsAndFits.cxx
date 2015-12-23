@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_LimitsAndFits.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepShape_RWLimitsAndFits.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWLimitsAndFits.hxx>
 
 
 RWStepShape_RWLimitsAndFits::RWStepShape_RWLimitsAndFits () {}

@@ -20,7 +20,7 @@
 #include <StepShape_ConnectedFaceShapeRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWConnectedFaceShapeRepresentation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWConnectedFaceShapeRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

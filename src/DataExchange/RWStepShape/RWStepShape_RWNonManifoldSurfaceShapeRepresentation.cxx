@@ -20,7 +20,7 @@
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWNonManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWNonManifoldSurfaceShapeRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

@@ -16,7 +16,7 @@
 #include <StepShape_CsgSolid.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWCsgSolid.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWCsgSolid.hxx>
 #include <StepShape_CsgSelect.hxx>
 
 

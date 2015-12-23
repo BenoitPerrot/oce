@@ -21,7 +21,7 @@
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWShapeDefinitionRepresentation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWShapeDefinitionRepresentation.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWShapeDefinitionRepresentation

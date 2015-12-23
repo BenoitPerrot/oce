@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_Loop.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepShape_RWLoop.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWLoop.hxx>
 
 
 RWStepShape_RWLoop::RWStepShape_RWLoop () {}

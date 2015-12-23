@@ -16,7 +16,7 @@
 #include <StepShape_BooleanResult.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWBooleanResult.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWBooleanResult.hxx>
 #include <StepShape_BooleanOperator.hxx>
 #include <StepShape_BooleanOperand.hxx>
 

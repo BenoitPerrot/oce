@@ -19,7 +19,7 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
-#include <RWStepShape_RWBrepWithVoids.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWBrepWithVoids.hxx>
 #include <StepShape_HArray1OfOrientedClosedShell.hxx>
 #include <StepShape_OrientedClosedShell.hxx>
 #include <StepShape_ClosedShell.hxx>

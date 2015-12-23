@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_TypeQualifier.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepShape_RWTypeQualifier.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWTypeQualifier.hxx>
 
 
 RWStepShape_RWTypeQualifier::RWStepShape_RWTypeQualifier () {}

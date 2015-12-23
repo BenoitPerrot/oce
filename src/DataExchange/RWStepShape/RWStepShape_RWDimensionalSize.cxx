@@ -20,7 +20,7 @@
 #include <StepShape_DimensionalSize.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWDimensionalSize.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWDimensionalSize.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWDimensionalSize

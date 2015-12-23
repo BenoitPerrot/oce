@@ -16,7 +16,7 @@
 #include <StepShape_RightCircularCylinder.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWRightCircularCylinder.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWRightCircularCylinder.hxx>
 #include <StepGeom_Axis1Placement.hxx>
 
 

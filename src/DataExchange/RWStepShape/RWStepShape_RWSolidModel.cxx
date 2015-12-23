@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_SolidModel.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepShape_RWSolidModel.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWSolidModel.hxx>
 
 
 RWStepShape_RWSolidModel::RWStepShape_RWSolidModel () {}

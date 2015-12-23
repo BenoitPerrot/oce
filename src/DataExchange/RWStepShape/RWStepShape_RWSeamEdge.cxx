@@ -20,7 +20,7 @@
 #include <StepShape_SeamEdge.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWSeamEdge.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWSeamEdge.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWSeamEdge

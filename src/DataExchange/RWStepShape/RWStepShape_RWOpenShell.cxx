@@ -16,7 +16,7 @@
 #include <StepShape_OpenShell.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWOpenShell.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWOpenShell.hxx>
 #include <StepShape_HArray1OfFace.hxx>
 #include <StepShape_Face.hxx>
 

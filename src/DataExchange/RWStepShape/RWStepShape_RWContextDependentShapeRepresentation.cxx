@@ -16,7 +16,7 @@
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepShape_RWContextDependentShapeRepresentation.hxx>
+#include <DataExchange/RWStepShape/RWStepShape_RWContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 // pour Share
