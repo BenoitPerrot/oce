@@ -15,12 +15,12 @@
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMFunction.hxx>
+#include <OCAF/BinMFunction/BinMFunction.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMFunction_FunctionDriver.hxx>
-#include <BinMFunction_GraphNodeDriver.hxx>
-#include <BinMFunction_ScopeDriver.hxx>
+#include <OCAF/BinMFunction/BinMFunction_FunctionDriver.hxx>
+#include <OCAF/BinMFunction/BinMFunction_GraphNodeDriver.hxx>
+#include <OCAF/BinMFunction/BinMFunction_ScopeDriver.hxx>
 
 //=======================================================================
 //function : AddDrivers

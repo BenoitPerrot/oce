@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMFunction_GraphNodeDriver.hxx>
+#include <OCAF/BinMFunction/BinMFunction_GraphNodeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMFunction_GraphNodeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -25,7 +25,7 @@
 #include <OCAF/BinMDataXtd/BinMDataXtd.hxx>
 #include <BinMNaming.hxx>
 #include <OCAF/BinMDocStd/BinMDocStd.hxx>
-#include <BinMFunction.hxx>
+#include <OCAF/BinMFunction/BinMFunction.hxx>
 #include <BinMPrsStd.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <OCAF/BinDrivers/BinDrivers_DocumentStorageDriver.hxx>

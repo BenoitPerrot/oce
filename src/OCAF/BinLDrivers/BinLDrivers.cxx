@@ -21,7 +21,7 @@
 #include <OCAF/BinLDrivers/BinLDrivers.hxx>
 #include <OCAF/BinMDF/BinMDF.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
-#include <BinMFunction.hxx>
+#include <OCAF/BinMFunction/BinMFunction.hxx>
 //#include <BinMNaming.hxx>
 #include <OCAF/BinMDocStd/BinMDocStd.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

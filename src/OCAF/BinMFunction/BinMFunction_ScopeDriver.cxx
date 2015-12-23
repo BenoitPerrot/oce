@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMFunction_ScopeDriver.hxx>
+#include <OCAF/BinMFunction/BinMFunction_ScopeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMFunction_ScopeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
