@@ -15,7 +15,7 @@
 
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XCAFDrivers_DocumentStorageDriver.hxx>
+#include <DataExchange/XCAFDrivers/XCAFDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
