@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MDF_ARDriverSequence.hxx>
+#include <OCAF/MDF/MDF_ARDriverSequence.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <MDF_ARDriver.hxx>
-#include <MDF_SequenceNodeOfARDriverSequence.hxx>
+#include <OCAF/MDF/MDF_ARDriver.hxx>
+#include <OCAF/MDF/MDF_SequenceNodeOfARDriverSequence.hxx>
  
 
 #define SeqItem Handle(MDF_ARDriver)
-#define SeqItem_hxx <MDF_ARDriver.hxx>
+#define SeqItem_hxx <OCAF/MDF/MDF_ARDriver.hxx>
 #define TCollection_SequenceNode MDF_SequenceNodeOfARDriverSequence
-#define TCollection_SequenceNode_hxx <MDF_SequenceNodeOfARDriverSequence.hxx>
+#define TCollection_SequenceNode_hxx <OCAF/MDF/MDF_SequenceNodeOfARDriverSequence.hxx>
 #define Handle_TCollection_SequenceNode Handle_MDF_SequenceNodeOfARDriverSequence
 #define TCollection_SequenceNode_Type_() MDF_SequenceNodeOfARDriverSequence_Type_()
 #define TCollection_Sequence MDF_ARDriverSequence
-#define TCollection_Sequence_hxx <MDF_ARDriverSequence.hxx>
+#define TCollection_Sequence_hxx <OCAF/MDF/MDF_ARDriverSequence.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

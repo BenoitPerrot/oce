@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
-#include <MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_BooleanArrayRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_BooleanArrayRetrievalDriver)

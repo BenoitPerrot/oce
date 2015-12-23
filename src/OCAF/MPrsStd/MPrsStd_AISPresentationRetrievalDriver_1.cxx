@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
-#include <MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <MPrsStd_AISPresentationRetrievalDriver_1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MPrsStd_AISPresentationRetrievalDriver_1)

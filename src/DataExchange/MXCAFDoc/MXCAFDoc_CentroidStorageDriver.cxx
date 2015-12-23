@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
-#include <MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <MXCAFDoc_CentroidStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_CentroidStorageDriver)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_CentroidStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_CentroidStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_CentroidStorageDriver)
-#include <MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PXCAFDoc_Centroid.hxx>
 #include <XCAFDoc_Centroid.hxx>

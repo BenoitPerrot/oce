@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDF_ASDriverTable.hxx>
+#include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XCAFDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(XCAFDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDrivers_DocumentStorageDriver)
-#include <MDF.hxx>
-#include <MDF_ASDriverHSequence.hxx>
-#include <MDF_ASDriverTable.hxx>
+#include <OCAF/MDF/MDF.hxx>
+#include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <MXCAFDoc.hxx>
 #include <StdDrivers_DocumentStorageDriver.hxx>
 

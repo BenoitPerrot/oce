@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDF_ARDriverTable.hxx>
+#include <OCAF/MDF/MDF_ARDriverTable.hxx>
 #include <PDocStd_Document.hxx>
 #include <TDocStd_Document.hxx>
-#include <MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentRetrievalDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDocStd_Application.hxx>
 #include <TDocStd_Document.hxx>
-#include <MDF.hxx>
-#include <MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <PDocStd_Document.hxx>
 #include <TDF_Data.hxx> 
 #include <TDocStd_Owner.hxx>

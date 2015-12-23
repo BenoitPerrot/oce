@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
-#include <MDF_RRelocationTable.hxx>
-#include <MDF_TagSourceRetrievalDriver.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_TagSourceRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDF_TagSourceRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

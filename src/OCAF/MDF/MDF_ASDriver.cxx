@@ -25,9 +25,9 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
-#include <MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <MDF_ASDriver.hxx>
+#include <OCAF/MDF/MDF_ASDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDF_ASDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

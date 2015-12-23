@@ -23,24 +23,24 @@
 
 #include <TDF_Data.hxx>
 #include <PDF_Data.hxx>
-#include <MDF_ASDriverTable.hxx>
-#include <MDF_SRelocationTable.hxx>
-#include <MDF_ARDriverTable.hxx>
-#include <MDF_RRelocationTable.hxx>
-#include <MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ASDriverTable.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_ARDriverTable.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <MDF_ARDriverHSequence.hxx>
-#include <MDF.hxx>
+#include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/MDF.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 
-#include <MDF_RRelocationTable.hxx>
-#include <MDF_SRelocationTable.hxx>
-#include <MDF_Tool.hxx>
-#include <MDF_TypeARDriverMap.hxx>
-#include <MDF_TypeASDriverMap.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_Tool.hxx>
+#include <OCAF/MDF/MDF_TypeARDriverMap.hxx>
+#include <OCAF/MDF/MDF_TypeASDriverMap.hxx>
 
 #include <PDF_Attribute.hxx>
 #include <PDF_HAttributeArray1.hxx>
@@ -49,10 +49,10 @@
 
 #include <PTColStd_TransientPersistentMap.hxx>
 
-#include <MDF_TagSourceStorageDriver.hxx>
-#include <MDF_TagSourceRetrievalDriver.hxx>
-#include <MDF_ReferenceStorageDriver.hxx>
-#include <MDF_ReferenceRetrievalDriver.hxx>
+#include <OCAF/MDF/MDF_TagSourceStorageDriver.hxx>
+#include <OCAF/MDF/MDF_TagSourceRetrievalDriver.hxx>
+#include <OCAF/MDF/MDF_ReferenceStorageDriver.hxx>
+#include <OCAF/MDF/MDF_ReferenceRetrievalDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================

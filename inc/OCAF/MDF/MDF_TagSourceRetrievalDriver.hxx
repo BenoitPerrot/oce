@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _MDF_ReferenceRetrievalDriver_HeaderFile
-#define _MDF_ReferenceRetrievalDriver_HeaderFile
+#ifndef _MDF_TagSourceRetrievalDriver_HeaderFile
+#define _MDF_TagSourceRetrievalDriver_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_ReferenceRetrievalDriver.hxx>
+#include <Handle_MDF_TagSourceRetrievalDriver.hxx>
 
-#include <MDF_ARDriver.hxx>
+#include <OCAF/MDF/MDF_ARDriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
@@ -25,19 +25,19 @@ class MDF_RRelocationTable;
 
 
 
-class MDF_ReferenceRetrievalDriver : public MDF_ARDriver
+class MDF_TagSourceRetrievalDriver : public MDF_ARDriver
 {
 
 public:
 
   
-  Standard_EXPORT MDF_ReferenceRetrievalDriver(const Handle(CDM_MessageDriver)& theMessageDriver);
+  Standard_EXPORT MDF_TagSourceRetrievalDriver(const Handle(CDM_MessageDriver)& theMessageDriver);
   
   //! Returns the version number from which the driver
   //! is available: 0.
   Standard_EXPORT   Standard_Integer VersionNumber()  const;
   
-  //! Returns the type: Reference from PDF.
+  //! Returns the type: TagSource from PDF.
   Standard_EXPORT   Handle(Standard_Type) SourceType()  const;
   
   Standard_EXPORT   Handle(TDF_Attribute) NewEmpty()  const;
@@ -47,7 +47,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(MDF_ReferenceRetrievalDriver)
+  DEFINE_STANDARD_RTTI(MDF_TagSourceRetrievalDriver)
 
 protected:
 
@@ -67,4 +67,4 @@ private:
 
 
 
-#endif // _MDF_ReferenceRetrievalDriver_HeaderFile
+#endif // _MDF_TagSourceRetrievalDriver_HeaderFile

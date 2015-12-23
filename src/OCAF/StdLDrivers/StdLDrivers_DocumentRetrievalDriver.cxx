@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDF_ARDriverTable.hxx>
+#include <OCAF/MDF/MDF_ARDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <StdLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(StdLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_DOWNCAST(StdLDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdLDrivers_DocumentRetrievalDriver)
 
-#include <MDF_ARDriverHSequence.hxx>
-#include <MDF.hxx>
+#include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx> 
 #include <MFunction.hxx>
 #include <MDocStd.hxx> 

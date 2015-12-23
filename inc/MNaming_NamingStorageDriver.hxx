@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MNaming_NamingStorageDriver.hxx>
 
-#include <MDF_ASDriver.hxx>
+#include <OCAF/MDF/MDF_ASDriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>

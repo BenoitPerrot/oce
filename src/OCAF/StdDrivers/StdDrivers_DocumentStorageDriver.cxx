@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <PCDM_SequenceOfDocument.hxx>
-#include <MDF_ASDriverTable.hxx>
+#include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <StdDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StdDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(StdDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdDrivers_DocumentStorageDriver)
-#include <MDF.hxx> 
+#include <OCAF/MDF/MDF.hxx> 
 #include <OCAF/MDataStd/MDataStd.hxx> 
 #include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <MNaming.hxx>  
@@ -43,8 +43,8 @@ IMPLEMENT_STANDARD_RTTI(StdDrivers_DocumentStorageDriver)
 #include <TDocStd_Document.hxx>
 
 #include <TDF_Label.hxx>
-#include <MDF_ASDriverHSequence.hxx>
-#include <MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 

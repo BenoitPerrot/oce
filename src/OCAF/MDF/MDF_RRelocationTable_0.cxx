@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(MDF_RRelocationTable)
 #define TheMapType PTColStd_PersistentTransientMap
 #define TheMapType_hxx <PTColStd_PersistentTransientMap.hxx>
 #define MDF_RelocationTable MDF_RRelocationTable
-#define MDF_RelocationTable_hxx <MDF_RRelocationTable.hxx>
+#define MDF_RelocationTable_hxx <OCAF/MDF/MDF_RRelocationTable.hxx>
 #define Handle_MDF_RelocationTable Handle_MDF_RRelocationTable
 #define MDF_RelocationTable_Type_() MDF_RRelocationTable_Type_()
-#include <MDF_RelocationTable.gxx>
+#include <OCAF/MDF/MDF_RelocationTable.gxx>
 

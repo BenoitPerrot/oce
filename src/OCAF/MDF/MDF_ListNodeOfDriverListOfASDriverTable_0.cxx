@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MDF_ListNodeOfDriverListOfASDriverTable.hxx>
+#include <OCAF/MDF/MDF_ListNodeOfDriverListOfASDriverTable.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <MDF_ASDriver.hxx>
-#include <MDF_DriverListOfASDriverTable.hxx>
-#include <MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
+#include <OCAF/MDF/MDF_ASDriver.hxx>
+#include <OCAF/MDF/MDF_DriverListOfASDriverTable.hxx>
+#include <OCAF/MDF/MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(MDF_ListNodeOfDriverListOfASDriverTable)
 
 
 #define Item Handle(MDF_ASDriver)
-#define Item_hxx <MDF_ASDriver.hxx>
+#define Item_hxx <OCAF/MDF/MDF_ASDriver.hxx>
 #define TCollection_ListNode MDF_ListNodeOfDriverListOfASDriverTable
-#define TCollection_ListNode_hxx <MDF_ListNodeOfDriverListOfASDriverTable.hxx>
+#define TCollection_ListNode_hxx <OCAF/MDF/MDF_ListNodeOfDriverListOfASDriverTable.hxx>
 #define TCollection_ListIterator MDF_ListIteratorOfDriverListOfASDriverTable
-#define TCollection_ListIterator_hxx <MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
+#define TCollection_ListIterator_hxx <OCAF/MDF/MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
 #define Handle_TCollection_ListNode Handle_MDF_ListNodeOfDriverListOfASDriverTable
 #define TCollection_ListNode_Type_() MDF_ListNodeOfDriverListOfASDriverTable_Type_()
 #define TCollection_List MDF_DriverListOfASDriverTable
-#define TCollection_List_hxx <MDF_DriverListOfASDriverTable.hxx>
+#define TCollection_List_hxx <OCAF/MDF/MDF_DriverListOfASDriverTable.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

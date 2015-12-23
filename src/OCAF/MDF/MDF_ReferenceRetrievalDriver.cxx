@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
-#include <MDF_RRelocationTable.hxx>
-#include <MDF_ReferenceRetrievalDriver.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_ReferenceRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDF_ReferenceRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
 #include <MFunction.hxx>
 
-#include <MDF_ARDriverHSequence.hxx>
-#include <MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MFunction_FunctionStorageDriver.hxx>
 #include <MFunction_FunctionRetrievalDriver.hxx>

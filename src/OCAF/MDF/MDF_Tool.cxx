@@ -23,19 +23,19 @@
 
 #include <TDF_Data.hxx>
 #include <PDF_Data.hxx>
-#include <MDF_TypeASDriverMap.hxx>
-#include <MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_TypeASDriverMap.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <TDF_Label.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PDF_HAttributeArray1.hxx>
-#include <MDF_TypeARDriverMap.hxx>
-#include <MDF_RRelocationTable.hxx>
-#include <MDF_Tool.hxx>
+#include <OCAF/MDF/MDF_TypeARDriverMap.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_Tool.hxx>
 
-#include <MDF_ARDriver.hxx>
-#include <MDF_ASDriver.hxx>
-#include <MDF_RRelocationTable.hxx>
-#include <MDF_SRelocationTable.hxx>
+#include <OCAF/MDF/MDF_ARDriver.hxx>
+#include <OCAF/MDF/MDF_ASDriver.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_SRelocationTable.hxx>
 
 #include <PDF_Attribute.hxx>
 #include <PDF_HAttributeArray1.hxx>

@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
-#include <MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <MXCAFDoc_ShapeToolRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_ShapeToolRetrievalDriver)

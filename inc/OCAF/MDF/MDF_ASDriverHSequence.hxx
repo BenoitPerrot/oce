@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MDF_ASDriverHSequence.hxx>
 
-#include <MDF_ASDriverSequence.hxx>
+#include <OCAF/MDF/MDF_ASDriverSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MDF_ASDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(MDF_ASDriver)
-#define Item_hxx <MDF_ASDriver.hxx>
+#define Item_hxx <OCAF/MDF/MDF_ASDriver.hxx>
 #define TheSequence MDF_ASDriverSequence
-#define TheSequence_hxx <MDF_ASDriverSequence.hxx>
+#define TheSequence_hxx <OCAF/MDF/MDF_ASDriverSequence.hxx>
 #define TCollection_HSequence MDF_ASDriverHSequence
-#define TCollection_HSequence_hxx <MDF_ASDriverHSequence.hxx>
+#define TCollection_HSequence_hxx <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #define Handle_TCollection_HSequence Handle_MDF_ASDriverHSequence
 #define TCollection_HSequence_Type_() MDF_ASDriverHSequence_Type_()
 

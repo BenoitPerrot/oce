@@ -3,51 +3,51 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _MDF_TagSourceRetrievalDriver_HeaderFile
-#define _MDF_TagSourceRetrievalDriver_HeaderFile
+#ifndef _MDF_TagSourceStorageDriver_HeaderFile
+#define _MDF_TagSourceStorageDriver_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_TagSourceRetrievalDriver.hxx>
+#include <Handle_MDF_TagSourceStorageDriver.hxx>
 
-#include <MDF_ARDriver.hxx>
+#include <OCAF/MDF/MDF_ASDriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <Handle_TDF_Attribute.hxx>
 #include <Handle_PDF_Attribute.hxx>
-#include <Handle_MDF_RRelocationTable.hxx>
+#include <Handle_TDF_Attribute.hxx>
+#include <Handle_MDF_SRelocationTable.hxx>
 class CDM_MessageDriver;
 class Standard_Type;
-class TDF_Attribute;
 class PDF_Attribute;
-class MDF_RRelocationTable;
+class TDF_Attribute;
+class MDF_SRelocationTable;
 
 
 
-class MDF_TagSourceRetrievalDriver : public MDF_ARDriver
+class MDF_TagSourceStorageDriver : public MDF_ASDriver
 {
 
 public:
 
   
-  Standard_EXPORT MDF_TagSourceRetrievalDriver(const Handle(CDM_MessageDriver)& theMessageDriver);
+  Standard_EXPORT MDF_TagSourceStorageDriver(const Handle(CDM_MessageDriver)& theMessageDriver);
   
   //! Returns the version number from which the driver
   //! is available: 0.
   Standard_EXPORT   Standard_Integer VersionNumber()  const;
   
-  //! Returns the type: TagSource from PDF.
+  //! Returns the type: Integer from TDF.
   Standard_EXPORT   Handle(Standard_Type) SourceType()  const;
   
-  Standard_EXPORT   Handle(TDF_Attribute) NewEmpty()  const;
+  Standard_EXPORT   Handle(PDF_Attribute) NewEmpty()  const;
   
-  Standard_EXPORT   void Paste (const Handle(PDF_Attribute)& Source, const Handle(TDF_Attribute)& Target, const Handle(MDF_RRelocationTable)& RelocTable)  const;
+  Standard_EXPORT   void Paste (const Handle(TDF_Attribute)& Source, const Handle(PDF_Attribute)& Target, const Handle(MDF_SRelocationTable)& RelocTable)  const;
 
 
 
 
-  DEFINE_STANDARD_RTTI(MDF_TagSourceRetrievalDriver)
+  DEFINE_STANDARD_RTTI(MDF_TagSourceStorageDriver)
 
 protected:
 
@@ -67,4 +67,4 @@ private:
 
 
 
-#endif // _MDF_TagSourceRetrievalDriver_HeaderFile
+#endif // _MDF_TagSourceStorageDriver_HeaderFile

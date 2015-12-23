@@ -11,8 +11,8 @@
 #include <Handle_MDF_ARDriverTable.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <MDF_TypeARDriverMap.hxx>
-#include <MDF_TypeDriverListMapOfARDriverTable.hxx>
+#include <OCAF/MDF/MDF_TypeARDriverMap.hxx>
+#include <OCAF/MDF/MDF_TypeDriverListMapOfARDriverTable.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MDF_ARDriver.hxx>
 #include <Handle_MDF_ARDriverHSequence.hxx>

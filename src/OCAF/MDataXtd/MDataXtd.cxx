@@ -21,14 +21,14 @@
 
 
 
-#include <MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
 #include <PGeom_Geometry.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <OCAF/MDataXtd/MDataXtd.hxx>
-#include <MDF_ASDriverTable.hxx>
-#include <MDF_ARDriverTable.hxx>
+#include <OCAF/MDF/MDF_ASDriverTable.hxx>
+#include <OCAF/MDF/MDF_ARDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 // Storage
 #include <OCAF/MDataXtd/MDataXtd_ShapeStorageDriver.hxx>

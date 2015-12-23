@@ -21,9 +21,9 @@
 
 
 
-#include <MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
 #include <MNaming.hxx>
 
 #include <MNaming_NamedShapeStorageDriver.hxx>

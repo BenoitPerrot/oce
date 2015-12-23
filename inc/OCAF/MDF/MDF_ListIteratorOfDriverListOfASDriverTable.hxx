@@ -62,15 +62,15 @@ private:
 };
 
 #define Item Handle(MDF_ASDriver)
-#define Item_hxx <MDF_ASDriver.hxx>
+#define Item_hxx <OCAF/MDF/MDF_ASDriver.hxx>
 #define TCollection_ListNode MDF_ListNodeOfDriverListOfASDriverTable
-#define TCollection_ListNode_hxx <MDF_ListNodeOfDriverListOfASDriverTable.hxx>
+#define TCollection_ListNode_hxx <OCAF/MDF/MDF_ListNodeOfDriverListOfASDriverTable.hxx>
 #define TCollection_ListIterator MDF_ListIteratorOfDriverListOfASDriverTable
-#define TCollection_ListIterator_hxx <MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
+#define TCollection_ListIterator_hxx <OCAF/MDF/MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
 #define Handle_TCollection_ListNode Handle_MDF_ListNodeOfDriverListOfASDriverTable
 #define TCollection_ListNode_Type_() MDF_ListNodeOfDriverListOfASDriverTable_Type_()
 #define TCollection_List MDF_DriverListOfASDriverTable
-#define TCollection_List_hxx <MDF_DriverListOfASDriverTable.hxx>
+#define TCollection_List_hxx <OCAF/MDF/MDF_DriverListOfASDriverTable.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
