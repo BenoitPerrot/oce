@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <TopCnx_EdgeFaceTransition.hxx>
+#include <ModelingAlgorithms/TopCnx/TopCnx_EdgeFaceTransition.hxx>
 
 
 //=======================================================================

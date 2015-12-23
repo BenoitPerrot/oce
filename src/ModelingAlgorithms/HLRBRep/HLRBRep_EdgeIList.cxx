@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeInterferenceTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeIList.hxx>
 
-#include <TopCnx_EdgeFaceTransition.hxx>
+#include <ModelingAlgorithms/TopCnx/TopCnx_EdgeFaceTransition.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
 
 //=======================================================================
