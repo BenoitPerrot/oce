@@ -20,7 +20,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfArray1OfPnt2d.hxx>
 #include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <AppBlend_Approx.hxx>
+#include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 #include <Handle_GeomFill_Line.hxx>
 class TColgp_HArray2OfPnt;
 class TColStd_HArray2OfReal;
@@ -158,7 +158,7 @@ private:
 #define AppBlend_AppSurf GeomFill_AppSurf
 #define AppBlend_AppSurf_hxx <GeomFill_AppSurf.hxx>
 
-#include <AppBlend_AppSurf.lxx>
+#include <ModelingAlgorithms/AppBlend/AppBlend_AppSurf.lxx>
 
 #undef TheSectionGenerator
 #undef TheSectionGenerator_hxx

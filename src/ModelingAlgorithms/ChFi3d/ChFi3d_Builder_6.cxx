@@ -55,7 +55,7 @@
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFiDS_CommonPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <AppBlend_Approx.hxx>
+#include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ChFi3d_Builder.hxx>
 #include <ChFi3d_Builder_0.hxx>

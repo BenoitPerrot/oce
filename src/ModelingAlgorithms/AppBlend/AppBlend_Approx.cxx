@@ -22,7 +22,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <AppBlend_Approx.hxx>
+#include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 
 void AppBlend_Approx::Delete()
 {}

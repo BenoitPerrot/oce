@@ -28,5 +28,5 @@
 #define TheLine_hxx <GeomFill_Line.hxx>
 #define AppBlend_AppSurf GeomFill_AppSurf
 #define AppBlend_AppSurf_hxx <GeomFill_AppSurf.hxx>
-#include <AppBlend_AppSurf.gxx>
+#include <ModelingAlgorithms/AppBlend/AppBlend_AppSurf.gxx>
 
