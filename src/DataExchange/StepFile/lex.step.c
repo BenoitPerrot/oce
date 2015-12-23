@@ -609,7 +609,7 @@ char *steptext;
 #include "step.tab.h"
 #include "recfile.ph"
 #include "stdio.h"
-#include <StepFile_CallFailure.hxx>
+#include <DataExchange/StepFile/StepFile_CallFailure.hxx>
 
 /* skl 31.01.2002 for OCC133(OCC96,97) - uncorrect
 long string in files Henri.stp and 401.stp*/

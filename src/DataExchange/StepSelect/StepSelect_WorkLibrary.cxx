@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 
 #include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
-#include <StepFile_Read.hxx>
+#include <DataExchange/StepFile/StepFile_Read.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 

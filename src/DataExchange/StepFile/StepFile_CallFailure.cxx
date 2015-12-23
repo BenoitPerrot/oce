@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <StepFile_CallFailure.hxx>
+#include <DataExchange/StepFile/StepFile_CallFailure.hxx>
 
 void StepFile_CallFailure(char * const message)
 {
