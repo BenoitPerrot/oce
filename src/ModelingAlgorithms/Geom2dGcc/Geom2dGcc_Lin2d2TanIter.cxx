@@ -20,11 +20,11 @@
 
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <Geom2dGcc_Lin2d2TanIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2d2TanIter.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
@@ -37,11 +37,11 @@
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>
 
-#include <Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 
-#include <Geom2dGcc_FunctionTanCuCu.hxx>
-#include <Geom2dGcc_FunctionTanCuPnt.hxx>
-#include <Geom2dGcc_FunctionTanCirCu.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanCuCu.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanCuPnt.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanCirCu.hxx>
 
 Geom2dGcc_Lin2d2TanIter::
 Geom2dGcc_Lin2d2TanIter (const GccEnt_QualifiedCirc& Qualified1 ,

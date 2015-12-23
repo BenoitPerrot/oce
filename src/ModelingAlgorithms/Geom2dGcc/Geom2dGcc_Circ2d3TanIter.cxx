@@ -26,11 +26,11 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom2dGcc_Circ2d3TanIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d3TanIter.hxx>
 
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
@@ -42,8 +42,8 @@
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2d3Tan.hxx>
 
-#include <Geom2dGcc_CurveTool.hxx>
-#include <Geom2dGcc_FunctionTanCuCuCu.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanCuCuCu.hxx>
 
 Geom2dGcc_Circ2d3TanIter::
 Geom2dGcc_Circ2d3TanIter (const Geom2dGcc_QCurve& Qualified1 , 

@@ -17,11 +17,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom2dGcc_Circ2d2TanRadGeo.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRadGeo.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
@@ -35,10 +35,10 @@
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 
-#include <Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
-#include <Geom2dGcc_CurveToolGeo.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveToolGeo.hxx>
 #include <Geom2dInt_GInter.hxx>
 
 // circulaire tant a une courbe et une droite ,de rayon donne

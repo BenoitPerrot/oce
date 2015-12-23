@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom2dGcc_Circ2d2TanOnGeo.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanOnGeo.hxx>
 
 #include <ElCLib.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2dBisec.hxx>
@@ -50,7 +50,7 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
-#include <Geom2dGcc_CurveToolGeo.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveToolGeo.hxx>
 #include <Geom2dInt_TheIntConicCurveOfGInter.hxx>
 
 Geom2dGcc_Circ2d2TanOnGeo::

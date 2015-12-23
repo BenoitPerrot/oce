@@ -17,21 +17,21 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom2dGcc_QualifiedCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <Geom2dGcc_Lin2d2TanIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2d2TanIter.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dGcc_Lin2d2Tan.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2d2Tan.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Lin2d2Tan.hxx>
-#include <Geom2dGcc_Lin2d2TanIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2d2TanIter.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 
 //  Modified by Sergey KHROMOV - Wed Oct 16 11:44:41 2002 Begin
 Geom2dGcc_Lin2d2Tan::

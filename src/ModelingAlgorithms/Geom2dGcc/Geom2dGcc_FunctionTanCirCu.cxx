@@ -16,14 +16,14 @@
 
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dGcc_FunctionTanCirCu.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanCirCu.hxx>
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 
 //=========================================================================
 //  soit P1 le point sur la courbe Geom2dAdaptor_Curve d abscisse u.      +

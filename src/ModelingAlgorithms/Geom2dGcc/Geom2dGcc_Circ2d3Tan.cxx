@@ -16,17 +16,17 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom2dGcc_QualifiedCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2d3Tan.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2dGcc_Circ2d3Tan.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d3Tan.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
-#include <Geom2dGcc_QCurve.hxx>
-#include <Geom2dGcc_Circ2d3TanIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d3TanIter.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

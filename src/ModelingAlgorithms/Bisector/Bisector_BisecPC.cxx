@@ -41,10 +41,10 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <Geom2dGcc.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
-#include <Geom2dGcc_Circ2d2TanRad.hxx>
-#include <Geom2dGcc_QualifiedCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRad.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>

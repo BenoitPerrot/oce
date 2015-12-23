@@ -144,8 +144,8 @@ static Standard_Integer OCC137_z (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
-#include <Geom2dGcc_QualifiedCurve.hxx>
-#include <Geom2dGcc_Circ2d2TanRad.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>

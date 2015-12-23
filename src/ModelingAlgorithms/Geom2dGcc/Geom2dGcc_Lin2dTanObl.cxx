@@ -16,23 +16,23 @@
 
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2dGcc_IsParallel.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_IsParallel.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom2dGcc_QualifiedCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2dGcc_Lin2dTanOblIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2dTanOblIter.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dGcc_Lin2dTanObl.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2dTanObl.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Lin2dTanObl.hxx>
-#include <Geom2dGcc_Lin2dTanOblIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2dTanOblIter.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 
 Geom2dGcc_Lin2dTanObl::
    Geom2dGcc_Lin2dTanObl (const Geom2dGcc_QualifiedCurve& Qualified1 ,

@@ -26,13 +26,13 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dGcc_Circ2d2TanOnIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanOnIter.hxx>
 
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
@@ -42,8 +42,8 @@
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <ElCLib.hxx>
 
-#include <Geom2dGcc_CurveTool.hxx>
-#include <Geom2dGcc_FunctionTanCuCuOnCu.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanCuCuOnCu.hxx>
 
 Geom2dGcc_Circ2d2TanOnIter::
 Geom2dGcc_Circ2d2TanOnIter (const GccEnt_QualifiedLin&  Qualified1 , 

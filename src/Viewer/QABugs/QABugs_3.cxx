@@ -615,8 +615,8 @@ di <<"AnyToLS (3,mm) = " << UnitsAPI::AnyToLS(3.,"mm") << "\n"; // result was WR
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <GeomAPI.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
-#include <Geom2dGcc_QualifiedCurve.hxx>
-#include <Geom2dGcc_Circ2d2TanRad.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/ProjLib/ProjLib.hxx>
 

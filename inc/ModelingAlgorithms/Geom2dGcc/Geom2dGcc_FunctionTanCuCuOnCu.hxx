@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Geom2dGcc_Type2.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Type2.hxx>
 #include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

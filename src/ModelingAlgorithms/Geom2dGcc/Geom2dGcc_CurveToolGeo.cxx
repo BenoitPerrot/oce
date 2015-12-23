@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom2dGcc_CurveToolGeo.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveToolGeo.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Mathematics/Primitives/gp.hxx>

@@ -15,10 +15,10 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Geom2dGcc_Circ2dTanCenGeo.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2dTanCenGeo.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -30,7 +30,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 
-#include <Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 
 //=========================================================================

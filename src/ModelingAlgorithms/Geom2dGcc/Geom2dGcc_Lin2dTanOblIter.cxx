@@ -20,15 +20,15 @@
 
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <Geom2dGcc_IsParallel.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_IsParallel.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2dGcc_Lin2dTanOblIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2dTanOblIter.hxx>
 
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
-#include <Geom2dGcc_IsParallel.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_IsParallel.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>
@@ -37,8 +37,8 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 
-#include <Geom2dGcc_CurveTool.hxx>
-#include <Geom2dGcc_FunctionTanObl.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanObl.hxx>
 
 Geom2dGcc_Lin2dTanOblIter::
 Geom2dGcc_Lin2dTanOblIter (const Geom2dGcc_QCurve&  Qualified1 ,

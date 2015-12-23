@@ -34,16 +34,16 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <GeomAPI.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dGcc_QualifiedCurve.hxx>
-#include <Geom2dGcc_Lin2d2Tan.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2d2Tan.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
-#include <Geom2dGcc_QCurve.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
-#include <Geom2dGcc_Lin2d2TanIter.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2d2TanIter.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -62,7 +62,7 @@
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
-#include <Geom2dGcc_Circ2d3Tan.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d3Tan.hxx>
 #include <Aspect_Window.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
