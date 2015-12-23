@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_Group.hxx>
+#include <DataExchange/Vrml/Vrml_Group.hxx>
 
 Vrml_Group::Vrml_Group()
 {

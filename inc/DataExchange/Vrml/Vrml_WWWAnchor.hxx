@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Vrml_WWWAnchorMap.hxx>
+#include <DataExchange/Vrml/Vrml_WWWAnchorMap.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TCollection_AsciiString;
 

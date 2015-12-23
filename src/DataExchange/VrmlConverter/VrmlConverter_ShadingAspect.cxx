@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_Material.hxx>
-#include <Vrml_ShapeHints.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_ShapeHints.hxx>
 #include <VrmlConverter_ShadingAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(VrmlConverter_ShadingAspect)
@@ -23,8 +23,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(VrmlConverter_ShadingAspect)
 IMPLEMENT_DOWNCAST(VrmlConverter_ShadingAspect,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(VrmlConverter_ShadingAspect)
-#include <Vrml_ShapeHints.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_ShapeHints.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 
 VrmlConverter_ShadingAspect::VrmlConverter_ShadingAspect()
 {

@@ -22,8 +22,8 @@
 #include <VrmlConverter_DeflectionCurve.hxx>
 #include <VrmlConverter_LineAspect.hxx>
 #include <Precision.hxx>
-#include <Vrml_Separator.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Separator.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 
 //=======================================================================
 //function : Add

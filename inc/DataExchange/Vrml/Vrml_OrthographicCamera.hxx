@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_SFRotation.hxx>
+#include <DataExchange/Vrml/Vrml_SFRotation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class gp_Vec;

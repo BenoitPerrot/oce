@@ -13,7 +13,7 @@
 
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_ShadedShape.hxx>
-#include <Vrml_Normal.hxx>
+#include <DataExchange/Vrml/Vrml_Normal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -31,8 +31,8 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
-#include <Vrml_IndexedFaceSet.hxx>
-#include <Vrml_Coordinate3.hxx>
+#include <DataExchange/Vrml/Vrml_IndexedFaceSet.hxx>
+#include <DataExchange/Vrml/Vrml_Coordinate3.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Optimization/math.hxx>
@@ -44,13 +44,13 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <VrmlConverter_ShadingAspect.hxx>
-#include <Vrml_ShapeHints.hxx>
-#include <Vrml_MaterialBindingAndNormalBinding.hxx>
-#include <Vrml_NormalBinding.hxx>
-#include <Vrml_Separator.hxx>
-#include <Vrml_NormalBinding.hxx>
+#include <DataExchange/Vrml/Vrml_ShapeHints.hxx>
+#include <DataExchange/Vrml/Vrml_MaterialBindingAndNormalBinding.hxx>
+#include <DataExchange/Vrml/Vrml_NormalBinding.hxx>
+#include <DataExchange/Vrml/Vrml_Separator.hxx>
+#include <DataExchange/Vrml/Vrml_NormalBinding.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 
 //=========================================================================

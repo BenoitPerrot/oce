@@ -11,7 +11,7 @@
 #include <Handle_Vrml_SFImage.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Vrml_SFImageNumber.hxx>
+#include <DataExchange/Vrml/Vrml_SFImageNumber.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

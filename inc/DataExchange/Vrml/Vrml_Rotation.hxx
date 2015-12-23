@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Vrml_SFRotation.hxx>
+#include <DataExchange/Vrml/Vrml_SFRotation.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Vrml_SFRotation;
 

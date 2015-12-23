@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Vrml_VertexOrdering.hxx>
-#include <Vrml_ShapeType.hxx>
-#include <Vrml_FaceType.hxx>
+#include <DataExchange/Vrml/Vrml_VertexOrdering.hxx>
+#include <DataExchange/Vrml/Vrml_ShapeType.hxx>
+#include <DataExchange/Vrml/Vrml_FaceType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 

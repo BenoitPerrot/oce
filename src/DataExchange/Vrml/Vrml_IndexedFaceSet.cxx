@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Vrml_IndexedFaceSet.hxx>
+#include <DataExchange/Vrml/Vrml_IndexedFaceSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_IndexedFaceSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

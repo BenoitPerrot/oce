@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_SFRotation.hxx>
-#include <Vrml_Transform.hxx>
+#include <DataExchange/Vrml/Vrml_SFRotation.hxx>
+#include <DataExchange/Vrml/Vrml_Transform.hxx>
 
 Vrml_Transform::Vrml_Transform()
 {

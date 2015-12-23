@@ -11,14 +11,14 @@
 #include <Handle_VrmlConverter_Projector.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <Vrml_PerspectiveCamera.hxx>
-#include <Vrml_OrthographicCamera.hxx>
-#include <Vrml_DirectionalLight.hxx>
-#include <Vrml_PointLight.hxx>
-#include <Vrml_SpotLight.hxx>
+#include <DataExchange/Vrml/Vrml_PerspectiveCamera.hxx>
+#include <DataExchange/Vrml/Vrml_OrthographicCamera.hxx>
+#include <DataExchange/Vrml/Vrml_DirectionalLight.hxx>
+#include <DataExchange/Vrml/Vrml_PointLight.hxx>
+#include <DataExchange/Vrml/Vrml_SpotLight.hxx>
 #include <VrmlConverter_TypeOfCamera.hxx>
 #include <VrmlConverter_TypeOfLight.hxx>
-#include <Vrml_MatrixTransform.hxx>
+#include <DataExchange/Vrml/Vrml_MatrixTransform.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

@@ -21,11 +21,11 @@
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <VrmlConverter_LineAspect.hxx>
-#include <Vrml_Separator.hxx>
-#include <Vrml_Coordinate3.hxx>
-#include <Vrml_IndexedLineSet.hxx>
+#include <DataExchange/Vrml/Vrml_Separator.hxx>
+#include <DataExchange/Vrml/Vrml_Coordinate3.hxx>
+#include <DataExchange/Vrml/Vrml_IndexedLineSet.hxx>
 
 //==================================================================
 // function: FindLimits

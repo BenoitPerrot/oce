@@ -13,7 +13,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_WWWInline.hxx>
+#include <DataExchange/Vrml/Vrml_WWWInline.hxx>
 
 Vrml_WWWInline::Vrml_WWWInline()
 {

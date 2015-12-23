@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(VrmlConverter_Drawer)
 IMPLEMENT_DOWNCAST(VrmlConverter_Drawer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(VrmlConverter_Drawer)
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 
 VrmlConverter_Drawer::VrmlConverter_Drawer():
   myNbPoints(17),

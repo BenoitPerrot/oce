@@ -23,8 +23,8 @@
 #include <Precision.hxx>
 #include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
 #include <VrmlConverter_Curve.hxx>
-#include <Vrml_Material.hxx>
-#include <Vrml_Separator.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Separator.hxx>
 
 //=========================================================================
 // function: Add 1

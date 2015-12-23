@@ -11,7 +11,7 @@
 #include <Handle_VrmlConverter_ShadingAspect.hxx>
 
 #include <Handle_Vrml_Material.hxx>
-#include <Vrml_ShapeHints.hxx>
+#include <DataExchange/Vrml/Vrml_ShapeHints.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Vrml_Material;

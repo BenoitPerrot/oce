@@ -26,8 +26,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Precision.hxx>
-#include <Vrml_Separator.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Separator.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
 

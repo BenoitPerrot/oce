@@ -27,10 +27,10 @@
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx> 
 #include <ModelingData/BRep/BRep_Tool.hxx> 
 #include <VrmlConverter_PointAspect.hxx> 
-#include <Vrml_Separator.hxx>
-#include <Vrml_Coordinate3.hxx>
-#include <Vrml_Material.hxx>
-#include <Vrml_PointSet.hxx>
+#include <DataExchange/Vrml/Vrml_Separator.hxx>
+#include <DataExchange/Vrml/Vrml_Coordinate3.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_PointSet.hxx>
 #include <Precision.hxx>
 
 

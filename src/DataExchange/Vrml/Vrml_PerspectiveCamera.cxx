@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_SFRotation.hxx>
-#include <Vrml_PerspectiveCamera.hxx>
+#include <DataExchange/Vrml/Vrml_SFRotation.hxx>
+#include <DataExchange/Vrml/Vrml_PerspectiveCamera.hxx>
 
 Vrml_PerspectiveCamera::Vrml_PerspectiveCamera():
   myFocalDistance(5),

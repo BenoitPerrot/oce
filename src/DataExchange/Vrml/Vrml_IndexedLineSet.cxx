@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Vrml_IndexedLineSet.hxx>
+#include <DataExchange/Vrml/Vrml_IndexedLineSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_IndexedLineSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

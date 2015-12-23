@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_Scale.hxx>
+#include <DataExchange/Vrml/Vrml_Scale.hxx>
 
 Vrml_Scale::Vrml_Scale()
 {

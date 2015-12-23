@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Vrml_Info.hxx>
+#include <DataExchange/Vrml/Vrml_Info.hxx>
 
 Vrml_Info::Vrml_Info(const TCollection_AsciiString& aString)
 {

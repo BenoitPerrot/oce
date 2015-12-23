@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Vrml_WWWAnchor.hxx>
+#include <DataExchange/Vrml/Vrml_WWWAnchor.hxx>
 
 Vrml_WWWAnchor::Vrml_WWWAnchor(const TCollection_AsciiString& aName,
 			       const TCollection_AsciiString& aDescription,

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Vrml_SeparatorRenderCulling.hxx>
+#include <DataExchange/Vrml/Vrml_SeparatorRenderCulling.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 

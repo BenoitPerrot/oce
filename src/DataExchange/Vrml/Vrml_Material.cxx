@@ -13,7 +13,7 @@
 
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_Material)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

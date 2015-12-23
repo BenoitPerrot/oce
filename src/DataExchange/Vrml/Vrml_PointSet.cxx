@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_PointSet.hxx>
+#include <DataExchange/Vrml/Vrml_PointSet.hxx>
 
 Vrml_PointSet::Vrml_PointSet(const Standard_Integer aStartIndex, 
 			      const Standard_Integer aNumPoints)

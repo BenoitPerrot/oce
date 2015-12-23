@@ -32,11 +32,11 @@ IMPLEMENT_STANDARD_RTTI(VrmlConverter_Projector)
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
-#include <Vrml_SFRotation.hxx>
+#include <DataExchange/Vrml/Vrml_SFRotation.hxx>
 #include <Precision.hxx>
-#include <Vrml_MatrixTransform.hxx>
-#include <Vrml_TransformSeparator.hxx>
-#include <Vrml_Instancing.hxx>
+#include <DataExchange/Vrml/Vrml_MatrixTransform.hxx>
+#include <DataExchange/Vrml/Vrml_TransformSeparator.hxx>
+#include <DataExchange/Vrml/Vrml_Instancing.hxx>
 
 VrmlConverter_Projector::VrmlConverter_Projector (const TopTools_Array1OfShape& Shapes,
 						  const Quantity_Length Focus,

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_MaterialBinding.hxx>
+#include <DataExchange/Vrml/Vrml_MaterialBinding.hxx>
 
 Vrml_MaterialBinding::Vrml_MaterialBinding(const Vrml_MaterialBindingAndNormalBinding aValue)
 {

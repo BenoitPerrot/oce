@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Collections/TColgp_HArray1OfVec2d.hxx>
-#include <Vrml_TextureCoordinate2.hxx>
+#include <DataExchange/Vrml/Vrml_TextureCoordinate2.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_TextureCoordinate2)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

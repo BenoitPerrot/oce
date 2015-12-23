@@ -13,7 +13,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_LOD.hxx>
+#include <DataExchange/Vrml/Vrml_LOD.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Vrml_LOD)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

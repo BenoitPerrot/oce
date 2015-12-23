@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Version.hxx>
-#include <Vrml.hxx>
+#include <DataExchange/Vrml/Vrml.hxx>
 
 Standard_OStream& Vrml::VrmlHeaderWriter(Standard_OStream& anOStream)
 {

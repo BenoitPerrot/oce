@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_ShapeHints.hxx>
+#include <DataExchange/Vrml/Vrml_ShapeHints.hxx>
 
 Vrml_ShapeHints::Vrml_ShapeHints(const Vrml_VertexOrdering aVertexOrdering, 
 				  const Vrml_ShapeType aShapeType, 

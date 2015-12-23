@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_SFRotation.hxx>
-#include <Vrml_OrthographicCamera.hxx>
+#include <DataExchange/Vrml/Vrml_SFRotation.hxx>
+#include <DataExchange/Vrml/Vrml_OrthographicCamera.hxx>
 
 Vrml_OrthographicCamera::Vrml_OrthographicCamera():
   myFocalDistance(5),

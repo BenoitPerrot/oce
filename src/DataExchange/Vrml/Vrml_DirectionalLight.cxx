@@ -13,7 +13,7 @@
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_DirectionalLight.hxx>
+#include <DataExchange/Vrml/Vrml_DirectionalLight.hxx>
 
 Vrml_DirectionalLight::Vrml_DirectionalLight():
   myOnOff(Standard_True),

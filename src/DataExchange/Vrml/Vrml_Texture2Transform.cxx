@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Vrml_Texture2Transform.hxx>
+#include <DataExchange/Vrml/Vrml_Texture2Transform.hxx>
 
 Vrml_Texture2Transform::Vrml_Texture2Transform()
 {

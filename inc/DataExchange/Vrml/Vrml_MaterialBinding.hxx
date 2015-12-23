@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Vrml_MaterialBindingAndNormalBinding.hxx>
+#include <DataExchange/Vrml/Vrml_MaterialBindingAndNormalBinding.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 
 

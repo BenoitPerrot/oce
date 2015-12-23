@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Vrml_FontStyleFamily.hxx>
-#include <Vrml_FontStyleStyle.hxx>
+#include <DataExchange/Vrml/Vrml_FontStyleFamily.hxx>
+#include <DataExchange/Vrml/Vrml_FontStyleStyle.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 
 

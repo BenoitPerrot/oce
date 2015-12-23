@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Vrml_Translation.hxx>
+#include <DataExchange/Vrml/Vrml_Translation.hxx>
 
 Vrml_Translation::Vrml_Translation()
 {

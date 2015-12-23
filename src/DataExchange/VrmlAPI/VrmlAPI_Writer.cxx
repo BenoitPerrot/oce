@@ -14,11 +14,11 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_Projector.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <VrmlAPI_Writer.hxx>
-#include <Vrml_Material.hxx>
+#include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
@@ -28,12 +28,12 @@
 #include <VrmlConverter_PointAspect.hxx>
 #include <VrmlConverter_ShadingAspect.hxx>
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
-#include <Vrml.hxx>
+#include <DataExchange/Vrml/Vrml.hxx>
 #include <VrmlConverter_Projector.hxx>
 #include <VrmlConverter_ShadedShape.hxx>
-#include <Vrml_Group.hxx>
-#include <Vrml_Instancing.hxx>
-#include <Vrml_Separator.hxx>
+#include <DataExchange/Vrml/Vrml_Group.hxx>
+#include <DataExchange/Vrml/Vrml_Instancing.hxx>
+#include <DataExchange/Vrml/Vrml_Separator.hxx>
 #include <VrmlConverter_WFDeflectionShape.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 

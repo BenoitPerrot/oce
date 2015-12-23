@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Vrml_SFImage.hxx>
+#include <DataExchange/Vrml/Vrml_SFImage.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Vrml_Texture2.hxx>
+#include <DataExchange/Vrml/Vrml_Texture2.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 Vrml_Texture2::Vrml_Texture2()
