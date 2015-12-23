@@ -19,7 +19,7 @@
 #include <PTopoDS_HShape.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
-#include <MgtTopoDS_TranslateTool.hxx>
+#include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MgtTopoDS_TranslateTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

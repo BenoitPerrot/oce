@@ -11,7 +11,7 @@
 #include <Handle_MgtBRep_TranslateTool1.hxx>
 
 #include <OCAF/MgtBRep/MgtBRep_TriangleMode.hxx>
-#include <MgtTopoDS_TranslateTool1.hxx>
+#include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool1.hxx>
 #include <Handle_PGeom_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_PGeom2d_Curve.hxx>

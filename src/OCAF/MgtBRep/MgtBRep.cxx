@@ -21,7 +21,7 @@
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/MgtBRep/MgtBRep.hxx>
 
-#include <MgtTopoDS.hxx>
+#include <OCAF/MgtTopoDS/MgtTopoDS.hxx>
 #include <OCAF/MgtBRep/MgtBRep_TranslateTool.hxx>
 #include <OCAF/MgtBRep/MgtBRep_TranslateTool1.hxx>
 

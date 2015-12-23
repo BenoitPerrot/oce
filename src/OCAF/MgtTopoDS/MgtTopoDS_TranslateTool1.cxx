@@ -26,7 +26,7 @@
 #include <PTopoDS_Shape1.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
-#include <MgtTopoDS_TranslateTool1.hxx>
+#include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MgtTopoDS_TranslateTool1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
