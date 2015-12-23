@@ -13,15 +13,15 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignDocumentReference.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDocumentReference.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignDocumentReference.hxx>
 
 #include <StepBasic_Document.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
-#include <StepAP214_AutoDesignReferencingItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignReferencingItem.hxx>
 
 
 RWStepAP214_RWAutoDesignDocumentReference::RWStepAP214_RWAutoDesignDocumentReference  ()    {  }

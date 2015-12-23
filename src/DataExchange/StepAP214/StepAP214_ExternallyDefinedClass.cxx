@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepBasic_SourceItem.hxx>
 #include <StepBasic_ExternalSource.hxx>
-#include <StepAP214_ExternallyDefinedClass.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternallyDefinedClass.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_ExternallyDefinedClass)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

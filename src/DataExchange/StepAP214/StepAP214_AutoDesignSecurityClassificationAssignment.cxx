@@ -14,7 +14,7 @@
 #include <StepBasic_HArray1OfApproval.hxx>
 #include <StepBasic_SecurityClassification.hxx>
 #include <StepBasic_Approval.hxx>
-#include <StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignSecurityClassificationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

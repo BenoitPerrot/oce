@@ -17,12 +17,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AppliedExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedExternalIdentificationAssignment.hxx>
-#include <StepAP214_HArray1OfExternalIdentificationItem.hxx>
-#include <StepAP214_ExternalIdentificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfExternalIdentificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternalIdentificationItem.hxx>
 
 //=======================================================================
 //function : RWStepAP214_RWAppliedExternalIdentificationAssignment

@@ -13,18 +13,18 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AppliedPresentedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPresentedItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedPresentedItem.hxx>
-#include <StepAP214_HArray1OfPresentedItemSelect.hxx>
-#include <StepAP214_PresentedItemSelect.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfPresentedItemSelect.hxx>
+#include <DataExchange/StepAP214/StepAP214_PresentedItemSelect.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AppliedPresentedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPresentedItem.hxx>
 
 
 RWStepAP214_RWAppliedPresentedItem::RWStepAP214_RWAppliedPresentedItem () {}

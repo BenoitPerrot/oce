@@ -17,7 +17,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_RepItemGroup.hxx>
+#include <DataExchange/StepAP214/StepAP214_RepItemGroup.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWRepItemGroup.hxx>

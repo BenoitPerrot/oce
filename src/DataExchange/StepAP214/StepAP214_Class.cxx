@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepAP214_Class.hxx>
+#include <DataExchange/StepAP214/StepAP214_Class.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_Class)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

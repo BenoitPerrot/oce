@@ -23,7 +23,7 @@
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepVisual_TemplateInstance.hxx>
-#include <StepAP214_AutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignGroupedItem::StepAP214_AutoDesignGroupedItem () {  }

@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfSecurityClassificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfSecurityClassificationItem.hxx>
 #include <StepBasic_SecurityClassification.hxx>
-#include <StepAP214_SecurityClassificationItem.hxx>
-#include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_SecurityClassificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedSecurityClassificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedSecurityClassificationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

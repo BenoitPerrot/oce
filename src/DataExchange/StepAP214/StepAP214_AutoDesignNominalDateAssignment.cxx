@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfAutoDesignDatedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignDatedItem.hxx>
 #include <StepBasic_Date.hxx>
 #include <StepBasic_DateRole.hxx>
-#include <StepAP214_AutoDesignDatedItem.hxx>
-#include <StepAP214_AutoDesignNominalDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDatedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignNominalDateAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignNominalDateAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

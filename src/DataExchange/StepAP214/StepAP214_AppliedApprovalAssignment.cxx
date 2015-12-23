@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfApprovalItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfApprovalItem.hxx>
 #include <StepBasic_Approval.hxx>
-#include <StepAP214_ApprovalItem.hxx>
-#include <StepAP214_AppliedApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedApprovalAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedApprovalAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

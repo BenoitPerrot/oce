@@ -92,7 +92,7 @@
 #include <StepVisual_HArray1OfInvisibleItem.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <StepData_StepModel.hxx>
-#include <StepAP214_Protocol.hxx>
+#include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>

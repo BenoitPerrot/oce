@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_Document.hxx>
 #include <StepBasic_PhysicallyModeledProductDefinition.hxx>
-#include <StepAP214_AutoDesignOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignOrganizationItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignOrganizationItem::StepAP214_AutoDesignOrganizationItem ()  {  }

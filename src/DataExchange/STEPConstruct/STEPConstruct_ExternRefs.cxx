@@ -21,7 +21,7 @@
 #include <XSControl_WorkSession.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepAP214_AppliedDocumentReference.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>
 #include <StepBasic_DocumentFile.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
 
@@ -49,11 +49,11 @@
 
 #include <StepShape_ShapeRepresentation.hxx>
 
-#include <StepAP214_AppliedDocumentReference.hxx>
-#include <StepAP214_AppliedExternalIdentificationAssignment.hxx>
-#include <StepAP214_ExternalIdentificationItem.hxx>
-#include <StepAP214_HArray1OfExternalIdentificationItem.hxx>
-#include <StepAP214_HArray1OfDocumentReferenceItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternalIdentificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfExternalIdentificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfDocumentReferenceItem.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
 #include <StepBasic_ProductDefinitionContext.hxx>

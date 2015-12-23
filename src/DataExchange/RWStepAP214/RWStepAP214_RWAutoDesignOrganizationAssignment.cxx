@@ -13,12 +13,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignOrganizationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignOrganizationAssignment.hxx>
-#include <StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
-#include <StepAP214_AutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGeneralOrgItem.hxx>
 #include <StepBasic_Organization.hxx>
 #include <StepBasic_OrganizationRole.hxx>
 
@@ -26,7 +26,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AutoDesignOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignOrganizationAssignment.hxx>
 
 
 RWStepAP214_RWAutoDesignOrganizationAssignment::RWStepAP214_RWAutoDesignOrganizationAssignment () {}

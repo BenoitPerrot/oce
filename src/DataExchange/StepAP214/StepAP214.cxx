@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_Protocol.hxx>
-#include <StepAP214.hxx>
+#include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
+#include <DataExchange/StepAP214/StepAP214.hxx>
 
 #include <DataExchange/Interface/Interface_Statics.hxx>
-#include <StepAP214_Protocol.hxx>
+#include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
 
 StaticHandle(StepAP214_Protocol, proto);
 

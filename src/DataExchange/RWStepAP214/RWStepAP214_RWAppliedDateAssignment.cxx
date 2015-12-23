@@ -13,12 +13,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AppliedDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDateAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedDateAssignment.hxx>
-#include <StepAP214_HArray1OfDateItem.hxx>
-#include <StepAP214_DateItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfDateItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_DateItem.hxx>
 #include <StepBasic_Date.hxx>
 #include <StepBasic_DateRole.hxx>
 
@@ -26,7 +26,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AppliedDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDateAssignment.hxx>
 
 
 RWStepAP214_RWAppliedDateAssignment::RWStepAP214_RWAppliedDateAssignment () {}

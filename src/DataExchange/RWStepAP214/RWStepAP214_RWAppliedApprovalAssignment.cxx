@@ -13,19 +13,19 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AppliedApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedApprovalAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedApprovalAssignment.hxx>
-#include <StepAP214_HArray1OfApprovalItem.hxx>
-#include <StepAP214_ApprovalItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfApprovalItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
 #include <StepBasic_Approval.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AppliedApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedApprovalAssignment.hxx>
 
 
 RWStepAP214_RWAppliedApprovalAssignment::RWStepAP214_RWAppliedApprovalAssignment () {}

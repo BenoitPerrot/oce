@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx>
-#include <StepAP214_AutoDesignPresentedItemSelect.hxx>
-#include <StepAP214_AutoDesignPresentedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignPresentedItemSelect.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignPresentedItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignPresentedItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -26,7 +26,7 @@
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_RepresentationRelationship.hxx>
 #include <StepRepr_ShapeAspect.hxx>
-#include <StepAP214_AutoDesignReferencingItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignReferencingItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignReferencingItem::StepAP214_AutoDesignReferencingItem  ()    {  }

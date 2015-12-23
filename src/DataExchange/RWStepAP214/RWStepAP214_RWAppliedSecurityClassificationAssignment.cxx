@@ -13,19 +13,19 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedSecurityClassificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx>
-#include <StepAP214_HArray1OfSecurityClassificationItem.hxx>
-#include <StepAP214_SecurityClassificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfSecurityClassificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_SecurityClassificationItem.hxx>
 #include <StepBasic_SecurityClassification.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedSecurityClassificationAssignment.hxx>
 
 
 RWStepAP214_RWAppliedSecurityClassificationAssignment::RWStepAP214_RWAppliedSecurityClassificationAssignment () {}

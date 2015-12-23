@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
 #include <StepBasic_Group.hxx>
-#include <StepAP214_AutoDesignGroupedItem.hxx>
-#include <StepAP214_AutoDesignGroupAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignGroupAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepAP214_AppliedOrganizationAssignment.hxx>
-#include <StepAP214_PersonAndOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_PersonAndOrganizationItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_PersonAndOrganizationItem::StepAP214_PersonAndOrganizationItem () {  }

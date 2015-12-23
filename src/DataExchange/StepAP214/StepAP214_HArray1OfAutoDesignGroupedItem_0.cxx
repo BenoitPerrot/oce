@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepAP214_AutoDesignGroupedItem.hxx>
-#include <StepAP214_Array1OfAutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_Array1OfAutoDesignGroupedItem.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepAP214_HArray1OfAutoDesignGroupedItem)
 
 
 #define ItemHArray1 StepAP214_AutoDesignGroupedItem
-#define ItemHArray1_hxx <StepAP214_AutoDesignGroupedItem.hxx>
+#define ItemHArray1_hxx <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
 #define TheArray1 StepAP214_Array1OfAutoDesignGroupedItem
-#define TheArray1_hxx <StepAP214_Array1OfAutoDesignGroupedItem.hxx>
+#define TheArray1_hxx <DataExchange/StepAP214/StepAP214_Array1OfAutoDesignGroupedItem.hxx>
 #define TCollection_HArray1 StepAP214_HArray1OfAutoDesignGroupedItem
-#define TCollection_HArray1_hxx <StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepAP214_HArray1OfAutoDesignGroupedItem
 #define TCollection_HArray1_Type_() StepAP214_HArray1OfAutoDesignGroupedItem_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

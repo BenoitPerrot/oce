@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_HArray1OfOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfOrganizationItem.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepAP214_OrganizationItem.hxx>
-#include <StepAP214_Array1OfOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_OrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_Array1OfOrganizationItem.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepAP214_HArray1OfOrganizationItem)
 
 
 #define ItemHArray1 StepAP214_OrganizationItem
-#define ItemHArray1_hxx <StepAP214_OrganizationItem.hxx>
+#define ItemHArray1_hxx <DataExchange/StepAP214/StepAP214_OrganizationItem.hxx>
 #define TheArray1 StepAP214_Array1OfOrganizationItem
-#define TheArray1_hxx <StepAP214_Array1OfOrganizationItem.hxx>
+#define TheArray1_hxx <DataExchange/StepAP214/StepAP214_Array1OfOrganizationItem.hxx>
 #define TCollection_HArray1 StepAP214_HArray1OfOrganizationItem
-#define TCollection_HArray1_hxx <StepAP214_HArray1OfOrganizationItem.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepAP214/StepAP214_HArray1OfOrganizationItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepAP214_HArray1OfOrganizationItem
 #define TCollection_HArray1_Type_() StepAP214_HArray1OfOrganizationItem_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

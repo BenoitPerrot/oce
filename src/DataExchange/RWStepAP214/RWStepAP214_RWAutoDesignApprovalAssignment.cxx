@@ -13,19 +13,19 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignApprovalAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignApprovalAssignment.hxx>
-#include <StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
-#include <StepAP214_AutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGeneralOrgItem.hxx>
 #include <StepBasic_Approval.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AutoDesignApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignApprovalAssignment.hxx>
 
 
 RWStepAP214_RWAutoDesignApprovalAssignment::RWStepAP214_RWAutoDesignApprovalAssignment () {}

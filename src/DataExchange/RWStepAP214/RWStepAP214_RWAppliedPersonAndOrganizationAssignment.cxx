@@ -13,12 +13,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx>
-#include <StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
-#include <StepAP214_PersonAndOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_PersonAndOrganizationItem.hxx>
 #include <StepBasic_PersonAndOrganization.hxx>
 #include <StepBasic_PersonAndOrganizationRole.hxx>
 
@@ -26,7 +26,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
 
 
 RWStepAP214_RWAppliedPersonAndOrganizationAssignment::RWStepAP214_RWAppliedPersonAndOrganizationAssignment () {}

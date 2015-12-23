@@ -13,9 +13,9 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ApprovalPersonOrganization.hxx>
-#include <StepAP214_AutoDesignDateAndPersonAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonAssignment.hxx>
 #include <StepBasic_ProductDefinitionEffectivity.hxx>
-#include <StepAP214_AutoDesignDateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndTimeItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignDateAndTimeItem::StepAP214_AutoDesignDateAndTimeItem () {  }

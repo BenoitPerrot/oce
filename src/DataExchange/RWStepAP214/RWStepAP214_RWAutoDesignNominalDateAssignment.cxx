@@ -13,12 +13,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignNominalDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignNominalDateAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignNominalDateAssignment.hxx>
-#include <StepAP214_HArray1OfAutoDesignDatedItem.hxx>
-#include <StepAP214_AutoDesignDatedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignDatedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDatedItem.hxx>
 #include <StepBasic_Date.hxx>
 #include <StepBasic_DateRole.hxx>
 
@@ -26,7 +26,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AutoDesignNominalDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignNominalDateAssignment.hxx>
 
 
 RWStepAP214_RWAutoDesignNominalDateAssignment::RWStepAP214_RWAutoDesignNominalDateAssignment () {}

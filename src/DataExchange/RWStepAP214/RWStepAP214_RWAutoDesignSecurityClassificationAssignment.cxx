@@ -13,7 +13,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
@@ -25,7 +25,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 
 
 RWStepAP214_RWAutoDesignSecurityClassificationAssignment::RWStepAP214_RWAutoDesignSecurityClassificationAssignment () {}

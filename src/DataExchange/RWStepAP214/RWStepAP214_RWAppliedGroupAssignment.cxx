@@ -17,12 +17,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AppliedGroupAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedGroupAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedGroupAssignment.hxx>
-#include <StepAP214_HArray1OfGroupItem.hxx>
-#include <StepAP214_GroupItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfGroupItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_GroupItem.hxx>
 
 //=======================================================================
 //function : RWStepAP214_RWAppliedGroupAssignment

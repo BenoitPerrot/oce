@@ -62,7 +62,7 @@
 #include <StepRepr_DescriptiveRepresentationItem.hxx>
 #include <StepRepr_SequenceOfRepresentationItem.hxx>
 #include <StepVisual_StyledItem.hxx>
-#include <StepAP214_AppliedExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
 
 #include <STEPConstruct.hxx>
 #include <STEPConstruct_Styles.hxx>

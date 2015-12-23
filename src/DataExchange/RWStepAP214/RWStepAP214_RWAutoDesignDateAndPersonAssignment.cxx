@@ -13,12 +13,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignDateAndPersonAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignDateAndPersonAssignment.hxx>
-#include <StepAP214_HArray1OfAutoDesignDateAndPersonItem.hxx>
-#include <StepAP214_AutoDesignDateAndPersonItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignDateAndPersonItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonItem.hxx>
 #include <StepBasic_PersonAndOrganization.hxx>
 #include <StepBasic_PersonAndOrganizationRole.hxx>
 
@@ -26,7 +26,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AutoDesignDateAndPersonAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonAssignment.hxx>
 
 
 RWStepAP214_RWAutoDesignDateAndPersonAssignment::RWStepAP214_RWAutoDesignDateAndPersonAssignment () {}

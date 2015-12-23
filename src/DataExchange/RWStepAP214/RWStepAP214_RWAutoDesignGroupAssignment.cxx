@@ -13,19 +13,19 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignGroupAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignGroupAssignment.hxx>
-#include <StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
-#include <StepAP214_AutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
 #include <StepBasic_Group.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AutoDesignGroupAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupAssignment.hxx>
 
 
 RWStepAP214_RWAutoDesignGroupAssignment::RWStepAP214_RWAutoDesignGroupAssignment () {}

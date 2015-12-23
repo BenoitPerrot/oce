@@ -21,7 +21,7 @@
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepRepr_ShapeAspectRelationship.hxx>
-#include <StepAP214_DocumentReferenceItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_DocumentReferenceItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_DocumentReferenceItem::StepAP214_DocumentReferenceItem () {  }

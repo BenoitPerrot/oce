@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfDateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfDateAndTimeItem.hxx>
 #include <StepBasic_DateAndTime.hxx>
 #include <StepBasic_DateTimeRole.hxx>
-#include <StepAP214_DateAndTimeItem.hxx>
-#include <StepAP214_AppliedDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_DateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDateAndTimeAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AppliedDateAndTimeAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

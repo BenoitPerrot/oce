@@ -118,19 +118,19 @@
 #include <DataExchange/StepAP203/StepAP203_HArray1OfDateTimeItem.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfClassifiedItem.hxx>
 
-#include <StepAP214_AppliedApprovalAssignment.hxx>
-#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
-#include <StepAP214_AppliedDateAndTimeAssignment.hxx>
-#include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
-#include <StepAP214_HArray1OfApprovalItem.hxx>
-#include <StepAP214_ApprovalItem.hxx>
-#include <StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
-#include <StepAP214_PersonAndOrganizationItem.hxx>
-#include <StepAP214_HArray1OfDateAndTimeItem.hxx>
-#include <StepAP214_DateAndTimeItem.hxx>
-#include <StepAP214_HArray1OfSecurityClassificationItem.hxx>
-#include <StepAP214_SecurityClassificationItem.hxx>
-#include <StepAP214_ApprovalItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfApprovalItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_PersonAndOrganizationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfDateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_DateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfSecurityClassificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_SecurityClassificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
 
 //#include <.hxx>
 

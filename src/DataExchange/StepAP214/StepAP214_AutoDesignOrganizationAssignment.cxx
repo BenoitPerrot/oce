@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
 #include <StepBasic_Organization.hxx>
 #include <StepBasic_OrganizationRole.hxx>
-#include <StepAP214_AutoDesignGeneralOrgItem.hxx>
-#include <StepAP214_AutoDesignOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignOrganizationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignOrganizationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

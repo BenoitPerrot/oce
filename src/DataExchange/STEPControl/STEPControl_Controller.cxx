@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <DataExchange/IFSelect/IFSelect_Option.hxx>
 #include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 
-//#include <StepAP214.hxx>
+//#include <DataExchange/StepAP214/StepAP214.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214.hxx>
 
 #include <Foundation/Standard/Standard_Version.hxx>

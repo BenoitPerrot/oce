@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
-#include <StepAP214.hxx>
+#include <DataExchange/StepAP214/StepAP214.hxx>
 
 #include <DataExchange/RWStepAP214/RWStepAP214.hxx>
 
@@ -70,17 +70,17 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepBasic_ApprovalRole.hxx>
 #include <StepBasic_ApprovalStatus.hxx>
 #include <StepVisual_AreaInSet.hxx>
-#include <StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
-#include <StepAP214_AutoDesignActualDateAssignment.hxx>
-#include <StepAP214_AutoDesignApprovalAssignment.hxx>
-#include <StepAP214_AutoDesignDateAndPersonAssignment.hxx>
-#include <StepAP214_AutoDesignGroupAssignment.hxx>
-#include <StepAP214_AutoDesignNominalDateAndTimeAssignment.hxx>
-#include <StepAP214_AutoDesignNominalDateAssignment.hxx>
-#include <StepAP214_AutoDesignOrganizationAssignment.hxx>
-#include <StepAP214_AutoDesignPersonAndOrganizationAssignment.hxx>
-#include <StepAP214_AutoDesignPresentedItem.hxx>
-#include <StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignActualDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGroupAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignNominalDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignNominalDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignPresentedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 // Removed from Rev2 to Rev4 :  <StepAP214_AutoDesignViewArea.hxx>
 #include <StepGeom_Axis1Placement.hxx>
 #include <StepGeom_Axis2Placement2d.hxx>
@@ -291,7 +291,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepGeom_RationalBSplineSurface.hxx>
 #include <StepGeom_RectangularCompositeSurface.hxx>
 #include <StepGeom_RectangularTrimmedSurface.hxx>
-#include <StepAP214_RepItemGroup.hxx>
+#include <DataExchange/StepAP214/StepAP214_RepItemGroup.hxx>
 #include <StepGeom_ReparametrisedCompositeCurveSegment.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_RepresentationContext.hxx>
@@ -415,7 +415,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 
 //  Added by CKY (JUL-1998) for AP214 CC1 -> CC2
 
-#include <StepAP214_AutoDesignDocumentReference.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDocumentReference.hxx>
 #include <StepBasic_Document.hxx>
 #include <StepBasic_DigitalDocument.hxx>
 #include <StepBasic_DocumentRelationship.hxx>
@@ -827,15 +827,15 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepShape/RWStepShape_RWContextDependentShapeRepresentation.hxx>
 //Added from CC2 to DIS :j4
 
-#include <StepAP214_AppliedDateAndTimeAssignment.hxx>
-#include <StepAP214_AppliedDateAssignment.hxx>
-#include <StepAP214_AppliedApprovalAssignment.hxx>
-#include <StepAP214_AppliedDocumentReference.hxx>
-#include <StepAP214_AppliedGroupAssignment.hxx>
-#include <StepAP214_AppliedOrganizationAssignment.hxx>
-#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
-#include <StepAP214_AppliedPresentedItem.hxx>
-#include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDateAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedGroupAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPresentedItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedSecurityClassificationAssignment.hxx>
 #include <StepBasic_DocumentFile.hxx>
 #include <StepBasic_CharacterizedObject.hxx>  
 #include <StepShape_ExtrudedFaceSolid.hxx>
@@ -959,10 +959,10 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepBasic_EffectivityAssignment.hxx>
 #include <StepBasic_NameAssignment.hxx>
 #include <StepBasic_GeneralProperty.hxx>
-#include <StepAP214_Class.hxx>
-#include <StepAP214_ExternallyDefinedClass.hxx>
-#include <StepAP214_ExternallyDefinedGeneralProperty.hxx>
-#include <StepAP214_AppliedExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_Class.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternallyDefinedClass.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternallyDefinedGeneralProperty.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentRepresentationType.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWObjectRole.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWRoleAssociation.hxx>

@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP214_Array1OfDateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_Array1OfDateAndTimeItem.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepAP214_DateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_DateAndTimeItem.hxx>
  
 
 #define Array1Item StepAP214_DateAndTimeItem
-#define Array1Item_hxx <StepAP214_DateAndTimeItem.hxx>
+#define Array1Item_hxx <DataExchange/StepAP214/StepAP214_DateAndTimeItem.hxx>
 #define TCollection_Array1 StepAP214_Array1OfDateAndTimeItem
-#define TCollection_Array1_hxx <StepAP214_Array1OfDateAndTimeItem.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepAP214/StepAP214_Array1OfDateAndTimeItem.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

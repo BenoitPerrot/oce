@@ -17,10 +17,10 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_DocumentFile.hxx>
-#include <StepAP214_ExternallyDefinedClass.hxx>
-#include <StepAP214_ExternallyDefinedGeneralProperty.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternallyDefinedClass.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternallyDefinedGeneralProperty.hxx>
 #include <StepBasic_ProductDefinition.hxx>
-#include <StepAP214_ExternalIdentificationItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_ExternalIdentificationItem.hxx>
 
 //=======================================================================
 //function : StepAP214_ExternalIdentificationItem

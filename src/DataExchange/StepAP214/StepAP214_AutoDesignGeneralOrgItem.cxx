@@ -19,8 +19,8 @@
 #include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_ExternallyDefinedRepresentation.hxx>
-#include <StepAP214_AutoDesignDocumentReference.hxx>
-#include <StepAP214_AutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDocumentReference.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignGeneralOrgItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignGeneralOrgItem::StepAP214_AutoDesignGeneralOrgItem () {  }

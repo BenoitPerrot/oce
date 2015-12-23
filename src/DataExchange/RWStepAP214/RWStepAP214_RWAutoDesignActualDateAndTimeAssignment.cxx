@@ -13,12 +13,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignActualDateAndTimeAssignment.hxx>
-#include <StepAP214_HArray1OfAutoDesignDateAndTimeItem.hxx>
-#include <StepAP214_AutoDesignDateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignDateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndTimeItem.hxx>
 #include <StepBasic_DateAndTime.hxx>
 #include <StepBasic_DateTimeRole.hxx>
 
@@ -26,7 +26,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
 
 
 RWStepAP214_RWAutoDesignActualDateAndTimeAssignment::RWStepAP214_RWAutoDesignActualDateAndTimeAssignment () {}

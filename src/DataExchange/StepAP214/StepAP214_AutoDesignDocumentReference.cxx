@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
 #include <StepBasic_Document.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepAP214_AutoDesignReferencingItem.hxx>
-#include <StepAP214_AutoDesignDocumentReference.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignReferencingItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_AutoDesignDocumentReference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignDocumentReference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

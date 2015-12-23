@@ -13,10 +13,10 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ApprovalPersonOrganization.hxx>
-#include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
-#include <StepAP214_AppliedOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/StepAP214_AppliedOrganizationAssignment.hxx>
 #include <StepBasic_Effectivity.hxx>
-#include <StepAP214_DateAndTimeItem.hxx>
+#include <DataExchange/StepAP214/StepAP214_DateAndTimeItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_DateAndTimeItem::StepAP214_DateAndTimeItem () {  }

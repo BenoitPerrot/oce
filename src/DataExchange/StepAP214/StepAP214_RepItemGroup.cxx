@@ -17,7 +17,7 @@
 
 #include <StepRepr_RepresentationItem.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepAP214_RepItemGroup.hxx>
+#include <DataExchange/StepAP214/StepAP214_RepItemGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_RepItemGroup)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
