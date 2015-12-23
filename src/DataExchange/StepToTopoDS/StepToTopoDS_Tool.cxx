@@ -29,7 +29,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 
 // ============================================================================
 // Method  : StepToTopoDS_Tool::StepToTopoDS_Tool

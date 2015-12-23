@@ -32,8 +32,8 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>

@@ -88,14 +88,14 @@
 #include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 
 // Processing of non-manifold topology (ssv; 10.11.2010)
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 
 // ----------------------------------------------------------------------------

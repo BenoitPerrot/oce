@@ -28,7 +28,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================

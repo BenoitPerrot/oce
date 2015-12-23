@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TransferBRep_ShapeBinder.hxx>
 
-#include <TransferBRep_BinderOfShape.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_BinderOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_TypeMismatch;
 class TopoDS_Shape;

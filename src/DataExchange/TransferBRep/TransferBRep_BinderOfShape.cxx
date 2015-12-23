@@ -14,7 +14,7 @@
 #include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TransferBRep_BinderOfShape.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_BinderOfShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TransferBRep_BinderOfShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(TransferBRep_BinderOfShape)
 IMPLEMENT_DOWNCAST(TransferBRep_BinderOfShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TransferBRep_BinderOfShape)
 
-#include <TransferBRep_ShapeInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeInfo.hxx>
 
 
 TransferBRep_BinderOfShape::TransferBRep_BinderOfShape (){ }

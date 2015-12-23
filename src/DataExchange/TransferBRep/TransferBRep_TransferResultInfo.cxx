@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TransferBRep_TransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_TransferResultInfo.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TransferBRep_TransferResultInfo)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

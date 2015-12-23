@@ -59,8 +59,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
-#include <TransferBRep_ShapeListBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
 #include <stdio.h>
 
 #include <Foundation/Message/Message_Msg.hxx>

@@ -52,7 +52,7 @@
 #include <DataExchange/StepShape/StepShape_PolyLoop.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>

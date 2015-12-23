@@ -62,9 +62,9 @@
 
 #include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
 #include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
-#include <TransferBRep.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
-#include <TransferBRep_ShapeListBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
 

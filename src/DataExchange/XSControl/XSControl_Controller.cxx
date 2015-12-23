@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 #include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

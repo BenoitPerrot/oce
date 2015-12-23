@@ -51,7 +51,7 @@
 #include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 // add of stdio.h for NT compilation

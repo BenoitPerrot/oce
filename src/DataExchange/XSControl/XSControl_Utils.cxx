@@ -35,9 +35,9 @@
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
-#include <TransferBRep.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

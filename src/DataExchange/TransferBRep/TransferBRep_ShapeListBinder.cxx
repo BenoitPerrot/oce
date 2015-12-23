@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <TransferBRep_ShapeListBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TransferBRep_ShapeListBinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

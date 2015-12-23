@@ -39,10 +39,10 @@
 
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 
-//#include <TransferBRep_ShapeBinder.hxx>
-//#include <TransferBRep_ShapeListBinder.hxx>
-//#include <TransferBRep_ShapeMapper.hxx>
-//#include <TransferBRep_OrientedShapeMapper.hxx>
+//#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
+//#include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
+//#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+//#include <DataExchange/TransferBRep/TransferBRep_OrientedShapeMapper.hxx>
 
 #include <XSControl_TransferWriter.hxx>
 #include <XSControl_TransferReader.hxx>

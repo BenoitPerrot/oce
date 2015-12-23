@@ -61,7 +61,7 @@
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
-//#include <TransferBRep.hxx>
+//#include <DataExchange/TransferBRep/TransferBRep.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>

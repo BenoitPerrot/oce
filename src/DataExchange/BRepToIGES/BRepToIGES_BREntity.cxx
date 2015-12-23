@@ -55,8 +55,8 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep_OrientedShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_OrientedShapeMapper.hxx>
 #include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 

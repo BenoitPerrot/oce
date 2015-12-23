@@ -38,7 +38,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>

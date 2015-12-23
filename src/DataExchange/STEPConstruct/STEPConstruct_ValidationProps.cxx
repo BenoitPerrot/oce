@@ -35,8 +35,8 @@
 
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
-#include <TransferBRep.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 
 #include <XSControl_TransferWriter.hxx>
 #include <XSControl_TransferReader.hxx>

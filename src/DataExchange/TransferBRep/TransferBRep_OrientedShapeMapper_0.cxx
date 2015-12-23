@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TransferBRep_OrientedShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_OrientedShapeMapper.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
-#include <TransferBRep_ShapeInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeInfo.hxx>
 #include <DataExchange/Transfer/Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -35,9 +35,9 @@ IMPLEMENT_STANDARD_RTTI(TransferBRep_OrientedShapeMapper)
 #define TheHasher TopTools_OrientedShapeMapHasher
 #define TheHasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TheInfo TransferBRep_ShapeInfo
-#define TheInfo_hxx <TransferBRep_ShapeInfo.hxx>
+#define TheInfo_hxx <DataExchange/TransferBRep/TransferBRep_ShapeInfo.hxx>
 #define Transfer_Mapper TransferBRep_OrientedShapeMapper
-#define Transfer_Mapper_hxx <TransferBRep_OrientedShapeMapper.hxx>
+#define Transfer_Mapper_hxx <DataExchange/TransferBRep/TransferBRep_OrientedShapeMapper.hxx>
 #define Handle_Transfer_Mapper Handle_TransferBRep_OrientedShapeMapper
 #define Transfer_Mapper_Type_() TransferBRep_OrientedShapeMapper_Type_()
 #include <DataExchange/Transfer/Transfer_Mapper.gxx>

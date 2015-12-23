@@ -22,7 +22,7 @@
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
@@ -87,7 +87,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 //  Representation Relationship & cie
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
@@ -99,7 +99,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>

@@ -34,7 +34,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 
 #include <Precision.hxx>

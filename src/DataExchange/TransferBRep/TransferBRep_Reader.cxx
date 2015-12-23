@@ -21,13 +21,13 @@
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TransferBRep_Reader.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_Reader.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_CheckTool.hxx>
 #include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

@@ -40,8 +40,8 @@
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>

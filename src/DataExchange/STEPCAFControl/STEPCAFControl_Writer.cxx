@@ -48,8 +48,8 @@
 #include <XSControl_TransferWriter.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>

@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TransferBRep_ShapeInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeInfo.hxx>
 #include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 
 

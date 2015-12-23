@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TransferBRep_HSequenceOfTransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_HSequenceOfTransferResultInfo.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TransferBRep_TransferResultInfo.hxx>
-#include <TransferBRep_SequenceOfTransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_TransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_SequenceOfTransferResultInfo.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(TransferBRep_HSequenceOfTransferResultInfo)
 
 
 #define Item Handle(TransferBRep_TransferResultInfo)
-#define Item_hxx <TransferBRep_TransferResultInfo.hxx>
+#define Item_hxx <DataExchange/TransferBRep/TransferBRep_TransferResultInfo.hxx>
 #define TheSequence TransferBRep_SequenceOfTransferResultInfo
-#define TheSequence_hxx <TransferBRep_SequenceOfTransferResultInfo.hxx>
+#define TheSequence_hxx <DataExchange/TransferBRep/TransferBRep_SequenceOfTransferResultInfo.hxx>
 #define TCollection_HSequence TransferBRep_HSequenceOfTransferResultInfo
-#define TCollection_HSequence_hxx <TransferBRep_HSequenceOfTransferResultInfo.hxx>
+#define TCollection_HSequence_hxx <DataExchange/TransferBRep/TransferBRep_HSequenceOfTransferResultInfo.hxx>
 #define Handle_TCollection_HSequence Handle_TransferBRep_HSequenceOfTransferResultInfo
 #define TCollection_HSequence_Type_() TransferBRep_HSequenceOfTransferResultInfo_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

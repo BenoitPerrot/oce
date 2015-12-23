@@ -19,30 +19,30 @@
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep_HSequenceOfTransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_HSequenceOfTransferResultInfo.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <TransferBRep_TransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_TransferResultInfo.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
-#include <TransferBRep_BinderOfShape.hxx>
-#include <TransferBRep_ShapeListBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_BinderOfShape.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 #include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep_TransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_TransferResultInfo.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-//#include <TransferBRep_Analyzer.hxx>
+//#include <DataExchange/TransferBRep/TransferBRep_Analyzer.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

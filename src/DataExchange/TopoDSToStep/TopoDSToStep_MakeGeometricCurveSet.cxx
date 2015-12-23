@@ -34,7 +34,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

@@ -35,7 +35,7 @@
 //  Pour le transfert (write)
 //  Pour NewModel et Write : definition de produit (temporaire ...)
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 

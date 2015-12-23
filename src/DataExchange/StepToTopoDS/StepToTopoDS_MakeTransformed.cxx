@@ -22,7 +22,7 @@
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_MakeTransformed.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 
 #include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>

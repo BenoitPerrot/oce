@@ -78,7 +78,7 @@ private:
 };
 
 
-#include <TransferBRep_TransferResultInfo.lxx>
+#include <DataExchange/TransferBRep/TransferBRep_TransferResultInfo.lxx>
 
 
 

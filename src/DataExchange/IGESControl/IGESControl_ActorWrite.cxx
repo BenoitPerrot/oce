@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESControl_ActorWrite)
 IMPLEMENT_DOWNCAST(IGESControl_ActorWrite,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
-#include <TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 

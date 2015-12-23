@@ -33,10 +33,10 @@
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
-//#include <TransferBRep_Analyzer.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
-#include <TransferBRep_ShapeListBinder.hxx>
+//#include <DataExchange/TransferBRep/TransferBRep_Analyzer.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 
 #include <XSControl_ConnectedShapes.hxx>
@@ -48,7 +48,7 @@
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>

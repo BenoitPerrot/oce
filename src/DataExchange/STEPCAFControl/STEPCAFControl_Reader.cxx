@@ -43,7 +43,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <XSControl_TransferReader.hxx>

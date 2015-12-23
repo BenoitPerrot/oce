@@ -38,7 +38,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfTRI.hxx>

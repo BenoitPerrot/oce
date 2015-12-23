@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TransferBRep_HSequenceOfTransferResultInfo.hxx>
 
-#include <TransferBRep_SequenceOfTransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_SequenceOfTransferResultInfo.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TransferBRep_TransferResultInfo.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(TransferBRep_TransferResultInfo)
-#define Item_hxx <TransferBRep_TransferResultInfo.hxx>
+#define Item_hxx <DataExchange/TransferBRep/TransferBRep_TransferResultInfo.hxx>
 #define TheSequence TransferBRep_SequenceOfTransferResultInfo
-#define TheSequence_hxx <TransferBRep_SequenceOfTransferResultInfo.hxx>
+#define TheSequence_hxx <DataExchange/TransferBRep/TransferBRep_SequenceOfTransferResultInfo.hxx>
 #define TCollection_HSequence TransferBRep_HSequenceOfTransferResultInfo
-#define TCollection_HSequence_hxx <TransferBRep_HSequenceOfTransferResultInfo.hxx>
+#define TCollection_HSequence_hxx <DataExchange/TransferBRep/TransferBRep_HSequenceOfTransferResultInfo.hxx>
 #define Handle_TCollection_HSequence Handle_TransferBRep_HSequenceOfTransferResultInfo
 #define TCollection_HSequence_Type_() TransferBRep_HSequenceOfTransferResultInfo_Type_()
 

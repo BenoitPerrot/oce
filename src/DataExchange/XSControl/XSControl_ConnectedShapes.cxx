@@ -34,7 +34,7 @@ IMPLEMENT_DOWNCAST(XSControl_ConnectedShapes,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_ConnectedShapes)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 
 
 XSControl_ConnectedShapes::XSControl_ConnectedShapes ()

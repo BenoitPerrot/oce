@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <DataExchange/Transfer/Transfer_ResultFromTransient.hxx>
 #include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
 
-#include <TransferBRep.hxx>
-#include <TransferBRep_BinderOfShape.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_BinderOfShape.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 #include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 #include <XSControl_Utils.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

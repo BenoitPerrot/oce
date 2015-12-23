@@ -28,8 +28,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <XCAFPrs.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>

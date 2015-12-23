@@ -68,9 +68,9 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <UnitsMethods.hxx>
 #include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 
-#include <TransferBRep.hxx>
-#include <TransferBRep_ShapeMapper.hxx>
-#include <TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/TransferBRep.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
+#include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 #include <DataExchange/Transfer/Transfer_TransientListBinder.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
