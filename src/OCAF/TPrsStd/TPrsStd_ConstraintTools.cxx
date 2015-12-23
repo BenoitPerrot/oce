@@ -31,11 +31,11 @@
 #include <TNaming_Tool.hxx>
 #include <TNaming_Iterator.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 
 
 #include <Visualization/AIS/AIS_OffsetDimension.hxx>

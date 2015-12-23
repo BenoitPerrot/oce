@@ -21,11 +21,11 @@
 
 
 
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/PDF/PDF_Data.hxx>
 #include <OCAF/MDF/MDF_TypeASDriverMap.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #include <OCAF/MDF/MDF_TypeARDriverMap.hxx>
@@ -40,13 +40,13 @@
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 
-#include <TDF_Attribute.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_ListIteratorOfAttributeList.hxx>
-#include <TDF_AttributeList.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
+#include <OCAF/TDF/TDF_AttributeList.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 

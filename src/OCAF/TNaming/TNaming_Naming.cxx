@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Name.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_AttributeIndexedMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
 #include <TNaming_Naming.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_Naming)
@@ -50,11 +50,11 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <TNaming_OldShapeIterator.hxx>
 #include <TNaming_Selector.hxx>
 #include <TNaming.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -98,13 +98,13 @@ typedef TNaming_DataMapOfShapeMapOfShape::Iterator TNaming_DataMapIteratorOfData
 //#define MDTV_DEB_71
 //#define MDTV_DEB_WIN
 #ifdef OCCT_DEBUG
-#include <TDF_MapIteratorOfLabelMap.hxx> 
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx> 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TNaming_Tool.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

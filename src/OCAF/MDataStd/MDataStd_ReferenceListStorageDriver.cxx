@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_ReferenceListStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ReferenceListStorageDriver)
 #include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 
 //=======================================================================

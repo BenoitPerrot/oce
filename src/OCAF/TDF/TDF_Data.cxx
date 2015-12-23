@@ -14,11 +14,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
-#include <TDF_Transaction.hxx>
-#include <TDF_LabelNode.hxx>
-#include <TDF_Delta.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Transaction.hxx>
+#include <OCAF/TDF/TDF_LabelNode.hxx>
+#include <OCAF/TDF/TDF_Delta.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_Data)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,21 +31,21 @@ IMPLEMENT_STANDARD_RTTI(TDF_Data)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <TDF_Attribute.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_AttributeIndexedMap.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Delta.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_DeltaOnAddition.hxx>
-#include <TDF_DeltaOnForget.hxx>
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
-#include <TDF_DeltaOnResume.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelNode.hxx>
-#include <TDF_LabelNodePtr.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Delta.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_DeltaOnForget.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_DeltaOnResume.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelNode.hxx>
+#include <OCAF/TDF/TDF_LabelNodePtr.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Drawable3D.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DDataStd_DrawDriver.hxx>
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <Draw.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DDataStd.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <DBRep.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -62,9 +62,9 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_LabelList.hxx> 
-#include <TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx> 
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 // drawable object
 #include <DrawTrSurf_Surface.hxx>
 #include <Draw_Axis3D.hxx>

@@ -13,7 +13,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_RelationRetrievalDriver.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_RelationRetrievalDriver)
 #include <OCAF/TDataStd/TDataStd_Relation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
-#include <TDF_ListIteratorOfAttributeList.hxx> 
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx> 
 #include <OCAF/PDF/PDF_HAttributeArray1.hxx> 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

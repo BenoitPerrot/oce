@@ -16,11 +16,11 @@
 
 #include <QADNaming.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <DDF.hxx>
 

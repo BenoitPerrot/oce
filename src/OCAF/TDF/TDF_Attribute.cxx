@@ -21,24 +21,24 @@
 
 
 
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelNode.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_DeltaOnForget.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelNode.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_DeltaOnForget.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_DeltaOnAddition.hxx>
-#include <TDF_DeltaOnResume.hxx>
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_AttributeIndexedMap.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_DeltaOnResume.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_Attribute)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -50,14 +50,14 @@ IMPLEMENT_DOWNCAST(TDF_Attribute,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_Attribute)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_DefaultDeltaOnModification.hxx>
-#include <TDF_DefaultDeltaOnRemoval.hxx>
-#include <TDF_DeltaOnForget.hxx>
-#include <TDF_DeltaOnResume.hxx>
-#include <TDF_DataSet.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelNode.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_DeltaOnForget.hxx>
+#include <OCAF/TDF/TDF_DeltaOnResume.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelNode.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ImmutableObject.hxx>

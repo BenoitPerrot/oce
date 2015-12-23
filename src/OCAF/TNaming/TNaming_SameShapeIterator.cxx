@@ -19,7 +19,7 @@
 #include <TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_UsedShapes.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_SameShapeIterator.hxx>
 
 // See methods'body in TNaming_NamedShape.cxx

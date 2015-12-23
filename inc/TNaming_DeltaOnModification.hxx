@@ -11,7 +11,7 @@
 #include <Handle_TNaming_DeltaOnModification.hxx>
 
 #include <Handle_TopTools_HArray1OfShape.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 class TopTools_HArray1OfShape;
 class TNaming_NamedShape;

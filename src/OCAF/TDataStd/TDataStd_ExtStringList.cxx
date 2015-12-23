@@ -14,11 +14,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDataStd/TDataStd_ExtStringList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_ExtStringList)

@@ -19,7 +19,7 @@
 
 #include <stdio.h>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataStd_RealDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

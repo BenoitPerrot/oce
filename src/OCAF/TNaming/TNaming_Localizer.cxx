@@ -18,7 +18,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
 #include <TNaming_NamedShape.hxx>
@@ -37,7 +37,7 @@
 #include <TNaming_Tool.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
@@ -50,8 +50,8 @@
 #ifdef OCCT_DEBUG
 //#define MDTV_DEB_SC
 #ifdef OCCT_DEBUG_SC
-#include <TDF_Tool.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

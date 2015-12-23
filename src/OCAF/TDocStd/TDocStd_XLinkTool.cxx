@@ -14,28 +14,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_DataSet.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TDocStd_XLinkTool.hxx>
 
 // standard copy
 #include <TDocStd_Document.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_IDList.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_ClosureMode.hxx>
-#include <TDF_ClosureTool.hxx>
-#include <TDF_CopyTool.hxx>
-#include <TDF_ComparisonTool.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_ClosureMode.hxx>
+#include <OCAF/TDF/TDF_ClosureTool.hxx>
+#include <OCAF/TDF/TDF_CopyTool.hxx>
+#include <OCAF/TDF/TDF_ComparisonTool.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <TDocStd_XLink.hxx> 
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 

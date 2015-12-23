@@ -16,7 +16,7 @@
 #include <stdio.h>
 
 #include <QADNaming.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TNaming_Iterator.hxx>
 #include <TNaming_NewShapeIterator.hxx>
@@ -30,8 +30,8 @@
 
 #include <DDF.hxx>
 
-#include <TDF_Data.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 static const char* EvolutionString(TNaming_Evolution theEvolution) {
   switch(theEvolution){

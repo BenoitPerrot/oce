@@ -22,9 +22,9 @@
 #ifndef TDF_AttributeIterator_HeaderFile
 #define TDF_AttributeIterator_HeaderFile
 
-#include <TDF_Attribute.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelNodePtr.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelNodePtr.hxx>
 
 // DO NOT USE THIS CLASS WITHOUT AUTHORIZATION!
 //

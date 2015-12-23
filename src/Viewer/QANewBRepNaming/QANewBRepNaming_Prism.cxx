@@ -17,7 +17,7 @@
 // Modified by vro, Thu Dec 21 10:34:49 2000
 // Modified by vro, Thu Dec 21 10:34:59 2000
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_Prism.hxx>
@@ -25,8 +25,8 @@
 #include <TNaming_Builder.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

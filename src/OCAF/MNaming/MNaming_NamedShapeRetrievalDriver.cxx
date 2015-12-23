@@ -16,7 +16,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MNaming/MNaming_NamedShapeRetrievalDriver.hxx>
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeRetrievalDriver)
 #include <OCAF/PTopoDS/PTopoDS_HArray1OfShape1.hxx>
 #include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 
-#include <TDF_Data.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Evolution.hxx>

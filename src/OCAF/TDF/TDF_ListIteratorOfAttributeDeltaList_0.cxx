@@ -3,24 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_ListIteratorOfAttributeDeltaList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeDeltaList.hxx>
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_AttributeDeltaList.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_ListNodeOfAttributeDeltaList.hxx>
+#include <OCAF/TDF/TDF_AttributeDeltaList.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_ListNodeOfAttributeDeltaList.hxx>
  
 
 #define Item Handle(TDF_AttributeDelta)
-#define Item_hxx <TDF_AttributeDelta.hxx>
+#define Item_hxx <OCAF/TDF/TDF_AttributeDelta.hxx>
 #define TCollection_ListNode TDF_ListNodeOfAttributeDeltaList
-#define TCollection_ListNode_hxx <TDF_ListNodeOfAttributeDeltaList.hxx>
+#define TCollection_ListNode_hxx <OCAF/TDF/TDF_ListNodeOfAttributeDeltaList.hxx>
 #define TCollection_ListIterator TDF_ListIteratorOfAttributeDeltaList
-#define TCollection_ListIterator_hxx <TDF_ListIteratorOfAttributeDeltaList.hxx>
+#define TCollection_ListIterator_hxx <OCAF/TDF/TDF_ListIteratorOfAttributeDeltaList.hxx>
 #define Handle_TCollection_ListNode Handle_TDF_ListNodeOfAttributeDeltaList
 #define TCollection_ListNode_Type_() TDF_ListNodeOfAttributeDeltaList_Type_()
 #define TCollection_List TDF_AttributeDeltaList
-#define TCollection_List_hxx <TDF_AttributeDeltaList.hxx>
+#define TCollection_List_hxx <OCAF/TDF/TDF_AttributeDeltaList.hxx>
 #include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

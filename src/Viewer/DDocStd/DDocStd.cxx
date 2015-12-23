@@ -15,18 +15,18 @@
 
 #include <TDocStd_Application.hxx>
 #include <TDocStd_Document.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <DDocStd.hxx>
 #include <DDocStd_DrawDocument.hxx>
 #include <TDocStd_Document.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 #include <DBRep.hxx>
 #include <TDocStd_Document.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>

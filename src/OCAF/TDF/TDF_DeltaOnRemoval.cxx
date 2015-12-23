@@ -21,8 +21,8 @@
 
 
 
-#include <TDF_Attribute.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_DeltaOnRemoval)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

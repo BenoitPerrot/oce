@@ -16,7 +16,7 @@
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <MXCAFDoc_MaterialToolRetrievalDriver.hxx>

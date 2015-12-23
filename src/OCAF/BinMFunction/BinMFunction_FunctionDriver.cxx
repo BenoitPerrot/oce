@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMFunction/BinMFunction_FunctionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMFunction_FunctionDriver)
 IMPLEMENT_DOWNCAST(BinMFunction_FunctionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMFunction_FunctionDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <TFunction_Function.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>

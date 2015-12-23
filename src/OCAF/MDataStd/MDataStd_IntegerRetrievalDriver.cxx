@@ -16,7 +16,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_IntegerRetrievalDriver.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MDataStd_IntegerRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_IntegerRetrievalDriver)
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/PDataStd/PDataStd_Integer.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

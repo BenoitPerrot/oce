@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_DataMapIteratorOfAttributeDataMap.hxx>
+#include <OCAF/TDF/TDF_DataMapIteratorOfAttributeDataMap.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <TDF_AttributeDataMap.hxx>
-#include <TDF_DataMapNodeOfAttributeDataMap.hxx>
+#include <OCAF/TDF/TDF_AttributeDataMap.hxx>
+#include <OCAF/TDF/TDF_DataMapNodeOfAttributeDataMap.hxx>
  
 
 #define TheKey Handle(TDF_Attribute)
-#define TheKey_hxx <TDF_Attribute.hxx>
+#define TheKey_hxx <OCAF/TDF/TDF_Attribute.hxx>
 #define TheItem Handle(TDF_Attribute)
-#define TheItem_hxx <TDF_Attribute.hxx>
+#define TheItem_hxx <OCAF/TDF/TDF_Attribute.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode TDF_DataMapNodeOfAttributeDataMap
-#define TCollection_DataMapNode_hxx <TDF_DataMapNodeOfAttributeDataMap.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TDF/TDF_DataMapNodeOfAttributeDataMap.hxx>
 #define TCollection_DataMapIterator TDF_DataMapIteratorOfAttributeDataMap
-#define TCollection_DataMapIterator_hxx <TDF_DataMapIteratorOfAttributeDataMap.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TDF/TDF_DataMapIteratorOfAttributeDataMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_TDF_DataMapNodeOfAttributeDataMap
 #define TCollection_DataMapNode_Type_() TDF_DataMapNodeOfAttributeDataMap_Type_()
 #define TCollection_DataMap TDF_AttributeDataMap
-#define TCollection_DataMap_hxx <TDF_AttributeDataMap.hxx>
+#define TCollection_DataMap_hxx <OCAF/TDF/TDF_AttributeDataMap.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

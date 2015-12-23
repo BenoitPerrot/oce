@@ -21,10 +21,10 @@
 
 
 
-#include <TDF_Attribute.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_AttributeDelta)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(TDF_AttributeDelta)
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

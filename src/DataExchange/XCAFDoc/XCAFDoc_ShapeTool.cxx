@@ -14,15 +14,15 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
 #include <XCAFDoc_GraphNode.hxx>
-#include <TDF_AttributeSequence.hxx>
+#include <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,13 +37,13 @@ IMPLEMENT_DOWNCAST(XCAFDoc_ShapeTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <XCAFDoc.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_LabelSequence.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_ChildIDIterator.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIDIterator.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>

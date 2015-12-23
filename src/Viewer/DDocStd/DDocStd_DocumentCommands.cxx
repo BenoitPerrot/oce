@@ -19,11 +19,11 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TDocStd_XLinkTool.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <TDocStd_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <TDocStd_Modified.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <DDocStd_DrawDocument.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_XLink.hxx>
@@ -32,12 +32,12 @@
 #include <TDocStd_Application.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 // pour propagate
 #include <TDocStd_XLinkTool.hxx>
 

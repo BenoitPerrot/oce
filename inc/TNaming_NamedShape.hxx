@@ -13,7 +13,7 @@
 #include <TNaming_PtrNode.hxx>
 #include <TNaming_Evolution.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_DeltaOnModification.hxx>

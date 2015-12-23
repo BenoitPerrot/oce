@@ -7,19 +7,19 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_LabelMapHasher.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #include <TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
 #include <TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel.hxx>
  
 
 #define TheKey TDF_Label
-#define TheKey_hxx <TDF_Label.hxx>
+#define TheKey_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheItem TDF_LabelList
-#define TheItem_hxx <TDF_LabelList.hxx>
+#define TheItem_hxx <OCAF/TDF/TDF_LabelList.hxx>
 #define Hasher TDF_LabelMapHasher
-#define Hasher_hxx <TDF_LabelMapHasher.hxx>
+#define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode TFunction_DataMapNodeOfDataMapOfLabelListOfLabel
 #define TCollection_DataMapNode_hxx <TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
 #define TCollection_DataMapIterator TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel

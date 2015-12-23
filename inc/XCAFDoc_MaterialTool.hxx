@@ -11,7 +11,7 @@
 #include <Handle_XCAFDoc_MaterialTool.hxx>
 
 #include <Handle_XCAFDoc_ShapeTool.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

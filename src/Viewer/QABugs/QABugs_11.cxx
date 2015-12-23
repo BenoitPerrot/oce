@@ -69,7 +69,7 @@
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
-#include <TDF_CopyLabel.hxx>
+#include <OCAF/TDF/TDF_CopyLabel.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
@@ -1043,10 +1043,10 @@ static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, con
 #include <Draw.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <TPrsStd_AISPresentation.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <XCAFPrs_Driver.hxx>
 
 //------------------------------------------------------------------------------------------
@@ -1826,7 +1826,7 @@ static Standard_Integer OCC902(Draw_Interpretor& di, Standard_Integer argc, cons
 
 #include <DDF.hxx>
 #include <TPrsStd_AISViewer.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TPrsStd_AISPresentation.hxx>
 //=======================================================================
 //function : OCC1029_AISTransparency 
@@ -3267,14 +3267,14 @@ static Standard_Integer OCC15755 (Draw_Interpretor& di, Standard_Integer argc, c
 
 // For OCC16782 testing
 #include <OCAF/AppStd/AppStd_Application.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 // Iterators
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfByte.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 // Attributes
 #include <OCAF/TDataStd/TDataStd_Tick.hxx>
 #include <OCAF/TDataStd/TDataStd_IntegerList.hxx>
@@ -3286,7 +3286,7 @@ static Standard_Integer OCC15755 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <OCAF/TDataStd/TDataStd_ReferenceArray.hxx>
 #include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
 #include <OCAF/TDataStd/TDataStd_NamedData.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 //
 Handle(AppStd_Application) app;
 int TestSetGet(const Handle(TDocStd_Document)& doc)

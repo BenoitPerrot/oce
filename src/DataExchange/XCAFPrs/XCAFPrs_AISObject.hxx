@@ -16,7 +16,7 @@
 
 #include <Visualization/AIS/AIS_ColoredShape.hxx>
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 class XCAFPrs_Style;
 

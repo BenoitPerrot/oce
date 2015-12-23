@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMFunction_FunctionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMFunction_FunctionDriver)
 #include <XmlObjMgt.hxx>
 
 #include <TFunction_Function.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 IMPLEMENT_DOMSTRING (GuidString, "guid")
 IMPLEMENT_DOMSTRING (FailureString, "failure")

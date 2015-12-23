@@ -20,10 +20,10 @@
 // +---------------------------------------------------------------------------+
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
 #include <TPrsStd_AISPresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_AISPresentation)
@@ -36,10 +36,10 @@ IMPLEMENT_STANDARD_TYPE_END(TPrsStd_AISPresentation)
 IMPLEMENT_DOWNCAST(TPrsStd_AISPresentation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_AISPresentation)
 
-#include <TDF_DefaultDeltaOnRemoval.hxx>
-#include <TDF_DefaultDeltaOnModification.hxx>
-#include <TDF_DeltaOnAddition.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TPrsStd_AISViewer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

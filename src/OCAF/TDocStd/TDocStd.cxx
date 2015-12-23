@@ -21,7 +21,7 @@
 
 // Declarations:	
 
-#include <TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 #include <TDocStd.hxx>
 #include <OCAF/CDF/CDF.hxx>
 //#include <LCTLOFF.h>

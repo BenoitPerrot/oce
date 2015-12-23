@@ -26,10 +26,10 @@
 #include <Foundation/Standard/Standard_ExtString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Tool.hxx> 
+#include <OCAF/TDF/TDF.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx> 
 
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <TDocStd_PathParser.hxx>

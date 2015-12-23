@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_PointDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(TPrsStd_PointDriver)
 IMPLEMENT_DOWNCAST(TPrsStd_PointDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_PointDriver)
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 //#include <OCAF/TDataStd/TDataStd_Datum.hxx>

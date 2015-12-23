@@ -17,8 +17,8 @@
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <DDataStd.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <OCAF/TDataStd/TDataStd_RealEnum.hxx>

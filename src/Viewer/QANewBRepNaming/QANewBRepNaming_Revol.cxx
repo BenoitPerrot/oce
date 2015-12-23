@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_Revol.hxx>
@@ -31,7 +31,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>

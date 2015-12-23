@@ -3,24 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_AttributeIndexedMap.hxx>
+#include <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <TDF_IndexedMapNodeOfAttributeIndexedMap.hxx>
+#include <OCAF/TDF/TDF_IndexedMapNodeOfAttributeIndexedMap.hxx>
  
 
 #define TheKey Handle(TDF_Attribute)
-#define TheKey_hxx <TDF_Attribute.hxx>
+#define TheKey_hxx <OCAF/TDF/TDF_Attribute.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedMapNode TDF_IndexedMapNodeOfAttributeIndexedMap
-#define TCollection_IndexedMapNode_hxx <TDF_IndexedMapNodeOfAttributeIndexedMap.hxx>
+#define TCollection_IndexedMapNode_hxx <OCAF/TDF/TDF_IndexedMapNodeOfAttributeIndexedMap.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_TDF_IndexedMapNodeOfAttributeIndexedMap
 #define TCollection_IndexedMapNode_Type_() TDF_IndexedMapNodeOfAttributeIndexedMap_Type_()
 #define TCollection_IndexedMap TDF_AttributeIndexedMap
-#define TCollection_IndexedMap_hxx <TDF_AttributeIndexedMap.hxx>
+#define TCollection_IndexedMap_hxx <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
 #include <Foundation/TCollection/TCollection_IndexedMap.gxx>
 

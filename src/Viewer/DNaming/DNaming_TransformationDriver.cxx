@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TFunction_Logbook.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <DNaming_TransformationDriver.hxx>
@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #ifdef OCCT_DEBUG_TRSF
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 void PrintE(const TDF_Label&       label)
 {
   TCollection_AsciiString entry;

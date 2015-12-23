@@ -30,9 +30,9 @@
 #include <Draw_Drawable3D.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <TDF_Data.hxx>
-#include <TDF_Delta.hxx>
-#include <TDF_Transaction.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Delta.hxx>
+#include <OCAF/TDF/TDF_Transaction.hxx>
 
 static DDF_TransactionStack DDF_TStack;
 static Handle(TDF_Delta)    DDF_LastDelta;

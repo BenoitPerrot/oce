@@ -21,5 +21,5 @@
 
 
 
-#include <TDF_Label.hxx>
-#include <TDF_LabelMapHasher.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMapHasher.hxx>

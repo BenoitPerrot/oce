@@ -21,7 +21,7 @@
 #include <TObj_Common.hxx>
 #include <TObj_Object.hxx>
 
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 
 class Handle(TObj_TObject);
 class Standard_GUID;

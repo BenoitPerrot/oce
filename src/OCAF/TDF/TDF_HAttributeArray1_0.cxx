@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_HAttributeArray1.hxx>
+#include <OCAF/TDF/TDF_HAttributeArray1.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_AttributeArray1.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_AttributeArray1.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(TDF_HAttributeArray1)
 
 
 #define ItemHArray1 Handle(TDF_Attribute)
-#define ItemHArray1_hxx <TDF_Attribute.hxx>
+#define ItemHArray1_hxx <OCAF/TDF/TDF_Attribute.hxx>
 #define TheArray1 TDF_AttributeArray1
-#define TheArray1_hxx <TDF_AttributeArray1.hxx>
+#define TheArray1_hxx <OCAF/TDF/TDF_AttributeArray1.hxx>
 #define TCollection_HArray1 TDF_HAttributeArray1
-#define TCollection_HArray1_hxx <TDF_HAttributeArray1.hxx>
+#define TCollection_HArray1_hxx <OCAF/TDF/TDF_HAttributeArray1.hxx>
 #define Handle_TCollection_HArray1 Handle_TDF_HAttributeArray1
 #define TCollection_HArray1_Type_() TDF_HAttributeArray1_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

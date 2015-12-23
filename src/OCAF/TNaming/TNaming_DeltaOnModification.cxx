@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(TNaming_DeltaOnModification)
 #include <TNaming_Iterator.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_Evolution.hxx>
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 //=======================================================================
 //function : TNaming_DeltaOnModification

@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <TDocStd_Modified.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_Modified)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDocStd_Modified)
 IMPLEMENT_DOWNCAST(TDocStd_Modified,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_Modified)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 
 
 

@@ -21,8 +21,8 @@
 
 
 
-#include <TDF_Attribute.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_DeltaOnModification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

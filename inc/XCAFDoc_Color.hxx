@@ -11,7 +11,7 @@
 #include <Handle_XCAFDoc_Color.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TDF_Attribute.hxx>

@@ -17,10 +17,10 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
-#include <TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -47,10 +47,10 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <TDocStd_Document.hxx>
 
 #define SHAPESECTION_POS (Standard_CString)"SHAPE_SECTION_POS:"

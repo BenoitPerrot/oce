@@ -18,7 +18,7 @@
 #ifndef TObj_TModel_HeaderFile
 #define TObj_TModel_HeaderFile
 
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TObj_Model.hxx>
 
 class Handle(TDF_RelocationTable);

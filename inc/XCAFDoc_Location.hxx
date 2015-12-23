@@ -11,7 +11,7 @@
 #include <Handle_XCAFDoc_Location.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 class Standard_GUID;

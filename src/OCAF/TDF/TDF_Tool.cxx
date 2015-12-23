@@ -21,23 +21,23 @@
 
 
 
-#include <TDF_Label.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_LabelIntegerMap.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelIntegerMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
-#include <TDF_MapIteratorOfLabelMap.hxx>
-#include <TDF_MapIteratorOfAttributeMap.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_AttributeIndexedMap.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_DataSet.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

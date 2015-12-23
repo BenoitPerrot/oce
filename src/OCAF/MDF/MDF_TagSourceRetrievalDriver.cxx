@@ -13,7 +13,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDF/MDF_TagSourceRetrievalDriver.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDF_TagSourceRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDF_TagSourceRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDF_TagSourceRetrievalDriver)
 #include <OCAF/PDF/PDF_TagSource.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDF_TagSourceRetrievalDriver::MDF_TagSourceRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

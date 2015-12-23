@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <XCAFDoc_ShapeTool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <XCAFDoc_MaterialTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_MaterialTool)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_MaterialTool)
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TDF_ChildIDIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIDIterator.hxx>
 
 
 //=======================================================================

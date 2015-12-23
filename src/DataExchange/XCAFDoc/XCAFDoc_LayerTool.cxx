@@ -14,14 +14,14 @@
 // commercial license or contractual agreement.
 
 #include <XCAFDoc_ShapeTool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_LayerTool)
@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_LayerTool)
 #include <XCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TDF_ChildIDIterator.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIDIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <XCAFDoc.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 

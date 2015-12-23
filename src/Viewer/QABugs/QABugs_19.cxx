@@ -225,7 +225,7 @@ static Standard_Integer OCC22980 (Draw_Interpretor& di, Standard_Integer /*argc*
 #include <TDocStd_Document.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 static Standard_Integer OCC23595 (Draw_Interpretor& di, Standard_Integer /*argc*/, const char** /*argv*/)
@@ -2247,7 +2247,7 @@ static Standard_Integer OCC24931 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <OCAF/AppStdL/AppStdL_Application.hxx>
 #include <TDocStd_Application.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
-#include <TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
 //=======================================================================
 //function : OCC24755
 //purpose  : 

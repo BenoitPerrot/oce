@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfIntPackedMap)
 IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfIntPackedMap,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfIntPackedMap)
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>

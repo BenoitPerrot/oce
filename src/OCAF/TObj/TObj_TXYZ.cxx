@@ -17,7 +17,7 @@
 
 #include <TObj_TXYZ.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_TXYZ,TDF_Attribute)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_TXYZ,TDF_Attribute)

@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_LabelNode.hxx>
+#include <OCAF/TDF/TDF_LabelNode.hxx>
 
-#include <TDF_Data.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 //=======================================================================
 //function : TDF_LabelNode

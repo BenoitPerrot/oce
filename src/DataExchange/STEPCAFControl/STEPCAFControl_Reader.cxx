@@ -19,8 +19,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <STEPControl_Reader.hxx>
-#include <TDF_LabelSequence.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
@@ -72,7 +72,7 @@
 #include <STEPCAFControl_DataMapOfSDRExternFile.hxx>
 
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
@@ -91,7 +91,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
 #include <STEPConstruct_Assembly.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <StepVisual_Invisibility.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <XCAFDoc.hxx>

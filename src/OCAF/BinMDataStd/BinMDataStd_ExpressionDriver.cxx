@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd_ExpressionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataStd_ExpressionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_ExpressionDriver)
 #include <OCAF/TDataStd/TDataStd_Expression.hxx>
 #include <OCAF/TDataStd/TDataStd_Variable.hxx>
-#include <TDF_ListIteratorOfAttributeList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
 
 //=======================================================================
 //function : BinMDataStd_ExpressionDriver

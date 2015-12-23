@@ -1,5 +1,5 @@
 #include <OCAF/TDataXtd/TDataXtd_PatternStd.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <XCAFApp_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>

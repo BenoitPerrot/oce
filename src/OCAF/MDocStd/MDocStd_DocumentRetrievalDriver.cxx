@@ -36,10 +36,10 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentRetrievalDriver)
 #include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/PDocStd/PDocStd_Document.hxx>
-#include <TDF_Data.hxx> 
+#include <OCAF/TDF/TDF_Data.hxx> 
 #include <TDocStd_Owner.hxx>
 
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <UTL.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Plugin/Plugin.hxx>

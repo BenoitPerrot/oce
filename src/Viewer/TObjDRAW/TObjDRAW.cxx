@@ -32,8 +32,8 @@
 #include <DDocStd.hxx>
 #include <DDocStd_DrawDocument.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDocStd_Document.hxx>
 

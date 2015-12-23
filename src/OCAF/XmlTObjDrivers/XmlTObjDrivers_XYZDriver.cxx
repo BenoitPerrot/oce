@@ -19,7 +19,7 @@
 #include <XmlTObjDrivers_XYZDriver.hxx>
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Persistent.hxx>

@@ -16,10 +16,10 @@
 
 #include <TNaming_NamedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <TNaming_Name.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamingTool.hxx>
@@ -39,9 +39,9 @@
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <TNaming_Tool.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -91,14 +91,14 @@
 #endif
 #ifdef OCCT_DEBUG
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #endif
 #ifdef OCCT_DEBUG
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 //=======================================================================
 void PrintEntry(const TDF_Label&       label)
 {

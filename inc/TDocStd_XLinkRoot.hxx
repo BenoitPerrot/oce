@@ -11,7 +11,7 @@
 #include <Handle_TDocStd_XLinkRoot.hxx>
 
 #include <TDocStd_XLinkPtr.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>

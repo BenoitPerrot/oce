@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TFunction_Logbook.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <DNaming_CylinderDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelDefinitions.hxx>
 
 #include <DNaming.hxx>

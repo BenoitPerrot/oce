@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(TNaming_DeltaOnRemoval)
 IMPLEMENT_DOWNCAST(TNaming_DeltaOnRemoval,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_DeltaOnRemoval)
 #include <TNaming_DeltaOnModification.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
 
 //=======================================================================
 //function : TNaming_DeltaOnModification

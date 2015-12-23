@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Plugin/Plugin_Failure.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/CDF/CDF_Store.hxx>
 #include <TDocStd_PathParser.hxx>
 

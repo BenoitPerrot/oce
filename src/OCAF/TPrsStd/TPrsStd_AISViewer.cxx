@@ -16,10 +16,10 @@
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <V3d_Viewer.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <TPrsStd_AISViewer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_AISViewer)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TPrsStd_AISViewer)
 IMPLEMENT_DOWNCAST(TPrsStd_AISViewer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_AISViewer)
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 //=======================================================================
 //function : GetID

@@ -33,7 +33,7 @@
 #include <DDocStd.hxx>
 #include <TDocStd_Application.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 
 #include <IGESCAFControl_Reader.hxx>
 #include <IGESCAFControl_Writer.hxx>

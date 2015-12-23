@@ -20,7 +20,7 @@
 #include <OCAF/TDataStd/TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
 #include <OCAF/TDataStd/TDataStd_HDataMapOfStringHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <OCAF/TDataStd/TDataStd_DataMapOfStringReal.hxx>
@@ -30,8 +30,8 @@
 #include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <OCAF/TDataStd/TDataStd_DataMapOfStringHArray1OfReal.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDataStd/TDataStd_NamedData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_NamedData)

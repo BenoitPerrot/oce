@@ -21,7 +21,7 @@
 
 
 
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DDF_Data.hxx>
@@ -41,12 +41,12 @@ IMPLEMENT_STANDARD_RTTI(DDF_Data)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <TDF_Attribute.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 
 

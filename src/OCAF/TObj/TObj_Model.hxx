@@ -20,7 +20,7 @@
 
 #include <Handle_TObj_Model.hxx>
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TObj_Partition.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <QADNaming.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TNaming_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

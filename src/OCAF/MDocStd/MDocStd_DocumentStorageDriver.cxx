@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentStorageDriver)
 #include <OCAF/PDF/PDF_Data.hxx>
 #include <OCAF/PDocStd/PDocStd_Document.hxx>
 
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <UTL.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Plugin/Plugin.hxx>

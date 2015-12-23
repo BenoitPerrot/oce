@@ -14,7 +14,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_NameRetrievalDriver.hxx>
@@ -50,8 +50,8 @@ Handle(TDF_Attribute) MDataStd_NameRetrievalDriver::NewEmpty() const
 
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 #define BUGOCC425
 

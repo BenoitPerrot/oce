@@ -16,10 +16,10 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Name)
@@ -32,11 +32,11 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_Name)
 IMPLEMENT_DOWNCAST(TDataStd_Name,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_Name)
 
-#include <TDF_Label.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_ListIteratorOfAttributeList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
 
 //=======================================================================
 //function : GetID

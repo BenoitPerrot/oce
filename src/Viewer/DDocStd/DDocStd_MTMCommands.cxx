@@ -19,9 +19,9 @@
 #include <TDocStd_Document.hxx>
 #include <Draw.hxx>
 #include <DDF_Browser.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
@@ -35,7 +35,7 @@
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 
 //=======================================================================
 //function : mtmCreate

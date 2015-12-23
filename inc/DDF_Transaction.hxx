@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DDF_Transaction.hxx>
 
-#include <TDF_Transaction.hxx>
+#include <OCAF/TDF/TDF_Transaction.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

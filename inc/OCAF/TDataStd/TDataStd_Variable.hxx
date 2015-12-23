@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
 #include <Handle_TDataStd_Real.hxx>

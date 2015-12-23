@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TFunction_Logbook.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DNaming_RevolutionDriver.hxx>
@@ -71,8 +71,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <TNaming_NamedShape.hxx>
 #include <TFunction_Function.hxx>
 #include <TFunction_Logbook.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 
 #include <DNaming.hxx>
 #include <ModelDefinitions.hxx>

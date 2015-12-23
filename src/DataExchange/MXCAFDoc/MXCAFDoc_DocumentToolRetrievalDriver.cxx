@@ -16,7 +16,7 @@
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <MXCAFDoc_DocumentToolRetrievalDriver.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DocumentToolRetrievalDriver)
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <PXCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 
 //=======================================================================

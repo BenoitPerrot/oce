@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <XmlMDF_ADriverTable.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <XmlMDF_MapOfDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMDF.hxx>
@@ -28,11 +28,11 @@
 #include <XmlObjMgt_DOMString.hxx>
 #include <XmlObjMgt_Document.hxx>
 
-#include <TDF_TagSource.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 

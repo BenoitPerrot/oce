@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Shape)
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(TDataXtd_Shape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Shape)
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <TNaming_Builder.hxx>

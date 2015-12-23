@@ -17,10 +17,10 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfRealArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_RealArray)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_RealArray)
 IMPLEMENT_DOWNCAST(TDataStd_RealArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_RealArray)
 #include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfRealArray.hxx>
-#include <TDF_DefaultDeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnModification.hxx>
 #define OCC2932
 
 //=======================================================================

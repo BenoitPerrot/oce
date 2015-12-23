@@ -25,12 +25,12 @@
 
 #include <DDF.hxx>
 
-#include <TDF_Data.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_AttributeSequence.hxx>
-#include <TDF_AttributeList.hxx>
-#include <TDF_ListIteratorOfAttributeList.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_AttributeSequence.hxx>
+#include <OCAF/TDF/TDF_AttributeList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
 
 #include <DBRep.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
@@ -56,7 +56,7 @@
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <OCAF/TDataStd/TDataStd_BooleanArray.hxx>
@@ -66,8 +66,8 @@
 #include <OCAF/TDataStd/TDataStd_RealList.hxx>
 #include <OCAF/TDataStd/TDataStd_Variable.hxx>
 #include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <OCAF/TDataStd/TDataStd_NamedData.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>

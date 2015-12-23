@@ -37,11 +37,11 @@
 
 #include <STEPCAFControl_Controller.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_LabelSequence.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>

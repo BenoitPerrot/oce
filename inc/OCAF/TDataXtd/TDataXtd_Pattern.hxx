@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataXtd_Pattern.hxx>
 
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_GUID;
 class TDataXtd_Array1OfTrsf;

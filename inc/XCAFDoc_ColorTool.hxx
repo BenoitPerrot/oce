@@ -11,7 +11,7 @@
 #include <Handle_XCAFDoc_ColorTool.hxx>
 
 #include <Handle_XCAFDoc_ShapeTool.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <XCAFDoc_ColorType.hxx>
 #include <Handle_TDF_Attribute.hxx>

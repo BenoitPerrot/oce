@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_GeometryDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(TPrsStd_GeometryDriver)
 IMPLEMENT_DOWNCAST(TPrsStd_GeometryDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
 #include <OCAF/TDataXtd/TDataXtd.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>

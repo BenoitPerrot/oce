@@ -14,19 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
 
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_AttributeList.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_TagSource.hxx>
-#include <TDF_Reference.hxx>
-#include <TDF_ListIteratorOfAttributeList.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
-#include <TDF_DataSet.hxx>  
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeList.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>  
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>

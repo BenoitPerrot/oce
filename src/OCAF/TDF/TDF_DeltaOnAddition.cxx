@@ -21,8 +21,8 @@
 
 
 
-#include <TDF_Attribute.hxx>
-#include <TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_DeltaOnAddition)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,7 +35,7 @@ IMPLEMENT_DOWNCAST(TDF_DeltaOnAddition,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_DeltaOnAddition)
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 
 //=======================================================================

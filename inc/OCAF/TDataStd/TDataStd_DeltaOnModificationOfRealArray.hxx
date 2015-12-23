@@ -13,7 +13,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <Handle_TDataStd_RealArray.hxx>
 class TColStd_HArray1OfInteger;
 class TColStd_HArray1OfReal;

@@ -14,8 +14,8 @@
 #include <XCAFDoc.hxx>
 #include <XCAFDoc_ColorType.hxx>
 
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <TDocStd_Document.hxx>
 

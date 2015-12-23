@@ -20,24 +20,24 @@
 //		0.0	Sep  8 1998	Creation
 
 
-#include <TDF_DataSet.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_ClosureMode.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_AttributeMap.hxx>
-#include <TDF_ClosureTool.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_ClosureMode.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_ClosureTool.hxx>
 
-//#include <TDF_Reference.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_AttributeMap.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_MapIteratorOfAttributeMap.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+//#include <OCAF/TDF/TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 

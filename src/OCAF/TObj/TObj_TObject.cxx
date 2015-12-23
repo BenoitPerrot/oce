@@ -18,8 +18,8 @@
 #include <TObj_TObject.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_TObject,TDF_Attribute)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_TObject,TDF_Attribute)

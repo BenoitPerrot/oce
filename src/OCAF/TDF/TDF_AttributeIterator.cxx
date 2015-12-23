@@ -21,7 +21,7 @@
 
 
 
-#include <TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
 
 //=======================================================================
 //function : TDF_AttributeIterator

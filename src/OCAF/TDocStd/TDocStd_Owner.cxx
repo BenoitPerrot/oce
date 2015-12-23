@@ -16,9 +16,9 @@
 
 #include <TDocStd_Document.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <TDocStd_Owner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_Owner)

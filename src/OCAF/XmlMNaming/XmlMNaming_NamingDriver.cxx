@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMNaming_NamingDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamingDriver)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <TNaming_Iterator.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 //=======================================================================
 static TopAbs_ShapeEnum ShapeEnumFromString (const XmlObjMgt_DOMString&);

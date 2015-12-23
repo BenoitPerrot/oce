@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_LabelArray1.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TDataStd_HLabelArray1)
 
 
 #define ItemHArray1 TDF_Label
-#define ItemHArray1_hxx <TDF_Label.hxx>
+#define ItemHArray1_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheArray1 TDataStd_LabelArray1
 #define TheArray1_hxx <OCAF/TDataStd/TDataStd_LabelArray1.hxx>
 #define TCollection_HArray1 TDataStd_HLabelArray1

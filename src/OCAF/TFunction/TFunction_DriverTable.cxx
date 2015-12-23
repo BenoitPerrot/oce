@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(TFunction_DriverTable)
 #include <TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx>
 #include <TFunction_Driver.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF.hxx>
+#include <OCAF/TDF/TDF.hxx>
 
 
 static Handle(TFunction_DriverTable) DT;

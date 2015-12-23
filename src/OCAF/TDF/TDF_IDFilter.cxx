@@ -22,13 +22,13 @@
 
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_IDList.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
 
-#include <TDF_IDList.hxx>
-#include <TDF_ListIteratorOfIDList.hxx>
-#include <TDF_MapIteratorOfIDMap.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfIDList.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfIDMap.hxx>
 
 // To avoid too much resizing actions, et 23 est un nombre premier.
 #define TDF_IDFilterMapSize 23

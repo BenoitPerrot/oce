@@ -23,9 +23,9 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <TDocStd_Document.hxx>
 
 #include <XCAFDoc_DocumentTool.hxx>

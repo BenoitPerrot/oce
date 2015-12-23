@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataStd_ReferenceListDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,10 +31,10 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ReferenceListDriver)
 #include <XmlObjMgt_Document.hxx>
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")
 IMPLEMENT_DOMSTRING (LastIndexString,  "last")

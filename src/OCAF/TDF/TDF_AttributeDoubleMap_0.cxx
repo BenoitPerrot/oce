@@ -3,32 +3,32 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_AttributeDoubleMap.hxx>
+#include <OCAF/TDF/TDF_AttributeDoubleMap.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <TDF_DoubleMapNodeOfAttributeDoubleMap.hxx>
-#include <TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx>
+#include <OCAF/TDF/TDF_DoubleMapNodeOfAttributeDoubleMap.hxx>
+#include <OCAF/TDF/TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx>
  
 
 #define TheKey1 Handle(TDF_Attribute)
-#define TheKey1_hxx <TDF_Attribute.hxx>
+#define TheKey1_hxx <OCAF/TDF/TDF_Attribute.hxx>
 #define TheKey2 Handle(TDF_Attribute)
-#define TheKey2_hxx <TDF_Attribute.hxx>
+#define TheKey2_hxx <OCAF/TDF/TDF_Attribute.hxx>
 #define Hasher1 TColStd_MapTransientHasher
 #define Hasher1_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define Hasher2 TColStd_MapTransientHasher
 #define Hasher2_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DoubleMapNode TDF_DoubleMapNodeOfAttributeDoubleMap
-#define TCollection_DoubleMapNode_hxx <TDF_DoubleMapNodeOfAttributeDoubleMap.hxx>
+#define TCollection_DoubleMapNode_hxx <OCAF/TDF/TDF_DoubleMapNodeOfAttributeDoubleMap.hxx>
 #define TCollection_DoubleMapIterator TDF_DoubleMapIteratorOfAttributeDoubleMap
-#define TCollection_DoubleMapIterator_hxx <TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx>
+#define TCollection_DoubleMapIterator_hxx <OCAF/TDF/TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx>
 #define Handle_TCollection_DoubleMapNode Handle_TDF_DoubleMapNodeOfAttributeDoubleMap
 #define TCollection_DoubleMapNode_Type_() TDF_DoubleMapNodeOfAttributeDoubleMap_Type_()
 #define TCollection_DoubleMap TDF_AttributeDoubleMap
-#define TCollection_DoubleMap_hxx <TDF_AttributeDoubleMap.hxx>
+#define TCollection_DoubleMap_hxx <OCAF/TDF/TDF_AttributeDoubleMap.hxx>
 #include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

@@ -20,8 +20,8 @@
 #include <TObj_TObject.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_TReference,TDF_Attribute)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_TReference,TDF_Attribute)

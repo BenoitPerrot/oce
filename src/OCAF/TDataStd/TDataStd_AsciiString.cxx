@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_AsciiString)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_AsciiString)
 IMPLEMENT_DOWNCAST(TDataStd_AsciiString,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_AsciiString)
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 //=======================================================================
 //function : TDataStd_AsciiString

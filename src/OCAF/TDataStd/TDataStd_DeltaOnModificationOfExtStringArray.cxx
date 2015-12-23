@@ -29,12 +29,12 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfExtStringArray)
 IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfExtStringArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfExtStringArray)
 #include <OCAF/TDataStd/TDataStd_ExtStringArray.hxx>
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
 
 #ifdef OCCT_DEBUG
 #define MAXUP 1000

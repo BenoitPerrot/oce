@@ -21,7 +21,7 @@
 
 
 
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/PDF/PDF_Data.hxx>
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
@@ -32,9 +32,9 @@
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
 #include <OCAF/MDF/MDF.hxx>
 
-#include <TDF_Attribute.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>

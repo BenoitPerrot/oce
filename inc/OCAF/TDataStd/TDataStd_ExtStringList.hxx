@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_ExtStringList.hxx>
 
 #include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDF_Attribute.hxx>

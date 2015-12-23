@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
 
-#include <TDF_Label.hxx>
-#include <TDF_IDMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_IDMap.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TDF_Label;
@@ -54,11 +54,11 @@ private:
 };
 
 #define TheKey TDF_Label
-#define TheKey_hxx <TDF_Label.hxx>
+#define TheKey_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheItem TDF_IDMap
-#define TheItem_hxx <TDF_IDMap.hxx>
+#define TheItem_hxx <OCAF/TDF/TDF_IDMap.hxx>
 #define Hasher TDF_LabelMapHasher
-#define Hasher_hxx <TDF_LabelMapHasher.hxx>
+#define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode TDocStd_DataMapNodeOfLabelIDMapDataMap
 #define TCollection_DataMapNode_hxx <TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
 #define TCollection_DataMapIterator TDocStd_DataMapIteratorOfLabelIDMapDataMap

@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Drawable3D.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
 #include <DDataStd_DrawPresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDataStd_DrawPresentation)
@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawPresentation)
 #include <Draw_Drawable3D.hxx>
 #include <Draw.hxx>
 #include <Draw_Viewer.hxx>
-#include <TDF_DefaultDeltaOnModification.hxx>
-#include <TDF_DefaultDeltaOnRemoval.hxx>
-#include <TDF_DeltaOnAddition.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <DDataStd_DrawDriver.hxx>
 
 #ifndef WNT

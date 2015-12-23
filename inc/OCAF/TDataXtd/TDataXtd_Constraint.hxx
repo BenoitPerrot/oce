@@ -14,7 +14,7 @@
 #include <Handle_TDataStd_Real.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDF_RelocationTable.hxx>

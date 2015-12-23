@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TFunction_Logbook.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <DNaming_Line3DDriver.hxx>
@@ -51,9 +51,9 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_AttributeMap.hxx>
-#include <TDF_MapIteratorOfAttributeMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TNaming.hxx>

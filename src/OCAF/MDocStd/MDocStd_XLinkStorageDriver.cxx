@@ -24,7 +24,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDocStd/MDocStd_XLinkStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDocStd_XLinkStorageDriver)
 IMPLEMENT_DOWNCAST(MDocStd_XLinkStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDocStd_XLinkStorageDriver)
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TDocStd_XLink.hxx>
 #include <OCAF/PDocStd/PDocStd_XLink.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

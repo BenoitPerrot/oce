@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 
 #include <Handle_TColStd_HPackedMapOfInteger.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <Handle_TDataStd_IntPackedMap.hxx>
 class TColStd_HPackedMapOfInteger;
 class TDataStd_IntPackedMap;

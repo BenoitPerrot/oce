@@ -16,7 +16,7 @@
 //AGV 150202: Changed prototype LDOM_Node::getOwnerDocument()
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 #include <XmlMNaming_NamedShapeDriver.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamedShapeDriver)
 #include <XmlObjMgt_Array1.hxx>
 #include <XmlMNaming_Shape1.hxx>
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Iterator.hxx>

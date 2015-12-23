@@ -27,8 +27,8 @@ IMPLEMENT_DOWNCAST(DNaming_SelectionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <TFunction_Logbook.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Builder.hxx>
@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
 
 //#define SEL_DEB 1
 #ifdef OCCT_DEBUG
-#include <TDF_Tool.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 #endif
 //=======================================================================
 //function : DNaming_SelectionDriver
@@ -84,12 +84,12 @@ static void Write(const TopoDS_Shape& shape,
 //           labels (see method SetImpacted).
 //=======================================================================
 #include <TNaming_ListOfNamedShape.hxx>
-#include <TDF_AttributeMap.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_MapIteratorOfAttributeMap.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 
 Standard_Integer DNaming_SelectionDriver::Execute(TFunction_Logbook& theLog) const
 {

@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Data.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataStd/TDataStd_Current.hxx>
 #include <OCAF/TDataStd/TDataStd_Comment.hxx>
@@ -23,7 +23,7 @@
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
@@ -43,7 +43,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TDF_AttributeList.hxx>
+#include <OCAF/TDF/TDF_AttributeList.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>

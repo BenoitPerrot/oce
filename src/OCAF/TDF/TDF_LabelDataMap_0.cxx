@@ -3,29 +3,29 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_LabelDataMap.hxx>
+#include <OCAF/TDF/TDF_LabelDataMap.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelMapHasher.hxx>
-#include <TDF_DataMapNodeOfLabelDataMap.hxx>
-#include <TDF_DataMapIteratorOfLabelDataMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMapHasher.hxx>
+#include <OCAF/TDF/TDF_DataMapNodeOfLabelDataMap.hxx>
+#include <OCAF/TDF/TDF_DataMapIteratorOfLabelDataMap.hxx>
  
 
 #define TheKey TDF_Label
-#define TheKey_hxx <TDF_Label.hxx>
+#define TheKey_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheItem TDF_Label
-#define TheItem_hxx <TDF_Label.hxx>
+#define TheItem_hxx <OCAF/TDF/TDF_Label.hxx>
 #define Hasher TDF_LabelMapHasher
-#define Hasher_hxx <TDF_LabelMapHasher.hxx>
+#define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode TDF_DataMapNodeOfLabelDataMap
-#define TCollection_DataMapNode_hxx <TDF_DataMapNodeOfLabelDataMap.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TDF/TDF_DataMapNodeOfLabelDataMap.hxx>
 #define TCollection_DataMapIterator TDF_DataMapIteratorOfLabelDataMap
-#define TCollection_DataMapIterator_hxx <TDF_DataMapIteratorOfLabelDataMap.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TDF/TDF_DataMapIteratorOfLabelDataMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_TDF_DataMapNodeOfLabelDataMap
 #define TCollection_DataMapNode_Type_() TDF_DataMapNodeOfLabelDataMap_Type_()
 #define TCollection_DataMap TDF_LabelDataMap
-#define TCollection_DataMap_hxx <TDF_LabelDataMap.hxx>
+#define TCollection_DataMap_hxx <OCAF/TDF/TDF_LabelDataMap.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

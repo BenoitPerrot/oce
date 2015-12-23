@@ -20,11 +20,11 @@
 //		0.0	Oct  3 1997	Creation
 
 
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <DDF_Browser.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDF_Browser)
@@ -39,11 +39,11 @@ IMPLEMENT_STANDARD_RTTI(DDF_Browser)
 
 #include <DDF_AttributeBrowser.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF.hxx>
 
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 

@@ -20,12 +20,12 @@
 #include <TNaming_OldShapeIterator.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
-#include <TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TNaming_NamedShape)
@@ -40,14 +40,14 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 #include <TNaming_UsedShapes.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
 
-#include <TDF_Label.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_DeltaOnAddition.hxx>
-#include <TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
 #include <TNaming_PtrNode.hxx>
 #include <TNaming_PtrRefShape.hxx>
 #include <TNaming_RefShape.hxx>

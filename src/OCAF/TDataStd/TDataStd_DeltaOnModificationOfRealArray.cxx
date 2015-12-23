@@ -29,12 +29,12 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_DeltaOnModificationOfRealArray)
 IMPLEMENT_DOWNCAST(TDataStd_DeltaOnModificationOfRealArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_DeltaOnModificationOfRealArray)
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
 #ifdef OCCT_DEBUG
 #define MAXUP 1000
 #endif

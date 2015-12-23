@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDataStd/TDataStd_ChildNodeIterator.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_TreeNode)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_TreeNode)
 IMPLEMENT_DOWNCAST(TDataStd_TreeNode,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_TreeNode)
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 // This bug concerns the method IsDescendant():

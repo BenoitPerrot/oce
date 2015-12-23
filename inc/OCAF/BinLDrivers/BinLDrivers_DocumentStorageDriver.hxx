@@ -14,7 +14,7 @@
 #include <Handle_BinMDF_ADriverTable.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
-#include <TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_VectorOfDocumentSection.hxx>

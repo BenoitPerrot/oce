@@ -23,13 +23,13 @@
 
 #include <TDocStd_XLinkRoot.hxx>
 #include <TDocStd_XLinkIterator.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <TDocStd_XLink.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_XLink)
@@ -43,10 +43,10 @@ IMPLEMENT_DOWNCAST(TDocStd_XLink,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_XLink)
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <TDF_DeltaOnAddition.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <TDocStd.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_XLinkRoot.hxx>

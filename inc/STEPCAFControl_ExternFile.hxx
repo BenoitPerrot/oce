@@ -14,7 +14,7 @@
 #include <IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class XSControl_WorkSession;
 class TCollection_HAsciiString;

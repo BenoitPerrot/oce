@@ -31,7 +31,7 @@
 #include <TDocStd_Application.hxx>
 #include <DDocStd.hxx>
 #include <TDocStd_Owner.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <DDF.hxx>
 #include <TPrsStd_AISViewer.hxx>
 #include <TPrsStd_AISPresentation.hxx>
@@ -464,7 +464,7 @@ static Standard_Integer OCC74bug_get (Draw_Interpretor& di, Standard_Integer arg
 }
 
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 

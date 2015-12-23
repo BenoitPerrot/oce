@@ -17,7 +17,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MNaming/MNaming_NamingStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamingStorageDriver)
 #include <OCAF/PNaming/PNaming_Naming_2.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <TNaming_Naming.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Name.hxx>

@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_StdMapNodeOfIDMap.hxx>
+#include <OCAF/TDF/TDF_StdMapNodeOfIDMap.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_IDMap.hxx>
-#include <TDF_MapIteratorOfIDMap.hxx>
+#include <OCAF/TDF/TDF_IDMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfIDMap.hxx>
 
  
 
@@ -33,12 +33,12 @@ IMPLEMENT_STANDARD_RTTI(TDF_StdMapNodeOfIDMap)
 #define Hasher Standard_GUID
 #define Hasher_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_StdMapNode TDF_StdMapNodeOfIDMap
-#define TCollection_StdMapNode_hxx <TDF_StdMapNodeOfIDMap.hxx>
+#define TCollection_StdMapNode_hxx <OCAF/TDF/TDF_StdMapNodeOfIDMap.hxx>
 #define TCollection_MapIterator TDF_MapIteratorOfIDMap
-#define TCollection_MapIterator_hxx <TDF_MapIteratorOfIDMap.hxx>
+#define TCollection_MapIterator_hxx <OCAF/TDF/TDF_MapIteratorOfIDMap.hxx>
 #define Handle_TCollection_StdMapNode Handle_TDF_StdMapNodeOfIDMap
 #define TCollection_StdMapNode_Type_() TDF_StdMapNodeOfIDMap_Type_()
 #define TCollection_Map TDF_IDMap
-#define TCollection_Map_hxx <TDF_IDMap.hxx>
+#define TCollection_Map_hxx <OCAF/TDF/TDF_IDMap.hxx>
 #include <Foundation/TCollection/TCollection_StdMapNode.gxx>
 

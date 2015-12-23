@@ -14,11 +14,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDataStd/TDataStd_ReferenceList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_ReferenceList)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDataStd_ReferenceList)
 IMPLEMENT_DOWNCAST(TDataStd_ReferenceList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_ReferenceList)
-#include <TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 
 //=======================================================================
 //function : GetID

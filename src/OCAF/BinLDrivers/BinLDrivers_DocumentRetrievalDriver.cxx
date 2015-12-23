@@ -19,7 +19,7 @@
 #include <OCAF/PCDM/PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_Owner.hxx>
 

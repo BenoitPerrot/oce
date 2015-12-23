@@ -27,9 +27,9 @@
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 

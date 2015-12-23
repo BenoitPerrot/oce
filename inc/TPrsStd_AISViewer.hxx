@@ -11,7 +11,7 @@
 #include <Handle_TPrsStd_AISViewer.hxx>
 
 #include <Handle_AIS_InteractiveContext.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <Handle_TDF_Attribute.hxx>

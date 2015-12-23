@@ -11,7 +11,7 @@
 #include <Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TDF_Label;
@@ -59,11 +59,11 @@ private:
 #define TheKey1 Standard_Integer
 #define TheKey1_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheKey2 TDF_Label
-#define TheKey2_hxx <TDF_Label.hxx>
+#define TheKey2_hxx <OCAF/TDF/TDF_Label.hxx>
 #define Hasher1 TColStd_MapIntegerHasher
 #define Hasher1_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define Hasher2 TDF_LabelMapHasher
-#define Hasher2_hxx <TDF_LabelMapHasher.hxx>
+#define Hasher2_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DoubleMapNode TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel
 #define TCollection_DoubleMapNode_hxx <TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 #define TCollection_DoubleMapIterator TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel

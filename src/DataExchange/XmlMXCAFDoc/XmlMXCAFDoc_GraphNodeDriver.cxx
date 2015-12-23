@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMXCAFDoc_GraphNodeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_GraphNodeDriver)
 #include <XmlObjMgt.hxx>
 
 #include <XCAFDoc_GraphNode.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 
 IMPLEMENT_DOMSTRING (TreeIdString,   "treeid")

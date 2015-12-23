@@ -13,7 +13,7 @@
 
 // last modified by SRN 01/08/2000    
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(TPrsStd_NamedShapeDriver)
 IMPLEMENT_DOWNCAST(TPrsStd_NamedShapeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

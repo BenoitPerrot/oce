@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDocStd_XLinkDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(XmlMDocStd_XLinkDriver)
 #include <XmlObjMgt.hxx>
 
 #include <TDocStd_XLink.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 IMPLEMENT_DOMSTRING (DocEntryString, "documentEntry")
 

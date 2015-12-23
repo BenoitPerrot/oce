@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <XCAFPrs_Driver.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFPrs_Driver)
 #include <XCAFPrs_AISObject.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TDocStd_Document.hxx>
 
 //=======================================================================

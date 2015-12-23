@@ -24,7 +24,7 @@
 #include <Handle_TObj_Model.hxx>
 #include <Handle_TObj_Object.hxx>
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 class TObj_Persistence;

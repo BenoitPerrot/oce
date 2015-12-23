@@ -23,10 +23,10 @@
 #include <Draw_Drawable3D.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <TDF_Data.hxx>
-#include <TDF.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 #include <DDataStd_TreeBrowser.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>

@@ -20,11 +20,11 @@
 
 #include <DDF.hxx>
 
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 
 #include <Draw.hxx>
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_Selector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ViewerTest.hxx>
@@ -35,9 +35,9 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <TNaming.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TNaming_NamingTool.hxx>
 #include <DBRep.hxx>

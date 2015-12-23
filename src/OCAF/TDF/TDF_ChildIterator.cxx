@@ -21,12 +21,12 @@
 
 
 
-#include <TDF_Label.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 
-#include <TDF_Label.hxx>
-#include <TDF_LabelNode.hxx>
-#include <TDF_LabelNodePtr.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelNode.hxx>
+#include <OCAF/TDF/TDF_LabelNodePtr.hxx>
 
 #define ChildIterator_UpToBrother \
 { \

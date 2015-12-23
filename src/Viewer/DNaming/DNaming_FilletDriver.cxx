@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TFunction_Logbook.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DNaming_FilletDriver.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <TNaming.hxx>

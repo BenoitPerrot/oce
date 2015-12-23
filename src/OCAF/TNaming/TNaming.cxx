@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 #include <TNaming.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -45,8 +45,8 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeShape.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_UsedShapes.hxx>

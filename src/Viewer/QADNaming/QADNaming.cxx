@@ -17,10 +17,10 @@
 #include <stdio.h>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <QADNaming.hxx>
 
 #include <DDF.hxx>
@@ -30,10 +30,10 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <TNaming_Iterator.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>

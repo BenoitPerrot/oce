@@ -25,9 +25,9 @@
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
-#include <TDF_Tool.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <TDocStd_Document.hxx>
 
 #include <XCAFDoc_DocumentTool.hxx>
@@ -38,7 +38,7 @@
 
 #include <stdio.h>
 #include <XCAFDoc_GraphNode.hxx>
-#include <TDF_AttributeSequence.hxx>
+#include <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 
 //=======================================================================

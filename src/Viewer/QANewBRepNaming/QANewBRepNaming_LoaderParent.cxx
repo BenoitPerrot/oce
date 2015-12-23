@@ -20,7 +20,7 @@
 #include <QANewBRepNaming_LoaderParent.hxx>
 
 #include <TNaming.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

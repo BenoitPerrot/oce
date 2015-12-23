@@ -38,12 +38,12 @@
 
 #include <DDF.hxx>
 #include <DDocStd.hxx>
-#include <TDF_TagSource.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Reference.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_ChildIDIterator.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIDIterator.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>

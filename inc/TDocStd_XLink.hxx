@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDocStd_XLinkPtr.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Reference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_AttributeDelta.hxx>

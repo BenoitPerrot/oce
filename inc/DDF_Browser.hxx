@@ -11,7 +11,7 @@
 #include <Handle_DDF_Browser.hxx>
 
 #include <Handle_TDF_Data.hxx>
-#include <TDF_AttributeIndexedMap.hxx>
+#include <OCAF/TDF/TDF_AttributeIndexedMap.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

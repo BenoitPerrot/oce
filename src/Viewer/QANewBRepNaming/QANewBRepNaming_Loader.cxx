@@ -18,12 +18,12 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 
 #include <TNaming.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

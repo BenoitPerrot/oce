@@ -16,7 +16,7 @@
 //AGV 150202: Changed prototype XmlObjMgt::SetStringValue()
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDF_ReferenceDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_DOWNCAST(XmlMDF_ReferenceDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDF_ReferenceDriver)
 #include <XmlObjMgt.hxx>
 
-#include <TDF_Reference.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 //=======================================================================
 //function : XmlMDF_ReferenceDriver

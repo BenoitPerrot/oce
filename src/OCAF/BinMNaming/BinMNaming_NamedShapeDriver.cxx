@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinTools/BinTools_LocationSet.hxx>
 #include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Evolution.hxx>
 #include <TNaming_Builder.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_Iterator.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <TNaming_Localizer.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_OldShapeIterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_MapOfNamedShape.hxx>
-#include <TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <TNaming_UsedShapes.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <TNaming_Tool.hxx>
@@ -43,10 +43,10 @@
 #ifdef BUC60862
 #include <TNaming_Naming.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
-#include <TDF_AttributeMap.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_MapIteratorOfAttributeMap.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
 #endif

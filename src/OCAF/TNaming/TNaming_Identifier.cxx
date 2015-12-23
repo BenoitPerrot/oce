@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TNaming_NamedShape.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Localizer.hxx>
 #include <TNaming_Identifier.hxx>
@@ -28,12 +28,12 @@
 #include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 
 //#define MDTV_DEB_IDF
 #ifdef OCCT_DEBUG_IDF
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 //unreferenced function, commented  

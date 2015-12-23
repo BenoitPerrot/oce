@@ -6,19 +6,19 @@
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_LabelMapHasher.hxx>
+#include <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #include <STEPCAFControl_DataMapOfLabelShape.hxx>
 #include <STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
  
 
 #define TheKey TDF_Label
-#define TheKey_hxx <TDF_Label.hxx>
+#define TheKey_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TDF_LabelMapHasher
-#define Hasher_hxx <TDF_LabelMapHasher.hxx>
+#define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfLabelShape
 #define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape

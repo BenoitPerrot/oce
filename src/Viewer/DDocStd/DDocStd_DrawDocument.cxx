@@ -28,8 +28,8 @@ IMPLEMENT_DOWNCAST(DDocStd_DrawDocument,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DDocStd_DrawDocument)
 
 #include <TDocStd_Document.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 

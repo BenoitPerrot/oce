@@ -11,7 +11,7 @@
 #include <Handle_TNaming_UsedShapes.hxx>
 
 #include <TNaming_DataMapOfShapePtrRefShape.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_AttributeDelta.hxx>

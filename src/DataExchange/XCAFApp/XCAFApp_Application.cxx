@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFApp_Application)
 #include <TPrsStd_DriverTable.hxx>
 #include <XCAFPrs_Driver.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 //=======================================================================
 //function : GetApplication

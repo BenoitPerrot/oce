@@ -21,12 +21,12 @@
 
 
 
-#include <TDF_Label.hxx>
-#include <TDF_LabelMap.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_AttributeMap.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_DataSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,9 +37,9 @@ IMPLEMENT_STANDARD_TYPE_END(TDF_DataSet)
 IMPLEMENT_DOWNCAST(TDF_DataSet,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_DataSet)
 
-#include <TDF_MapIteratorOfAttributeMap.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 
 
 //=======================================================================

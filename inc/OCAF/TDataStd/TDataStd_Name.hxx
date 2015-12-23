@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_Name.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

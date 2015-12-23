@@ -7,19 +7,19 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
-#include <TDF_LabelMapHasher.hxx>
+#include <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #include <STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
 #include <STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx>
  
 
 #define TheKey TDF_Label
-#define TheKey_hxx <TDF_Label.hxx>
+#define TheKey_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
 #define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
 #define Hasher TDF_LabelMapHasher
-#define Hasher_hxx <TDF_LabelMapHasher.hxx>
+#define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile
 #define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile

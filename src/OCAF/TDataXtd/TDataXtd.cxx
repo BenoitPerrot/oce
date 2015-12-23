@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
-#include <TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
@@ -26,7 +26,7 @@
 #include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
-#include <TDF_IDList.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 
 //=======================================================================
 //function : IDList

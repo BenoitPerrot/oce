@@ -26,7 +26,7 @@
 #include <OCAF/MDocStd/MDocStd_XLinkStorageDriver.hxx>
 #include <OCAF/MDocStd/MDocStd_XLinkRetrievalDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 static Standard_GUID StandardStorageDriver ("ad696000-5b34-11d1-b5ba-00a0c9064368");
 static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064368");
 
@@ -36,8 +36,8 @@ static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064
 //#include <TDocStd_XLink.hxx>
 //#include <TDocStd_XLinkIterator.hxx>
 //#include <OCAF/MDocStd/MDocStd_ListIteratorOfDocEntryList.hxx>
-//#include <TDF_Label.hxx>
-//#include <TDF_ChildIterator.hxx>
+//#include <OCAF/TDF/TDF_Label.hxx>
+//#include <OCAF/TDF/TDF_ChildIterator.hxx>
 //#include <TNaming_NamedShape.hxx>
 //#include <OCAF/PNaming/PNaming_NamedShape.hxx>
 //#include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>

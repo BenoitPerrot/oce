@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <Handle_TFunction_Scope.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TFunction_ExecutionStatus.hxx>

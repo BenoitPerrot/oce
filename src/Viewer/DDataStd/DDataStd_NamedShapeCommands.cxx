@@ -20,8 +20,8 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 
-#include <TDF_Data.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 #include <DBRep.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

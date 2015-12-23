@@ -22,10 +22,10 @@
 #include <Draw_ColorKind.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDocStd_Document.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Data.hxx> 
-#include <TDF_Tool.hxx> 
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx> 
+#include <OCAF/TDF/TDF_Tool.hxx> 
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <DDF.hxx>
 #include <DDocStd.hxx>
 #include <ViewerTest.hxx>

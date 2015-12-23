@@ -11,7 +11,7 @@
 #include <Handle_TNaming_Naming.hxx>
 
 #include <TNaming_Name.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TDF_Attribute.hxx>

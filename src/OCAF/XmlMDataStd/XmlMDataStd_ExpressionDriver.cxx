@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataStd_ExpressionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExpressionDriver)
 #include <OCAF/TDataStd/TDataStd_Expression.hxx>
 #include <OCAF/TDataStd/TDataStd_Variable.hxx>
 
-#include <TDF_ListIteratorOfAttributeList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
 
 #include <XmlObjMgt.hxx>
 

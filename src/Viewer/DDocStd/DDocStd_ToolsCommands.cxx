@@ -18,20 +18,20 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TDocStd_Document.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_ListIteratorOfAttributeDeltaList.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_Delta.hxx> 
-#include <TDF_AttributeDelta.hxx> 
-#include <TDF_DeltaOnAddition.hxx> 
-#include <TDF_DeltaOnForget.hxx>
-#include <TDF_DeltaOnResume.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
-#include <TDF_DeltaOnModification.hxx>
-#include <TDF_AttributeDeltaList.hxx>
-#include <TDF_ListIteratorOfAttributeDeltaList.hxx> 
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeDeltaList.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_Delta.hxx> 
+#include <OCAF/TDF/TDF_AttributeDelta.hxx> 
+#include <OCAF/TDF/TDF_DeltaOnAddition.hxx> 
+#include <OCAF/TDF/TDF_DeltaOnForget.hxx>
+#include <OCAF/TDF/TDF_DeltaOnResume.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_AttributeDeltaList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeDeltaList.hxx> 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 

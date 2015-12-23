@@ -16,7 +16,7 @@
 // modified     13.04.2009 Sergey Zaritchny
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMDataXtd/BinMDataXtd_GeometryDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

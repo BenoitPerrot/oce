@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDataStd/TDataStd_Directory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Directory)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_Directory)
 IMPLEMENT_DOWNCAST(TDataStd_Directory,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_Directory)
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 //=======================================================================

@@ -13,13 +13,13 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Constraint)
@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(TDataXtd_Constraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Constraint)
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 // for symmetry midpoint the third argument is the axis or the point

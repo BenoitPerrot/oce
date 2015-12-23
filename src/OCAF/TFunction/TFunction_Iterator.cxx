@@ -14,18 +14,18 @@
 // commercial license or contractual agreement.
 
 #include <TFunction_Scope.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <TFunction_Iterator.hxx>
 #include <TFunction_IFunction.hxx>
 #include <TFunction_GraphNode.hxx>
 #include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 
-#include <TDF_LabelMap.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_LabelIntegerMap.hxx>
-#include <TDF_DataMapIteratorOfLabelIntegerMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_LabelIntegerMap.hxx>
+#include <OCAF/TDF/TDF_DataMapIteratorOfLabelIntegerMap.hxx>
 
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMNaming/BinMNaming_NamingDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include  <TNaming_Iterator.hxx>
 #include <TNaming_NameType.hxx>
 #include <TNaming_Naming.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamingDriver)
 #include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 #include <OCAF/BinMNaming/BinMNaming.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #define  NULL_ENTRY "0:0"
 #define  OBSOLETE_NUM (int)sizeof(Standard_Integer)

@@ -11,7 +11,7 @@
 #include <Handle_TNaming_DeltaOnRemoval.hxx>
 
 #include <Handle_TNaming_DeltaOnModification.hxx>
-#include <TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 class TNaming_DeltaOnModification;
 class TNaming_NamedShape;

@@ -23,8 +23,8 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF.hxx>
-#include <TDF_GUIDProgIDMap.hxx>
+#include <OCAF/TDF/TDF.hxx>
+#include <OCAF/TDF/TDF_GUIDProgIDMap.hxx>
 
 static TDF_GUIDProgIDMap guidprogidmap;
 

@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF_AttributeList.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_AttributeList.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDataStd/TDataStd_Relation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_Relation)
@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(TDataStd_Relation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_Relation)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDataStd/TDataStd_Variable.hxx>
-#include <TDF_ListIteratorOfAttributeList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
 
 #define OCC387
 

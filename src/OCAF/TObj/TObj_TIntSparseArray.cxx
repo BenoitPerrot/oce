@@ -18,9 +18,9 @@
 #include <TObj_TIntSparseArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_ImmutableObject.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_TIntSparseArray,TDF_Attribute)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_TIntSparseArray,TDF_Attribute)

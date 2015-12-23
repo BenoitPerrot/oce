@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
  
 
 #define Array1Item TDF_Label
-#define Array1Item_hxx <TDF_Label.hxx>
+#define Array1Item_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TCollection_Array1 TDataStd_LabelArray1
 #define TCollection_Array1_hxx <OCAF/TDataStd/TDataStd_LabelArray1.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

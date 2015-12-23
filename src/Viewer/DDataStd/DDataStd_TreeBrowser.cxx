@@ -21,7 +21,7 @@
 
 
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -38,13 +38,13 @@ IMPLEMENT_STANDARD_TYPE_END(DDataStd_TreeBrowser)
 IMPLEMENT_DOWNCAST(DDataStd_TreeBrowser,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DDataStd_TreeBrowser)
 #include <DDataStd.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF.hxx>
+#include <OCAF/TDF/TDF.hxx>
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Communication convention with tcl:

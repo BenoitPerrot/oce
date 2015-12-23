@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMFunction/BinMFunction_ScopeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMFunction_ScopeDriver)
 IMPLEMENT_DOWNCAST(BinMFunction_ScopeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMFunction_ScopeDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <TFunction_Scope.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(BinMFunction_ScopeDriver)
 #include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 //=======================================================================
 //function : BinMFunction_GraphNodeDriver

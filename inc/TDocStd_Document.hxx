@@ -13,8 +13,8 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TDF_Transaction.hxx>
-#include <TDF_DeltaList.hxx>
+#include <OCAF/TDF/TDF_Transaction.hxx>
+#include <OCAF/TDF/TDF_DeltaList.hxx>
 #include <Handle_TDF_Delta.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>

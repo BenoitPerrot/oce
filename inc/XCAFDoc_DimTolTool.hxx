@@ -11,7 +11,7 @@
 #include <Handle_XCAFDoc_DimTolTool.hxx>
 
 #include <Handle_XCAFDoc_ShapeTool.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>

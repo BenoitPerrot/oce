@@ -11,7 +11,7 @@
 #include <Handle_XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -56,7 +56,7 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TDF_Label
-#define TheItem_hxx <TDF_Label.hxx>
+#define TheItem_hxx <OCAF/TDF/TDF_Label.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode XCAFDoc_DataMapNodeOfDataMapOfShapeLabel

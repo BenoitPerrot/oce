@@ -11,7 +11,7 @@
 #include <Handle_TDataStd_RealList.hxx>
 
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

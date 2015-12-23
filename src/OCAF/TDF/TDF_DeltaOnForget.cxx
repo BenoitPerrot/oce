@@ -21,8 +21,8 @@
 
 
 
-#include <TDF_Attribute.hxx>
-#include <TDF_DeltaOnForget.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_DeltaOnForget.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_DeltaOnForget)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDF_DeltaOnForget)
 IMPLEMENT_DOWNCAST(TDF_DeltaOnForget,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_DeltaOnForget)
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 
 //=======================================================================

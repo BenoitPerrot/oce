@@ -16,10 +16,10 @@
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <OCAF/TDataStd/TDataStd_IntPackedMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_IntPackedMap)
@@ -33,11 +33,11 @@ IMPLEMENT_DOWNCAST(TDataStd_IntPackedMap,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_IntPackedMap)
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
-#include <TDF_DefaultDeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnModification.hxx>
 #include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 //=======================================================================
 //function : GetID
 //purpose  : 

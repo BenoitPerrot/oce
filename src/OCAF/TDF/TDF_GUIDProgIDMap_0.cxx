@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_GUIDProgIDMap.hxx>
+#include <OCAF/TDF/TDF_GUIDProgIDMap.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
-#include <TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx>
+#include <OCAF/TDF/TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
+#include <OCAF/TDF/TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx>
  
 
 #define TheKey1 Standard_GUID
@@ -23,12 +23,12 @@
 #define Hasher2 TCollection_ExtendedString
 #define Hasher2_hxx <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #define TCollection_DoubleMapNode TDF_DoubleMapNodeOfGUIDProgIDMap
-#define TCollection_DoubleMapNode_hxx <TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
+#define TCollection_DoubleMapNode_hxx <OCAF/TDF/TDF_DoubleMapNodeOfGUIDProgIDMap.hxx>
 #define TCollection_DoubleMapIterator TDF_DoubleMapIteratorOfGUIDProgIDMap
-#define TCollection_DoubleMapIterator_hxx <TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx>
+#define TCollection_DoubleMapIterator_hxx <OCAF/TDF/TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx>
 #define Handle_TCollection_DoubleMapNode Handle_TDF_DoubleMapNodeOfGUIDProgIDMap
 #define TCollection_DoubleMapNode_Type_() TDF_DoubleMapNodeOfGUIDProgIDMap_Type_()
 #define TCollection_DoubleMap TDF_GUIDProgIDMap
-#define TCollection_DoubleMap_hxx <TDF_GUIDProgIDMap.hxx>
+#define TCollection_DoubleMap_hxx <OCAF/TDF/TDF_GUIDProgIDMap.hxx>
 #include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

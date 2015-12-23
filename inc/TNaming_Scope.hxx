@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 class TDF_LabelMap;
 class TDF_Label;

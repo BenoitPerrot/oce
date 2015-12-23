@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMDF/BinMDF_TagSourceDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDF_TagSourceDriver)
 IMPLEMENT_DOWNCAST(BinMDF_TagSourceDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDF_TagSourceDriver)
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 
 //=======================================================================
 //function : BinMDF_TagSourceDriver

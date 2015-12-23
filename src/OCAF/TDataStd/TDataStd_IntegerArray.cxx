@@ -17,10 +17,10 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_DeltaOnModification.hxx>
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataStd_IntegerArray)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataStd_IntegerArray)
 IMPLEMENT_DOWNCAST(TDataStd_IntegerArray,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataStd_IntegerArray)
 #include <OCAF/TDataStd/TDataStd_DeltaOnModificationOfIntArray.hxx>
-#include <TDF_DefaultDeltaOnModification.hxx>
+#include <OCAF/TDF/TDF_DefaultDeltaOnModification.hxx>
 #define OCC925
 #define OCC2932
 

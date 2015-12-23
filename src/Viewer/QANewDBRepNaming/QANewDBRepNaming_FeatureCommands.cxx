@@ -80,7 +80,7 @@
 #include <QANewBRepNaming_Limitation.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <QANewModTopOpe_Glue.hxx>
 #include <QANewBRepNaming_Gluing.hxx>
 

@@ -14,35 +14,35 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <QANewModTopOpe_Glue.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <QANewBRepNaming_Gluing.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <TDF_ChildIDIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIDIterator.hxx>
 #include <TNaming_Selector.hxx>
 #include <TNaming_Iterator.hxx>
 #include <TNaming_Tool.hxx>
-#include <TDF_AttributeMap.hxx>
-#include <TDF_MapIteratorOfAttributeMap.hxx>
+#include <OCAF/TDF/TDF_AttributeMap.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfAttributeMap.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

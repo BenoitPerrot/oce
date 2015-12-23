@@ -21,7 +21,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HExtendedString.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 #include <TObj_Common.hxx>
 #include <TObj_SequenceOfObject.hxx>

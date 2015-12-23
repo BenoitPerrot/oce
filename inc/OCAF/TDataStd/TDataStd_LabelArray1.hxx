@@ -92,7 +92,7 @@ private:
 };
 
 #define Array1Item TDF_Label
-#define Array1Item_hxx <TDF_Label.hxx>
+#define Array1Item_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TCollection_Array1 TDataStd_LabelArray1
 #define TCollection_Array1_hxx <OCAF/TDataStd/TDataStd_LabelArray1.hxx>
 

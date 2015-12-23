@@ -18,14 +18,14 @@
 
 #include <OCAF/BinTObjDrivers/BinTObjDrivers_ReferenceDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <TObj_TReference.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TObj_Object.hxx>
 #include <TObj_Model.hxx>
 #include <TObj_Assistant.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(BinTObjDrivers_ReferenceDriver,BinMDF_ADriver)
 IMPLEMENT_STANDARD_RTTIEXT(BinTObjDrivers_ReferenceDriver,BinMDF_ADriver)

@@ -16,7 +16,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_TreeNodeRetrievalDriver.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_TreeNodeRetrievalDriver)
 #include <OCAF/PDataStd/PDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataStd_TreeNodeRetrievalDriver::MDataStd_TreeNodeRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

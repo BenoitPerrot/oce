@@ -13,9 +13,9 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <XCAFDoc_Datum.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_Datum)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_Datum)
 IMPLEMENT_DOWNCAST(XCAFDoc_Datum,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_Datum)
 
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 
 
 //=======================================================================

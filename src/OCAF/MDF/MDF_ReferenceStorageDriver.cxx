@@ -14,7 +14,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDF/MDF_ReferenceStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(MDF_ReferenceStorageDriver)
 #include <OCAF/PDF/PDF_Reference.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_Reference.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Reference.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 #define DeclareAndSpeedCast(V,T,Vdown) Handle(T) Vdown = *((Handle(T)*)& V)

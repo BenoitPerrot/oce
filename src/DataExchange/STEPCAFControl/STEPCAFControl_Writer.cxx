@@ -23,16 +23,16 @@
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <TDocStd_Document.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <STEPControl_Writer.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <STEPCAFControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 #include <XCAFPrs.hxx>
@@ -58,7 +58,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <STEPCAFControl_Controller.hxx>
 #include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
@@ -80,9 +80,9 @@
 #include <XCAFDoc.hxx>
 #include <StepVisual_HArray1OfLayeredItem.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientListBinder.hxx>
@@ -105,7 +105,7 @@
 #include <StepVisual_StyledItem.hxx>
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <StepVisual_HArray1OfPresentationStyleSelect.hxx>
-#include <TDF_AttributeSequence.hxx>
+#include <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 // #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>

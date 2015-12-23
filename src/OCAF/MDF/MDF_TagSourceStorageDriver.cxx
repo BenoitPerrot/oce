@@ -14,7 +14,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDF/MDF_TagSourceStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDF_TagSourceStorageDriver)
 IMPLEMENT_DOWNCAST(MDF_TagSourceStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDF_TagSourceStorageDriver)
 #include <OCAF/PDF/PDF_TagSource.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDF_TagSourceStorageDriver::MDF_TagSourceStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)

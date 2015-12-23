@@ -21,16 +21,16 @@
 
 
 
-#include <TDF_Attribute.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_ChildIDIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIDIterator.hxx>
 
-#include <TDF_Label.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_LabelNode.hxx>
-#include <TDF_LabelNodePtr.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelNode.hxx>
+#include <OCAF/TDF/TDF_LabelNodePtr.hxx>
 
 #define ChildIDIterator_FindNext \
 { while( myItr.More() &&  !myItr.Value().FindAttribute(myID,myAtt)) myItr.Next(); }

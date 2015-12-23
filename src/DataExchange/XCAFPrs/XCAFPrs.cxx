@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -22,7 +22,7 @@
 #include <XCAFPrs.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_ColorTool.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -32,7 +32,7 @@
 #include <XCAFDoc_LayerTool.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_IndexedMapOfLocation.hxx>
-#include <TDF_AttributeSequence.hxx>
+#include <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 
 static Standard_Boolean viewnameMode = Standard_False;

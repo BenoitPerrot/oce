@@ -12,7 +12,7 @@
 
 #include <Handle_TColStd_HArray1OfByte.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
 #include <Handle_TDF_Attribute.hxx>

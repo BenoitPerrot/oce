@@ -16,7 +16,7 @@
 #include <Handle_TDataStd_HDataMapOfStringByte.hxx>
 #include <Handle_TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
 #include <Handle_TDataStd_HDataMapOfStringHArray1OfReal.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

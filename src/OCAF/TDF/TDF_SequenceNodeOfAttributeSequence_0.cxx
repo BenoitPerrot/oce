@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDF_SequenceNodeOfAttributeSequence.hxx>
+#include <OCAF/TDF/TDF_SequenceNodeOfAttributeSequence.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TDF_Attribute.hxx>
-#include <TDF_AttributeSequence.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_AttributeSequence.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(TDF_SequenceNodeOfAttributeSequence)
 
 
 #define SeqItem Handle(TDF_Attribute)
-#define SeqItem_hxx <TDF_Attribute.hxx>
+#define SeqItem_hxx <OCAF/TDF/TDF_Attribute.hxx>
 #define TCollection_SequenceNode TDF_SequenceNodeOfAttributeSequence
-#define TCollection_SequenceNode_hxx <TDF_SequenceNodeOfAttributeSequence.hxx>
+#define TCollection_SequenceNode_hxx <OCAF/TDF/TDF_SequenceNodeOfAttributeSequence.hxx>
 #define Handle_TCollection_SequenceNode Handle_TDF_SequenceNodeOfAttributeSequence
 #define TCollection_SequenceNode_Type_() TDF_SequenceNodeOfAttributeSequence_Type_()
 #define TCollection_Sequence TDF_AttributeSequence
-#define TCollection_Sequence_hxx <TDF_AttributeSequence.hxx>
+#define TCollection_Sequence_hxx <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

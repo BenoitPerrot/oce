@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_BooleanOperationFeat.hxx>
@@ -43,8 +43,8 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
@@ -61,7 +61,7 @@
 
 #ifdef OCCT_DEBUG
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TNaming_Tool.hxx>
 static void ModDbgTools_Write(const TopoDS_Shape& shape,

@@ -1352,7 +1352,7 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 }
 
 
-#include<TDF_Label.hxx>
+#include<OCAF/TDF/TDF_Label.hxx>
 #include<OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
 #include<DDocStd.hxx>
@@ -1360,10 +1360,10 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 #include<DDF.hxx>
 
 #include<TDocStd_Modified.hxx>
-#include<TDF_ListIteratorOfDeltaList.hxx>
+#include<OCAF/TDF/TDF_ListIteratorOfDeltaList.hxx>
 #include<TDocStd_Document.hxx>
 #include<TDocStd_Application.hxx>
-#include<TDF_Delta.hxx>
+#include<OCAF/TDF/TDF_Delta.hxx>
 #include<OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include<TPrsStd_AISPresentation.hxx>
 #include<TPrsStd_AISViewer.hxx>

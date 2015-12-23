@@ -14,9 +14,9 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <XCAFDoc_DimTol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDoc_DimTol)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_DimTol)
 IMPLEMENT_DOWNCAST(XCAFDoc_DimTol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_DimTol)
 
-#include <TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
 
 
 //=======================================================================

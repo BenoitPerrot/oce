@@ -22,12 +22,12 @@
 
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_AttributeDelta.hxx>
-#include <TDF_LabelList.hxx>
-#include <TDF_AttributeDeltaList.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
+#include <OCAF/TDF/TDF_AttributeDeltaList.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDF_Delta.hxx>
+#include <OCAF/TDF/TDF_Delta.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDF_Delta)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,10 +38,10 @@ IMPLEMENT_STANDARD_TYPE_END(TDF_Delta)
 IMPLEMENT_DOWNCAST(TDF_Delta,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDF_Delta)
 
-#include <TDF_LabelMap.hxx>
-#include <TDF_ListIteratorOfAttributeDeltaList.hxx>
-#include <TDF_ListIteratorOfLabelList.hxx>
-#include <TDF_MapIteratorOfLabelMap.hxx>
+#include <OCAF/TDF/TDF_LabelMap.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfAttributeDeltaList.hxx>
+#include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
+#include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 
 #ifdef OCCT_DEBUG
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

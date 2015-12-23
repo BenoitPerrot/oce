@@ -17,12 +17,12 @@
 
 #include <XmlTObjDrivers_IntSparseArrayDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <TObj_TIntSparseArray.hxx>
 #include <TObj_Assistant.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(XmlTObjDrivers_IntSparseArrayDriver,XmlMDF_ADriver)
 IMPLEMENT_STANDARD_RTTIEXT(XmlTObjDrivers_IntSparseArrayDriver,XmlMDF_ADriver)

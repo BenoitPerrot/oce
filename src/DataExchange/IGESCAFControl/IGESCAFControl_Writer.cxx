@@ -16,7 +16,7 @@
 #include <XSControl_WorkSession.hxx>
 #include <TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 #include <XCAFPrs_DataMapOfStyleTransient.hxx>
@@ -24,7 +24,7 @@
 #include <XCAFPrs_Style.hxx>
 #include <IGESCAFControl_Writer.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
-#include <TDF_LabelSequence.hxx>
+#include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <XCAFPrs.hxx>
@@ -36,7 +36,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Transfer_TransientListBinder.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <XCAFDoc_LayerTool.hxx>
@@ -47,7 +47,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <IGESData_NameEntity.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>

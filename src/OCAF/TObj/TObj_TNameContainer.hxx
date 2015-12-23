@@ -20,7 +20,7 @@
 
 #include <TObj_Common.hxx>
 #include <TObj_Container.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 
 class Handle(TCollection_HExtendedString);
 class Handle(TObj_TNameContainer);

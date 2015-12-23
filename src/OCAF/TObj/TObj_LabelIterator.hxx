@@ -20,8 +20,8 @@
 
 #include <TObj_Object.hxx>
 
-#include <TDF_Label.hxx>
-#include <TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <TObj_ObjectIterator.hxx>
 
 /**

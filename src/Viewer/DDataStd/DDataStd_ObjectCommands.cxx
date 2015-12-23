@@ -19,10 +19,10 @@
 #include <DDF.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_Tool.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDataStd/TDataStd_Directory.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Shape.hxx>

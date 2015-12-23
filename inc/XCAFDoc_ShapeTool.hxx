@@ -12,7 +12,7 @@
 
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_TDF_Attribute.hxx>

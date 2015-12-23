@@ -19,8 +19,8 @@
 #define TObj_TReference_HeaderFile
 
 #include <TObj_Common.hxx>
-#include <TDF_Attribute.hxx>
-#include <TDF_Label.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
 
 class Handle(TObj_TReference);
 class Handle(TObj_Object);

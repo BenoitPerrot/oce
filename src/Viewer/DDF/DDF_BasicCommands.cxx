@@ -22,10 +22,10 @@
 
 #include <DDF.hxx>
 
-#include <TDF_ComparisonTool.hxx>
-#include <TDF_CopyTool.hxx>
-#include <TDF_ClosureMode.hxx>
-#include <TDF_ClosureTool.hxx>
+#include <OCAF/TDF/TDF_ComparisonTool.hxx>
+#include <OCAF/TDF/TDF_CopyTool.hxx>
+#include <OCAF/TDF/TDF_ClosureMode.hxx>
+#include <OCAF/TDF/TDF_ClosureTool.hxx>
 
 #include <DDF_Data.hxx>
 
@@ -43,17 +43,17 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <TDF_Attribute.hxx>
-#include <TDF_TagSource.hxx>
-#include <TDF_AttributeIterator.hxx>
-#include <TDF_ChildIterator.hxx>
-#include <TDF_Data.hxx>
-#include <TDF_DataSet.hxx>
-#include <TDF_Delta.hxx>
-#include <TDF_IDFilter.hxx>
-#include <TDF_Label.hxx>
-#include <TDF_RelocationTable.hxx>
-#include <TDF_Tool.hxx>
+#include <OCAF/TDF/TDF_Attribute.hxx>
+#include <OCAF/TDF/TDF_TagSource.hxx>
+#include <OCAF/TDF/TDF_AttributeIterator.hxx>
+#include <OCAF/TDF/TDF_ChildIterator.hxx>
+#include <OCAF/TDF/TDF_Data.hxx>
+#include <OCAF/TDF/TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_Delta.hxx>
+#include <OCAF/TDF/TDF_IDFilter.hxx>
+#include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_RelocationTable.hxx>
+#include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <DDF_IOStream.hxx>
 
