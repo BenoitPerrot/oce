@@ -19,7 +19,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <ModelingData/TopTools/TopTools_LocationSet.hxx>
-#include <XmlMNaming_NamedShapeDriver.hxx>
+#include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMNaming_NamedShapeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamedShapeDriver)
 
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Array1.hxx>
-#include <XmlMNaming_Shape1.hxx>
+#include <OCAF/XmlMNaming/XmlMNaming_Shape1.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>

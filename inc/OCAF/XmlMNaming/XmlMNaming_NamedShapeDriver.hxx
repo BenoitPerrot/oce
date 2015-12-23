@@ -70,7 +70,7 @@ private:
 };
 
 
-#include <XmlMNaming_NamedShapeDriver.lxx>
+#include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.lxx>
 
 
 

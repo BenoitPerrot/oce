@@ -34,7 +34,7 @@
 #include <XmlMXCAFDoc_DimTolToolDriver.hxx>
 #include <XmlMXCAFDoc_MaterialToolDriver.hxx>
 
-#include <XmlMNaming_NamedShapeDriver.hxx>
+#include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 //=======================================================================

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XmlMNaming_Shape1.hxx>
+#include <OCAF/XmlMNaming/XmlMNaming_Shape1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMNaming_Shape1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

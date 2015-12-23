@@ -15,10 +15,10 @@
 
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMNaming.hxx>
+#include <OCAF/XmlMNaming/XmlMNaming.hxx>
 
-#include <XmlMNaming_NamedShapeDriver.hxx>
-#include <XmlMNaming_NamingDriver.hxx>
+#include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.hxx>
+#include <OCAF/XmlMNaming/XmlMNaming_NamingDriver.hxx>
 
 static Standard_Integer myDocumentVersion = -1;
 //=======================================================================
