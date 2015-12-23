@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataStd_Real_HeaderFile
-#include <StdSchema_PDataStd_Real.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Real.hxx>
 #endif
 #ifndef _PDataStd_Real_HeaderFile
 #include <OCAF/PDataStd/PDataStd_Real.hxx>

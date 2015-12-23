@@ -1,5 +1,5 @@
 #ifndef _StdSchema_gp_XY_HeaderFile
-#include <StdSchema_gp_XY.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_XY.hxx>
 #endif
 #ifndef _gp_XY_HeaderFile
 #include <Mathematics/Primitives/gp_XY.hxx>

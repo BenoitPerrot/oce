@@ -1,11 +1,11 @@
 #ifndef _StdSchema_gp_Pnt_HeaderFile
-#include <StdSchema_gp_Pnt.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_Pnt.hxx>
 #endif
 #ifndef _gp_Pnt_HeaderFile
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #endif
 #ifndef _StdSchema_gp_XYZ_HeaderFile
-#include <StdSchema_gp_XYZ.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_XYZ.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

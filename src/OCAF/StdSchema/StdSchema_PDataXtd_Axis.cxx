@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataXtd_Axis_HeaderFile
-#include <StdSchema_PDataXtd_Axis.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Axis.hxx>
 #endif
 #ifndef _PDataXtd_Axis_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_Axis.hxx>

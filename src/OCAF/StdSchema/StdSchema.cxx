@@ -1,5 +1,5 @@
 #ifndef _StdSchema_HeaderFile
-#include <StdSchema.hxx>
+#include <OCAF/StdSchema/StdSchema.hxx>
 #endif
 #ifndef _Storage_StreamUnknownTypeError_HeaderFile
 #include <Foundation/Storage/Storage_StreamUnknownTypeError.hxx>
@@ -8,97 +8,97 @@
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Position_HeaderFile
-#include <StdSchema_PDataXtd_Position.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Position.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Point_HeaderFile
-#include <StdSchema_PDataXtd_Point.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Point.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Axis_HeaderFile
-#include <StdSchema_PDataXtd_Axis.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Axis.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Plane_HeaderFile
-#include <StdSchema_PDataXtd_Plane.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Plane.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Geometry_HeaderFile
-#include <StdSchema_PDataXtd_Geometry.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Geometry.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Constraint_HeaderFile
-#include <StdSchema_PDataXtd_Constraint.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Constraint.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Placement_HeaderFile
-#include <StdSchema_PDataXtd_Placement.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Placement.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_PatternStd_HeaderFile
-#include <StdSchema_PDataXtd_PatternStd.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_PatternStd.hxx>
 #endif
 #ifndef _StdSchema_PDataXtd_Shape_HeaderFile
-#include <StdSchema_PDataXtd_Shape.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Shape.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Name_HeaderFile
-#include <StdSchema_PNaming_Name.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Name.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Name_1_HeaderFile
-#include <StdSchema_PNaming_Name_1.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Name_1.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Name_2_HeaderFile
-#include <StdSchema_PNaming_Name_2.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Name_2.hxx>
 #endif
 #ifndef _StdSchema_PNaming_NamedShape_HeaderFile
-#include <StdSchema_PNaming_NamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_NamedShape.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Naming_HeaderFile
-#include <StdSchema_PNaming_Naming.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Naming.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Naming_1_HeaderFile
-#include <StdSchema_PNaming_Naming_1.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Naming_1.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Naming_2_HeaderFile
-#include <StdSchema_PNaming_Naming_2.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Naming_2.hxx>
 #endif
 #ifndef _StdSchema_PNaming_HArray1OfNamedShape_HeaderFile
-#include <StdSchema_PNaming_HArray1OfNamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_HArray1OfNamedShape.hxx>
 #endif
 #ifndef _StdSchema_PPrsStd_AISPresentation_HeaderFile
-#include <StdSchema_PPrsStd_AISPresentation.hxx>
+#include <OCAF/StdSchema/StdSchema_PPrsStd_AISPresentation.hxx>
 #endif
 #ifndef _StdSchema_PPrsStd_AISPresentation_1_HeaderFile
-#include <StdSchema_PPrsStd_AISPresentation_1.hxx>
+#include <OCAF/StdSchema/StdSchema_PPrsStd_AISPresentation_1.hxx>
 #endif
 #ifndef _StdSchema_PDF_Attribute_HeaderFile
-#include <StdSchema_PDF_Attribute.hxx>
+#include <OCAF/StdSchema/StdSchema_PDF_Attribute.hxx>
 #endif
 #ifndef _StdSchema_Standard_Persistent_HeaderFile
-#include <StdSchema_Standard_Persistent.hxx>
+#include <OCAF/StdSchema/StdSchema_Standard_Persistent.hxx>
 #endif
 #ifndef _StdSchema_PDataStd_Real_HeaderFile
-#include <StdSchema_PDataStd_Real.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Real.hxx>
 #endif
 #ifndef _StdSchema_PDF_HAttributeArray1_HeaderFile
-#include <StdSchema_PDF_HAttributeArray1.hxx>
+#include <OCAF/StdSchema/StdSchema_PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _StdSchema_PDataStd_Integer_HeaderFile
-#include <StdSchema_PDataStd_Integer.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Integer.hxx>
 #endif
 #ifndef _StdSchema_PCollection_HAsciiString_HeaderFile
-#include <StdSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/StdSchema/StdSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _StdSchema_PTopoDS_HArray1OfShape1_HeaderFile
-#include <StdSchema_PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopoDS_HArray1OfShape1.hxx>
 #endif
 #ifndef _StdSchema_PColStd_HArray1OfInteger_HeaderFile
-#include <StdSchema_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/StdSchema/StdSchema_PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _StdSchema_PCollection_HExtendedString_HeaderFile
-#include <StdSchema_PCollection_HExtendedString.hxx>
+#include <OCAF/StdSchema/StdSchema_PCollection_HExtendedString.hxx>
 #endif
 #ifndef _StdSchema_PTopoDS_TShape1_HeaderFile
-#include <StdSchema_PTopoDS_TShape1.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopoDS_TShape1.hxx>
 #endif
 #ifndef _StdSchema_PTopLoc_Datum3D_HeaderFile
-#include <StdSchema_PTopLoc_Datum3D.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopLoc_Datum3D.hxx>
 #endif
 #ifndef _StdSchema_PTopLoc_ItemLocation_HeaderFile
-#include <StdSchema_PTopLoc_ItemLocation.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopLoc_ItemLocation.hxx>
 #endif
 
 // avoid warnings on 'extern "C"' functions returning C++ classes

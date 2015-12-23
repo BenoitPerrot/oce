@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PColStd_FieldOfHArray1OfInteger_HeaderFile
-#include <StdSchema_PColStd_FieldOfHArray1OfInteger.hxx>
+#include <OCAF/StdSchema/StdSchema_PColStd_FieldOfHArray1OfInteger.hxx>
 #endif
 #ifndef _PColStd_FieldOfHArray1OfInteger_HeaderFile
 #include <OCAF/PColStd/PColStd_FieldOfHArray1OfInteger.hxx>

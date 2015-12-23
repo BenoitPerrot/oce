@@ -1,14 +1,14 @@
 #ifndef _StdSchema_PTopLoc_ItemLocation_HeaderFile
-#include <StdSchema_PTopLoc_ItemLocation.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _PTopLoc_ItemLocation_HeaderFile
 #include <OCAF/PTopLoc/PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _StdSchema_PTopLoc_Datum3D_HeaderFile
-#include <StdSchema_PTopLoc_Datum3D.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopLoc_Datum3D.hxx>
 #endif
 #ifndef _StdSchema_PTopLoc_Location_HeaderFile
-#include <StdSchema_PTopLoc_Location.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,11 +1,11 @@
 #ifndef _StdSchema_PTopLoc_Datum3D_HeaderFile
-#include <StdSchema_PTopLoc_Datum3D.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopLoc_Datum3D.hxx>
 #endif
 #ifndef _PTopLoc_Datum3D_HeaderFile
 #include <OCAF/PTopLoc/PTopLoc_Datum3D.hxx>
 #endif
 #ifndef _StdSchema_gp_Trsf_HeaderFile
-#include <StdSchema_gp_Trsf.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_Trsf.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

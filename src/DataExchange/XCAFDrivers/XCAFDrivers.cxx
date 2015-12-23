@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/StdDrivers/StdDrivers.hxx>
 #include <Foundation/Storage/Storage_HArrayOfSchema.hxx>
-#include <StdSchema.hxx>
+#include <OCAF/StdSchema/StdSchema.hxx>
 #include <OCAF/StdLSchema/StdLSchema.hxx>
 #include <OCAF/ShapeSchema/ShapeSchema.hxx>
 

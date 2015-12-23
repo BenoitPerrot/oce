@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PNaming_FieldOfHArray1OfNamedShape_HeaderFile
-#include <StdSchema_PNaming_FieldOfHArray1OfNamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_FieldOfHArray1OfNamedShape.hxx>
 #endif
 #ifndef _PNaming_FieldOfHArray1OfNamedShape_HeaderFile
 #include <OCAF/PNaming/PNaming_FieldOfHArray1OfNamedShape.hxx>

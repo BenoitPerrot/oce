@@ -1,14 +1,14 @@
 #ifndef _StdSchema_gp_Ax2d_HeaderFile
-#include <StdSchema_gp_Ax2d.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_Ax2d.hxx>
 #endif
 #ifndef _gp_Ax2d_HeaderFile
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #endif
 #ifndef _StdSchema_gp_Pnt2d_HeaderFile
-#include <StdSchema_gp_Pnt2d.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_Pnt2d.hxx>
 #endif
 #ifndef _StdSchema_gp_Dir2d_HeaderFile
-#include <StdSchema_gp_Dir2d.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_Dir2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

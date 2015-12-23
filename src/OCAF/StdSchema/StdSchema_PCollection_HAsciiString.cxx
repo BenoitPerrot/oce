@@ -1,11 +1,11 @@
 #ifndef _StdSchema_PCollection_HAsciiString_HeaderFile
-#include <StdSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/StdSchema/StdSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _PCollection_HAsciiString_HeaderFile
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #endif
 #ifndef _StdSchema_DBC_VArrayOfCharacter_HeaderFile
-#include <StdSchema_DBC_VArrayOfCharacter.hxx>
+#include <OCAF/StdSchema/StdSchema_DBC_VArrayOfCharacter.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataXtd_Plane_HeaderFile
-#include <StdSchema_PDataXtd_Plane.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Plane.hxx>
 #endif
 #ifndef _PDataXtd_Plane_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_Plane.hxx>

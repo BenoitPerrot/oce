@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataXtd_Shape_HeaderFile
-#include <StdSchema_PDataXtd_Shape.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Shape.hxx>
 #endif
 #ifndef _PDataXtd_Shape_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_Shape.hxx>

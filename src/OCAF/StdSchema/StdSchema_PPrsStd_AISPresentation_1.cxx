@@ -1,11 +1,11 @@
 #ifndef _StdSchema_PPrsStd_AISPresentation_1_HeaderFile
-#include <StdSchema_PPrsStd_AISPresentation_1.hxx>
+#include <OCAF/StdSchema/StdSchema_PPrsStd_AISPresentation_1.hxx>
 #endif
 #ifndef _PPrsStd_AISPresentation_1_HeaderFile
 #include <OCAF/PPrsStd/PPrsStd_AISPresentation_1.hxx>
 #endif
 #ifndef _StdSchema_PCollection_HExtendedString_HeaderFile
-#include <StdSchema_PCollection_HExtendedString.hxx>
+#include <OCAF/StdSchema/StdSchema_PCollection_HExtendedString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

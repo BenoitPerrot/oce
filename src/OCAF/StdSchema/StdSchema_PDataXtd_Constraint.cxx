@@ -1,17 +1,17 @@
 #ifndef _StdSchema_PDataXtd_Constraint_HeaderFile
-#include <StdSchema_PDataXtd_Constraint.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Constraint.hxx>
 #endif
 #ifndef _PDataXtd_Constraint_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #endif
 #ifndef _StdSchema_PDF_HAttributeArray1_HeaderFile
-#include <StdSchema_PDF_HAttributeArray1.hxx>
+#include <OCAF/StdSchema/StdSchema_PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _StdSchema_PDataStd_Real_HeaderFile
-#include <StdSchema_PDataStd_Real.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Real.hxx>
 #endif
 #ifndef _StdSchema_PNaming_NamedShape_HeaderFile
-#include <StdSchema_PNaming_NamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_NamedShape.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

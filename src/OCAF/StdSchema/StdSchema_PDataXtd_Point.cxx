@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataXtd_Point_HeaderFile
-#include <StdSchema_PDataXtd_Point.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Point.hxx>
 #endif
 #ifndef _PDataXtd_Point_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_Point.hxx>

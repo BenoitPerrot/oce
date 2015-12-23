@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataXtd_Geometry_HeaderFile
-#include <StdSchema_PDataXtd_Geometry.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Geometry.hxx>
 #endif
 #ifndef _PDataXtd_Geometry_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_Geometry.hxx>

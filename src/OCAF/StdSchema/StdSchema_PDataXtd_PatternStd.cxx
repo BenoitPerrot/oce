@@ -1,29 +1,29 @@
 #ifndef _StdSchema_PDataXtd_PatternStd_HeaderFile
-#include <StdSchema_PDataXtd_PatternStd.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_PatternStd.hxx>
 #endif
 #ifndef _PDataXtd_PatternStd_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_PatternStd.hxx>
 #endif
 #ifndef _StdSchema_PNaming_NamedShape_HeaderFile
-#include <StdSchema_PNaming_NamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_NamedShape.hxx>
 #endif
 #ifndef _StdSchema_PNaming_NamedShape_HeaderFile
-#include <StdSchema_PNaming_NamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_NamedShape.hxx>
 #endif
 #ifndef _StdSchema_PDataStd_Real_HeaderFile
-#include <StdSchema_PDataStd_Real.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Real.hxx>
 #endif
 #ifndef _StdSchema_PDataStd_Real_HeaderFile
-#include <StdSchema_PDataStd_Real.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Real.hxx>
 #endif
 #ifndef _StdSchema_PDataStd_Integer_HeaderFile
-#include <StdSchema_PDataStd_Integer.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Integer.hxx>
 #endif
 #ifndef _StdSchema_PDataStd_Integer_HeaderFile
-#include <StdSchema_PDataStd_Integer.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Integer.hxx>
 #endif
 #ifndef _StdSchema_PNaming_NamedShape_HeaderFile
-#include <StdSchema_PNaming_NamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_NamedShape.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

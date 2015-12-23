@@ -1,5 +1,5 @@
 #ifndef _StdSchema_gp_Mat_HeaderFile
-#include <StdSchema_gp_Mat.hxx>
+#include <OCAF/StdSchema/StdSchema_gp_Mat.hxx>
 #endif
 #ifndef _gp_Mat_HeaderFile
 #include <Mathematics/Primitives/gp_Mat.hxx>

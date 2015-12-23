@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataXtd_Placement_HeaderFile
-#include <StdSchema_PDataXtd_Placement.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataXtd_Placement.hxx>
 #endif
 #ifndef _PDataXtd_Placement_HeaderFile
 #include <OCAF/PDataXtd/PDataXtd_Placement.hxx>

@@ -1,5 +1,5 @@
 #ifndef _StdSchema_PDataStd_Integer_HeaderFile
-#include <StdSchema_PDataStd_Integer.hxx>
+#include <OCAF/StdSchema/StdSchema_PDataStd_Integer.hxx>
 #endif
 #ifndef _PDataStd_Integer_HeaderFile
 #include <OCAF/PDataStd/PDataStd_Integer.hxx>

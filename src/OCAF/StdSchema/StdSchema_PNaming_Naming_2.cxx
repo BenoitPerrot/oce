@@ -1,11 +1,11 @@
 #ifndef _StdSchema_PNaming_Naming_2_HeaderFile
-#include <StdSchema_PNaming_Naming_2.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Naming_2.hxx>
 #endif
 #ifndef _PNaming_Naming_2_HeaderFile
 #include <OCAF/PNaming/PNaming_Naming_2.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Name_2_HeaderFile
-#include <StdSchema_PNaming_Name_2.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_Name_2.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

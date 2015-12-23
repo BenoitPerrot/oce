@@ -1,14 +1,14 @@
 #ifndef _StdSchema_PNaming_NamedShape_HeaderFile
-#include <StdSchema_PNaming_NamedShape.hxx>
+#include <OCAF/StdSchema/StdSchema_PNaming_NamedShape.hxx>
 #endif
 #ifndef _PNaming_NamedShape_HeaderFile
 #include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #endif
 #ifndef _StdSchema_PTopoDS_HArray1OfShape1_HeaderFile
-#include <StdSchema_PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopoDS_HArray1OfShape1.hxx>
 #endif
 #ifndef _StdSchema_PTopoDS_HArray1OfShape1_HeaderFile
-#include <StdSchema_PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/StdSchema/StdSchema_PTopoDS_HArray1OfShape1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>
