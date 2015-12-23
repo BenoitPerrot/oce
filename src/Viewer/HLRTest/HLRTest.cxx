@@ -27,7 +27,7 @@
 #include <DBRep.hxx>
 #include <HLRBRep_Algo.hxx>
 #include <HLRBRep_HLRToShape.hxx>
-#include <HLRAppli_ReflectLines.hxx>
+#include <ModelingAlgorithms/HLRAppli/HLRAppli_ReflectLines.hxx>
 
 static Handle(HLRBRep_Algo) hider;
 #ifdef WNT
