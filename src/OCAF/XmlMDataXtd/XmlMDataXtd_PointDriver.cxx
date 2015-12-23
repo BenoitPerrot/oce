@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDataXtd_PointDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_PointDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataXtd_PointDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -24,7 +24,7 @@
 #include <XmlMDF_ADriverTable.hxx>
 #include <XmlMDF.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
-#include <XmlMDataXtd.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd.hxx>
 #include <XmlMDocStd.hxx>
 #include <XmlMNaming.hxx>
 #include <XmlMPrsStd.hxx>

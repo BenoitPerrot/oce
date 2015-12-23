@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDataXtd_ConstraintDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_ConstraintDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataXtd_ConstraintDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

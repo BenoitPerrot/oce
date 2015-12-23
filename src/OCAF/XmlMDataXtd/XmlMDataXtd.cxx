@@ -17,16 +17,16 @@
 
 #include <XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMDataXtd.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd.hxx>
 
-#include <XmlMDataXtd_ShapeDriver.hxx>
-#include <XmlMDataXtd_PointDriver.hxx>
-#include <XmlMDataXtd_AxisDriver.hxx>
-#include <XmlMDataXtd_PlaneDriver.hxx>
-#include <XmlMDataXtd_GeometryDriver.hxx>
-#include <XmlMDataXtd_ConstraintDriver.hxx>
-#include <XmlMDataXtd_PlacementDriver.hxx>
-#include <XmlMDataXtd_PatternStdDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_ShapeDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_PointDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_AxisDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_PlaneDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_GeometryDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_ConstraintDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_PlacementDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_PatternStdDriver.hxx>
 
 static Standard_Integer myDocumentVersion = -1;
 //=======================================================================

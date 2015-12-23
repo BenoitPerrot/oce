@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDataXtd_PlaneDriver.hxx>
+#include <OCAF/XmlMDataXtd/XmlMDataXtd_PlaneDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataXtd_PlaneDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
