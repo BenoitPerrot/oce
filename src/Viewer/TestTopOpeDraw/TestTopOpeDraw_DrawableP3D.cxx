@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableP3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

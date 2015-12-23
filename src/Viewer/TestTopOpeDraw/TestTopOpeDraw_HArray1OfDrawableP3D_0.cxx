@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TestTopOpeDraw_DrawableP3D.hxx>
-#include <TestTopOpeDraw_Array1OfDrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableP3D.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_HArray1OfDrawableP3D)
 
 
 #define ItemHArray1 Handle(TestTopOpeDraw_DrawableP3D)
-#define ItemHArray1_hxx <TestTopOpeDraw_DrawableP3D.hxx>
+#define ItemHArray1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
 #define TheArray1 TestTopOpeDraw_Array1OfDrawableP3D
-#define TheArray1_hxx <TestTopOpeDraw_Array1OfDrawableP3D.hxx>
+#define TheArray1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableP3D.hxx>
 #define TCollection_HArray1 TestTopOpeDraw_HArray1OfDrawableP3D
-#define TCollection_HArray1_hxx <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
+#define TCollection_HArray1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #define Handle_TCollection_HArray1 Handle_TestTopOpeDraw_HArray1OfDrawableP3D
 #define TCollection_HArray1_Type_() TestTopOpeDraw_HArray1OfDrawableP3D_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

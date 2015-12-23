@@ -19,7 +19,7 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <TestTopOpeDraw_DrawableC2D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableC2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

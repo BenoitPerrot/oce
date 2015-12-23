@@ -26,8 +26,8 @@
 #ifdef DRAW
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
-#include <TestTopOpeDraw_DrawableSHA.hxx>
-#include <TestTopOpeDraw_TTOT.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSHA.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_TTOT.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 static TCollection_AsciiString PRODINS("dins ");

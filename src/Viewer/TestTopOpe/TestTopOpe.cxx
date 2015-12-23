@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #include <TestTopOpeTools.hxx>
-#include <TestTopOpeDraw.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe_HDSDisplayer.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
 #include <TopOpeBRepDS_DSX.hxx>

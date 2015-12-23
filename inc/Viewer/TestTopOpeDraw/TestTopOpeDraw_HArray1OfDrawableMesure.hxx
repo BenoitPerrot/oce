@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeDraw_HArray1OfDrawableMesure.hxx>
 
-#include <TestTopOpeDraw_Array1OfDrawableMesure.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableMesure.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TestTopOpeDraw_DrawableMesure.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(TestTopOpeDraw_DrawableMesure)
-#define ItemHArray1_hxx <TestTopOpeDraw_DrawableMesure.hxx>
+#define ItemHArray1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableMesure.hxx>
 #define TheArray1 TestTopOpeDraw_Array1OfDrawableMesure
-#define TheArray1_hxx <TestTopOpeDraw_Array1OfDrawableMesure.hxx>
+#define TheArray1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableMesure.hxx>
 #define TCollection_HArray1 TestTopOpeDraw_HArray1OfDrawableMesure
-#define TCollection_HArray1_hxx <TestTopOpeDraw_HArray1OfDrawableMesure.hxx>
+#define TCollection_HArray1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_HArray1OfDrawableMesure.hxx>
 #define Handle_TCollection_HArray1 Handle_TestTopOpeDraw_HArray1OfDrawableMesure
 #define TCollection_HArray1_Type_() TestTopOpeDraw_HArray1OfDrawableMesure_Type_()
 

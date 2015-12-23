@@ -15,7 +15,7 @@
 #include <Handle_TestTopOpeDraw_DrawableC3D.hxx>
 #include <Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TestTopOpeDraw_DrawableC3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC3D.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class TColgp_HArray1OfPnt;
 class TestTopOpeDraw_DrawableC3D;

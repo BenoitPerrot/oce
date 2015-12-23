@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <TestTopOpeDraw_DrawableSUR.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSUR.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSUR)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

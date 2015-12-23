@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeDraw.hxx>
-#include <TestTopOpeDraw_Displayer.hxx>
-#include <TestTopOpeDraw_TTOT.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Displayer.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_TTOT.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -244,7 +244,7 @@ Standard_IMPORT Draw_Color DBRep_ColorOrientation (const TopAbs_Orientation Or);
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
-#include <TestTopOpeDraw_ListOfPnt2d.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_ListOfPnt2d.hxx>
 
 class cvx2d {
   

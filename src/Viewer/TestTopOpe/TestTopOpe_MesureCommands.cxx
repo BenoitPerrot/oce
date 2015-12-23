@@ -21,12 +21,12 @@
 
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <TestTopOpeDraw_DrawableMesure.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableMesure.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 
 #include <TestTopOpeTools_Mesure.hxx>
 #include <TestTopOpeTools_HArray1OfMesure.hxx>
-#include <TestTopOpeDraw_Array1OfDrawableMesure.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableMesure.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
 

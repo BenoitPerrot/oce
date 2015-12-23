@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(TestTopOpeDraw_DrawableMesure)
-#define Array1Item_hxx <TestTopOpeDraw_DrawableMesure.hxx>
+#define Array1Item_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableMesure.hxx>
 #define TCollection_Array1 TestTopOpeDraw_Array1OfDrawableMesure
-#define TCollection_Array1_hxx <TestTopOpeDraw_Array1OfDrawableMesure.hxx>
+#define TCollection_Array1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableMesure.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

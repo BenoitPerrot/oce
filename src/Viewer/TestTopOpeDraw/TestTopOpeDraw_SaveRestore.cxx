@@ -17,9 +17,9 @@
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <TestTopOpeDraw_DrawableSHA.hxx>
-#include <TestTopOpeDraw_DrawableC3D.hxx>
-#include <TestTopOpeDraw_DrawableMesure.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSHA.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableMesure.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

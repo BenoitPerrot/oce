@@ -16,11 +16,11 @@
 
 #include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe_HDSDisplayer.hxx>
-#include <TestTopOpeDraw_DrawableSHA.hxx>
-#include <TestTopOpeDraw_DrawableP3D.hxx>
-#include <TestTopOpeDraw_DrawableC3D.hxx>
-#include <TestTopOpeDraw_TTOT.hxx>
-#include <TestTopOpeDraw_Displayer.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSHA.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_TTOT.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Displayer.hxx>
 #include <TopOpeBRepDS_connex.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS_Curve.hxx>

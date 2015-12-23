@@ -20,7 +20,7 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <TestTopOpeDraw_DrawableSHA.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSHA.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSHA)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableSHA)
 IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableSHA,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSHA)
-#include <TestTopOpeDraw_DrawableSUR.hxx>
-#include <TestTopOpeDraw_DrawableC3D.hxx>
-#include <TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSUR.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

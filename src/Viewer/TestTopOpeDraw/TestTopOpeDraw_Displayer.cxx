@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeDraw_Displayer.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Displayer.hxx>
 
-#include <TestTopOpeDraw_DrawableSHA.hxx>
-#include <TestTopOpeDraw_DrawableP3D.hxx>
-#include <TestTopOpeDraw_DrawableP2D.hxx>
-#include <TestTopOpeDraw_DrawableC3D.hxx>
-#include <TestTopOpeDraw_DrawableC2D.hxx>
-#include <TestTopOpeDraw_DrawableSUR.hxx>
-#include <TestTopOpeDraw_TTOT.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSHA.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP2D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC2D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSUR.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_TTOT.hxx>
 
 #include <Precision.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

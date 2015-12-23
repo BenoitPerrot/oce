@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <TestTopOpeDraw_DrawableC3D.hxx>
-#include <TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #include <TestTopOpeTools_Mesure.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <TestTopOpeDraw_DrawableMesure.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableMesure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableMesure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableMesure)
 IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableMesure,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableMesure)
-#include <TestTopOpeDraw_DrawableMesure.hxx>
-#include <TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableMesure.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
 #include <TestTopOpeTools_Mesure.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>

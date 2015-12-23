@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TestTopOpeDraw_Array1OfDrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableP3D.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
  
 
 #define Array1Item Handle(TestTopOpeDraw_DrawableP3D)
-#define Array1Item_hxx <TestTopOpeDraw_DrawableP3D.hxx>
+#define Array1Item_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
 #define TCollection_Array1 TestTopOpeDraw_Array1OfDrawableP3D
-#define TCollection_Array1_hxx <TestTopOpeDraw_Array1OfDrawableP3D.hxx>
+#define TCollection_Array1_hxx <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableP3D.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #ifdef DRAW
-#include <TestTopOpeDraw_TTOT.hxx>
+#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_TTOT.hxx>
 #include <TopOpeBRepTool_DRAW.hxx>
 #endif
 
