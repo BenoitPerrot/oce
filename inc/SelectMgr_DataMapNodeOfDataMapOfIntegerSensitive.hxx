@@ -55,7 +55,7 @@ private:
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(SelectBasics_SensitiveEntity)
-#define TheItem_hxx <SelectBasics_SensitiveEntity.hxx>
+#define TheItem_hxx <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive

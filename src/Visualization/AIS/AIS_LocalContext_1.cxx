@@ -102,7 +102,7 @@
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>
-#include <SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 

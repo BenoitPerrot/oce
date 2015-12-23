@@ -17,7 +17,7 @@
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Select3D_Projector.hxx>
 class SelectBasics_EntityOwner;

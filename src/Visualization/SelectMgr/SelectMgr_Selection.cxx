@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_Selection)

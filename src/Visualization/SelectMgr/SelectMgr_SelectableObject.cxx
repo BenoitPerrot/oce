@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectableObject)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 

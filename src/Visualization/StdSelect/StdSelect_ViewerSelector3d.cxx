@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(StdSelect_ViewerSelector3d)
 IMPLEMENT_DOWNCAST(StdSelect_ViewerSelector3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <StdSelect.hxx>
-#include <SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
-#include <SelectBasics_ListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
-#include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 

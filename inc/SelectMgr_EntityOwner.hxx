@@ -12,7 +12,7 @@
 
 #include <SelectMgr_SOPtr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>

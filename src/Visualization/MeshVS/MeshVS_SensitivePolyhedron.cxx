@@ -16,7 +16,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
@@ -25,7 +25,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <SelectBasics_ListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/MeshVS/MeshVS_SensitivePolyhedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitivePolyhedron)

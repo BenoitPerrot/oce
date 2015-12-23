@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 
-#include <SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveGroup.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <StdSelect_Prs.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <StdSelect_IndexedDataMapOfOwnerPrs.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs)
 
 
 #define TheKey Handle(SelectBasics_EntityOwner)
-#define TheKey_hxx <SelectBasics_EntityOwner.hxx>
+#define TheKey_hxx <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #define TheItem Handle(StdSelect_Prs)
 #define TheItem_hxx <StdSelect_Prs.hxx>
 #define Hasher TColStd_MapTransientHasher

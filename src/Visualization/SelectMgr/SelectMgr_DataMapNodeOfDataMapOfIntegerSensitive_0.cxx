@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <SelectMgr_DataMapOfIntegerSensitive.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive)
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(SelectBasics_SensitiveEntity)
-#define TheItem_hxx <SelectBasics_SensitiveEntity.hxx>
+#define TheItem_hxx <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive

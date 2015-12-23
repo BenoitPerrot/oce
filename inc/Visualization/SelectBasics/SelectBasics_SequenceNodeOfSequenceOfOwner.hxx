@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(SelectBasics_EntityOwner)
-#define SeqItem_hxx <SelectBasics_EntityOwner.hxx>
+#define SeqItem_hxx <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #define TCollection_SequenceNode SelectBasics_SequenceNodeOfSequenceOfOwner
-#define TCollection_SequenceNode_hxx <SelectBasics_SequenceNodeOfSequenceOfOwner.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/SelectBasics/SelectBasics_SequenceNodeOfSequenceOfOwner.hxx>
 #define Handle_TCollection_SequenceNode Handle_SelectBasics_SequenceNodeOfSequenceOfOwner
 #define TCollection_SequenceNode_Type_() SelectBasics_SequenceNodeOfSequenceOfOwner_Type_()
 #define TCollection_Sequence SelectBasics_SequenceOfOwner
-#define TCollection_Sequence_hxx <SelectBasics_SequenceOfOwner.hxx>
+#define TCollection_Sequence_hxx <Visualization/SelectBasics/SelectBasics_SequenceOfOwner.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

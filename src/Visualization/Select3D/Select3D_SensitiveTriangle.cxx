@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_DOWNCAST(Select3D_SensitiveTriangle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveTriangle)
 
 
-#include <SelectBasics_BasicTool.hxx>
+#include <Visualization/SelectBasics/SelectBasics_BasicTool.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

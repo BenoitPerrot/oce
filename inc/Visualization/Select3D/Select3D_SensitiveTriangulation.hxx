@@ -24,7 +24,7 @@
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_Projector.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
-#include <SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Poly_Triangulation;

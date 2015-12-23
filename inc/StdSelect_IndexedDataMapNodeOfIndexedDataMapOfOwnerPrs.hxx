@@ -60,7 +60,7 @@ private:
 };
 
 #define TheKey Handle(SelectBasics_EntityOwner)
-#define TheKey_hxx <SelectBasics_EntityOwner.hxx>
+#define TheKey_hxx <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #define TheItem Handle(StdSelect_Prs)
 #define TheItem_hxx <StdSelect_Prs.hxx>
 #define Hasher TColStd_MapTransientHasher

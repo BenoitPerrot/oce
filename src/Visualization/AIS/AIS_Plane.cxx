@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <StdPrs_ShadedShape.hxx>
 

@@ -27,7 +27,7 @@
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_DataMapOfIntegerSensitive.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <SelectMgr_ViewerSelector.hxx>
@@ -50,11 +50,11 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <SelectBasics_EntityOwner.hxx>
-#include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
-#include <SelectBasics_SensitiveEntity.hxx>
-#include <SelectBasics_ListOfBox2d.hxx>
-#include <SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 #include <SelectMgr_SortCriterion.hxx>

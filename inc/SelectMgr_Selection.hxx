@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 
-#include <SelectBasics_ListOfSensitive.hxx>
-#include <SelectBasics_ListIteratorOfListOfSensitive.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfSensitive.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfSensitive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_TypeOfUpdate.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

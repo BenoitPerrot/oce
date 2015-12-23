@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_Trihedron)
 IMPLEMENT_DOWNCAST(AIS_Trihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <Visualization/DsgPrs/DsgPrs_DatumPrs.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveFace.hxx>

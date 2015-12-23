@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

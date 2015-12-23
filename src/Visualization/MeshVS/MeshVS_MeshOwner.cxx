@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_MeshOwner)
 IMPLEMENT_DOWNCAST(MeshVS_MeshOwner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_MeshOwner)
 
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>

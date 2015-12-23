@@ -16,7 +16,7 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox2d.hxx>
-#include <SelectBasics_SortAlgo.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SortAlgo.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

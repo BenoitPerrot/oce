@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <SelectBasics_BasicTool.hxx>
+#include <Visualization/SelectBasics/SelectBasics_BasicTool.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 

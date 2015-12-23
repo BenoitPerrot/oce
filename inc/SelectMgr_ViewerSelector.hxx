@@ -14,13 +14,13 @@
 #include <SelectMgr_DataMapOfSelectionActivation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <SelectBasics_SortAlgo.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SortAlgo.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>

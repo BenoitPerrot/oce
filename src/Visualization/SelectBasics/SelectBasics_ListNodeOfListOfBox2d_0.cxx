@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectBasics_ListNodeOfListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListNodeOfListOfBox2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <SelectBasics_ListOfBox2d.hxx>
-#include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
 
  
 
@@ -31,12 +31,12 @@ IMPLEMENT_STANDARD_RTTI(SelectBasics_ListNodeOfListOfBox2d)
 #define Item Bnd_Box2d
 #define Item_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #define TCollection_ListNode SelectBasics_ListNodeOfListOfBox2d
-#define TCollection_ListNode_hxx <SelectBasics_ListNodeOfListOfBox2d.hxx>
+#define TCollection_ListNode_hxx <Visualization/SelectBasics/SelectBasics_ListNodeOfListOfBox2d.hxx>
 #define TCollection_ListIterator SelectBasics_ListIteratorOfListOfBox2d
-#define TCollection_ListIterator_hxx <SelectBasics_ListIteratorOfListOfBox2d.hxx>
+#define TCollection_ListIterator_hxx <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
 #define Handle_TCollection_ListNode Handle_SelectBasics_ListNodeOfListOfBox2d
 #define TCollection_ListNode_Type_() SelectBasics_ListNodeOfListOfBox2d_Type_()
 #define TCollection_List SelectBasics_ListOfBox2d
-#define TCollection_List_hxx <SelectBasics_ListOfBox2d.hxx>
+#define TCollection_List_hxx <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

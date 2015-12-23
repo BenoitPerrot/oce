@@ -17,8 +17,8 @@
 #include <Visualization/MeshVS/MeshVS_Drawer.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <SelectBasics_SensitiveEntity.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_PrsBuilder)

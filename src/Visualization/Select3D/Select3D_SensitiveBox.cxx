@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <SelectBasics_ListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

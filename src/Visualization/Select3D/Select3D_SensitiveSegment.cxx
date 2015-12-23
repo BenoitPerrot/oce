@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <SelectBasics_ListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveSegment)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveSegment,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveSegment)
-#include <SelectBasics_BasicTool.hxx>
+#include <Visualization/SelectBasics/SelectBasics_BasicTool.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveSegment)
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Precision.hxx>
-#include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
 
 #include <CSLib_Class2d.hxx>
 

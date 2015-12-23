@@ -8,14 +8,14 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_SortCriterion.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion.hxx>
  
 
 #define TheKey Handle(SelectBasics_EntityOwner)
-#define TheKey_hxx <SelectBasics_EntityOwner.hxx>
+#define TheKey_hxx <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #define TheItem SelectMgr_SortCriterion
 #define TheItem_hxx <SelectMgr_SortCriterion.hxx>
 #define Hasher TColStd_MapTransientHasher

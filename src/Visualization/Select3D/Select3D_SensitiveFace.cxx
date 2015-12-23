@@ -20,7 +20,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveFace)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveFace)
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <SelectBasics_BasicTool.hxx>
+#include <Visualization/SelectBasics/SelectBasics_BasicTool.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>

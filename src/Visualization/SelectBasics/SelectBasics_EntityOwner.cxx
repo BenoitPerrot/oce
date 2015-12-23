@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectBasics_EntityOwner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

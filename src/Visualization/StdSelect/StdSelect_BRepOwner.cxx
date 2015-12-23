@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StdSelect_BRepOwner)
 IMPLEMENT_DOWNCAST(StdSelect_BRepOwner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_BRepOwner)
-#include <SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 
 #include <StdPrs_WFShape.hxx>
 

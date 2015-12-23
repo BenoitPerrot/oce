@@ -70,7 +70,7 @@
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 
