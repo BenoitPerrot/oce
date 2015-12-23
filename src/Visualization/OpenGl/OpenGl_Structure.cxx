@@ -13,17 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_CappingAlgo.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_GlCore11.hxx>
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_StructureShadow.hxx>
-#include <OpenGl_telem_util.hxx>
-#include <OpenGl_Vec.hxx>
-#include <OpenGl_View.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_CappingAlgo.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_StructureShadow.hxx>
+#include <Visualization/OpenGl/OpenGl_telem_util.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane_Handle.hxx>
 

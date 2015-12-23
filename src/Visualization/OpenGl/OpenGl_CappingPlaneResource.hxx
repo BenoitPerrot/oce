@@ -16,9 +16,9 @@
 #ifndef _OpenGl_CappingPlaneResource_H__
 #define _OpenGl_CappingPlaneResource_H__
 
-#include <OpenGl_Resource.hxx>
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_Matrix.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_Matrix.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
 
 class Handle(OpenGl_Context);

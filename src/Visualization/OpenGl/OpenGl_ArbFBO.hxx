@@ -16,7 +16,7 @@
 #ifndef _OpenGl_ArbFBO_H__
 #define _OpenGl_ArbFBO_H__
 
-#include <OpenGl_GlFunctions.hxx>
+#include <Visualization/OpenGl/OpenGl_GlFunctions.hxx>
 
 //! FBO is available on OpenGL 2.0+ hardware
 struct OpenGl_ArbFBO : protected OpenGl_GlFunctions

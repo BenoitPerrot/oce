@@ -15,7 +15,7 @@
 #ifndef _OpenGl_VertexBufferCompat_HeaderFile
 #define _OpenGl_VertexBufferCompat_HeaderFile
 
-#include <OpenGl_VertexBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBuffer.hxx>
 
 //! Compatibility layer for old OpenGL without VBO.
 //! Make sure to pass pointer from GetDataOffset() instead of NULL.

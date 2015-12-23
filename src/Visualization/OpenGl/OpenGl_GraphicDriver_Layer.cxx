@@ -13,16 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 
 #include <Visualization/Font/Font_FontAspect.hxx>
 
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_Text.hxx>
-#include <OpenGl_TextParam.hxx>
-#include <OpenGl_LineAttributes.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_Text.hxx>
+#include <Visualization/OpenGl/OpenGl_TextParam.hxx>
+#include <Visualization/OpenGl/OpenGl_LineAttributes.hxx>
 
 /*----------------------------------------------------------------------*/
 

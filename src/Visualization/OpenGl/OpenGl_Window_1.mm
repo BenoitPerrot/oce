@@ -21,9 +21,9 @@
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
-#include <OpenGl_Window.hxx>
+#include <Visualization/OpenGl/OpenGl_Window.hxx>
 
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 #include <Visualization/Aspect/Aspect_GraphicDeviceDefinitionError.hxx>
 #include <Visualization/Cocoa/Cocoa_LocalPool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

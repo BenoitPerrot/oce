@@ -16,7 +16,7 @@
 #ifndef _OpenGl_ArbIns_H__
 #define _OpenGl_ArbIns_H__
 
-#include <OpenGl_GlFunctions.hxx>
+#include <Visualization/OpenGl/OpenGl_GlFunctions.hxx>
 
 //! Instancing is available on OpenGL 3.0+ hardware
 struct OpenGl_ArbIns : protected OpenGl_GlFunctions

@@ -24,7 +24,7 @@
 
 #include <Handle_OpenGl_ShaderProgram.hxx>
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
 class OpenGl_AspectLine : public OpenGl_Element
 {

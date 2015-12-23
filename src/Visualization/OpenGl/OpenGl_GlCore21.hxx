@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore21_Header
 #define _OpenGl_GlCore21_Header
 
-#include <OpenGl_GlCore20.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore20.hxx>
 
 //! OpenGL 2.1 core based on 2.0 version.
 template<typename theBaseClass_t>

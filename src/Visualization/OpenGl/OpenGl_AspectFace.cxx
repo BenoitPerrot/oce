@@ -16,12 +16,12 @@
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 #include <Foundation/NCollection/NCollection_Vec3.hxx>
 
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_Texture.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureMap.hxx>

@@ -13,7 +13,7 @@
 
 #include "VoxelClient_VisDrawer.h"
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 #include <ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -24,10 +24,10 @@
 #include <Visualization/Graphic3d/Graphic3d_CUserDraw.hxx>
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
-#include <OpenGl_Element.hxx>
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_NamedStatus.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_NamedStatus.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 /**************************************************************************/
 

@@ -16,9 +16,9 @@
 #ifndef _OpenGl_GraduatedTrihedron_Header
 #define _OpenGl_GraduatedTrihedron_Header
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
-#include <OpenGl_Text.hxx>
+#include <Visualization/OpenGl/OpenGl_Text.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CGraduatedTrihedron.hxx>
 
 class Visual3d_View;

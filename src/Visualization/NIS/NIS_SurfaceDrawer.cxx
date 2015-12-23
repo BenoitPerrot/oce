@@ -18,7 +18,7 @@
 #include <Visualization/NIS/NIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 static void setColor(GLenum               theFace,
                      Quantity_Parameter * theAmbient,

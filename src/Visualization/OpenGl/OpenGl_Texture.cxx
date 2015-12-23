@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
 
-#include <OpenGl_ArbFBO.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_GlCore15.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbFBO.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore15.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Visualization/Image/Image_PixMap.hxx>

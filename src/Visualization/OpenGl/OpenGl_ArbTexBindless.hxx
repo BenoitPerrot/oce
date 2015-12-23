@@ -16,7 +16,7 @@
 #ifndef _OpenGl_ArbTexBindless_H__
 #define _OpenGl_ArbTexBindless_H__
 
-#include <OpenGl_GlFunctions.hxx>
+#include <Visualization/OpenGl/OpenGl_GlFunctions.hxx>
 
 //! Provides bindless textures.
 //! This extension allows OpenGL applications to access texture objects in

@@ -21,8 +21,8 @@
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 
-#include <OpenGl_Vec.hxx>
-#include <OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
 
 typedef NCollection_Sequence<const OpenGl_Structure*> OpenGl_SequenceOfStructure;
 typedef NCollection_Array1<OpenGl_SequenceOfStructure> OpenGl_ArrayOfStructure;

@@ -21,10 +21,10 @@
 #include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <OpenGl_Context.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ArbTexBindless.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbTexBindless.hxx>
 
 #if defined(__BORLANDC__) || defined(__MINGW32__)
 #include <malloc.h>

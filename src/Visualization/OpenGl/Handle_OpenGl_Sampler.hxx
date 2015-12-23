@@ -16,7 +16,7 @@
 #ifndef _Handle_OpenGl_Sampler_HeaderFile
 #define _Handle_OpenGl_Sampler_HeaderFile
 
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 
 class OpenGl_Sampler;
 DEFINE_STANDARD_HANDLE(OpenGl_Sampler, OpenGl_Resource)

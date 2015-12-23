@@ -15,17 +15,17 @@
 
 #include <Foundation/NCollection/NCollection_Mat4.hxx>
 
-#include <OpenGl_Context.hxx>
-#include <OpenGl_GlCore11.hxx>
-#include <OpenGl_GraduatedTrihedron.hxx>
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_Texture.hxx>
-#include <OpenGl_Trihedron.hxx>
-#include <OpenGl_transform_persistence.hxx>
-#include <OpenGl_View.hxx>
-#include <OpenGl_Utils.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GraduatedTrihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_Trihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_transform_persistence.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_Utils.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Mat4d.hxx>

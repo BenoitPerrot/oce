@@ -13,17 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_AspectMarker.hxx>
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_telem_util.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectMarker.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_telem_util.hxx>
 
 /* OCC22218 NOTE: project dependency on gl2ps is specified by macro */
 #ifdef HAVE_GL2PS
@@ -31,7 +31,7 @@
 #endif
 
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
-#include <OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
 
 /*----------------------------------------------------------------------*/
 

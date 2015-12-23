@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_TextFormatter.hxx>
+#include <Visualization/OpenGl/OpenGl_TextFormatter.hxx>
 
-#include <OpenGl_VertexBufferCompat.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBufferCompat.hxx>
 
 #include <cmath>
 

@@ -19,8 +19,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-#include <OpenGl_GlCore11.hxx>
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 

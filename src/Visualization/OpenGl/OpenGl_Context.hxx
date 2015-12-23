@@ -29,15 +29,15 @@
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <OpenGl_Caps.hxx>
-#include <OpenGl_Vec.hxx>
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Caps.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_OpenGl_Context.hxx>
-#include <OpenGl_Clipping.hxx>
-#include <OpenGl_GlCore11.hxx>
-#include <OpenGl_Utils.hxx>
+#include <Visualization/OpenGl/OpenGl_Clipping.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_Utils.hxx>
 
 //! Forward declarations
 struct OpenGl_GlFunctions;

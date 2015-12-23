@@ -1,6 +1,6 @@
 #include "BridgeFBO.hxx"
 
-#include <OpenGl_ArbFBO.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbFBO.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 

@@ -14,7 +14,7 @@
 #include <QSignalMapper>
 
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 
 #include <stdlib.h>
 

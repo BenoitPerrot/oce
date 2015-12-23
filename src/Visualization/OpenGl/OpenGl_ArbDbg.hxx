@@ -16,7 +16,7 @@
 #ifndef _OpenGl_ArbDbg_H__
 #define _OpenGl_ArbDbg_H__
 
-#include <OpenGl_GlFunctions.hxx>
+#include <Visualization/OpenGl/OpenGl_GlFunctions.hxx>
 
 //! Debug context routines
 struct OpenGl_ArbDbg : protected OpenGl_GlFunctions

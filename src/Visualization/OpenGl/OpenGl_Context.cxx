@@ -17,17 +17,17 @@
   #include <windows.h>
 #endif
 
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 
-#include <OpenGl_ArbTBO.hxx>
-#include <OpenGl_ArbIns.hxx>
-#include <OpenGl_ArbDbg.hxx>
-#include <OpenGl_ArbFBO.hxx>
-#include <OpenGl_ExtGS.hxx>
-#include <OpenGl_ArbTexBindless.hxx>
-#include <OpenGl_GlCore20.hxx>
-#include <OpenGl_Sampler.hxx>
-#include <OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbTBO.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbIns.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbDbg.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbFBO.hxx>
+#include <Visualization/OpenGl/OpenGl_ExtGS.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbTexBindless.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore20.hxx>
+#include <Visualization/OpenGl/OpenGl_Sampler.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 

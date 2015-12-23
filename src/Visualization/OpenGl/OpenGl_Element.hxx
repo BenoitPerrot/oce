@@ -18,7 +18,7 @@
 
 #include <Handle_OpenGl_Context.hxx>
 #include <Handle_OpenGl_Workspace.hxx>
-#include <OpenGl_RenderFilter.hxx>
+#include <Visualization/OpenGl/OpenGl_RenderFilter.hxx>
 
 //! Base interface for drawable elements.
 class OpenGl_Element

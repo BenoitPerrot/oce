@@ -16,7 +16,7 @@
 #ifndef OpenGl_StructureShadow_Header
 #define OpenGl_StructureShadow_Header
 
-#include <OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
 
 //! Dummy structure which just redirects to groups of another structure.
 class OpenGl_StructureShadow : public OpenGl_Structure

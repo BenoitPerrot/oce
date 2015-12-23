@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore15_Header
 #define _OpenGl_GlCore15_Header
 
-#include <OpenGl_GlCore14.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore14.hxx>
 
 /**
  * OpenGL 1.5 core based on 1.4 version.

@@ -15,10 +15,10 @@
 #ifndef _OpenGl_VertexBuffer_H__
 #define _OpenGl_VertexBuffer_H__
 
-#include <OpenGl_GlCore20.hxx>
-#include <OpenGl_Resource.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore20.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_IndexBuffer.hxx>
 
@@ -333,6 +333,6 @@ public:
 
 DEFINE_STANDARD_HANDLE(OpenGl_VertexBuffer, OpenGl_Resource)
 
-#include <OpenGl_VertexBuffer.lxx>
+#include <Visualization/OpenGl/OpenGl_VertexBuffer.lxx>
 
 #endif // _OpenGl_VertexBuffer_H__

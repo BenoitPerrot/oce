@@ -21,11 +21,11 @@
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_AspectMarker.hxx>
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectMarker.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
 class OpenGl_Group;
 class OpenGl_Structure;

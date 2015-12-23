@@ -16,9 +16,9 @@
 #ifndef _OpenGl_Layer_Header
 #define _OpenGl_Layer_Header
 
-#include <OpenGl_PriorityList.hxx>
+#include <Visualization/OpenGl/OpenGl_PriorityList.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 class Handle(OpenGl_Workspace);
 

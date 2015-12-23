@@ -18,7 +18,7 @@
 
 #include <Visualization/Graphic3d/Graphic3d_Camera.hxx>
 
-#include <OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
 
 //! BVHTreeSelector class provides a possibility to store parameters of view volume,
 //! such as its vertices and equations, and contains methods detecting if given AABB overlaps

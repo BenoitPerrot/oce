@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_BVHTreeSelector.hxx>
-#include <OpenGl_BVHClipPrimitiveSet.hxx>
+#include <Visualization/OpenGl/OpenGl_BVHTreeSelector.hxx>
+#include <Visualization/OpenGl/OpenGl_BVHClipPrimitiveSet.hxx>
 
 #include <vector>
 #include <algorithm>

@@ -16,7 +16,7 @@
 #ifndef OpenGl_Cylinder_Header
 #define OpenGl_Cylinder_Header
 
-#include <OpenGl_Quadric.hxx>
+#include <Visualization/OpenGl/OpenGl_Quadric.hxx>
 
 //! Tool class for generating cylinder tessellation of quadric surface.
 class OpenGl_Cylinder : public OpenGl_Quadric

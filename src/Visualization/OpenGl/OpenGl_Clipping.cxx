@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Clipping.hxx>
-#include <OpenGl_GlCore11.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Clipping.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #if defined(GL_ES_VERSION_2_0)
   // id does not matter for GLSL-based clipping, just for consistency

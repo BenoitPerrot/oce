@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
-#include <OpenGl_LayerList.hxx>
-#include <OpenGl_Structure.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_LayerList.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>

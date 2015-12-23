@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore11Fwd_Header
 #define _OpenGl_GlCore11Fwd_Header
 
-#include <OpenGl_GlFunctions.hxx>
+#include <Visualization/OpenGl/OpenGl_GlFunctions.hxx>
 
 //! OpenGL 1.1 core without deprecated Fixed Pipeline entry points.
 //! Notice that all functions within this structure are actually exported by system GL library.

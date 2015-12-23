@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <OpenGl_Structure.hxx>
-#include <OpenGl_CView.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_CView.hxx>
 
 void OpenGl_GraphicDriver::DisplayStructure (const Graphic3d_CView& theCView,
                                              Graphic3d_CStructure&  theCStructure,

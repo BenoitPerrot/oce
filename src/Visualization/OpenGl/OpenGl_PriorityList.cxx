@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_PriorityList.hxx>
+#include <Visualization/OpenGl/OpenGl_PriorityList.hxx>
 
-#include <OpenGl_BVHTreeSelector.hxx>
-#include <OpenGl_Structure.hxx>
-#include <OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_BVHTreeSelector.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
 
 // =======================================================================
 // function : OpenGl_PriorityList

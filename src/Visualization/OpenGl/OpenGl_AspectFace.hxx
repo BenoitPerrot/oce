@@ -24,8 +24,8 @@
 #include <Handle_Graphic3d_TextureParams.hxx>
 #include <Handle_OpenGl_ShaderProgram.hxx>
 #include <Handle_OpenGl_Texture.hxx>
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CAspectFillArea.hxx>

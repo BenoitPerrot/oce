@@ -21,7 +21,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_B2f.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_View, V3d_View)
 IMPLEMENT_STANDARD_RTTIEXT (NIS_View, V3d_View)

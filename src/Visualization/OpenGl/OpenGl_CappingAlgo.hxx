@@ -16,8 +16,8 @@
 #ifndef _OpenGl_CappingAlgo_H__
 #define _OpenGl_CappingAlgo_H__
 
-#include <OpenGl_RenderFilter.hxx>
-#include <OpenGl_Group.hxx>
+#include <Visualization/OpenGl/OpenGl_RenderFilter.hxx>
+#include <Visualization/OpenGl/OpenGl_Group.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfGroup.hxx>
 

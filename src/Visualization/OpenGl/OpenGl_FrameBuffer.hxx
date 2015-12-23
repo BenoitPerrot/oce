@@ -15,9 +15,9 @@
 #ifndef OPENGL_FRAME_BUFFER_H
 #define OPENGL_FRAME_BUFFER_H
 
-#include <OpenGl_Context.hxx>
-#include <OpenGl_Resource.hxx>
-#include <OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>

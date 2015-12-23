@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_CappingAlgo.hxx>
-#include <OpenGl_Workspace.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_PrimitiveArray.hxx>
-#include <OpenGl_CappingPlaneResource.hxx>
-#include <OpenGl_Vec.hxx>
-#include <OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_CappingAlgo.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_PrimitiveArray.hxx>
+#include <Visualization/OpenGl/OpenGl_CappingPlaneResource.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(OpenGl_CappingAlgoFilter, OpenGl_RenderFilter)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_CappingAlgoFilter, OpenGl_RenderFilter)

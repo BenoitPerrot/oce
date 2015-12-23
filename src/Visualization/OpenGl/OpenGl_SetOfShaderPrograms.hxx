@@ -17,7 +17,7 @@
 #define _OpenGl_SetOfShaderPrograms_HeaderFile
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
 
 //! Standard GLSL program combination bits.
 enum OpenGl_ProgramOptions

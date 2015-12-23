@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore14_Header
 #define _OpenGl_GlCore14_Header
 
-#include <OpenGl_GlCore13.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore13.hxx>
 
 //! OpenGL 1.4 core based on 1.3 version.
 template<typename theBaseClass_t>

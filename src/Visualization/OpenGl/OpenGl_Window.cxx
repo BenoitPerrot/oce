@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore12.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore12.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
-#include <OpenGl_Context.hxx>
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_Window.hxx>
-#include <OpenGl_Utils.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_Window.hxx>
+#include <Visualization/OpenGl/OpenGl_Utils.hxx>
 
 #include <Visualization/Aspect/Aspect_GraphicDeviceDefinitionError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

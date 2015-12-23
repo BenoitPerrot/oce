@@ -16,7 +16,7 @@
 #ifndef OpenGl_Disk_Header
 #define OpenGl_Disk_Header
 
-#include <OpenGl_Quadric.hxx>
+#include <Visualization/OpenGl/OpenGl_Quadric.hxx>
 
 //! Tool class for generating disk (circle) tessellation.
 class OpenGl_Disk : public OpenGl_Quadric

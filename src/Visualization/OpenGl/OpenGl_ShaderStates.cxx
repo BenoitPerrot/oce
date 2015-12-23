@@ -15,7 +15,7 @@
 
 #include <Foundation/NCollection/NCollection_Mat4.hxx>
 
-#include <OpenGl_ShaderStates.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderStates.hxx>
 
 // =======================================================================
 // function : OpenGl_StateInterface

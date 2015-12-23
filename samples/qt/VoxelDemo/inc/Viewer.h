@@ -8,9 +8,9 @@
 #include <QWidget.h>
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 #include <V3d_View.hxx>
-#include <OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
 
 #include <Voxel_Prs.hxx>
 #include <Voxel_Selector.hxx>

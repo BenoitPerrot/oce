@@ -18,8 +18,8 @@
 
 #include <Handle_OpenGl_ShaderObject.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ShaderObject.hxx>
-#include <OpenGl_GlCore20.hxx>
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore20.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 
 //! Wrapper for OpenGL shader object.
 class OpenGl_ShaderObject : public OpenGl_Resource

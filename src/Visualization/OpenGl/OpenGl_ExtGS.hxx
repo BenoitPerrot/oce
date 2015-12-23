@@ -16,7 +16,7 @@
 #ifndef _OpenGl_ExtGS_H__
 #define _OpenGl_ExtGS_H__
 
-#include <OpenGl_GlFunctions.hxx>
+#include <Visualization/OpenGl/OpenGl_GlFunctions.hxx>
 
 //! Geometry shader as extension is available on OpenGL 2.0+
 struct OpenGl_ExtGS : protected OpenGl_GlFunctions

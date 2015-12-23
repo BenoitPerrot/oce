@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore30_Header
 #define _OpenGl_GlCore30_Header
 
-#include <OpenGl_GlCore21.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore21.hxx>
 
 //! OpenGL 3.0 core.
 //! This is first version with deprecation model introduced

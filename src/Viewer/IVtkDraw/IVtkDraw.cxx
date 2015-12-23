@@ -69,7 +69,7 @@
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 
 #include <Visualization/IVtk/IVtk_Types.hxx>

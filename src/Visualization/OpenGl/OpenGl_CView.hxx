@@ -18,8 +18,8 @@
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 
-#include <OpenGl_Workspace.hxx>
-#include <OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
 
 struct OpenGl_CView
 {

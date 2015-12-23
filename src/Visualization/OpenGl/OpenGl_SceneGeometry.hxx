@@ -19,8 +19,8 @@
 #include <Mathematics/BoundingVolumes/BVH_Geometry.hxx>
 #include <Mathematics/BoundingVolumes/BVH_Triangulation.hxx>
 #include <Foundation/NCollection/NCollection_StdAllocator.hxx>
-#include <OpenGl_TextureBufferArb.hxx>
-#include <OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_TextureBufferArb.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
 
 class  OpenGl_Element;
 struct OpenGl_ElementNode;

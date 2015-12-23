@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore42_Header
 #define _OpenGl_GlCore42_Header
 
-#include <OpenGl_GlCore41.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore41.hxx>
 
 //! OpenGL 4.2 definition.
 template<typename theBaseClass_t>

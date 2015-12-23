@@ -16,7 +16,7 @@
 #include <Visualization/NIS/NIS_Drawer.hxx>
 #include <Visualization/NIS/NIS_View.hxx>
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 //=======================================================================
 //function : NIS_DrawList()

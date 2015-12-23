@@ -16,7 +16,7 @@
 #ifndef OpenGl_StencilTest_Header
 #define OpenGl_StencilTest_Header
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
 class OpenGl_StencilTest : public OpenGl_Element
 {

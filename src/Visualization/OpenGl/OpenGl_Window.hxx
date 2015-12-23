@@ -16,9 +16,9 @@
 #ifndef _OpenGl_Window_Header
 #define _OpenGl_Window_Header
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Aspect.hxx>
-#include <OpenGl_Caps.hxx>
+#include <Visualization/OpenGl/OpenGl_Caps.hxx>
 
 #include <Handle_OpenGl_Context.hxx>
 #include <Handle_OpenGl_Window.hxx>

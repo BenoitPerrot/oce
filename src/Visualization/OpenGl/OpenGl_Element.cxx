@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
 // =======================================================================
 // function : OpenGl_Element

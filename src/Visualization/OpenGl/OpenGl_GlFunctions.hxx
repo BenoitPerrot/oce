@@ -158,7 +158,7 @@
   #undef GL_VERSION_4_4
   #undef GL_VERSION_4_5
 
-  #include <OpenGl_glext.h>
+  #include <Visualization/OpenGl/OpenGl_glext.h>
 #endif
 
 //! Mega structure defines the complete list of OpenGL functions.

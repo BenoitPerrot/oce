@@ -22,7 +22,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
-#include <OpenGl_Matrix.hxx>
+#include <Visualization/OpenGl/OpenGl_Matrix.hxx>
 #include <Handle_OpenGl_Workspace.hxx>
 
 //! This class contains logics related to tracking and modification of clipping plane

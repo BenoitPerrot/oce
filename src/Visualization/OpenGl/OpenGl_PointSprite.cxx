@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_PointSprite.hxx>
+#include <Visualization/OpenGl/OpenGl_PointSprite.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Visualization/Image/Image_PixMap.hxx>
 

@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Caps.hxx>
+#include <Visualization/OpenGl/OpenGl_Caps.hxx>
 
-#include <OpenGl_GlCore20.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore20.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_Caps, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_Caps, Standard_Transient)

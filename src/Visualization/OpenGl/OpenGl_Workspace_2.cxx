@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
-#include <OpenGl_FrameBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_FrameBuffer.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <OpenGl_telem_util.hxx>
+#include <Visualization/OpenGl/OpenGl_telem_util.hxx>
 
 #if (defined(_WIN32) || defined(__WIN32__)) && defined(HAVE_FREEIMAGE)
   #include <Foundation/NCollection/NCollection_Handle.hxx>
@@ -25,9 +25,9 @@
   typedef NCollection_Handle<fipImage> FipHandle;
 #endif
 
-#include <OpenGl_PrinterContext.hxx>
-#include <OpenGl_Workspace.hxx>
-#include <OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_PrinterContext.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
 
 #ifdef _WIN32
 

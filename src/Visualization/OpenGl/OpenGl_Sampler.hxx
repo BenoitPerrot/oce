@@ -16,7 +16,7 @@
 #ifndef OPENGL_SAMPLER_H
 #define OPENGL_SAMPLER_H
 
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 #include <Handle_OpenGl_Sampler.hxx>
 
 //! Class implements OpenGL sampler object resource that

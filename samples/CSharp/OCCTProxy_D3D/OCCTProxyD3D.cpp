@@ -9,8 +9,8 @@
 #include <Visualization/Graphic3d/Graphic3d_CView.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Camera.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_CView.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_CView.hxx>
 //for object display
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>

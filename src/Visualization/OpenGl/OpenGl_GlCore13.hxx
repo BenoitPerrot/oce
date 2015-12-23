@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore13_Header
 #define _OpenGl_GlCore13_Header
 
-#include <OpenGl_GlCore12.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore12.hxx>
 
 //! OpenGL 1.3 without deprecated entry points.
 struct OpenGl_GlCore13Fwd : public OpenGl_GlCore12Fwd

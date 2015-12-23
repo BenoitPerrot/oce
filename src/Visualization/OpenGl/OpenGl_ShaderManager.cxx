@@ -15,15 +15,15 @@
 
 #include <typeinfo>
 
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_AspectMarker.hxx>
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_Clipping.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectMarker.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_Clipping.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_SetOfShaderPrograms, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_SetOfShaderPrograms, Standard_Transient)

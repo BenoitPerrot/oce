@@ -20,7 +20,7 @@
 #include <set>
 
 #include <Handle_OpenGl_Workspace.hxx>
-#include <OpenGl_Window.hxx>
+#include <Visualization/OpenGl/OpenGl_Window.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -41,23 +41,23 @@
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_FrameBuffer.hxx>
-#include <OpenGl_Matrix.hxx>
-#include <OpenGl_NamedStatus.hxx>
-#include <OpenGl_PrinterContext.hxx>
-#include <OpenGl_SceneGeometry.hxx>
-#include <OpenGl_TextParam.hxx>
-#include <OpenGl_RenderFilter.hxx>
-#include <OpenGl_Vec.hxx>
-#include <OpenGl_LineAttributes.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_FrameBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_Matrix.hxx>
+#include <Visualization/OpenGl/OpenGl_NamedStatus.hxx>
+#include <Visualization/OpenGl/OpenGl_PrinterContext.hxx>
+#include <Visualization/OpenGl/OpenGl_SceneGeometry.hxx>
+#include <Visualization/OpenGl/OpenGl_TextParam.hxx>
+#include <Visualization/OpenGl/OpenGl_RenderFilter.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_LineAttributes.hxx>
 
 #include <Handle_OpenGl_View.hxx>
 #include <Handle_OpenGl_Texture.hxx>
 
-#include <OpenGl_ShaderObject.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_TextureBufferArb.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderObject.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_TextureBufferArb.hxx>
 
 class OpenGl_AspectLine;
 class OpenGl_AspectMarker;

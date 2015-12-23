@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore43_Header
 #define _OpenGl_GlCore43_Header
 
-#include <OpenGl_GlCore42.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore42.hxx>
 
 //! OpenGL 4.3 definition.
 template<typename theBaseClass_t>

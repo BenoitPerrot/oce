@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 
-#include <OpenGl_Group.hxx>
-#include <OpenGl_PrimitiveArray.hxx>
+#include <Visualization/OpenGl/OpenGl_Group.hxx>
+#include <Visualization/OpenGl/OpenGl_PrimitiveArray.hxx>
 
-#include <OpenGl_CView.hxx>
+#include <Visualization/OpenGl/OpenGl_CView.hxx>
 
 void OpenGl_GraphicDriver::SetDepthTestEnabled( const Graphic3d_CView& ACView, const Standard_Boolean isEnabled ) const
 {

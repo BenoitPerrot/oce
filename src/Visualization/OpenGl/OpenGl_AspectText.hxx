@@ -24,7 +24,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 #include <Handle_OpenGl_ShaderProgram.hxx>
 
 //! Text representation parameters

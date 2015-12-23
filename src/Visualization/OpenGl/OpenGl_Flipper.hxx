@@ -14,8 +14,8 @@
 #ifndef OpenGl_Flipper_Header
 #define OpenGl_Flipper_Header
 
-#include <OpenGl_Element.hxx>
-#include <OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
 #include <Handle_OpenGl_Workspace.hxx>
 
 class gp_Ax2;

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore20.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore20.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
@@ -53,7 +53,7 @@
 #include <Draw_Appli.hxx>
 #include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
 #include <Visualization/Image/Image_AlienPixMap.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

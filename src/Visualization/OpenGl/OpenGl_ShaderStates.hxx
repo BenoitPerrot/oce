@@ -18,9 +18,9 @@
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_tgl_all.hxx>
 
-#include <OpenGl_Element.hxx>
-#include <OpenGl_Light.hxx>
-#include <OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Light.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
 
 #include <Foundation/NCollection/NCollection_List.hxx>
 

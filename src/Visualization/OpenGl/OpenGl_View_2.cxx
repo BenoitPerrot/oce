@@ -16,25 +16,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <OpenGl_GlCore11.hxx>
-#include <OpenGl_tgl_funcs.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_tgl_funcs.hxx>
 
 #include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Visual3d_Layer.hxx>
 
 #include <Foundation/NCollection/NCollection_Mat4.hxx>
 
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_Matrix.hxx>
-#include <OpenGl_Workspace.hxx>
-#include <OpenGl_View.hxx>
-#include <OpenGl_Trihedron.hxx>
-#include <OpenGl_GraduatedTrihedron.hxx>
-#include <OpenGl_PrinterContext.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Matrix.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_Trihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_GraduatedTrihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_PrinterContext.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
 
 #define EPSI 0.0001
 

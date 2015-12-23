@@ -4,7 +4,7 @@
 //for OCC graphic
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <WNT_Window.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 //for object display
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>

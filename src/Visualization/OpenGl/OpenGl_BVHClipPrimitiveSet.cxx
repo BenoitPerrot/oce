@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_BVHClipPrimitiveSet.hxx>
+#include <Visualization/OpenGl/OpenGl_BVHClipPrimitiveSet.hxx>
 
 #include <Mathematics/BoundingVolumes/BVH_BinnedBuilder.hxx>
 

@@ -16,7 +16,7 @@
 #ifndef OpenGl_Quadric_Header
 #define OpenGl_Quadric_Header
 
-#include <OpenGl_PrimitiveArray.hxx>
+#include <Visualization/OpenGl/OpenGl_PrimitiveArray.hxx>
 
 //! Class for rendering of arbitrary primitive array.
 //! Tool class for generating tessellation of quadric surface.

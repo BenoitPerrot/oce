@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore12_Header
 #define _OpenGl_GlCore12_Header
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 //! OpenGL 1.2 core based on 1.1 version.
 template<typename theBaseClass_t>

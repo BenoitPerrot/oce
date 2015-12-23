@@ -16,7 +16,7 @@
 #ifndef _Handle_OpenGl_ShaderProgram_Header
 #define _Handle_OpenGl_ShaderProgram_Header
 
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 
 class OpenGl_ShaderProgram;
 DEFINE_STANDARD_HANDLE(OpenGl_ShaderProgram, OpenGl_Resource)

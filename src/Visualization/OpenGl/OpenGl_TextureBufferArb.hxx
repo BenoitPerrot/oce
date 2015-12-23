@@ -15,8 +15,8 @@
 #ifndef _OpenGl_TextureBufferArb_H__
 #define _OpenGl_TextureBufferArb_H__
 
-#include <OpenGl_VertexBuffer.hxx>
-#include <OpenGl_ArbTBO.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbTBO.hxx>
 
 //! Texture Buffer Object.
 //! This is a special 1D texture that VBO-style initialized.

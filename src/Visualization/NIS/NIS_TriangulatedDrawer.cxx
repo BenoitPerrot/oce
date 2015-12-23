@@ -18,7 +18,7 @@
 #include <Visualization/NIS/NIS_Triangulated.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 // Comment this line if you see no hilighting of triangulations due to negative
 // polygon offsets. Disabling this macro means that all offsets will be created

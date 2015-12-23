@@ -14,7 +14,7 @@
 #ifndef _Handle_OpenGl_Texture_Header
 #define _Handle_OpenGl_Texture_Header
 
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 
 class OpenGl_Texture;
 DEFINE_STANDARD_HANDLE(OpenGl_Texture, OpenGl_Resource)

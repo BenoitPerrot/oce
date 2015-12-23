@@ -16,7 +16,7 @@
 #ifndef OpenGl_Sphere_Header
 #define OpenGl_Sphere_Header
 
-#include <OpenGl_Quadric.hxx>
+#include <Visualization/OpenGl/OpenGl_Quadric.hxx>
 
 //! Tool class for generating sphere tessellation.
 class OpenGl_Sphere : public OpenGl_Quadric

@@ -16,8 +16,8 @@
 #ifndef _OpenGl_Font_H__
 #define _OpenGl_Font_H__
 
-#include <OpenGl_Texture.hxx>
-#include <OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
 
 #include <Visualization/Font/Font_FTFont.hxx>
 

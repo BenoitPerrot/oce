@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_RenderFilter.hxx>
+#include <Visualization/OpenGl/OpenGl_RenderFilter.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(OpenGl_RenderFilter, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_RenderFilter, Standard_Transient)

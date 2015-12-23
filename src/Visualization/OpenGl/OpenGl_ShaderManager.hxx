@@ -22,13 +22,13 @@
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 #include <Handle_OpenGl_ShaderManager.hxx>
-#include <OpenGl_SetOfShaderPrograms.hxx>
-#include <OpenGl_ShaderStates.hxx>
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_AspectMarker.hxx>
-#include <OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_SetOfShaderPrograms.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderStates.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectMarker.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
 #include <Visual3d_TypeOfModel.hxx>
 
 class OpenGl_View;

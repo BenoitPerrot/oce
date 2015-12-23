@@ -14,7 +14,7 @@
 #ifndef ANDROIDQT_H
 #define ANDROIDQT_H
 
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 
 // workaround broken definitions in Qt
 #define GLdouble GLdouble

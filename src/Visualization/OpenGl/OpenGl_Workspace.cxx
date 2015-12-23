@@ -13,28 +13,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore15.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore15.hxx>
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_AspectMarker.hxx>
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_Element.hxx>
-#include <OpenGl_FrameBuffer.hxx>
-#include <OpenGl_Structure.hxx>
-#include <OpenGl_Sampler.hxx>
-#include <OpenGl_Texture.hxx>
-#include <OpenGl_Utils.hxx>
-#include <OpenGl_View.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectMarker.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_FrameBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_Sampler.hxx>
+#include <Visualization/OpenGl/OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/OpenGl_Utils.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 
 #if defined(_WIN32) && defined(HAVE_VIDEOCAPTURE)
-  #include <OpenGl_AVIWriter.hxx>
+  #include <Visualization/OpenGl/OpenGl_AVIWriter.hxx>
 #endif
 
 IMPLEMENT_STANDARD_HANDLE(OpenGl_Workspace,OpenGl_Window)

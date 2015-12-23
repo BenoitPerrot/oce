@@ -15,8 +15,8 @@
 #ifndef _OpenGl_Texture_H__
 #define _OpenGl_Texture_H__
 
-#include <OpenGl_GlCore13.hxx>
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore13.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 #include <Handle_OpenGl_Texture.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTexture.hxx>
 #include <Handle_Graphic3d_TextureParams.hxx>

@@ -16,7 +16,7 @@
 #ifndef _OpenGl_LineAttributes_Header
 #define _OpenGl_LineAttributes_Header
 
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>

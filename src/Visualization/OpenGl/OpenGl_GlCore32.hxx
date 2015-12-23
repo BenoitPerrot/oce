@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore32_Header
 #define _OpenGl_GlCore32_Header
 
-#include <OpenGl_GlCore31.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore31.hxx>
 
 //! OpenGL 3.2 definition.
 template<typename theBaseClass_t>

@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Trihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_Trihedron.hxx>
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
-#include <OpenGl_View.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 static const OpenGl_TextParam THE_LABEL_PARAMS =
 {

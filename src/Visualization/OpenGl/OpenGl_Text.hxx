@@ -16,11 +16,11 @@
 #ifndef OpenGl_Text_Header
 #define OpenGl_Text_Header
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_TextParam.hxx>
-#include <OpenGl_TextFormatter.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_TextParam.hxx>
+#include <Visualization/OpenGl/OpenGl_TextFormatter.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>

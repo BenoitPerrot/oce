@@ -1,8 +1,8 @@
 #ifndef BRIDGE_FBO_HEADER
 #define BRIDGE_FBO_HEADER
 
-#include <OpenGl_GlCore20.hxx>
-#include <OpenGl_FrameBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore20.hxx>
+#include <Visualization/OpenGl/OpenGl_FrameBuffer.hxx>
 
 //! Implements bridge FBO for direct rendering to Direct3D surfaces.
 class BridgeFBO : public OpenGl_FrameBuffer

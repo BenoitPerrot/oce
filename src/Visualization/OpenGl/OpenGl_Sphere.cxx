@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Sphere.hxx>
+#include <Visualization/OpenGl/OpenGl_Sphere.hxx>
 
 // =======================================================================
 // function : OpenGl_Sphere

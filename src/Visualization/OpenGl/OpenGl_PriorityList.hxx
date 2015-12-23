@@ -22,8 +22,8 @@
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 
 #include <Handle_OpenGl_Workspace.hxx>
-#include <OpenGl_BVHClipPrimitiveSet.hxx>
-#include <OpenGl_BVHTreeSelector.hxx>
+#include <Visualization/OpenGl/OpenGl_BVHClipPrimitiveSet.hxx>
+#include <Visualization/OpenGl/OpenGl_BVHTreeSelector.hxx>
 
 class OpenGl_Structure;
 

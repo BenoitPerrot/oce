@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Font.hxx>
+#include <Visualization/OpenGl/OpenGl_Font.hxx>
 
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 

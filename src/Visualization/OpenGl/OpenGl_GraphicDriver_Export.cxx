@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_CView.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_CView.hxx>
 
 #include <Foundation/Standard/Standard_CLocaleSentry.hxx>
 

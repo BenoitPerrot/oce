@@ -38,10 +38,10 @@
 #include <Visual3d_TypeOfSurfaceDetail.hxx>
 #include <Visual3d_TypeOfModel.hxx>
 
-#include <OpenGl_BVHTreeSelector.hxx>
-#include <OpenGl_LayerList.hxx>
-#include <OpenGl_Light.hxx>
-#include <OpenGl_LineAttributes.hxx>
+#include <Visualization/OpenGl/OpenGl_BVHTreeSelector.hxx>
+#include <Visualization/OpenGl/OpenGl_LayerList.hxx>
+#include <Visualization/OpenGl/OpenGl_Light.hxx>
+#include <Visualization/OpenGl/OpenGl_LineAttributes.hxx>
 
 #include <Handle_OpenGl_Context.hxx>
 #include <Handle_OpenGl_GraphicDriver.hxx>

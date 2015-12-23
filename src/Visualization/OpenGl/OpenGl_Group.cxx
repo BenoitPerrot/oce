@@ -13,15 +13,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Group.hxx>
+#include <Visualization/OpenGl/OpenGl_Group.hxx>
 
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_Flipper.hxx>
-#include <OpenGl_PrimitiveArray.hxx>
-#include <OpenGl_StencilTest.hxx>
-#include <OpenGl_Structure.hxx>
-#include <OpenGl_Text.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_Flipper.hxx>
+#include <Visualization/OpenGl/OpenGl_PrimitiveArray.hxx>
+#include <Visualization/OpenGl/OpenGl_StencilTest.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_Text.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CUserDraw.hxx>

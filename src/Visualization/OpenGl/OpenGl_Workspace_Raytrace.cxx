@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
-#include <OpenGl_FrameBuffer.hxx>
-#include <OpenGl_PrimitiveArray.hxx>
-#include <OpenGl_VertexBuffer.hxx>
-#include <OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_FrameBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_PrimitiveArray.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 

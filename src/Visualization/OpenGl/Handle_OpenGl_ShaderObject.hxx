@@ -16,7 +16,7 @@
 #ifndef _Handle_OpenGl_ShaderObject_Header
 #define _Handle_OpenGl_ShaderObject_Header
 
-#include <OpenGl_Resource.hxx>
+#include <Visualization/OpenGl/OpenGl_Resource.hxx>
 
 class OpenGl_ShaderObject;
 DEFINE_STANDARD_HANDLE(OpenGl_ShaderObject, OpenGl_Resource)

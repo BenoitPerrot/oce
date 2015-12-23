@@ -12,9 +12,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_TextureBufferArb.hxx>
+#include <Visualization/OpenGl/OpenGl_TextureBufferArb.hxx>
 
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_TextureBufferArb, OpenGl_VertexBuffer)

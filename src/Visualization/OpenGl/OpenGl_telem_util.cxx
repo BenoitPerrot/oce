@@ -64,9 +64,9 @@ when a face has confused or aligned points.
 
 #include <stdio.h>
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
-#include <OpenGl_telem_util.hxx>
+#include <Visualization/OpenGl/OpenGl_telem_util.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 

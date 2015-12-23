@@ -19,7 +19,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Foundation/Standard/Standard_Version.hxx>

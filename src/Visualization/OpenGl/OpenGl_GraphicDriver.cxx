@@ -13,17 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_Flipper.hxx>
-#include <OpenGl_GraduatedTrihedron.hxx>
-#include <OpenGl_Group.hxx>
-#include <OpenGl_CView.hxx>
-#include <OpenGl_View.hxx>
-#include <OpenGl_StencilTest.hxx>
-#include <OpenGl_Text.hxx>
-#include <OpenGl_Trihedron.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Flipper.hxx>
+#include <Visualization/OpenGl/OpenGl_GraduatedTrihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_Group.hxx>
+#include <Visualization/OpenGl/OpenGl_CView.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_StencilTest.hxx>
+#include <Visualization/OpenGl/OpenGl_Text.hxx>
+#include <Visualization/OpenGl/OpenGl_Trihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Aspect/Aspect_GraphicDeviceDefinitionError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

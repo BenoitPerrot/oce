@@ -15,8 +15,8 @@
 #ifndef _OpenGl_VertexBufferEditor_H__
 #define _OpenGl_VertexBufferEditor_H__
 
-#include <OpenGl_VertexBuffer.hxx>
-#include <OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
 
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 

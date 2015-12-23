@@ -15,7 +15,7 @@
 #ifndef _OpenGl_IndexBuffer_H__
 #define _OpenGl_IndexBuffer_H__
 
-#include <OpenGl_VertexBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBuffer.hxx>
 
 //! Index buffer is just a VBO with special target (GL_ELEMENT_ARRAY_BUFFER).
 class OpenGl_IndexBuffer : public OpenGl_VertexBuffer

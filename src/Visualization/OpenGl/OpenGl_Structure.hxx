@@ -19,16 +19,16 @@
 #include <Visualization/Graphic3d/Graphic3d_CStructure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_AspectMarker.hxx>
-#include <OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectMarker.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
 
-#include <OpenGl_Group.hxx>
-#include <OpenGl_Matrix.hxx>
-#include <OpenGl_NamedStatus.hxx>
-#include <OpenGl_Vec.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Group.hxx>
+#include <Visualization/OpenGl/OpenGl_Matrix.hxx>
+#include <Visualization/OpenGl/OpenGl_NamedStatus.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>

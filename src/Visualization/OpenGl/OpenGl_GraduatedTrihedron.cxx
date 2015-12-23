@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Aspect.hxx>
@@ -23,11 +23,11 @@
   #include <string.h>
 #endif
 
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_GraduatedTrihedron.hxx>
-#include <OpenGl_Utils.hxx>
-#include <OpenGl_Workspace.hxx>
-#include <OpenGl_View.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_GraduatedTrihedron.hxx>
+#include <Visualization/OpenGl/OpenGl_Utils.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_View.hxx>
 
 const OpenGl_AspectLine myDefaultAspectLine;
 

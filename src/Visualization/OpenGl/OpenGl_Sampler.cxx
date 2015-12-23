@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Sampler.hxx>
-#include <OpenGl_GlCore33.hxx>
+#include <Visualization/OpenGl/OpenGl_Sampler.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore33.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_Sampler, OpenGl_Resource)

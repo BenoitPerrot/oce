@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Flipper.hxx>
+#include <Visualization/OpenGl/OpenGl_Flipper.hxx>
 
-#include <OpenGl_Context.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_Vec.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 

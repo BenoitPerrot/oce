@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore11_Header
 #define _OpenGl_GlCore11_Header
 
-#include <OpenGl_GlCore11Fwd.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11Fwd.hxx>
 
 //! OpenGL 1.1 core.
 //! Notice that all functions within this structure are actually exported by system GL library.

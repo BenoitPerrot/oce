@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_AVIWriter.hxx>
+#include <Visualization/OpenGl/OpenGl_AVIWriter.hxx>
 
 #if (defined(_WIN32) || defined(__WIN32__)) && defined(HAVE_VIDEOCAPTURE)
   #ifdef _MSC_VER

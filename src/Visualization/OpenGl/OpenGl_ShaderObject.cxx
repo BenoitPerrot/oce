@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/Graphic3d/Graphic3d_ShaderObject.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_ShaderObject.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderObject.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

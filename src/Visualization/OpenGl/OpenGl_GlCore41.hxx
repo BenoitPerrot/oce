@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GlCore41_Header
 #define _OpenGl_GlCore41_Header
 
-#include <OpenGl_GlCore40.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore40.hxx>
 
 //! OpenGL 4.1 definition.
 template<typename theBaseClass_t>

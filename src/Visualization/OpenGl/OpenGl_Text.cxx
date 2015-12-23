@@ -13,16 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_GlCore11.hxx>
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_ShaderStates.hxx>
-#include <OpenGl_Sampler.hxx>
-#include <OpenGl_Text.hxx>
-#include <OpenGl_Utils.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderStates.hxx>
+#include <Visualization/OpenGl/OpenGl_Sampler.hxx>
+#include <Visualization/OpenGl/OpenGl_Text.hxx>
+#include <Visualization/OpenGl/OpenGl_Utils.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 #include <Visualization/Font/Font_FontMgr.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

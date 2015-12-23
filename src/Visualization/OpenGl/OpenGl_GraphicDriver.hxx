@@ -18,8 +18,8 @@
 
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Handle_OpenGl_GraphicDriver.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_PrinterContext.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_PrinterContext.hxx>
 
 #include <Foundation/Standard/Standard_CString.hxx>
 

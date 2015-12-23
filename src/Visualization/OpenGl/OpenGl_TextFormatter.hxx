@@ -16,8 +16,8 @@
 #ifndef _OpenGl_TextFormatter_H__
 #define _OpenGl_TextFormatter_H__
 
-#include <OpenGl_Font.hxx>
-#include <OpenGl_VertexBufferEditor.hxx>
+#include <Visualization/OpenGl/OpenGl_Font.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBufferEditor.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_HorizontalTextAlignment.hxx>
 #include <Visualization/Graphic3d/Graphic3d_VerticalTextAlignment.hxx>

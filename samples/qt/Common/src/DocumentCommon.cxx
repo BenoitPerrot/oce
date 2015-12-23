@@ -12,7 +12,7 @@
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 // =======================================================================

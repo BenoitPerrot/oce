@@ -15,11 +15,11 @@
 
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
 
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_Workspace.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
 
 namespace
 {

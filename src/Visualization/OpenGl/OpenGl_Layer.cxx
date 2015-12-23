@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_Layer.hxx>
-#include <OpenGl_Workspace.hxx>
-#include <OpenGl_GlCore11.hxx>
+#include <Visualization/OpenGl/OpenGl_Layer.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
 //=======================================================================
 //function : OpenGl_Layer

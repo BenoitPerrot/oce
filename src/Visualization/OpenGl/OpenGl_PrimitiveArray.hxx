@@ -16,7 +16,7 @@
 #ifndef OpenGl_PrimitiveArray_Header
 #define OpenGl_PrimitiveArray_Header
 
-#include <OpenGl_IndexBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_IndexBuffer.hxx>
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
@@ -25,7 +25,7 @@
 #include <Visualization/Graphic3d/Graphic3d_IndexBuffer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_BoundBuffer.hxx>
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
 class OpenGl_GraphicDriver;
 class Handle(OpenGl_ShaderProgram);

@@ -18,7 +18,7 @@
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

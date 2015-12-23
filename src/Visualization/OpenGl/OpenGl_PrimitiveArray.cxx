@@ -13,17 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <OpenGl_AspectFace.hxx>
-#include <OpenGl_Context.hxx>
-#include <OpenGl_GraphicDriver.hxx>
-#include <OpenGl_IndexBuffer.hxx>
-#include <OpenGl_PointSprite.hxx>
-#include <OpenGl_PrimitiveArray.hxx>
-#include <OpenGl_ShaderManager.hxx>
-#include <OpenGl_ShaderProgram.hxx>
-#include <OpenGl_Structure.hxx>
-#include <OpenGl_VertexBufferCompat.hxx>
-#include <OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectFace.hxx>
+#include <Visualization/OpenGl/OpenGl_Context.hxx>
+#include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/OpenGl_IndexBuffer.hxx>
+#include <Visualization/OpenGl/OpenGl_PointSprite.hxx>
+#include <Visualization/OpenGl/OpenGl_PrimitiveArray.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_VertexBufferCompat.hxx>
+#include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 
 namespace
 {

@@ -16,8 +16,8 @@
 #ifndef _OpenGl_LayerList_Header
 #define _OpenGl_LayerList_Header
 
-#include <OpenGl_PriorityList.hxx>
-#include <OpenGl_Layer.hxx>
+#include <Visualization/OpenGl/OpenGl_PriorityList.hxx>
+#include <Visualization/OpenGl/OpenGl_Layer.hxx>
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 

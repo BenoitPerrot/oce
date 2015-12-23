@@ -25,11 +25,11 @@
   #include <tbb/tbb.h>
 #endif
 
-#include <OpenGl_SceneGeometry.hxx>
+#include <Visualization/OpenGl/OpenGl_SceneGeometry.hxx>
 
-#include <OpenGl_ArbTexBindless.hxx>
-#include <OpenGl_PrimitiveArray.hxx>
-#include <OpenGl_Structure.hxx>
+#include <Visualization/OpenGl/OpenGl_ArbTexBindless.hxx>
+#include <Visualization/OpenGl/OpenGl_PrimitiveArray.hxx>
+#include <Visualization/OpenGl/OpenGl_Structure.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 

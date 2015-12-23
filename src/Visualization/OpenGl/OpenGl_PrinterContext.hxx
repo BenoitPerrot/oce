@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <OpenGl_Vec.hxx>
+#include <Visualization/OpenGl/OpenGl_Vec.hxx>
 
 //! Class provides specific information for redrawing view to offscreen buffer
 //! on printing. The information is: projection matrixes for tiling,

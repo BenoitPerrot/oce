@@ -16,15 +16,15 @@
 #ifndef _OpenGl_Trihedron_Header
 #define _OpenGl_Trihedron_Header
 
-#include <OpenGl_Element.hxx>
+#include <Visualization/OpenGl/OpenGl_Element.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
-#include <OpenGl_AspectLine.hxx>
-#include <OpenGl_AspectText.hxx>
-#include <OpenGl_Cylinder.hxx>
-#include <OpenGl_Disk.hxx>
-#include <OpenGl_Sphere.hxx>
-#include <OpenGl_Text.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
+#include <Visualization/OpenGl/OpenGl_AspectText.hxx>
+#include <Visualization/OpenGl/OpenGl_Cylinder.hxx>
+#include <Visualization/OpenGl/OpenGl_Disk.hxx>
+#include <Visualization/OpenGl/OpenGl_Sphere.hxx>
+#include <Visualization/OpenGl/OpenGl_Text.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 
 //! Class render trihedron
