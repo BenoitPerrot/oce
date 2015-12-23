@@ -15,9 +15,9 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <BinTObjDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinTObjDrivers/BinTObjDrivers_DocumentStorageDriver.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers.hxx>
-#include <BinTObjDrivers.hxx>
+#include <OCAF/BinTObjDrivers/BinTObjDrivers.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BinTObjDrivers_DocumentStorageDriver,
                            BinLDrivers_DocumentStorageDriver)

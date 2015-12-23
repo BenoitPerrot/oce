@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <BinTObjDrivers_ModelDriver.hxx>
+#include <OCAF/BinTObjDrivers/BinTObjDrivers_ModelDriver.hxx>
 
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <CDM_MessageDriver.hxx>

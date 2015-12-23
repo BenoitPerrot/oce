@@ -20,7 +20,7 @@
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TDF_Tool.hxx>
 
-#include <BinTObjDrivers_ObjectDriver.hxx>
+#include <OCAF/BinTObjDrivers/BinTObjDrivers_ObjectDriver.hxx>
 #include <TObj_Assistant.hxx>
 #include <TObj_TObject.hxx>
 #include <TObj_Persistence.hxx>

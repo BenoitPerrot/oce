@@ -16,7 +16,7 @@
 // The original implementation Copyright: (C) RINA S.p.A
 
 
-#include <BinTObjDrivers_ReferenceDriver.hxx>
+#include <OCAF/BinTObjDrivers/BinTObjDrivers_ReferenceDriver.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <TObj_TReference.hxx>
