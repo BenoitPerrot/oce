@@ -18,7 +18,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <Geometry/Approx/Approx_ParametrizationType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 class Standard_DomainError;
 class TopoDS_Wire;

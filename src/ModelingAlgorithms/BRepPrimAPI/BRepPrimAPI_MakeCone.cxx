@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <BRepPrim_Cone.hxx>
 #include <BRepPrimAPI_MakeCone.hxx>
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 
 
 

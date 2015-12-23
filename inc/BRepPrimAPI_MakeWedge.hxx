@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepPrim_Wedge.hxx>
-#include <BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class StdFail_NotDone;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepBuilderAPI_ModifyShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_ModifyShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Draft_ErrorStatus.hxx>

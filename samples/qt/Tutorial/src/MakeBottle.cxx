@@ -5,7 +5,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 
 #include <BRepFilletAPI_MakeFillet.hxx>
 

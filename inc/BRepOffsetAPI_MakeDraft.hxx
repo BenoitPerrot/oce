@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepFill_Draft.hxx>
-#include <BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepBuilderAPI_TransitionMode.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_TransitionMode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>
 class StdFail_NotDone;

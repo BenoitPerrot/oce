@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <BRepBuilderAPI_Command.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Command.hxx>
 
 //=======================================================================
 //function : BRepBuilderAPI_Command

@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PPaveFiller.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;
 class TopTools_ListOfShape;

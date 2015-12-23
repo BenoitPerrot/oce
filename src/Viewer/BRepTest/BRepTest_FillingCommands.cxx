@@ -68,7 +68,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <BRepBuilderAPI_WireError.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_WireError.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 

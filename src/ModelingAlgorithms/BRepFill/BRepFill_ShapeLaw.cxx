@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ShapeLaw)
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 #include <Precision.hxx>
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 
 
 //=======================================================================

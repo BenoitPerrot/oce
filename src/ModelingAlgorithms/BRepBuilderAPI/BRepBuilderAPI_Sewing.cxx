@@ -62,7 +62,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <BRepBuilderAPI_Sewing.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepBuilderAPI_Sewing)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -150,9 +150,9 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <ModelingData/BRep/BRep_ListOfPointRepresentation.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
-#include <BRepBuilderAPI_VertexInspector.hxx>
-#include <BRepBuilderAPI_CellFilter.hxx>
-#include <BRepBuilderAPI_BndBoxTreeSelector.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_VertexInspector.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_CellFilter.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_BndBoxTreeSelector.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 
 //=======================================================================

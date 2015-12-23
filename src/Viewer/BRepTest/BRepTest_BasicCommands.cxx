@@ -24,12 +24,12 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Box.hxx>
 
-#include <BRepBuilderAPI.hxx>
-#include <BRepBuilderAPI_FindPlane.hxx>
-#include <BRepBuilderAPI_Copy.hxx>
-#include <BRepBuilderAPI_Transform.hxx>
-#include <BRepBuilderAPI_GTransform.hxx>
-#include <BRepBuilderAPI_NurbsConvert.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_GTransform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_NurbsConvert.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>

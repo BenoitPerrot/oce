@@ -295,7 +295,7 @@ Standard_Integer OCC22595 (Draw_Interpretor& di, Standard_Integer /*argc*/, cons
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
@@ -2187,7 +2187,7 @@ static Standard_Integer OCC24565 (Draw_Interpretor& di, Standard_Integer argc, c
 
 #include <Handle_BRepTools_NurbsConvertModification.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepBuilderAPI_Copy.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
 #include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>
 static TopoDS_Shape CreateTestShape (int& theShapeNb)
 {

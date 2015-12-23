@@ -20,7 +20,7 @@
 #include <Draw_Appli.hxx>
 
 #include <BRepFill.hxx>
-#include <BRepBuilderAPI_PipeError.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_PipeError.hxx>
 #include <BRepFill_Generator.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>

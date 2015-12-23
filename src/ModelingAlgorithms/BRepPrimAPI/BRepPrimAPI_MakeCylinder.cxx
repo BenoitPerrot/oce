@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <BRepPrim_Cylinder.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 
 
 #include <Mathematics/Primitives/gp.hxx>

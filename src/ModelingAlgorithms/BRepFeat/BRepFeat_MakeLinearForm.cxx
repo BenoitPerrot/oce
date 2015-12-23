@@ -94,7 +94,7 @@
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 
 //modified by NIZNHY-PKV Fri Mar 22 16:51:33 2002 f
@@ -117,7 +117,7 @@
 
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 #include <BRepLib_MakeWire.hxx>
 //#include <DbgTools.hxx>
 

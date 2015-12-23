@@ -15,10 +15,10 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepFill_TypeOfContact.hxx>
 #include <Handle_Law_Function.hxx>
-#include <BRepBuilderAPI_PipeError.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_PipeError.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BRepBuilderAPI_TransitionMode.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_TransitionMode.hxx>
 class BRepFill_PipeShell;
 class Standard_DomainError;
 class StdFail_NotDone;

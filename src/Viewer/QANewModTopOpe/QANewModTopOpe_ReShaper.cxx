@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(QANewModTopOpe_ReShaper,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(QANewModTopOpe_ReShaper)
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <BRepBuilderAPI_Copy.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

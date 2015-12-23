@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepBuilderAPI_Command.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Command.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class TopoDS_Shape;

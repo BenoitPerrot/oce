@@ -12,7 +12,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
-#include <BRepBuilderAPI_NurbsConvert.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_NurbsConvert.hxx>
 
 #include <gtest/gtest.h>
 

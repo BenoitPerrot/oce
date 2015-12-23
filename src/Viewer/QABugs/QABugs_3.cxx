@@ -1257,7 +1257,7 @@ static Standard_Integer statface (Draw_Interpretor& di,Standard_Integer /*argc*/
 
 }
 
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 
 static Standard_Integer BUC60841(Draw_Interpretor& di, Standard_Integer argc, const char ** argv )
 {

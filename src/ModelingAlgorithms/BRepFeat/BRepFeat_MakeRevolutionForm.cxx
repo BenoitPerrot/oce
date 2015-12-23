@@ -120,7 +120,7 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:56:17 2002 t
 
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_ExtCF.hxx>
 

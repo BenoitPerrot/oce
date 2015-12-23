@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepBuilderAPI_ModifyShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_ModifyShape.hxx>
 class Standard_NoSuchObject;
 class gp_Trsf;
 class TopoDS_Shape;

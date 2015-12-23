@@ -75,7 +75,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <BRepFeat.hxx>
 
 #include <ElCLib.hxx>

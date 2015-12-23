@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <BRepPrim_Direction.hxx>
 

@@ -15,7 +15,7 @@
 #include <QANewModTopOpe_CommonPtr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <QANewModTopOpe_ModeOfLimitation.hxx>
-#include <BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;
 

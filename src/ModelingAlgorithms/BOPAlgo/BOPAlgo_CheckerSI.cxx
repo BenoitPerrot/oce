@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <BRepBuilderAPI_Copy.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>

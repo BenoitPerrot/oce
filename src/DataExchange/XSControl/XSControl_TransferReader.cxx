@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 
 //  Precision :
 #include <Interface_Static.hxx>
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 
 //  Pour les regularites
 #include <BRepLib.hxx>

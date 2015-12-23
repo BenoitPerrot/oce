@@ -367,7 +367,7 @@ private:
 };
 
 
-#include <BRepBuilderAPI_Sewing.lxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.lxx>
 
 
 

@@ -20,7 +20,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakePolygon.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRepBuilderAPI_Sewing.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

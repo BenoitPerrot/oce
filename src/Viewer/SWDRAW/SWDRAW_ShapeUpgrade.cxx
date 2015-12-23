@@ -49,7 +49,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <SWDRAW.hxx>
 #include <ShapeUpgrade_ShapeDivideArea.hxx>
 
@@ -81,7 +81,7 @@
 #include <ShapeUpgrade_RemoveInternalWires.hxx>
 #include <ShapeUpgrade_RemoveLocations.hxx>
 #include <ShapeUpgrade_UnifySameDomain.hxx>
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 
 // the plane (equation z=0) shared by PlaneDividedFaceContinuity and PlaneGridShell
 //static Handle(Geom_Plane) ThePlane= new Geom_Plane(0,0,1,0);

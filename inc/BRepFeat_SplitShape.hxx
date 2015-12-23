@@ -12,7 +12,7 @@
 
 #include <LocOpe_Spliter.hxx>
 #include <Handle_LocOpe_WiresOnShape.hxx>
-#include <BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class LocOpe_WiresOnShape;
 class StdFail_NotDone;

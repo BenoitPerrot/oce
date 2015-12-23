@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <BRepPrim_Revolution.hxx>
 #include <BRepPrimAPI_MakeRevolution.hxx>
-#include <BRepBuilderAPI.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

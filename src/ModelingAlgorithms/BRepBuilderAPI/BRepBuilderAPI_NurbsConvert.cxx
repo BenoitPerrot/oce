@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepBuilderAPI_NurbsConvert.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_NurbsConvert.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

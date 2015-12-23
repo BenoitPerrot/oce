@@ -18,12 +18,12 @@
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepBuilderAPI_GTransform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_GTransform.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_GTrsfModification.hxx>
 #include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>
-#include <BRepBuilderAPI_NurbsConvert.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_NurbsConvert.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>

@@ -34,8 +34,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 
-#include <BRepBuilderAPI_CellFilter.hxx>
-#include <BRepBuilderAPI_VertexInspector.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_CellFilter.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_VertexInspector.hxx>
 
 // A static method adding nodes to a mesh and keeping coincident (sharing) nodes.
 static Standard_Integer AddVertex(Handle(StlMesh_Mesh)& mesh,

@@ -17,7 +17,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepBuilderAPI_FindPlane.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

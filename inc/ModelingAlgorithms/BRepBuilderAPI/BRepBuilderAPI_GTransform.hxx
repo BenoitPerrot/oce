@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <BRepBuilderAPI_Collect.hxx>
-#include <BRepBuilderAPI_ModifyShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Collect.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_ModifyShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class gp_GTrsf;

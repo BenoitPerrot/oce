@@ -101,7 +101,7 @@
 #include <BRepFill_CompatibleWires.hxx>
 
 #include <BRepLib_MakeFace.hxx>
-#include <BRepBuilderAPI_FindPlane.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>
 
 
 //=======================================================================

@@ -20,7 +20,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepFeat_StatusError.hxx>
-#include <BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <Handle_Geom_Curve.hxx>

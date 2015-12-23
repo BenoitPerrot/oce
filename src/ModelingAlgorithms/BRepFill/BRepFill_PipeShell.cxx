@@ -93,8 +93,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
-#include <BRepBuilderAPI_Copy.hxx>
-#include <BRepBuilderAPI_Transform.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
