@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDataStd_BooleanArrayDriver.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd_BooleanArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataStd_BooleanArrayDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

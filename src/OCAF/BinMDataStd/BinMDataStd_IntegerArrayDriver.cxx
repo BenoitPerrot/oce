@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDataStd_IntegerArrayDriver.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd_IntegerArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataStd_IntegerArrayDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataStd_IntegerArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntegerArrayDriver)
 #include <TDataStd_IntegerArray.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <BinMDataStd.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd.hxx>
 
 //=======================================================================
 //function : BinMDataStd_IntegerArrayDriver

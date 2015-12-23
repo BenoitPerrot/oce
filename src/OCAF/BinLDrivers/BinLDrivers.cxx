@@ -20,7 +20,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers.hxx>
 #include <BinMDF.hxx>
-#include <BinMDataStd.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <BinMFunction.hxx>
 //#include <BinMNaming.hxx>
 #include <BinMDocStd.hxx>

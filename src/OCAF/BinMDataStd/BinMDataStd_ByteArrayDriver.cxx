@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDataStd_ByteArrayDriver.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd_ByteArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataStd_ByteArrayDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(BinMDataStd_ByteArrayDriver)
 #include <TDataStd_ByteArray.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <BinMDataStd.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd.hxx>
 //=======================================================================
 //function : BinMDataStd_ByteArrayDriver
 //purpose  : Constructor

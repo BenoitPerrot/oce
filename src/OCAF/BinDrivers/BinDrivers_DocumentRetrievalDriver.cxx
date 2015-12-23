@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentRetrievalDriver)
 #include <BinMNaming.hxx>
 #include <BinMNaming_NamedShapeDriver.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <BinMDataStd.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>

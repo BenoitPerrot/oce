@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDataStd_IntPackedMapDriver.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd_IntPackedMapDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataStd_IntPackedMapDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(BinMDataStd_IntPackedMapDriver)
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <BinObjMgt_SRelocationTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <BinMDataStd.hxx>
+#include <OCAF/BinMDataStd/BinMDataStd.hxx>
 //=======================================================================
 //function : BinMDataStd_IntPackedMapDriver
 //purpose  :
