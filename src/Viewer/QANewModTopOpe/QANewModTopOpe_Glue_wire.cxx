@@ -45,7 +45,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <BRepIntCurveSurface_Inter.hxx>
+#include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>

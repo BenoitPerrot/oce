@@ -26,7 +26,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>
-#include <BRepIntCurveSurface_Inter.hxx>
+#include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

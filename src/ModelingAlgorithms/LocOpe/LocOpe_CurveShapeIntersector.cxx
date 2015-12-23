@@ -22,7 +22,7 @@
 #include <LocOpe_PntFace.hxx>
 #include <LocOpe_CurveShapeIntersector.hxx>
 
-#include <BRepIntCurveSurface_Inter.hxx>
+#include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <LocOpe_PntFace.hxx>

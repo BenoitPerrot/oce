@@ -65,7 +65,7 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <BRepIntCurveSurface_Inter.hxx>
+#include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>

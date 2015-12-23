@@ -71,7 +71,7 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_MakeDPrism.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepIntCurveSurface_Inter.hxx>
+#include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <BRepOffset.hxx>
 #include <BRepOffset_MakeOffset.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>

@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
 
-#include <BRepIntCurveSurface_Inter.hxx>
+#include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>

@@ -31,7 +31,7 @@
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_ComputeCLine.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
-#include <BRepIntCurveSurface_Inter.hxx>
+#include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_ApproxSeewing.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ElCLib.hxx>
