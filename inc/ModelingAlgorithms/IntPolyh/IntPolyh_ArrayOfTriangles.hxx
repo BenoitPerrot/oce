@@ -13,12 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#ifndef IntPolyh_ArrayOfStartPoints_HeaderFile
-#define IntPolyh_ArrayOfStartPoints_HeaderFile
+#ifndef IntPolyh_ArrayOfTriangles_HeaderFile
+#define IntPolyh_ArrayOfTriangles_HeaderFile
 
-#include <IntPolyh_Array.hxx>
-#include <IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Array.hxx>
+//#include <ModelingAlgorithms/IntPolyh/IntPolyh_Triangle.hxx>
+class IntPolyh_Triangle;
 
-typedef IntPolyh_Array <IntPolyh_StartPoint> IntPolyh_ArrayOfStartPoints;
+typedef IntPolyh_Array <IntPolyh_Triangle> IntPolyh_ArrayOfTriangles;
 
 #endif

@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#ifndef IntPolyh_ArrayOfTangentZones_HeaderFile
-#define IntPolyh_ArrayOfTangentZones_HeaderFile
+#ifndef IntPolyh_ArrayOfPoints_HeaderFile
+#define IntPolyh_ArrayOfPoints_HeaderFile
 
-#include <IntPolyh_Array.hxx>
-#include <IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Array.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Point.hxx>
 
-typedef IntPolyh_Array <IntPolyh_StartPoint> IntPolyh_ArrayOfTangentZones;
+typedef IntPolyh_Array <IntPolyh_Point> IntPolyh_ArrayOfPoints;
 
 #endif

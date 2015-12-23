@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <IntPolyh_Point.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Point.hxx>
 
 #include <stdio.h>
 

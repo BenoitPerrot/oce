@@ -16,8 +16,8 @@
 #ifndef IntPolyh_ArrayOfEdges_HeaderFile
 #define IntPolyh_ArrayOfEdges_HeaderFile
 
-#include <IntPolyh_Array.hxx>
-#include <IntPolyh_Edge.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Array.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Edge.hxx>
 
 typedef IntPolyh_Array <IntPolyh_Edge> IntPolyh_ArrayOfEdges;
 

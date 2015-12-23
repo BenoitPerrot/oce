@@ -12,12 +12,12 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IntPolyh_ArrayOfSectionLines.hxx>
-#include <IntPolyh_ArrayOfTangentZones.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfSectionLines.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfTangentZones.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntPolyh_PMaillageAffinage.hxx>
-#include <IntPolyh_ArrayOfCouples.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_PMaillageAffinage.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfCouples.hxx>
 class Adaptor3d_HSurface;
 class TColStd_Array1OfReal;
 

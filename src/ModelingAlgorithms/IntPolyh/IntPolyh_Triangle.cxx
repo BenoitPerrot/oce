@@ -16,14 +16,14 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntPolyh_StartPoint.hxx>
-#include <IntPolyh_Triangle.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Triangle.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <IntPolyh_Point.hxx>
-#include <IntPolyh_Edge.hxx>
-#include <IntPolyh_Triangle.hxx>
-#include <IntPolyh_StartPoint.hxx>
-#include <IntPolyh_Couple.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Point.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Edge.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Triangle.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Couple.hxx>
 #include <stdio.h>
 
 #define MyTolerance 10.0e-7

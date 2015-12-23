@@ -17,10 +17,10 @@
 // modified by Edward AGAPOV (eap) Thu Feb 14 2002 (occ139)
 // Add Prepend(), replace array with sequence
 
-#include <IntPolyh_Triangle.hxx>
-#include <IntPolyh_StartPoint.hxx>
-#include <IntPolyh_StartPoint.hxx>
-#include <IntPolyh_SectionLine.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Triangle.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_SectionLine.hxx>
 #include <stdio.h>
 
 //=======================================================================

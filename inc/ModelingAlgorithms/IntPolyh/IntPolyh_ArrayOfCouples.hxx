@@ -16,8 +16,8 @@
 #ifndef IntPolyh_ArrayOfCouples_HeaderFile
 #define IntPolyh_ArrayOfCouples_HeaderFile
 
-#include <IntPolyh_Array.hxx>
-#include <IntPolyh_Couple.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Array.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Couple.hxx>
 
 typedef IntPolyh_Array <IntPolyh_Couple> IntPolyh_ArrayOfCouples;
 

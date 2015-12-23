@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntPolyh_SeqOfStartPoints.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_SeqOfStartPoints.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IntPolyh_StartPoint;
 

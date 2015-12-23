@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
 
-#include <IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntPolyh_StartPoint;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem IntPolyh_StartPoint
-#define SeqItem_hxx <IntPolyh_StartPoint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
 #define TCollection_SequenceNode IntPolyh_SequenceNodeOfSeqOfStartPoints
-#define TCollection_SequenceNode_hxx <IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntPolyh/IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntPolyh_SequenceNodeOfSeqOfStartPoints
 #define TCollection_SequenceNode_Type_() IntPolyh_SequenceNodeOfSeqOfStartPoints_Type_()
 #define TCollection_Sequence IntPolyh_SeqOfStartPoints
-#define TCollection_Sequence_hxx <IntPolyh_SeqOfStartPoints.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntPolyh/IntPolyh_SeqOfStartPoints.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

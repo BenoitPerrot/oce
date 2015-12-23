@@ -16,8 +16,8 @@
 #ifndef IntPolyh_ArrayOfSectionLines_HeaderFile
 #define IntPolyh_ArrayOfSectionLines_HeaderFile
 
-#include <IntPolyh_Array.hxx>
-#include <IntPolyh_SectionLine.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Array.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_SectionLine.hxx>
 
 typedef IntPolyh_Array <IntPolyh_SectionLine> IntPolyh_ArrayOfSectionLines;
 

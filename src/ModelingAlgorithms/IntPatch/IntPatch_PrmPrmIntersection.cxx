@@ -44,7 +44,7 @@
 #include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <IntPolyh_Intersection.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Intersection.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <IntSurf_ListIteratorOfListOfPntOn2S.hxx>

@@ -13,10 +13,10 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <IntPolyh_ArrayOfPoints.hxx>
-#include <IntPolyh_ArrayOfTriangles.hxx>
-#include <IntPolyh_ArrayOfEdges.hxx>
-#include <IntPolyh_ArrayOfCouples.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfPoints.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfTriangles.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfEdges.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfCouples.hxx>
 class Adaptor3d_HSurface;
 class Bnd_Box;
 class IntPolyh_StartPoint;

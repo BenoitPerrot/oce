@@ -29,11 +29,11 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntPolyh_Point.hxx>
-#include <IntPolyh_StartPoint.hxx>
-#include <IntPolyh_Triangle.hxx>
-#include <IntPolyh_SectionLine.hxx>
-#include <IntPolyh_MaillageAffinage.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Point.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Triangle.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_SectionLine.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_MaillageAffinage.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -46,9 +46,9 @@
 
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 
-#include <IntPolyh_ArrayOfCouples.hxx>
-#include <IntPolyh_Edge.hxx>
-#include <IntPolyh_Couple.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfCouples.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Edge.hxx>
+#include <ModelingAlgorithms/IntPolyh/IntPolyh_Couple.hxx>
 
 #include <stdio.h>
 
