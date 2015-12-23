@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_StepGeom_Point.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Point;
 class TCollection_HAsciiString;

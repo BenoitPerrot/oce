@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeSurfaceOfLinearExtrusion.hxx>
@@ -23,9 +23,9 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================

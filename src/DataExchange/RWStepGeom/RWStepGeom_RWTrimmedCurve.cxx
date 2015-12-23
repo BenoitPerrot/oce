@@ -13,21 +13,21 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWTrimmedCurve.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_HArray1OfTrimmingSelect.hxx>
-#include <StepGeom_TrimmingSelect.hxx>
-#include <StepGeom_TrimmingPreference.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingPreference.hxx>
 
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

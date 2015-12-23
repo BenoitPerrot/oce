@@ -17,7 +17,7 @@
 //#4  szv          S4163: optimization
 //:   abv 07.04.99 S4136: turn off fixing intersection of non-adjacent edges
 
-#include <StepGeom_CurveBoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <StepToTopoDS_TranslateCurveBoundedSurface.hxx>
@@ -26,7 +26,7 @@
 
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <StepToGeom_MakeSurface.hxx>
-#include <StepGeom_HArray1OfSurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfSurfaceBoundary.hxx>
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -35,7 +35,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
-#include <StepGeom_BSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurface.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 

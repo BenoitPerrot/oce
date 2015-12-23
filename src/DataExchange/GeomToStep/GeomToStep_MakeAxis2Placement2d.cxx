@@ -14,20 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Axis2Placement2d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement2d.hxx>
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeDirection.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 
-#include <StepGeom_Axis2Placement2d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement2d.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================

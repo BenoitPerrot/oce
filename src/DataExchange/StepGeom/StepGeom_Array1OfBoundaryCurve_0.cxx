@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_Array1OfBoundaryCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Array1OfBoundaryCurve.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepGeom_BoundaryCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundaryCurve.hxx>
  
 
 #define Array1Item Handle(StepGeom_BoundaryCurve)
-#define Array1Item_hxx <StepGeom_BoundaryCurve.hxx>
+#define Array1Item_hxx <DataExchange/StepGeom/StepGeom_BoundaryCurve.hxx>
 #define TCollection_Array1 StepGeom_Array1OfBoundaryCurve
-#define TCollection_Array1_hxx <StepGeom_Array1OfBoundaryCurve.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepGeom/StepGeom_Array1OfBoundaryCurve.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

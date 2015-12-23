@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeBoundedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeBoundedSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

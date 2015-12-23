@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Axis1Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_CurveBoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
 #include <StepShape_RevolvedAreaSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_RevolvedAreaSolid)

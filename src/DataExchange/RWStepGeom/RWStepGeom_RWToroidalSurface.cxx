@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWToroidalSurface.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 
 
 RWStepGeom_RWToroidalSurface::RWStepGeom_RWToroidalSurface () {}

@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_PointOnSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointOnSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWPointOnSurface.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_PointOnSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointOnSurface.hxx>
 
 
 RWStepGeom_RWPointOnSurface::RWStepGeom_RWPointOnSurface () {}

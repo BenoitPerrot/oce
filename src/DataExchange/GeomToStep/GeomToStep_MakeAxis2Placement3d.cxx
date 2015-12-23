@@ -14,22 +14,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeDirection.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Handle(StepGeom_Axis2Placement3d)  MakeAxis2Placement3d

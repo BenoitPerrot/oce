@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_SphericalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSphericalSurface.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_SphericalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 
 
 RWStepGeom_RWSphericalSurface::RWStepGeom_RWSphericalSurface () {}

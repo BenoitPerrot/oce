@@ -17,7 +17,7 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWBoxDomain.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

@@ -13,20 +13,20 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceCurve.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_HArray1OfPcurveOrSurface.hxx>
-#include <StepGeom_PcurveOrSurface.hxx>
-#include <StepGeom_PreferredSurfaceCurveRepresentation.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_PreferredSurfaceCurveRepresentation.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

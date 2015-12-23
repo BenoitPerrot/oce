@@ -16,22 +16,22 @@
 
 //              .cxx
 
-#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
-#include <StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>
-#include <StepGeom_KnotType.hxx>
+#include <DataExchange/StepGeom/StepGeom_KnotType.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================

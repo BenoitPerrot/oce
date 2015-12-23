@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -24,8 +24,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <StepGeom_Polyline.hxx>
-#include <StepGeom_HArray1OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

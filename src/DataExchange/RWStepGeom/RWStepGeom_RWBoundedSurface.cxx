@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWBoundedSurface.hxx>
 

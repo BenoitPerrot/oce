@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(StepGeom_CartesianPoint)
-#define TheKey_hxx <StepGeom_CartesianPoint.hxx>
+#define TheKey_hxx <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #define TheItem TopoDS_Vertex
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define Hasher StepToTopoDS_CartesianPointHasher

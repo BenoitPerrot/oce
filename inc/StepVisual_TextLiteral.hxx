@@ -11,10 +11,10 @@
 #include <Handle_StepVisual_TextLiteral.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 #include <StepVisual_TextPath.hxx>
 #include <StepVisual_FontSelect.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 class TCollection_HAsciiString;
 class StepGeom_Axis2Placement;
 class StepVisual_FontSelect;

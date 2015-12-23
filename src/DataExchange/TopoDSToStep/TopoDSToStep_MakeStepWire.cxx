@@ -50,8 +50,8 @@
 #include <StepShape_HArray1OfOrientedEdge.hxx>
 #include <StepShape_OrientedEdge.hxx>
 #include <StepShape_PolyLoop.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_HArray1OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>

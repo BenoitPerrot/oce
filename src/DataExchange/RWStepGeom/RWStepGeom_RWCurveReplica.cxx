@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_CurveReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveReplica.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWCurveReplica.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_CartesianTransformationOperator.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_CurveReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveReplica.hxx>
 
 
 RWStepGeom_RWCurveReplica::RWStepGeom_RWCurveReplica () {}

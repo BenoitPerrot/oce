@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_ReparametrisedCompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_ReparametrisedCompositeCurveSegment.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWReparametrisedCompositeCurveSegment.hxx>
-#include <StepGeom_TransitionCode.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TransitionCode.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_ReparametrisedCompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_ReparametrisedCompositeCurveSegment.hxx>
 
 
 

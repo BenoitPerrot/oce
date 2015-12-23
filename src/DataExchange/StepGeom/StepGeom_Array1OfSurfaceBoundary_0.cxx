@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_Array1OfSurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_Array1OfSurfaceBoundary.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepGeom_SurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceBoundary.hxx>
  
 
 #define Array1Item StepGeom_SurfaceBoundary
-#define Array1Item_hxx <StepGeom_SurfaceBoundary.hxx>
+#define Array1Item_hxx <DataExchange/StepGeom/StepGeom_SurfaceBoundary.hxx>
 #define TCollection_Array1 StepGeom_Array1OfSurfaceBoundary
-#define TCollection_Array1_hxx <StepGeom_Array1OfSurfaceBoundary.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepGeom/StepGeom_Array1OfSurfaceBoundary.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

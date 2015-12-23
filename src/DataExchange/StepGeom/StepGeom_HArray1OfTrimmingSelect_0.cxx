@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_HArray1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepGeom_TrimmingSelect.hxx>
-#include <StepGeom_Array1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_Array1OfTrimmingSelect.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepGeom_HArray1OfTrimmingSelect)
 
 
 #define ItemHArray1 StepGeom_TrimmingSelect
-#define ItemHArray1_hxx <StepGeom_TrimmingSelect.hxx>
+#define ItemHArray1_hxx <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
 #define TheArray1 StepGeom_Array1OfTrimmingSelect
-#define TheArray1_hxx <StepGeom_Array1OfTrimmingSelect.hxx>
+#define TheArray1_hxx <DataExchange/StepGeom/StepGeom_Array1OfTrimmingSelect.hxx>
 #define TCollection_HArray1 StepGeom_HArray1OfTrimmingSelect
-#define TCollection_HArray1_hxx <StepGeom_HArray1OfTrimmingSelect.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
 #define Handle_TCollection_HArray1 Handle_StepGeom_HArray1OfTrimmingSelect
 #define TCollection_HArray1_Type_() StepGeom_HArray1OfTrimmingSelect_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

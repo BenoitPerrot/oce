@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_Array2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Array2OfCartesianPoint.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
  
 
 #define Array2Item Handle(StepGeom_CartesianPoint)
-#define Array2Item_hxx <StepGeom_CartesianPoint.hxx>
+#define Array2Item_hxx <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #define TCollection_Array2 StepGeom_Array2OfCartesianPoint
-#define TCollection_Array2_hxx <StepGeom_Array2OfCartesianPoint.hxx>
+#define TCollection_Array2_hxx <DataExchange/StepGeom/StepGeom_Array2OfCartesianPoint.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

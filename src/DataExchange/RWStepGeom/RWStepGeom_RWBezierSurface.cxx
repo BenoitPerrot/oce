@@ -13,20 +13,20 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_BezierSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWBezierSurface.hxx>
-#include <StepGeom_HArray2OfCartesianPoint.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_BSplineSurfaceForm.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceForm.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_BezierSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierSurface.hxx>
 
 
 

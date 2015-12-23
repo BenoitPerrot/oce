@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
 #include <Geometry/Geom2d/Geom2d_Direction.hxx>
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_CompositeText.hxx>
 
 #include <Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfTextOrCharacter;

@@ -46,10 +46,10 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
-#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
-#include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_PropertyDefinition.hxx>

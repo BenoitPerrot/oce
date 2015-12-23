@@ -17,7 +17,7 @@
 // :j4 16.03.99 gka S4134
 // abv 18.11.99 renamed from StepPDR_ContextTool
 #include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>

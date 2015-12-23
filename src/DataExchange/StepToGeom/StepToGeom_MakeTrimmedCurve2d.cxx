@@ -17,7 +17,7 @@
 //:p0 abv 19.02.99: management of 'done' flag improved
 //:p3 abv 23.02.99: bm4_id_punch_d.stp #1313: shift of parameters on ellipse with R1 < R2
 
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -26,16 +26,16 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_Line.hxx>
-#include <StepGeom_Vector.hxx>
-#include <StepGeom_Circle.hxx>
-#include <StepGeom_Ellipse.hxx>
-#include <StepGeom_Parabola.hxx>
-#include <StepGeom_Hyperbola.hxx>
-#include <StepGeom_TrimmingSelect.hxx>
-#include <StepGeom_HArray1OfTrimmingSelect.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve2d.hxx>
 #include <StepToGeom_MakeCartesianPoint2d.hxx>
 #include <StepToGeom_MakeCurve2d.hxx>

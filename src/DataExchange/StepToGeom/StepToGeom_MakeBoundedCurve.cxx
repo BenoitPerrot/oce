@@ -17,22 +17,22 @@
 //:n6 abv 15.02.99: S4132: adding translation of polyline
 //:p0 abv 19.02.99: management of 'done' flag improved; trimmed_curve treated
 
-#include <StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <StepToGeom_MakeBoundedCurve.hxx>
 
-#include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
-#include <StepGeom_BSplineCurveWithKnots.hxx>
-#include <StepGeom_BezierCurve.hxx>
-#include <StepGeom_UniformCurve.hxx>
-#include <StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
-#include <StepGeom_QuasiUniformCurve.hxx>
-#include <StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
-#include <StepGeom_Polyline.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
-#include <StepGeom_KnotType.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_KnotType.hxx>
 #include <StepToGeom_MakeBSplineCurve.hxx>
-#include <StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <StepToGeom_MakePolyline.hxx>
 #include <StepToGeom_MakeTrimmedCurve.hxx>
 

@@ -12,7 +12,7 @@
 
 #include <StepShape_BooleanOperator.hxx>
 #include <StepShape_BooleanOperand.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;
 class StepShape_BooleanOperand;

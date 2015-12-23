@@ -17,7 +17,7 @@
 //abv 17.11.99: renamed from StepPDR_MakeUnitAndToleranceContext and merged with STEPControl_Unit
 //abv 30.02.00: ability to write file in units other than MM
 
-#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>

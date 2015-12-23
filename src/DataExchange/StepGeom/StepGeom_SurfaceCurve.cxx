@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_HArray1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_PcurveOrSurface.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_SurfaceCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -65,22 +65,22 @@
 
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
-#include <StepGeom_Surface.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
-#include <StepGeom_SeamCurve.hxx>
-#include <StepGeom_HArray1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
 #include <StepShape_HArray1OfFaceBound.hxx>
-#include <StepGeom_PcurveOrSurface.hxx>
-#include <StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <StepShape_Loop.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_AdvancedFace.hxx>
 #include <StepShape_FaceBound.hxx>
 #include <StepShape_FaceOuterBound.hxx>
-#include <StepGeom_ToroidalSurface.hxx>
-#include <StepGeom_DegenerateToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_DegenerateToroidalSurface.hxx>
 
 #include <UnitsMethods.hxx>
 

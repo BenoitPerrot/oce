@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceOfLinearExtrusion.hxx>
-#include <StepGeom_Vector.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
 
 
 RWStepGeom_RWSurfaceOfLinearExtrusion::RWStepGeom_RWSurfaceOfLinearExtrusion () {}

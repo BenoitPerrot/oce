@@ -11,7 +11,7 @@
 #include <Handle_StepVisual_PlanarExtent.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;
 

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_Axis2Placement.hxx>
-#include <StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_Hyperbola)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

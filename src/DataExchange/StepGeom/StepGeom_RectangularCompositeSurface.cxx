@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_HArray2OfSurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfSurfacePatch.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_SurfacePatch.hxx>
-#include <StepGeom_RectangularCompositeSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularCompositeSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_RectangularCompositeSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

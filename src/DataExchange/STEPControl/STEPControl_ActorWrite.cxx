@@ -20,7 +20,7 @@
 #include <Transfer_Binder.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 
 #include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>

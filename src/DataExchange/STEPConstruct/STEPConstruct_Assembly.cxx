@@ -17,7 +17,7 @@
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>

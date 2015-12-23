@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWCurve.hxx>
 

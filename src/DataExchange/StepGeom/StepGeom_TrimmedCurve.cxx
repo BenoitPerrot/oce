@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_HArray1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_TrimmingSelect.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_TrimmedCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

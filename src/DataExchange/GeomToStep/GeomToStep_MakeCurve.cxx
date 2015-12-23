@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

@@ -19,22 +19,22 @@
 //:o5 abv 17.02.99: bm4_sd_seal_c.stp #58720: translate surface_curve (3d only)
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
 
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
-#include <StepGeom_Line.hxx>
-#include <StepGeom_Conic.hxx>
-#include <StepGeom_BoundedCurve.hxx>
-#include <StepGeom_CartesianTransformationOperator3d.hxx>
-#include <StepGeom_CurveReplica.hxx>
-#include <StepGeom_OffsetCurve3d.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Conic.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetCurve3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 
 #include <StepToGeom_MakeDirection.hxx>
 #include <StepToGeom_MakeTrimmedCurve.hxx>

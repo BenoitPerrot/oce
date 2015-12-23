@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
@@ -22,9 +22,9 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepGeom_Line.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>

@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_BoundedSurface.hxx>
-#include <StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_SurfacePatch)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

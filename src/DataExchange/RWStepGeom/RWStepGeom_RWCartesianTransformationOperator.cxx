@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_CartesianTransformationOperator.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWCartesianTransformationOperator.hxx>
-#include <StepGeom_Direction.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_CartesianTransformationOperator.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator.hxx>
 
 
 RWStepGeom_RWCartesianTransformationOperator::RWStepGeom_RWCartesianTransformationOperator () {}

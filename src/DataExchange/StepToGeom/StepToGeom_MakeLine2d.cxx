@@ -16,12 +16,12 @@
 
 // sln 23.10.2001. CTS23496: Line is not created if direction have not been succesfully created (StepToGeom_MakeLine2d(...) function)
 
-#include <StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <StepToGeom_MakeLine2d.hxx>
-#include <StepGeom_Line.hxx>
-#include <StepGeom_Vector.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeVectorWithMagnitude2d.hxx>
 #include <StepToGeom_MakeCartesianPoint2d.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>

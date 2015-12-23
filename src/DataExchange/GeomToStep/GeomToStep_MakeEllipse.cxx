@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
@@ -25,7 +25,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
-#include <StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 

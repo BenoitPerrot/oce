@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_HArray2OfSurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfSurfacePatch.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <StepGeom_SurfacePatch.hxx>
-#include <StepGeom_Array2OfSurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_Array2OfSurfacePatch.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepGeom_HArray2OfSurfacePatch)
 
 
 #define ItemHArray2 Handle(StepGeom_SurfacePatch)
-#define ItemHArray2_hxx <StepGeom_SurfacePatch.hxx>
+#define ItemHArray2_hxx <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
 #define TheArray2 StepGeom_Array2OfSurfacePatch
-#define TheArray2_hxx <StepGeom_Array2OfSurfacePatch.hxx>
+#define TheArray2_hxx <DataExchange/StepGeom/StepGeom_Array2OfSurfacePatch.hxx>
 #define TCollection_HArray2 StepGeom_HArray2OfSurfacePatch
-#define TCollection_HArray2_hxx <StepGeom_HArray2OfSurfacePatch.hxx>
+#define TCollection_HArray2_hxx <DataExchange/StepGeom/StepGeom_HArray2OfSurfacePatch.hxx>
 #define Handle_TCollection_HArray2 Handle_StepGeom_HArray2OfSurfacePatch
 #define TCollection_HArray2_Type_() StepGeom_HArray2OfSurfacePatch_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

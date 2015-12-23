@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_ReparametrisedCompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_ReparametrisedCompositeCurveSegment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_ReparametrisedCompositeCurveSegment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

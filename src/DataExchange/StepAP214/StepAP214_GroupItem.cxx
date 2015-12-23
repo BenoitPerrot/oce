@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_GroupItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

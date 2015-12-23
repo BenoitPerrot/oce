@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_HArray1OfCompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCompositeCurveSegment.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_CompositeCurveSegment.hxx>
-#include <StepGeom_CompositeCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_CompositeCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

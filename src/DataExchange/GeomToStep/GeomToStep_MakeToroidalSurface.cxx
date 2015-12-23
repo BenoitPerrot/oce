@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeToroidalSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
-#include <StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 

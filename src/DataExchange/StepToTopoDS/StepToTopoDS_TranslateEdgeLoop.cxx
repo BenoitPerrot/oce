@@ -25,7 +25,7 @@
 #include <StepShape_FaceBound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -44,13 +44,13 @@
 #include <StepShape_EdgeLoop.hxx>
 #include <StepShape_Edge.hxx>
 #include <StepShape_OrientedEdge.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <StepShape_EdgeCurve.hxx>
-#include <StepGeom_Pcurve.hxx>
-//#include <StepGeom_Polyline.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
+//#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>
-#include <StepGeom_PcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

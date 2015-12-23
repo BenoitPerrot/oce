@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWCircle.hxx>
-#include <StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 
 
 RWStepGeom_RWCircle::RWStepGeom_RWCircle () {}

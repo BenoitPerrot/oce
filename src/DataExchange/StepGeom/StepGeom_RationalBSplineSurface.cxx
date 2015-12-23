@@ -13,8 +13,8 @@
 
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_HArray2OfCartesianPoint.hxx>
-#include <StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_RationalBSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -16,13 +16,13 @@
 
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 #include <Geometry/Geom/Geom_SweptSurface.hxx>
 #include <StepToGeom_MakeSweptSurface.hxx>
-#include <StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 #include <StepToGeom_MakeSweptSurface.hxx>
-#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
-#include <StepGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfRevolution.hxx>
 #include <StepToGeom_MakeSurfaceOfLinearExtrusion.hxx>
 #include <StepToGeom_MakeSurfaceOfRevolution.hxx>
 

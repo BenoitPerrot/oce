@@ -17,7 +17,7 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWTextLiteral.hxx>
-#include <StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 #include <StepVisual_TextPath.hxx>
 #include <StepVisual_FontSelect.hxx>
 

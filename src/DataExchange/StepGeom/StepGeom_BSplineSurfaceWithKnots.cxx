@@ -14,8 +14,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_HArray2OfCartesianPoint.hxx>
-#include <StepGeom_BSplineSurfaceWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnots.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_BSplineSurfaceWithKnots)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

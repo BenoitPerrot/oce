@@ -18,12 +18,12 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWEdgeCurve.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <StepShape_Vertex.hxx>
 #include <StepShape_OrientedEdge.hxx>
 #include <StepShape_FaceBound.hxx>
 #include <StepShape_VertexPoint.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepShape_EdgeCurve.hxx>

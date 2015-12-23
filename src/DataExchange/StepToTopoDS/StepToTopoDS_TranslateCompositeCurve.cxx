@@ -17,9 +17,9 @@
 //:o3 abv 17.02.99: r0301_db.stp #57082: apply FixReorder to composite curve
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 
-#include <StepGeom_CompositeCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
@@ -30,10 +30,10 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <StepGeom_Pcurve.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
-#include <StepGeom_PcurveOrSurface.hxx>
-#include <StepGeom_CompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 

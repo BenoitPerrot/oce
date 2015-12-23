@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_QuasiUniformCurve.hxx>
-#include <StepGeom_RationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineCurve.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_HArray1OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_QuasiUniformCurveAndRationalBSplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_TYPE_END(StepGeom_QuasiUniformCurveAndRationalBSplineCurve)
 IMPLEMENT_DOWNCAST(StepGeom_QuasiUniformCurveAndRationalBSplineCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepGeom_QuasiUniformCurveAndRationalBSplineCurve)
 
-#include <StepGeom_QuasiUniformCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformCurve.hxx>
 
-#include <StepGeom_RationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineCurve.hxx>
 
 
 StepGeom_QuasiUniformCurveAndRationalBSplineCurve::StepGeom_QuasiUniformCurveAndRationalBSplineCurve ()  {}

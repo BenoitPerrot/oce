@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepGeom_Axis2Placement2d.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
-#include <StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement2d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepGeom_Axis2Placement::StepGeom_Axis2Placement () {  }

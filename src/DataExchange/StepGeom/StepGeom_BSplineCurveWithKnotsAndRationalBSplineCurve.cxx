@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_BSplineCurveWithKnots.hxx>
-#include <StepGeom_RationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineCurve.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_HArray1OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_TYPE_END(StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurv
 IMPLEMENT_DOWNCAST(StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve)
 
-#include <StepGeom_BSplineCurveWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
 
-#include <StepGeom_RationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineCurve.hxx>
 
 
 StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve::StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve ()  {}

@@ -11,14 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_BSplineSurfaceWithKnots.hxx>
-#include <StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,9 +34,9 @@ IMPLEMENT_STANDARD_TYPE_END(StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSu
 IMPLEMENT_DOWNCAST(StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface)
 
-#include <StepGeom_BSplineSurfaceWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnots.hxx>
 
-#include <StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineSurface.hxx>
 
 
 StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface::StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface ()  {}

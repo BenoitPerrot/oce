@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <StepRepr_RepresentationRelationship.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
@@ -28,7 +28,7 @@
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <StepRepr_MappedItem.hxx>
 #include <StepShape_FaceSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 
 // MappedItem :
 #include <StepRepr_MappedItem.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <StepRepr_RepresentationMap.hxx>
 #include <StepToTopoDS_MakeTransformed.hxx>
 
@@ -78,8 +78,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 //#include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
-#include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
-#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 
 #include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 #include <UnitsMethods.hxx>

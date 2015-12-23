@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_HArray1OfSurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfSurfaceBoundary.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepGeom_SurfaceBoundary.hxx>
-#include <StepGeom_Array1OfSurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_Array1OfSurfaceBoundary.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepGeom_HArray1OfSurfaceBoundary)
 
 
 #define ItemHArray1 StepGeom_SurfaceBoundary
-#define ItemHArray1_hxx <StepGeom_SurfaceBoundary.hxx>
+#define ItemHArray1_hxx <DataExchange/StepGeom/StepGeom_SurfaceBoundary.hxx>
 #define TheArray1 StepGeom_Array1OfSurfaceBoundary
-#define TheArray1_hxx <StepGeom_Array1OfSurfaceBoundary.hxx>
+#define TheArray1_hxx <DataExchange/StepGeom/StepGeom_Array1OfSurfaceBoundary.hxx>
 #define TCollection_HArray1 StepGeom_HArray1OfSurfaceBoundary
-#define TCollection_HArray1_hxx <StepGeom_HArray1OfSurfaceBoundary.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepGeom/StepGeom_HArray1OfSurfaceBoundary.hxx>
 #define Handle_TCollection_HArray1 Handle_StepGeom_HArray1OfSurfaceBoundary
 #define TCollection_HArray1_Type_() StepGeom_HArray1OfSurfaceBoundary_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

@@ -12,7 +12,7 @@
 
 #include <DataExchange/StepFEA/StepFEA_CoordinateSystemType.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Direction.hxx>

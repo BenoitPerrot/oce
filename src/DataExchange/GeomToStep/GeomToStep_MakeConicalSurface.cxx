@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_ConicalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ConicalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeConicalSurface.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
-#include <StepGeom_ConicalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ConicalSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>

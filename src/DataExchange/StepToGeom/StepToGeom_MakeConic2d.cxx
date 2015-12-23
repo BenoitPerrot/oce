@@ -16,14 +16,14 @@
 
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepGeom_Conic.hxx>
+#include <DataExchange/StepGeom/StepGeom_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <StepToGeom_MakeConic2d.hxx>
-#include <StepGeom_Conic.hxx>
-#include <StepGeom_Circle.hxx>
-#include <StepGeom_Ellipse.hxx>
-#include <StepGeom_Hyperbola.hxx>
-#include <StepGeom_Parabola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Conic.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
 #include <StepToGeom_MakeCircle2d.hxx>
 #include <StepToGeom_MakeEllipse2d.hxx>
 #include <StepToGeom_MakeHyperbola2d.hxx>

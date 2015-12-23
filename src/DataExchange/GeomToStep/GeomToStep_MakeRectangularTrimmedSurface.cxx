@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_RectangularTrimmedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularTrimmedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeRectangularTrimmedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #include <DataExchange/GeomToStep/GeomToStep_MakeSurface.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>

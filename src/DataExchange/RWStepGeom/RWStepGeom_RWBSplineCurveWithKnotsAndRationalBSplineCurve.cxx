@@ -14,20 +14,20 @@
 // sln 04.10.2001. BUC61003. Correction of looking for items of complex entity
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
-#include <StepGeom_BSplineCurveWithKnots.hxx>
-#include <StepGeom_RationalBSplineCurve.hxx>
-#include <StepGeom_HArray1OfCartesianPoint.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_BSplineCurveForm.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveForm.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepGeom_KnotType.hxx>
+#include <DataExchange/StepGeom/StepGeom_KnotType.hxx>
 
 #include <DataExchange/RWStepGeom/RWStepGeom_RWBSplineCurveWithKnots.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWRationalBSplineCurve.hxx>
@@ -36,7 +36,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 
 
 

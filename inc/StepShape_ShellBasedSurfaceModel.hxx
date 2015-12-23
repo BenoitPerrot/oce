@@ -11,7 +11,7 @@
 #include <Handle_StepShape_ShellBasedSurfaceModel.hxx>
 
 #include <Handle_StepShape_HArray1OfShell.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfShell;

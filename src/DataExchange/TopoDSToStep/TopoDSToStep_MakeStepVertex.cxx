@@ -25,7 +25,7 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <StepShape_VertexPoint.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>

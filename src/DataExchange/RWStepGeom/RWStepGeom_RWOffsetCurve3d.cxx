@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_OffsetCurve3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetCurve3d.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWOffsetCurve3d.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_OffsetCurve3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetCurve3d.hxx>
 
 
 RWStepGeom_RWOffsetCurve3d::RWStepGeom_RWOffsetCurve3d () {}

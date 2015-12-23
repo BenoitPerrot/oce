@@ -12,7 +12,7 @@
 
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Axis2Placement3d;
 class TCollection_HAsciiString;

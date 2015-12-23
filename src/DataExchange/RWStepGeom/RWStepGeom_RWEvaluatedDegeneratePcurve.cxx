@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_EvaluatedDegeneratePcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_EvaluatedDegeneratePcurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWEvaluatedDegeneratePcurve.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_EvaluatedDegeneratePcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_EvaluatedDegeneratePcurve.hxx>
 
 
 RWStepGeom_RWEvaluatedDegeneratePcurve::RWStepGeom_RWEvaluatedDegeneratePcurve () {}

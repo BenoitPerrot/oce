@@ -19,7 +19,7 @@
 #include <DataExchange/RWStepShape/RWStepShape_RWAdvancedFace.hxx>
 #include <StepShape_HArray1OfFaceBound.hxx>
 #include <StepShape_FaceBound.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

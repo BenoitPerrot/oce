@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSurfacePatch.hxx>
-#include <StepGeom_BoundedSurface.hxx>
-#include <StepGeom_TransitionCode.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_TransitionCode.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

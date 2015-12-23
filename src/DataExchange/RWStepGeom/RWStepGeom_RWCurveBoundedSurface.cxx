@@ -18,12 +18,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_CurveBoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWCurveBoundedSurface.hxx>
-#include <StepGeom_HArray1OfSurfaceBoundary.hxx>
-#include <StepGeom_SurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfSurfaceBoundary.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceBoundary.hxx>
 
 //=======================================================================
 //function : RWStepGeom_RWCurveBoundedSurface

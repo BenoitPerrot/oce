@@ -20,22 +20,22 @@
 //:p3 abv 23.02.99: bm4_id_punch_d.stp #1313: shift of parameters on ellipse with R1 < R2
 //    abv 09.02.99: S4136: eliminate using BRepAPI::Precision()
 
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_Line.hxx>
-#include <StepGeom_Vector.hxx>
-#include <StepGeom_Circle.hxx>
-#include <StepGeom_Ellipse.hxx>
-#include <StepGeom_Parabola.hxx>
-#include <StepGeom_Hyperbola.hxx>
-#include <StepGeom_TrimmingSelect.hxx>
-#include <StepGeom_HArray1OfTrimmingSelect.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <StepToGeom_MakeCurve.hxx>
@@ -46,7 +46,7 @@
 #include <UnitsMethods.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 
 // ----------------------------------------------------------------
 // ExtractParameter

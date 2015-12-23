@@ -13,15 +13,15 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformSurfaceAndRationalBSplineSurface.hxx>
-#include <StepGeom_QuasiUniformSurface.hxx>
-#include <StepGeom_RationalBSplineSurface.hxx>
-#include <StepGeom_HArray2OfCartesianPoint.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_BSplineSurfaceForm.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceForm.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
@@ -29,7 +29,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
 
 
 

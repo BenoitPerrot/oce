@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 #include <StepVisual_FontSelect.hxx>
 #include <StepVisual_TextLiteral.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

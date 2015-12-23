@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

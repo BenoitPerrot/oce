@@ -13,9 +13,9 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_TrimmingSelect.hxx>
-#include <StepGeom_TrimmingMember.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmingMember.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepGeom_TrimmingSelect::StepGeom_TrimmingSelect () {  }

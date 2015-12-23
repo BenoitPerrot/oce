@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_OrientedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_OrientedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_OrientedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

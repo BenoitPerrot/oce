@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_RectangularCompositeSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularCompositeSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWRectangularCompositeSurface.hxx>
-#include <StepGeom_HArray2OfSurfacePatch.hxx>
-#include <StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfSurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_RectangularCompositeSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularCompositeSurface.hxx>
 
 
 RWStepGeom_RWRectangularCompositeSurface::RWStepGeom_RWRectangularCompositeSurface () {}

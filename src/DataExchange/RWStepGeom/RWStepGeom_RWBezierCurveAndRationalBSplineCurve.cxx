@@ -13,15 +13,15 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_BezierCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierCurveAndRationalBSplineCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWBezierCurveAndRationalBSplineCurve.hxx>
-#include <StepGeom_BezierCurve.hxx>
-#include <StepGeom_RationalBSplineCurve.hxx>
-#include <StepGeom_HArray1OfCartesianPoint.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_BSplineCurveForm.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveForm.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
@@ -29,7 +29,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_BezierCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierCurveAndRationalBSplineCurve.hxx>
 
 
 

@@ -17,23 +17,23 @@
 //:n7 abv 15.02.99: S4132: adding translation of curve_replica
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <StepToGeom_MakeCurve2d.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
-#include <StepGeom_HArray1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
 #include <StepToGeom_MakeLine2d.hxx>
 #include <StepToGeom_MakeConic2d.hxx>
-#include <StepGeom_Line.hxx>
-#include <StepGeom_Conic.hxx>
-#include <StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Conic.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <StepToGeom_MakeBoundedCurve2d.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
-#include <StepGeom_CurveReplica.hxx>
-#include <StepGeom_CartesianTransformationOperator2d.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator2d.hxx>
 #include <StepToGeom_MakeTransformation2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 

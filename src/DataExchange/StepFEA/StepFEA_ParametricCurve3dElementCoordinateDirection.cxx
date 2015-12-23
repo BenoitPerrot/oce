@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepFEA/StepFEA_ParametricCurve3dElementCoordinateDirection.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

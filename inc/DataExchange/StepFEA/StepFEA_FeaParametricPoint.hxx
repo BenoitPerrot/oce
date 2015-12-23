@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_FeaParametricPoint.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <StepGeom_Point.hxx>
+#include <DataExchange/StepGeom/StepGeom_Point.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class TColStd_HArray1OfReal;
 class TCollection_HAsciiString;

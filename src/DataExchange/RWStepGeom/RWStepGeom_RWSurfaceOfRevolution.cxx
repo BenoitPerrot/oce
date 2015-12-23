@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfRevolution.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceOfRevolution.hxx>
-#include <StepGeom_Axis1Placement.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfRevolution.hxx>
 
 
 RWStepGeom_RWSurfaceOfRevolution::RWStepGeom_RWSurfaceOfRevolution () {}

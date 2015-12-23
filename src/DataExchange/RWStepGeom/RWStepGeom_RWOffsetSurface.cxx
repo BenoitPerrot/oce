@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_OffsetSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWOffsetSurface.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_OffsetSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx>
 
 
 RWStepGeom_RWOffsetSurface::RWStepGeom_RWOffsetSurface () {}

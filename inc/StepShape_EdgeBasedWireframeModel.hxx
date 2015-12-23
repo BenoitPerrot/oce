@@ -11,7 +11,7 @@
 #include <Handle_StepShape_EdgeBasedWireframeModel.hxx>
 
 #include <Handle_StepShape_HArray1OfConnectedEdgeSet.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepShape_HArray1OfConnectedEdgeSet;
 class TCollection_HAsciiString;

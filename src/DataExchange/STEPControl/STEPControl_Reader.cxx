@@ -53,8 +53,8 @@
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
-#include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
-#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>

@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <StepToGeom_MakeCircle.hxx>
-#include <StepGeom_Circle.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

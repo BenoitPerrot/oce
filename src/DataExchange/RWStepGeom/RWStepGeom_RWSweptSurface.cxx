@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSweptSurface.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 
 
 RWStepGeom_RWSweptSurface::RWStepGeom_RWSweptSurface () {}

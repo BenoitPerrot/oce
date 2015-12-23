@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <StepToTopoDS_CartesianPointHasher.hxx>
 #include <StepToTopoDS_PointVertexMap.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(StepToTopoDS_DataMapNodeOfPointVertexMap)
 
 
 #define TheKey Handle(StepGeom_CartesianPoint)
-#define TheKey_hxx <StepGeom_CartesianPoint.hxx>
+#define TheKey_hxx <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #define TheItem TopoDS_Vertex
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define Hasher StepToTopoDS_CartesianPointHasher

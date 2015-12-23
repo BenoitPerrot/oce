@@ -17,9 +17,9 @@
 //pdn 11.01.99 #144 bm1_pe_t4 protection of exceptions in draw
 //    abv 13.04.99 S4136: eliminate BRepAPI::Precision()
 
-#include <StepGeom_SurfaceCurve.hxx>
-#include <StepGeom_Surface.hxx>
-#include <StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <StepShape_Edge.hxx>
 #include <StepShape_EdgeLoop.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -31,13 +31,13 @@
 //#include <StepToTopoDS_ExtPCOnS.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
-#include <StepGeom_PcurveOrSurface.hxx>
-#include <StepGeom_Pcurve.hxx>
-#include <StepGeom_Line.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_Vector.hxx>
-#include <StepGeom_Direction.hxx>
-#include <StepGeom_SeamCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <StepShape_OrientedEdge.hxx>
 //#include <BRepAPI.hxx>

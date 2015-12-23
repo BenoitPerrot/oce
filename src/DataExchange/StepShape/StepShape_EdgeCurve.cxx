@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_Vertex.hxx>
 #include <StepShape_EdgeCurve.hxx>

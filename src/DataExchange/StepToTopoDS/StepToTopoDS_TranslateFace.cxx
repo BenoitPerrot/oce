@@ -43,7 +43,7 @@
 #include <StepShape_VertexLoop.hxx>
 #include <StepShape_EdgeLoop.hxx>
 #include <StepShape_PolyLoop.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <StepShape_FaceBound.hxx>
 #include <StepShape_FaceOuterBound.hxx>
 #include <StepShape_OrientedEdge.hxx>
@@ -83,9 +83,9 @@
 //  Provisoire, pour VertexLoop
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
-#include <StepGeom_OffsetSurface.hxx> //:d4
-#include <StepGeom_BSplineSurfaceForm.hxx>
-#include <StepGeom_BSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx> //:d4
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceForm.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurface.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

@@ -18,7 +18,7 @@
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
-#include <StepGeom_CompositeCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
 #include <STEPSelections_Counter.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
@@ -41,7 +41,7 @@
 #include <StepShape_GeometricCurveSet.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
-#include <StepGeom_CompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
 #include <StepRepr_RepresentationMap.hxx>
 
 STEPSelections_Counter::STEPSelections_Counter()

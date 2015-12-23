@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_UniformSurface.hxx>
-#include <StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_UniformSurfaceAndRationalBSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_TYPE_END(StepGeom_UniformSurfaceAndRationalBSplineSurface)
 IMPLEMENT_DOWNCAST(StepGeom_UniformSurfaceAndRationalBSplineSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepGeom_UniformSurfaceAndRationalBSplineSurface)
 
-#include <StepGeom_UniformSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformSurface.hxx>
 
-#include <StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineSurface.hxx>
 
 
 StepGeom_UniformSurfaceAndRationalBSplineSurface::StepGeom_UniformSurfaceAndRationalBSplineSurface ()  {}

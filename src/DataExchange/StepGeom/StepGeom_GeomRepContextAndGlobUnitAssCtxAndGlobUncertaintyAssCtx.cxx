@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -22,7 +22,7 @@
 #include <DataExchange/StepBasic/StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
-#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncer
 IMPLEMENT_DOWNCAST(StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx)
 
-#include <StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 

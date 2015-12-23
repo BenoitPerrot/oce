@@ -23,7 +23,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_PointPair.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

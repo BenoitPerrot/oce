@@ -18,7 +18,7 @@
 //:j7 abv 05.04.99: S4136: ass-tol2.stp #9861: avoid using CheckSurfaceClosure
 //    rln 02.06.99 removing #include <StepToGeom_CheckSurfaceClosure.hxx>
 
-#include <StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <StepToGeom_MakeBoundedSurface.hxx>
 
@@ -30,19 +30,19 @@
 #include <StepToGeom_MakeBSplineSurface.hxx>
 #include <StepToGeom_MakeRectangularTrimmedSurface.hxx>
 
-#include <StepGeom_RectangularTrimmedSurface.hxx>
-#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
-#include <StepGeom_BSplineSurfaceWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularTrimmedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnots.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
-#include <StepGeom_BezierSurface.hxx>
-#include <StepGeom_UniformSurface.hxx>
-#include <StepGeom_QuasiUniformSurface.hxx>
-#include <StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
-#include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
-#include <StepGeom_KnotType.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_KnotType.hxx>
 
 //=============================================================================
 // Creation d' une BoundedSurface de Geom a partir d' une BoundedSurface

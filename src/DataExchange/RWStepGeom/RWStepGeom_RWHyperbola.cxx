@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWHyperbola.hxx>
-#include <StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
 
 
 RWStepGeom_RWHyperbola::RWStepGeom_RWHyperbola () {}

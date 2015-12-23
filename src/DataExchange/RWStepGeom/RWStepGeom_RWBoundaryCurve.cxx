@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_BoundaryCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundaryCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWBoundaryCurve.hxx>
-#include <StepGeom_HArray1OfCompositeCurveSegment.hxx>
-#include <StepGeom_CompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfCompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_BoundaryCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundaryCurve.hxx>
 
 
 RWStepGeom_RWBoundaryCurve::RWStepGeom_RWBoundaryCurve () {}

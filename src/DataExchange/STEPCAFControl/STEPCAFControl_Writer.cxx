@@ -120,8 +120,8 @@
 #include <DataExchange/STEPConstruct/STEPConstruct_DataMapOfPointTransient.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndLengthUnit.hxx>
-#include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
-#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_AdvancedFace.hxx>

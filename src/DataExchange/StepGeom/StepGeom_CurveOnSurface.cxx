@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepGeom_Pcurve.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
-#include <StepGeom_CompositeCurveOnSurface.hxx>
-#include <StepGeom_CurveOnSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveOnSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveOnSurface.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepGeom_CurveOnSurface::StepGeom_CurveOnSurface () {  }

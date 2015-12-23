@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
-#include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepGeom_GeometricRepresentationContextAndGlobalUnit
 IMPLEMENT_DOWNCAST(StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext)
 
-#include <StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 

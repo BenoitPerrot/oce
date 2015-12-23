@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeBoundedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeBoundedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

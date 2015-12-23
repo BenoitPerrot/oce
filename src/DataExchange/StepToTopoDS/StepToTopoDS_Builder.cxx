@@ -50,12 +50,12 @@
 #include <StepShape_Shell.hxx>
 #include <StepShape_OpenShell.hxx>
 #include <StepShape_OrientedClosedShell.hxx> //:e0
-#include <StepGeom_Surface.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_CompositeCurve.hxx>
-#include <StepGeom_RectangularCompositeSurface.hxx>
-#include <StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularCompositeSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>

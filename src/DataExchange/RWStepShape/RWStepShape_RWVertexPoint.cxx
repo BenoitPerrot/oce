@@ -17,7 +17,7 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWVertexPoint.hxx>
-#include <StepGeom_Point.hxx>
+#include <DataExchange/StepGeom/StepGeom_Point.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

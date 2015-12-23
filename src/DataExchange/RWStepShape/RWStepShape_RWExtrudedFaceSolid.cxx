@@ -17,7 +17,7 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWExtrudedFaceSolid.hxx>
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <StepShape_FaceSurface.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

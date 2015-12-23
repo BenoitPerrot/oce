@@ -16,7 +16,7 @@
 
 // sln 23.10.2001. CTS23496: If problems with creation of direction occur default direction is used
 
-#include <StepGeom_Axis2Placement2d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement2d.hxx>
 #include <Geometry/Geom2d/Geom2d_AxisPlacement.hxx>
 #include <StepToGeom_MakeAxisPlacement.hxx>
 #include <StepToGeom_MakeCartesianPoint2d.hxx>

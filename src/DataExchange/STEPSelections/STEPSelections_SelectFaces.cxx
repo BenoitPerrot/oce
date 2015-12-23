@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectFaces)
 IMPLEMENT_DOWNCAST(STEPSelections_SelectFaces,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectFaces)
 #include <StepShape_FaceSurface.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <StepShape_GeometricSet.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 
 
 STEPSelections_SelectFaces::STEPSelections_SelectFaces():IFSelect_SelectExplore (-1){ }

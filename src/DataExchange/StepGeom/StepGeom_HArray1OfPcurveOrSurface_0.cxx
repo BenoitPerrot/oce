@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepGeom_HArray1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepGeom_PcurveOrSurface.hxx>
-#include <StepGeom_Array1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Array1OfPcurveOrSurface.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepGeom_HArray1OfPcurveOrSurface)
 
 
 #define ItemHArray1 StepGeom_PcurveOrSurface
-#define ItemHArray1_hxx <StepGeom_PcurveOrSurface.hxx>
+#define ItemHArray1_hxx <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
 #define TheArray1 StepGeom_Array1OfPcurveOrSurface
-#define TheArray1_hxx <StepGeom_Array1OfPcurveOrSurface.hxx>
+#define TheArray1_hxx <DataExchange/StepGeom/StepGeom_Array1OfPcurveOrSurface.hxx>
 #define TCollection_HArray1 StepGeom_HArray1OfPcurveOrSurface
-#define TCollection_HArray1_hxx <StepGeom_HArray1OfPcurveOrSurface.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
 #define Handle_TCollection_HArray1 Handle_StepGeom_HArray1OfPcurveOrSurface
 #define TCollection_HArray1_Type_() StepGeom_HArray1OfPcurveOrSurface_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

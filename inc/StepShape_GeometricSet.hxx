@@ -11,7 +11,7 @@
 #include <Handle_StepShape_GeometricSet.hxx>
 
 #include <Handle_StepShape_HArray1OfGeometricSetSelect.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfGeometricSetSelect;

@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWEllipse.hxx>
-#include <StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 
 
 RWStepGeom_RWEllipse::RWStepGeom_RWEllipse () {}

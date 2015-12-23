@@ -19,25 +19,25 @@
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 //sln 03.10.01. BUC61003. creation of  offset surface is corrected
 
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <StepToGeom_MakeSurface.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <StepToGeom_MakeSurface.hxx>
-#include <StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
 #include <StepToGeom_MakeBoundedSurface.hxx>
-#include <StepGeom_ElementarySurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
 #include <StepToGeom_MakeElementarySurface.hxx>
-#include <StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 #include <StepToGeom_MakeSweptSurface.hxx>
 
 //:d4
-#include <StepGeom_OffsetSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <StepGeom_SurfaceReplica.hxx>
-#include <StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
 #include <StepToGeom_MakeTransformation3d.hxx>
 #include <UnitsMethods.hxx>
 

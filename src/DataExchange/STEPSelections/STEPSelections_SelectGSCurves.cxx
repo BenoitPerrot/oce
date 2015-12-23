@@ -31,10 +31,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectGSCurves)
 IMPLEMENT_DOWNCAST(STEPSelections_SelectGSCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectGSCurves)
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_CompositeCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
 #include <StepShape_GeometricSet.hxx>
-#include <StepGeom_CompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
 
 static Standard_Integer flag;
 

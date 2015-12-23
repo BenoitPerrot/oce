@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWPcurve.hxx>
-#include <StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 
 
 RWStepGeom_RWPcurve::RWStepGeom_RWPcurve () {}

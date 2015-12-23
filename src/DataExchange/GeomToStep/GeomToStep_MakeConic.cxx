@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Conic.hxx>
+#include <DataExchange/StepGeom/StepGeom_Conic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeConic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepGeom_Conic.hxx>
+#include <DataExchange/StepGeom/StepGeom_Conic.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeConic.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>

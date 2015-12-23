@@ -82,21 +82,21 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/StepAP214/StepAP214_AutoDesignPresentedItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 // Removed from Rev2 to Rev4 :  <StepAP214_AutoDesignViewArea.hxx>
-#include <StepGeom_Axis1Placement.hxx>
-#include <StepGeom_Axis2Placement2d.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
-#include <StepGeom_BSplineCurve.hxx>
-#include <StepGeom_BSplineCurveWithKnots.hxx>
-#include <StepGeom_BSplineSurface.hxx>
-#include <StepGeom_BSplineSurfaceWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement2d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnots.hxx>
 #include <StepVisual_BackgroundColour.hxx>
-#include <StepGeom_BezierCurve.hxx>
-#include <StepGeom_BezierSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierSurface.hxx>
 #include <StepShape_Block.hxx>
 #include <StepShape_BooleanResult.hxx>
-#include <StepGeom_BoundaryCurve.hxx>
-#include <StepGeom_BoundedCurve.hxx>
-#include <StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundaryCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
 #include <StepShape_BoxDomain.hxx>
 #include <StepShape_BoxedHalfSpace.hxx>
 #include <StepShape_BrepWithVoids.hxx>
@@ -106,17 +106,17 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepVisual_CameraModelD2.hxx>
 #include <StepVisual_CameraModelD3.hxx>
 #include <StepVisual_CameraUsage.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_CartesianTransformationOperator.hxx>
-#include <StepGeom_CartesianTransformationOperator3d.hxx>
-#include <StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 #include <StepShape_ClosedShell.hxx>
 #include <StepVisual_Colour.hxx>
 #include <StepVisual_ColourRgb.hxx>
 #include <StepVisual_ColourSpecification.hxx>
-#include <StepGeom_CompositeCurve.hxx>
-#include <StepGeom_CompositeCurveOnSurface.hxx>
-#include <StepGeom_CompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveOnSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <StepVisual_CompositeText.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_CompositeTextWithAssociatedCurves.hxx>
@@ -124,8 +124,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <StepVisual_CompositeTextWithExtent.hxx>
 
-#include <StepGeom_Conic.hxx>
-#include <StepGeom_ConicalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Conic.hxx>
+#include <DataExchange/StepGeom/StepGeom_ConicalSurface.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <StepVisual_ContextDependentInvisibility.hxx>
 #include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
@@ -134,26 +134,26 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from Rev2 to Rev4 :  <StepShape_CsgRepresentation.hxx>
 #include <StepShape_CsgShapeRepresentation.hxx>
 #include <StepShape_CsgSolid.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_CurveBoundedSurface.hxx>
-#include <StepGeom_CurveReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CurveReplica.hxx>
 #include <StepVisual_CurveStyle.hxx>
 #include <StepVisual_CurveStyleFont.hxx>
 #include <StepVisual_CurveStyleFontPattern.hxx>
-#include <StepGeom_CylindricalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CylindricalSurface.hxx>
 #include <DataExchange/StepBasic/StepBasic_Date.hxx>
 #include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
 #include <DataExchange/StepBasic/StepBasic_DateRole.hxx>
 #include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_DefinedSymbol.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>
-#include <StepGeom_DegeneratePcurve.hxx>
-#include <StepGeom_DegenerateToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_DegeneratePcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_DegenerateToroidalSurface.hxx>
 #include <StepRepr_DescriptiveRepresentationItem.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_DimensionCurve.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_DimensionCurveTerminator.hxx>
 #include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <StepVisual_DraughtingAnnotationOccurrence.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_DraughtingCallout.hxx>
@@ -167,9 +167,9 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_Edge.hxx>
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_EdgeLoop.hxx>
-#include <StepGeom_ElementarySurface.hxx>
-#include <StepGeom_Ellipse.hxx>
-#include <StepGeom_EvaluatedDegeneratePcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_EvaluatedDegeneratePcurve.hxx>
 #include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 #include <StepVisual_ExternallyDefinedCurveFont.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_ExternallyDefinedHatchStyle.hxx>
@@ -193,8 +193,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from Rev2 to Rev4 :  <StepVisual_FillAreaStyleTiles.hxx>
 #include <StepRepr_FunctionallyDefinedTransformation.hxx>
 #include <StepShape_GeometricCurveSet.hxx>
-#include <StepGeom_GeometricRepresentationContext.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <StepShape_GeometricSet.hxx>
 #include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
 #include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
@@ -203,12 +203,12 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/StepBasic/StepBasic_Group.hxx>
 #include <DataExchange/StepBasic/StepBasic_GroupRelationship.hxx>
 #include <StepShape_HalfSpaceSolid.hxx>
-#include <StepGeom_Hyperbola.hxx>
-#include <StepGeom_IntersectionCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/StepGeom_IntersectionCurve.hxx>
 #include <StepVisual_Invisibility.hxx>
 #include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_LengthUnit.hxx>
-#include <StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/StepGeom_Line.hxx>
 #include <DataExchange/StepBasic/StepBasic_LocalTime.hxx>
 #include <StepShape_Loop.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
@@ -220,8 +220,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from Rev2 to Rev4 :  <StepVisual_MechanicalDesignPresentationArea.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 // Removed from Rev2 to Rev4 :  <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
-#include <StepGeom_OffsetCurve3d.hxx>
-#include <StepGeom_OffsetSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetCurve3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx>
 // Removed from Rev2 to Rev4 :  <StepAP214_OneDirectionRepeatFactor.hxx>
 #include <StepShape_OpenShell.hxx>
 #include <DataExchange/StepBasic/StepBasic_OrdinalDate.hxx>
@@ -233,29 +233,29 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_OrientedFace.hxx>
 #include <StepShape_OrientedOpenShell.hxx>
 #include <StepShape_OrientedPath.hxx>
-#include <StepGeom_OuterBoundaryCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_OuterBoundaryCurve.hxx>
 #include <StepVisual_OverRidingStyledItem.hxx>
-#include <StepGeom_Parabola.hxx>
+#include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
 #include <StepRepr_ParametricRepresentationContext.hxx>
 #include <StepShape_Path.hxx>
-#include <StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <DataExchange/StepBasic/StepBasic_Person.hxx>
 #include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
 #include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationRole.hxx>
 #include <DataExchange/StepBasic/StepBasic_PersonalAddress.hxx>
-#include <StepGeom_Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Placement.hxx>
 #include <StepVisual_PlanarBox.hxx>
 #include <StepVisual_PlanarExtent.hxx>
-#include <StepGeom_Plane.hxx>
+#include <DataExchange/StepGeom/StepGeom_Plane.hxx>
 #include <DataExchange/StepBasic/StepBasic_PlaneAngleMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_PlaneAngleUnit.hxx>
-#include <StepGeom_Point.hxx>
-#include <StepGeom_PointOnCurve.hxx>
-#include <StepGeom_PointOnSurface.hxx>
-#include <StepGeom_PointReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_Point.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointOnCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointOnSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointReplica.hxx>
 #include <StepVisual_PointStyle.hxx>
 #include <StepShape_PolyLoop.hxx>
-#include <StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <StepVisual_PreDefinedColour.hxx>
 #include <StepVisual_PreDefinedCurveFont.hxx>
 #include <StepVisual_PreDefinedItem.hxx>
@@ -284,15 +284,15 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/StepBasic/StepBasic_ProductType.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 #include <StepRepr_PropertyDefinitionRepresentation.hxx>
-#include <StepGeom_QuasiUniformCurve.hxx>
-#include <StepGeom_QuasiUniformSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformSurface.hxx>
 #include <DataExchange/StepBasic/StepBasic_RatioMeasureWithUnit.hxx>
-#include <StepGeom_RationalBSplineCurve.hxx>
-#include <StepGeom_RationalBSplineSurface.hxx>
-#include <StepGeom_RectangularCompositeSurface.hxx>
-#include <StepGeom_RectangularTrimmedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularCompositeSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_RectangularTrimmedSurface.hxx>
 #include <DataExchange/StepAP214/StepAP214_RepItemGroup.hxx>
-#include <StepGeom_ReparametrisedCompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/StepGeom_ReparametrisedCompositeCurveSegment.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepRepr_RepresentationItem.hxx>
@@ -302,7 +302,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_RightAngularWedge.hxx>
 #include <StepShape_RightCircularCone.hxx>
 #include <StepShape_RightCircularCylinder.hxx>
-#include <StepGeom_SeamCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassificationLevel.hxx>
 #include <StepRepr_ShapeAspect.hxx>
@@ -316,15 +316,15 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_SolidModel.hxx>
 #include <StepShape_SolidReplica.hxx>
 #include <StepShape_Sphere.hxx>
-#include <StepGeom_SphericalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 #include <StepVisual_StyledItem.hxx>
-#include <StepGeom_Surface.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
-#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
-#include <StepGeom_SurfaceOfRevolution.hxx>
-#include <StepGeom_SurfaceCurveAndBoundedCurve.hxx>
-#include <StepGeom_SurfacePatch.hxx>
-#include <StepGeom_SurfaceReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurveAndBoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceReplica.hxx>
 #include <StepVisual_SurfaceSideStyle.hxx>
 #include <StepVisual_SurfaceStyleBoundary.hxx>
 #include <StepVisual_SurfaceStyleControlGrid.hxx>
@@ -334,7 +334,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepVisual_SurfaceStyleSilhouette.hxx>
 #include <StepVisual_SurfaceStyleUsage.hxx>
 #include <StepShape_SweptAreaSolid.hxx>
-#include <StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_SymbolColour.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_SymbolRepresentation.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_SymbolRepresentationMap.hxx>
@@ -355,38 +355,38 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepVisual_TextStyleWithBoxCharacteristics.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_TextStyleWithMirror.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
-#include <StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <StepShape_Torus.hxx>
 #include <StepShape_TransitionalShapeRepresentation.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 // Removed from Rev2 to Rev4 :  <StepAP214_TwoDirectionRepeatFactor.hxx>
 #include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
-#include <StepGeom_UniformCurve.hxx>
-#include <StepGeom_UniformSurface.hxx>
-#include <StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <StepShape_Vertex.hxx>
 #include <StepShape_VertexLoop.hxx>
 #include <StepShape_VertexPoint.hxx>
 #include <StepVisual_ViewVolume.hxx>
 #include <DataExchange/StepBasic/StepBasic_WeekOfYearAndDayDate.hxx>
-#include <StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
-#include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
-#include <StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
-#include <StepGeom_BezierCurveAndRationalBSplineCurve.hxx>
-#include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
-#include <StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
-#include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
-#include <StepGeom_BezierSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierCurveAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_BezierSurfaceAndRationalBSplineSurface.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndLengthUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndPlaneAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
-#include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <StepShape_LoopAndPath.hxx>
 
 // Added by FMA
-#include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
-#include <StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
@@ -406,7 +406,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
 #include <StepVisual_CameraImage2dWithScale.hxx>
 #include <StepVisual_CameraImage3dWithScale.hxx>
-#include <StepGeom_CartesianTransformationOperator2d.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator2d.hxx>
 #include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
 #include <StepRepr_ItemDefinedTransformation.hxx>
@@ -1020,7 +1020,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepShape/RWStepShape_RWEdgeBasedWireframeShapeRepresentation.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWFaceBasedSurfaceModel.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWNonManifoldSurfaceShapeRepresentation.hxx>
-#include <StepGeom_OrientedSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_OrientedSurface.hxx>
 #include <StepShape_Subface.hxx>
 #include <StepShape_Subedge.hxx>
 #include <StepShape_SeamEdge.hxx>

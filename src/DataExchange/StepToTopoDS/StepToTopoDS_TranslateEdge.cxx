@@ -21,13 +21,13 @@
 #include <StepShape_Edge.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
@@ -56,10 +56,10 @@
 
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_OrientedEdge.hxx>
-#include <StepGeom_Curve.hxx>
-//#include <StepGeom_Polyline.hxx>
-#include <StepGeom_Pcurve.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+//#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <Transfer_TransientProcess.hxx>
 //#include <TransferBRep.hxx>
 
@@ -73,7 +73,7 @@
 
 //:d8
 #include <StepShape_VertexPoint.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 

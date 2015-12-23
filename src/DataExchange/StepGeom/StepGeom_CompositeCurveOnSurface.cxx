@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_CompositeCurveOnSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CompositeCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_CompositeCurveOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

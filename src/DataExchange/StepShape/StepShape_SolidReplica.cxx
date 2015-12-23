@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepShape_SolidModel.hxx>
-#include <StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepShape_SolidReplica.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

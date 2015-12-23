@@ -29,8 +29,8 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //#include <BRepAPI.hxx>
 
-#include <StepGeom_Point.hxx>
-#include <StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Point.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <StepShape_VertexPoint.hxx>
 #include <StepShape_Vertex.hxx>
 

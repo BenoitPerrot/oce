@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_NodeSet.hxx>
 
 #include <Handle_StepFEA_HArray1OfNodeRepresentation.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepFEA_HArray1OfNodeRepresentation;
 class TCollection_HAsciiString;

@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepGeom_PointOnCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointOnCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWPointOnCurve.hxx>
-#include <StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepGeom_PointOnCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointOnCurve.hxx>
 
 
 RWStepGeom_RWPointOnCurve::RWStepGeom_RWPointOnCurve () {}

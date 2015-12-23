@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_Axis2Placement.hxx>
-#include <StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
+#include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_Ellipse)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

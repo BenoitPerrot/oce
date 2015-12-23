@@ -16,15 +16,15 @@
 
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepGeom_ElementarySurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <StepToGeom_MakeElementarySurface.hxx>
-#include <StepGeom_ElementarySurface.hxx>
-#include <StepGeom_CylindricalSurface.hxx>
-#include <StepGeom_ConicalSurface.hxx>
-#include <StepGeom_SphericalSurface.hxx>
-#include <StepGeom_ToroidalSurface.hxx>
-#include <StepGeom_Plane.hxx>
+#include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_CylindricalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ConicalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Plane.hxx>
 #include <StepToGeom_MakeCylindricalSurface.hxx>
 #include <StepToGeom_MakeConicalSurface.hxx>
 #include <StepToGeom_MakeSphericalSurface.hxx>

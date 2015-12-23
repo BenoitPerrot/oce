@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Point.hxx>
-#include <StepGeom_CartesianTransformationOperator.hxx>
+#include <DataExchange/StepGeom/StepGeom_Point.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_PointReplica.hxx>
+#include <DataExchange/StepGeom/StepGeom_PointReplica.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_PointReplica)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

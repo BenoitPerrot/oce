@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_SphericalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeSphericalSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
-#include <StepGeom_SphericalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 

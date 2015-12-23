@@ -42,10 +42,10 @@
 
 #include <StepShape_Vertex.hxx>
 #include <StepShape_EdgeCurve.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_HArray1OfPcurveOrSurface.hxx>
-#include <StepGeom_SeamCurve.hxx>
-#include <StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 
 #include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>

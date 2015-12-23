@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepGeom_Vector.hxx>
-#include <StepGeom_Direction.hxx>
-#include <StepGeom_VectorOrDirection.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_VectorOrDirection.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepGeom_VectorOrDirection::StepGeom_VectorOrDirection () {  }

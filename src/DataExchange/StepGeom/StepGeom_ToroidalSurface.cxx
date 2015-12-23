@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_Axis2Placement3d.hxx>
-#include <StepGeom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_ToroidalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

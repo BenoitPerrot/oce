@@ -48,7 +48,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepVisual_ColourRgb.hxx>
 #include <StepVisual_FillAreaStyleColour.hxx>

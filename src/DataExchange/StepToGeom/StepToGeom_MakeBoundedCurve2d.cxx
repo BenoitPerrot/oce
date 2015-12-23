@@ -17,15 +17,15 @@
 //:n6 abv 15.02.99: S4132: adding translation of polyline
 //:p0 abv 19.02.99: management of 'done' flag improved
 
-#include <StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #include <StepToGeom_MakeBoundedCurve2d.hxx>
-#include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
-#include <StepGeom_BSplineCurveWithKnots.hxx>
-#include <StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
+#include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <StepToGeom_MakeTrimmedCurve2d.hxx>
 #include <StepToGeom_MakeBSplineCurve2d.hxx>
-#include <StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <StepToGeom_MakePolyline2d.hxx>
 
 //=============================================================================

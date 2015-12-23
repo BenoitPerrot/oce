@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepGeom_Curve.hxx>
-#include <StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_SurfaceOfLinearExtrusion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

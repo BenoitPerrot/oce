@@ -14,8 +14,8 @@
 //:n7 abv 16.02.99: treatment of CARTESIAN_TRSF_OP_3D placed to StepGeom_MkTransformed3d
 // sln 23.10.2001. CTS23496: Verifying on error creation of directions is added (StepToTopoDS_MakeTransformed::Compute(...) function)
 
-#include <StepGeom_Axis2Placement3d.hxx>
-#include <StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepRepr_MappedItem.hxx>
@@ -36,8 +36,8 @@
 //  + pour CartesianOperator3d
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
-#include <StepGeom_CartesianPoint.hxx>
-#include <StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <StepToGeom_MakeDirection.hxx>
 #include <StepToGeom_MakeTransformation3d.hxx>
