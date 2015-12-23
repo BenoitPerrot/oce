@@ -18,7 +18,7 @@
 #include <TDF_LabelMap.hxx>
 #include <TDF_DeltaList.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <TDocStd_CompoundDelta.hxx>
 #include <TDocStd_Document.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Document)
 #include <TDF_IDMap.hxx>
 #include <TDocStd_LabelIDMapDataMap.hxx>
 
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 
 // List should have a RemoveLast...
 #define TDocStd_List_RemoveLast(theList) \

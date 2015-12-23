@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(MPrsStd_AISPresentationRetrievalDriver)
 #include <PCollection_HExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================
 //function : MPrsStd_AISPresentationRetrievalDriver

@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_Document.hxx>
-#include <CDM_Application.hxx>
-#include <CDM_MetaData.hxx>
-#include <CDM_Reference.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_Reference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_Reference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

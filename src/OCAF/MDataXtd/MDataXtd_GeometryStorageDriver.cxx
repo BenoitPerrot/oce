@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MDataXtd_GeometryStorageDriver)
 #include <MDataXtd.hxx>
 #include <TDataXtd_Geometry.hxx>
 #include <PDataXtd_Geometry.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 
 //=======================================================================

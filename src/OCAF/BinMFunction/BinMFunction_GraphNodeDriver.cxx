@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMFunction/BinMFunction_GraphNodeDriver.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMFunction_GraphNodeDriver)
 IMPLEMENT_DOWNCAST(BinMFunction_GraphNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMFunction_GraphNodeDriver)
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <TFunction_GraphNode.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>

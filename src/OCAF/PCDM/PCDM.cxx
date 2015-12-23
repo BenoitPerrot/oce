@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCDM.hxx>
 #include <Foundation/Plugin/Plugin.hxx>

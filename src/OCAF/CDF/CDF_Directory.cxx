@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <OCAF/CDF/CDF_DirectoryIterator.hxx>
-#include <CDM_Document.hxx>
-#include <CDM_ListOfDocument.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_ListOfDocument.hxx>
 #include <OCAF/CDF/CDF_Directory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_Directory)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDF_Directory)
 IMPLEMENT_DOWNCAST(CDF_Directory,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDF_Directory)
-#include <CDM_ListIteratorOfListOfDocument.hxx>
+#include <OCAF/CDM/CDM_ListIteratorOfListOfDocument.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 CDF_Directory::CDF_Directory () {}
 

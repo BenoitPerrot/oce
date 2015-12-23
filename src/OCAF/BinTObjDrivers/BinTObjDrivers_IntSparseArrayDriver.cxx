@@ -16,7 +16,7 @@
 // The original implementation Copyright: (C) RINA S.p.A
 
 #include <OCAF/BinTObjDrivers/BinTObjDrivers_IntSparseArrayDriver.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TObj_TIntSparseArray.hxx>

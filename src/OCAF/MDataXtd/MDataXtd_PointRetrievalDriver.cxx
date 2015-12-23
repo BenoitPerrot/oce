@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(MDataXtd_PointRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PointRetrievalDriver)
 #include <PDataXtd_Point.hxx>
 #include <TDataXtd_Point.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_PointRetrievalDriver::MDataXtd_PointRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)
 {

@@ -16,7 +16,7 @@
 // The original implementation Copyright: (C) RINA S.p.A
 
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TDF_Tool.hxx>
 

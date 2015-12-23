@@ -21,7 +21,7 @@
 
 
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_XLinkRetrievalDriver)
 #include <PDocStd_XLink.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCollection_HAsciiString.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 #define DeclareAndSpeedCast(V,T,Vdown) Handle(T) Vdown = *((Handle(T)*)& V)
 #define DeclareConstAndSpeedCast(V,T,Vdown) const Handle(T)& Vdown = (Handle(T)&) V

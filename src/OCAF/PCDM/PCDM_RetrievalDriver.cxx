@@ -16,14 +16,14 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PCDM_DriverError.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_Document.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <PCDM_Document.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCDM_RetrievalDriver.hxx>

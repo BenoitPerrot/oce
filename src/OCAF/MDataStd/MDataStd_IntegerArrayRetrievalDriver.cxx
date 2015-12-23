@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_IntegerArrayRetrievalDriver)
 #include <PDataStd_IntegerArray.hxx>
 #include <TDataStd_IntegerArray.hxx>
 #include <MDataStd.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================
 //function : MDataStd_IntegerArrayRetrievalDriver

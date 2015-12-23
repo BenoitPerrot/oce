@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_MetaData.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDF/CDF_FWOSDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_FWOSDriver)

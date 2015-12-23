@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <XmlMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMNaming.hxx>
 
 #include <XmlMNaming_NamedShapeDriver.hxx>

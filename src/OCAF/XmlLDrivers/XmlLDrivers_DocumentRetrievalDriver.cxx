@@ -16,9 +16,9 @@
 #include <XmlMDF_ADriverTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_Document.hxx>
-#include <CDM_Document.hxx>
-#include <CDM_Application.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <XmlLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -45,8 +45,8 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #include <TDF_Data.hxx>
 #include <TDocStd_Owner.hxx>
 #include <TDocStd_Document.hxx>
-#include <CDM_MessageDriver.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <UTL.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

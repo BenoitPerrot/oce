@@ -15,7 +15,7 @@
 
 // modified     13.04.2009 Sergey ZARITCHNY
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMPrsStd/BinMPrsStd_PositionDriver.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(BinMPrsStd_PositionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMPrsStd_PositionDriver)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TDataXtd_Position.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================
 //function : BinMDataStd_PositionDriver

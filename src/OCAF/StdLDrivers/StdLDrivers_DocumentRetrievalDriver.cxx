@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <MDF_ARDriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <StdLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdLDrivers_DocumentRetrievalDriver)
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(StdLDrivers_DocumentRetrievalDriver)
 #include <MFunction.hxx>
 #include <MDocStd.hxx> 
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 //=======================================================================
 //function : StdLDrivers_DocumentRetrievalDriver
 //purpose  : 

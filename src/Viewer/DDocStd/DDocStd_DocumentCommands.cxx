@@ -21,7 +21,7 @@
 #include <TDocStd_XLinkTool.hxx>
 #include <TDF_Reference.hxx>
 #include <TDocStd_Document.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <TDocStd_Modified.hxx>
 #include <TDF_Label.hxx>
 #include <DDocStd_DrawDocument.hxx>

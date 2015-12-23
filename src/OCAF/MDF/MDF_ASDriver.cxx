@@ -21,7 +21,7 @@
 
 
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDF_ASDriver)
 IMPLEMENT_DOWNCAST(MDF_ASDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDF_ASDriver)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 //=======================================================================
 //function : MDF_ASDriver
 //purpose  : 

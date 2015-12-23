@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <CDM_ListIteratorOfListOfReferences.hxx>
+#include <OCAF/CDM/CDM_ListIteratorOfListOfReferences.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

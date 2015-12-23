@@ -18,7 +18,7 @@
 
 #include "XmlTObjDrivers_ReferenceDriver.hxx"
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Attribute.hxx>
 

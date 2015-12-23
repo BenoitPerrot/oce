@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <MDF_ASDriverHSequence.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MDF_ARDriverHSequence.hxx>
 #include <MPrsStd.hxx>
 #include <MDF_ASDriverHSequence.hxx>

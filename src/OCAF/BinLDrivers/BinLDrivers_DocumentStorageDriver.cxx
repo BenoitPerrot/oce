@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <OCAF/BinLDrivers/BinLDrivers_Marker.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <Foundation/FSD/FSD_BinaryFile.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 #include <PCDM_ReadWriter.hxx>

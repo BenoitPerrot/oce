@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <MDF_ASDriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XCAFDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFDrivers_DocumentStorageDriver)

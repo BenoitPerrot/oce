@@ -62,15 +62,15 @@ private:
 };
 
 #define Item Handle(CDM_Reference)
-#define Item_hxx <CDM_Reference.hxx>
+#define Item_hxx <OCAF/CDM/CDM_Reference.hxx>
 #define TCollection_ListNode CDM_ListNodeOfListOfReferences
-#define TCollection_ListNode_hxx <CDM_ListNodeOfListOfReferences.hxx>
+#define TCollection_ListNode_hxx <OCAF/CDM/CDM_ListNodeOfListOfReferences.hxx>
 #define TCollection_ListIterator CDM_ListIteratorOfListOfReferences
-#define TCollection_ListIterator_hxx <CDM_ListIteratorOfListOfReferences.hxx>
+#define TCollection_ListIterator_hxx <OCAF/CDM/CDM_ListIteratorOfListOfReferences.hxx>
 #define Handle_TCollection_ListNode Handle_CDM_ListNodeOfListOfReferences
 #define TCollection_ListNode_Type_() CDM_ListNodeOfListOfReferences_Type_()
 #define TCollection_List CDM_ListOfReferences
-#define TCollection_List_hxx <CDM_ListOfReferences.hxx>
+#define TCollection_List_hxx <OCAF/CDM/CDM_ListOfReferences.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 

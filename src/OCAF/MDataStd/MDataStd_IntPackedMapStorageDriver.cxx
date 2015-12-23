@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_IntPackedMapStorageDriver)
 #include <PDataStd_IntPackedMap_1.hxx>
 #include <TDataStd_IntPackedMap.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

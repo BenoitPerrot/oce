@@ -15,9 +15,9 @@
 
 #include <XmlMDF_ADriverTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlLDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlLDrivers_DocumentStorageDriver)
@@ -46,9 +46,9 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <PCDM.hxx>
 #include <PCDM_ReadWriter.hxx>
-#include <CDM_NullMessageDriver.hxx>
-#include <CDM_Document.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_NullMessageDriver.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 

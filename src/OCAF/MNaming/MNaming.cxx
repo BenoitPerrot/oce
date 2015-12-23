@@ -22,7 +22,7 @@
 
 
 #include <MDF_ASDriverHSequence.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MDF_ARDriverHSequence.hxx>
 #include <MNaming.hxx>
 
@@ -32,7 +32,7 @@
 #include <MNaming_NamingRetrievalDriver.hxx>
 #include <MNaming_NamingRetrievalDriver_1.hxx>
 #include <MNaming_NamingRetrievalDriver_2.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================
 //function : AddStorageDriver

@@ -22,14 +22,14 @@
 
 
 #include <MDF_ASDriverHSequence.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MDF_ARDriverHSequence.hxx>
 #include <PGeom_Geometry.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <MDataXtd.hxx>
 #include <MDF_ASDriverTable.hxx>
 #include <MDF_ARDriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 // Storage
 #include <MDataXtd_ShapeStorageDriver.hxx>
 #include <MDataXtd_PointStorageDriver.hxx>

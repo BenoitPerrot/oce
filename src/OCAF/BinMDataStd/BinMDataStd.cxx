@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd_IntegerDriver.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd_RealDriver.hxx>

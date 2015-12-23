@@ -28,7 +28,7 @@
 #include <MDF_ARDriverTable.hxx>
 #include <MDF_RRelocationTable.hxx>
 #include <MDF_ASDriverHSequence.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MDF_ARDriverHSequence.hxx>
 #include <MDF.hxx>
 
@@ -53,7 +53,7 @@
 #include <MDF_TagSourceRetrievalDriver.hxx>
 #include <MDF_ReferenceStorageDriver.hxx>
 #include <MDF_ReferenceRetrievalDriver.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================
 //function : FromTo

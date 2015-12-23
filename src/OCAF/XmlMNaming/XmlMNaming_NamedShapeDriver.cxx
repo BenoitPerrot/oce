@@ -15,7 +15,7 @@
 
 //AGV 150202: Changed prototype LDOM_Node::getOwnerDocument()
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <ModelingData/TopTools/TopTools_LocationSet.hxx>

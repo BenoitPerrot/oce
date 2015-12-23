@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_Reference.hxx>
-#include <CDM_MetaData.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Reference.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_Application)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDM_Application)
 IMPLEMENT_DOWNCAST(CDM_Application,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDM_Application)
-#include <CDM_NullMessageDriver.hxx>
+#include <OCAF/CDM/CDM_NullMessageDriver.hxx>
 
 //=======================================================================
 //function : SetDocumentVersion

@@ -13,7 +13,7 @@
 
 // Modified by rmi, Thu Dec  4 14:24:24 1997
 #include <OCAF/CDF/CDF_StoreList.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDF/CDF_Store.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>
@@ -25,7 +25,7 @@
 #include <PCDM_StorageDriver.hxx>
 #include <PCDM.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 
 #define theMetaDataDriver CDF_Session::CurrentSession()->MetaDataDriver()
 

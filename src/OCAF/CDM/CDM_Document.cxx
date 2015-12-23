@@ -17,18 +17,18 @@
 // Modified by rmi, Tue Nov 18 08:17:41 1997
 
 
-#include <CDM_MetaData.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <CDM_Reference.hxx>
-#include <CDM_ReferenceIterator.hxx>
+#include <OCAF/CDM/CDM_Reference.hxx>
+#include <OCAF/CDM/CDM_ReferenceIterator.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_Document)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -43,14 +43,14 @@ IMPLEMENT_STANDARD_RTTI(CDM_Document)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
-#include <CDM_PresentationDirectory.hxx>
-#include <CDM_NamesDirectory.hxx>
+#include <OCAF/CDM/CDM_PresentationDirectory.hxx>
+#include <OCAF/CDM/CDM_NamesDirectory.hxx>
 
-#include <CDM_ListOfDocument.hxx>
-#include <CDM_ListIteratorOfListOfDocument.hxx>
+#include <OCAF/CDM/CDM_ListOfDocument.hxx>
+#include <OCAF/CDM/CDM_ListIteratorOfListOfDocument.hxx>
 
 #include <UTL.hxx>
-#include <CDM_DataMapIteratorOfMetaDataLookUpTable.hxx>
+#include <OCAF/CDM/CDM_DataMapIteratorOfMetaDataLookUpTable.hxx>
 
 static CDM_PresentationDirectory& getPresentations() {
   static CDM_PresentationDirectory thePresentations;

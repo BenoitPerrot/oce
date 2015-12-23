@@ -16,7 +16,7 @@
 // modified     20.04.2009 Sergey Zaritchny
 
 #include <XmlMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMDataStd.hxx>
 
 #include <XmlMDataStd_DirectoryDriver.hxx>

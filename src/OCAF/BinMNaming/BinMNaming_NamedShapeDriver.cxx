@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinTools/BinTools_LocationSet.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
 #include <TNaming_Builder.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_Iterator.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/BinTools/BinTools_ShapeSet.hxx>

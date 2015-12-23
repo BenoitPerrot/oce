@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <CDM_Reference.hxx>
-#include <CDM_MetaData.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Reference.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_MetaDataLookUpTable.hxx>
-#include <CDM_Application.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MetaDataLookUpTable.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDM_MetaData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDM_MetaData)
 IMPLEMENT_DOWNCAST(CDM_MetaData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDM_MetaData)
-#include <CDM_MetaDataLookUpTable.hxx>
+#include <OCAF/CDM/CDM_MetaDataLookUpTable.hxx>
 
 static CDM_MetaDataLookUpTable& getLookUpTable(){
   static CDM_MetaDataLookUpTable theLookUpTable;

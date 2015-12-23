@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
-#include <CDM_Document.hxx>
-#include <CDM_MetaData.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <PCDM_ReferenceIterator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReferenceIterator)
@@ -29,8 +29,8 @@ IMPLEMENT_DOWNCAST(PCDM_ReferenceIterator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_ReferenceIterator)
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <UTL.hxx>
-#include <CDM_Document.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <PCDM_RetrievalDriver.hxx>
 #include <PCDM_Reference.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

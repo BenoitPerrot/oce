@@ -16,9 +16,9 @@
 #include <TDocStd_Document.hxx>
 #include <PDocStd_Document.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MDocStd_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDocStd_DocumentStorageDriver)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDocStd_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(MDocStd_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentStorageDriver)
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDocStd_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <MDF.hxx>

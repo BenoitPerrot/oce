@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PCDM_DriverError.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_Writer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

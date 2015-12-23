@@ -17,7 +17,7 @@
 #include <TDF_DeltaList.hxx>
 #include <Handle_TDF_Delta.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_TDocStd_CompoundDelta.hxx>

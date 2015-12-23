@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <PCDM_SequenceOfDocument.hxx>
 #include <MDF_ASDriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <StdLDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdLDrivers_DocumentStorageDriver)
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(StdLDrivers_DocumentStorageDriver)
 #include <MDF_ASDriverHSequence.hxx>
 #include <MDF_SRelocationTable.hxx>
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 
 //=======================================================================

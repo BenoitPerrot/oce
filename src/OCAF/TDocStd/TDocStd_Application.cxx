@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 #include <OCAF/CDF/CDF_Store.hxx>
 #include <TDocStd_PathParser.hxx>
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 // The improvement concerns returning value of the methods Open(), Save() and SaveAs():
 #define BUC60867

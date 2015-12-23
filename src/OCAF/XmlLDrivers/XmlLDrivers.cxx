@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XmlMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlLDrivers.hxx>
 
 #include <XmlLDrivers_DocumentStorageDriver.hxx>

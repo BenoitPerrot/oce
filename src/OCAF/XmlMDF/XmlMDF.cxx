@@ -17,7 +17,7 @@
 #include <XmlMDF_ADriverTable.hxx>
 #include <TDF_Label.hxx>
 #include <XmlMDF_MapOfDriver.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMDF.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <XmlMDF_TagSourceDriver.hxx>

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <XmlMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMDF_ADriver.hxx>
 #include <XmlDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentRetrievalDriver)
 #include <XmlMNaming_NamedShapeDriver.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <XmlMDF_ADriver.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 //=======================================================================
 //function : XmlDrivers_DocumentRetrievalDriver
 //purpose  : Constructor

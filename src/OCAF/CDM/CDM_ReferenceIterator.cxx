@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_Document.hxx>
-#include <CDM_ReferenceIterator.hxx>
-#include <CDM_Reference.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_ReferenceIterator.hxx>
+#include <OCAF/CDM/CDM_Reference.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 
 CDM_ReferenceIterator::CDM_ReferenceIterator(const Handle(CDM_Document)& aDocument):myIterator(aDocument->myToReferences){}
 

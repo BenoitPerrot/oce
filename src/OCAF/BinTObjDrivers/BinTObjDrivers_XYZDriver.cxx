@@ -17,7 +17,7 @@
 
 
 #include <OCAF/BinTObjDrivers/BinTObjDrivers_XYZDriver.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <TObj_TXYZ.hxx>

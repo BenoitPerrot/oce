@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <CDM_ListIteratorOfListOfDocument.hxx>
+#include <OCAF/CDM/CDM_ListIteratorOfListOfDocument.hxx>
 #include <Handle_CDF_Directory.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_CDM_Document.hxx>

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd_AsciiStringDriver.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMDataStd_AsciiStringDriver)
 IMPLEMENT_DOWNCAST(BinMDataStd_AsciiStringDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataStd_AsciiStringDriver)
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <TDataStd_AsciiString.hxx>
 #include <TDF_Attribute.hxx>

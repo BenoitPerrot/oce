@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <XmlMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlDrivers.hxx>
 
 #include <XmlDrivers_DocumentStorageDriver.hxx>

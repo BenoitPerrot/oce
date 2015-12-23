@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_Directory.hxx>
 
-#include <CDM_ListOfDocument.hxx>
+#include <OCAF/CDM/CDM_ListOfDocument.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -20,11 +20,11 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_Reader.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 #include <OCAF/CDF/CDF_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_Application)
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(CDF_Application)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <CDM_MetaData.hxx>
-#include <CDM_CanCloseStatus.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_CanCloseStatus.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>
 #include <OCAF/CDF/CDF_Directory.hxx>
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>

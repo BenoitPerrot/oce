@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/BinMFunction/BinMFunction.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/BinMFunction/BinMFunction_FunctionDriver.hxx>
 #include <OCAF/BinMFunction/BinMFunction_GraphNodeDriver.hxx>
 #include <OCAF/BinMFunction/BinMFunction_ScopeDriver.hxx>

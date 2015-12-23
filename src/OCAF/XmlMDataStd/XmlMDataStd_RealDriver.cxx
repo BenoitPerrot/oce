@@ -18,7 +18,7 @@
 #define OCC6010 // vro 09.06.2004
 
 #include <stdio.h>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlMDataStd_RealDriver.hxx>

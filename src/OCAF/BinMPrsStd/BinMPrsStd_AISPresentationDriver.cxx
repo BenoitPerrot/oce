@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinMPrsStd/BinMPrsStd_AISPresentationDriver.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(BinMPrsStd_AISPresentationDriver)
 #include <TPrsStd_AISPresentation.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 //=======================================================================
 //function : BinMDataStd_AISPresentationDriver
 //purpose  : Constructor

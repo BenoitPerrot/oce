@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(MDataXtd_ShapeStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_ShapeStorageDriver)
 #include <PDataXtd_Shape.hxx>
 #include <TDataXtd_Shape.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_ShapeStorageDriver::MDataXtd_ShapeStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)
 {

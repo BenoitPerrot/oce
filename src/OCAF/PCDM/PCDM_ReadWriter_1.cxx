@@ -16,9 +16,9 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <PCDM_SequenceOfReference.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_ReadWriter_1.hxx>
@@ -35,9 +35,9 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_Document.hxx>
-#include <CDM_ReferenceIterator.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
+#include <OCAF/CDM/CDM_ReferenceIterator.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>

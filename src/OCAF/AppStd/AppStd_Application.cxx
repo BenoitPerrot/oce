@@ -15,7 +15,7 @@
 
 //AGV 15/10/01 : Add XmlOcaf support; add MessageDriver support
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <OCAF/AppStd/AppStd_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AppStd_Application)
 IMPLEMENT_DOWNCAST(AppStd_Application,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AppStd_Application)
-#include <CDM_COutMessageDriver.hxx>
+#include <OCAF/CDM/CDM_COutMessageDriver.hxx>
 
 //=======================================================================
 //function : AppStd_Application

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_ExtStringArrayStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_ExtStringArrayStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ExtStringArrayStorageDriver)
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MDataStd.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <PDataStd_ExtStringArray.hxx>

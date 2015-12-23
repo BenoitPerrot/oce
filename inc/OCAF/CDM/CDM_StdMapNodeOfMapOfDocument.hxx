@@ -49,17 +49,17 @@ private:
 };
 
 #define TheKey Handle(CDM_Document)
-#define TheKey_hxx <CDM_Document.hxx>
+#define TheKey_hxx <OCAF/CDM/CDM_Document.hxx>
 #define Hasher CDM_DocumentHasher
-#define Hasher_hxx <CDM_DocumentHasher.hxx>
+#define Hasher_hxx <OCAF/CDM/CDM_DocumentHasher.hxx>
 #define TCollection_StdMapNode CDM_StdMapNodeOfMapOfDocument
-#define TCollection_StdMapNode_hxx <CDM_StdMapNodeOfMapOfDocument.hxx>
+#define TCollection_StdMapNode_hxx <OCAF/CDM/CDM_StdMapNodeOfMapOfDocument.hxx>
 #define TCollection_MapIterator CDM_MapIteratorOfMapOfDocument
-#define TCollection_MapIterator_hxx <CDM_MapIteratorOfMapOfDocument.hxx>
+#define TCollection_MapIterator_hxx <OCAF/CDM/CDM_MapIteratorOfMapOfDocument.hxx>
 #define Handle_TCollection_StdMapNode Handle_CDM_StdMapNodeOfMapOfDocument
 #define TCollection_StdMapNode_Type_() CDM_StdMapNodeOfMapOfDocument_Type_()
 #define TCollection_Map CDM_MapOfDocument
-#define TCollection_Map_hxx <CDM_MapOfDocument.hxx>
+#define TCollection_Map_hxx <OCAF/CDM/CDM_MapOfDocument.hxx>
 
 #include <Foundation/TCollection/TCollection_StdMapNode.lxx>
 

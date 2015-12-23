@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ReferenceListStorageDriver)
 #include <PDataStd_ReferenceList.hxx>
 #include <TDataStd_ReferenceList.hxx>
 #include <MDataStd.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

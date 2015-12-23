@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDF/CDF_StoreList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(CDF_StoreList)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <CDM_ReferenceIterator.hxx>
+#include <OCAF/CDM/CDM_ReferenceIterator.hxx>
 
 #include <PCDM.hxx>
 #include <PCDM_Document.hxx>

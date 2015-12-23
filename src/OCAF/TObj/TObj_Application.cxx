@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <CDM_COutMessageDriver.hxx>
+#include <OCAF/CDM/CDM_COutMessageDriver.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <stdio.h>
 

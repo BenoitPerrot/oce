@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_StoreList.hxx>
 
-#include <CDM_MapOfDocument.hxx>
-#include <CDM_ListOfDocument.hxx>
-#include <CDM_MapIteratorOfMapOfDocument.hxx>
+#include <OCAF/CDM/CDM_MapOfDocument.hxx>
+#include <OCAF/CDM/CDM_ListOfDocument.hxx>
+#include <OCAF/CDM/CDM_MapIteratorOfMapOfDocument.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

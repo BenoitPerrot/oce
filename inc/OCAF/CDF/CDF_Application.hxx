@@ -12,9 +12,9 @@
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_ReaderStatus.hxx>
-#include <CDM_Application.hxx>
+#include <OCAF/CDM/CDM_Application.hxx>
 #include <Handle_CDM_Document.hxx>
-#include <CDM_CanCloseStatus.hxx>
+#include <OCAF/CDM/CDM_CanCloseStatus.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/CDF/CDF_TypeOfActivation.hxx>
 #include <Handle_PCDM_Reader.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <MDF_ASDriverHSequence.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <MDF_ARDriverHSequence.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <MDocStd_XLinkStorageDriver.hxx>
 #include <MDocStd_XLinkRetrievalDriver.hxx>
-#include <CDM_MessageDriver.hxx>
+#include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Tool.hxx>
 static Standard_GUID StandardStorageDriver ("ad696000-5b34-11d1-b5ba-00a0c9064368");
 static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064368");

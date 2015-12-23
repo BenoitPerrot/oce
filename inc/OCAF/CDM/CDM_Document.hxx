@@ -13,7 +13,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <CDM_ListOfReferences.hxx>
+#include <OCAF/CDM/CDM_ListOfReferences.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_MetaData.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_ExtString.hxx>
 #include <Handle_Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <CDM_CanCloseStatus.hxx>
+#include <OCAF/CDM/CDM_CanCloseStatus.hxx>
 #include <Handle_CDM_Reference.hxx>
 class CDM_MetaData;
 class CDM_Application;

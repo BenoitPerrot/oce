@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <CDM_DocumentHasher.hxx>
+#include <OCAF/CDM/CDM_DocumentHasher.hxx>
 
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
  
 
 #define Key Handle(CDM_Document)
-#define Key_hxx <CDM_Document.hxx>
+#define Key_hxx <OCAF/CDM/CDM_Document.hxx>
 #define TCollection_MapHasher CDM_DocumentHasher
-#define TCollection_MapHasher_hxx <CDM_DocumentHasher.hxx>
+#define TCollection_MapHasher_hxx <OCAF/CDM/CDM_DocumentHasher.hxx>
 #include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

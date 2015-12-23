@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <CDM_MetaData.hxx>
+#include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDM_Document.hxx>
+#include <OCAF/CDM/CDM_Document.hxx>
 #include <PCDM_ReferenceIterator.hxx>
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
