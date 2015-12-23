@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <RWStepAP214.hxx>
-#include <RWHeaderSection.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection.hxx>
 
 #include <StepAP214_Protocol.hxx>
 

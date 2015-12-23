@@ -17,7 +17,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWHeaderSection_ReadWriteModule.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWHeaderSection_ReadWriteModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_ReadWriteModule)
 #include <StepData_UndefinedEntity.hxx>
 
 
-#include <RWHeaderSection_RWFileName.hxx>
-#include <RWHeaderSection_RWFileDescription.hxx>
-#include <RWHeaderSection_RWFileSchema.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection_RWFileName.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection_RWFileDescription.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection_RWFileSchema.hxx>
 
 // -- General Declarations (Recognize, StepType) ---
 

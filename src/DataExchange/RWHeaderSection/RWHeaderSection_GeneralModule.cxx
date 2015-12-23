@@ -16,7 +16,7 @@
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_CopyTool.hxx>
-#include <RWHeaderSection_GeneralModule.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWHeaderSection_GeneralModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_GeneralModule)
 
 #include <DataExchange/HeaderSection/HeaderSection.hxx>
 
-#include <RWHeaderSection.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection.hxx>
 
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

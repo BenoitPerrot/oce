@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWHeaderSection_RWFileName.hxx>
+#include <DataExchange/RWHeaderSection/RWHeaderSection_RWFileName.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
 
