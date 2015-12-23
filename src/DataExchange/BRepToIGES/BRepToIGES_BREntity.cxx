@@ -17,9 +17,9 @@
 //szv#4 S4163
 //eap: Tue Aug 29 11:02:56 2000: Shape Processing moved to upper levels
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
@@ -34,7 +34,7 @@
 
 #include <Geometry/Geom/Geom_Geometry.hxx>
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>

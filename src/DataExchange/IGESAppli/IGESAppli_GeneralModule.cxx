@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESData_DirChecker.hxx>
+#include <DataExchange/IGESData/IGESData_DirChecker.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

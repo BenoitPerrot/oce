@@ -11,7 +11,7 @@
 #include <Handle_IGESGraph_DefinitionLevel.hxx>
 
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfInteger;
 class Standard_OutOfRange;

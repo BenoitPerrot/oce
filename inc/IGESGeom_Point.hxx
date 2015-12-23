@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Handle_IGESBasic_SubfigureDef.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESBasic_SubfigureDef;
 class gp_XYZ;

@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_Group.hxx>
 
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

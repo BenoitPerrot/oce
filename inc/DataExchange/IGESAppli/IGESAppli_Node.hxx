@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Handle_IGESGeom_TransformationMatrix.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_TransfEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESGeom_TransformationMatrix;

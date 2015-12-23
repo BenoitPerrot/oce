@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
@@ -28,8 +28,8 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
 #include <Interface_Macros.hxx>
 

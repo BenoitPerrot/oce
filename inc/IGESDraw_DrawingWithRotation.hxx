@@ -14,7 +14,7 @@
 #include <Handle_TColgp_HArray1OfXY.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

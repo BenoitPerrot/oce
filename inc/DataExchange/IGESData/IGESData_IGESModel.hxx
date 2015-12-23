@@ -11,7 +11,7 @@
 #include <Handle_IGESData_IGESModel.hxx>
 
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

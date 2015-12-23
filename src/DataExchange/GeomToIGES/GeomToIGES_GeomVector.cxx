@@ -32,8 +32,8 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <IGESGeom_CopiousData.hxx>
 #include <IGESGeom_Line.hxx>

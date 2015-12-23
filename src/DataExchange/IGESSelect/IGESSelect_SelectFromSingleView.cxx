@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectFromSingleView)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectFromSingleView,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectFromSingleView)
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_Macros.hxx>
 
 

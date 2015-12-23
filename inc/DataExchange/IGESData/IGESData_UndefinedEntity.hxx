@@ -12,10 +12,10 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_UndefinedContent.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IGESData_DefType.hxx>
-#include <IGESData_DefList.hxx>
+#include <DataExchange/IGESData/IGESData_DefType.hxx>
+#include <DataExchange/IGESData/IGESData_DefList.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Handle_Interface_Check.hxx>
 class Interface_UndefinedContent;

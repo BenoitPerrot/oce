@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Graph.hxx>
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_ViewSorter)
 IMPLEMENT_DOWNCAST(IGESSelect_ViewSorter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_ViewSorter)
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Macros.hxx>
 

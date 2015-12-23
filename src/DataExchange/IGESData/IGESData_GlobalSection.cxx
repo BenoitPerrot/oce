@@ -20,7 +20,7 @@
 #include <Interface_ParamSet.hxx>
 #include <Interface_Check.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <Interface_ParamType.hxx>
 #include <Interface_FloatWriter.hxx>
 #include <Interface_FileReaderData.hxx>
@@ -28,7 +28,7 @@
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 #include <Interface_Static.hxx>
-#include <IGESData_BasicEditor.hxx>
+#include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 #include <stdio.h>
 
 // MGE 21/07/98

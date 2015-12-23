@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_ExternalReferenceFile.hxx>
 
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class Interface_HArray1OfHAsciiString;

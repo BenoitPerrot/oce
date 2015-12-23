@@ -19,7 +19,7 @@
 //S4181 pdn implementing of writing IGES elementary surfaces.
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
@@ -63,9 +63,9 @@
 
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
 
-#include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 #include <IGESGeom_CompositeCurve.hxx>
 #include <IGESGeom_Point.hxx>

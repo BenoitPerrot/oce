@@ -12,7 +12,7 @@
 
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Handle_IGESGeom_HArray1OfTransformationMatrix.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

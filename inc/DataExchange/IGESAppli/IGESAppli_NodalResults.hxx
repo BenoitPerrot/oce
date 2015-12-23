@@ -16,7 +16,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_IGESAppli_HArray1OfNode.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESAppli_Node.hxx>
 class IGESDimen_GeneralNote;
 class TColStd_HArray1OfInteger;

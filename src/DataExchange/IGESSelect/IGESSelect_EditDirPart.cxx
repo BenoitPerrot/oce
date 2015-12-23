@@ -31,15 +31,15 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_EditDirPart)
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_LineFontEntity.hxx>
-#include <IGESData_LevelListEntity.hxx>
-#include <IGESData_ViewKindEntity.hxx>
-#include <IGESData_TransfEntity.hxx>
-#include <IGESData_LabelDisplayEntity.hxx>
-#include <IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 
 
 

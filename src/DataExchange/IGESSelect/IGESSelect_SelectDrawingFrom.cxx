@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectDrawingFrom)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectDrawingFrom,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectDrawingFrom)
 #include <IGESSelect_ViewSorter.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_Macros.hxx>
 
 

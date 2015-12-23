@@ -18,7 +18,7 @@
 //szv#4 S4163
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -42,8 +42,8 @@
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
 #include <IGESGeom_CurveOnSurface.hxx>
 #include <IGESGeom_HArray1OfCurveOnSurface.hxx>

@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(IGESControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <IGESSelect_WorkLibrary.hxx>
 #include <IGESToBRep_Actor.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <IGESSolid.hxx>
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
 

@@ -12,7 +12,7 @@
 
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

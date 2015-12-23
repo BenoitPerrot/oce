@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Handle_TColgp_HArray1OfXY.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColgp_HArray1OfXY;
 class Standard_OutOfRange;

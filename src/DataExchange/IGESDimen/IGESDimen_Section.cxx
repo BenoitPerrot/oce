@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(IGESDimen_Section,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_Section)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 

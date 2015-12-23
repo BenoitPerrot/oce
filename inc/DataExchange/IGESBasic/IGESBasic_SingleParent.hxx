@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_SingleParentEntity.hxx>
+#include <DataExchange/IGESData/IGESData_SingleParentEntity.hxx>
 class IGESData_IGESEntity;
 class IGESData_HArray1OfIGESEntity;
 class Standard_OutOfRange;

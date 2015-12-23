@@ -12,13 +12,13 @@
 // commercial license or contractual agreement.
 
 //szv#9:PRO19565:04Oct99 loss of rotation matrix corrected
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_ToolLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,9 +30,9 @@ IMPLEMENT_DOWNCAST(IGESData_ToolLocation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_ToolLocation)
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Macros.hxx>
-#include <IGESData_TransfEntity.hxx>
-#include <IGESData_SingleParentEntity.hxx>
-#include <IGESData_GeneralModule.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_SingleParentEntity.hxx>
+#include <DataExchange/IGESData/IGESData_GeneralModule.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

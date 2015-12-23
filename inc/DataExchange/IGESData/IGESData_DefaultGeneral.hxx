@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_DefaultGeneral.hxx>
 
-#include <IGESData_GeneralModule.hxx>
+#include <DataExchange/IGESData/IGESData_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Interface_Check.hxx>

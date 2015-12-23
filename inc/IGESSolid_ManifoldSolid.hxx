@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESSolid_HArray1OfShell.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESSolid_Shell;
 class IGESSolid_HArray1OfShell;

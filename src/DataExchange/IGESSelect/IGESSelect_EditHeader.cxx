@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_EditHeader)
 #include <Interface_TypedValue.hxx>
 #include <Interface_Static.hxx>
 
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_GlobalSection.hxx>
-#include <IGESData_BasicEditor.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 
 
 static Standard_Boolean IsTimeStamp

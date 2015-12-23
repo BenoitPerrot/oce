@@ -17,11 +17,11 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESDraw_ConnectPoint.hxx>
 #include <IGESDraw_NetworkSubfigureDef.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

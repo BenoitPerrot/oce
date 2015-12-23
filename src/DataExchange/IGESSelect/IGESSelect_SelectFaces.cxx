@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectFaces)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectFaces,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectFaces)
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGeom_Plane.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>

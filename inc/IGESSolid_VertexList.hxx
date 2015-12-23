@@ -11,7 +11,7 @@
 #include <Handle_IGESSolid_VertexList.hxx>
 
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColgp_HArray1OfXYZ;
 class Standard_OutOfRange;

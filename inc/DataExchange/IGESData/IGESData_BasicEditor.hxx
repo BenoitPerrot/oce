@@ -14,7 +14,7 @@
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Interface_GeneralLib.hxx>
-#include <IGESData_SpecificLib.hxx>
+#include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

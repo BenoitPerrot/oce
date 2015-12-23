@@ -11,19 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceMismatch.hxx>
 #include <Interface_FloatWriter.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_GlobalSection.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESData_IGESWriter.hxx>
-#include <IGESData_DefType.hxx>
-#include <IGESData_DirPart.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_DefType.hxx>
+#include <DataExchange/IGESData/IGESData_DirPart.hxx>
 #include <Interface_ParamSet.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_EntityIterator.hxx>
@@ -32,16 +32,16 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 
-#include <IGESData_WriterLib.hxx>
-#include <IGESData_ReadWriteModule.hxx>
-#include <IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_WriterLib.hxx>
+#include <DataExchange/IGESData/IGESData_ReadWriteModule.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 
-#include <IGESData_LineFontEntity.hxx>
-#include <IGESData_LevelListEntity.hxx>
-#include <IGESData_TransfEntity.hxx>
-#include <IGESData_ViewKindEntity.hxx>
-#include <IGESData_LabelDisplayEntity.hxx>
-#include <IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_FileParameter.hxx>

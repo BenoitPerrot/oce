@@ -27,7 +27,7 @@
 
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <IGESSolid_PlaneSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
@@ -46,8 +46,8 @@
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <IGESGeom_SplineSurface.hxx>
 #include <IGESGeom_BSplineSurface.hxx>
@@ -75,7 +75,7 @@
 
 //S3767
 #include <Foundation/Message/Message_Msg.hxx>
-#include <IGESData_IGESModel.hxx> 
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx> 
 //S4181
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <IGESGeom_Point.hxx>

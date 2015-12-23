@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_ReadWriteModule.hxx>
 
-#include <IGESData_ReadWriteModule.hxx>
+#include <DataExchange/IGESData/IGESData_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>

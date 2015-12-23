@@ -13,10 +13,10 @@
 #include <Handle_IGESData_IGESModel.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
-#include <IGESData_Array1OfDirPart.hxx>
+#include <DataExchange/IGESData/IGESData_Array1OfDirPart.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IGESData_ReadStage.hxx>
+#include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Interface_LineBuffer.hxx>
 #include <Interface_FloatWriter.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

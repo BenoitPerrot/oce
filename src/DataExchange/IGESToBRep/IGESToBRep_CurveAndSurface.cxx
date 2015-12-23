@@ -18,10 +18,10 @@
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -37,7 +37,7 @@
 #include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SingularSubfigure.hxx>
 
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

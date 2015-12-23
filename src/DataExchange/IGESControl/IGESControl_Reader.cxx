@@ -14,7 +14,7 @@
 //gka 06.01.99 S3767
 //abv 10.04.99 S4136: eliminate using BRepAPI::Precision()
 #include <XSControl_WorkSession.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
@@ -23,7 +23,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 #include <Interface_Static.hxx>
 #include <Interface_Check.hxx>
@@ -42,7 +42,7 @@
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Interface_Macros.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Transfer_TransferOutput.hxx>
@@ -50,7 +50,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <IGESToBRep_Actor.hxx>
-#include <IGESData_FileProtocol.hxx>
+#include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <TransferBRep.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>

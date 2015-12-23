@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_SingleParentEntity.hxx>
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;

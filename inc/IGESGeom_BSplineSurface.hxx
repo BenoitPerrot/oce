@@ -16,7 +16,7 @@
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Handle_TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray2OfReal;
 class TColgp_HArray2OfXYZ;

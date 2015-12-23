@@ -19,22 +19,22 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESGeom_BSplineCurve.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_ParamReader.hxx>
-#include <IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_ParamReader.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESData_DirChecker.hxx>
+#include <DataExchange/IGESData/IGESData_DirChecker.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
-#include <IGESData_IGESDumper.hxx>
+#include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGeom_ToolBSplineCurve.hxx>
-#include <IGESData_ParamCursor.hxx>
+#include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
-#include <IGESData_Dump.hxx>
+#include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 
 // MGE 29/07/98

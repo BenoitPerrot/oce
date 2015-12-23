@@ -19,11 +19,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <IGESDraw_PerspectiveView.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_PerspectiveView)

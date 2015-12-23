@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
  
 
 #define Array1Item Handle(IGESData_ViewKindEntity)
-#define Array1Item_hxx <IGESData_ViewKindEntity.hxx>
+#define Array1Item_hxx <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #define TCollection_Array1 IGESDraw_Array1OfViewKindEntity
 #define TCollection_Array1_hxx <IGESDraw_Array1OfViewKindEntity.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

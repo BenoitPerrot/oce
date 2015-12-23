@@ -15,8 +15,8 @@
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IGESData_IGESType.hxx>
-#include <IGESData_ReadStage.hxx>
+#include <DataExchange/IGESData/IGESData_IGESType.hxx>
+#include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Interface_FileReaderTool.hxx>

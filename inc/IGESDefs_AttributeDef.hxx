@@ -15,7 +15,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>
 #include <Handle_Standard_Transient.hxx>

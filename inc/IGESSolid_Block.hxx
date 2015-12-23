@@ -11,7 +11,7 @@
 #include <Handle_IGESSolid_Block.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_XYZ;
 class gp_Pnt;

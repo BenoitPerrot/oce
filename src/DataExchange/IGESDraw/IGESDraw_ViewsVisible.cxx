@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_ViewKindEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESDraw_ViewsVisible.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_ViewsVisible)

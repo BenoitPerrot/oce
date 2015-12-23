@@ -17,9 +17,9 @@
 //--------------------------------------------------------------------
 
 #include <IGESGeom_TransformationMatrix.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESDraw_Planar.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_Planar)

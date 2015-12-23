@@ -12,7 +12,7 @@
 
 #include <Handle_IGESSolid_HArray1OfFace.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESSolid_Face.hxx>

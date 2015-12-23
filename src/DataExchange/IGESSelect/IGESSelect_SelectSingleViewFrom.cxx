@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectSingleViewFrom)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectSingleViewFrom,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectSingleViewFrom)
 #include <IGESSelect_ViewSorter.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_Macros.hxx>
 
 

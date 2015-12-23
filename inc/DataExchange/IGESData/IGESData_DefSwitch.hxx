@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
-#include <IGESData_DefType.hxx>
+#include <DataExchange/IGESData/IGESData_DefType.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 
 

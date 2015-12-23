@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectVisibleStatus)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectVisibleStatus,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectVisibleStatus)
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_Macros.hxx>
 
 

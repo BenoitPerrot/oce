@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_Activator)
 #include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

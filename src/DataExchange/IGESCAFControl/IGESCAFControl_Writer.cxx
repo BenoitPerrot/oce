@@ -49,7 +49,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <IGESData_NameEntity.hxx>
+#include <DataExchange/IGESData/IGESData_NameEntity.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

@@ -12,16 +12,16 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <IGESData_DefSwitch.hxx>
+#include <DataExchange/IGESData/IGESData_DefSwitch.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Interface_EntityList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IGESData_DefType.hxx>
+#include <DataExchange/IGESData/IGESData_DefType.hxx>
 #include <Handle_IGESData_LineFontEntity.hxx>
-#include <IGESData_DefList.hxx>
+#include <DataExchange/IGESData/IGESData_DefList.hxx>
 #include <Handle_IGESData_LevelListEntity.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Handle_IGESData_TransfEntity.hxx>

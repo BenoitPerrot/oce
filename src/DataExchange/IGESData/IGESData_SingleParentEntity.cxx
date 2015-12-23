@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_SingleParentEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_SingleParentEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_SingleParentEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

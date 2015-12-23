@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
  
 
 #define Array1Item Handle(IGESData_LineFontEntity)
-#define Array1Item_hxx <IGESData_LineFontEntity.hxx>
+#define Array1Item_hxx <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #define TCollection_Array1 IGESBasic_Array1OfLineFontEntity
 #define TCollection_Array1_hxx <DataExchange/IGESBasic/IGESBasic_Array1OfLineFontEntity.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>

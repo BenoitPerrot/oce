@@ -11,7 +11,7 @@
 #include <Handle_IGESBasic_Hierarchy.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
 
 //! defines Hierarchy, Type <406> Form <10>

@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESAppli_Node.hxx>
 #include <Handle_IGESDefs_HArray1OfTabularData.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESDefs_TabularData.hxx>
 class IGESAppli_Node;
 class IGESDefs_HArray1OfTabularData;

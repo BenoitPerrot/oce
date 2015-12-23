@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_AddGroup.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_AddGroup)
 #include <Interface_Check.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_Macros.hxx>
 
 

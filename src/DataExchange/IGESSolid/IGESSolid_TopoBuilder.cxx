@@ -16,7 +16,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <IGESSolid_Face.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESSolid_Loop.hxx>
 #include <IGESSolid_EdgeList.hxx>
 #include <IGESSolid_VertexList.hxx>
@@ -26,7 +26,7 @@
 #include <IGESSolid_TopoBuilder.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESSolid_HArray1OfVertexList.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>

@@ -12,7 +12,7 @@
 
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_FileProtocol.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Protocol.hxx>
 class IGESData_Protocol;

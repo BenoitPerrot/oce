@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_RebuildDrawings.hxx>
@@ -30,12 +30,12 @@ IMPLEMENT_DOWNCAST(IGESSelect_RebuildDrawings,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildDrawings)
 #include <IGESSelect_ViewSorter.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESDraw_Drawing.hxx>
 #include <IGESDraw_DrawingWithRotation.hxx>
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

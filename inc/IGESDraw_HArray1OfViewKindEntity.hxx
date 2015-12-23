@@ -70,7 +70,7 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESData_ViewKindEntity)
-#define ItemHArray1_hxx <IGESData_ViewKindEntity.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #define TheArray1 IGESDraw_Array1OfViewKindEntity
 #define TheArray1_hxx <IGESDraw_Array1OfViewKindEntity.hxx>
 #define TCollection_HArray1 IGESDraw_HArray1OfViewKindEntity

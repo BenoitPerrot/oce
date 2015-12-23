@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_Array1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_Array1OfIGESEntity.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
  
 
 #define Array1Item Handle(IGESData_IGESEntity)
-#define Array1Item_hxx <IGESData_IGESEntity.hxx>
+#define Array1Item_hxx <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #define TCollection_Array1 IGESData_Array1OfIGESEntity
-#define TCollection_Array1_hxx <IGESData_Array1OfIGESEntity.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESData/IGESData_Array1OfIGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

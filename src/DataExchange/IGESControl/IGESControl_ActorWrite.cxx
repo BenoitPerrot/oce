@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(IGESControl_ActorWrite,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Interface_Macros.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <DataExchange/BRepToIGESBRep/BRepToIGESBRep_Entity.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_LevelListEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

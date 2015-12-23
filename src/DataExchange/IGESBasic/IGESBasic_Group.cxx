@@ -18,9 +18,9 @@
 
 // ptv and rln 14.09.2000 BUC60743
 
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

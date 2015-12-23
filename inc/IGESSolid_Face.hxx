@@ -13,7 +13,7 @@
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESSolid_HArray1OfLoop.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESSolid_Loop.hxx>
 class IGESData_IGESEntity;

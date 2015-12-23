@@ -13,7 +13,7 @@
 
 //#65 rln 12.02.99 S4151 (explicitly force YYMMDD.HHMMSS before Y2000 and YYYYMMDD.HHMMSS after Y2000)
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_UpdateCreationDate.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_UpdateCreationDate,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_UpdateCreationDate)
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
-#include <IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Check.hxx>
 

@@ -19,7 +19,7 @@
 #include <IGESGeom_TransformationMatrix.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_Node)

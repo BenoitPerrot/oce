@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Interface_InterfaceError.hxx>
-#include <IGESData_ParamCursor.hxx>
+#include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Interface_InterfaceError.hxx>
 
 

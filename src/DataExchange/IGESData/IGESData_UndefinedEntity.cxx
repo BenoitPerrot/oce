@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <Interface_UndefinedContent.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_DirPart.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_DirPart.hxx>
 #include <Interface_Check.hxx>
-#include <IGESData_ParamReader.hxx>
-#include <IGESData_IGESWriter.hxx>
-#include <IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ParamReader.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_UndefinedEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_UndefinedEntity)
 IMPLEMENT_DOWNCAST(IGESData_UndefinedEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_UndefinedEntity)
-#include <IGESData_LineFontEntity.hxx>
-#include <IGESData_LevelListEntity.hxx>
-#include <IGESData_ViewKindEntity.hxx>
-#include <IGESData_TransfEntity.hxx>
-#include <IGESData_LabelDisplayEntity.hxx>
-#include <IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

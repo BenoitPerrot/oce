@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESGeom_Plane.hxx>
-#include <IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Handle_IGESData_TransfEntity.hxx>

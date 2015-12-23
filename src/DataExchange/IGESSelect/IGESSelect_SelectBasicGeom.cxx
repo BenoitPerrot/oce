@@ -15,7 +15,7 @@
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESSelect_SelectBasicGeom.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectBasicGeom)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectBasicGeom)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectBasicGeom,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBasicGeom)
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGeom_Plane.hxx>
 #include <IGESGeom_CompositeCurve.hxx>
 #include <IGESGeom_CurveOnSurface.hxx>

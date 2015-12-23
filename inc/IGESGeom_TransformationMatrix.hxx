@@ -11,7 +11,7 @@
 #include <Handle_IGESGeom_TransformationMatrix.hxx>
 
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray2OfReal;

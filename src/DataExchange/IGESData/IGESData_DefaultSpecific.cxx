@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_IGESDumper.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESData_DefaultSpecific.hxx>
+#include <DataExchange/IGESData/IGESData_DefaultSpecific.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_DefaultSpecific)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -24,11 +24,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_DefaultSpecific)
 IMPLEMENT_DOWNCAST(IGESData_DefaultSpecific,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_DefaultSpecific)
-#include <IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Interface_UndefinedContent.hxx>
-#include <IGESData_SpecificLib.hxx>
-#include <IGESData.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
+#include <DataExchange/IGESData/IGESData.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

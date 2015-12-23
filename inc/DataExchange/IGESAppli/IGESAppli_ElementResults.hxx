@@ -17,7 +17,7 @@
 #include <Handle_IGESAppli_HArray1OfFiniteElement.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfReal.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESAppli_FiniteElement.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 class IGESDimen_GeneralNote;

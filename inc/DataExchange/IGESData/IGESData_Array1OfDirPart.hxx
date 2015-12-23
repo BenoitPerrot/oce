@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item IGESData_DirPart
-#define Array1Item_hxx <IGESData_DirPart.hxx>
+#define Array1Item_hxx <DataExchange/IGESData/IGESData_DirPart.hxx>
 #define TCollection_Array1 IGESData_Array1OfDirPart
-#define TCollection_Array1_hxx <IGESData_Array1OfDirPart.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESData/IGESData_Array1OfDirPart.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

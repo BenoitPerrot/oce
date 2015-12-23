@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_Graph.hxx>
 #include <IGESSelect.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
@@ -21,8 +21,8 @@
 #include <DataExchange/IFSelect/IFSelect_ShareOut.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_Macros.hxx>
 
 

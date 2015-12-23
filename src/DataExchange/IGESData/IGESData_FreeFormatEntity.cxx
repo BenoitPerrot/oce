@@ -14,11 +14,11 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESWriter.hxx>
-#include <IGESData_FreeFormatEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_FreeFormatEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_FreeFormatEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(IGESData_FreeFormatEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_FreeFormatEntity)
 #include <Interface_UndefinedContent.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 

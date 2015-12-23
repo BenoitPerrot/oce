@@ -12,17 +12,17 @@
 // commercial license or contractual agreement.
 
 #include <Interface_Check.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_DirChecker.hxx>
-#include <IGESData_DefList.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_DirChecker.hxx>
+#include <DataExchange/IGESData/IGESData_DefList.hxx>
 #include <stdio.h>
 
 //  Pour Correct :
-#include <IGESData_ViewKindEntity.hxx>
-#include <IGESData_LineFontEntity.hxx>
-#include <IGESData_LevelListEntity.hxx>
-#include <IGESData_ColorEntity.hxx>
-#include <IGESData_LabelDisplayEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
 
 // MGE 23/07/98
 #include <Foundation/Message/Message_Msg.hxx>

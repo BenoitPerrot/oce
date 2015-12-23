@@ -18,7 +18,7 @@
 //#57 rln 25.12.98 avoid code duplication
 
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
 
@@ -52,8 +52,8 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <IGESGeom_BSplineCurve.hxx>
 #include <IGESGeom_CircularArc.hxx>

@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESBasic_SubfigureDef.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 class IGESBasic_SubfigureDef;
 
 

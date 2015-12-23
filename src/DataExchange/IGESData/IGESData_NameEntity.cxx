@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_NameEntity.hxx>
+#include <DataExchange/IGESData/IGESData_NameEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_NameEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

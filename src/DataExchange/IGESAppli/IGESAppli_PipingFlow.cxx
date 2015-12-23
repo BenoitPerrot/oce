@@ -16,12 +16,12 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESDraw_ConnectPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>

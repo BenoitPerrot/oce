@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;
 class TColStd_HArray1OfInteger;

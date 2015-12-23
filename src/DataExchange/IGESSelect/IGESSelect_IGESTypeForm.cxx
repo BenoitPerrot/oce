@@ -26,8 +26,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_IGESTypeForm)
 IMPLEMENT_DOWNCAST(IGESSelect_IGESTypeForm,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_IGESTypeForm)
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

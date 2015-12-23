@@ -13,7 +13,7 @@
 #include <Handle_IGESGeom_Line.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class IGESGeom_Line;
 class IGESData_IGESEntity;
 

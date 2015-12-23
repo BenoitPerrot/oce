@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_IGESData_IGESModel.hxx>
-#include <IGESData_SpecificLib.hxx>
+#include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Message_Messenger.hxx>

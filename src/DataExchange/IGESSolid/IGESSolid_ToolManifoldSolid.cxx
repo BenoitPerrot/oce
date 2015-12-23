@@ -18,27 +18,27 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_ParamReader.hxx>
-#include <IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_ParamReader.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESData_DirChecker.hxx>
+#include <DataExchange/IGESData/IGESData_DirChecker.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
-#include <IGESData_IGESDumper.hxx>
+#include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_ToolManifoldSolid.hxx>
-#include <IGESData_ParamCursor.hxx>
+#include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESSolid_Shell.hxx>
 #include <IGESSolid_HArray1OfShell.hxx>
-#include <IGESData_Dump.hxx>
+#include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 
 // MGE 31/07/98
 #include <Foundation/Message/Message_Msg.hxx>
-#include <IGESData_Status.hxx>
+#include <DataExchange/IGESData/IGESData_Status.hxx>
 
 IGESSolid_ToolManifoldSolid::IGESSolid_ToolManifoldSolid ()    {  }
 

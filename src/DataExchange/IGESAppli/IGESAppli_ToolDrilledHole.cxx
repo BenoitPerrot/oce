@@ -18,19 +18,19 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_DrilledHole.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_ParamReader.hxx>
-#include <IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_ParamReader.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESData_DirChecker.hxx>
+#include <DataExchange/IGESData/IGESData_DirChecker.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_CopyTool.hxx>
-#include <IGESData_IGESDumper.hxx>
+#include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_ToolDrilledHole.hxx>
-#include <IGESData_ParamCursor.hxx>
-#include <IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 
 
 IGESAppli_ToolDrilledHole::IGESAppli_ToolDrilledHole ()    {  }

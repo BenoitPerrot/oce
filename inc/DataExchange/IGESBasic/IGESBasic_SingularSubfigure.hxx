@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class IGESBasic_SubfigureDef;
 class gp_XYZ;
 

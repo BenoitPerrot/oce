@@ -14,7 +14,7 @@
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <Handle_IGESDimen_WitnessLine.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESDimen_GeneralNote;
 class IGESData_IGESEntity;

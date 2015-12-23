@@ -13,7 +13,7 @@
 #include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Handle_TColgp_HArray1OfXY.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

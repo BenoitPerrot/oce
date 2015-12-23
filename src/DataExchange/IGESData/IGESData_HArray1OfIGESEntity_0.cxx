@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_Array1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_Array1OfIGESEntity.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESData_HArray1OfIGESEntity)
 
 
 #define ItemHArray1 Handle(IGESData_IGESEntity)
-#define ItemHArray1_hxx <IGESData_IGESEntity.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #define TheArray1 IGESData_Array1OfIGESEntity
-#define TheArray1_hxx <IGESData_Array1OfIGESEntity.hxx>
+#define TheArray1_hxx <DataExchange/IGESData/IGESData_Array1OfIGESEntity.hxx>
 #define TCollection_HArray1 IGESData_HArray1OfIGESEntity
-#define TCollection_HArray1_hxx <IGESData_HArray1OfIGESEntity.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESData_HArray1OfIGESEntity
 #define TCollection_HArray1_Type_() IGESData_HArray1OfIGESEntity_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

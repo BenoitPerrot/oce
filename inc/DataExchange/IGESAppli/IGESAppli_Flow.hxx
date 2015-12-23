@@ -15,7 +15,7 @@
 #include <Handle_IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESDraw_ConnectPoint.hxx>

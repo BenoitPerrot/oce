@@ -43,8 +43,8 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_Protocol)
 #include <DataExchange/IGESBasic/IGESBasic_SingularSubfigure.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 
-#include <IGESData.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 
 static int deja = 0;
 static Handle(Standard_Type) atype01,atype02,atype03,atype04,atype05,atype06,

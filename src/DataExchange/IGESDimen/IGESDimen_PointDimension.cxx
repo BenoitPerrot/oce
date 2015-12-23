@@ -18,7 +18,7 @@
 
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGeom_CircularArc.hxx>
 #include <IGESGeom_CompositeCurve.hxx>
 #include <IGESDimen_PointDimension.hxx>

@@ -13,7 +13,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_SetGlobalParameter.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SetGlobalParameter)
 IMPLEMENT_DOWNCAST(IGESSelect_SetGlobalParameter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SetGlobalParameter)
-#include <IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <Interface_ParamSet.hxx>
 #include <Interface_FileParameter.hxx>
 #include <stdio.h>

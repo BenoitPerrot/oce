@@ -12,26 +12,26 @@
 // commercial license or contractual agreement.
 
 //#73 rln 10.03.99 S4135: "read.scale.unit" does not affect GlobalSection
-#include <IGESData_Protocol.hxx>
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_BasicEditor.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESData_GeneralModule.hxx>
-#include <IGESData_SpecificModule.hxx>
+#include <DataExchange/IGESData/IGESData_GeneralModule.hxx>
+#include <DataExchange/IGESData/IGESData_SpecificModule.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
-#include <IGESData_LineFontEntity.hxx>
-#include <IGESData_LevelListEntity.hxx>
-#include <IGESData_ViewKindEntity.hxx>
-#include <IGESData_TransfEntity.hxx>
-#include <IGESData_LabelDisplayEntity.hxx>
-#include <IGESData_ColorEntity.hxx>
-#include <IGESData_DirChecker.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/IGESData_DirChecker.hxx>
 
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>

@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Standard_Transient.hxx>
 class TCollection_HAsciiString;

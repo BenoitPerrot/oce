@@ -12,7 +12,7 @@
 
 #include <Handle_Transfer_FinderProcess.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
-#include <IGESData_BasicEditor.hxx>
+#include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

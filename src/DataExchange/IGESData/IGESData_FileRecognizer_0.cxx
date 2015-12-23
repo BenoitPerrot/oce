@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESData_FileRecognizer.hxx>
+#include <DataExchange/IGESData/IGESData_FileRecognizer.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_FileRecognizer.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_FileRecognizer.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <IGESData_IGESType.hxx>
+#include <DataExchange/IGESData/IGESData_IGESType.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(IGESData_FileRecognizer)
 
 
 #define TheKey IGESData_IGESType
-#define TheKey_hxx <IGESData_IGESType.hxx>
+#define TheKey_hxx <DataExchange/IGESData/IGESData_IGESType.hxx>
 #define Handle_TheResul Handle_IGESData_IGESEntity
 #define TheResul IGESData_IGESEntity
-#define TheResul_hxx <IGESData_IGESEntity.hxx>
+#define TheResul_hxx <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #define Interface_Recognizer IGESData_FileRecognizer
-#define Interface_Recognizer_hxx <IGESData_FileRecognizer.hxx>
+#define Interface_Recognizer_hxx <DataExchange/IGESData/IGESData_FileRecognizer.hxx>
 #define Handle_Interface_Recognizer Handle_IGESData_FileRecognizer
 #define Interface_Recognizer_Type_() IGESData_FileRecognizer_Type_()
 #include <Interface_Recognizer.gxx>

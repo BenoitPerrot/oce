@@ -19,7 +19,7 @@
 //szv#10:PRO19566:05Oct99 workaround against weights array loss
 
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
@@ -69,7 +69,7 @@
 
 #include <DataExchange/IGESConvGeom/IGESConvGeom_GeomBuilder.hxx>
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
 #include <IGESGeom_BoundedSurface.hxx>
 #include <IGESGeom_BSplineSurface.hxx>

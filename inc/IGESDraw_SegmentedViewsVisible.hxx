@@ -15,7 +15,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_IGESGraph_HArray1OfColor.hxx>
 #include <Handle_IGESBasic_HArray1OfLineFontEntity.hxx>
-#include <IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>

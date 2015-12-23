@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESDimen_GeneralNote;
 class IGESDimen_WitnessLine;

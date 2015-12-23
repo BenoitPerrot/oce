@@ -12,23 +12,23 @@
 // commercial license or contractual agreement.
 
 #include <Interface_ParamList.hxx>
-#include <IGESData_FileRecognizer.hxx>
+#include <DataExchange/IGESData/IGESData_FileRecognizer.hxx>
 #include <Interface_Check.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_DirPart.hxx>
-#include <IGESData_ParamReader.hxx>
-#include <IGESData_IGESReaderTool.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_ParamCursor.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_DirPart.hxx>
+#include <DataExchange/IGESData/IGESData_ParamReader.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderTool.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Interface_ReaderModule.hxx>
-#include <IGESData_ReadWriteModule.hxx>
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ReadWriteModule.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

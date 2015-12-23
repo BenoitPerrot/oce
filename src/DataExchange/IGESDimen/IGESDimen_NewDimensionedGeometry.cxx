@@ -16,8 +16,8 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_NewDimensionedGeometry)
 IMPLEMENT_DOWNCAST(IGESDimen_NewDimensionedGeometry,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_NewDimensionedGeometry)
-#include <IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 

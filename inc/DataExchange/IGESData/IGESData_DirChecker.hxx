@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IGESData_DefType.hxx>
+#include <DataExchange/IGESData/IGESData_DefType.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 class Interface_Check;

@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESGraph_TextFontDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESGraph_TextFontDef;
 class gp_XYZ;

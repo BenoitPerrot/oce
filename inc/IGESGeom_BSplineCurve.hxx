@@ -16,7 +16,7 @@
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class TColStd_HArray1OfReal;
 class TColgp_HArray1OfXYZ;
 class Standard_DimensionMismatch;

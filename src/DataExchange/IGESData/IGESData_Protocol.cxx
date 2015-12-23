@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,10 +26,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_Protocol)
 IMPLEMENT_DOWNCAST(IGESData_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_Protocol)
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_UndefinedEntity.hxx>
-#include <IGESData_FreeFormatEntity.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_FreeFormatEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 
 

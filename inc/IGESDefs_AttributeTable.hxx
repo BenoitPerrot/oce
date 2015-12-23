@@ -11,7 +11,7 @@
 #include <Handle_IGESDefs_AttributeTable.hxx>
 
 #include <Handle_TColStd_HArray2OfTransient.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESDefs_AttributeDef.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>

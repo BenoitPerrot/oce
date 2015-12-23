@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_LineWidening)
 IMPLEMENT_DOWNCAST(IGESAppli_LineWidening,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_LineWidening)
-#include <IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 
 
 IGESAppli_LineWidening::IGESAppli_LineWidening ()    {  }

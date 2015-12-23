@@ -15,7 +15,7 @@
 #include <Handle_IGESGraph_HArray1OfTextFontDef.hxx>
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESGeom_HArray1OfBoundary.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_IGESGeom_Boundary.hxx>
 class IGESData_IGESEntity;
 class IGESGeom_HArray1OfBoundary;

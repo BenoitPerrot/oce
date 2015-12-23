@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 
-#include <IGESData_Array1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_Array1OfIGESEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESData_IGESEntity)
-#define ItemHArray1_hxx <IGESData_IGESEntity.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #define TheArray1 IGESData_Array1OfIGESEntity
-#define TheArray1_hxx <IGESData_Array1OfIGESEntity.hxx>
+#define TheArray1_hxx <DataExchange/IGESData/IGESData_Array1OfIGESEntity.hxx>
 #define TCollection_HArray1 IGESData_HArray1OfIGESEntity
-#define TCollection_HArray1_hxx <IGESData_HArray1OfIGESEntity.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESData_HArray1OfIGESEntity
 #define TCollection_HArray1_Type_() IGESData_HArray1OfIGESEntity_Type_()
 

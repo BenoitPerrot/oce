@@ -93,7 +93,7 @@ private:
 };
 
 #define Array1Item Handle(IGESData_LineFontEntity)
-#define Array1Item_hxx <IGESData_LineFontEntity.hxx>
+#define Array1Item_hxx <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #define TCollection_Array1 IGESBasic_Array1OfLineFontEntity
 #define TCollection_Array1_hxx <DataExchange/IGESBasic/IGESBasic_Array1OfLineFontEntity.hxx>
 

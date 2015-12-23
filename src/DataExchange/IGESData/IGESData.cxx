@@ -18,15 +18,15 @@
 //#65 rln 12.02.99 S4151 (explicitly force YYMMDD.HHMMSS before Y2000 and YYYYMMDD.HHMMSS after Y2000)
 
 #include <stdio.h>
-#include <IGESData_Protocol.hxx>
-#include <IGESData.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_DefaultGeneral.hxx>
-#include <IGESData_DefaultSpecific.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_DefaultGeneral.hxx>
+#include <DataExchange/IGESData/IGESData_DefaultSpecific.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_GlobalSection.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_InterfaceModel.hxx>
 
 #include <Interface_Static.hxx>

@@ -17,14 +17,14 @@
 //rln 06.01.98 new method SetUnit
 
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dEntity.hxx>
 
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dPoint.hxx>
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dVector.hxx>
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 
 //=======================================================================

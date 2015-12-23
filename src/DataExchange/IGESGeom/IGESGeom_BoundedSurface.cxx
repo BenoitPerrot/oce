@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGeom_HArray1OfBoundary.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESGeom_Boundary.hxx>

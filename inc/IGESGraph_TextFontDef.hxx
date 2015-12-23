@@ -15,7 +15,7 @@
 #include <Handle_IGESGraph_TextFontDef.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;
 class TColStd_HArray1OfInteger;

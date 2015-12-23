@@ -82,8 +82,8 @@
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <DataExchange/IGESControl/IGESControl_Reader.hxx>
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>

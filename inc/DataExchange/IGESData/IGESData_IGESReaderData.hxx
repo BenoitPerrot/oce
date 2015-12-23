@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 
-#include <IGESData_IGESType.hxx>
+#include <DataExchange/IGESData/IGESData_IGESType.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Handle_Interface_ParamSet.hxx>
-#include <IGESData_GlobalSection.hxx>
-#include <IGESData_Array1OfDirPart.hxx>
-#include <IGESData_ReadStage.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_Array1OfDirPart.hxx>
+#include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Interface_FileReaderData.hxx>

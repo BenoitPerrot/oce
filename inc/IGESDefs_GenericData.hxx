@@ -14,7 +14,7 @@
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

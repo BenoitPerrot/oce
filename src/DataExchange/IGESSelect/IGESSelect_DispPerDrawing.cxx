@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_DispPerDrawing)
 IMPLEMENT_DOWNCAST(IGESSelect_DispPerDrawing,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_DispPerDrawing)
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <Interface_Macros.hxx>
 

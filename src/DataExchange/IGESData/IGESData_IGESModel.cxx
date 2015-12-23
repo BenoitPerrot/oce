@@ -17,13 +17,13 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESData_GlobalSection.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_IGESModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_TYPE_END(IGESData_IGESModel)
 IMPLEMENT_DOWNCAST(IGESData_IGESModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_IGESModel)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_BasicEditor.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

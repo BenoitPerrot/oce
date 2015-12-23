@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 
 #include <IGESDimen_GeneralNote.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESDimen_LeaderArrow.hxx>
 #include <IGESDimen_GeneralSymbol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

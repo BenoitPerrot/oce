@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <IGESSolid_VertexList.hxx>
 #include <IGESSolid_EdgeList.hxx>
@@ -55,9 +55,9 @@
 
 #include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <IGESGeom_Boundary.hxx>
 #include <IGESGeom_BoundedSurface.hxx>
@@ -95,7 +95,7 @@
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_IGESModel.hxx>  
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>  
 //#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <IGESToBRep_AlgoContainer.hxx>
 #include <IGESToBRep_ToolContainer.hxx>

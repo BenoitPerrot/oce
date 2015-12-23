@@ -23,9 +23,9 @@
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <IGESGraph_Color.hxx>
-#include <IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <IGESDraw_SegmentedViewsVisible.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_SegmentedViewsVisible)

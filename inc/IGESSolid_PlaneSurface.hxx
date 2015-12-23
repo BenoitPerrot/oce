@@ -12,7 +12,7 @@
 
 #include <Handle_IGESGeom_Point.hxx>
 #include <Handle_IGESGeom_Direction.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESGeom_Point;
 class IGESGeom_Direction;

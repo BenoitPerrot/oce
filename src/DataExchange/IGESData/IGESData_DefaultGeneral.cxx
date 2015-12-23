@@ -11,14 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESData_DirChecker.hxx>
+#include <DataExchange/IGESData/IGESData_DirChecker.hxx>
 #include <Interface_ShareTool.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_CopyTool.hxx>
-#include <IGESData_DefaultGeneral.hxx>
+#include <DataExchange/IGESData/IGESData_DefaultGeneral.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_DefaultGeneral)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,13 +30,13 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_DefaultGeneral)
 IMPLEMENT_DOWNCAST(IGESData_DefaultGeneral,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_DefaultGeneral)
-#include <IGESData_UndefinedEntity.hxx>
-#include <IGESData_FreeFormatEntity.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_FreeFormatEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Interface_UndefinedContent.hxx>
 #include <Interface_GeneralLib.hxx>
-#include <IGESData.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Interface_Macros.hxx>
 
 

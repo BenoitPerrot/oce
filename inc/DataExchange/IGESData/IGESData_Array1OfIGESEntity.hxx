@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESData_IGESEntity)
-#define Array1Item_hxx <IGESData_IGESEntity.hxx>
+#define Array1Item_hxx <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #define TCollection_Array1 IGESData_Array1OfIGESEntity
-#define TCollection_Array1_hxx <IGESData_Array1OfIGESEntity.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESData/IGESData_Array1OfIGESEntity.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

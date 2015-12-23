@@ -18,7 +18,7 @@
 #include <Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Handle_TColgp_HArray1OfXYZ.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

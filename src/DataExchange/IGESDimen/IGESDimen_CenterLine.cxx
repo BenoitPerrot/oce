@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDimen_CenterLine)
 IMPLEMENT_DOWNCAST(IGESDimen_CenterLine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_CenterLine)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 
 

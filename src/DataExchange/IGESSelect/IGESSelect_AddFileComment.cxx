@@ -16,7 +16,7 @@
 
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
-#include <IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESSelect_AddFileComment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

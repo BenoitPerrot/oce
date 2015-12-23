@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 
  
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray1OfHArray1OfIGESEntity)
 
 #define Handle_TheKey Handle_IGESData_HArray1OfIGESEntity
 #define TheKey IGESData_HArray1OfIGESEntity
-#define TheKey_hxx <IGESData_HArray1OfIGESEntity.hxx>
+#define TheKey_hxx <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #define Interface_JaggedArray IGESBasic_HArray1OfHArray1OfIGESEntity
 #define Interface_JaggedArray_hxx <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 #define Handle_Interface_JaggedArray Handle_IGESBasic_HArray1OfHArray1OfIGESEntity

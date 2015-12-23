@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;
 

@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESSolid_HArray1OfLoop.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESSolid_Loop.hxx>

@@ -14,7 +14,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_IGESAppli_HArray1OfNode.hxx>
 #include <Handle_IGESBasic_HArray1OfHArray1OfXYZ.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESAppli_Node.hxx>

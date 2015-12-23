@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class TCollection_HAsciiString;
 class TColStd_HArray1OfInteger;
 class Standard_OutOfRange;

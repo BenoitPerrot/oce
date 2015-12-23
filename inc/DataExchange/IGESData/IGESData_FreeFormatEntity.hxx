@@ -11,7 +11,7 @@
 #include <Handle_IGESData_FreeFormatEntity.hxx>
 
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Interface_ParamType.hxx>

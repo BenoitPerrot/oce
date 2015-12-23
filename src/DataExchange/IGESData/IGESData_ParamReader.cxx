@@ -15,9 +15,9 @@
 #include <Interface_ParamList.hxx>
 #include <Interface_Check.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_ParamCursor.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
@@ -26,16 +26,16 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_EntityList.hxx>
-#include <IGESData_ParamReader.hxx>
-#include <IGESData_IGESType.hxx>
+#include <DataExchange/IGESData/IGESData_ParamReader.hxx>
+#include <DataExchange/IGESData/IGESData_IGESType.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_FileReaderData.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
 #include <stdio.h>
-#include <IGESData_Status.hxx>
+#include <DataExchange/IGESData/IGESData_Status.hxx>
 
 // MGE 03/08/98
 #include <Foundation/Message/Message_Msg.hxx>

@@ -19,8 +19,8 @@
 #include <IGESDefs_SpecificModule.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
-#include <IGESData_WriterLib.hxx>
-#include <IGESData_SpecificLib.hxx>
+#include <DataExchange/IGESData/IGESData_WriterLib.hxx>
+#include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <IGESGraph.hxx>
 
 //  Ancillary data to work on a Package of IGES Entities with a Protocol

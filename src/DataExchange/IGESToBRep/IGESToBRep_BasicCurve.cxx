@@ -27,7 +27,7 @@
 
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <IGESGeom_BSplineCurve.hxx>
 #include <IGESGeom_CircularArc.hxx>
@@ -75,8 +75,8 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <IGESGeom_BSplineCurve.hxx>
 #include <IGESGeom_CircularArc.hxx>

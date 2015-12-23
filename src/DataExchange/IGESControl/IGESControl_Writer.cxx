@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <Transfer_FinderProcess.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESControl/IGESControl_Writer.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
@@ -30,7 +30,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
-#include <IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <XSControl_TransferWriter.hxx>
 
 #include <Interface_Macros.hxx>

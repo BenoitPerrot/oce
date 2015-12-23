@@ -17,9 +17,9 @@
 #ifndef IGESFile_Read_HeaderFile
 #define IGESFile_Read_HeaderFile
 
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_FileRecognizer.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_FileRecognizer.hxx>
 
 
 Standard_EXPORT Standard_Integer IGESFile_Read

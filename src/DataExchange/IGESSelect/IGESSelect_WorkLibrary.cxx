@@ -16,7 +16,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
@@ -37,10 +37,10 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
 #include <IGESDefs.hxx>
 
-#include <IGESData_IGESWriter.hxx>
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_FileProtocol.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <IGESFile_Read.hxx>
 #include <IGESSelect_Dumper.hxx>
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <IGESSelect_FileModifier.hxx>
 
 #include <Interface_ReportEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_IGESDumper.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 
 #include <Interface_Check.hxx>
 

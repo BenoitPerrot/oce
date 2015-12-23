@@ -15,11 +15,11 @@
 #include <Interface_FileReaderData.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_IGESReaderData.hxx>
-#include <IGESData_ParamReader.hxx>
-#include <IGESData_IGESWriter.hxx>
-#include <IGESData_ReadWriteModule.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_ParamReader.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_ReadWriteModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESData_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_ReadWriteModule)
-#include <IGESData_IGESType.hxx>
+#include <DataExchange/IGESData/IGESData_IGESType.hxx>
 #include <Interface_Macros.hxx>
 
 

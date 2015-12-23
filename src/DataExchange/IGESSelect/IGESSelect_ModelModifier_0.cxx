@@ -7,8 +7,8 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Protocol.hxx>
@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_ModelModifier)
 
 #define Handle_Model Handle_IGESData_IGESModel
 #define Model IGESData_IGESModel
-#define Model_hxx <IGESData_IGESModel.hxx>
+#define Model_hxx <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #define Handle_Proto Handle_IGESData_Protocol
 #define Proto IGESData_Protocol
-#define Proto_hxx <IGESData_Protocol.hxx>
+#define Proto_hxx <DataExchange/IGESData/IGESData_Protocol.hxx>
 #define IFSelect_ModelModifier IGESSelect_ModelModifier
 #define IFSelect_ModelModifier_hxx <IGESSelect_ModelModifier.hxx>
 #define Handle_IFSelect_ModelModifier Handle_IGESSelect_ModelModifier

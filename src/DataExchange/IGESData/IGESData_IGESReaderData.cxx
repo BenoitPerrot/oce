@@ -14,10 +14,10 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Interface_ParamSet.hxx>
 #include <Interface_Check.hxx>
-#include <IGESData_GlobalSection.hxx>
-#include <IGESData_DirPart.hxx>
-#include <IGESData_IGESType.hxx>
-#include <IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_DirPart.hxx>
+#include <DataExchange/IGESData/IGESData_IGESType.hxx>
+#include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_IGESReaderData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_IGESReaderData)
 IMPLEMENT_DOWNCAST(IGESData_IGESReaderData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_IGESReaderData)
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Interface_FileParameter.hxx>
 #include <Interface_ParamList.hxx>
 #include <Interface_ParamType.hxx>

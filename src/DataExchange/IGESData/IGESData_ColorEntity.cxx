@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_ColorEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

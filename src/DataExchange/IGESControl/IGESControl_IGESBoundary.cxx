@@ -26,9 +26,9 @@
 //scale factors the transformation matrix and scale factor used)
 
 #include <IGESToBRep_CurveAndSurface.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESControl/IGESControl_IGESBoundary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_IGESBoundary)

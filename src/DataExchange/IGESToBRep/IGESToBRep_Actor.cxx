@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_TYPE_END(IGESToBRep_Actor)
 IMPLEMENT_DOWNCAST(IGESToBRep_Actor,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 #include <IGESToBRep.hxx>
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_IGESModel.hxx>
-#include <IGESData_GlobalSection.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>

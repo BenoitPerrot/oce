@@ -138,7 +138,7 @@ private:
 };
 
 
-#include <IGESData_ParamCursor.lxx>
+#include <DataExchange/IGESData/IGESData_ParamCursor.lxx>
 
 
 

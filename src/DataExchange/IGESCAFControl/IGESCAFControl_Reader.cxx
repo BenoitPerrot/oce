@@ -22,7 +22,7 @@
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <XCAFDoc_ColorTool.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Transfer_Binder.hxx>
 #include <TransferBRep.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -36,7 +36,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <XCAFDoc_LayerTool.hxx>
-#include <IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <XCAFDoc_ShapeMapTool.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>

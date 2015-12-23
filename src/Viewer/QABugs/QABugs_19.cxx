@@ -1961,7 +1961,7 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
 
 #include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <OCAF/PTopoDS/PTopoDS_HShape.hxx>

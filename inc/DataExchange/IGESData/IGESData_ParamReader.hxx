@@ -13,7 +13,7 @@
 #include <Handle_Interface_ParamList.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IGESData_ReadStage.hxx>
+#include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Interface_ParamType.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
@@ -21,7 +21,7 @@
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <IGESData_Status.hxx>
+#include <DataExchange/IGESData/IGESData_Status.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>

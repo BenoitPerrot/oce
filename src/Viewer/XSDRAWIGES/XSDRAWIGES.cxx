@@ -21,13 +21,13 @@
 
 #include <DataExchange/IGESControl/IGESControl_Writer.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
-#include <IGESData_BasicEditor.hxx>
+#include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 
-#include <IGESData.hxx>
-#include <IGESData_Protocol.hxx>
-// #include <IGESData_IGESWriter.hxx>
-#include <IGESData_IGESEntity.hxx>         // pour igeslist
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+// #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>         // pour igeslist
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 #include <Interface_Check.hxx>
 #include <Interface_CheckTool.hxx>

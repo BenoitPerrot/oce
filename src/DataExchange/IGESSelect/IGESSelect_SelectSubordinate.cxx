@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectSubordinate)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectSubordinate,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectSubordinate)
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Interface_Macros.hxx>
 
 

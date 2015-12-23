@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESDefs_GenericData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_GenericData)
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDefs_GenericData)
 IMPLEMENT_DOWNCAST(IGESDefs_GenericData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_GenericData)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Interface_Macros.hxx>
 

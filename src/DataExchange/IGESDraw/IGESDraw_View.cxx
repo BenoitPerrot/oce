@@ -18,8 +18,8 @@
 
 #include <IGESGeom_Plane.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESData_ViewKindEntity.hxx>
-#include <IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <IGESDraw_View.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

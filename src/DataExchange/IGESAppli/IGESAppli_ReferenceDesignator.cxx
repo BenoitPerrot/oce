@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_ReferenceDesignator)
 IMPLEMENT_DOWNCAST(IGESAppli_ReferenceDesignator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_ReferenceDesignator)
-#include <IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 
 
 IGESAppli_ReferenceDesignator::IGESAppli_ReferenceDesignator ()    {  }

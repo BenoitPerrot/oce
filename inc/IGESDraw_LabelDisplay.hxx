@@ -15,7 +15,7 @@
 #include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_LabelDisplayEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>

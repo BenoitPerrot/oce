@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectPCurves)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectPCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectPCurves)
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGeom_CurveOnSurface.hxx>
 #include <IGESGeom_TrimmedSurface.hxx>
 #include <IGESGeom_BoundedSurface.hxx>

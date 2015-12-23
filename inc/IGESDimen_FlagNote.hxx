@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 class IGESDimen_GeneralNote;

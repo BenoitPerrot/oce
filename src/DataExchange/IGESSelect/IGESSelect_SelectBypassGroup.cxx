@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectBypassGroup)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectBypassGroup,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBypassGroup)
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_GroupWithoutBackP.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_OrderedGroup.hxx>

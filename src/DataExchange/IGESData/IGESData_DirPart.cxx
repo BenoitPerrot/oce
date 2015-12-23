@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESType.hxx>
-#include <IGESData_DirPart.hxx>
+#include <DataExchange/IGESData/IGESData_IGESType.hxx>
+#include <DataExchange/IGESData/IGESData_DirPart.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_DirPart)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

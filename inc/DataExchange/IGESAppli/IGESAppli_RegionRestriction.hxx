@@ -11,7 +11,7 @@
 #include <Handle_IGESAppli_RegionRestriction.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
 
 //! defines RegionRestriction, Type <406> Form <2>

@@ -27,7 +27,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

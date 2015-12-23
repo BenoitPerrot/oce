@@ -13,7 +13,7 @@
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESGeom_CircularArc.hxx>
 #include <Handle_IGESGeom_CompositeCurve.hxx>

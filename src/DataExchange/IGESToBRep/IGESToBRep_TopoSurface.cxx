@@ -31,7 +31,7 @@
 
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGeom_RuledSurface.hxx>
 #include <IGESGeom_SurfaceOfRevolution.hxx>
 #include <IGESGeom_TabulatedCylinder.hxx>
@@ -85,8 +85,8 @@
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <IGESGeom_BSplineSurface.hxx>
 #include <IGESGeom_BoundedSurface.hxx>
@@ -154,7 +154,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 //S3767
 #include <Foundation/Message/Message_Msg.hxx>
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 #include <IGESGeom_CircularArc.hxx>
 #include <ElCLib.hxx>

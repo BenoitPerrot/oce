@@ -17,10 +17,10 @@
 //rln 06.01.98 new method SetUnit
 
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 
 //=======================================================================

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_TransfEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

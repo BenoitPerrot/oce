@@ -12,7 +12,7 @@
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

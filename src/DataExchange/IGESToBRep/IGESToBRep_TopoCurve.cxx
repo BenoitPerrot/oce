@@ -27,7 +27,7 @@
 
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
@@ -75,9 +75,9 @@
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 
-#include <IGESData_IGESEntity.hxx>
-#include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
 #include <IGESGeom_CompositeCurve.hxx>
 #include <IGESGeom_CurveOnSurface.hxx>
@@ -119,7 +119,7 @@
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESData_IGESModel.hxx>  
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>  
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <IGESToBRep.hxx>

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_DefSwitch.hxx>
+#include <DataExchange/IGESData/IGESData_DefSwitch.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_DefSwitch)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

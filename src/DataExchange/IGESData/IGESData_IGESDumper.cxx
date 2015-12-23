@@ -11,18 +11,18 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_InterfaceError.hxx>
-#include <IGESData_Protocol.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESData_IGESDumper.hxx>
+#include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_MSG.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESData_SpecificLib.hxx>
-#include <IGESData_SpecificModule.hxx>
+#include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
+#include <DataExchange/IGESData/IGESData_SpecificModule.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 

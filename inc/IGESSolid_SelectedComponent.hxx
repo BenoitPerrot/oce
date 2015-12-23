@@ -12,7 +12,7 @@
 
 #include <Handle_IGESSolid_BooleanTree.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class IGESSolid_BooleanTree;
 class gp_XYZ;
 class gp_Pnt;

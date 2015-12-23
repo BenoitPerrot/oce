@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IGESData_IGESWriter.hxx>
+#include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_FileModifier)
 
 
 #define Writer IGESData_IGESWriter
-#define Writer_hxx <IGESData_IGESWriter.hxx>
+#define Writer_hxx <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #define IFSelect_FileModifier IGESSelect_FileModifier
 #define IFSelect_FileModifier_hxx <IGESSelect_FileModifier.hxx>
 #define Handle_IFSelect_FileModifier Handle_IGESSelect_FileModifier
