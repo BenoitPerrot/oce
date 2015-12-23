@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(StdDrivers_DocumentStorageDriver)
 #include <OCAF/MDataStd/MDataStd.hxx> 
 #include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <MNaming.hxx>  
-#include <MDocStd.hxx> 
+#include <OCAF/MDocStd/MDocStd.hxx> 
 #include <MPrsStd.hxx>
 #include <MFunction.hxx>
 

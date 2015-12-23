@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFDrivers_DocumentRetrievalDriver.hxx>
 
-#include <MDocStd_DocumentRetrievalDriver.hxx>
+#include <OCAF/MDocStd/MDocStd_DocumentRetrievalDriver.hxx>
 #include <Handle_MDF_ARDriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 class MDF_ARDriverTable;

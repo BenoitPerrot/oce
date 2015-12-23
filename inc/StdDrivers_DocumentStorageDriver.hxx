@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdDrivers_DocumentStorageDriver.hxx>
 
-#include <MDocStd_DocumentStorageDriver.hxx>
+#include <OCAF/MDocStd/MDocStd_DocumentStorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Handle_MDF_ASDriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>

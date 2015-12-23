@@ -19,7 +19,7 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <MDocStd_DocumentStorageDriver.hxx>
+#include <OCAF/MDocStd/MDocStd_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDocStd_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

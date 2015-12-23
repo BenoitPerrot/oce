@@ -19,12 +19,12 @@
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <MDocStd.hxx>
-#include <MDocStd_DocumentStorageDriver.hxx>
-#include <MDocStd_DocumentRetrievalDriver.hxx>
+#include <OCAF/MDocStd/MDocStd.hxx>
+#include <OCAF/MDocStd/MDocStd_DocumentStorageDriver.hxx>
+#include <OCAF/MDocStd/MDocStd_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <MDocStd_XLinkStorageDriver.hxx>
-#include <MDocStd_XLinkRetrievalDriver.hxx>
+#include <OCAF/MDocStd/MDocStd_XLinkStorageDriver.hxx>
+#include <OCAF/MDocStd/MDocStd_XLinkRetrievalDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Tool.hxx>
 static Standard_GUID StandardStorageDriver ("ad696000-5b34-11d1-b5ba-00a0c9064368");
@@ -32,10 +32,10 @@ static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064
 
 /* ======= not used functionality ======
 //#include <TDocStd_Document.hxx>
-//#include <MDocStd_PersistentMap.hxx>
+//#include <OCAF/MDocStd/MDocStd_PersistentMap.hxx>
 //#include <TDocStd_XLink.hxx>
 //#include <TDocStd_XLinkIterator.hxx>
-//#include <MDocStd_ListIteratorOfDocEntryList.hxx>
+//#include <OCAF/MDocStd/MDocStd_ListIteratorOfDocEntryList.hxx>
 //#include <TDF_Label.hxx>
 //#include <TDF_ChildIterator.hxx>
 //#include <TNaming_NamedShape.hxx>

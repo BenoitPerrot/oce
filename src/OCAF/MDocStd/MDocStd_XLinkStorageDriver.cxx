@@ -26,7 +26,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <MDocStd_XLinkStorageDriver.hxx>
+#include <OCAF/MDocStd/MDocStd_XLinkStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDocStd_XLinkStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
