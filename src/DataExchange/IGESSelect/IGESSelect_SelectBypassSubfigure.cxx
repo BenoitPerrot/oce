@@ -32,10 +32,10 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBypassSubfigure)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SingularSubfigure.hxx>
-#include <IGESDraw_NetworkSubfigureDef.hxx>
-#include <IGESDraw_NetworkSubfigure.hxx>
-#include <IGESDraw_RectArraySubfigure.hxx>
-#include <IGESDraw_CircArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_RectArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_CircArraySubfigure.hxx>
 
 #include <Interface_Macros.hxx>
 

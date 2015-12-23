@@ -33,8 +33,8 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
-#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>

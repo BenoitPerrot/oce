@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_Array1OfConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Array1OfConnectPoint.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
  
 
 #define Array1Item Handle(IGESDraw_ConnectPoint)
-#define Array1Item_hxx <IGESDraw_ConnectPoint.hxx>
+#define Array1Item_hxx <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
 #define TCollection_Array1 IGESDraw_Array1OfConnectPoint
-#define TCollection_Array1_hxx <IGESDraw_Array1OfConnectPoint.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESDraw/IGESDraw_Array1OfConnectPoint.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

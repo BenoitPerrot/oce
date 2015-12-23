@@ -47,9 +47,9 @@ IMPLEMENT_STANDARD_RTTI(IGESAppli_Protocol)
 #include <DataExchange/IGESAppli/IGESAppli_NodalConstraint.hxx>
 
 #include <DataExchange/IGESDefs/IGESDefs.hxx>
-#include <IGESDraw.hxx>
+#include <DataExchange/IGESDraw/IGESDraw.hxx>
 #include <DataExchange/IGESDefs/IGESDefs_Protocol.hxx>
-#include <IGESDraw_Protocol.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Protocol.hxx>
 
 
 static int deja = 0;

@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESDraw_ViewsVisibleWithAttr.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ViewsVisibleWithAttr.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,13 +28,13 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESDraw_ToolViewsVisibleWithAttr.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolViewsVisibleWithAttr.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGraph_Color.hxx>
 #include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
-#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <IGESGraph_HArray1OfColor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>

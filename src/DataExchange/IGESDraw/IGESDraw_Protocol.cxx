@@ -13,7 +13,7 @@
 
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <IGESDraw_Protocol.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,21 +26,21 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDraw_Protocol)
 IMPLEMENT_DOWNCAST(IGESDraw_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_Protocol)
 
-#include <IGESDraw_CircArraySubfigure.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
-#include <IGESDraw_Drawing.hxx>
-#include <IGESDraw_DrawingWithRotation.hxx>
-#include <IGESDraw_Protocol.hxx>
-#include <IGESDraw_LabelDisplay.hxx>
-#include <IGESDraw_NetworkSubfigure.hxx>
-#include <IGESDraw_NetworkSubfigureDef.hxx>
-#include <IGESDraw_PerspectiveView.hxx>
-#include <IGESDraw_Planar.hxx>
-#include <IGESDraw_RectArraySubfigure.hxx>
-#include <IGESDraw_SegmentedViewsVisible.hxx>
-#include <IGESDraw_View.hxx>
-#include <IGESDraw_ViewsVisible.hxx>
-#include <IGESDraw_ViewsVisibleWithAttr.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_CircArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Drawing.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_DrawingWithRotation.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Protocol.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_LabelDisplay.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Planar.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_RectArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_SegmentedViewsVisible.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_View.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ViewsVisible.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ViewsVisibleWithAttr.hxx>
 
 #include <DataExchange/IGESDimen/IGESDimen.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_Protocol.hxx>

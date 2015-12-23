@@ -19,11 +19,11 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
-#include <IGESDraw_NetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigureDef.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_NetworkSubfigureDef)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

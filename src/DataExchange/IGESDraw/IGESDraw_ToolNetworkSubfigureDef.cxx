@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESDraw_NetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigureDef.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,14 +28,14 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESDraw_ToolNetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolNetworkSubfigureDef.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

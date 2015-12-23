@@ -21,7 +21,7 @@
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_ConnectPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

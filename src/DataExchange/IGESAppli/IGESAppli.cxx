@@ -22,7 +22,7 @@
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <DataExchange/IGESDefs/IGESDefs.hxx>
-#include <IGESDraw.hxx>
+#include <DataExchange/IGESDraw/IGESDraw.hxx>
 
 
 //  Ancillary data to work on a Package of IGES Entities with a Protocol

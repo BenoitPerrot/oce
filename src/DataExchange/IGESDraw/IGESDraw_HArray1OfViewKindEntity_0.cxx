@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
-#include <IGESDraw_Array1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(IGESDraw_HArray1OfViewKindEntity)
 #define ItemHArray1 Handle(IGESData_ViewKindEntity)
 #define ItemHArray1_hxx <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #define TheArray1 IGESDraw_Array1OfViewKindEntity
-#define TheArray1_hxx <IGESDraw_Array1OfViewKindEntity.hxx>
+#define TheArray1_hxx <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 #define TCollection_HArray1 IGESDraw_HArray1OfViewKindEntity
-#define TCollection_HArray1_hxx <IGESDraw_HArray1OfViewKindEntity.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDraw_HArray1OfViewKindEntity
 #define TCollection_HArray1_Type_() IGESDraw_HArray1OfViewKindEntity_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

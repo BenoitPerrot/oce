@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESDraw_CircArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_CircArraySubfigure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_CircArraySubfigure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

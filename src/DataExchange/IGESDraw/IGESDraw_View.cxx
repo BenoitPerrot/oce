@@ -21,7 +21,7 @@
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESDraw_View.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_View.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_View)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

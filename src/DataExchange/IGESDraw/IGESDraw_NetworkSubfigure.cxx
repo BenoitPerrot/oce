@@ -16,14 +16,14 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_NetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigureDef.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
-#include <IGESDraw_NetworkSubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_NetworkSubfigure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

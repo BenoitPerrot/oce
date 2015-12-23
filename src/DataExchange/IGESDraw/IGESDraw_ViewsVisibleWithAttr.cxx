@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <IGESGraph_HArray1OfColor.hxx>
@@ -27,7 +27,7 @@
 #include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <IGESGraph_Color.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDraw_ViewsVisibleWithAttr.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ViewsVisibleWithAttr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_ViewsVisibleWithAttr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

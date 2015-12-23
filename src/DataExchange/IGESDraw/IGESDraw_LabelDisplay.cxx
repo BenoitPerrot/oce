@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDraw_LabelDisplay.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_LabelDisplay.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_LabelDisplay)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDraw_LabelDisplay)
 IMPLEMENT_DOWNCAST(IGESDraw_LabelDisplay,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_LabelDisplay)
-#include <IGESDraw_View.hxx>
-#include <IGESDraw_PerspectiveView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_View.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
 #include <Interface_Macros.hxx>
 
 

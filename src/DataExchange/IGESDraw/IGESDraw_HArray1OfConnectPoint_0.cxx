@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_HArray1OfConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
-#include <IGESDraw_Array1OfConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Array1OfConnectPoint.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESDraw_HArray1OfConnectPoint)
 
 
 #define ItemHArray1 Handle(IGESDraw_ConnectPoint)
-#define ItemHArray1_hxx <IGESDraw_ConnectPoint.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
 #define TheArray1 IGESDraw_Array1OfConnectPoint
-#define TheArray1_hxx <IGESDraw_Array1OfConnectPoint.hxx>
+#define TheArray1_hxx <DataExchange/IGESDraw/IGESDraw_Array1OfConnectPoint.hxx>
 #define TCollection_HArray1 IGESDraw_HArray1OfConnectPoint
-#define TCollection_HArray1_hxx <IGESDraw_HArray1OfConnectPoint.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDraw_HArray1OfConnectPoint
 #define TCollection_HArray1_Type_() IGESDraw_HArray1OfConnectPoint_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

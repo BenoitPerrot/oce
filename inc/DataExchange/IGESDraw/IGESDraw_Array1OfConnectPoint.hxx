@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESDraw_ConnectPoint)
-#define Array1Item_hxx <IGESDraw_ConnectPoint.hxx>
+#define Array1Item_hxx <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
 #define TCollection_Array1 IGESDraw_Array1OfConnectPoint
-#define TCollection_Array1_hxx <IGESDraw_Array1OfConnectPoint.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESDraw/IGESDraw_Array1OfConnectPoint.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

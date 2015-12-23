@@ -16,7 +16,7 @@
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
-#include <IGESDraw_ReadWriteModule.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_ReadWriteModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,35 +30,35 @@ IMPLEMENT_DOWNCAST(IGESDraw_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_ReadWriteModule)
 #include <Interface_Macros.hxx>
 
-#include <IGESDraw_CircArraySubfigure.hxx>
-#include <IGESDraw_ConnectPoint.hxx>
-#include <IGESDraw_Drawing.hxx>
-#include <IGESDraw_DrawingWithRotation.hxx>
-#include <IGESDraw_LabelDisplay.hxx>
-#include <IGESDraw_NetworkSubfigure.hxx>
-#include <IGESDraw_NetworkSubfigureDef.hxx>
-#include <IGESDraw_PerspectiveView.hxx>
-#include <IGESDraw_Planar.hxx>
-#include <IGESDraw_RectArraySubfigure.hxx>
-#include <IGESDraw_SegmentedViewsVisible.hxx>
-#include <IGESDraw_View.hxx>
-#include <IGESDraw_ViewsVisible.hxx>
-#include <IGESDraw_ViewsVisibleWithAttr.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_CircArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Drawing.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_DrawingWithRotation.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_LabelDisplay.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_NetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Planar.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_RectArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_SegmentedViewsVisible.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_View.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ViewsVisible.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ViewsVisibleWithAttr.hxx>
 
-#include <IGESDraw_ToolCircArraySubfigure.hxx>
-#include <IGESDraw_ToolConnectPoint.hxx>
-#include <IGESDraw_ToolDrawing.hxx>
-#include <IGESDraw_ToolDrawingWithRotation.hxx>
-#include <IGESDraw_ToolLabelDisplay.hxx>
-#include <IGESDraw_ToolNetworkSubfigure.hxx>
-#include <IGESDraw_ToolNetworkSubfigureDef.hxx>
-#include <IGESDraw_ToolPerspectiveView.hxx>
-#include <IGESDraw_ToolPlanar.hxx>
-#include <IGESDraw_ToolRectArraySubfigure.hxx>
-#include <IGESDraw_ToolSegmentedViewsVisible.hxx>
-#include <IGESDraw_ToolView.hxx>
-#include <IGESDraw_ToolViewsVisible.hxx>
-#include <IGESDraw_ToolViewsVisibleWithAttr.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolCircArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolConnectPoint.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolDrawing.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolDrawingWithRotation.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolLabelDisplay.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolNetworkSubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolNetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolPerspectiveView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolPlanar.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolRectArraySubfigure.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolSegmentedViewsVisible.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolViewsVisible.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolViewsVisibleWithAttr.hxx>
 
 
 

@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESDraw_Drawing.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Drawing.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESDraw_ToolDrawing.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_ToolDrawing.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
@@ -36,12 +36,12 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
-#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Interface_Macros.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
-#include <IGESDraw_View.hxx>
-#include <IGESDraw_PerspectiveView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_View.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
 
 
 IGESDraw_ToolDrawing::IGESDraw_ToolDrawing ()    {  }

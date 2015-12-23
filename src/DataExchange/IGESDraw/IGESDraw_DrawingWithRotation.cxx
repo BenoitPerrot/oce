@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
@@ -27,7 +27,7 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESDraw_DrawingWithRotation.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_DrawingWithRotation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_DrawingWithRotation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDraw_DrawingWithRotation)
 IMPLEMENT_DOWNCAST(IGESDraw_DrawingWithRotation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_DrawingWithRotation)
-#include <IGESDraw_View.hxx>
-#include <IGESDraw_PerspectiveView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_View.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
 
 #include <IGESGraph_DrawingUnits.hxx>
 #include <IGESGraph_DrawingSize.hxx>

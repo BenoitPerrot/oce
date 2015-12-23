@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
-#include <IGESDraw_PerspectiveView.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDraw_PerspectiveView)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

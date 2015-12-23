@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
 
-#include <IGESDraw_Array1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_ViewKindEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -72,9 +72,9 @@ private:
 #define ItemHArray1 Handle(IGESData_ViewKindEntity)
 #define ItemHArray1_hxx <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #define TheArray1 IGESDraw_Array1OfViewKindEntity
-#define TheArray1_hxx <IGESDraw_Array1OfViewKindEntity.hxx>
+#define TheArray1_hxx <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 #define TCollection_HArray1 IGESDraw_HArray1OfViewKindEntity
-#define TCollection_HArray1_hxx <IGESDraw_HArray1OfViewKindEntity.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDraw_HArray1OfViewKindEntity
 #define TCollection_HArray1_Type_() IGESDraw_HArray1OfViewKindEntity_Type_()
 

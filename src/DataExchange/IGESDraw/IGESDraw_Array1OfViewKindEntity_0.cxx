@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDraw_Array1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item Handle(IGESData_ViewKindEntity)
 #define Array1Item_hxx <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #define TCollection_Array1 IGESDraw_Array1OfViewKindEntity
-#define TCollection_Array1_hxx <IGESDraw_Array1OfViewKindEntity.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildDrawings)
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESDraw_Drawing.hxx>
-#include <IGESDraw_DrawingWithRotation.hxx>
-#include <IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_Drawing.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_DrawingWithRotation.hxx>
+#include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

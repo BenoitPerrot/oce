@@ -95,7 +95,7 @@ private:
 #define Array1Item Handle(IGESData_ViewKindEntity)
 #define Array1Item_hxx <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #define TCollection_Array1 IGESDraw_Array1OfViewKindEntity
-#define TCollection_Array1_hxx <IGESDraw_Array1OfViewKindEntity.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 
