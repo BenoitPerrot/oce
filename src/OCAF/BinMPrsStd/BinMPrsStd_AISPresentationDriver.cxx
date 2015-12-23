@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMPrsStd_AISPresentationDriver.hxx>
+#include <OCAF/BinMPrsStd/BinMPrsStd_AISPresentationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMPrsStd_AISPresentationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

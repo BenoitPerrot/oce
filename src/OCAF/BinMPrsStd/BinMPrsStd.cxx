@@ -15,11 +15,11 @@
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMPrsStd.hxx>
+#include <OCAF/BinMPrsStd/BinMPrsStd.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
-#include <BinMPrsStd_AISPresentationDriver.hxx>
-#include <BinMPrsStd_PositionDriver.hxx>
+#include <OCAF/BinMPrsStd/BinMPrsStd_AISPresentationDriver.hxx>
+#include <OCAF/BinMPrsStd/BinMPrsStd_PositionDriver.hxx>
 
 //=======================================================================
 //function : AddDrivers

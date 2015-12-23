@@ -18,7 +18,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMPrsStd_PositionDriver.hxx>
+#include <OCAF/BinMPrsStd/BinMPrsStd_PositionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMPrsStd_PositionDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
