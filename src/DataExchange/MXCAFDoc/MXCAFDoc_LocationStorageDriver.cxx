@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_LocationStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_LocationStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_LocationStorageDriver)
-#include <MgtTopLoc.hxx>
+#include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PXCAFDoc_Location.hxx>
 #include <XCAFDoc_Location.hxx>

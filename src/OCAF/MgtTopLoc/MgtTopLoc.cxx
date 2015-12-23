@@ -22,7 +22,7 @@
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <PTopLoc_Location.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <MgtTopLoc.hxx>
+#include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 
 // Used for testing DownCast time
 #define MgtTopLocSpeedDownCast

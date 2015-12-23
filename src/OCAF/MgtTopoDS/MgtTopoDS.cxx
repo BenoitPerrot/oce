@@ -22,7 +22,7 @@
 #include <MgtTopoDS_TranslateTool1.hxx>
 #include <PTopoDS_Shape1.hxx>
 #include <MgtTopoDS.hxx>
-#include <MgtTopLoc.hxx>
+#include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 
 #include <PTopoDS_HShape.hxx>
 #include <PTopoDS_TShape.hxx>

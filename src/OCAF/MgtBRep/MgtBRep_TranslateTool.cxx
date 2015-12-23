@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MgtBRep_TranslateTool)
 IMPLEMENT_DOWNCAST(MgtBRep_TranslateTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool)
-#include <MgtTopLoc.hxx>
+#include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 #include <OCAF/MgtGeom/MgtGeom.hxx>
 #include <OCAF/MgtGeom2d/MgtGeom2d.hxx>
 #include <OCAF/MgtPoly/MgtPoly.hxx>
