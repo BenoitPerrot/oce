@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepFeat.hxx>
 
-//#include <BRepAlgo_Cut.hxx>
+//#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 
 #include <BRepBuilderAPI.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

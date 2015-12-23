@@ -281,7 +281,7 @@ static Standard_Integer BUC60652(Draw_Interpretor& di, Standard_Integer argc, co
   return 0; 
 }
 
-#include <BRepAlgo_BooleanOperations.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
   
 static Standard_Integer defNbPntMax = 30;
 static Standard_Real defTol3d = 1.e-7;
@@ -356,7 +356,7 @@ static Standard_Integer BUC60574(Draw_Interpretor& di, Standard_Integer /*n*/, c
 #include <BRepPrimAPI_MakeSphere.hxx>
 
 #include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgo_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
 #include <V3d_View.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>

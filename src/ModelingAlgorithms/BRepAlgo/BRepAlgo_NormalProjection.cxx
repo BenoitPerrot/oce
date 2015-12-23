@@ -21,7 +21,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <BRepAlgo_NormalProjection.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_NormalProjection.hxx>
 #include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -43,11 +43,11 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepAlgo_BooleanOperations.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Precision.hxx>
-#include <BRepAlgo_SequenceOfSequenceOfInteger.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_SequenceOfSequenceOfInteger.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

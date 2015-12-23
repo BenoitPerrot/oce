@@ -43,13 +43,13 @@
 #include <BRepMAT2d_Explorer.hxx>
 #include <BRepFill_Pipe.hxx>
 #include <BRepFill_OffsetAncestors.hxx>
-#include <BRepAlgo_FaceRestrictor.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 #include <BRepLib_FindSurface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRepAlgo_Loop.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 #include <BRepSweep_Revol.hxx>
 #include <BRepSweep_Prism.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

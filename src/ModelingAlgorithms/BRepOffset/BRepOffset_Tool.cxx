@@ -27,12 +27,12 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BRepAlgo_AsDes.hxx>
-#include <BRepAlgo_Image.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRepOffset_Tool.hxx>
 
-#include <BRepAlgo_Tool.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Tool.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

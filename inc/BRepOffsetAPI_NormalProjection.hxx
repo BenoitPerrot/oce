@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepAlgo_NormalProjection.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_NormalProjection.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>

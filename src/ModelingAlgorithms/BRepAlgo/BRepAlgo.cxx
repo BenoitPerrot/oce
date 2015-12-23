@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>

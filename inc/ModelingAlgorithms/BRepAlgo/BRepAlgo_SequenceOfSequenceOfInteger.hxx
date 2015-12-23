@@ -103,11 +103,11 @@ private:
 #define SeqItem TColStd_SequenceOfInteger
 #define SeqItem_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define TCollection_SequenceNode BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger
-#define TCollection_SequenceNode_hxx <BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/BRepAlgo/BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger
 #define TCollection_SequenceNode_Type_() BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger_Type_()
 #define TCollection_Sequence BRepAlgo_SequenceOfSequenceOfInteger
-#define TCollection_Sequence_hxx <BRepAlgo_SequenceOfSequenceOfInteger.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/BRepAlgo/BRepAlgo_SequenceOfSequenceOfInteger.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

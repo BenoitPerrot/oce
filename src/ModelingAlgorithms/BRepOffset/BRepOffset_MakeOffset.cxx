@@ -19,11 +19,11 @@
 
 //  Modified by skv - Mon Jan 12 11:50:02 2004 OCC4455
 
-#include <BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepOffset_Analyse.hxx>
-#include <BRepAlgo_Image.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <BRepOffset_Inter3d.hxx>

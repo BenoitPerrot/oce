@@ -16,14 +16,14 @@
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <BRepAlgo_EdgeConnector.hxx>
-#include <BRepAlgo_BooleanOperations.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <BRepAlgo_DSAccess.hxx>
-#include <BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DSAccess.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
 
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>

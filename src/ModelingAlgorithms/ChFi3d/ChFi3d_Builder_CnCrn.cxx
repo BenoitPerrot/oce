@@ -41,7 +41,7 @@
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepAlgo_NormalProjection.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_NormalProjection.hxx>
 #include <BRepLib_MakeEdge.hxx>  
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>

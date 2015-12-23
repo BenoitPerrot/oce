@@ -16,9 +16,9 @@
 
 //  Modified by skv - Fri Dec 26 12:20:14 2003 OCC4455
 
-#include <BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgo_Image.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffset_Analyse.hxx>

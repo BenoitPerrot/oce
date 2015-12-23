@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepAlgo_EdgeConnector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(BRepAlgo_EdgeConnector)
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <TopOpeBRepBuild_BlockIterator.hxx>
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
-#include <BRepAlgo_DataMapOfShapeBoolean.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapOfShapeBoolean.hxx>
 
 //=======================================================================
 //function : Create

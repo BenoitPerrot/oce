@@ -40,7 +40,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 //#include <BRepClass_FaceClassifier.hxx>
-#include <BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>

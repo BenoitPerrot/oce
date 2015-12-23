@@ -20,10 +20,10 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <BRepAlgo_Loop.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepAlgo_FaceRestrictor.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

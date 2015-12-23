@@ -55,10 +55,10 @@
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepLib.hxx>
 
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:49:46 2002 f
-//#include <BRepAlgo_Cut.hxx>
-//#include <BRepAlgo_Fuse.hxx>
+//#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
+//#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 #include <BRepAlgoAPI_Cut.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:50:04 2002 t

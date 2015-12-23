@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepAlgo_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
 
 //=======================================================================
 //function : BRepAlgo_Common

@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

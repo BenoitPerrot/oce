@@ -46,7 +46,7 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAlgo_Loop.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

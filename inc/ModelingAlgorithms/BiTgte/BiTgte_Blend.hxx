@@ -20,7 +20,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <BRepOffset_Analyse.hxx>
 #include <BRepOffset_DataMapOfShapeOffset.hxx>
-#include <BRepAlgo_Image.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>

@@ -18,7 +18,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <BRepOffset_Analyse.hxx>
-#include <BRepAlgo_Image.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
 #include <BRepOffset_Error.hxx>

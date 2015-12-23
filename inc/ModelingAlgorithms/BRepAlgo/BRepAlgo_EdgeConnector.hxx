@@ -11,7 +11,7 @@
 #include <Handle_BRepAlgo_EdgeConnector.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgo_DataMapOfShapeBoolean.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapOfShapeBoolean.hxx>
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

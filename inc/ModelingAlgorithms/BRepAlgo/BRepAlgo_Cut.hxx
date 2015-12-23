@@ -3,32 +3,32 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _BRepAlgo_Fuse_HeaderFile
-#define _BRepAlgo_Fuse_HeaderFile
+#ifndef _BRepAlgo_Cut_HeaderFile
+#define _BRepAlgo_Cut_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepAlgo_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperation.hxx>
 class TopoDS_Shape;
 
 
-//! Describes functions for performing a topological
-//! fusion operation (Boolean union).
-//! A Fuse object provides the framework for:
-//! - defining the construction of a fused shape,
+//! Describes functions for performing a topological cut
+//! operation (Boolean subtraction).
+//! A Cut object provides the framework for:
+//! - defining the construction of a cut shape,
 //! - implementing the construction algorithm, and
 //! - consulting the result.
-class BRepAlgo_Fuse  : public BRepAlgo_BooleanOperation
+class BRepAlgo_Cut  : public BRepAlgo_BooleanOperation
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  //! Fuse S1 and S2.
-  Standard_EXPORT BRepAlgo_Fuse(const TopoDS_Shape& S1, const TopoDS_Shape& S2);
+  //! Cuts the shape S2 from the shape S1.
+  Standard_EXPORT BRepAlgo_Cut(const TopoDS_Shape& S1, const TopoDS_Shape& S2);
 
 
 
@@ -53,4 +53,4 @@ private:
 
 
 
-#endif // _BRepAlgo_Fuse_HeaderFile
+#endif // _BRepAlgo_Cut_HeaderFile

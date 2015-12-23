@@ -31,8 +31,8 @@
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 
-#include <BRepAlgo_Cut.hxx>
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 
 #include <TDF_Data.hxx>
 #include <TDF_Label.hxx>

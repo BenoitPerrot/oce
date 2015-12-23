@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRepAlgo_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 #include <BRepLib_MakeShell.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

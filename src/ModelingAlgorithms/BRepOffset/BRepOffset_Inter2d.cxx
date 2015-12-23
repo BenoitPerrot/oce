@@ -18,13 +18,13 @@
 
 #include <stdio.h>
 
-#include <BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <BRepOffset_Offset.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <BRepOffset_Inter2d.hxx>
-#include <BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <BRepOffset_Offset.hxx>
 #include <BRepOffset_Tool.hxx>
 

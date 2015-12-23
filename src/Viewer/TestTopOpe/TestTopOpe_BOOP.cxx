@@ -34,7 +34,7 @@
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_ShapeIntersector.hxx>
 #include <TopOpeBRep_define.hxx>
-#include <BRepAlgo_BooleanOperations.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

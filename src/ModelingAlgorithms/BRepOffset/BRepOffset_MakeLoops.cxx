@@ -17,11 +17,11 @@
 #include <stdio.h>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgo_AsDes.hxx>
-#include <BRepAlgo_Image.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <BRepOffset_Analyse.hxx>
 #include <BRepOffset_MakeLoops.hxx>
-#include <BRepAlgo_Loop.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 
 
 #include <ModelingData/BRep/BRep_Builder.hxx>

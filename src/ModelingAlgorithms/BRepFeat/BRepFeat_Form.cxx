@@ -62,10 +62,10 @@
 
 #include <ElCLib.hxx>
 
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:30:25 2002 f
-//#include <BRepAlgo_Cut.hxx>
-//#include <BRepAlgo_Fuse.hxx>
+//#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
+//#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
 #include <BRepAlgoAPI_Cut.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>

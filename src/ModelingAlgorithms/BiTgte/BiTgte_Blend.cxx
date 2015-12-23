@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -56,7 +56,7 @@
 #include <BRepOffset_Interval.hxx>
 #include <BRepOffset_ListOfInterval.hxx>
 #include <BRepOffset_Tool.hxx>
-#include <BRepAlgo_Loop.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 #include <ChFi3d.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

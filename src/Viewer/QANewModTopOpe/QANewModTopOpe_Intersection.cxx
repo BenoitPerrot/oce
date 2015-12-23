@@ -26,7 +26,7 @@
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

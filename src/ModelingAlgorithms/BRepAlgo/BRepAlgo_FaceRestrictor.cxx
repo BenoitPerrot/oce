@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepAlgo_FaceRestrictor.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

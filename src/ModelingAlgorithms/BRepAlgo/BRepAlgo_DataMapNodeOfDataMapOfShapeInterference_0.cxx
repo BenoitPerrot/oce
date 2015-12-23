@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopOpeBRepDS_Interference.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <BRepAlgo_DataMapOfShapeInterference.hxx>
-#include <BRepAlgo_DataMapIteratorOfDataMapOfShapeInterference.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapOfShapeInterference.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapIteratorOfDataMapOfShapeInterference.hxx>
 
  
 
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(BRepAlgo_DataMapNodeOfDataMapOfShapeInterference)
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepAlgo_DataMapNodeOfDataMapOfShapeInterference
-#define TCollection_DataMapNode_hxx <BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
 #define TCollection_DataMapIterator BRepAlgo_DataMapIteratorOfDataMapOfShapeInterference
-#define TCollection_DataMapIterator_hxx <BRepAlgo_DataMapIteratorOfDataMapOfShapeInterference.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapIteratorOfDataMapOfShapeInterference.hxx>
 #define Handle_TCollection_DataMapNode Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeInterference
 #define TCollection_DataMapNode_Type_() BRepAlgo_DataMapNodeOfDataMapOfShapeInterference_Type_()
 #define TCollection_DataMap BRepAlgo_DataMapOfShapeInterference
-#define TCollection_DataMap_hxx <BRepAlgo_DataMapOfShapeInterference.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapOfShapeInterference.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

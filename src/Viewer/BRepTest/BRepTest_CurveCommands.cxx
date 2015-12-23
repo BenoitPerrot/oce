@@ -32,7 +32,7 @@
 #include <BRepLib_MakePolygon.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
 #include <BRepLib.hxx>
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

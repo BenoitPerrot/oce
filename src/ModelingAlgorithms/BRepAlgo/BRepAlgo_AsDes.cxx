@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepAlgo_AsDes)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

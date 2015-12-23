@@ -33,7 +33,7 @@
 #include <BRepPrimAPI_MakeRevol.hxx>
 
 #include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgo_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
@@ -444,7 +444,7 @@ Standard_Integer performTriangulation (TopoDS_Shape aShape, Draw_Interpretor& di
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <BRepPrimAPI_MakeCone.hxx>
 #include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgo_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //=======================================================================
 //function : OCC822_1
 //purpose  :

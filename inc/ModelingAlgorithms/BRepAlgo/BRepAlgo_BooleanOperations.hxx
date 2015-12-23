@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepAlgo_DSAccess.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DSAccess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

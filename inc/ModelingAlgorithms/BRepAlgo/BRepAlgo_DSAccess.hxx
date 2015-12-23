@@ -22,7 +22,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
-#include <BRepAlgo_CheckStatus.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_CheckStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <TopOpeBRepDS_Kind.hxx>
 class TopOpeBRepDS_HDataStructure;

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepTest.hxx>
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <BRepCheck_Analyzer.hxx>
 #include <BRepCheck_Result.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>

@@ -22,14 +22,14 @@
 #include <Draw_Appli.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BRepAlgo_Fuse.hxx>
-#include <BRepAlgo_Common.hxx>
-#include <BRepAlgo_Cut.hxx>
-#include <BRepAlgo_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
-#include <BRepAlgo_FaceRestrictor.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 #include <BRepExtrema_ExtPF.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

@@ -20,9 +20,9 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
-#include <BRepAlgo_BooleanOperation.hxx>
-#include <BRepAlgo_Fuse.hxx>
-#include <BRepAlgo_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 #include <ModelingAlgorithms/BiTgte/BiTgte_Blend.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

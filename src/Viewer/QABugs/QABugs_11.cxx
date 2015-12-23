@@ -587,7 +587,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 }
 
 #include<BRepAlgoAPI_Cut.hxx>
-#include<BRepAlgo_Cut.hxx>
+#include<ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 
 #include<BRepPrimAPI_MakeHalfSpace.hxx>
 #include<Handle_Geom_CartesianPoint.hxx>
@@ -938,8 +938,8 @@ static Standard_Integer OCC310bug (Draw_Interpretor& di, Standard_Integer nb, co
 
 #include <BRepAlgoAPI_Fuse.hxx>
 #include <BRepAlgoAPI_Common.hxx>
-#include <BRepAlgo_Fuse.hxx>
-#include <BRepAlgo_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
 
 static Standard_Integer OCC277bug (Draw_Interpretor& di, Standard_Integer nb, const char ** a)
 {
@@ -1435,8 +1435,8 @@ static Standard_Integer OCC525(Draw_Interpretor& di, Standard_Integer /*argc*/, 
 #include <BRepPrimAPI_MakeWedge.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>
 #include <BRepAlgoAPI_Cut.hxx>
-#include <BRepAlgo_Fuse.hxx>
-#include <BRepAlgo_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //=======================================================================
 //function :  OCC578
 //purpose  :
@@ -2032,7 +2032,7 @@ static Standard_Integer OCC1034_AISSelectionMode (Draw_Interpretor& di,
 }
 
 #include<BRepAlgoAPI_Cut.hxx>
-#include<BRepAlgo_Cut.hxx>
+#include<ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 //=======================================================================
 //function :  OCC1487
 //purpose  :

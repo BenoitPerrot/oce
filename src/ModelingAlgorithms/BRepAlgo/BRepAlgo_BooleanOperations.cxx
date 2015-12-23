@@ -18,8 +18,8 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <BRepAlgo_DSAccess.hxx>
-#include <BRepAlgo_BooleanOperations.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DSAccess.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>

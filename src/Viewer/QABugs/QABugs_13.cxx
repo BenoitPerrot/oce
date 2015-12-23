@@ -393,9 +393,9 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
 #include <BRepOffsetAPI_Sewing.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>
 ///////#else
-///////#include <BRepAlgo_Fuse.hxx>
+///////#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 ///////#include <BRepAlgoAPI_Fuse.hxx>
-#include <BRepAlgo_Fuse.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
 //=======================================================================
 //function :  OCC544
@@ -802,12 +802,12 @@ static Standard_Integer OCC544 (Draw_Interpretor& di, Standard_Integer argc, con
 #include <BRepAlgoAPI_Cut.hxx>
 #include <BRepAlgoAPI_Common.hxx>
 //////////#else
-//////////#include <BRepAlgo_Cut.hxx>
-//////////#include <BRepAlgo_Common.hxx>
+//////////#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
+//////////#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
 //////////#include <BRepAlgoAPI_Cut.hxx>
 //////////#include <BRepAlgoAPI_Common.hxx>
-#include <BRepAlgo_Cut.hxx>
-#include <BRepAlgo_Common.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
 #include <Precision.hxx>
 
 static Standard_Integer OCC817 (Draw_Interpretor& di, Standard_Integer argc, const char** argv)

@@ -55,10 +55,10 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:48:13 2002 f
-//#include <BRepAlgo_Cut.hxx>
-//#include <BRepAlgo_Fuse.hxx>
+//#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
+//#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 #include <BRepAlgoAPI_Cut.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:48:16 2002 t

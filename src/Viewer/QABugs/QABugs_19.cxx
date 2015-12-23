@@ -43,7 +43,7 @@
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
-#include <BRepAlgo_Cut.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -1276,7 +1276,7 @@ static Standard_Integer OCC24005 (Draw_Interpretor& theDI, Standard_Integer theN
   return 0;
 }
 
-#include <BRepAlgo_NormalProjection.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_NormalProjection.hxx>
 static Standard_Integer OCC24012 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv) 
 {
 	if (argc != 3) {
@@ -1343,7 +1343,7 @@ static Standard_Integer OCC24051 (Draw_Interpretor& di, Standard_Integer argc, c
 
 #include <BRepFeat_SplitShape.hxx>
 #include <ShapeAnalysis_ShapeContents.hxx>
-#include <BRepAlgo.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 static Standard_Integer OCC24086 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv) 
 {
 	if (argc != 3) {

@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepAlgo_Tool.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Tool.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>

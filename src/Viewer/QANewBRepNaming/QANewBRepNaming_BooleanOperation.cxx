@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <BRepAlgo_BooleanOperation.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperation.hxx>
 #include <QANewBRepNaming_BooleanOperation.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 

@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepProj_Projection.hxx>
 
-#include <BRepAlgo_Section.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 
 #include <Precision.hxx>
 #include <BRepBndLib.hxx>

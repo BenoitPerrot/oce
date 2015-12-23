@@ -23,7 +23,7 @@
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAlgo_FaceRestrictor.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepFill_OffsetWire.hxx>

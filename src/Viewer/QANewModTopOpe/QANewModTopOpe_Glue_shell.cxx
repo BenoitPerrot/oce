@@ -40,7 +40,7 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <QANewModTopOpe_Tools.hxx>
