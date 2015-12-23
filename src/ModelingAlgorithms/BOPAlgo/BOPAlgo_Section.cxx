@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_Section.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Section.hxx>
 
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
@@ -49,7 +49,7 @@
 #include <BOPTools_AlgoTools3D.hxx>
 #include <BOPTools_AlgoTools.hxx>
 //
-#include <BOPAlgo_BuilderSolid.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderSolid.hxx>
 
 //=======================================================================
 //function : 

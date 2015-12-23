@@ -14,7 +14,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BOPCol_ListOfShape.hxx>
-#include <BOPAlgo_Builder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <BOPCol_MapOfShape.hxx>
 class TopoDS_Solid;
@@ -196,7 +196,7 @@ private:
 };
 
 
-#include <BOPAlgo_MakerVolume.lxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_MakerVolume.lxx>
 
 
 

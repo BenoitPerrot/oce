@@ -17,14 +17,14 @@
 
 #include <IntTools_Context.hxx>
 #include <BOPDS_DS.hxx>
-#include <BOPAlgo_SectionAttribute.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
 #include <BOPDS_PaveBlock.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BOPDS_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 //
 #include <Precision.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
@@ -95,7 +95,7 @@
 #include <BOPDS_FaceInfo.hxx>
 #include <BOPDS_CommonBlock.hxx>
 
-#include <BOPAlgo_Tools.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Tools.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <IntTools_ShrunkRange.hxx>
 #include <BOPDS_DataMapOfPaveBlockListOfPaveBlock.hxx>

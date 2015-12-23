@@ -17,7 +17,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BOPAlgo_BuilderFace.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderFace.hxx>
 //
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
@@ -54,7 +54,7 @@
 //
 #include <BOPTools_AlgoTools.hxx>
 #include <BOPTools_AlgoTools2D.hxx>
-#include <BOPAlgo_WireEdgeSet.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_WireEdgeSet.hxx>
 //
 #include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 #include <BOPTools.hxx>
@@ -65,7 +65,7 @@
 #include <BOPCol_MapOfShape.hxx>
 #include <BOPCol_Box2DBndTree.hxx>
 //
-#include <BOPAlgo_WireSplitter.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_WireSplitter.hxx>
 
 static
   Standard_Boolean IsGrowthWire(const TopoDS_Shape& ,

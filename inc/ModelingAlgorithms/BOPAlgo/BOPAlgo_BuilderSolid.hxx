@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BOPAlgo_BuilderArea.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderArea.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 class TopoDS_Solid;
 

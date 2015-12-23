@@ -44,7 +44,7 @@
 #include <BOPDS_ListOfPaveBlock.hxx>
 #include <BOPDS_MapOfPaveBlock.hxx>
 
-#include <BOPAlgo_BuilderFace.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderFace.hxx>
 
 #include <BOPTools.hxx>
 #include <BOPTools_AlgoTools.hxx>

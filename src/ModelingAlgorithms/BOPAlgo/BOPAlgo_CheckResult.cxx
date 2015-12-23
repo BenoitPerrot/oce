@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_CheckResult.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckResult.hxx>
 
 //=======================================================================
 // function:  BOPAlgo_CheckResult()

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;
 class BRepAlgoAPI_BooleanOperation;

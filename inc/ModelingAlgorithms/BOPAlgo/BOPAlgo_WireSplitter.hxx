@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BOPAlgo_PWireEdgeSet.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PWireEdgeSet.hxx>
 #include <BOPTools_ListOfConnexityBlock.hxx>
-#include <BOPAlgo_Algo.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPTools_ConnexityBlock.hxx>
@@ -70,7 +70,7 @@ private:
 };
 
 
-#include <BOPAlgo_WireSplitter.lxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_WireSplitter.lxx>
 
 
 

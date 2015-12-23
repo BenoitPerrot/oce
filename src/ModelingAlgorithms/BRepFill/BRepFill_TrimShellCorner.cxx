@@ -65,9 +65,9 @@
 #include <Geometry/gce/gce_MakeLin.hxx>
 
 #include <IntTools_Tools.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <BOPDS_DS.hxx>
-#include <BOPAlgo_BOP.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 
 #include <BOPCol_DataMapOfShapeListOfShape.hxx>
 #include <BOPCol_ListOfShape.hxx>

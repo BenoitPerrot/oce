@@ -3001,7 +3001,7 @@ static Standard_Integer OCC25413 (Draw_Interpretor& di, Standard_Integer narg , 
 }
 
 
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 //
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <BRepAlgoAPI_Common.hxx>

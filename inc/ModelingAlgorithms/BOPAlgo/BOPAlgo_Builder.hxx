@@ -12,13 +12,13 @@
 
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_MapOfShape.hxx>
-#include <BOPAlgo_PPaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PPaveFiller.hxx>
 #include <BOPDS_PDS.hxx>
 #include <Handle_IntTools_Context.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPCol_DataMapOfShapeListOfShape.hxx>
 #include <BOPCol_DataMapOfShapeShape.hxx>
-#include <BOPAlgo_BuilderShape.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderShape.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

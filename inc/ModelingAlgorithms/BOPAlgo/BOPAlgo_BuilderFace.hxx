@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <BOPAlgo_BuilderArea.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderArea.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 class TopoDS_Face;
 

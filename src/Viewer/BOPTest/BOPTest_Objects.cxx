@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPAlgo_PaveFiller.hxx>
-#include <BOPAlgo_Builder.hxx>
-#include <BOPAlgo_BOP.hxx>
-#include <BOPAlgo_Section.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Section.hxx>
 #include <BOPTest_Objects.hxx>
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>

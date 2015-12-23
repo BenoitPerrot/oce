@@ -26,11 +26,11 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //
-#include <BOPAlgo_Builder.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
-#include <BOPAlgo_Operation.hxx>
-#include <BOPAlgo_BOP.hxx>
-#include <BOPAlgo_Section.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Section.hxx>
 //
 #include <BOPTest_DrawableShape.hxx>
 #include <BOPTest_Objects.hxx>

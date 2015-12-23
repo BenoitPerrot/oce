@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_PArgumentAnalyzer.hxx>
-#include <BOPAlgo_ListOfCheckResult.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PArgumentAnalyzer.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ListOfCheckResult.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
 class TopoDS_Shape;
 
 

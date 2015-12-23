@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_MapOfShape.hxx>
-#include <BOPAlgo_Builder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
-#include <BOPAlgo_BOP.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
@@ -37,7 +37,7 @@
 #include <BOPTools_AlgoTools3D.hxx>
 #include <BOPTools_AlgoTools.hxx>
 
-#include <BOPAlgo_BuilderSolid.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderSolid.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>

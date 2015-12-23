@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BOPAlgo_PPaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PPaveFiller.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BOPAlgo_PBuilder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PBuilder.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;

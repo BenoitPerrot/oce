@@ -15,7 +15,7 @@
 #include <BOPCol_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BOPAlgo_Algo.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;

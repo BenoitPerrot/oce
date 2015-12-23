@@ -12,7 +12,7 @@
 
 #include <BOPCol_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BOPAlgo_BOP.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_DataMapOfShapeListOfShape.hxx>

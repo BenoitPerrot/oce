@@ -13,7 +13,7 @@
 #include <Handle_IntTools_Context.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_MapOfOrientedShape.hxx>
-#include <BOPAlgo_Algo.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 class IntTools_Context;
 

@@ -17,4 +17,4 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_WireEdgeSet.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_WireEdgeSet.hxx>

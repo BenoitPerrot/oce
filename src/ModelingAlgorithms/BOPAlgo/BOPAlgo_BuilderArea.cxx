@@ -16,7 +16,7 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_Context.hxx>
-#include <BOPAlgo_BuilderArea.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderArea.hxx>
 
 #include <BOPCol_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

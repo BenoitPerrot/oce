@@ -17,9 +17,9 @@
 
 #include <IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BOPAlgo_Builder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 

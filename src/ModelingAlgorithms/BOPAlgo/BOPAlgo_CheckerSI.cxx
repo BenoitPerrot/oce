@@ -16,7 +16,7 @@
 // commercial license or contractual agreement.
 
 //
-#include <BOPAlgo_CheckerSI.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckerSI.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

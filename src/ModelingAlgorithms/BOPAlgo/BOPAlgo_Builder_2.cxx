@@ -17,9 +17,9 @@
 
 #include <IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BOPAlgo_Builder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 //
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 //
@@ -58,7 +58,7 @@
 #include <BOPTools_AlgoTools.hxx>
 #include <BOPTools_AlgoTools2D.hxx>
 #include <BOPTools_AlgoTools3D.hxx>
-#include <BOPAlgo_BuilderFace.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderFace.hxx>
 #include <BOPTools_CoupleOfShape.hxx>
 #include <BOPTools_ListOfCoupleOfShape.hxx>
 #include <BOPTools_MapOfSet.hxx>

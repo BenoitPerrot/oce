@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <BOPDS_PaveBlock.hxx>
-#include <BOPAlgo_Tools.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Tools.hxx>
 #include <BOPDS_DS.hxx>
 #include <BOPDS_MapOfPaveBlock.hxx>
 #include <BOPDS_IndexedMapOfPaveBlock.hxx>

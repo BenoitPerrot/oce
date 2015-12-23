@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_ArgumentAnalyzer.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ArgumentAnalyzer.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -56,9 +56,9 @@
 #include <BOPDS_DS.hxx>
 #include <BOPDS_MapOfPassKey.hxx>
 
-#include <BOPAlgo_Operation.hxx>
-#include <BOPAlgo_CheckerSI.hxx>
-#include <BOPAlgo_BuilderFace.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckerSI.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderFace.hxx>
 
 // ================================================================================
 // function: Constructor

@@ -26,10 +26,10 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BOPAlgo_PaveFiller.hxx>
-#include <BOPAlgo_Operation.hxx>
-#include <BOPAlgo_BOP.hxx>
-#include <BOPAlgo_MakerVolume.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_MakerVolume.hxx>
 #include <BOPDS_DS.hxx>
 #include <BOPTest_DrawableShape.hxx>
 #include <BOPCol_ListOfShape.hxx>
@@ -45,7 +45,7 @@
 #include <BRepAlgoAPI_Fuse.hxx>
 #include <BRepAlgoAPI_Cut.hxx>
 #include <BRepAlgoAPI_Section.hxx>
-#include <BOPAlgo_Section.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Section.hxx>
 
 //
 static BOPAlgo_PaveFiller* pPF=NULL;

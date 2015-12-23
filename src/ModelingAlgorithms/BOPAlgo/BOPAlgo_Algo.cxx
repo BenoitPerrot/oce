@@ -16,7 +16,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <BOPAlgo_Algo.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 

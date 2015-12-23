@@ -14,8 +14,8 @@
 #include <BOPDS_PDS.hxx>
 #include <BOPDS_PIterator.hxx>
 #include <Handle_IntTools_Context.hxx>
-#include <BOPAlgo_SectionAttribute.hxx>
-#include <BOPAlgo_Algo.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

@@ -71,7 +71,7 @@ private:
 };
 
 
-#include <BOPAlgo_SectionAttribute.lxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.lxx>
 
 
 

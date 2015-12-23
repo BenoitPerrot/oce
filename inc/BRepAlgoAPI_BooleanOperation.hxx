@@ -12,10 +12,10 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BOPAlgo_PPaveFiller.hxx>
-#include <BOPAlgo_PBuilder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PPaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 class TopoDS_Shape;

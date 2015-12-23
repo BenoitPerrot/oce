@@ -17,7 +17,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BOPAlgo_BuilderShape.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderShape.hxx>
 //=======================================================================
 //function : 
 //purpose  : 

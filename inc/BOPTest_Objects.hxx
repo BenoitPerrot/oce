@@ -12,7 +12,7 @@
 
 #include <BOPDS_PDS.hxx>
 #include <BOPCol_ListOfShape.hxx>
-#include <BOPAlgo_PBuilder.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PBuilder.hxx>
 class BOPAlgo_PaveFiller;
 class BOPAlgo_Builder;
 class BOPAlgo_BOP;

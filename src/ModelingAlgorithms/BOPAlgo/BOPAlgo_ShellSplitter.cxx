@@ -17,7 +17,7 @@
 // <pkv@PETREX>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_ShellSplitter.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ShellSplitter.hxx>
 //
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>

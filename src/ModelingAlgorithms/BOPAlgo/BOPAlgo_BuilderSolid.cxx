@@ -16,7 +16,7 @@
 // commercial license or contractual agreement.
 //
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BOPAlgo_BuilderSolid.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderSolid.hxx>
 //
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
@@ -72,7 +72,7 @@
 //
 #include <IntTools_Context.hxx>
 //
-#include <BOPAlgo_ShellSplitter.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ShellSplitter.hxx>
 
 static
   Standard_Boolean IsGrowthShell(const TopoDS_Shape& ,

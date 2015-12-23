@@ -153,7 +153,7 @@
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 
 #include <BOPDS_DS.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <BOPTools_AlgoTools2D.hxx>
 
 #ifdef DRAW

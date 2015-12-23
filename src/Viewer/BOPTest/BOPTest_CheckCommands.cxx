@@ -38,9 +38,9 @@
 #include <BOPDS_DS.hxx>
 #include <BOPDS_MapOfPassKey.hxx>
 
-#include <BOPAlgo_CheckerSI.hxx>
-#include <BOPAlgo_ArgumentAnalyzer.hxx>
-#include <BOPAlgo_CheckResult.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckerSI.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ArgumentAnalyzer.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckResult.hxx>
 
 #include <BOPTools_AlgoTools.hxx>
 

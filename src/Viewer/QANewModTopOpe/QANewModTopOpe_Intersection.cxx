@@ -34,7 +34,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <QANewModTopOpe_Tools.hxx>
 
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 
 
 static Standard_Boolean NoFaces(const TopoDS_Shape& S1, const TopoDS_Shape& S2)

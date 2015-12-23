@@ -65,7 +65,7 @@ private:
 };
 
 
-#include <BOPAlgo_WireEdgeSet.lxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_WireEdgeSet.lxx>
 
 
 

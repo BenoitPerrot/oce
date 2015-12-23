@@ -18,7 +18,7 @@
 // modified by  Eugeny MALTCHIKOV Wed Jul 04 11:13:01 2012 
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepAlgoAPI_Section.hxx>
@@ -36,8 +36,8 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BOPAlgo_PaveFiller.hxx>
-#include <BOPAlgo_BOP.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <BOPDS_DS.hxx>
 
 static TopoDS_Shape MakeShape(const Handle(Geom_Surface)& S)

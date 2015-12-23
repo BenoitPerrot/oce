@@ -15,7 +15,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepAlgoAPI_Check.hxx>
-#include <BOPAlgo_ArgumentAnalyzer.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ArgumentAnalyzer.hxx>
 #include <BRepCheck_Analyzer.hxx>
 
 //=======================================================================

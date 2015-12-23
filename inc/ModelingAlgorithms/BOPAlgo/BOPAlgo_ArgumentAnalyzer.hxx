@@ -12,8 +12,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BOPAlgo_Operation.hxx>
-#include <BOPAlgo_ListOfCheckResult.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Operation.hxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ListOfCheckResult.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopoDS_Shape;
 
@@ -149,7 +149,7 @@ private:
 };
 
 
-#include <BOPAlgo_ArgumentAnalyzer.lxx>
+#include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ArgumentAnalyzer.lxx>
 
 
 
