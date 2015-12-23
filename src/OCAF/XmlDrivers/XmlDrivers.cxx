@@ -27,7 +27,7 @@
 #include <OCAF/XmlMDataXtd/XmlMDataXtd.hxx>
 #include <OCAF/XmlMDocStd/XmlMDocStd.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming.hxx>
-#include <XmlMPrsStd.hxx>
+#include <OCAF/XmlMPrsStd/XmlMPrsStd.hxx>
 #include <OCAF/XmlMFunction/XmlMFunction.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>

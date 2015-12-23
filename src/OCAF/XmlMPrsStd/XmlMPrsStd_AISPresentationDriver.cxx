@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMPrsStd_AISPresentationDriver.hxx>
+#include <OCAF/XmlMPrsStd/XmlMPrsStd_AISPresentationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMPrsStd_AISPresentationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

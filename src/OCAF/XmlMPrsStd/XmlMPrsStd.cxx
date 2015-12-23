@@ -15,10 +15,10 @@
 
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMPrsStd.hxx>
+#include <OCAF/XmlMPrsStd/XmlMPrsStd.hxx>
 
-#include <XmlMPrsStd_PositionDriver.hxx>
-#include <XmlMPrsStd_AISPresentationDriver.hxx>
+#include <OCAF/XmlMPrsStd/XmlMPrsStd_PositionDriver.hxx>
+#include <OCAF/XmlMPrsStd/XmlMPrsStd_AISPresentationDriver.hxx>
 
 ///=======================================================================
 //function : AddDrivers
