@@ -65,8 +65,8 @@
 #include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 #include <DataExchange/TransferBRep/TransferBRep_ShapeListBinder.hxx>
-#include <XSAlgo.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>

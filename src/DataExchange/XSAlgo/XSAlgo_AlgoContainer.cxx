@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSAlgo_ToolContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_ToolContainer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
@@ -21,7 +21,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSAlgo_AlgoContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

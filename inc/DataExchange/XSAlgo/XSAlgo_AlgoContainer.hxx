@@ -90,7 +90,7 @@ private:
 };
 
 
-#include <XSAlgo_AlgoContainer.lxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.lxx>
 
 
 

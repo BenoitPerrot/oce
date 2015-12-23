@@ -115,8 +115,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
-#include <XSAlgo.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 #include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
 #include <DataExchange/StepShape/StepShape_FaceBasedSurfaceModel.hxx>
 

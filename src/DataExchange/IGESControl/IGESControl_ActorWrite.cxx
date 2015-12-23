@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
-#include <XSAlgo.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 
 IGESControl_ActorWrite::IGESControl_ActorWrite ()  {  ModeTrans() = 0;  }

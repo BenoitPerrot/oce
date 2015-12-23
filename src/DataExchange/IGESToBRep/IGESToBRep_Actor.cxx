@@ -49,8 +49,8 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 #include <DataExchange/TransferBRep/TransferBRep.hxx>
 #include <DataExchange/TransferBRep/TransferBRep_ShapeBinder.hxx>
 
-#include <XSAlgo.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 
 //=======================================================================
 //function : IGESToBRep_Actor

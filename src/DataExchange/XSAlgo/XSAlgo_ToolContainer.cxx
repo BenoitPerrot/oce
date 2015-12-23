@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSAlgo_ToolContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_ToolContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSAlgo_ToolContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

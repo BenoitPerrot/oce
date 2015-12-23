@@ -94,8 +94,8 @@
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_ToolContainer.hxx>
-#include <XSAlgo.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 
 // ============================================================================
 // Method  : RemoveSinglePCurve

@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(STEPCAFControl_Controller)
 IMPLEMENT_DOWNCAST(STEPCAFControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPCAFControl_Controller)
 #include <DataExchange/STEPCAFControl/STEPCAFControl_ActorWrite.hxx>
-#include <XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 
 //=======================================================================

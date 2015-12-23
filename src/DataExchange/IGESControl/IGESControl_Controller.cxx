@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <DataExchange/IGESControl/IGESControl_ActorWrite.hxx>
 #include <DataExchange/IGESControl/IGESControl_AlgoContainer.hxx>
 
-#include <XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>

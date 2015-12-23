@@ -95,7 +95,7 @@
 #include <DataExchange/IGESSolid/IGESSolid_SphericalSurface.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_ToroidalSurface.hxx>
 
-#include <XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
 
 //                     =========================
 //                     ==  Selection Members  ==

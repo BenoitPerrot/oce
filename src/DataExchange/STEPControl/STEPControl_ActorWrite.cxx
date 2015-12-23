@@ -113,8 +113,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 
-#include <XSAlgo.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/Transfer/Transfer_SequenceOfBinder.hxx>
 

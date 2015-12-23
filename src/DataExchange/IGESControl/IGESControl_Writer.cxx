@@ -44,8 +44,8 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
-#include <XSAlgo.hxx>
-#include <XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/XSAlgo.hxx>
+#include <DataExchange/XSAlgo/XSAlgo_AlgoContainer.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <errno.h>
