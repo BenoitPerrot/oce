@@ -34,7 +34,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntCurvesFace_Intersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidExplorer.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

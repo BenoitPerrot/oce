@@ -27,7 +27,7 @@
 #include <LocOpe_SequenceOfPntFace.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <IntCurvesFace_Intersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 

@@ -4940,7 +4940,7 @@ Standard_Integer OCC22762 (Draw_Interpretor& di, Standard_Integer argc, const ch
     
 
 
-#include <IntCurvesFace_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_ShapeIntersector.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 Standard_Integer OCC17424 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntCurvesFace_Intersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 
 
 inline Standard_Integer IntCurvesFace_ShapeIntersector::NbPnt() const { 

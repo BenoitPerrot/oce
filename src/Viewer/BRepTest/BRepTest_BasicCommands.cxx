@@ -463,7 +463,7 @@ static Standard_Integer precision(Draw_Interpretor& di,Standard_Integer n,const 
 //function : reperage shape (Int lin Shape) + pointe double click   + maxtol
 //purpose  : 
 //=======================================================================
-#include <IntCurvesFace_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_ShapeIntersector.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 
 static Standard_Integer reperageshape(Draw_Interpretor& di, Standard_Integer narg , const char** a) 

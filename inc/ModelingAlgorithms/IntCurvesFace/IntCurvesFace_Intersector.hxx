@@ -142,7 +142,7 @@ private:
 };
 
 
-#include <IntCurvesFace_Intersector.lxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.lxx>
 
 
 

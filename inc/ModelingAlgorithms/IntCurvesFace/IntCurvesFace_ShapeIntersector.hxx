@@ -135,7 +135,7 @@ private:
 };
 
 
-#include <IntCurvesFace_ShapeIntersector.lxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_ShapeIntersector.lxx>
 
 
 

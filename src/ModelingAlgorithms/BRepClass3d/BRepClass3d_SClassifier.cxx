@@ -28,7 +28,7 @@
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
-#include <IntCurvesFace_Intersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 // modified by NIZHNY-MKK  Mon Jun 21 15:13:40 2004
 #include <Precision.hxx>
 #include <ElCLib.hxx>

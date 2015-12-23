@@ -39,7 +39,7 @@
 #include <GeomAbs_JoinType.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
-#include <IntCurvesFace_Intersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

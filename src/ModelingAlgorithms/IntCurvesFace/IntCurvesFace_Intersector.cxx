@@ -26,7 +26,7 @@
 #include <IntCurveSurface_HInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <IntCurvesFace_Intersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 
 #include <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>

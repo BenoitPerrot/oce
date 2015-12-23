@@ -2961,7 +2961,7 @@ static Standard_Integer OCC25348 (Draw_Interpretor& theDI,
   return 0;
 }
 
-#include <IntCurvesFace_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_ShapeIntersector.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 //=======================================================================
 //function : OCC25413
