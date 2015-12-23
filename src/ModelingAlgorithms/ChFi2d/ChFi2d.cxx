@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <ChFi2d.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d.hxx>
 
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

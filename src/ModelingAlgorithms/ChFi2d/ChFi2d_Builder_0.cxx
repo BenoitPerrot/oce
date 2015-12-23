@@ -20,12 +20,12 @@
 //              des droites ou des cercles; fonction IsLineOrCircle
 //              (BUC60288)
 
-#include <ChFi2d.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
-#include <ChFi2d_Builder.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_Builder.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

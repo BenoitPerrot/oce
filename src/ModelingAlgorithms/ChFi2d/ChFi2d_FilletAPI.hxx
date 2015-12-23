@@ -16,8 +16,8 @@
 #ifndef _CHFI2D_FILLETAPI_H_
 #define _CHFI2D_FILLETAPI_H_
 
-#include <ChFi2d_FilletAlgo.hxx>
-#include <ChFi2d_AnaFilletAlgo.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_FilletAlgo.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_AnaFilletAlgo.hxx>
 
 //! An interface class for 2D fillets.
 //! Open CASCADE provides two algorithms for 2D fillets:

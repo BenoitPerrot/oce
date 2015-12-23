@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ChFi2d_ConstructionError.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
@@ -217,7 +217,7 @@ private:
 };
 
 
-#include <ChFi2d_Builder.lxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_Builder.lxx>
 
 
 

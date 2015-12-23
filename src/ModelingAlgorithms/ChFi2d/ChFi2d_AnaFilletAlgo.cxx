@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFi2d_AnaFilletAlgo.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_AnaFilletAlgo.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

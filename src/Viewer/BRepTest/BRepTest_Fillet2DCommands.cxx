@@ -34,8 +34,8 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
-#include <ChFi2d_FilletAPI.hxx>
-#include <ChFi2d_ChamferAPI.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_FilletAPI.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_ChamferAPI.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ChFi2d_ConstructionError.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_ConstructionError.hxx>
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopoDS_Face;

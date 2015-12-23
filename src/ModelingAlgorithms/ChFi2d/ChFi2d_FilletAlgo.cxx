@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFi2d_FilletAlgo.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_FilletAlgo.hxx>
 
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

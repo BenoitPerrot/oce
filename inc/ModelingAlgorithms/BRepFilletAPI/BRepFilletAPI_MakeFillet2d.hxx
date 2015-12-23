@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ChFi2d_Builder.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_Builder.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ChFi2d_ConstructionError.hxx>
+#include <ModelingAlgorithms/ChFi2d/ChFi2d_ConstructionError.hxx>
 class TopoDS_Face;
 class TopoDS_Edge;
 class TopoDS_Vertex;
