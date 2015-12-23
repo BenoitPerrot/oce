@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

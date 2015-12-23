@@ -19,7 +19,7 @@
 #include <BRepExtrema_DistanceSS.hxx>
 
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -26,7 +26,7 @@
 
 #include <BRepSweep_Revol.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <LocOpe_BuildShape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
@@ -46,7 +46,7 @@
 
 #include <LocOpe.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 
 

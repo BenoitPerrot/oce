@@ -57,8 +57,8 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <TDF_TagSource.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopTools_ListOfShape.hxx>

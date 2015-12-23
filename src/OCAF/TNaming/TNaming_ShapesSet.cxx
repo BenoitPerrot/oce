@@ -22,7 +22,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #define BUC60862
 //#define MDTV_DEB_INT

@@ -28,7 +28,7 @@
 #include <IntCurveSurface_TransitionOnCurve.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

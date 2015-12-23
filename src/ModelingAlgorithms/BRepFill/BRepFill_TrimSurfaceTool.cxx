@@ -63,10 +63,10 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #ifdef DRAW
 #include <DrawTrSurf.hxx>

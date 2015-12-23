@@ -33,10 +33,10 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Edge.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepBuild_Tools2d.hxx>
 
 #include <TopTools_ListOfShape.hxx>

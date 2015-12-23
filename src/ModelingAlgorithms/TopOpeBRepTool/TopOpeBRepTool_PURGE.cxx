@@ -31,8 +31,8 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopOpeBRepTool_define.hxx>

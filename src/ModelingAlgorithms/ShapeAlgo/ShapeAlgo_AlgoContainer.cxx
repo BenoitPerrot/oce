@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Precision.hxx>
 
@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <ShapeUpgrade_ShapeDivideContinuity.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <ShapeFix_Wire.hxx>

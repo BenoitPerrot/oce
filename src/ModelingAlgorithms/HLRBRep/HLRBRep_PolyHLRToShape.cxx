@@ -22,7 +22,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <HLRBRep_BiPnt2D.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPnt2D.hxx>

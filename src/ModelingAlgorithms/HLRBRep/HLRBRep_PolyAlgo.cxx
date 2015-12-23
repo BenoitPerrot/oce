@@ -54,8 +54,8 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <HLRAlgo_PolyData.hxx>
 #include <HLRAlgo_BiPoint.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

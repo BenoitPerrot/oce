@@ -30,14 +30,14 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

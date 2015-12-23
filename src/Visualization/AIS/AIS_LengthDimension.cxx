@@ -31,8 +31,8 @@
 #include <GeomAPI_ExtremaSurfaceSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(AIS_LengthDimension, AIS_Dimension)
 IMPLEMENT_STANDARD_RTTIEXT(AIS_LengthDimension, AIS_Dimension)

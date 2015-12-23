@@ -18,7 +18,7 @@
 
 #include <TopOpeBRepDS_Curve.hxx>
 #include <Draw_Appli.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TestTopOpeDraw_Displayer.hxx>
 #include <TestTopOpeDraw_TTOT.hxx>
 

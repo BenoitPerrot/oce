@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Precision.hxx>

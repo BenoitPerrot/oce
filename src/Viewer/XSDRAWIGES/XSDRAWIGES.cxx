@@ -79,7 +79,7 @@
 #include <IGESControl_Reader.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Draw_ProgressIndicator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
 //--------------------------------------------------------------

@@ -36,7 +36,7 @@
 #include <TopOpeBRepDS_ShapeWithState.hxx>
 #include <TopOpeBRepBuild_WireEdgeSet.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

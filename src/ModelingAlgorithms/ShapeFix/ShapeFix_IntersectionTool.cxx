@@ -45,7 +45,7 @@
 #include <ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Wire.hxx>

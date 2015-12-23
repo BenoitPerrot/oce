@@ -26,7 +26,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

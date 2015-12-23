@@ -58,7 +58,7 @@
 #include <Draw_ProgressIndicator.hxx>
 #include <Transfer_TransientProcess.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <XSControl_TransferWriter.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 

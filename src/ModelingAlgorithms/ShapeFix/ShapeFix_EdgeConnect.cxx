@@ -18,8 +18,8 @@
 #include <TopoDS_Shape.hxx>
 #include <ShapeFix_EdgeConnect.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Wire.hxx>

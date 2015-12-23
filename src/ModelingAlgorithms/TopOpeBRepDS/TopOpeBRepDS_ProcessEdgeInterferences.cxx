@@ -22,8 +22,8 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Solid.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>

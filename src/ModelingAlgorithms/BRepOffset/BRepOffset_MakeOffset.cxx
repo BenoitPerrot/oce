@@ -54,8 +54,8 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Shell.hxx>

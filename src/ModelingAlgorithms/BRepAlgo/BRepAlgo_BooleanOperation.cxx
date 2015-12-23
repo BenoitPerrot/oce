@@ -45,8 +45,8 @@
 #include <TopOpeBRepDS_DSX.hxx>
 
 #include <TopOpeBRepBuild_Tools.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 
 

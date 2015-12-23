@@ -30,8 +30,8 @@
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 
 #include <ChFi2d_FilletAPI.hxx>

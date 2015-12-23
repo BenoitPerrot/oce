@@ -18,7 +18,7 @@
 #include <QANewModTopOpe_Limitation.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

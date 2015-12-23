@@ -30,7 +30,7 @@
 
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 

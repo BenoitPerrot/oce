@@ -20,7 +20,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepExtrema_SupportType.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <BRepLib_MakeVertex.hxx>

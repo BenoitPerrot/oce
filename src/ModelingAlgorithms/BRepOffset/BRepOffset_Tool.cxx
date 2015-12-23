@@ -63,8 +63,8 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

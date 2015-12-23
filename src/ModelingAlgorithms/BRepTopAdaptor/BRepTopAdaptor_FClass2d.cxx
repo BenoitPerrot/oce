@@ -26,7 +26,7 @@
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
@@ -36,7 +36,7 @@
 #include <CSLib_Class2d.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>

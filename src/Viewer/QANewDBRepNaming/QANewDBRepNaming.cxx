@@ -29,7 +29,7 @@
 #include <TopoDS_Shape.hxx>
 #include <ViewerTest.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
@@ -43,7 +43,7 @@
 #include <DBRep.hxx>
 #include <TNaming_Naming.hxx>
 #include <TNaming_Name.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ViewerTest.hxx>
 #include <TopTools_MapOfShape.hxx>
 

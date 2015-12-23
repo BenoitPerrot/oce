@@ -36,7 +36,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

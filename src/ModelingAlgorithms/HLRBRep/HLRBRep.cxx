@@ -27,7 +27,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

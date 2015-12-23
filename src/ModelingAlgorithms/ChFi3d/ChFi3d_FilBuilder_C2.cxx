@@ -92,7 +92,7 @@
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ChFiDS_Regul.hxx>

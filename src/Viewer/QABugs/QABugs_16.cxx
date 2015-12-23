@@ -41,7 +41,7 @@
 #include <Aspect_Window.hxx>
 #include <V3d_View.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <AIS_PlaneTrihedron.hxx>

@@ -44,7 +44,7 @@
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

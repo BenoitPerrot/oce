@@ -38,7 +38,7 @@
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <DBRep.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

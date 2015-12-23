@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 
 #include <Precision.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 //=======================================================================
 //function : AIS_EllipseRadiusDimension

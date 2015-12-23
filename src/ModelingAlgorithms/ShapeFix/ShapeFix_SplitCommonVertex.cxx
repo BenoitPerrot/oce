@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_SplitCommonVertex)
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeExtend.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

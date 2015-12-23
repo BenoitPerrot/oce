@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Face.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Draw_Color.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

@@ -38,7 +38,7 @@
 #include <BRepPrimAPI_MakeCone.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <IGESToBRep_Reader.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
@@ -286,7 +286,7 @@ static int BUC60610(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 //
 // usage : OCC105 shape

@@ -26,7 +26,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <LocOpe_SplitDrafts.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -77,7 +77,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <BRepGProp.hxx>
 #include <Mathematics/Primitives/gp.hxx>

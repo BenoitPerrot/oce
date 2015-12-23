@@ -41,8 +41,8 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <StdPrs_ToolShadedShape.hxx>
 #include <StdPrs_WFShape.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Face.hxx>

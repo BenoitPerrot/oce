@@ -33,7 +33,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 
@@ -41,7 +41,7 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>

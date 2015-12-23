@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 #include <TopoDS.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Precision.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx> 
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 

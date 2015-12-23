@@ -22,7 +22,7 @@
 #include <LocOpe_FindEdges.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

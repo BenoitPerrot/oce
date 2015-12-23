@@ -37,7 +37,7 @@
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Precision.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 //function computes normals for surface

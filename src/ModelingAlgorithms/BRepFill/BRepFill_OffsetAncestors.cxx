@@ -20,7 +20,7 @@
 #include <TopoDS_Shape.hxx>
 #include <BRepFill_OffsetAncestors.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 

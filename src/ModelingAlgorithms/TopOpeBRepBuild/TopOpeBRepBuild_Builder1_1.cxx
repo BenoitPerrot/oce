@@ -51,7 +51,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

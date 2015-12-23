@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

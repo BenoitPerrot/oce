@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepDS_samdom.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopOpeBRepDS_define.hxx>
 

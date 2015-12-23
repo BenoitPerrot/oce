@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <Precision.hxx>
 #include <BRepCheck_Wire.hxx>
@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepLib_MakeWire.hxx>
 
 // OCAF

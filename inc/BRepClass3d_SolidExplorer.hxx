@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepClass3d_MapOfInter.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

@@ -51,7 +51,7 @@
 #include <ShapeAnalysis_Shell.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopoDS_Shell.hxx>
@@ -59,7 +59,7 @@
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopTools_HArray1OfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 //=======================================================================
 //function : ShapeAnalysis_FreeBounds

@@ -35,8 +35,8 @@
 
 // + edge, face
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

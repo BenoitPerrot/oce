@@ -45,8 +45,8 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <TopTools_ShapeMapHasher.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 

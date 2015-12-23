@@ -25,7 +25,7 @@
 #include <ElCLib.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Precision.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepTool_GettraceVC();

@@ -39,7 +39,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopoDS.hxx>
 

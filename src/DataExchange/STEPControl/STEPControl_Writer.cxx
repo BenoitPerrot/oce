@@ -21,7 +21,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_Macros.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Transfer_FinderProcess.hxx>
 
 

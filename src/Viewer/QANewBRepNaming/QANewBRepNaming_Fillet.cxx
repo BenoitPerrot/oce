@@ -28,7 +28,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>

@@ -51,7 +51,7 @@
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>

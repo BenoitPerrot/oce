@@ -39,8 +39,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Precision.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

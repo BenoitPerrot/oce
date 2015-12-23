@@ -28,7 +28,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBuilderAPI.hxx>
@@ -65,7 +65,7 @@
 #include <TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #ifdef AIX
 #include <strings.h>

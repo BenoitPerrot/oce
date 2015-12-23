@@ -31,7 +31,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopoDS_Solid.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>

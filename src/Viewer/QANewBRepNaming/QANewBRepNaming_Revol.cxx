@@ -22,12 +22,12 @@
 
 #include <TNaming_Builder.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

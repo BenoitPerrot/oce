@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_EdgeOnSurfLaw)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 
 #include <GeomFill_LocationLaw.hxx>

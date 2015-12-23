@@ -39,8 +39,8 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_Array1OfListOfShape.hxx>

@@ -35,7 +35,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <DrawTrSurf.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>

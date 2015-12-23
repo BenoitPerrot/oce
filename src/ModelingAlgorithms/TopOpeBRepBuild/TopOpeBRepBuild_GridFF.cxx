@@ -55,7 +55,7 @@
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

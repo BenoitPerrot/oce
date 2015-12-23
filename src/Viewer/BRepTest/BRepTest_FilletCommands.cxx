@@ -32,8 +32,8 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 //#include <BOPTools_DSFiller.hxx>
 #include <BOPAlgo_PaveFiller.hxx>

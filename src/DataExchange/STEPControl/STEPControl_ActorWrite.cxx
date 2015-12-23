@@ -87,7 +87,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <StepBasic_ApplicationProtocolDefinition.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
@@ -130,7 +130,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 

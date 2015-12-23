@@ -25,7 +25,7 @@
 #include <QANewModTopOpe_Glue.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

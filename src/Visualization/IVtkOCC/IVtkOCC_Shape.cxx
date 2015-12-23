@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <IVtkOCC_Shape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 // Handle implementation
 IMPLEMENT_STANDARD_HANDLE(IVtkOCC_Shape, IVtk_IShape)

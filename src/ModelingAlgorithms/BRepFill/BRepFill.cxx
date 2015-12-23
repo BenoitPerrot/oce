@@ -61,7 +61,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -95,7 +95,7 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

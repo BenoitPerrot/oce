@@ -27,7 +27,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
@@ -54,7 +54,7 @@
 #include <GeomFill.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <BRepLib.hxx>
 

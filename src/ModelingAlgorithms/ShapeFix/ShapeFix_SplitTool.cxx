@@ -36,7 +36,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ShapeAnalysis_Curve.hxx>
 
 

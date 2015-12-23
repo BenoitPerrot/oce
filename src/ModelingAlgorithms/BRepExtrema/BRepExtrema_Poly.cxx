@@ -19,7 +19,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

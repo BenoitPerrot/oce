@@ -27,8 +27,8 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS.hxx>

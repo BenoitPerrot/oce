@@ -15,7 +15,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_EIR.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
 #include <TopOpeBRepDS_Edge3dInterferenceTool.hxx>

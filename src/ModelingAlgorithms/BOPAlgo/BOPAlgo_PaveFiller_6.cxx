@@ -41,7 +41,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Compound.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -96,7 +96,7 @@
 #include <BOPDS_CommonBlock.hxx>
 
 #include <BOPAlgo_Tools.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <IntTools_ShrunkRange.hxx>
 #include <BOPDS_DataMapOfPaveBlockListOfPaveBlock.hxx>
 

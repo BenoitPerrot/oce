@@ -33,7 +33,7 @@
 
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

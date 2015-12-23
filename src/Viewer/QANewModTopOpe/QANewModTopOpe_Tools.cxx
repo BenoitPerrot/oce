@@ -29,8 +29,8 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <IntTools_Context.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_DataMapOfIntegerShape.hxx>

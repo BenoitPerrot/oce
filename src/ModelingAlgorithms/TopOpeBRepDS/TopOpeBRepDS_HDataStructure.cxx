@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HDataStructure)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <TopOpeBRepDS_Transition.hxx>

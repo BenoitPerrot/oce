@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_Array1OfCurve.hxx>
@@ -84,7 +84,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 //#ifdef WNT
 #include <stdio.h>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 //#endif
 
 #include <TopTools_IndexedMapOfOrientedShape.hxx>

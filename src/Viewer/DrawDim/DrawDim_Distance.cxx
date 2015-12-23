@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Distance)
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>

@@ -25,8 +25,8 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Select3D_SensitivePoint.hxx>
 #include <StdSelect_BRepOwner.hxx>

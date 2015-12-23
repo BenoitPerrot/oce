@@ -24,10 +24,10 @@
 #include <TopOpeBRep_FaceEdgeFiller.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepDS_GapFiller.hxx>
 #include <TopOpeBRepDS_Filter.hxx>
 #include <TopOpeBRepDS_Reducer.hxx>

@@ -45,7 +45,7 @@
 #include <BRepFill_Sweep.hxx>
 
 #include <GeomAbs_Shape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>

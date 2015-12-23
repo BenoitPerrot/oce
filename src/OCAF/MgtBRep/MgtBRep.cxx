@@ -25,7 +25,7 @@
 #include <MgtBRep_TranslateTool.hxx>
 #include <MgtBRep_TranslateTool1.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 

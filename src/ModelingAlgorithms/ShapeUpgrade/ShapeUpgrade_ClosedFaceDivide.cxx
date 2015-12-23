@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <ShapeUpgrade_SplitSurface.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ShapeAnalysis_Surface.hxx>
 #include <ShapeAnalysis.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

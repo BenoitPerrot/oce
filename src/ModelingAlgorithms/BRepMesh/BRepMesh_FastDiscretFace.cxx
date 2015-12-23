@@ -46,10 +46,10 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

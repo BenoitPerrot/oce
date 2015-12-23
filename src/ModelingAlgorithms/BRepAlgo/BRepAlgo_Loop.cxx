@@ -28,7 +28,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
@@ -42,7 +42,7 @@
 #include <Precision.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 

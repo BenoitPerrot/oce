@@ -46,7 +46,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepClass_FacePassiveClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepClass_Edge.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

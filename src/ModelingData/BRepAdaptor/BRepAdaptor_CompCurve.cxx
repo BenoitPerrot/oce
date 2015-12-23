@@ -44,7 +44,7 @@
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <ElCLib.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 BRepAdaptor_CompCurve::BRepAdaptor_CompCurve()
 {

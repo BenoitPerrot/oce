@@ -54,7 +54,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepCheck_Wire.hxx>

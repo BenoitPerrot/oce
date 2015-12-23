@@ -44,8 +44,8 @@
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Compound.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>

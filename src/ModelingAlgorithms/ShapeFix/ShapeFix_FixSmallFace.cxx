@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <TopoDS_Wire.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ElCLib.hxx>
 #include <TopoDS_Builder.hxx>
 #include <TopoDS_Compound.hxx>
@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <Precision.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
 #include <TopoDS_Compound.hxx>

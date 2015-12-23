@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Precision.hxx>
 #include <Prs3d_Drawer.hxx>

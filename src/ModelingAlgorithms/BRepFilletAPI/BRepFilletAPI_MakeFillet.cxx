@@ -27,7 +27,7 @@
 #include <ChFiDS_SecHArray1.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <ChFiDS_Spine.hxx>

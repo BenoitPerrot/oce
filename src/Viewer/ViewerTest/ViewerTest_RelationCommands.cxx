@@ -59,7 +59,7 @@
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Solid.hxx>
@@ -865,7 +865,7 @@ static int VDiameterDimBuilder(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 
 static int VConcentricBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -1261,7 +1261,7 @@ static int VFixRelation(Draw_Interpretor& di, Standard_Integer argc, const char*
 //==============================================================================
 #include <AIS_IdenticRelation.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 
 static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -1409,7 +1409,7 @@ static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepLib_MakeVertex.hxx>
 
 static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -1901,7 +1901,7 @@ static int VOffsetDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 #include <BRepExtrema_ExtCC.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 
 static int VParallelBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -2056,7 +2056,7 @@ static int VParallelBuilder(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 
 

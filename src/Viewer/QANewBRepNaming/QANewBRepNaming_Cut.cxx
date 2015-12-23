@@ -19,7 +19,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Shell.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TNaming_NamedShape.hxx>

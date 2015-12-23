@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(LocOpe_WiresOnShape)
 IMPLEMENT_DOWNCAST(LocOpe_WiresOnShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopTools_MapOfShape.hxx>
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(LocOpe_WiresOnShape)
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <LocOpe.hxx>

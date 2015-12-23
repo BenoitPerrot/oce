@@ -33,7 +33,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -113,7 +113,7 @@ static void TestWLinesToAnArc(IntPatch_SequenceOfLine&           slin,
 
 // modified by NIZHNY-OFV  Fri Mar 29 12:37:21 2002.BEGIN
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>

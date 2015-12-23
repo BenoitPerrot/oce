@@ -37,12 +37,12 @@
 
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ChFi3d_FilletShape.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

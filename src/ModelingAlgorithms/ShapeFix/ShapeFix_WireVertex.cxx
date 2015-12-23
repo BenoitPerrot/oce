@@ -17,7 +17,7 @@
 #include <ShapeAnalysis_WireVertex.hxx>
 #include <ShapeFix_WireVertex.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>

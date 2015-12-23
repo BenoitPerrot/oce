@@ -61,7 +61,7 @@ static TColStd_MapOfInteger theactivatedmodes(8);
 
 #include <AIS_PlaneTrihedron.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>

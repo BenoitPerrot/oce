@@ -63,8 +63,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 //
 #include <IntTools_Tools.hxx>
 //

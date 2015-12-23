@@ -45,7 +45,7 @@
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -1581,7 +1581,7 @@ static Standard_Integer OCC2569 (Draw_Interpretor& di, Standard_Integer argc, co
 }
 
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 static Standard_Integer OCC1642 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

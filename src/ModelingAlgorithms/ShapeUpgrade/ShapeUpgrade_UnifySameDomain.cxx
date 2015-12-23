@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ShapeUpgrade_UnifySameDomain.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <Geometry/TColGeom2d/TColGeom2d_Array1OfBSplineCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfBSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>

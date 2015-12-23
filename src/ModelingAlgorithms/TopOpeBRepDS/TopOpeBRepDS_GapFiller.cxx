@@ -24,7 +24,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TopOpeBRepDS_GapFiller.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FixSmallBezierCurves)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>

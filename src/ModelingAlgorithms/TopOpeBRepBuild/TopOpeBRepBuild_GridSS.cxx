@@ -54,7 +54,7 @@
 #include <TopoDS.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

@@ -26,7 +26,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
@@ -36,7 +36,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/GProp/GProp.hxx>

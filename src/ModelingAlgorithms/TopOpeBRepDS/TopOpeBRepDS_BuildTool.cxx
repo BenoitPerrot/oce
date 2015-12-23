@@ -30,7 +30,7 @@
 #include <TopOpeBRepDS_BuildTool.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
@@ -50,7 +50,7 @@
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>

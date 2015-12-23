@@ -7,7 +7,7 @@
 #include <BRepPrimAPI_MakeTorus.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

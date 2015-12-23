@@ -32,7 +32,7 @@
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
@@ -41,7 +41,7 @@
 #include <TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

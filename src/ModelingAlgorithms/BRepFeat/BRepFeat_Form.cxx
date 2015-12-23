@@ -31,7 +31,7 @@
 #include <LocOpe_PntFace.hxx>
 #include <LocOpe_BuildShape.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

@@ -27,7 +27,7 @@
 #include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

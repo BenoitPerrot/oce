@@ -69,8 +69,8 @@
 #include <BRepBndLib.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>

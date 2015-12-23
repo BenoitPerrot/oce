@@ -67,9 +67,9 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <Transfer_TransientProcess.hxx>
 

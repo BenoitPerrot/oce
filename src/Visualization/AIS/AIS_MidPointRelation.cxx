@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <Select3D_SensitiveCurve.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

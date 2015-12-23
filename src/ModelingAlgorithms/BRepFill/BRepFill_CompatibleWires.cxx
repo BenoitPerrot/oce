@@ -44,8 +44,8 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx> 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

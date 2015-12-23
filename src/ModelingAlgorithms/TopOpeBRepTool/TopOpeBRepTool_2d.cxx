@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

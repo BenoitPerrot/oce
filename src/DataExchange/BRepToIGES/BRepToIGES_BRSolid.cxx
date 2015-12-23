@@ -48,8 +48,8 @@
 #include <TopoDS_Wire.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 
 // At first only the geometry is translated (point, curve...)

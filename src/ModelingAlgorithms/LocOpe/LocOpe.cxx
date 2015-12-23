@@ -21,7 +21,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <LocOpe.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -34,7 +34,7 @@
 
 #include <TopTools_MapOfShape.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Precision.hxx>

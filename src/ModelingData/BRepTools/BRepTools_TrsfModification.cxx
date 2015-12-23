@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_TrsfModification)
 #include <Mathematics/Primitives/gp.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopoDS.hxx>
 #include <Precision.hxx>

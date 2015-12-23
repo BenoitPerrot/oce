@@ -28,7 +28,7 @@
 
 #include <BRepBuilderAPI.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

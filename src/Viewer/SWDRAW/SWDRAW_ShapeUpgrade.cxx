@@ -46,7 +46,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Compound.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <BRepBuilderAPI.hxx>

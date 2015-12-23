@@ -27,7 +27,7 @@
 #include <TDF_TagSource.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TDF_ChildIDIterator.hxx>
@@ -39,7 +39,7 @@
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <TDF_Tool.hxx>

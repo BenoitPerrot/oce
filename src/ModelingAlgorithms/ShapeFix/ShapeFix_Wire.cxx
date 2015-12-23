@@ -101,7 +101,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <TopoDS_Edge.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

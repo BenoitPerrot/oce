@@ -39,7 +39,7 @@
 #include <TopoDS_TFace.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
 

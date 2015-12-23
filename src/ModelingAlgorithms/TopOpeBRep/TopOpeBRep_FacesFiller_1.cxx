@@ -35,7 +35,7 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Precision.hxx>

@@ -23,7 +23,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
 #include <BRepLib.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 
 // perform checks on the argument

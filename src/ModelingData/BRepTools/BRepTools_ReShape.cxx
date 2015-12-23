@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_ReShape)
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //include <ShapeExtend.hxx>
 //#include <ModelingData/BRepTools/BRepTools_Edge.hxx>

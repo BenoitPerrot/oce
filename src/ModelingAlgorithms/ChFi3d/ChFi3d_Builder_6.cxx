@@ -119,7 +119,7 @@
 #include <ChFiDS_FaceInterference.hxx>
 #include <ChFiDS_CommonPoint.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 

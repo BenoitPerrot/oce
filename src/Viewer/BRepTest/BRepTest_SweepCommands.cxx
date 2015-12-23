@@ -33,7 +33,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Precision.hxx>
 #include <Law_Interpol.hxx>

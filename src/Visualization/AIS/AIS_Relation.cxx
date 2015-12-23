@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElCLib.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 
 #include <Precision.hxx>

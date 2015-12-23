@@ -14,7 +14,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <BOPTools.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BOPCol_ListOfShape.hxx>
 
 //=======================================================================

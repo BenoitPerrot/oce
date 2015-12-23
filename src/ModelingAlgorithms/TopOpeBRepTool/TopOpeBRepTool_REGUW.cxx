@@ -18,7 +18,7 @@
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>

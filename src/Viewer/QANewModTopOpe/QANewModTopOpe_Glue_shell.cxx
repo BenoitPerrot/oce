@@ -34,8 +34,8 @@
 #include <BRepClass_FaceClassifier.hxx>
 #include <BRepFeat_SplitShape.hxx>
 #include <BRepLib.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>

@@ -31,14 +31,14 @@ IMPLEMENT_STANDARD_TYPE_END(LocOpe_GluedShape)
 IMPLEMENT_DOWNCAST(LocOpe_GluedShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(LocOpe_GluedShape)
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

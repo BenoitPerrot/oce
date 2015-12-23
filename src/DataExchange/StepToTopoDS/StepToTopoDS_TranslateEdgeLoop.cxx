@@ -65,8 +65,8 @@
 #include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

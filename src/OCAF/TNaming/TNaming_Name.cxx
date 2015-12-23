@@ -31,8 +31,8 @@
 #include <TNaming_NewShapeIterator.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

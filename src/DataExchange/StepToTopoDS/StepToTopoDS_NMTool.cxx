@@ -15,7 +15,7 @@
 
 #include <StepToTopoDS_NMTool.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Shape.hxx>
 
 // ============================================================================

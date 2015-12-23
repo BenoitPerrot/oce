@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

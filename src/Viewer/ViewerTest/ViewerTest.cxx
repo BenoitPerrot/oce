@@ -36,7 +36,7 @@
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 #include <AIS.hxx>

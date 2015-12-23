@@ -48,7 +48,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

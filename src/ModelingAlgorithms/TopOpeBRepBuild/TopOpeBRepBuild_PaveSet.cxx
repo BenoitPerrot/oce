@@ -23,13 +23,13 @@
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #ifdef OCCT_DEBUG

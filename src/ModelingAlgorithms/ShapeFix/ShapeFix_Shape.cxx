@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shape)
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

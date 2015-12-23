@@ -49,8 +49,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Wire.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_AttributeMap.hxx>
 #include <TDF_MapIteratorOfAttributeMap.hxx>

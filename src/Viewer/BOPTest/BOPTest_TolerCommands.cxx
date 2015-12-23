@@ -52,8 +52,8 @@
 
 #include <BRepLib.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 static 
   Standard_Integer breducetolerance (Draw_Interpretor&, Standard_Integer, const char** );

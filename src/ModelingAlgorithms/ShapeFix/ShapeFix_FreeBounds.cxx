@@ -27,7 +27,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 
 #include <ShapeExtend_Explorer.hxx>

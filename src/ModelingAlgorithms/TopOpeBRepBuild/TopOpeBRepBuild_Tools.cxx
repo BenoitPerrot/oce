@@ -75,8 +75,8 @@
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

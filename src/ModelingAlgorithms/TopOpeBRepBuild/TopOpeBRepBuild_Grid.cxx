@@ -48,7 +48,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 

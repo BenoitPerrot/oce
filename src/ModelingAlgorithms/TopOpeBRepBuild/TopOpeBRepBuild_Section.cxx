@@ -56,7 +56,7 @@
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

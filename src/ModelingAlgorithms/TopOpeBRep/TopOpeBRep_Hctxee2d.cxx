@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxee2d)
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRepTool_GEOMETRY.hxx>
 #include <TopOpeBRepTool_PROJECT.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

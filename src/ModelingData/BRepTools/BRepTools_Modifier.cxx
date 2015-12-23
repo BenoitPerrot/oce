@@ -28,7 +28,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
@@ -48,7 +48,7 @@
 #include <TopoDS.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>

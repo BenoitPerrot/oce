@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Precision.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 

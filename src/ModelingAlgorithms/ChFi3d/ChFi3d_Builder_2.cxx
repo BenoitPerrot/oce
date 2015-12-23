@@ -100,8 +100,8 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>

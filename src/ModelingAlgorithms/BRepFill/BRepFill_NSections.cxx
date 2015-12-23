@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Wire.hxx>

@@ -35,7 +35,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Face.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

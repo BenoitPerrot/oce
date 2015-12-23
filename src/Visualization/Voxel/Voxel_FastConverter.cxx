@@ -27,7 +27,7 @@
 
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>

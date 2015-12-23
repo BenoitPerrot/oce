@@ -52,8 +52,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <BRepAlgoAPI_Section.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepLib.hxx>

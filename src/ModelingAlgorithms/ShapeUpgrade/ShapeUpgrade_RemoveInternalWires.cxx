@@ -24,8 +24,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_RemoveInternalWires)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_RemoveInternalWires,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveInternalWires)
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

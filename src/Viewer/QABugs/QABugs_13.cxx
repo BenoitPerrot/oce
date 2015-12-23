@@ -44,7 +44,7 @@
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <stdio.h>
@@ -389,7 +389,7 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
 }
 
 #include <Geometry/gce/gce_MakePln.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepOffsetAPI_Sewing.hxx>
 #include <BRepAlgoAPI_Fuse.hxx>
 ///////#else

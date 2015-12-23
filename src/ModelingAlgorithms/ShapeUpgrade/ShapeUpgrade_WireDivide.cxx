@@ -52,8 +52,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <Precision.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>

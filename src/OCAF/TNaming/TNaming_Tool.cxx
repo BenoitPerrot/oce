@@ -47,7 +47,7 @@
 #include <TDF_Tool.hxx>
 #include <TDF_MapIteratorOfAttributeMap.hxx>
 #include <TDF_ChildIterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
 #endif
 

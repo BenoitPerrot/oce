@@ -57,7 +57,7 @@
 #include <ShapeFix_Wire.hxx>
 #include <ShapeAnalysis_WireOrder.hxx>
 #include <ShapeAnalysis_Wire.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeAnalysis_Curve.hxx>

@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 //#include <ShapeUpgrade_DataMapOfShapeListOfTransient.hxx>
 #include <ShapeBuild_Edge.hxx>

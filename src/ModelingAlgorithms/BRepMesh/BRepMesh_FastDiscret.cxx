@@ -59,8 +59,8 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <TopTools_SequenceOfShape.hxx>

@@ -36,8 +36,8 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Compound.hxx>
 //
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 //
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

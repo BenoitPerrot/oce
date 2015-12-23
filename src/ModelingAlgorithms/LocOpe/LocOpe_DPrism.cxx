@@ -44,7 +44,7 @@
 #include <TopTools.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <LocOpe_BuildShape.hxx>
 #include <LocOpe.hxx>
@@ -63,7 +63,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>

@@ -25,7 +25,7 @@
 #include <Draw_Segment3D.hxx>
 #include <ElCLib.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Draw_Color.hxx>
@@ -34,7 +34,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_DRAW.hxx>
 
 Standard_IMPORT Draw_Color DrawTrSurf_CurveColor(const Draw_Color col);

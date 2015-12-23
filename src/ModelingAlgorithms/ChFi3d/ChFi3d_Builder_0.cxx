@@ -98,8 +98,8 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_Array1OfShape.hxx>
 
 
@@ -130,7 +130,7 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_Surface.hxx>

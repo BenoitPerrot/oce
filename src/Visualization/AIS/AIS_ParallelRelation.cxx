@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 #include <Select3D_SensitiveBox.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

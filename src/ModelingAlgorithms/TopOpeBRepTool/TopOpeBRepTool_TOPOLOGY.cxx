@@ -33,8 +33,8 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

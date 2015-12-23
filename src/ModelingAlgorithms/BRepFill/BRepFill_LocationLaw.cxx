@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 #include <GeomFill_LocationLaw.hxx>

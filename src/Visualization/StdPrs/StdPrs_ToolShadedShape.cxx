@@ -32,7 +32,7 @@
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 
 //=======================================================================

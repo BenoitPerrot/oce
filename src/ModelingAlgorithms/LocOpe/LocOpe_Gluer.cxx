@@ -29,8 +29,8 @@
 #include <LocOpe_Generator.hxx>
 #include <LocOpe.hxx>
 
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

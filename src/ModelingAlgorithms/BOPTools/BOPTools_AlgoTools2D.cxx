@@ -54,7 +54,7 @@
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 
@@ -78,7 +78,7 @@
 #include <BOPTools.hxx>
 #include <IntTools_Tools.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <GeomInt.hxx>
 
 static 

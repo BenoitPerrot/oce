@@ -67,8 +67,8 @@
 #include <TopoDS_Shell.hxx> 
 #include <TopoDS_Solid.hxx> 
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx> 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx> 
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>

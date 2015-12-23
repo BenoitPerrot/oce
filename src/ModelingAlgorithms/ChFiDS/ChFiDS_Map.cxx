@@ -17,7 +17,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <ChFiDS_Map.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 //=======================================================================
 //function : ChFiDS_Map

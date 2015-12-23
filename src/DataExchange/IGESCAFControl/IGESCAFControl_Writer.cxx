@@ -42,7 +42,7 @@
 #include <XCAFDoc_LayerTool.hxx>
 #include <IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

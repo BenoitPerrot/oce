@@ -51,7 +51,7 @@
 #include <Geom2dHatch_Intersector.hxx>
 #include <Geom2dHatch_Hatcher.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS_Edge.hxx>
 
 #include <TopOpeBRepDS_Curve.hxx>

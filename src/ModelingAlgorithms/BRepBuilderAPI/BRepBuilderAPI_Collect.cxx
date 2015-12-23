@@ -20,7 +20,7 @@
 #include <BRepBuilderAPI_Collect.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>

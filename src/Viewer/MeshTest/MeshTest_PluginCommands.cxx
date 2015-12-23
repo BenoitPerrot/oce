@@ -27,7 +27,7 @@
 #include <Draw.hxx>
 #include <DBRep.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
@@ -40,7 +40,7 @@
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <TopoDS_Face.hxx>

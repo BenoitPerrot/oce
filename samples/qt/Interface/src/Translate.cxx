@@ -52,7 +52,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 
 #include <Geometry/Geom/Geom_Line.hxx>

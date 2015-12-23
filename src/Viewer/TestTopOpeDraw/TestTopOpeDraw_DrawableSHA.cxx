@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSHA)
 #include <TestTopOpeDraw_DrawableP3D.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

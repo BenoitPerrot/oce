@@ -151,7 +151,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <StepData_StepModel.hxx>
 #include <HeaderSection_FileName.hxx>
 

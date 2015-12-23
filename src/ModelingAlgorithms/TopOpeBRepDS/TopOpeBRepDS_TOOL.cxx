@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>

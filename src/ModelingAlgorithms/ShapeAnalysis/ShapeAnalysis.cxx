@@ -48,7 +48,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <Precision.hxx>
@@ -62,7 +62,7 @@
 #include <Precision.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 //static Standard_Integer numpb = 0;
 

@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_OffsetDimension)
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>

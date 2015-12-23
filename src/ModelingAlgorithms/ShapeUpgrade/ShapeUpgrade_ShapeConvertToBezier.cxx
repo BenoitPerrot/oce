@@ -23,7 +23,7 @@
 #include <ShapeUpgrade_WireDivide.hxx>
 #include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 #include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -38,8 +38,8 @@
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <TopoDS_Edge.hxx>
 #include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
-#include <TopExp.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ShapeFix_Wire.hxx>

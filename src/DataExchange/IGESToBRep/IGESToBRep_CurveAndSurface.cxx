@@ -51,7 +51,7 @@
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>

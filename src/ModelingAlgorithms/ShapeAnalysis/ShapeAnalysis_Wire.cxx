@@ -104,7 +104,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 //=======================================================================
 //function : ShapeAnalysis_Wire

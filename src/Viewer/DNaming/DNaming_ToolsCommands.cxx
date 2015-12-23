@@ -23,7 +23,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TNaming_CopyShape.hxx>

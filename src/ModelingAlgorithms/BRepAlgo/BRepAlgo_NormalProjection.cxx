@@ -24,7 +24,7 @@
 #include <BRepAlgo_NormalProjection.hxx>
 #include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
@@ -48,7 +48,7 @@
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Precision.hxx>
 #include <BRepAlgo_SequenceOfSequenceOfInteger.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

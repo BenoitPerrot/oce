@@ -24,7 +24,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

@@ -17,12 +17,12 @@
 #include <TopOpeBRepTool_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_2d.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #define M_FORWARD(sta)  (sta == TopAbs_FORWARD)
 #define M_REVERSED(sta) (sta == TopAbs_REVERSED)

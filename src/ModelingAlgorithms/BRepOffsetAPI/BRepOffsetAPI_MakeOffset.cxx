@@ -33,8 +33,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx> 
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Compound.hxx>

@@ -27,7 +27,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Compound.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <DBRep.hxx>
 #include <BRepTest.hxx>
@@ -67,7 +67,7 @@
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <Mathematics/Polynomial/PLib.hxx>

@@ -21,7 +21,7 @@
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopoDS_Edge.hxx>

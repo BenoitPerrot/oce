@@ -37,7 +37,7 @@
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <BRepLib_MakeFace.hxx>
@@ -56,7 +56,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <LocOpe.hxx>

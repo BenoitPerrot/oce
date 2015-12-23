@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <BRepPrimAPI_MakeSphere.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

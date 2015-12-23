@@ -57,8 +57,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx> 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>

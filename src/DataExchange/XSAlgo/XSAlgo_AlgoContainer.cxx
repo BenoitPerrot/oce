@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeEdge.hxx>

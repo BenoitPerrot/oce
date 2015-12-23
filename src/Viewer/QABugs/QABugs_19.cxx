@@ -1966,7 +1966,7 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTopoDS_HShape.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <MgtBRep.hxx>
 #include <Foundation/FSD/FSD_File.hxx>
 #include <ShapeSchema.hxx>

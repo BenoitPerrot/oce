@@ -40,13 +40,13 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <BRepCheck.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>

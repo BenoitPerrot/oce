@@ -33,7 +33,7 @@
 #include <BRepBuilderAPI.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <BRepOffsetAPI_FindContigousEdges.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

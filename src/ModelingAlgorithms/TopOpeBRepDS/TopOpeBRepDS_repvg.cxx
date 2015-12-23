@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_repvg.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_SC.hxx>

@@ -36,7 +36,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <TopTools_SequenceOfShape.hxx>

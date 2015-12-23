@@ -36,7 +36,7 @@
 #include <StdPrs_ToolShadedShape.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <StdPrs_WFShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Iterator.hxx>

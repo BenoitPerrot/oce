@@ -101,8 +101,8 @@
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>

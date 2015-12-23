@@ -34,8 +34,8 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>

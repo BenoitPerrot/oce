@@ -28,7 +28,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

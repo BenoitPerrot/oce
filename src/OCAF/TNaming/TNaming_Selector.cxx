@@ -42,7 +42,7 @@
 //#define MDTV_DEB_SEL
 #ifdef OCCT_DEBUG_SEL
 //#define MDTV_DEB_BNP
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Tool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

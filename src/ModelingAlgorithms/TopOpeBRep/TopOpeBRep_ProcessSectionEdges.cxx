@@ -36,7 +36,7 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -48,13 +48,13 @@
 
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>
@@ -525,7 +525,7 @@ static int VPlaneTrihedron (Draw_Interpretor& di, Standard_Integer argc, const c
 //==============================================================================
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
 static int VAxisBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv)
@@ -777,7 +777,7 @@ static int VAxisBuilder(Draw_Interpretor& di, Standard_Integer argc, const char*
 //==============================================================================
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <AIS_Point.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
@@ -2642,7 +2642,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 

@@ -29,7 +29,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS.hxx>

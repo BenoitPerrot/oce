@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepBndLib.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Aspect_TypeOfLine.hxx>
 #include <Graphic3d_Structure.hxx>

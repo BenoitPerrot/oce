@@ -32,7 +32,7 @@
 #include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 

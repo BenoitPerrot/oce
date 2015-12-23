@@ -32,8 +32,8 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>

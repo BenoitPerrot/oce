@@ -32,7 +32,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Precision.hxx>
 
 Standard_EXPORT void FUN_draw (const TopoDS_Shape& s)

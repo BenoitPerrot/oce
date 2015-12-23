@@ -66,7 +66,7 @@
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Geom2dInt_GInter.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ChFiDS_FilSpine.hxx>
 #include <ChFiDS_ChamfSpine.hxx>

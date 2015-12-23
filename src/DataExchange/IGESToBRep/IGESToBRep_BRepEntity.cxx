@@ -71,7 +71,7 @@
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 

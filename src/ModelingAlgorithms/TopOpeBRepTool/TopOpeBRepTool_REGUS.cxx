@@ -24,8 +24,8 @@
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_REGUW.hxx>

@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>

@@ -28,7 +28,7 @@
 #include <BRepMesh_Vertex.hxx>
 #include <BRepMesh_Triangle.hxx>
 #include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (MeshTest_DrawableMesh, Draw_Drawable3D)
 IMPLEMENT_STANDARD_RTTIEXT(MeshTest_DrawableMesh, Draw_Drawable3D)

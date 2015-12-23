@@ -21,7 +21,7 @@
 #include <TopoDS_Face.hxx>
 #include <IntCurvesFace_ShapeIntersector.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <IntCurvesFace_Intersector.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>

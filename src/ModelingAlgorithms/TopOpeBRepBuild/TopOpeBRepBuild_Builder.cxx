@@ -69,7 +69,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepDS_Filter.hxx>
 #include <TopOpeBRepDS_Reducer.hxx>
 #include <TopOpeBRepBuild_define.hxx>

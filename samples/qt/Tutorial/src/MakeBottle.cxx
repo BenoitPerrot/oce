@@ -41,7 +41,7 @@
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

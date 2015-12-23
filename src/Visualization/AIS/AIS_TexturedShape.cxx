@@ -36,7 +36,7 @@
 #include <StdPrs_ToolShadedShape.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <StdPrs_WFShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_TexturedShape, AIS_Shape)
 IMPLEMENT_STANDARD_RTTIEXT(AIS_TexturedShape, AIS_Shape)

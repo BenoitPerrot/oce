@@ -22,7 +22,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepExtrema_DistanceSS.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

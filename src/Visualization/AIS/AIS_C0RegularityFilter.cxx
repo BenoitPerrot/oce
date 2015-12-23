@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_C0RegularityFilter)
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
 #include <GeomAbs_Shape.hxx>

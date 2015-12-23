@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TopOpeBRep_FFDumper)
 IMPLEMENT_DOWNCAST(TopOpeBRep_FFDumper,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRep_FFDumper)
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopOpeBRep_FacesIntersector.hxx>
 #include <TopOpeBRep_VPointInterIterator.hxx>

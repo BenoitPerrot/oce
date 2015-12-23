@@ -32,7 +32,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 //
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_ListOfInteger.hxx>

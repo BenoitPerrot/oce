@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_CurveExplorer.hxx>
 #include <TopOpeBRepDS_IndexedDataMapOfVertexPoint.hxx>
 #include <TopOpeBRepDS_CurveExplorer.hxx>

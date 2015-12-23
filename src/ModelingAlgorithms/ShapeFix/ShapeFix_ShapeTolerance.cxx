@@ -26,8 +26,8 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 //=======================================================================
 //function : Constructor

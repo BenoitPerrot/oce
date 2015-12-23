@@ -25,14 +25,14 @@
 #include <ShapeExtend.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -60,7 +60,7 @@
 #include <TopoDS_Wire.hxx>
 //#include <ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ElCLib.hxx>
 #include <TopoDS_Builder.hxx>
 #include <TopoDS_Compound.hxx>

@@ -77,7 +77,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Compound.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 

@@ -25,7 +25,7 @@
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_2d.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>

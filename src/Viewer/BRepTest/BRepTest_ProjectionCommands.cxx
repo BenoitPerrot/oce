@@ -21,7 +21,7 @@
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <BRepProj_Projection.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepTest.hxx>
 #include <TopoDS.hxx>
 //#ifdef WNT

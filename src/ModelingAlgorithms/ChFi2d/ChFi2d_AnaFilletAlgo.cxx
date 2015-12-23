@@ -36,7 +36,7 @@
 #include <TopoDS_Iterator.hxx>
 
 #include <Geometry/ProjLib/ProjLib.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ElSLib.hxx>
 
 // Compute the flag: CW || CCW

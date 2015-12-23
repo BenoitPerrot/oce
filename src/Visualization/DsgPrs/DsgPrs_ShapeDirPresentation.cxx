@@ -35,7 +35,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>

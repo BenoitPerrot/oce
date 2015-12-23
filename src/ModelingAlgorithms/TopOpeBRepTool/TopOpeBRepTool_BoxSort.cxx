@@ -22,8 +22,8 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopOpeBRepTool_BoxSort.hxx>
 
-#include <TopExp_Explorer.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

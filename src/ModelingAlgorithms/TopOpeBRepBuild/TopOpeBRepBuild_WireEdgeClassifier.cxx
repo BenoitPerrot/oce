@@ -29,7 +29,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRepClass_FaceClassifier.hxx>
@@ -41,7 +41,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_SC.hxx>

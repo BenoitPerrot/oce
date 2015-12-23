@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Vertex)
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 
 #include <BRepCheck.hxx>

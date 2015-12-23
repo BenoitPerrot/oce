@@ -36,7 +36,7 @@
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
@@ -54,7 +54,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

@@ -25,7 +25,7 @@
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

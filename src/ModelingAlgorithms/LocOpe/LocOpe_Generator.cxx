@@ -39,7 +39,7 @@
 #include <TopoDS_Vertex.hxx>
 
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
@@ -61,7 +61,7 @@
 #include <LocOpe_BuildShape.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ElCLib.hxx>

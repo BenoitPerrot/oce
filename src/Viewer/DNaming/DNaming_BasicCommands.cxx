@@ -43,7 +43,7 @@
 #include <TNaming_Builder.hxx>
 #include <TDataStd_Name.hxx>
 #include <TDF_TagSource.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

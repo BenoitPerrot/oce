@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/Standard/Standard.hxx>

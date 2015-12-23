@@ -20,7 +20,7 @@
 #include <HLRBRep_EdgeData.hxx>
 #include <HLRBRep_HLRToShape.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <HLRBRep.hxx>

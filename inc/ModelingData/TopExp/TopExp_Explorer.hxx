@@ -164,7 +164,7 @@ private:
 };
 
 
-#include <TopExp_Explorer.lxx>
+#include <ModelingData/TopExp/TopExp_Explorer.lxx>
 
 
 

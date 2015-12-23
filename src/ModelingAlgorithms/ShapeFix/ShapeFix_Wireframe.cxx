@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <TopoDS_Iterator.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <TopoDS_Face.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeFix_Edge.hxx>
@@ -477,7 +477,7 @@ ShapeFix_Wireframe::ShapeFix_Wireframe(const TopoDS_Shape& shape)
 //function : CheckSmallEdges
 //purpose  : 
 //=======================================================================
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 Standard_Boolean ShapeFix_Wireframe::CheckSmallEdges(TopTools_MapOfShape& theSmallEdges,
                                                      TopTools_DataMapOfShapeListOfShape& theEdgeToFaces,

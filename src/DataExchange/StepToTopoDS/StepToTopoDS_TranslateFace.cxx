@@ -69,8 +69,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Vertex.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>//rln 28/01/98
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>//rln 28/01/98
 
 #include <TopoDS_Wire.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

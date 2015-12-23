@@ -42,14 +42,14 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 
 #include <TopOpeBRepDS_EXPORT.hxx>

@@ -24,7 +24,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>

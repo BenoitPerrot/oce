@@ -22,7 +22,7 @@
 
 #include <TopoDS_Solid.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <BRepPrimAPI_MakeBox.hxx>
 

@@ -42,8 +42,8 @@
 #include <TopTools_DataMapOfIntegerListOfShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
 
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <TopoDS.hxx>
 

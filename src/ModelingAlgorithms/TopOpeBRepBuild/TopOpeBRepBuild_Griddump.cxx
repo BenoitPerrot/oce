@@ -70,7 +70,7 @@
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

@@ -53,7 +53,7 @@
 
 #include <TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

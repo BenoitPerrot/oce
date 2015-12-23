@@ -46,7 +46,7 @@
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <errno.h>
 #include <Foundation/OSD/OSD_OpenFile.hxx>

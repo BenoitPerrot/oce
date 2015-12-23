@@ -51,7 +51,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Compound.hxx>

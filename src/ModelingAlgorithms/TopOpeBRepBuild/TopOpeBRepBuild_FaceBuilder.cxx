@@ -33,7 +33,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>

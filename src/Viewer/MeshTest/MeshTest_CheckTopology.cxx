@@ -16,8 +16,8 @@
 #include <MeshTest_CheckTopology.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

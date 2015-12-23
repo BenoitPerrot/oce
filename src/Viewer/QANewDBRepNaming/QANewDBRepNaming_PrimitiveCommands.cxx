@@ -52,11 +52,11 @@
 
 #include <TDataXtd_Geometry.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <QADNaming.hxx>
 #include <BRepFilletAPI_MakeFillet.hxx>

@@ -26,7 +26,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <ChFiDS_Spine.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 
 

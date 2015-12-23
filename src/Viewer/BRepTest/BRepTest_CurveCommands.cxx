@@ -63,7 +63,7 @@
 #include <Precision.hxx>
 #include <GeomAPI.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRepDS_Transition.hxx>

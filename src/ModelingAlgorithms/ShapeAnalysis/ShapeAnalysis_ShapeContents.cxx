@@ -21,7 +21,7 @@
 #include <ShapeAnalysis_ShapeContents.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeAnalysis_Wire.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS_Solid.hxx>
 #include <TopoDS.hxx>

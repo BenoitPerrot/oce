@@ -23,7 +23,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shell.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

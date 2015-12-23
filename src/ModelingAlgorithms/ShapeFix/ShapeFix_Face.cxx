@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -106,7 +106,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <ShapeFix.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>

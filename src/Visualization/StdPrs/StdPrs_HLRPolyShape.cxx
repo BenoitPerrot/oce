@@ -22,7 +22,7 @@
 
 #include <StdPrs_WFShape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Prs3d_LineAspect.hxx>

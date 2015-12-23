@@ -41,8 +41,8 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 // Handle implementation
 IMPLEMENT_STANDARD_HANDLE(IVtkOCC_ShapeMesher, IVtk_IShapeMesher)

@@ -41,8 +41,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

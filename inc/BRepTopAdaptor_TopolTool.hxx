@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopoDS_Face.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>

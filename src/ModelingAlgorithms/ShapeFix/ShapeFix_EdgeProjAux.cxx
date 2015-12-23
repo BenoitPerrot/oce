@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 #include <ShapeAnalysis.hxx>
 #include <ShapeAnalysis_Curve.hxx>

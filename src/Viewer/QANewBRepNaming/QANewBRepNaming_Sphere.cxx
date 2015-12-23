@@ -27,7 +27,7 @@
 #include <TopoDS_Edge.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TNaming_NamedShape.hxx>

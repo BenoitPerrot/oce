@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDistance)
 #include <Geometry/Geom/Geom_Line.hxx> 
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 
 

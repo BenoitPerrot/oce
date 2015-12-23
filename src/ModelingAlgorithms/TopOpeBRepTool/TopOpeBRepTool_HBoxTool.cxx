@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(TopOpeBRepTool_HBoxTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_HBoxTool)
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

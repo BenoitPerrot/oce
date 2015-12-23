@@ -19,7 +19,7 @@
 #include <TopOpeBRepTool_AncestorsTool.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 
 //=======================================================================
 //function : MakeAncestors

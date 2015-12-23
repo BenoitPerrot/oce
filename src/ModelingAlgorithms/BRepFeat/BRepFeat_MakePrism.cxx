@@ -49,7 +49,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
@@ -75,7 +75,7 @@
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Compound.hxx>
 
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepBndLib.hxx>
 
 #include <Precision.hxx>

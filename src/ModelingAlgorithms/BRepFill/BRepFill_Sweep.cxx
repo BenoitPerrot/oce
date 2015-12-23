@@ -92,8 +92,8 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Shell.hxx>
-#include <TopExp.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

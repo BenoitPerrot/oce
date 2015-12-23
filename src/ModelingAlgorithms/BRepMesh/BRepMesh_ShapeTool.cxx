@@ -19,12 +19,12 @@
 #include <BRepBndLib.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 namespace {

@@ -22,7 +22,7 @@
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <BRepMesh_PairOfPolygon.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

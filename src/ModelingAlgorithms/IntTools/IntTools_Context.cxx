@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <TopoDS.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

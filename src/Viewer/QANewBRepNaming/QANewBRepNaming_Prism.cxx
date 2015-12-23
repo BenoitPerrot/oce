@@ -23,13 +23,13 @@
 #include <QANewBRepNaming_Prism.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <TNaming_Builder.hxx>
-#include <TopExp_Explorer.hxx>
+#include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_TagSource.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <TopExp.hxx>
+#include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
