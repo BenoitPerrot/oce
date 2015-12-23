@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepGProp_Face.hxx>
-#include <BRepGProp_UFunction.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Face.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_UFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/GProp/GProp_ValueType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -120,7 +120,7 @@ private:
 };
 
 
-#include <BRepGProp_TFunction.lxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_TFunction.lxx>
 
 
 

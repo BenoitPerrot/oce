@@ -158,7 +158,7 @@ private:
 };
 
 
-#include <BRepGProp_Face.lxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Face.lxx>
 
 
 

@@ -84,7 +84,7 @@
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 
 #ifdef OCCT_DEBUG
 static Standard_Boolean Affich = Standard_False;

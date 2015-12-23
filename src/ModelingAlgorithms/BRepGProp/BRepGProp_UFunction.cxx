@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_Face.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <BRepGProp_UFunction.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_UFunction.hxx>
 
 //=======================================================================
 //function : Constructor.

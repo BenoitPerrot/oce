@@ -14,11 +14,11 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepGProp_Cinert.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Cinert.hxx>
 
 #include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <BRepGProp_EdgeTool.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_EdgeTool.hxx>
 
 BRepGProp_Cinert::BRepGProp_Cinert(){}
 

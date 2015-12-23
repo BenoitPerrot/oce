@@ -37,7 +37,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRepLProp/BRepLProp.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <Geometry/GProp/GProp_PrincipalProps.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

@@ -78,7 +78,7 @@
 #include <GeomFill_Generator.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ModelingData/BRepLProp/BRepLProp.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <Geometry/GProp/GProp_PrincipalProps.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>

@@ -21,7 +21,7 @@
 #include <IntTools_CArray1OfReal.hxx>
 #include <IntTools.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <IntTools_Root.hxx>
 #include <IntTools_Array1OfRoots.hxx>

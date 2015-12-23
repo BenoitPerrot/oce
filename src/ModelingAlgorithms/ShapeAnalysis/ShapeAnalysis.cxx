@@ -34,7 +34,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

@@ -31,7 +31,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <DrawTrSurf.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

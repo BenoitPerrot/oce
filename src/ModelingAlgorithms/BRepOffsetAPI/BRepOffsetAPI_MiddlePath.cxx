@@ -57,7 +57,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>

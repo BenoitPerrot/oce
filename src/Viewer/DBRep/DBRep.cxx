@@ -41,7 +41,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/GProp/GProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Draw_ProgressIndicator.hxx>
 

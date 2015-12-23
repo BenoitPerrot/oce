@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_FaceDivideArea)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_FaceDivideArea,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivideArea)
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Precision.hxx> 
 #include <ShapeUpgrade_SplitSurfaceArea.hxx> 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

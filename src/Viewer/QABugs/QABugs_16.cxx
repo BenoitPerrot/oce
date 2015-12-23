@@ -25,7 +25,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <AIS_Trihedron.hxx>

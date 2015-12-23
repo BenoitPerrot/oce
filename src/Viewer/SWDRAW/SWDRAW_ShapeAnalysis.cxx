@@ -52,7 +52,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ShapeAnalysis_ShapeContents.hxx>
 #include <BRepLib_MakeFace.hxx>

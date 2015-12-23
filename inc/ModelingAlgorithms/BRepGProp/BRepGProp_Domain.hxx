@@ -68,7 +68,7 @@ private:
 };
 
 
-#include <BRepGProp_Domain.lxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Domain.lxx>
 
 
 

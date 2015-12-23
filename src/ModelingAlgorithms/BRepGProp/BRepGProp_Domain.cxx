@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepGProp_Domain.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Domain.hxx>
 
 //=======================================================================
 //function : Next

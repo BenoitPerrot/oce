@@ -79,7 +79,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 static Standard_Boolean NewPlane(const TopoDS_Face&,

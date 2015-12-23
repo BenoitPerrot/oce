@@ -12,13 +12,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp.hxx>
-#include <BRepGProp_Cinert.hxx>
-#include <BRepGProp_Sinert.hxx>
-#include <BRepGProp_Vinert.hxx>
-#include <BRepGProp_VinertGK.hxx>
-#include <BRepGProp_Face.hxx>
-#include <BRepGProp_Domain.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Cinert.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Sinert.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Vinert.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_VinertGK.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Face.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Domain.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 

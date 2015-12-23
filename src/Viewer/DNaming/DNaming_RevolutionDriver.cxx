@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <Geometry/Geom/Geom_Line.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>

@@ -32,7 +32,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

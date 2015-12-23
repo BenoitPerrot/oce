@@ -36,7 +36,7 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>

@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepGProp_Face.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepGProp_Domain.hxx>
-#include <BRepGProp_Sinert.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Domain.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Sinert.hxx>
 
 #include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

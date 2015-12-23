@@ -25,7 +25,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

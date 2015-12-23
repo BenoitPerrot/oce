@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <BRepGProp_EdgeTool.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_EdgeTool.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

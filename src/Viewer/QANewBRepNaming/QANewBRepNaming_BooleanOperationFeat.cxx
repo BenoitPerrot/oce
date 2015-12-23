@@ -25,7 +25,7 @@
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

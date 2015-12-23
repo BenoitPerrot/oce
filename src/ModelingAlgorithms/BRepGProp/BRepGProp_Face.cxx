@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <BRepGProp_Face.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Face.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 

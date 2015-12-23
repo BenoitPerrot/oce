@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepGProp_Face.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -119,7 +119,7 @@ private:
 };
 
 
-#include <BRepGProp_UFunction.lxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_UFunction.lxx>
 
 
 

@@ -57,7 +57,7 @@
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
 //S4054: ShapeTool_MakeWire -> ShapeExtend_WireData //:g8: BRepLib_MakeWire -> ShapeTool_MakeWire
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

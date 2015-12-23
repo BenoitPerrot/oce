@@ -73,7 +73,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
-#include <BRepGProp.hxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>

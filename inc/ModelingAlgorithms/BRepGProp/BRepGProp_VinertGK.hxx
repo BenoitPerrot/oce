@@ -152,7 +152,7 @@ private:
 };
 
 
-#include <BRepGProp_VinertGK.lxx>
+#include <ModelingAlgorithms/BRepGProp/BRepGProp_VinertGK.lxx>
 
 
 
