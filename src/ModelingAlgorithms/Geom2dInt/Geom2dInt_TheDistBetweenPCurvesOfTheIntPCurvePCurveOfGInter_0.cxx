@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define TheCurve Adaptor2d_Curve2d
 #define TheCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define TheCurveTool Geom2dInt_Geom2dCurveTool
-#define TheCurveTool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #define IntCurve_DistBetweenPCurvesGen Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter
-#define IntCurve_DistBetweenPCurvesGen_hxx <Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter.hxx>
+#define IntCurve_DistBetweenPCurvesGen_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter.hxx>
 #include <IntCurve_DistBetweenPCurvesGen.gxx>
 

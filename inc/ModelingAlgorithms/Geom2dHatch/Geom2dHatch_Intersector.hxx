@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 class Geom2dAdaptor_Curve;
 class gp_Lin2d;
 class gp_Dir2d;

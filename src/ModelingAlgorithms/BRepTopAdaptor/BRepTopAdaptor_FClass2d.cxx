@@ -29,7 +29,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>

@@ -50,7 +50,7 @@
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
 #include <IntRes2d_IntersectionPoint.hxx>
 

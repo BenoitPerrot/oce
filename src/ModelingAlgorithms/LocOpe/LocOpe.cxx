@@ -29,7 +29,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

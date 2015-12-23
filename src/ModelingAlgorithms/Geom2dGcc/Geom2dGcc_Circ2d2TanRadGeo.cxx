@@ -39,7 +39,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveToolGeo.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
 // circulaire tant a une courbe et une droite ,de rayon donne
 //==============================================================

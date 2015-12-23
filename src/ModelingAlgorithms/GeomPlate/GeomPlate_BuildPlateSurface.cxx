@@ -72,7 +72,7 @@
 #include <LocalAnalysis_SurfaceContinuity.hxx>
 
 // pour les intersection entre les courbes
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

@@ -89,7 +89,7 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAbs_Shape.hxx>

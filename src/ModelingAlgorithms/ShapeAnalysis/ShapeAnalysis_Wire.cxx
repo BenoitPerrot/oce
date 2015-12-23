@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>

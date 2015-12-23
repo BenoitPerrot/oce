@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecCC)
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>  

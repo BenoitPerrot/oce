@@ -31,7 +31,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <IntRes2d_Transition.hxx>

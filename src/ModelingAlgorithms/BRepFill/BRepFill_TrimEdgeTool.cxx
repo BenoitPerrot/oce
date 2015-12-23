@@ -30,7 +30,7 @@
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

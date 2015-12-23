@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>

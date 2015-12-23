@@ -71,7 +71,7 @@
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>

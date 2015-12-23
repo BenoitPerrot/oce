@@ -65,7 +65,7 @@
 #include <IntRes2d_Position.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_FilSpine.hxx>

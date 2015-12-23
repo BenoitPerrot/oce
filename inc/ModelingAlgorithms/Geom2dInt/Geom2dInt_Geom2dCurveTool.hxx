@@ -120,7 +120,7 @@ private:
 };
 
 
-#include <Geom2dInt_Geom2dCurveTool.lxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.lxx>
 
 
 

@@ -35,7 +35,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <ElCLib.hxx>
-#include <Geom2dInt_TheProjPCurOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheProjPCurOfGInter.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>

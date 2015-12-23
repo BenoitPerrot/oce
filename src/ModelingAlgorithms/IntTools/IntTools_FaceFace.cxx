@@ -94,7 +94,7 @@
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

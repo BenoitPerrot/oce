@@ -70,7 +70,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
 #include <GeomInt_IntSS.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

@@ -3,23 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
-#include <Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
  
 
 #define Curve Adaptor2d_Curve2d
 #define Curve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define Tool Geom2dInt_Geom2dCurveTool
-#define Tool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
+#define Tool_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #define POnC Extrema_POnCurv2d
 #define POnC_hxx <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #define Pnt gp_Pnt2d
@@ -27,16 +27,16 @@
 #define Vec gp_Vec2d
 #define Vec_hxx <Mathematics/Primitives/gp_Vec2d.hxx>
 #define Extrema_SeqPC Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
-#define Extrema_SeqPC_hxx <Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#define Extrema_SeqPC_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_SeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #define Extrema_SequenceNodeOfSeqPC Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
-#define Extrema_SequenceNodeOfSeqPC_hxx <Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#define Extrema_SequenceNodeOfSeqPC_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #define Extrema_SequenceNodeOfSeqPC Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
-#define Extrema_SequenceNodeOfSeqPC_hxx <Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#define Extrema_SequenceNodeOfSeqPC_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #define Handle_Extrema_SequenceNodeOfSeqPC Handle_Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
 #define Extrema_SequenceNodeOfSeqPC_Type_() Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter_Type_()
 #define Handle_Extrema_SequenceNodeOfSeqPC Handle_Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
 #define Extrema_SequenceNodeOfSeqPC_Type_() Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter_Type_()
 #define Extrema_FuncExtPC Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter
-#define Extrema_FuncExtPC_hxx <Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#define Extrema_FuncExtPC_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_PCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 #include <Geometry/Extrema/Extrema_FuncExtPC.gxx>
 

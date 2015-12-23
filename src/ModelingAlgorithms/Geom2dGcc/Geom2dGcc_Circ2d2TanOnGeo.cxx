@@ -51,7 +51,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveToolGeo.hxx>
-#include <Geom2dInt_TheIntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 
 Geom2dGcc_Circ2d2TanOnGeo::
 Geom2dGcc_Circ2d2TanOnGeo (const GccEnt_QualifiedCirc&     Qualified1 ,

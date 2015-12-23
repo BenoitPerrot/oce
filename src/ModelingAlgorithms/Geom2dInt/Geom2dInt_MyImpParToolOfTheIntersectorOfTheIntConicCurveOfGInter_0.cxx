@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
 
 #include <IntCurve_IConicTool.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
  
 
 #define ImpTool IntCurve_IConicTool
@@ -15,8 +15,8 @@
 #define ParCurve Adaptor2d_Curve2d
 #define ParCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define ParTool Geom2dInt_Geom2dCurveTool
-#define ParTool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
+#define ParTool_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #define IntImpParGen_ImpParTool Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter
-#define IntImpParGen_ImpParTool_hxx <Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
+#define IntImpParGen_ImpParTool_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #include <IntImpParGen_ImpParTool.gxx>
 

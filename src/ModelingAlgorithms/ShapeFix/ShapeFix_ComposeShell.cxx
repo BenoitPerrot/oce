@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_Domain.hxx>
 
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntCurve_IntConicConic.hxx>
-#include <Geom2dInt_TheIntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #include <IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;

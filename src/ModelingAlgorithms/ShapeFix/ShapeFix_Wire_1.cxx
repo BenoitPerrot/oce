@@ -70,7 +70,7 @@
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.hxx>

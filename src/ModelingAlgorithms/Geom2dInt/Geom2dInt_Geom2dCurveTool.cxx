@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>

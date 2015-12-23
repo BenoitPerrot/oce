@@ -46,7 +46,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 //
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>

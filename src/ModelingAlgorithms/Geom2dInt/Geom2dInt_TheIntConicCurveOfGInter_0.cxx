@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dInt_TheIntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 
 #include <IntCurve_IConicTool.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
-#include <Geom2dInt_TheProjPCurOfGInter.hxx>
-#include <Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
-#include <Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheProjPCurOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
@@ -24,16 +24,16 @@
 #define ThePCurve Adaptor2d_Curve2d
 #define ThePCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define ThePCurveTool Geom2dInt_Geom2dCurveTool
-#define ThePCurveTool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
+#define ThePCurveTool_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #define TheProjPCur Geom2dInt_TheProjPCurOfGInter
-#define TheProjPCur_hxx <Geom2dInt_TheProjPCurOfGInter.hxx>
+#define TheProjPCur_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheProjPCurOfGInter.hxx>
 #define IntCurve_TheIntersector Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter
-#define IntCurve_TheIntersector_hxx <Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
+#define IntCurve_TheIntersector_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #define IntCurve_MyImpParToolOfTheIntersector Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter
-#define IntCurve_MyImpParToolOfTheIntersector_hxx <Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
+#define IntCurve_MyImpParToolOfTheIntersector_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #define IntCurve_MyImpParToolOfTheIntersector Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter
-#define IntCurve_MyImpParToolOfTheIntersector_hxx <Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
+#define IntCurve_MyImpParToolOfTheIntersector_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #define IntCurve_IntConicCurveGen Geom2dInt_TheIntConicCurveOfGInter
-#define IntCurve_IntConicCurveGen_hxx <Geom2dInt_TheIntConicCurveOfGInter.hxx>
+#define IntCurve_IntConicCurveGen_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #include <IntCurve_IntConicCurveGen.gxx>
 

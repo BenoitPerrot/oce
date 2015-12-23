@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <IntRes2d_SequenceOfIntersectionPoint.hxx>
 #include <IntRes2d_SequenceOfIntersectionSegment.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

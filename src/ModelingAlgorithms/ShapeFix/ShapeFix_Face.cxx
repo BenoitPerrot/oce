@@ -113,7 +113,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>

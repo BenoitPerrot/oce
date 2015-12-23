@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
 

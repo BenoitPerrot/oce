@@ -57,7 +57,7 @@
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>

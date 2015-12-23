@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElCLib.hxx>
 
-#include <Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>

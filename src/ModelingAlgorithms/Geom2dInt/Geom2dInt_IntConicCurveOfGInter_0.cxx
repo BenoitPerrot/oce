@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Geom2dInt_IntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_IntConicCurveOfGInter.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <IntCurve_IConicTool.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Geom2dInt_Geom2dCurveTool.hxx>
-#include <Geom2dInt_TheIntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
@@ -23,10 +23,10 @@
 #define ThePCurve Adaptor2d_Curve2d
 #define ThePCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define ThePCurveTool Geom2dInt_Geom2dCurveTool
-#define ThePCurveTool_hxx <Geom2dInt_Geom2dCurveTool.hxx>
+#define ThePCurveTool_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #define TheIntConicCurve Geom2dInt_TheIntConicCurveOfGInter
-#define TheIntConicCurve_hxx <Geom2dInt_TheIntConicCurveOfGInter.hxx>
+#define TheIntConicCurve_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #define IntCurve_UserIntConicCurveGen Geom2dInt_IntConicCurveOfGInter
-#define IntCurve_UserIntConicCurveGen_hxx <Geom2dInt_IntConicCurveOfGInter.hxx>
+#define IntCurve_UserIntConicCurveGen_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_IntConicCurveOfGInter.hxx>
 #include <IntCurve_UserIntConicCurveGen.gxx>
 

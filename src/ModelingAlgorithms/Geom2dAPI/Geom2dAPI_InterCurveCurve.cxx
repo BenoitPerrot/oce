@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

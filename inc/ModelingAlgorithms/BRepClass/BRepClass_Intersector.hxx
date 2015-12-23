@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Geom2dInt_IntConicCurveOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_IntConicCurveOfGInter.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_Lin2d;
 class BRepClass_Edge;

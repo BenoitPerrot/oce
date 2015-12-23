@@ -47,7 +47,7 @@
 #include <ModelingAlgorithms/Bisector/Bisector_Inter.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>

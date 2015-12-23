@@ -29,7 +29,7 @@
 #include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecPC.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_FunctionInter.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

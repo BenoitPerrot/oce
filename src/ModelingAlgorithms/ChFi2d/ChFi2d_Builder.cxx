@@ -75,7 +75,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRad.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 

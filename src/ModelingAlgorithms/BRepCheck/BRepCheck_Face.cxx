@@ -45,13 +45,13 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
-//#include <Geom2dInt_GInter.hxx>
+//#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 
 #include <IntRes2d_Domain.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 

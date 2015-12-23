@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_Domain.hxx>
-#include <Geom2dInt_GInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
