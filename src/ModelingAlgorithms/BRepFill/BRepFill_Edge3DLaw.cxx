@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_Edge3DLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_Edge3DLaw)
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_Edge3DLaw)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_HArray1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfLocationLaw.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

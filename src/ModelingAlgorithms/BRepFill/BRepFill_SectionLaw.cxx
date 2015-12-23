@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_HArray1OfSectionLaw.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfSectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_SectionLaw)
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomFill_UniformSection.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_UniformSection.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

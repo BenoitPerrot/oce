@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <GeomFill_LocationDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationDraft.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DraftLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_DraftLaw)
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_TYPE_END(BRepFill_DraftLaw)
 IMPLEMENT_DOWNCAST(BRepFill_DraftLaw,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_DraftLaw)
 
-#include <GeomFill_LocationDraft.hxx>
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_HArray1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfLocationLaw.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>

@@ -24,7 +24,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_SectionLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

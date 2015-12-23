@@ -35,10 +35,10 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_EdgeOnSurfLaw)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_HArray1OfLocationLaw.hxx>
-#include <GeomFill_Darboux.hxx>
-#include <GeomFill_CurveAndTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Darboux.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CurveAndTrihedron.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

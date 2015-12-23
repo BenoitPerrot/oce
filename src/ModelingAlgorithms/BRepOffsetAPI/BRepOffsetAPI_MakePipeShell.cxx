@@ -26,7 +26,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipeShell.hxx>
 
-#include <GeomFill_PipeError.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_PipeError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 

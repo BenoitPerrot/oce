@@ -18,7 +18,7 @@
 #include <Law_Function.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_SimpleBound.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SimpleBound.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_SimpleBound)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

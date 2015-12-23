@@ -23,7 +23,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomFill_CircularBlendFunc.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CircularBlendFunc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_CircularBlendFunc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_CircularBlendFunc)
 IMPLEMENT_DOWNCAST(GeomFill_CircularBlendFunc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CircularBlendFunc)
-#include <GeomFill.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Precision.hxx>

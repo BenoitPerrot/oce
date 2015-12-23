@@ -17,11 +17,11 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_Frenet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_Frenet)
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Precision.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <GeomFill_SnglrFunc.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SnglrFunc.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>

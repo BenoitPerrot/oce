@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_SequenceOfAx2.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfAx2.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
  
 
 #define SeqItem gp_Ax2
 #define SeqItem_hxx <Mathematics/Primitives/gp_Ax2.hxx>
 #define TCollection_SequenceNode GeomFill_SequenceNodeOfSequenceOfAx2
-#define TCollection_SequenceNode_hxx <GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomFill/GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomFill_SequenceNodeOfSequenceOfAx2
 #define TCollection_SequenceNode_Type_() GeomFill_SequenceNodeOfSequenceOfAx2_Type_()
 #define TCollection_Sequence GeomFill_SequenceOfAx2
-#define TCollection_Sequence_hxx <GeomFill_SequenceOfAx2.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfAx2.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

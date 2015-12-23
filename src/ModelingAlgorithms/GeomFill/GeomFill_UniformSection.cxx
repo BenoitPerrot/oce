@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomFill_UniformSection.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_UniformSection.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_UniformSection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

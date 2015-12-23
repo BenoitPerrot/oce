@@ -368,7 +368,7 @@ static int OCC105(Draw_Interpretor& di, Standard_Integer argc, const char ** arg
 }
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <GeomFill_Pipe.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Pipe.hxx>
 static int pipe_OCC9 (Draw_Interpretor& di,
 		      Standard_Integer n, const char ** a)
 {

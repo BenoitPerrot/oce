@@ -18,7 +18,7 @@
 #include <Law_Function.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_ShapeLaw.hxx>
@@ -45,9 +45,9 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ShapeLaw)
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomFill_UniformSection.hxx>
-#include <GeomFill_EvolvedSection.hxx>
-#include <GeomFill_HArray1OfSectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_UniformSection.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_EvolvedSection.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfSectionLaw.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

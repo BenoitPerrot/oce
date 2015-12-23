@@ -16,16 +16,16 @@
 
 //  Modified by skv - Fri Jun 18 12:52:54 2004 OCC6129
 
-#include <GeomFill_CoonsAlgPatch.hxx>
-#include <GeomFill_TgtField.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CoonsAlgPatch.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TgtField.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <GeomFill_Boundary.hxx>
-#include <GeomFill_BoundWithSurf.hxx>
-#include <GeomFill_ConstrainedFilling.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Boundary.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_BoundWithSurf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_ConstrainedFilling.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -38,8 +38,8 @@
 #include <Law.hxx>
 #include <Law_Linear.hxx>
 #include <Law_BSpline.hxx>
-#include <GeomFill_DegeneratedBound.hxx>
-#include <GeomFill_TgtOnCoons.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_DegeneratedBound.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TgtOnCoons.hxx>
 
 #ifdef DRAW
 // Pour le dessin.

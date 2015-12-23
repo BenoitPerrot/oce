@@ -117,7 +117,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <GeomFill_Generator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Generator.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <IntTools_FClass2d.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_HArray1OfSectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfSectionLaw.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <GeomFill_SectionLaw.hxx>
-#include <GeomFill_Array1OfSectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Array1OfSectionLaw.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_HArray1OfSectionLaw)
 
 
 #define ItemHArray1 Handle(GeomFill_SectionLaw)
-#define ItemHArray1_hxx <GeomFill_SectionLaw.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #define TheArray1 GeomFill_Array1OfSectionLaw
-#define TheArray1_hxx <GeomFill_Array1OfSectionLaw.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/GeomFill/GeomFill_Array1OfSectionLaw.hxx>
 #define TCollection_HArray1 GeomFill_HArray1OfSectionLaw
-#define TCollection_HArray1_hxx <GeomFill_HArray1OfSectionLaw.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfSectionLaw.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomFill_HArray1OfSectionLaw
 #define TCollection_HArray1_Type_() GeomFill_HArray1OfSectionLaw_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

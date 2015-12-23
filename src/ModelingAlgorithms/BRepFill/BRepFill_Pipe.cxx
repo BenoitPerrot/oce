@@ -34,10 +34,10 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 
-#include <GeomFill_CorrectedFrenet.hxx>
-#include <GeomFill_Frenet.hxx>
-#include <GeomFill_DiscreteTrihedron.hxx>
-#include <GeomFill_CurveAndTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CorrectedFrenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_DiscreteTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CurveAndTrihedron.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_SectionPlacement.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_ShapeLaw.hxx>

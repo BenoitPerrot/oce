@@ -26,34 +26,34 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <GeomFill_Pipe.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Pipe.hxx>
 
-#include <GeomFill_Line.hxx>
-#include <GeomFill_SweepSectionGenerator.hxx>
-#include <GeomFill_AppSweep.hxx>
-#include <GeomFill_Profiler.hxx>
-#include <GeomFill_CircularBlendFunc.hxx>
-#include <GeomFill_UniformSection.hxx>
-#include <GeomFill_Fixed.hxx>
-#include <GeomFill_Frenet.hxx>
-#include <GeomFill_CorrectedFrenet.hxx>
-#include <GeomFill_ConstantBiNormal.hxx>
-#include <GeomFill_CurveAndTrihedron.hxx>
-#include <GeomFill_SectionPlacement.hxx>
-#include <GeomFill_Sweep.hxx>
-#include <GeomFill_NSections.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Line.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SweepSectionGenerator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_AppSweep.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Profiler.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CircularBlendFunc.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_UniformSection.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Fixed.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CorrectedFrenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_ConstantBiNormal.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CurveAndTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionPlacement.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Sweep.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_NSections.hxx>
 
-#include <GeomFill_GuideTrihedronAC.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_GuideTrihedronAC.hxx>
 
-#include <GeomFill_GuideTrihedronPlan.hxx>
-#include <GeomFill_LocationGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_GuideTrihedronPlan.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationGuide.hxx>
 
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
@@ -85,7 +85,7 @@
 
 #include <Geometry/GeomLib/GeomLib.hxx>
 
-#include <GeomFill_Darboux.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Darboux.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>

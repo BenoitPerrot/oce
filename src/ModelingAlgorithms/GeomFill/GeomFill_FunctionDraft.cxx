@@ -18,8 +18,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_Tensor.hxx>
-#include <GeomFill_FunctionDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Tensor.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_FunctionDraft.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 //#include <Precision.hxx>

@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_FunctionGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_FunctionGuide.hxx>
 
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

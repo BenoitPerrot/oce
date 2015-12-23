@@ -16,13 +16,13 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
-#include <GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_GuideTrihedronPlan.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_GuideTrihedronPlan.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_GuideTrihedronPlan)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_HInter.hxx>
 
-#include <GeomFill_Frenet.hxx>
-#include <GeomFill_PlanFunc.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_PlanFunc.hxx>
 
 #include <Mathematics/Optimization/math_Vector.hxx>
 

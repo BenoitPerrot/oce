@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
-#include <GeomFill_SequenceOfTrsf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfTrsf.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>

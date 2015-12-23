@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_ConstantBiNormal.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_ConstantBiNormal.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_ConstantBiNormal)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

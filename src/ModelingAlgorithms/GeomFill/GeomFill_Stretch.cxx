@@ -16,7 +16,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_Stretch.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Stretch.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

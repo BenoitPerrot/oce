@@ -26,14 +26,14 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <GeomFill_SequenceOfTrsf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfTrsf.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomFill_NSections.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_NSections.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_NSections)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -44,9 +44,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_NSections)
 IMPLEMENT_DOWNCAST(GeomFill_NSections,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
-#include <GeomFill_SectionGenerator.hxx>
-#include <GeomFill_Line.hxx>
-#include <GeomFill_AppSurf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionGenerator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Line.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_AppSurf.hxx>
 
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>

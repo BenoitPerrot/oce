@@ -39,10 +39,10 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <IntSurf_LineOn2S.hxx>
 #include <IntSurf_TypeTrans.hxx>
-#include <GeomFill_Boundary.hxx>
-#include <GeomFill_BoundWithSurf.hxx>
-#include <GeomFill_SimpleBound.hxx>
-#include <GeomFill_ConstrainedFilling.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Boundary.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_BoundWithSurf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SimpleBound.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_ConstrainedFilling.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

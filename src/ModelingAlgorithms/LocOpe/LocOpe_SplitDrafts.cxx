@@ -70,7 +70,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 
-#include <GeomFill_Pipe.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Pipe.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
 

@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
-#include <GeomFill_PolynomialConvertor.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_PolynomialConvertor.hxx>
 
 
 #include <Mathematics/Polynomial/PLib.hxx>

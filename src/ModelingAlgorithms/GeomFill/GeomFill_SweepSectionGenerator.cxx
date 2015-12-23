@@ -25,9 +25,9 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <GeomFill_SweepSectionGenerator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SweepSectionGenerator.hxx>
 
-#include <GeomFill_Profiler.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Profiler.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

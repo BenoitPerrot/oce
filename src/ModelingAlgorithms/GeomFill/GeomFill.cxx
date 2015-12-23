@@ -22,8 +22,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <GeomFill.hxx>
-#include <GeomFill_Generator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Generator.hxx>
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
@@ -41,8 +41,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <GeomFill_PolynomialConvertor.hxx>
-#include <GeomFill_QuasiAngularConvertor.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_PolynomialConvertor.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_QuasiAngularConvertor.hxx>
 #include <Precision.hxx>
 
 

@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_Array1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Array1OfLocationLaw.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
  
 
 #define Array1Item Handle(GeomFill_LocationLaw)
-#define Array1Item_hxx <GeomFill_LocationLaw.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #define TCollection_Array1 GeomFill_Array1OfLocationLaw
-#define TCollection_Array1_hxx <GeomFill_Array1OfLocationLaw.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/GeomFill/GeomFill_Array1OfLocationLaw.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

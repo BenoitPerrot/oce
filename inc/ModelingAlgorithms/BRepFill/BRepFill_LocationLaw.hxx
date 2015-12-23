@@ -18,7 +18,7 @@
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <GeomFill_PipeError.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_PipeError.hxx>
 #include <Handle_GeomFill_LocationLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class GeomFill_HArray1OfLocationLaw;

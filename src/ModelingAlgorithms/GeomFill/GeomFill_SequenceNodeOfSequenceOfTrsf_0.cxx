@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <GeomFill_SequenceOfTrsf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfTrsf.hxx>
 
  
 
@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_SequenceNodeOfSequenceOfTrsf)
 #define SeqItem gp_Trsf
 #define SeqItem_hxx <Mathematics/Primitives/gp_Trsf.hxx>
 #define TCollection_SequenceNode GeomFill_SequenceNodeOfSequenceOfTrsf
-#define TCollection_SequenceNode_hxx <GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomFill/GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomFill_SequenceNodeOfSequenceOfTrsf
 #define TCollection_SequenceNode_Type_() GeomFill_SequenceNodeOfSequenceOfTrsf_Type_()
 #define TCollection_Sequence GeomFill_SequenceOfTrsf
-#define TCollection_Sequence_hxx <GeomFill_SequenceOfTrsf.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfTrsf.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

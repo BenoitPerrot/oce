@@ -38,8 +38,8 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <GeomFill_SectionPlacement.hxx>
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionPlacement.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

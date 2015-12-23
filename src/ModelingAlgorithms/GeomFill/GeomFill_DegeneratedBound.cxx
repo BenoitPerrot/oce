@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_DegeneratedBound.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_DegeneratedBound.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_DegeneratedBound)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

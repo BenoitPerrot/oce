@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <GeomFill_Filling.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Filling.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

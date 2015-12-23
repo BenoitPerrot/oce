@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_TrihedronLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

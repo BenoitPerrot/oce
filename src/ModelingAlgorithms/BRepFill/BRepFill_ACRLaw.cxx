@@ -16,7 +16,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <GeomFill_LocationGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationGuide.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_ACRLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_ACRLaw)
@@ -36,10 +36,10 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_ACRLaw)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_LocationGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationGuide.hxx>
 
-#include <GeomFill_HArray1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfLocationLaw.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

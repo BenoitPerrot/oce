@@ -33,9 +33,9 @@
 //#include <ModelingAlgorithms/BRepFill/BRepFill_TrimCorner.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_CurveConstraint.hxx>
 
-#include <GeomFill_SectionLaw.hxx>
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_Sweep.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Sweep.hxx>
 
 // modified by NIZHNY-MKK  Wed Oct 22 12:25:45 2003
 #include <ModelingAlgorithms/BRepFill/BRepFill_TrimShellCorner.hxx>

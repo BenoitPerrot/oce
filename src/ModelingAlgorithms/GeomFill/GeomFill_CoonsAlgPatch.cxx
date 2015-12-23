@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Boundary.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Boundary.hxx>
 #include <Law_Function.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_CoonsAlgPatch.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CoonsAlgPatch.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_CoonsAlgPatch)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

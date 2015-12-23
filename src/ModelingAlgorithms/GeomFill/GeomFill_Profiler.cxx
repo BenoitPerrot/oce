@@ -20,7 +20,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <GeomFill_Profiler.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Profiler.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

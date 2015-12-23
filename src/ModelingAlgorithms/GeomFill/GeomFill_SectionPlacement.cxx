@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_SectionPlacement.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionPlacement.hxx>
 
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

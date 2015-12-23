@@ -35,7 +35,7 @@
 #include <Mathematics/Optimization/math_SVD.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
-#include <GeomFill.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

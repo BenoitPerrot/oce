@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <GeomFill_Tensor.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Tensor.hxx>
 
 
 GeomFill_Tensor::GeomFill_Tensor(const Standard_Integer NbRow, 

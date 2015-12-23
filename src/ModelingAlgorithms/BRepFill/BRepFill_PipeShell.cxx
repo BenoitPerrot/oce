@@ -69,17 +69,17 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
-#include <GeomFill_TrihedronLaw.hxx>
-#include <GeomFill_CorrectedFrenet.hxx>
-#include <GeomFill_Frenet.hxx>
-#include <GeomFill_DiscreteTrihedron.hxx>
-#include <GeomFill_Fixed.hxx>
-#include <GeomFill_ConstantBiNormal.hxx>
-#include <GeomFill_SectionLaw.hxx>
-#include <GeomFill_CurveAndTrihedron.hxx>
-#include <GeomFill_GuideTrihedronAC.hxx>
-#include <GeomFill_GuideTrihedronPlan.hxx>
-#include <GeomFill_LocationGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CorrectedFrenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_DiscreteTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Fixed.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_ConstantBiNormal.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CurveAndTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_GuideTrihedronAC.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_GuideTrihedronPlan.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationGuide.hxx>
 
 //Specification Guide
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

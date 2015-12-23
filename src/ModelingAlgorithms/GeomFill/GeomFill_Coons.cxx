@@ -16,7 +16,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_Coons.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Coons.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>

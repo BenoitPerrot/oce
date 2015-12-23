@@ -50,12 +50,12 @@
 
 #include <Precision.hxx>
 
-#include <GeomFill.hxx>
-#include <GeomFill_BSplineCurves.hxx>
-#include <GeomFill_Pipe.hxx>
-#include <GeomFill_SectionGenerator.hxx>
-#include <GeomFill_Line.hxx>
-#include <GeomFill_AppSurf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_BSplineCurves.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Pipe.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionGenerator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Line.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_AppSurf.hxx>
 
 
 #include <DrawTrSurf_BezierSurface.hxx>

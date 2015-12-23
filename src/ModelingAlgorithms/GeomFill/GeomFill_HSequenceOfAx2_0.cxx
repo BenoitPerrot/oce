@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_HSequenceOfAx2.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HSequenceOfAx2.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <GeomFill_SequenceOfAx2.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfAx2.hxx>
 
  
 
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_HSequenceOfAx2)
 #define Item gp_Ax2
 #define Item_hxx <Mathematics/Primitives/gp_Ax2.hxx>
 #define TheSequence GeomFill_SequenceOfAx2
-#define TheSequence_hxx <GeomFill_SequenceOfAx2.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfAx2.hxx>
 #define TCollection_HSequence GeomFill_HSequenceOfAx2
-#define TCollection_HSequence_hxx <GeomFill_HSequenceOfAx2.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/GeomFill/GeomFill_HSequenceOfAx2.hxx>
 #define Handle_TCollection_HSequence Handle_GeomFill_HSequenceOfAx2
 #define TCollection_HSequence_Type_() GeomFill_HSequenceOfAx2_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

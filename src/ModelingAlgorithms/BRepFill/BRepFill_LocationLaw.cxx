@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 
-#include <GeomFill_HArray1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfLocationLaw.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

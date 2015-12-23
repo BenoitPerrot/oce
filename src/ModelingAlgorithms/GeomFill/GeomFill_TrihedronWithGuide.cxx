@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomFill_TrihedronWithGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronWithGuide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_TrihedronWithGuide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

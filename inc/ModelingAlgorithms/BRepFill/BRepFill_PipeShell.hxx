@@ -21,9 +21,9 @@
 #include <Handle_BRepFill_LocationLaw.hxx>
 #include <Handle_BRepFill_SectionLaw.hxx>
 #include <Handle_TopTools_HArray2OfShape.hxx>
-#include <GeomFill_Trihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Trihedron.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TransitionStyle.hxx>
-#include <GeomFill_PipeError.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_PipeError.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TypeOfContact.hxx>
 class Law_Function;

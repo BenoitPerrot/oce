@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_BoundWithSurf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_BoundWithSurf.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_BoundWithSurf)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomFill_HArray1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfLocationLaw.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_Array1OfLocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Array1OfLocationLaw.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_HArray1OfLocationLaw)
 
 
 #define ItemHArray1 Handle(GeomFill_LocationLaw)
-#define ItemHArray1_hxx <GeomFill_LocationLaw.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #define TheArray1 GeomFill_Array1OfLocationLaw
-#define TheArray1_hxx <GeomFill_Array1OfLocationLaw.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/GeomFill/GeomFill_Array1OfLocationLaw.hxx>
 #define TCollection_HArray1 GeomFill_HArray1OfLocationLaw
-#define TCollection_HArray1_hxx <GeomFill_HArray1OfLocationLaw.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/GeomFill/GeomFill_HArray1OfLocationLaw.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomFill_HArray1OfLocationLaw
 #define TCollection_HArray1_Type_() GeomFill_HArray1OfLocationLaw_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

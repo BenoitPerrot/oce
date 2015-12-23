@@ -76,8 +76,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx> 
-#include <GeomFill_ConstrainedFilling.hxx>
-#include <GeomFill_SimpleBound.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_ConstrainedFilling.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SimpleBound.hxx>
 
 #include <IntSurf_LineOn2S.hxx>
 #include <IntSurf_Transition.hxx>

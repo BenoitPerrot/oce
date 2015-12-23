@@ -48,10 +48,10 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
-#include <GeomFill_Generator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Generator.hxx>
 
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <GeomFill.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

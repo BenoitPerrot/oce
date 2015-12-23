@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_TrihedronWithGuide.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronWithGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <GeomFill_LocationGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationGuide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_LocationGuide)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -71,16 +71,16 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_FunctionGuide.hxx>
-#include <GeomFill_UniformSection.hxx>
-#include <GeomFill_SectionPlacement.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_FunctionGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_UniformSection.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionPlacement.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <ElCLib.hxx>

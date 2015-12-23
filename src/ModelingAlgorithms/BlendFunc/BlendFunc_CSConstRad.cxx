@@ -39,7 +39,7 @@
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
-#include <GeomFill.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>

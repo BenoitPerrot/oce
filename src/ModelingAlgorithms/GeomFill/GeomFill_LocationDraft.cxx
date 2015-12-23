@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_DraftTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_DraftTrihedron.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
@@ -22,13 +22,13 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
-#include <GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomFill_LocationDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationDraft.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_LocationDraft)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -47,9 +47,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationDraft)
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
-#include <GeomFill_TrihedronLaw.hxx>
-#include <GeomFill_FunctionDraft.hxx>
-#include <GeomFill_Tensor.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_FunctionDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Tensor.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_Intersection.hxx>

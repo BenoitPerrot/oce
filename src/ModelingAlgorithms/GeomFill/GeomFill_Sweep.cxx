@@ -16,8 +16,8 @@
 
 //  Modified by skv - Fri Feb  6 11:44:48 2004 OCC5073
 
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
@@ -25,9 +25,9 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <GeomFill_Sweep.hxx>
-#include <GeomFill_SweepFunction.hxx>
-#include <GeomFill_LocFunction.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Sweep.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SweepFunction.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocFunction.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

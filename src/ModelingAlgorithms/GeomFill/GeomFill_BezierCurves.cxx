@@ -17,12 +17,12 @@
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
-#include <GeomFill_BezierCurves.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_BezierCurves.hxx>
 
-#include <GeomFill_Filling.hxx>
-#include <GeomFill_Stretch.hxx>
-#include <GeomFill_Coons.hxx>
-#include <GeomFill_Curved.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Filling.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Stretch.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Coons.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Curved.hxx>
 
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

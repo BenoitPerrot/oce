@@ -75,7 +75,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <GeomFill_Generator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Generator.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ModelingData/BRepLProp/BRepLProp.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>

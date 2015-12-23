@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_Line.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

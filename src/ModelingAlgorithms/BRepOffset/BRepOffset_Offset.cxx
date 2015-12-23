@@ -50,7 +50,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <GeomFill_Pipe.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Pipe.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Precision.hxx>

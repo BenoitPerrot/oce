@@ -26,7 +26,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomFill_EvolvedSection.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_EvolvedSection.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_EvolvedSection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

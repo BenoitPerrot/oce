@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <GeomFill_Trihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Trihedron.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BRepFill_LocationLaw;

@@ -937,7 +937,7 @@ static Standard_Integer BUILDEVOL(Draw_Interpretor& di,
 
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomFill_NSections.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_NSections.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 //=======================================================================
 //function : OCC606

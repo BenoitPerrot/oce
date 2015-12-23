@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomFill_ApproxStyle.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_ApproxStyle.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

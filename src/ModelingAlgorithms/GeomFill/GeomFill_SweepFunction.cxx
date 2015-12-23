@@ -21,8 +21,8 @@
 #endif
 
 
-#include <GeomFill_LocationLaw.hxx>
-#include <GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -31,7 +31,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomFill_SweepFunction.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_SweepFunction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

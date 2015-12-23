@@ -16,19 +16,19 @@
 
 #include <stdio.h>
 
-#include <GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
 #include <Law_Function.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_CorrectedFrenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_CorrectedFrenet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_CorrectedFrenet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
 #include <Law_Constant.hxx>
 #include <Law_BSpFunc.hxx>
 #include <Law_BSpline.hxx>
-#include <GeomFill_SnglrFunc.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SnglrFunc.hxx>
 //Patch
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

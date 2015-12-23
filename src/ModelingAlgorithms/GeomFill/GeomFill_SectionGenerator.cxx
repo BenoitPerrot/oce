@@ -21,7 +21,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <GeomFill_SectionGenerator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionGenerator.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 

@@ -21,9 +21,9 @@
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_PointsToBSplineSurface.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomFill_SectionGenerator.hxx>
-#include <GeomFill_Line.hxx>
-#include <GeomFill_AppSurf.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_SectionGenerator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Line.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_AppSurf.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_PointsToBSpline.hxx>
 #include <Geometry/AppDef/AppDef_BSplineCompute.hxx>
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>

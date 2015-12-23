@@ -17,12 +17,12 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <GeomFill_BSplineCurves.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_BSplineCurves.hxx>
 
-#include <GeomFill_Filling.hxx>
-#include <GeomFill_Stretch.hxx>
-#include <GeomFill_Coons.hxx>
-#include <GeomFill_Curved.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Filling.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Stretch.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Coons.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Curved.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

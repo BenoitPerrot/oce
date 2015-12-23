@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_Pipe.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>
-#include <GeomFill_Trihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Trihedron.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Wire;

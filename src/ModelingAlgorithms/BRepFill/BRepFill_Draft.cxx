@@ -59,7 +59,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
-#include <GeomFill_LocationDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_LocationDraft.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_Boundary.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Boundary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_Boundary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -17,7 +17,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomFill_PlanFunc.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_PlanFunc.hxx>
 
 
 GeomFill_PlanFunc::GeomFill_PlanFunc(const gp_Pnt& theP,

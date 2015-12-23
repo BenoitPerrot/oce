@@ -17,7 +17,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <GeomFill_Generator.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Generator.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

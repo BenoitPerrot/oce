@@ -13,16 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomFill_HSequenceOfAx2.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HSequenceOfAx2.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomFill_DiscreteTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_DiscreteTrihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomFill_DiscreteTrihedron)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,13 +33,13 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_DiscreteTrihedron)
 IMPLEMENT_DOWNCAST(GeomFill_DiscreteTrihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_DiscreteTrihedron)
-#include <GeomFill_DiscreteTrihedron.hxx>
-#include <GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_DiscreteTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <GeomFill_HSequenceOfAx2.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_HSequenceOfAx2.hxx>
 
 
 static const Standard_Real TolConf = Precision::Confusion();

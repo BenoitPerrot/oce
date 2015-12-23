@@ -20,7 +20,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
-#include <GeomFill_QuasiAngularConvertor.hxx>
+#include <ModelingAlgorithms/GeomFill/GeomFill_QuasiAngularConvertor.hxx>
 
 
 #include <Mathematics/Polynomial/PLib.hxx>
