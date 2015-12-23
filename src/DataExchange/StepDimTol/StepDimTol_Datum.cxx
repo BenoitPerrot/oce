@@ -17,7 +17,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepDimTol_Datum.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_Datum.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_Datum)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

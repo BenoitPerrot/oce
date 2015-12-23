@@ -13,16 +13,16 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 
-#include <StepDimTol_HArray1OfDatumReference.hxx>
-#include <StepDimTol_DatumReference.hxx>
-#include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
-#include <StepDimTol_ModifiedGeometricTolerance.hxx>
-#include <StepDimTol_LimitCondition.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_HArray1OfDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceWithDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ModifiedGeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_LimitCondition.hxx>
 
 
 //=======================================================================

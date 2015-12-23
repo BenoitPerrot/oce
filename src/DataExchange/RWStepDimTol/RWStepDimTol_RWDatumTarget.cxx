@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepDimTol_DatumTarget.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumTarget.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWDatumTarget.hxx>

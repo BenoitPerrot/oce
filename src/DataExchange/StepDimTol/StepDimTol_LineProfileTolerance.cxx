@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_LineProfileTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_LineProfileTolerance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_LineProfileTolerance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -13,7 +13,7 @@
 #include <Handle_StepDimTol_GeometricToleranceWithDatumReference.hxx>
 #include <Handle_StepDimTol_ModifiedGeometricTolerance.hxx>
 #include <Handle_StepDimTol_PositionTolerance.hxx>
-#include <StepDimTol_GeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_MeasureWithUnit.hxx>
 #include <Handle_StepRepr_ShapeAspect.hxx>

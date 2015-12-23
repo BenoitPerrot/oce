@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepDimTol_HArray1OfDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_HArray1OfDatumReference.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepDimTol_DatumReference.hxx>
-#include <StepDimTol_Array1OfDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepDimTol_HArray1OfDatumReference)
 
 
 #define ItemHArray1 Handle(StepDimTol_DatumReference)
-#define ItemHArray1_hxx <StepDimTol_DatumReference.hxx>
+#define ItemHArray1_hxx <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
 #define TheArray1 StepDimTol_Array1OfDatumReference
-#define TheArray1_hxx <StepDimTol_Array1OfDatumReference.hxx>
+#define TheArray1_hxx <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 #define TCollection_HArray1 StepDimTol_HArray1OfDatumReference
-#define TCollection_HArray1_hxx <StepDimTol_HArray1OfDatumReference.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepDimTol/StepDimTol_HArray1OfDatumReference.hxx>
 #define Handle_TCollection_HArray1 Handle_StepDimTol_HArray1OfDatumReference
 #define TCollection_HArray1_Type_() StepDimTol_HArray1OfDatumReference_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

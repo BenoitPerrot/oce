@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepDimTol_Array1OfDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepDimTol_DatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
  
 
 #define Array1Item Handle(StepDimTol_DatumReference)
-#define Array1Item_hxx <StepDimTol_DatumReference.hxx>
+#define Array1Item_hxx <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
 #define TCollection_Array1 StepDimTol_Array1OfDatumReference
-#define TCollection_Array1_hxx <StepDimTol_Array1OfDatumReference.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

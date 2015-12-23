@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_TotalRunoutTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_TotalRunoutTolerance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_TotalRunoutTolerance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

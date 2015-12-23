@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_HArray1OfDatumReference.hxx>
 
-#include <StepDimTol_Array1OfDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_StepDimTol_DatumReference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(StepDimTol_DatumReference)
-#define ItemHArray1_hxx <StepDimTol_DatumReference.hxx>
+#define ItemHArray1_hxx <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
 #define TheArray1 StepDimTol_Array1OfDatumReference
-#define TheArray1_hxx <StepDimTol_Array1OfDatumReference.hxx>
+#define TheArray1_hxx <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 #define TCollection_HArray1 StepDimTol_HArray1OfDatumReference
-#define TCollection_HArray1_hxx <StepDimTol_HArray1OfDatumReference.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepDimTol/StepDimTol_HArray1OfDatumReference.hxx>
 #define Handle_TCollection_HArray1 Handle_StepDimTol_HArray1OfDatumReference
 #define TCollection_HArray1_Type_() StepDimTol_HArray1OfDatumReference_Type_()
 

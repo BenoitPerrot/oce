@@ -134,9 +134,9 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <StepDimTol_DatumFeature.hxx>
-#include <StepDimTol_GeometricTolerance.hxx>
-#include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumFeature.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 
 // For non-manifold topology processing (ssv; 12.11.2010)
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>

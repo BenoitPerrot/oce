@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepDimTol_SurfaceProfileTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_SurfaceProfileTolerance.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWSurfaceProfileTolerance.hxx>

@@ -648,34 +648,34 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 
 //TR12J 4.06.2003 G&DT entities
 #include <StepShape_ShapeRepresentationWithParameters.hxx>
-#include <StepDimTol_ShapeToleranceSelect.hxx>
-#include <StepDimTol_AngularityTolerance.hxx>
-#include <StepDimTol_ConcentricityTolerance.hxx>
-#include <StepDimTol_CircularRunoutTolerance.hxx>
-#include <StepDimTol_CoaxialityTolerance.hxx>
-#include <StepDimTol_FlatnessTolerance.hxx>
-#include <StepDimTol_LineProfileTolerance.hxx>
-#include <StepDimTol_ParallelismTolerance.hxx>
-#include <StepDimTol_PerpendicularityTolerance.hxx>
-#include <StepDimTol_PositionTolerance.hxx>
-#include <StepDimTol_RoundnessTolerance.hxx>
-#include <StepDimTol_StraightnessTolerance.hxx>
-#include <StepDimTol_SurfaceProfileTolerance.hxx>
-#include <StepDimTol_SymmetryTolerance.hxx>
-#include <StepDimTol_TotalRunoutTolerance.hxx>
-#include <StepDimTol_GeometricTolerance.hxx>
-#include <StepDimTol_GeometricToleranceRelationship.hxx>
-#include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
-#include <StepDimTol_ModifiedGeometricTolerance.hxx>
-#include <StepDimTol_Datum.hxx>
-#include <StepDimTol_DatumFeature.hxx>
-#include <StepDimTol_DatumReference.hxx>
-#include <StepDimTol_CommonDatum.hxx>
-#include <StepDimTol_DatumTarget.hxx>
-#include <StepDimTol_PlacedDatumTargetFeature.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ShapeToleranceSelect.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_AngularityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ConcentricityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_CircularRunoutTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_CoaxialityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_FlatnessTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_LineProfileTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ParallelismTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_PerpendicularityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_PositionTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_RoundnessTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_StraightnessTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_SurfaceProfileTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_SymmetryTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_TotalRunoutTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceRelationship.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceWithDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ModifiedGeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_Datum.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumFeature.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_CommonDatum.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumTarget.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_PlacedDatumTargetFeature.hxx>
 
 #include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
-#include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 
 // added by skl 10.02.2004 for TRJ13
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndMassUnit.hxx>

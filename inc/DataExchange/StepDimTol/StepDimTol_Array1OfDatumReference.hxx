@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(StepDimTol_DatumReference)
-#define Array1Item_hxx <StepDimTol_DatumReference.hxx>
+#define Array1Item_hxx <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
 #define TCollection_Array1 StepDimTol_Array1OfDatumReference
-#define TCollection_Array1_hxx <StepDimTol_Array1OfDatumReference.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

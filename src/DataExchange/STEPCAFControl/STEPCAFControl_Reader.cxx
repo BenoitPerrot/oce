@@ -114,16 +114,16 @@
 
 // skl 21.08.2003 for reading G&DT
 #include <StepShape_DimensionalSize.hxx>
-#include <StepDimTol_GeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_DimensionalCharacteristicRepresentation.hxx>
 #include <StepShape_ShapeDimensionRepresentation.hxx>
 #include <StepRepr_ValueRange.hxx>
 #include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
-#include <StepDimTol_ModifiedGeometricTolerance.hxx>
-#include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ModifiedGeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceWithDatumReference.hxx>
 //#include <StepRepr_CompoundItemDefinition.hxx>
 //#include <StepRepr_CompoundItemDefinitionMember.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
@@ -151,27 +151,27 @@
 //#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepShape_AdvancedFace.hxx>
-#include <StepDimTol_HArray1OfDatumReference.hxx>
-#include <StepDimTol_DatumReference.hxx>
-#include <StepDimTol_Datum.hxx>
-#include <StepDimTol_DatumFeature.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_HArray1OfDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_Datum.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumFeature.hxx>
 #include <StepRepr_ShapeAspectRelationship.hxx>
 
-#include <StepDimTol_AngularityTolerance.hxx>
-#include <StepDimTol_CircularRunoutTolerance.hxx>
-#include <StepDimTol_CoaxialityTolerance.hxx>
-#include <StepDimTol_ConcentricityTolerance.hxx>
-#include <StepDimTol_ParallelismTolerance.hxx>
-#include <StepDimTol_PerpendicularityTolerance.hxx>
-#include <StepDimTol_SymmetryTolerance.hxx>
-#include <StepDimTol_TotalRunoutTolerance.hxx>
-#include <StepDimTol_CylindricityTolerance.hxx>
-#include <StepDimTol_FlatnessTolerance.hxx>
-#include <StepDimTol_LineProfileTolerance.hxx>
-#include <StepDimTol_PositionTolerance.hxx>
-#include <StepDimTol_RoundnessTolerance.hxx>
-#include <StepDimTol_StraightnessTolerance.hxx>
-#include <StepDimTol_SurfaceProfileTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_AngularityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_CircularRunoutTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_CoaxialityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ConcentricityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_ParallelismTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_PerpendicularityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_SymmetryTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_TotalRunoutTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_CylindricityTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_FlatnessTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_LineProfileTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_PositionTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_RoundnessTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_StraightnessTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_SurfaceProfileTolerance.hxx>
 
 #include <StepShape_SolidModel.hxx>
 #include <StepShape_ShellBasedSurfaceModel.hxx>

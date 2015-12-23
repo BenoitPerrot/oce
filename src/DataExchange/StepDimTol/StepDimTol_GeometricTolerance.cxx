@@ -18,7 +18,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepRepr_ShapeAspect.hxx>
-#include <StepDimTol_GeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_GeometricTolerance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

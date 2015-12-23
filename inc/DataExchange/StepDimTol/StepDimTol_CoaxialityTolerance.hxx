@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_CoaxialityTolerance.hxx>
 
-#include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceWithDatumReference.hxx>
 
 
 //! Representation of STEP entity CoaxialityTolerance

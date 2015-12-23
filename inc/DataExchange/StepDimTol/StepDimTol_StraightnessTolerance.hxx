@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepDimTol_StraightnessTolerance.hxx>
 
-#include <StepDimTol_GeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
 
 
 //! Representation of STEP entity StraightnessTolerance

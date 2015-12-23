@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepDimTol_DatumFeature.hxx>
+#include <DataExchange/StepDimTol/StepDimTol_DatumFeature.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepDimTol_DatumFeature)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
