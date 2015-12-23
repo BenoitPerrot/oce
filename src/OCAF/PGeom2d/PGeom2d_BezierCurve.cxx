@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PColgp/PColgp_HArray1OfPnt2d.hxx>
-#include <PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <PGeom2d_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom2d_BezierCurve)

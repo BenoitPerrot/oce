@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataStorageDriver)
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <PColStd_HArray1OfReal.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <PDataStd_NamedData.hxx>
 #include <TDataStd_NamedData.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>

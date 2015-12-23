@@ -54,13 +54,13 @@ private:
 #define Item Standard_Real
 #define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray2OfReal
-#define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray2OfReal
-#define DBC_VArrayTNode_hxx <PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
 #define Handle_DBC_VArrayNode Handle_PColStd_VArrayNodeOfFieldOfHArray2OfReal
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfReal_Type_()
 #define DBC_VArray PColStd_FieldOfHArray2OfReal
-#define DBC_VArray_hxx <PColStd_FieldOfHArray2OfReal.hxx>
+#define DBC_VArray_hxx <OCAF/PColStd/PColStd_FieldOfHArray2OfReal.hxx>
 
 #include <OCAF/DBC/DBC_VArrayTNode.lxx>
 

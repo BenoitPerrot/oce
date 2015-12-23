@@ -2,7 +2,7 @@
 #include <XCAFSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _PColStd_HArray1OfReal_HeaderFile
-#include <PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _XCAFSchema_PColStd_FieldOfHArray1OfReal_HeaderFile
 #include <XCAFSchema_PColStd_FieldOfHArray1OfReal.hxx>

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColStd_FieldOfHArray2OfReal.hxx>
 #endif
 #ifndef _PColStd_FieldOfHArray2OfReal_HeaderFile
-#include <PColStd_FieldOfHArray2OfReal.hxx>
+#include <OCAF/PColStd/PColStd_FieldOfHArray2OfReal.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

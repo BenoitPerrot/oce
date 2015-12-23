@@ -83,7 +83,7 @@ private:
 };
 
 #define Item Handle(PColStd_HArray1OfReal)
-#define Item_hxx <PColStd_HArray1OfReal.hxx>
+#define Item_hxx <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #define PCollection_FieldOfHArray1 PDataStd_FieldOfHArray1OfHArray1OfReal
 #define PCollection_FieldOfHArray1_hxx <PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfReal

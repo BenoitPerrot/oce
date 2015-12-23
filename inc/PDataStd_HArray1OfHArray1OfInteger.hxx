@@ -83,7 +83,7 @@ private:
 };
 
 #define Item Handle(PColStd_HArray1OfInteger)
-#define Item_hxx <PColStd_HArray1OfInteger.hxx>
+#define Item_hxx <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #define PCollection_FieldOfHArray1 PDataStd_FieldOfHArray1OfHArray1OfInteger
 #define PCollection_FieldOfHArray1_hxx <PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger

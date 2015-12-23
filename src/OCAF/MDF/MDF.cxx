@@ -45,7 +45,7 @@
 #include <PDF_Attribute.hxx>
 #include <PDF_HAttributeArray1.hxx>
 
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 
 #include <PTColStd_TransientPersistentMap.hxx>
 

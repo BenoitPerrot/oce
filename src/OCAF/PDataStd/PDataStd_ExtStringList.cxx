@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
-#include <PColStd_HArray1OfExtendedString.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfExtendedString.hxx>
 #include <PDataStd_ExtStringList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_ExtStringList)

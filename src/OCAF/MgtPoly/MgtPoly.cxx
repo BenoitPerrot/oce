@@ -33,9 +33,9 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <PPoly_HArray1OfTriangle.hxx>

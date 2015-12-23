@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <PColStd_FieldOfHArray2OfReal.hxx>
+#include <OCAF/PColStd/PColStd_FieldOfHArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
@@ -96,21 +96,21 @@ private:
 #define Item Standard_Real
 #define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define PCollection_FieldOfHArray2 PColStd_FieldOfHArray2OfReal
-#define PCollection_FieldOfHArray2_hxx <PColStd_FieldOfHArray2OfReal.hxx>
+#define PCollection_FieldOfHArray2_hxx <OCAF/PColStd/PColStd_FieldOfHArray2OfReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColStd_VArrayNodeOfFieldOfHArray2OfReal
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PColStd_VArrayTNodeOfFieldOfHArray2OfReal
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColStd_VArrayNodeOfFieldOfHArray2OfReal
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PColStd_VArrayTNodeOfFieldOfHArray2OfReal
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfReal.hxx>
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PColStd_VArrayNodeOfFieldOfHArray2OfReal
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfReal_Type_()
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PColStd_VArrayNodeOfFieldOfHArray2OfReal
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfReal_Type_()
 #define PCollection_HArray2 PColStd_HArray2OfReal
-#define PCollection_HArray2_hxx <PColStd_HArray2OfReal.hxx>
+#define PCollection_HArray2_hxx <OCAF/PColStd/PColStd_HArray2OfReal.hxx>
 #define Handle_PCollection_HArray2 Handle_PColStd_HArray2OfReal
 #define PCollection_HArray2_Type_() PColStd_HArray2OfReal_Type_()
 

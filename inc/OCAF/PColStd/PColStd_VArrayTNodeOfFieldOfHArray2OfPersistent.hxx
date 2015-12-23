@@ -55,13 +55,13 @@ private:
 #define Item Handle(Standard_Persistent)
 #define Item_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray2OfPersistent
-#define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfPersistent.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfPersistent.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray2OfPersistent
-#define DBC_VArrayTNode_hxx <PColStd_VArrayTNodeOfFieldOfHArray2OfPersistent.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfPersistent.hxx>
 #define Handle_DBC_VArrayNode Handle_PColStd_VArrayNodeOfFieldOfHArray2OfPersistent
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfPersistent_Type_()
 #define DBC_VArray PColStd_FieldOfHArray2OfPersistent
-#define DBC_VArray_hxx <PColStd_FieldOfHArray2OfPersistent.hxx>
+#define DBC_VArray_hxx <OCAF/PColStd/PColStd_FieldOfHArray2OfPersistent.hxx>
 
 #include <OCAF/DBC/DBC_VArrayTNode.lxx>
 

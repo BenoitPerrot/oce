@@ -26,7 +26,7 @@
 #include <OCAF/MDF/MDF_TypeASDriverMap.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <TDF_Label.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <PDF_HAttributeArray1.hxx>
 #include <OCAF/MDF/MDF_TypeARDriverMap.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>

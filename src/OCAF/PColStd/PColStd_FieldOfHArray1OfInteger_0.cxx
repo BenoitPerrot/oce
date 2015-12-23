@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PColStd_FieldOfHArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_FieldOfHArray1OfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <PColStd_VArrayNodeOfFieldOfHArray1OfInteger.hxx>
-#include <PColStd_VArrayTNodeOfFieldOfHArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray1OfInteger.hxx>
 
 IMPLEMENT_STANDARD_TYPE(PColStd_FieldOfHArray1OfInteger)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,12 +26,12 @@ IMPLEMENT_STANDARD_TYPE_END(PColStd_FieldOfHArray1OfInteger)
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray1OfInteger
-#define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray1OfInteger.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray1OfInteger.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray1OfInteger
-#define DBC_VArrayTNode_hxx <PColStd_VArrayTNodeOfFieldOfHArray1OfInteger.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray1OfInteger.hxx>
 #define Handle_DBC_VArrayNode Handle_PColStd_VArrayNodeOfFieldOfHArray1OfInteger
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray1OfInteger_Type_()
 #define DBC_VArray PColStd_FieldOfHArray1OfInteger
-#define DBC_VArray_hxx <PColStd_FieldOfHArray1OfInteger.hxx>
+#define DBC_VArray_hxx <OCAF/PColStd/PColStd_FieldOfHArray1OfInteger.hxx>
 #include <OCAF/DBC/DBC_VArray.gxx>
 

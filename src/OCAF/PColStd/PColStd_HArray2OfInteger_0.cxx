@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PColStd_HArray2OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray2OfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <PColStd_FieldOfHArray2OfInteger.hxx>
-#include <PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
-#include <PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_FieldOfHArray2OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
 
  
 
@@ -32,21 +32,21 @@ IMPLEMENT_STANDARD_RTTI(PColStd_HArray2OfInteger)
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define PCollection_FieldOfHArray2 PColStd_FieldOfHArray2OfInteger
-#define PCollection_FieldOfHArray2_hxx <PColStd_FieldOfHArray2OfInteger.hxx>
+#define PCollection_FieldOfHArray2_hxx <OCAF/PColStd/PColStd_FieldOfHArray2OfInteger.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColStd_VArrayNodeOfFieldOfHArray2OfInteger
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PColStd_VArrayTNodeOfFieldOfHArray2OfInteger
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColStd_VArrayNodeOfFieldOfHArray2OfInteger
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PColStd_VArrayTNodeOfFieldOfHArray2OfInteger
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfInteger_Type_()
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfInteger_Type_()
 #define PCollection_HArray2 PColStd_HArray2OfInteger
-#define PCollection_HArray2_hxx <PColStd_HArray2OfInteger.hxx>
+#define PCollection_HArray2_hxx <OCAF/PColStd/PColStd_HArray2OfInteger.hxx>
 #define Handle_PCollection_HArray2 Handle_PColStd_HArray2OfInteger
 #define PCollection_HArray2_Type_() PColStd_HArray2OfInteger_Type_()
 #include <OCAF/PCollection/PCollection_HArray2.gxx>

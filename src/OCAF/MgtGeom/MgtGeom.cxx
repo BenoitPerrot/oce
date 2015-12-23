@@ -76,10 +76,10 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PColStd_HArray1OfInteger.hxx>
-#include <PColStd_HArray2OfInteger.hxx>
-#include <PColStd_HArray1OfReal.hxx>
-#include <PColStd_HArray2OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray2OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray2OfReal.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>

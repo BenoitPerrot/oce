@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeRetrievalDriver)
 
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 
 #include <PNaming_NamedShape.hxx>
 

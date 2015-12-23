@@ -2,7 +2,7 @@
 #include <StdLSchema_PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _PColStd_HArray1OfInteger_HeaderFile
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_FieldOfHArray1OfInteger_HeaderFile
 #include <StdLSchema_PColStd_FieldOfHArray1OfInteger.hxx>

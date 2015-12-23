@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
-#include <PColStd_HArray1OfReal.hxx>
-#include <PColStd_HArray2OfInteger.hxx>
-#include <PColStd_HArray1OfExtendedString.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray2OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfExtendedString.hxx>
 #include <PDataStd_HArray1OfByte.hxx>
 #include <PDataStd_HArray1OfHArray1OfInteger.hxx>
 #include <PDataStd_HArray1OfHArray1OfReal.hxx>

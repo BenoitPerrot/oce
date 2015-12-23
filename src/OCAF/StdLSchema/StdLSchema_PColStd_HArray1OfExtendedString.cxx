@@ -2,7 +2,7 @@
 #include <StdLSchema_PColStd_HArray1OfExtendedString.hxx>
 #endif
 #ifndef _PColStd_HArray1OfExtendedString_HeaderFile
-#include <PColStd_HArray1OfExtendedString.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfExtendedString.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_FieldOfHArray1OfExtendedString_HeaderFile
 #include <StdLSchema_PColStd_FieldOfHArray1OfExtendedString.hxx>

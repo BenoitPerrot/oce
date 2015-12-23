@@ -21,7 +21,7 @@
 
 
 
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <PDF_HAttributeArray1.hxx>
 #include <PDF_Data.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

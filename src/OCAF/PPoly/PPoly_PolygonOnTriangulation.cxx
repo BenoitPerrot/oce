@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PColStd_HArray1OfInteger.hxx>
-#include <PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <PPoly_PolygonOnTriangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PColgp/PColgp_HArray2OfPnt.hxx>
-#include <PColStd_HArray2OfReal.hxx>
-#include <PColStd_HArray1OfReal.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray2OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <PGeom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom_BSplineSurface)

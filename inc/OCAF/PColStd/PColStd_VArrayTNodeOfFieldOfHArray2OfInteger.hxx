@@ -54,13 +54,13 @@ private:
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray2OfInteger
-#define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PColStd/PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray2OfInteger
-#define DBC_VArrayTNode_hxx <PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PColStd/PColStd_VArrayTNodeOfFieldOfHArray2OfInteger.hxx>
 #define Handle_DBC_VArrayNode Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfInteger_Type_()
 #define DBC_VArray PColStd_FieldOfHArray2OfInteger
-#define DBC_VArray_hxx <PColStd_FieldOfHArray2OfInteger.hxx>
+#define DBC_VArray_hxx <OCAF/PColStd/PColStd_FieldOfHArray2OfInteger.hxx>
 
 #include <OCAF/DBC/DBC_VArrayTNode.lxx>
 

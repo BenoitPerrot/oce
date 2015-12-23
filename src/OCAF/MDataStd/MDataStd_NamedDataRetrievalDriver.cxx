@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataRetrievalDriver)
 #include <TDataStd_DataMapOfStringHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
-#include <PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 
 //=======================================================================
 //function : MDataStd_NamedDataRetrievalDriver

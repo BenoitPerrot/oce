@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_IntPackedMapStorageDriver)
 #include <PDataStd_IntPackedMap.hxx>
 #include <PDataStd_IntPackedMap_1.hxx>
 #include <TDataStd_IntPackedMap.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>

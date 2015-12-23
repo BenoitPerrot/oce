@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_HArray1OfHArray1OfInteger)
 
 
 #define Item Handle(PColStd_HArray1OfInteger)
-#define Item_hxx <PColStd_HArray1OfInteger.hxx>
+#define Item_hxx <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #define PCollection_FieldOfHArray1 PDataStd_FieldOfHArray1OfHArray1OfInteger
 #define PCollection_FieldOfHArray1_hxx <PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger

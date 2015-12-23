@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 #include <PDataStd_IntPackedMap_1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_IntPackedMap_1)
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PDataStd_IntPackedMap_1)
 IMPLEMENT_DOWNCAST(PDataStd_IntPackedMap_1,Standard_Persistent)
 IMPLEMENT_STANDARD_RTTI(PDataStd_IntPackedMap_1)
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 
 //=======================================================================
 //function : PDataStd_IntPackedMap_1

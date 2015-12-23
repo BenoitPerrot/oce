@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
 #include <PDataStd_VArrayTNodeOfFieldOfHArray1OfHArray1OfReal.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfReal)
 
 
 #define Item Handle(PColStd_HArray1OfReal)
-#define Item_hxx <PColStd_HArray1OfReal.hxx>
+#define Item_hxx <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #define DBC_VArrayNode PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfReal
 #define DBC_VArrayNode_hxx <PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfReal.hxx>
 #define DBC_VArrayTNode PDataStd_VArrayTNodeOfFieldOfHArray1OfHArray1OfReal

@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ByteArrayRetrievalDriver)
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
-#include <PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 
 //=======================================================================
 //function : MDataStd_ByteArrayRetrievalDriver
