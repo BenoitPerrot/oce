@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <Hatch_LineForm.hxx>
-#include <Hatch_SequenceOfParameter.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_LineForm.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_SequenceOfParameter.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

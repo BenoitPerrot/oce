@@ -20,7 +20,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>
 
-#include <Hatch_Hatcher.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_Hatcher.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_Group.hxx>

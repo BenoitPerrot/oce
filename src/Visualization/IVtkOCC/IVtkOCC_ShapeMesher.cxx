@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretFactory.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <Hatch_Hatcher.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_Hatcher.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

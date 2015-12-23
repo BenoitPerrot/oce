@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Hatch_SequenceNodeOfSequenceOfParameter.hxx>
 
-#include <Hatch_Parameter.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_Parameter.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Hatch_Parameter;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Hatch_Parameter
-#define SeqItem_hxx <Hatch_Parameter.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Hatch/Hatch_Parameter.hxx>
 #define TCollection_SequenceNode Hatch_SequenceNodeOfSequenceOfParameter
-#define TCollection_SequenceNode_hxx <Hatch_SequenceNodeOfSequenceOfParameter.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Hatch/Hatch_SequenceNodeOfSequenceOfParameter.hxx>
 #define Handle_TCollection_SequenceNode Handle_Hatch_SequenceNodeOfSequenceOfParameter
 #define TCollection_SequenceNode_Type_() Hatch_SequenceNodeOfSequenceOfParameter_Type_()
 #define TCollection_Sequence Hatch_SequenceOfParameter
-#define TCollection_Sequence_hxx <Hatch_SequenceOfParameter.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Hatch/Hatch_SequenceOfParameter.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

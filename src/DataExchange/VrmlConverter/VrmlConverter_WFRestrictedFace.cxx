@@ -14,7 +14,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <VrmlConverter_Drawer.hxx>
 #include <VrmlConverter_WFRestrictedFace.hxx>
-#include <Hatch_Hatcher.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_Hatcher.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>

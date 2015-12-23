@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Hatch_SequenceNodeOfSequenceOfLine.hxx>
 
-#include <Hatch_Line.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_Line.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Hatch_Line;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Hatch_Line
-#define SeqItem_hxx <Hatch_Line.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Hatch/Hatch_Line.hxx>
 #define TCollection_SequenceNode Hatch_SequenceNodeOfSequenceOfLine
-#define TCollection_SequenceNode_hxx <Hatch_SequenceNodeOfSequenceOfLine.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Hatch/Hatch_SequenceNodeOfSequenceOfLine.hxx>
 #define Handle_TCollection_SequenceNode Handle_Hatch_SequenceNodeOfSequenceOfLine
 #define TCollection_SequenceNode_Type_() Hatch_SequenceNodeOfSequenceOfLine_Type_()
 #define TCollection_Sequence Hatch_SequenceOfLine
-#define TCollection_Sequence_hxx <Hatch_SequenceOfLine.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Hatch/Hatch_SequenceOfLine.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Hatch_SequenceOfLine.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_SequenceOfLine.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Hatch_LineForm.hxx>
+#include <ModelingAlgorithms/Hatch/Hatch_LineForm.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class gp_Lin2d;
@@ -171,7 +171,7 @@ private:
 };
 
 
-#include <Hatch_Hatcher.lxx>
+#include <ModelingAlgorithms/Hatch/Hatch_Hatcher.lxx>
 
 
 
