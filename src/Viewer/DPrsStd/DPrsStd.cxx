@@ -23,7 +23,7 @@
 #include <DDataStd.hxx> 
 #include <DDF.hxx> 
 #include <DDocStd.hxx>
-//#include <AppStdL_Application.hxx>
+//#include <OCAF/AppStdL/AppStdL_Application.hxx>
 #include <OCAF/AppStd/AppStd_Application.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

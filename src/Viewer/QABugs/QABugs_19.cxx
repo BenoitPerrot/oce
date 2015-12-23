@@ -2244,7 +2244,7 @@ static Standard_Integer OCC24931 (Draw_Interpretor& di, Standard_Integer argc, c
   return 0;
 }
 
-#include <AppStdL_Application.hxx>
+#include <OCAF/AppStdL/AppStdL_Application.hxx>
 #include <TDocStd_Application.hxx>
 #include <TDataStd_Integer.hxx>
 #include <TDF_AttributeIterator.hxx>
