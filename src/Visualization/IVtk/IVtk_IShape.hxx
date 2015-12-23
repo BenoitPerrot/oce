@@ -16,8 +16,8 @@
 #ifndef __IVTK_ISHAPE_H__
 #define __IVTK_ISHAPE_H__
 
-#include <IVtk_Interface.hxx>
-#include <IVtk_Types.hxx>
+#include <Visualization/IVtk/IVtk_Interface.hxx>
+#include <Visualization/IVtk/IVtk_Types.hxx>
 
 DEFINE_STANDARD_HANDLE( IVtk_IShape, IVtk_Interface )
 

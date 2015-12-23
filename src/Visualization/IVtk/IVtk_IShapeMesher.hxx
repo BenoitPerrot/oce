@@ -16,9 +16,9 @@
 #ifndef __IVTK_ISHAPEMESHER_H__
 #define __IVTK_ISHAPEMESHER_H__
 
-#include <IVtk_Interface.hxx>
-#include <IVtk_IShape.hxx>
-#include <IVtk_IShapeData.hxx>
+#include <Visualization/IVtk/IVtk_Interface.hxx>
+#include <Visualization/IVtk/IVtk_IShape.hxx>
+#include <Visualization/IVtk/IVtk_IShapeData.hxx>
 
 DEFINE_STANDARD_HANDLE( IVtk_IShapeMesher, IVtk_Interface )
 

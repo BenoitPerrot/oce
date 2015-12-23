@@ -19,7 +19,7 @@
 #include <IVtkTools.hxx>
 
 #include "vtkPolyDataAlgorithm.h"
-#include <IVtk_Types.hxx>
+#include <Visualization/IVtk/IVtk_Types.hxx>
 
 //! @class IVtkTools_SubPolyDataFilter 
 //! @brief Cells filter according to the given set of cells ids.

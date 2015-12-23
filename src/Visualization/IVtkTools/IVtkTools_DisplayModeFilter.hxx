@@ -18,7 +18,7 @@
 
 #include <IVtkTools.hxx>
 #include <IVtkTools_SubPolyDataFilter.hxx>
-#include <IVtk_Types.hxx>
+#include <Visualization/IVtk/IVtk_Types.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 //! @class IVtkTools_DisplayModeFilter 

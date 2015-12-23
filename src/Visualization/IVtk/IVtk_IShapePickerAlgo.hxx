@@ -16,8 +16,8 @@
 #ifndef __IVTK_ISHAPEPICKERALGO_H__
 #define __IVTK_ISHAPEPICKERALGO_H__
 
-#include <IVtk_IView.hxx>
-#include <IVtk_IShape.hxx>
+#include <Visualization/IVtk/IVtk_IView.hxx>
+#include <Visualization/IVtk/IVtk_IShape.hxx>
 
 DEFINE_STANDARD_HANDLE( IVtk_IShapePickerAlgo, IVtk_Interface )
 

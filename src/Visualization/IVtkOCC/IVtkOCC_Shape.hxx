@@ -16,7 +16,7 @@
 #ifndef __IVTKOCC_SHAPE_H__
 #define __IVTKOCC_SHAPE_H__
 
-#include <IVtk_IShape.hxx>
+#include <Visualization/IVtk/IVtk_IShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <SelectMgr_SelectableObject.hxx>

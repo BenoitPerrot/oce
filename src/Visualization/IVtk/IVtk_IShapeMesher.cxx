@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement. 
 
-#include <IVtk_IShapeMesher.hxx>
+#include <Visualization/IVtk/IVtk_IShapeMesher.hxx>
 
 // Handle implementation
 IMPLEMENT_STANDARD_HANDLE(IVtk_IShapeMesher, IVtk_Interface)

@@ -16,7 +16,7 @@
 #ifndef __IVTKOCC_SHAPEPICKERALGO_H__
 #define __IVTKOCC_SHAPEPICKERALGO_H__
 
-#include <IVtk_IShapePickerAlgo.hxx>
+#include <Visualization/IVtk/IVtk_IShapePickerAlgo.hxx>
 #include <IVtkOCC_ViewerSelector.hxx>
 
 DEFINE_STANDARD_HANDLE( IVtkOCC_ShapePickerAlgo, IVtk_IShapePickerAlgo )

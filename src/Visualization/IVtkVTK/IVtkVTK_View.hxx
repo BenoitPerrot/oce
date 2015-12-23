@@ -16,7 +16,7 @@
 #ifndef __IVTKVTK_VIEW_H__
 #define __IVTKVTK_VIEW_H__
 
-#include <IVtk_IView.hxx>
+#include <Visualization/IVtk/IVtk_IView.hxx>
 
 class vtkRenderer;
 

@@ -16,7 +16,7 @@
 #ifndef __IVTKVTK_SHAPEDATA_H__
 #define __IVTKVTK_SHAPEDATA_H__
 
-#include <IVtk_IShapeData.hxx>
+#include <Visualization/IVtk/IVtk_IShapeData.hxx>
 #include <vtkType.h>
 #include <vtkSmartPointer.h>
 

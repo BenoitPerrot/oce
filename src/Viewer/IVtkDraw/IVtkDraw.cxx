@@ -72,7 +72,7 @@
 #include <OpenGl_GraphicDriver.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 
-#include <IVtk_Types.hxx>
+#include <Visualization/IVtk/IVtk_Types.hxx>
 #include <IVtkVTK_ShapeData.hxx>
 #include <IVtkOCC_Shape.hxx>
 #include <IVtkOCC_ShapeMesher.hxx>

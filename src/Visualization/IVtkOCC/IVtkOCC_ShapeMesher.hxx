@@ -18,7 +18,7 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <IVtkOCC_Shape.hxx>
-#include <IVtk_IShapeMesher.hxx>
+#include <Visualization/IVtk/IVtk_IShapeMesher.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

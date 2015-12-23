@@ -16,7 +16,7 @@
 #ifndef IVtkTOOLS_H
 #define IVtkTOOLS_H
 
-#include <IVtk_Types.hxx>
+#include <Visualization/IVtk/IVtk_Types.hxx>
 
 #if defined(_WIN32) && !defined(HAVE_NO_DLL)
   #ifdef __IVtkTools_DLL

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IVtk_Types.hxx>
+#include <Visualization/IVtk/IVtk_Types.hxx>
 #include <IVtkOCC_ShapePickerAlgo.hxx>
 #include <IVtkOCC_Shape.hxx>
 #include <IVtkOCC_SelectableObject.hxx>

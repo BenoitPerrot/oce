@@ -37,7 +37,7 @@
 #include <vtkRenderer.h>
 #include <vtkSmartPointer.h>
 
-#include <IVtk_Types.hxx>
+#include <Visualization/IVtk/IVtk_Types.hxx>
 #include <IVtkTools_DisplayModeFilter.hxx>
 #include <IVtkTools_SubPolyDataFilter.hxx>
 

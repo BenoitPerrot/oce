@@ -16,7 +16,7 @@
 #ifndef __IVTK_IVIEW_H__
 #define __IVTK_IVIEW_H__
 
-#include <IVtk_Interface.hxx>
+#include <Visualization/IVtk/IVtk_Interface.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
