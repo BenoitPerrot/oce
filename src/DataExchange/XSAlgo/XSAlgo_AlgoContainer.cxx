@@ -19,8 +19,8 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSAlgo_AlgoContainer)
@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
-#include <Transfer_TransientListBinder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientListBinder.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

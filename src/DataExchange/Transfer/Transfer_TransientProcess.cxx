@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_TransientProcess)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(Transfer_TransientProcess,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_TransientProcess)
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_MSG.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 

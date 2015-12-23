@@ -17,7 +17,7 @@
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_ActorOfProcessForFinder.hxx>
-#include <Transfer_TransferMapOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Transfer_TransferMapOfProcessForFinder.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Transfer_HSequenceOfFinder.hxx>

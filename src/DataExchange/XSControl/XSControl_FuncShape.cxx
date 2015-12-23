@@ -27,23 +27,23 @@
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_FinderProcess.hxx>
-#include <Transfer_Finder.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
 //#include <TransferBRep_Analyzer.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 #include <TransferBRep_ShapeListBinder.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 
 #include <XSControl_ConnectedShapes.hxx>
 #include <XSControl_TransferWriter.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_ResultFromModel.hxx>
+#include <DataExchange/Transfer/Transfer_ResultFromModel.hxx>
 
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -63,7 +63,7 @@
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <Transfer_TransientListBinder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientListBinder.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

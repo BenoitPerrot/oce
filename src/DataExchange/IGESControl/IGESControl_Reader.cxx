@@ -30,12 +30,12 @@
 
 // S3767 dce 18/01/1999
 #include <Foundation/Message/Message_Msg.hxx>
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>//Transfer_Iterator.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
@@ -45,10 +45,10 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <Transfer_TransferOutput.hxx>
+#include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <TransferBRep.hxx>

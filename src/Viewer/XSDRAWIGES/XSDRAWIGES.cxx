@@ -64,15 +64,15 @@
 #include <DataExchange/IGESSelect/IGESSelect_Activator.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/XSDRAW/XSDRAW_Commands.hxx>
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_TransferOutput.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <XSControl_WorkSession.hxx>
 
 // + tplosttrim
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <XSControl.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>

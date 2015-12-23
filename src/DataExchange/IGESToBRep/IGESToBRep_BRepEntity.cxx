@@ -85,7 +85,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 
 #include <stdio.h>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>//rln

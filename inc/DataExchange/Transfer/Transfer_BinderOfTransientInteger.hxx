@@ -11,7 +11,7 @@
 #include <Handle_Transfer_BinderOfTransientInteger.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 
 
 //! This type of Binder allows to attach as result, besides a

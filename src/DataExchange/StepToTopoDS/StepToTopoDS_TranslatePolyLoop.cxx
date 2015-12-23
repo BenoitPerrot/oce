@@ -47,7 +47,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Precision.hxx>
 
 // ============================================================================

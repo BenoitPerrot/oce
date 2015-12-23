@@ -72,7 +72,7 @@
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 
 //=============================================================================
 // BRepToIGES_BRShell

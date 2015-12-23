@@ -15,9 +15,9 @@
 //sln 14.01.2002 OCC51 : verifying whether entry model of method ActorRead is IGESDatat_IGESModel 
 
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

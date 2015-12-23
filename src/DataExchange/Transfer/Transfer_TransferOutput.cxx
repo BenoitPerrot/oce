@@ -12,20 +12,20 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Transfer_TransferFailure.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <Transfer_TransferOutput.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_ShareFlags.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
 
 
 

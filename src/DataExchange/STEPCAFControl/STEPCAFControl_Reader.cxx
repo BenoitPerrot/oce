@@ -29,7 +29,7 @@
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
@@ -42,9 +42,9 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <TransferBRep.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <XSControl_TransferReader.hxx>
 

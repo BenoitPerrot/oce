@@ -14,7 +14,7 @@
 // DCE 21.01.99 S3767 Display original messages only 
 //	 if the level is greater than 2
 
-//#include <Transfer_TransferProcess.ixx>
+//#include <DataExchange/Transfer/Transfer_TransferProcess.ixx>
 //  Class generique
 
 //  TheStart est suppose Handle(Standard_Transient) ou (Transfer_Finder)
@@ -27,12 +27,12 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message.hxx>
 
-#include <Transfer_VoidBinder.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
-#include <Transfer_MultipleBinder.hxx>
-#include <Transfer_StatusResult.hxx>
-#include <Transfer_TransferFailure.hxx>
-#include <Transfer_TransferDeadLoop.hxx>
+#include <DataExchange/Transfer/Transfer_VoidBinder.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_MultipleBinder.hxx>
+#include <DataExchange/Transfer/Transfer_StatusResult.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_TransferDeadLoop.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>

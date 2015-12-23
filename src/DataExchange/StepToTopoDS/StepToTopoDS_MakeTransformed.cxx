@@ -19,9 +19,9 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_MakeTransformed.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 
 #include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>

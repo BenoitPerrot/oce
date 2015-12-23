@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Transfer_ResultFromTransient.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ResultFromTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
-#include <Transfer_ResultFromModel.hxx>
+#include <DataExchange/Transfer/Transfer_ResultFromModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_ResultFromModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_ResultFromModel)
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 

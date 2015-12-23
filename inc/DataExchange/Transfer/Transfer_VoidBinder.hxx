@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_VoidBinder.hxx>
 
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Standard_Type;

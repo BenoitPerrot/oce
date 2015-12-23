@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_Finder.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/IGESControl/IGESControl_ActorWrite.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_ActorWrite)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <DataExchange/BRepToIGESBRep/BRepToIGESBRep_Entity.hxx>
 
-#include <Transfer_TransientMapper.hxx>
+#include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomCurve.hxx>

@@ -17,7 +17,7 @@
 //		<design>
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Transfer_VoidBinder.hxx>
+#include <DataExchange/Transfer/Transfer_VoidBinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_VoidBinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -15,12 +15,12 @@
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
-#include <Transfer_TransferDispatch.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransferDispatch.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_ActorDispatch.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorDispatch.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_ActorDispatch)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_ActorDispatch)
 IMPLEMENT_DOWNCAST(Transfer_ActorDispatch,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_ActorDispatch)
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 
 
 Transfer_ActorDispatch::Transfer_ActorDispatch

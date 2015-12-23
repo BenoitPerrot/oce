@@ -11,7 +11,7 @@
 #include <Handle_Transfer_ActorOfFinderProcess.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Transfer_ActorOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfProcessForFinder.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_ProcessForFinder.hxx>

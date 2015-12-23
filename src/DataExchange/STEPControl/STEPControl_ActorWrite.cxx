@@ -16,9 +16,9 @@
 //abv,gka 05.04.99: S4136: change parameters and update units
 // PTV    22.08.2002 OCC609 transfer solo vertices into step file.
 // PTV    16.09.2002 OCC725 transfer compound of vertices into one geometrical curve set.
-#include <Transfer_Finder.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 
 //  Transfer
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
@@ -91,10 +91,10 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_Finder.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
@@ -116,7 +116,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
-#include <Transfer_SequenceOfBinder.hxx>
+#include <DataExchange/Transfer/Transfer_SequenceOfBinder.hxx>
 
 #include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepVertex.hxx>
 #include <DataExchange/StepShape/StepShape_VertexPoint.hxx>

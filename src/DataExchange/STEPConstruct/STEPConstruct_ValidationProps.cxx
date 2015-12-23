@@ -33,8 +33,8 @@
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
-#include <Transfer_Binder.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 

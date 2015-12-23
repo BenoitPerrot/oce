@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
@@ -31,10 +31,10 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>

@@ -18,7 +18,7 @@
 //:   abv 07.04.99 S4136: turn off fixing intersection of non-adjacent edges
 
 #include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCurveBoundedSurface.hxx>
 

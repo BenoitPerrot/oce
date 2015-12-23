@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(STEPSelections_SelectForTransfer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectForTransfer)
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 //=======================================================================
 //function : STEPSelections_SelectForTransfer
 //purpose  : 

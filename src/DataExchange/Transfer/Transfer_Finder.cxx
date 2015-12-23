@@ -14,7 +14,7 @@
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_Finder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

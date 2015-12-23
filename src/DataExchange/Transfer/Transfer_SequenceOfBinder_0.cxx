@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_SequenceOfBinder.hxx>
+#include <DataExchange/Transfer/Transfer_SequenceOfBinder.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_SequenceNodeOfSequenceOfBinder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_SequenceNodeOfSequenceOfBinder.hxx>
  
 
 #define SeqItem Handle(Transfer_Binder)
-#define SeqItem_hxx <Transfer_Binder.hxx>
+#define SeqItem_hxx <DataExchange/Transfer/Transfer_Binder.hxx>
 #define TCollection_SequenceNode Transfer_SequenceNodeOfSequenceOfBinder
-#define TCollection_SequenceNode_hxx <Transfer_SequenceNodeOfSequenceOfBinder.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/Transfer/Transfer_SequenceNodeOfSequenceOfBinder.hxx>
 #define Handle_TCollection_SequenceNode Handle_Transfer_SequenceNodeOfSequenceOfBinder
 #define TCollection_SequenceNode_Type_() Transfer_SequenceNodeOfSequenceOfBinder_Type_()
 #define TCollection_Sequence Transfer_SequenceOfBinder
-#define TCollection_Sequence_hxx <Transfer_SequenceOfBinder.hxx>
+#define TCollection_Sequence_hxx <DataExchange/Transfer/Transfer_SequenceOfBinder.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

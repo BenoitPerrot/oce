@@ -17,13 +17,13 @@
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_ResultFromModel.hxx>
+#include <DataExchange/Transfer/Transfer_ResultFromModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
@@ -39,9 +39,9 @@ IMPLEMENT_DOWNCAST(XSControl_TransferReader,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
-#include <Transfer_ResultFromTransient.hxx>
-#include <Transfer_TransferOutput.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_ResultFromTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
 
 #include <TransferBRep.hxx>
 #include <TransferBRep_BinderOfShape.hxx>
@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
-#include <Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>

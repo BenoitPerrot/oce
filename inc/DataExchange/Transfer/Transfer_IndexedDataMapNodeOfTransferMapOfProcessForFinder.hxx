@@ -60,17 +60,17 @@ private:
 };
 
 #define TheKey Handle(Transfer_Finder)
-#define TheKey_hxx <Transfer_Finder.hxx>
+#define TheKey_hxx <DataExchange/Transfer/Transfer_Finder.hxx>
 #define TheItem Handle(Transfer_Binder)
-#define TheItem_hxx <Transfer_Binder.hxx>
+#define TheItem_hxx <DataExchange/Transfer/Transfer_Binder.hxx>
 #define Hasher Transfer_FindHasher
-#define Hasher_hxx <Transfer_FindHasher.hxx>
+#define Hasher_hxx <DataExchange/Transfer/Transfer_FindHasher.hxx>
 #define TCollection_IndexedDataMapNode Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder
-#define TCollection_IndexedDataMapNode_hxx <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
+#define TCollection_IndexedDataMapNode_hxx <DataExchange/Transfer/Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder
 #define TCollection_IndexedDataMapNode_Type_() Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder_Type_()
 #define TCollection_IndexedDataMap Transfer_TransferMapOfProcessForFinder
-#define TCollection_IndexedDataMap_hxx <Transfer_TransferMapOfProcessForFinder.hxx>
+#define TCollection_IndexedDataMap_hxx <DataExchange/Transfer/Transfer_TransferMapOfProcessForFinder.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 

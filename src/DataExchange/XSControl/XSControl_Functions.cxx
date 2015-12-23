@@ -29,13 +29,13 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_FinderProcess.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
-#include <Transfer_TransferIterator.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransferIterator.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
 
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 
@@ -47,7 +47,7 @@
 #include <XSControl_TransferWriter.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_ResultFromModel.hxx>
+#include <DataExchange/Transfer/Transfer_ResultFromModel.hxx>
 #include <XSControl_SelectForTransfer.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>

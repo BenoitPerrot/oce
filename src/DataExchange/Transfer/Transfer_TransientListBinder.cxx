@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_TransientListBinder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientListBinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_TransientListBinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

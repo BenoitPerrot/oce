@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_TransferIterator.hxx>
+#include <DataExchange/Transfer/Transfer_TransferIterator.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Transfer_ProcessForTransient.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>

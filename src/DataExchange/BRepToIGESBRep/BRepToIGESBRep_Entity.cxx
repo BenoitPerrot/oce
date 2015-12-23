@@ -138,11 +138,11 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_OrientedShapeMapper.hxx>
-#include <Transfer_TransientMapper.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>

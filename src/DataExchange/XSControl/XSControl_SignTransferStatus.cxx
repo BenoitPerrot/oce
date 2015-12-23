@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <XSControl_TransferReader.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <XSControl_SignTransferStatus.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XSControl_SignTransferStatus)
 IMPLEMENT_DOWNCAST(XSControl_SignTransferStatus,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_SignTransferStatus)
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 //#include <stdio.h>

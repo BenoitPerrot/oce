@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_DataMapOfTransientTransient.hxx>
-#include <Transfer_MapContainer.hxx>
+#include <DataExchange/Transfer/Transfer_MapContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_MapContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

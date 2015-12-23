@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Transfer_HSequenceOfFinder.hxx>
-#include <Transfer_TransferIterator.hxx>
+#include <DataExchange/Transfer/Transfer_TransferIterator.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_ProcessForFinder.hxx>
 #include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>

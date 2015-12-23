@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_SequenceOfFinder.hxx>
+#include <DataExchange/Transfer/Transfer_SequenceOfFinder.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Transfer_Finder.hxx>
-#include <Transfer_SequenceNodeOfSequenceOfFinder.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_SequenceNodeOfSequenceOfFinder.hxx>
  
 
 #define SeqItem Handle(Transfer_Finder)
-#define SeqItem_hxx <Transfer_Finder.hxx>
+#define SeqItem_hxx <DataExchange/Transfer/Transfer_Finder.hxx>
 #define TCollection_SequenceNode Transfer_SequenceNodeOfSequenceOfFinder
-#define TCollection_SequenceNode_hxx <Transfer_SequenceNodeOfSequenceOfFinder.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/Transfer/Transfer_SequenceNodeOfSequenceOfFinder.hxx>
 #define Handle_TCollection_SequenceNode Handle_Transfer_SequenceNodeOfSequenceOfFinder
 #define TCollection_SequenceNode_Type_() Transfer_SequenceNodeOfSequenceOfFinder_Type_()
 #define TCollection_Sequence Transfer_SequenceOfFinder
-#define TCollection_Sequence_hxx <Transfer_SequenceOfFinder.hxx>
+#define TCollection_Sequence_hxx <DataExchange/Transfer/Transfer_SequenceOfFinder.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

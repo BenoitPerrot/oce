@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Interface/Interface_Protocol.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -25,8 +25,8 @@
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_CheckTool.hxx>
-#include <Transfer_TransferOutput.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <TransferBRep.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>

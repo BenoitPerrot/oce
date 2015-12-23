@@ -11,7 +11,7 @@
 #include <Handle_Transfer_TransientListBinder.hxx>
 
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

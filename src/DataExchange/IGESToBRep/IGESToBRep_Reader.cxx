@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep_Reader.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -60,8 +60,8 @@
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 
-#include <Transfer_TransferOutput.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 #include <TransferBRep_ShapeListBinder.hxx>

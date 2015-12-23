@@ -18,7 +18,7 @@
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 
 #include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

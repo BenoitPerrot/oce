@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_DataInfo.hxx>
+#include <DataExchange/Transfer/Transfer_DataInfo.hxx>
 
 Handle(Standard_Type)  Transfer_DataInfo::Type
   (const Handle(Standard_Transient)& ent)

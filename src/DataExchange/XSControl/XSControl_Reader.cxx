@@ -28,9 +28,9 @@
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
-#include <Transfer_TransientProcess.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 //#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>

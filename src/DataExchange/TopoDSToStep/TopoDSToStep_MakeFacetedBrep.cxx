@@ -17,7 +17,7 @@
 #include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_MakeFacetedBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
@@ -27,7 +27,7 @@
 #include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

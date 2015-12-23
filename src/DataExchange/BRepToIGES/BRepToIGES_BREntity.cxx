@@ -18,7 +18,7 @@
 //eap: Tue Aug 29 11:02:56 2000: Shape Processing moved to upper levels
 
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -54,11 +54,11 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_OrientedShapeMapper.hxx>
-#include <Transfer_TransientMapper.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 
 char Name[100];
 

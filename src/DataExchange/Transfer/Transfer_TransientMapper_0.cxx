@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_TransientMapper.hxx>
+#include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <Transfer_DataInfo.hxx>
-#include <Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_DataInfo.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 
  
@@ -35,10 +35,10 @@ IMPLEMENT_STANDARD_RTTI(Transfer_TransientMapper)
 #define TheHasher TColStd_MapTransientHasher
 #define TheHasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TheInfo Transfer_DataInfo
-#define TheInfo_hxx <Transfer_DataInfo.hxx>
+#define TheInfo_hxx <DataExchange/Transfer/Transfer_DataInfo.hxx>
 #define Transfer_Mapper Transfer_TransientMapper
-#define Transfer_Mapper_hxx <Transfer_TransientMapper.hxx>
+#define Transfer_Mapper_hxx <DataExchange/Transfer/Transfer_TransientMapper.hxx>
 #define Handle_Transfer_Mapper Handle_Transfer_TransientMapper
 #define Transfer_Mapper_Type_() Transfer_TransientMapper_Type_()
-#include <Transfer_Mapper.gxx>
+#include <DataExchange/Transfer/Transfer_Mapper.gxx>
 

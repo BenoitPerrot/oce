@@ -84,7 +84,7 @@
 
 #include <Precision.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_EdgeProjAux.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_HSequenceOfBinder.hxx>
+#include <DataExchange/Transfer/Transfer_HSequenceOfBinder.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_SequenceOfBinder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_SequenceOfBinder.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(Transfer_HSequenceOfBinder)
 
 
 #define Item Handle(Transfer_Binder)
-#define Item_hxx <Transfer_Binder.hxx>
+#define Item_hxx <DataExchange/Transfer/Transfer_Binder.hxx>
 #define TheSequence Transfer_SequenceOfBinder
-#define TheSequence_hxx <Transfer_SequenceOfBinder.hxx>
+#define TheSequence_hxx <DataExchange/Transfer/Transfer_SequenceOfBinder.hxx>
 #define TCollection_HSequence Transfer_HSequenceOfBinder
-#define TCollection_HSequence_hxx <Transfer_HSequenceOfBinder.hxx>
+#define TCollection_HSequence_hxx <DataExchange/Transfer/Transfer_HSequenceOfBinder.hxx>
 #define Handle_TCollection_HSequence Handle_Transfer_HSequenceOfBinder
 #define TCollection_HSequence_Type_() Transfer_HSequenceOfBinder_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

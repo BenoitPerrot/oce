@@ -62,15 +62,15 @@ private:
 #define TheKey Handle(Standard_Transient)
 #define TheKey_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheItem Handle(Transfer_Binder)
-#define TheItem_hxx <Transfer_Binder.hxx>
+#define TheItem_hxx <DataExchange/Transfer/Transfer_Binder.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient
-#define TCollection_IndexedDataMapNode_hxx <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
+#define TCollection_IndexedDataMapNode_hxx <DataExchange/Transfer/Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient
 #define TCollection_IndexedDataMapNode_Type_() Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient_Type_()
 #define TCollection_IndexedDataMap Transfer_TransferMapOfProcessForTransient
-#define TCollection_IndexedDataMap_hxx <Transfer_TransferMapOfProcessForTransient.hxx>
+#define TCollection_IndexedDataMap_hxx <DataExchange/Transfer/Transfer_TransferMapOfProcessForTransient.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 

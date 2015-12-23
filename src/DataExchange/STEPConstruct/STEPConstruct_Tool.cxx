@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <XSControl_WorkSession.hxx>
-#include <Transfer_FinderProcess.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>

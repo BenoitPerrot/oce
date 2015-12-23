@@ -71,7 +71,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 
 
 // ----------------------------------------------------------------------------

@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 
 // ============================================================================
 // Method  : StepToTopoDS_TranslateVertexLoop::StepToTopoDS_TranslateVertexLoop

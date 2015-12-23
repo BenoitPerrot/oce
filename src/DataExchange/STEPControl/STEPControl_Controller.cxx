@@ -14,10 +14,10 @@
 //:j4 gka 16.03.99 S4134
 //    gka 05.04.99 S4136: parameters definitions changed
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/STEPControl/STEPControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPControl_Controller)

@@ -17,8 +17,8 @@
 //gka,abv 14.04.99 S4136: maintain unit context, precision and maxtolerance values
 #include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>

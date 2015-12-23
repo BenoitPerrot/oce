@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_ContextTool.hxx>
-#include <Transfer_ActorOfFinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfFinderProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Transfer_Binder.hxx>

@@ -11,20 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <Transfer_TransferIterator.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransferIterator.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
-#include <Transfer_FinderProcess.hxx>
-#include <Transfer_TransferInput.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
-#include <Transfer_IteratorOfProcessForFinder.hxx>
-#include <Transfer_VoidBinder.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
-#include <Transfer_MultipleBinder.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransferInput.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Transfer_VoidBinder.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_MultipleBinder.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

@@ -42,7 +42,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>

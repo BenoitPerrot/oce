@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
@@ -58,7 +58,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 #include <TransferBRep_ShapeListBinder.hxx>
 #include <stdio.h>

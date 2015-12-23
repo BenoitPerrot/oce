@@ -11,7 +11,7 @@
 #include <Handle_Transfer_SimpleBinderOfTransient.hxx>
 
 #include <Handle_Standard_Transient.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

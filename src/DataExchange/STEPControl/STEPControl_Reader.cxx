@@ -44,7 +44,7 @@
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitName.hxx>

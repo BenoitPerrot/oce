@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_HSequenceOfFinder.hxx>
 
-#include <Transfer_SequenceOfFinder.hxx>
+#include <DataExchange/Transfer/Transfer_SequenceOfFinder.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(Transfer_Finder)
-#define Item_hxx <Transfer_Finder.hxx>
+#define Item_hxx <DataExchange/Transfer/Transfer_Finder.hxx>
 #define TheSequence Transfer_SequenceOfFinder
-#define TheSequence_hxx <Transfer_SequenceOfFinder.hxx>
+#define TheSequence_hxx <DataExchange/Transfer/Transfer_SequenceOfFinder.hxx>
 #define TCollection_HSequence Transfer_HSequenceOfFinder
-#define TCollection_HSequence_hxx <Transfer_HSequenceOfFinder.hxx>
+#define TCollection_HSequence_hxx <DataExchange/Transfer/Transfer_HSequenceOfFinder.hxx>
 #define Handle_TCollection_HSequence Handle_Transfer_HSequenceOfFinder
 #define TCollection_HSequence_Type_() Transfer_HSequenceOfFinder_Type_()
 

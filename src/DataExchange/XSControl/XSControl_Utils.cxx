@@ -45,7 +45,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

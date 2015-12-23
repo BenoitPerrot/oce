@@ -22,7 +22,7 @@
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 
 
 //=======================================================================

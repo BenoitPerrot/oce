@@ -17,7 +17,7 @@
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Transfer_StatusExec.hxx>
+#include <DataExchange/Transfer/Transfer_StatusExec.hxx>
 #include <Handle_Interface_Check.hxx>
 class Transfer_HSequenceOfBinder;
 class TColStd_HSequenceOfInteger;

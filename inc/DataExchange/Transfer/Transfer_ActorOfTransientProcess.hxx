@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>
 
-#include <Transfer_ActorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfProcessForTransient.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Transfer_ProcessForTransient.hxx>

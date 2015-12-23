@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_ActorDispatch.hxx>
 
-#include <Transfer_TransferDispatch.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransferDispatch.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Transfer_ActorOfTransientProcess.hxx>

@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_ActorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfProcessForTransient.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Transfer_ActorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfProcessForTransient.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_ProcessForTransient.hxx>
-#include <Transfer_TransferMapOfProcessForTransient.hxx>
-#include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
-#include <Transfer_IteratorOfProcessForTransient.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_ProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransferMapOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 
  
 
@@ -43,15 +43,15 @@ IMPLEMENT_STANDARD_RTTI(Transfer_ActorOfProcessForTransient)
 #define TheList TColStd_HSequenceOfTransient
 #define TheList_hxx <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #define Transfer_TransferMap Transfer_TransferMapOfProcessForTransient
-#define Transfer_TransferMap_hxx <Transfer_TransferMapOfProcessForTransient.hxx>
+#define Transfer_TransferMap_hxx <DataExchange/Transfer/Transfer_TransferMapOfProcessForTransient.hxx>
 #define Transfer_IndexedDataMapNodeOfTransferMap Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient
-#define Transfer_IndexedDataMapNodeOfTransferMap_hxx <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
+#define Transfer_IndexedDataMapNodeOfTransferMap_hxx <DataExchange/Transfer/Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #define Transfer_IndexedDataMapNodeOfTransferMap Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient
-#define Transfer_IndexedDataMapNodeOfTransferMap_hxx <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
+#define Transfer_IndexedDataMapNodeOfTransferMap_hxx <DataExchange/Transfer/Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #define Transfer_Iterator Transfer_IteratorOfProcessForTransient
-#define Transfer_Iterator_hxx <Transfer_IteratorOfProcessForTransient.hxx>
+#define Transfer_Iterator_hxx <DataExchange/Transfer/Transfer_IteratorOfProcessForTransient.hxx>
 #define Transfer_Actor Transfer_ActorOfProcessForTransient
-#define Transfer_Actor_hxx <Transfer_ActorOfProcessForTransient.hxx>
+#define Transfer_Actor_hxx <DataExchange/Transfer/Transfer_ActorOfProcessForTransient.hxx>
 #define Handle_Transfer_IndexedDataMapNodeOfTransferMap Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient
 #define Transfer_IndexedDataMapNodeOfTransferMap_Type_() Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient_Type_()
 #define Handle_Transfer_IndexedDataMapNodeOfTransferMap Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient
@@ -59,8 +59,8 @@ IMPLEMENT_STANDARD_RTTI(Transfer_ActorOfProcessForTransient)
 #define Handle_Transfer_Actor Handle_Transfer_ActorOfProcessForTransient
 #define Transfer_Actor_Type_() Transfer_ActorOfProcessForTransient_Type_()
 #define Transfer_TransferProcess Transfer_ProcessForTransient
-#define Transfer_TransferProcess_hxx <Transfer_ProcessForTransient.hxx>
+#define Transfer_TransferProcess_hxx <DataExchange/Transfer/Transfer_ProcessForTransient.hxx>
 #define Handle_Transfer_TransferProcess Handle_Transfer_ProcessForTransient
 #define Transfer_TransferProcess_Type_() Transfer_ProcessForTransient_Type_()
-#include <Transfer_Actor.gxx>
+#include <DataExchange/Transfer/Transfer_Actor.gxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_TransferBRep_ShapeMapper.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_Finder.hxx>
 #include <Handle_Standard_Type.hxx>

@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_MultipleBinder.hxx>
+#include <DataExchange/Transfer/Transfer_MultipleBinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_MultipleBinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_MultipleBinder)
 IMPLEMENT_DOWNCAST(Transfer_MultipleBinder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_MultipleBinder)
-#include <Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
 
 
 

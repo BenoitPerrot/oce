@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Transfer_TransferMapOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Transfer_TransferMapOfProcessForFinder.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Transfer_Finder.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_FindHasher.hxx>
-#include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_FindHasher.hxx>
+#include <DataExchange/Transfer/Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
  
 
 #define TheKey Handle(Transfer_Finder)
-#define TheKey_hxx <Transfer_Finder.hxx>
+#define TheKey_hxx <DataExchange/Transfer/Transfer_Finder.hxx>
 #define TheItem Handle(Transfer_Binder)
-#define TheItem_hxx <Transfer_Binder.hxx>
+#define TheItem_hxx <DataExchange/Transfer/Transfer_Binder.hxx>
 #define Hasher Transfer_FindHasher
-#define Hasher_hxx <Transfer_FindHasher.hxx>
+#define Hasher_hxx <DataExchange/Transfer/Transfer_FindHasher.hxx>
 #define TCollection_IndexedDataMapNode Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder
-#define TCollection_IndexedDataMapNode_hxx <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
+#define TCollection_IndexedDataMapNode_hxx <DataExchange/Transfer/Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder
 #define TCollection_IndexedDataMapNode_Type_() Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder_Type_()
 #define TCollection_IndexedDataMap Transfer_TransferMapOfProcessForFinder
-#define TCollection_IndexedDataMap_hxx <Transfer_TransferMapOfProcessForFinder.hxx>
+#define TCollection_IndexedDataMap_hxx <DataExchange/Transfer/Transfer_TransferMapOfProcessForFinder.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

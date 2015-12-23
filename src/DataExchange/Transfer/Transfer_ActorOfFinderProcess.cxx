@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Transfer_Binder.hxx>
-#include <Transfer_Finder.hxx>
-#include <Transfer_ProcessForFinder.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_ProcessForFinder.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_ActorOfFinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfFinderProcess.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_ActorOfFinderProcess)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_ActorOfFinderProcess)
 IMPLEMENT_DOWNCAST(Transfer_ActorOfFinderProcess,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_ActorOfFinderProcess)
-#include <Transfer_TransientMapper.hxx>
+#include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
 
 Transfer_ActorOfFinderProcess::Transfer_ActorOfFinderProcess ()    {  themodetrans = 0;  }
 

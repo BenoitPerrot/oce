@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <Transfer_Binder.hxx>
-#include <Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_Binder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,8 +25,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_Binder)
 IMPLEMENT_DOWNCAST(Transfer_Binder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_Binder)
-#include <Transfer_VoidBinder.hxx>
-#include <Transfer_TransferFailure.hxx>
+#include <DataExchange/Transfer/Transfer_VoidBinder.hxx>
+#include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/Interface/Interface_IntVal.hxx>

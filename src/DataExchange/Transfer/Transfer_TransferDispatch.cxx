@@ -15,11 +15,11 @@
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_TransferDispatch.hxx>
-#include <Transfer_DispatchControl.hxx>
-#include <Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransferDispatch.hxx>
+#include <DataExchange/Transfer/Transfer_DispatchControl.hxx>
+#include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 

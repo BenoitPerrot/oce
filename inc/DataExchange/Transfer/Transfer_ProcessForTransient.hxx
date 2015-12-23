@@ -17,7 +17,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Handle_Transfer_ActorOfProcessForTransient.hxx>
-#include <Transfer_TransferMapOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_TransferMapOfProcessForTransient.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>

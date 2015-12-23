@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Transfer_Binder.hxx>
 
-#include <Transfer_StatusResult.hxx>
-#include <Transfer_StatusExec.hxx>
+#include <DataExchange/Transfer/Transfer_StatusResult.hxx>
+#include <DataExchange/Transfer/Transfer_StatusExec.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Handle_Transfer_Binder.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

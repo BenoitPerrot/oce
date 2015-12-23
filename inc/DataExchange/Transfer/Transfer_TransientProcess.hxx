@@ -14,7 +14,7 @@
 #include <Handle_Interface_HGraph.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Transfer_ProcessForTransient.hxx>
+#include <DataExchange/Transfer/Transfer_ProcessForTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

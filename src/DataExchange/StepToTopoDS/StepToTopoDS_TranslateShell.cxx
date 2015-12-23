@@ -31,7 +31,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

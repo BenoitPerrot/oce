@@ -60,7 +60,7 @@
 //#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 //#include <TransferBRep.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

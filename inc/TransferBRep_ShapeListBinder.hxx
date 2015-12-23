@@ -11,7 +11,7 @@
 #include <Handle_TransferBRep_ShapeListBinder.hxx>
 
 #include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

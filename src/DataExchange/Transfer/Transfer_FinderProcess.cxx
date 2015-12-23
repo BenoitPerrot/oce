@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Transfer_TransientMapper.hxx>
+#include <DataExchange/Transfer/Transfer_TransientMapper.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Transfer_Finder.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_FinderProcess)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(Transfer_FinderProcess)
 IMPLEMENT_DOWNCAST(Transfer_FinderProcess,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_FinderProcess)
 #include <DataExchange/Interface/Interface_MSG.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 
 

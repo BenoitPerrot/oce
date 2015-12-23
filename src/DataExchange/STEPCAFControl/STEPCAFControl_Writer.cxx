@@ -55,7 +55,7 @@
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
@@ -65,7 +65,7 @@
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <Transfer_ActorOfFinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfFinderProcess.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_ActorWrite.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_ValidationProps.hxx>
 #include <XCAFDoc_Area.hxx>
@@ -84,8 +84,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 
-#include <Transfer_Binder.hxx>
-#include <Transfer_TransientListBinder.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransientListBinder.hxx>
 #include <DataExchange/StepVisual/StepVisual_InvisibleItem.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <DataExchange/StepVisual/StepVisual_Invisibility.hxx>

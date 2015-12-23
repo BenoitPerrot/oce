@@ -23,7 +23,7 @@
 #include <stdio.h>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
 #include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
 #include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
@@ -32,7 +32,7 @@
 #include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
 #include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
 #include <DataExchange/StepShape/StepShape_FaceBasedSurfaceModel.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Builder.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -96,7 +96,7 @@
 
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
 #include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
 
 static void ResetPreci (const TopoDS_Shape& S, Standard_Real maxtol)

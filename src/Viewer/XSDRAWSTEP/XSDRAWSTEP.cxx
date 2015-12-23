@@ -34,7 +34,7 @@
 
 //  Pour le transfert (write)
 //  Pour NewModel et Write : definition de produit (temporaire ...)
-#include <Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
@@ -56,7 +56,7 @@
 #include <DataExchange/STEPSelections/STEPSelections_AssemblyExplorer.hxx>
 
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
-#include <Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <XSControl_TransferWriter.hxx>

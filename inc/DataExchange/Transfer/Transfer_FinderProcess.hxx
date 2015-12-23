@@ -11,7 +11,7 @@
 #include <Handle_Transfer_FinderProcess.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Transfer_ProcessForFinder.hxx>
+#include <DataExchange/Transfer/Transfer_ProcessForFinder.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Transfer_TransientMapper.hxx>

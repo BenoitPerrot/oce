@@ -17,10 +17,10 @@
 
 #include <DataExchange/StepFile/StepFile_Read.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
-#include <Transfer_TransferOutput.hxx>
-//#include <Transfer_PersistentProcess.hxx>
-//#include <Transfer_IteratorOfPersistentProcess.hxx>
-#include <Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Transfer_TransferOutput.hxx>
+//#include <DataExchange/Transfer/Transfer_PersistentProcess.hxx>
+//#include <DataExchange/Transfer/Transfer_IteratorOfPersistentProcess.hxx>
+#include <DataExchange/Transfer/Transfer_Binder.hxx>
 
 //  and, to allow easy DownCasting :
 #include <DataExchange/Interface/Interface_Macros.hxx>
