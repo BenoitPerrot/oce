@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
 #include <StepShape_GeometricSet.hxx>
 #include <StepShape_FaceSurface.hxx>
 #include <StepRepr_MappedItem.hxx>
-#include <STEPConstruct_Assembly.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <DataExchange/Interface/Interface_HGraph.hxx>

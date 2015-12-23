@@ -22,7 +22,7 @@
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
-#include <STEPConstruct_UnitContext.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

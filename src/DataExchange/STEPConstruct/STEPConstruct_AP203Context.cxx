@@ -29,9 +29,9 @@
 #include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductCategoryRelationship.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <STEPConstruct_Part.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <STEPConstruct_AP203Context.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 
 #ifndef _WIN32
 # include <pwd.h>

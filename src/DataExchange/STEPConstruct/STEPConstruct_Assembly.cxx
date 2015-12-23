@@ -21,7 +21,7 @@
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <STEPConstruct_Assembly.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

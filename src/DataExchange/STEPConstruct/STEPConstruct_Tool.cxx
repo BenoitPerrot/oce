@@ -19,7 +19,7 @@
 #include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
-#include <STEPConstruct_Tool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <XSControl_TransferWriter.hxx>
 

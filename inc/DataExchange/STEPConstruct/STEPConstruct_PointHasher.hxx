@@ -50,7 +50,7 @@ private:
 };
 
 
-#include <STEPConstruct_PointHasher.lxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_PointHasher.lxx>
 
 
 

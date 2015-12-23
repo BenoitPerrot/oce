@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(STEPEdit_EditSDR)
 
 #include <StepData_StepModel.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <STEPConstruct_Part.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
 
 
 STEPEdit_EditSDR::STEPEdit_EditSDR ()

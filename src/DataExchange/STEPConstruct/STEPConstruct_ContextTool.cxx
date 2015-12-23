@@ -20,11 +20,11 @@
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepData_StepModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <STEPConstruct_AP203Context.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <STEPConstruct_Part.hxx>
-#include <STEPConstruct_Assembly.hxx>
-#include <STEPConstruct_ContextTool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_ContextTool.hxx>
 #include <StepData_StepModel.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>

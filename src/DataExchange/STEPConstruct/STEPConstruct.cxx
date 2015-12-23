@@ -21,7 +21,7 @@
 #include <Transfer_Binder.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <STEPConstruct.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct.hxx>
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Transfer_Binder.hxx>

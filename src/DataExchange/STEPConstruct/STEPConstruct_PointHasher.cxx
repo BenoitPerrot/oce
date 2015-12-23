@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <STEPConstruct_PointHasher.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_PointHasher.hxx>
 
 //=======================================================================
 //function : IsEqual

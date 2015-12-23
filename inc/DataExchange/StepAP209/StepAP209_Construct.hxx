@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <STEPConstruct_Tool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_ProductDefinitionFormation.hxx>

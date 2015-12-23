@@ -65,7 +65,7 @@
 #include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_PlaneAngleMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SolidAngleMeasureWithUnit.hxx>
-#include <STEPConstruct_UnitContext.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndPlaneAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
 #include <XSControl_WorkSession.hxx>

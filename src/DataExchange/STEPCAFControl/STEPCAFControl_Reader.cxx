@@ -32,7 +32,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <STEPConstruct_Tool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -64,10 +64,10 @@
 #include <StepVisual_StyledItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
 
-#include <STEPConstruct.hxx>
-#include <STEPConstruct_Styles.hxx>
-#include <STEPConstruct_ExternRefs.hxx>
-#include <STEPConstruct_UnitContext.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Styles.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_ExternRefs.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Controller.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfSDRExternFile.hxx>
 
@@ -79,7 +79,7 @@
 #include <XCAFDoc_DimTolTool.hxx>
 #include <XCAFDoc_MaterialTool.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
-#include <STEPConstruct_ValidationProps.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_ValidationProps.hxx>
 #include <StepRepr_Representation.hxx>
 #include <XCAFDoc_Area.hxx>
 #include <XCAFDoc_Volume.hxx>
@@ -90,7 +90,7 @@
 #include <XCAFDoc_LayerTool.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <STEPConstruct_Assembly.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <StepVisual_Invisibility.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>

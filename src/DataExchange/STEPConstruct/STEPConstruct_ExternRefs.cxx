@@ -23,7 +23,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
-#include <STEPConstruct_ExternRefs.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_ExternRefs.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 

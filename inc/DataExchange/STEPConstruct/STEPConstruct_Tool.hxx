@@ -89,7 +89,7 @@ private:
 };
 
 
-#include <STEPConstruct_Tool.lxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Tool.lxx>
 
 
 

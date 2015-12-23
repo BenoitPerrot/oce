@@ -13,7 +13,7 @@
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <STEPConstruct_Tool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

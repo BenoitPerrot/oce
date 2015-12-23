@@ -26,10 +26,10 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_Colour.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
-#include <STEPConstruct_DataMapOfPointTransient.hxx>
-#include <STEPConstruct_Styles.hxx>
-#include <STEPConstruct.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_DataMapOfAsciiStringTransient.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_DataMapOfPointTransient.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Styles.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

@@ -58,15 +58,15 @@ private:
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher STEPConstruct_PointHasher
-#define Hasher_hxx <STEPConstruct_PointHasher.hxx>
+#define Hasher_hxx <DataExchange/STEPConstruct/STEPConstruct_PointHasher.hxx>
 #define TCollection_DataMapNode STEPConstruct_DataMapNodeOfDataMapOfPointTransient
-#define TCollection_DataMapNode_hxx <STEPConstruct_DataMapNodeOfDataMapOfPointTransient.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/STEPConstruct/STEPConstruct_DataMapNodeOfDataMapOfPointTransient.hxx>
 #define TCollection_DataMapIterator STEPConstruct_DataMapIteratorOfDataMapOfPointTransient
-#define TCollection_DataMapIterator_hxx <STEPConstruct_DataMapIteratorOfDataMapOfPointTransient.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/STEPConstruct/STEPConstruct_DataMapIteratorOfDataMapOfPointTransient.hxx>
 #define Handle_TCollection_DataMapNode Handle_STEPConstruct_DataMapNodeOfDataMapOfPointTransient
 #define TCollection_DataMapNode_Type_() STEPConstruct_DataMapNodeOfDataMapOfPointTransient_Type_()
 #define TCollection_DataMap STEPConstruct_DataMapOfPointTransient
-#define TCollection_DataMap_hxx <STEPConstruct_DataMapOfPointTransient.hxx>
+#define TCollection_DataMap_hxx <DataExchange/STEPConstruct/STEPConstruct_DataMapOfPointTransient.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

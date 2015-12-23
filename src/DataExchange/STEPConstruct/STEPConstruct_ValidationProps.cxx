@@ -24,8 +24,8 @@
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
-#include <STEPConstruct_ValidationProps.hxx>
-#include <STEPConstruct_UnitContext.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_ValidationProps.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -68,7 +68,7 @@
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndAreaUnit.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <STEPConstruct.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct.hxx>
 
 //=======================================================================
 //function : STEPConstruct_ValidationProps

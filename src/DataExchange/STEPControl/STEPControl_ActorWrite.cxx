@@ -44,10 +44,10 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
-#include <STEPConstruct_Part.hxx>
-#include <STEPConstruct_Assembly.hxx>
-#include <STEPConstruct_ContextTool.hxx>
-#include <STEPConstruct_UnitContext.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_ContextTool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 
 //  TransferShape
 #include <TopoDSToStep.hxx>
@@ -110,7 +110,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx> //:d6
 #include <UnitsMethods.hxx>
-#include <STEPConstruct_AP203Context.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 
 #include <XSAlgo.hxx>

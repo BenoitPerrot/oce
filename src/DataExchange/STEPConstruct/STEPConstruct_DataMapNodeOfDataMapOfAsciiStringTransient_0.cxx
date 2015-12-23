@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
-#include <STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_DataMapOfAsciiStringTransient.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient.hxx>
 
  
 
@@ -36,12 +36,12 @@ IMPLEMENT_STANDARD_RTTI(STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient
-#define TCollection_DataMapNode_hxx <STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/STEPConstruct/STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient.hxx>
 #define TCollection_DataMapIterator STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient
-#define TCollection_DataMapIterator_hxx <STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/STEPConstruct/STEPConstruct_DataMapIteratorOfDataMapOfAsciiStringTransient.hxx>
 #define Handle_TCollection_DataMapNode Handle_STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient
 #define TCollection_DataMapNode_Type_() STEPConstruct_DataMapNodeOfDataMapOfAsciiStringTransient_Type_()
 #define TCollection_DataMap STEPConstruct_DataMapOfAsciiStringTransient
-#define TCollection_DataMap_hxx <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
+#define TCollection_DataMap_hxx <DataExchange/STEPConstruct/STEPConstruct_DataMapOfAsciiStringTransient.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

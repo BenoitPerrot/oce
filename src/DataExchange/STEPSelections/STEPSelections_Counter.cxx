@@ -36,7 +36,7 @@
 #include <StepShape_FaceSurface.hxx>
 #include <StepRepr_RepresentationRelationship.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
-#include <STEPConstruct_Assembly.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_GeometricCurveSet.hxx>
 #include <StepShape_GeometricSetSelect.hxx>

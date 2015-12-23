@@ -12,7 +12,7 @@
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Handle_StepBasic_ApplicationProtocolDefinition.hxx>
-#include <STEPConstruct_AP203Context.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Handle_StepData_StepModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

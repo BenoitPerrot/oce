@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(STEPEdit_EditContext)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <StepData_StepModel.hxx>
-#include <STEPConstruct_ContextTool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_ContextTool.hxx>
 
 
 STEPEdit_EditContext::STEPEdit_EditContext ()

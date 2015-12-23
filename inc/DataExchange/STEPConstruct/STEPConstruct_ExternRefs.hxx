@@ -17,7 +17,7 @@
 #include <Handle_StepBasic_ProductDefinitionContext.hxx>
 #include <Handle_StepBasic_ProductContext.hxx>
 #include <Handle_StepBasic_ApplicationProtocolDefinition.hxx>
-#include <STEPConstruct_Tool.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
 #include <Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

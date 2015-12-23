@@ -81,7 +81,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 
-#include <STEPConstruct_UnitContext.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 #include <UnitsMethods.hxx>
 
 //  Representation Relationship & cie
@@ -108,7 +108,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <STEPConstruct_Assembly.hxx>
+#include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <Precision.hxx>
 #include <StepToGeom_MakeTransformation3d.hxx>
 #include <StepToGeom_MakeAxis2Placement.hxx>
