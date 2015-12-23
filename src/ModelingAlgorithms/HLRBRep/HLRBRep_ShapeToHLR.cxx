@@ -20,7 +20,7 @@
 #include <HLRBRep_Data.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 #include <HLRAlgo_Projector.hxx>
-#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <HLRBRep_ShapeToHLR.hxx>
@@ -40,7 +40,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <HLRBRep.hxx>
-#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 
 //=======================================================================
 // Function : Load

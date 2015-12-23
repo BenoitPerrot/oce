@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRep_DataMapOfTopolTool.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_DataMapNodeOfDataMapOfTopolTool)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Handle(BRepTopAdaptor_TopolTool)
-#define TheItem_hxx <BRepTopAdaptor_TopolTool.hxx>
+#define TheItem_hxx <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRep_DataMapNodeOfDataMapOfTopolTool

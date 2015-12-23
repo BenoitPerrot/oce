@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRTopoBRep_Data.hxx>
 #include <HLRAlgo_Projector.hxx>
-#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

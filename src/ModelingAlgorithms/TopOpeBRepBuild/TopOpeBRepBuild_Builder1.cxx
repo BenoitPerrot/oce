@@ -44,7 +44,7 @@
 #include <TopOpeBRepDS_EXPORT.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <TopOpeBRepBuild_Tools.hxx>
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ShapeShapeInterference.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>

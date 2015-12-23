@@ -84,7 +84,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

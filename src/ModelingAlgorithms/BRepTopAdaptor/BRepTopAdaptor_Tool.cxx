@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepTopAdaptor_Tool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_Tool.hxx>
 
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 

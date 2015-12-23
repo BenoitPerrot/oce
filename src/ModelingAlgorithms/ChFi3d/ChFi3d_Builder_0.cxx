@@ -81,7 +81,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepTopAdaptor_HVertex.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_HVertex.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

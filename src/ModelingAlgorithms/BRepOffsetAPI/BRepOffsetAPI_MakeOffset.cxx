@@ -28,7 +28,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_OffsetWire.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_ListIteratorOfListOfOffsetWire.hxx>
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>

@@ -16,7 +16,7 @@
 
 #include <TopOpeBRep_HArray1OfLineInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>

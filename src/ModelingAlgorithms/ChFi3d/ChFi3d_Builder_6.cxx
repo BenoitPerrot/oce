@@ -49,7 +49,7 @@
 #include <ModelingAlgorithms/Blend/Blend_RstRstFunction.hxx>
 #include <ModelingAlgorithms/Blend/Blend_CurvPointFuncInv.hxx>
 #include <ChFiDS_Stripe.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
@@ -86,8 +86,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
-#include <BRepTopAdaptor_HVertex.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_HVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Approx/Approx_SweepFunction.hxx>

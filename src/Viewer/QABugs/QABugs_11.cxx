@@ -1134,7 +1134,7 @@ static Standard_Integer OCC363 (Draw_Interpretor& di, Standard_Integer argc, con
 //  return 0;
 //}
 
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 
 //======================================================================================
 // Function : OCC377

@@ -69,7 +69,7 @@ private:
 };
 
 
-#include <BRepTopAdaptor_HVertex.lxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_HVertex.lxx>
 
 
 

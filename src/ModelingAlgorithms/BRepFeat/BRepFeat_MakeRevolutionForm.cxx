@@ -127,7 +127,7 @@
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

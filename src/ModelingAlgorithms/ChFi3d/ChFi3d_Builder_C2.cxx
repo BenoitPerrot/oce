@@ -41,7 +41,7 @@
 #include <ModelingAlgorithms/Blend/Blend_RstRstFunction.hxx>
 #include <ModelingAlgorithms/Blend/Blend_CurvPointFuncInv.hxx>
 #include <ChFiDS_Stripe.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiDS_ListOfStripe.hxx>

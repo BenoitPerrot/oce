@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <IntPatch_ImpImpIntersection.hxx>
 #include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

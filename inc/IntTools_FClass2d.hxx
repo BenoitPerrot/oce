@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepTopAdaptor_SeqOfPtr.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_SeqOfPtr.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

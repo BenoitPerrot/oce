@@ -35,7 +35,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Optimization/math_RealRandom.hxx>
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 
 static
   Standard_Boolean FaceNormal (const TopoDS_Face& aF,

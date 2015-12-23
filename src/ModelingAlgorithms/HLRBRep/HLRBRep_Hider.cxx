@@ -17,7 +17,7 @@
 #define No_Standard_OutOfRange
 
 #include <HLRBRep_Data.hxx>
-#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <HLRBRep_Hider.hxx>
 
 #include <HLRAlgo_Coincidence.hxx>

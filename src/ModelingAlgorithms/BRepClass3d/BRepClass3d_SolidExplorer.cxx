@@ -63,7 +63,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx> 
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 //<-OCC454(apo)
-#include <BRepTopAdaptor_FClass2d.hxx> 
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx> 
 
 
 //=======================================================================

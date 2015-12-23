@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <BRepTopAdaptor_SeqOfPtr.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_SeqOfPtr.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

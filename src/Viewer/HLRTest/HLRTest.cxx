@@ -34,7 +34,7 @@ static Handle(HLRBRep_Algo) hider;
 Standard_IMPORT Draw_Viewer dout;
 #endif
 
-#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 
 //=======================================================================
 //function : Set

@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

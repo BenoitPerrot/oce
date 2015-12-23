@@ -21,7 +21,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTopAdaptor_TopolTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,13 +37,13 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <BRepTopAdaptor_HVertex.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_HVertex.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceExplorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Precision.hxx>
 
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

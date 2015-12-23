@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Contap_Contour.hxx>
 #include <HLRTopoBRep_Data.hxx>
-#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Contap_Point.hxx>
@@ -49,9 +49,9 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <BRepTopAdaptor_HVertex.hxx>
-#include <BRepTopAdaptor_TopolTool.hxx>
-#include <BRepTopAdaptor_Tool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_HVertex.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_Tool.hxx>
 #include <Contap_Line.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

@@ -18,13 +18,13 @@
 
 #define OCC191 // jfa 26/02/2002 Bug of cone display
 
-#include <BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <HLRBRep_Array1OfEData.hxx>
 #include <HLRBRep_Array1OfFData.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BRepTopAdaptor_MapOfShapeTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <HLRAlgo_Interference.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <HLRBRep_EdgeData.hxx>
@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <stdio.h>
-#include <BRepTopAdaptor_Tool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_Tool.hxx>
 
 Standard_Integer nbOkIntersection;
 Standard_Integer nbPtIntersection;

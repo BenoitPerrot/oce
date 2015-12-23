@@ -48,7 +48,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceExplorer.hxx>
-#include <BRepTopAdaptor_FClass2d.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
