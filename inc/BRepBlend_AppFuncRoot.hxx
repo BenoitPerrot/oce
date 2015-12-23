@@ -13,7 +13,7 @@
 #include <Handle_BRepBlend_Line.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Approx/Approx_SweepFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

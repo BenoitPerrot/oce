@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Blend_Function.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Function.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <GeomAbs_Shape.hxx>

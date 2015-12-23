@@ -47,7 +47,7 @@
 #include <ChFiDS_HData.hxx>
 #include <ChFiDS_CircSection.hxx>
 
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <BRepBlend_Line.hxx>
 #include <BRepBlend_Chamfer.hxx>
 #include <BRepBlend_ChamfInv.hxx>

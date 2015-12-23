@@ -151,7 +151,7 @@ private:
 };
 
 #define TheSectionGenerator Blend_AppFunction
-#define TheSectionGenerator_hxx <Blend_AppFunction.hxx>
+#define TheSectionGenerator_hxx <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #define Handle_TheLine Handle_BRepBlend_Line
 #define TheLine BRepBlend_Line
 #define TheLine_hxx <BRepBlend_Line.hxx>

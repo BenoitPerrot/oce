@@ -16,7 +16,7 @@
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Blend_CurvPointFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_CurvPointFuncInv.hxx>
 
 //=======================================================================
 //function : NbVariables

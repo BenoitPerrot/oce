@@ -174,7 +174,7 @@ private:
 };
 
 
-#include <Blend_Point.lxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.lxx>
 
 
 

@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Law_Function.hxx>
-#include <Blend_SurfPointFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SurfPointFuncInv.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class Adaptor3d_HSurface;

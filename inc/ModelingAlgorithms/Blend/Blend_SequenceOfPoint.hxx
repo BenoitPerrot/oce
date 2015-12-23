@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem Blend_Point
-#define SeqItem_hxx <Blend_Point.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #define TCollection_SequenceNode Blend_SequenceNodeOfSequenceOfPoint
-#define TCollection_SequenceNode_hxx <Blend_SequenceNodeOfSequenceOfPoint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Blend/Blend_SequenceNodeOfSequenceOfPoint.hxx>
 #define Handle_TCollection_SequenceNode Handle_Blend_SequenceNodeOfSequenceOfPoint
 #define TCollection_SequenceNode_Type_() Blend_SequenceNodeOfSequenceOfPoint_Type_()
 #define TCollection_Sequence Blend_SequenceOfPoint
-#define TCollection_Sequence_hxx <Blend_SequenceOfPoint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Blend/Blend_SequenceOfPoint.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

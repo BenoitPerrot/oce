@@ -14,7 +14,7 @@
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Blend_FuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_FuncInv.hxx>
 
 Standard_Integer Blend_FuncInv::NbVariables () const
 {

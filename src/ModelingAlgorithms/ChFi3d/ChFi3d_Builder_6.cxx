@@ -40,14 +40,14 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <BRepBlend_Line.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <Blend_Function.hxx>
-#include <Blend_FuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Function.hxx>
+#include <ModelingAlgorithms/Blend/Blend_FuncInv.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Blend_SurfRstFunction.hxx>
-#include <Blend_SurfPointFuncInv.hxx>
-#include <Blend_SurfCurvFuncInv.hxx>
-#include <Blend_RstRstFunction.hxx>
-#include <Blend_CurvPointFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SurfRstFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SurfPointFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SurfCurvFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_RstRstFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_CurvPointFuncInv.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
@@ -91,7 +91,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <Geometry/Approx/Approx_SweepFunction.hxx>
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <BRepBlend_Extremity.hxx>
 #include <BRepBlend_PointOnRst.hxx>
 #include <BRepBlend_Line.hxx>

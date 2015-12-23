@@ -38,7 +38,7 @@
 #include <ChFi3d_SearchSing.hxx>
 
 #include <Law_Composite.hxx>
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <BRepBlend_Walking.hxx>
 #include <BRepBlend_Line.hxx>
 #include <BRepBlend_ConstRad.hxx>

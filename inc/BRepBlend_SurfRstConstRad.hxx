@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BlendFunc_SectionShape.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
-#include <Blend_SurfRstFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SurfRstFunction.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;

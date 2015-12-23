@@ -12,7 +12,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Blend_AppFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #include <BRepBlend_Line.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
@@ -22,7 +22,7 @@
  
 
 #define TheSectionGenerator Blend_AppFunction
-#define TheSectionGenerator_hxx <Blend_AppFunction.hxx>
+#define TheSectionGenerator_hxx <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #define Handle_TheLine Handle_BRepBlend_Line
 #define TheLine BRepBlend_Line
 #define TheLine_hxx <BRepBlend_Line.hxx>

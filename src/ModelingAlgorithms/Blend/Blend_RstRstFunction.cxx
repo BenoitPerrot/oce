@@ -22,12 +22,12 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <Blend_RstRstFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_RstRstFunction.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 const gp_Pnt& Blend_RstRstFunction::Pnt1() const

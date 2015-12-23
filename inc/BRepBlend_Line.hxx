@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepBlend_Line.hxx>
 
-#include <Blend_SequenceOfPoint.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SequenceOfPoint.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <BRepBlend_Extremity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Blend_Function.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Function.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;

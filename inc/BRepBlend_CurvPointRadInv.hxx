@@ -13,7 +13,7 @@
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Blend_CurvPointFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_CurvPointFuncInv.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

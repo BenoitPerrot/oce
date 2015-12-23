@@ -3,18 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _Blend_CSFunction_HeaderFile
-#define _Blend_CSFunction_HeaderFile
+#ifndef _Blend_SurfRstFunction_HeaderFile
+#define _Blend_SurfRstFunction_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Blend_AppFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
+#include <GeomAbs_Shape.hxx>
 class Standard_DomainError;
 class math_Matrix;
 class gp_Pnt;
@@ -31,12 +32,13 @@ class TColgp_Array1OfVec2d;
 
 
 //! Deferred class for a function used to compute a blending
-//! surface between a surface and a curve, using a guide line.
+//! surface between a surface and a pcurve on an other Surface,
+//! using a guide line.
 //! The vector <X> used in Value, Values and Derivatives methods
 //! may be the vector of the parametric coordinates U,V,
 //! W of the extremities of a section on the surface  and
 //! the curve.
-class Blend_CSFunction  : public Blend_AppFunction
+class Blend_SurfRstFunction  : public Blend_AppFunction
 {
 public:
 
@@ -44,7 +46,7 @@ public:
 
   
   //! Returns 3 (default value). Can be redefined.
-  Standard_EXPORT virtual   Standard_Integer NbVariables()  const;
+  Standard_EXPORT virtual   Standard_Integer NbVariables()  const = 0;
   
   //! returns the number of equations of the function.
   Standard_EXPORT virtual   Standard_Integer NbEquations()  const = 0;
@@ -79,12 +81,12 @@ public:
   Standard_EXPORT virtual   void Set (const Standard_Real First, const Standard_Real Last)  = 0;
   
   //! Returns in the vector Tolerance the parametric tolerance
-  //! for each of the 3 variables;
+  //! for each variable;
   //! Tol is the tolerance used in 3d space.
   Standard_EXPORT virtual   void GetTolerance (math_Vector& Tolerance, const Standard_Real Tol)  const = 0;
   
   //! Returns in the vector InfBound the lowest values allowed
-  //! for each of the 3 variables.
+  //! for each variables.
   //! Returns in the vector SupBound the greatest values allowed
   //! for each of the 3 variables.
   Standard_EXPORT virtual   void GetBounds (math_Vector& InfBound, math_Vector& SupBound)  const = 0;
@@ -97,7 +99,7 @@ public:
   
   //! Returns   the    minimal  Distance  beetween   two
   //! extremitys of calculed sections.
-  Standard_EXPORT virtual   Standard_Real GetMinimalDistance()  const;
+  Standard_EXPORT   Standard_Real GetMinimalDistance()  const;
   
   //! Returns the point on the first support.
   Standard_EXPORT  const  gp_Pnt& Pnt1()  const;
@@ -109,16 +111,20 @@ public:
   Standard_EXPORT virtual  const  gp_Pnt& PointOnS()  const = 0;
   
   //! Returns the point on the curve.
-  Standard_EXPORT virtual  const  gp_Pnt& PointOnC()  const = 0;
+  Standard_EXPORT virtual  const  gp_Pnt& PointOnRst()  const = 0;
   
   //! Returns U,V coordinates of the point on the surface.
-  Standard_EXPORT virtual  const  gp_Pnt2d& Pnt2d()  const = 0;
+  Standard_EXPORT virtual  const  gp_Pnt2d& Pnt2dOnS()  const = 0;
+  
+  //! Returns  U,V coordinates of the point  on the curve on
+  //! surface.
+  Standard_EXPORT virtual  const  gp_Pnt2d& Pnt2dOnRst()  const = 0;
   
   //! Returns parameter of the point on the curve.
-  Standard_EXPORT virtual   Standard_Real ParameterOnC()  const = 0;
+  Standard_EXPORT virtual   Standard_Real ParameterOnRst()  const = 0;
   
   //! Returns True when it is not possible to compute
-  //! the tangent vectors at PointOnS and/or PointOnC.
+  //! the tangent vectors at PointOnS and/or PointOnRst.
   Standard_EXPORT virtual   Standard_Boolean IsTangencyPoint()  const = 0;
   
   //! Returns the tangent vector at PointOnS, in 3d space.
@@ -126,16 +132,39 @@ public:
   
   //! Returns the tangent vector at PointOnS, in the
   //! parametric space of the first surface.
-  Standard_EXPORT virtual  const  gp_Vec2d& Tangent2d()  const = 0;
+  Standard_EXPORT virtual  const  gp_Vec2d& Tangent2dOnS()  const = 0;
   
   //! Returns the tangent vector at PointOnC, in 3d space.
-  Standard_EXPORT virtual  const  gp_Vec& TangentOnC()  const = 0;
+  Standard_EXPORT virtual  const  gp_Vec& TangentOnRst()  const = 0;
   
-  //! Returns the tangent vector at the section,
-  //! at the beginning and the end of the section, and
-  //! returns the normal (of the surfaces) at
-  //! these points.
-  Standard_EXPORT virtual   void Tangent (const Standard_Real U, const Standard_Real V, gp_Vec& TgS, gp_Vec& NormS)  const = 0;
+  //! Returns the tangent vector at PointOnRst, in the
+  //! parametric space of the second surface.
+  Standard_EXPORT virtual  const  gp_Vec2d& Tangent2dOnRst()  const = 0;
+  
+  //! Enables implementation  of a criterion of decrochage
+  //! specific to  the function.
+  Standard_EXPORT virtual   Standard_Boolean Decroch (const math_Vector& Sol, gp_Vec& NS, gp_Vec& TgS)  const = 0;
+  
+  //! Returns  if the section is rationnal
+  Standard_EXPORT virtual   Standard_Boolean IsRational()  const = 0;
+  
+  //! Returns the length of the maximum section
+  Standard_EXPORT virtual   Standard_Real GetSectionSize()  const = 0;
+  
+  //! Compute the minimal value of weight for each poles
+  //! of all sections.
+  Standard_EXPORT virtual   void GetMinimalWeight (TColStd_Array1OfReal& Weigths)  const = 0;
+  
+  //! Returns  the number  of  intervals for  continuity
+  //! <S>. May be one if Continuity(me) >= <S>
+  Standard_EXPORT virtual   Standard_Integer NbIntervals (const GeomAbs_Shape S)  const = 0;
+  
+  //! Stores in <T> the  parameters bounding the intervals
+  //! of continuity <S>.
+  //!
+  //! The array must provide  enough room to  accomodate
+  //! for the parameters. i.e. T.Length() > NbIntervals()
+  Standard_EXPORT virtual   void Intervals (TColStd_Array1OfReal& T, const GeomAbs_Shape S)  const = 0;
   
   Standard_EXPORT virtual   void GetShape (Standard_Integer& NbPoles, Standard_Integer& NbKnots, Standard_Integer& Degree, Standard_Integer& NbPoles2d)  = 0;
   
@@ -155,12 +184,12 @@ public:
   //! are computed, otherwise it returns Standard_False.
   Standard_EXPORT virtual   Standard_Boolean Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfVec& DPoles, TColgp_Array1OfPnt2d& Poles2d, TColgp_Array1OfVec2d& DPoles2d, TColStd_Array1OfReal& Weigths, TColStd_Array1OfReal& DWeigths)  = 0;
   
-  Standard_EXPORT virtual   void Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfPnt2d& Poles2d, TColStd_Array1OfReal& Weigths)  = 0;
-  
   //! Used for the first and last section
   //! The method returns Standard_True if the derivatives
   //! are computed, otherwise it returns Standard_False.
-  Standard_EXPORT virtual   Standard_Boolean Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfVec& DPoles, TColgp_Array1OfVec& D2Poles, TColgp_Array1OfPnt2d& Poles2d, TColgp_Array1OfVec2d& DPoles2d, TColgp_Array1OfVec2d& D2Poles2d, TColStd_Array1OfReal& Weigths, TColStd_Array1OfReal& DWeigths, TColStd_Array1OfReal& D2Weigths) ;
+  Standard_EXPORT virtual   Standard_Boolean Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfVec& DPoles, TColgp_Array1OfVec& D2Poles, TColgp_Array1OfPnt2d& Poles2d, TColgp_Array1OfVec2d& DPoles2d, TColgp_Array1OfVec2d& D2Poles2d, TColStd_Array1OfReal& Weigths, TColStd_Array1OfReal& DWeigths, TColStd_Array1OfReal& D2Weigths)  = 0;
+  
+  Standard_EXPORT virtual   void Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfPnt2d& Poles2d, TColStd_Array1OfReal& Weigths)  = 0;
 
 
 
@@ -185,4 +214,4 @@ private:
 
 
 
-#endif // _Blend_CSFunction_HeaderFile
+#endif // _Blend_SurfRstFunction_HeaderFile

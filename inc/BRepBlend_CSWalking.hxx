@@ -17,12 +17,12 @@
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Blend_Status.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Status.hxx>
 class BRepBlend_Line;
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
@@ -143,7 +143,7 @@ private:
 #define Blend_CSWalking BRepBlend_CSWalking
 #define Blend_CSWalking_hxx <BRepBlend_CSWalking.hxx>
 
-#include <Blend_CSWalking.lxx>
+#include <ModelingAlgorithms/Blend/Blend_CSWalking.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

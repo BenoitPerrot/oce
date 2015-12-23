@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <Handle_BRepBlend_Line.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Blend_SequenceOfPoint.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SequenceOfPoint.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -23,7 +23,7 @@
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <Blend_Status.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Status.hxx>
 class BRepBlend_Line;
 class Adaptor3d_HSurface;
 class Adaptor3d_TopolTool;
@@ -179,7 +179,7 @@ private:
 #define Blend_Walking BRepBlend_Walking
 #define Blend_Walking_hxx <BRepBlend_Walking.hxx>
 
-#include <Blend_Walking.lxx>
+#include <ModelingAlgorithms/Blend/Blend_Walking.lxx>
 
 #undef TheVertex
 #undef TheVertex_hxx

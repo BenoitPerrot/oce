@@ -16,7 +16,7 @@
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Blend_SurfPointFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SurfPointFuncInv.hxx>
 
 //=======================================================================
 //function : NbVariables

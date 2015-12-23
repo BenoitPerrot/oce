@@ -16,9 +16,9 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <BRepBlend_Line.hxx>
-#include <Blend_Function.hxx>
-#include <Blend_AppFunction.hxx>
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Function.hxx>
+#include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <BRepBlend_AppFunc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepBlend_AppFunc)

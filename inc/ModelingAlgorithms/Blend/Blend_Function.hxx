@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Blend_AppFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>

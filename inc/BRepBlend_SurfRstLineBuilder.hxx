@@ -17,10 +17,10 @@
 #include <Handle_Adaptor3d_TopolTool.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
-#include <Blend_Status.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Status.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepBlend_Line;
 class Adaptor3d_HSurface;

@@ -20,7 +20,7 @@
 #include <BRepBlend_PointOnRst.hxx>
 #include <BRepBlend_SequenceOfPointOnRst.hxx>
 #include <BRepBlend_Extremity.hxx>
-#include <Blend_CSFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_CSFunction.hxx>
 #include <IntSurf_Transition.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -60,5 +60,5 @@
 #define TheLine_hxx <BRepBlend_Line.hxx>
 #define Blend_CSWalking BRepBlend_CSWalking
 #define Blend_CSWalking_hxx <BRepBlend_CSWalking.hxx>
-#include <Blend_CSWalking.gxx>
+#include <ModelingAlgorithms/Blend/Blend_CSWalking.gxx>
 

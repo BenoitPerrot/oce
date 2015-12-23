@@ -16,7 +16,7 @@
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <Blend_SurfCurvFuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_SurfCurvFuncInv.hxx>
 
 //=======================================================================
 //function : NbVariables

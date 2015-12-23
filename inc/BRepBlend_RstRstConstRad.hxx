@@ -23,9 +23,9 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BlendFunc_SectionShape.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
-#include <Blend_RstRstFunction.hxx>
+#include <ModelingAlgorithms/Blend/Blend_RstRstFunction.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Blend_DecrochStatus.hxx>
+#include <ModelingAlgorithms/Blend/Blend_DecrochStatus.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor2d_HCurve2d;

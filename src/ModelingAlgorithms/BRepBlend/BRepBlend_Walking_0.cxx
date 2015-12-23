@@ -19,9 +19,9 @@
 #include <BRepBlend_PointOnRst.hxx>
 #include <BRepBlend_SequenceOfPointOnRst.hxx>
 #include <BRepBlend_Extremity.hxx>
-#include <Blend_Point.hxx>
-#include <Blend_Function.hxx>
-#include <Blend_FuncInv.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Point.hxx>
+#include <ModelingAlgorithms/Blend/Blend_Function.hxx>
+#include <ModelingAlgorithms/Blend/Blend_FuncInv.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntSurf_Transition.hxx>
  
@@ -58,5 +58,5 @@
 #define TheLine_hxx <BRepBlend_Line.hxx>
 #define Blend_Walking BRepBlend_Walking
 #define Blend_Walking_hxx <BRepBlend_Walking.hxx>
-#include <Blend_Walking.gxx>
+#include <ModelingAlgorithms/Blend/Blend_Walking.gxx>
 
