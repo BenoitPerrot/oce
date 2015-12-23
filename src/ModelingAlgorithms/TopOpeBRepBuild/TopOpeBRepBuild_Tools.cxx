@@ -27,7 +27,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
-#include <TopOpeBRepBuild_Tools.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Tools.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -91,7 +91,7 @@
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
-#include <TopOpeBRepBuild_CorrectFace2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_CorrectFace2d.hxx>
 #include <Precision.hxx>
 #include <stdio.h>
 

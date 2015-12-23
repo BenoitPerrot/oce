@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepBuild_ShellFaceSet.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShellFaceSet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepBuild_ShapeSet.hxx>
-#include <TopOpeBRepBuild_SolidBuilder.hxx>
-#include <TopOpeBRepBuild_ShellFaceClassifier.hxx>
-#include <TopOpeBRepBuild_Loop.hxx>
-#include <TopOpeBRepBuild_BlockBuilder.hxx>
-#include <TopOpeBRepBuild_LoopSet.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeSet.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_SolidBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShellFaceClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Loop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_BlockBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_LoopSet.hxx>
 
 
 //=======================================================================

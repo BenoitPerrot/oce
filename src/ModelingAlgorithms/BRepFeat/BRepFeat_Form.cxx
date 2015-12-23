@@ -20,7 +20,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingAlgorithms/LocOpe/LocOpe_Gluer.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_Form.hxx>
 
 #include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/LocOpe/LocOpe_BuildShape.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>

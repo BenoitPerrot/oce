@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
-#include <TopOpeBRepBuild_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 
 #define TESTTOPOPE_NKEYS 8
 enum Operation_t {BOOP_UND = -1,BOOP_TOPX = 0,BOOP_SECC = 1,BOOP_SECE = 2,BOOP_SEC = 3,

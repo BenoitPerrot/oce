@@ -20,8 +20,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <TopOpeBRepBuild_Builder.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Builder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepBuild_HBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_HBuilder)
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TopOpeBRepBuild_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 
 //=======================================================================
 //function : TopOpeBRepBuild_HBuilder

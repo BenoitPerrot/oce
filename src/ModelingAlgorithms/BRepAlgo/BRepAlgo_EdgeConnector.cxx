@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(BRepAlgo_EdgeConnector)
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopOpeBRepBuild_ShapeSet.hxx>
-#include <TopOpeBRepBuild_BlockIterator.hxx>
-#include <TopOpeBRepBuild_BlockBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeSet.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_BlockIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_BlockBuilder.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapOfShapeBoolean.hxx>
 
 //=======================================================================

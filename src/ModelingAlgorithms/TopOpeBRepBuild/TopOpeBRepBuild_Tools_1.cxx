@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
-#include <TopOpeBRepBuild_Tools.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Tools.hxx>
 
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>

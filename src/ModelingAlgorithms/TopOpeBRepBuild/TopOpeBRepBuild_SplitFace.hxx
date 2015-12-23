@@ -17,8 +17,8 @@
 #ifndef _TopOpeBRepBuild_SplitFace_HeaderFile
 #define _TopOpeBRepBuild_SplitFace_HeaderFile
 
-#include <TopOpeBRepBuild_WireEdgeSet.hxx>
-#include <TopOpeBRepBuild_FaceBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_WireEdgeSet.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_FaceBuilder.hxx>
 
 #ifdef OCCT_DEBUG
 Standard_EXPORT void debspf(const Standard_Integer i) {cout<<"++  debspf"<<i<<endl;}

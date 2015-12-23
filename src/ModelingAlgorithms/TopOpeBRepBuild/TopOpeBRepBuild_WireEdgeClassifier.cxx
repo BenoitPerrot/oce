@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepBuild_BlockBuilder.hxx>
-#include <TopOpeBRepBuild_Loop.hxx>
-#include <TopOpeBRepBuild_WireEdgeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_BlockBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Loop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_WireEdgeClassifier.hxx>
 
 #ifdef DRAW
 #include <Viewer/DBRep/DBRep.hxx>
@@ -48,8 +48,8 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 
-#include <TopOpeBRepBuild_Builder.hxx>
-#include <TopOpeBRepBuild_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Builder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 
 #ifdef OCCT_DEBUG
 #define TSTRA TopOpeBRepDS_GettraceSTRANGE()

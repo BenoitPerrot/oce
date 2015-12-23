@@ -27,7 +27,7 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopOpeBRepBuild_WireEdgeSet.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_WireEdgeSet.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -47,7 +47,7 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
-#include <TopOpeBRepBuild_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 
 #ifdef OCCT_DEBUG

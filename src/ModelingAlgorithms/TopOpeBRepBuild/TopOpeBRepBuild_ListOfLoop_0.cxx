@@ -3,23 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepBuild_ListOfLoop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfLoop.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
-#include <TopOpeBRepBuild_Loop.hxx>
-#include <TopOpeBRepBuild_ListNodeOfListOfLoop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Loop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListNodeOfListOfLoop.hxx>
  
 
 #define Item Handle(TopOpeBRepBuild_Loop)
-#define Item_hxx <TopOpeBRepBuild_Loop.hxx>
+#define Item_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Loop.hxx>
 #define TCollection_ListNode TopOpeBRepBuild_ListNodeOfListOfLoop
-#define TCollection_ListNode_hxx <TopOpeBRepBuild_ListNodeOfListOfLoop.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListNodeOfListOfLoop.hxx>
 #define TCollection_ListIterator TopOpeBRepBuild_ListIteratorOfListOfLoop
-#define TCollection_ListIterator_hxx <TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
 #define Handle_TCollection_ListNode Handle_TopOpeBRepBuild_ListNodeOfListOfLoop
 #define TCollection_ListNode_Type_() TopOpeBRepBuild_ListNodeOfListOfLoop_Type_()
 #define TCollection_List TopOpeBRepBuild_ListOfLoop
-#define TCollection_List_hxx <TopOpeBRepBuild_ListOfLoop.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfLoop.hxx>
 #include <Foundation/TCollection/TCollection_List.gxx>
 

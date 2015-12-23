@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

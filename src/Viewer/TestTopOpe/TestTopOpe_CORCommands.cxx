@@ -22,7 +22,7 @@
 #include <TopOpeBRepTool_REGUS.hxx>
 #include <TopOpeBRepTool_CLASSI.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepBuild_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
@@ -55,8 +55,8 @@
 
 #include <TopOpeBRepTool.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <TopOpeBRepBuild_FaceBuilder.hxx>
-#include <TopOpeBRepBuild_ShellToSolid.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_FaceBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShellToSolid.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_SolidClassifier.hxx>
 #include <TopOpeBRepTool_ShapeClassifier.hxx>

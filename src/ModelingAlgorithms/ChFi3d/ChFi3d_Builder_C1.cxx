@@ -18,7 +18,7 @@
 //  Modified by skv - Thu Aug 21 11:55:58 2008 OCC20222
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

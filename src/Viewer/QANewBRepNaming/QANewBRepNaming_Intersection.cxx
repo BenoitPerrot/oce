@@ -19,7 +19,7 @@
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #ifdef OCCT_DEBUG

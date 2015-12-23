@@ -20,12 +20,12 @@
 //                         Celine
 //                         Voyage au bout de la nuit
 
-#include <TopOpeBRepBuild_LoopSet.hxx>
-#include <TopOpeBRepBuild_LoopClassifier.hxx>
-#include <TopOpeBRepBuild_Loop.hxx>
-#include <TopOpeBRepBuild_ListOfLoop.hxx>
-#include <TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
-#include <TopOpeBRepBuild_AreaBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_LoopSet.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_LoopClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Loop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfLoop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_AreaBuilder.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

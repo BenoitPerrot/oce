@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TopOpeBRepBuild_ShapeListOfShape.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeListOfShape.hxx>
 
 #define MTTdmiomoslos TopTools_DataMapIteratorOfDataMapOfShapeListOfShape
 #define MTTdmoslos TopTools_DataMapOfShapeListOfShape

@@ -35,7 +35,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ChamfSpine.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>

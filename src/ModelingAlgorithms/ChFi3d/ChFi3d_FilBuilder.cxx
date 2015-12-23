@@ -67,7 +67,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <ElSLib.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>

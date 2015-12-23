@@ -68,7 +68,7 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <TopOpeBRepBuild_Builder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_CurveExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>

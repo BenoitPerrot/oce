@@ -60,7 +60,7 @@
 #include <ModelingAlgorithms/ChFiKPart/ChFiKPart_RstMap.hxx>
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

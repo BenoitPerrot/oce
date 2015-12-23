@@ -44,7 +44,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
-#include <TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_SequenceOfSequenceOfInteger.hxx>
