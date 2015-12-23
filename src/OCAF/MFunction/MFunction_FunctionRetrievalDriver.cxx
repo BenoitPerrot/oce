@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <MFunction_FunctionRetrievalDriver.hxx>
+#include <OCAF/MFunction/MFunction_FunctionRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MFunction_FunctionRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

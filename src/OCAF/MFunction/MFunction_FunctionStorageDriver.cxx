@@ -19,7 +19,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <MFunction_FunctionStorageDriver.hxx>
+#include <OCAF/MFunction/MFunction_FunctionStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MFunction_FunctionStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

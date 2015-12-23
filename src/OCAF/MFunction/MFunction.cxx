@@ -17,13 +17,13 @@
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
-#include <MFunction.hxx>
+#include <OCAF/MFunction/MFunction.hxx>
 
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <MFunction_FunctionStorageDriver.hxx>
-#include <MFunction_FunctionRetrievalDriver.hxx>
+#include <OCAF/MFunction/MFunction_FunctionStorageDriver.hxx>
+#include <OCAF/MFunction/MFunction_FunctionRetrievalDriver.hxx>
 
 
 //=======================================================================
