@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/PColgp/PColgp_HArray1OfPnt2d.hxx>
 #include <PColStd_HArray1OfReal.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PGeom2d_BSplineCurve.hxx>

@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PColgp_VArrayNodeOfFieldOfHArray1OfXY.hxx>
+#include <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray1OfXY.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <PColgp_FieldOfHArray1OfXY.hxx>
-#include <PColgp_VArrayTNodeOfFieldOfHArray1OfXY.hxx>
+#include <OCAF/PColgp/PColgp_FieldOfHArray1OfXY.hxx>
+#include <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray1OfXY.hxx>
 
  
 
@@ -31,12 +31,12 @@ IMPLEMENT_STANDARD_RTTI(PColgp_VArrayNodeOfFieldOfHArray1OfXY)
 #define Item gp_XY
 #define Item_hxx <Mathematics/Primitives/gp_XY.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray1OfXY
-#define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray1OfXY.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray1OfXY.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray1OfXY
-#define DBC_VArrayTNode_hxx <PColgp_VArrayTNodeOfFieldOfHArray1OfXY.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray1OfXY.hxx>
 #define Handle_DBC_VArrayNode Handle_PColgp_VArrayNodeOfFieldOfHArray1OfXY
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray1OfXY_Type_()
 #define DBC_VArray PColgp_FieldOfHArray1OfXY
-#define DBC_VArray_hxx <PColgp_FieldOfHArray1OfXY.hxx>
+#define DBC_VArray_hxx <OCAF/PColgp/PColgp_FieldOfHArray1OfXY.hxx>
 #include <OCAF/DBC/DBC_VArrayNode.gxx>
 

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PColgp_HArray2OfPnt.hxx>
+#include <OCAF/PColgp/PColgp_HArray2OfPnt.hxx>
 #include <PColStd_HArray2OfReal.hxx>
 #include <PGeom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

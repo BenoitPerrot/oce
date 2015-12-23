@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_HSequenceOfXYZ.hxx>
 #endif
 #ifndef _PColgp_HSequenceOfXYZ_HeaderFile
-#include <PColgp_HSequenceOfXYZ.hxx>
+#include <OCAF/PColgp/PColgp_HSequenceOfXYZ.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfXYZ_HeaderFile
 #include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfXYZ.hxx>

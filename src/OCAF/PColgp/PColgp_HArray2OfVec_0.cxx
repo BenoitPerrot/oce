@@ -3,16 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PColgp_HArray2OfVec.hxx>
+#include <OCAF/PColgp/PColgp_HArray2OfVec.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <PColgp_FieldOfHArray2OfVec.hxx>
-#include <PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
-#include <PColgp_VArrayTNodeOfFieldOfHArray2OfVec.hxx>
+#include <OCAF/PColgp/PColgp_FieldOfHArray2OfVec.hxx>
+#include <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
+#include <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray2OfVec.hxx>
 
  
 
@@ -33,21 +33,21 @@ IMPLEMENT_STANDARD_RTTI(PColgp_HArray2OfVec)
 #define Item gp_Vec
 #define Item_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define PCollection_FieldOfHArray2 PColgp_FieldOfHArray2OfVec
-#define PCollection_FieldOfHArray2_hxx <PColgp_FieldOfHArray2OfVec.hxx>
+#define PCollection_FieldOfHArray2_hxx <OCAF/PColgp/PColgp_FieldOfHArray2OfVec.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColgp_VArrayNodeOfFieldOfHArray2OfVec
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PColgp_VArrayTNodeOfFieldOfHArray2OfVec
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PColgp_VArrayTNodeOfFieldOfHArray2OfVec.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray2OfVec.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray2 PColgp_VArrayNodeOfFieldOfHArray2OfVec
-#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray2_hxx <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray2OfVec.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray2 PColgp_VArrayTNodeOfFieldOfHArray2OfVec
-#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <PColgp_VArrayTNodeOfFieldOfHArray2OfVec.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray2_hxx <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray2OfVec.hxx>
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PColgp_VArrayNodeOfFieldOfHArray2OfVec
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PColgp_VArrayNodeOfFieldOfHArray2OfVec_Type_()
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray2 Handle_PColgp_VArrayNodeOfFieldOfHArray2OfVec
 #define PCollection_VArrayNodeOfFieldOfHArray2_Type_() PColgp_VArrayNodeOfFieldOfHArray2OfVec_Type_()
 #define PCollection_HArray2 PColgp_HArray2OfVec
-#define PCollection_HArray2_hxx <PColgp_HArray2OfVec.hxx>
+#define PCollection_HArray2_hxx <OCAF/PColgp/PColgp_HArray2OfVec.hxx>
 #define Handle_PCollection_HArray2 Handle_PColgp_HArray2OfVec
 #define PCollection_HArray2_Type_() PColgp_HArray2OfVec_Type_()
 #include <PCollection_HArray2.gxx>

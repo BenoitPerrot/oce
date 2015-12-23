@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #endif
 #ifndef _PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
-#include <PColgp_SeqNodeOfHSequenceOfDir.hxx>
+#include <OCAF/PColgp/PColgp_SeqNodeOfHSequenceOfDir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir_HeaderFile
 #include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfDir.hxx>

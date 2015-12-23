@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_HArray1OfXY.hxx>
 #endif
 #ifndef _PColgp_HArray1OfXY_HeaderFile
-#include <PColgp_HArray1OfXY.hxx>
+#include <OCAF/PColgp/PColgp_HArray1OfXY.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_FieldOfHArray1OfXY_HeaderFile
 #include <ShapeSchema_PColgp_FieldOfHArray1OfXY.hxx>

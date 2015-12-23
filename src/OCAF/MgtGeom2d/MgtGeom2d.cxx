@@ -69,8 +69,8 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt2d.hxx>
 
-#include <PColgp_HArray1OfPnt2d.hxx>
-#include <PColgp_HArray2OfPnt2d.hxx>
+#include <OCAF/PColgp/PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/PColgp/PColgp_HArray2OfPnt2d.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

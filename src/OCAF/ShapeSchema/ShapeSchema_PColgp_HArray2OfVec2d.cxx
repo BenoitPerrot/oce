@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_HArray2OfVec2d.hxx>
 #endif
 #ifndef _PColgp_HArray2OfVec2d_HeaderFile
-#include <PColgp_HArray2OfVec2d.hxx>
+#include <OCAF/PColgp/PColgp_HArray2OfVec2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_FieldOfHArray2OfVec2d_HeaderFile
 #include <ShapeSchema_PColgp_FieldOfHArray2OfVec2d.hxx>

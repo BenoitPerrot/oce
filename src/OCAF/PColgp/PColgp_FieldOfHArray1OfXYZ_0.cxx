@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PColgp_FieldOfHArray1OfXYZ.hxx>
+#include <OCAF/PColgp/PColgp_FieldOfHArray1OfXYZ.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,8 +12,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <PColgp_VArrayNodeOfFieldOfHArray1OfXYZ.hxx>
-#include <PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ.hxx>
+#include <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray1OfXYZ.hxx>
+#include <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ.hxx>
 
 IMPLEMENT_STANDARD_TYPE(PColgp_FieldOfHArray1OfXYZ)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,12 +27,12 @@ IMPLEMENT_STANDARD_TYPE_END(PColgp_FieldOfHArray1OfXYZ)
 #define Item gp_XYZ
 #define Item_hxx <Mathematics/Primitives/gp_XYZ.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray1OfXYZ
-#define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray1OfXYZ.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray1OfXYZ.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ
-#define DBC_VArrayTNode_hxx <PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ.hxx>
 #define Handle_DBC_VArrayNode Handle_PColgp_VArrayNodeOfFieldOfHArray1OfXYZ
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray1OfXYZ_Type_()
 #define DBC_VArray PColgp_FieldOfHArray1OfXYZ
-#define DBC_VArray_hxx <PColgp_FieldOfHArray1OfXYZ.hxx>
+#define DBC_VArray_hxx <OCAF/PColgp/PColgp_FieldOfHArray1OfXYZ.hxx>
 #include <OCAF/DBC/DBC_VArray.gxx>
 

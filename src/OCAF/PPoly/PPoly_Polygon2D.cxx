@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/PColgp/PColgp_HArray1OfPnt2d.hxx>
 #include <PPoly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PPoly_Polygon2D)

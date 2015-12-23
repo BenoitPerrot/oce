@@ -95,8 +95,8 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 
-#include <PColgp_HArray1OfPnt.hxx>
-#include <PColgp_HArray2OfPnt.hxx>
+#include <OCAF/PColgp/PColgp_HArray1OfPnt.hxx>
+#include <OCAF/PColgp/PColgp_HArray2OfPnt.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

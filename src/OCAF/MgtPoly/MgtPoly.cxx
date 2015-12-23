@@ -27,9 +27,9 @@
 #include <OCAF/MgtPoly/MgtPoly.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <PColgp_HArray1OfPnt.hxx>
+#include <OCAF/PColgp/PColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/PColgp/PColgp_HArray1OfPnt2d.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

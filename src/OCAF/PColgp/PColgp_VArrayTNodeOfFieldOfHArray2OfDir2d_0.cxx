@@ -3,22 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PColgp_VArrayTNodeOfFieldOfHArray2OfDir2d.hxx>
+#include <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray2OfDir2d.hxx>
 
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <PColgp_FieldOfHArray2OfDir2d.hxx>
-#include <PColgp_VArrayNodeOfFieldOfHArray2OfDir2d.hxx>
+#include <OCAF/PColgp/PColgp_FieldOfHArray2OfDir2d.hxx>
+#include <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray2OfDir2d.hxx>
  
 
 #define Item gp_Dir2d
 #define Item_hxx <Mathematics/Primitives/gp_Dir2d.hxx>
 #define DBC_VArrayNode PColgp_VArrayNodeOfFieldOfHArray2OfDir2d
-#define DBC_VArrayNode_hxx <PColgp_VArrayNodeOfFieldOfHArray2OfDir2d.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PColgp/PColgp_VArrayNodeOfFieldOfHArray2OfDir2d.hxx>
 #define DBC_VArrayTNode PColgp_VArrayTNodeOfFieldOfHArray2OfDir2d
-#define DBC_VArrayTNode_hxx <PColgp_VArrayTNodeOfFieldOfHArray2OfDir2d.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PColgp/PColgp_VArrayTNodeOfFieldOfHArray2OfDir2d.hxx>
 #define Handle_DBC_VArrayNode Handle_PColgp_VArrayNodeOfFieldOfHArray2OfDir2d
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray2OfDir2d_Type_()
 #define DBC_VArray PColgp_FieldOfHArray2OfDir2d
-#define DBC_VArray_hxx <PColgp_FieldOfHArray2OfDir2d.hxx>
+#define DBC_VArray_hxx <OCAF/PColgp/PColgp_FieldOfHArray2OfDir2d.hxx>
 #include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_HArray2OfCirc2d.hxx>
 #endif
 #ifndef _PColgp_HArray2OfCirc2d_HeaderFile
-#include <PColgp_HArray2OfCirc2d.hxx>
+#include <OCAF/PColgp/PColgp_HArray2OfCirc2d.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_FieldOfHArray2OfCirc2d_HeaderFile
 #include <ShapeSchema_PColgp_FieldOfHArray2OfCirc2d.hxx>

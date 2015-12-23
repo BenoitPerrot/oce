@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_FieldOfHArray1OfPnt.hxx>
 #endif
 #ifndef _PColgp_FieldOfHArray1OfPnt_HeaderFile
-#include <PColgp_FieldOfHArray1OfPnt.hxx>
+#include <OCAF/PColgp/PColgp_FieldOfHArray1OfPnt.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

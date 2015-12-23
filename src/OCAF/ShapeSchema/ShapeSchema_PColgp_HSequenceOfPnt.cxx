@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_HSequenceOfPnt.hxx>
 #endif
 #ifndef _PColgp_HSequenceOfPnt_HeaderFile
-#include <PColgp_HSequenceOfPnt.hxx>
+#include <OCAF/PColgp/PColgp_HSequenceOfPnt.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt_HeaderFile
 #include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfPnt.hxx>

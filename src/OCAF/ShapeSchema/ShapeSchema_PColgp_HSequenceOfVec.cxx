@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_HSequenceOfVec.hxx>
 #endif
 #ifndef _PColgp_HSequenceOfVec_HeaderFile
-#include <PColgp_HSequenceOfVec.hxx>
+#include <OCAF/PColgp/PColgp_HSequenceOfVec.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
 #include <ShapeSchema_PColgp_SeqNodeOfHSequenceOfVec.hxx>

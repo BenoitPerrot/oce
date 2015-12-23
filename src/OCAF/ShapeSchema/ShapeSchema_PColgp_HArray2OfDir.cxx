@@ -2,7 +2,7 @@
 #include <ShapeSchema_PColgp_HArray2OfDir.hxx>
 #endif
 #ifndef _PColgp_HArray2OfDir_HeaderFile
-#include <PColgp_HArray2OfDir.hxx>
+#include <OCAF/PColgp/PColgp_HArray2OfDir.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_FieldOfHArray2OfDir_HeaderFile
 #include <ShapeSchema_PColgp_FieldOfHArray2OfDir.hxx>
