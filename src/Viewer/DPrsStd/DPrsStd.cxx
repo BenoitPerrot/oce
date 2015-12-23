@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DPrsStd.hxx>
+#include <Viewer/DPrsStd/DPrsStd.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
 
