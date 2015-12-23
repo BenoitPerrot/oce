@@ -15,9 +15,9 @@
 #define _DsgPrs_DatumPrs_H__
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 
 class DsgPrs_DatumPrs : public Prs3d_Root
 {

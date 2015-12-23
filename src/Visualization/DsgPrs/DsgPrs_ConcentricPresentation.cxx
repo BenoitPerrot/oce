@@ -14,17 +14,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Visualization/DsgPrs/DsgPrs_ConcentricPresentation.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_Root.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

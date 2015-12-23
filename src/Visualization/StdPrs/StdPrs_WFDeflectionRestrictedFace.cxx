@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>
 
@@ -26,7 +26,7 @@
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>

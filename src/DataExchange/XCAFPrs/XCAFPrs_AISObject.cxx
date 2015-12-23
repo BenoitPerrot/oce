@@ -21,11 +21,11 @@
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Handle_AIS_Drawer.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_IsoAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_Text.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Text.hxx>
 #include <TDataStd_Name.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TPrsStd_AISPresentation.hxx>

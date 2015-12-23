@@ -18,8 +18,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
@@ -59,8 +59,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

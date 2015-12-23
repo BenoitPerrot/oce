@@ -18,7 +18,7 @@
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
-#include <Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_PointAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -18,23 +18,23 @@
 
 
 
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Visualization/AIS/AIS_GraphicTool.hxx>
 
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Aspect/Aspect_AspectLine.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_PlaneAspect.hxx>
-#include <Prs3d_DatumAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DatumAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 
 
 static Handle(Prs3d_LineAspect) GetLineAspect(const Handle(Prs3d_Drawer)& Dr,

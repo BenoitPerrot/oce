@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_DimensionUnits.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionUnits.hxx>
 
 //=======================================================================
 //function : SetLengthUnits

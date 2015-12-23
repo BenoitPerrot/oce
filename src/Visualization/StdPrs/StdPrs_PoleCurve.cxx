@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <StdPrs_PoleCurve.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_Arrow.hxx>
-#include <Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Arrow.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

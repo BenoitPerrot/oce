@@ -16,7 +16,7 @@
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Visualization/MeshVS/MeshVS_Drawer.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_PrsBuilder)
 IMPLEMENT_DOWNCAST(MeshVS_PrsBuilder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_PrsBuilder)
 
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 
 //================================================================

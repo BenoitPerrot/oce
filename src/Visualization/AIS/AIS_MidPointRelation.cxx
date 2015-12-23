@@ -15,8 +15,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -71,9 +71,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_ArrowAspect.hxx>
-#include <Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
 
 #include <Visualization/DsgPrs/DsgPrs_MidPointPresentation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

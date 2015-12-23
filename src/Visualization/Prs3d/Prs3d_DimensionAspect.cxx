@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
 
-#include <Prs3d_ArrowAspect.hxx>
-#include <Prs3d_TextAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>

@@ -105,7 +105,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Select3D_SensitiveCircle.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_Selection.hxx>
@@ -128,9 +128,9 @@
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 
-#include <Prs3d_VertexDrawMode.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_VertexDrawMode.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 
 #include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
@@ -2413,10 +2413,10 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 
-#include <Prs3d_Root.hxx>
-#include <Prs3d_Text.hxx>
-#include <Prs3d_TextAspect.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Text.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
@@ -2636,7 +2636,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 

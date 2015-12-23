@@ -16,23 +16,23 @@
 // a point and non-infinite lines passing throught this point:
 #define OCC64 
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_Arrow.hxx>
-#include <Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Arrow.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Prs3d.hxx>
+#include <Visualization/Prs3d/Prs3d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Precision.hxx>

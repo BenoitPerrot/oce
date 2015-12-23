@@ -15,7 +15,7 @@
 
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerTwoColors.hxx>
@@ -39,9 +39,9 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_ElementalColorPrsBuilder)
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_Root.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>

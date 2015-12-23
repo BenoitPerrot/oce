@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <StdSelect_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_TYPE_END(StdSelect_Shape)
 IMPLEMENT_DOWNCAST(StdSelect_Shape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_Shape)
 #include <StdPrs_WFShape.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
-#include <Prs3d_PlaneAspect.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <StdPrs_ShadedShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 

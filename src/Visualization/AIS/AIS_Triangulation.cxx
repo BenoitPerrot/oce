@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <Prs3d_Root.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

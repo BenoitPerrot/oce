@@ -14,11 +14,11 @@
 #ifndef _StdPrs_Vertex_H__
 #define _StdPrs_Vertex_H__
 
-#include <Prs3d_Point.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Point.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <StdPrs_ToolVertex.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 
 typedef Prs3d_Point<TopoDS_Vertex, StdPrs_ToolVertex> StdPrs_Vertex;
 #endif

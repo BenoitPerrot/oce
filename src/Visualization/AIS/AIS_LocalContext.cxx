@@ -68,10 +68,10 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfSelStat.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_PlaneAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>

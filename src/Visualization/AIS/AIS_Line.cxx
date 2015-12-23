@@ -18,8 +18,8 @@
 
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -37,9 +37,9 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_Line)
 IMPLEMENT_DOWNCAST(AIS_Line,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Precision.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

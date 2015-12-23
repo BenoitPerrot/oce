@@ -18,9 +18,9 @@
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_PointAspect.hxx>
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 
 template <class AnyPoint, class PointTool>

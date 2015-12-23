@@ -16,7 +16,7 @@
 //						  instead a restricted object NameOfColor.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_IsoAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

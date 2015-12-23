@@ -16,11 +16,11 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 //=======================================================================

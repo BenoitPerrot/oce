@@ -14,12 +14,12 @@
 #include <Handle_Prs3d_TextAspect.hxx>
 #include <Handle_Prs3d_ArrowAspect.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Prs3d_DimensionArrowOrientation.hxx>
-#include <Prs3d_DimensionTextHorizontalPosition.hxx>
-#include <Prs3d_DimensionTextVerticalPosition.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionArrowOrientation.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionTextHorizontalPosition.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionTextVerticalPosition.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 class Prs3d_LineAspect;
 class Prs3d_TextAspect;
 class Prs3d_ArrowAspect;

@@ -21,7 +21,7 @@
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <SelectMgr_OrFilter.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <V3d_View.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -29,8 +29,8 @@
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>

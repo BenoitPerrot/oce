@@ -14,10 +14,10 @@
 #ifndef _StdPrs_WFDeflectionShape_H__
 #define _StdPrs_WFDeflectionShape_H__
 
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_WFShape.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_WFShape.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 #include <StdPrs_Vertex.hxx>

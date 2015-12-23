@@ -35,8 +35,8 @@
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_InteractiveObject)
@@ -51,12 +51,12 @@ IMPLEMENT_DOWNCAST(AIS_InteractiveObject,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_InteractiveObject)
 
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
-#include <Prs3d_TextAspect.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <PrsMgr_ModedPresentation.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

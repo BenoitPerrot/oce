@@ -91,7 +91,7 @@
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <TDocStd_Owner.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Visualization/AIS/AIS_Trihedron.hxx>

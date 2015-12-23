@@ -13,7 +13,7 @@
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Graphic3d_AspectLine3d;
 class Prs3d_InvalidAngle;

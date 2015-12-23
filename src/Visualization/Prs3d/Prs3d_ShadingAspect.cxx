@@ -24,7 +24,7 @@
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_ShadingAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

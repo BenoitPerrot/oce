@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_PresentationShadow.hxx>
+#include <Visualization/Prs3d/Prs3d_PresentationShadow.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Prs3d_PresentationShadow, Prs3d_Presentation)
 IMPLEMENT_STANDARD_RTTIEXT(Prs3d_PresentationShadow, Prs3d_Presentation)

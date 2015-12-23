@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <SelectMgr_Selection.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <QABugs_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QABugs_PresentableObject)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(QABugs_PresentableObject)
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

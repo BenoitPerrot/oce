@@ -14,8 +14,8 @@
 #ifndef _Prs3d_WFShape_H__
 #define _Prs3d_WFShape_H__
 
-#include <Prs3d_Root.hxx>
-#include <Prs3d_NListOfSequenceOfPnt.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_NListOfSequenceOfPnt.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 

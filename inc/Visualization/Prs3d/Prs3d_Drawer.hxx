@@ -20,13 +20,13 @@
 #include <Visualization/Aspect/Aspect_TypeOfDeflection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Prs3d_PointAspect.hxx>
-#include <Prs3d_VertexDrawMode.hxx>
+#include <Visualization/Prs3d/Prs3d_VertexDrawMode.hxx>
 #include <Handle_Prs3d_PlaneAspect.hxx>
 #include <Handle_Prs3d_ArrowAspect.hxx>
 #include <Handle_Prs3d_DatumAspect.hxx>
 #include <Handle_Prs3d_DimensionAspect.hxx>
-#include <Prs3d_DimensionUnits.hxx>
-#include <Prs3d_TypeOfHLR.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionUnits.hxx>
+#include <Visualization/Prs3d/Prs3d_TypeOfHLR.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Prs3d_IsoAspect;
 class Prs3d_LineAspect;

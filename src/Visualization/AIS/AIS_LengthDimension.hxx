@@ -22,9 +22,9 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard.hxx>

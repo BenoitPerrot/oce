@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS.hxx>
 
@@ -82,8 +82,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Precision.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <StdPrs_Point.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

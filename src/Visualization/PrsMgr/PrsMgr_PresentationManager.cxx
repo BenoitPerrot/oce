@@ -16,9 +16,9 @@
 #include <V3d_View.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PrsMgr_PresentableObject.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <PrsMgr_Presentation.hxx>
 #include <PrsMgr_PresentationManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(PrsMgr_PresentationManager,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentationManager)
 
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
-#include <Prs3d_PresentationShadow.hxx>
+#include <Visualization/Prs3d/Prs3d_PresentationShadow.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <PrsMgr_Presentation.hxx>
 #include <PrsMgr_Presentations.hxx>

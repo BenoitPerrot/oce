@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
 class Prs3d_Presentation;

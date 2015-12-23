@@ -62,7 +62,7 @@ private:
 #define TheKey Handle(SelectMgr_EntityOwner)
 #define TheKey_hxx <SelectMgr_EntityOwner.hxx>
 #define TheItem Handle(Prs3d_Presentation)
-#define TheItem_hxx <Prs3d_Presentation.hxx>
+#define TheItem_hxx <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs

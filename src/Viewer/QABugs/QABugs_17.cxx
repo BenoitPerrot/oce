@@ -69,7 +69,7 @@
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 #include <QABugs_MyText.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Visualization/Font/Font_NameOfFont.hxx>
@@ -1313,7 +1313,7 @@ static Standard_Integer OCC1188 (Draw_Interpretor& di, Standard_Integer argc, co
 
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 //=======================================================================
 //function : OCC1174_1
 //purpose  : 

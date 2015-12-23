@@ -34,9 +34,9 @@
 #include <Visualization/OpenGl/OpenGl_Workspace.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Root.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Select3D_SensitiveCurve.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_Selection.hxx>

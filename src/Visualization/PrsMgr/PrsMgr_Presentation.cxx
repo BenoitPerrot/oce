@@ -16,11 +16,11 @@
 #include <PrsMgr_Prs.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <PrsMgr_Presentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_Presentation)

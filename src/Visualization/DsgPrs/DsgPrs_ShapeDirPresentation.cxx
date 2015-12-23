@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/DsgPrs/DsgPrs_ShapeDirPresentation.hxx>
 
@@ -45,8 +45,8 @@
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
-#include <Prs3d_Arrow.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Arrow.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

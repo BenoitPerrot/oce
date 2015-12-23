@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <StdPrs_WFSurface.hxx>
 
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <GeomAbs_IsoType.hxx>
-#include <Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
@@ -31,8 +31,8 @@
 #include <StdPrs_Curve.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <Prs3d_NListOfSequenceOfPnt.hxx>
-#include <Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx>
+#include <Visualization/Prs3d/Prs3d_NListOfSequenceOfPnt.hxx>
+#include <Visualization/Prs3d/Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx>
 
 
 static void FindLimits(const Handle(Adaptor3d_HSurface)& surf ,

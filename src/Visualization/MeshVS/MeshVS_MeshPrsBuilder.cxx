@@ -15,7 +15,7 @@
 
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
@@ -35,10 +35,10 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_MeshPrsBuilder)
 IMPLEMENT_DOWNCAST(MeshVS_MeshPrsBuilder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_MeshPrsBuilder)
 
-#include <Prs3d_Root.hxx>
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>

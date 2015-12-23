@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <StdPrs_WFPoleSurface.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
-#include <Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 
 #include <Geometry/Geom/Geom_BezierSurface.hxx>

@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <StdPrs_HLRPolyShape.hxx>
 
 #include <StdPrs_WFShape.hxx>
@@ -25,7 +25,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ListOfBPoint.hxx>

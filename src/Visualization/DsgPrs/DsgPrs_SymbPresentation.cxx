@@ -14,20 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/DsgPrs/DsgPrs_SymbPresentation.hxx>
 
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_TextAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <StdPrs_Point.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Prs3d_Text.hxx>
+#include <Visualization/Prs3d/Prs3d_Text.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 
 void DsgPrs_SymbPresentation::Add (const Handle(Prs3d_Presentation)& aPresentation,

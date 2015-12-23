@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_WFShape.hxx>
+#include <Visualization/Prs3d/Prs3d_WFShape.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
@@ -28,12 +28,12 @@
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
-#include <Prs3d.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_IsoAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
-#include <Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx>
-#include <Prs3d_ShapeTool.hxx>
+#include <Visualization/Prs3d/Prs3d.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx>
+#include <Visualization/Prs3d/Prs3d_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>

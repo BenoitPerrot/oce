@@ -16,7 +16,7 @@
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/MeshVS/MeshVS_TextPrsBuilder.hxx>
@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_TextPrsBuilder)
 #include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_Root.hxx>
-#include <Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>

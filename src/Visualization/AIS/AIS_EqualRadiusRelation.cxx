@@ -21,8 +21,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/AIS/AIS_EqualRadiusRelation.hxx>
@@ -52,8 +52,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 #include <Select3D_SensitiveBox.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 
 //=======================================================================

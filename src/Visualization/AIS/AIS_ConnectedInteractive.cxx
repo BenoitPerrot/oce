@@ -19,8 +19,8 @@
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <StdPrs_HLRPolyShape.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 
 #include <Visualization/AIS/AIS_Shape.hxx>
 

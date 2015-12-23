@@ -13,10 +13,10 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <StdPrs_HLRShape.hxx>
 #include <StdPrs_HLRToolShape.hxx>
 #include <StdPrs_DeflectionCurve.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_Prs3d_LineAspect.hxx>
 
 #include <Handle_Graphic3d_AspectLine3d.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -24,7 +24,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
-#include <Prs3d_ShapeTool.hxx>
+#include <Visualization/Prs3d/Prs3d_ShapeTool.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

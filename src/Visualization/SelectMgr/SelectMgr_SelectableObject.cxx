@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>

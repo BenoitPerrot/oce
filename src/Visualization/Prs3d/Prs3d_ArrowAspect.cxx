@@ -15,9 +15,9 @@
 #define IMP120100	//GG 01/01/00 Add SetColor() methods
 
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
-#include <Prs3d_InvalidAngle.hxx>
+#include <Visualization/Prs3d/Prs3d_InvalidAngle.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_ArrowAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

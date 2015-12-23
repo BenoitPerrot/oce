@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <PrsMgr_Presentation.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <PrsMgr_PresentationManager.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 

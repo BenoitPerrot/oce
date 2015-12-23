@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 
 //#include <AcisData_AcisModel.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>

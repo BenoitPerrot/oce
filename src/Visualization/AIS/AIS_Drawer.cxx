@@ -12,16 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_IsoAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_TextAspect.hxx>
-#include <Prs3d_ArrowAspect.hxx>
-#include <Prs3d_PointAspect.hxx>
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_PlaneAspect.hxx>
-#include <Prs3d_DatumAspect.hxx>
-#include <Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DatumAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

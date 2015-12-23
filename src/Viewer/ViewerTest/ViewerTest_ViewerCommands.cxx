@@ -71,7 +71,7 @@
 #include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 
 #ifdef WNT
 #undef DrawText

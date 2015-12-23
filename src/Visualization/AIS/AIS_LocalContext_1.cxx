@@ -94,9 +94,9 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <StdPrs_WFShape.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>

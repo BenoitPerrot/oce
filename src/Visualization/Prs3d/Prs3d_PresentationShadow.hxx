@@ -16,7 +16,7 @@
 #ifndef _Prs3d_PresentationShadow_HeaderFile
 #define _Prs3d_PresentationShadow_HeaderFile
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 
 //! Defines a "shadow" of existing presentation object with custom aspects.
 class Prs3d_PresentationShadow : public Prs3d_Presentation

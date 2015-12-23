@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Prs3d_PlaneSet.hxx>
+#include <Visualization/Prs3d/Prs3d_PlaneSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_PlaneSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

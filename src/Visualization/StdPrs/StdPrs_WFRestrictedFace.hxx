@@ -15,10 +15,10 @@
 #define _StdPrs_WFRestrictedFace_H__
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Root.hxx>
-#include <Prs3d_NListOfSequenceOfPnt.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_NListOfSequenceOfPnt.hxx>
 
 // Computes the wireframe presentation of faces with
 // restrictions by displaying a given number of U and/or

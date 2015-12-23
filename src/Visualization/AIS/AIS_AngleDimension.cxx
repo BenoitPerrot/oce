@@ -42,8 +42,8 @@
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/ProjLib/ProjLib.hxx>
-#include <Prs3d_Root.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Select3D_SensitiveGroup.hxx>
 #include <Select3D_SensitiveSegment.hxx>

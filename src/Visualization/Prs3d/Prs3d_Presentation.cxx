@@ -16,15 +16,15 @@
 
 #define IMP020200       //GG Add Transformation() method
 
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_Presentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Prs3d_TextAspect.hxx>
-#include <Prs3d_Text.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Text.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
-#include <Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 

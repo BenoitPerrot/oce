@@ -18,11 +18,11 @@
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
-#include <Prs3d_Arrow.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_DatumAspect.hxx>
-#include <Prs3d_TextAspect.hxx>
-#include <Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Arrow.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DatumAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 
 void DsgPrs_DatumPrs::Add (const Handle(Prs3d_Presentation)& thePresentation,
                            const gp_Ax2&                     theDatum,

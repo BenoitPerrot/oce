@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -32,10 +32,10 @@
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 
-#include <Prs3d_Arrow.hxx>
-#include <Prs3d_ArrowAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Arrow.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
@@ -49,7 +49,7 @@
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
-#include <Prs3d_Text.hxx>
+#include <Visualization/Prs3d/Prs3d_Text.hxx>
 #include <Precision.hxx>
 
 

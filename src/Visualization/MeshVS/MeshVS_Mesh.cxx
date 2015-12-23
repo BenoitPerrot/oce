@@ -18,7 +18,7 @@
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Visualization/MeshVS/MeshVS_Drawer.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerOwner.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
@@ -47,10 +47,10 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 
-#include <Prs3d_PointAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <PrsMgr_ModedPresentation.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 

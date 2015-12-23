@@ -17,9 +17,9 @@
 #define G005    //ATS,GG 04/01/01 Use PrimitiveArray instead Sets of primitives
 //              for performance improvment
 
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <StdPrs_ShadedSurface.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangleStrips.hxx>
@@ -27,8 +27,8 @@
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Prs3d_ShadingAspect.hxx>
-#include <Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

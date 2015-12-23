@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 
 Handle (Graphic3d_Group) Prs3d_Root::CurrentGroup (const Handle (Prs3d_Presentation)& Prs3d) 
 {

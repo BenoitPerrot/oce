@@ -17,7 +17,7 @@
 
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_LineAspect)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

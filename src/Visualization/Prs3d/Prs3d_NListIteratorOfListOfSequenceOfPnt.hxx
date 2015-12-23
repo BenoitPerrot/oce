@@ -16,7 +16,7 @@
 #ifndef Prs3d_NListIteratorOfListOfSequenceOfPnt_HeaderFile
 #define Prs3d_NListIteratorOfListOfSequenceOfPnt_HeaderFile
 
-#include <Prs3d_NListOfSequenceOfPnt.hxx>
+#include <Visualization/Prs3d/Prs3d_NListOfSequenceOfPnt.hxx>
 
 typedef Prs3d_NListOfSequenceOfPnt::Iterator Prs3d_NListIteratorOfListOfSequenceOfPnt;
 

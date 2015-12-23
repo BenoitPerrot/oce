@@ -11,7 +11,7 @@
 #include <Handle_Prs3d_ShadingAspect.hxx>
 
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>

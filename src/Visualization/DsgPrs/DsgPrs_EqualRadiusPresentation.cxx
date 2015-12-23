@@ -14,25 +14,25 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Visualization/DsgPrs/DsgPrs_EqualRadiusPresentation.hxx>
 
 #include <Visualization/DsgPrs/DsgPrs.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Prs3d_DimensionAspect.hxx>
-#include <Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Precision.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Prs3d_Text.hxx>
+#include <Visualization/Prs3d/Prs3d_Text.hxx>
 
 void DsgPrs_EqualRadiusPresentation::Add( const Handle( Prs3d_Presentation )& aPresentation,
 					  const Handle( Prs3d_Drawer )& aDrawer,

@@ -13,7 +13,7 @@
 #include <Handle_Prs3d_LineAspect.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Prs3d_LineAspect;
 

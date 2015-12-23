@@ -35,8 +35,8 @@
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Precision.hxx>
-#include <Prs3d.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>

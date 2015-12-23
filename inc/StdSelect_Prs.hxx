@@ -11,7 +11,7 @@
 #include <Handle_StdSelect_Prs.hxx>
 
 #include <Handle_Graphic3d_StructureManager.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 class Graphic3d_StructureManager;
 
 

@@ -16,7 +16,7 @@
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 

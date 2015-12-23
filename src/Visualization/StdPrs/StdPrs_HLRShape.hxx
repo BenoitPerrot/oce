@@ -14,10 +14,10 @@
 #ifndef _StdPrs_HLRFace_H__
 #define _StdPrs_HLRFace_H__
 
-#include <Prs3d_Root.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 // Computes the presentation of objects with

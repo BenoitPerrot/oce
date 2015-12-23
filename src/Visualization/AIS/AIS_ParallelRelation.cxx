@@ -20,8 +20,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Prs3d_Presentation.hxx>
-#include <Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/AIS/AIS_ParallelRelation.hxx>
@@ -49,9 +49,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 
 #include <Visualization/DsgPrs/DsgPrs_LengthPresentation.hxx>
 
-#include <Prs3d_Drawer.hxx>
-#include <Prs3d_ArrowAspect.hxx>
-#include <Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
 
 #include <Visualization/AIS/AIS.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

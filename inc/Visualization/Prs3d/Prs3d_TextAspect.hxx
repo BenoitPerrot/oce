@@ -16,7 +16,7 @@
 #include <Visualization/Graphic3d/Graphic3d_HorizontalTextAlignment.hxx>
 #include <Visualization/Graphic3d/Graphic3d_VerticalTextAlignment.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextPath.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>

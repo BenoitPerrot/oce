@@ -17,7 +17,7 @@
 #include <Select3D_Projector.hxx>
 #include <V3d_View.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <StdSelect.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>

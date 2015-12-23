@@ -16,7 +16,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
-#include <Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Voxel_Prs.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(Voxel_Prs,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Voxel_Prs)
 #include "Voxel_VisData.h"
 
-#include <Prs3d_Root.hxx>
+#include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>

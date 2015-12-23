@@ -14,7 +14,7 @@
 #include <ModelingAlgorithms/Hatch/Hatch_Hatcher.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
@@ -26,7 +26,7 @@
 #include <StdPrs_WFRestrictedFace.hxx>
 #include <StdPrs_ToolRFace.hxx>
 #include <StdPrs_Curve.hxx>
-#include <Prs3d_NListOfSequenceOfPnt.hxx>
+#include <Visualization/Prs3d/Prs3d_NListOfSequenceOfPnt.hxx>
 
 //=========================================================================
 // function: Add

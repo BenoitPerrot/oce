@@ -42,7 +42,7 @@
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <SelectMgr_OrFilter.hxx>
-#include <Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <V3d_View.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -50,8 +50,8 @@
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Prs3d_LineAspect.hxx>
-#include <Prs3d_BasicAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
@@ -87,13 +87,13 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Visualization/AIS/AIS_MapIteratorOfMapOfInteractive.hxx>
 #include <PrsMgr_ModedPresentation.hxx>
 #include <Visual3d_ViewManager.hxx>
-#include <Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
-#include <Prs3d_IsoAspect.hxx>
-#include <Prs3d_DatumAspect.hxx>
-#include <Prs3d_PlaneAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_DatumAspect.hxx>
+#include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
