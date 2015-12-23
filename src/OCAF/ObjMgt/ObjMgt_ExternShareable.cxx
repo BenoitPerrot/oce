@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <PCollection_HAsciiString.hxx>
-#include <ObjMgt_ExternShareable.hxx>
+#include <OCAF/ObjMgt/ObjMgt_ExternShareable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ObjMgt_ExternShareable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

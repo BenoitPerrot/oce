@@ -2,7 +2,7 @@
 #include <ShapeSchema_ObjMgt_ExternRef.hxx>
 #endif
 #ifndef _ObjMgt_ExternRef_HeaderFile
-#include <ObjMgt_ExternRef.hxx>
+#include <OCAF/ObjMgt/ObjMgt_ExternRef.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
 #include <ShapeSchema_PCollection_HAsciiString.hxx>

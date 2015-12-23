@@ -14,7 +14,7 @@
 #include <Handle_PTopoDS_TShape.hxx>
 #include <PTopLoc_Location.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <ObjMgt_ExternShareable.hxx>
+#include <OCAF/ObjMgt/ObjMgt_ExternShareable.hxx>
 class PTopoDS_TShape;
 class PTopLoc_Location;
 

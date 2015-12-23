@@ -2,7 +2,7 @@
 #include <ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 #ifndef _ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
-#include <ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
+#include <OCAF/ObjMgt/ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 #ifndef _ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
 #include <ShapeSchema_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>

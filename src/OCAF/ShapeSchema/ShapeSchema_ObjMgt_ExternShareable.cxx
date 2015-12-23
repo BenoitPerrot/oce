@@ -2,7 +2,7 @@
 #include <ShapeSchema_ObjMgt_ExternShareable.hxx>
 #endif
 #ifndef _ObjMgt_ExternShareable_HeaderFile
-#include <ObjMgt_ExternShareable.hxx>
+#include <OCAF/ObjMgt/ObjMgt_ExternShareable.hxx>
 #endif
 #ifndef _ShapeSchema_PCollection_HAsciiString_HeaderFile
 #include <ShapeSchema_PCollection_HAsciiString.hxx>
