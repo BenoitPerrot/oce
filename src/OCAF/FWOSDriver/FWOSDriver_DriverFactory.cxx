@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>
-#include <FWOSDriver_DriverFactory.hxx>
+#include <OCAF/FWOSDriver/FWOSDriver_DriverFactory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FWOSDriver_DriverFactory)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

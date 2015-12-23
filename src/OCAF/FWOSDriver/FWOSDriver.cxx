@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <FWOSDriver.hxx>
-#include <FWOSDriver_DriverFactory.hxx>
+#include <OCAF/FWOSDriver/FWOSDriver.hxx>
+#include <OCAF/FWOSDriver/FWOSDriver_DriverFactory.hxx>
 
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 
