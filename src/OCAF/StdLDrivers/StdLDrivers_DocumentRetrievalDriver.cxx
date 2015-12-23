@@ -15,7 +15,7 @@
 
 #include <OCAF/MDF/MDF_ARDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <StdLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/StdLDrivers/StdLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
