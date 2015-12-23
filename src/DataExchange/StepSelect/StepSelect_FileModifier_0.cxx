@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepSelect_FileModifier.hxx>
+#include <DataExchange/StepSelect/StepSelect_FileModifier.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_FileModifier)
 #define Writer StepData_StepWriter
 #define Writer_hxx <DataExchange/StepData/StepData_StepWriter.hxx>
 #define IFSelect_FileModifier StepSelect_FileModifier
-#define IFSelect_FileModifier_hxx <StepSelect_FileModifier.hxx>
+#define IFSelect_FileModifier_hxx <DataExchange/StepSelect/StepSelect_FileModifier.hxx>
 #define Handle_IFSelect_FileModifier Handle_StepSelect_FileModifier
 #define IFSelect_FileModifier_Type_() StepSelect_FileModifier_Type_()
 #include <DataExchange/IFSelect/IFSelect_FileModifier.gxx>

@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPControl_Controller)
 IMPLEMENT_DOWNCAST(STEPControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
-#include <StepSelect_WorkLibrary.hxx>
+#include <DataExchange/StepSelect/StepSelect_WorkLibrary.hxx>
 #include <DataExchange/IFSelect/IFSelect_Option.hxx>
 #include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <DataExchange/RWHeaderSection/RWHeaderSection.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
-#include <StepSelect_StepType.hxx>
+#include <DataExchange/StepSelect/StepSelect_StepType.hxx>
 
 //  Pour NewModel et Write : definition de produit (temporaire ...)
 #include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>

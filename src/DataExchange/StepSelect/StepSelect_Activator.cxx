@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
-#include <StepSelect_Activator.hxx>
+#include <DataExchange/StepSelect/StepSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_Activator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_Activator)
 #include <DataExchange/StepData/StepData_Simple.hxx>
 #include <DataExchange/StepData/StepData_Plex.hxx>
 
-#include <StepSelect_FloatFormat.hxx>
+#include <DataExchange/StepSelect/StepSelect_FloatFormat.hxx>
 
 
 static int initActivator = 0;

@@ -22,7 +22,7 @@
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 
-#include <StepSelect_StepType.hxx>
+#include <DataExchange/StepSelect/StepSelect_StepType.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPSelections_SelectDerived.hxx>
 
-#include <StepSelect_StepType.hxx>
+#include <DataExchange/StepSelect/StepSelect_StepType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

@@ -16,7 +16,7 @@
 #include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <StepSelect_StepType.hxx>
+#include <DataExchange/StepSelect/StepSelect_StepType.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_StepType)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

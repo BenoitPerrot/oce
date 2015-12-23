@@ -19,7 +19,7 @@
 #include <DataExchange/STEPControl/STEPControl_Writer.hxx>
 #include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
-#include <StepSelect_Activator.hxx>
+#include <DataExchange/StepSelect/StepSelect_Activator.hxx>
 
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

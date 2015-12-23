@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
-#include <StepSelect_FloatFormat.hxx>
+#include <DataExchange/StepSelect/StepSelect_FloatFormat.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_FloatFormat)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

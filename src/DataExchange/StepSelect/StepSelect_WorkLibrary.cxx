@@ -18,7 +18,7 @@
 #include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <StepSelect_WorkLibrary.hxx>
+#include <DataExchange/StepSelect/StepSelect_WorkLibrary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_WorkLibrary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
-#include <StepSelect_FileModifier.hxx>
+#include <DataExchange/StepSelect/StepSelect_FileModifier.hxx>
 
 #include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 #include <DataExchange/StepData/StepData_StepDumper.hxx>

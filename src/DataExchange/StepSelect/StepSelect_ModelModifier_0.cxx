@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepSelect_ModelModifier.hxx>
+#include <DataExchange/StepSelect/StepSelect_ModelModifier.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_ModelModifier)
 #define Proto StepData_Protocol
 #define Proto_hxx <DataExchange/StepData/StepData_Protocol.hxx>
 #define IFSelect_ModelModifier StepSelect_ModelModifier
-#define IFSelect_ModelModifier_hxx <StepSelect_ModelModifier.hxx>
+#define IFSelect_ModelModifier_hxx <DataExchange/StepSelect/StepSelect_ModelModifier.hxx>
 #define Handle_IFSelect_ModelModifier Handle_StepSelect_ModelModifier
 #define IFSelect_ModelModifier_Type_() StepSelect_ModelModifier_Type_()
 #include <DataExchange/IFSelect/IFSelect_ModelModifier.gxx>
