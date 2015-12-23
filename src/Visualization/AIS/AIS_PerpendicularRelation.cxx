@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <DsgPrs_PerpenPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_PerpenPresentation.hxx>
 
 #include <ElCLib.hxx>
 

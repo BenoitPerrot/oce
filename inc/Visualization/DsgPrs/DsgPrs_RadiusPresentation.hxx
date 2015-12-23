@@ -14,7 +14,7 @@
 #include <Handle_Prs3d_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <DsgPrs_ArrowSide.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 class Prs3d_Presentation;
 class Prs3d_Drawer;
 class TCollection_ExtendedString;

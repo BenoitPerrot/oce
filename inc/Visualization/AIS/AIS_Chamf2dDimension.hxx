@@ -15,7 +15,7 @@
 #include <Visualization/AIS/AIS_Relation.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <DsgPrs_ArrowSide.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 #include <Visualization/AIS/AIS_KindOfDimension.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>

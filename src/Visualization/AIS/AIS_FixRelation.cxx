@@ -87,7 +87,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
-#include <DsgPrs_FixPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_FixPresentation.hxx>
 
 #include <Visualization/AIS/AIS.hxx>
 

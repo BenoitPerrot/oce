@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_Chamf2dDimension)
 IMPLEMENT_DOWNCAST(AIS_Chamf2dDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 
-#include <DsgPrs_Chamf2dPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_Chamf2dPresentation.hxx>
 
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>

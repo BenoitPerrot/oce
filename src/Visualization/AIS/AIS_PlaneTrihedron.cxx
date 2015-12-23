@@ -22,7 +22,7 @@
 // (SAMTECH specific)
 
 #ifdef OCC218
-#include <DsgPrs_XYZAxisPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_XYZAxisPresentation.hxx>
 #include <Visualization/AIS/AIS_Line.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #endif
@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_PlaneTrihedron)
 IMPLEMENT_DOWNCAST(AIS_PlaneTrihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_PlaneTrihedron)
 
-#include <DsgPrs_DatumPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs_DatumPrs.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitivePoint.hxx>

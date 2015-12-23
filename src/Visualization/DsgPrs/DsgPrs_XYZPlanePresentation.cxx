@@ -17,7 +17,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <DsgPrs_XYZPlanePresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_XYZPlanePresentation.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_LineAspect.hxx>

@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
-#include <DsgPrs_IdenticPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_IdenticPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

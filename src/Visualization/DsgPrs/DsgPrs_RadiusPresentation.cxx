@@ -22,7 +22,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <DsgPrs_RadiusPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_RadiusPresentation.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
@@ -42,7 +42,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Aspect/Aspect_AspectMarker.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 #include <Precision.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>

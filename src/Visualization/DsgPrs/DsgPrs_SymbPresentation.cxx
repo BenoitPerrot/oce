@@ -18,7 +18,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <DsgPrs_SymbPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_SymbPresentation.hxx>
 
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>

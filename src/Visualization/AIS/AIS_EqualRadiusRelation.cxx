@@ -41,7 +41,7 @@ IMPLEMENT_DOWNCAST(AIS_EqualRadiusRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 
 #include <Visualization/AIS/AIS.hxx>
-#include <DsgPrs_EqualRadiusPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_EqualRadiusPresentation.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

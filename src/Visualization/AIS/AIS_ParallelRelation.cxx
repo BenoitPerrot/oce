@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <DsgPrs_LengthPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_LengthPresentation.hxx>
 
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_ArrowAspect.hxx>

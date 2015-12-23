@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_Trihedron)
 IMPLEMENT_DOWNCAST(AIS_Trihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
-#include <DsgPrs_DatumPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs_DatumPrs.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>

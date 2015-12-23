@@ -18,7 +18,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <DsgPrs_TangentPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_TangentPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/AIS/AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <DsgPrs_ArrowSide.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

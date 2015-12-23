@@ -20,9 +20,9 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <DsgPrs_EqualDistancePresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_EqualDistancePresentation.hxx>
 
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_LineAspect.hxx>

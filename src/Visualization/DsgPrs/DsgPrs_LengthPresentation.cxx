@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <DsgPrs_LengthPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_LengthPresentation.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElCLib.hxx>
@@ -42,7 +42,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Aspect/Aspect_AspectMarker.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 

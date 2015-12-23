@@ -42,10 +42,10 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_EqualDistanceRelation)
 IMPLEMENT_DOWNCAST(AIS_EqualDistanceRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 
-#include <DsgPrs_EqualDistancePresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_EqualDistancePresentation.hxx>
 #include <Visualization/AIS/AIS_LengthDimension.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <DsgPrs_EqualDistancePresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_EqualDistancePresentation.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveBox.hxx>

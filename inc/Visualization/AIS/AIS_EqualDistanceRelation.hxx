@@ -23,7 +23,7 @@
 #include <Handle_AIS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <DsgPrs_ArrowSide.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 #include <Visualization/AIS/AIS_TypeOfDist.hxx>
 class TopoDS_Shape;
 class Geom_Plane;

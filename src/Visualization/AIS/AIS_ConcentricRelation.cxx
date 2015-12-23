@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 #include <Select3D_SensitiveCircle.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 
-#include <DsgPrs_ConcentricPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ConcentricPresentation.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 

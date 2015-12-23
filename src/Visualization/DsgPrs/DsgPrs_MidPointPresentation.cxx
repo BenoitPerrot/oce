@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
-#include <DsgPrs_MidPointPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_MidPointPresentation.hxx>
 
 #include <Precision.hxx>
 

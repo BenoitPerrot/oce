@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_TangentRelation)
 IMPLEMENT_DOWNCAST(AIS_TangentRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
-#include <DsgPrs_TangentPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_TangentPresentation.hxx>
 
 #include <Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_EntityOwner.hxx>

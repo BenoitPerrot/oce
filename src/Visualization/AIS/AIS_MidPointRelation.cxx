@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 
-#include <DsgPrs_MidPointPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_MidPointPresentation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 //=======================================================================

@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <DsgPrs_ParalPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ParalPresentation.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElCLib.hxx>
@@ -33,7 +33,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_Text.hxx>
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 
 void DsgPrs_ParalPresentation::Add (const Handle(Prs3d_Presentation)& aPresentation,
 				    const Handle(Prs3d_Drawer)& aDrawer,

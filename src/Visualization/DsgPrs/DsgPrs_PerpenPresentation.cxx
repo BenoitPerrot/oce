@@ -17,7 +17,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <DsgPrs_PerpenPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_PerpenPresentation.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

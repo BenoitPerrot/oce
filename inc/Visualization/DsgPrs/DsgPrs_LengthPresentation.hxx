@@ -12,7 +12,7 @@
 
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
-#include <DsgPrs_ArrowSide.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 #include <Handle_Geom_Surface.hxx>
 class Prs3d_Presentation;
 class Prs3d_Drawer;

@@ -18,7 +18,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <DsgPrs_ConcentricPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ConcentricPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>

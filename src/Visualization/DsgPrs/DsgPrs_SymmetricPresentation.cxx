@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <DsgPrs_SymmetricPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_SymmetricPresentation.hxx>
 
 #include <Precision.hxx>
 

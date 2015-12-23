@@ -12,7 +12,7 @@
 
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Prs3d_Drawer.hxx>
-#include <DsgPrs_ArrowSide.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Prs3d_Presentation;

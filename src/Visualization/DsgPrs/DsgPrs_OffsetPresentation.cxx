@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <DsgPrs_OffsetPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_OffsetPresentation.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

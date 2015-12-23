@@ -18,9 +18,9 @@
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <DsgPrs_EqualRadiusPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_EqualRadiusPresentation.hxx>
 
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_LineAspect.hxx>

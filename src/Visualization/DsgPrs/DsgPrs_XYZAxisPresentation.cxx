@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_TextAspect.hxx>
-#include <DsgPrs_XYZAxisPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_XYZAxisPresentation.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Graphic3d_Group.hxx>

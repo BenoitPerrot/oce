@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <DsgPrs_IdenticPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_IdenticPresentation.hxx>
 
 #include <ElCLib.hxx>
 

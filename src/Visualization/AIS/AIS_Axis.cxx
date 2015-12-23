@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Axis)
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
-#include <DsgPrs_XYZAxisPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_XYZAxisPresentation.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 //=======================================================================

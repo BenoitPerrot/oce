@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <DsgPrs_AnglePresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_AnglePresentation.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElCLib.hxx>
@@ -44,7 +44,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Aspect/Aspect_AspectMarker.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 #include <Precision.hxx>
 
 #include <Geometry/Geom/Geom_Circle.hxx>

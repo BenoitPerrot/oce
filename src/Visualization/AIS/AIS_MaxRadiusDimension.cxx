@@ -84,7 +84,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
 #include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <Precision.hxx>
-#include <DsgPrs_EllipseRadiusPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_EllipseRadiusPresentation.hxx>
 
 //=======================================================================
 //function : AIS_MaxRadiusDimension

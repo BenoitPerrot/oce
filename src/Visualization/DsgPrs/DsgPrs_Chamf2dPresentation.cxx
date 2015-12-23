@@ -18,7 +18,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <DsgPrs_Chamf2dPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_Chamf2dPresentation.hxx>
 
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
@@ -31,7 +31,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 
 void DsgPrs_Chamf2dPresentation::Add(
 			   const Handle(Prs3d_Presentation)& aPresentation,

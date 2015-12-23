@@ -66,8 +66,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 
-#include <DsgPrs_XYZPlanePresentation.hxx>
-#include <DsgPrs_ShadedPlanePresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_XYZPlanePresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ShadedPlanePresentation.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <Select3D_SensitiveTriangulation.hxx>

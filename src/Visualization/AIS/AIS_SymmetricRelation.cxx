@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 
-#include <DsgPrs_SymmetricPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_SymmetricPresentation.hxx>
 
 //=======================================================================
 //function : AIS_SymmetricRelation

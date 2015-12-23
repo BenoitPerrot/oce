@@ -22,7 +22,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <DsgPrs_DiameterPresentation.hxx>
+#include <Visualization/DsgPrs/DsgPrs_DiameterPresentation.hxx>
 
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_TextAspect.hxx>
@@ -47,7 +47,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Aspect/Aspect_AspectMarker.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <DsgPrs.hxx>
+#include <Visualization/DsgPrs/DsgPrs.hxx>
 
 //==========================================================================
 // function : DsgPrs_DiameterPresentation::Add

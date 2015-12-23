@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <DsgPrs_ArrowSide.hxx>
+#include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Handle_Geom_Surface.hxx>
