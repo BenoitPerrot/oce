@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <XmlTObjDrivers_IntSparseArrayDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_IntSparseArrayDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>

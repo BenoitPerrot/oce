@@ -16,15 +16,15 @@
 // The original implementation Copyright: (C) RINA S.p.A
 
 #include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
-#include <XmlTObjDrivers.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
-#include <XmlTObjDrivers_DocumentStorageDriver.hxx>
-#include <XmlTObjDrivers_DocumentRetrievalDriver.hxx>
-#include <XmlTObjDrivers_ModelDriver.hxx>
-#include <XmlTObjDrivers_ObjectDriver.hxx>
-#include <XmlTObjDrivers_ReferenceDriver.hxx>
-#include <XmlTObjDrivers_XYZDriver.hxx>
-#include <XmlTObjDrivers_IntSparseArrayDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_ModelDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_ObjectDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_ReferenceDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_XYZDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_IntSparseArrayDriver.hxx>
 
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 

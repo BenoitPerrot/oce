@@ -16,7 +16,7 @@
 // The original implementation Copyright: (C) RINA S.p.A
 
 
-#include <XmlTObjDrivers_XYZDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_XYZDriver.hxx>
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>

@@ -15,9 +15,9 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <XmlTObjDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers_DocumentRetrievalDriver.hxx>
 #include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
-#include <XmlTObjDrivers.hxx>
+#include <OCAF/XmlTObjDrivers/XmlTObjDrivers.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (XmlTObjDrivers_DocumentRetrievalDriver,
                            XmlLDrivers_DocumentRetrievalDriver)
