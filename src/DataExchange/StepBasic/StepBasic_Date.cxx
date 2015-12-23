@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_Date.hxx>
+#include <DataExchange/StepBasic/StepBasic_Date.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_Date)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

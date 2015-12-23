@@ -17,7 +17,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_CharacterizedObject.hxx>
+#include <DataExchange/StepBasic/StepBasic_CharacterizedObject.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWCharacterizedObject.hxx>

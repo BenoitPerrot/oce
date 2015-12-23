@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_HArray1OfPerson.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfPerson.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_Person.hxx>
-#include <StepBasic_PersonalAddress.hxx>
+#include <DataExchange/StepBasic/StepBasic_Person.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonalAddress.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_PersonalAddress)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

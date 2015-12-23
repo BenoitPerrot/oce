@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 
 #include <Handle_StepAP203_HArray1OfPersonOrganizationItem.hxx>
-#include <StepBasic_PersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationAssignment.hxx>
 #include <Handle_StepBasic_PersonAndOrganization.hxx>
 #include <Handle_StepBasic_PersonAndOrganizationRole.hxx>
 class StepAP203_HArray1OfPersonOrganizationItem;

@@ -13,32 +13,32 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_ProductRelatedProductCategory.hxx>
-#include <StepBasic_DocumentType.hxx>
-#include <StepBasic_ProductDefinitionContext.hxx>
-#include <StepBasic_ProductContext.hxx>
-#include <StepBasic_ApplicationProtocolDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentType.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>
-#include <StepBasic_DocumentFile.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 #include <StepData_SelectNamed.hxx>
 
-#include <StepBasic_RoleAssociation.hxx>
-#include <StepBasic_DocumentRepresentationType.hxx>
-#include <StepBasic_DocumentRepresentationType.hxx>
-#include <StepBasic_DocumentFile.hxx>
-#include <StepBasic_ObjectRole.hxx>
-#include <StepBasic_SourceItem.hxx>
-#include <StepBasic_DocumentType.hxx>
-#include <StepBasic_IdentificationRole.hxx>
-#include <StepBasic_ExternalSource.hxx>
-#include <StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_RoleAssociation.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentRepresentationType.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentRepresentationType.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
+#include <DataExchange/StepBasic/StepBasic_ObjectRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_SourceItem.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentType.hxx>
+#include <DataExchange/StepBasic/StepBasic_IdentificationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
@@ -55,13 +55,13 @@
 #include <DataExchange/StepAP214/StepAP214_HArray1OfExternalIdentificationItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfDocumentReferenceItem.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepBasic_ProductDefinitionContext.hxx>
-#include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_HArray1OfDocument.hxx>
-#include <StepBasic_HArray1OfProductContext.hxx>
-#include <StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfDocument.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_RepresentedDefinition.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -75,12 +75,12 @@
 #include <DataExchange/StepAP203/StepAP203_CcDesignApproval.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfApprovedItem.hxx>
 #include <DataExchange/StepAP203/StepAP203_ApprovedItem.hxx>
-#include <StepBasic_DocumentProductEquivalence.hxx>
-#include <StepBasic_DocumentType.hxx>
-#include <StepBasic_HArray1OfProduct.hxx>
-#include <StepBasic_Document.hxx>
-#include <StepBasic_ProductOrFormationOrDefinition.hxx>
-#include <StepBasic_ProductRelatedProductCategory.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentProductEquivalence.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentType.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductOrFormationOrDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
 
 
 //=======================================================================

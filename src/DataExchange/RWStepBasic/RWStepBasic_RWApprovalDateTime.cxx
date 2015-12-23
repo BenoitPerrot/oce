@@ -13,18 +13,18 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ApprovalDateTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalDateTime.hxx>
-#include <StepBasic_DateTimeSelect.hxx>
-#include <StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ApprovalDateTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
 
 
 RWStepBasic_RWApprovalDateTime::RWStepBasic_RWApprovalDateTime () {}

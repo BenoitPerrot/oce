@@ -14,8 +14,8 @@
 #include <StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_HArray1OfNamedUnit.hxx>
-#include <StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext)

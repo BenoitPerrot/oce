@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepShape_HArray1OfValueQualifier.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_MeasureQualification.hxx>

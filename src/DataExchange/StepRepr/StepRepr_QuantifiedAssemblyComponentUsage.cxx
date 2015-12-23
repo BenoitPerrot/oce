@@ -15,9 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <StepRepr_QuantifiedAssemblyComponentUsage.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_QuantifiedAssemblyComponentUsage)

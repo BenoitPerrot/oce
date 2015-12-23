@@ -16,8 +16,8 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_Document.hxx>
-#include <StepBasic_DocumentRepresentationType.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentRepresentationType.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentRepresentationType)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

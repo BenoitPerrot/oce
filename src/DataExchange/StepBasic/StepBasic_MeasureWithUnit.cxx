@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_MeasureValueMember.hxx>
-#include <StepBasic_Unit.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_Unit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_MeasureWithUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

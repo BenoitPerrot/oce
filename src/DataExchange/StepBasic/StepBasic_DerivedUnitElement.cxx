@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DerivedUnitElement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

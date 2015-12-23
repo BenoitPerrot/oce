@@ -13,7 +13,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWApplicationContext.hxx>
 

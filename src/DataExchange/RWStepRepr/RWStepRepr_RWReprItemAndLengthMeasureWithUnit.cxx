@@ -17,9 +17,9 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWReprItemAndLengthMeasureWithUnit.hxx>
 
-#include <StepBasic_MeasureValueMember.hxx>
-#include <StepBasic_Unit.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_Unit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 
 
 //=======================================================================

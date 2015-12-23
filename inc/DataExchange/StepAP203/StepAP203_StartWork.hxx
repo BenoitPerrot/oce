@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_StartWork.hxx>
 
 #include <Handle_StepAP203_HArray1OfWorkItem.hxx>
-#include <StepBasic_ActionAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionAssignment.hxx>
 #include <Handle_StepBasic_Action.hxx>
 class StepAP203_HArray1OfWorkItem;
 class StepBasic_Action;

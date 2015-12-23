@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_HArray1OfApproval.hxx>
-#include <StepBasic_SecurityClassification.hxx>
-#include <StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfApproval.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_AutoDesignSecurityClassificationAssignment)

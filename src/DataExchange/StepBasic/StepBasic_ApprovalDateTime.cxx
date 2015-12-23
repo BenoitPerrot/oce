@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_Approval.hxx>
-#include <StepBasic_DateTimeSelect.hxx>
-#include <StepBasic_ApprovalDateTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ApprovalDateTime)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

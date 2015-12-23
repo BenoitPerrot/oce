@@ -17,9 +17,9 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
-#include <StepBasic_HArray1OfApproval.hxx>
-#include <StepBasic_Approval.hxx>
-#include <StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfApproval.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

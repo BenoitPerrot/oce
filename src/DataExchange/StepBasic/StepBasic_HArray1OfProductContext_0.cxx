@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_HArray1OfProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepBasic_ProductContext.hxx>
-#include <StepBasic_Array1OfProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_Array1OfProductContext.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepBasic_HArray1OfProductContext)
 
 
 #define ItemHArray1 Handle(StepBasic_ProductContext)
-#define ItemHArray1_hxx <StepBasic_ProductContext.hxx>
+#define ItemHArray1_hxx <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
 #define TheArray1 StepBasic_Array1OfProductContext
-#define TheArray1_hxx <StepBasic_Array1OfProductContext.hxx>
+#define TheArray1_hxx <DataExchange/StepBasic/StepBasic_Array1OfProductContext.hxx>
 #define TCollection_HArray1 StepBasic_HArray1OfProductContext
-#define TCollection_HArray1_hxx <StepBasic_HArray1OfProductContext.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
 #define Handle_TCollection_HArray1 Handle_StepBasic_HArray1OfProductContext
 #define TCollection_HArray1_Type_() StepBasic_HArray1OfProductContext_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

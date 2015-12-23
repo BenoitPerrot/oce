@@ -19,8 +19,8 @@
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignNominalDateAndTimeAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignDateAndTimeItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndTimeItem.hxx>
-#include <StepBasic_DateAndTime.hxx>
-#include <StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

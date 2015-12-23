@@ -13,7 +13,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_DocumentUsageConstraint.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentUsageConstraint.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentUsageConstraint.hxx>
@@ -21,7 +21,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 

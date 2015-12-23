@@ -22,11 +22,11 @@
 #include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
 #include <DataExchange/StepAP203/StepAP203_StartRequest.hxx>
 #include <StepRepr_ConfigurationItem.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_Contract.hxx>
-#include <StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_Contract.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepAP203/StepAP203_PersonOrganizationItem.hxx>
 
 //=======================================================================

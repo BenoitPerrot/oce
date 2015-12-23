@@ -17,7 +17,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
 #include <DataExchange/StepAP203/StepAP203_HArray1OfContractedItem.hxx>
-#include <StepBasic_Contract.hxx>
+#include <DataExchange/StepBasic/StepBasic_Contract.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignContract.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignContract)

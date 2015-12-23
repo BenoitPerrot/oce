@@ -13,18 +13,18 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ProductType.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductType.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductType.hxx>
-#include <StepBasic_HArray1OfProduct.hxx>
-#include <StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ProductType.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductType.hxx>
 
 
 RWStepBasic_RWProductType::RWStepBasic_RWProductType () {}

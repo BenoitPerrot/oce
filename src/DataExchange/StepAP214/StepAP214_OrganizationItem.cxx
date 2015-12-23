@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedOrganizationAssignment.hxx>
-#include <StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
 #include <DataExchange/StepAP214/StepAP214_OrganizationItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

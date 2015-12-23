@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_HArray1OfDerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfDerivedUnitElement.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepBasic_DerivedUnitElement.hxx>
-#include <StepBasic_Array1OfDerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_Array1OfDerivedUnitElement.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepBasic_HArray1OfDerivedUnitElement)
 
 
 #define ItemHArray1 Handle(StepBasic_DerivedUnitElement)
-#define ItemHArray1_hxx <StepBasic_DerivedUnitElement.hxx>
+#define ItemHArray1_hxx <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
 #define TheArray1 StepBasic_Array1OfDerivedUnitElement
-#define TheArray1_hxx <StepBasic_Array1OfDerivedUnitElement.hxx>
+#define TheArray1_hxx <DataExchange/StepBasic/StepBasic_Array1OfDerivedUnitElement.hxx>
 #define TCollection_HArray1 StepBasic_HArray1OfDerivedUnitElement
-#define TCollection_HArray1_hxx <StepBasic_HArray1OfDerivedUnitElement.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepBasic/StepBasic_HArray1OfDerivedUnitElement.hxx>
 #define Handle_TCollection_HArray1 Handle_StepBasic_HArray1OfDerivedUnitElement
 #define TCollection_HArray1_Type_() StepBasic_HArray1OfDerivedUnitElement_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

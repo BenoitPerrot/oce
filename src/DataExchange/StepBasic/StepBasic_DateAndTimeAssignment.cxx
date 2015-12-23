@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_DateAndTime.hxx>
-#include <StepBasic_DateTimeRole.hxx>
-#include <StepBasic_DateAndTimeAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTimeAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DateAndTimeAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

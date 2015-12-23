@@ -13,17 +13,17 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_PlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_PlaneAngleUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPlaneAngleUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_PlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_PlaneAngleUnit.hxx>
 
 
 RWStepBasic_RWPlaneAngleUnit::RWStepBasic_RWPlaneAngleUnit () {}

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey Handle(StepBasic_ProductDefinition)
-#define TheKey_hxx <StepBasic_ProductDefinition.hxx>
+#define TheKey_hxx <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
 #define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
 #define Hasher TColStd_MapTransientHasher

@@ -18,7 +18,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignDocumentReference.hxx>
 
-#include <StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignReferencingItem.hxx>

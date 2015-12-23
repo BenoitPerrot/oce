@@ -15,9 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_ObjectRole.hxx>
-#include <StepBasic_RoleSelect.hxx>
-#include <StepBasic_RoleAssociation.hxx>
+#include <DataExchange/StepBasic/StepBasic_ObjectRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_RoleSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_RoleAssociation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_RoleAssociation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -19,7 +19,7 @@
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedApprovalAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfApprovalItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
-#include <StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

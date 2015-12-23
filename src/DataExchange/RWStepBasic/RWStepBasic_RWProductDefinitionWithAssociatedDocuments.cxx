@@ -13,20 +13,20 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionWithAssociatedDocuments.hxx>
-#include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
-#include <StepBasic_ProductDefinitionContext.hxx>
-#include <StepBasic_HArray1OfDocument.hxx>
-#include <StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfDocument.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 
 
 RWStepBasic_RWProductDefinitionWithAssociatedDocuments::RWStepBasic_RWProductDefinitionWithAssociatedDocuments () {}

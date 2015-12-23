@@ -13,18 +13,18 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPersonAndOrganization.hxx>
-#include <StepBasic_Person.hxx>
-#include <StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_Person.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
 
 
 RWStepBasic_RWPersonAndOrganization::RWStepBasic_RWPersonAndOrganization () {}

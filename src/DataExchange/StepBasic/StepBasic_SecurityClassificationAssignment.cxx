@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_SecurityClassification.hxx>
-#include <StepBasic_SecurityClassificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_SecurityClassificationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

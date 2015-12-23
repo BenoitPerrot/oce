@@ -13,14 +13,14 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_SiUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndSolidAngleUnit.hxx>
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_SolidAngleUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_SiPrefix.hxx>
-#include <StepBasic_SiUnitName.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiPrefix.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitName.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 
 

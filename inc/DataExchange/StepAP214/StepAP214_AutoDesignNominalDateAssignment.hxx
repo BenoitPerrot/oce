@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AutoDesignNominalDateAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignDatedItem.hxx>
-#include <StepBasic_DateAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAssignment.hxx>
 #include <Handle_StepBasic_Date.hxx>
 #include <Handle_StepBasic_DateRole.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

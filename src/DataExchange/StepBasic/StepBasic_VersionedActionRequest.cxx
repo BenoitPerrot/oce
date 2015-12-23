@@ -17,7 +17,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_VersionedActionRequest.hxx>
+#include <DataExchange/StepBasic/StepBasic_VersionedActionRequest.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_VersionedActionRequest)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

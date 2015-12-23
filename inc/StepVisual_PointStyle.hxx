@@ -12,7 +12,7 @@
 
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <StepVisual_MarkerSelect.hxx>
-#include <StepBasic_SizeSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
 #include <Handle_StepVisual_Colour.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;

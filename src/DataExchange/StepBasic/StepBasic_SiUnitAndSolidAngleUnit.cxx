@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_SolidAngleUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_SiUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_SiUnitAndSolidAngleUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,8 +25,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepBasic_SiUnitAndSolidAngleUnit)
 IMPLEMENT_DOWNCAST(StepBasic_SiUnitAndSolidAngleUnit,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepBasic_SiUnitAndSolidAngleUnit)
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
 
 
 StepBasic_SiUnitAndSolidAngleUnit::StepBasic_SiUnitAndSolidAngleUnit ()

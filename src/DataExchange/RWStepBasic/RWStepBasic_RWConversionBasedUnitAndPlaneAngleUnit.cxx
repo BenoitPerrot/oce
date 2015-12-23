@@ -14,20 +14,20 @@
 // sln 09.10.2001. BUC61003. Correction of looking for items of complex entity in case of them  do not saticfy to alphabetical order
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit.hxx>
-#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_PlaneAngleUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_PlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
 
 
 RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit::RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit () {}

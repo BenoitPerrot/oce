@@ -77,14 +77,14 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <StepShape_BrepWithVoids.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <StepBasic_HArray1OfProduct.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepShape_AdvancedBrepShapeRepresentation.hxx>
 #include <StepShape_FacetedBrepShapeRepresentation.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
 #include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
-#include <StepBasic_ApplicationProtocolDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

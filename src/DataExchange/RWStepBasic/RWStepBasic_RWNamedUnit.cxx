@@ -13,17 +13,17 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWNamedUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 
 
 RWStepBasic_RWNamedUnit::RWStepBasic_RWNamedUnit () {}

@@ -13,17 +13,17 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepRepr_AssemblyComponentUsageSubstitute.hxx>
-#include <StepBasic_DocumentFile.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
 #include <StepRepr_MaterialDesignation.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
 #include <StepVisual_PresentationArea.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
-#include <StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_ApplicationContext.hxx>
-#include <StepBasic_ApplicationContextElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContextElement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ApplicationContextElement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

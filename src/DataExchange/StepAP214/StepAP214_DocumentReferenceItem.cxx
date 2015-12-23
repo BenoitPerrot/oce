@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
 #include <StepRepr_DescriptiveRepresentationItem.hxx>
 #include <StepRepr_MaterialDesignation.hxx>
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepRepr_ShapeAspect.hxx>

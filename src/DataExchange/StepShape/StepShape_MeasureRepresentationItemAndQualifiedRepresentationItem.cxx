@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepShape_HArray1OfValueQualifier.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
-#include <StepBasic_Unit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_Unit.hxx>
 #include <StepShape_ValueQualifier.hxx>
 #include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

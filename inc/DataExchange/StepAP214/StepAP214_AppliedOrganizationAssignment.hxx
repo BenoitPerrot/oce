@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AppliedOrganizationAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfOrganizationItem.hxx>
-#include <StepBasic_OrganizationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationAssignment.hxx>
 #include <Handle_StepBasic_Organization.hxx>
 #include <Handle_StepBasic_OrganizationRole.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

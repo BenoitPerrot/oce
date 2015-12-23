@@ -19,10 +19,10 @@
 #include <DataExchange/RWStepGeom/RWStepGeom_RWGeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
-#include <StepBasic_HArray1OfNamedUnit.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
-#include <StepBasic_UncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

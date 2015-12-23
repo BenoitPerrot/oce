@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_MassUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_SiUnitAndMassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndMassUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_SiUnitAndMassUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,8 +25,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepBasic_SiUnitAndMassUnit)
 IMPLEMENT_DOWNCAST(StepBasic_SiUnitAndMassUnit,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepBasic_SiUnitAndMassUnit)
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_MassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MassUnit.hxx>
 
 
 //=======================================================================

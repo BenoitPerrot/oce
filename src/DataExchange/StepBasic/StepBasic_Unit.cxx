@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_DerivedUnit.hxx>
-#include <StepBasic_Unit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_Unit.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_DerivedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
 
 //=======================================================================
 //function : StepBasic_Unit

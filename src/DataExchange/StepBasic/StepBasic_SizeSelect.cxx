@@ -13,8 +13,8 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
-#include <StepBasic_SizeSelect.hxx>
-#include <StepBasic_SizeMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_SizeMember.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 

@@ -14,20 +14,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_Approval.hxx>
-#include <StepBasic_DateAndTime.hxx>
-#include <StepBasic_PersonAndOrganization.hxx>
-#include <StepBasic_SecurityClassificationLevel.hxx>
-#include <StepBasic_PersonAndOrganizationRole.hxx>
-#include <StepBasic_DateTimeRole.hxx>
-#include <StepBasic_ApprovalRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationLevel.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalRole.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignSecurityClassification.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignDateAndTimeAssignment.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignApproval.hxx>
-#include <StepBasic_ApprovalPersonOrganization.hxx>
-#include <StepBasic_ApprovalDateTime.hxx>
-#include <StepBasic_ProductCategoryRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductCategoryRelationship.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <STEPConstruct_Part.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
@@ -49,19 +49,19 @@
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
-#include <StepBasic_CalendarDate.hxx>
-#include <StepBasic_LocalTime.hxx>
-#include <StepBasic_ApprovalStatus.hxx>
-#include <StepBasic_CoordinatedUniversalTimeOffset.hxx>
-#include <StepBasic_AheadOrBehind.hxx>
-#include <StepBasic_Person.hxx>
-#include <StepBasic_Organization.hxx>
-#include <StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_CalendarDate.hxx>
+#include <DataExchange/StepBasic/StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalStatus.hxx>
+#include <DataExchange/StepBasic/StepBasic_CoordinatedUniversalTimeOffset.hxx>
+#include <DataExchange/StepBasic/StepBasic_AheadOrBehind.hxx>
+#include <DataExchange/StepBasic/StepBasic_Person.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfPersonOrganizationItem.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfClassifiedItem.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfDateTimeItem.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfApprovedItem.hxx>
-#include <StepBasic_ProductCategory.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductCategory.hxx>
 
 #if defined(__BORLANDC__) || (defined(_MSC_VER) && _MSC_VER >= 1900)
 # define timezone _timezone

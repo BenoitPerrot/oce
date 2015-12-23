@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepBasic_MassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MassUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_MassUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

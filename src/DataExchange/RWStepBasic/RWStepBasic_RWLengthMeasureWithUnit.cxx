@@ -13,19 +13,19 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_LengthMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWLengthMeasureWithUnit.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_LengthMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWLengthMeasureWithUnit

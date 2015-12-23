@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_HArray1OfNamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_GlobalUnitAssignedContext)

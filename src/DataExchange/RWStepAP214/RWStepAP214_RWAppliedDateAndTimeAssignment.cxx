@@ -20,8 +20,8 @@
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedDateAndTimeAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfDateAndTimeItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_DateAndTimeItem.hxx>
-#include <StepBasic_DateAndTime.hxx>
-#include <StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

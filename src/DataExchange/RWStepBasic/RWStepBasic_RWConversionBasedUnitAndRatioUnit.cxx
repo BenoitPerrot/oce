@@ -13,20 +13,20 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ConversionBasedUnitAndRatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndRatioUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndRatioUnit.hxx>
-#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_RatioUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_RatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ConversionBasedUnitAndRatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndRatioUnit.hxx>
 
 
 RWStepBasic_RWConversionBasedUnitAndRatioUnit::RWStepBasic_RWConversionBasedUnitAndRatioUnit () {}

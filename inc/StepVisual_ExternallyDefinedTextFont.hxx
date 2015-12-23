@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_ExternallyDefinedTextFont.hxx>
 
-#include <StepBasic_ExternallyDefinedItem.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternallyDefinedItem.hxx>
 
 
 //! Representation of STEP entity ExternallyDefinedTextFont

@@ -16,8 +16,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepBasic_Contract.hxx>
-#include <StepBasic_ContractAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_Contract.hxx>
+#include <DataExchange/StepBasic/StepBasic_ContractAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ContractAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

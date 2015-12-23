@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AutoDesignDocumentReference.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
-#include <StepBasic_DocumentReference.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentReference.hxx>
 #include <Handle_StepBasic_Document.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

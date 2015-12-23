@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_SolidAngleUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ConversionBasedUnitAndSolidAngleUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepBasic_ConversionBasedUnitAndSolidAngleUnit)
 IMPLEMENT_DOWNCAST(StepBasic_ConversionBasedUnitAndSolidAngleUnit,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepBasic_ConversionBasedUnitAndSolidAngleUnit)
-#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
 
 
 StepBasic_ConversionBasedUnitAndSolidAngleUnit::StepBasic_ConversionBasedUnitAndSolidAngleUnit ()

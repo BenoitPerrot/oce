@@ -13,19 +13,19 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_PlaneAngleMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_PlaneAngleMeasureWithUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPlaneAngleMeasureWithUnit.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_PlaneAngleMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_PlaneAngleMeasureWithUnit.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWPlaneAngleMeasureWithUnit

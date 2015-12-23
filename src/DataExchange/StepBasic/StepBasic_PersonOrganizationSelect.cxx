@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepBasic_Person.hxx>
-#include <StepBasic_Organization.hxx>
-#include <StepBasic_PersonAndOrganization.hxx>
-#include <StepBasic_PersonOrganizationSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_Person.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonOrganizationSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepBasic_PersonOrganizationSelect::StepBasic_PersonOrganizationSelect () {  }

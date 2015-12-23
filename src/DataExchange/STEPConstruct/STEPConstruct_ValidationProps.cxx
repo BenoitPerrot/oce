@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepRepr_RepresentationItem.hxx>
@@ -58,14 +58,14 @@
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
-#include <StepBasic_SiUnitAndLengthUnit.hxx>
-#include <StepBasic_DerivedUnitElement.hxx>
-#include <StepBasic_HArray1OfDerivedUnitElement.hxx>
-#include <StepBasic_DerivedUnit.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
-#include <StepBasic_Unit.hxx>
-#include <StepBasic_SiUnitAndAreaUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndLengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfDerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_Unit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndAreaUnit.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
 #include <STEPConstruct.hxx>

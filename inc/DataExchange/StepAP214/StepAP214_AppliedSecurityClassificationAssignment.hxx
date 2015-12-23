@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AppliedSecurityClassificationAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfSecurityClassificationItem.hxx>
-#include <StepBasic_SecurityClassificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationAssignment.hxx>
 #include <Handle_StepBasic_SecurityClassification.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfSecurityClassificationItem;

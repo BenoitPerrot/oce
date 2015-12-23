@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_ChangeRequest.hxx>
 
 #include <Handle_StepAP203_HArray1OfChangeRequestItem.hxx>
-#include <StepBasic_ActionRequestAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionRequestAssignment.hxx>
 #include <Handle_StepBasic_VersionedActionRequest.hxx>
 class StepAP203_HArray1OfChangeRequestItem;
 class StepBasic_VersionedActionRequest;

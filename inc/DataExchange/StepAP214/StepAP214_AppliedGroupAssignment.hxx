@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AppliedGroupAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfGroupItem.hxx>
-#include <StepBasic_GroupAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_GroupAssignment.hxx>
 #include <Handle_StepBasic_Group.hxx>
 class StepAP214_HArray1OfGroupItem;
 class StepBasic_Group;

@@ -15,8 +15,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_SourceItem.hxx>
-#include <StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_SourceItem.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ExternalSource)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

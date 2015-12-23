@@ -16,9 +16,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepBasic_ActionMethod.hxx>
-#include <StepBasic_VersionedActionRequest.hxx>
-#include <StepBasic_ActionRequestSolution.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionMethod.hxx>
+#include <DataExchange/StepBasic/StepBasic_VersionedActionRequest.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionRequestSolution.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ActionRequestSolution)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

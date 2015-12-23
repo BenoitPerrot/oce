@@ -13,11 +13,11 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
 
 
 // --- Enum : SiPrefix ---

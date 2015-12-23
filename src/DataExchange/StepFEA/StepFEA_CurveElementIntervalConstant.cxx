@@ -17,7 +17,7 @@
 
 #include <StepElement_CurveElementSectionDefinition.hxx>
 #include <StepFEA_CurveElementLocation.hxx>
-#include <StepBasic_EulerAngles.hxx>
+#include <DataExchange/StepBasic/StepBasic_EulerAngles.hxx>
 #include <StepFEA_CurveElementIntervalConstant.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_CurveElementIntervalConstant)

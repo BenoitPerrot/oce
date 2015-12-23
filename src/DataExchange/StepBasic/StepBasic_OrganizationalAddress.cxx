@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_HArray1OfOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfOrganization.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_Organization.hxx>
-#include <StepBasic_OrganizationalAddress.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationalAddress.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_OrganizationalAddress)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

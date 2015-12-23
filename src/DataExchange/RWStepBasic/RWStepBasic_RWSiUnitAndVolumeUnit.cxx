@@ -16,10 +16,10 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_SiUnitAndVolumeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndVolumeUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndVolumeUnit.hxx>
-#include <StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 
 RWStepBasic_RWSiUnitAndVolumeUnit::RWStepBasic_RWSiUnitAndVolumeUnit()

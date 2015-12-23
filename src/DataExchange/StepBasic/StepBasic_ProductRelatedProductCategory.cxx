@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_HArray1OfProduct.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductRelatedProductCategory.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ProductRelatedProductCategory)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

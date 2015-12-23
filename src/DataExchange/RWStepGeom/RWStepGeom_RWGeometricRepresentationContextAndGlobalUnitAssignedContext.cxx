@@ -19,8 +19,8 @@
 #include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <StepGeom_GeometricRepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
-#include <StepBasic_HArray1OfNamedUnit.hxx>
-#include <StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

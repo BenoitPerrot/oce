@@ -17,8 +17,8 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
 #include <DataExchange/StepAP203/StepAP203_HArray1OfDateTimeItem.hxx>
-#include <StepBasic_DateAndTime.hxx>
-#include <StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignDateAndTimeAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignDateAndTimeAssignment)

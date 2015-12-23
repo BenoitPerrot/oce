@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepAP214/StepAP214_HArray1OfSecurityClassificationItem.hxx>
-#include <StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepAP214/StepAP214_SecurityClassificationItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedSecurityClassificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

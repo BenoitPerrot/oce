@@ -15,9 +15,9 @@
 #include <Handle_Interface_Check.hxx>
 #include <Handle_StepBasic_SiUnit.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <StepBasic_SiPrefix.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiPrefix.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <StepBasic_SiUnitName.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitName.hxx>
 class StepData_StepReaderData;
 class Interface_Check;
 class StepBasic_SiUnit;

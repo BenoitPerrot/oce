@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_Array1OfOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_Array1OfOrganization.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
  
 
 #define Array1Item Handle(StepBasic_Organization)
-#define Array1Item_hxx <StepBasic_Organization.hxx>
+#define Array1Item_hxx <DataExchange/StepBasic/StepBasic_Organization.hxx>
 #define TCollection_Array1 StepBasic_Array1OfOrganization
-#define TCollection_Array1_hxx <StepBasic_Array1OfOrganization.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepBasic/StepBasic_Array1OfOrganization.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

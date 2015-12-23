@@ -19,7 +19,7 @@
 #include <Handle_StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <Handle_StepBasic_SiUnit.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <StepBasic_SiPrefix.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiPrefix.hxx>
 class StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx;
 class StepRepr_GlobalUnitAssignedContext;
 class StepBasic_NamedUnit;

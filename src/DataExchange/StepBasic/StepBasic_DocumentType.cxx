@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_DocumentType.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentType.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentType)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

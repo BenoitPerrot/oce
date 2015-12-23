@@ -15,7 +15,7 @@
 #include <StepDimTol_ModifiedGeometricTolerance.hxx>
 #include <StepDimTol_PositionTolerance.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

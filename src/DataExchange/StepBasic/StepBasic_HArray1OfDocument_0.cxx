@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepBasic_HArray1OfDocument.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfDocument.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepBasic_Document.hxx>
-#include <StepBasic_Array1OfDocument.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_Array1OfDocument.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepBasic_HArray1OfDocument)
 
 
 #define ItemHArray1 Handle(StepBasic_Document)
-#define ItemHArray1_hxx <StepBasic_Document.hxx>
+#define ItemHArray1_hxx <DataExchange/StepBasic/StepBasic_Document.hxx>
 #define TheArray1 StepBasic_Array1OfDocument
-#define TheArray1_hxx <StepBasic_Array1OfDocument.hxx>
+#define TheArray1_hxx <DataExchange/StepBasic/StepBasic_Array1OfDocument.hxx>
 #define TCollection_HArray1 StepBasic_HArray1OfDocument
-#define TCollection_HArray1_hxx <StepBasic_HArray1OfDocument.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepBasic/StepBasic_HArray1OfDocument.hxx>
 #define Handle_TCollection_HArray1 Handle_StepBasic_HArray1OfDocument
 #define TCollection_HArray1_Type_() StepBasic_HArray1OfDocument_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

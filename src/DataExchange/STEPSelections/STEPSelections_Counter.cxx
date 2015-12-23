@@ -40,7 +40,7 @@
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_GeometricCurveSet.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
-#include <StepBasic_ProductRelatedProductCategory.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
 #include <StepGeom_CompositeCurveSegment.hxx>
 #include <StepRepr_RepresentationMap.hxx>
 

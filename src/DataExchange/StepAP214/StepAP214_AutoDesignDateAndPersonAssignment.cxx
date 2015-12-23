@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignDateAndPersonItem.hxx>
-#include <StepBasic_PersonAndOrganization.hxx>
-#include <StepBasic_PersonAndOrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationRole.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -51,12 +51,12 @@
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <STEPCAFControl_Controller.hxx>
@@ -73,7 +73,7 @@
 #include <XCAFDoc_Centroid.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <StepVisual_PresentationLayerAssignment.hxx>
@@ -118,11 +118,11 @@
 #include <XCAFDoc_Datum.hxx>
 #include <STEPConstruct_DataMapOfAsciiStringTransient.hxx>
 #include <STEPConstruct_DataMapOfPointTransient.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
-#include <StepBasic_SiUnitAndLengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndLengthUnit.hxx>
 #include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
-#include <StepBasic_LengthMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_AdvancedFace.hxx>
 #include <StepShape_OrientedEdge.hxx>
@@ -170,12 +170,12 @@
 #include <XCAFDoc_Material.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <StepRepr_DescriptiveRepresentationItem.hxx>
-#include <StepBasic_SiUnitAndMassUnit.hxx>
-#include <StepBasic_DerivedUnitElement.hxx>
-#include <StepBasic_HArray1OfDerivedUnitElement.hxx>
-#include <StepBasic_DerivedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndMassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfDerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
 #include <StepRepr_MeasureRepresentationItem.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 
 //=======================================================================
 //function : GetLabelName

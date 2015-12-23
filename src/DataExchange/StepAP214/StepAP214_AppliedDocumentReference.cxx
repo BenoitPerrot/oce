@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepAP214/StepAP214_HArray1OfDocumentReferenceItem.hxx>
-#include <StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepAP214/StepAP214_DocumentReferenceItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>

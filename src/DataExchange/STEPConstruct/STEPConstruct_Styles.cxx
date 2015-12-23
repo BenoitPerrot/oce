@@ -73,7 +73,7 @@
 #include <StepVisual_DraughtingPreDefinedCurveFont.hxx>
 #include <StepVisual_SurfaceStyleBoundary.hxx>
 #include <StepVisual_DraughtingPreDefinedColour.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 #include <StepVisual_DraughtingModel.hxx>
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>

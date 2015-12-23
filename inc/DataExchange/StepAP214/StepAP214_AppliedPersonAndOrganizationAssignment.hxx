@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
-#include <StepBasic_PersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationAssignment.hxx>
 #include <Handle_StepBasic_PersonAndOrganization.hxx>
 #include <Handle_StepBasic_PersonAndOrganizationRole.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

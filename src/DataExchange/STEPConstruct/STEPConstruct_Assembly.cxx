@@ -26,14 +26,14 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //  ProductDefinition (pour Relationship)
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_DesignContext.hxx>
-#include <StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_DesignContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
 
-#include <StepBasic_Product.hxx>
-#include <StepBasic_HArray1OfProductContext.hxx>
-#include <StepBasic_MechanicalContext.hxx>
-#include <StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_MechanicalContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 
 //  ContextDependentShapeRepresentation qui contient la Relationship
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>

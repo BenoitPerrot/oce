@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_OrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationRole.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_OrganizationRole)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

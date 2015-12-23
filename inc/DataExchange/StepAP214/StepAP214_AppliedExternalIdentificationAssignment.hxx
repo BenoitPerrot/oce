@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AppliedExternalIdentificationAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfExternalIdentificationItem.hxx>
-#include <StepBasic_ExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalIdentificationAssignment.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_IdentificationRole.hxx>
 #include <Handle_StepBasic_ExternalSource.hxx>

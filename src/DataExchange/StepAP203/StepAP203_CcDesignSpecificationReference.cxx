@@ -17,7 +17,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
 #include <DataExchange/StepAP203/StepAP203_HArray1OfSpecifiedItem.hxx>
-#include <StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignSpecificationReference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

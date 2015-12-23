@@ -13,19 +13,19 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalPersonOrganization.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalPersonOrganization.hxx>
-#include <StepBasic_PersonOrganizationSelect.hxx>
-#include <StepBasic_Approval.hxx>
-#include <StepBasic_ApprovalRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonOrganizationSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalRole.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalPersonOrganization.hxx>
 
 
 RWStepBasic_RWApprovalPersonOrganization::RWStepBasic_RWApprovalPersonOrganization () {}

@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_CcDesignDateAndTimeAssignment.hxx>
 
 #include <Handle_StepAP203_HArray1OfDateTimeItem.hxx>
-#include <StepBasic_DateAndTimeAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTimeAssignment.hxx>
 #include <Handle_StepBasic_DateAndTime.hxx>
 #include <Handle_StepBasic_DateTimeRole.hxx>
 class StepAP203_HArray1OfDateTimeItem;

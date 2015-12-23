@@ -13,20 +13,20 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndSolidAngleUnit.hxx>
-#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_SolidAngleUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 
 
 RWStepBasic_RWConversionBasedUnitAndSolidAngleUnit::RWStepBasic_RWConversionBasedUnitAndSolidAngleUnit () {}

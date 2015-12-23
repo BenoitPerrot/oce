@@ -18,11 +18,11 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWCurveStyle.hxx>
 #include <StepVisual_CurveStyleFontSelect.hxx>
-#include <StepBasic_SizeSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
 #include <StepVisual_Colour.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepVisual_CurveStyle.hxx>
-//#include <StepBasic_SizeMember.hxx>
+//#include <DataExchange/StepBasic/StepBasic_SizeMember.hxx>
 
 
 //=======================================================================

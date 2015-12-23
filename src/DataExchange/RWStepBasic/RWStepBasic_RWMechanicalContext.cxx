@@ -16,17 +16,17 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_MechanicalContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_MechanicalContext.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWMechanicalContext.hxx>
-#include <StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_MechanicalContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_MechanicalContext.hxx>
 
 
 RWStepBasic_RWMechanicalContext::RWStepBasic_RWMechanicalContext () {}

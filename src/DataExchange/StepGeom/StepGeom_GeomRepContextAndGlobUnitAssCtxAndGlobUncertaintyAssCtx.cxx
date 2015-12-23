@@ -18,10 +18,10 @@
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_HArray1OfNamedUnit.hxx>
-#include <StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_UncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfNamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx)

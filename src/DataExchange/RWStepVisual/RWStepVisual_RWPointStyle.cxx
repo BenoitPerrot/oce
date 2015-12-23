@@ -18,7 +18,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPointStyle.hxx>
 #include <StepVisual_MarkerSelect.hxx>
-#include <StepBasic_SizeSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
 #include <StepVisual_Colour.hxx>
 
 

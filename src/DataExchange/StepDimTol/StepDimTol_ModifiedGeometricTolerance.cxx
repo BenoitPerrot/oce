@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepDimTol_ModifiedGeometricTolerance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

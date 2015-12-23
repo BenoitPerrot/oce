@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_VolumeUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndVolumeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_VolumeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndVolumeUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ConversionBasedUnitAndVolumeUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

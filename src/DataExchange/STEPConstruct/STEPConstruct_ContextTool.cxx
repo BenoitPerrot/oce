@@ -16,7 +16,7 @@
 
 // :j4 16.03.99 gka S4134
 // abv 18.11.99 renamed from StepPDR_ContextTool
-#include <StepBasic_ApplicationProtocolDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepData_StepModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -29,18 +29,18 @@
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
-#include <StepBasic_ProductDefinition.hxx>
-//#include <StepBasic_ProductDefinitionContext.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductContext.hxx>
-#include <StepBasic_HArray1OfProductContext.hxx>
-#include <StepBasic_ApplicationContext.hxx>
-#include <StepBasic_ApplicationProtocolDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+//#include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 
-#include <StepBasic_HArray1OfProduct.hxx>
-#include <StepBasic_ProductType.hxx> //:i3
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductType.hxx> //:i3
 #include <DataExchange/Interface/Interface_Static.hxx> //:j4
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 

@@ -13,14 +13,14 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignOrganizationAssignment.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <StepRepr_Representation.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDocumentReference.hxx>
 #include <StepRepr_ExternallyDefinedRepresentation.hxx>
-#include <StepBasic_ProductDefinitionRelationship.hxx>
-#include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

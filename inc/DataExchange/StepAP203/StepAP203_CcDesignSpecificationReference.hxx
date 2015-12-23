@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_CcDesignSpecificationReference.hxx>
 
 #include <Handle_StepAP203_HArray1OfSpecifiedItem.hxx>
-#include <StepBasic_DocumentReference.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentReference.hxx>
 #include <Handle_StepBasic_Document.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepAP203_HArray1OfSpecifiedItem;

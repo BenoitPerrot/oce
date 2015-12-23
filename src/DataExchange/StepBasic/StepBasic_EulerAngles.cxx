@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepBasic_EulerAngles.hxx>
+#include <DataExchange/StepBasic/StepBasic_EulerAngles.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_EulerAngles)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

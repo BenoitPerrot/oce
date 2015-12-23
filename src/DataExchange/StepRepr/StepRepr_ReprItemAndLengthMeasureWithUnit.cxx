@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_LengthMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
 #include <StepRepr_MeasureRepresentationItem.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

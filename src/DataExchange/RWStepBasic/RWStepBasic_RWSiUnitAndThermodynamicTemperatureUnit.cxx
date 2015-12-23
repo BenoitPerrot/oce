@@ -13,14 +13,14 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_SiUnitAndThermodynamicTemperatureUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndThermodynamicTemperatureUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndThermodynamicTemperatureUnit.hxx>
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_ThermodynamicTemperatureUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_SiPrefix.hxx>
-#include <StepBasic_SiUnitName.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ThermodynamicTemperatureUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiPrefix.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitName.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 
 

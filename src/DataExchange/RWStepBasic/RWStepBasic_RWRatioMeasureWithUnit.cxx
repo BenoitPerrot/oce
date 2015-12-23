@@ -13,18 +13,18 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_RatioMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_RatioMeasureWithUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWRatioMeasureWithUnit.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_RatioMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_RatioMeasureWithUnit.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWRatioMeasureWithUnit

@@ -16,8 +16,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepBasic_Certification.hxx>
-#include <StepBasic_CertificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_Certification.hxx>
+#include <DataExchange/StepBasic/StepBasic_CertificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_CertificationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

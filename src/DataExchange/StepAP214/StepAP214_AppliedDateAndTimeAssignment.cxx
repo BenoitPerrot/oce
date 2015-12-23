@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepAP214/StepAP214_HArray1OfDateAndTimeItem.hxx>
-#include <StepBasic_DateAndTime.hxx>
-#include <StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
 #include <DataExchange/StepAP214/StepAP214_DateAndTimeItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedDateAndTimeAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -19,7 +19,7 @@
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignGroupAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
-#include <StepBasic_Group.hxx>
+#include <DataExchange/StepBasic/StepBasic_Group.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

@@ -48,10 +48,10 @@
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <XSControl_TransferReader.hxx>
 
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_ProductDefinitionRelationship.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
@@ -120,7 +120,7 @@
 #include <StepShape_ShapeDimensionRepresentation.hxx>
 #include <StepRepr_ValueRange.hxx>
 #include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 #include <StepDimTol_ModifiedGeometricTolerance.hxx>
 #include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
@@ -129,15 +129,15 @@
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
-//#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_Unit.hxx>
-#include <StepBasic_NamedUnit.hxx>
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndMassUnit.hxx>
-#include <StepBasic_DerivedUnit.hxx>
-#include <StepBasic_DerivedUnitElement.hxx>
-#include <StepBasic_MeasureValueMember.hxx>
+//#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_Unit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndMassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 
 //#include <OCAF/TDataStd/TDataStd_Real.hxx>
 //#include <OCAF/TDataStd/TDataStd_Constraint.hxx>
@@ -176,7 +176,7 @@
 #include <StepShape_SolidModel.hxx>
 #include <StepShape_ShellBasedSurfaceModel.hxx>
 #include <StepShape_GeometricSet.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>

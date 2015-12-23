@@ -17,8 +17,8 @@
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWGlobalUncertaintyAssignedContext.hxx>
-#include <StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
-#include <StepBasic_UncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

@@ -18,7 +18,7 @@
 #include <StepRepr_AssemblyComponentUsage.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepRepr_SpecifiedHigherUsageOccurrence)

@@ -13,10 +13,10 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_CoordinatedUniversalTimeOffset.hxx>
+#include <DataExchange/StepBasic/StepBasic_CoordinatedUniversalTimeOffset.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWCoordinatedUniversalTimeOffset.hxx>
-#include <StepBasic_AheadOrBehind.hxx>
+#include <DataExchange/StepBasic/StepBasic_AheadOrBehind.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

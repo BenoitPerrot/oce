@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_CcDesignCertification.hxx>
 
 #include <Handle_StepAP203_HArray1OfCertifiedItem.hxx>
-#include <StepBasic_CertificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_CertificationAssignment.hxx>
 #include <Handle_StepBasic_Certification.hxx>
 class StepAP203_HArray1OfCertifiedItem;
 class StepBasic_Certification;

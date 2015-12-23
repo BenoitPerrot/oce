@@ -13,17 +13,17 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ConversionBasedUnitAndMassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndMassUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndMassUnit.hxx>
 
-#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_MassUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepBasic_ConversionBasedUnitAndMassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndMassUnit.hxx>
 
 
 //=======================================================================

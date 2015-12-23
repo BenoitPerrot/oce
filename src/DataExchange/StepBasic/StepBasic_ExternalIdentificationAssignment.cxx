@@ -15,10 +15,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_IdentificationRole.hxx>
-#include <StepBasic_ExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_IdentificationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalIdentificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ExternalIdentificationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 
 #include <DataExchange/RWStepAP214/RWStepAP214.hxx>
 
-#include <StepBasic_Address.hxx>
+#include <DataExchange/StepBasic/StepBasic_Address.hxx>
 #include <StepShape_AdvancedBrepShapeRepresentation.hxx>
 #include <StepShape_AdvancedFace.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_AnnotationCurveOccurrence.hxx>
@@ -61,14 +61,14 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepVisual_AnnotationText.hxx>
 #include <StepVisual_AnnotationTextOccurrence.hxx>
 
-#include <StepBasic_ApplicationContext.hxx>
-#include <StepBasic_ApplicationContextElement.hxx>
-#include <StepBasic_ApplicationProtocolDefinition.hxx>
-#include <StepBasic_Approval.hxx>
-#include <StepBasic_ApprovalPersonOrganization.hxx>
-#include <StepBasic_ApprovalRelationship.hxx>
-#include <StepBasic_ApprovalRole.hxx>
-#include <StepBasic_ApprovalStatus.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContextElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalStatus.hxx>
 #include <StepVisual_AreaInSet.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignActualDateAndTimeAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignActualDateAssignment.hxx>
@@ -100,7 +100,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_BoxDomain.hxx>
 #include <StepShape_BoxedHalfSpace.hxx>
 #include <StepShape_BrepWithVoids.hxx>
-#include <StepBasic_CalendarDate.hxx>
+#include <DataExchange/StepBasic/StepBasic_CalendarDate.hxx>
 #include <StepVisual_CameraImage.hxx>
 #include <StepVisual_CameraModel.hxx>
 #include <StepVisual_CameraModelD2.hxx>
@@ -129,8 +129,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <StepVisual_ContextDependentInvisibility.hxx>
 #include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
-#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_CoordinatedUniversalTimeOffset.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_CoordinatedUniversalTimeOffset.hxx>
 // Removed from Rev2 to Rev4 :  <StepShape_CsgRepresentation.hxx>
 #include <StepShape_CsgShapeRepresentation.hxx>
 #include <StepShape_CsgSolid.hxx>
@@ -141,10 +141,10 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepVisual_CurveStyleFont.hxx>
 #include <StepVisual_CurveStyleFontPattern.hxx>
 #include <StepGeom_CylindricalSurface.hxx>
-#include <StepBasic_Date.hxx>
-#include <StepBasic_DateAndTime.hxx>
-#include <StepBasic_DateRole.hxx>
-#include <StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_Date.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateTimeRole.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_DefinedSymbol.hxx>
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <StepGeom_DegeneratePcurve.hxx>
@@ -152,7 +152,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepRepr_DescriptiveRepresentationItem.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_DimensionCurve.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_DimensionCurveTerminator.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
 #include <StepGeom_Direction.hxx>
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <StepVisual_DraughtingAnnotationOccurrence.hxx>
@@ -170,10 +170,10 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepGeom_ElementarySurface.hxx>
 #include <StepGeom_Ellipse.hxx>
 #include <StepGeom_EvaluatedDegeneratePcurve.hxx>
-#include <StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 #include <StepVisual_ExternallyDefinedCurveFont.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_ExternallyDefinedHatchStyle.hxx>
-#include <StepBasic_ExternallyDefinedItem.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternallyDefinedItem.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_ExternallyDefinedSymbol.hxx>
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <StepVisual_ExternallyDefinedTextFont.hxx>
@@ -200,34 +200,34 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
-#include <StepBasic_Group.hxx>
-#include <StepBasic_GroupRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_Group.hxx>
+#include <DataExchange/StepBasic/StepBasic_GroupRelationship.hxx>
 #include <StepShape_HalfSpaceSolid.hxx>
 #include <StepGeom_Hyperbola.hxx>
 #include <StepGeom_IntersectionCurve.hxx>
 #include <StepVisual_Invisibility.hxx>
-#include <StepBasic_LengthMeasureWithUnit.hxx>
-#include <StepBasic_LengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthUnit.hxx>
 #include <StepGeom_Line.hxx>
-#include <StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_LocalTime.hxx>
 #include <StepShape_Loop.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
 #include <StepRepr_MappedItem.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationArea.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_MechanicalDesignPresentationArea.hxx>
-#include <StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 // Removed from Rev2 to Rev4 :  <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <StepGeom_OffsetCurve3d.hxx>
 #include <StepGeom_OffsetSurface.hxx>
 // Removed from Rev2 to Rev4 :  <StepAP214_OneDirectionRepeatFactor.hxx>
 #include <StepShape_OpenShell.hxx>
-#include <StepBasic_OrdinalDate.hxx>
-#include <StepBasic_Organization.hxx>
-#include <StepBasic_OrganizationRole.hxx>
-#include <StepBasic_OrganizationalAddress.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrdinalDate.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationalAddress.hxx>
 #include <StepShape_OrientedClosedShell.hxx>
 #include <StepShape_OrientedEdge.hxx>
 #include <StepShape_OrientedFace.hxx>
@@ -239,16 +239,16 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepRepr_ParametricRepresentationContext.hxx>
 #include <StepShape_Path.hxx>
 #include <StepGeom_Pcurve.hxx>
-#include <StepBasic_Person.hxx>
-#include <StepBasic_PersonAndOrganization.hxx>
-#include <StepBasic_PersonAndOrganizationRole.hxx>
-#include <StepBasic_PersonalAddress.hxx>
+#include <DataExchange/StepBasic/StepBasic_Person.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonalAddress.hxx>
 #include <StepGeom_Placement.hxx>
 #include <StepVisual_PlanarBox.hxx>
 #include <StepVisual_PlanarExtent.hxx>
 #include <StepGeom_Plane.hxx>
-#include <StepBasic_PlaneAngleMeasureWithUnit.hxx>
-#include <StepBasic_PlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_PlaneAngleMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_PlaneAngleUnit.hxx>
 #include <StepGeom_Point.hxx>
 #include <StepGeom_PointOnCurve.hxx>
 #include <StepGeom_PointOnSurface.hxx>
@@ -271,22 +271,22 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepVisual_PresentationStyleAssignment.hxx>
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <StepVisual_PresentationView.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductCategory.hxx>
-#include <StepBasic_ProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductCategory.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
 // Removed from Rev2 to Rev4 :  <StepVisual_ProductDataRepresentationView.hxx>
-#include <StepBasic_ProductDefinition.hxx>
-#include <StepBasic_ProductDefinitionContext.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepBasic_ProductRelatedProductCategory.hxx>
-#include <StepBasic_ProductType.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductType.hxx>
 #include <StepRepr_PropertyDefinition.hxx>
 #include <StepRepr_PropertyDefinitionRepresentation.hxx>
 #include <StepGeom_QuasiUniformCurve.hxx>
 #include <StepGeom_QuasiUniformSurface.hxx>
-#include <StepBasic_RatioMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_RatioMeasureWithUnit.hxx>
 #include <StepGeom_RationalBSplineCurve.hxx>
 #include <StepGeom_RationalBSplineSurface.hxx>
 #include <StepGeom_RectangularCompositeSurface.hxx>
@@ -303,16 +303,16 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_RightCircularCone.hxx>
 #include <StepShape_RightCircularCylinder.hxx>
 #include <StepGeom_SeamCurve.hxx>
-#include <StepBasic_SecurityClassification.hxx>
-#include <StepBasic_SecurityClassificationLevel.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationLevel.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepRepr_ShapeAspectRelationship.hxx>
 #include <StepRepr_ShapeAspectTransition.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ShellBasedSurfaceModel.hxx>
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_SolidAngleMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleMeasureWithUnit.hxx>
 #include <StepShape_SolidModel.hxx>
 #include <StepShape_SolidReplica.hxx>
 #include <StepShape_Sphere.hxx>
@@ -360,7 +360,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_TransitionalShapeRepresentation.hxx>
 #include <StepGeom_TrimmedCurve.hxx>
 // Removed from Rev2 to Rev4 :  <StepAP214_TwoDirectionRepeatFactor.hxx>
-#include <StepBasic_UncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <StepGeom_UniformCurve.hxx>
 #include <StepGeom_UniformSurface.hxx>
 #include <StepGeom_Vector.hxx>
@@ -368,7 +368,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepShape_VertexLoop.hxx>
 #include <StepShape_VertexPoint.hxx>
 #include <StepVisual_ViewVolume.hxx>
-#include <StepBasic_WeekOfYearAndDayDate.hxx>
+#include <DataExchange/StepBasic/StepBasic_WeekOfYearAndDayDate.hxx>
 #include <StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
@@ -377,38 +377,38 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
 #include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <StepGeom_BezierSurfaceAndRationalBSplineSurface.hxx>
-#include <StepBasic_SiUnitAndLengthUnit.hxx>
-#include <StepBasic_SiUnitAndPlaneAngleUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndLengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndPlaneAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
 #include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <StepShape_LoopAndPath.hxx>
 
 // Added by FMA
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
-#include <StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
-#include <StepBasic_SiUnitAndSolidAngleUnit.hxx>
-#include <StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
 #include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
-#include <StepBasic_MechanicalContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_MechanicalContext.hxx>
 // Added by CKY  for Rev4
-#include <StepBasic_DesignContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_DesignContext.hxx>
 
 // full Rev4
-#include <StepBasic_TimeMeasureWithUnit.hxx>
-#include <StepBasic_RatioUnit.hxx>
-#include <StepBasic_TimeUnit.hxx>
-#include <StepBasic_SiUnitAndRatioUnit.hxx>
-#include <StepBasic_SiUnitAndTimeUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndRatioUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndTimeUnit.hxx>
-#include <StepBasic_ApprovalDateTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_TimeMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_RatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_TimeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndRatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndTimeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndRatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndTimeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
 #include <StepVisual_CameraImage2dWithScale.hxx>
 #include <StepVisual_CameraImage3dWithScale.hxx>
 #include <StepGeom_CartesianTransformationOperator2d.hxx>
-#include <StepBasic_DerivedUnit.hxx>
-#include <StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
 #include <StepRepr_ItemDefinedTransformation.hxx>
 #include <StepVisual_PresentedItemRepresentation.hxx>
 #include <StepVisual_PresentationLayerUsage.hxx>
@@ -416,17 +416,17 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 //  Added by CKY (JUL-1998) for AP214 CC1 -> CC2
 
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDocumentReference.hxx>
-#include <StepBasic_Document.hxx>
-#include <StepBasic_DigitalDocument.hxx>
-#include <StepBasic_DocumentRelationship.hxx>
-#include <StepBasic_DocumentType.hxx>
-#include <StepBasic_DocumentUsageConstraint.hxx>
-#include <StepBasic_Effectivity.hxx>
-#include <StepBasic_ProductDefinitionEffectivity.hxx>
-#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_DigitalDocument.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentType.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentUsageConstraint.hxx>
+#include <DataExchange/StepBasic/StepBasic_Effectivity.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionEffectivity.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 
-#include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
-#include <StepBasic_PhysicallyModeledProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/StepBasic/StepBasic_PhysicallyModeledProductDefinition.hxx>
 
 
 #include <StepRepr_ProductDefinitionUsage.hxx>
@@ -836,8 +836,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/StepAP214/StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedPresentedItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedSecurityClassificationAssignment.hxx>
-#include <StepBasic_DocumentFile.hxx>
-#include <StepBasic_CharacterizedObject.hxx>  
+#include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
+#include <DataExchange/StepBasic/StepBasic_CharacterizedObject.hxx>  
 #include <StepShape_ExtrudedFaceSolid.hxx>
 #include <StepShape_RevolvedFaceSolid.hxx>  
 #include <StepShape_SweptFaceSolid.hxx>  
@@ -860,20 +860,20 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Added by ABV 08.09.99 for CAX TRJ 2 (validation properties)
 #include <StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWMeasureRepresentationItem.hxx>
-#include <StepBasic_AreaUnit.hxx>
-#include <StepBasic_VolumeUnit.hxx>
-#include <StepBasic_SiUnitAndAreaUnit.hxx>
-#include <StepBasic_SiUnitAndVolumeUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndAreaUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndVolumeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_AreaUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_VolumeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndAreaUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndVolumeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndAreaUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndVolumeUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndVolumeUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndAreaUnit.hxx>
 
 // Added by ABV 10.11.99 for AP203
-#include <StepBasic_Action.hxx>
-#include <StepBasic_ActionAssignment.hxx>
-#include <StepBasic_ActionMethod.hxx>
-#include <StepBasic_ActionRequestAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_Action.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionMethod.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionRequestAssignment.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignApproval.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignCertification.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignContract.hxx>
@@ -881,23 +881,23 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/StepAP203/StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignSecurityClassification.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignSpecificationReference.hxx>
-#include <StepBasic_Certification.hxx>
-#include <StepBasic_CertificationAssignment.hxx>
-#include <StepBasic_CertificationType.hxx>
+#include <DataExchange/StepBasic/StepBasic_Certification.hxx>
+#include <DataExchange/StepBasic/StepBasic_CertificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_CertificationType.hxx>
 #include <DataExchange/StepAP203/StepAP203_Change.hxx>
 #include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
 #include <StepRepr_ConfigurationDesign.hxx>
 #include <StepRepr_ConfigurationEffectivity.hxx>
-#include <StepBasic_Contract.hxx>
-#include <StepBasic_ContractAssignment.hxx>
-#include <StepBasic_ContractType.hxx>
+#include <DataExchange/StepBasic/StepBasic_Contract.hxx>
+#include <DataExchange/StepBasic/StepBasic_ContractAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ContractType.hxx>
 #include <StepRepr_ProductConcept.hxx>
-#include <StepBasic_ProductConceptContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductConceptContext.hxx>
 #include <DataExchange/StepAP203/StepAP203_StartRequest.hxx>
 #include <DataExchange/StepAP203/StepAP203_StartWork.hxx>
-#include <StepBasic_VersionedActionRequest.hxx>
-#include <StepBasic_ProductCategoryRelationship.hxx>
-#include <StepBasic_ActionRequestSolution.hxx>
+#include <DataExchange/StepBasic/StepBasic_VersionedActionRequest.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductCategoryRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionRequestSolution.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWAction.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWActionAssignment.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWActionMethod.hxx>
@@ -950,15 +950,15 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepShape/RWStepShape_RWShapeDimensionRepresentation.hxx>
 
 // Added by ABV 10.05.00 for CAX-IF TRJ4 (external references)
-#include <StepBasic_DocumentRepresentationType.hxx>
-#include <StepBasic_ObjectRole.hxx>
-#include <StepBasic_RoleAssociation.hxx>
-#include <StepBasic_IdentificationRole.hxx>
-#include <StepBasic_IdentificationAssignment.hxx>
-#include <StepBasic_ExternalIdentificationAssignment.hxx>
-#include <StepBasic_EffectivityAssignment.hxx>
-#include <StepBasic_NameAssignment.hxx>
-#include <StepBasic_GeneralProperty.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentRepresentationType.hxx>
+#include <DataExchange/StepBasic/StepBasic_ObjectRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_RoleAssociation.hxx>
+#include <DataExchange/StepBasic/StepBasic_IdentificationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_IdentificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_EffectivityAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_NameAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_GeneralProperty.hxx>
 #include <DataExchange/StepAP214/StepAP214_Class.hxx>
 #include <DataExchange/StepAP214/StepAP214_ExternallyDefinedClass.hxx>
 #include <DataExchange/StepAP214/StepAP214_ExternallyDefinedGeneralProperty.hxx>
@@ -1033,9 +1033,9 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepShape/RWStepShape_RWConnectedFaceSubSet.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWConnectedFaceSubSet.hxx>
 //Addef for AP209
-#include <StepBasic_EulerAngles.hxx>
-#include <StepBasic_MassUnit.hxx>
-#include <StepBasic_ThermodynamicTemperatureUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_EulerAngles.hxx>
+#include <DataExchange/StepBasic/StepBasic_MassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ThermodynamicTemperatureUnit.hxx>
 #include <StepElement_AnalysisItemWithinRepresentation.hxx>
 #include <StepElement_Curve3dElementDescriptor.hxx>
 #include <StepElement_CurveElementEndReleasePacket.hxx>
@@ -1106,7 +1106,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepFEA_FeaModelDefinition.hxx>
 #include <StepFEA_FreedomAndCoefficient.hxx>
 #include <StepFEA_FreedomsList.hxx>
-#include <StepBasic_ProductDefinitionFormationRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormationRelationship.hxx>
 #include <StepFEA_NodeDefinition.hxx>
 #include <StepRepr_StructuralResponseProperty.hxx>
 #include <StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
@@ -1184,8 +1184,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepRepr/RWStepRepr_RWStructuralResponseProperty.hxx>
 #include <DataExchange/RWStepRepr/RWStepRepr_RWStructuralResponsePropertyDefinitionRepresentation.hxx>
 
-#include <StepBasic_SiUnitAndMassUnit.hxx>
-#include <StepBasic_SiUnitAndThermodynamicTemperatureUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndMassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndThermodynamicTemperatureUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndMassUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndThermodynamicTemperatureUnit.hxx>
 
@@ -1203,8 +1203,8 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepFEA/RWStepFEA_RWFeaSurfaceSectionGeometricRelationship.hxx>
 
 // ptv 28.01.2003
-#include <StepBasic_DocumentProductAssociation.hxx>
-#include <StepBasic_DocumentProductEquivalence.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentProductAssociation.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentProductEquivalence.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentProductAssociation.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentProductEquivalence.hxx>
 
@@ -1273,9 +1273,9 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 
 // added by skl 10.02.2004 for TRJ13
-#include <StepBasic_ConversionBasedUnitAndMassUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndMassUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndMassUnit.hxx>
-#include <StepBasic_MassMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MassMeasureWithUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWMassMeasureWithUnit.hxx>
 
 

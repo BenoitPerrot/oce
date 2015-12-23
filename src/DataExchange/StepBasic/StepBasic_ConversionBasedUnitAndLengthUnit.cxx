@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_LengthUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
-#include <StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ConversionBasedUnitAndLengthUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepBasic_ConversionBasedUnitAndLengthUnit)
 IMPLEMENT_DOWNCAST(StepBasic_ConversionBasedUnitAndLengthUnit,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepBasic_ConversionBasedUnitAndLengthUnit)
-#include <StepBasic_ConversionBasedUnit.hxx>
-#include <StepBasic_LengthUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_LengthUnit.hxx>
 
 
 StepBasic_ConversionBasedUnitAndLengthUnit::StepBasic_ConversionBasedUnitAndLengthUnit ()  {}

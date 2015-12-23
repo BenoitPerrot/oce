@@ -16,7 +16,7 @@
 
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
@@ -29,8 +29,8 @@
 #include <StepRepr_MappedItem.hxx>
 #include <STEPSelections_AssemblyLink.hxx>
 #include <STEPSelections_HSequenceOfAssemblyLink.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AppliedApprovalAssignment.hxx>
 
 #include <Handle_StepAP214_HArray1OfApprovalItem.hxx>
-#include <StepBasic_ApprovalAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalAssignment.hxx>
 #include <Handle_StepBasic_Approval.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfApprovalItem;

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepBasic_Document.hxx>
-#include <StepBasic_PhysicallyModeledProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_PhysicallyModeledProductDefinition.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignOrganizationItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_SecurityClassificationLevel.hxx>
-#include <StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationLevel.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_SecurityClassification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

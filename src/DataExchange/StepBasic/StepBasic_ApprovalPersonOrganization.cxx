@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_Approval.hxx>
-#include <StepBasic_ApprovalRole.hxx>
-#include <StepBasic_PersonOrganizationSelect.hxx>
-#include <StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonOrganizationSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalPersonOrganization.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ApprovalPersonOrganization)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

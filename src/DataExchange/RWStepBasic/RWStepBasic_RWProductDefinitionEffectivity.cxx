@@ -13,7 +13,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ProductDefinitionEffectivity.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionEffectivity.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionEffectivity.hxx>
@@ -21,8 +21,8 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ProductDefinitionEffectivity.hxx>
-#include <StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionEffectivity.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 

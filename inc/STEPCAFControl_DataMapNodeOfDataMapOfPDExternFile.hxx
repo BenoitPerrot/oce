@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(StepBasic_ProductDefinition)
-#define TheKey_hxx <StepBasic_ProductDefinition.hxx>
+#define TheKey_hxx <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
 #define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
 #define Hasher TColStd_MapTransientHasher

@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_CcDesignSecurityClassification.hxx>
 
 #include <Handle_StepAP203_HArray1OfClassifiedItem.hxx>
-#include <StepBasic_SecurityClassificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationAssignment.hxx>
 #include <Handle_StepBasic_SecurityClassification.hxx>
 class StepAP203_HArray1OfClassifiedItem;
 class StepBasic_SecurityClassification;

@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_Organization.hxx>
-#include <StepBasic_OrganizationRole.hxx>
-#include <StepBasic_OrganizationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_OrganizationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -13,14 +13,14 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_SiUnitAndRatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndRatioUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndRatioUnit.hxx>
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_RatioUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_SiPrefix.hxx>
-#include <StepBasic_SiUnitName.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_RatioUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiPrefix.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitName.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 
 

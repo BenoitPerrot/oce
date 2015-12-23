@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_ExternallyDefinedGeneralProperty.hxx>
 
 #include <Handle_StepBasic_ExternallyDefinedItem.hxx>
-#include <StepBasic_GeneralProperty.hxx>
+#include <DataExchange/StepBasic/StepBasic_GeneralProperty.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepBasic_ExternalSource.hxx>

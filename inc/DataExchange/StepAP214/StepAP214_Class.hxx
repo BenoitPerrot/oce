@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP214_Class.hxx>
 
-#include <StepBasic_Group.hxx>
+#include <DataExchange/StepBasic/StepBasic_Group.hxx>
 
 
 //! Representation of STEP entity Class

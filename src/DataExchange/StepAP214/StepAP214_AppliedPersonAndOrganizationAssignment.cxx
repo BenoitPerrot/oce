@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepAP214/StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
-#include <StepBasic_PersonAndOrganization.hxx>
-#include <StepBasic_PersonAndOrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationRole.hxx>
 #include <DataExchange/StepAP214/StepAP214_PersonAndOrganizationItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

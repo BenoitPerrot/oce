@@ -16,8 +16,8 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_IdentificationRole.hxx>
-#include <StepBasic_IdentificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_IdentificationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_IdentificationAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_IdentificationAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

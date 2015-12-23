@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <StepRepr_RepresentationRelationship.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
@@ -76,8 +76,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
-//#include <StepBasic_UncertaintyMeasureWithUnit.hxx>
-#include <StepBasic_ProductRelatedProductCategory.hxx>
+//#include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
 #include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 
@@ -105,7 +105,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <STEPConstruct_Assembly.hxx>
@@ -131,7 +131,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <StepRepr_HSequenceOfRepresentationItem.hxx>
-#include <StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <StepDimTol_DatumFeature.hxx>

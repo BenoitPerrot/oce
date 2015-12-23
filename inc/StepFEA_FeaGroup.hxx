@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_FeaGroup.hxx>
 
 #include <Handle_StepFEA_FeaModel.hxx>
-#include <StepBasic_Group.hxx>
+#include <DataExchange/StepBasic/StepBasic_Group.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepFEA_FeaModel;
 class TCollection_HAsciiString;

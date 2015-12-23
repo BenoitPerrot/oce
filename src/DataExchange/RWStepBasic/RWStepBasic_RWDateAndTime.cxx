@@ -13,18 +13,18 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDateAndTime.hxx>
-#include <StepBasic_Date.hxx>
-#include <StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_Date.hxx>
+#include <DataExchange/StepBasic/StepBasic_LocalTime.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_DateAndTime.hxx>
 
 
 RWStepBasic_RWDateAndTime::RWStepBasic_RWDateAndTime () {}

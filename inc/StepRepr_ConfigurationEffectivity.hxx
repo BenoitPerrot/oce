@@ -11,7 +11,7 @@
 #include <Handle_StepRepr_ConfigurationEffectivity.hxx>
 
 #include <Handle_StepRepr_ConfigurationDesign.hxx>
-#include <StepBasic_ProductDefinitionEffectivity.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionEffectivity.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepBasic_ProductDefinitionRelationship.hxx>
 class StepRepr_ConfigurationDesign;

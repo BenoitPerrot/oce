@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_Product.hxx>
-#include <StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_ProductDefinitionFormationWithSpecifiedSource)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

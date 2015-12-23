@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepVisual_Colour.hxx>
 #include <StepVisual_MarkerSelect.hxx>
-#include <StepBasic_SizeSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
 #include <StepVisual_PointStyle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PointStyle)

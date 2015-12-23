@@ -13,17 +13,17 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_ApplicationContextElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContextElement.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWApplicationContextElement.hxx>
-#include <StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_ApplicationContextElement.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApplicationContextElement.hxx>
 
 
 RWStepBasic_RWApplicationContextElement::RWStepBasic_RWApplicationContextElement () {}

@@ -15,10 +15,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_ExternallyDefinedItem.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternallyDefinedItem.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_SourceItem.hxx>
-#include <StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/StepBasic_SourceItem.hxx>
+#include <DataExchange/StepBasic/StepBasic_ExternalSource.hxx>
 #include <DataExchange/StepAP214/StepAP214_ExternallyDefinedGeneralProperty.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_ExternallyDefinedGeneralProperty)

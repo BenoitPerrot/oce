@@ -16,18 +16,18 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepBasic_ActionAssignment.hxx>
-#include <StepBasic_ActionRequestAssignment.hxx>
-#include <StepBasic_ApprovalAssignment.hxx>
-#include <StepBasic_ApprovalDateTime.hxx>
-#include <StepBasic_CertificationAssignment.hxx>
-#include <StepBasic_ContractAssignment.hxx>
-#include <StepBasic_DocumentReference.hxx>
-#include <StepBasic_EffectivityAssignment.hxx>
-#include <StepBasic_GroupAssignment.hxx>
-#include <StepBasic_NameAssignment.hxx>
-#include <StepBasic_SecurityClassificationAssignment.hxx>
-#include <StepBasic_RoleSelect.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ActionRequestAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_CertificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ContractAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentReference.hxx>
+#include <DataExchange/StepBasic/StepBasic_EffectivityAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_GroupAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_NameAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_RoleSelect.hxx>
 
 //=======================================================================
 //function : StepBasic_RoleSelect

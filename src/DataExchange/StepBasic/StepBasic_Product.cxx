@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_HArray1OfProductContext.hxx>
-#include <StepBasic_ProductContext.hxx>
-#include <StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/StepBasic_HArray1OfProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
+#include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_Product)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

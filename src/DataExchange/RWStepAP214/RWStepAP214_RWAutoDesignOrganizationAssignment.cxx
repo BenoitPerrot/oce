@@ -19,8 +19,8 @@
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignOrganizationAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGeneralOrgItem.hxx>
-#include <StepBasic_Organization.hxx>
-#include <StepBasic_OrganizationRole.hxx>
+#include <DataExchange/StepBasic/StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/StepBasic_OrganizationRole.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

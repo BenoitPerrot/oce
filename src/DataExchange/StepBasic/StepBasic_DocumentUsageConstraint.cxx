@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/StepBasic_Document.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_DocumentUsageConstraint.hxx>
+#include <DataExchange/StepBasic/StepBasic_DocumentUsageConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_DocumentUsageConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

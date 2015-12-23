@@ -17,7 +17,7 @@
 
 #include <StepDimTol_HArray1OfDatumReference.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepDimTol_GeometricToleranceWithDatumReference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

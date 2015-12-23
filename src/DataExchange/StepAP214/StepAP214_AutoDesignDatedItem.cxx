@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalPersonOrganization.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDateAndPersonAssignment.hxx>
-#include <StepBasic_ProductDefinitionEffectivity.hxx>
+#include <DataExchange/StepBasic/StepBasic_ProductDefinitionEffectivity.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignDatedItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

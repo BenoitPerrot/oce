@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 
 #include <Handle_StepBasic_HArray1OfApproval.hxx>
-#include <StepBasic_SecurityClassificationAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassificationAssignment.hxx>
 #include <Handle_StepBasic_SecurityClassification.hxx>
 #include <Handle_StepBasic_Approval.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -13,17 +13,17 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_LocalTime.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWLocalTime.hxx>
-#include <StepBasic_CoordinatedUniversalTimeOffset.hxx>
+#include <DataExchange/StepBasic/StepBasic_CoordinatedUniversalTimeOffset.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/StepBasic_LocalTime.hxx>
 
 
 RWStepBasic_RWLocalTime::RWStepBasic_RWLocalTime () {}

@@ -15,8 +15,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepBasic_Group.hxx>
-#include <StepBasic_GroupAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_Group.hxx>
+#include <DataExchange/StepBasic/StepBasic_GroupAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_GroupAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepAP214/StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
-#include <StepBasic_Group.hxx>
+#include <DataExchange/StepBasic/StepBasic_Group.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGroupAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

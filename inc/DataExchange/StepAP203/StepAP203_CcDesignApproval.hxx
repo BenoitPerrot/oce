@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_CcDesignApproval.hxx>
 
 #include <Handle_StepAP203_HArray1OfApprovedItem.hxx>
-#include <StepBasic_ApprovalAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ApprovalAssignment.hxx>
 #include <Handle_StepBasic_Approval.hxx>
 class StepAP203_HArray1OfApprovedItem;
 class StepBasic_Approval;

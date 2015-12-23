@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepBasic_TimeUnit.hxx>
-#include <StepBasic_DimensionalExponents.hxx>
-#include <StepBasic_SiUnitAndTimeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_TimeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnitAndTimeUnit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepBasic_SiUnitAndTimeUnit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,8 +25,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepBasic_SiUnitAndTimeUnit)
 IMPLEMENT_DOWNCAST(StepBasic_SiUnitAndTimeUnit,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepBasic_SiUnitAndTimeUnit)
-#include <StepBasic_SiUnit.hxx>
-#include <StepBasic_TimeUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
+#include <DataExchange/StepBasic/StepBasic_TimeUnit.hxx>
 
 
 StepBasic_SiUnitAndTimeUnit::StepBasic_SiUnitAndTimeUnit ()  

@@ -11,7 +11,7 @@
 #include <Handle_StepAP203_CcDesignContract.hxx>
 
 #include <Handle_StepAP203_HArray1OfContractedItem.hxx>
-#include <StepBasic_ContractAssignment.hxx>
+#include <DataExchange/StepBasic/StepBasic_ContractAssignment.hxx>
 #include <Handle_StepBasic_Contract.hxx>
 class StepAP203_HArray1OfContractedItem;
 class StepBasic_Contract;

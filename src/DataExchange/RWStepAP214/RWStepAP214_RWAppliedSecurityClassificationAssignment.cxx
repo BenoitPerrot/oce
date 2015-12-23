@@ -19,7 +19,7 @@
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfSecurityClassificationItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_SecurityClassificationItem.hxx>
-#include <StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
