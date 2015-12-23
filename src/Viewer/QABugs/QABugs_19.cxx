@@ -2904,7 +2904,7 @@ static Standard_Integer OCC25340 (Draw_Interpretor& /*theDI*/,
 
 /*****************************************************************************/
 
-#include <GeomAPI_IntSS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntSS.hxx>
 //=======================================================================
 //function : OCC25100
 //purpose  :

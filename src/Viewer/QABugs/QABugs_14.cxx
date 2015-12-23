@@ -46,7 +46,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <GeomAPI_Interpolate.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_Interpolate.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

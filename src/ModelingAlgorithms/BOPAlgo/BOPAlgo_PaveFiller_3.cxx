@@ -32,7 +32,7 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

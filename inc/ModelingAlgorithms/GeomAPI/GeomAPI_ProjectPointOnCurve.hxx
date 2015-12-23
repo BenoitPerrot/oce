@@ -139,7 +139,7 @@ private:
 };
 
 
-#include <GeomAPI_ProjectPointOnCurve.lxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.lxx>
 
 
 

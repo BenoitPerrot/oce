@@ -50,7 +50,7 @@
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 
 //=======================================================================

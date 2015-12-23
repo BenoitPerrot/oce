@@ -613,7 +613,7 @@ di <<"AnyToLS (3,mm) = " << UnitsAPI::AnyToLS(3.,"mm") << "\n"; // result was WR
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRad.hxx>
@@ -822,7 +822,7 @@ static Standard_Integer BUC60811(Draw_Interpretor& di, Standard_Integer argc, co
   return 0;
 }
 
-#include<GeomAPI_ExtremaCurveCurve.hxx>
+#include<ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 
 static int BUC60825(Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 

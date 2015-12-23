@@ -95,8 +95,8 @@
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <GeomAPI.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -150,7 +150,7 @@
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ShapeCustom_Curve2d.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>

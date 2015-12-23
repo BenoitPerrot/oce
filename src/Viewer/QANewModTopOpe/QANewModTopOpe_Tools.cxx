@@ -31,7 +31,7 @@
 #include <IntTools_Context.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
 

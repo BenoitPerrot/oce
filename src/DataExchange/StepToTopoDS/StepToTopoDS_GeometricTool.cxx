@@ -48,8 +48,8 @@
 #include <ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <GeomAbs_CurveType.hxx>

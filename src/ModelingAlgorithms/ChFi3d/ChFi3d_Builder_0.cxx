@@ -74,8 +74,8 @@
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/GeomLib/GeomLib_Interpolate.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
@@ -152,7 +152,7 @@
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Regul.hxx>
 #include <Law_Function.hxx>
 #include <Law_Composite.hxx>
-#include <GeomAPI_PointsToBSpline.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_PointsToBSpline.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>

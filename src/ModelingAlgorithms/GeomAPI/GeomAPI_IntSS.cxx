@@ -18,4 +18,4 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomAPI_IntSS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntSS.hxx>

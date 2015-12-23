@@ -1703,7 +1703,7 @@ static Standard_Integer OCC670 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 //=======================================================================
 //function :  OCC867
 //purpose  : 

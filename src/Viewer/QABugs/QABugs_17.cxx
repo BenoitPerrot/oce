@@ -32,7 +32,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Lin2d2Tan.hxx>

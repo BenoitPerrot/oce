@@ -46,7 +46,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 //
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

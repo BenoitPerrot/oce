@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomAPI_IntCS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntCS.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

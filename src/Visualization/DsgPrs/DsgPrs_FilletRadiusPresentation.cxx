@@ -50,7 +50,7 @@
 
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 
 //pop pour NT
 //#if WNT

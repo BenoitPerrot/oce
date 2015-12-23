@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_CurveConstraint)
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectOnPlane.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Precision.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

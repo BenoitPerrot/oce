@@ -26,9 +26,9 @@
 #include <ElSLib.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
-#include <GeomAPI_ExtremaCurveSurface.hxx>
-#include <GeomAPI_ExtremaSurfaceSurface.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveSurface.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaSurfaceSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

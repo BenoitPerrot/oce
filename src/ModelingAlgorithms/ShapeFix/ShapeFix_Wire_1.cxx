@@ -44,7 +44,7 @@
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -85,8 +85,8 @@
 #include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_Curve3d.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>

@@ -64,7 +64,7 @@
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

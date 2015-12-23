@@ -89,7 +89,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <ElCLib.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 
 #ifdef DRAW
 #include <TopOpeBRepTool_DRAW.hxx>

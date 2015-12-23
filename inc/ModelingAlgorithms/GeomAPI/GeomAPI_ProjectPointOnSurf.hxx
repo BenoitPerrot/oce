@@ -155,7 +155,7 @@ private:
 };
 
 
-#include <GeomAPI_ProjectPointOnSurf.lxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.lxx>
 
 
 

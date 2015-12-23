@@ -39,7 +39,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAPI_IntCS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntCS.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

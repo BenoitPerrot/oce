@@ -38,7 +38,7 @@
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>
-#include <GeomAPI_Interpolate.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_Interpolate.hxx>
 #include <Draw_Marker3D.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_Interpolate.hxx>
 #include <Draw_Marker2D.hxx>

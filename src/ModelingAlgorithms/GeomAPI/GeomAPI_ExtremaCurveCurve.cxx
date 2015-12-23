@@ -19,13 +19,13 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 //#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
 #include <Precision.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 //=======================================================================
 //function : GeomAPI_ExtremaCurveCurve

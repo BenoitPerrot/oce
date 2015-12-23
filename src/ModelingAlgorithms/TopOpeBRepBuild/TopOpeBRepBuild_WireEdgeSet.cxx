@@ -41,7 +41,7 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

@@ -164,7 +164,7 @@ private:
 };
 
 
-#include <GeomAPI_ExtremaSurfaceSurface.lxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaSurfaceSurface.lxx>
 
 
 

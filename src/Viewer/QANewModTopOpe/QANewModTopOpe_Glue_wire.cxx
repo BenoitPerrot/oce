@@ -27,8 +27,8 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

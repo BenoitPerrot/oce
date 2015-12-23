@@ -15,7 +15,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Extrema/Extrema_ExtCS.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <IntTools_MarkedRangeSet.hxx>
 #include <Handle_IntTools_Context.hxx>
 #include <IntTools_SequenceOfRanges.hxx>

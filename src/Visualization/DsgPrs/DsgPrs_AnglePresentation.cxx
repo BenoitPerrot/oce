@@ -49,7 +49,7 @@
 
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 

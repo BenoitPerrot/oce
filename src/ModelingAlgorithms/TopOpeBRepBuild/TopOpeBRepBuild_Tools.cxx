@@ -51,7 +51,7 @@
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <TopOpeBRepTool_2d.hxx>
 

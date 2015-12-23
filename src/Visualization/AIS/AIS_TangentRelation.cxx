@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 
 //=======================================================================
 //function : Constructor

@@ -36,7 +36,7 @@
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

@@ -25,7 +25,7 @@
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

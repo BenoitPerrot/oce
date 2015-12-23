@@ -59,7 +59,7 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -104,7 +104,7 @@
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ElSLib.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 

@@ -50,7 +50,7 @@
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingData/BRep/BRep_Curve3D.hxx>

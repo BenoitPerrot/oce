@@ -54,7 +54,7 @@
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 #include <Precision.hxx>

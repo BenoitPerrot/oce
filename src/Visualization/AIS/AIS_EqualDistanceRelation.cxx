@@ -57,8 +57,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

@@ -95,7 +95,7 @@
 
 #include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>

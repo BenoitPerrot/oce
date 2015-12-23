@@ -66,8 +66,8 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 
-#include <GeomAPI.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 

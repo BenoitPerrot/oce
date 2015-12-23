@@ -19,7 +19,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Extrema/Extrema_ExtSS.hxx>
-#include <GeomAPI_ExtremaSurfaceSurface.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaSurfaceSurface.hxx>
 
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

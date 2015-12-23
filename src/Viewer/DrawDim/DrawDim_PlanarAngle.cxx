@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarAngle)
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <GeomAPI.hxx>    
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>    
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>

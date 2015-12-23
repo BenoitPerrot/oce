@@ -14,8 +14,8 @@
 
 #include <IntTools_FClass2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>

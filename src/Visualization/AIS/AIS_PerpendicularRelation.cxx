@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 #include <ElCLib.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

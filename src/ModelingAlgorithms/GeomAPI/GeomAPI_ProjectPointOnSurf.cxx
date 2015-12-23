@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 

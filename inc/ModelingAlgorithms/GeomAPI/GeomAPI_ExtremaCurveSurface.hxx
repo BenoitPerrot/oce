@@ -162,7 +162,7 @@ private:
 };
 
 
-#include <GeomAPI_ExtremaCurveSurface.lxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveSurface.lxx>
 
 
 

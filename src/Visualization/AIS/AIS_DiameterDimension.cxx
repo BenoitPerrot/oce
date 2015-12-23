@@ -19,7 +19,7 @@
 #include <AIS.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ElCLib.hxx>
-#include <GeomAPI_IntCS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntCS.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>

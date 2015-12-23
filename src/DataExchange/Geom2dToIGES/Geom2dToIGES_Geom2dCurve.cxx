@@ -71,7 +71,7 @@
 #include <Precision.hxx>
 
 #include <GeomToIGES_GeomCurve.hxx>
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 

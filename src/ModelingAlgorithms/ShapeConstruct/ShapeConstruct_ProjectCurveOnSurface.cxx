@@ -57,9 +57,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <GeomAPI_PointsToBSpline.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_PointsToBSpline.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_Interpolate.hxx>
-#include <GeomAPI_Interpolate.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_Interpolate.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

@@ -58,7 +58,7 @@
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
-#include <GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 

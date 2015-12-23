@@ -90,7 +90,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 
 // jfa 15/10/2000
 #include <Geometry/Geom/Geom_Ellipse.hxx>
-#include <GeomAPI_ProjectPointOnCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 static Standard_Real Modulo2PI(const Standard_Real ANGLE)
 {

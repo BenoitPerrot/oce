@@ -32,9 +32,9 @@
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 
-#include <GeomAPI.hxx>
-#include <GeomAPI_IntCS.hxx>
-#include <GeomAPI_IntSS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntCS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntSS.hxx>
 
 //#include <Geometry/GeomLProp/GeomLProp.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
@@ -111,7 +111,7 @@
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
-#include <GeomAPI_ExtremaCurveCurve.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

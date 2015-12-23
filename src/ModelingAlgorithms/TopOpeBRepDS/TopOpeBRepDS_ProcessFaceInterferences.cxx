@@ -31,7 +31,7 @@
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <TopOpeBRepTool_ShapeTool.hxx>

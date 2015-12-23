@@ -28,7 +28,7 @@
 
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 //
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 //
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 //

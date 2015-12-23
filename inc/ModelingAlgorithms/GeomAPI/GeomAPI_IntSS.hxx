@@ -88,7 +88,7 @@ private:
 };
 
 
-#include <GeomAPI_IntSS.lxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntSS.lxx>
 
 
 

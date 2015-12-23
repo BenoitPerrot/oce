@@ -39,7 +39,7 @@
 #include <StepToGeom_MakeTrimmedCurve.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <StepToGeom_MakeCurve.hxx>
-//#include <GeomAPI_ProjectPointOnCurve.hxx>
+//#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 //#include <BRepAPI.hxx>
 #include <ElCLib.hxx>
 

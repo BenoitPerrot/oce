@@ -44,7 +44,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <GeomAPI_IntCS.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_IntCS.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

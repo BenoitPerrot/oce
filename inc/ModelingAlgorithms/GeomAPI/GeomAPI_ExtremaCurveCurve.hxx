@@ -184,7 +184,7 @@ private:
 };
 
 
-#include <GeomAPI_ExtremaCurveCurve.lxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.lxx>
 
 
 

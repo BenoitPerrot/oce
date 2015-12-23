@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <Precision.hxx>
-#include <GeomAPI_ProjectPointOnSurf.hxx>
+#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <AIS_Drawer.hxx>
