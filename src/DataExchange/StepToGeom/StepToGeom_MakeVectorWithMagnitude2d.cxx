@@ -18,10 +18,10 @@
 
 #include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <Geometry/Geom2d/Geom2d_VectorWithMagnitude.hxx>
-#include <StepToGeom_MakeVectorWithMagnitude2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeVectorWithMagnitude2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
-#include <StepToGeom_MakeDirection2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeDirection2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Direction.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

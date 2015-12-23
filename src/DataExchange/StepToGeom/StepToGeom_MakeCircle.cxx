@@ -16,11 +16,11 @@
 
 #include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <StepToGeom_MakeCircle.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCircle.hxx>
 #include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <StepToGeom_MakeAxis2Placement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <UnitsMethods.hxx>
 

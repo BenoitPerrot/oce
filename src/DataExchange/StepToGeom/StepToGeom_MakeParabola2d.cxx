@@ -16,11 +16,11 @@
 
 #include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
-#include <StepToGeom_MakeParabola2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeParabola2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement2d.hxx>
 #include <Geometry/Geom2d/Geom2d_AxisPlacement.hxx>
-#include <StepToGeom_MakeAxisPlacement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxisPlacement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 

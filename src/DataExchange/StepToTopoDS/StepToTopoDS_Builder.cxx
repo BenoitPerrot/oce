@@ -57,9 +57,9 @@
 #include <DataExchange/StepGeom/StepGeom_RectangularCompositeSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
 #include <DataExchange/StepShape/StepShape_GeometricSetSelect.hxx>
-#include <StepToGeom_MakeCurve.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
-#include <StepToGeom_MakeSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>

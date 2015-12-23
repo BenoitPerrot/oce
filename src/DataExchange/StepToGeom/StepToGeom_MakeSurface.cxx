@@ -21,24 +21,24 @@
 
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <StepToGeom_MakeSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepToGeom_MakeSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
-#include <StepToGeom_MakeBoundedSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBoundedSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
-#include <StepToGeom_MakeElementarySurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeElementarySurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
-#include <StepToGeom_MakeSweptSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSweptSurface.hxx>
 
 //:d4
 #include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceReplica.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
-#include <StepToGeom_MakeTransformation3d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTransformation3d.hxx>
 #include <UnitsMethods.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>

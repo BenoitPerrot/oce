@@ -16,10 +16,10 @@
 
 #include <DataExchange/StepGeom/StepGeom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
-#include <StepToGeom_MakeCylindricalSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
-#include <StepToGeom_MakeAxis2Placement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <UnitsMethods.hxx>

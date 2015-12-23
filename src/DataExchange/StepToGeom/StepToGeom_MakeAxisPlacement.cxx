@@ -18,9 +18,9 @@
 
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement2d.hxx>
 #include <Geometry/Geom2d/Geom2d_AxisPlacement.hxx>
-#include <StepToGeom_MakeAxisPlacement.hxx>
-#include <StepToGeom_MakeCartesianPoint2d.hxx>
-#include <StepToGeom_MakeDirection2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxisPlacement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeDirection2d.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_Direction.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

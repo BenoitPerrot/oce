@@ -18,11 +18,11 @@
 
 #include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
 #include <Geometry/Geom/Geom_Axis1Placement.hxx>
-#include <StepToGeom_MakeAxis1Placement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxis1Placement.hxx>
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepToGeom_MakeDirection.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeDirection.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

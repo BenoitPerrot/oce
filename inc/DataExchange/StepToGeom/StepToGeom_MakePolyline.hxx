@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepToGeom_Root.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Polyline.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>

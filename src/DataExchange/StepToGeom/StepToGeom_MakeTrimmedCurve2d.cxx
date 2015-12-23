@@ -19,7 +19,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <StepToGeom_MakeTrimmedCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTrimmedCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
@@ -36,9 +36,9 @@
 #include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
 #include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
-#include <StepToGeom_MakeTrimmedCurve2d.hxx>
-#include <StepToGeom_MakeCartesianPoint2d.hxx>
-#include <StepToGeom_MakeCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTrimmedCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve2d.hxx>
 
 #include <UnitsMethods.hxx>
 

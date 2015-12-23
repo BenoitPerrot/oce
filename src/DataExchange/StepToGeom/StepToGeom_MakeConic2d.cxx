@@ -18,16 +18,16 @@
 
 #include <DataExchange/StepGeom/StepGeom_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
-#include <StepToGeom_MakeConic2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeConic2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Conic.hxx>
 #include <DataExchange/StepGeom/StepGeom_Circle.hxx>
 #include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
 #include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
-#include <StepToGeom_MakeCircle2d.hxx>
-#include <StepToGeom_MakeEllipse2d.hxx>
-#include <StepToGeom_MakeHyperbola2d.hxx>
-#include <StepToGeom_MakeParabola2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCircle2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeEllipse2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeHyperbola2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeParabola2d.hxx>
 
 //=============================================================================
 // Creation d' une Conic de Geom2d a partir d' une Conic de Step

@@ -19,7 +19,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
-#include <StepToGeom_MakeBoundedCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBoundedCurve.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
@@ -31,10 +31,10 @@
 #include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_KnotType.hxx>
-#include <StepToGeom_MakeBSplineCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBSplineCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
-#include <StepToGeom_MakePolyline.hxx>
-#include <StepToGeom_MakeTrimmedCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakePolyline.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTrimmedCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

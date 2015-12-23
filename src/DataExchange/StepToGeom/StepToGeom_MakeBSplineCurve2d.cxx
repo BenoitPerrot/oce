@@ -16,7 +16,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <StepToGeom_MakeBSplineCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBSplineCurve2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
@@ -27,7 +27,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepToGeom_MakeCartesianPoint2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint2d.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 
 //=============================================================================
@@ -48,7 +48,7 @@ Standard_Boolean StepToGeom_MakeBSplineCurve2d::Convert
     (const Handle(StepGeom_BSplineCurve)& SC,
      Handle(Geom2d_BSplineCurve)& CC)
 
-#include <StepToGeom_MakeBSplineCurve.pxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBSplineCurve.pxx>
 
 #undef Array1OfPnt_gen
 #undef Pnt_gen

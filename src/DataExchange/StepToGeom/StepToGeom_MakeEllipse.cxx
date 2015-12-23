@@ -19,11 +19,11 @@
 
 #include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
-#include <StepToGeom_MakeEllipse.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeEllipse.hxx>
 #include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <StepToGeom_MakeAxis2Placement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <UnitsMethods.hxx>
 

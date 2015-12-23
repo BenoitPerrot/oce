@@ -18,9 +18,9 @@
 
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <StepToGeom_MakeTransformation2d.hxx>
-#include <StepToGeom_MakeCartesianPoint2d.hxx>
-#include <StepToGeom_MakeDirection2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTransformation2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeDirection2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>

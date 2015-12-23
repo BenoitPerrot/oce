@@ -36,8 +36,8 @@
 #include <StepToTopoDS_TranslateEdge.hxx>
 #include <StepToTopoDS_GeometricTool.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
-#include <StepToGeom_MakeCurve2d.hxx>
-#include <StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 

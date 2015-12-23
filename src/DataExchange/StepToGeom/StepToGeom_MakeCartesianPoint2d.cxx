@@ -16,7 +16,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
-#include <StepToGeom_MakeCartesianPoint2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 

@@ -26,7 +26,7 @@
 
 #include <StepToTopoDS_PointPair.hxx>
 
-#include <StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //#include <BRepAPI.hxx>

@@ -16,19 +16,19 @@
 
 //:p0 abv 19.02.99: management of 'done' flag improved
 //:j7 abv 05.04.99: S4136: ass-tol2.stp #9861: avoid using CheckSurfaceClosure
-//    rln 02.06.99 removing #include <StepToGeom_CheckSurfaceClosure.hxx>
+//    rln 02.06.99 removing #include <DataExchange/StepToGeom/StepToGeom_CheckSurfaceClosure.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
-#include <StepToGeom_MakeBoundedSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBoundedSurface.hxx>
 
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 
-//rln 02.06.99 #include <StepToGeom_CheckSurfaceClosure.hxx>
+//rln 02.06.99 #include <DataExchange/StepToGeom/StepToGeom_CheckSurfaceClosure.hxx>
 
-#include <StepToGeom_MakeBoundedSurface.hxx>
-#include <StepToGeom_MakeBSplineSurface.hxx>
-#include <StepToGeom_MakeRectangularTrimmedSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBoundedSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBSplineSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeRectangularTrimmedSurface.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_RectangularTrimmedSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>

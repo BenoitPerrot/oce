@@ -22,7 +22,7 @@
 #include <StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_TranslateVertex.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

@@ -21,7 +21,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
@@ -36,13 +36,13 @@
 #include <DataExchange/StepGeom/StepGeom_OffsetCurve3d.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 
-#include <StepToGeom_MakeDirection.hxx>
-#include <StepToGeom_MakeTrimmedCurve.hxx>
-#include <StepToGeom_MakeCurve.hxx>
-#include <StepToGeom_MakeLine.hxx>
-#include <StepToGeom_MakeConic.hxx>
-#include <StepToGeom_MakeBoundedCurve.hxx>
-#include <StepToGeom_MakeTransformation3d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeDirection.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTrimmedCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeLine.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeConic.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBoundedCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTransformation3d.hxx>
 
 //=============================================================================
 // Creation d' une Curve de Geom a partir d' une Curve de Step

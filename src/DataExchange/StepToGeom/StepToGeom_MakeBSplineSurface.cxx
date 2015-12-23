@@ -16,7 +16,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <StepToGeom_MakeBSplineSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBSplineSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnots.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -27,7 +27,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray2OfCartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

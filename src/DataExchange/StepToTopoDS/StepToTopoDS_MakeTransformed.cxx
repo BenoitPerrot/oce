@@ -24,7 +24,7 @@
 #include <Transfer_Binder.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 
-#include <StepToGeom_MakeAxis2Placement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_TrsfForm.hxx>
@@ -38,9 +38,9 @@
 #include <Geometry/Geom/Geom_Direction.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
-#include <StepToGeom_MakeDirection.hxx>
-#include <StepToGeom_MakeTransformation3d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeDirection.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTransformation3d.hxx>
 
 
 StepToTopoDS_MakeTransformed::StepToTopoDS_MakeTransformed ()

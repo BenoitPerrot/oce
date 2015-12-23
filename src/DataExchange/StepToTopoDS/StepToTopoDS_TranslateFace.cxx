@@ -33,7 +33,7 @@
 
 #include <StepToTopoDS.hxx>
 
-#include <StepToGeom_MakeSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 
 #include <StepToTopoDS_TranslateVertexLoop.hxx>
 #include <StepToTopoDS_TranslatePolyLoop.hxx>

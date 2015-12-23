@@ -18,12 +18,12 @@
 
 #include <DataExchange/StepGeom/StepGeom_Line.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <StepToGeom_MakeLine.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeLine.hxx>
 #include <DataExchange/StepGeom/StepGeom_Line.hxx>
 #include <DataExchange/StepGeom/StepGeom_Vector.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepToGeom_MakeVectorWithMagnitude.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeVectorWithMagnitude.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>

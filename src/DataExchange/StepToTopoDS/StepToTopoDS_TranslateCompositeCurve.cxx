@@ -34,7 +34,7 @@
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
-#include <StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>

@@ -18,7 +18,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <Geometry/Geom2d/Geom2d_Direction.hxx>
-#include <StepToGeom_MakeDirection2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeDirection2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 
 //=============================================================================

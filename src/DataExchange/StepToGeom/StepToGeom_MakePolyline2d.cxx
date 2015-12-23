@@ -16,8 +16,8 @@
 
 #include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <StepToGeom_MakePolyline2d.hxx>
-#include <StepToGeom_MakeCartesianPoint2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakePolyline2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 

@@ -16,9 +16,9 @@
 
 #include <DataExchange/StepGeom/StepGeom_Plane.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <StepToGeom_MakePlane.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakePlane.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
-#include <StepToGeom_MakeAxis2Placement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 

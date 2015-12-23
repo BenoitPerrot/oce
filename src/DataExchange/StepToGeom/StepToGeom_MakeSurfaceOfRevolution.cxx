@@ -16,16 +16,16 @@
 
 #include <DataExchange/StepGeom/StepGeom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
-#include <StepToGeom_MakeSurfaceOfRevolution.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurfaceOfRevolution.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_Axis1Placement.hxx>
-#include <StepToGeom_MakeAxis1Placement.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeAxis1Placement.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

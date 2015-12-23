@@ -18,18 +18,18 @@
 
 #include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
-#include <StepToGeom_MakeElementarySurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeElementarySurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_CylindricalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_ConicalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Plane.hxx>
-#include <StepToGeom_MakeCylindricalSurface.hxx>
-#include <StepToGeom_MakeConicalSurface.hxx>
-#include <StepToGeom_MakeSphericalSurface.hxx>
-#include <StepToGeom_MakeToroidalSurface.hxx>
-#include <StepToGeom_MakePlane.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCylindricalSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeConicalSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSphericalSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeToroidalSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakePlane.hxx>
 
 //=============================================================================
 // Creation d' une ElementarySurface de Geom a partir d' une 

@@ -18,14 +18,14 @@
 
 #include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
-#include <StepToGeom_MakeSurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurfaceOfLinearExtrusion.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
-#include <StepToGeom_MakeVectorWithMagnitude.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeVectorWithMagnitude.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

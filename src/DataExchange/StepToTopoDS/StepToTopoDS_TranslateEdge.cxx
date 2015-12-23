@@ -35,7 +35,7 @@
 #include <StepToTopoDS.hxx>
 #include <StepToTopoDS_TranslateVertex.hxx>
 #include <StepToTopoDS_GeometricTool.hxx>
-#include <StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
@@ -67,14 +67,14 @@
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Precision.hxx>
 
-#include <StepToGeom_MakeCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve2d.hxx>
 #include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
 #include <UnitsMethods.hxx>
 
 //:d8
 #include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 // Used in I-DEAS-like STP processing (ssv; 15.11.2010)

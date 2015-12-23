@@ -16,9 +16,9 @@
 
 #include <DataExchange/StepGeom/StepGeom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <StepToGeom_MakeRectangularTrimmedSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeRectangularTrimmedSurface.hxx>
 
-#include <StepToGeom_MakeSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>

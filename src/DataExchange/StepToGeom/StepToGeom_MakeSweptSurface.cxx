@@ -18,13 +18,13 @@
 
 #include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 #include <Geometry/Geom/Geom_SweptSurface.hxx>
-#include <StepToGeom_MakeSweptSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSweptSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
-#include <StepToGeom_MakeSweptSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSweptSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceOfRevolution.hxx>
-#include <StepToGeom_MakeSurfaceOfLinearExtrusion.hxx>
-#include <StepToGeom_MakeSurfaceOfRevolution.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurfaceOfRevolution.hxx>
 
 //=============================================================================
 // Creation d' une SweptSurface de prostep a partir d' une 

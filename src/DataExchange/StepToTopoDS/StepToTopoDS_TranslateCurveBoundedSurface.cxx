@@ -25,7 +25,7 @@
 #include <Precision.hxx>
 
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
-#include <StepToGeom_MakeSurface.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfSurfaceBoundary.hxx>
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
 

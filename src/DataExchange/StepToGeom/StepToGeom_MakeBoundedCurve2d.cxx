@@ -19,14 +19,14 @@
 
 #include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
-#include <StepToGeom_MakeBoundedCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBoundedCurve2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineCurveWithKnots.hxx>
 #include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
-#include <StepToGeom_MakeTrimmedCurve2d.hxx>
-#include <StepToGeom_MakeBSplineCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTrimmedCurve2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeBSplineCurve2d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
-#include <StepToGeom_MakePolyline2d.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakePolyline2d.hxx>
 
 //=============================================================================
 // Creation d' une BoundedCurve de Geom a partir d' une BoundedCurve de Step

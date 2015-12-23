@@ -22,7 +22,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <StepToGeom_MakeTrimmedCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -36,9 +36,9 @@
 #include <DataExchange/StepGeom/StepGeom_TrimmingSelect.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfTrimmingSelect.hxx>
 #include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
-#include <StepToGeom_MakeTrimmedCurve.hxx>
-#include <StepToGeom_MakeCartesianPoint.hxx>
-#include <StepToGeom_MakeCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeTrimmedCurve.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
+#include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 //#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 //#include <BRepAPI.hxx>
 #include <ElCLib.hxx>
