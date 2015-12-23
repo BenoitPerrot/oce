@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <DrawFairCurve_Batten.hxx>
+#include <Viewer/DrawFairCurve/DrawFairCurve_Batten.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawFairCurve_Batten)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

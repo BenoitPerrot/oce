@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawFairCurve_MinimalVariation.hxx>
 
-#include <DrawFairCurve_Batten.hxx>
+#include <Viewer/DrawFairCurve/DrawFairCurve_Batten.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

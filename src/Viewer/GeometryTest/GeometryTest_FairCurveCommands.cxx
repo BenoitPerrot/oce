@@ -23,8 +23,8 @@
 #include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
 #include <ModelingAlgorithms/FairCurve/FairCurve_Batten.hxx>
 #include <ModelingAlgorithms/FairCurve/FairCurve_MinimalVariation.hxx>
-#include <DrawFairCurve_Batten.hxx>
-#include <DrawFairCurve_MinimalVariation.hxx>
+#include <Viewer/DrawFairCurve/DrawFairCurve_Batten.hxx>
+#include <Viewer/DrawFairCurve/DrawFairCurve_MinimalVariation.hxx>
 #include <string.h>
 
 //=======================================================================

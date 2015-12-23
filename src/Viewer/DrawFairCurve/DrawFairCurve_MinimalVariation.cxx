@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawFairCurve_MinimalVariation.hxx>
+#include <Viewer/DrawFairCurve/DrawFairCurve_MinimalVariation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawFairCurve_MinimalVariation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
