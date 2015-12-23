@@ -16,7 +16,7 @@
 #include <StepRepr_MaterialDesignation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWMaterialDesignation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMaterialDesignation.hxx>
 #include <StepRepr_CharacterizedDefinition.hxx>
 
 

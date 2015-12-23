@@ -20,7 +20,7 @@
 #include <StepRepr_MaterialPropertyRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWMaterialPropertyRepresentation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMaterialPropertyRepresentation.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWMaterialPropertyRepresentation

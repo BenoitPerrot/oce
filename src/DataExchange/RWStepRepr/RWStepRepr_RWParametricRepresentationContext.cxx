@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepRepr_ParametricRepresentationContext.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepRepr_RWParametricRepresentationContext.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWParametricRepresentationContext.hxx>
 
 
 RWStepRepr_RWParametricRepresentationContext::RWStepRepr_RWParametricRepresentationContext () {}

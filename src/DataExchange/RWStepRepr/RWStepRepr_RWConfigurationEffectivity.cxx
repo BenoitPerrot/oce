@@ -21,7 +21,7 @@
 #include <StepRepr_ConfigurationEffectivity.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWConfigurationEffectivity.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWConfigurationEffectivity.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWConfigurationEffectivity

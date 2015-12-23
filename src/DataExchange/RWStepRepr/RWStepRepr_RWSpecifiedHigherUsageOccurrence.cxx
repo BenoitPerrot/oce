@@ -20,7 +20,7 @@
 #include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWSpecifiedHigherUsageOccurrence.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWSpecifiedHigherUsageOccurrence.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWSpecifiedHigherUsageOccurrence

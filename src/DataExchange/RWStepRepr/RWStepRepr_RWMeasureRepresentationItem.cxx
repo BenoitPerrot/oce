@@ -19,7 +19,7 @@
 #include <StepRepr_MeasureRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWMeasureRepresentationItem.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMeasureRepresentationItem.hxx>
 #include <StepRepr_MeasureRepresentationItem.hxx>
 #include <StepBasic_NamedUnit.hxx>
 #include <StepBasic_MeasureValueMember.hxx>

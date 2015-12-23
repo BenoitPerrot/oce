@@ -16,7 +16,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepRepr_FunctionallyDefinedTransformation.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepRepr_RWFunctionallyDefinedTransformation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWFunctionallyDefinedTransformation.hxx>
 
 
 RWStepRepr_RWFunctionallyDefinedTransformation::RWStepRepr_RWFunctionallyDefinedTransformation () {}

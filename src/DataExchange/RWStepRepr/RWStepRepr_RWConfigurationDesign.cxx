@@ -21,7 +21,7 @@
 #include <StepRepr_ConfigurationDesign.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWConfigurationDesign.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWConfigurationDesign.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWConfigurationDesign

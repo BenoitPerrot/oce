@@ -20,7 +20,7 @@
 #include <StepRepr_ShapeAspectTransition.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWShapeAspectTransition.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWShapeAspectTransition.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWShapeAspectTransition

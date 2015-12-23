@@ -544,10 +544,10 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDateRole.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDateTimeRole.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDefinedSymbol.hxx>
-#include <RWStepRepr_RWDefinitionalRepresentation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWDefinitionalRepresentation.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWDegeneratePcurve.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWDegenerateToroidalSurface.hxx>
-#include <RWStepRepr_RWDescriptiveRepresentationItem.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWDescriptiveRepresentationItem.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDimensionCurve.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWDimensionCurveTerminator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDimensionalExponents.hxx>
@@ -587,15 +587,15 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWFillAreaStyleHatching.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWFillAreaStyleTileSymbolWithStyle.hxx>
 // Removed from Rev2 to Rev4 :  <RWStepVisual_RWFillAreaStyleTiles.hxx>
-#include <RWStepRepr_RWFunctionallyDefinedTransformation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWFunctionallyDefinedTransformation.hxx>
 #include <RWStepShape_RWGeometricCurveSet.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationContext.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWGeometricRepresentationItem.hxx>
 #include <RWStepShape_RWGeometricSet.hxx>
 #include <RWStepShape_RWGeometricallyBoundedSurfaceShapeRepresentation.hxx>
 #include <RWStepShape_RWGeometricallyBoundedWireframeShapeRepresentation.hxx>
-#include <RWStepRepr_RWGlobalUncertaintyAssignedContext.hxx>
-#include <RWStepRepr_RWGlobalUnitAssignedContext.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWGlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWGlobalUnitAssignedContext.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWGroup.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWGroupRelationship.hxx>
 #include <RWStepShape_RWHalfSpaceSolid.hxx>
@@ -609,7 +609,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepShape_RWLoop.hxx>
 #include <RWStepShape_RWManifoldSolidBrep.hxx>
 #include <RWStepShape_RWManifoldSurfaceShapeRepresentation.hxx>
-#include <RWStepRepr_RWMappedItem.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMappedItem.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWMeasureWithUnit.hxx>
 #include <RWStepVisual_RWMechanicalDesignGeometricPresentationArea.hxx>
 #include <RWStepVisual_RWMechanicalDesignGeometricPresentationRepresentation.hxx>
@@ -632,7 +632,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepGeom/RWStepGeom_RWOuterBoundaryCurve.hxx>
 #include <RWStepVisual_RWOverRidingStyledItem.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWParabola.hxx>
-#include <RWStepRepr_RWParametricRepresentationContext.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWParametricRepresentationContext.hxx>
 #include <RWStepShape_RWPath.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWPcurve.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWPerson.hxx>
@@ -673,11 +673,11 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionContext.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormation.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormationWithSpecifiedSource.hxx>
-#include <RWStepRepr_RWProductDefinitionShape.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWProductDefinitionShape.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductRelatedProductCategory.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductType.hxx>
-#include <RWStepRepr_RWPropertyDefinition.hxx>
-#include <RWStepRepr_RWPropertyDefinitionRepresentation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWPropertyDefinition.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWPropertyDefinitionRepresentation.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformCurve.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformSurface.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWRatioMeasureWithUnit.hxx>
@@ -687,11 +687,11 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepGeom/RWStepGeom_RWRectangularTrimmedSurface.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWRepItemGroup.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWReparametrisedCompositeCurveSegment.hxx>
-#include <RWStepRepr_RWRepresentation.hxx>
-#include <RWStepRepr_RWRepresentationContext.hxx>
-#include <RWStepRepr_RWRepresentationItem.hxx>
-#include <RWStepRepr_RWRepresentationMap.hxx>
-#include <RWStepRepr_RWRepresentationRelationship.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationContext.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationItem.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationMap.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationRelationship.hxx>
 #include <RWStepShape_RWRevolvedAreaSolid.hxx>
 #include <RWStepShape_RWRightAngularWedge.hxx>
 #include <RWStepShape_RWRightCircularCone.hxx>
@@ -699,9 +699,9 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSeamCurve.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassification.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassificationLevel.hxx>
-#include <RWStepRepr_RWShapeAspect.hxx>
-#include <RWStepRepr_RWShapeAspectRelationship.hxx>
-#include <RWStepRepr_RWShapeAspectTransition.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWShapeAspect.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWShapeAspectRelationship.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWShapeAspectTransition.hxx>
 #include <RWStepShape_RWShapeDefinitionRepresentation.hxx>
 #include <RWStepShape_RWShapeRepresentation.hxx>
 #include <RWStepShape_RWShellBasedSurfaceModel.hxx>
@@ -796,7 +796,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalDateTime.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDerivedUnit.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWDerivedUnitElement.hxx>
-#include <RWStepRepr_RWItemDefinedTransformation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWItemDefinedTransformation.hxx>
 #include <RWStepVisual_RWPresentedItemRepresentation.hxx>
 #include <RWStepVisual_RWPresentationLayerUsage.hxx>
 
@@ -815,14 +815,14 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionWithAssociatedDocuments.hxx>
 
 
-#include <RWStepRepr_RWMakeFromUsageOption.hxx>
-#include <RWStepRepr_RWAssemblyComponentUsage.hxx>
-#include <RWStepRepr_RWQuantifiedAssemblyComponentUsage.hxx>
-#include <RWStepRepr_RWSpecifiedHigherUsageOccurrence.hxx>
-#include <RWStepRepr_RWAssemblyComponentUsageSubstitute.hxx>
-#include <RWStepRepr_RWRepresentationRelationshipWithTransformation.hxx>
-#include <RWStepRepr_RWShapeRepresentationRelationshipWithTransformation.hxx>
-#include <RWStepRepr_RWMaterialDesignation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMakeFromUsageOption.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWAssemblyComponentUsage.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWQuantifiedAssemblyComponentUsage.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWSpecifiedHigherUsageOccurrence.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWAssemblyComponentUsageSubstitute.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWShapeRepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMaterialDesignation.hxx>
 
 #include <RWStepShape_RWContextDependentShapeRepresentation.hxx>
 //Added from CC2 to DIS :j4
@@ -859,7 +859,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 
 // Added by ABV 08.09.99 for CAX TRJ 2 (validation properties)
 #include <StepRepr_MeasureRepresentationItem.hxx>
-#include <RWStepRepr_RWMeasureRepresentationItem.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMeasureRepresentationItem.hxx>
 #include <StepBasic_AreaUnit.hxx>
 #include <StepBasic_VolumeUnit.hxx>
 #include <StepBasic_SiUnitAndAreaUnit.hxx>
@@ -914,12 +914,12 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepBasic/RWStepBasic_RWCertificationType.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWChange.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWChangeRequest.hxx>
-#include <RWStepRepr_RWConfigurationDesign.hxx>
-#include <RWStepRepr_RWConfigurationEffectivity.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWConfigurationDesign.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWConfigurationEffectivity.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWContract.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWContractAssignment.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWContractType.hxx>
-#include <RWStepRepr_RWProductConcept.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWProductConcept.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductConceptContext.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWStartRequest.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWStartWork.hxx>
@@ -1003,7 +1003,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <RWStepShape_RWTypeQualifier.hxx>
 #include <RWStepShape_RWQualifiedRepresentationItem.hxx>
 #include <RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
-#include <RWStepRepr_RWCompoundRepresentationItem.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWCompoundRepresentationItem.hxx>
 
 // abv 28.12.01: CAX-IF TRJ9: edge_based_wireframe
 #include <StepShape_CompoundShapeRepresentation.hxx>
@@ -1171,18 +1171,18 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepFEA/RWStepFEA_RWParametricSurface3dElementCoordinateSystem.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWSurface3dElementRepresentation.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWVolume3dElementRepresentation.hxx>
-#include <RWStepRepr_RWDataEnvironment.hxx>
-#include <RWStepRepr_RWMaterialPropertyRepresentation.hxx>
-#include <RWStepRepr_RWPropertyDefinitionRelationship.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWDataEnvironment.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMaterialPropertyRepresentation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWPropertyDefinitionRelationship.hxx>
 #include <RWStepShape_RWPointRepresentation.hxx>
-#include <RWStepRepr_RWMaterialProperty.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMaterialProperty.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWFeaModelDefinition.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWFreedomAndCoefficient.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWFreedomsList.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormationRelationship.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWNodeDefinition.hxx>
-#include <RWStepRepr_RWStructuralResponseProperty.hxx>
-#include <RWStepRepr_RWStructuralResponsePropertyDefinitionRepresentation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWStructuralResponseProperty.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWStructuralResponsePropertyDefinitionRepresentation.hxx>
 
 #include <StepBasic_SiUnitAndMassUnit.hxx>
 #include <StepBasic_SiUnitAndThermodynamicTemperatureUnit.hxx>
@@ -1237,9 +1237,9 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <StepRepr_CompositeShapeAspect.hxx>
 #include <StepRepr_DerivedShapeAspect.hxx>
 #include <StepRepr_Extension.hxx>
-#include <RWStepRepr_RWCompositeShapeAspect.hxx>
-#include <RWStepRepr_RWDerivedShapeAspect.hxx>
-#include <RWStepRepr_RWExtension.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWCompositeShapeAspect.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWDerivedShapeAspect.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWExtension.hxx>
 #include <RWStepShape_RWShapeRepresentationWithParameters.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWAngularityTolerance.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWConcentricityTolerance.hxx>
@@ -1268,7 +1268,7 @@ IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWGeometricToleranceRelationship.hxx>
 
 #include <StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
-#include <RWStepRepr_RWReprItemAndLengthMeasureWithUnit.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWReprItemAndLengthMeasureWithUnit.hxx>
 #include <StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 #include <DataExchange/RWStepDimTol/RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 

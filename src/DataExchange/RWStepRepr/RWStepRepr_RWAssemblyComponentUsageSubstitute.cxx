@@ -17,7 +17,7 @@
 #include <StepRepr_AssemblyComponentUsageSubstitute.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWAssemblyComponentUsageSubstitute.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWAssemblyComponentUsageSubstitute.hxx>
 #include <StepRepr_AssemblyComponentUsage.hxx>
 
 

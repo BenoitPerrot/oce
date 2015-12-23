@@ -20,7 +20,7 @@
 #include <StepRepr_CompositeShapeAspect.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWCompositeShapeAspect.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWCompositeShapeAspect.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWCompositeShapeAspect

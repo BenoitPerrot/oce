@@ -20,7 +20,7 @@
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWProductDefinitionShape.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWProductDefinitionShape.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWProductDefinitionShape

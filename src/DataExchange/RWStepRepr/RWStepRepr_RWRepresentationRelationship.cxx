@@ -17,7 +17,7 @@
 #include <StepRepr_RepresentationRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWRepresentationRelationship.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationRelationship.hxx>
 #include <StepRepr_Representation.hxx>
 
 

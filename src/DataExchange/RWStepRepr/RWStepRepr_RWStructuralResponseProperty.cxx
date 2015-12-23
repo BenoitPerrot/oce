@@ -20,7 +20,7 @@
 #include <StepRepr_StructuralResponseProperty.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWStructuralResponseProperty.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWStructuralResponseProperty.hxx>
 
 //#include <StepRepr_RepresentedDefinition.hxx>
 

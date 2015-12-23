@@ -20,7 +20,7 @@
 #include <StepRepr_AssemblyComponentUsage.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWAssemblyComponentUsage.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWAssemblyComponentUsage.hxx>
 
 #include <StepRepr_ProductDefinitionShape.hxx>
 

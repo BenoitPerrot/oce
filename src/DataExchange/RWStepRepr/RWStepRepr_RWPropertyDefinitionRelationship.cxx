@@ -20,7 +20,7 @@
 #include <StepRepr_PropertyDefinitionRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWPropertyDefinitionRelationship.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWPropertyDefinitionRelationship.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWPropertyDefinitionRelationship

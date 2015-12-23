@@ -17,7 +17,7 @@
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWShapeAspect.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWShapeAspect.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepData_Logical.hxx>
 

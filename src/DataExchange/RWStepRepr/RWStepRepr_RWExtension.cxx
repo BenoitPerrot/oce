@@ -20,7 +20,7 @@
 #include <StepRepr_Extension.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWExtension.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWExtension.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWExtension

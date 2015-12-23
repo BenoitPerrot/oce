@@ -20,7 +20,7 @@
 #include <StepRepr_MakeFromUsageOption.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWMakeFromUsageOption.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWMakeFromUsageOption.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWMakeFromUsageOption

@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepRepr_RWRepresentationContext.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWRepresentationContext.hxx>
 
 
 RWStepRepr_RWRepresentationContext::RWStepRepr_RWRepresentationContext () {}

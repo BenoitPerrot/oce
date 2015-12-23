@@ -16,7 +16,7 @@
 #include <StepRepr_DefinitionalRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWDefinitionalRepresentation.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWDefinitionalRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>

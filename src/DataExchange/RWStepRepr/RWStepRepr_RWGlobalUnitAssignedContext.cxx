@@ -16,7 +16,7 @@
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWGlobalUnitAssignedContext.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWGlobalUnitAssignedContext.hxx>
 #include <StepBasic_HArray1OfNamedUnit.hxx>
 #include <StepBasic_NamedUnit.hxx>
 

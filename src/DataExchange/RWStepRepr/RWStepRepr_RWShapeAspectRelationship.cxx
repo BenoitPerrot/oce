@@ -20,7 +20,7 @@
 #include <StepRepr_ShapeAspectRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepRepr_RWShapeAspectRelationship.hxx>
+#include <DataExchange/RWStepRepr/RWStepRepr_RWShapeAspectRelationship.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWShapeAspectRelationship
