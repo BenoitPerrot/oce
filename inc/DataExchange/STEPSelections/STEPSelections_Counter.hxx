@@ -91,7 +91,7 @@ private:
 };
 
 
-#include <STEPSelections_Counter.lxx>
+#include <DataExchange/STEPSelections/STEPSelections_Counter.lxx>
 
 
 

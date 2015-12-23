@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPSelections_HSequenceOfAssemblyLink.hxx>
 
-#include <STEPSelections_SequenceOfAssemblyLink.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SequenceOfAssemblyLink.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_STEPSelections_AssemblyLink.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(STEPSelections_AssemblyLink)
-#define Item_hxx <STEPSelections_AssemblyLink.hxx>
+#define Item_hxx <DataExchange/STEPSelections/STEPSelections_AssemblyLink.hxx>
 #define TheSequence STEPSelections_SequenceOfAssemblyLink
-#define TheSequence_hxx <STEPSelections_SequenceOfAssemblyLink.hxx>
+#define TheSequence_hxx <DataExchange/STEPSelections/STEPSelections_SequenceOfAssemblyLink.hxx>
 #define TCollection_HSequence STEPSelections_HSequenceOfAssemblyLink
-#define TCollection_HSequence_hxx <STEPSelections_HSequenceOfAssemblyLink.hxx>
+#define TCollection_HSequence_hxx <DataExchange/STEPSelections/STEPSelections_HSequenceOfAssemblyLink.hxx>
 #define Handle_TCollection_HSequence Handle_STEPSelections_HSequenceOfAssemblyLink
 #define TCollection_HSequence_Type_() STEPSelections_HSequenceOfAssemblyLink_Type_()
 

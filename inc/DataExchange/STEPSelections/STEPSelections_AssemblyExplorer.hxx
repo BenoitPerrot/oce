@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <STEPSelections_SequenceOfAssemblyComponent.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SequenceOfAssemblyComponent.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
@@ -75,7 +75,7 @@ private:
 };
 
 
-#include <STEPSelections_AssemblyExplorer.lxx>
+#include <DataExchange/STEPSelections/STEPSelections_AssemblyExplorer.lxx>
 
 
 

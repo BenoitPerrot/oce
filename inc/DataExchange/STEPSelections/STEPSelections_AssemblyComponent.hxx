@@ -56,7 +56,7 @@ private:
 };
 
 
-#include <STEPSelections_AssemblyComponent.lxx>
+#include <DataExchange/STEPSelections/STEPSelections_AssemblyComponent.lxx>
 
 
 

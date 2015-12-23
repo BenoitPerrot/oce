@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(STEPSelections_AssemblyComponent)
-#define SeqItem_hxx <STEPSelections_AssemblyComponent.hxx>
+#define SeqItem_hxx <DataExchange/STEPSelections/STEPSelections_AssemblyComponent.hxx>
 #define TCollection_SequenceNode STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent
-#define TCollection_SequenceNode_hxx <STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/STEPSelections/STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent.hxx>
 #define Handle_TCollection_SequenceNode Handle_STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent
 #define TCollection_SequenceNode_Type_() STEPSelections_SequenceNodeOfSequenceOfAssemblyComponent_Type_()
 #define TCollection_Sequence STEPSelections_SequenceOfAssemblyComponent
-#define TCollection_Sequence_hxx <STEPSelections_SequenceOfAssemblyComponent.hxx>
+#define TCollection_Sequence_hxx <DataExchange/STEPSelections/STEPSelections_SequenceOfAssemblyComponent.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

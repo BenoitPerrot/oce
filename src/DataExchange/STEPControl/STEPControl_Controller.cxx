@@ -62,13 +62,13 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignAncestor.hxx>
-#include <STEPSelections_SelectFaces.hxx>
-#include <STEPSelections_SelectDerived.hxx>
-#include <STEPSelections_SelectGSCurves.hxx>
-#include <STEPSelections_SelectInstances.hxx>
-#include <STEPSelections_SelectAssembly.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectFaces.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectDerived.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectGSCurves.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectInstances.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectAssembly.hxx>
 #include <XSAlgo.hxx>
-#include <STEPSelections_SelectForTransfer.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectForTransfer.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
 
 

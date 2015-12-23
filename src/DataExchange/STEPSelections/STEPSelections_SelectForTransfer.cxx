@@ -14,7 +14,7 @@
 #include <XSControl_TransferReader.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
-#include <STEPSelections_SelectForTransfer.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectForTransfer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPSelections_SelectForTransfer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

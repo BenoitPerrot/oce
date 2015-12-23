@@ -63,7 +63,7 @@ private:
 };
 
 
-#include <STEPSelections_AssemblyLink.lxx>
+#include <DataExchange/STEPSelections/STEPSelections_AssemblyLink.lxx>
 
 
 

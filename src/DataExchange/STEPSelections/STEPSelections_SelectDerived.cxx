@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <STEPSelections_SelectDerived.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectDerived.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPSelections_SelectDerived)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

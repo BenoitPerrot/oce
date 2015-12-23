@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
-#include <STEPSelections_Counter.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_Counter.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>

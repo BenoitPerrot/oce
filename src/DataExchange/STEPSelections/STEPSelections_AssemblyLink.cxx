@@ -16,8 +16,8 @@
 
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <STEPSelections_AssemblyComponent.hxx>
-#include <STEPSelections_AssemblyLink.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_AssemblyComponent.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_AssemblyLink.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPSelections_AssemblyLink)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

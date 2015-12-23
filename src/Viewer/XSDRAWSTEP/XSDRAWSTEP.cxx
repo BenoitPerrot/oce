@@ -52,8 +52,8 @@
 #include <stdio.h>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
-#include <STEPSelections_Counter.hxx>
-#include <STEPSelections_AssemblyExplorer.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_Counter.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_AssemblyExplorer.hxx>
 
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <Transfer_TransientProcess.hxx>

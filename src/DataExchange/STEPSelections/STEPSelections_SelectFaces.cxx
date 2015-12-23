@@ -18,7 +18,7 @@
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <STEPSelections_SelectFaces.hxx>
+#include <DataExchange/STEPSelections/STEPSelections_SelectFaces.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPSelections_SelectFaces)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
