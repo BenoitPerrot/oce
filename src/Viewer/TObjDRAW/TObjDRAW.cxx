@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TObjDRAW.hxx>
+#include <Viewer/TObjDRAW/TObjDRAW.hxx>
 #include <stdio.h>
 
 #include <OCAF/TObj/TObj_Model.hxx>
