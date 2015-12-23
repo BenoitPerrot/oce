@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESGraph_ToolColor.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolColor.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>

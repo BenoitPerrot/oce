@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 
  
 
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_HArray1OfHArray1OfTextDisplayTemplate)
 
 #define Handle_TheKey Handle_IGESGraph_HArray1OfTextDisplayTemplate
 #define TheKey IGESGraph_HArray1OfTextDisplayTemplate
-#define TheKey_hxx <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#define TheKey_hxx <DataExchange/IGESGraph/IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #define Interface_JaggedArray IGESDefs_HArray1OfHArray1OfTextDisplayTemplate
 #define Interface_JaggedArray_hxx <DataExchange/IGESDefs/IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #define Handle_Interface_JaggedArray Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate

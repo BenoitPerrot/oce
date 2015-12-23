@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 
-#include <IGESGraph_Array1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Array1OfTextDisplayTemplate.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_TextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESGraph_TextDisplayTemplate)
-#define ItemHArray1_hxx <IGESGraph_TextDisplayTemplate.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
 #define TheArray1 IGESGraph_Array1OfTextDisplayTemplate
-#define TheArray1_hxx <IGESGraph_Array1OfTextDisplayTemplate.hxx>
+#define TheArray1_hxx <DataExchange/IGESGraph/IGESGraph_Array1OfTextDisplayTemplate.hxx>
 #define TCollection_HArray1 IGESGraph_HArray1OfTextDisplayTemplate
-#define TCollection_HArray1_hxx <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESGraph/IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGraph_HArray1OfTextDisplayTemplate
 #define TCollection_HArray1_Type_() IGESGraph_HArray1OfTextDisplayTemplate_Type_()
 

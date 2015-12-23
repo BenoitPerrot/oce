@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_Color)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGraph_Pick.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Pick.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_Pick)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

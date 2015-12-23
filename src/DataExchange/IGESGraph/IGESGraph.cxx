@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESGraph_Protocol.hxx>
-#include <IGESGraph.hxx>
-#include <IGESGraph_Protocol.hxx>
-#include <IGESGraph_GeneralModule.hxx>
-#include <IGESGraph_ReadWriteModule.hxx>
-#include <IGESGraph_SpecificModule.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Protocol.hxx>
+#include <DataExchange/IGESGraph/IGESGraph.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Protocol.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_GeneralModule.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ReadWriteModule.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_SpecificModule.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>

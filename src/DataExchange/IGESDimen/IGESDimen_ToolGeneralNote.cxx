@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_ToolGeneralNote.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextFontDef.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -38,7 +38,7 @@
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <IGESGraph_HArray1OfTextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfTextFontDef.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>

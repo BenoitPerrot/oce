@@ -18,7 +18,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGraph_DefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_DefinitionLevel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

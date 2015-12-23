@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGraph_HArray1OfColor.hxx>
 
-#include <IGESGraph_Array1OfColor.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Array1OfColor.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_Color.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESGraph_Color)
-#define ItemHArray1_hxx <IGESGraph_Color.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #define TheArray1 IGESGraph_Array1OfColor
-#define TheArray1_hxx <IGESGraph_Array1OfColor.hxx>
+#define TheArray1_hxx <DataExchange/IGESGraph/IGESGraph_Array1OfColor.hxx>
 #define TCollection_HArray1 IGESGraph_HArray1OfColor
-#define TCollection_HArray1_hxx <IGESGraph_HArray1OfColor.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESGraph/IGESGraph_HArray1OfColor.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGraph_HArray1OfColor
 #define TCollection_HArray1_Type_() IGESGraph_HArray1OfColor_Type_()
 

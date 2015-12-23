@@ -30,14 +30,14 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESDefs/IGESDefs_ToolAttributeDef.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <DataExchange/IGESDefs/IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>

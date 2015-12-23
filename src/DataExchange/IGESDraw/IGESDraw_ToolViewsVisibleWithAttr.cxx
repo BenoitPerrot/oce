@@ -31,11 +31,11 @@
 #include <DataExchange/IGESDraw/IGESDraw_ToolViewsVisibleWithAttr.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <IGESGraph_HArray1OfColor.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfColor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>

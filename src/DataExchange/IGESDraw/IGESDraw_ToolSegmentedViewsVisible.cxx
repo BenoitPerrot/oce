@@ -31,8 +31,8 @@
 #include <DataExchange/IGESDraw/IGESDraw_ToolSegmentedViewsVisible.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
-#include <IGESGraph_Color.hxx>
-#include <IGESGraph_HArray1OfColor.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfColor.hxx>
 #include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESGraph_Color)
-#define Array1Item_hxx <IGESGraph_Color.hxx>
+#define Array1Item_hxx <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #define TCollection_Array1 IGESGraph_Array1OfColor
-#define TCollection_Array1_hxx <IGESGraph_Array1OfColor.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESGraph/IGESGraph_Array1OfColor.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

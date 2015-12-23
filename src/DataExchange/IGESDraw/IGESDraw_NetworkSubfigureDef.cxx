@@ -18,7 +18,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>

@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGraph_HighLight.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HighLight.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_HighLight)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

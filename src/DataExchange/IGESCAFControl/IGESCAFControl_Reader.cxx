@@ -27,7 +27,7 @@
 #include <TransferBRep.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>
-#include <IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <XCAFDoc_DocumentTool.hxx>

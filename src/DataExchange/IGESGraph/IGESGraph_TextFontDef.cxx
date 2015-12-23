@@ -17,12 +17,12 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextFontDef.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextFontDef.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_TextFontDef)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

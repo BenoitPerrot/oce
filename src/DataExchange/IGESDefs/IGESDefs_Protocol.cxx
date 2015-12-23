@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_Protocol)
 #include <DataExchange/IGESDefs/IGESDefs_GenericData.hxx>
 #include <DataExchange/IGESDefs/IGESDefs_AttributeTable.hxx>
 
-#include  <IGESGraph.hxx>
-#include  <IGESGraph_Protocol.hxx>
+#include  <DataExchange/IGESGraph/IGESGraph.hxx>
+#include  <DataExchange/IGESGraph/IGESGraph_Protocol.hxx>
 
 static int deja = 0;
 static Handle(Standard_Type) atype1,atype2,atype3,atype4,atype5,atype6,atype7;

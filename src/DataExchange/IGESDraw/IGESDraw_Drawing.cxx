@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(IGESDraw_Drawing)
 #include <DataExchange/IGESDraw/IGESDraw_View.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
 
-#include <IGESGraph_DrawingUnits.hxx>
-#include <IGESGraph_DrawingSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DrawingUnits.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DrawingSize.hxx>
 
 #include <Interface_Macros.hxx>
 

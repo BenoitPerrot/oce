@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectLevelNumber)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectLevelNumber,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectLevelNumber)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGraph_DefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 

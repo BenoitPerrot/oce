@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_SignColor,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SignColor)
 #include <Interface_Macros.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

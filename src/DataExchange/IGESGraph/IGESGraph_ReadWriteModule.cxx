@@ -16,7 +16,7 @@
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
-#include <IGESGraph_ReadWriteModule.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_ReadWriteModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,35 +30,35 @@ IMPLEMENT_DOWNCAST(IGESGraph_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGraph_ReadWriteModule)
 #include <Interface_Macros.hxx>
 
-#include <IGESGraph_Color.hxx>
-#include <IGESGraph_DefinitionLevel.hxx>
-#include <IGESGraph_DrawingSize.hxx>
-#include <IGESGraph_DrawingUnits.hxx>
-#include <IGESGraph_HighLight.hxx>
-#include <IGESGraph_IntercharacterSpacing.hxx>
-#include <IGESGraph_LineFontDefPattern.hxx>
-#include <IGESGraph_LineFontPredefined.hxx>
-#include <IGESGraph_LineFontDefTemplate.hxx>
-#include <IGESGraph_NominalSize.hxx>
-#include <IGESGraph_Pick.hxx>
-#include <IGESGraph_TextDisplayTemplate.hxx>
-#include <IGESGraph_TextFontDef.hxx>
-#include <IGESGraph_UniformRectGrid.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DrawingSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DrawingUnits.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HighLight.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_IntercharacterSpacing.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontDefPattern.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontPredefined.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontDefTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_NominalSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Pick.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_UniformRectGrid.hxx>
 
-#include <IGESGraph_ToolColor.hxx>
-#include <IGESGraph_ToolDefinitionLevel.hxx>
-#include <IGESGraph_ToolDrawingSize.hxx>
-#include <IGESGraph_ToolDrawingUnits.hxx>
-#include <IGESGraph_ToolHighLight.hxx>
-#include <IGESGraph_ToolIntercharacterSpacing.hxx>
-#include <IGESGraph_ToolLineFontDefPattern.hxx>
-#include <IGESGraph_ToolLineFontPredefined.hxx>
-#include <IGESGraph_ToolLineFontDefTemplate.hxx>
-#include <IGESGraph_ToolNominalSize.hxx>
-#include <IGESGraph_ToolPick.hxx>
-#include <IGESGraph_ToolTextDisplayTemplate.hxx>
-#include <IGESGraph_ToolTextFontDef.hxx>
-#include <IGESGraph_ToolUniformRectGrid.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolColor.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolDefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolDrawingSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolDrawingUnits.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolHighLight.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolIntercharacterSpacing.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolLineFontDefPattern.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolLineFontPredefined.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolLineFontDefTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolNominalSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolPick.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolTextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolTextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolUniformRectGrid.hxx>
 
 
 

@@ -51,9 +51,9 @@ IMPLEMENT_STANDARD_RTTI(IGESDimen_Protocol)
 #include <DataExchange/IGESDimen/IGESDimen_GeneralLabel.hxx>
 
 #include <DataExchange/IGESGeom/IGESGeom.hxx>
-#include <IGESGraph.hxx>
+#include <DataExchange/IGESGraph/IGESGraph.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Protocol.hxx>
-#include <IGESGraph_Protocol.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Protocol.hxx>
 
 static int deja = 0;
 static Handle(Standard_Type) atype01,atype02,atype03,atype04,atype05,atype06,

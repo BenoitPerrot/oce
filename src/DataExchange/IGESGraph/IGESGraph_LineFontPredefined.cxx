@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGraph_LineFontPredefined.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontPredefined.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_LineFontPredefined)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

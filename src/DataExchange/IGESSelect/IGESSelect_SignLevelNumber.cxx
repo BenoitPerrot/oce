@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SignLevelNumber)
 IMPLEMENT_DOWNCAST(IGESSelect_SignLevelNumber,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SignLevelNumber)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGraph_DefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>

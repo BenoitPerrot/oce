@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGraph_LineFontDefPattern.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontDefPattern.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_LineFontDefPattern)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

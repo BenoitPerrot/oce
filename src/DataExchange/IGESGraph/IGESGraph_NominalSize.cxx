@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESGraph_NominalSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_NominalSize.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_NominalSize)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

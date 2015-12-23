@@ -22,7 +22,7 @@
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <DataExchange/IGESGeom/IGESGeom.hxx>
-#include <IGESGraph.hxx>
+#include <DataExchange/IGESGraph/IGESGraph.hxx>
 
 //  Ancillary data to work on a Package of IGES Entities with a Protocol
 //  (Modules are created and loaded in appropriate libraries, once by Init)

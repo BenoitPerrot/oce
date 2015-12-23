@@ -19,12 +19,12 @@
 #include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <IGESGraph_HArray1OfColor.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfColor.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
-#include <IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_SegmentedViewsVisible.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

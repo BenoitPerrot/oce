@@ -18,7 +18,7 @@
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>

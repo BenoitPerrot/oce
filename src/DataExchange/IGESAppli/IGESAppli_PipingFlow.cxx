@@ -19,12 +19,12 @@
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_HArray1OfConnectPoint.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_PipingFlow.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_PipingFlow)

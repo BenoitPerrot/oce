@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGraph_HArray1OfTextFontDef.hxx>
 
-#include <IGESGraph_Array1OfTextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Array1OfTextFontDef.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGraph_TextFontDef.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESGraph_TextFontDef)
-#define ItemHArray1_hxx <IGESGraph_TextFontDef.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESGraph/IGESGraph_TextFontDef.hxx>
 #define TheArray1 IGESGraph_Array1OfTextFontDef
-#define TheArray1_hxx <IGESGraph_Array1OfTextFontDef.hxx>
+#define TheArray1_hxx <DataExchange/IGESGraph/IGESGraph_Array1OfTextFontDef.hxx>
 #define TCollection_HArray1 IGESGraph_HArray1OfTextFontDef
-#define TCollection_HArray1_hxx <IGESGraph_HArray1OfTextFontDef.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESGraph/IGESGraph_HArray1OfTextFontDef.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGraph_HArray1OfTextFontDef
 #define TCollection_HArray1_Type_() IGESGraph_HArray1OfTextFontDef_Type_()
 

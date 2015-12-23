@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESGraph_TextDisplayTemplate)
-#define Array1Item_hxx <IGESGraph_TextDisplayTemplate.hxx>
+#define Array1Item_hxx <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
 #define TCollection_Array1 IGESGraph_Array1OfTextDisplayTemplate
-#define TCollection_Array1_hxx <IGESGraph_Array1OfTextDisplayTemplate.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESGraph/IGESGraph_Array1OfTextDisplayTemplate.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

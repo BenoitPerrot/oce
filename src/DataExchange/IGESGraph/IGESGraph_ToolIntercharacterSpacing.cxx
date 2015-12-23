@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESGraph_IntercharacterSpacing.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_IntercharacterSpacing.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESGraph_ToolIntercharacterSpacing.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_ToolIntercharacterSpacing.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 
 

@@ -18,12 +18,12 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <IGESGraph_HArray1OfTextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HArray1OfTextFontDef.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextFontDef.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>

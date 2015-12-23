@@ -31,7 +31,7 @@
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
@@ -40,7 +40,7 @@
 #include <Transfer_TransientListBinder.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <XCAFDoc_LayerTool.hxx>
-#include <IGESGraph_DefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

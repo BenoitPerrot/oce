@@ -13,7 +13,7 @@
 
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <IGESGraph_Protocol.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,20 +26,20 @@ IMPLEMENT_STANDARD_TYPE_END(IGESGraph_Protocol)
 IMPLEMENT_DOWNCAST(IGESGraph_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGraph_Protocol)
 
-#include <IGESGraph_LineFontDefPattern.hxx>
-#include <IGESGraph_Color.hxx>
-#include <IGESGraph_LineFontPredefined.hxx>
-#include <IGESGraph_DefinitionLevel.hxx>
-#include <IGESGraph_LineFontDefTemplate.hxx>
-#include <IGESGraph_DrawingSize.hxx>
-#include <IGESGraph_NominalSize.hxx>
-#include <IGESGraph_DrawingUnits.hxx>
-#include <IGESGraph_Pick.hxx>
-#include <IGESGraph_TextDisplayTemplate.hxx>
-#include <IGESGraph_HighLight.hxx>
-#include <IGESGraph_TextFontDef.hxx>
-#include <IGESGraph_IntercharacterSpacing.hxx>
-#include <IGESGraph_UniformRectGrid.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontDefPattern.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontPredefined.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_LineFontDefTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DrawingSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_NominalSize.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_DrawingUnits.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_Pick.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_HighLight.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_IntercharacterSpacing.hxx>
+#include <DataExchange/IGESGraph/IGESGraph_UniformRectGrid.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Protocol.hxx>
