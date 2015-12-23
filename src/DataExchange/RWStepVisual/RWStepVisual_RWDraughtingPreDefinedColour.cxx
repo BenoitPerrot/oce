@@ -15,10 +15,10 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_DraughtingPreDefinedColour.hxx>
+#include <DataExchange/StepVisual/StepVisual_DraughtingPreDefinedColour.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWDraughtingPreDefinedColour.hxx>
-#include <StepVisual_PreDefinedItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_PreDefinedItem.hxx>
 
 
 RWStepVisual_RWDraughtingPreDefinedColour::RWStepVisual_RWDraughtingPreDefinedColour () {}

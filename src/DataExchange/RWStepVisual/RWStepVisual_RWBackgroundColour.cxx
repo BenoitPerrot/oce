@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_BackgroundColour.hxx>
+#include <DataExchange/StepVisual/StepVisual_BackgroundColour.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWBackgroundColour.hxx>
-#include <StepVisual_AreaOrView.hxx>
+#include <DataExchange/StepVisual/StepVisual_AreaOrView.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_BackgroundColour.hxx>
+#include <DataExchange/StepVisual/StepVisual_BackgroundColour.hxx>
 
 
 RWStepVisual_RWBackgroundColour::RWStepVisual_RWBackgroundColour () {}

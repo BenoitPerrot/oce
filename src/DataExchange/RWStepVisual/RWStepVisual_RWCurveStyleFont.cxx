@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_CurveStyleFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFont.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWCurveStyleFont.hxx>
-#include <StepVisual_HArray1OfCurveStyleFontPattern.hxx>
-#include <StepVisual_CurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfCurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFontPattern.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_CurveStyleFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFont.hxx>
 
 
 RWStepVisual_RWCurveStyleFont::RWStepVisual_RWCurveStyleFont () {}

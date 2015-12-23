@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_Colour.hxx>
+#include <DataExchange/StepVisual/StepVisual_Colour.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWColour.hxx>
 

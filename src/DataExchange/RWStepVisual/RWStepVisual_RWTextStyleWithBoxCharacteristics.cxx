@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_TextStyleWithBoxCharacteristics.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextStyleWithBoxCharacteristics.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWTextStyleWithBoxCharacteristics.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <StepVisual_TextStyleForDefinedFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextStyleForDefinedFont.hxx>
 
-#include <StepVisual_HArray1OfBoxCharacteristicSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfBoxCharacteristicSelect.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_TextStyleWithBoxCharacteristics.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextStyleWithBoxCharacteristics.hxx>
 
 
 RWStepVisual_RWTextStyleWithBoxCharacteristics::RWStepVisual_RWTextStyleWithBoxCharacteristics () {}

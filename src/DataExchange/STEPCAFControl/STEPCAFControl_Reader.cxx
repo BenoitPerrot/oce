@@ -61,7 +61,7 @@
 #include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_DescriptiveRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_SequenceOfRepresentationItem.hxx>
-#include <StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
 
 #include <DataExchange/STEPConstruct/STEPConstruct.hxx>
@@ -84,15 +84,15 @@
 #include <XCAFDoc_Area.hxx>
 #include <XCAFDoc_Volume.hxx>
 #include <XCAFDoc_Centroid.hxx>
-#include <StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <StepVisual_LayeredItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_LayeredItem.hxx>
 #include <XCAFDoc_LayerTool.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <StepVisual_Invisibility.hxx>
+#include <DataExchange/StepVisual/StepVisual_Invisibility.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <XCAFDoc.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
@@ -104,8 +104,8 @@
 
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfShapePD.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
-#include <StepVisual_PresentationStyleByContext.hxx>
-#include <StepVisual_StyleContextSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationStyleByContext.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyleContextSelect.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentedDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_SpecifiedHigherUsageOccurrence.hxx>

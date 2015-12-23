@@ -17,8 +17,8 @@
 #include <DataExchange/StepRepr/StepRepr_ExternallyDefinedRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
-#include <StepVisual_PresentationArea.hxx>
-#include <StepVisual_PresentationView.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationArea.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationView.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductCategory.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>

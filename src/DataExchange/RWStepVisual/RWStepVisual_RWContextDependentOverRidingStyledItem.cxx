@@ -13,22 +13,22 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_ContextDependentOverRidingStyledItem.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWContextDependentOverRidingStyledItem.hxx>
-#include <StepVisual_HArray1OfStyleContextSelect.hxx>
-#include <StepVisual_StyleContextSelect.hxx>
-#include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
-#include <StepVisual_PresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfStyleContextSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyleContextSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfPresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationStyleAssignment.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_ContextDependentOverRidingStyledItem.hxx>
 
 
 RWStepVisual_RWContextDependentOverRidingStyledItem::RWStepVisual_RWContextDependentOverRidingStyledItem () {}

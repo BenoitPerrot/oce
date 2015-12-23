@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_HArray1OfTextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfTextOrCharacter.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepVisual_TextOrCharacter.hxx>
-#include <StepVisual_Array1OfTextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_Array1OfTextOrCharacter.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepVisual_HArray1OfTextOrCharacter)
 
 
 #define ItemHArray1 StepVisual_TextOrCharacter
-#define ItemHArray1_hxx <StepVisual_TextOrCharacter.hxx>
+#define ItemHArray1_hxx <DataExchange/StepVisual/StepVisual_TextOrCharacter.hxx>
 #define TheArray1 StepVisual_Array1OfTextOrCharacter
-#define TheArray1_hxx <StepVisual_Array1OfTextOrCharacter.hxx>
+#define TheArray1_hxx <DataExchange/StepVisual/StepVisual_Array1OfTextOrCharacter.hxx>
 #define TCollection_HArray1 StepVisual_HArray1OfTextOrCharacter
-#define TCollection_HArray1_hxx <StepVisual_HArray1OfTextOrCharacter.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepVisual/StepVisual_HArray1OfTextOrCharacter.hxx>
 #define Handle_TCollection_HArray1 Handle_StepVisual_HArray1OfTextOrCharacter
 #define TCollection_HArray1_Type_() StepVisual_HArray1OfTextOrCharacter_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

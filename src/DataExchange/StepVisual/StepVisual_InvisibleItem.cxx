@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_StyledItem.hxx>
-#include <StepVisual_PresentationLayerAssignment.hxx>
-#include <StepVisual_PresentationRepresentation.hxx>
-#include <StepVisual_InvisibleItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationRepresentation.hxx>
+#include <DataExchange/StepVisual/StepVisual_InvisibleItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_InvisibleItem::StepVisual_InvisibleItem () {  }

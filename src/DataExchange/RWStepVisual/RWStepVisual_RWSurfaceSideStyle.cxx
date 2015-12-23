@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_SurfaceSideStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceSideStyle.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWSurfaceSideStyle.hxx>
-#include <StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
-#include <StepVisual_SurfaceStyleElementSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleElementSelect.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_SurfaceSideStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceSideStyle.hxx>
 
 
 RWStepVisual_RWSurfaceSideStyle::RWStepVisual_RWSurfaceSideStyle () {}

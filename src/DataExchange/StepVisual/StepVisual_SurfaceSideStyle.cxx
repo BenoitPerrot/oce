@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
-#include <StepVisual_SurfaceStyleElementSelect.hxx>
-#include <StepVisual_SurfaceSideStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleElementSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceSideStyle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_SurfaceSideStyle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

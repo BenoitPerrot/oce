@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_Colour.hxx>
-#include <StepVisual_MarkerSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_Colour.hxx>
+#include <DataExchange/StepVisual/StepVisual_MarkerSelect.hxx>
 #include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
-#include <StepVisual_PointStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_PointStyle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PointStyle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

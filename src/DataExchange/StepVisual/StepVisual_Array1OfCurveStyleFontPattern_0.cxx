@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_Array1OfCurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/StepVisual_Array1OfCurveStyleFontPattern.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepVisual_CurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFontPattern.hxx>
  
 
 #define Array1Item Handle(StepVisual_CurveStyleFontPattern)
-#define Array1Item_hxx <StepVisual_CurveStyleFontPattern.hxx>
+#define Array1Item_hxx <DataExchange/StepVisual/StepVisual_CurveStyleFontPattern.hxx>
 #define TCollection_Array1 StepVisual_Array1OfCurveStyleFontPattern
-#define TCollection_Array1_hxx <StepVisual_Array1OfCurveStyleFontPattern.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepVisual/StepVisual_Array1OfCurveStyleFontPattern.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

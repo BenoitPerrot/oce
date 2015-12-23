@@ -22,7 +22,7 @@
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
-#include <StepVisual_TemplateInstance.hxx>
+#include <DataExchange/StepVisual/StepVisual_TemplateInstance.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

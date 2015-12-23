@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_TextLiteral.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextLiteral.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWTextLiteral.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
-#include <StepVisual_TextPath.hxx>
-#include <StepVisual_FontSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextPath.hxx>
+#include <DataExchange/StepVisual/StepVisual_FontSelect.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_TextLiteral.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextLiteral.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

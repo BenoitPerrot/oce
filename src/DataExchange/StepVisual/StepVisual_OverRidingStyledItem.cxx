@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <StepVisual_OverRidingStyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_OverRidingStyledItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_OverRidingStyledItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

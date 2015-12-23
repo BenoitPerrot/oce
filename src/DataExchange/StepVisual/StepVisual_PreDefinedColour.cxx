@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PreDefinedItem.hxx>
-#include <StepVisual_PreDefinedColour.hxx>
+#include <DataExchange/StepVisual/StepVisual_PreDefinedItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_PreDefinedColour.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PreDefinedColour)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

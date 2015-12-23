@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_HArray1OfTextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfTextOrCharacter.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_TextOrCharacter.hxx>
-#include <StepVisual_CompositeText.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_CompositeText.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_CompositeText)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

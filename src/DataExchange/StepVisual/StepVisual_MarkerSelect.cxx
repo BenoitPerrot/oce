@@ -13,8 +13,8 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
-#include <StepVisual_MarkerMember.hxx>
-#include <StepVisual_MarkerSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_MarkerMember.hxx>
+#include <DataExchange/StepVisual/StepVisual_MarkerSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_MarkerSelect::StepVisual_MarkerSelect () {  }

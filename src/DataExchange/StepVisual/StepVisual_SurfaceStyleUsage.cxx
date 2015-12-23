@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_SurfaceSideStyle.hxx>
-#include <StepVisual_SurfaceStyleUsage.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceSideStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleUsage.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_SurfaceStyleUsage)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

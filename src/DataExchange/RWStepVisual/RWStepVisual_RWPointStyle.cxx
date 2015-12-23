@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_PointStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_PointStyle.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPointStyle.hxx>
-#include <StepVisual_MarkerSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_MarkerSelect.hxx>
 #include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
-#include <StepVisual_Colour.hxx>
+#include <DataExchange/StepVisual/StepVisual_Colour.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_PointStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_PointStyle.hxx>
 
 
 RWStepVisual_RWPointStyle::RWStepVisual_RWPointStyle () {}

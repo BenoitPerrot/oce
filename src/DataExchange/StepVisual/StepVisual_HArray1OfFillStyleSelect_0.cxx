@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepVisual_HArray1OfFillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfFillStyleSelect.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepVisual_FillStyleSelect.hxx>
-#include <StepVisual_Array1OfFillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_Array1OfFillStyleSelect.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepVisual_HArray1OfFillStyleSelect)
 
 
 #define ItemHArray1 StepVisual_FillStyleSelect
-#define ItemHArray1_hxx <StepVisual_FillStyleSelect.hxx>
+#define ItemHArray1_hxx <DataExchange/StepVisual/StepVisual_FillStyleSelect.hxx>
 #define TheArray1 StepVisual_Array1OfFillStyleSelect
-#define TheArray1_hxx <StepVisual_Array1OfFillStyleSelect.hxx>
+#define TheArray1_hxx <DataExchange/StepVisual/StepVisual_Array1OfFillStyleSelect.hxx>
 #define TCollection_HArray1 StepVisual_HArray1OfFillStyleSelect
-#define TCollection_HArray1_hxx <StepVisual_HArray1OfFillStyleSelect.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepVisual/StepVisual_HArray1OfFillStyleSelect.hxx>
 #define Handle_TCollection_HArray1 Handle_StepVisual_HArray1OfFillStyleSelect
 #define TCollection_HArray1_Type_() StepVisual_HArray1OfFillStyleSelect_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

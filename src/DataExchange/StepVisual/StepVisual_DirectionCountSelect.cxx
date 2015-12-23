@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_DirectionCountSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_DirectionCountSelect.hxx>
 
 StepVisual_DirectionCountSelect::StepVisual_DirectionCountSelect() :
     theUDirectionCount(0),

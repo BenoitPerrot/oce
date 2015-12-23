@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_CurveStyleFont.hxx>
-#include <StepVisual_PreDefinedCurveFont.hxx>
-#include <StepVisual_ExternallyDefinedCurveFont.hxx>
-#include <StepVisual_CurveStyleFontSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_PreDefinedCurveFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_ExternallyDefinedCurveFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFontSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_CurveStyleFontSelect::StepVisual_CurveStyleFontSelect () {  }

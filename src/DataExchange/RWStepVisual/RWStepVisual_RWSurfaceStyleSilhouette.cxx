@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_SurfaceStyleSilhouette.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleSilhouette.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWSurfaceStyleSilhouette.hxx>
-#include <StepVisual_CurveStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyle.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_SurfaceStyleSilhouette.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleSilhouette.hxx>
 
 
 RWStepVisual_RWSurfaceStyleSilhouette::RWStepVisual_RWSurfaceStyleSilhouette () {}

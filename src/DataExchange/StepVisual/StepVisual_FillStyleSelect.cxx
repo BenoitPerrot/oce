@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_FillAreaStyleColour.hxx>
-#include <StepVisual_FillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillAreaStyleColour.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillStyleSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_FillStyleSelect::StepVisual_FillStyleSelect () {  }

@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWStyledItem.hxx>
-#include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
-#include <StepVisual_PresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfPresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationStyleAssignment.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
 
 
 RWStepVisual_RWStyledItem::RWStepVisual_RWStyledItem () {}

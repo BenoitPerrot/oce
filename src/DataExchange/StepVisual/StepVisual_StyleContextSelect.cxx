@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <StepVisual_PresentationSet.hxx>
-#include <StepVisual_StyleContextSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationSet.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyleContextSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_StyleContextSelect::StepVisual_StyleContextSelect () {  }

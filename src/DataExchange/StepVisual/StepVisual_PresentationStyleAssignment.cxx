@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_HArray1OfPresentationStyleSelect.hxx>
-#include <StepVisual_PresentationStyleSelect.hxx>
-#include <StepVisual_PresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfPresentationStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationStyleAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PresentationStyleAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_DraughtingAnnotationOccurrence.hxx>
+#include <DataExchange/StepVisual/StepVisual_DraughtingAnnotationOccurrence.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_DraughtingAnnotationOccurrence)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

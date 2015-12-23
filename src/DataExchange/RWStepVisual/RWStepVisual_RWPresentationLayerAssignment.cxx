@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPresentationLayerAssignment.hxx>
-#include <StepVisual_HArray1OfLayeredItem.hxx>
-#include <StepVisual_LayeredItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfLayeredItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_LayeredItem.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
 
 
 RWStepVisual_RWPresentationLayerAssignment::RWStepVisual_RWPresentationLayerAssignment () {}

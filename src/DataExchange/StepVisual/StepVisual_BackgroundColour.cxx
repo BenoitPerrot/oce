@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_AreaOrView.hxx>
-#include <StepVisual_BackgroundColour.hxx>
+#include <DataExchange/StepVisual/StepVisual_AreaOrView.hxx>
+#include <DataExchange/StepVisual/StepVisual_BackgroundColour.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_BackgroundColour)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

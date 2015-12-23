@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_Invisibility.hxx>
+#include <DataExchange/StepVisual/StepVisual_Invisibility.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWInvisibility.hxx>
-#include <StepVisual_HArray1OfInvisibleItem.hxx>
-#include <StepVisual_InvisibleItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfInvisibleItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_InvisibleItem.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_Invisibility.hxx>
+#include <DataExchange/StepVisual/StepVisual_Invisibility.hxx>
 
 
 RWStepVisual_RWInvisibility::RWStepVisual_RWInvisibility () {}

@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_HArray1OfFillStyleSelect.hxx>
-#include <StepVisual_FillStyleSelect.hxx>
-#include <StepVisual_FillAreaStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfFillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillAreaStyle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_FillAreaStyle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

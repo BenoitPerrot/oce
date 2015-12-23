@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/StepVisual_PlanarBox.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPlanarBox.hxx>
@@ -23,7 +23,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/StepVisual_PlanarBox.hxx>
 
 
 RWStepVisual_RWPlanarBox::RWStepVisual_RWPlanarBox () {}

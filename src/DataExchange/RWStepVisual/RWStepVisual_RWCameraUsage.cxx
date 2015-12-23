@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_CameraUsage.hxx>
+#include <DataExchange/StepVisual/StepVisual_CameraUsage.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWCameraUsage.hxx>
@@ -24,7 +24,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_CameraUsage.hxx>
+#include <DataExchange/StepVisual/StepVisual_CameraUsage.hxx>
 
 
 RWStepVisual_RWCameraUsage::RWStepVisual_RWCameraUsage () {}

@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_PresentationView.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationView.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPresentationView.hxx>
@@ -25,7 +25,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_PresentationView.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationView.hxx>
 
 
 RWStepVisual_RWPresentationView::RWStepVisual_RWPresentationView () {}

@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_SurfaceStyleSegmentationCurve.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleSegmentationCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWSurfaceStyleSegmentationCurve.hxx>
-#include <StepVisual_CurveStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyle.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_SurfaceStyleSegmentationCurve.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleSegmentationCurve.hxx>
 
 
 RWStepVisual_RWSurfaceStyleSegmentationCurve::RWStepVisual_RWSurfaceStyleSegmentationCurve () {}

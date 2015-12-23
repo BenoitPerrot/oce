@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_PresentationLayerUsage.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerUsage.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPresentationLayerUsage.hxx>
-#include <StepVisual_PresentationLayerAssignment.hxx>
-#include <StepVisual_PresentationRepresentation.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationRepresentation.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_PresentationLayerUsage.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerUsage.hxx>
 
 
 RWStepVisual_RWPresentationLayerUsage::RWStepVisual_RWPresentationLayerUsage () {}
@@ -42,8 +42,8 @@ void RWStepVisual_RWPresentationLayerUsage::ReadStep
 	if (!data->CheckNbParams(num,2,ach,"presentation_layer_usage")) return;
 
 	// --- own fields
-#include <StepVisual_PresentationLayerAssignment.hxx>
-#include <StepVisual_PresentationRepresentation.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationRepresentation.hxx>
 	Handle(StepVisual_PresentationLayerAssignment) pla;
 	Handle(StepVisual_PresentationRepresentation)  pr;
 

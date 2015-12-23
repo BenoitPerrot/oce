@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_AnnotationText.hxx>
-#include <StepVisual_CompositeText.hxx>
-#include <StepVisual_TextLiteral.hxx>
-#include <StepVisual_TextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_AnnotationText.hxx>
+#include <DataExchange/StepVisual/StepVisual_CompositeText.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextLiteral.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextOrCharacter.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_TextOrCharacter::StepVisual_TextOrCharacter () {  }

@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_HArray1OfStyleContextSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfStyleContextSelect.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfPresentationStyleAssignment.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <StepVisual_StyledItem.hxx>
-#include <StepVisual_StyleContextSelect.hxx>
-#include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyleContextSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_ContextDependentOverRidingStyledItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_ContextDependentOverRidingStyledItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

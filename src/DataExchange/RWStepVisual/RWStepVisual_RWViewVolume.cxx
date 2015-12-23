@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_ViewVolume.hxx>
+#include <DataExchange/StepVisual/StepVisual_ViewVolume.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWViewVolume.hxx>
-#include <StepVisual_CentralOrParallel.hxx>
+#include <DataExchange/StepVisual/StepVisual_CentralOrParallel.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/StepVisual_PlanarBox.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_ViewVolume.hxx>
+#include <DataExchange/StepVisual/StepVisual_ViewVolume.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

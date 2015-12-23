@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepVisual_ExternallyDefinedCurveFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_ExternallyDefinedCurveFont.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_ExternallyDefinedCurveFont)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

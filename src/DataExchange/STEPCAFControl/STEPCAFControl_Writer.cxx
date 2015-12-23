@@ -76,9 +76,9 @@
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <XCAFDoc_GraphNode.hxx>
 #include <XCAFDoc_LayerTool.hxx>
-#include <StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
 #include <XCAFDoc.hxx>
-#include <StepVisual_HArray1OfLayeredItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfLayeredItem.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -86,10 +86,10 @@
 
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientListBinder.hxx>
-#include <StepVisual_InvisibleItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_InvisibleItem.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
-#include <StepVisual_Invisibility.hxx>
-#include <StepVisual_HArray1OfInvisibleItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_Invisibility.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfInvisibleItem.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
@@ -98,13 +98,13 @@
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 #include <DataExchange/StepRepr/StepRepr_Representation.hxx>
-#include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
+#include <DataExchange/StepVisual/StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
-#include <StepVisual_HArray1OfPresentationStyleAssignment.hxx>
-#include <StepVisual_PresentationStyleAssignment.hxx>
-#include <StepVisual_StyledItem.hxx>
-#include <StepVisual_PresentationStyleByContext.hxx>
-#include <StepVisual_HArray1OfPresentationStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfPresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationStyleByContext.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfPresentationStyleSelect.hxx>
 #include <OCAF/TDF/TDF_AttributeSequence.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 // #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>

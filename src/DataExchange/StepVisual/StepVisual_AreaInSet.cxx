@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_PresentationArea.hxx>
-#include <StepVisual_PresentationSet.hxx>
-#include <StepVisual_AreaInSet.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationArea.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationSet.hxx>
+#include <DataExchange/StepVisual/StepVisual_AreaInSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_AreaInSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

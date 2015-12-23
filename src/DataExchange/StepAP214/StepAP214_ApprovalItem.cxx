@@ -15,8 +15,8 @@
 #include <DataExchange/StepRepr/StepRepr_AssemblyComponentUsageSubstitute.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
 #include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
-#include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
-#include <StepVisual_PresentationArea.hxx>
+#include <DataExchange/StepVisual/StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationArea.hxx>
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>

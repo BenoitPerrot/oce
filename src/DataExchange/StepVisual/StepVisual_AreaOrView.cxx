@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_PresentationArea.hxx>
-#include <StepVisual_PresentationView.hxx>
-#include <StepVisual_AreaOrView.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationArea.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationView.hxx>
+#include <DataExchange/StepVisual/StepVisual_AreaOrView.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_AreaOrView::StepVisual_AreaOrView () {  }

@@ -13,8 +13,8 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
-#include <StepVisual_FontSelect.hxx>
-#include <StepVisual_TextLiteral.hxx>
+#include <DataExchange/StepVisual/StepVisual_FontSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextLiteral.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_TextLiteral)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

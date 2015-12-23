@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_PresentationSize.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationSize.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPresentationSize.hxx>
-#include <StepVisual_PresentationSizeAssignmentSelect.hxx>
-#include <StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationSizeAssignmentSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_PlanarBox.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_PresentationSize.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationSize.hxx>
 
 
 RWStepVisual_RWPresentationSize::RWStepVisual_RWPresentationSize () {}

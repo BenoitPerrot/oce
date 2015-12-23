@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_ColourSpecification.hxx>
+#include <DataExchange/StepVisual/StepVisual_ColourSpecification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_ColourSpecification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

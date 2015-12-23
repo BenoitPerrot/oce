@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_CurveStyle.hxx>
-#include <StepVisual_HArray1OfDirectionCountSelect.hxx>
-#include <StepVisual_DirectionCountSelect.hxx>
-#include <StepVisual_SurfaceStyleParameterLine.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfDirectionCountSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_DirectionCountSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleParameterLine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_SurfaceStyleParameterLine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AppliedPresentedItem.hxx>
 
 #include <Handle_StepAP214_HArray1OfPresentedItemSelect.hxx>
-#include <StepVisual_PresentedItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentedItem.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfPresentedItemSelect;
 class StepAP214_PresentedItemSelect;

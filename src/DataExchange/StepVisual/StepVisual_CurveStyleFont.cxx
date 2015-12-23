@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_HArray1OfCurveStyleFontPattern.hxx>
-#include <StepVisual_CurveStyleFontPattern.hxx>
-#include <StepVisual_CurveStyleFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfCurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyleFont.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_CurveStyleFont)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

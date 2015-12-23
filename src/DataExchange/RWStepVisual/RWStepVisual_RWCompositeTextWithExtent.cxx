@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_CompositeTextWithExtent.hxx>
+#include <DataExchange/StepVisual/StepVisual_CompositeTextWithExtent.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWCompositeTextWithExtent.hxx>
-#include <StepVisual_PlanarExtent.hxx>
-#include <StepVisual_HArray1OfTextOrCharacter.hxx>
-#include <StepVisual_TextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_PlanarExtent.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfTextOrCharacter.hxx>
+#include <DataExchange/StepVisual/StepVisual_TextOrCharacter.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_CompositeTextWithExtent.hxx>
+#include <DataExchange/StepVisual/StepVisual_CompositeTextWithExtent.hxx>
 
 
 RWStepVisual_RWCompositeTextWithExtent::RWStepVisual_RWCompositeTextWithExtent () {}

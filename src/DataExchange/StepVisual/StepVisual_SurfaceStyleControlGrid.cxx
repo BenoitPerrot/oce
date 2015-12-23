@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_CurveStyle.hxx>
-#include <StepVisual_SurfaceStyleControlGrid.hxx>
+#include <DataExchange/StepVisual/StepVisual_CurveStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleControlGrid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_SurfaceStyleControlGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

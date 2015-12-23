@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepVisual_HArray1OfInvisibleItem.hxx>
-#include <StepVisual_InvisibilityContext.hxx>
-#include <StepVisual_ContextDependentInvisibility.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfInvisibleItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_InvisibilityContext.hxx>
+#include <DataExchange/StepVisual/StepVisual_ContextDependentInvisibility.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_ContextDependentInvisibility)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

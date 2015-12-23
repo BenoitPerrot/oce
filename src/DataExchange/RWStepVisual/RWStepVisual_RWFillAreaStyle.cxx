@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_FillAreaStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillAreaStyle.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWFillAreaStyle.hxx>
-#include <StepVisual_HArray1OfFillStyleSelect.hxx>
-#include <StepVisual_FillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfFillStyleSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillStyleSelect.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_FillAreaStyle.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillAreaStyle.hxx>
 
 
 RWStepVisual_RWFillAreaStyle::RWStepVisual_RWFillAreaStyle () {}

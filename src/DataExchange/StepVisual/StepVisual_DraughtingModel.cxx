@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepVisual_DraughtingModel.hxx>
+#include <DataExchange/StepVisual/StepVisual_DraughtingModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_DraughtingModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

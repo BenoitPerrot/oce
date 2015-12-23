@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_PreDefinedTextFont.hxx>
-#include <StepVisual_ExternallyDefinedTextFont.hxx>
-#include <StepVisual_FontSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_PreDefinedTextFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_ExternallyDefinedTextFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_FontSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_FontSelect::StepVisual_FontSelect () {  }

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_Colour.hxx>
-#include <StepVisual_FillAreaStyleColour.hxx>
+#include <DataExchange/StepVisual/StepVisual_Colour.hxx>
+#include <DataExchange/StepVisual/StepVisual_FillAreaStyleColour.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_FillAreaStyleColour)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_AreaInSet.hxx>
+#include <DataExchange/StepVisual/StepVisual_AreaInSet.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWAreaInSet.hxx>
-#include <StepVisual_PresentationArea.hxx>
-#include <StepVisual_PresentationSet.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationArea.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationSet.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_AreaInSet.hxx>
+#include <DataExchange/StepVisual/StepVisual_AreaInSet.hxx>
 
 
 RWStepVisual_RWAreaInSet::RWStepVisual_RWAreaInSet () {}

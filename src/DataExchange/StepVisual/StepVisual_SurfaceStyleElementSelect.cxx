@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_SurfaceStyleFillArea.hxx>
-#include <StepVisual_SurfaceStyleBoundary.hxx>
-#include <StepVisual_SurfaceStyleParameterLine.hxx>
-#include <StepVisual_SurfaceStyleElementSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleFillArea.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleBoundary.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleParameterLine.hxx>
+#include <DataExchange/StepVisual/StepVisual_SurfaceStyleElementSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_SurfaceStyleElementSelect::StepVisual_SurfaceStyleElementSelect () {  }

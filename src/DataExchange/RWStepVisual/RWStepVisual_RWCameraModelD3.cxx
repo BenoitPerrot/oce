@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_CameraModelD3.hxx>
+#include <DataExchange/StepVisual/StepVisual_CameraModelD3.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWCameraModelD3.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
-#include <StepVisual_ViewVolume.hxx>
+#include <DataExchange/StepVisual/StepVisual_ViewVolume.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepVisual_CameraModelD3.hxx>
+#include <DataExchange/StepVisual/StepVisual_CameraModelD3.hxx>
 
 
 RWStepVisual_RWCameraModelD3::RWStepVisual_RWCameraModelD3 () {}

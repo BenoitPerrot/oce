@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepVisual_PlanarBox.hxx>
-#include <StepVisual_ViewVolume.hxx>
+#include <DataExchange/StepVisual/StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/StepVisual_ViewVolume.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_ViewVolume)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

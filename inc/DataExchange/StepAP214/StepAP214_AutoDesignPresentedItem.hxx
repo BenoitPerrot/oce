@@ -11,7 +11,7 @@
 #include <Handle_StepAP214_AutoDesignPresentedItem.hxx>
 
 #include <Handle_StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx>
-#include <StepVisual_PresentedItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentedItem.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignPresentedItemSelect;
 class StepAP214_AutoDesignPresentedItemSelect;

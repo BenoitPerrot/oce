@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepVisual_PreDefinedCurveFont.hxx>
+#include <DataExchange/StepVisual/StepVisual_PreDefinedCurveFont.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepVisual/RWStepVisual_RWPreDefinedCurveFont.hxx>
 

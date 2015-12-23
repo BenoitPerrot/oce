@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepVisual_PresentationView.hxx>
-#include <StepVisual_PresentationArea.hxx>
-#include <StepVisual_AreaInSet.hxx>
-#include <StepVisual_PresentationSizeAssignmentSelect.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationView.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationArea.hxx>
+#include <DataExchange/StepVisual/StepVisual_AreaInSet.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationSizeAssignmentSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_PresentationSizeAssignmentSelect::StepVisual_PresentationSizeAssignmentSelect () {  }

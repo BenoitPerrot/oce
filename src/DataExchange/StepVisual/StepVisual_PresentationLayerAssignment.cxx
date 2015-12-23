@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepVisual_HArray1OfLayeredItem.hxx>
-#include <StepVisual_LayeredItem.hxx>
-#include <StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/StepVisual_HArray1OfLayeredItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_LayeredItem.hxx>
+#include <DataExchange/StepVisual/StepVisual_PresentationLayerAssignment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepVisual_PresentationLayerAssignment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
