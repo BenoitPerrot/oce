@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_Direction.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 #include <Handle_Geom_Direction.hxx>
 #include <Handle_Geom2d_Direction.hxx>
 class StepGeom_Direction;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_ConicalSurface.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 #include <Handle_Geom_ConicalSurface.hxx>
 class StepGeom_ConicalSurface;
 class StdFail_NotDone;

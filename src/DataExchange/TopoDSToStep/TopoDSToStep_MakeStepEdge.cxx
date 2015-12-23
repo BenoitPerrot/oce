@@ -47,8 +47,8 @@
 #include <StepGeom_SeamCurve.hxx>
 #include <StepGeom_SurfaceCurve.hxx>
 
-#include <GeomToStep_MakeCurve.hxx>
-#include <GeomToStep_MakeLine.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 

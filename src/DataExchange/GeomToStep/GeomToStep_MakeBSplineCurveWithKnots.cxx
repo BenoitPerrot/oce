@@ -18,12 +18,12 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <GeomToStep_MakeBSplineCurveWithKnots.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineCurveWithKnots.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <StepGeom_BSplineCurveWithKnots.hxx>
 #include <StepGeom_CartesianPoint.hxx>
-#include <GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
@@ -44,7 +44,7 @@ GeomToStep_MakeBSplineCurveWithKnots::
 								      
 {
 #define Array1OfPnt_gen TColgp_Array1OfPnt
-#include <GeomToStep_MakeBSplineCurveWithKnots_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineCurveWithKnots_gen.pxx>
 #undef Array1OfPnt_gen
 }
 //=============================================================================
@@ -58,7 +58,7 @@ GeomToStep_MakeBSplineCurveWithKnots::
 								      
 {
 #define Array1OfPnt_gen TColgp_Array1OfPnt2d
-#include <GeomToStep_MakeBSplineCurveWithKnots_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineCurveWithKnots_gen.pxx>
 #undef Array1OfPnt_gen
 }
 

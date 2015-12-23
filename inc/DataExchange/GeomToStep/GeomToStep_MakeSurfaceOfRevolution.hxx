@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_SurfaceOfRevolution.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 #include <Handle_Geom_SurfaceOfRevolution.hxx>
 class StepGeom_SurfaceOfRevolution;
 class StdFail_NotDone;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_Polyline.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 class StepGeom_Polyline;
 class StdFail_NotDone;
 class TColgp_Array1OfPnt;

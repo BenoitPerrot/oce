@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
 class StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface;
 class StdFail_NotDone;

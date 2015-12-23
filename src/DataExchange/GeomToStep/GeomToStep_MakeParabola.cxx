@@ -15,14 +15,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom/Geom_Parabola.hxx>
-#include <GeomToStep_MakeParabola.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeParabola.hxx>
 
 #include <StepGeom_Parabola.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geometry/Geom/Geom_Parabola.hxx>
-#include <GeomToStep_MakeAxis2Placement2d.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement2d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>

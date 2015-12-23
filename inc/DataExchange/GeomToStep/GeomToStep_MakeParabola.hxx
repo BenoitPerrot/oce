@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_Parabola.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 #include <Handle_Geom2d_Parabola.hxx>
 #include <Handle_Geom_Parabola.hxx>
 class StepGeom_Parabola;

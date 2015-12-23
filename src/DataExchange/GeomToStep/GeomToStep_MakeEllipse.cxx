@@ -19,9 +19,9 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
-#include <GeomToStep_MakeEllipse.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
-#include <GeomToStep_MakeAxis2Placement2d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeEllipse.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
@@ -35,7 +35,7 @@
 
 GeomToStep_MakeEllipse::GeomToStep_MakeEllipse( const gp_Elips& E)
 {
-#include <GeomToStep_MakeEllipse_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeEllipse_gen.pxx>
 }
 
 
@@ -48,7 +48,7 @@ GeomToStep_MakeEllipse::GeomToStep_MakeEllipse( const Handle(Geom_Ellipse)& Cer)
 {
   gp_Elips E;
   E = Cer->Elips();
-#include <GeomToStep_MakeEllipse_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeEllipse_gen.pxx>
 }
 
 

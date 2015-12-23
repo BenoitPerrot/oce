@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
-#include <GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

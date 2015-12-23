@@ -17,20 +17,20 @@
 #include <StepGeom_ElementarySurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
-#include <GeomToStep_MakeElementarySurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeElementarySurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_ElementarySurface.hxx>
-#include <GeomToStep_MakeElementarySurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeElementarySurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <GeomToStep_MakeCylindricalSurface.hxx>
-#include <GeomToStep_MakeConicalSurface.hxx>
-#include <GeomToStep_MakeSphericalSurface.hxx>
-#include <GeomToStep_MakeToroidalSurface.hxx>
-#include <GeomToStep_MakePlane.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCylindricalSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeConicalSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSphericalSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeToroidalSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakePlane.hxx>
 
 //=============================================================================
 // Creation d' une ElementarySurface de prostep a partir d' une 

@@ -17,10 +17,10 @@
 #include <StepGeom_RectangularTrimmedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <GeomToStep_MakeRectangularTrimmedSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeRectangularTrimmedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
-#include <GeomToStep_MakeSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSurface.hxx>
 #include <StepGeom_Surface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

@@ -84,8 +84,8 @@
 
 #include <UnitsMethods.hxx>
 
-#include <GeomToStep_MakeSurface.hxx>
-#include <GeomToStep_MakeCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

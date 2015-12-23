@@ -17,17 +17,17 @@
 #include <StepGeom_BoundedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
-#include <GeomToStep_MakeBoundedSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBoundedSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_BoundedSurface.hxx>
-#include <GeomToStep_MakeBoundedSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBoundedSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <GeomToStep_MakeBSplineSurfaceWithKnots.hxx>
-#include <GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
-#include <GeomToStep_MakeRectangularTrimmedSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineSurfaceWithKnots.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeRectangularTrimmedSurface.hxx>
 
 //=============================================================================
 // Creation d' une BoundedSurface de prostep a partir d' une BoundedSurface

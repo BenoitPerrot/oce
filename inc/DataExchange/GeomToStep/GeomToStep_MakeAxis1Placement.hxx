@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_Axis1Placement.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 #include <Handle_Geom_Axis1Placement.hxx>
 #include <Handle_Geom2d_AxisPlacement.hxx>
 class StepGeom_Axis1Placement;

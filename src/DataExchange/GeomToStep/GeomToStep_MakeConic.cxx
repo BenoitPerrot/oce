@@ -18,10 +18,10 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
-#include <GeomToStep_MakeConic.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeConic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Conic.hxx>
-#include <GeomToStep_MakeConic.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeConic.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
@@ -30,10 +30,10 @@
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
-#include <GeomToStep_MakeCircle.hxx>
-#include <GeomToStep_MakeEllipse.hxx>
-#include <GeomToStep_MakeHyperbola.hxx>
-#include <GeomToStep_MakeParabola.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCircle.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeEllipse.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeHyperbola.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeParabola.hxx>
 
 //=============================================================================
 // Creation d' une Conic de prostep a partir d' une Conic de Geom

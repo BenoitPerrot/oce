@@ -21,7 +21,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDSToStep_MakeStepVertex.hxx>
 
-#include <GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

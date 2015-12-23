@@ -18,18 +18,18 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
-#include <GeomToStep_MakeBoundedCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBoundedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_BoundedCurve.hxx>
-#include <GeomToStep_MakeBoundedCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBoundedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
-#include <GeomToStep_MakeBSplineCurveWithKnots.hxx>
-#include <GeomToStep_MakeBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineCurveWithKnots.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 
 
 //=============================================================================

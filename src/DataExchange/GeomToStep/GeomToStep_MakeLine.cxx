@@ -20,16 +20,16 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <GeomToStep_MakeLine.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Line.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Vector.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <GeomToStep_MakeLine.hxx>
-#include <GeomToStep_MakeCartesianPoint.hxx>
-#include <GeomToStep_MakeVector.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeVector.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
@@ -40,7 +40,7 @@
 GeomToStep_MakeLine::GeomToStep_MakeLine( const gp_Lin& L)
 {
 #define Vec_gen gp_Vec
-#include <GeomToStep_MakeLine_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine_gen.pxx>
 #undef Vec_gen
 }
 
@@ -51,7 +51,7 @@ GeomToStep_MakeLine::GeomToStep_MakeLine( const gp_Lin& L)
 GeomToStep_MakeLine::GeomToStep_MakeLine( const gp_Lin2d& L)
 {
 #define Vec_gen gp_Vec2d
-#include <GeomToStep_MakeLine_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine_gen.pxx>
 #undef Vec_gen
 }
 
@@ -64,7 +64,7 @@ GeomToStep_MakeLine::GeomToStep_MakeLine ( const Handle(Geom_Line)& Gline)
   gp_Lin L;
   L = Gline->Lin();
 #define Vec_gen gp_Vec
-#include <GeomToStep_MakeLine_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine_gen.pxx>
 #undef Vec_gen
 }
 
@@ -77,7 +77,7 @@ GeomToStep_MakeLine::GeomToStep_MakeLine ( const Handle(Geom2d_Line)& Gline)
   gp_Lin2d L;
   L = Gline->Lin2d();
 #define Vec_gen gp_Vec2d
-#include <GeomToStep_MakeLine_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine_gen.pxx>
 #undef Vec_gen
 }
 

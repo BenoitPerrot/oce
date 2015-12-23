@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 //  Transfer
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
 #include <STEPConstruct_Part.hxx>

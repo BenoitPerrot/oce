@@ -15,14 +15,14 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
-#include <GeomToStep_MakeHyperbola.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeHyperbola.hxx>
 
 #include <StepGeom_Hyperbola.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Geometry/Geom/Geom_Hyperbola.hxx>
-#include <GeomToStep_MakeAxis2Placement2d.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement2d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>

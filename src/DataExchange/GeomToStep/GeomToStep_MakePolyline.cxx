@@ -18,7 +18,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <GeomToStep_MakePolyline.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakePolyline.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <StepGeom_Polyline.hxx>
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
-#include <GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================
@@ -36,7 +36,7 @@
 GeomToStep_MakePolyline::GeomToStep_MakePolyline( const TColgp_Array1OfPnt& P)
 {
   gp_Pnt P1;
-#include <GeomToStep_MakePolyline_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakePolyline_gen.pxx>
 }
 
 //=============================================================================
@@ -46,7 +46,7 @@ GeomToStep_MakePolyline::GeomToStep_MakePolyline( const TColgp_Array1OfPnt& P)
 GeomToStep_MakePolyline::GeomToStep_MakePolyline( const TColgp_Array1OfPnt2d& P)
 {
   gp_Pnt2d P1;
-#include <GeomToStep_MakePolyline_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakePolyline_gen.pxx>
 }
 //=============================================================================
 // renvoi des valeurs

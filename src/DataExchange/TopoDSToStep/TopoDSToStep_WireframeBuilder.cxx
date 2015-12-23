@@ -70,9 +70,9 @@
 #include <StepGeom_TrimmingSelect.hxx>
 #include <StepGeom_HArray1OfTrimmingSelect.hxx>
 
-#include <GeomToStep_MakeCartesianPoint.hxx>
-#include <GeomToStep_MakeCurve.hxx>
-#include <GeomToStep_MakeLine.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>
 
 // ============================================================================
 // Method  : TopoDSToStep_Builder::TopoDSToStep_Builder

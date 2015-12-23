@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepGeom_Hyperbola.hxx>
-#include <GeomToStep_Root.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 #include <Handle_Geom2d_Hyperbola.hxx>
 #include <Handle_Geom_Hyperbola.hxx>
 class StepGeom_Hyperbola;

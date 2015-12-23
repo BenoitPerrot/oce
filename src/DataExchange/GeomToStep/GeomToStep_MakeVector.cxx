@@ -20,14 +20,14 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom/Geom_Vector.hxx>
 #include <Geometry/Geom2d/Geom2d_Vector.hxx>
-#include <GeomToStep_MakeVector.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeVector.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Geom/Geom_Vector.hxx>
 #include <StepGeom_Vector.hxx>
-#include <GeomToStep_MakeDirection.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeDirection.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <UnitsMethods.hxx>
 
@@ -39,7 +39,7 @@ GeomToStep_MakeVector::GeomToStep_MakeVector( const gp_Vec& V)
 {
   gp_Dir D = gp_Dir(V);
   Standard_Real lFactor = UnitsMethods::LengthFactor();
-#include <GeomToStep_MakeVector_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeVector_gen.pxx>
 }
 //=============================================================================
 // Creation d' un vector de prostep a partir d' un Vec2d de gp
@@ -49,7 +49,7 @@ GeomToStep_MakeVector::GeomToStep_MakeVector( const gp_Vec2d& V)
 {
   gp_Dir2d D = gp_Dir2d(V);
   Standard_Real lFactor = 1.;
-#include <GeomToStep_MakeVector_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeVector_gen.pxx>
 }
 
 //=============================================================================
@@ -63,7 +63,7 @@ GeomToStep_MakeVector::GeomToStep_MakeVector ( const Handle(Geom_Vector)&
   V = GVector->Vec();
   gp_Dir D = gp_Dir(V);
   Standard_Real lFactor = UnitsMethods::LengthFactor();
-#include <GeomToStep_MakeVector_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeVector_gen.pxx>
 }
 
 //=============================================================================
@@ -77,7 +77,7 @@ GeomToStep_MakeVector::GeomToStep_MakeVector ( const Handle(Geom2d_Vector)&
   V = GVector->Vec2d();
   gp_Dir2d D = gp_Dir2d(V);
   Standard_Real lFactor = 1.;
-#include <GeomToStep_MakeVector_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeVector_gen.pxx>
 }
 
 //=============================================================================

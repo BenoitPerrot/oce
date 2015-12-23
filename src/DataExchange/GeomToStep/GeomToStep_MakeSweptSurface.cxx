@@ -17,14 +17,14 @@
 #include <StepGeom_SweptSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SweptSurface.hxx>
-#include <GeomToStep_MakeSweptSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSweptSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_SweptSurface.hxx>
-#include <GeomToStep_MakeSweptSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSweptSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
-#include <GeomToStep_MakeSurfaceOfLinearExtrusion.hxx>
-#include <GeomToStep_MakeSurfaceOfRevolution.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSurfaceOfRevolution.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=============================================================================

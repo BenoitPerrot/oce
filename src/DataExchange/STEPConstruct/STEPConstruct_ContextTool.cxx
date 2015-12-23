@@ -42,7 +42,7 @@
 #include <StepBasic_HArray1OfProduct.hxx>
 #include <StepBasic_ProductType.hxx> //:i3
 #include <Interface_Static.hxx> //:j4
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 
 #include "stdio.h"
 

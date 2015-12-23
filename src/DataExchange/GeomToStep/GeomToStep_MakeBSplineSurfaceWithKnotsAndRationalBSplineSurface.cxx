@@ -19,12 +19,12 @@
 #include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <StepGeom_CartesianPoint.hxx>
-#include <GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <StepGeom_HArray2OfCartesianPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

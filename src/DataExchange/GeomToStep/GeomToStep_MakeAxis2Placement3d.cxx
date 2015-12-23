@@ -20,11 +20,11 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <StepGeom_Direction.hxx>
-#include <GeomToStep_MakeDirection.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeDirection.hxx>
 #include <StepGeom_CartesianPoint.hxx>
-#include <GeomToStep_MakeCartesianPoint.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>

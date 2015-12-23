@@ -17,9 +17,9 @@
 #include <StepGeom_CylindricalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
-#include <GeomToStep_MakeCylindricalSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCylindricalSurface.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <StepGeom_CylindricalSurface.hxx>

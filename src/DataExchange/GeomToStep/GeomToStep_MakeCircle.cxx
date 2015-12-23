@@ -19,9 +19,9 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
-#include <GeomToStep_MakeCircle.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
-#include <GeomToStep_MakeAxis2Placement2d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCircle.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
@@ -36,7 +36,7 @@
 
 GeomToStep_MakeCircle::GeomToStep_MakeCircle( const gp_Circ& C)
 {
-#include <GeomToStep_MakeCircle_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCircle_gen.pxx>
 }
 
 
@@ -49,7 +49,7 @@ GeomToStep_MakeCircle::GeomToStep_MakeCircle( const Handle(Geom_Circle)& Cer)
 {
   gp_Circ C;
   C = Cer->Circ();
-#include <GeomToStep_MakeCircle_gen.pxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCircle_gen.pxx>
 }
 
 

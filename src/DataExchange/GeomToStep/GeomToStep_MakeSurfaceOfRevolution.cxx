@@ -17,9 +17,9 @@
 #include <StepGeom_SurfaceOfRevolution.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
-#include <GeomToStep_MakeSurfaceOfRevolution.hxx>
-#include <GeomToStep_MakeAxis1Placement.hxx>
-#include <GeomToStep_MakeCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSurfaceOfRevolution.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis1Placement.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <StepGeom_Curve.hxx>
 #include <StepGeom_Axis1Placement.hxx>

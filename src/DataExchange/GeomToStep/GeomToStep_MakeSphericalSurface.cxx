@@ -17,8 +17,8 @@
 #include <StepGeom_SphericalSurface.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
-#include <GeomToStep_MakeSphericalSurface.hxx>
-#include <GeomToStep_MakeAxis2Placement3d.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeSphericalSurface.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>

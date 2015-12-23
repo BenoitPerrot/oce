@@ -18,20 +18,20 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <GeomToStep_MakeCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StepGeom_Curve.hxx>
-#include <GeomToStep_MakeCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <GeomToStep_MakeLine.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeLine.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
-#include <GeomToStep_MakeConic.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeConic.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BoundedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <GeomToStep_MakeBoundedCurve.hxx>
+#include <DataExchange/GeomToStep/GeomToStep_MakeBoundedCurve.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
