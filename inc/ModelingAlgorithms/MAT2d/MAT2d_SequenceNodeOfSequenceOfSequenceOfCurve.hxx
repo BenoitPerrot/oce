@@ -49,11 +49,11 @@ private:
 #define SeqItem TColGeom2d_SequenceOfCurve
 #define SeqItem_hxx <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #define TCollection_SequenceNode MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve
-#define TCollection_SequenceNode_hxx <MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/MAT2d/MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve.hxx>
 #define Handle_TCollection_SequenceNode Handle_MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve
 #define TCollection_SequenceNode_Type_() MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve_Type_()
 #define TCollection_Sequence MAT2d_SequenceOfSequenceOfCurve
-#define TCollection_Sequence_hxx <MAT2d_SequenceOfSequenceOfCurve.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfSequenceOfCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

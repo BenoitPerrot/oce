@@ -25,12 +25,12 @@
 #include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBasicElt.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 
-# include <MAT2d_Mat2d.hxx>
-# include <MAT2d_Tool2d.hxx>
-# include <MAT2d_Circuit.hxx>
-# include <MAT2d_CutCurve.hxx>
-# include <MAT2d_BiInt.hxx>
-# include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
+# include <ModelingAlgorithms/MAT2d/MAT2d_Mat2d.hxx>
+# include <ModelingAlgorithms/MAT2d/MAT2d_Tool2d.hxx>
+# include <ModelingAlgorithms/MAT2d/MAT2d_Circuit.hxx>
+# include <ModelingAlgorithms/MAT2d/MAT2d_CutCurve.hxx>
+# include <ModelingAlgorithms/MAT2d/MAT2d_BiInt.hxx>
+# include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfSequenceOfGeometry.hxx>
 # include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
 # include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
 # include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>

@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <MAT2d_DataMapOfIntegerSequenceOfConnexion.hxx>
-#include <MAT2d_DataMapOfIntegerConnexion.hxx>
-#include <MAT2d_SequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerSequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfConnexion.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

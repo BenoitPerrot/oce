@@ -29,16 +29,16 @@
 #include <DrawTrSurf.hxx>
 #endif
 
-#include <MAT2d_Circuit.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Circuit.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <MAT2d_Tool2d.hxx>
-#include <MAT2d_MiniPath.hxx>
-#include <MAT2d_Connexion.hxx>
-#include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Tool2d.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_MiniPath.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfSequenceOfGeometry.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Edge.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>

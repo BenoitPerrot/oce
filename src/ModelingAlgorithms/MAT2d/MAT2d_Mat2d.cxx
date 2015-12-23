@@ -16,9 +16,9 @@
 
 #include <ModelingAlgorithms/MAT/MAT_ListOfEdge.hxx>
 #include <ModelingAlgorithms/MAT/MAT_ListOfBisector.hxx>
-#include <MAT2d_Tool2d.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Tool2d.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
-#include <MAT2d_Mat2d.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Mat2d.hxx>
 
 #include <ModelingAlgorithms/MAT/MAT_Edge.hxx>
 #include <ModelingAlgorithms/MAT/MAT_ListOfEdge.hxx>
@@ -28,7 +28,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBisector.hxx>
 #include <Precision.hxx>
-#include <MAT2d_Tool2d.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Tool2d.hxx>
 
 //========================================================================
 //  function : MAT2d_Mat2d

@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_MAT_Graph.hxx>
-#include <MAT2d_Tool2d.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Tool2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <MAT2d_DataMapOfBiIntInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfBiIntInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 #include <GeomAbs_JoinType.hxx>

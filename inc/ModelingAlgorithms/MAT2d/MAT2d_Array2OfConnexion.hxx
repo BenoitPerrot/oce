@@ -101,9 +101,9 @@ private:
 };
 
 #define Array2Item Handle(MAT2d_Connexion)
-#define Array2Item_hxx <MAT2d_Connexion.hxx>
+#define Array2Item_hxx <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
 #define TCollection_Array2 MAT2d_Array2OfConnexion
-#define TCollection_Array2_hxx <MAT2d_Array2OfConnexion.hxx>
+#define TCollection_Array2_hxx <ModelingAlgorithms/MAT2d/MAT2d_Array2OfConnexion.hxx>
 
 #include <Foundation/TCollection/TCollection_Array2.lxx>
 

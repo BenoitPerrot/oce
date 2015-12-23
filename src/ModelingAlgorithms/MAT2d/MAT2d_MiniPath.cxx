@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
-#include <MAT2d_SequenceOfConnexion.hxx>
-#include <MAT2d_Connexion.hxx>
-#include <MAT2d_MiniPath.hxx>
-#include <MAT2d_Connexion.hxx>
-#include <MAT2d_Array2OfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfSequenceOfGeometry.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_MiniPath.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Array2OfConnexion.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Geometry/Extrema/Extrema_ExtCC2d.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>

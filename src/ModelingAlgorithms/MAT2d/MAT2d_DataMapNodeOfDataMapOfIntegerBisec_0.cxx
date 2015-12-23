@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <MAT2d_DataMapOfIntegerBisec.hxx>
-#include <MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerBisec.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
 
  
 
@@ -36,12 +36,12 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_DataMapNodeOfDataMapOfIntegerBisec)
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfIntegerBisec
-#define TCollection_DataMapNode_hxx <MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 #define TCollection_DataMapIterator MAT2d_DataMapIteratorOfDataMapOfIntegerBisec
-#define TCollection_DataMapIterator_hxx <MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
 #define Handle_TCollection_DataMapNode Handle_MAT2d_DataMapNodeOfDataMapOfIntegerBisec
 #define TCollection_DataMapNode_Type_() MAT2d_DataMapNodeOfDataMapOfIntegerBisec_Type_()
 #define TCollection_DataMap MAT2d_DataMapOfIntegerBisec
-#define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerBisec.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerBisec.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

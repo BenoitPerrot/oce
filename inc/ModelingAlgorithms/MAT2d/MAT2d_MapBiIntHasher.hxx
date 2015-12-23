@@ -45,7 +45,7 @@ private:
 };
 
 
-#include <MAT2d_MapBiIntHasher.lxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_MapBiIntHasher.lxx>
 
 
 

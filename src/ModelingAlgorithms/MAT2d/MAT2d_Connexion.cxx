@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT2d_Connexion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

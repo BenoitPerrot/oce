@@ -14,9 +14,9 @@
 #include <GeomAbs_JoinType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT2d_Circuit.hxx>
-#include <MAT2d_DataMapOfIntegerBisec.hxx>
-#include <MAT2d_DataMapOfIntegerPnt2d.hxx>
-#include <MAT2d_DataMapOfIntegerVec2d.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerBisec.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerPnt2d.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerVec2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

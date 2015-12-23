@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT2d_Array2OfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Array2OfConnexion.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
  
 
 #define Array2Item Handle(MAT2d_Connexion)
-#define Array2Item_hxx <MAT2d_Connexion.hxx>
+#define Array2Item_hxx <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
 #define TCollection_Array2 MAT2d_Array2OfConnexion
-#define TCollection_Array2_hxx <MAT2d_Array2OfConnexion.hxx>
+#define TCollection_Array2_hxx <ModelingAlgorithms/MAT2d/MAT2d_Array2OfConnexion.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

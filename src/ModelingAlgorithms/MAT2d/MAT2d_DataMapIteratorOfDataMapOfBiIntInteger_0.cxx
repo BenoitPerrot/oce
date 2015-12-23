@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT2d_DataMapIteratorOfDataMapOfBiIntInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapIteratorOfDataMapOfBiIntInteger.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <MAT2d_BiInt.hxx>
-#include <MAT2d_MapBiIntHasher.hxx>
-#include <MAT2d_DataMapOfBiIntInteger.hxx>
-#include <MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_BiInt.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_MapBiIntHasher.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfBiIntInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
  
 
 #define TheKey MAT2d_BiInt
-#define TheKey_hxx <MAT2d_BiInt.hxx>
+#define TheKey_hxx <ModelingAlgorithms/MAT2d/MAT2d_BiInt.hxx>
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher MAT2d_MapBiIntHasher
-#define Hasher_hxx <MAT2d_MapBiIntHasher.hxx>
+#define Hasher_hxx <ModelingAlgorithms/MAT2d/MAT2d_MapBiIntHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfBiIntInteger
-#define TCollection_DataMapNode_hxx <MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
 #define TCollection_DataMapIterator MAT2d_DataMapIteratorOfDataMapOfBiIntInteger
-#define TCollection_DataMapIterator_hxx <MAT2d_DataMapIteratorOfDataMapOfBiIntInteger.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapIteratorOfDataMapOfBiIntInteger.hxx>
 #define Handle_TCollection_DataMapNode Handle_MAT2d_DataMapNodeOfDataMapOfBiIntInteger
 #define TCollection_DataMapNode_Type_() MAT2d_DataMapNodeOfDataMapOfBiIntInteger_Type_()
 #define TCollection_DataMap MAT2d_DataMapOfBiIntInteger
-#define TCollection_DataMap_hxx <MAT2d_DataMapOfBiIntInteger.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfBiIntInteger.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

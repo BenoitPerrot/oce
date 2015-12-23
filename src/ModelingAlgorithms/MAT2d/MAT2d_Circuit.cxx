@@ -30,16 +30,16 @@
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #endif
 
-#include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfSequenceOfGeometry.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
-#include <MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>
-#include <MAT2d_BiInt.hxx>
-#include <MAT2d_SequenceOfConnexion.hxx>
-#include <MAT2d_MiniPath.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_BiInt.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_MiniPath.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <MAT2d_Circuit.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Circuit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT2d_Circuit)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -55,14 +55,14 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_Circuit)
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <MAT2d_BiInt.hxx>
-#include <MAT2d_MiniPath.hxx>
-#include <MAT2d_Connexion.hxx>
-#include <MAT2d_SequenceOfConnexion.hxx>
-#include <MAT2d_DataMapOfIntegerConnexion.hxx> 
-#include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
-#include <MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
-#include <MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_BiInt.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_MiniPath.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerConnexion.hxx> 
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfSequenceOfGeometry.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger.hxx>
 #include <Precision.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>

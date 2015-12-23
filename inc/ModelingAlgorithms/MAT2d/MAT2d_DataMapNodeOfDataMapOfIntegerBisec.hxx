@@ -59,13 +59,13 @@ private:
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT2d_DataMapNodeOfDataMapOfIntegerBisec
-#define TCollection_DataMapNode_hxx <MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 #define TCollection_DataMapIterator MAT2d_DataMapIteratorOfDataMapOfIntegerBisec
-#define TCollection_DataMapIterator_hxx <MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx>
 #define Handle_TCollection_DataMapNode Handle_MAT2d_DataMapNodeOfDataMapOfIntegerBisec
 #define TCollection_DataMapNode_Type_() MAT2d_DataMapNodeOfDataMapOfIntegerBisec_Type_()
 #define TCollection_DataMap MAT2d_DataMapOfIntegerBisec
-#define TCollection_DataMap_hxx <MAT2d_DataMapOfIntegerBisec.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerBisec.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

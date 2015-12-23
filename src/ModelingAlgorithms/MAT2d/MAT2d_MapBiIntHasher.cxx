@@ -14,5 +14,5 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT2d_BiInt.hxx>
-#include <MAT2d_MapBiIntHasher.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_BiInt.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_MapBiIntHasher.hxx>

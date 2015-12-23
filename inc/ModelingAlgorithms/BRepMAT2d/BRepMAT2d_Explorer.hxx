@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <MAT2d_SequenceOfSequenceOfCurve.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfSequenceOfCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>

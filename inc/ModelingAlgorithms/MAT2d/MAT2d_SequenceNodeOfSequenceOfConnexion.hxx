@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(MAT2d_Connexion)
-#define SeqItem_hxx <MAT2d_Connexion.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/MAT2d/MAT2d_Connexion.hxx>
 #define TCollection_SequenceNode MAT2d_SequenceNodeOfSequenceOfConnexion
-#define TCollection_SequenceNode_hxx <MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/MAT2d/MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
 #define Handle_TCollection_SequenceNode Handle_MAT2d_SequenceNodeOfSequenceOfConnexion
 #define TCollection_SequenceNode_Type_() MAT2d_SequenceNodeOfSequenceOfConnexion_Type_()
 #define TCollection_Sequence MAT2d_SequenceOfConnexion
-#define TCollection_Sequence_hxx <MAT2d_SequenceOfConnexion.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/MAT2d/MAT2d_SequenceOfConnexion.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

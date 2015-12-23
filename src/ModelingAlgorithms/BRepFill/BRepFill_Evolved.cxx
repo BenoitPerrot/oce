@@ -85,7 +85,7 @@
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
-#include <MAT2d_CutCurve.hxx>
+#include <ModelingAlgorithms/MAT2d/MAT2d_CutCurve.hxx>
 
 #include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
 #include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
