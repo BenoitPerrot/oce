@@ -16,7 +16,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataStd_ExpressionStorageDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_ExpressionStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_ExpressionStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -18,7 +18,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataStd_ExtStringListStorageDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_ExtStringListStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_ExtStringListStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_ExtStringListStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ExtStringListStorageDriver)
 #include <PDataStd_ExtStringList.hxx>
 #include <TDataStd_ExtStringList.hxx>
-#include <MDataStd.hxx>
+#include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

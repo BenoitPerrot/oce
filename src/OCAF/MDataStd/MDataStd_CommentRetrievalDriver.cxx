@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataStd_CommentRetrievalDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_CommentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_CommentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

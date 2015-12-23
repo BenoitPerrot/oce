@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataStd_IntegerRetrievalDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_IntegerRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_IntegerRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

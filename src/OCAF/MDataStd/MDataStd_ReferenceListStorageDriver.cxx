@@ -18,7 +18,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataStd_ReferenceListStorageDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_ReferenceListStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_ReferenceListStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_ReferenceListStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ReferenceListStorageDriver)
 #include <PDataStd_ReferenceList.hxx>
 #include <TDataStd_ReferenceList.hxx>
-#include <MDataStd.hxx>
+#include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_ListIteratorOfLabelList.hxx>
 #include <TDF_Tool.hxx>

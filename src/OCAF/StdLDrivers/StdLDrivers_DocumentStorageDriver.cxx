@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(StdLDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(StdLDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdLDrivers_DocumentStorageDriver)
 #include <MDF.hxx> 
-#include <MDataStd.hxx> 
+#include <OCAF/MDataStd/MDataStd.hxx> 
 #include <MDocStd.hxx> 
 #include <PDocStd_Document.hxx>
 #include <TDocStd_Document.hxx>

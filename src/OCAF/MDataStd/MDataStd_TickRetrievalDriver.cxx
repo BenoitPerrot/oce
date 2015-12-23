@@ -18,7 +18,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataStd_TickRetrievalDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_TickRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_TickRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

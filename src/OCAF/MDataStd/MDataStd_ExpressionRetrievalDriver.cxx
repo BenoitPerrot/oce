@@ -16,7 +16,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataStd_ExpressionRetrievalDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_ExpressionRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_ExpressionRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataStd_RealRetrievalDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_RealRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_RealRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MDataStd_RealRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_RealRetrievalDriver)
 #include <TDataStd_Real.hxx>
 #include <PDataStd_Real.hxx>
-#include <MDataStd.hxx>
+#include <OCAF/MDataStd/MDataStd.hxx>
 #include <TDataStd_RealEnum.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

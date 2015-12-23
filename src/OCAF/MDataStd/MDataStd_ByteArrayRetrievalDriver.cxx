@@ -18,7 +18,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <MDF_RRelocationTable.hxx>
-#include <MDataStd_ByteArrayRetrievalDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_ByteArrayRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_ByteArrayRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_ByteArrayRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ByteArrayRetrievalDriver)
 #include <PDataStd_ByteArray.hxx>
 #include <TDataStd_ByteArray.hxx>
-#include <MDataStd.hxx>
+#include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 #include <PColStd_HArray1OfInteger.hxx>

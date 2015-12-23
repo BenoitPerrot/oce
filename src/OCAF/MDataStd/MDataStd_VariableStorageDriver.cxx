@@ -19,7 +19,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataStd_VariableStorageDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_VariableStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_VariableStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MDataStd_VariableStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_VariableStorageDriver)
 #include <PDataStd_Variable.hxx>
 #include <TDataStd_Variable.hxx>
-#include <MDataStd.hxx>
+#include <OCAF/MDataStd/MDataStd.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

@@ -18,7 +18,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <MDF_SRelocationTable.hxx>
-#include <MDataStd_BooleanListStorageDriver.hxx>
+#include <OCAF/MDataStd/MDataStd_BooleanListStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MDataStd_BooleanListStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_BooleanListStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_BooleanListStorageDriver)
 #include <PDataStd_BooleanList.hxx>
 #include <TDataStd_BooleanList.hxx>
-#include <MDataStd.hxx>
+#include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDataStd_ListIteratorOfListOfByte.hxx>
 
