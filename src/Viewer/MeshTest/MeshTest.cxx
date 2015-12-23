@@ -30,7 +30,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <DBRep.hxx>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <GeometryTest.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

@@ -17,7 +17,7 @@
 // modified by mps (juillet 96) : ajout de la commande distmini
 
 #include <DBRep.hxx>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_Poly.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>

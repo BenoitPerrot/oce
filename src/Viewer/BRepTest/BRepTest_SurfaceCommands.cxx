@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <stdio.h>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <GeometryTest.hxx>
 
 #include <DrawTrSurf.hxx>

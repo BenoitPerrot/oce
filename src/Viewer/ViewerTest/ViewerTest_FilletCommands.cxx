@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ViewerTest.hxx>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
@@ -34,7 +34,7 @@
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <GeometryTest.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis.hxx>

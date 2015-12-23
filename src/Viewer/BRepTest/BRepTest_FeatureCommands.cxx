@@ -60,7 +60,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <DBRep.hxx>
 #include <DBRep_DrawableShape.hxx>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>

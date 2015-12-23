@@ -18,7 +18,7 @@
 #include <Draw_Interpretor.hxx>
 #include <GeomliteTest.hxx>
 #include <GeometryTest.hxx>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <MeshTest.hxx>
 //#include <CorrectTest.hxx>
 #include <HLRTest.hxx>

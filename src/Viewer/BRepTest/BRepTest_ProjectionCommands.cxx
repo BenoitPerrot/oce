@@ -22,7 +22,7 @@
 #include <Draw_Interpretor.hxx>
 #include <ModelingAlgorithms/BRepProj/BRepProj_Projection.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 //#ifdef WNT
 #include <stdio.h>

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepTest.hxx>
+#include <Viewer/BRepTest/BRepTest.hxx>
 
 #include <DBRep.hxx>
 #include <Draw_Appli.hxx>
