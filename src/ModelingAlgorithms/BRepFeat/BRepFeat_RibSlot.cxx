@@ -63,7 +63,7 @@
 #include <BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:48:16 2002 t
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepBndLib.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <BRepTools_WireExplorer.hxx>

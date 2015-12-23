@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Extrema/Extrema_ExtCS.hxx>

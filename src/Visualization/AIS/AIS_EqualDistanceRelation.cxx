@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <Select3D_SensitiveBox.hxx>
 #include <Select3D_SensitiveCircle.hxx>
 #include <Precision.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <TopoDS_Vertex.hxx>

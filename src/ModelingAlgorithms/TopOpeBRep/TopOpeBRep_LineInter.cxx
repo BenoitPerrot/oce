@@ -20,7 +20,7 @@
 #include <IntPatch_WLine.hxx>
 #include <IntPatch_GLine.hxx>
 #include <TopOpeBRep_HArray1OfVPointInter.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
@@ -49,7 +49,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <TopAbs.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>

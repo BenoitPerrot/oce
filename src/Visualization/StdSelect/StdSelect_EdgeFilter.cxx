@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StdSelect_EdgeFilter)
 IMPLEMENT_DOWNCAST(StdSelect_EdgeFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_EdgeFilter)
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS.hxx>
 #include <TopAbs.hxx>

@@ -19,8 +19,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 //#include <Foundation/StdFail/StdFail_NotDone.hxx>
 //#include <Foundation/Standard/Standard_Failure.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 
 
 //=======================================================================

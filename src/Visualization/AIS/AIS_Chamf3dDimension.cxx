@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf3dDimension)
 #include <AIS.hxx>
 #include <AIS_Drawer.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/ProjLib/ProjLib.hxx>
 #include <Select3D_SensitiveBox.hxx>
 

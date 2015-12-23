@@ -17,7 +17,7 @@
 #include <IntTools_SequenceOfRoots.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <IntTools.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
@@ -31,7 +31,7 @@
 
 #include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>

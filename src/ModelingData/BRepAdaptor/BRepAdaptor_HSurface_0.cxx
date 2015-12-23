@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 
  
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HSurface)
 
 
 #define TheSurface BRepAdaptor_Surface
-#define TheSurface_hxx <BRepAdaptor_Surface.hxx>
+#define TheSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define Adaptor3d_GenHSurface BRepAdaptor_HSurface
-#define Adaptor3d_GenHSurface_hxx <BRepAdaptor_HSurface.hxx>
+#define Adaptor3d_GenHSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_BRepAdaptor_HSurface
 #define Adaptor3d_GenHSurface_Type_() BRepAdaptor_HSurface_Type_()
 #include <Geometry/Adaptor3d/Adaptor3d_GenHSurface.gxx>

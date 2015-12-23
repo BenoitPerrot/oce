@@ -30,14 +30,14 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <CSLib_Class2d.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <TopExp.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElCLib.hxx>

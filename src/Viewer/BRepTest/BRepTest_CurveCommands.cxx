@@ -33,7 +33,7 @@
 #include <BRepOffsetAPI_MakeOffset.hxx>
 #include <BRepLib.hxx>
 #include <BRepAlgo.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>

@@ -15,8 +15,8 @@
 #include <IntTools_Context.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
 #include <IntTools_CurveRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -62,8 +62,8 @@
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_IntersectionSegment.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
-#include <BRepAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
 #include <Geometry/Extrema/Extrema_GenExtCS.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

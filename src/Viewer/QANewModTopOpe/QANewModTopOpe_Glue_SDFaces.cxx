@@ -38,7 +38,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Precision.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 static Standard_Boolean isAnalitic(const TopoDS_Shape &theShape)
 {

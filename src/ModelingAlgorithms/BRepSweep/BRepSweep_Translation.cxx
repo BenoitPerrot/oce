@@ -22,7 +22,7 @@
 #include <BRepSweep_Translation.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ElSLib.hxx>
@@ -48,7 +48,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>

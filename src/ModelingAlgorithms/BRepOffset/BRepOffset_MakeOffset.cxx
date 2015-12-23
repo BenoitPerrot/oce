@@ -42,7 +42,7 @@
 #include <BRepOffset_MakeLoops.hxx>
 
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepCheck_Edge.hxx>
 #include <BRepCheck_Vertex.hxx>
 #include <BRepLib.hxx>
@@ -97,8 +97,8 @@
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <TopoDS_Wire.hxx>

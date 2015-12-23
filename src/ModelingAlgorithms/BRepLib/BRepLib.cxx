@@ -24,9 +24,9 @@
 #include <TopoDS_Face.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepLib.hxx>
-#include <BRepAdaptor_Surface.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

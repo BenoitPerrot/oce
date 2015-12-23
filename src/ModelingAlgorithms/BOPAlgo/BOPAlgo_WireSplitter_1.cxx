@@ -48,7 +48,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_SequenceOfShape.hxx>

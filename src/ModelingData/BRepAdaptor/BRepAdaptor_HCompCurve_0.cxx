@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepAdaptor_HCompCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRepAdaptor_CompCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 
  
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HCompCurve)
 
 
 #define TheCurve BRepAdaptor_CompCurve
-#define TheCurve_hxx <BRepAdaptor_CompCurve.hxx>
+#define TheCurve_hxx <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #define Adaptor3d_GenHCurve BRepAdaptor_HCompCurve
-#define Adaptor3d_GenHCurve_hxx <BRepAdaptor_HCompCurve.hxx>
+#define Adaptor3d_GenHCurve_hxx <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_BRepAdaptor_HCompCurve
 #define Adaptor3d_GenHCurve_Type_() BRepAdaptor_HCompCurve_Type_()
 #include <Geometry/Adaptor3d/Adaptor3d_GenHCurve.gxx>

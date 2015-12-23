@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Prs3d_Presentation.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>

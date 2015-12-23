@@ -31,9 +31,9 @@
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <CSLib_Class2d.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

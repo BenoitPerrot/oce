@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRep_PointClassifier.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 //=======================================================================
 //function : TopOpeBRep_PointClassifier

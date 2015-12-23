@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAdaptor_HCurve.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
@@ -57,9 +57,9 @@ private:
 };
 
 #define TheCurve BRepAdaptor_Curve
-#define TheCurve_hxx <BRepAdaptor_Curve.hxx>
+#define TheCurve_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #define Adaptor3d_GenHCurve BRepAdaptor_HCurve
-#define Adaptor3d_GenHCurve_hxx <BRepAdaptor_HCurve.hxx>
+#define Adaptor3d_GenHCurve_hxx <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_BRepAdaptor_HCurve
 #define Adaptor3d_GenHCurve_Type_() BRepAdaptor_HCurve_Type_()
 

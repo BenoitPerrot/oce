@@ -77,10 +77,10 @@
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -173,7 +173,7 @@ extern void ChFi3d_ResultChron(OSD_Chronometer & ch,Standard_Real& time);
 #include <stdio.h>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 //=======================================================================
 //function : ChFi3d_InPeriod

@@ -30,11 +30,11 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>

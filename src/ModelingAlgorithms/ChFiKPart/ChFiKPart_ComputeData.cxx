@@ -56,8 +56,8 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-//#include <BRepAdaptor_Curve2d.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+//#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <IntSurf_Transition.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <IntRes2d_Transition.hxx>
@@ -67,7 +67,7 @@
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <TopExp.hxx>
-//#include <BRepAdaptor_HCurve2d.hxx>
+//#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ChFiDS_FilSpine.hxx>
 #include <ChFiDS_ChamfSpine.hxx>
 

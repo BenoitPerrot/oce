@@ -50,7 +50,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 

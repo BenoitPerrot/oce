@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
  
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HCurve2d)
 
 
 #define TheCurve BRepAdaptor_Curve2d
-#define TheCurve_hxx <BRepAdaptor_Curve2d.hxx>
+#define TheCurve_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #define Adaptor2d_GenHCurve2d BRepAdaptor_HCurve2d
-#define Adaptor2d_GenHCurve2d_hxx <BRepAdaptor_HCurve2d.hxx>
+#define Adaptor2d_GenHCurve2d_hxx <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #define Handle_Adaptor2d_GenHCurve2d Handle_BRepAdaptor_HCurve2d
 #define Adaptor2d_GenHCurve2d_Type_() BRepAdaptor_HCurve2d_Type_()
 #include <Geometry/Adaptor2d/Adaptor2d_GenHCurve2d.gxx>

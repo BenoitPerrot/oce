@@ -42,9 +42,9 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepBuild_define.hxx>

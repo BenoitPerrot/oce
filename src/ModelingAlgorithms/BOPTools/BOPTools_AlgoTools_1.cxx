@@ -79,7 +79,7 @@
 #include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 //
 #include <BRepTools_WireExplorer.hxx>
 //

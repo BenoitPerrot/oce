@@ -29,8 +29,8 @@
 #include <TopTools_Array1OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-//#include <BRepAdaptor_Curve2d.hxx>
-#include <BRepAdaptor_Surface.hxx>
+//#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

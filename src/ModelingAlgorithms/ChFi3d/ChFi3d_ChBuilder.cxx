@@ -23,9 +23,9 @@
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_Spine.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ChFiDS_Stripe.hxx>
@@ -55,13 +55,13 @@
 #include <BRepBlend_ChAsymInv.hxx>
 #include <BlendFunc_SectionShape.hxx>
 #include <BRepBlend_Walking.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 
 
 #include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopAbs.hxx>
 

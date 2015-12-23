@@ -49,7 +49,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

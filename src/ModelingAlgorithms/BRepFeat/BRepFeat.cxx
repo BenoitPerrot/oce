@@ -27,7 +27,7 @@
 //#include <BRepAlgo_Cut.hxx>
 
 #include <BRepBuilderAPI.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -30,7 +30,7 @@
 #include <BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

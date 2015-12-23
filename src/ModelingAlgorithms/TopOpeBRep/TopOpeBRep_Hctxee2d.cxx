@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopoDS_Edge.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <IntRes2d_Domain.hxx>

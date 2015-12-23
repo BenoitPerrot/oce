@@ -29,7 +29,7 @@
 #include <AIS_RadiusDimension.hxx>
 #include <AIS_Relation.hxx>
 #include <AIS_Shape.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
@@ -864,7 +864,7 @@ static int VDiameterDimBuilder(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 
 
@@ -1118,7 +1118,7 @@ static int VEqualDistRelation(Draw_Interpretor& di, Standard_Integer argc, const
 //==============================================================================
 #include <AIS_EqualRadiusRelation.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 
 static int VEqualRadiusRelation(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -1196,7 +1196,7 @@ static int VEqualRadiusRelation(Draw_Interpretor& di, Standard_Integer argc, con
 //==============================================================================
 #include <AIS_FixRelation.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 static int VFixRelation(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
 {
@@ -1260,7 +1260,7 @@ static int VFixRelation(Draw_Interpretor& di, Standard_Integer argc, const char*
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
 #include <AIS_IdenticRelation.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 
 
@@ -1704,7 +1704,7 @@ static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const c
 //==============================================================================
 #include <AIS_RadiusDimension.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 
 
@@ -1900,7 +1900,7 @@ static int VOffsetDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 #include <BRepExtrema_ExtFF.hxx>
 #include <BRepExtrema_ExtCC.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 
 
@@ -2055,7 +2055,7 @@ static int VParallelBuilder(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <AIS_PerpendicularRelation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopExp_Explorer.hxx>
 
 

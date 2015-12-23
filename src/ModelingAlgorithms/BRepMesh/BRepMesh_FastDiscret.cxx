@@ -28,9 +28,9 @@
 #include <BRepMesh_EdgeTessellator.hxx>
 #include <BRepMesh_EdgeTessellationExtractor.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepTools.hxx>

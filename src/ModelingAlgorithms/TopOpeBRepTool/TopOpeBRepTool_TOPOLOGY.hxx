@@ -30,8 +30,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepAdaptor_Curve.hxx>
-//#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+//#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 
 Standard_EXPORT void FUN_tool_tolUV(const TopoDS_Face& F,Standard_Real& tolu,Standard_Real& tolv);
 Standard_EXPORT Standard_Boolean FUN_tool_direct(const TopoDS_Face& F,Standard_Boolean& direct);

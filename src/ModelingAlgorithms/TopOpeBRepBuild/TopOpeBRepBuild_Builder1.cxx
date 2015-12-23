@@ -39,7 +39,7 @@
 #include <TopExp.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRepDS_EXPORT.hxx>
 #include <Geom2dAPI_ProjectPointOnCurve.hxx>

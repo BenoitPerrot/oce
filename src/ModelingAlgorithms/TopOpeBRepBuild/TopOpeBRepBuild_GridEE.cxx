@@ -71,7 +71,7 @@
 #include <ElSLib.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Precision.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

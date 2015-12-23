@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <TNaming_Builder.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx> 

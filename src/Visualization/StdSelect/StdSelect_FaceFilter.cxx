@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StdSelect_FaceFilter)
 IMPLEMENT_DOWNCAST(StdSelect_FaceFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_FaceFilter)
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS.hxx>

@@ -65,10 +65,10 @@
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 
 #include <BRepTools.hxx>

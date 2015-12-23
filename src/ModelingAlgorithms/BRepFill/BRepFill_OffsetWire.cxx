@@ -33,8 +33,8 @@
 #include <BRepFill_TrimEdgeTool.hxx>
 #include <BRepFill_OffsetWire.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <BRepFill_DataMapOfNodeShape.hxx>
 #include <BRepFill_DataMapOfShapeSequenceOfPnt.hxx>

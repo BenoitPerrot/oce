@@ -36,7 +36,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepFill_OffsetWire.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepLib.hxx>
@@ -57,7 +57,7 @@
 #include <BRepTools_TrsfModification.hxx>
 #include <BRepTools_Modifier.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>
 
 #include <BRepMAT2d_LinkTopoBilo.hxx>

@@ -44,7 +44,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
@@ -57,7 +57,7 @@
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <GeomFill_LocationDraft.hxx>
 

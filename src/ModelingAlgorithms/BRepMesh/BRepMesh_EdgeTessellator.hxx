@@ -25,7 +25,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 class Geom_Surface;
 class Geom2d_Curve;

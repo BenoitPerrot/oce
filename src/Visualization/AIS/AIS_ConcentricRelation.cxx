@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 
 #include <TopoDS.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

@@ -27,7 +27,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib.hxx>
 #include <BRepTools_Quilt.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeShell.hxx>
 #include <BRepBuilderAPI.hxx>

@@ -30,7 +30,7 @@
 #include <BRepTools.hxx>
 #include <BRepLib.hxx>
 #include <BRepBndLib.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>

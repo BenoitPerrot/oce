@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 #include <Select3D_SensitiveSegment.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(BRepTopAdaptor_HVertex)
 IMPLEMENT_DOWNCAST(BRepTopAdaptor_HVertex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_HVertex)
 
-#include <BRepAdaptor_HCurve2d.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

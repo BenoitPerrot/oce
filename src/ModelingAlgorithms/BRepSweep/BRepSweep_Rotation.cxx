@@ -21,8 +21,8 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <BRepSweep_Rotation.hxx>
 #include <BRepTools_Quilt.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
 #include <TopoDS.hxx>

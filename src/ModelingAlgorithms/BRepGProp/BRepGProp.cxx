@@ -20,7 +20,7 @@
 #include <BRepGProp_Face.hxx>
 #include <BRepGProp_Domain.hxx>
 #include <TopoDS.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <TopTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>  

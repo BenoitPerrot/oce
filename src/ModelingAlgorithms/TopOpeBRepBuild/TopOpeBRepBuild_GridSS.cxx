@@ -78,7 +78,7 @@
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_EXPORT.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopOpeBRepBuild_Tools.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopOpeBRepDS_connex.hxx>

@@ -17,7 +17,7 @@
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <IntTools_SequenceOfCommonPrts.hxx>
 #include <IntTools_EdgeEdge.hxx>
 
@@ -39,7 +39,7 @@
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <IntTools_CommonPrt.hxx>
 

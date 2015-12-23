@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(DrawDim_Angle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 #include <DrawDim.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

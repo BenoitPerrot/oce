@@ -20,8 +20,8 @@
 #include <TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRepAdaptor_Surface.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 

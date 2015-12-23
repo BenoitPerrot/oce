@@ -14,7 +14,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <BRepClass_FaceExplorer.hxx>

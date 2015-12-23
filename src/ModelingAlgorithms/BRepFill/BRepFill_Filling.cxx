@@ -27,9 +27,9 @@
 #include <BRepFill_Filling.hxx>
 #include <BRepFill_EdgeFaceAndOrder.hxx>
 #include <BRepFill_FaceAndOrder.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <BRepFill_CurveConstraint.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>

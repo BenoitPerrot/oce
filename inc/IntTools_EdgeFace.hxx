@@ -14,8 +14,8 @@
 #include <TopoDS_Face.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IntTools_Context.hxx>
 #include <IntTools_SequenceOfRanges.hxx>

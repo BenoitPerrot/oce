@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepAdaptor_HArray1OfCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HArray1OfCurve.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Array1OfCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Array1OfCurve.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(BRepAdaptor_HArray1OfCurve)
 
 
 #define ItemHArray1 BRepAdaptor_Curve
-#define ItemHArray1_hxx <BRepAdaptor_Curve.hxx>
+#define ItemHArray1_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #define TheArray1 BRepAdaptor_Array1OfCurve
-#define TheArray1_hxx <BRepAdaptor_Array1OfCurve.hxx>
+#define TheArray1_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Array1OfCurve.hxx>
 #define TCollection_HArray1 BRepAdaptor_HArray1OfCurve
-#define TCollection_HArray1_hxx <BRepAdaptor_HArray1OfCurve.hxx>
+#define TCollection_HArray1_hxx <ModelingData/BRepAdaptor/BRepAdaptor_HArray1OfCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_BRepAdaptor_HArray1OfCurve
 #define TCollection_HArray1_Type_() BRepAdaptor_HArray1OfCurve_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

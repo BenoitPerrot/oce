@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item BRepAdaptor_Curve
-#define Array1Item_hxx <BRepAdaptor_Curve.hxx>
+#define Array1Item_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #define TCollection_Array1 BRepAdaptor_Array1OfCurve
-#define TCollection_Array1_hxx <BRepAdaptor_Array1OfCurve.hxx>
+#define TCollection_Array1_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Array1OfCurve.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

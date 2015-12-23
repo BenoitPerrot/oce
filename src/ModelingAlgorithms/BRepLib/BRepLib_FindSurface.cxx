@@ -39,8 +39,8 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

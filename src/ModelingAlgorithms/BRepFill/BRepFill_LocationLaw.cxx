@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_LocationLaw)
 #include <BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

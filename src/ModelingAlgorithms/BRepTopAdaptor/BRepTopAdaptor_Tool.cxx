@@ -20,7 +20,7 @@
 #include <BRepTopAdaptor_Tool.hxx>
 
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 
 

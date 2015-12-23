@@ -77,7 +77,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

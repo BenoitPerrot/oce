@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/LProp/LProp_NotDefined.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -17,7 +17,7 @@
  
 
 #define Curve BRepAdaptor_Curve
-#define Curve_hxx <BRepAdaptor_Curve.hxx>
+#define Curve_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #define Vec gp_Vec
 #define Vec_hxx <Mathematics/Primitives/gp_Vec.hxx>
 #define Pnt gp_Pnt

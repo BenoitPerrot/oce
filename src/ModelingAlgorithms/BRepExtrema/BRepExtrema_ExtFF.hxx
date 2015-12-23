@@ -17,7 +17,7 @@
 #include <Geometry/Extrema/Extrema_ExtSS.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/Extrema/Extrema_SequenceOfPOnSurf.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 

@@ -49,7 +49,7 @@
 
 #include <BRepClass_FaceExplorer.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

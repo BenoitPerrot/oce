@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableSUR)
 IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableSUR,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSUR)
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

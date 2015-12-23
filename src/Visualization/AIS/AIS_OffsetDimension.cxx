@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_OffsetDimension)
 #include <AIS.hxx>
 #include <AIS_Drawer.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <DsgPrs_OffsetPresentation.hxx>
 #include <ElCLib.hxx>

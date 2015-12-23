@@ -51,13 +51,13 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 
 //=======================================================================
 //function : BRepOffsetAPI_DraftAngle

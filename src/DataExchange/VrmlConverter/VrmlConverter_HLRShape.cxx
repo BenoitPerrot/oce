@@ -17,7 +17,7 @@
 #include <VrmlConverter_HLRShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <StdPrs_HLRToolShape.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepBndLib.hxx>
 #include <VrmlConverter_DeflectionCurve.hxx>
 #include <VrmlConverter_LineAspect.hxx>

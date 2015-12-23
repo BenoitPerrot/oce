@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
@@ -55,9 +55,9 @@ private:
 };
 
 #define TheSurface BRepAdaptor_Surface
-#define TheSurface_hxx <BRepAdaptor_Surface.hxx>
+#define TheSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define Adaptor3d_GenHSurface BRepAdaptor_HSurface
-#define Adaptor3d_GenHSurface_hxx <BRepAdaptor_HSurface.hxx>
+#define Adaptor3d_GenHSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #define Handle_Adaptor3d_GenHSurface Handle_BRepAdaptor_HSurface
 #define Adaptor3d_GenHSurface_Type_() BRepAdaptor_HSurface_Type_()
 

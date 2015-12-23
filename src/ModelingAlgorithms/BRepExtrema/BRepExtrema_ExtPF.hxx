@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/Extrema/Extrema_SequenceOfPOnSurf.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 

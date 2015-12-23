@@ -18,7 +18,7 @@
 
 
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
@@ -38,7 +38,7 @@
 
 
 #include <IntCurveSurface_HInter.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepClass_FaceClassifier.hxx>
@@ -46,7 +46,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 
 

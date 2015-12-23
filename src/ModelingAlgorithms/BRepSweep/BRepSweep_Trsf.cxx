@@ -21,7 +21,7 @@
 #include <BRepSweep_Trsf.hxx>
 #include <Sweep_NumShapeIterator.hxx>
 #include <BRepSweep_Iterator.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLProp.hxx>
 #include <GeomAbs_Shape.hxx>

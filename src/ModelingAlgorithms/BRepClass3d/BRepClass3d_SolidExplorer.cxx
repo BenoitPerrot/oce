@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <TopoDS_Shell.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -38,12 +38,12 @@
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <TopoDS.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <BRepTools.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepClass_FacePassiveClassifier.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <TopExp_Explorer.hxx>
@@ -52,7 +52,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 #include <ElCLib.hxx>
 

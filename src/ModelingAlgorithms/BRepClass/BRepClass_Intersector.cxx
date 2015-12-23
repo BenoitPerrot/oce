@@ -19,8 +19,8 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <BRepClass_Intersector.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopExp.hxx>
 #include <IntRes2d_Domain.hxx>

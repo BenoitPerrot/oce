@@ -50,7 +50,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
@@ -59,7 +59,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 
 //=======================================================================

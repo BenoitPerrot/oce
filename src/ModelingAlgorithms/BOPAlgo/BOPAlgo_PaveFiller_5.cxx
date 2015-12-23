@@ -37,7 +37,7 @@
 #include <TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepBndLib.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //
 #include <IntTools_EdgeFace.hxx>

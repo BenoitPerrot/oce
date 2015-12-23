@@ -28,9 +28,9 @@
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_Spine.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <ChFiDS_Stripe.hxx>
@@ -66,7 +66,7 @@
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
@@ -81,7 +81,7 @@
 #include <TopOpeBRepDS_HDataStructure.hxx>
 
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 

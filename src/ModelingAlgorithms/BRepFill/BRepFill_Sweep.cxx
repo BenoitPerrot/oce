@@ -63,9 +63,9 @@
 #include <BRepLib_FindSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
-#include <BRepAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

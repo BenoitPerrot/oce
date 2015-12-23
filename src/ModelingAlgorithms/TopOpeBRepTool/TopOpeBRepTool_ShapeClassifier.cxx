@@ -34,8 +34,8 @@
 #include <BRepClass_FacePassiveClassifier.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <BRepClass_Edge.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <TopOpeBRepTool_2d.hxx>

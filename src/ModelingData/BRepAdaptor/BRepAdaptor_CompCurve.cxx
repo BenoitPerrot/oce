@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepAdaptor_HArray1OfCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -33,11 +33,11 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <BRepAdaptor_CompCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HCompCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <TopAbs_Orientation.hxx>

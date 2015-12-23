@@ -22,7 +22,7 @@
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <BRepFill_CompatibleWires.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <BRepFill.hxx>
 #include <BRepLib.hxx>

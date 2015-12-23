@@ -29,7 +29,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <BRepLProp_SLProps.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

@@ -78,7 +78,7 @@
 
 #include <CSLib_DerivativeStatus.hxx>
 #include <CSLib.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 

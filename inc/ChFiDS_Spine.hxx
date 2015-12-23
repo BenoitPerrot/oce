@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_Spine.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ChFiDS_State.hxx>
 #include <TopTools_SequenceOfShape.hxx>

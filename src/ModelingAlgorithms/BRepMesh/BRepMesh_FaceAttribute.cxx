@@ -14,7 +14,7 @@
 
 #include <BRepMesh_FaceAttribute.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <BRepMesh_ShapeTool.hxx>
 #include <BRepMesh_Classifier.hxx>
 #include <BRepTools.hxx>

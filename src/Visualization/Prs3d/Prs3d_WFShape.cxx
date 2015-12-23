@@ -14,8 +14,8 @@
 #include <Prs3d_WFShape.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Graphic3d_Group.hxx>

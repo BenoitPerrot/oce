@@ -19,7 +19,7 @@
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfCommonPrts.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <IntTools_CArray1OfReal.hxx>
 #include <IntTools_CommonPrt.hxx>
 #include <IntTools_EdgeFace.hxx>

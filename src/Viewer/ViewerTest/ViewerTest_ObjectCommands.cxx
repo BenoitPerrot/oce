@@ -50,8 +50,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopExp_Explorer.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <TopAbs.hxx>
 #include <TopExp.hxx>
@@ -122,7 +122,7 @@
 #include <Select3D_SensitiveTriangle.hxx>
 #include <Select3D_SensitiveCurve.hxx>
 #include <Select3D_SensitivePoint.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdPrs_Curve.hxx>
 
 #include <BRepExtrema_ExtPC.hxx>

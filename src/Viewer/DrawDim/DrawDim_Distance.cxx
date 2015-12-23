@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Distance)
 #include <DrawDim.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

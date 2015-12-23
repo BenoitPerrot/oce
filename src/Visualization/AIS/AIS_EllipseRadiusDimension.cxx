@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 
 #include <TopoDS.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/LProp/LProp_NotDefined.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepLProp_SurfaceTool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -17,7 +17,7 @@
  
 
 #define Surface BRepAdaptor_Surface
-#define Surface_hxx <BRepAdaptor_Surface.hxx>
+#define Surface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define Tool BRepLProp_SurfaceTool
 #define Tool_hxx <BRepLProp_SurfaceTool.hxx>
 #define LProp_SLProps BRepLProp_SLProps

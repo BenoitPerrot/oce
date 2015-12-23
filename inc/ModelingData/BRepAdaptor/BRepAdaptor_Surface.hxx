@@ -261,7 +261,7 @@ private:
 };
 
 
-#include <BRepAdaptor_Surface.lxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.lxx>
 
 
 

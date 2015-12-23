@@ -104,7 +104,7 @@ private:
 };
 
 #define ThePSurface BRepAdaptor_Surface
-#define ThePSurface_hxx <BRepAdaptor_Surface.hxx>
+#define ThePSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define ThePSurfaceTool BRepApprox_SurfaceTool
 #define ThePSurfaceTool_hxx <BRepApprox_SurfaceTool.hxx>
 #define IntImp_TheFunction BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox

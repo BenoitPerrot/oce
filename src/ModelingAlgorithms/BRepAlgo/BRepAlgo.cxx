@@ -43,7 +43,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ElCLib.hxx>
 #include <BRepLib.hxx>
 #include <TopoDS.hxx>

@@ -15,7 +15,7 @@
 #define _BRepExtrema_ExtCC_HeaderFile
 
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
-#include <BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 
 class BRepAdaptor_HCurve;

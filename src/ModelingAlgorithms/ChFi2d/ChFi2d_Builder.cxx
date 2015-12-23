@@ -51,7 +51,7 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <ChFi2d_Builder.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>

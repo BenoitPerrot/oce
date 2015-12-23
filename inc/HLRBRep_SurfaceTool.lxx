@@ -26,7 +26,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 inline Standard_Real HLRBRep_SurfaceTool::FirstUParameter(const Standard_Address Surf){  return ((BRepAdaptor_Surface *)Surf)->FirstUParameter(); }
 inline Standard_Real HLRBRep_SurfaceTool::FirstVParameter(const Standard_Address Surf){  return ((BRepAdaptor_Surface *)Surf)->FirstVParameter();}

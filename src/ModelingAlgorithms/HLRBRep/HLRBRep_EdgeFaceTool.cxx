@@ -21,7 +21,7 @@
 #include <BRepExtrema_ExtPF.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

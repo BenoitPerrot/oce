@@ -43,7 +43,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopOpeBRep_define.hxx>
 #include <TopTools_MapOfShape.hxx>
 

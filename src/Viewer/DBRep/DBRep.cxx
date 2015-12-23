@@ -30,7 +30,7 @@
 #include <BRepTools.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <BRepTools_ShapeSet.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

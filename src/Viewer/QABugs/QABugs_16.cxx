@@ -42,7 +42,7 @@
 #include <V3d_View.hxx>
 
 #include <TopExp_Explorer.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <AIS_PlaneTrihedron.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>

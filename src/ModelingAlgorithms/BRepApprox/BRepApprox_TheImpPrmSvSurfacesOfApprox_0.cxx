@@ -5,7 +5,7 @@
 
 #include <BRepApprox_TheImpPrmSvSurfacesOfApprox.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepApprox_SurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_QuadricTool.hxx>
@@ -17,7 +17,7 @@
  
 
 #define ThePSurface BRepAdaptor_Surface
-#define ThePSurface_hxx <BRepAdaptor_Surface.hxx>
+#define ThePSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define ThePSurfaceTool BRepApprox_SurfaceTool
 #define ThePSurfaceTool_hxx <BRepApprox_SurfaceTool.hxx>
 #define TheISurface IntSurf_Quadric

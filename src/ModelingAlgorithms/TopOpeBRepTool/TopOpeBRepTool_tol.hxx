@@ -19,7 +19,7 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopOpeBRepTool_define.hxx>
 
 Standard_EXPORT void FTOL_FaceTolerances

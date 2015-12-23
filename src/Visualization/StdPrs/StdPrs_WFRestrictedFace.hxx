@@ -14,7 +14,7 @@
 #ifndef _StdPrs_WFRestrictedFace_H__
 #define _StdPrs_WFRestrictedFace_H__
 
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Root.hxx>

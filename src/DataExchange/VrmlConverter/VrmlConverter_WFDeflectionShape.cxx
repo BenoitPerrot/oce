@@ -17,8 +17,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_ShapeTool.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepBndLib.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <VrmlConverter_LineAspect.hxx>

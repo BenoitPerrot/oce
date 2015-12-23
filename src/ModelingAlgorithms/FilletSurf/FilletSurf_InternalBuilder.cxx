@@ -17,9 +17,9 @@
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_Spine.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -55,7 +55,7 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <GeomAbs_Shape.hxx>

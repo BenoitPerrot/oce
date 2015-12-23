@@ -34,7 +34,7 @@
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_2d.hxx>

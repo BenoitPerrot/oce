@@ -12,7 +12,7 @@
 
 #include <TopoDS_Edge.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntTools_Range.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

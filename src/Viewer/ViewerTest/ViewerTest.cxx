@@ -37,7 +37,7 @@
 #include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 #include <AIS.hxx>
 #include <AIS_Drawer.hxx>

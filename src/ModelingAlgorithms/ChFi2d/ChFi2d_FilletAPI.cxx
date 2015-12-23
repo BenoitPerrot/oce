@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ChFi2d_FilletAPI.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>
 

@@ -20,9 +20,9 @@
 #include <TopAbs_State.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepTools.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 //=======================================================================
 //function : BRepClass_FaceClassifier

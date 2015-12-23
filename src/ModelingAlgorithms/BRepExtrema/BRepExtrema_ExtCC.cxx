@@ -18,8 +18,8 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 
 
 //=======================================================================

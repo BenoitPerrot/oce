@@ -23,9 +23,9 @@
 #include <TopoDS_Shape.hxx>
 #include <DBRep.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <BRepAdaptor_CompCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #include <TopoDS.hxx>
-#include <BRepAdaptor_HCompCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <TopoDS_Edge.hxx>

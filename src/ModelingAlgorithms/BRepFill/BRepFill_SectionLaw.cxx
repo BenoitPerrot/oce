@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_SectionLaw)
 
 #include <BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <BRepLProp.hxx>
 #include <TopExp.hxx>
 #include <TopoDS.hxx>

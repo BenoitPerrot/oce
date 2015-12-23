@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRep_HArray1OfLineInter.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

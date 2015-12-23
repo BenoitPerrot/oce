@@ -25,7 +25,7 @@
 #include <TopAbs.hxx>
 
 #include <IntCurveSurface_HInter.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepClass_FaceClassifier.hxx>
@@ -33,7 +33,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 //============================================================================
 BRepClass3d_Intersector3d::BRepClass3d_Intersector3d() 

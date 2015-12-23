@@ -32,7 +32,7 @@
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-//#include <BRepAdaptor_Curve2d.hxx>
+//#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <TopExp.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_ListOfShape.hxx>

@@ -32,7 +32,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <BRepGProp.hxx>
 

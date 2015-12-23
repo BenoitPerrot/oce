@@ -37,8 +37,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS.hxx>
-#include <BRepAdaptor_Curve.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <StepShape_Vertex.hxx>
 #include <StepShape_EdgeCurve.hxx>

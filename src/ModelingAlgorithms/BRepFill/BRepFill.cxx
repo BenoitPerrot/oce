@@ -90,7 +90,7 @@
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>

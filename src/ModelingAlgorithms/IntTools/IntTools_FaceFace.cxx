@@ -111,7 +111,7 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepTools.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <IntTools_Curve.hxx>
 #include <IntTools_Tools.hxx>

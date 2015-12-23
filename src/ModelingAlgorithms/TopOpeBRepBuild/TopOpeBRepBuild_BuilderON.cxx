@@ -27,7 +27,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>
-#include <BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <TopOpeBRepTool_SC.hxx>
 #include <BRepLProp_SurfaceTool.hxx>

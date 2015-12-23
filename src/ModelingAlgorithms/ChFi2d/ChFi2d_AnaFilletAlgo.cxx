@@ -29,7 +29,7 @@
 #include <ShapeAnalysis_Wire.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 
-#include <BRepAdaptor_Curve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <TopoDS.hxx>

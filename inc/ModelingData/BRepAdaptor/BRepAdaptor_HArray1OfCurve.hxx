@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepAdaptor_HArray1OfCurve.hxx>
 
-#include <BRepAdaptor_Array1OfCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Array1OfCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 BRepAdaptor_Curve
-#define ItemHArray1_hxx <BRepAdaptor_Curve.hxx>
+#define ItemHArray1_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #define TheArray1 BRepAdaptor_Array1OfCurve
-#define TheArray1_hxx <BRepAdaptor_Array1OfCurve.hxx>
+#define TheArray1_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Array1OfCurve.hxx>
 #define TCollection_HArray1 BRepAdaptor_HArray1OfCurve
-#define TCollection_HArray1_hxx <BRepAdaptor_HArray1OfCurve.hxx>
+#define TCollection_HArray1_hxx <ModelingData/BRepAdaptor/BRepAdaptor_HArray1OfCurve.hxx>
 #define Handle_TCollection_HArray1 Handle_BRepAdaptor_HArray1OfCurve
 #define TCollection_HArray1_Type_() BRepAdaptor_HArray1OfCurve_Type_()
 

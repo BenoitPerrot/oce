@@ -36,12 +36,12 @@
 #include <TopoDS_Face.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopExp.hxx>
-#include <BRepAdaptor_HSurface.hxx>
-#include <BRepAdaptor_HCurve2d.hxx>
-#include <BRepAdaptor_HCurve.hxx>
-#include <BRepAdaptor_Surface.hxx>
-#include <BRepAdaptor_Curve2d.hxx>
-#include <BRepAdaptor_Curve.hxx>  
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>  
 #include <BRepTest.hxx>
 #include <DBRep.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
@@ -86,7 +86,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
-#include <BRepAdaptor_HCurve.hxx>
+#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HIsoCurve.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
