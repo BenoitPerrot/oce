@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Intf_SeqOfSectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfSectionPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -117,7 +117,7 @@ private:
 };
 
 
-#include <Intf_TangentZone.lxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.lxx>
 
 
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Intf_SequenceNodeOfSeqOfSectionLine.hxx>
 
-#include <Intf_SectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Intf_SectionLine;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Intf_SectionLine
-#define SeqItem_hxx <Intf_SectionLine.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
 #define TCollection_SequenceNode Intf_SequenceNodeOfSeqOfSectionLine
-#define TCollection_SequenceNode_hxx <Intf_SequenceNodeOfSeqOfSectionLine.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Intf/Intf_SequenceNodeOfSeqOfSectionLine.hxx>
 #define Handle_TCollection_SequenceNode Handle_Intf_SequenceNodeOfSeqOfSectionLine
 #define TCollection_SequenceNode_Type_() Intf_SequenceNodeOfSeqOfSectionLine_Type_()
 #define TCollection_Sequence Intf_SeqOfSectionLine
-#define TCollection_Sequence_hxx <Intf_SeqOfSectionLine.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Intf/Intf_SeqOfSectionLine.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

@@ -10,7 +10,7 @@
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Intf_Array1OfLin.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Array1OfLin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
@@ -26,5 +26,5 @@
 #define ToolPolyh_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 #define Intf_InterferencePolygonPolyhedron IntCurveSurface_TheInterferenceOfHInter
 #define Intf_InterferencePolygonPolyhedron_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheInterferenceOfHInter.hxx>
-#include <Intf_InterferencePolygonPolyhedron.gxx>
+#include <ModelingAlgorithms/Intf/Intf_InterferencePolygonPolyhedron.gxx>
 

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Intf_PIType.hxx>
+#include <ModelingAlgorithms/Intf/Intf_PIType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -120,7 +120,7 @@ private:
 };
 
 
-#include <Intf_SectionPoint.lxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.lxx>
 
 
 

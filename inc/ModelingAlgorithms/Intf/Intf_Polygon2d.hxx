@@ -63,7 +63,7 @@ private:
 };
 
 
-#include <Intf_Polygon2d.lxx>
+#include <ModelingAlgorithms/Intf/Intf_Polygon2d.lxx>
 
 
 

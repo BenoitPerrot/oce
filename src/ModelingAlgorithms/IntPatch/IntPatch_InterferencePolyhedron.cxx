@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <IntPatch_Polyhedron.hxx>
-#include <Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #include <IntPatch_InterferencePolyhedron.hxx>
 
 #include <IntPatch_Polyhedron.hxx>
@@ -24,13 +24,13 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Intf_SectionPoint.hxx>
-#include <Intf_SeqOfSectionPoint.hxx>
-#include <Intf_SectionLine.hxx>
-#include <Intf_SeqOfSectionLine.hxx>
-#include <Intf_TangentZone.hxx>
-#include <Intf_SeqOfTangentZone.hxx>
-#include <Intf.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfSectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfSectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfTangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

@@ -16,7 +16,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Intf_Polygon2d.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Polygon2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_OutOfRange;
 class HLRBRep_CurveTool;

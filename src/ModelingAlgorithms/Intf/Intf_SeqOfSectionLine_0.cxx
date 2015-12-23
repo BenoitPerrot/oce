@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Intf_SeqOfSectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfSectionLine.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Intf_SectionLine.hxx>
-#include <Intf_SequenceNodeOfSeqOfSectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SequenceNodeOfSeqOfSectionLine.hxx>
  
 
 #define SeqItem Intf_SectionLine
-#define SeqItem_hxx <Intf_SectionLine.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
 #define TCollection_SequenceNode Intf_SequenceNodeOfSeqOfSectionLine
-#define TCollection_SequenceNode_hxx <Intf_SequenceNodeOfSeqOfSectionLine.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Intf/Intf_SequenceNodeOfSeqOfSectionLine.hxx>
 #define Handle_TCollection_SequenceNode Handle_Intf_SequenceNodeOfSeqOfSectionLine
 #define TCollection_SequenceNode_Type_() Intf_SequenceNodeOfSeqOfSectionLine_Type_()
 #define TCollection_Sequence Intf_SeqOfSectionLine
-#define TCollection_Sequence_hxx <Intf_SeqOfSectionLine.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Intf/Intf_SeqOfSectionLine.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

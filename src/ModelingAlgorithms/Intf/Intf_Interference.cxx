@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Intf_SectionPoint.hxx>
-#include <Intf_SectionLine.hxx>
-#include <Intf_TangentZone.hxx>
-#include <Intf_Interference.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Interference.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

@@ -54,7 +54,7 @@
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Intf_Tool.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Tool.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonOfHInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfPnt.hxx>

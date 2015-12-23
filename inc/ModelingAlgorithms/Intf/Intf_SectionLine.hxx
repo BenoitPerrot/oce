@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Intf_SeqOfSectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfSectionPoint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
@@ -98,7 +98,7 @@ private:
 };
 
 
-#include <Intf_SectionLine.lxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionLine.lxx>
 
 
 

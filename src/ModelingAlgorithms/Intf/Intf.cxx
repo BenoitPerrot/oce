@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Intf.hxx>
+#include <ModelingAlgorithms/Intf/Intf.hxx>
 
 //=======================================================================
 //function : PlaneEquation

@@ -16,16 +16,16 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Intf_Polygon2d.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Polygon2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Intf_InterferencePolygon2d.hxx>
+#include <ModelingAlgorithms/Intf/Intf_InterferencePolygon2d.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <Intf_SectionPoint.hxx>
-#include <Intf_SeqOfSectionPoint.hxx>
-#include <Intf_TangentZone.hxx>
-#include <Intf_SeqOfTangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfSectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfTangentZone.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 

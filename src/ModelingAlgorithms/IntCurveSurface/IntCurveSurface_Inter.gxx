@@ -30,9 +30,9 @@
 #define NBSAMPLESONHYPR    32
 
 #include <ElSLib.hxx>
-#include <Intf_SectionPoint.hxx>
-#include <Intf_TangentZone.hxx>
-#include <Intf_Tool.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Tool.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>

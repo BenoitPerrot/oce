@@ -23,7 +23,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <Intf_Tool.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Tool.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Intf_SequenceNodeOfSeqOfTangentZone.hxx>
 
-#include <Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Intf_TangentZone;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Intf_TangentZone
-#define SeqItem_hxx <Intf_TangentZone.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #define TCollection_SequenceNode Intf_SequenceNodeOfSeqOfTangentZone
-#define TCollection_SequenceNode_hxx <Intf_SequenceNodeOfSeqOfTangentZone.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Intf/Intf_SequenceNodeOfSeqOfTangentZone.hxx>
 #define Handle_TCollection_SequenceNode Handle_Intf_SequenceNodeOfSeqOfTangentZone
 #define TCollection_SequenceNode_Type_() Intf_SequenceNodeOfSeqOfTangentZone_Type_()
 #define TCollection_Sequence Intf_SeqOfTangentZone
-#define TCollection_Sequence_hxx <Intf_SeqOfTangentZone.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Intf/Intf_SeqOfTangentZone.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

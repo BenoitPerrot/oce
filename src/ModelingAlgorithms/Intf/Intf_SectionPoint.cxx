@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
 
 
 #define DEBUG_INTFSECTIONPOINT 0

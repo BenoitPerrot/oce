@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Intf_SeqOfTangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfTangentZone.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Intf_TangentZone.hxx>
-#include <Intf_SequenceNodeOfSeqOfTangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SequenceNodeOfSeqOfTangentZone.hxx>
  
 
 #define SeqItem Intf_TangentZone
-#define SeqItem_hxx <Intf_TangentZone.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #define TCollection_SequenceNode Intf_SequenceNodeOfSeqOfTangentZone
-#define TCollection_SequenceNode_hxx <Intf_SequenceNodeOfSeqOfTangentZone.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Intf/Intf_SequenceNodeOfSeqOfTangentZone.hxx>
 #define Handle_TCollection_SequenceNode Handle_Intf_SequenceNodeOfSeqOfTangentZone
 #define TCollection_SequenceNode_Type_() Intf_SequenceNodeOfSeqOfTangentZone_Type_()
 #define TCollection_Sequence Intf_SeqOfTangentZone
-#define TCollection_Sequence_hxx <Intf_SeqOfTangentZone.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Intf/Intf_SeqOfTangentZone.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

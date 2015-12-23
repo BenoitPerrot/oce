@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Intf_Interference.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Interference.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class HLRBRep_ThePolygonOfInterCSurf;
 class HLRBRep_ThePolygonToolOfInterCSurf;

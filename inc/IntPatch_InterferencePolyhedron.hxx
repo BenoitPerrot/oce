@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Intf_Interference.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Interference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IntPatch_Polyhedron;
 class Intf_TangentZone;

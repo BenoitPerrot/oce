@@ -6,7 +6,7 @@
 #ifndef _IntPatch_SearchPnt_HeaderFile
 #define _IntPatch_SearchPnt_HeaderFile
 
-#include <Intf_InterferencePolygon2d.hxx>
+#include <ModelingAlgorithms/Intf/Intf_InterferencePolygon2d.hxx>
 
 typedef Intf_InterferencePolygon2d IntPatch_SearchPnt;
 

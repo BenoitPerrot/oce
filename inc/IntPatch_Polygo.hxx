@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Intf_Polygon2d.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Polygon2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class gp_Pnt2d;

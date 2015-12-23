@@ -19,14 +19,14 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Intf_Tool.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Tool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
-#include <Intf_Array1OfLin.hxx>
-#include <Intf_SectionPoint.hxx>
-#include <Intf_SeqOfSectionPoint.hxx>
-#include <Intf_TangentZone.hxx>
-#include <Intf_SeqOfTangentZone.hxx>
-#include <Intf.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Array1OfLin.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfSectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SeqOfTangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>

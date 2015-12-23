@@ -16,7 +16,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Intf_Polygon2d.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Polygon2d.hxx>
 class Standard_OutOfRange;
 class Adaptor2d_Curve2d;
 class Geom2dInt_Geom2dCurveTool;

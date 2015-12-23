@@ -38,10 +38,10 @@
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_LineOn2S.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Intf_PIType.hxx>
-#include <Intf_SectionLine.hxx>
-#include <Intf_TangentZone.hxx>
-#include <Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_PIType.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <IntPolyh_Intersection.hxx>

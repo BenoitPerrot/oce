@@ -10,7 +10,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronOfInterCSurf.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Intf_Array1OfLin.hxx>
+#include <ModelingAlgorithms/Intf/Intf_Array1OfLin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
@@ -26,5 +26,5 @@
 #define ToolPolyh_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
 #define Intf_InterferencePolygonPolyhedron HLRBRep_TheInterferenceOfInterCSurf
 #define Intf_InterferencePolygonPolyhedron_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheInterferenceOfInterCSurf.hxx>
-#include <Intf_InterferencePolygonPolyhedron.gxx>
+#include <ModelingAlgorithms/Intf/Intf_InterferencePolygonPolyhedron.gxx>
 

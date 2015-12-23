@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Intf_SectionPoint.hxx>
-#include <Intf_SectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
+#include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
 
 //=======================================================================
 //function : Intf_SectionLine
