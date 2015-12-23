@@ -23,7 +23,7 @@
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/XDEDRAW/XDEDRAW.hxx>
 #include <XSDRAWIGES.hxx>
 #include <XSDRAWSTEP.hxx>
@@ -46,7 +46,7 @@
 #include <IFSelect_SessionPilot.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
-#include <XSDRAW_Vars.hxx>
+#include <Viewer/XSDRAW/XSDRAW_Vars.hxx>
 #include <stdio.h>
 
 //============================================================

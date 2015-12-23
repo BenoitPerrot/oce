@@ -80,7 +80,7 @@
 #include <Viewer/XDEDRAW/XDEDRAW_Common.hxx>
 #include <XSDRAWIGES.hxx>
 #include <XSDRAWSTEP.hxx>
-#include <XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <XCAFPrs.hxx>
 #include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Viewer/Draw/Draw_PluginMacro.hxx>

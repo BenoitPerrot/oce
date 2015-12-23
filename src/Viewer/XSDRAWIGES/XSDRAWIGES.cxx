@@ -62,8 +62,8 @@
 // Init functions
 
 #include <IGESSelect_Activator.hxx>
-#include <XSDRAW.hxx>
-#include <XSDRAW_Commands.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW_Commands.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_TransferOutput.hxx>
 #include <Transfer_FinderProcess.hxx>

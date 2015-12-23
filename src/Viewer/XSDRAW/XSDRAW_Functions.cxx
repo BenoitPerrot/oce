@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSDRAW_Functions.hxx>
+#include <Viewer/XSDRAW/XSDRAW_Functions.hxx>
 #include <XSControl_FuncShape.hxx>
 
 void  XSDRAW_Functions::Init ()

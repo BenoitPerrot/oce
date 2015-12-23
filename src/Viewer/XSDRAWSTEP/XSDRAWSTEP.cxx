@@ -18,7 +18,7 @@
 #include <STEPControl_Reader.hxx>
 #include <STEPControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>
-#include <XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <StepSelect_Activator.hxx>
 
 #include <Viewer/Draw/Draw_Appli.hxx>

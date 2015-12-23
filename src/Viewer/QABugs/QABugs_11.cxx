@@ -4556,11 +4556,11 @@ static Standard_Integer OCC12584 (Draw_Interpretor& di, Standard_Integer argc, c
 
 #include <Interface_Macros.hxx>
 #include <IGESControl_Controller.hxx>
-#include <XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <XSDRAW_Commands.hxx>
+#include <Viewer/XSDRAW/XSDRAW_Commands.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <XSControl_TransferReader.hxx>

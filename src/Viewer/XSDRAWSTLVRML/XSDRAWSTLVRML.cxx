@@ -19,14 +19,14 @@
 #include <VrmlAPI.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <StlAPI.hxx>
-#include <XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <VrmlAPI_Writer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <StlAPI_Writer.hxx>
 #include <Viewer/Draw/Draw_PluginMacro.hxx>
-#include <XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <XSDRAWSTEP.hxx>
 #include <XSDRAWIGES.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

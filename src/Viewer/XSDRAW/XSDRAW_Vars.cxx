@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XSDRAW_Vars.hxx>
+#include <Viewer/XSDRAW/XSDRAW_Vars.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSDRAW_Vars)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

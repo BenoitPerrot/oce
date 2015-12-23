@@ -23,14 +23,14 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
-#include <XSDRAW.hxx>
+#include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <IFSelect_Functions.hxx>
 #include <IFSelect_SessionPilot.hxx>
-//#include <XSDRAW_Shape.hxx>
-#include <XSDRAW_Vars.hxx>
+//#include <Viewer/XSDRAW/XSDRAW_Shape.hxx>
+#include <Viewer/XSDRAW/XSDRAW_Vars.hxx>
 #include <XSControl_Functions.hxx>
 #include <XSControl_FuncShape.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
