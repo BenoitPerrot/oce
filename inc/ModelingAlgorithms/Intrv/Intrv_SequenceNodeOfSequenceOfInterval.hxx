@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Intrv_SequenceNodeOfSequenceOfInterval.hxx>
 
-#include <Intrv_Interval.hxx>
+#include <ModelingAlgorithms/Intrv/Intrv_Interval.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Intrv_Interval;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Intrv_Interval
-#define SeqItem_hxx <Intrv_Interval.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Intrv/Intrv_Interval.hxx>
 #define TCollection_SequenceNode Intrv_SequenceNodeOfSequenceOfInterval
-#define TCollection_SequenceNode_hxx <Intrv_SequenceNodeOfSequenceOfInterval.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Intrv/Intrv_SequenceNodeOfSequenceOfInterval.hxx>
 #define Handle_TCollection_SequenceNode Handle_Intrv_SequenceNodeOfSequenceOfInterval
 #define TCollection_SequenceNode_Type_() Intrv_SequenceNodeOfSequenceOfInterval_Type_()
 #define TCollection_Sequence Intrv_SequenceOfInterval
-#define TCollection_Sequence_hxx <Intrv_SequenceOfInterval.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Intrv/Intrv_SequenceOfInterval.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

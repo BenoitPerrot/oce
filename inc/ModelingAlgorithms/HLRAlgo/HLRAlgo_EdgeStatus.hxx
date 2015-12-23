@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Intrv_Intervals.hxx>
+#include <ModelingAlgorithms/Intrv/Intrv_Intervals.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 

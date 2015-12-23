@@ -18,8 +18,8 @@
 #define No_Exception
 #endif
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Intrv_Interval.hxx>
-#include <Intrv_Intervals.hxx>
+#include <ModelingAlgorithms/Intrv/Intrv_Interval.hxx>
+#include <ModelingAlgorithms/Intrv/Intrv_Intervals.hxx>
 
 //                   **---------****             Other
 //     ***-----*                                 IsBefore

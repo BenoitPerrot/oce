@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Intrv_SequenceOfInterval.hxx>
+#include <ModelingAlgorithms/Intrv/Intrv_SequenceOfInterval.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class Intrv_Interval;
@@ -77,7 +77,7 @@ private:
 };
 
 
-#include <Intrv_Intervals.lxx>
+#include <ModelingAlgorithms/Intrv/Intrv_Intervals.lxx>
 
 
 

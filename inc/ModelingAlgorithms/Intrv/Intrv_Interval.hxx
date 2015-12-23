@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Intrv_Position.hxx>
+#include <ModelingAlgorithms/Intrv/Intrv_Position.hxx>
 
 
 
@@ -194,7 +194,7 @@ private:
 };
 
 
-#include <Intrv_Interval.lxx>
+#include <ModelingAlgorithms/Intrv/Intrv_Interval.lxx>
 
 
 
