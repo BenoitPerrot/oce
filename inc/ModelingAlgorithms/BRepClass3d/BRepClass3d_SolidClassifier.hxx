@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepClass3d_SolidExplorer.hxx>
-#include <BRepClass3d_SClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidExplorer.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SClassifier.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_DomainError;
 class TopoDS_Shape;

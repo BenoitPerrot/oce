@@ -1194,7 +1194,7 @@ void debmergee(const Standard_Integer /*i*/) {}
 } // GSplitEdge
 
 //modified by NIZNHY-PKV Mon Mar 19 16:50:33 2001 f
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 //=======================================================================
 //function : ClassifyEdgeToSolidByOnePoint
 //purpose  : 

@@ -34,7 +34,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
 #include <BRepExtrema_UnCompatibleShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <Foundation/NCollection/NCollection_Comparator.hxx>
 #include <Foundation/NCollection/NCollection_QuickSort.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>

@@ -54,7 +54,7 @@
 #include <TopOpeBRepDS_samdom.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_SC.hxx>
-#include <BRepClass3d_SolidExplorer.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidExplorer.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 #include <BRepFill.hxx>
 #include <BRepFill_Sweep.hxx>

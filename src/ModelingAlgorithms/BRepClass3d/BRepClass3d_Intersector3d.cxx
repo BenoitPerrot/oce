@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepClass3d_Intersector3d.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

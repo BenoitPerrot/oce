@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeBuild_ReShape.hxx> 

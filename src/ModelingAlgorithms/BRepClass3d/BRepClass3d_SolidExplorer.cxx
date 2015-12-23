@@ -35,7 +35,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntCurvesFace_Intersector.hxx>
-#include <BRepClass3d_SolidExplorer.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidExplorer.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
@@ -56,7 +56,7 @@
 
 #include <ElCLib.hxx>
 
-#include <BRepClass3d_DataMapIteratorOfMapOfInter.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_DataMapIteratorOfMapOfInter.hxx>
 #include <Precision.hxx>
 //OCC454(apo)->
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>

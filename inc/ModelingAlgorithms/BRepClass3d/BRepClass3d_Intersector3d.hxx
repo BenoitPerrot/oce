@@ -107,7 +107,7 @@ private:
 };
 
 
-#include <BRepClass3d_Intersector3d.lxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.lxx>
 
 
 

@@ -95,7 +95,7 @@
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <BRepLib.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 #include <BRepFill_Generator.hxx>
 #include <BRepFill_CompatibleWires.hxx>

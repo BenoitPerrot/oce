@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Geom2dHatch_Hatcher.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

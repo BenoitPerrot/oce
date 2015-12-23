@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BRepClass3d_MapOfInter.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_MapOfInter.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class TopoDS_Shape;

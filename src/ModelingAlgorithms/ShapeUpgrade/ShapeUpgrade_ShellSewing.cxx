@@ -22,7 +22,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 #include <ShapeAnalysis_ShapeTolerance.hxx>
 

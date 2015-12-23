@@ -57,7 +57,7 @@
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>

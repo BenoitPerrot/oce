@@ -33,7 +33,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 #include <BRepLib.hxx>
 

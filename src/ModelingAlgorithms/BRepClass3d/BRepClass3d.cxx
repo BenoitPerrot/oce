@@ -21,7 +21,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepClass3d.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d.hxx>
 
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 
 static 

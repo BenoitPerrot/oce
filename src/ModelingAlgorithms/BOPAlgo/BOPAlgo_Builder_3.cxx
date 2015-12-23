@@ -41,7 +41,7 @@
 //
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>

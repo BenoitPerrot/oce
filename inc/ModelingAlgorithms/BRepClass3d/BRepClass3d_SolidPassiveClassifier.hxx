@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <BRepClass3d_Intersector3d.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_DomainError;
 class BRepClass3d_Intersector3d;
@@ -71,9 +71,9 @@ private:
 };
 
 #define TheIntersector BRepClass3d_Intersector3d
-#define TheIntersector_hxx <BRepClass3d_Intersector3d.hxx>
+#define TheIntersector_hxx <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.hxx>
 #define TopClass_Classifier3d BRepClass3d_SolidPassiveClassifier
-#define TopClass_Classifier3d_hxx <BRepClass3d_SolidPassiveClassifier.hxx>
+#define TopClass_Classifier3d_hxx <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidPassiveClassifier.hxx>
 
 #include <TopClass_Classifier3d.lxx>
 

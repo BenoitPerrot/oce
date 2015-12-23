@@ -52,7 +52,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 //
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>

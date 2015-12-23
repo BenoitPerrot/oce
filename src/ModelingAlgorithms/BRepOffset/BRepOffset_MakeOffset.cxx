@@ -51,7 +51,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>

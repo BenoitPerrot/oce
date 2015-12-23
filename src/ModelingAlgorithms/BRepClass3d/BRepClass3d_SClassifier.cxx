@@ -17,15 +17,15 @@
 //  Modified by skv - Thu Sep  4 11:22:05 2003 OCC578
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRepClass3d_SolidExplorer.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidExplorer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepClass3d_SClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SClassifier.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <BRepClass3d_Intersector3d.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <IntCurvesFace_Intersector.hxx>

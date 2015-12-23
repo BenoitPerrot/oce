@@ -30,7 +30,7 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 

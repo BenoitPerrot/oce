@@ -60,7 +60,7 @@
 #include <TNaming_Tool.hxx>
 
 #include <IntTools_FClass2d.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 // CopyShape
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>

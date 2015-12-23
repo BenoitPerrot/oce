@@ -38,7 +38,7 @@
 #include <BRepFill_OffsetWire.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <BRepLib.hxx>
 #include <BRepMAT2d_Explorer.hxx>
 #include <BRepFill_Pipe.hxx>

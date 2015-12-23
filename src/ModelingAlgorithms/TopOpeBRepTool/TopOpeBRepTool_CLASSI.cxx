@@ -31,7 +31,7 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
-#include <BRepClass3d_SolidExplorer.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidExplorer.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

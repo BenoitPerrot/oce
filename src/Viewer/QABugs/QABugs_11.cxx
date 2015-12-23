@@ -858,7 +858,7 @@ static Standard_Integer OCC381_SaveAs (Draw_Interpretor& di, Standard_Integer nb
   return 0;
 }
 
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 Standard_Integer OCC299bug (Draw_Interpretor& theDi,
                             Standard_Integer  theArgNb,

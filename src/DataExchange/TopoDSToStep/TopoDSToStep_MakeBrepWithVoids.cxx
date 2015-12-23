@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <BRepClass3d.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

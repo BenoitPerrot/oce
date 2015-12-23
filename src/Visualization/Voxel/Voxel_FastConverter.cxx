@@ -35,7 +35,7 @@
 #include <ElSLib.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
-#include <BRepClass3d_SolidClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 
 // Printing the progress in stdout.

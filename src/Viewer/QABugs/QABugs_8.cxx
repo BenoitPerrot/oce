@@ -125,7 +125,7 @@ static Standard_Integer  OCC204 (Draw_Interpretor& di, Standard_Integer argc, co
 }
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <BRepClass3d_Intersector3d.hxx>
+#include <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 static Standard_Integer OCC1651 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

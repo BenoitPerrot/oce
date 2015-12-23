@@ -59,13 +59,13 @@ private:
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepClass3d_DataMapNodeOfMapOfInter
-#define TCollection_DataMapNode_hxx <BRepClass3d_DataMapNodeOfMapOfInter.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/BRepClass3d/BRepClass3d_DataMapNodeOfMapOfInter.hxx>
 #define TCollection_DataMapIterator BRepClass3d_DataMapIteratorOfMapOfInter
-#define TCollection_DataMapIterator_hxx <BRepClass3d_DataMapIteratorOfMapOfInter.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/BRepClass3d/BRepClass3d_DataMapIteratorOfMapOfInter.hxx>
 #define Handle_TCollection_DataMapNode Handle_BRepClass3d_DataMapNodeOfMapOfInter
 #define TCollection_DataMapNode_Type_() BRepClass3d_DataMapNodeOfMapOfInter_Type_()
 #define TCollection_DataMap BRepClass3d_MapOfInter
-#define TCollection_DataMap_hxx <BRepClass3d_MapOfInter.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/BRepClass3d/BRepClass3d_MapOfInter.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 
