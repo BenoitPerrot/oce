@@ -14,7 +14,7 @@
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCDM_StoreStatus.hxx>
+#include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 #include <OCAF/CDF/CDF_TryStoreStatus.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>
 #include <OCAF/CDF/CDF_StoreSetNameStatus.hxx>

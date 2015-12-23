@@ -16,7 +16,7 @@
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <TDF_Label.hxx>

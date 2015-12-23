@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCDM_Reference.hxx>
+#include <OCAF/PCDM/PCDM_Reference.hxx>
 
 PCDM_Reference::PCDM_Reference(){}
 PCDM_Reference::PCDM_Reference(const Standard_Integer aReferenceIdentifier, const TCollection_ExtendedString& aFileName, const Standard_Integer aDocumentVersion):myReferenceIdentifier(aReferenceIdentifier),myFileName(aFileName),myDocumentVersion(aDocumentVersion) {}

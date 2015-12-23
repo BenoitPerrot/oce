@@ -13,7 +13,7 @@
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCDM_RetrievalDriver.hxx>
+#include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
 #include <Handle_PCDM_Document.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Handle_CDM_Application.hxx>

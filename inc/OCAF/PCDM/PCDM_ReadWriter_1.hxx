@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_ReadWriter_1.hxx>
 
-#include <PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter.hxx>
 #include <Handle_Storage_Data.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

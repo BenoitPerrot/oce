@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <Foundation/FSD/FSD_BinaryFile.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
-#include <PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

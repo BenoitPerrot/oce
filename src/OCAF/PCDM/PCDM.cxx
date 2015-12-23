@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <PCDM.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

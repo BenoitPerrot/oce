@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PCDM_StoreStatus.hxx>
-#include <PCDM_Writer.hxx>
+#include <OCAF/PCDM/PCDM_StoreStatus.hxx>
+#include <OCAF/PCDM/PCDM_Writer.hxx>
 #include <Handle_PCDM_Document.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Handle_Storage_Schema.hxx>

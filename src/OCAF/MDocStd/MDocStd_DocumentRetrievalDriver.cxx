@@ -15,7 +15,7 @@
 #include <PDocStd_Document.hxx>
 #include <TDocStd_Document.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

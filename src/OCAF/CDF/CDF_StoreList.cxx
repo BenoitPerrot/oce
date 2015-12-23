@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(CDF_StoreList)
 
 #include <OCAF/CDM/CDM_ReferenceIterator.hxx>
 
-#include <PCDM.hxx>
-#include <PCDM_Document.hxx>
-#include <PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 
 #include <OCAF/CDF/CDF_MetaDataDriverError.hxx>
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>

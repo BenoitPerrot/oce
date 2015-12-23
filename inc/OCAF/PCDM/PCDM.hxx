@@ -15,8 +15,8 @@
 #include <Handle_PCDM_StorageDriver.hxx>
 #include <Handle_Storage_Schema.hxx>
 #include <Handle_CDM_Application.hxx>
-#include <PCDM_TypeOfFileDriver.hxx>
-#include <PCDM_BaseDriverPointer.hxx>
+#include <OCAF/PCDM/PCDM_TypeOfFileDriver.hxx>
+#include <OCAF/PCDM/PCDM_BaseDriverPointer.hxx>
 class CDM_Document;
 class PCDM_StorageDriver;
 class Storage_Schema;

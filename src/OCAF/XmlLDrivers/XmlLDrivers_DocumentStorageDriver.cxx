@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 #include <XmlObjMgt_Document.hxx>
 
 #include <Foundation/Storage/Storage_Data.hxx>
-#include <PCDM.hxx>
-#include <PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter.hxx>
 #include <OCAF/CDM/CDM_NullMessageDriver.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>

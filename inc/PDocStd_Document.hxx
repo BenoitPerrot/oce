@@ -12,7 +12,7 @@
 #include <Handle_PDocStd_Document.hxx>
 
 #include <Handle_PDF_Data.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 class PDF_Data;
 
 

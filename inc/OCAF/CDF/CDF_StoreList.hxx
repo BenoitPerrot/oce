@@ -16,7 +16,7 @@
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PCDM_StoreStatus.hxx>
+#include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 #include <Handle_CDM_MetaData.hxx>
 class CDM_Document;
 class Standard_NoSuchObject;

@@ -18,12 +18,12 @@
 #include <OCAF/CDF/CDF_Store.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>
 #include <OCAF/CDF/CDF_Application.hxx>
-#include <PCDM_StoreStatus.hxx>
+#include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 #include <OCAF/CDF/CDF_StoreSetNameStatus.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>
-#include <PCDM_StorageDriver.hxx>
-#include <PCDM.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_MetaData.hxx>
 

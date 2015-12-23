@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_Reader.hxx>
 
-#include <PCDM_ReaderStatus.hxx>
+#include <OCAF/PCDM/PCDM_ReaderStatus.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Handle_CDM_Application.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 
-#include <PCDM_Reader.lxx>
+#include <OCAF/PCDM/PCDM_Reader.lxx>
 
 
 

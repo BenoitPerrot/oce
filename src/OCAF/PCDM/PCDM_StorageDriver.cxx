@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <PCDM_DriverError.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_DriverError.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <PCDM_SequenceOfDocument.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfDocument.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_StorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -39,11 +39,11 @@ IMPLEMENT_STANDARD_RTTI(PCDM_StorageDriver)
 #include <Foundation/FSD/FSD_CmpFile.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <PCDM_SequenceOfDocument.hxx>
-#include <PCDM.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfDocument.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
 #include <locale.h>
 
 #define STORAGE_VERSION "STORAGE_VERSION:"

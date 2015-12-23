@@ -18,7 +18,7 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_MetaData.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
-#include <PCDM_ReferenceIterator.hxx>
+#include <OCAF/PCDM/PCDM_ReferenceIterator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReferenceIterator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReferenceIterator)
 #include <UTL.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
-#include <PCDM_RetrievalDriver.hxx>
-#include <PCDM_Reference.hxx>
+#include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
+#include <OCAF/PCDM/PCDM_Reference.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 
 #ifdef WNT

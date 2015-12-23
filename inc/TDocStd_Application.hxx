@@ -16,8 +16,8 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TDocStd_Document.hxx>
-#include <PCDM_ReaderStatus.hxx>
-#include <PCDM_StoreStatus.hxx>
+#include <OCAF/PCDM/PCDM_ReaderStatus.hxx>
+#include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 class Resource_Manager;
 class Standard_NoSuchObject;
 class TDocStd_Document;

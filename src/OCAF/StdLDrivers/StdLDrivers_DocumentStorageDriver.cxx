@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <PCDM_SequenceOfDocument.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfDocument.hxx>
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <StdLDrivers_DocumentStorageDriver.hxx>

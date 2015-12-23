@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_VectorOfDocumentSection.hxx>
-#include <PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

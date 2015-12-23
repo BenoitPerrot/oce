@@ -15,18 +15,18 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <PCDM_DriverError.hxx>
+#include <OCAF/PCDM/PCDM_DriverError.hxx>
 #include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <PCDM_SequenceOfReference.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfReference.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <PCDM_RetrievalDriver.hxx>
+#include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_RetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,9 +36,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PCDM_RetrievalDriver)
 IMPLEMENT_DOWNCAST(PCDM_RetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
-#include <PCDM_BaseDriverPointer.hxx>
-#include <PCDM.hxx>
-#include <PCDM_TypeOfFileDriver.hxx>
+#include <OCAF/PCDM/PCDM_BaseDriverPointer.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
+#include <OCAF/PCDM/PCDM_TypeOfFileDriver.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
@@ -48,10 +48,10 @@ IMPLEMENT_STANDARD_RTTI(PCDM_RetrievalDriver)
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
-#include <PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <PCDM.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
 #include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
 #include <locale.h>
 

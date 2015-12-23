@@ -23,7 +23,7 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <PCDM_Reader.hxx>
+#include <OCAF/PCDM/PCDM_Reader.hxx>
 #include <OCAF/CDM/CDM_MetaData.hxx>
 #include <OCAF/CDF/CDF_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -44,10 +44,10 @@ IMPLEMENT_STANDARD_RTTI(CDF_Application)
 #include <OCAF/CDF/CDF_Session.hxx>
 #include <OCAF/CDF/CDF_Directory.hxx>
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>
-#include <PCDM_ReaderStatus.hxx>
-#include <PCDM_ReadWriter.hxx>
-#include <PCDM_RetrievalDriver.hxx>
-#include <PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM_ReaderStatus.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 
 
 #include <Foundation/Plugin/Plugin.hxx>

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PCDM_Document.hxx>
 #endif
 #ifndef _PCDM_Document_HeaderFile
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

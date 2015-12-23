@@ -11,7 +11,7 @@
 #include <Handle_CDF_Application.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCDM_ReaderStatus.hxx>
+#include <OCAF/PCDM/PCDM_ReaderStatus.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <OCAF/CDM/CDM_CanCloseStatus.hxx>

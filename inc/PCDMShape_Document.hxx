@@ -12,7 +12,7 @@
 #include <Handle_PCDMShape_Document.hxx>
 
 #include <PTopoDS_Shape1.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 class PTopoDS_Shape1;
 
 

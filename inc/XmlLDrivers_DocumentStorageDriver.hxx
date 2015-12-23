@@ -14,7 +14,7 @@
 #include <XmlLDrivers_SequenceOfNamespaceDef.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
-#include <PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <XmlObjMgt_Element.hxx>

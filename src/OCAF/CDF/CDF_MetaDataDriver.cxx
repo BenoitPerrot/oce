@@ -18,7 +18,7 @@
 #include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <PCDM_ReferenceIterator.hxx>
+#include <OCAF/PCDM/PCDM_ReferenceIterator.hxx>
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_MetaDataDriver)

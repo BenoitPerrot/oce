@@ -11,7 +11,7 @@
 #include <Handle_MDocStd_DocumentRetrievalDriver.hxx>
 
 #include <Handle_MDF_ARDriverTable.hxx>
-#include <PCDM_RetrievalDriver.hxx>
+#include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
 #include <Handle_PDocStd_Document.hxx>
 #include <Handle_TDocStd_Document.hxx>
 #include <Handle_MDF_RRelocationTable.hxx>

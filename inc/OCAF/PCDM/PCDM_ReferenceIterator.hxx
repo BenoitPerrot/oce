@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PCDM_ReferenceIterator.hxx>
 
-#include <PCDM_SequenceOfReference.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfReference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

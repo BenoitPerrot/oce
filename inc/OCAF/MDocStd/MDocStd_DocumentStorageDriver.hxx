@@ -11,7 +11,7 @@
 #include <Handle_MDocStd_DocumentStorageDriver.hxx>
 
 #include <Handle_MDF_ASDriverTable.hxx>
-#include <PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 #include <Handle_PCDM_Document.hxx>
 #include <Handle_TDocStd_Document.hxx>
 #include <Handle_PDocStd_Document.hxx>

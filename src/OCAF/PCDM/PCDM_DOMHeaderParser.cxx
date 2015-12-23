@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM_DOMHeaderParser.hxx>
+#include <OCAF/PCDM/PCDM_DOMHeaderParser.hxx>
 
 //=======================================================================
 //function : SetStartElementName

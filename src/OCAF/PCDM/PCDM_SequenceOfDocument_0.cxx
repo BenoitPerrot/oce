@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PCDM_SequenceOfDocument.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfDocument.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <PCDM_Document.hxx>
-#include <PCDM_SequenceNodeOfSequenceOfDocument.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_SequenceNodeOfSequenceOfDocument.hxx>
  
 
 #define SeqItem Handle(PCDM_Document)
-#define SeqItem_hxx <PCDM_Document.hxx>
+#define SeqItem_hxx <OCAF/PCDM/PCDM_Document.hxx>
 #define TCollection_SequenceNode PCDM_SequenceNodeOfSequenceOfDocument
-#define TCollection_SequenceNode_hxx <PCDM_SequenceNodeOfSequenceOfDocument.hxx>
+#define TCollection_SequenceNode_hxx <OCAF/PCDM/PCDM_SequenceNodeOfSequenceOfDocument.hxx>
 #define Handle_TCollection_SequenceNode Handle_PCDM_SequenceNodeOfSequenceOfDocument
 #define TCollection_SequenceNode_Type_() PCDM_SequenceNodeOfSequenceOfDocument_Type_()
 #define TCollection_Sequence PCDM_SequenceOfDocument
-#define TCollection_Sequence_hxx <PCDM_SequenceOfDocument.hxx>
+#define TCollection_Sequence_hxx <OCAF/PCDM/PCDM_SequenceOfDocument.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

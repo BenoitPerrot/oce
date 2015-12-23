@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCDM_DriverError.hxx>
+#include <OCAF/PCDM/PCDM_DriverError.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
-#include <PCDM_Reader.hxx>
+#include <OCAF/PCDM/PCDM_Reader.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_Reader)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

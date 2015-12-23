@@ -19,10 +19,10 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <PCDM_SequenceOfReference.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfReference.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
-#include <PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReadWriter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,15 +31,15 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PCDM_ReadWriter)
 IMPLEMENT_DOWNCAST(PCDM_ReadWriter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter)
-#include <PCDM_ReadWriter_1.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter_1.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <Foundation/Storage/Storage_TypeData.hxx>
 #include <UTL.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <PCDM.hxx>
-#include <PCDM_DOMHeaderParser.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
+#include <OCAF/PCDM/PCDM_DOMHeaderParser.hxx>
 
 #define FILE_FORMAT "FILE_FORMAT: "
 

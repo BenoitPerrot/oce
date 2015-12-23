@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 #include <TDocStd_Document.hxx>
 #include <PDocStd_Document.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>

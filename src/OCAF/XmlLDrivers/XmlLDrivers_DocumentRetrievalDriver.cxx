@@ -15,7 +15,7 @@
 
 #include <XmlMDF_ADriverTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCDM_Document.hxx>
+#include <OCAF/PCDM/PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

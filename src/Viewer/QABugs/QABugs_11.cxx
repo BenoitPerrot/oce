@@ -751,7 +751,7 @@ static Standard_Integer OCC166 (Draw_Interpretor& di, Standard_Integer /*argc*/,
 
 #include <TDocStd_Document.hxx>
 #include <DDocStd.hxx>
-#include <PCDM_StoreStatus.hxx>
+#include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 #include <TDocStd_Application.hxx>
 
 static Standard_Integer OCC381_Save (Draw_Interpretor& di, Standard_Integer nb, const char ** a)

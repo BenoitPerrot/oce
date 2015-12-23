@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_RTTI(CDF_Session)
 #include <OCAF/CDF/CDF_FWOSDriver.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <PCDM.hxx>
-#include <PCDM_Reader.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
+#include <OCAF/PCDM/PCDM_Reader.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 

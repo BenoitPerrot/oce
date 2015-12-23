@@ -19,9 +19,9 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <PCDM_SequenceOfReference.hxx>
+#include <OCAF/PCDM/PCDM_SequenceOfReference.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <PCDM_ReadWriter_1.hxx>
+#include <OCAF/PCDM/PCDM_ReadWriter_1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDM_ReadWriter_1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -42,12 +42,12 @@ IMPLEMENT_STANDARD_RTTI(PCDM_ReadWriter_1)
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <PCDM_Reference.hxx>
+#include <OCAF/PCDM/PCDM_Reference.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <PCDM_BaseDriverPointer.hxx>
-#include <PCDM.hxx>
-#include <PCDM_TypeOfFileDriver.hxx>
+#include <OCAF/PCDM/PCDM_BaseDriverPointer.hxx>
+#include <OCAF/PCDM/PCDM.hxx>
+#include <OCAF/PCDM/PCDM_TypeOfFileDriver.hxx>
 
 #define START_REF "START_REF"
 #define END_REF "END_REF"
