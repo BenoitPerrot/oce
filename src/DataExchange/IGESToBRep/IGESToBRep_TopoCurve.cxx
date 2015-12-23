@@ -25,7 +25,7 @@
 //CAS.CADE surface)
 //szv#9:PRO19565:04Oct99 missing location for standalone vertices corrected
 
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -40,13 +40,13 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <IGESToBRep_TopoCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoCurve.hxx>
 
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_BasicCurve.hxx>
-#include <IGESToBRep_BasicSurface.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
-#include <IGESToBRep_TopoSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>//added by rln 32/12/97
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -116,15 +116,15 @@
 #include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 //#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
-#include <IGESToBRep_IGESBoundary.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>  
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_AlgoContainer.hxx>
-#include <IGESToBRep_ToolContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_AlgoContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_ToolContainer.hxx>
 
 //=======================================================================
 //function : IGESToBRep_TopoCurve

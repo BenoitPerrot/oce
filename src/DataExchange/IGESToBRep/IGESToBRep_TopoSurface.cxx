@@ -29,7 +29,7 @@
 //#12 smh 12.12.99 FRA62468 - Using conversion to B-Spline for Offset surface
 //=======================================================================
 
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_RuledSurface.hxx>
@@ -44,14 +44,14 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <IGESToBRep_TopoSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoSurface.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
-#include <IGESToBRep_TopoCurve.hxx>
-#include <IGESToBRep_BasicCurve.hxx>
-#include <IGESToBRep_BasicSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicSurface.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>

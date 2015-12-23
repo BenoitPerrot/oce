@@ -25,7 +25,7 @@
 //S4181 pdn 15.04.99 implementing of reading IGES elementary surfaces. (instead of shift, reverce and 
 //scale factors the transformation matrix and scale factor used)
 
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_TopoCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoCurve.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Interface_Static.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>

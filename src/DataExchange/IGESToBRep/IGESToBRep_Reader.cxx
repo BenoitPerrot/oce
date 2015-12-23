@@ -16,10 +16,10 @@
 // sln 11.06.2002 OCC448 : Initialize "read.onlyvisiable" parameter  to control transfering invisiable sub entities which logicaly depend on the grouping entities
 #include <stdio.h>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <IGESToBRep_Actor.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IGESToBRep_Reader.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Reader.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
@@ -52,9 +52,9 @@
 #include <Interface_Static.hxx>
 #include <Interface_Check.hxx>
 
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_Actor.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 
 //#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>

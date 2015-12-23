@@ -23,7 +23,7 @@
 //pdn 20.04.99 CTS22655 avoid of exceptions in case of empty loops
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
@@ -35,13 +35,13 @@
 #include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
-#include <IGESToBRep_BRepEntity.hxx>
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_BasicCurve.hxx>
-#include <IGESToBRep_BasicSurface.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
-#include <IGESToBRep_TopoCurve.hxx>
-#include <IGESToBRep_TopoSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BRepEntity.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoSurface.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -92,13 +92,13 @@
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
-#include <IGESToBRep_IGESBoundary.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>  
 //#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
-#include <IGESToBRep_AlgoContainer.hxx>
-#include <IGESToBRep_ToolContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_AlgoContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_ToolContainer.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
 //=======================================================================

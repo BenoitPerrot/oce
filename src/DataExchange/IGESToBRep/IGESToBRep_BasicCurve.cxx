@@ -25,7 +25,7 @@
 //=======================================================================
 
 
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -39,10 +39,10 @@
 #include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
-#include <IGESToBRep_BasicCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicCurve.hxx>
 
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 
 #include <ElCLib.hxx>
 

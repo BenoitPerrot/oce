@@ -219,7 +219,7 @@ private:
 };
 
 
-#include <IGESToBRep_CurveAndSurface.lxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.lxx>
 
 
 

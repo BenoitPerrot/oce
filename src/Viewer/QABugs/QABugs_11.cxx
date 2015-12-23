@@ -37,12 +37,12 @@
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCone.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
-#include <IGESToBRep_Reader.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Reader.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <Visualization/V3d/V3d_Viewer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>

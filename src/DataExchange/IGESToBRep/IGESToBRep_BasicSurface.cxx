@@ -25,7 +25,7 @@
 //sln 29.12.2001 OCC90 : Method checkBSplineSurfaceStatus and varification of creation of bspline surfaces were added
 //=======================================================================
 
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
@@ -41,10 +41,10 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_SplineSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>
-#include <IGESToBRep_BasicSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BasicSurface.hxx>
 
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ToolLocation.hxx>

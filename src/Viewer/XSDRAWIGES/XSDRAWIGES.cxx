@@ -41,9 +41,9 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_Actor.hxx>
-#include <IGESToBRep_Reader.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Reader.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

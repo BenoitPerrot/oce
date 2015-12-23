@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESToBRep_ToolContainer.hxx>
-#include <IGESToBRep_AlgoContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_ToolContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_AlgoContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESToBRep_AlgoContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

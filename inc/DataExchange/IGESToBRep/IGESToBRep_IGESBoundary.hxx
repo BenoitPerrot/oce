@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESToBRep_IGESBoundary.hxx>
 
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -141,7 +141,7 @@ private:
 };
 
 
-#include <IGESToBRep_IGESBoundary.lxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_IGESBoundary.lxx>
 
 
 

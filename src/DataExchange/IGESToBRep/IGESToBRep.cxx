@@ -18,13 +18,13 @@
 // 06.01.99 pdn  transmission from ShapeTool_MakeWire back to BRepAPI_MakeWire
 // 19.03.99 abv  //:q5: code improvement, unnecessary includes removed
 //S4181 pdn 15.04.99 Recognition of elementary surfaces as basic.
-#include <IGESToBRep_AlgoContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_AlgoContainer.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

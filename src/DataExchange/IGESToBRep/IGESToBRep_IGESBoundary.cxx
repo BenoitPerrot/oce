@@ -16,11 +16,11 @@
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESToBRep_IGESBoundary.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESToBRep_IGESBoundary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_IGESBoundary)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_TopoCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoCurve.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 
 //=======================================================================

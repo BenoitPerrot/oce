@@ -49,7 +49,7 @@
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
-#include <IGESToBRep_Actor.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <TransferBRep.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>

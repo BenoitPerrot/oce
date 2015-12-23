@@ -50,7 +50,7 @@ private:
 };
 
 
-#include <IGESToBRep_AlgoContainer.lxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_AlgoContainer.lxx>
 
 
 

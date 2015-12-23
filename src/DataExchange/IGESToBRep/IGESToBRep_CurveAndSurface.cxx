@@ -23,13 +23,13 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <IGESToBRep.hxx>
-#include <IGESToBRep_TopoCurve.hxx>
-#include <IGESToBRep_TopoSurface.hxx>
-#include <IGESToBRep_BRepEntity.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoCurve.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_TopoSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_BRepEntity.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_GroupWithoutBackP.hxx>

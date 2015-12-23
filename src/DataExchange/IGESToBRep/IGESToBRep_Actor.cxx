@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <IGESToBRep_Actor.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESToBRep_Actor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,11 +27,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESToBRep_Actor)
 IMPLEMENT_DOWNCAST(IGESToBRep_Actor,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
-#include <IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
-#include <IGESToBRep_CurveAndSurface.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 

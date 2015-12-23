@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESControl_AlgoContainer.hxx>
 
-#include <IGESToBRep_AlgoContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_AlgoContainer.hxx>
 
 
 

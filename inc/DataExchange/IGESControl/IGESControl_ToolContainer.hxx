@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESControl_ToolContainer.hxx>
 
-#include <IGESToBRep_ToolContainer.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_ToolContainer.hxx>
 #include <Handle_IGESToBRep_IGESBoundary.hxx>
 class IGESToBRep_IGESBoundary;
 

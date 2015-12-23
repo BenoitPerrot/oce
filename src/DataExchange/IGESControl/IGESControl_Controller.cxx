@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESControl_Controller)
 IMPLEMENT_DOWNCAST(IGESControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <DataExchange/IGESSelect/IGESSelect_WorkLibrary.hxx>
-#include <IGESToBRep_Actor.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESSolid/IGESSolid.hxx>
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 
 #include <XSAlgo.hxx>
 #include <Interface_Macros.hxx>
-#include <IGESToBRep.hxx>
+#include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
