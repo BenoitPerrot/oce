@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape)
 #define DBC_VArrayNode_Type_() PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape_Type_()
 #define DBC_VArray PNaming_FieldOfHArray1OfNamedShape
 #define DBC_VArray_hxx <PNaming_FieldOfHArray1OfNamedShape.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

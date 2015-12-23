@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(PPoly_VArrayNodeOfFieldOfHArray1OfTriangle)
 #define DBC_VArrayNode_Type_() PPoly_VArrayNodeOfFieldOfHArray1OfTriangle_Type_()
 #define DBC_VArray PPoly_FieldOfHArray1OfTriangle
 #define DBC_VArray_hxx <PPoly_FieldOfHArray1OfTriangle.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

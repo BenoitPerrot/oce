@@ -54,15 +54,15 @@ private:
 #define Item Standard_Real
 #define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfReal
-#define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfReal.hxx>
+#define DBC_VArrayNode_hxx <OCAF/DBC/DBC_VArrayNodeOfVArrayOfReal.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfReal
-#define DBC_VArrayTNode_hxx <DBC_VArrayTNodeOfVArrayOfReal.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfReal.hxx>
 #define Handle_DBC_VArrayNode Handle_DBC_VArrayNodeOfVArrayOfReal
 #define DBC_VArrayNode_Type_() DBC_VArrayNodeOfVArrayOfReal_Type_()
 #define DBC_VArray DBC_VArrayOfReal
-#define DBC_VArray_hxx <DBC_VArrayOfReal.hxx>
+#define DBC_VArray_hxx <OCAF/DBC/DBC_VArrayOfReal.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

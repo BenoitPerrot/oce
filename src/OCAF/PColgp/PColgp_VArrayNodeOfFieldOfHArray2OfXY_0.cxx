@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(PColgp_VArrayNodeOfFieldOfHArray2OfXY)
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray2OfXY_Type_()
 #define DBC_VArray PColgp_FieldOfHArray2OfXY
 #define DBC_VArray_hxx <PColgp_FieldOfHArray2OfXY.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

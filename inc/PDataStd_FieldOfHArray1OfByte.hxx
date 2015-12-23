@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <DBC_BaseArray.hxx>
+#include <OCAF/DBC/DBC_BaseArray.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
 #include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

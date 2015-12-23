@@ -54,15 +54,15 @@ private:
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfInteger
-#define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfInteger.hxx>
+#define DBC_VArrayNode_hxx <OCAF/DBC/DBC_VArrayNodeOfVArrayOfInteger.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfInteger
-#define DBC_VArrayTNode_hxx <DBC_VArrayTNodeOfVArrayOfInteger.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfInteger.hxx>
 #define Handle_DBC_VArrayNode Handle_DBC_VArrayNodeOfVArrayOfInteger
 #define DBC_VArrayNode_Type_() DBC_VArrayNodeOfVArrayOfInteger_Type_()
 #define DBC_VArray DBC_VArrayOfInteger
-#define DBC_VArray_hxx <DBC_VArrayOfInteger.hxx>
+#define DBC_VArray_hxx <OCAF/DBC/DBC_VArrayOfInteger.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

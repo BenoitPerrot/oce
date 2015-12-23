@@ -20,5 +20,5 @@
 #define DBC_VArrayNode_Type_() PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape_Type_()
 #define DBC_VArray PTopoDS_FieldOfHArray1OfHShape
 #define DBC_VArray_hxx <PTopoDS_FieldOfHArray1OfHShape.hxx>
-#include <DBC_VArrayTNode.gxx>
+#include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

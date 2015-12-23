@@ -63,7 +63,7 @@ private:
 #define DBC_VArray PColStd_FieldOfHArray1OfExtendedString
 #define DBC_VArray_hxx <PColStd_FieldOfHArray1OfExtendedString.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

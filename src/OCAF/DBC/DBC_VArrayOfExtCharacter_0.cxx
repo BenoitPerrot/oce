@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBC_VArrayOfExtCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayOfExtCharacter.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
-#include <DBC_VArrayTNodeOfVArrayOfExtCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfExtCharacter.hxx>
 
 IMPLEMENT_STANDARD_TYPE(DBC_VArrayOfExtCharacter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,12 +26,12 @@ IMPLEMENT_STANDARD_TYPE_END(DBC_VArrayOfExtCharacter)
 #define Item Standard_ExtCharacter
 #define Item_hxx <Foundation/Standard/Standard_ExtCharacter.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfExtCharacter
-#define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
+#define DBC_VArrayNode_hxx <OCAF/DBC/DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfExtCharacter
-#define DBC_VArrayTNode_hxx <DBC_VArrayTNodeOfVArrayOfExtCharacter.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfExtCharacter.hxx>
 #define Handle_DBC_VArrayNode Handle_DBC_VArrayNodeOfVArrayOfExtCharacter
 #define DBC_VArrayNode_Type_() DBC_VArrayNodeOfVArrayOfExtCharacter_Type_()
 #define DBC_VArray DBC_VArrayOfExtCharacter
-#define DBC_VArray_hxx <DBC_VArrayOfExtCharacter.hxx>
-#include <DBC_VArray.gxx>
+#define DBC_VArray_hxx <OCAF/DBC/DBC_VArrayOfExtCharacter.hxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

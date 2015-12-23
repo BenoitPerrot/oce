@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_TYPE_END(PColgp_FieldOfHArray1OfVec2d)
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray1OfVec2d_Type_()
 #define DBC_VArray PColgp_FieldOfHArray1OfVec2d
 #define DBC_VArray_hxx <PColgp_FieldOfHArray1OfVec2d.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

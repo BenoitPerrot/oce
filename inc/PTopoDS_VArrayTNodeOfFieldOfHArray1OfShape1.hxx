@@ -63,7 +63,7 @@ private:
 #define DBC_VArray PTopoDS_FieldOfHArray1OfShape1
 #define DBC_VArray_hxx <PTopoDS_FieldOfHArray1OfShape1.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

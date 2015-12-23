@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(PColgp_VArrayNodeOfFieldOfHArray1OfDir)
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray1OfDir_Type_()
 #define DBC_VArray PColgp_FieldOfHArray1OfDir
 #define DBC_VArray_hxx <PColgp_FieldOfHArray1OfDir.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

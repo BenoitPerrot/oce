@@ -20,5 +20,5 @@
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray2OfVec_Type_()
 #define DBC_VArray PColgp_FieldOfHArray2OfVec
 #define DBC_VArray_hxx <PColgp_FieldOfHArray2OfVec.hxx>
-#include <DBC_VArrayTNode.gxx>
+#include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

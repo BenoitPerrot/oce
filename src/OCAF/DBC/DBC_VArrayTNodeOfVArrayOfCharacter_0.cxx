@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBC_VArrayTNodeOfVArrayOfCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfCharacter.hxx>
 
-#include <DBC_VArrayOfCharacter.hxx>
-#include <DBC_VArrayNodeOfVArrayOfCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayOfCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayNodeOfVArrayOfCharacter.hxx>
  
 
 #define Item Standard_Character
 #define Item_hxx <Foundation/Standard/Standard_Character.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfCharacter
-#define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfCharacter.hxx>
+#define DBC_VArrayNode_hxx <OCAF/DBC/DBC_VArrayNodeOfVArrayOfCharacter.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfCharacter
-#define DBC_VArrayTNode_hxx <DBC_VArrayTNodeOfVArrayOfCharacter.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfCharacter.hxx>
 #define Handle_DBC_VArrayNode Handle_DBC_VArrayNodeOfVArrayOfCharacter
 #define DBC_VArrayNode_Type_() DBC_VArrayNodeOfVArrayOfCharacter_Type_()
 #define DBC_VArray DBC_VArrayOfCharacter
-#define DBC_VArray_hxx <DBC_VArrayOfCharacter.hxx>
-#include <DBC_VArrayTNode.gxx>
+#define DBC_VArray_hxx <OCAF/DBC/DBC_VArrayOfCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

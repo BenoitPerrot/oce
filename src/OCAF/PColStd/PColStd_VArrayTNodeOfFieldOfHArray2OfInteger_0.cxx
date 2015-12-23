@@ -19,5 +19,5 @@
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfInteger_Type_()
 #define DBC_VArray PColStd_FieldOfHArray2OfInteger
 #define DBC_VArray_hxx <PColStd_FieldOfHArray2OfInteger.hxx>
-#include <DBC_VArrayTNode.gxx>
+#include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

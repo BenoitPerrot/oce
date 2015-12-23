@@ -63,7 +63,7 @@ private:
 #define DBC_VArray PPoly_FieldOfHArray1OfTriangle
 #define DBC_VArray_hxx <PPoly_FieldOfHArray1OfTriangle.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

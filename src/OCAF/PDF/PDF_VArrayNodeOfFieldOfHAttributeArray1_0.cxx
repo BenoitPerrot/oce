@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(PDF_VArrayNodeOfFieldOfHAttributeArray1)
 #define DBC_VArrayNode_Type_() PDF_VArrayNodeOfFieldOfHAttributeArray1_Type_()
 #define DBC_VArray PDF_FieldOfHAttributeArray1
 #define DBC_VArray_hxx <PDF_FieldOfHAttributeArray1.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

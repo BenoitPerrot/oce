@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PCollection_HExtendedString.hxx>
 #include <Foundation/Standard/Standard_ExtCharacter.hxx>
-#include <DBC_VArrayOfExtCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayOfExtCharacter.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_PCollection_HAsciiString.hxx>

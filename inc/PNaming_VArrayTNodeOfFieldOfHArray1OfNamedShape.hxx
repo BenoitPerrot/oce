@@ -63,7 +63,7 @@ private:
 #define DBC_VArray PNaming_FieldOfHArray1OfNamedShape
 #define DBC_VArray_hxx <PNaming_FieldOfHArray1OfNamedShape.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

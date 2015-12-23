@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <DBC_DBVArray.hxx>
+#include <OCAF/DBC/DBC_DBVArray.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
@@ -78,7 +78,7 @@ private:
 };
 
 
-#include <DBC_BaseArray.lxx>
+#include <OCAF/DBC/DBC_BaseArray.lxx>
 
 
 

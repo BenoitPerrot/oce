@@ -33,5 +33,5 @@ IMPLEMENT_STANDARD_TYPE_END(PShort_FieldOfHArray2OfShortReal)
 #define DBC_VArrayNode_Type_() PShort_VArrayNodeOfFieldOfHArray2OfShortReal_Type_()
 #define DBC_VArray PShort_FieldOfHArray2OfShortReal
 #define DBC_VArray_hxx <PShort_FieldOfHArray2OfShortReal.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

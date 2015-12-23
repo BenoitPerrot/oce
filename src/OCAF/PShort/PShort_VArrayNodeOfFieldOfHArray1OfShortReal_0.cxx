@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(PShort_VArrayNodeOfFieldOfHArray1OfShortReal)
 #define DBC_VArrayNode_Type_() PShort_VArrayNodeOfFieldOfHArray1OfShortReal_Type_()
 #define DBC_VArray PShort_FieldOfHArray1OfShortReal
 #define DBC_VArray_hxx <PShort_FieldOfHArray1OfShortReal.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

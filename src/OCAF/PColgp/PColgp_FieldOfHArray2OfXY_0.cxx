@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_TYPE_END(PColgp_FieldOfHArray2OfXY)
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray2OfXY_Type_()
 #define DBC_VArray PColgp_FieldOfHArray2OfXY
 #define DBC_VArray_hxx <PColgp_FieldOfHArray2OfXY.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

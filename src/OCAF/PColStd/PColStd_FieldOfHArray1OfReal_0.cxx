@@ -33,5 +33,5 @@ IMPLEMENT_STANDARD_TYPE_END(PColStd_FieldOfHArray1OfReal)
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray1OfReal_Type_()
 #define DBC_VArray PColStd_FieldOfHArray1OfReal
 #define DBC_VArray_hxx <PColStd_FieldOfHArray1OfReal.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

@@ -2,7 +2,7 @@
 #include <StdLSchema_DBC_VArrayOfExtCharacter.hxx>
 #endif
 #ifndef _DBC_VArrayOfExtCharacter_HeaderFile
-#include <DBC_VArrayOfExtCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayOfExtCharacter.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

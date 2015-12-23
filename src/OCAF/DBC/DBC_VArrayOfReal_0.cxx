@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBC_VArrayOfReal.hxx>
+#include <OCAF/DBC/DBC_VArrayOfReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <DBC_VArrayNodeOfVArrayOfReal.hxx>
-#include <DBC_VArrayTNodeOfVArrayOfReal.hxx>
+#include <OCAF/DBC/DBC_VArrayNodeOfVArrayOfReal.hxx>
+#include <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfReal.hxx>
 
 IMPLEMENT_STANDARD_TYPE(DBC_VArrayOfReal)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,12 +26,12 @@ IMPLEMENT_STANDARD_TYPE_END(DBC_VArrayOfReal)
 #define Item Standard_Real
 #define Item_hxx <Foundation/Standard/Standard_Real.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfReal
-#define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfReal.hxx>
+#define DBC_VArrayNode_hxx <OCAF/DBC/DBC_VArrayNodeOfVArrayOfReal.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfReal
-#define DBC_VArrayTNode_hxx <DBC_VArrayTNodeOfVArrayOfReal.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfReal.hxx>
 #define Handle_DBC_VArrayNode Handle_DBC_VArrayNodeOfVArrayOfReal
 #define DBC_VArrayNode_Type_() DBC_VArrayNodeOfVArrayOfReal_Type_()
 #define DBC_VArray DBC_VArrayOfReal
-#define DBC_VArray_hxx <DBC_VArrayOfReal.hxx>
-#include <DBC_VArray.gxx>
+#define DBC_VArray_hxx <OCAF/DBC/DBC_VArrayOfReal.hxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

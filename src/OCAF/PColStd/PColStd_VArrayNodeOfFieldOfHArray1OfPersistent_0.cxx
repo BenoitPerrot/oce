@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(PColStd_VArrayNodeOfFieldOfHArray1OfPersistent)
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray1OfPersistent_Type_()
 #define DBC_VArray PColStd_FieldOfHArray1OfPersistent
 #define DBC_VArray_hxx <PColStd_FieldOfHArray1OfPersistent.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

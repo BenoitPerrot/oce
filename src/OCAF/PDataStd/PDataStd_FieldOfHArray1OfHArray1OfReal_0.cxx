@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_TYPE_END(PDataStd_FieldOfHArray1OfHArray1OfReal)
 #define DBC_VArrayNode_Type_() PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfReal_Type_()
 #define DBC_VArray PDataStd_FieldOfHArray1OfHArray1OfReal
 #define DBC_VArray_hxx <PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

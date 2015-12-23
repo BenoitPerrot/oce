@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(PColStd_VArrayNodeOfFieldOfHArray1OfInteger)
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray1OfInteger_Type_()
 #define DBC_VArray PColStd_FieldOfHArray1OfInteger
 #define DBC_VArray_hxx <PColStd_FieldOfHArray1OfInteger.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

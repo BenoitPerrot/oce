@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_TYPE_END(PTopoDS_FieldOfHArray1OfHShape)
 #define DBC_VArrayNode_Type_() PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape_Type_()
 #define DBC_VArray PTopoDS_FieldOfHArray1OfHShape
 #define DBC_VArray_hxx <PTopoDS_FieldOfHArray1OfHShape.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

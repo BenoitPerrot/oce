@@ -20,5 +20,5 @@
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfPersistent_Type_()
 #define DBC_VArray PColStd_FieldOfHArray2OfPersistent
 #define DBC_VArray_hxx <PColStd_FieldOfHArray2OfPersistent.hxx>
-#include <DBC_VArrayTNode.gxx>
+#include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

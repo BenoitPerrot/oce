@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_TYPE_END(PColgp_FieldOfHArray1OfDir)
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray1OfDir_Type_()
 #define DBC_VArray PColgp_FieldOfHArray1OfDir
 #define DBC_VArray_hxx <PColgp_FieldOfHArray1OfDir.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

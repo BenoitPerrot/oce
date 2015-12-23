@@ -16,11 +16,11 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-//#include <DBC_DBVArray.hxx>
+//#include <OCAF/DBC/DBC_DBVArray.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <DBC_BaseArray.hxx>
+#include <OCAF/DBC/DBC_BaseArray.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBC_BaseArray)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

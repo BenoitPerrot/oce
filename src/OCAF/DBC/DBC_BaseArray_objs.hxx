@@ -15,7 +15,7 @@
 #ifndef _DBC_BaseArray_HeaderFile
 #define _DBC_BaseArray_HeaderFile
 
-#include <DBC_DBVArray.hxx>
+#include <OCAF/DBC/DBC_DBVArray.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
@@ -78,6 +78,6 @@ private:
 };
 
 
-#include <DBC_BaseArray.lxx>
+#include <OCAF/DBC/DBC_BaseArray.lxx>
 
 #endif

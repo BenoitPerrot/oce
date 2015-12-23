@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DBC_VArrayNodeOfVArrayOfInteger.hxx>
+#include <OCAF/DBC/DBC_VArrayNodeOfVArrayOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <DBC_VArrayOfInteger.hxx>
-#include <DBC_VArrayTNodeOfVArrayOfInteger.hxx>
+#include <OCAF/DBC/DBC_VArrayOfInteger.hxx>
+#include <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfInteger.hxx>
 
  
 
@@ -30,12 +30,12 @@ IMPLEMENT_STANDARD_RTTI(DBC_VArrayNodeOfVArrayOfInteger)
 #define Item Standard_Integer
 #define Item_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfInteger
-#define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfInteger.hxx>
+#define DBC_VArrayNode_hxx <OCAF/DBC/DBC_VArrayNodeOfVArrayOfInteger.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfInteger
-#define DBC_VArrayTNode_hxx <DBC_VArrayTNodeOfVArrayOfInteger.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfInteger.hxx>
 #define Handle_DBC_VArrayNode Handle_DBC_VArrayNodeOfVArrayOfInteger
 #define DBC_VArrayNode_Type_() DBC_VArrayNodeOfVArrayOfInteger_Type_()
 #define DBC_VArray DBC_VArrayOfInteger
-#define DBC_VArray_hxx <DBC_VArrayOfInteger.hxx>
-#include <DBC_VArrayNode.gxx>
+#define DBC_VArray_hxx <OCAF/DBC/DBC_VArrayOfInteger.hxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
-#include <DBC_VArrayOfCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayOfCharacter.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_PCollection_HExtendedString.hxx>

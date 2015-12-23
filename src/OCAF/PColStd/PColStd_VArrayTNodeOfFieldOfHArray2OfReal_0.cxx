@@ -19,5 +19,5 @@
 #define DBC_VArrayNode_Type_() PColStd_VArrayNodeOfFieldOfHArray2OfReal_Type_()
 #define DBC_VArray PColStd_FieldOfHArray2OfReal
 #define DBC_VArray_hxx <PColStd_FieldOfHArray2OfReal.hxx>
-#include <DBC_VArrayTNode.gxx>
+#include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

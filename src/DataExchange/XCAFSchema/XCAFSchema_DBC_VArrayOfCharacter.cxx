@@ -2,7 +2,7 @@
 #include <XCAFSchema_DBC_VArrayOfCharacter.hxx>
 #endif
 #ifndef _DBC_VArrayOfCharacter_HeaderFile
-#include <DBC_VArrayOfCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayOfCharacter.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

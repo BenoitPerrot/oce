@@ -63,7 +63,7 @@ private:
 #define DBC_VArray PColStd_FieldOfHArray2OfPersistent
 #define DBC_VArray_hxx <PColStd_FieldOfHArray2OfPersistent.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

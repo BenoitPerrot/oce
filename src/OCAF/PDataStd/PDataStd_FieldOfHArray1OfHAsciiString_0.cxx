@@ -34,5 +34,5 @@ IMPLEMENT_STANDARD_TYPE_END(PDataStd_FieldOfHArray1OfHAsciiString)
 #define DBC_VArrayNode_Type_() PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString_Type_()
 #define DBC_VArray PDataStd_FieldOfHArray1OfHAsciiString
 #define DBC_VArray_hxx <PDataStd_FieldOfHArray1OfHAsciiString.hxx>
-#include <DBC_VArray.gxx>
+#include <OCAF/DBC/DBC_VArray.gxx>
 

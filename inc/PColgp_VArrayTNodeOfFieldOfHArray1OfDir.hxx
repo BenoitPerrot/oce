@@ -63,7 +63,7 @@ private:
 #define DBC_VArray PColgp_FieldOfHArray1OfDir
 #define DBC_VArray_hxx <PColgp_FieldOfHArray1OfDir.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

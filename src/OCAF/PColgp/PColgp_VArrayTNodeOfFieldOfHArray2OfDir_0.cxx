@@ -20,5 +20,5 @@
 #define DBC_VArrayNode_Type_() PColgp_VArrayNodeOfFieldOfHArray2OfDir_Type_()
 #define DBC_VArray PColgp_FieldOfHArray2OfDir
 #define DBC_VArray_hxx <PColgp_FieldOfHArray2OfDir.hxx>
-#include <DBC_VArrayTNode.gxx>
+#include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

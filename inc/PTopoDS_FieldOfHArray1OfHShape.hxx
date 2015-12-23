@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <DBC_BaseArray.hxx>
+#include <OCAF/DBC/DBC_BaseArray.hxx>
 #include <Handle_PTopoDS_HShape.hxx>
 #include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

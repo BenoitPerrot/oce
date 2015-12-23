@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NumericError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <PCollection_HExtendedString.hxx>
-#include <DBC_VArrayOfCharacter.hxx>
+#include <OCAF/DBC/DBC_VArrayOfCharacter.hxx>
 #include <PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCollection_HAsciiString)

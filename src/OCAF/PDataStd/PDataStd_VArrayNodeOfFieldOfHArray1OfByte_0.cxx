@@ -37,5 +37,5 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_VArrayNodeOfFieldOfHArray1OfByte)
 #define DBC_VArrayNode_Type_() PDataStd_VArrayNodeOfFieldOfHArray1OfByte_Type_()
 #define DBC_VArray PDataStd_FieldOfHArray1OfByte
 #define DBC_VArray_hxx <PDataStd_FieldOfHArray1OfByte.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 

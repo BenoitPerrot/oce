@@ -54,15 +54,15 @@ private:
 #define Item Standard_ExtCharacter
 #define Item_hxx <Foundation/Standard/Standard_ExtCharacter.hxx>
 #define DBC_VArrayNode DBC_VArrayNodeOfVArrayOfExtCharacter
-#define DBC_VArrayNode_hxx <DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
+#define DBC_VArrayNode_hxx <OCAF/DBC/DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
 #define DBC_VArrayTNode DBC_VArrayTNodeOfVArrayOfExtCharacter
-#define DBC_VArrayTNode_hxx <DBC_VArrayTNodeOfVArrayOfExtCharacter.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/DBC/DBC_VArrayTNodeOfVArrayOfExtCharacter.hxx>
 #define Handle_DBC_VArrayNode Handle_DBC_VArrayNodeOfVArrayOfExtCharacter
 #define DBC_VArrayNode_Type_() DBC_VArrayNodeOfVArrayOfExtCharacter_Type_()
 #define DBC_VArray DBC_VArrayOfExtCharacter
-#define DBC_VArray_hxx <DBC_VArrayOfExtCharacter.hxx>
+#define DBC_VArray_hxx <OCAF/DBC/DBC_VArrayOfExtCharacter.hxx>
 
-#include <DBC_VArrayTNode.lxx>
+#include <OCAF/DBC/DBC_VArrayTNode.lxx>
 
 #undef Item
 #undef Item_hxx

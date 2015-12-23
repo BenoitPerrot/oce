@@ -38,5 +38,5 @@ IMPLEMENT_STANDARD_RTTI(PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1)
 #define DBC_VArrayNode_Type_() PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1_Type_()
 #define DBC_VArray PTopoDS_FieldOfHArray1OfShape1
 #define DBC_VArray_hxx <PTopoDS_FieldOfHArray1OfShape1.hxx>
-#include <DBC_VArrayNode.gxx>
+#include <OCAF/DBC/DBC_VArrayNode.gxx>
 
