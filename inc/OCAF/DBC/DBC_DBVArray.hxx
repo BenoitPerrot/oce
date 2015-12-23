@@ -16,19 +16,19 @@
 #define _DBC_DBVArray_HeaderFile
 
 #ifdef OBJY
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 declare(ooVArray,PHandle_PStandard_ArrayNode)
 typedef ooVArray(PHandle_PStandard_ArrayNode) DBC_DBVArray;
 #endif
 
 #ifdef CSFDB
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 //typedef Handle(PStandard_ArrayNode)* DBC_DBVArray;
 typedef void* DBC_DBVArray;
 #endif
 
 #ifdef OBJS
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 typedef PStandard_ArrayNode* DBC_DBVArray;
 #endif
 

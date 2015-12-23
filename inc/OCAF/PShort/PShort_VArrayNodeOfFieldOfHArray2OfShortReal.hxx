@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PShort_FieldOfHArray2OfShortReal;
 class PShort_VArrayTNodeOfFieldOfHArray2OfShortReal;
 

@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_PTopoDS_HShape.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PTopoDS_HShape;
 class PTopoDS_FieldOfHArray1OfHShape;
 class PTopoDS_VArrayTNodeOfFieldOfHArray1OfHShape;

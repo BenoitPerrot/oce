@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class gp_XYZ;
 class PColgp_FieldOfHArray1OfXYZ;
 class PColgp_VArrayTNodeOfFieldOfHArray1OfXYZ;

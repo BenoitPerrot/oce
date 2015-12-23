@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class DBC_VArrayOfInteger;
 class DBC_VArrayTNodeOfVArrayOfInteger;
 

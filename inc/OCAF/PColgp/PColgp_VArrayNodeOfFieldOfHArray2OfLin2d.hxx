@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class gp_Lin2d;
 class PColgp_FieldOfHArray2OfLin2d;
 class PColgp_VArrayTNodeOfFieldOfHArray2OfLin2d;

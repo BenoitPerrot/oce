@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <OCAF/PPoly/PPoly_Triangle.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PPoly_Triangle;
 class PPoly_FieldOfHArray1OfTriangle;
 class PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle;

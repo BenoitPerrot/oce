@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PColStd_HArray1OfReal;
 class PDataStd_FieldOfHArray1OfHArray1OfReal;
 class PDataStd_VArrayTNodeOfFieldOfHArray1OfHArray1OfReal;

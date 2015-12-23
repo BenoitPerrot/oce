@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class gp_Circ2d;
 class PColgp_FieldOfHArray1OfCirc2d;
 class PColgp_VArrayTNodeOfFieldOfHArray1OfCirc2d;

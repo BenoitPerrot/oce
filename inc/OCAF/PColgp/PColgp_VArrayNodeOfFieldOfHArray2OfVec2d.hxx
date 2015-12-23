@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class gp_Vec2d;
 class PColgp_FieldOfHArray2OfVec2d;
 class PColgp_VArrayTNodeOfFieldOfHArray2OfVec2d;

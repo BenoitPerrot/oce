@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_Standard_Persistent.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class Standard_Persistent;
 class PColStd_FieldOfHArray2OfPersistent;
 class PColStd_VArrayTNodeOfFieldOfHArray2OfPersistent;

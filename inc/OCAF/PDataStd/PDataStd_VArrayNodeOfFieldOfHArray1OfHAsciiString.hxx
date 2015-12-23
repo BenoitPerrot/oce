@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_PCollection_HAsciiString.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PCollection_HAsciiString;
 class PDataStd_FieldOfHArray1OfHAsciiString;
 class PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString;

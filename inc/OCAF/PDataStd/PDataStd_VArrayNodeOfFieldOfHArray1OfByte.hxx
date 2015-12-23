@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PDataStd_FieldOfHArray1OfByte;
 class PDataStd_VArrayTNodeOfFieldOfHArray1OfByte;
 

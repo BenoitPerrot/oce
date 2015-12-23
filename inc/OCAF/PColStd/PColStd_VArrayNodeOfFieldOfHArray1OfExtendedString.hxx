@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_PCollection_HExtendedString.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PCollection_HExtendedString;
 class PColStd_FieldOfHArray1OfExtendedString;
 class PColStd_VArrayTNodeOfFieldOfHArray1OfExtendedString;

@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_PNaming_NamedShape.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PNaming_NamedShape;
 class PNaming_FieldOfHArray1OfNamedShape;
 class PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape;

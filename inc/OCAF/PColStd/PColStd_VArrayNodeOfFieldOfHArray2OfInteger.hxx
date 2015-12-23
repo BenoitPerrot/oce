@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PColStd_FieldOfHArray2OfInteger;
 class PColStd_VArrayTNodeOfFieldOfHArray2OfInteger;
 
