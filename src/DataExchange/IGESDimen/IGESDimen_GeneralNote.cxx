@@ -26,7 +26,7 @@
 #include <IGESGraph_TextFontDef.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_GeneralNote)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

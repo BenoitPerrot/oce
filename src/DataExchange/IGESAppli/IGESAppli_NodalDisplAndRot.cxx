@@ -16,13 +16,13 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_HArray1OfGeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_HArray1OfGeneralNote.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_NodalDisplAndRot.hxx>

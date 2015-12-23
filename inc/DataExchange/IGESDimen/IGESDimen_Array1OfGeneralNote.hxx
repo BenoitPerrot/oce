@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESDimen_GeneralNote)
-#define Array1Item_hxx <IGESDimen_GeneralNote.hxx>
+#define Array1Item_hxx <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #define TCollection_Array1 IGESDimen_Array1OfGeneralNote
-#define TCollection_Array1_hxx <IGESDimen_Array1OfGeneralNote.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESDimen/IGESDimen_Array1OfGeneralNote.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

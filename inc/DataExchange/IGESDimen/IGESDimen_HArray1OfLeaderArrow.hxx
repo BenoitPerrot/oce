@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 
-#include <IGESDimen_Array1OfLeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_Array1OfLeaderArrow.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDimen_LeaderArrow.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESDimen_LeaderArrow)
-#define ItemHArray1_hxx <IGESDimen_LeaderArrow.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #define TheArray1 IGESDimen_Array1OfLeaderArrow
-#define TheArray1_hxx <IGESDimen_Array1OfLeaderArrow.hxx>
+#define TheArray1_hxx <DataExchange/IGESDimen/IGESDimen_Array1OfLeaderArrow.hxx>
 #define TCollection_HArray1 IGESDimen_HArray1OfLeaderArrow
-#define TCollection_HArray1_hxx <IGESDimen_HArray1OfLeaderArrow.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDimen/IGESDimen_HArray1OfLeaderArrow.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDimen_HArray1OfLeaderArrow
 #define TCollection_HArray1_Type_() IGESDimen_HArray1OfLeaderArrow_Type_()
 

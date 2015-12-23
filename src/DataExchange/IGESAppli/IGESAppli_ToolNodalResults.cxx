@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_ToolNodalResults.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

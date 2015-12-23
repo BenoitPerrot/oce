@@ -16,12 +16,12 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <IGESGeom_CircularArc.hxx>
 #include <IGESGeom_CompositeCurve.hxx>
-#include <IGESDimen_PointDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_PointDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_PointDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

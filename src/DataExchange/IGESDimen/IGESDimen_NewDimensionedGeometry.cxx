@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESDimen_NewDimensionedGeometry.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_NewDimensionedGeometry.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_NewDimensionedGeometry)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

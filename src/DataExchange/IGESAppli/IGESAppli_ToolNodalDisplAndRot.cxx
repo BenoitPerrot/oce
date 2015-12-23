@@ -31,8 +31,8 @@
 #include <DataExchange/IGESAppli/IGESAppli_ToolNodalDisplAndRot.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_HArray1OfGeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_HArray1OfGeneralNote.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>

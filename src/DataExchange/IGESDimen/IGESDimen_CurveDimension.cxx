@@ -16,11 +16,11 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
-#include <IGESDimen_WitnessLine.hxx>
-#include <IGESDimen_CurveDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_WitnessLine.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_CurveDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_CurveDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

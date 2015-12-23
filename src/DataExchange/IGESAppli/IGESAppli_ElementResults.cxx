@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 // UNFINISHED & UNSTARTED
-#include <IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>

@@ -16,13 +16,13 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_HArray1OfLeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
-#include <IGESDimen_FlagNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_FlagNote.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_FlagNote)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

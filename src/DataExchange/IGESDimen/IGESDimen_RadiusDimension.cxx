@@ -16,12 +16,12 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESDimen_RadiusDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_RadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_RadiusDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

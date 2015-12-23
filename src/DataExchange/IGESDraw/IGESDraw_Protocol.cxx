@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(IGESDraw_Protocol)
 #include <IGESDraw_ViewsVisible.hxx>
 #include <IGESDraw_ViewsVisibleWithAttr.hxx>
 
-#include <IGESDimen.hxx>
-#include <IGESDimen_Protocol.hxx>
+#include <DataExchange/IGESDimen/IGESDimen.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_Protocol.hxx>
 
 static int deja = 0;
 static Handle(Standard_Type) atype01,atype02,atype03,atype04,atype05,atype06,

@@ -16,11 +16,11 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_HArray1OfLeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
-#include <IGESDimen_GeneralLabel.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralLabel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_GeneralLabel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

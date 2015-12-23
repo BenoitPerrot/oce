@@ -37,7 +37,7 @@
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
-#include <IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>

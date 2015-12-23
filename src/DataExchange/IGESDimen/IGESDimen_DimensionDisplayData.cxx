@@ -20,7 +20,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESDimen_DimensionDisplayData.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_DimensionDisplayData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_DimensionDisplayData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

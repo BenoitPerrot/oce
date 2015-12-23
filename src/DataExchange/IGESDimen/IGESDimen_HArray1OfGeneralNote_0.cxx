@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDimen_HArray1OfGeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_HArray1OfGeneralNote.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_Array1OfGeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_Array1OfGeneralNote.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESDimen_HArray1OfGeneralNote)
 
 
 #define ItemHArray1 Handle(IGESDimen_GeneralNote)
-#define ItemHArray1_hxx <IGESDimen_GeneralNote.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #define TheArray1 IGESDimen_Array1OfGeneralNote
-#define TheArray1_hxx <IGESDimen_Array1OfGeneralNote.hxx>
+#define TheArray1_hxx <DataExchange/IGESDimen/IGESDimen_Array1OfGeneralNote.hxx>
 #define TCollection_HArray1 IGESDimen_HArray1OfGeneralNote
-#define TCollection_HArray1_hxx <IGESDimen_HArray1OfGeneralNote.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDimen/IGESDimen_HArray1OfGeneralNote.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDimen_HArray1OfGeneralNote
 #define TCollection_HArray1_Type_() IGESDimen_HArray1OfGeneralNote_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

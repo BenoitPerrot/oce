@@ -13,7 +13,7 @@
 
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <IGESDimen_Protocol.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,29 +26,29 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDimen_Protocol)
 IMPLEMENT_DOWNCAST(IGESDimen_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_Protocol)
 
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_AngularDimension.hxx>
-#include <IGESDimen_GeneralSymbol.hxx>
-#include <IGESDimen_BasicDimension.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
-#include <IGESDimen_CenterLine.hxx>
-#include <IGESDimen_LinearDimension.hxx>
-#include <IGESDimen_CurveDimension.hxx>
-#include <IGESDimen_NewDimensionedGeometry.hxx>
-#include <IGESDimen_DiameterDimension.hxx>
-#include <IGESDimen_NewGeneralNote.hxx>
-#include <IGESDimen_DimensionDisplayData.hxx>
-#include <IGESDimen_OrdinateDimension.hxx>
-#include <IGESDimen_DimensionTolerance.hxx>
-#include <IGESDimen_PointDimension.hxx>
-#include <IGESDimen_DimensionUnits.hxx>
-#include <IGESDimen_RadiusDimension.hxx>
-#include <IGESDimen_DimensionedGeometry.hxx>
-#include <IGESDimen_Section.hxx>
-#include <IGESDimen_SectionedArea.hxx>
-#include <IGESDimen_FlagNote.hxx>
-#include <IGESDimen_WitnessLine.hxx>
-#include <IGESDimen_GeneralLabel.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_AngularDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralSymbol.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_BasicDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_CenterLine.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LinearDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_CurveDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_NewDimensionedGeometry.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_DiameterDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_NewGeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_DimensionDisplayData.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_OrdinateDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_DimensionTolerance.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_PointDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_DimensionUnits.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_RadiusDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_DimensionedGeometry.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_Section.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_SectionedArea.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_FlagNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_WitnessLine.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralLabel.hxx>
 
 #include <IGESGeom.hxx>
 #include <IGESGraph.hxx>

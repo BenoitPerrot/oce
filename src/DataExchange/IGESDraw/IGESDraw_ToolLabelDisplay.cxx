@@ -33,10 +33,10 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
-#include <IGESDimen_HArray1OfLeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>

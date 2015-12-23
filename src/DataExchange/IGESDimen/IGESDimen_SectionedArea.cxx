@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESDimen_SectionedArea.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_SectionedArea.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_SectionedArea)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

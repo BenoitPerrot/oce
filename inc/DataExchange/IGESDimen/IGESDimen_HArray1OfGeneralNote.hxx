@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDimen_HArray1OfGeneralNote.hxx>
 
-#include <IGESDimen_Array1OfGeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_Array1OfGeneralNote.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDimen_GeneralNote.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESDimen_GeneralNote)
-#define ItemHArray1_hxx <IGESDimen_GeneralNote.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #define TheArray1 IGESDimen_Array1OfGeneralNote
-#define TheArray1_hxx <IGESDimen_Array1OfGeneralNote.hxx>
+#define TheArray1_hxx <DataExchange/IGESDimen/IGESDimen_Array1OfGeneralNote.hxx>
 #define TCollection_HArray1 IGESDimen_HArray1OfGeneralNote
-#define TCollection_HArray1_hxx <IGESDimen_HArray1OfGeneralNote.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDimen/IGESDimen_HArray1OfGeneralNote.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDimen_HArray1OfGeneralNote
 #define TCollection_HArray1_Type_() IGESDimen_HArray1OfGeneralNote_Type_()
 

@@ -16,12 +16,12 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_WitnessLine.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_WitnessLine.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IGESDimen_AngularDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_AngularDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_AngularDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

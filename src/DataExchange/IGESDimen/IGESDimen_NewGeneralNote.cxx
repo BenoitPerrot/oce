@@ -27,7 +27,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDimen_NewGeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_NewGeneralNote.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_NewGeneralNote)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

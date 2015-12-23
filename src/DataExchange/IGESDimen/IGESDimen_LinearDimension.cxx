@@ -16,11 +16,11 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESDimen_GeneralNote.hxx>
-#include <IGESDimen_LeaderArrow.hxx>
-#include <IGESDimen_WitnessLine.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_WitnessLine.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESDimen_LinearDimension.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_LinearDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_LinearDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

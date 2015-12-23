@@ -19,7 +19,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESDimen_Section.hxx>
+#include <DataExchange/IGESDimen/IGESDimen_Section.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_Section)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
