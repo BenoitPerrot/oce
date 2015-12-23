@@ -76,11 +76,11 @@
 #include <IVtkVTK_ShapeData.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_ShapeMesher.hxx>
-#include <IVtkTools_ShapeDataSource.hxx>
-#include <IVtkTools_ShapeObject.hxx>
-#include <IVtkTools_SubPolyDataFilter.hxx>
-#include <IVtkTools_DisplayModeFilter.hxx>
-#include <IVtkTools_ShapePicker.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeDataSource.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeObject.hxx>
+#include <Visualization/IVtkTools/IVtkTools_SubPolyDataFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_DisplayModeFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapePicker.hxx>
 
 #include <IVtkDraw.hxx>
 #include <IVtkDraw_HighlightAndSelectionPipeline.hxx>

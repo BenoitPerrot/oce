@@ -23,9 +23,9 @@
 #include <vtkProperty.h>
 
 #include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
-#include <IVtkTools_DisplayModeFilter.hxx>
-#include <IVtkTools_ShapeDataSource.hxx>
-#include <IVtkTools_ShapeObject.hxx>
+#include <Visualization/IVtkTools/IVtkTools_DisplayModeFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeDataSource.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeObject.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(IVtkDraw_HighlightAndSelectionPipeline, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(IVtkDraw_HighlightAndSelectionPipeline, Standard_Transient)

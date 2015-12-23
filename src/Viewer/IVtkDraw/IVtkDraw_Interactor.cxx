@@ -20,11 +20,11 @@
 #include <vtkWin32OpenGLRenderWindow.h>
 #endif
 
-#include <IVtkTools_ShapePicker.hxx>
-#include <IVtkTools_SubPolyDataFilter.hxx>
-#include <IVtkTools_DisplayModeFilter.hxx>
-#include <IVtkTools_ShapeObject.hxx>
-#include <IVtkTools_ShapeDataSource.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapePicker.hxx>
+#include <Visualization/IVtkTools/IVtkTools_SubPolyDataFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_DisplayModeFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeObject.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeDataSource.hxx>
 #include <IVtkDraw_Interactor.hxx>
 
 #include <Foundation/Message/Message.hxx>

@@ -16,7 +16,7 @@
 #ifndef __IVTKTOOLS_SHAPEDATASOURCE_H__
 #define __IVTKTOOLS_SHAPEDATASOURCE_H__
 
-#include <IVtkTools.hxx>
+#include <Visualization/IVtkTools/IVtkTools.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <IVtkVTK_ShapeData.hxx>
 #include <vtkInformationIdTypeKey.h>

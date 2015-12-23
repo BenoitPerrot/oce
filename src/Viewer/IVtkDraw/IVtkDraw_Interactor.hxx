@@ -32,7 +32,7 @@
 
 #include <vtkRenderWindowInteractor.h>
 #include <vtkSmartPointer.h>
-#include <IVtkTools_ShapePicker.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapePicker.hxx>
 #include <IVtkDraw_HighlightAndSelectionPipeline.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 

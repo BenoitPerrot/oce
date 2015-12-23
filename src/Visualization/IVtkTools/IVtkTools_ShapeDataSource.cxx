@@ -15,8 +15,8 @@
 
 // VIS includes
 #include <Visualization/IVtkOCC/IVtkOCC_ShapeMesher.hxx>
-#include <IVtkTools_ShapeDataSource.hxx>
-#include <IVtkTools_ShapeObject.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeDataSource.hxx>
+#include <Visualization/IVtkTools/IVtkTools_ShapeObject.hxx>
 
 // VTK includes
 #include <vtkCellArray.h>

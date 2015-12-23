@@ -16,7 +16,7 @@
 #ifndef IVtkTOOLS_SUBPOLYDATAFILTER_H
 #define IVtkTOOLS_SUBPOLYDATAFILTER_H
 
-#include <IVtkTools.hxx>
+#include <Visualization/IVtkTools/IVtkTools.hxx>
 
 #include "vtkPolyDataAlgorithm.h"
 #include <Visualization/IVtk/IVtk_Types.hxx>

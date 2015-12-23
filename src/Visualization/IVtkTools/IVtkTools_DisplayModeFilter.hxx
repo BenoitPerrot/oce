@@ -16,8 +16,8 @@
 #ifndef IVtkTOOLS_DISPLAYMODEFILTER_H
 #define IVtkTOOLS_DISPLAYMODEFILTER_H
 
-#include <IVtkTools.hxx>
-#include <IVtkTools_SubPolyDataFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools.hxx>
+#include <Visualization/IVtkTools/IVtkTools_SubPolyDataFilter.hxx>
 #include <Visualization/IVtk/IVtk_Types.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 

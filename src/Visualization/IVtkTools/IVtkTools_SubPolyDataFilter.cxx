@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IVtkTools_SubPolyDataFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_SubPolyDataFilter.hxx>
 #include <IVtkVTK_ShapeData.hxx>
 #include <vtkCellArray.h>
 #include <vtkInformation.h>

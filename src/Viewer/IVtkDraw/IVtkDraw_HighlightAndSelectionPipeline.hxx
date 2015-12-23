@@ -38,8 +38,8 @@
 #include <vtkSmartPointer.h>
 
 #include <Visualization/IVtk/IVtk_Types.hxx>
-#include <IVtkTools_DisplayModeFilter.hxx>
-#include <IVtkTools_SubPolyDataFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_DisplayModeFilter.hxx>
+#include <Visualization/IVtkTools/IVtkTools_SubPolyDataFilter.hxx>
 
 typedef NCollection_DataMap <IVtk_IdType, vtkSmartPointer<IVtkTools_DisplayModeFilter> > DisplayModeFiltersMap;
 typedef NCollection_DataMap <IVtk_IdType, vtkSmartPointer<IVtkTools_SubPolyDataFilter> > SubShapesFiltersMap;

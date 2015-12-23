@@ -16,7 +16,7 @@
 #ifndef __IVTKTOOLS_SHAPEPICKER_H__
 #define __IVTKTOOLS_SHAPEPICKER_H__
 
-#include <IVtkTools.hxx>
+#include <Visualization/IVtkTools/IVtkTools.hxx>
 #include <Visualization/IVtk/IVtk_Types.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_ShapePickerAlgo.hxx>
 #include <vtkAbstractPropPicker.h>
