@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <NLPlate_ListNodeOfStackOfPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_ListNodeOfStackOfPlate.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Plate_Plate.hxx>
-#include <NLPlate_StackOfPlate.hxx>
-#include <NLPlate_ListIteratorOfStackOfPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_StackOfPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_ListIteratorOfStackOfPlate.hxx>
 
  
 
@@ -31,12 +31,12 @@ IMPLEMENT_STANDARD_RTTI(NLPlate_ListNodeOfStackOfPlate)
 #define Item Plate_Plate
 #define Item_hxx <Plate_Plate.hxx>
 #define TCollection_ListNode NLPlate_ListNodeOfStackOfPlate
-#define TCollection_ListNode_hxx <NLPlate_ListNodeOfStackOfPlate.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/NLPlate/NLPlate_ListNodeOfStackOfPlate.hxx>
 #define TCollection_ListIterator NLPlate_ListIteratorOfStackOfPlate
-#define TCollection_ListIterator_hxx <NLPlate_ListIteratorOfStackOfPlate.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/NLPlate/NLPlate_ListIteratorOfStackOfPlate.hxx>
 #define Handle_TCollection_ListNode Handle_NLPlate_ListNodeOfStackOfPlate
 #define TCollection_ListNode_Type_() NLPlate_ListNodeOfStackOfPlate_Type_()
 #define TCollection_List NLPlate_StackOfPlate
-#define TCollection_List_hxx <NLPlate_StackOfPlate.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/NLPlate/NLPlate_StackOfPlate.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

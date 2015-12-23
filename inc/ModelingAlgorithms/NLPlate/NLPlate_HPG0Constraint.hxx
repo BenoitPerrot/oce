@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <NLPlate_HGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_HGPPConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class gp_XY;
 class gp_XYZ;

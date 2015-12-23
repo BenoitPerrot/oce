@@ -3,40 +3,34 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _NLPlate_HPG1Constraint_HeaderFile
-#define _NLPlate_HPG1Constraint_HeaderFile
+#ifndef _NLPlate_HPG0G1Constraint_HeaderFile
+#define _NLPlate_HPG0G1Constraint_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_NLPlate_HPG1Constraint.hxx>
+#include <Handle_NLPlate_HPG0G1Constraint.hxx>
 
-#include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Plate_D1.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <NLPlate_HGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_HPG0Constraint.hxx>
 class gp_XY;
+class gp_XYZ;
 class Plate_D1;
 
 
-//! define a PinPoint (no G0)  G1 Constraint used to load a Non
-//! Linear Plate
-class NLPlate_HPG1Constraint : public NLPlate_HGPPConstraint
+//! define a PinPoint G0+G1  Constraint  used to load a Non Linear
+//! Plate
+class NLPlate_HPG0G1Constraint : public NLPlate_HPG0Constraint
 {
 
 public:
 
   
-  Standard_EXPORT NLPlate_HPG1Constraint(const gp_XY& UV, const Plate_D1& D1T);
-  
-  Standard_EXPORT virtual   void SetIncrementalLoadAllowed (const Standard_Boolean ILA) ;
+  Standard_EXPORT NLPlate_HPG0G1Constraint(const gp_XY& UV, const gp_XYZ& Value, const Plate_D1& D1T);
   
   Standard_EXPORT virtual   void SetOrientation (const Standard_Integer Orient = 0) ;
   
-  Standard_EXPORT virtual   Standard_Boolean IncrementalLoadAllowed()  const;
-  
   Standard_EXPORT virtual   Standard_Integer ActiveOrder()  const;
-  
-  Standard_EXPORT virtual   Standard_Boolean IsG0()  const;
   
   Standard_EXPORT virtual   Standard_Integer Orientation() ;
   
@@ -45,7 +39,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(NLPlate_HPG1Constraint)
+  DEFINE_STANDARD_RTTI(NLPlate_HPG0G1Constraint)
 
 protected:
 
@@ -55,7 +49,6 @@ protected:
 private: 
 
 
-  Standard_Boolean IncrementalLoadingAllowed;
   Plate_D1 myG1Target;
   Standard_Integer myOrientation;
 
@@ -68,4 +61,4 @@ private:
 
 
 
-#endif // _NLPlate_HPG1Constraint_HeaderFile
+#endif // _NLPlate_HPG0G1Constraint_HeaderFile

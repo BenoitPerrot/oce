@@ -27,13 +27,13 @@
 #include <Plate_PinpointConstraint.hxx>
 #include <Plate_FreeGtoCConstraint.hxx>
 
-#include <NLPlate_ListIteratorOfStackOfPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_ListIteratorOfStackOfPlate.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <NLPlate_HGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_HGPPConstraint.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <NLPlate_NLPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_NLPlate.hxx>
 
 
 NLPlate_NLPlate::NLPlate_NLPlate(const Handle(Geom_Surface)& InitialSurface) :

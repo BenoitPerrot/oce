@@ -3,32 +3,31 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _NLPlate_HPG0G3Constraint_HeaderFile
-#define _NLPlate_HPG0G3Constraint_HeaderFile
+#ifndef _NLPlate_HPG3Constraint_HeaderFile
+#define _NLPlate_HPG3Constraint_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_NLPlate_HPG0G3Constraint.hxx>
+#include <Handle_NLPlate_HPG3Constraint.hxx>
 
 #include <Plate_D3.hxx>
-#include <NLPlate_HPG0G2Constraint.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_HPG2Constraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class gp_XY;
-class gp_XYZ;
 class Plate_D1;
 class Plate_D2;
 class Plate_D3;
 
 
-//! define a PinPoint G0+G3  Constraint  used to load a Non Linear
-//! Plate
-class NLPlate_HPG0G3Constraint : public NLPlate_HPG0G2Constraint
+//! define a PinPoint (no G0)  G3 Constraint used to load a Non
+//! Linear Plate
+class NLPlate_HPG3Constraint : public NLPlate_HPG2Constraint
 {
 
 public:
 
   
-  Standard_EXPORT NLPlate_HPG0G3Constraint(const gp_XY& UV, const gp_XYZ& Value, const Plate_D1& D1T, const Plate_D2& D2T, const Plate_D3& D3T);
+  Standard_EXPORT NLPlate_HPG3Constraint(const gp_XY& UV, const Plate_D1& D1T, const Plate_D2& D2T, const Plate_D3& D3T);
   
   Standard_EXPORT virtual   Standard_Integer ActiveOrder()  const;
   
@@ -37,7 +36,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(NLPlate_HPG0G3Constraint)
+  DEFINE_STANDARD_RTTI(NLPlate_HPG3Constraint)
 
 protected:
 
@@ -58,4 +57,4 @@ private:
 
 
 
-#endif // _NLPlate_HPG0G3Constraint_HeaderFile
+#endif // _NLPlate_HPG3Constraint_HeaderFile

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Surface.hxx>
-#include <NLPlate_SequenceOfHGPPConstraint.hxx>
-#include <NLPlate_StackOfPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_SequenceOfHGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_StackOfPlate.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_NLPlate_HGPPConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

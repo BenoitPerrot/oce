@@ -19,7 +19,7 @@
 #include <Plate_D1.hxx>
 #include <Plate_D2.hxx>
 #include <Plate_D3.hxx>
-#include <NLPlate_HGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/NLPlate_HGPPConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(NLPlate_HGPPConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
