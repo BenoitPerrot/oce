@@ -65,7 +65,7 @@
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepBndLib.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 

@@ -25,7 +25,7 @@
 #include <BRepToIGES_BRWire.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <IGESBasic_Group.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

@@ -21,7 +21,7 @@
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 //=======================================================================

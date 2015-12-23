@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_ShapeCustom_RestrictionParameters.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>

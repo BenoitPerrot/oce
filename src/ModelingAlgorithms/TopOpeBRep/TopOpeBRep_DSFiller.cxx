@@ -77,7 +77,7 @@ static void FUN_RESET_KRO_DSFILLER()
 }
 
 #include <TopOpeBRep_traceSIFF.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 extern TopOpeBRep_traceSIFF SIFF;
 

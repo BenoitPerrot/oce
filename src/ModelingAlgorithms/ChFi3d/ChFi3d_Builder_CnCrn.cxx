@@ -40,7 +40,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepAlgo_NormalProjection.hxx>
 #include <BRepLib_MakeEdge.hxx>  
 #include <TopOpeBRepDS_HDataStructure.hxx>

@@ -110,7 +110,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <ShapeExtend.hxx>

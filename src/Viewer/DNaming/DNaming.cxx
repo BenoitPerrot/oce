@@ -62,7 +62,7 @@
 #include <TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TDF_Reference.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>

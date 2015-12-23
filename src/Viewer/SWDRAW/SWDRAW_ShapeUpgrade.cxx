@@ -71,7 +71,7 @@
 #include <ShapeFix_ComposeShell.hxx>
 #include <Precision.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeUpgrade_ShapeDivideContinuity.hxx>
 #include <ShapeUpgrade_ShapeDivideAngle.hxx>

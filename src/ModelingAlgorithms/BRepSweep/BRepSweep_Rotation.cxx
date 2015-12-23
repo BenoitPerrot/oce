@@ -20,11 +20,11 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <BRepSweep_Rotation.hxx>
-#include <BRepTools_Quilt.hxx>
+#include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Vertex.hxx>

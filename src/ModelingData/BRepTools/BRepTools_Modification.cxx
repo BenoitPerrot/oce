@@ -22,7 +22,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTools_Modification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

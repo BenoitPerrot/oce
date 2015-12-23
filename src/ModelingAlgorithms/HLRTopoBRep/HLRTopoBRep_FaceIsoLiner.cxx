@@ -31,7 +31,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

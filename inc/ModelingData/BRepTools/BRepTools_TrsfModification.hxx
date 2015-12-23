@@ -11,7 +11,7 @@
 #include <Handle_BRepTools_TrsfModification.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -70,7 +70,7 @@
 #include <LocOpe_PntFace.hxx>
 #include <BRepFeat_MakeDPrism.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <BRepOffset.hxx>
 #include <BRepOffset_MakeOffset.hxx>

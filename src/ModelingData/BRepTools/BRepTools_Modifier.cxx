@@ -19,9 +19,9 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Vertex.hxx>
@@ -46,7 +46,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopAbs.hxx>
 #include <TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -55,7 +55,7 @@
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
 

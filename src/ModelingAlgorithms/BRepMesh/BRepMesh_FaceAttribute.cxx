@@ -17,7 +17,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <BRepMesh_ShapeTool.hxx>
 #include <BRepMesh_Classifier.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_FaceAttribute, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(BRepMesh_FaceAttribute, Standard_Transient)

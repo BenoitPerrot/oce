@@ -31,7 +31,7 @@
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <BRepCheck_ListIteratorOfListOfStatus.hxx>
 #include <BRepCheck_Result.hxx>
 #include <BRepCheck.hxx>

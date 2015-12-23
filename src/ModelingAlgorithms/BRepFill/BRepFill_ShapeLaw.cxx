@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepFill_ShapeLaw)
 IMPLEMENT_DOWNCAST(BRepFill_ShapeLaw,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_ShapeLaw)
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepLProp/BRepLProp.hxx>

@@ -23,7 +23,7 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

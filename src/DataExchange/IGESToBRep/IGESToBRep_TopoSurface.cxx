@@ -143,7 +143,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <BRepTools.hxx>//#16
+#include <ModelingData/BRepTools/BRepTools.hxx>//#16
 #include <ShapeAnalysis.hxx>
 //S4054
 #include <ShapeExtend_WireData.hxx>

@@ -66,7 +66,7 @@
 #include <TopAbs.hxx>
 
 #include <ElSLib.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

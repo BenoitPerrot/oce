@@ -54,7 +54,7 @@
 
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

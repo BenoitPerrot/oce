@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 //#define MDTV_DEB_TRSF
 #ifdef OCCT_DEBUG_TRSF
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TDF_Tool.hxx>
 void PrintE(const TDF_Label&       label)
 {

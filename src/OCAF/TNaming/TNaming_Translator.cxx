@@ -22,7 +22,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TopoDS_TShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>

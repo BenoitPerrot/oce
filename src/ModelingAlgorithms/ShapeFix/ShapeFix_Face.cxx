@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeWire.hxx>

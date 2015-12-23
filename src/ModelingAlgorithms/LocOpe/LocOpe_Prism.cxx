@@ -30,8 +30,8 @@
 #include <LocOpe_BuildShape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <BRepTools_TrsfModification.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 

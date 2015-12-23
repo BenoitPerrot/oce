@@ -21,8 +21,8 @@
 #include <BRepBuilderAPI_GTransform.hxx>
 
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <BRepTools_GTrsfModification.hxx>
-#include <BRepTools_NurbsConvertModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_GTrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>
 #include <BRepBuilderAPI_NurbsConvert.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

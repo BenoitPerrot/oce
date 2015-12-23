@@ -45,7 +45,7 @@
 #include <MgtBRep.hxx>
 #include <MgtBRep_TriangleMode.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

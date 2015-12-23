@@ -25,7 +25,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepTools_ReShape.hxx>
+#include <ModelingData/BRepTools/BRepTools_ReShape.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Shell.hxx>
 #include <TopoDS_Compound.hxx>

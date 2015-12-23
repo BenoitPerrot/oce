@@ -28,7 +28,7 @@
 #include <GeomAbs_SurfaceType.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <CSLib_Class2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>

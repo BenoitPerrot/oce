@@ -283,7 +283,7 @@ static int BUC60610(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 //====================================================
 
 //OCC105
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <TopExp.hxx>
@@ -501,7 +501,7 @@ Standard_Integer  OCC157(Draw_Interpretor& di,
 #include <GeomAbs_JoinType.hxx>
 #include <AIS_Shape.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 Standard_Integer  OCC165(Draw_Interpretor& di ,
 			 Standard_Integer n,

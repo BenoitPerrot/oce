@@ -77,7 +77,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepAlgo_DSAccess.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>

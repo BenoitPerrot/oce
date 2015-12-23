@@ -19,7 +19,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepAlgo.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>

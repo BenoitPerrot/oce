@@ -32,7 +32,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

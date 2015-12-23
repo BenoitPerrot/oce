@@ -31,7 +31,7 @@
 #ifdef OCCT_DEBUG_DESC
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 static void WriteS(const TopoDS_Shape& shape,
 		      const Standard_CString filename) 
 {

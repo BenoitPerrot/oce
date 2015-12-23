@@ -67,7 +67,7 @@ Standard_Boolean DNaming_SelectionDriver::MustExecute(const TFunction_Logbook& )
 }
 
 #ifdef OCCT_DEBUG
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 static void Write(const TopoDS_Shape& shape,
 		      const Standard_CString filename) 
 {

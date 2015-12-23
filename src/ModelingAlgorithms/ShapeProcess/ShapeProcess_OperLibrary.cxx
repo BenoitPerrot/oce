@@ -15,7 +15,7 @@
 
 #include <TopoDS_Shape.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeProcess_OperLibrary.hxx>
 
@@ -34,8 +34,8 @@
 #include <ShapeProcess_UOperator.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
 
-#include <BRepTools_Modifier.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <ShapeCustom_DirectModification.hxx>
 #include <ShapeCustom_RestrictionParameters.hxx>
 #include <ShapeCustom_BSplineRestriction.hxx>

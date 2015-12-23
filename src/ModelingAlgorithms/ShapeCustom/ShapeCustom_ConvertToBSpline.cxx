@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_ConvertToBSpline)
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 //=======================================================================
 //function : ShapeCustom_ConvertToBSpline

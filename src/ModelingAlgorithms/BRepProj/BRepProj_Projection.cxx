@@ -25,8 +25,8 @@
 
 #include <Precision.hxx>
 #include <BRepBndLib.hxx>
-#include <BRepTools_TrsfModification.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>

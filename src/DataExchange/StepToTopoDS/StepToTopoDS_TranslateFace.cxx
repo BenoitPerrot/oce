@@ -73,7 +73,7 @@
 #include <TopExp_Explorer.hxx>//rln 28/01/98
 
 #include <TopoDS_Wire.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>//rln 28/01/98
 #include <ModelingData/BRep/BRep_Tool.hxx>

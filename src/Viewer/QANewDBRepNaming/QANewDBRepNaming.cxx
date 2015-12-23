@@ -32,7 +32,7 @@
 #include <TopExp.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TDF_LabelMap.hxx>

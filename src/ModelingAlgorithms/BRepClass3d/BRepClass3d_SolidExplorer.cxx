@@ -39,7 +39,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAbs_Shape.hxx>

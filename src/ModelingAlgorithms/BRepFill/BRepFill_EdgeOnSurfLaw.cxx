@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepFill_EdgeOnSurfLaw)
 IMPLEMENT_DOWNCAST(BRepFill_EdgeOnSurfLaw,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_EdgeOnSurfLaw)
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

@@ -96,7 +96,7 @@ Standard_Boolean DNaming_PrismDriver::MustExecute(const TFunction_Logbook&) cons
 }
 
 #ifdef OCCT_DEBUG
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 static void Write(const TopoDS_Shape& shape,
 		      const Standard_CString filename) 
 {

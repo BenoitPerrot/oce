@@ -41,7 +41,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <ElCLib.hxx>

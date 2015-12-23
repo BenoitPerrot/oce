@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <AIS.hxx>
 #include <AIS_Drawer.hxx>

@@ -47,7 +47,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BRepBndLib.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

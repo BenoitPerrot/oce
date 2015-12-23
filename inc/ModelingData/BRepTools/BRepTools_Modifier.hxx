@@ -78,7 +78,7 @@ private:
 };
 
 
-#include <BRepTools_Modifier.lxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.lxx>
 
 
 

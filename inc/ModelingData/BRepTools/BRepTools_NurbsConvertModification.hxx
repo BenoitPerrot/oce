@@ -3,22 +3,23 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _BRepTools_GTrsfModification_HeaderFile
-#define _BRepTools_GTrsfModification_HeaderFile
+#ifndef _BRepTools_NurbsConvertModification_HeaderFile
+#define _BRepTools_NurbsConvertModification_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepTools_GTrsfModification.hxx>
+#include <Handle_BRepTools_NurbsConvertModification.hxx>
 
-#include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepTools_Modification.hxx>
+#include <TopTools_ListOfShape.hxx>
+#include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
+#include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-class gp_GTrsf;
 class TopoDS_Face;
 class Geom_Surface;
 class TopLoc_Location;
@@ -29,19 +30,16 @@ class gp_Pnt;
 class Geom2d_Curve;
 
 
-//! Defines a modification of the  geometry by a  GTrsf
+//! Defines a modification of the  geometry by a  Trsf
 //! from gp. All methods return True and transform the
 //! geometry.
-class BRepTools_GTrsfModification : public BRepTools_Modification
+class BRepTools_NurbsConvertModification : public BRepTools_Modification
 {
 
 public:
 
   
-  Standard_EXPORT BRepTools_GTrsfModification(const gp_GTrsf& T);
-  
-  //! Gives an access on the GTrsf.
-  Standard_EXPORT   gp_GTrsf& GTrsf() ;
+  Standard_EXPORT BRepTools_NurbsConvertModification();
   
   //! Returns Standard_True  if  the face  <F> has  been
   //! modified.  In this  case, <S> is the new geometric
@@ -97,7 +95,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(BRepTools_GTrsfModification)
+  DEFINE_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 
 protected:
 
@@ -107,8 +105,9 @@ protected:
 private: 
 
 
-  gp_GTrsf myGTrsf;
-  Standard_Real myGScale;
+  TopTools_ListOfShape myled;
+  TColStd_ListOfTransient mylcu;
+  TColStd_IndexedDataMapOfTransientTransient myMap;
 
 
 };
@@ -119,4 +118,4 @@ private:
 
 
 
-#endif // _BRepTools_GTrsfModification_HeaderFile
+#endif // _BRepTools_NurbsConvertModification_HeaderFile

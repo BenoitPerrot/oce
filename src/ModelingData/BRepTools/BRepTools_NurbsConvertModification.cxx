@@ -22,7 +22,7 @@
 #include <TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BRepTools_NurbsConvertModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTools_NurbsConvertModification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepTools_NurbsConvertModification)
 IMPLEMENT_DOWNCAST(BRepTools_NurbsConvertModification,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepTools_NurbsConvertModification)
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

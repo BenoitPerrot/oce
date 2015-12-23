@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <TopTools_LocationSet.hxx>

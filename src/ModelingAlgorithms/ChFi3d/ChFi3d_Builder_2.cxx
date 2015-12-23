@@ -97,8 +97,8 @@
 #include <TopAbs_ShapeEnum.hxx>
 #include <TopAbs_Orientation.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

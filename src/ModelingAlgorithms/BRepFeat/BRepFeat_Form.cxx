@@ -50,8 +50,8 @@
 
 #include <TopoDS_Solid.hxx>
 #include <TopoDS_Compound.hxx>
-#include <BRepTools_Modifier.hxx>
-#include <BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <BRepFeat.hxx>
 #include <BRepCheck_Analyzer.hxx>
 #include <TopoDS.hxx>

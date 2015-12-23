@@ -41,8 +41,8 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_Quilt.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSHA)
 #include <TopoDS_Iterator.hxx>
 #include <TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

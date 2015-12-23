@@ -26,7 +26,7 @@
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Prs3d_ShapeTool.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <TopTools_ListOfShape.hxx>

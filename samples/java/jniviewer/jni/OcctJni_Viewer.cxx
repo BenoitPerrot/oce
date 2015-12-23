@@ -16,7 +16,7 @@
 
 #include <AIS_Shape.hxx>
 #include <Image_AlienPixMap.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <OpenGl_GraphicDriver.hxx>

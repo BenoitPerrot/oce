@@ -120,8 +120,8 @@ static int BUC60614(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 }
 
 #include<ModelingData/BRep/BRep_Builder.hxx>
-#include<BRepTools_ShapeSet.hxx>
-#include<BRepTools.hxx>
+#include<ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
+#include<ModelingData/BRepTools/BRepTools.hxx>
 #include<ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include<TopOpeBRep_PointClassifier.hxx>
 #include<Precision.hxx>

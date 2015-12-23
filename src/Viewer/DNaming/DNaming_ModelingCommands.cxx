@@ -19,7 +19,7 @@
 #include <DNaming.hxx>
 #include <DBRep.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <TopAbs.hxx>

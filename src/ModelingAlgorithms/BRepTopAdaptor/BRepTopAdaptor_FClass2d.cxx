@@ -28,7 +28,7 @@
 #include <TopAbs_Orientation.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Geom2dInt_Geom2dCurveTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

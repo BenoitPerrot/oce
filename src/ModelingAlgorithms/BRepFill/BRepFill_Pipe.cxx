@@ -32,7 +32,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 
 #include <GeomFill_CorrectedFrenet.hxx>
 #include <GeomFill_Frenet.hxx>

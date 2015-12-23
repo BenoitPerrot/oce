@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepFill_ACRLaw)
 IMPLEMENT_DOWNCAST(BRepFill_ACRLaw,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_ACRLaw)
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>

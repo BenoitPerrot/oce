@@ -26,7 +26,7 @@
 #include <Voxel_Reader.hxx>
 #include <VoxelClient_VisDrawer.h>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>

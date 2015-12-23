@@ -16,7 +16,7 @@
 #include <AndroidQt_UserInteractionParameters.h>
 
 #include <AIS_Shape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>

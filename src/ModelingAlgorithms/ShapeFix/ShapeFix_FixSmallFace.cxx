@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <Precision.hxx>
 #include <TopoDS_Wire.hxx>

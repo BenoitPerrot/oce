@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <ShapeExtend.hxx>
 #include <ShapeAnalysis.hxx>

@@ -62,7 +62,7 @@
 #ifdef OCCT_DEBUG
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TNaming_Tool.hxx>
 static void ModDbgTools_Write(const TopoDS_Shape& shape,
 		      const Standard_CString filename) 

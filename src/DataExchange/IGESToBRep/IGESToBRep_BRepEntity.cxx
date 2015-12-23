@@ -45,7 +45,7 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

@@ -20,7 +20,7 @@
 #include <TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 
-#include <BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 

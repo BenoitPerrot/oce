@@ -40,7 +40,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopoDS.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

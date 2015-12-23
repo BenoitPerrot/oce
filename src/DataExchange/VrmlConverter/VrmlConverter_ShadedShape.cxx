@@ -23,7 +23,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfVec.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

@@ -18,7 +18,7 @@
 #include <Draw.hxx>
 #include <DBRep.hxx>
 #include <DNaming.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

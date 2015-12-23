@@ -50,7 +50,7 @@
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <LocOpe_SplitShape.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>

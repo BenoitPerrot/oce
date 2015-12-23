@@ -37,7 +37,7 @@
 #include <MAT_BasicElt.hxx>
 #include <MAT_SequenceOfBasicElt.hxx>
 #include <BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Precision.hxx>

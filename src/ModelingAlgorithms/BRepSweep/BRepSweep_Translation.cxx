@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BRepSweep_Translation.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

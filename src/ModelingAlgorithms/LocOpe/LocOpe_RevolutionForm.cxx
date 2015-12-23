@@ -30,8 +30,8 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <BRepTools_TrsfModification.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 

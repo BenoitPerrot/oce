@@ -55,7 +55,7 @@
 
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Precision.hxx>
 #include <TopoDS_Wire.hxx>
 //#include <ShapeFix_Wire.hxx>

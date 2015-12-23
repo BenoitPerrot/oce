@@ -39,7 +39,7 @@ extern Standard_Boolean TopOpeBRep_GettraceFITOL();
 extern Standard_Boolean TopOpeBRep_GettraceSAVFF();
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 static void SAVFE(const TopoDS_Face& F1,const TopoDS_Edge& E)
 {
   TCollection_AsciiString aname_1("FE_face"), aname_2("FE_edge");

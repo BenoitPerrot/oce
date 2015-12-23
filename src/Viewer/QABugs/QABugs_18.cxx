@@ -34,7 +34,7 @@
 
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

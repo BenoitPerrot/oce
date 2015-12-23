@@ -21,7 +21,7 @@
 #include <BRepBndLib.hxx>
 #include <BRepMesh_DiscretFactory.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>
 #include <Graphic3d_ArrayOfTriangles.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

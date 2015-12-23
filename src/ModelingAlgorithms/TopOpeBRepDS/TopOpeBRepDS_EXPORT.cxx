@@ -22,7 +22,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Precision.hxx>

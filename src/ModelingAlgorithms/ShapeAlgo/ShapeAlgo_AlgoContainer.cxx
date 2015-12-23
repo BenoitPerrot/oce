@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 //=======================================================================
 //function : ShapeAlgo_AlgoContainer

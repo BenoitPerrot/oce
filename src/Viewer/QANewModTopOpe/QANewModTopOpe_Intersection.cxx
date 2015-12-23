@@ -29,7 +29,7 @@
 #include <BRepAlgo_EdgeConnector.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopoDS_Iterator.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopoDS_Edge.hxx>
 #include <QANewModTopOpe_Tools.hxx>

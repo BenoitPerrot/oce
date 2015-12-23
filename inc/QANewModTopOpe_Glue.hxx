@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

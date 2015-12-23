@@ -36,7 +36,7 @@
 #include <BRepClass3d_SolidClassifier.hxx>
 
 //  sewing
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>
 #include <BRepCheck.hxx>
 #include <BRepCheck_Edge.hxx>

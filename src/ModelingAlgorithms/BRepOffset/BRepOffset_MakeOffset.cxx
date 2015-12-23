@@ -50,7 +50,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
-#include <BRepTools_Quilt.hxx>
+#include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
@@ -82,7 +82,7 @@
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
@@ -102,11 +102,11 @@
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/GC/GC_MakeCylindricalSurface.hxx>

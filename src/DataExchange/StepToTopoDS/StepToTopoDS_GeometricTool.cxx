@@ -29,7 +29,7 @@
 
 #include <StepToTopoDS.hxx>
 //#include <StepToTopoDS_ExtPCOnS.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <StepGeom_PcurveOrSurface.hxx>
 #include <StepGeom_Pcurve.hxx>
@@ -42,7 +42,7 @@
 #include <StepShape_OrientedEdge.hxx>
 //#include <BRepAPI.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>

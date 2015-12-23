@@ -27,7 +27,7 @@
 #include <BRepOffset.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ElSLib.hxx>

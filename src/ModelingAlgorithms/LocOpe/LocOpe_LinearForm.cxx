@@ -41,8 +41,8 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
-#include <BRepTools_TrsfModification.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

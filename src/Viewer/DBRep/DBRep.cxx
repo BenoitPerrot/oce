@@ -27,9 +27,9 @@
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_WireExplorer.hxx>
-#include <BRepTools_ShapeSet.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <Precision.hxx>

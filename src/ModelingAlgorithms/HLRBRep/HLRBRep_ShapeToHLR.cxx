@@ -37,7 +37,7 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <HLRBRep.hxx>
 #include <BRepTopAdaptor_MapOfShapeTool.hxx>

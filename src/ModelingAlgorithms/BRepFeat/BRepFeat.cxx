@@ -50,7 +50,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>

@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 #include <Precision.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 //=======================================================================
 //function : Draft_Modification

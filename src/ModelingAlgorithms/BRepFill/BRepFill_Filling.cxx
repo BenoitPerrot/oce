@@ -59,12 +59,12 @@
 
 #include <Precision.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 

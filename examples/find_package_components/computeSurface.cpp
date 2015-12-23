@@ -1,6 +1,6 @@
 #include <TopoDS_Shape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <iostream>

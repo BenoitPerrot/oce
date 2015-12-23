@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

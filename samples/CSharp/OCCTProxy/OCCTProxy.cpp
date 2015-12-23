@@ -15,7 +15,7 @@
 #include <TopoDS_Compound.hxx>
 //brep tools
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <MgtBRep.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 //csfdb I/E

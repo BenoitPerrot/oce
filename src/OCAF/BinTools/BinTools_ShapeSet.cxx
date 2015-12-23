@@ -25,7 +25,7 @@
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>

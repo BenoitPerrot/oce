@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_ConvertToRevolution)
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>
 

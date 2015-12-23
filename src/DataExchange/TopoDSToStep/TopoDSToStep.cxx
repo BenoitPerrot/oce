@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <TopoDSToStep.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 //#include <TopoDSToStep_DirectModification.hxx>
 //#include <TopoDSToStep_ConicalSurfModif.hxx>
 

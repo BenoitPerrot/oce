@@ -19,7 +19,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepMesh_DiscretFactory.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <TopExp_Explorer.hxx>

@@ -190,7 +190,7 @@ Standard_Boolean TopOpeBRepBuild_ShellFaceClassifier::CompareElement(const TopoD
 }
 
 #ifdef OCCT_DEBUG
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 static Standard_Integer STATIC_ishell = 0;

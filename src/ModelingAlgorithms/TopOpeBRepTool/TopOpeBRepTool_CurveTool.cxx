@@ -56,7 +56,7 @@
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/gce/gce_MakeLin2d.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Precision.hxx>
 #include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

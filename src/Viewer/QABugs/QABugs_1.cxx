@@ -46,7 +46,7 @@ Standard_IMPORT Draw_Viewer dout;
 #endif
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <TopoDS.hxx>

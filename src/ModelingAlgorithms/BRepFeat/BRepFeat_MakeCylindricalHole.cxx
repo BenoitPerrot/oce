@@ -37,7 +37,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 
 #include <ElCLib.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <Precision.hxx>
 #include <BRepBndLib.hxx>

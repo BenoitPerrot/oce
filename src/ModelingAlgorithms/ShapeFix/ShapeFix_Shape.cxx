@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shape)
 #include <TopExp_Explorer.hxx>
 #include <TopAbs.hxx>
 #include <TopAbs_ShapeEnum.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ShapeFix.hxx>

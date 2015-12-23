@@ -27,7 +27,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Select3D_SensitivePoint.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <TopoDS.hxx>
@@ -54,7 +54,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Select3D_TypeOfSensitivity.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

@@ -61,7 +61,7 @@ void PrintEntry(const TDF_Label&       label, const Standard_Boolean allLevels)
       }
   }
 }
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 static void Write(const TopoDS_Shape& shape,
 		      const Standard_CString filename) 
 {

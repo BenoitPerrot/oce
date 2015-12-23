@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_SweptToElementary)
 
 #include <ShapeAnalysis_Surface.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 
 //=======================================================================

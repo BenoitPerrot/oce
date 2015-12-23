@@ -63,7 +63,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopoDS_Shape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <DBRep.hxx>
 #include <Foundation/NCollection/NCollection_DoubleMap.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>

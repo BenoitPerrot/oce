@@ -23,7 +23,7 @@
 #include <TopTools_MapOfShape.hxx>
 #include <TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools_NurbsConvertModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>
 //#include <Mathematics/Primitives/gp.hxx>
 
 

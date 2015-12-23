@@ -79,7 +79,7 @@
 #include <QANewBRepNaming_Intersection.hxx>
 #include <QANewBRepNaming_Limitation.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TDF_LabelMap.hxx>
 #include <QANewModTopOpe_Glue.hxx>
 #include <QANewBRepNaming_Gluing.hxx>

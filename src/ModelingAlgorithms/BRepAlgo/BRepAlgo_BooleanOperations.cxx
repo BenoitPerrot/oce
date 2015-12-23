@@ -25,7 +25,7 @@
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Compound.hxx>
 #include <TopTools_ListOfShape.hxx>

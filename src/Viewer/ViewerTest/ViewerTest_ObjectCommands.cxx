@@ -42,7 +42,7 @@
 #include <ViewerTest_EventManager.hxx>
 
 #include <TopoDS_Solid.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 

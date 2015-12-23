@@ -59,8 +59,8 @@
 #include <BRepAlgoAPI_Fuse.hxx>
 
 #include <BRepLib_MakeFace.hxx>
-#include <BRepTools_Modifier.hxx>
-#include <BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

@@ -45,8 +45,8 @@
 
 #include <BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>

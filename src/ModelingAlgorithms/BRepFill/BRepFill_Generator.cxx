@@ -64,8 +64,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 
-#include <BRepTools_WireExplorer.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 
 

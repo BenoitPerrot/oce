@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <TopoDS_Shape.hxx>
 #include <Handle_BRepTools_Modification.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>

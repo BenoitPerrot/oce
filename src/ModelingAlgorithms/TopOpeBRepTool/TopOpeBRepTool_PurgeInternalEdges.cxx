@@ -34,7 +34,7 @@
 
 #include <TopoDS.hxx>
 
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 
 //=======================================================================
 //function : TopOpeBRepTool_PurgeInternalEdges

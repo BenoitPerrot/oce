@@ -87,7 +87,7 @@
 #include <BRepLib_MakePolygon.hxx>
 #include <TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 //OAN: for triepoints
 #include <BRepLib_MakeVertex.hxx>

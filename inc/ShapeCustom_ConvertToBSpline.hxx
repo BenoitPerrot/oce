@@ -11,7 +11,7 @@
 #include <Handle_ShapeCustom_ConvertToBSpline.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Curve.hxx>

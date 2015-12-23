@@ -24,7 +24,7 @@
 #include <MAT2d_SequenceOfSequenceOfCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <TopoDS_Wire.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>  

@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ElSLib.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

@@ -111,7 +111,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <TopoDS_Iterator.hxx> //:d6
 #include <UnitsMethods.hxx>
 #include <STEPConstruct_AP203Context.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>

@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

@@ -297,7 +297,7 @@ Standard_Integer OCC22595 (Draw_Interpretor& di, Standard_Integer /*argc*/, cons
 #include <TopoDS.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 static Standard_Boolean OCC23774Test(const TopoDS_Face& grossPlateFace, const TopoDS_Shape& originalWire, Draw_Interpretor& di)
 {
@@ -2188,7 +2188,7 @@ static Standard_Integer OCC24565 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Handle_BRepTools_NurbsConvertModification.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
-#include <BRepTools_NurbsConvertModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>
 static TopoDS_Shape CreateTestShape (int& theShapeNb)
 {
   TopoDS_Compound aComp;

@@ -48,7 +48,7 @@
 #include <ShapeUpgrade_FixSmallBezierCurves.hxx>
 #include <ShapeUpgrade_FixSmallBezierCurves.hxx>
 #include <ShapeUpgrade_FixSmallBezierCurves.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShapeConvertToBezier

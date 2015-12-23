@@ -50,11 +50,11 @@
 #include <BRepLib_MakePolygon.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
-#include <BRepTools_Modifier.hxx>
-#include <BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>

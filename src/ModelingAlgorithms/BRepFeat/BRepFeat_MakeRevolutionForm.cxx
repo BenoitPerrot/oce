@@ -76,7 +76,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -105,7 +105,7 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeFace.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <BRepPrimAPI_MakeBox.hxx>
 
@@ -124,8 +124,8 @@
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_ExtCF.hxx>
 
-#include <BRepTools_Modifier.hxx>
-#include <BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
 

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>

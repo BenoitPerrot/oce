@@ -110,7 +110,7 @@
 #include <TopExp_Explorer.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <IntTools_Curve.hxx>

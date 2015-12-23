@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeCustom_ConvertToRevolution.hxx>
 
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

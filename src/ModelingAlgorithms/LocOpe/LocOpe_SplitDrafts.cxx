@@ -32,7 +32,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 
 #include <LocOpe_WiresOnShape.hxx>
 #include <LocOpe_Spliter.hxx>

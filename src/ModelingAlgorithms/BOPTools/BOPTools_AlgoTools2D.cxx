@@ -71,7 +71,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <BOPCol_IndexedMapOfShape.hxx>
 

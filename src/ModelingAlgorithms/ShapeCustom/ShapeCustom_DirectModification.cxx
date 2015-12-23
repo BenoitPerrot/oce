@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_DirectModification)
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>

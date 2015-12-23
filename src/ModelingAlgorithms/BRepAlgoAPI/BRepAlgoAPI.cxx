@@ -18,7 +18,7 @@
 
 #include <stdio.h>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 
 //=======================================================================

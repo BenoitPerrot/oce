@@ -16,7 +16,7 @@
 //    sln 29.11.01 Bug22: correction of methods Replace and Value for case when mode myConsiderLocation is on
 
 #include <TopoDS_Shape.hxx>
-#include <BRepTools_ReShape.hxx>
+#include <ModelingData/BRepTools/BRepTools_ReShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTools_ReShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_ReShape)
 #include <TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //include <ShapeExtend.hxx>
-//#include <BRepTools_Edge.hxx>
+//#include <ModelingData/BRepTools/BRepTools_Edge.hxx>
 #include <TopoDS.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>

@@ -38,7 +38,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 //=======================================================================
 //function : BRepPrim_Builder

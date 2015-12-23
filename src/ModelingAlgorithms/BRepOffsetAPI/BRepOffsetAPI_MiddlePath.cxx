@@ -35,9 +35,9 @@
 #include <TopExp.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopoDS.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>

@@ -35,7 +35,7 @@
 #include <TopExp_Explorer.hxx>
 #include <TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
@@ -92,7 +92,7 @@
 #ifdef OCCT_DEBUG
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #endif
 #ifdef OCCT_DEBUG
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

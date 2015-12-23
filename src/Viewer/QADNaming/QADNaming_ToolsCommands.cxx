@@ -18,13 +18,13 @@
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <QADNaming.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS_Face.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Translator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>

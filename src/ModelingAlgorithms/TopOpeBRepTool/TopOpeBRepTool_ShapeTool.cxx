@@ -40,7 +40,7 @@
 #include <TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopExp_Explorer.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>

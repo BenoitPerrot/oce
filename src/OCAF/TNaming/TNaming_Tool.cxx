@@ -551,7 +551,7 @@ void TNamingTool_DumpLabel (const TopoDS_Shape& S,
   cout<<endl;
 }
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 //=======================================================================
 //function : 
 //purpose  : 

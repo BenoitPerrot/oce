@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <TopTools_OrientedShapeMapHasher.hxx>
 
 #include <AIS_InteractiveContext.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Precision.hxx>
 #include <AIS_Drawer.hxx>
 #include <TopAbs_ShapeEnum.hxx>

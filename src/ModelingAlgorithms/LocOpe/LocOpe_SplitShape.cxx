@@ -43,8 +43,8 @@
 #include <BRepLib_MakeFace.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BRepClass_FaceExplorer.hxx>
@@ -58,7 +58,7 @@
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 #include <Precision.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <LocOpe.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

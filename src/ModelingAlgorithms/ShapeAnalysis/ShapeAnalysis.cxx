@@ -61,7 +61,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Precision.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopExp.hxx>
 
 //static Standard_Integer numpb = 0;

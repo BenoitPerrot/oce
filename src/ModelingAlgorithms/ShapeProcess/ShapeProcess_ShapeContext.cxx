@@ -17,7 +17,7 @@
 #include <TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>
 
-#include <BRepTools_ReShape.hxx>
+#include <ModelingData/BRepTools/BRepTools_ReShape.hxx>
 #include <TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

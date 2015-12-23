@@ -51,7 +51,7 @@
 #include <BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepLib.hxx>
 

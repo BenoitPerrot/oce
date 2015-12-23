@@ -60,13 +60,13 @@ private:
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepTools_DataMapNodeOfMapOfVertexPnt2d
-#define TCollection_DataMapNode_hxx <BRepTools_DataMapNodeOfMapOfVertexPnt2d.hxx>
+#define TCollection_DataMapNode_hxx <ModelingData/BRepTools/BRepTools_DataMapNodeOfMapOfVertexPnt2d.hxx>
 #define TCollection_DataMapIterator BRepTools_DataMapIteratorOfMapOfVertexPnt2d
-#define TCollection_DataMapIterator_hxx <BRepTools_DataMapIteratorOfMapOfVertexPnt2d.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingData/BRepTools/BRepTools_DataMapIteratorOfMapOfVertexPnt2d.hxx>
 #define Handle_TCollection_DataMapNode Handle_BRepTools_DataMapNodeOfMapOfVertexPnt2d
 #define TCollection_DataMapNode_Type_() BRepTools_DataMapNodeOfMapOfVertexPnt2d_Type_()
 #define TCollection_DataMap BRepTools_MapOfVertexPnt2d
-#define TCollection_DataMap_hxx <BRepTools_MapOfVertexPnt2d.hxx>
+#define TCollection_DataMap_hxx <ModelingData/BRepTools/BRepTools_MapOfVertexPnt2d.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

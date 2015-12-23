@@ -52,7 +52,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

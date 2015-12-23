@@ -33,7 +33,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
 #include <TopExp_Explorer.hxx>

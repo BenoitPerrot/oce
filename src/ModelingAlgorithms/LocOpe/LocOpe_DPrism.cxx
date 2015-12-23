@@ -67,7 +67,7 @@
 #include <Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #ifdef OCCT_DEBUG

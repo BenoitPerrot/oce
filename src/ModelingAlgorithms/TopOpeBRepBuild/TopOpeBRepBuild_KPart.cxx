@@ -63,7 +63,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepClass3d.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

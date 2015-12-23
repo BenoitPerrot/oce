@@ -54,7 +54,7 @@
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Wire.hxx>

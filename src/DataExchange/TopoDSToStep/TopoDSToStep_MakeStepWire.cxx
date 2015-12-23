@@ -26,7 +26,7 @@
 #include <TopoDSToStep_MakeStepVertex.hxx>
 #include <TopoDSToStep_MakeStepEdge.hxx>
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 

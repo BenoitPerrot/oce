@@ -113,7 +113,7 @@
 #include <BRepAlgo_NormalProjection.hxx>
 #include <BRepExtrema_ExtCC.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>

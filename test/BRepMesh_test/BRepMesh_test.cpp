@@ -1,4 +1,4 @@
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS_Shape.hxx>
 #include <TopoDS_Face.hxx>

@@ -31,7 +31,7 @@
 #include <TopoDS_Compound.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

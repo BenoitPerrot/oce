@@ -20,7 +20,7 @@
 #include <BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Precision.hxx>
 #include <TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

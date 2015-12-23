@@ -74,7 +74,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib.hxx>
 #include <TopoDS_Face.hxx>

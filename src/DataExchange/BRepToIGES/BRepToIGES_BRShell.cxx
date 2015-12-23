@@ -26,7 +26,7 @@
 #include <BRepToIGES_BRWire.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>

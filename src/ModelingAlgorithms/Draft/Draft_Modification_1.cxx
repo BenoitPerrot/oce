@@ -98,7 +98,7 @@
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TopoDS.hxx>
 #include <TopExp.hxx>
 

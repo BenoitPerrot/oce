@@ -33,7 +33,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepBndLib.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

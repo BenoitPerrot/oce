@@ -20,9 +20,9 @@
 #include <Precision.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS_Shape.hxx>
-#include <BRepTools_ShapeSet.hxx>
+#include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomTools/GeomTools.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>
 #include <TopoDS.hxx>

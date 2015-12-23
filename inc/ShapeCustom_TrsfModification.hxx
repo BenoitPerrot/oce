@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeCustom_TrsfModification.hxx>
 
-#include <BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

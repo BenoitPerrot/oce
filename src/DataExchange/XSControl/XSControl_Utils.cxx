@@ -48,7 +48,7 @@
 #include <Transfer_SimpleBinderOfTransient.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 
 static TCollection_AsciiString    bufasc;

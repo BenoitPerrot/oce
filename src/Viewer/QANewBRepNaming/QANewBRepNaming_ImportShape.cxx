@@ -21,7 +21,7 @@
 #include <QANewBRepNaming_ImportShape.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Shape.hxx>

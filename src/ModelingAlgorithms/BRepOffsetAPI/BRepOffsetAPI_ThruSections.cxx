@@ -92,7 +92,7 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <BRepLib.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>

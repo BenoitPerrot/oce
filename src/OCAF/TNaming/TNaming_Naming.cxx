@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 #include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 #include <TopTools_HArray1OfShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Wire.hxx>
@@ -101,13 +101,13 @@ typedef TNaming_DataMapOfShapeMapOfShape::Iterator TNaming_DataMapIteratorOfData
 #include <TDF_MapIteratorOfLabelMap.hxx> 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TNaming_Tool.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 void Print_Entry(const TDF_Label&       label)
 {
   TCollection_AsciiString entry;

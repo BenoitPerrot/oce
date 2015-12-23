@@ -83,7 +83,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 
 //#ifdef WNT
 #include <stdio.h>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <TopExp.hxx>
 //#endif
 

@@ -19,7 +19,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_Curve.hxx>

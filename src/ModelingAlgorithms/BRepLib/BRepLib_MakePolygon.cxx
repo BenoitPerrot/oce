@@ -22,7 +22,7 @@
 #include <BRepLib_MakePolygon.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopoDS.hxx>

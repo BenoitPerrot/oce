@@ -36,7 +36,7 @@
 #include <PTopoDS_HArray1OfHShape.hxx>
 #include <PTopoDS_HArray1OfShape1.hxx>
 
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>

@@ -36,7 +36,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 

@@ -21,7 +21,7 @@
 #include <TopoDS_Face.hxx>
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <TopExp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Iterator.hxx>
@@ -33,7 +33,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <TopExp_Explorer.hxx>

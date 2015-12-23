@@ -83,7 +83,7 @@
 
 #include <stdio.h>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 //:21 
 #include <Mathematics/Primitives/gp_Pnt.hxx>

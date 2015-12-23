@@ -81,7 +81,7 @@
 //
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 //
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 //
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

@@ -21,7 +21,7 @@
 
 #include <TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_DataStructureOfDelaun, Standard_Transient)

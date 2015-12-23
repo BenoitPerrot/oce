@@ -44,7 +44,7 @@
 //
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 //
 #include <TopExp.hxx>
 #include <TopExp_Explorer.hxx>

@@ -17,7 +17,7 @@
 #include <BRepExtrema_ExtCF.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

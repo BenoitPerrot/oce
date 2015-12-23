@@ -54,7 +54,7 @@
 #include <TDF_MapIteratorOfLabelMap.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 void LPrintEntry(const TDF_Label&       label)
 {
   TCollection_AsciiString entry;

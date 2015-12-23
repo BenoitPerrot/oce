@@ -17,7 +17,7 @@
 
 #include <AIS_InteractiveContext.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

@@ -49,7 +49,7 @@
 #include <TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TransferBRep.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>

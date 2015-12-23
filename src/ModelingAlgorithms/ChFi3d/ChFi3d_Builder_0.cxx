@@ -85,8 +85,8 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>

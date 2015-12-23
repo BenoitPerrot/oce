@@ -49,7 +49,7 @@
 #include <Precision.hxx>
 #include <BRepAlgo_SequenceOfSequenceOfInteger.hxx>
 #include <TopExp.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

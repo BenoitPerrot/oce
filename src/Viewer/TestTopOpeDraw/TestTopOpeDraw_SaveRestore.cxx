@@ -23,7 +23,7 @@
 #include <DrawTrSurf_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools_ShapeSet.hxx>
+#include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <TopoDS.hxx>

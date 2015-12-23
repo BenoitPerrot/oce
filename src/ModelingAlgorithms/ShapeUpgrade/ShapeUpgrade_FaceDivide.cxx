@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivide)
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <ShapeFix_ComposeShell.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <TopExp_Explorer.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

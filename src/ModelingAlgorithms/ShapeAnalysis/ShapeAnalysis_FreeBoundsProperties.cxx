@@ -33,7 +33,7 @@
 #include <TopoDS.hxx>
 #include <TopoDS_Edge.hxx>
 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 

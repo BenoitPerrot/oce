@@ -18,7 +18,7 @@
 #include <TopoDS_Edge.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Shape.hxx>
-#include <BRepTools_Quilt.hxx>
+#include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 
 #include <TopoDS.hxx>
 #include <TopoDS_Face.hxx>

@@ -56,7 +56,7 @@
 #include <TopoDS_Wire.hxx>
 #include <TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

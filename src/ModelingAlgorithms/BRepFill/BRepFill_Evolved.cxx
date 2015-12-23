@@ -25,7 +25,7 @@
 #include <BRepMAT2d_BisectingLocus.hxx>
 #include <BRepMAT2d_LinkTopoBilo.hxx>
 #include <BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
-#include <BRepTools_Quilt.hxx>
+#include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TopoDS_Edge.hxx>
@@ -52,10 +52,10 @@
 #include <BRepAlgo_Loop.hxx>
 #include <BRepSweep_Revol.hxx>
 #include <BRepSweep_Prism.hxx>
-#include <BRepTools.hxx>
-#include <BRepTools_WireExplorer.hxx>
-#include <BRepTools_TrsfModification.hxx>
-#include <BRepTools_Modifier.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
+#include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepLProp/BRepLProp.hxx>

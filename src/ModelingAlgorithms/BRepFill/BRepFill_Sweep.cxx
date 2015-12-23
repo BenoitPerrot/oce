@@ -112,13 +112,13 @@
 #include <TopTools_ListOfShape.hxx> 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx> 
-#include <BRepTools_WireExplorer.hxx>
+#include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 #include <BRepLib_MakeWire.hxx>
 
-#include <BRepTools_Substitution.hxx>
+#include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <TopoDS_Iterator.hxx>
 

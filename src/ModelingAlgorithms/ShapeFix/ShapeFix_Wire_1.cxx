@@ -55,7 +55,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>  
 #include <TopTools_Array1OfShape.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

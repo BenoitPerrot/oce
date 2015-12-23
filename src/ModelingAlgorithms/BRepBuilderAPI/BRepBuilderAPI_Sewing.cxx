@@ -41,7 +41,7 @@
 
 #define TEST 1
 
-#include <BRepTools_ReShape.hxx>
+#include <ModelingData/BRepTools/BRepTools_ReShape.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TopoDS_Shape.hxx>
@@ -81,7 +81,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib.hxx>
-#include <BRepTools_Quilt.hxx>
+#include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
@@ -143,7 +143,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <TopoDS_Compound.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
-#include <BRepTools.hxx>
+#include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ModelingData/BRep/BRep_PointOnCurve.hxx>
