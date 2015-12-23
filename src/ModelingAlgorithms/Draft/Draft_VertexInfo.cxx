@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draft_VertexInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_VertexInfo.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

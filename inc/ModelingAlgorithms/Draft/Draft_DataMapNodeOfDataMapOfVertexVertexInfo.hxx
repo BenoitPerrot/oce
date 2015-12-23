@@ -11,7 +11,7 @@
 #include <Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <Draft_VertexInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_VertexInfo.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Vertex;
@@ -56,17 +56,17 @@ private:
 #define TheKey TopoDS_Vertex
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem Draft_VertexInfo
-#define TheItem_hxx <Draft_VertexInfo.hxx>
+#define TheItem_hxx <ModelingAlgorithms/Draft/Draft_VertexInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode Draft_DataMapNodeOfDataMapOfVertexVertexInfo
-#define TCollection_DataMapNode_hxx <Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/Draft/Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
 #define TCollection_DataMapIterator Draft_DataMapIteratorOfDataMapOfVertexVertexInfo
-#define TCollection_DataMapIterator_hxx <Draft_DataMapIteratorOfDataMapOfVertexVertexInfo.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/Draft/Draft_DataMapIteratorOfDataMapOfVertexVertexInfo.hxx>
 #define Handle_TCollection_DataMapNode Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo
 #define TCollection_DataMapNode_Type_() Draft_DataMapNodeOfDataMapOfVertexVertexInfo_Type_()
 #define TCollection_DataMap Draft_DataMapOfVertexVertexInfo
-#define TCollection_DataMap_hxx <Draft_DataMapOfVertexVertexInfo.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/Draft/Draft_DataMapOfVertexVertexInfo.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

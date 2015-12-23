@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draft_EdgeInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_EdgeInfo.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

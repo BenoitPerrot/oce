@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Draft.hxx>
+#include <ModelingAlgorithms/Draft/Draft.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

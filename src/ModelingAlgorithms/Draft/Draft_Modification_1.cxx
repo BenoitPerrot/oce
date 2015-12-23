@@ -29,7 +29,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Draft_Modification.hxx>
+#include <ModelingAlgorithms/Draft/Draft_Modification.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -40,12 +40,12 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <Draft_DataMapIteratorOfDataMapOfFaceFaceInfo.hxx>
-#include <Draft_DataMapIteratorOfDataMapOfEdgeEdgeInfo.hxx>
-#include <Draft_DataMapIteratorOfDataMapOfVertexVertexInfo.hxx>
-#include <Draft_FaceInfo.hxx>
-#include <Draft_EdgeInfo.hxx>
-#include <Draft_VertexInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_DataMapIteratorOfDataMapOfFaceFaceInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_DataMapIteratorOfDataMapOfEdgeEdgeInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_DataMapIteratorOfDataMapOfVertexVertexInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_FaceInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_EdgeInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_VertexInfo.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

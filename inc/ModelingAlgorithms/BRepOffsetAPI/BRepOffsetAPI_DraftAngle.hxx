@@ -14,7 +14,7 @@
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_ModifyShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draft_ErrorStatus.hxx>
+#include <ModelingAlgorithms/Draft/Draft_ErrorStatus.hxx>
 class StdFail_NotDone;
 class Standard_NullObject;
 class Standard_NoSuchObject;

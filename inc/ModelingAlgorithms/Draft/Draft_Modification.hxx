@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draft_Modification.hxx>
 
-#include <Draft_DataMapOfFaceFaceInfo.hxx>
-#include <Draft_DataMapOfEdgeEdgeInfo.hxx>
-#include <Draft_DataMapOfVertexVertexInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_DataMapOfFaceFaceInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_DataMapOfEdgeEdgeInfo.hxx>
+#include <ModelingAlgorithms/Draft/Draft_DataMapOfVertexVertexInfo.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draft_ErrorStatus.hxx>
+#include <ModelingAlgorithms/Draft/Draft_ErrorStatus.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>

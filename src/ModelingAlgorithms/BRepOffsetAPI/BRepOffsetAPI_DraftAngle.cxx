@@ -25,7 +25,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
 
-#include <Draft_Modification.hxx>
+#include <ModelingAlgorithms/Draft/Draft_Modification.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
