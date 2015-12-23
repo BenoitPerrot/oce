@@ -2,7 +2,7 @@
 #include <StdLSchema_PDF_Reference.hxx>
 #endif
 #ifndef _PDF_Reference_HeaderFile
-#include <PDF_Reference.hxx>
+#include <OCAF/PDF/PDF_Reference.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HAsciiString_HeaderFile
 #include <StdLSchema_PCollection_HAsciiString.hxx>

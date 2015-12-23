@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
-#include <PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #include <OCAF/PDataStd/PDataStd_Expression.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Expression)

@@ -12,7 +12,7 @@
 #include <Handle_PDataXtd_Position.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class gp_Pnt;
 
 

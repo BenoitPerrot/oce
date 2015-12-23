@@ -2,7 +2,7 @@
 #include <StdLSchema_PDF_FieldOfHAttributeArray1.hxx>
 #endif
 #ifndef _PDF_FieldOfHAttributeArray1_HeaderFile
-#include <PDF_FieldOfHAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_FieldOfHAttributeArray1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

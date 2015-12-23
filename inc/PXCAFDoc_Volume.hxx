@@ -12,7 +12,7 @@
 #include <Handle_PXCAFDoc_Volume.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PXCAFDoc_Volume : public PDF_Attribute

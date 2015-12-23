@@ -16,7 +16,7 @@
 #include <Handle_PNaming_NamedShape.hxx>
 #include <Handle_PDataStd_Real.hxx>
 #include <Handle_PDataStd_Integer.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PNaming_NamedShape;
 class PDataStd_Real;
 class PDataStd_Integer;

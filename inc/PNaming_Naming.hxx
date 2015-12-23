@@ -12,7 +12,7 @@
 #include <Handle_PNaming_Naming.hxx>
 
 #include <Handle_PNaming_Name.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PNaming_Name;
 
 

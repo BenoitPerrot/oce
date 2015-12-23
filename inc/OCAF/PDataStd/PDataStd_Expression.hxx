@@ -13,7 +13,7 @@
 
 #include <Handle_PCollection_HExtendedString.hxx>
 #include <Handle_PDF_HAttributeArray1.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PCollection_HExtendedString;
 class PDF_HAttributeArray1;
 

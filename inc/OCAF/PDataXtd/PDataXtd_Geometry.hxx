@@ -12,7 +12,7 @@
 #include <Handle_PDataXtd_Geometry.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PDataXtd_Geometry : public PDF_Attribute

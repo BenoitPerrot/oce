@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MDF_RRelocationTable)
 
 
 #define TheSourceType Handle(PDF_Attribute)
-#define TheSourceType_hxx <PDF_Attribute.hxx>
+#define TheSourceType_hxx <OCAF/PDF/PDF_Attribute.hxx>
 #define TheTargetType Handle(TDF_Attribute)
 #define TheTargetType_hxx <TDF_Attribute.hxx>
 #define TheOtherSourceType Handle(Standard_Persistent)

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataXtd_Axis.hxx>
 
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PDataXtd_Axis : public PDF_Attribute

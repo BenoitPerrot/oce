@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PDF_Attribute.hxx>
-#include <PDF_FieldOfHAttributeArray1.hxx>
-#include <PDF_VArrayTNodeOfFieldOfHAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_FieldOfHAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_VArrayTNodeOfFieldOfHAttributeArray1.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(PDF_VArrayNodeOfFieldOfHAttributeArray1)
 
 
 #define Item Handle(PDF_Attribute)
-#define Item_hxx <PDF_Attribute.hxx>
+#define Item_hxx <OCAF/PDF/PDF_Attribute.hxx>
 #define DBC_VArrayNode PDF_VArrayNodeOfFieldOfHAttributeArray1
-#define DBC_VArrayNode_hxx <PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PDF/PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
 #define DBC_VArrayTNode PDF_VArrayTNodeOfFieldOfHAttributeArray1
-#define DBC_VArrayTNode_hxx <PDF_VArrayTNodeOfFieldOfHAttributeArray1.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PDF/PDF_VArrayTNodeOfFieldOfHAttributeArray1.hxx>
 #define Handle_DBC_VArrayNode Handle_PDF_VArrayNodeOfFieldOfHAttributeArray1
 #define DBC_VArrayNode_Type_() PDF_VArrayNodeOfFieldOfHAttributeArray1_Type_()
 #define DBC_VArray PDF_FieldOfHAttributeArray1
-#define DBC_VArray_hxx <PDF_FieldOfHAttributeArray1.hxx>
+#define DBC_VArray_hxx <OCAF/PDF/PDF_FieldOfHAttributeArray1.hxx>
 #include <OCAF/DBC/DBC_VArrayNode.gxx>
 

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
-#include <PDF_Reference.hxx>
+#include <OCAF/PDF/PDF_Reference.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDF_Reference)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

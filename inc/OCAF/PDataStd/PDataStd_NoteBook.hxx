@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_NoteBook.hxx>
 
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PDataStd_NoteBook : public PDF_Attribute

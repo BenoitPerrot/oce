@@ -2,7 +2,7 @@
 #include <StdLSchema_PDF_TagSource.hxx>
 #endif
 #ifndef _PDF_TagSource_HeaderFile
-#include <PDF_TagSource.hxx>
+#include <OCAF/PDF/PDF_TagSource.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

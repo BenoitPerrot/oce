@@ -12,7 +12,7 @@
 #include <Handle_PDataStd_Integer.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PDataStd_Integer : public PDF_Attribute

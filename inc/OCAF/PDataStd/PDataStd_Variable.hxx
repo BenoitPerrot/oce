@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PCollection_HAsciiString.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PCollection_HAsciiString;
 
 

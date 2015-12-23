@@ -23,7 +23,7 @@
 #include <Handle_PDataStd_HArray1OfByte.hxx>
 #include <Handle_PDataStd_HArray1OfHArray1OfInteger.hxx>
 #include <Handle_PDataStd_HArray1OfHArray1OfReal.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 class PCollection_HExtendedString;
 class PColStd_HArray1OfInteger;

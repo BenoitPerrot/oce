@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PXCAFDoc_ShapeTool.hxx>
 
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PXCAFDoc_ShapeTool : public PDF_Attribute

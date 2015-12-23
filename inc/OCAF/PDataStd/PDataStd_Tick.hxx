@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataStd_Tick.hxx>
 
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PDataStd_Tick : public PDF_Attribute

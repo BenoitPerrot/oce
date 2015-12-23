@@ -15,7 +15,7 @@
 #include <Handle_PCollection_HExtendedString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PCollection_HExtendedString;
 
 

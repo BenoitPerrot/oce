@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PDataStd/PDataStd_Real.hxx>
-#include <PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #include <PNaming_NamedShape.hxx>
 #include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

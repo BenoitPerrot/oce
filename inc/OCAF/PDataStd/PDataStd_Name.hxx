@@ -12,7 +12,7 @@
 #include <Handle_PDataStd_Name.hxx>
 
 #include <Handle_PCollection_HExtendedString.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PCollection_HExtendedString;
 
 

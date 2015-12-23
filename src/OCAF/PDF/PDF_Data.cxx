@@ -22,8 +22,8 @@
 
 
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
-#include <PDF_HAttributeArray1.hxx>
-#include <PDF_Data.hxx>
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_Data.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDF_Data)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

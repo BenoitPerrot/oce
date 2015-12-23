@@ -53,15 +53,15 @@ private:
 };
 
 #define Item Handle(PDF_Attribute)
-#define Item_hxx <PDF_Attribute.hxx>
+#define Item_hxx <OCAF/PDF/PDF_Attribute.hxx>
 #define DBC_VArrayNode PDF_VArrayNodeOfFieldOfHAttributeArray1
-#define DBC_VArrayNode_hxx <PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PDF/PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
 #define DBC_VArrayTNode PDF_VArrayTNodeOfFieldOfHAttributeArray1
-#define DBC_VArrayTNode_hxx <PDF_VArrayTNodeOfFieldOfHAttributeArray1.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PDF/PDF_VArrayTNodeOfFieldOfHAttributeArray1.hxx>
 #define Handle_DBC_VArrayNode Handle_PDF_VArrayNodeOfFieldOfHAttributeArray1
 #define DBC_VArrayNode_Type_() PDF_VArrayNodeOfFieldOfHAttributeArray1_Type_()
 #define DBC_VArray PDF_FieldOfHAttributeArray1
-#define DBC_VArray_hxx <PDF_FieldOfHAttributeArray1.hxx>
+#define DBC_VArray_hxx <OCAF/PDF/PDF_FieldOfHAttributeArray1.hxx>
 
 #include <OCAF/DBC/DBC_VArrayTNode.lxx>
 

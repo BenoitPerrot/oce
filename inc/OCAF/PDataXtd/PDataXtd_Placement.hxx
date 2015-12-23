@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PDataXtd_Placement.hxx>
 
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PDataXtd_Placement : public PDF_Attribute

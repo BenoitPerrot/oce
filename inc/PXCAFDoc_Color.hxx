@@ -12,7 +12,7 @@
 #include <Handle_PXCAFDoc_Color.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class Quantity_Color;
 
 

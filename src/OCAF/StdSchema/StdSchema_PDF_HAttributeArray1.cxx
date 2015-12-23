@@ -2,7 +2,7 @@
 #include <StdSchema_PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _PDF_HAttributeArray1_HeaderFile
-#include <PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _StdSchema_PDF_FieldOfHAttributeArray1_HeaderFile
 #include <StdSchema_PDF_FieldOfHAttributeArray1.hxx>

@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_PTopoDS_HArray1OfShape1.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PTopoDS_HArray1OfShape1;
 
 

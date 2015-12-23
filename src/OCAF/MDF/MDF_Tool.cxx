@@ -22,12 +22,12 @@
 
 
 #include <TDF_Data.hxx>
-#include <PDF_Data.hxx>
+#include <OCAF/PDF/PDF_Data.hxx>
 #include <OCAF/MDF/MDF_TypeASDriverMap.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <TDF_Label.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
-#include <PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #include <OCAF/MDF/MDF_TypeARDriverMap.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDF/MDF_Tool.hxx>
@@ -37,8 +37,8 @@
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 
-#include <PDF_Attribute.hxx>
-#include <PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 
 #include <TDF_Attribute.hxx>
 #include <TDF_AttributeIterator.hxx>

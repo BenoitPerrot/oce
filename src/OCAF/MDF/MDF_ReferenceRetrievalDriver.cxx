@@ -14,7 +14,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDF/MDF_ReferenceRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDF_ReferenceRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDF_ReferenceRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDF_ReferenceRetrievalDriver)
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
-#include <PDF_Reference.hxx>
+#include <OCAF/PDF/PDF_Reference.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>

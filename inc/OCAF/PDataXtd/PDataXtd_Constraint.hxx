@@ -16,7 +16,7 @@
 #include <Handle_PDF_HAttributeArray1.hxx>
 #include <Handle_PNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PDataStd_Real;
 class PDF_HAttributeArray1;
 class PNaming_NamedShape;

@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class Standard_GUID;
 
 

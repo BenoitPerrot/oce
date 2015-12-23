@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentStorageDriver)
 #include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDF/MDF_TypeASDriverMap.hxx>
-#include <PDF_Data.hxx>
+#include <OCAF/PDF/PDF_Data.hxx>
 #include <PDocStd_Document.hxx>
 
 #include <TDF_Tool.hxx>

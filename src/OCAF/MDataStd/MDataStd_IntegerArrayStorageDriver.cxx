@@ -16,7 +16,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_IntegerArrayStorageDriver.hxx>

@@ -13,7 +13,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDataStd/MDataStd_ExpressionStorageDriver.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ExpressionStorageDriver)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx> 
-#include <PDF_HAttributeArray1.hxx> 
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx> 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

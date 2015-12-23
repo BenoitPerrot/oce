@@ -2,7 +2,7 @@
 #include <XCAFSchema_PDF_Attribute.hxx>
 #endif
 #ifndef _PDF_Attribute_HeaderFile
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -15,7 +15,7 @@
 #include <Handle_PXCAFDoc_GraphNode.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Handle_PXCAFDoc_GraphNodeSequence.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PXCAFDoc_GraphNodeSequence;
 class Standard_GUID;
 

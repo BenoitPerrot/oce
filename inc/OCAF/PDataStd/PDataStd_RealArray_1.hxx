@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PColStd_HArray1OfReal;
 
 

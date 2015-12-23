@@ -14,7 +14,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TDF_Attribute.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/MDataXtd/MDataXtd_ConstraintRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintRetrievalDriver)
 #include <TDataXtd_ConstraintEnum.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <PNaming_NamedShape.hxx>
-#include <PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

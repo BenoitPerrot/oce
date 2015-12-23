@@ -12,7 +12,7 @@
 #include <Handle_PDataStd_ByteArray.hxx>
 
 #include <Handle_PColStd_HArray1OfInteger.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 class PColStd_HArray1OfInteger;
 
 

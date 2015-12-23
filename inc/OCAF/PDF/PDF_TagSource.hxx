@@ -12,7 +12,7 @@
 #include <Handle_PDF_TagSource.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PDF_Attribute.hxx>
+#include <OCAF/PDF/PDF_Attribute.hxx>
 
 
 class PDF_TagSource : public PDF_Attribute
