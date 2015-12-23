@@ -15,11 +15,11 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaModel.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
-#include <StepFEA_NodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_NodeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_NodeRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

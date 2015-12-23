@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_HSequenceOfElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StepFEA_ElementGeometricRelationship.hxx>
-#include <StepFEA_SequenceOfElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_SequenceOfElementGeometricRelationship.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_HSequenceOfElementGeometricRelationship)
 
 
 #define Item Handle(StepFEA_ElementGeometricRelationship)
-#define Item_hxx <StepFEA_ElementGeometricRelationship.hxx>
+#define Item_hxx <DataExchange/StepFEA/StepFEA_ElementGeometricRelationship.hxx>
 #define TheSequence StepFEA_SequenceOfElementGeometricRelationship
-#define TheSequence_hxx <StepFEA_SequenceOfElementGeometricRelationship.hxx>
+#define TheSequence_hxx <DataExchange/StepFEA/StepFEA_SequenceOfElementGeometricRelationship.hxx>
 #define TCollection_HSequence StepFEA_HSequenceOfElementGeometricRelationship
-#define TCollection_HSequence_hxx <StepFEA_HSequenceOfElementGeometricRelationship.hxx>
+#define TCollection_HSequence_hxx <DataExchange/StepFEA/StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 #define Handle_TCollection_HSequence Handle_StepFEA_HSequenceOfElementGeometricRelationship
 #define TCollection_HSequence_Type_() StepFEA_HSequenceOfElementGeometricRelationship_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

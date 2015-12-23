@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepFEA_ArbitraryVolume3dElementCoordinateSystem.hxx>
+#include <DataExchange/StepFEA/StepFEA_ArbitraryVolume3dElementCoordinateSystem.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWArbitraryVolume3dElementCoordinateSystem.hxx>

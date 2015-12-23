@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
-#include <StepFEA_FeaModel.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

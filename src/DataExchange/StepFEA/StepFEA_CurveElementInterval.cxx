@@ -15,9 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_CurveElementLocation.hxx>
+#include <DataExchange/StepFEA/StepFEA_CurveElementLocation.hxx>
 #include <DataExchange/StepBasic/StepBasic_EulerAngles.hxx>
-#include <StepFEA_CurveElementInterval.hxx>
+#include <DataExchange/StepFEA/StepFEA_CurveElementInterval.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_CurveElementInterval)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -15,15 +15,15 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaModel3d.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModel3d.hxx>
 #include <DataExchange/StepElement/StepElement_Surface3dElementDescriptor.hxx>
 #include <DataExchange/StepElement/StepElement_SurfaceElementProperty.hxx>
 #include <DataExchange/StepElement/StepElement_ElementMaterial.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
-#include <StepFEA_HArray1OfNodeRepresentation.hxx>
-#include <StepFEA_Surface3dElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_Surface3dElementRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_Surface3dElementRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

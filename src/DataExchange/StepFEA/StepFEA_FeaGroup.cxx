@@ -15,9 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaModel.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepFEA_FeaGroup.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaGroup)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

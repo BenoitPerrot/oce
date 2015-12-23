@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V2.0
 
-#include <StepFEA_SymmetricTensor23dMember.hxx>
+#include <DataExchange/StepFEA/StepFEA_SymmetricTensor23dMember.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_SymmetricTensor23dMember)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

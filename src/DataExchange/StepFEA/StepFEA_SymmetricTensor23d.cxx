@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepFEA_SymmetricTensor23d.hxx>
-#include <StepFEA_SymmetricTensor23dMember.hxx>
+#include <DataExchange/StepFEA/StepFEA_SymmetricTensor23d.hxx>
+#include <DataExchange/StepFEA/StepFEA_SymmetricTensor23dMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================

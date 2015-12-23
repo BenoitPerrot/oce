@@ -15,15 +15,15 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepFEA_FeaModel3d.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModel3d.hxx>
 #include <DataExchange/StepElement/StepElement_Curve3dElementDescriptor.hxx>
-#include <StepFEA_Curve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementProperty.hxx>
 #include <DataExchange/StepElement/StepElement_ElementMaterial.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
-#include <StepFEA_HArray1OfNodeRepresentation.hxx>
-#include <StepFEA_Curve3dElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_Curve3dElementRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

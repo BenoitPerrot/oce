@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepFEA_ElementGeometricRelationship.hxx>
-#include <StepFEA_SequenceOfElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_SequenceOfElementGeometricRelationship.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_SequenceNodeOfSequenceOfElementGeometricRelation
 
 
 #define SeqItem Handle(StepFEA_ElementGeometricRelationship)
-#define SeqItem_hxx <StepFEA_ElementGeometricRelationship.hxx>
+#define SeqItem_hxx <DataExchange/StepFEA/StepFEA_ElementGeometricRelationship.hxx>
 #define TCollection_SequenceNode StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship
-#define TCollection_SequenceNode_hxx <StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/StepFEA/StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship.hxx>
 #define Handle_TCollection_SequenceNode Handle_StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship
 #define TCollection_SequenceNode_Type_() StepFEA_SequenceNodeOfSequenceOfElementGeometricRelationship_Type_()
 #define TCollection_Sequence StepFEA_SequenceOfElementGeometricRelationship
-#define TCollection_Sequence_hxx <StepFEA_SequenceOfElementGeometricRelationship.hxx>
+#define TCollection_Sequence_hxx <DataExchange/StepFEA/StepFEA_SequenceOfElementGeometricRelationship.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

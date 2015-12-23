@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_SequenceNodeOfSequenceOfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_SequenceNodeOfSequenceOfNodeRepresentation.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepFEA_NodeRepresentation.hxx>
-#include <StepFEA_SequenceOfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_NodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_SequenceOfNodeRepresentation.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_SequenceNodeOfSequenceOfNodeRepresentation)
 
 
 #define SeqItem Handle(StepFEA_NodeRepresentation)
-#define SeqItem_hxx <StepFEA_NodeRepresentation.hxx>
+#define SeqItem_hxx <DataExchange/StepFEA/StepFEA_NodeRepresentation.hxx>
 #define TCollection_SequenceNode StepFEA_SequenceNodeOfSequenceOfNodeRepresentation
-#define TCollection_SequenceNode_hxx <StepFEA_SequenceNodeOfSequenceOfNodeRepresentation.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/StepFEA/StepFEA_SequenceNodeOfSequenceOfNodeRepresentation.hxx>
 #define Handle_TCollection_SequenceNode Handle_StepFEA_SequenceNodeOfSequenceOfNodeRepresentation
 #define TCollection_SequenceNode_Type_() StepFEA_SequenceNodeOfSequenceOfNodeRepresentation_Type_()
 #define TCollection_Sequence StepFEA_SequenceOfNodeRepresentation
-#define TCollection_Sequence_hxx <StepFEA_SequenceOfNodeRepresentation.hxx>
+#define TCollection_Sequence_hxx <DataExchange/StepFEA/StepFEA_SequenceOfNodeRepresentation.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

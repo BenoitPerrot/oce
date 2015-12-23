@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V2.0
 
-#include <StepFEA_DegreeOfFreedomMember.hxx>
+#include <DataExchange/StepFEA/StepFEA_DegreeOfFreedomMember.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_DegreeOfFreedomMember)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

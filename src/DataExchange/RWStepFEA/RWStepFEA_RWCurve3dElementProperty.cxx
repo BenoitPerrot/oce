@@ -17,16 +17,16 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepFEA_Curve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementProperty.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWCurve3dElementProperty.hxx>
-#include <StepFEA_HArray1OfCurveElementInterval.hxx>
-#include <StepFEA_CurveElementInterval.hxx>
-#include <StepFEA_HArray1OfCurveElementEndOffset.hxx>
-#include <StepFEA_CurveElementEndOffset.hxx>
-#include <StepFEA_HArray1OfCurveElementEndRelease.hxx>
-#include <StepFEA_CurveElementEndRelease.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfCurveElementInterval.hxx>
+#include <DataExchange/StepFEA/StepFEA_CurveElementInterval.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfCurveElementEndOffset.hxx>
+#include <DataExchange/StepFEA/StepFEA_CurveElementEndOffset.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfCurveElementEndRelease.hxx>
+#include <DataExchange/StepFEA/StepFEA_CurveElementEndRelease.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWCurve3dElementProperty

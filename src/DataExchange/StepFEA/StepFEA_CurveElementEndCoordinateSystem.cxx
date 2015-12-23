@@ -16,10 +16,10 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepFEA_FeaAxis2Placement3d.hxx>
-#include <StepFEA_AlignedCurve3dElementCoordinateSystem.hxx>
-#include <StepFEA_ParametricCurve3dElementCoordinateSystem.hxx>
-#include <StepFEA_CurveElementEndCoordinateSystem.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaAxis2Placement3d.hxx>
+#include <DataExchange/StepFEA/StepFEA_AlignedCurve3dElementCoordinateSystem.hxx>
+#include <DataExchange/StepFEA/StepFEA_ParametricCurve3dElementCoordinateSystem.hxx>
+#include <DataExchange/StepFEA/StepFEA_CurveElementEndCoordinateSystem.hxx>
 
 //=======================================================================
 //function : StepFEA_CurveElementEndCoordinateSystem

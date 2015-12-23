@@ -13,17 +13,17 @@
 
 #include <XSControl_WorkSession.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
-#include <StepFEA_FeaModel.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModel.hxx>
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
-#include <StepFEA_FeaAxis2Placement3d.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaAxis2Placement3d.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <DataExchange/StepElement/StepElement_HSequenceOfElementMaterial.hxx>
-#include <StepFEA_HSequenceOfElementGeometricRelationship.hxx>
-#include <StepFEA_HSequenceOfElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_HSequenceOfElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_HSequenceOfElementRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <DataExchange/StepElement/StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
-#include <StepFEA_Curve3dElementRepresentation.hxx>
-#include <StepFEA_ElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
@@ -86,17 +86,17 @@
 #include <StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <StepRepr_GlobalUnitAssignedContext.hxx>
 
-#include <StepFEA_Curve3dElementRepresentation.hxx>
-#include <StepFEA_Surface3dElementRepresentation.hxx>
-#include <StepFEA_Volume3dElementRepresentation.hxx>
-#include <StepFEA_FeaModelDefinition.hxx>
-#include <StepFEA_HArray1OfCurveElementInterval.hxx>
-#include <StepFEA_CurveElementIntervalConstant.hxx>
-#include <StepFEA_Curve3dElementProperty.hxx>
-#include <StepFEA_ElementGeometricRelationship.hxx>
-#include <StepFEA_FeaModel3d.hxx>
-#include <StepFEA_FeaAxis2Placement3d.hxx>
-#include <StepFEA_CoordinateSystemType.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_Surface3dElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_Volume3dElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModelDefinition.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfCurveElementInterval.hxx>
+#include <DataExchange/StepFEA/StepFEA_CurveElementIntervalConstant.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaModel3d.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaAxis2Placement3d.hxx>
+#include <DataExchange/StepFEA/StepFEA_CoordinateSystemType.hxx>
 
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 

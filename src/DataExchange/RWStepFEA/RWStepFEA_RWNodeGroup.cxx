@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepFEA_NodeGroup.hxx>
+#include <DataExchange/StepFEA/StepFEA_NodeGroup.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWNodeGroup.hxx>
-#include <StepFEA_HArray1OfNodeRepresentation.hxx>
-#include <StepFEA_NodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_NodeRepresentation.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWNodeGroup

@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_Array1OfElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_Array1OfElementRepresentation.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepFEA_ElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
  
 
 #define Array1Item Handle(StepFEA_ElementRepresentation)
-#define Array1Item_hxx <StepFEA_ElementRepresentation.hxx>
+#define Array1Item_hxx <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
 #define TCollection_Array1 StepFEA_Array1OfElementRepresentation
-#define TCollection_Array1_hxx <StepFEA_Array1OfElementRepresentation.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepFEA/StepFEA_Array1OfElementRepresentation.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

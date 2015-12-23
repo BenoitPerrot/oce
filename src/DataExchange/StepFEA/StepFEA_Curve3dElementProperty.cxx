@@ -16,10 +16,10 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepFEA_HArray1OfCurveElementInterval.hxx>
-#include <StepFEA_HArray1OfCurveElementEndOffset.hxx>
-#include <StepFEA_HArray1OfCurveElementEndRelease.hxx>
-#include <StepFEA_Curve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfCurveElementInterval.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfCurveElementEndOffset.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfCurveElementEndRelease.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementProperty.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_Curve3dElementProperty)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

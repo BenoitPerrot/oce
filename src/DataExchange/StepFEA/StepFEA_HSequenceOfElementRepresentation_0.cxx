@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_HSequenceOfElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_HSequenceOfElementRepresentation.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StepFEA_ElementRepresentation.hxx>
-#include <StepFEA_SequenceOfElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_SequenceOfElementRepresentation.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_HSequenceOfElementRepresentation)
 
 
 #define Item Handle(StepFEA_ElementRepresentation)
-#define Item_hxx <StepFEA_ElementRepresentation.hxx>
+#define Item_hxx <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
 #define TheSequence StepFEA_SequenceOfElementRepresentation
-#define TheSequence_hxx <StepFEA_SequenceOfElementRepresentation.hxx>
+#define TheSequence_hxx <DataExchange/StepFEA/StepFEA_SequenceOfElementRepresentation.hxx>
 #define TCollection_HSequence StepFEA_HSequenceOfElementRepresentation
-#define TCollection_HSequence_hxx <StepFEA_HSequenceOfElementRepresentation.hxx>
+#define TCollection_HSequence_hxx <DataExchange/StepFEA/StepFEA_HSequenceOfElementRepresentation.hxx>
 #define Handle_TCollection_HSequence Handle_StepFEA_HSequenceOfElementRepresentation
 #define TCollection_HSequence_Type_() StepFEA_HSequenceOfElementRepresentation_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

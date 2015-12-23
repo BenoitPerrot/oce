@@ -16,8 +16,8 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepFEA_SymmetricTensor22d.hxx>
-#include <StepFEA_FeaShellShearStiffness.hxx>
+#include <DataExchange/StepFEA/StepFEA_SymmetricTensor22d.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaShellShearStiffness.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaShellShearStiffness)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -17,7 +17,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepFEA_SymmetricTensor22d.hxx>
+#include <DataExchange/StepFEA/StepFEA_SymmetricTensor22d.hxx>
 
 #include <DataExchange/StepData/StepData_SelectArrReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>

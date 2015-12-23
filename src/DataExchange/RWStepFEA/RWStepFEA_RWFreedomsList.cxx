@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepFEA_FreedomsList.hxx>
+#include <DataExchange/StepFEA/StepFEA_FreedomsList.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWFreedomsList.hxx>
-#include <StepFEA_HArray1OfDegreeOfFreedom.hxx>
-#include <StepFEA_DegreeOfFreedom.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfDegreeOfFreedom.hxx>
+#include <DataExchange/StepFEA/StepFEA_DegreeOfFreedom.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFreedomsList

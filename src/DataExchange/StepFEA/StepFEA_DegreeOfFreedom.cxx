@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepFEA_DegreeOfFreedom.hxx>
-#include <StepFEA_DegreeOfFreedomMember.hxx>
+#include <DataExchange/StepFEA/StepFEA_DegreeOfFreedom.hxx>
+#include <DataExchange/StepFEA/StepFEA_DegreeOfFreedomMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================

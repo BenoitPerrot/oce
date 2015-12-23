@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepFEA_SymmetricTensor43dMember.hxx>
+#include <DataExchange/StepFEA/StepFEA_SymmetricTensor43dMember.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_SymmetricTensor43dMember)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

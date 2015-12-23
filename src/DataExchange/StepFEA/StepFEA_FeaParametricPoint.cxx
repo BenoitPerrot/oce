@@ -17,7 +17,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepFEA_FeaParametricPoint.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaParametricPoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaParametricPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

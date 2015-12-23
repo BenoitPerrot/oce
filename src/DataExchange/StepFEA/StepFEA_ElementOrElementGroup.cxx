@@ -16,9 +16,9 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepFEA_ElementRepresentation.hxx>
-#include <StepFEA_ElementGroup.hxx>
-#include <StepFEA_ElementOrElementGroup.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementGroup.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementOrElementGroup.hxx>
 
 //=======================================================================
 //function : StepFEA_ElementOrElementGroup

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_HArray1OfElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_HArray1OfElementRepresentation.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepFEA_ElementRepresentation.hxx>
-#include <StepFEA_Array1OfElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
+#include <DataExchange/StepFEA/StepFEA_Array1OfElementRepresentation.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_HArray1OfElementRepresentation)
 
 
 #define ItemHArray1 Handle(StepFEA_ElementRepresentation)
-#define ItemHArray1_hxx <StepFEA_ElementRepresentation.hxx>
+#define ItemHArray1_hxx <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
 #define TheArray1 StepFEA_Array1OfElementRepresentation
-#define TheArray1_hxx <StepFEA_Array1OfElementRepresentation.hxx>
+#define TheArray1_hxx <DataExchange/StepFEA/StepFEA_Array1OfElementRepresentation.hxx>
 #define TCollection_HArray1 StepFEA_HArray1OfElementRepresentation
-#define TCollection_HArray1_hxx <StepFEA_HArray1OfElementRepresentation.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepFEA/StepFEA_HArray1OfElementRepresentation.hxx>
 #define Handle_TCollection_HArray1 Handle_StepFEA_HArray1OfElementRepresentation
 #define TCollection_HArray1_Type_() StepFEA_HArray1OfElementRepresentation_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

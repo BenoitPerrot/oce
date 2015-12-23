@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepFEA_FeaLinearElasticity.hxx>
+#include <DataExchange/StepFEA/StepFEA_FeaLinearElasticity.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWFeaLinearElasticity.hxx>
 
-#include <StepFEA_SymmetricTensor43dMember.hxx>
+#include <DataExchange/StepFEA/StepFEA_SymmetricTensor43dMember.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 

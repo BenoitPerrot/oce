@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepFEA_HSequenceOfCurve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/StepFEA_HSequenceOfCurve3dElementProperty.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StepFEA_Curve3dElementProperty.hxx>
-#include <StepFEA_SequenceOfCurve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/StepFEA_Curve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/StepFEA_SequenceOfCurve3dElementProperty.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(StepFEA_HSequenceOfCurve3dElementProperty)
 
 
 #define Item Handle(StepFEA_Curve3dElementProperty)
-#define Item_hxx <StepFEA_Curve3dElementProperty.hxx>
+#define Item_hxx <DataExchange/StepFEA/StepFEA_Curve3dElementProperty.hxx>
 #define TheSequence StepFEA_SequenceOfCurve3dElementProperty
-#define TheSequence_hxx <StepFEA_SequenceOfCurve3dElementProperty.hxx>
+#define TheSequence_hxx <DataExchange/StepFEA/StepFEA_SequenceOfCurve3dElementProperty.hxx>
 #define TCollection_HSequence StepFEA_HSequenceOfCurve3dElementProperty
-#define TCollection_HSequence_hxx <StepFEA_HSequenceOfCurve3dElementProperty.hxx>
+#define TCollection_HSequence_hxx <DataExchange/StepFEA/StepFEA_HSequenceOfCurve3dElementProperty.hxx>
 #define Handle_TCollection_HSequence Handle_StepFEA_HSequenceOfCurve3dElementProperty
 #define TCollection_HSequence_Type_() StepFEA_HSequenceOfCurve3dElementProperty_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>
