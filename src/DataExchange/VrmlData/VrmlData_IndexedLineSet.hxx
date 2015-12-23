@@ -16,9 +16,9 @@
 #ifndef VrmlData_IndexedLineSet_HeaderFile
 #define VrmlData_IndexedLineSet_HeaderFile
 
-#include <VrmlData_Geometry.hxx>
-#include <VrmlData_Coordinate.hxx>
-#include <VrmlData_Color.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Coordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_Color.hxx>
 //#include <Foundation/Quantity/Quantity_Color.hxx>
 
 /**

@@ -16,8 +16,8 @@
 #ifndef VrmlData_ShapeConvert_HeaderFile
 #define VrmlData_ShapeConvert_HeaderFile
 
-#include <VrmlData_Geometry.hxx>
-#include <VrmlData_Appearance.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Appearance.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 

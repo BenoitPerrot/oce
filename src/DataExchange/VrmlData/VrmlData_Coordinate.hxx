@@ -16,7 +16,7 @@
 #ifndef VrmlData_Coordinate_HeaderFile
 #define VrmlData_Coordinate_HeaderFile
 
-#include <VrmlData_ArrayVec3d.hxx>
+#include <DataExchange/VrmlData/VrmlData_ArrayVec3d.hxx>
 
 /**
  *  Implementation of the node Coordinate

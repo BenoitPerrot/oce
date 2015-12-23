@@ -16,7 +16,7 @@
 #ifndef VrmlData_TextureTransform_HeaderFile
 #define VrmlData_TextureTransform_HeaderFile
 
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 
 ///  Implementation of the TextureTransform node

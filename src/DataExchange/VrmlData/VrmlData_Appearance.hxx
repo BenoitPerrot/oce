@@ -16,9 +16,9 @@
 #ifndef VrmlData_Appearance_HeaderFile
 #define VrmlData_Appearance_HeaderFile
 
-#include <VrmlData_Material.hxx>
-#include <VrmlData_Texture.hxx>
-#include <VrmlData_TextureTransform.hxx>
+#include <DataExchange/VrmlData/VrmlData_Material.hxx>
+#include <DataExchange/VrmlData/VrmlData_Texture.hxx>
+#include <DataExchange/VrmlData/VrmlData_TextureTransform.hxx>
 
 /**
  *  Implementation of the Appearance node type

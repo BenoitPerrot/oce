@@ -17,7 +17,7 @@
 #define VrmlData_ListOfNode_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 
 /**
  * Container of List type, holding handles to VrmlData_Node objects

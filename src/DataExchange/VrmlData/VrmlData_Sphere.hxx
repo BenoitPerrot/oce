@@ -16,7 +16,7 @@
 #ifndef VrmlData_Sphere_HeaderFile
 #define VrmlData_Sphere_HeaderFile
 
-#include <VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
 
 /**
  *  Implementation of the Sphere node.

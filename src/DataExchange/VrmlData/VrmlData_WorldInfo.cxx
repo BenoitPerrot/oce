@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlData_WorldInfo.hxx>
-#include <VrmlData_Scene.hxx>
-#include <VrmlData_InBuffer.hxx>
+#include <DataExchange/VrmlData/VrmlData_WorldInfo.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
 
 #ifdef _MSC_VER
 #define _CRT_SECURE_NO_DEPRECATE

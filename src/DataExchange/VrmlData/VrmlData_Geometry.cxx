@@ -13,17 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlData_Scene.hxx>
-#include <VrmlData_Coordinate.hxx>
-#include <VrmlData_Color.hxx>
-#include <VrmlData_Normal.hxx>
-#include <VrmlData_TextureCoordinate.hxx>
-#include <VrmlData_InBuffer.hxx>
-#include <VrmlData_Box.hxx>
-#include <VrmlData_Cone.hxx>
-#include <VrmlData_Cylinder.hxx>
-#include <VrmlData_Sphere.hxx>
-#include <VrmlData_UnknownNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_Coordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_Color.hxx>
+#include <DataExchange/VrmlData/VrmlData_Normal.hxx>
+#include <DataExchange/VrmlData/VrmlData_TextureCoordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
+#include <DataExchange/VrmlData/VrmlData_Box.hxx>
+#include <DataExchange/VrmlData/VrmlData_Cone.hxx>
+#include <DataExchange/VrmlData/VrmlData_Cylinder.hxx>
+#include <DataExchange/VrmlData/VrmlData_Sphere.hxx>
+#include <DataExchange/VrmlData/VrmlData_UnknownNode.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Cone.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Cylinder.hxx>

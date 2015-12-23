@@ -16,7 +16,7 @@
 #ifndef VrmlData_Material_HeaderFile
 #define VrmlData_Material_HeaderFile
 
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
 /**

@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlData_ShapeConvert.hxx>
-#include <VrmlData_Scene.hxx>
-#include <VrmlData_Group.hxx>
-#include <VrmlData_Coordinate.hxx>
-#include <VrmlData_IndexedFaceSet.hxx>
-#include <VrmlData_IndexedLineSet.hxx>
-#include <VrmlData_ShapeNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_ShapeConvert.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_Group.hxx>
+#include <DataExchange/VrmlData/VrmlData_Coordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_IndexedFaceSet.hxx>
+#include <DataExchange/VrmlData/VrmlData_IndexedLineSet.hxx>
+#include <DataExchange/VrmlData/VrmlData_ShapeNode.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

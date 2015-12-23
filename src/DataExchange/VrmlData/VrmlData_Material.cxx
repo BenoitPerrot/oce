@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlData_Material.hxx>
+#include <DataExchange/VrmlData/VrmlData_Material.hxx>
 #include <Precision.hxx>
-#include <VrmlData_InBuffer.hxx>
-#include <VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #ifdef _MSC_VER

@@ -16,7 +16,7 @@
 #ifndef VrmlData_Group_HeaderFile
 #define VrmlData_Group_HeaderFile
 
-#include <VrmlData_ListOfNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_ListOfNode.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_B3f.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 

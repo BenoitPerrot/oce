@@ -13,16 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlData_IndexedFaceSet.hxx>
-#include <VrmlData_InBuffer.hxx>
-#include <VrmlData_UnknownNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_IndexedFaceSet.hxx>
+#include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
+#include <DataExchange/VrmlData/VrmlData_UnknownNode.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>
-#include <VrmlData_Coordinate.hxx>
-#include <VrmlData_Color.hxx>
-#include <VrmlData_Normal.hxx>
-#include <VrmlData_TextureCoordinate.hxx>
-#include <VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_Coordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_Color.hxx>
+#include <DataExchange/VrmlData/VrmlData_Normal.hxx>
+#include <DataExchange/VrmlData/VrmlData_TextureCoordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
 #include <Precision.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

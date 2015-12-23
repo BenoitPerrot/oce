@@ -16,7 +16,7 @@
 #ifndef VrmlData_ArrayVec3d_HeaderFile
 #define VrmlData_ArrayVec3d_HeaderFile
 
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 class gp_XYZ;
 
 /**

@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlData_Group.hxx>
-#include <VrmlData_Geometry.hxx>
-#include <VrmlData_Scene.hxx>
-#include <VrmlData_WorldInfo.hxx>
-#include <VrmlData_InBuffer.hxx>
-#include <VrmlData_ListOfNode.hxx>
-#include <VrmlData_UnknownNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_Group.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_WorldInfo.hxx>
+#include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
+#include <DataExchange/VrmlData/VrmlData_ListOfNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_UnknownNode.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 

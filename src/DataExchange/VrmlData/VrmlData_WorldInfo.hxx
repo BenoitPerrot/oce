@@ -16,7 +16,7 @@
 #ifndef VrmlData_WorldInfo_HeaderFile
 #define VrmlData_WorldInfo_HeaderFile
 
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 
 /**
  * Data type for WorldInfo node

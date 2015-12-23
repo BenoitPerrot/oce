@@ -16,7 +16,7 @@
 #ifndef VrmlData_Faceted_HeaderFile
 #define VrmlData_Faceted_HeaderFile
 
-#include <VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
 
 /**
  *  Common API of faceted Geometry nodes: IndexedFaceSet, ElevationGrid,

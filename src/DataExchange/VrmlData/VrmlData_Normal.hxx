@@ -16,7 +16,7 @@
 #ifndef VrmlData_Normal_HeaderFile
 #define VrmlData_Normal_HeaderFile
 
-#include <VrmlData_ArrayVec3d.hxx>
+#include <DataExchange/VrmlData/VrmlData_ArrayVec3d.hxx>
 
 /**
  *  Implementation of the node Normal

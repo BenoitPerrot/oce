@@ -17,7 +17,7 @@
 #define VrmlData_DataMapOfShapeAppearance_HeaderFile
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <VrmlData_Appearance.hxx>
+#include <DataExchange/VrmlData/VrmlData_Appearance.hxx>
 #include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 
 /**

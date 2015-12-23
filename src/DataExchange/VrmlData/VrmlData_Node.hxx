@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx> 
-#include <VrmlData_ErrorStatus.hxx>
+#include <DataExchange/VrmlData/VrmlData_ErrorStatus.hxx>
 
 #define VRMLDATA_LCOMPARE(aa, bb) \
 ((strncmp (aa, bb, sizeof(bb)-1)) ? 0L : (aa += sizeof(bb)-1))

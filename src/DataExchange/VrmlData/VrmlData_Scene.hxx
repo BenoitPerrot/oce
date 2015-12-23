@@ -16,11 +16,11 @@
 #ifndef VrmlData_Scene_HeaderFile
 #define VrmlData_Scene_HeaderFile
 
-#include <VrmlData_ListOfNode.hxx>
-#include <VrmlData_MapOfNode.hxx>
-#include <VrmlData_ErrorStatus.hxx>
-#include <VrmlData_Geometry.hxx>
-#include <VrmlData_WorldInfo.hxx>
+#include <DataExchange/VrmlData/VrmlData_ListOfNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_MapOfNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_ErrorStatus.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_WorldInfo.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>

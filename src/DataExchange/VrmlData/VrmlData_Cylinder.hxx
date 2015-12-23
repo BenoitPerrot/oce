@@ -16,7 +16,7 @@
 #ifndef VrmlData_Cylinder_HeaderFile
 #define VrmlData_Cylinder_HeaderFile
 
-#include <VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
 
 /**
  *  Implementation of the Cylinder node

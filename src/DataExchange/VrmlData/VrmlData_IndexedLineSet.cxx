@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <VrmlData_IndexedLineSet.hxx>
-#include <VrmlData_Scene.hxx>
-#include <VrmlData_InBuffer.hxx>
-#include <VrmlData_UnknownNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_IndexedLineSet.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
+#include <DataExchange/VrmlData/VrmlData_UnknownNode.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

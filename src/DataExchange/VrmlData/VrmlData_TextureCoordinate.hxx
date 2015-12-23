@@ -16,7 +16,7 @@
 #ifndef VrmlData_TextureCoordinate_HeaderFile
 #define VrmlData_TextureCoordinate_HeaderFile
 
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 class gp_XY;
 
 /**

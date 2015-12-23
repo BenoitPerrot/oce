@@ -16,7 +16,7 @@
 #ifndef VrmlData_Box_HeaderFile
 #define VrmlData_Box_HeaderFile
 
-#include <VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 /**

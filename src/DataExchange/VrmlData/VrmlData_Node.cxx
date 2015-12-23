@@ -14,13 +14,13 @@
 // commercial license or contractual agreement.
 
 #include <Precision.hxx>
-#include <VrmlData_Appearance.hxx>
-#include <VrmlData_ImageTexture.hxx>
-#include <VrmlData_Material.hxx>
-#include <VrmlData_ShapeNode.hxx>
-#include <VrmlData_UnknownNode.hxx>
-#include <VrmlData_Scene.hxx>
-#include <VrmlData_InBuffer.hxx>
+#include <DataExchange/VrmlData/VrmlData_Appearance.hxx>
+#include <DataExchange/VrmlData/VrmlData_ImageTexture.hxx>
+#include <DataExchange/VrmlData/VrmlData_Material.hxx>
+#include <DataExchange/VrmlData/VrmlData_ShapeNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_UnknownNode.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 

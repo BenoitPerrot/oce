@@ -68,9 +68,9 @@
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <VrmlData_Scene.hxx>
-#include <VrmlData_ShapeConvert.hxx>
-#include <VrmlData_DataMapOfShapeAppearance.hxx>
+#include <DataExchange/VrmlData/VrmlData_Scene.hxx>
+#include <DataExchange/VrmlData/VrmlData_ShapeConvert.hxx>
+#include <DataExchange/VrmlData/VrmlData_DataMapOfShapeAppearance.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 

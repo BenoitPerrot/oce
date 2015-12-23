@@ -16,8 +16,8 @@
 #ifndef VrmlData_ShapeNode_HeaderFile
 #define VrmlData_ShapeNode_HeaderFile
 
-#include <VrmlData_Appearance.hxx>
-#include <VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Appearance.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
 
 /**
  *  Implementation of the Shape node type

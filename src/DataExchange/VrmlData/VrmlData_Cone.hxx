@@ -16,7 +16,7 @@
 #ifndef VrmlData_Cone_HeaderFile
 #define VrmlData_Cone_HeaderFile
 
-#include <VrmlData_Geometry.hxx>
+#include <DataExchange/VrmlData/VrmlData_Geometry.hxx>
 
 /**
  *  Implementation of the Cone node.

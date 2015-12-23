@@ -16,7 +16,7 @@
 #ifndef VrmlData_Geometry_HeaderFile
 #define VrmlData_Geometry_HeaderFile
 
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 #include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 
 /**

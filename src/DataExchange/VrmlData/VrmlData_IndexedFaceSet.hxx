@@ -16,11 +16,11 @@
 #ifndef VrmlData_IndexedFaceSet_HeaderFile
 #define VrmlData_IndexedFaceSet_HeaderFile
 
-#include <VrmlData_Faceted.hxx>
-#include <VrmlData_Coordinate.hxx>
-#include <VrmlData_Normal.hxx>
-#include <VrmlData_Color.hxx>
-#include <VrmlData_TextureCoordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_Faceted.hxx>
+#include <DataExchange/VrmlData/VrmlData_Coordinate.hxx>
+#include <DataExchange/VrmlData/VrmlData_Normal.hxx>
+#include <DataExchange/VrmlData/VrmlData_Color.hxx>
+#include <DataExchange/VrmlData/VrmlData_TextureCoordinate.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 

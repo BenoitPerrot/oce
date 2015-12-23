@@ -16,7 +16,7 @@
 #ifndef VrmlData_UnknownNode_HeaderFile
 #define VrmlData_UnknownNode_HeaderFile
 
-#include <VrmlData_Node.hxx>
+#include <DataExchange/VrmlData/VrmlData_Node.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 /**

@@ -16,7 +16,7 @@
 #ifndef VrmlData_ImageTexture_HeaderFile
 #define VrmlData_ImageTexture_HeaderFile
 
-#include <VrmlData_Texture.hxx>
+#include <DataExchange/VrmlData/VrmlData_Texture.hxx>
 
 /**
  *  Implementation of the ImageTexture node
