@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger.hxx>
+#include <Viewer/QANCollection/QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <QANCollection_DoubleMapOfRealInteger.hxx>
-#include <QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
+#include <Viewer/QANCollection/QANCollection_DoubleMapOfRealInteger.hxx>
+#include <Viewer/QANCollection/QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
  
 
 #define TheKey1 Standard_Real
@@ -21,12 +21,12 @@
 #define Hasher2 TColStd_MapIntegerHasher
 #define Hasher2_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DoubleMapNode QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger
-#define TCollection_DoubleMapNode_hxx <QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
+#define TCollection_DoubleMapNode_hxx <Viewer/QANCollection/QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
 #define TCollection_DoubleMapIterator QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger
-#define TCollection_DoubleMapIterator_hxx <QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger.hxx>
+#define TCollection_DoubleMapIterator_hxx <Viewer/QANCollection/QANCollection_DoubleMapIteratorOfDoubleMapOfRealInteger.hxx>
 #define Handle_TCollection_DoubleMapNode Handle_QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger
 #define TCollection_DoubleMapNode_Type_() QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger_Type_()
 #define TCollection_DoubleMap QANCollection_DoubleMapOfRealInteger
-#define TCollection_DoubleMap_hxx <QANCollection_DoubleMapOfRealInteger.hxx>
+#define TCollection_DoubleMap_hxx <Viewer/QANCollection/QANCollection_DoubleMapOfRealInteger.hxx>
 #include <Foundation/TCollection/TCollection_DoubleMapIterator.gxx>
 

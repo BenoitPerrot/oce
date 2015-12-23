@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANCollection.hxx>
+#include <Viewer/QANCollection/QANCollection.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 
 #include <Foundation/OSD/OSD_PerfMeter.hxx>

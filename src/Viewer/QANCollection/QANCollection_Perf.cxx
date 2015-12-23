@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QANCollection.hxx>
-#include <QANCollection_Common.hxx>
+#include <Viewer/QANCollection/QANCollection.hxx>
+#include <Viewer/QANCollection/QANCollection_Common.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
@@ -25,10 +25,10 @@
 #include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <QANCollection_DataMapOfRealPnt.hxx>
-#include <QANCollection_DoubleMapOfRealInteger.hxx>
-#include <QANCollection_IndexedDataMapOfRealPnt.hxx>
-#include <QANCollection_ListOfPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_DataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_DoubleMapOfRealInteger.hxx>
+#include <Viewer/QANCollection/QANCollection_IndexedDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_ListOfPnt.hxx>
 
 #include <Foundation/NCollection/NCollection_SparseArray.hxx>
 #include <Foundation/NCollection/NCollection_SparseArrayBase.hxx>

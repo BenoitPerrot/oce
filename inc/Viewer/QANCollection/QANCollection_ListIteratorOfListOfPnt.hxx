@@ -63,13 +63,13 @@ private:
 #define Item gp_Pnt
 #define Item_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define TCollection_ListNode QANCollection_ListNodeOfListOfPnt
-#define TCollection_ListNode_hxx <QANCollection_ListNodeOfListOfPnt.hxx>
+#define TCollection_ListNode_hxx <Viewer/QANCollection/QANCollection_ListNodeOfListOfPnt.hxx>
 #define TCollection_ListIterator QANCollection_ListIteratorOfListOfPnt
-#define TCollection_ListIterator_hxx <QANCollection_ListIteratorOfListOfPnt.hxx>
+#define TCollection_ListIterator_hxx <Viewer/QANCollection/QANCollection_ListIteratorOfListOfPnt.hxx>
 #define Handle_TCollection_ListNode Handle_QANCollection_ListNodeOfListOfPnt
 #define TCollection_ListNode_Type_() QANCollection_ListNodeOfListOfPnt_Type_()
 #define TCollection_List QANCollection_ListOfPnt
-#define TCollection_List_hxx <QANCollection_ListOfPnt.hxx>
+#define TCollection_List_hxx <Viewer/QANCollection/QANCollection_ListOfPnt.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 

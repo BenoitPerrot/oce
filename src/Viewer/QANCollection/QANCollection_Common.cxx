@@ -15,7 +15,7 @@
 
 // Purpose:     To test all methods of all NCollection classes
 
-#include <QANCollection_Common.hxx>
+#include <Viewer/QANCollection/QANCollection_Common.hxx>
 #include <stdio.h>
 
 void PrintItem(const gp_Pnt& thePnt)

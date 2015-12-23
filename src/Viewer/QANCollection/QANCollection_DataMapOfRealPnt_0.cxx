@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <QANCollection_DataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_DataMapOfRealPnt.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_MapRealHasher.hxx>
-#include <QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
-#include <QANCollection_DataMapIteratorOfDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_DataMapIteratorOfDataMapOfRealPnt.hxx>
  
 
 #define TheKey Standard_Real
@@ -20,12 +20,12 @@
 #define Hasher TColStd_MapRealHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define TCollection_DataMapNode QANCollection_DataMapNodeOfDataMapOfRealPnt
-#define TCollection_DataMapNode_hxx <QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
+#define TCollection_DataMapNode_hxx <Viewer/QANCollection/QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
 #define TCollection_DataMapIterator QANCollection_DataMapIteratorOfDataMapOfRealPnt
-#define TCollection_DataMapIterator_hxx <QANCollection_DataMapIteratorOfDataMapOfRealPnt.hxx>
+#define TCollection_DataMapIterator_hxx <Viewer/QANCollection/QANCollection_DataMapIteratorOfDataMapOfRealPnt.hxx>
 #define Handle_TCollection_DataMapNode Handle_QANCollection_DataMapNodeOfDataMapOfRealPnt
 #define TCollection_DataMapNode_Type_() QANCollection_DataMapNodeOfDataMapOfRealPnt_Type_()
 #define TCollection_DataMap QANCollection_DataMapOfRealPnt
-#define TCollection_DataMap_hxx <QANCollection_DataMapOfRealPnt.hxx>
+#define TCollection_DataMap_hxx <Viewer/QANCollection/QANCollection_DataMapOfRealPnt.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

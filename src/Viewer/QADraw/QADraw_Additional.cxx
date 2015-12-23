@@ -21,7 +21,7 @@
 //#else
 #include <QANewDBRepNaming.hxx>
 //#endif
-#include <QANCollection.hxx>
+#include <Viewer/QANCollection/QANCollection.hxx>
 
 void QADraw::AdditionalCommands(Draw_Interpretor& theCommands)
 {

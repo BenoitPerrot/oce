@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_MapRealHasher.hxx>
-#include <QANCollection_IndexedDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/QANCollection_IndexedDataMapOfRealPnt.hxx>
 
  
 
@@ -35,10 +35,10 @@ IMPLEMENT_STANDARD_RTTI(QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPn
 #define Hasher TColStd_MapRealHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapRealHasher.hxx>
 #define TCollection_IndexedDataMapNode QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt
-#define TCollection_IndexedDataMapNode_hxx <QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
+#define TCollection_IndexedDataMapNode_hxx <Viewer/QANCollection/QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt
 #define TCollection_IndexedDataMapNode_Type_() QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt_Type_()
 #define TCollection_IndexedDataMap QANCollection_IndexedDataMapOfRealPnt
-#define TCollection_IndexedDataMap_hxx <QANCollection_IndexedDataMapOfRealPnt.hxx>
+#define TCollection_IndexedDataMap_hxx <Viewer/QANCollection/QANCollection_IndexedDataMapOfRealPnt.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 
