@@ -72,7 +72,7 @@
 #include <PGeom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
 #include <PGeom_VectorWithMagnitude.hxx>
-#include <MgtGeom.hxx>
+#include <OCAF/MgtGeom/MgtGeom.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 

@@ -55,7 +55,7 @@
 #include <TDataXtd_ConstraintEnum.hxx>
 #include <TDataXtd_GeometryEnum.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <MgtGeom.hxx>
+#include <OCAF/MgtGeom/MgtGeom.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>

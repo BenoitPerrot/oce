@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_TYPE_END(MgtBRep_TranslateTool)
 IMPLEMENT_DOWNCAST(MgtBRep_TranslateTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool)
 #include <MgtTopLoc.hxx>
-#include <MgtGeom.hxx>
+#include <OCAF/MgtGeom/MgtGeom.hxx>
 #include <MgtGeom2d.hxx>
 #include <MgtPoly.hxx>
 
