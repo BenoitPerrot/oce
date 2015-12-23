@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <LocalAnalysis_StatusErrorType.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_StatusErrorType.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class StdFail_NotDone;

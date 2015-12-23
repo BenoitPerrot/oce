@@ -104,7 +104,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-//#include <LocalAnalysis_SurfaceContinuity.hxx>
+//#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

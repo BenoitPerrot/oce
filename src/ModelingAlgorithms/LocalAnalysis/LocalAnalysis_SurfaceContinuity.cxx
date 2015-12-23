@@ -18,7 +18,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
-#include <LocalAnalysis_SurfaceContinuity.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

@@ -15,8 +15,8 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
-#include <LocalAnalysis_CurveContinuity.hxx>
-#include <LocalAnalysis_StatusErrorType.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_CurveContinuity.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_StatusErrorType.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

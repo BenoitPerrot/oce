@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LocalAnalysis.hxx>
-#include <LocalAnalysis_SurfaceContinuity.hxx>
-#include <LocalAnalysis_CurveContinuity.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_CurveContinuity.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

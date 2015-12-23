@@ -69,7 +69,7 @@
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildAveragePlane.hxx>
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfSequenceOfReal.hxx>
 // pour la verif G2
-#include <LocalAnalysis_SurfaceContinuity.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
 
 // pour les intersection entre les courbes
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>

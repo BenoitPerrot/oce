@@ -37,8 +37,8 @@
 #include <BRepTest.hxx>
 #include <GeometryTest.hxx>
 #include <Precision.hxx>
-#include <LocalAnalysis.hxx>
-#include <LocalAnalysis_SurfaceContinuity.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

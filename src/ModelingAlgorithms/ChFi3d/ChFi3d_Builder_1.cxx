@@ -88,7 +88,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
-#include <LocalAnalysis_SurfaceContinuity.hxx>
+#include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 
 #ifdef OCCT_DEBUG
