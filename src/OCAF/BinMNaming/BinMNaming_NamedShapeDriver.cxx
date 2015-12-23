@@ -17,7 +17,7 @@
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <BinTools_LocationSet.hxx>
-#include <BinMNaming_NamedShapeDriver.hxx>
+#include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMNaming_NamedShapeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -34,7 +34,7 @@
 #include <BinMXCAFDoc_DimTolToolDriver.hxx>
 #include <BinMXCAFDoc_MaterialToolDriver.hxx>
 
-#include <BinMNaming_NamedShapeDriver.hxx>
+#include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
 #include <TNaming_NamedShape.hxx>
 
 //=======================================================================

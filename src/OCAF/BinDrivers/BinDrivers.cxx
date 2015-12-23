@@ -23,7 +23,7 @@
 #include <OCAF/BinMDF/BinMDF.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <OCAF/BinMDataXtd/BinMDataXtd.hxx>
-#include <BinMNaming.hxx>
+#include <OCAF/BinMNaming/BinMNaming.hxx>
 #include <OCAF/BinMDocStd/BinMDocStd.hxx>
 #include <OCAF/BinMFunction/BinMFunction.hxx>
 #include <BinMPrsStd.hxx>

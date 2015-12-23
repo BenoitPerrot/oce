@@ -15,10 +15,10 @@
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMNaming.hxx>
+#include <OCAF/BinMNaming/BinMNaming.hxx>
 
-#include <BinMNaming_NamedShapeDriver.hxx>
-#include <BinMNaming_NamingDriver.hxx>
+#include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
+#include <OCAF/BinMNaming/BinMNaming_NamingDriver.hxx>
 
 static Standard_Integer myDocumentVersion = -1;
 //=======================================================================

@@ -22,7 +22,7 @@
 #include <OCAF/BinMDF/BinMDF.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <OCAF/BinMFunction/BinMFunction.hxx>
-//#include <BinMNaming.hxx>
+//#include <OCAF/BinMNaming/BinMNaming.hxx>
 #include <OCAF/BinMDocStd/BinMDocStd.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentStorageDriver.hxx>

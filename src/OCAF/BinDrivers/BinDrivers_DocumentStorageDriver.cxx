@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentStorageDriver)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/BinDrivers/BinDrivers.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
-#include <BinMNaming_NamedShapeDriver.hxx>
+#include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
 #include <TNaming_NamedShape.hxx>
 //=======================================================================
 //function : BinDrivers_DocumentStorageDriver

@@ -85,7 +85,7 @@ private:
 };
 
 
-#include <BinMNaming_NamedShapeDriver.lxx>
+#include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.lxx>
 
 
 

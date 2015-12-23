@@ -30,8 +30,8 @@ IMPLEMENT_DOWNCAST(BinDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentRetrievalDriver)
 #include <OCAF/BinDrivers/BinDrivers.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
-#include <BinMNaming.hxx>
-#include <BinMNaming_NamedShapeDriver.hxx>
+#include <OCAF/BinMNaming/BinMNaming.hxx>
+#include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
