@@ -78,8 +78,8 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ChFi3d_Builder.hxx>
-#include <ChFi3d_Builder_0.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 #include <ChFiDS_FaceInterference.hxx>
 #include <ChFiDS_ListIteratorOfListOfStripe.hxx>
 #include <ChFiDS_SurfData.hxx>

@@ -18,7 +18,7 @@
 //  Modified by skv - Fri Oct 24 14:24:47 2003 OCC4077
 //  Modified by skv - Mon Jun 16 15:50:44 2003 OCC615
 
-#include <ChFi3d.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 #include <Precision.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -155,7 +155,7 @@
 #include <GeomAPI_PointsToBSpline.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 
-#include <ChFi3d_Builder_0.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
 #ifdef OCCT_DEBUG
 #include <Foundation/OSD/OSD_Chronometer.hxx>

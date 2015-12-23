@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ChFi3d_ChBuilder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_ChBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_LocalOperation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

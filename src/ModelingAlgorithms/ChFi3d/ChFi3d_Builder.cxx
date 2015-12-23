@@ -49,7 +49,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ChFi3d_Builder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
@@ -89,9 +89,9 @@
 #include <ChFiDS_SequenceOfSurfData.hxx>
 #include <ChFiDS_HData.hxx>
 
-#include <ChFi3d.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 
-#include <ChFi3d_Builder_0.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ShapeFix.hxx>

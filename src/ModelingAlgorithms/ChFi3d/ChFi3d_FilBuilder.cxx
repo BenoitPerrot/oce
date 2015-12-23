@@ -33,9 +33,9 @@
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
-#include <ChFi3d_FilBuilder.hxx>
-#include <ChFi3d_Builder_0.hxx>
-#include <ChFi3d_SearchSing.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilBuilder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_SearchSing.hxx>
 
 #include <Law_Composite.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>

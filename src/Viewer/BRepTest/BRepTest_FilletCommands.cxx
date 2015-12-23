@@ -44,7 +44,7 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 
 #include <FilletSurf_Builder.hxx>
-#include <ChFi3d_FilletShape.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <FilletSurf_StatusType.hxx>

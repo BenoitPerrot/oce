@@ -16,8 +16,8 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ChFi3d.hxx>
-#include <ChFi3d_Builder_0.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

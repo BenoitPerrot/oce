@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <ChFi3d_SearchSing.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_SearchSing.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

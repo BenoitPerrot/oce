@@ -49,7 +49,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ChFi3d_Builder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder.hxx>
 
 #include <Precision.hxx>
 
@@ -124,8 +124,8 @@
 #include <ChFiDS_ListIteratorOfListOfHElSpine.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <ChFiKPart_ComputeData.hxx>
-#include <ChFi3d.hxx>
-#include <ChFi3d_Builder_0.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
 #ifdef OCCT_DEBUG
 #ifdef DRAW

@@ -57,7 +57,7 @@
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Tool.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
-#include <ChFi3d.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

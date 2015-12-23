@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ChFi3d_FilBuilder.hxx>
-#include <ChFi3d_FilletShape.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilBuilder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

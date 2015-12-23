@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
-#include <ChFi3d_Builder.hxx>
-#include <ChFi3d_FilletShape.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

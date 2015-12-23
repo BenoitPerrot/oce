@@ -30,7 +30,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
-#include <ChFi3d_ChBuilder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_ChBuilder.hxx>
 
 //=======================================================================
 //function : PerformTwoCorner

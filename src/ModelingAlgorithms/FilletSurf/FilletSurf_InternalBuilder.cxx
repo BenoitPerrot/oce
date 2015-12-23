@@ -30,8 +30,8 @@
 #include <FilletSurf_ErrorTypeStatus.hxx>
 #include <FilletSurf_StatusType.hxx>
 
-#include <ChFi3d_FilBuilder.hxx>
-#include <ChFi3d_Builder_0.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilBuilder.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
 #include <ChFiDS_HData.hxx>
 #include <ChFiDS_FilSpine.hxx>

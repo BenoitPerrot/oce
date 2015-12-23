@@ -43,7 +43,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <ChFi3d_FilletShape.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

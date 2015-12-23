@@ -29,7 +29,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ChFi3d_FilletShape.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <FilletSurf_ErrorTypeStatus.hxx>

@@ -63,7 +63,7 @@
 #include <BRepTest.hxx>
 
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
-#include <ChFi3d_FilletShape.hxx>
+#include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 
 #include <Precision.hxx>
 
