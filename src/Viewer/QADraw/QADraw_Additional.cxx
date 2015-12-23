@@ -19,7 +19,7 @@
 //#if defined(WOKC40)
 //#include <QADBRepNaming.hxx>
 //#else
-#include <QANewDBRepNaming.hxx>
+#include <Viewer/QANewDBRepNaming/QANewDBRepNaming.hxx>
 //#endif
 #include <Viewer/QANCollection/QANCollection.hxx>
 
