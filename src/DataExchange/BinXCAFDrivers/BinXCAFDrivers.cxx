@@ -17,9 +17,9 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <BinXCAFDrivers.hxx>
-#include <BinXCAFDrivers_DocumentStorageDriver.hxx>
-#include <BinXCAFDrivers_DocumentRetrievalDriver.hxx>
+#include <DataExchange/BinXCAFDrivers/BinXCAFDrivers.hxx>
+#include <DataExchange/BinXCAFDrivers/BinXCAFDrivers_DocumentStorageDriver.hxx>
+#include <DataExchange/BinXCAFDrivers/BinXCAFDrivers_DocumentRetrievalDriver.hxx>
 #include <DataExchange/BinMXCAFDoc/BinMXCAFDoc.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>

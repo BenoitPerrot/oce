@@ -15,7 +15,7 @@
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <BinXCAFDrivers_DocumentStorageDriver.hxx>
+#include <DataExchange/BinXCAFDrivers/BinXCAFDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinXCAFDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinXCAFDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(BinXCAFDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinXCAFDrivers_DocumentStorageDriver)
-#include <BinXCAFDrivers.hxx>
+#include <DataExchange/BinXCAFDrivers/BinXCAFDrivers.hxx>
 
 //=======================================================================
 //function : 
