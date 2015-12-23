@@ -20,7 +20,7 @@
 #include <StepDimTol_GeometricToleranceRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWGeometricToleranceRelationship.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWGeometricToleranceRelationship.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWGeometricToleranceRelationship

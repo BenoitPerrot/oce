@@ -20,7 +20,7 @@
 #include <StepDimTol_ConcentricityTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWConcentricityTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWConcentricityTolerance.hxx>
 #include <StepDimTol_HArray1OfDatumReference.hxx>
 #include <StepDimTol_DatumReference.hxx>
 

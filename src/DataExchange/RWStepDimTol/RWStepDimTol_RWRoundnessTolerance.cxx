@@ -20,7 +20,7 @@
 #include <StepDimTol_RoundnessTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWRoundnessTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWRoundnessTolerance.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWRoundnessTolerance

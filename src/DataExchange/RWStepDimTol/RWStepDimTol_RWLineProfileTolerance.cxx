@@ -20,7 +20,7 @@
 #include <StepDimTol_LineProfileTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWLineProfileTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWLineProfileTolerance.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWLineProfileTolerance

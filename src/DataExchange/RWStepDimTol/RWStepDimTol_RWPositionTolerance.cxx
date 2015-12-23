@@ -20,7 +20,7 @@
 #include <StepDimTol_PositionTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWPositionTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWPositionTolerance.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWPositionTolerance

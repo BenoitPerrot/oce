@@ -20,7 +20,7 @@
 #include <StepDimTol_CylindricityTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWCylindricityTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWCylindricityTolerance.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWCylindricityTolerance

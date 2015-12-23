@@ -20,7 +20,7 @@
 #include <StepDimTol_SymmetryTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWSymmetryTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWSymmetryTolerance.hxx>
 #include <StepDimTol_HArray1OfDatumReference.hxx>
 #include <StepDimTol_DatumReference.hxx>
 

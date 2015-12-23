@@ -20,7 +20,7 @@
 #include <StepDimTol_SurfaceProfileTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWSurfaceProfileTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWSurfaceProfileTolerance.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWSurfaceProfileTolerance

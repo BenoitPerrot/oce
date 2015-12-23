@@ -20,7 +20,7 @@
 #include <StepDimTol_DatumReference.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWDatumReference.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWDatumReference.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWDatumReference

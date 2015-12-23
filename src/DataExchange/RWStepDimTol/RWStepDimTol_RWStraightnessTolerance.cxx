@@ -20,7 +20,7 @@
 #include <StepDimTol_StraightnessTolerance.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepDimTol_RWStraightnessTolerance.hxx>
+#include <DataExchange/RWStepDimTol/RWStepDimTol_RWStraightnessTolerance.hxx>
 
 //=======================================================================
 //function : RWStepDimTol_RWStraightnessTolerance
