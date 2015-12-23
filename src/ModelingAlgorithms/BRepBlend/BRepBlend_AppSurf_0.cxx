@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepBlend_AppSurf.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppSurf.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -25,8 +25,8 @@
 #define TheSectionGenerator_hxx <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #define Handle_TheLine Handle_BRepBlend_Line
 #define TheLine BRepBlend_Line
-#define TheLine_hxx <BRepBlend_Line.hxx>
+#define TheLine_hxx <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #define AppBlend_AppSurf BRepBlend_AppSurf
-#define AppBlend_AppSurf_hxx <BRepBlend_AppSurf.hxx>
+#define AppBlend_AppSurf_hxx <ModelingAlgorithms/BRepBlend/BRepBlend_AppSurf.hxx>
 #include <ModelingAlgorithms/AppBlend/AppBlend_AppSurf.gxx>
 

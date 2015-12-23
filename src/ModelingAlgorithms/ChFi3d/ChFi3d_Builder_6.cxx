@@ -38,7 +38,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Function.hxx>
 #include <ModelingAlgorithms/Blend/Blend_FuncInv.hxx>
@@ -92,20 +92,20 @@
 
 #include <Geometry/Approx/Approx_SweepFunction.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
-#include <BRepBlend_Extremity.hxx>
-#include <BRepBlend_PointOnRst.hxx>
-#include <BRepBlend_Line.hxx>
-#include <BRepBlend_AppSurf.hxx>
-#include <BRepBlend_AppSurface.hxx>
-#include <BRepBlend_AppFunc.hxx>
-#include <BRepBlend_AppFuncRst.hxx>
-#include <BRepBlend_AppFuncRstRst.hxx>
-#include <BRepBlend_CSWalking.hxx>
-#include <BRepBlend_Walking.hxx>
-#include <BRepBlend_SurfRstLineBuilder.hxx>
-#include <BRepBlend_RstRstLineBuilder.hxx>
-#include <BRepBlend_ConstRad.hxx>
-#include <BRepBlend_ConstRadInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_PointOnRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppSurf.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppSurface.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppFunc.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppFuncRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppFuncRstRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_CSWalking.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Walking.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SurfRstLineBuilder.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_RstRstLineBuilder.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_ConstRad.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_ConstRadInv.hxx>
 
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS_Curve.hxx>

@@ -31,7 +31,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <BRepBlend_RstRstEvolRad.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_RstRstEvolRad.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math_SVD.hxx>
 

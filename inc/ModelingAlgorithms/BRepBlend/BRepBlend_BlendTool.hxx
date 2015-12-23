@@ -88,7 +88,7 @@ private:
 };
 
 
-#include <BRepBlend_BlendTool.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_BlendTool.lxx>
 
 
 

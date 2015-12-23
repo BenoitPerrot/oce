@@ -114,7 +114,7 @@ private:
 };
 
 
-#include <BRepBlend_AppSurface.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppSurface.lxx>
 
 
 

@@ -48,13 +48,13 @@
 #include <ChFiDS_CircSection.hxx>
 
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
-#include <BRepBlend_Line.hxx>
-#include <BRepBlend_Chamfer.hxx>
-#include <BRepBlend_ChamfInv.hxx>
-#include <BRepBlend_ChAsym.hxx>
-#include <BRepBlend_ChAsymInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Chamfer.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_ChamfInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_ChAsym.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_ChAsymInv.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
-#include <BRepBlend_Walking.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Walking.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

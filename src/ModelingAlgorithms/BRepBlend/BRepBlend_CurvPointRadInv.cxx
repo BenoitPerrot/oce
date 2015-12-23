@@ -17,7 +17,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepBlend_CurvPointRadInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_CurvPointRadInv.hxx>
 
 //=======================================================================
 //function : BRepBlend_CurvPointRadInv

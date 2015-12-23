@@ -148,7 +148,7 @@ private:
 };
 
 
-#include <BRepBlend_SurfRstLineBuilder.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SurfRstLineBuilder.lxx>
 
 
 

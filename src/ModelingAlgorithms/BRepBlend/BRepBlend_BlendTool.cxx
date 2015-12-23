@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
-#include <BRepBlend_BlendTool.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_BlendTool.hxx>
 
 #include <BRepClass_FaceClassifier.hxx>
 #include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
@@ -32,7 +32,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <BRepBlend_HCurve2dTool.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_HCurve2dTool.hxx>
 
 
 //=======================================================================

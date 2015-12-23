@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
@@ -25,10 +25,10 @@
 #include <ModelingAlgorithms/Blend/Blend_CurvPointFuncInv.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <IntSurf_Transition.hxx>
-#include <BRepBlend_Extremity.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
-#include <BRepBlend_RstRstLineBuilder.hxx>
-#include <BRepBlend_BlendTool.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_RstRstLineBuilder.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_BlendTool.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <IntSurf.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>

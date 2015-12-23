@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -25,7 +25,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
-#include <BRepBlend_AppFuncRoot.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppFuncRoot.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepBlend_AppFuncRoot)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBlend_AppFuncRoot)
 #include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 

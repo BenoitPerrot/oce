@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepBlend_SurfPointConstRadInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SurfPointConstRadInv.hxx>
 
 //=======================================================================
 //function : BRepBlend_SurfPointConstRadInv

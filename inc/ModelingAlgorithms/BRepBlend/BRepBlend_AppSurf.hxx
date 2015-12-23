@@ -154,9 +154,9 @@ private:
 #define TheSectionGenerator_hxx <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #define Handle_TheLine Handle_BRepBlend_Line
 #define TheLine BRepBlend_Line
-#define TheLine_hxx <BRepBlend_Line.hxx>
+#define TheLine_hxx <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #define AppBlend_AppSurf BRepBlend_AppSurf
-#define AppBlend_AppSurf_hxx <BRepBlend_AppSurf.hxx>
+#define AppBlend_AppSurf_hxx <ModelingAlgorithms/BRepBlend/BRepBlend_AppSurf.hxx>
 
 #include <ModelingAlgorithms/AppBlend/AppBlend_AppSurf.lxx>
 

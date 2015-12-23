@@ -22,7 +22,7 @@
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
-#include <BRepBlend_Extremity.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_Spine.hxx>

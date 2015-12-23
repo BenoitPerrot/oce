@@ -15,7 +15,7 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntSurf_Transition.hxx>
-#include <BRepBlend_PointOnRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_PointOnRst.hxx>
 
 BRepBlend_PointOnRst::BRepBlend_PointOnRst () {}
 

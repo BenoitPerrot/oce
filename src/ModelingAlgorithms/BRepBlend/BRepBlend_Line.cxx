@@ -14,8 +14,8 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
-#include <BRepBlend_Extremity.hxx>
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepBlend_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

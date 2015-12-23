@@ -46,9 +46,9 @@
 #include <ChFiDS_CircSection.hxx>
 #include <ChFiDS_SecHArray1.hxx>
 
-#include <BRepBlend_Line.hxx>
-#include <BRepBlend_ConstRad.hxx>
-#include <BRepBlend_ConstRadInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_ConstRad.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_ConstRadInv.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

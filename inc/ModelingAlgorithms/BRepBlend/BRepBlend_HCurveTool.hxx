@@ -144,7 +144,7 @@ private:
 };
 
 
-#include <BRepBlend_HCurveTool.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_HCurveTool.lxx>
 
 
 

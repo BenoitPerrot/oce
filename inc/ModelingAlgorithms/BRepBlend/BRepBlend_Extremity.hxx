@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Adaptor3d_HVertex.hxx>
-#include <BRepBlend_SequenceOfPointOnRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SequenceOfPointOnRst.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -137,7 +137,7 @@ private:
 };
 
 
-#include <BRepBlend_Extremity.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.lxx>
 
 
 

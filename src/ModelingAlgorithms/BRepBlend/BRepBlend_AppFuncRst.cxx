@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <ModelingAlgorithms/Blend/Blend_SurfRstFunction.hxx>
 #include <ModelingAlgorithms/Blend/Blend_AppFunction.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
-#include <BRepBlend_AppFuncRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppFuncRst.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepBlend_AppFuncRst)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

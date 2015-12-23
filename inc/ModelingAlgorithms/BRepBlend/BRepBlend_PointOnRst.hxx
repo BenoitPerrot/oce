@@ -79,7 +79,7 @@ private:
 };
 
 
-#include <BRepBlend_PointOnRst.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_PointOnRst.lxx>
 
 
 

@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/Blend/Blend_SequenceOfPoint.hxx>
 #include <IntSurf_TypeTrans.hxx>
-#include <BRepBlend_Extremity.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Extremity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -128,7 +128,7 @@ private:
 };
 
 
-#include <BRepBlend_Line.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.lxx>
 
 
 

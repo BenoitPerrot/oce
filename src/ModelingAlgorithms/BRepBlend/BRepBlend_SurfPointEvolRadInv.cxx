@@ -19,7 +19,7 @@
 #include <Law_Function.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepBlend_SurfPointEvolRadInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SurfPointEvolRadInv.hxx>
 
 
 //=======================================================================

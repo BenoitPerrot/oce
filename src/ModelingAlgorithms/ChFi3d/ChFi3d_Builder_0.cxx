@@ -141,7 +141,7 @@
 #include <TopOpeBRepDS_InterferenceIterator.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 
-#include <BRepBlend_PointOnRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_PointOnRst.hxx>
 
 #include <ChFiDS_HData.hxx>
 #include <ChFiDS_SurfData.hxx>

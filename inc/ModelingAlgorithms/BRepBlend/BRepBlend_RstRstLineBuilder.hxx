@@ -152,7 +152,7 @@ private:
 };
 
 
-#include <BRepBlend_RstRstLineBuilder.lxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_RstRstLineBuilder.lxx>
 
 
 

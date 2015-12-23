@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <BRepBlend_Line.hxx>
-#include <BRepBlend_SequenceOfLine.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SequenceOfLine.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(BRepBlend_SequenceNodeOfSequenceOfLine)
 
 
 #define SeqItem Handle(BRepBlend_Line)
-#define SeqItem_hxx <BRepBlend_Line.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #define TCollection_SequenceNode BRepBlend_SequenceNodeOfSequenceOfLine
-#define TCollection_SequenceNode_hxx <BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/BRepBlend/BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepBlend_SequenceNodeOfSequenceOfLine
 #define TCollection_SequenceNode_Type_() BRepBlend_SequenceNodeOfSequenceOfLine_Type_()
 #define TCollection_Sequence BRepBlend_SequenceOfLine
-#define TCollection_Sequence_hxx <BRepBlend_SequenceOfLine.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/BRepBlend/BRepBlend_SequenceOfLine.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -3,32 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _BRepBlend_AppFuncRst_HeaderFile
-#define _BRepBlend_AppFuncRst_HeaderFile
+#ifndef _BRepBlend_AppFunc_HeaderFile
+#define _BRepBlend_AppFunc_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepBlend_AppFuncRst.hxx>
+#include <Handle_BRepBlend_AppFunc.hxx>
 
-#include <BRepBlend_AppFuncRoot.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_AppFuncRoot.hxx>
 #include <Handle_BRepBlend_Line.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_OutOfRange;
 class BRepBlend_Line;
-class Blend_SurfRstFunction;
+class Blend_Function;
 class Blend_AppFunction;
 class Blend_Point;
 
 
-//! Function  to approximate by AppSurface  for Curve/Surface contact.
-class BRepBlend_AppFuncRst : public BRepBlend_AppFuncRoot
+//! Function to approximate by AppSurface
+//! for Surface/Surface contact.
+class BRepBlend_AppFunc : public BRepBlend_AppFuncRoot
 {
 
 public:
 
   
-  Standard_EXPORT BRepBlend_AppFuncRst(Handle(BRepBlend_Line)& Line, Blend_SurfRstFunction& Func, const Standard_Real Tol3d, const Standard_Real Tol2d);
+  Standard_EXPORT BRepBlend_AppFunc(Handle(BRepBlend_Line)& Line, Blend_Function& Func, const Standard_Real Tol3d, const Standard_Real Tol2d);
   
   Standard_EXPORT   void Point (const Blend_AppFunction& Func, const Standard_Real Param, const math_Vector& Sol, Blend_Point& Pnt)  const;
   
@@ -37,7 +38,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(BRepBlend_AppFuncRst)
+  DEFINE_STANDARD_RTTI(BRepBlend_AppFunc)
 
 protected:
 
@@ -57,4 +58,4 @@ private:
 
 
 
-#endif // _BRepBlend_AppFuncRst_HeaderFile
+#endif // _BRepBlend_AppFunc_HeaderFile

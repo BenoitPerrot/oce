@@ -27,7 +27,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFi3d_FilBuilder.hxx>
@@ -55,8 +55,8 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Law_Linear.hxx>
-#include <BRepBlend_CSCircular.hxx>
-#include <BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_CSCircular.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

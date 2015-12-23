@@ -19,7 +19,7 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Law_Function.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <BRepBlend_SurfCurvEvolRadInv.hxx>
+#include <ModelingAlgorithms/BRepBlend/BRepBlend_SurfCurvEvolRadInv.hxx>
 
 //=======================================================================
 //function :
