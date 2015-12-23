@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Interface_Graph.hxx>
-#include <IFGraph_StrongComponants.hxx>
-#include <IFGraph_SCRoots.hxx>
+#include <DataExchange/IFGraph/IFGraph_StrongComponants.hxx>
+#include <DataExchange/IFGraph/IFGraph_SCRoots.hxx>
 //#include <Interface_GraphContent.hxx>
-#include <IFGraph_StrongComponants.hxx>
-#include <IFGraph_ExternalSources.hxx>
+#include <DataExchange/IFGraph/IFGraph_StrongComponants.hxx>
+#include <DataExchange/IFGraph/IFGraph_ExternalSources.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 
 //#define PRINTDEB

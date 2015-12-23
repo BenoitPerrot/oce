@@ -13,7 +13,7 @@
 
 #include <Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IFGraph_AllConnected.hxx>
+#include <DataExchange/IFGraph/IFGraph_AllConnected.hxx>
 
 
 

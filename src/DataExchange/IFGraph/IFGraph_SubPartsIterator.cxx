@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_GraphContent.hxx>
-#include <IFGraph_SubPartsIterator.hxx>
+#include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

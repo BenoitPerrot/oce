@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectCombine)
 IMPLEMENT_DOWNCAST(IFSelect_SelectCombine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectCombine)
-#include <IFGraph_Cumulate.hxx>
+#include <DataExchange/IFGraph/IFGraph_Cumulate.hxx>
 
 
 IFSelect_SelectCombine::IFSelect_SelectCombine ()    {  }

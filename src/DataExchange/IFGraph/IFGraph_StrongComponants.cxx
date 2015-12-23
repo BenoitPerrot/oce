@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Interface_Graph.hxx>
-#include <IFGraph_StrongComponants.hxx>
-//#include <IFGraph_SortedStrongs.hxx>
+#include <DataExchange/IFGraph/IFGraph_StrongComponants.hxx>
+//#include <DataExchange/IFGraph/IFGraph_SortedStrongs.hxx>
 #include <Interface_Graph.hxx>
 #include <Interface_GraphContent.hxx>
 

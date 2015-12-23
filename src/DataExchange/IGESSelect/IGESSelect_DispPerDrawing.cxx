@@ -14,7 +14,7 @@
 #include <IGESSelect_ViewSorter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
-#include <IFGraph_SubPartsIterator.hxx>
+#include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <IGESSelect_DispPerDrawing.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

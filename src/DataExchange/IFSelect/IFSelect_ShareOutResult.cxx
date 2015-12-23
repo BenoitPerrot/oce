@@ -22,7 +22,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IFSelect_ShareOutResult.hxx>
 #include <IFSelect_Dispatch.hxx>
-#include <IFGraph_AllShared.hxx>
+#include <DataExchange/IFGraph/IFGraph_AllShared.hxx>
 #include <Interface_GraphContent.hxx>
 
 

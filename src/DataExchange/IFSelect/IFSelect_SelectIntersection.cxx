@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectIntersection)
 IMPLEMENT_DOWNCAST(IFSelect_SelectIntersection,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectIntersection)
-#include <IFGraph_Compare.hxx>
+#include <DataExchange/IFGraph/IFGraph_Compare.hxx>
 
 
 IFSelect_SelectIntersection::IFSelect_SelectIntersection ()    {  }

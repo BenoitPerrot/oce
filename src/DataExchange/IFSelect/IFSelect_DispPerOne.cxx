@@ -13,7 +13,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
-#include <IFGraph_SubPartsIterator.hxx>
+#include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <IFSelect_DispPerOne.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_DispPerOne)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispPerOne)
 IMPLEMENT_DOWNCAST(IFSelect_DispPerOne,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerOne)
 #include <IFSelect_Selection.hxx>
-#include <IFGraph_SCRoots.hxx>
+#include <DataExchange/IFGraph/IFGraph_SCRoots.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_EntityIterator.hxx>
 

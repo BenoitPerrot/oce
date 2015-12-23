@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _IFGraph_StrongComponants_HeaderFile
-#define _IFGraph_StrongComponants_HeaderFile
+#ifndef _IFGraph_ConnectedComponants_HeaderFile
+#define _IFGraph_ConnectedComponants_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IFGraph_SubPartsIterator.hxx>
+#include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_Graph;
 
 
-//! determines strong componants of a graph, that is
-//! isolated entities (single componants) or loops
-class IFGraph_StrongComponants  : public IFGraph_SubPartsIterator
+//! determines Connected Componants in a Graph. They define
+//! disjoined sets of Entities
+class IFGraph_ConnectedComponants  : public IFGraph_SubPartsIterator
 {
 public:
 
@@ -27,7 +27,7 @@ public:
   //! creates with a Graph, and will analyse :
   //! whole True  : all the contents of the Model
   //! whole False : sub-parts which will be given later
-  Standard_EXPORT IFGraph_StrongComponants(const Interface_Graph& agraph, const Standard_Boolean whole);
+  Standard_EXPORT IFGraph_ConnectedComponants(const Interface_Graph& agraph, const Standard_Boolean whole);
   
   //! does the computation
   Standard_EXPORT virtual   void Evaluate() ;
@@ -55,4 +55,4 @@ private:
 
 
 
-#endif // _IFGraph_StrongComponants_HeaderFile
+#endif // _IFGraph_ConnectedComponants_HeaderFile

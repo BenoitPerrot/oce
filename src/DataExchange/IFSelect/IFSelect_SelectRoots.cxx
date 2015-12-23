@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectRoots)
 IMPLEMENT_DOWNCAST(IFSelect_SelectRoots,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectRoots)
-#include <IFGraph_Cumulate.hxx>
+#include <DataExchange/IFGraph/IFGraph_Cumulate.hxx>
 
 
 IFSelect_SelectRoots::IFSelect_SelectRoots ()    {  }

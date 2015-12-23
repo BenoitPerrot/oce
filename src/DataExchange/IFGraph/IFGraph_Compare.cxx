@@ -14,8 +14,8 @@
 #include <Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IFGraph_Compare.hxx>
-#include <IFGraph_AllShared.hxx>
+#include <DataExchange/IFGraph/IFGraph_Compare.hxx>
+#include <DataExchange/IFGraph/IFGraph_AllShared.hxx>
 
 
 

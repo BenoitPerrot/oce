@@ -15,7 +15,7 @@
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
-#include <IFGraph_SubPartsIterator.hxx>
+#include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <IFSelect_DispPerCount.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_DispPerCount)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispPerCount)
 IMPLEMENT_DOWNCAST(IFSelect_DispPerCount,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerCount)
 #include <IFSelect_Selection.hxx>
-#include <IFGraph_SCRoots.hxx>
+#include <DataExchange/IFGraph/IFGraph_SCRoots.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Interface_EntityIterator.hxx>
 

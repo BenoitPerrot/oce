@@ -15,7 +15,7 @@
 #include <Interface_InterfaceError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
-#include <IFGraph_SubPartsIterator.hxx>
+#include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <IFSelect_DispPerSignature.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_DispPerSignature)

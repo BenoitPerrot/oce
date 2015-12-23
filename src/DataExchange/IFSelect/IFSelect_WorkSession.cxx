@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_WorkSession)
 #include <IFSelect_DispGlobal.hxx>
 #include <IFSelect_ShareOutResult.hxx>
 #include <Interface_Graph.hxx>
-#include <IFGraph_SubPartsIterator.hxx>
+#include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <IFSelect_PacketList.hxx>
 #include <Interface_ReportEntity.hxx>
 #include <Interface_Static.hxx>

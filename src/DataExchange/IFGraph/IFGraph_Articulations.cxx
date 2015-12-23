@@ -15,7 +15,7 @@
 #include <Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IFGraph_Articulations.hxx>
+#include <DataExchange/IFGraph/IFGraph_Articulations.hxx>
 #include <Interface_InterfaceModel.hxx>
 
 

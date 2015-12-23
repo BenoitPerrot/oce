@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectUnion)
 IMPLEMENT_DOWNCAST(IFSelect_SelectUnion,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectUnion)
-#include <IFGraph_Cumulate.hxx>
+#include <DataExchange/IFGraph/IFGraph_Cumulate.hxx>
 
 
 IFSelect_SelectUnion::IFSelect_SelectUnion ()    {  }

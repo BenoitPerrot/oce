@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectRootComps)
 IMPLEMENT_DOWNCAST(IFSelect_SelectRootComps,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectRootComps)
-#include <IFGraph_StrongComponants.hxx>
-#include <IFGraph_Cumulate.hxx>
+#include <DataExchange/IFGraph/IFGraph_StrongComponants.hxx>
+#include <DataExchange/IFGraph/IFGraph_Cumulate.hxx>
 
 
 IFSelect_SelectRootComps::IFSelect_SelectRootComps ()    {  }
