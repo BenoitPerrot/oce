@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(MAT_BasicElt)
-#define TheKey_hxx <MAT_BasicElt.hxx>
+#define TheKey_hxx <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher

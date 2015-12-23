@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfBasicEltShape.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape)
 
 
 #define TheKey Handle(MAT_BasicElt)
-#define TheKey_hxx <MAT_BasicElt.hxx>
+#define TheKey_hxx <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher

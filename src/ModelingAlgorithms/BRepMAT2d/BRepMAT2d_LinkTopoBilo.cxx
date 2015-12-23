@@ -18,7 +18,7 @@
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
@@ -33,9 +33,9 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
-#include <MAT_Graph.hxx>
-#include <MAT_BasicElt.hxx>
-#include <MAT_SequenceOfBasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_SequenceOfBasicElt.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>

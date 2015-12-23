@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <MAT_Side.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 class MAT_BasicElt;
 class MAT_Node;
 class Standard_DomainError;

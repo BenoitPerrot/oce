@@ -64,17 +64,17 @@ private:
 };
 
 #define Item Handle(MAT_Bisector)
-#define Item_hxx <MAT_Bisector.hxx>
+#define Item_hxx <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
 #define MAT_TListNode MAT_TListNodeOfListOfBisector
-#define MAT_TListNode_hxx <MAT_TListNodeOfListOfBisector.hxx>
+#define MAT_TListNode_hxx <ModelingAlgorithms/MAT/MAT_TListNodeOfListOfBisector.hxx>
 #define Handle_MAT_TListNode Handle_MAT_TListNodeOfListOfBisector
 #define MAT_TListNode_Type_() MAT_TListNodeOfListOfBisector_Type_()
 #define MAT_TList MAT_ListOfBisector
-#define MAT_TList_hxx <MAT_ListOfBisector.hxx>
+#define MAT_TList_hxx <ModelingAlgorithms/MAT/MAT_ListOfBisector.hxx>
 #define Handle_MAT_TList Handle_MAT_ListOfBisector
 #define MAT_TList_Type_() MAT_ListOfBisector_Type_()
 
-#include <MAT_TListNode.lxx>
+#include <ModelingAlgorithms/MAT/MAT_TListNode.lxx>
 
 #undef Item
 #undef Item_hxx

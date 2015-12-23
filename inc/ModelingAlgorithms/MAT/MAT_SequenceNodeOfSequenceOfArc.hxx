@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(MAT_Arc)
-#define SeqItem_hxx <MAT_Arc.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/MAT/MAT_Arc.hxx>
 #define TCollection_SequenceNode MAT_SequenceNodeOfSequenceOfArc
-#define TCollection_SequenceNode_hxx <MAT_SequenceNodeOfSequenceOfArc.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/MAT/MAT_SequenceNodeOfSequenceOfArc.hxx>
 #define Handle_TCollection_SequenceNode Handle_MAT_SequenceNodeOfSequenceOfArc
 #define TCollection_SequenceNode_Type_() MAT_SequenceNodeOfSequenceOfArc_Type_()
 #define TCollection_Sequence MAT_SequenceOfArc
-#define TCollection_Sequence_hxx <MAT_SequenceOfArc.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/MAT/MAT_SequenceOfArc.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

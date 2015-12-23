@@ -64,17 +64,17 @@ private:
 };
 
 #define Item Handle(MAT_Edge)
-#define Item_hxx <MAT_Edge.hxx>
+#define Item_hxx <ModelingAlgorithms/MAT/MAT_Edge.hxx>
 #define MAT_TListNode MAT_TListNodeOfListOfEdge
-#define MAT_TListNode_hxx <MAT_TListNodeOfListOfEdge.hxx>
+#define MAT_TListNode_hxx <ModelingAlgorithms/MAT/MAT_TListNodeOfListOfEdge.hxx>
 #define Handle_MAT_TListNode Handle_MAT_TListNodeOfListOfEdge
 #define MAT_TListNode_Type_() MAT_TListNodeOfListOfEdge_Type_()
 #define MAT_TList MAT_ListOfEdge
-#define MAT_TList_hxx <MAT_ListOfEdge.hxx>
+#define MAT_TList_hxx <ModelingAlgorithms/MAT/MAT_ListOfEdge.hxx>
 #define Handle_MAT_TList Handle_MAT_ListOfEdge
 #define MAT_TList_Type_() MAT_ListOfEdge_Type_()
 
-#include <MAT_TListNode.lxx>
+#include <ModelingAlgorithms/MAT/MAT_TListNode.lxx>
 
 #undef Item
 #undef Item_hxx

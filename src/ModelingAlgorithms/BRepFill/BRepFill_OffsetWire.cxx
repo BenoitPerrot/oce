@@ -70,9 +70,9 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
-#include <MAT_Arc.hxx>
-#include <MAT_Node.hxx>
-#include <MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
 #include <MAT2d_CutCurve.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

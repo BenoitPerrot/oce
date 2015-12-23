@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
-#include <MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
-#include <MAT_Arc.hxx>
-#include <MAT_DataMapOfIntegerBasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBasicElt.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 
 # include <MAT2d_Mat2d.hxx>
@@ -31,14 +31,14 @@
 # include <MAT2d_CutCurve.hxx>
 # include <MAT2d_BiInt.hxx>
 # include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
-# include <MAT_Graph.hxx>
-# include <MAT_Arc.hxx>
-# include <MAT_BasicElt.hxx>
-# include <MAT_Node.hxx>
-# include <MAT_Bisector.hxx>
-# include <MAT_ListOfBisector.hxx>
-# include <MAT_DataMapOfIntegerBasicElt.hxx>
-# include <MAT_DataMapIteratorOfDataMapOfIntegerBasicElt.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+# include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Node.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
+# include <ModelingAlgorithms/MAT/MAT_ListOfBisector.hxx>
+# include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBasicElt.hxx>
+# include <ModelingAlgorithms/MAT/MAT_DataMapIteratorOfDataMapOfIntegerBasicElt.hxx>
 # include <Geometry/Geom2d/Geom2d_Curve.hxx>
 # include <Mathematics/Primitives/gp_Pnt2d.hxx>
 # include <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>

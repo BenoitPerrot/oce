@@ -18,7 +18,7 @@
 #include <MAT2d_DataMapOfIntegerPnt2d.hxx>
 #include <MAT2d_DataMapOfIntegerVec2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <MAT_Side.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MAT_Bisector.hxx>
 #include <Handle_Geom2d_Geometry.hxx>

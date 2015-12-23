@@ -12,7 +12,7 @@
 
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <MAT_Side.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_TrimmedCurve.hxx>

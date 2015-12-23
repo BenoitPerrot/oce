@@ -87,11 +87,11 @@
 
 #include <MAT2d_CutCurve.hxx>
 
-#include <MAT_Graph.hxx>
-#include <MAT_BasicElt.hxx>
-#include <MAT_Side.hxx>
-#include <MAT_Arc.hxx>
-#include <MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Side.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 

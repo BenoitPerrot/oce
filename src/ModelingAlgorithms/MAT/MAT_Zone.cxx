@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT_BasicElt.hxx>
-#include <MAT_Arc.hxx>
-#include <MAT_Node.hxx>
-#include <MAT_Zone.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Zone.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT_Zone)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MAT_Zone)
 IMPLEMENT_DOWNCAST(MAT_Zone,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MAT_Zone)
-#include <MAT_BasicElt.hxx>
-#include <MAT_SequenceOfArc.hxx>
-#include <MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_SequenceOfArc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
 
 //========================================================================
 // function:

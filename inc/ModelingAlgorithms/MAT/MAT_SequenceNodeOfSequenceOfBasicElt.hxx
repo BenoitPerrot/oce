@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(MAT_BasicElt)
-#define SeqItem_hxx <MAT_BasicElt.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
 #define TCollection_SequenceNode MAT_SequenceNodeOfSequenceOfBasicElt
-#define TCollection_SequenceNode_hxx <MAT_SequenceNodeOfSequenceOfBasicElt.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/MAT/MAT_SequenceNodeOfSequenceOfBasicElt.hxx>
 #define Handle_TCollection_SequenceNode Handle_MAT_SequenceNodeOfSequenceOfBasicElt
 #define TCollection_SequenceNode_Type_() MAT_SequenceNodeOfSequenceOfBasicElt_Type_()
 #define TCollection_Sequence MAT_SequenceOfBasicElt
-#define TCollection_Sequence_hxx <MAT_SequenceOfBasicElt.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/MAT/MAT_SequenceOfBasicElt.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT_ListOfBisector.hxx>
-#include <MAT_Arc.hxx>
-#include <MAT_BasicElt.hxx>
-#include <MAT_Node.hxx>
-#include <MAT_DataMapOfIntegerBasicElt.hxx>
-#include <MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/MAT_ListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT_Graph)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,17 +29,17 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MAT_Graph)
 IMPLEMENT_DOWNCAST(MAT_Graph,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MAT_Graph)
-# include <MAT_SequenceOfArc.hxx>
-# include <MAT_Arc.hxx>
-# include <MAT_Node.hxx>
-# include <MAT_BasicElt.hxx>
-# include <MAT_Zone.hxx>
-# include <MAT_DataMapOfIntegerBasicElt.hxx>
-# include <MAT_DataMapIteratorOfDataMapOfIntegerBasicElt.hxx>
-# include <MAT_DataMapOfIntegerArc.hxx>
-# include <MAT_SequenceOfArc.hxx>
-# include <MAT_Bisector.hxx>
-# include <MAT_Edge.hxx>
+# include <ModelingAlgorithms/MAT/MAT_SequenceOfArc.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Node.hxx>
+# include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Zone.hxx>
+# include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBasicElt.hxx>
+# include <ModelingAlgorithms/MAT/MAT_DataMapIteratorOfDataMapOfIntegerBasicElt.hxx>
+# include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerArc.hxx>
+# include <ModelingAlgorithms/MAT/MAT_SequenceOfArc.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
+# include <ModelingAlgorithms/MAT/MAT_Edge.hxx>
 # include <Precision.hxx>
 
 //------------------

@@ -14,19 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT_ListOfEdge.hxx>
-#include <MAT_ListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_ListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/MAT_ListOfBisector.hxx>
 #include <MAT2d_Tool2d.hxx>
-#include <MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
 #include <MAT2d_Mat2d.hxx>
 
-#include <MAT_Edge.hxx>
-#include <MAT_ListOfEdge.hxx>
-#include <MAT_Bisector.hxx>
-#include <MAT_ListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Edge.hxx>
+#include <ModelingAlgorithms/MAT/MAT_ListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_ListOfBisector.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <MAT_DataMapOfIntegerBisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBisector.hxx>
 #include <Precision.hxx>
 #include <MAT2d_Tool2d.hxx>
 

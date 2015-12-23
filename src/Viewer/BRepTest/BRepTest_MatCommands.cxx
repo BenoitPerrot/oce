@@ -27,13 +27,13 @@
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
 
-#include <MAT_Bisector.hxx>
-#include <MAT_Zone.hxx>
-#include <MAT_Graph.hxx>
-#include <MAT_Arc.hxx>
-#include <MAT_BasicElt.hxx>
-#include <MAT_Node.hxx>
-#include <MAT_Side.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Zone.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>

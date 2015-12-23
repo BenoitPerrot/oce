@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_MAT_ListOfEdge.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
-#include <MAT_DataMapOfIntegerBisector.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBisector.hxx>
 #include <Handle_MAT_ListOfBisector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_MAT_Bisector.hxx>

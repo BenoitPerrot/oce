@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MAT_BasicElt.hxx>
-#include <MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MAT_Arc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

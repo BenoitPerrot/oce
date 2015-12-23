@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <MAT_SequenceOfBasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_SequenceOfBasicElt.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_DataMapIteratorOfDataMapOfShapeSequenceOfBasicElt.hxx>
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(BRepMAT2d_DataMapNodeOfDataMapOfShapeSequenceOfBasicElt)
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem MAT_SequenceOfBasicElt
-#define TheItem_hxx <MAT_SequenceOfBasicElt.hxx>
+#define TheItem_hxx <ModelingAlgorithms/MAT/MAT_SequenceOfBasicElt.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepMAT2d_DataMapNodeOfDataMapOfShapeSequenceOfBasicElt

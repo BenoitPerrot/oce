@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MAT_Graph.hxx>
 
-#include <MAT_DataMapOfIntegerArc.hxx>
-#include <MAT_DataMapOfIntegerBasicElt.hxx>
-#include <MAT_DataMapOfIntegerNode.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerArc.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBasicElt.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerNode.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT_DataMapIteratorOfDataMapOfIntegerNode.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapIteratorOfDataMapOfIntegerNode.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <MAT_DataMapOfIntegerNode.hxx>
-#include <MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerNode.hxx>
+#include <ModelingAlgorithms/MAT/MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
  
 
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(MAT_Node)
-#define TheItem_hxx <MAT_Node.hxx>
+#define TheItem_hxx <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MAT_DataMapNodeOfDataMapOfIntegerNode
-#define TCollection_DataMapNode_hxx <MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/MAT/MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
 #define TCollection_DataMapIterator MAT_DataMapIteratorOfDataMapOfIntegerNode
-#define TCollection_DataMapIterator_hxx <MAT_DataMapIteratorOfDataMapOfIntegerNode.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/MAT/MAT_DataMapIteratorOfDataMapOfIntegerNode.hxx>
 #define Handle_TCollection_DataMapNode Handle_MAT_DataMapNodeOfDataMapOfIntegerNode
 #define TCollection_DataMapNode_Type_() MAT_DataMapNodeOfDataMapOfIntegerNode_Type_()
 #define TCollection_DataMap MAT_DataMapOfIntegerNode
-#define TCollection_DataMap_hxx <MAT_DataMapOfIntegerNode.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerNode.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

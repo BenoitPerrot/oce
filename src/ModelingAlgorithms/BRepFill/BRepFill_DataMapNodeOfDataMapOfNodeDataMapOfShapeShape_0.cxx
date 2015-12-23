@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape)
 
 
 #define TheKey Handle(MAT_Node)
-#define TheKey_hxx <MAT_Node.hxx>
+#define TheKey_hxx <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #define TheItem TopTools_DataMapOfShapeShape
 #define TheItem_hxx <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #define Hasher TColStd_MapTransientHasher

@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MAT_ListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/MAT_ListOfEdge.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <MAT_TListNodeOfListOfEdge.hxx>
-#include <MAT_Edge.hxx>
+#include <ModelingAlgorithms/MAT/MAT_TListNodeOfListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/MAT_Edge.hxx>
 
  
 
@@ -27,14 +27,14 @@ IMPLEMENT_STANDARD_RTTI(MAT_ListOfEdge)
 
 
 #define Item Handle(MAT_Edge)
-#define Item_hxx <MAT_Edge.hxx>
+#define Item_hxx <ModelingAlgorithms/MAT/MAT_Edge.hxx>
 #define MAT_TListNode MAT_TListNodeOfListOfEdge
-#define MAT_TListNode_hxx <MAT_TListNodeOfListOfEdge.hxx>
+#define MAT_TListNode_hxx <ModelingAlgorithms/MAT/MAT_TListNodeOfListOfEdge.hxx>
 #define Handle_MAT_TListNode Handle_MAT_TListNodeOfListOfEdge
 #define MAT_TListNode_Type_() MAT_TListNodeOfListOfEdge_Type_()
 #define MAT_TList MAT_ListOfEdge
-#define MAT_TList_hxx <MAT_ListOfEdge.hxx>
+#define MAT_TList_hxx <ModelingAlgorithms/MAT/MAT_ListOfEdge.hxx>
 #define Handle_MAT_TList Handle_MAT_ListOfEdge
 #define MAT_TList_Type_() MAT_ListOfEdge_Type_()
-#include <MAT_TList.gxx>
+#include <ModelingAlgorithms/MAT/MAT_TList.gxx>
 

@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(MAT_Node)
-#define TheKey_hxx <MAT_Node.hxx>
+#define TheKey_hxx <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #define TheItem TopTools_DataMapOfShapeShape
 #define TheItem_hxx <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #define Hasher TColStd_MapTransientHasher
