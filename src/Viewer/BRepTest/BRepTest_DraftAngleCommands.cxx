@@ -20,8 +20,8 @@
 #include <Draw_Appli.hxx>
 #include <Draw_Interpretor.hxx>
 
-#include <BRepOffsetAPI_DraftAngle.hxx>
-#include <BRepOffsetAPI_MakeDraft.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeDraft.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

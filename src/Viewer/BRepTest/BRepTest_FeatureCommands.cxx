@@ -54,8 +54,8 @@
 #include <LocOpe_FindEdges.hxx>
 #include <LocOpe_FindEdgesInFace.hxx>
 
-#include <BRepOffsetAPI_MakeOffsetShape.hxx>
-#include <BRepOffsetAPI_MakeThickSolid.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffsetShape.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <DBRep.hxx>

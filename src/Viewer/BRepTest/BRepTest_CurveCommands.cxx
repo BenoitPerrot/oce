@@ -30,7 +30,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
-#include <BRepOffsetAPI_MakeOffset.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffset.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

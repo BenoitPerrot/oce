@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 class TopoDS_Shape;
 

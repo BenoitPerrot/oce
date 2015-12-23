@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
 
  
 
@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_RTTI(BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal)
 #define SeqItem TColStd_SequenceOfReal
 #define SeqItem_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TCollection_SequenceNode BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal
-#define TCollection_SequenceNode_hxx <BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal
 #define TCollection_SequenceNode_Type_() BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal_Type_()
 #define TCollection_Sequence BRepOffsetAPI_SequenceOfSequenceOfReal
-#define TCollection_Sequence_hxx <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

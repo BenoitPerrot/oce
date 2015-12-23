@@ -33,7 +33,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
-#include <BRepOffsetAPI_MakePipeShell.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipeShell.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
@@ -390,7 +390,7 @@ static Standard_Integer OCC332bug (Draw_Interpretor& di, Standard_Integer argc, 
 
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <BRepOffsetAPI_Sewing.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_Sewing.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 ///////#else
 ///////#include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>

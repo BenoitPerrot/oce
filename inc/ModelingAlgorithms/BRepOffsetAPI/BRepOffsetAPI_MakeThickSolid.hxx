@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepOffsetAPI_MakeOffsetShape.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

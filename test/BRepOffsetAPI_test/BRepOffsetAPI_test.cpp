@@ -1,7 +1,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepOffsetAPI_MakeEvolved.hxx>
-#include <BRepOffsetAPI_MakeOffsetShape.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeEvolved.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

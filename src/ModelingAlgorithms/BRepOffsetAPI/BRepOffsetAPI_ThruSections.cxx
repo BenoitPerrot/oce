@@ -49,7 +49,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
-#include <BRepOffsetAPI_ThruSections.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>
 
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

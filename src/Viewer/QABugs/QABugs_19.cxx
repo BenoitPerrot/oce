@@ -48,7 +48,7 @@
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <GeomFill_Trihedron.hxx>
-#include <BRepOffsetAPI_MakePipe.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipe.hxx>
 
 #include <Foundation/Standard/Standard_Version.hxx>
 

@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepOffsetAPI_MiddlePath.hxx>
-#include <BRepOffsetAPI_MiddlePath.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MiddlePath.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MiddlePath.hxx>
 
 #include <ShapeUpgrade_UnifySameDomain.hxx>
 

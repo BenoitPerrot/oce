@@ -28,7 +28,7 @@
 #include <V3d_View.hxx>
 #include <Visual3d_View.hxx>
 
-#include <BRepOffsetAPI_Sewing.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_Sewing.hxx>
 
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_ListIteratorOfListOfInteractive.hxx>

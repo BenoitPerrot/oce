@@ -50,7 +50,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <BRepOffsetAPI_MakePipeShell.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipeShell.hxx>
 #include <AIS_Trihedron.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <V3d_View.hxx>

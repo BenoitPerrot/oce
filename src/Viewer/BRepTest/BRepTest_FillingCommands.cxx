@@ -92,7 +92,7 @@
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <BRepOffsetAPI_MakeFilling.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeFilling.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>

@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepOffsetAPI_MakeThickSolid.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeOffset.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

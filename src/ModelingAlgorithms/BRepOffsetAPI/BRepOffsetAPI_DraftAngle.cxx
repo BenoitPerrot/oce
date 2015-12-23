@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepOffsetAPI_DraftAngle.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
 
 #include <Draft_Modification.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -45,8 +45,8 @@
 #include <TopOpeBRep_Point2d.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal.hxx>
-#include <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
-#include <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

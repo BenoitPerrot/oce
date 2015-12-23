@@ -24,11 +24,11 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill_Generator.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
-#include <BRepOffsetAPI_MakePipe.hxx>
-#include <BRepOffsetAPI_MakeEvolved.hxx>
-#include <BRepOffsetAPI_ThruSections.hxx>
-#include <BRepOffsetAPI_MakePipeShell.hxx>
-#include <BRepOffsetAPI_MiddlePath.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipe.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeEvolved.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipeShell.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MiddlePath.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

@@ -11,8 +11,8 @@
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
-#include <BRepOffsetAPI_MakeThickSolid.hxx>
-#include <BRepOffsetAPI_ThruSections.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>
 
 #include <BRepPrimAPI_MakeCylinder.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>

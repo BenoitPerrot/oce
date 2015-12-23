@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepOffsetAPI_FindContigousEdges.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_FindContigousEdges.hxx>
 
 
 //=======================================================================

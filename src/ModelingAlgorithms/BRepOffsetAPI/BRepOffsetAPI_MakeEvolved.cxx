@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill_Evolved.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepOffsetAPI_MakeEvolved.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeEvolved.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>

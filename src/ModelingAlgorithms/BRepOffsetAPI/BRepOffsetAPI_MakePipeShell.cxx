@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Law_Function.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepOffsetAPI_MakePipeShell.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipeShell.hxx>
 
 #include <GeomFill_PipeError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

@@ -198,7 +198,7 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <AIS_ListOfInteractive.hxx>
 #include <AIS_DisplayMode.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepOffsetAPI_MakeThickSolid.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset.hxx>
 
 //==============================================================================
@@ -4696,12 +4696,12 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 //=====================================================================
 //========================= for testing Draft and Rib =================
 //=====================================================================
-#include <BRepOffsetAPI_MakeThickSolid.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
 #include <DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <AIS_KindOfSurface.hxx>
-#include <BRepOffsetAPI_DraftAngle.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>

@@ -36,7 +36,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <BRepOffsetAPI_ThruSections.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>
 //=======================================================================
 //  OCC895
 //=======================================================================

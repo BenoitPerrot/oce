@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeShell.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
-#include <BRepOffsetAPI_FindContigousEdges.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_FindContigousEdges.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

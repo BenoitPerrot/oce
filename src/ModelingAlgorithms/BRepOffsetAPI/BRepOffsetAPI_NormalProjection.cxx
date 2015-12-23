@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepOffsetAPI_NormalProjection.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_NormalProjection.hxx>
 
 BRepOffsetAPI_NormalProjection::BRepOffsetAPI_NormalProjection()
 {

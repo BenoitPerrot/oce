@@ -848,7 +848,7 @@ static int BUC60825(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 }
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
-#include <BRepOffsetAPI_ThruSections.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>
 
 static int OCC10006(Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

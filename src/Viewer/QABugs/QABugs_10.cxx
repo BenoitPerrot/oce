@@ -282,7 +282,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
-#include <BRepOffsetAPI_DraftAngle.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
 //=======================================================================
 //function : OCC712
 //purpose  :
