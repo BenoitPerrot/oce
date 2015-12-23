@@ -11,7 +11,7 @@
 #include <Handle_StlMesh_Mesh.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <StlMesh_SequenceOfMeshDomain.hxx>
+#include <DataExchange/StlMesh/StlMesh_SequenceOfMeshDomain.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -138,7 +138,7 @@ private:
 };
 
 
-#include <StlMesh_Mesh.lxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.lxx>
 
 
 

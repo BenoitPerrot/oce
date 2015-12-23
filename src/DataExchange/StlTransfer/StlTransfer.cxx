@@ -15,7 +15,7 @@
 
 //=======================================================================
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
 #include <StlTransfer.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StlMesh_Mesh.hxx>
-#include <StlMesh.hxx>
-#include <StlMesh_SequenceOfMeshTriangle.hxx>
-#include <StlMesh_MeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/StlMesh.hxx>
+#include <DataExchange/StlMesh/StlMesh_SequenceOfMeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_MeshTriangle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 
 //=======================================================================

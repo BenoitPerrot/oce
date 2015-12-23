@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(StlMesh_MeshTriangle)
-#define SeqItem_hxx <StlMesh_MeshTriangle.hxx>
+#define SeqItem_hxx <DataExchange/StlMesh/StlMesh_MeshTriangle.hxx>
 #define TCollection_SequenceNode StlMesh_SequenceNodeOfSequenceOfMeshTriangle
-#define TCollection_SequenceNode_hxx <StlMesh_SequenceNodeOfSequenceOfMeshTriangle.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/StlMesh/StlMesh_SequenceNodeOfSequenceOfMeshTriangle.hxx>
 #define Handle_TCollection_SequenceNode Handle_StlMesh_SequenceNodeOfSequenceOfMeshTriangle
 #define TCollection_SequenceNode_Type_() StlMesh_SequenceNodeOfSequenceOfMeshTriangle_Type_()
 #define TCollection_Sequence StlMesh_SequenceOfMeshTriangle
-#define TCollection_Sequence_hxx <StlMesh_SequenceOfMeshTriangle.hxx>
+#define TCollection_Sequence_hxx <DataExchange/StlMesh/StlMesh_SequenceOfMeshTriangle.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

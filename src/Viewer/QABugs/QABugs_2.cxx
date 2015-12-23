@@ -168,7 +168,7 @@ static Standard_Integer OCC527(Draw_Interpretor& di, Standard_Integer argc, cons
   return 0;
 }
 
-#include <StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
 #include <StlTransfer.hxx>
 //=======================================================================
 //function : OCC1048

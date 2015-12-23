@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(XSDRAWSTLVRML_DataSource3D)
 IMPLEMENT_DOWNCAST(XSDRAWSTLVRML_DataSource3D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSDRAWSTLVRML_DataSource3D)
 
-#include <StlMesh_SequenceOfMeshTriangle.hxx>
-#include <StlMesh_MeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_SequenceOfMeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_MeshTriangle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>

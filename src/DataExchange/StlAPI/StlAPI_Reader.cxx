@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StlAPI/StlAPI_Reader.hxx>
 #include <DataExchange/RWStl/RWStl.hxx>
-#include <StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
@@ -28,7 +28,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <StlMesh_MeshExplorer.hxx>
+#include <DataExchange/StlMesh/StlMesh_MeshExplorer.hxx>
 
 
 

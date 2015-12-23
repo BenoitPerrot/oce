@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
-#include <StlMesh_SequenceOfMeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_SequenceOfMeshTriangle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StlMesh_Mesh;
 class Standard_OutOfRange;
@@ -86,7 +86,7 @@ private:
 };
 
 
-#include <StlMesh_MeshExplorer.lxx>
+#include <DataExchange/StlMesh/StlMesh_MeshExplorer.lxx>
 
 
 

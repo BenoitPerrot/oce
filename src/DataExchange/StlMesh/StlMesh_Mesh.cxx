@@ -20,9 +20,9 @@
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <StlMesh_SequenceOfMeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_SequenceOfMeshTriangle.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
-#include <StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StlMesh_Mesh)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StlMesh_Mesh)
 IMPLEMENT_DOWNCAST(StlMesh_Mesh,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StlMesh_Mesh)
-#include <StlMesh_MeshDomain.hxx>
+#include <DataExchange/StlMesh/StlMesh_MeshDomain.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

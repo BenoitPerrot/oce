@@ -17,7 +17,7 @@
 //=======================================================================
 
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
-#include <StlMesh_MeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_MeshTriangle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StlMesh_MeshTriangle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

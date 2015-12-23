@@ -44,8 +44,8 @@
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 
-#include <StlMesh_Mesh.hxx>
-#include <StlMesh_SequenceOfMeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/StlMesh_SequenceOfMeshTriangle.hxx>
 
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Visualization/MeshVS/MeshVS_MeshPrsBuilder.hxx>

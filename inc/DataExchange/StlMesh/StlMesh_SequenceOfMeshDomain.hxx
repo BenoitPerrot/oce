@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(StlMesh_MeshDomain)
-#define SeqItem_hxx <StlMesh_MeshDomain.hxx>
+#define SeqItem_hxx <DataExchange/StlMesh/StlMesh_MeshDomain.hxx>
 #define TCollection_SequenceNode StlMesh_SequenceNodeOfSequenceOfMeshDomain
-#define TCollection_SequenceNode_hxx <StlMesh_SequenceNodeOfSequenceOfMeshDomain.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/StlMesh/StlMesh_SequenceNodeOfSequenceOfMeshDomain.hxx>
 #define Handle_TCollection_SequenceNode Handle_StlMesh_SequenceNodeOfSequenceOfMeshDomain
 #define TCollection_SequenceNode_Type_() StlMesh_SequenceNodeOfSequenceOfMeshDomain_Type_()
 #define TCollection_Sequence StlMesh_SequenceOfMeshDomain
-#define TCollection_Sequence_hxx <StlMesh_SequenceOfMeshDomain.hxx>
+#define TCollection_Sequence_hxx <DataExchange/StlMesh/StlMesh_SequenceOfMeshDomain.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

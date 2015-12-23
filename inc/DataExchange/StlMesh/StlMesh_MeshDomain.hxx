@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
-#include <StlMesh_SequenceOfMeshTriangle.hxx>
+#include <DataExchange/StlMesh/StlMesh_SequenceOfMeshTriangle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NegativeValue;
@@ -97,7 +97,7 @@ private:
 };
 
 
-#include <StlMesh_MeshDomain.lxx>
+#include <DataExchange/StlMesh/StlMesh_MeshDomain.lxx>
 
 
 

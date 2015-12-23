@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <DataExchange/RWStl/RWStl.hxx>
@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Precision.hxx>
-#include <StlMesh_MeshExplorer.hxx>
+#include <DataExchange/StlMesh/StlMesh_MeshExplorer.hxx>
 #include <Foundation/OSD/OSD.hxx>
 #include <Foundation/OSD/OSD_Host.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
