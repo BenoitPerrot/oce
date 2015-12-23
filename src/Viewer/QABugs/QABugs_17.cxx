@@ -21,10 +21,10 @@
 #include <Draw_Interpretor.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
 #include <ViewerTest_EventManager.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -51,12 +51,12 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipeShell.hxx>
-#include <AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <V3d_View.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
-#include <AIS_LengthDimension.hxx>
-#include <AIS_RadiusDimension.hxx>
+#include <Visualization/AIS/AIS_LengthDimension.hxx>
+#include <Visualization/AIS/AIS_RadiusDimension.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
@@ -1311,7 +1311,7 @@ static Standard_Integer OCC1188 (Draw_Interpretor& di, Standard_Integer argc, co
   return 0;
 }
 
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 //=======================================================================

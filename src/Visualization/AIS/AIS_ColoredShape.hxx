@@ -16,8 +16,8 @@
 #ifndef _AIS_ColoredShape_HeaderFile
 #define _AIS_ColoredShape_HeaderFile
 
-#include <AIS_Drawer.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>

@@ -18,9 +18,9 @@
 #include <Draw_Interpretor.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
@@ -59,7 +59,7 @@ Standard_EXPORT ViewerTest_DoubleMapOfInteractiveAndName& GetMapOfAIS();
 
 static TColStd_MapOfInteger theactivatedmodes(8);
 
-#include <AIS_PlaneTrihedron.hxx>
+#include <Visualization/AIS/AIS_PlaneTrihedron.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

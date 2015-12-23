@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_ListNodeOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListNodeOfListOfInteractive.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(AIS_ListNodeOfListOfInteractive)
 
 
 #define Item Handle(AIS_InteractiveObject)
-#define Item_hxx <AIS_InteractiveObject.hxx>
+#define Item_hxx <Visualization/AIS/AIS_InteractiveObject.hxx>
 #define TCollection_ListNode AIS_ListNodeOfListOfInteractive
-#define TCollection_ListNode_hxx <AIS_ListNodeOfListOfInteractive.hxx>
+#define TCollection_ListNode_hxx <Visualization/AIS/AIS_ListNodeOfListOfInteractive.hxx>
 #define TCollection_ListIterator AIS_ListIteratorOfListOfInteractive
-#define TCollection_ListIterator_hxx <AIS_ListIteratorOfListOfInteractive.hxx>
+#define TCollection_ListIterator_hxx <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #define Handle_TCollection_ListNode Handle_AIS_ListNodeOfListOfInteractive
 #define TCollection_ListNode_Type_() AIS_ListNodeOfListOfInteractive_Type_()
 #define TCollection_List AIS_ListOfInteractive
-#define TCollection_List_hxx <AIS_ListOfInteractive.hxx>
+#define TCollection_List_hxx <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

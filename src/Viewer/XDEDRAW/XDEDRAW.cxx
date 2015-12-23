@@ -28,7 +28,7 @@
 #include <DBRep.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
 
 #include <DDF_Browser.hxx>
@@ -88,13 +88,13 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Aspect_TypeOfLine.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <TDocStd_Owner.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
 
 #define ZVIEW_SIZE 1000000.0
 // avoid warnings on 'extern "C"' functions returning C++ classes

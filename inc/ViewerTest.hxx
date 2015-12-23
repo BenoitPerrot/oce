@@ -19,7 +19,7 @@
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <AIS_KindOfInteractive.hxx>
+#include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <Handle_AIS_InteractiveContext.hxx>

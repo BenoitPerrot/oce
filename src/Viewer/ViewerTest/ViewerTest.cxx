@@ -39,18 +39,18 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_ColoredShape.hxx>
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_Trihedron.hxx>
-#include <AIS_Axis.hxx>
-#include <AIS_Relation.hxx>
-#include <AIS_TypeFilter.hxx>
-#include <AIS_SignatureFilter.hxx>
-#include <AIS_LocalContext.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_ColoredShape.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Relation.hxx>
+#include <Visualization/AIS/AIS_TypeFilter.hxx>
+#include <Visualization/AIS/AIS_SignatureFilter.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <Aspect_InteriorStyle.hxx>
 #include <Aspect_Window.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
@@ -174,12 +174,12 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <V3d_View.hxx>
 #include <V3d.hxx>
 
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_Shape.hxx>
-#include <AIS_TexturedShape.hxx>
-#include <AIS_DisplayMode.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_TexturedShape.hxx>
+#include <Visualization/AIS/AIS_DisplayMode.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <AIS_MapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_MapOfInteractive.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_EventManager.hxx>
@@ -194,9 +194,9 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 
 
 #include <Draw_Window.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_DisplayMode.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_DisplayMode.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset.hxx>
@@ -3321,7 +3321,7 @@ Standard_Boolean  HaveMode(const Handle(AIS_InteractiveObject)& TheAisIO,const S
 //           qu'un nom et qu'un mode.
 //Draw arg : vsetam  [ShapeName] mode(0,1,2,3,4,5,6,7)
 //==============================================================================
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 
 static int VActivatedMode (Draw_Interpretor& di, Standard_Integer argc, const char** argv)
 
@@ -4700,7 +4700,7 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 #include <DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <AIS_KindOfSurface.hxx>
+#include <Visualization/AIS/AIS_KindOfSurface.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>

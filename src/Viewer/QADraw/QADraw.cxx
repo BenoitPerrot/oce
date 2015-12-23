@@ -26,7 +26,7 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Aspect_Window.hxx>
 #include <Aspect_DisplayConnection.hxx>
 #include <DBRep.hxx>
@@ -173,10 +173,10 @@ Standard_EXPORT ViewerTest_DoubleMapOfInteractiveAndName& GetMapOfAIS();
 Standard_EXPORT Handle(AIS_InteractiveContext)& TheAISContext();
 #endif
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
-#include <AIS_Trihedron.hxx>
-#include <AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <AIS_Line.hxx>
+#include <Visualization/AIS/AIS_Line.hxx>
 
 //==============================================================================
 // function : VTrihedronOrigins

@@ -16,8 +16,8 @@
 #ifndef _AIS_PointCloud_HeaderFile
 #define _AIS_PointCloud_HeaderFile
 
-#include <AIS.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>

@@ -16,19 +16,19 @@
 
 #include <ViewerTest.hxx>
 
-#include <AIS_AngleDimension.hxx>
-#include <AIS_Circle.hxx>
-#include <AIS_DiameterDimension.hxx>
-#include <AIS_DisplayMode.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_LengthDimension.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_MapOfInteractive.hxx>
-#include <AIS_Point.hxx>
-#include <AIS_RadiusDimension.hxx>
-#include <AIS_Relation.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_AngleDimension.hxx>
+#include <Visualization/AIS/AIS_Circle.hxx>
+#include <Visualization/AIS/AIS_DiameterDimension.hxx>
+#include <Visualization/AIS/AIS_DisplayMode.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_LengthDimension.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_MapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_Point.hxx>
+#include <Visualization/AIS/AIS_RadiusDimension.hxx>
+#include <Visualization/AIS/AIS_Relation.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -860,7 +860,7 @@ static int VDiameterDimBuilder(Draw_Interpretor& di, Standard_Integer argc, cons
 //purpose  : Display the concentric relation between two surfaces.
 //Draw arg : vconcentric Name
 //==============================================================================
-#include <AIS_ConcentricRelation.hxx>
+#include <Visualization/AIS/AIS_ConcentricRelation.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
@@ -954,7 +954,7 @@ static int VConcentricBuilder(Draw_Interpretor& di, Standard_Integer argc, const
 //purpose  : 
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
-#include <AIS_EqualDistanceRelation.hxx>
+#include <Visualization/AIS/AIS_EqualDistanceRelation.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 
@@ -1116,7 +1116,7 @@ static int VEqualDistRelation(Draw_Interpretor& di, Standard_Integer argc, const
 //purpose  : 
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
-#include <AIS_EqualRadiusRelation.hxx>
+#include <Visualization/AIS/AIS_EqualRadiusRelation.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
@@ -1194,7 +1194,7 @@ static int VEqualRadiusRelation(Draw_Interpretor& di, Standard_Integer argc, con
 //purpose  : 
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
-#include <AIS_FixRelation.hxx>
+#include <Visualization/AIS/AIS_FixRelation.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
@@ -1259,7 +1259,7 @@ static int VFixRelation(Draw_Interpretor& di, Standard_Integer argc, const char*
 //purpose  : 
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
-#include <AIS_IdenticRelation.hxx>
+#include <Visualization/AIS/AIS_IdenticRelation.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
@@ -1400,7 +1400,7 @@ static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const c
 //purpose  : Display the diameter dimension of a face or an edge.
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
-#include <AIS_LengthDimension.hxx>
+#include <Visualization/AIS/AIS_LengthDimension.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCF.hxx>
@@ -1702,7 +1702,7 @@ static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const c
 //purpose  : Display the radius dimension of a face or an edge.
 //Draw arg : vradiusdim Name 
 //==============================================================================
-#include <AIS_RadiusDimension.hxx>
+#include <Visualization/AIS/AIS_RadiusDimension.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
@@ -1802,7 +1802,7 @@ static int VRadiusDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 //purpose  : Display the offset dimension
 //Draw arg : voffsetdim Name 
 //==============================================================================
-#include <AIS_OffsetDimension.hxx>
+#include <Visualization/AIS/AIS_OffsetDimension.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtFF.hxx>
 
@@ -1895,7 +1895,7 @@ static int VOffsetDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 //purpose  : Display the parallel relation 
 //Draw arg : vparallel Name 
 //==============================================================================
-#include <AIS_ParallelRelation.hxx>
+#include <Visualization/AIS/AIS_ParallelRelation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtFF.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
@@ -2052,7 +2052,7 @@ static int VParallelBuilder(Draw_Interpretor& di, Standard_Integer argc, const c
 //purpose  : Display the Perpendicular Relation
 //Draw arg : vperpendicular Name 
 //==============================================================================
-#include <AIS_PerpendicularRelation.hxx>
+#include <Visualization/AIS/AIS_PerpendicularRelation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
@@ -2202,7 +2202,7 @@ static int VPerpendicularBuilder(Draw_Interpretor& di, Standard_Integer argc, co
 //purpose  : Display the tangent Relation
 //Draw arg : vtangent Name 
 //==============================================================================
-#include <AIS_TangentRelation.hxx>
+#include <Visualization/AIS/AIS_TangentRelation.hxx>
 
 
 static int VTangentBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -2343,7 +2343,7 @@ static int VTangentBuilder(Draw_Interpretor& di, Standard_Integer argc, const ch
 //purpose  : Display the Symetrical Relation
 //Draw arg : vsymetric Name 
 //==============================================================================
-#include <AIS_SymmetricRelation.hxx>
+#include <Visualization/AIS/AIS_SymmetricRelation.hxx>
 
 
 static int VSymmetricBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <IVtkOCC_SelectableObject.hxx>
 #include <Select3D_SensitiveBox.hxx>

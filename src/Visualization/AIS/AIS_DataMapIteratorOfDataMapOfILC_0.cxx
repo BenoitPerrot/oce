@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_DataMapIteratorOfDataMapOfILC.hxx>
+#include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfILC.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <AIS_DataMapOfILC.hxx>
-#include <AIS_DataMapNodeOfDataMapOfILC.hxx>
+#include <Visualization/AIS/AIS_DataMapOfILC.hxx>
+#include <Visualization/AIS/AIS_DataMapNodeOfDataMapOfILC.hxx>
  
 
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(AIS_LocalContext)
-#define TheItem_hxx <AIS_LocalContext.hxx>
+#define TheItem_hxx <Visualization/AIS/AIS_LocalContext.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode AIS_DataMapNodeOfDataMapOfILC
-#define TCollection_DataMapNode_hxx <AIS_DataMapNodeOfDataMapOfILC.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/AIS/AIS_DataMapNodeOfDataMapOfILC.hxx>
 #define TCollection_DataMapIterator AIS_DataMapIteratorOfDataMapOfILC
-#define TCollection_DataMapIterator_hxx <AIS_DataMapIteratorOfDataMapOfILC.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfILC.hxx>
 #define Handle_TCollection_DataMapNode Handle_AIS_DataMapNodeOfDataMapOfILC
 #define TCollection_DataMapNode_Type_() AIS_DataMapNodeOfDataMapOfILC_Type_()
 #define TCollection_DataMap AIS_DataMapOfILC
-#define TCollection_DataMap_hxx <AIS_DataMapOfILC.hxx>
+#define TCollection_DataMap_hxx <Visualization/AIS/AIS_DataMapOfILC.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

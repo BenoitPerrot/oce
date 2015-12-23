@@ -20,13 +20,13 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_Plane.hxx>
+#include <Visualization/AIS/AIS_Plane.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Plane)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

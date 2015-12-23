@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_QABugs_PresentableObject.hxx>
 
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

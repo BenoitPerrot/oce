@@ -19,8 +19,8 @@
 #include <TNaming_NamedShape.hxx>
 #include <TPrsStd_AISPresentation.hxx>
 #include <TPrsStd_AISViewer.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <TPrsStd_DriverTable.hxx>

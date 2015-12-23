@@ -15,7 +15,7 @@
 
 #include <XCAFPrs_AISObject.hxx>
 
-#include <AIS_DisplayMode.hxx>
+#include <Visualization/AIS/AIS_DisplayMode.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

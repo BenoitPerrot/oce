@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_Drawer.hxx>
-#include <AIS_Triangulation.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Triangulation.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

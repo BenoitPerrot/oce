@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <AIS_Selection.hxx>
+#include <Visualization/AIS/AIS_Selection.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Selection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Selection)
 #endif
 
 #ifdef OCC138      //VTN Avoding infinit loop in AddOrRemoveSelected and AddOrRemoveCurrentObject methods.
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #endif
 
 #ifndef USE_MAP

@@ -16,14 +16,14 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_MultipleConnectedInteractive.hxx>
+#include <Visualization/AIS/AIS_MultipleConnectedInteractive.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MultipleConnectedInteractive)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_MultipleConnectedInteractive)
 IMPLEMENT_DOWNCAST(AIS_MultipleConnectedInteractive,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_MultipleConnectedInteractive)
-#include <AIS_ConnectedInteractive.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_ConnectedInteractive.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 
 #include <PrsMgr_ModedPresentation.hxx>
 #include <PrsMgr_Presentation.hxx>

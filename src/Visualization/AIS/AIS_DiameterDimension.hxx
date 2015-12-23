@@ -16,8 +16,8 @@
 #ifndef _AIS_DiameterDimension_HeaderFile
 #define _AIS_DiameterDimension_HeaderFile
 
-#include <AIS.hxx>
-#include <AIS_Dimension.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Dimension.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/Standard/Standard.hxx>

@@ -18,9 +18,9 @@
 #include <Draw_Interpretor.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

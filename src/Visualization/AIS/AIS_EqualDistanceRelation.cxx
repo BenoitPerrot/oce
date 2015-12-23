@@ -22,12 +22,12 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <AIS_EqualDistanceRelation.hxx>
+#include <Visualization/AIS/AIS_EqualDistanceRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_EqualDistanceRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -43,7 +43,7 @@ IMPLEMENT_DOWNCAST(AIS_EqualDistanceRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 
 #include <DsgPrs_EqualDistancePresentation.hxx>
-#include <AIS_LengthDimension.hxx>
+#include <Visualization/AIS/AIS_LengthDimension.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <DsgPrs_EqualDistancePresentation.hxx>
 #include <SelectMgr_EntityOwner.hxx>
@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <Prs3d_ArrowAspect.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ElCLib.hxx>
 //=======================================================================
 //function : AIS_EqualDistanceRelation

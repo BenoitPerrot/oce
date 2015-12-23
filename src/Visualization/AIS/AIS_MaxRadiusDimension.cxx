@@ -27,7 +27,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_MaxRadiusDimension.hxx>
+#include <Visualization/AIS/AIS_MaxRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MaxRadiusDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_MaxRadiusDimension)
 IMPLEMENT_DOWNCAST(AIS_MaxRadiusDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
-#include <AIS_EllipseRadiusDimension.hxx>
+#include <Visualization/AIS/AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Prs3d_DimensionAspect.hxx>
@@ -80,8 +80,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <Precision.hxx>
 #include <DsgPrs_EllipseRadiusPresentation.hxx>

@@ -19,7 +19,7 @@
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <AIS_BadEdgeFilter.hxx>
+#include <Visualization/AIS/AIS_BadEdgeFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_BadEdgeFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

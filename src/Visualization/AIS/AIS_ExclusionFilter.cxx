@@ -16,7 +16,7 @@
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <AIS_ExclusionFilter.hxx>
+#include <Visualization/AIS/AIS_ExclusionFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_ExclusionFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ExclusionFilter)
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerListOfInteger.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 
 //=======================================================================
 //function : AIS_ExclusionFilter

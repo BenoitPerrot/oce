@@ -4,7 +4,7 @@
 
 #include <QObject>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 
 class TranslateDlg;

@@ -14,7 +14,7 @@
 // last modified by SRN 01/08/2000    
 
 #include <TDF_Label.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_NamedShapeDriver)
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 
 #include <TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <AIS_Shape.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <TDataStd.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TPrsStd_DriverTable.hxx> 

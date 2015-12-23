@@ -22,7 +22,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_ConcentricRelation.hxx>
+#include <Visualization/AIS/AIS_ConcentricRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_ConcentricRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 
 //=======================================================================
 //function : Constructor

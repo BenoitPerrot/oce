@@ -19,11 +19,11 @@
 #define IMP120100	// GG Add SetTextColor() and SetArrowColor() methods
 
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_Axis.hxx>
-#include <AIS_Point.hxx>
-#include <AIS_Plane.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Point.hxx>
+#include <Visualization/AIS/AIS_Plane.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
@@ -31,7 +31,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Trihedron)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -70,10 +70,10 @@ IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Aspect_TypeOfLine.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_Plane.hxx>
-#include <AIS_Axis.hxx>
-#include <AIS_Point.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Plane.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Point.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <Select3D_SensitiveBox.hxx>

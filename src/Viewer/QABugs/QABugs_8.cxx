@@ -19,9 +19,9 @@
 #include <Draw_Interpretor.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
@@ -30,8 +30,8 @@
 
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_Sewing.hxx>
 
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 

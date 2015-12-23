@@ -32,7 +32,7 @@
 #include <V3d_View.hxx>
 #include <TPrsStd_AISPresentation.hxx>
 #include <TPrsStd_AISViewer.hxx>
-#include <AIS_InteractiveContext.hxx> 
+#include <Visualization/AIS/AIS_InteractiveContext.hxx> 
 
 //=======================================================================
 //function : DPrsStd_AISInitViewer

@@ -27,7 +27,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_MinRadiusDimension.hxx>
+#include <Visualization/AIS/AIS_MinRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MinRadiusDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_MinRadiusDimension)
 IMPLEMENT_DOWNCAST(AIS_MinRadiusDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_MinRadiusDimension)
 
-#include <AIS_EllipseRadiusDimension.hxx>
+#include <Visualization/AIS/AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Prs3d_DimensionAspect.hxx>
@@ -81,8 +81,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_MinRadiusDimension)
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <Precision.hxx>
 #include <DsgPrs_EllipseRadiusPresentation.hxx>

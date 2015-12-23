@@ -3,25 +3,25 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_MapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_MapOfInteractive.hxx>
 
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <AIS_StdMapNodeOfMapOfInteractive.hxx>
-#include <AIS_MapIteratorOfMapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_StdMapNodeOfMapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_MapIteratorOfMapOfInteractive.hxx>
  
 
 #define TheKey Handle(AIS_InteractiveObject)
-#define TheKey_hxx <AIS_InteractiveObject.hxx>
+#define TheKey_hxx <Visualization/AIS/AIS_InteractiveObject.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_StdMapNode AIS_StdMapNodeOfMapOfInteractive
-#define TCollection_StdMapNode_hxx <AIS_StdMapNodeOfMapOfInteractive.hxx>
+#define TCollection_StdMapNode_hxx <Visualization/AIS/AIS_StdMapNodeOfMapOfInteractive.hxx>
 #define TCollection_MapIterator AIS_MapIteratorOfMapOfInteractive
-#define TCollection_MapIterator_hxx <AIS_MapIteratorOfMapOfInteractive.hxx>
+#define TCollection_MapIterator_hxx <Visualization/AIS/AIS_MapIteratorOfMapOfInteractive.hxx>
 #define Handle_TCollection_StdMapNode Handle_AIS_StdMapNodeOfMapOfInteractive
 #define TCollection_StdMapNode_Type_() AIS_StdMapNodeOfMapOfInteractive_Type_()
 #define TCollection_Map AIS_MapOfInteractive
-#define TCollection_Map_hxx <AIS_MapOfInteractive.hxx>
+#define TCollection_Map_hxx <Visualization/AIS/AIS_MapOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_Map.gxx>
 

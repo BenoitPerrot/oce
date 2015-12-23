@@ -14,10 +14,10 @@
 #ifndef _AIS_LengthDimension_HeaderFile
 #define _AIS_LengthDimension_HeaderFile
 
-#include <AIS.hxx>
-#include <AIS_Dimension.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_KindOfDimension.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Dimension.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_KindOfDimension.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

@@ -21,7 +21,7 @@
 #include <Prs3d_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
-#include <AIS_GraphicTool.hxx>
+#include <Visualization/AIS/AIS_GraphicTool.hxx>
 
 
 #include <Foundation/Quantity/Quantity_Color.hxx>

@@ -22,7 +22,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_PerpendicularRelation.hxx>
+#include <Visualization/AIS/AIS_PerpendicularRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_PerpendicularRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_PerpendicularRelation)
 IMPLEMENT_DOWNCAST(AIS_PerpendicularRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

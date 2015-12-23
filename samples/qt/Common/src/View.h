@@ -5,7 +5,7 @@
 #include <QAction>
 #include <QList>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <V3d_View.hxx>
 
 class TopoDS_Shape;

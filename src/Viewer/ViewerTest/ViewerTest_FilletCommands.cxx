@@ -46,9 +46,9 @@
 #include <DrawTrSurf.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 
 #ifdef _WIN32
 //#define strcasecmp strcmp Already defined in Standard

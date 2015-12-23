@@ -29,7 +29,7 @@
 #include <XSDRAW.hxx>
 #include <XSDRAWSTEP.hxx>
 #include <XSDRAWIGES.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
 #include <Draw.hxx>
 #include <Draw_ProgressIndicator.hxx>

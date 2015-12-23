@@ -24,7 +24,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_ParallelRelation.hxx>
+#include <Visualization/AIS/AIS_ParallelRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_ParallelRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -53,8 +53,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveSegment.hxx>

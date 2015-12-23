@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <OpenGl_GlCore20.hxx>
-#include <AIS_Shape.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <DBRep.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_ExportFormat.hxx>
@@ -47,7 +47,7 @@
 #include <NIS_View.hxx>
 #include <NIS_Triangulated.hxx>
 #include <NIS_InteractiveContext.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>

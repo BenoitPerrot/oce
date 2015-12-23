@@ -23,21 +23,21 @@
 
 #ifdef OCC218
 #include <DsgPrs_XYZAxisPresentation.hxx>
-#include <AIS_Line.hxx>
+#include <Visualization/AIS/AIS_Line.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #endif
 
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_Line.hxx>
-#include <AIS_Point.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Line.hxx>
+#include <Visualization/AIS/AIS_Point.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <AIS_PlaneTrihedron.hxx>
+#include <Visualization/AIS/AIS_PlaneTrihedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_PlaneTrihedron)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PlaneTrihedron)
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Aspect_TypeOfLine.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 

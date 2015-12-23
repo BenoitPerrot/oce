@@ -5,7 +5,7 @@
 #include <QApplication>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 
 TopoDS_Shape
 MakeBottle(const Standard_Real myWidth , const Standard_Real myHeight , const Standard_Real myThickness);

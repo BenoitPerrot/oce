@@ -18,7 +18,7 @@
 
 
 #include <TDataXtd_Constraint.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
@@ -38,25 +38,25 @@
 #include <TDF_Reference.hxx>
 
 
-#include <AIS_OffsetDimension.hxx>
-#include <AIS_LengthDimension.hxx>
-#include <AIS_ParallelRelation.hxx>
-#include <AIS_TangentRelation.hxx>
-#include <AIS_IdenticRelation.hxx>
-#include <AIS_AngleDimension.hxx>
-#include <AIS_RadiusDimension.hxx>
-#include <AIS_DiameterDimension.hxx>
-#include <AIS_FixRelation.hxx>
-#include <AIS_PerpendicularRelation.hxx>
-#include <AIS_ConcentricRelation.hxx>
-#include <AIS_SymmetricRelation.hxx>
-#include <AIS_MidPointRelation.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_EqualRadiusRelation.hxx>
-#include <AIS_EqualDistanceRelation.hxx>
-#include <AIS_MinRadiusDimension.hxx> 
-#include <AIS_MaxRadiusDimension.hxx>
+#include <Visualization/AIS/AIS_OffsetDimension.hxx>
+#include <Visualization/AIS/AIS_LengthDimension.hxx>
+#include <Visualization/AIS/AIS_ParallelRelation.hxx>
+#include <Visualization/AIS/AIS_TangentRelation.hxx>
+#include <Visualization/AIS/AIS_IdenticRelation.hxx>
+#include <Visualization/AIS/AIS_AngleDimension.hxx>
+#include <Visualization/AIS/AIS_RadiusDimension.hxx>
+#include <Visualization/AIS/AIS_DiameterDimension.hxx>
+#include <Visualization/AIS/AIS_FixRelation.hxx>
+#include <Visualization/AIS/AIS_PerpendicularRelation.hxx>
+#include <Visualization/AIS/AIS_ConcentricRelation.hxx>
+#include <Visualization/AIS/AIS_SymmetricRelation.hxx>
+#include <Visualization/AIS/AIS_MidPointRelation.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_EqualRadiusRelation.hxx>
+#include <Visualization/AIS/AIS_EqualDistanceRelation.hxx>
+#include <Visualization/AIS/AIS_MinRadiusDimension.hxx> 
+#include <Visualization/AIS/AIS_MaxRadiusDimension.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

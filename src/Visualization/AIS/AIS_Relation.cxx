@@ -19,7 +19,7 @@
 #define BUC60915 	//GG 05/06/01 Enable to compute the requested arrow size 
 //			if any in all dimensions.
 
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 #include <Graphic3d_Group.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <AIS_Relation.hxx>
+#include <Visualization/AIS/AIS_Relation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Relation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -46,8 +46,8 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_Relation)
 IMPLEMENT_DOWNCAST(AIS_Relation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 
-#include <AIS_Drawer.hxx>
-#include <AIS_GraphicTool.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_GraphicTool.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

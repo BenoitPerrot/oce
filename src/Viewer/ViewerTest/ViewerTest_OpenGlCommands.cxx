@@ -15,9 +15,9 @@
 
 #include <ViewerTest.hxx>
 
-#include <AIS_Drawer.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Graphic3d_Group.hxx>

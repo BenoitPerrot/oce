@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_TexturedShape.hxx>
+#include <Visualization/AIS/AIS_TexturedShape.hxx>
 
-#include <AIS_Drawer.hxx>
-#include <AIS_GraphicTool.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_GraphicTool.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

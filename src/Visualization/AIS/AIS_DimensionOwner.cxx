@@ -16,7 +16,7 @@
 
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_PresentationManager.hxx>
-#include <AIS_DimensionOwner.hxx>
+#include <Visualization/AIS/AIS_DimensionOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_DimensionOwner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_DimensionOwner)
 IMPLEMENT_DOWNCAST(AIS_DimensionOwner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_DimensionOwner)
-#include <AIS_Dimension.hxx>
+#include <Visualization/AIS/AIS_Dimension.hxx>
 
 #include <StdSelect_Shape.hxx>
 

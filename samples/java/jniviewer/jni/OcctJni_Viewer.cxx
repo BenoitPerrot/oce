@@ -14,7 +14,7 @@
 #include <OcctJni_Viewer.hxx>
 #include <OcctJni_MsgPrinter.hxx>
 
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <Image_AlienPixMap.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

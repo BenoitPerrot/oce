@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_Mesh)
 IMPLEMENT_DOWNCAST(MeshVS_Mesh,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 
 #include <Prs3d_Root.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

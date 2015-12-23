@@ -21,15 +21,15 @@
 #include <Draw_Interpretor.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
@@ -74,8 +74,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
@@ -499,7 +499,7 @@ Standard_Integer  OCC157(Draw_Interpretor& di,
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffset.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
 #include <GeomAbs_JoinType.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
@@ -592,7 +592,7 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 #include<ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeHalfSpace.hxx>
 #include<Handle_Geom_CartesianPoint.hxx>
 #include<Geometry/Geom/Geom_CartesianPoint.hxx>
-#include<AIS_Point.hxx>
+#include<Visualization/AIS/AIS_Point.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>

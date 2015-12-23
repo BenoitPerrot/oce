@@ -8,8 +8,8 @@
 //for object display
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 //topology
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>

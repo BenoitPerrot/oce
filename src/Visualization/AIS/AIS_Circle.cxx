@@ -22,7 +22,7 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_Circle.hxx>
+#include <Visualization/AIS/AIS_Circle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Circle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -47,10 +47,10 @@ IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_GraphicTool.hxx>
+#include <Visualization/AIS/AIS_GraphicTool.hxx>
 
 //=======================================================================
 //function : AIS_Circle

@@ -28,8 +28,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>

@@ -25,7 +25,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_EqualRadiusRelation.hxx>
+#include <Visualization/AIS/AIS_EqualRadiusRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_EqualRadiusRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_EqualRadiusRelation)
 IMPLEMENT_DOWNCAST(AIS_EqualRadiusRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 #include <DsgPrs_EqualRadiusPresentation.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_ArrowAspect.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 //=======================================================================
 //function : AIS_EqualRadiusRelation

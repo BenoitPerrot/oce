@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <AIS_EllipseRadiusDimension.hxx>
+#include <Visualization/AIS/AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_EllipseRadiusDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
 
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 
 #include <Precision.hxx>
 

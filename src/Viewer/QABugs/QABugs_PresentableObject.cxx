@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(QABugs_PresentableObject)
 #include <Graphic3d_ArrayOfTriangles.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 QABugs_PresentableObject::QABugs_PresentableObject(const PrsMgr_TypeOfPresentation3d theTypeOfPresentation3d)
      :AIS_InteractiveObject(theTypeOfPresentation3d)

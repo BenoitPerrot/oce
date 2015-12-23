@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_ConstraintDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_ConstraintDriver)
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_ConstraintDriver)
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDataStd_Real.hxx>
 #include <TDataXtd_Position.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_Relation.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Relation.hxx>
 
 //=======================================================================
 //function :

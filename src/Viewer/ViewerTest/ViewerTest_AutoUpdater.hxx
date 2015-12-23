@@ -16,7 +16,7 @@
 #ifndef _ViewerTest_AutoUpdater_HeaderFile
 #define _ViewerTest_AutoUpdater_HeaderFile
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <V3d_View.hxx>
 
 class TCollection_AsciiString;

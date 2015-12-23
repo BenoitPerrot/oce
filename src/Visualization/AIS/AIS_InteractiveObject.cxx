@@ -29,15 +29,15 @@
 #define OCC708          //SAV unsetting transformation correctly
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_InteractiveObject)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveObject)
 #include <PrsMgr_ModedPresentation.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <AIS_GraphicTool.hxx>
+#include <Visualization/AIS/AIS_GraphicTool.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>

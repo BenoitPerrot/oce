@@ -31,11 +31,11 @@
 #include <V3d_View.hxx>
 #include <V3d.hxx>
 
-#include <AIS_Shape.hxx>
-#include <AIS_DisplayMode.hxx>
-#include <AIS_PointCloud.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_DisplayMode.hxx>
+#include <Visualization/AIS/AIS_PointCloud.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <AIS_MapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_MapOfInteractive.hxx>
 #include <ViewerTest_AutoUpdater.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
@@ -60,23 +60,23 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <Draw_Window.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_DisplayMode.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_DisplayMode.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Geometry/Geom/Geom_Axis1Placement.hxx>
-#include <AIS_Trihedron.hxx>
-#include <AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
@@ -98,8 +98,8 @@
 #include <Graphic3d_Group.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 
-#include <AIS_Circle.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Circle.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
@@ -113,8 +113,8 @@
 #include <StdPrs_ShadedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
-#include <AIS_MultipleConnectedInteractive.hxx>
-#include <AIS_ConnectedInteractive.hxx>
+#include <Visualization/AIS/AIS_MultipleConnectedInteractive.hxx>
+#include <Visualization/AIS/AIS_ConnectedInteractive.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
@@ -152,7 +152,7 @@ extern Handle(AIS_InteractiveContext)& TheAISContext();
 //purpose  : Create a plane with a 2D  trihedron from a faceselection
 //Draw arg : vtri2d  name
 //==============================================================================
-#include <AIS_PlaneTrihedron.hxx>
+#include <Visualization/AIS/AIS_PlaneTrihedron.hxx>
 
 
 
@@ -441,7 +441,7 @@ static int VSize (Draw_Interpretor& di, Standard_Integer argc, const char** argv
 //purpose  : Create a plane from a trihedron selection. If no arguments are set, the default
 //Draw arg : vplanetri  name
 //==============================================================================
-#include <AIS_Plane.hxx>
+#include <Visualization/AIS/AIS_Plane.hxx>
 
 
 
@@ -778,7 +778,7 @@ static int VAxisBuilder(Draw_Interpretor& di, Standard_Integer argc, const char*
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <AIS_Point.hxx>
+#include <Visualization/AIS/AIS_Point.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
 static int VPointBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv)
@@ -1762,7 +1762,7 @@ static int VChangePlane (Draw_Interpretor& /*theDi*/, Standard_Integer theArgsNb
 //                           [Xa] [Ya] [Za]   [Xb] [Yb] [Zb]
 //==============================================================================
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
-#include <AIS_Line.hxx>
+#include <Visualization/AIS/AIS_Line.hxx>
 
 
 static int VLineBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv)
@@ -2628,7 +2628,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 
-#include <AIS_Triangulation.hxx>
+#include <Visualization/AIS/AIS_Triangulation.hxx>
 #include <StdPrs_ToolShadedShape.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>

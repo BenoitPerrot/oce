@@ -24,7 +24,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <AIS_Point.hxx>
+#include <Visualization/AIS/AIS_Point.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -51,9 +51,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <StdPrs_Point.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 //=======================================================================
 //function : AIS_Point
 //purpose  : 

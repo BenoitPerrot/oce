@@ -28,14 +28,14 @@
 #include <SelectMgr_SelectionManager.hxx>
 #include <V3d_Viewer.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <SelectMgr_OrFilter.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <V3d_View.hxx>
-#include <AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_LineAspect.hxx>
@@ -47,18 +47,18 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
-#include <AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <AIS_Selection.hxx>
-#include <AIS_StatusOfDetection.hxx>
-#include <AIS_StatusOfPick.hxx>
+#include <Visualization/AIS/AIS_Selection.hxx>
+#include <Visualization/AIS/AIS_StatusOfDetection.hxx>
+#include <Visualization/AIS/AIS_StatusOfPick.hxx>
 
-#include <AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
-#include <AIS_LocalContext.hxx>
-#include <AIS_GlobalStatus.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_GlobalStatus.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 
 #include <Aspect_Grid.hxx>
 
@@ -75,8 +75,8 @@
 #include <Prs3d_Presentation.hxx>
 
 #ifdef OCC9657
-#include <AIS_MapOfInteractive.hxx>
-#include <AIS_MapIteratorOfMapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_MapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_MapIteratorOfMapOfInteractive.hxx>
 #endif
 
 //=======================================================================

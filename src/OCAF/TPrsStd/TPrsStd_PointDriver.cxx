@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_PointDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_PointDriver)
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_PointDriver)
 #include <TDataXtd_Point.hxx>
 #include <TDataXtd_Geometry.hxx>
 //#include <TDataStd_Datum.hxx>
-#include <AIS_Point.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Point.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

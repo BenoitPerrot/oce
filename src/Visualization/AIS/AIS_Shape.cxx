@@ -22,8 +22,8 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Shape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -85,9 +85,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <StdSelect_BRepOwner.hxx>
 #include <StdSelect_DisplayMode.hxx>
 
-#include <AIS_GraphicTool.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_GraphicTool.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
 #include <Precision.hxx>
 

@@ -14,7 +14,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <AIS_LocalStatus.hxx>
+#include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_LocalStatus)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

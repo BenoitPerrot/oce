@@ -143,9 +143,9 @@
 //#include <TDataStd_Constraint.hxx>
 //#include <TDataStd_ConstraintEnum.hxx>
 //#include <TNaming_Tool.hxx>
-//#include <AIS_InteractiveObject.hxx>
+//#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 //#include <TPrsStd_ConstraintTools.hxx>
-//#include <AIS_DiameterDimension.hxx>
+//#include <Visualization/AIS/AIS_DiameterDimension.hxx>
 //#include <TPrsStd_Position.hxx>
 //#include <TPrsStd_AISPresentation.hxx>
 //#include <TNaming_Builder.hxx>

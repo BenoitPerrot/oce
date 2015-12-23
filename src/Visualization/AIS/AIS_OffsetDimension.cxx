@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <AIS_OffsetDimension.hxx>
+#include <Visualization/AIS/AIS_OffsetDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_OffsetDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_OffsetDimension)
 IMPLEMENT_DOWNCAST(AIS_OffsetDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_OffsetDimension)
 
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_Line.hxx>
+#include <Visualization/AIS/AIS_Line.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Line)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -48,11 +48,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <StdPrs_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Geometry/GC/GC_MakeSegment.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_GraphicTool.hxx>
+#include <Visualization/AIS/AIS_GraphicTool.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 //==================================================================

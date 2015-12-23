@@ -23,7 +23,7 @@
 #include <Prs3d_DatumAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Drawer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -7,7 +7,7 @@
 #include <QObject>
 #include <QList>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <V3d_Viewer.hxx>
 
 class ApplicationCommonWindow;

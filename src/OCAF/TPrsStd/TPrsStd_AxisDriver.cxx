@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_AxisDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_AxisDriver)
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_AxisDriver)
 #include <TDF_Label.hxx>
 #include <TDataXtd_Axis.hxx>
 #include <TDataXtd_Geometry.hxx>
-#include <AIS_Axis.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TNaming_Tool.hxx>

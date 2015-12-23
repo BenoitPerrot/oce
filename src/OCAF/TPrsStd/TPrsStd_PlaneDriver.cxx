@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_PlaneDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_PlaneDriver)
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_PlaneDriver)
 #include <TDataXtd_Plane.hxx>
 //#include <TDataStd_Datum.hxx>
 #include <TDataXtd_Geometry.hxx>
-#include <AIS_Plane.hxx>
-#include <AIS_Drawer.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_Plane.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

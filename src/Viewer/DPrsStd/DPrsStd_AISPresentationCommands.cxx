@@ -36,9 +36,9 @@
 #include <TPrsStd_AISPresentation.hxx>
 #include <TPrsStd_AISViewer.hxx>
 #include <ViewerTest.hxx>
-#include <AIS_InteractiveContext.hxx> 
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_Drawer.hxx> 
+#include <Visualization/AIS/AIS_InteractiveContext.hxx> 
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx> 
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

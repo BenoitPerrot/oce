@@ -25,7 +25,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_SymmetricRelation.hxx>
+#include <Visualization/AIS/AIS_SymmetricRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_SymmetricRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_SymmetricRelation)
 IMPLEMENT_DOWNCAST(AIS_SymmetricRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <SelectMgr_EntityOwner.hxx>

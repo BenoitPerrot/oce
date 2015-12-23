@@ -18,7 +18,7 @@
 // +---------------------------------------------------------------------------+
 // !      ivan ! SetMode                                 ! 5-04-2001! 3.0-00-1!
 // +---------------------------------------------------------------------------+
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_AISPresentation)
 #include <TDF_Tool.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TPrsStd_AISViewer.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <TPrsStd_Driver.hxx>
 #include <TPrsStd_DriverTable.hxx>
 

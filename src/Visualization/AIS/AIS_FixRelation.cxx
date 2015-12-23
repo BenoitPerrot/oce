@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <AIS_FixRelation.hxx>
+#include <Visualization/AIS/AIS_FixRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_FixRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_FixRelation)
 IMPLEMENT_DOWNCAST(AIS_FixRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
@@ -89,7 +89,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 
 #include <DsgPrs_FixPresentation.hxx>
 
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 
 static Standard_Boolean InDomain(const Standard_Real fpar,
 					const Standard_Real lpar,

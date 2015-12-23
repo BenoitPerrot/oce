@@ -17,8 +17,8 @@
 #include <QWidget>
 #include <QStyleFactory>
 
-#include <AIS_Shape.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 
 #include <Foundation/FSD/FSD_File.hxx>
 

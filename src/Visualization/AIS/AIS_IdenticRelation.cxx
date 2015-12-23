@@ -29,7 +29,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <AIS_IdenticRelation.hxx>
+#include <Visualization/AIS/AIS_IdenticRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_IdenticRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -44,9 +44,9 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_IdenticRelation)
 IMPLEMENT_DOWNCAST(AIS_IdenticRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 
-#include <AIS.hxx>
-#include <AIS_Shape.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

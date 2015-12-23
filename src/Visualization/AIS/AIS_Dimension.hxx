@@ -16,14 +16,14 @@
 #ifndef _AIS_Dimension_HeaderFile
 #define _AIS_Dimension_HeaderFile
 
-#include <AIS_DimensionSelectionMode.hxx>
-#include <AIS_DimensionOwner.hxx>
-#include <AIS_DisplaySpecialSymbol.hxx>
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_KindOfInteractive.hxx>
-#include <AIS_KindOfDimension.hxx>
-#include <AIS_KindOfSurface.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_DimensionSelectionMode.hxx>
+#include <Visualization/AIS/AIS_DimensionOwner.hxx>
+#include <Visualization/AIS/AIS_DisplaySpecialSymbol.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_KindOfInteractive.hxx>
+#include <Visualization/AIS/AIS_KindOfDimension.hxx>
+#include <Visualization/AIS/AIS_KindOfSurface.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Prs3d_ArrowAspect.hxx>

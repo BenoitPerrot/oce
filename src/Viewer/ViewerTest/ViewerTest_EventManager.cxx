@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ViewerTest_EventManager.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ViewerTest_EventManager)
 IMPLEMENT_DOWNCAST(ViewerTest_EventManager,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ViewerTest_EventManager)
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Aspect_Grid.hxx>
 #include <NIS_View.hxx>
 

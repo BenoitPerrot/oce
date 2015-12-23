@@ -27,7 +27,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_Chamf2dDimension.hxx>
+#include <Visualization/AIS/AIS_Chamf2dDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Chamf2dDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -75,8 +75,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/ProjLib/ProjLib.hxx>

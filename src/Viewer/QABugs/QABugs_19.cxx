@@ -21,8 +21,8 @@
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <AIS_InteractiveContext.hxx>
-#include <AIS_TexturedShape.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_TexturedShape.hxx>
 #include <Image_PixMap.hxx>
 #include <Image_Color.hxx>
 
@@ -2882,7 +2882,7 @@ static Standard_Integer OCC7570 (Draw_Interpretor& di, Standard_Integer n, const
   return 0;
 }
 
-#include <AIS_TypeFilter.hxx>
+#include <Visualization/AIS/AIS_TypeFilter.hxx>
 //=======================================================================
 //function : OCC25340
 //purpose  : 

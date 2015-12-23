@@ -5,7 +5,7 @@
 #include <QList>
 #include <QPushButton>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 
 class DialogMaterial : public QDialog
 {

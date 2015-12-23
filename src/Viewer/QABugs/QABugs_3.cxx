@@ -65,8 +65,8 @@ static int BUC60623(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 }
 
 #include<ViewerTest.hxx>
-#include<AIS_InteractiveContext.hxx>
-#include<AIS_Shape.hxx>
+#include<Visualization/AIS/AIS_InteractiveContext.hxx>
+#include<Visualization/AIS/AIS_Shape.hxx>
   
 static int BUC60569(Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
@@ -227,7 +227,7 @@ static int BUC60609(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 
 #include<ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include<Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include<AIS_LengthDimension.hxx>
+#include<Visualization/AIS/AIS_LengthDimension.hxx>
 
 static Standard_Integer BUC60632(Draw_Interpretor& di, Standard_Integer /*n*/, const char ** a)
 {
@@ -325,7 +325,7 @@ Standard_Integer ksection(Draw_Interpretor& di, Standard_Integer n, const char *
 }
 
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
 
 static Standard_Integer BUC60574(Draw_Interpretor& di, Standard_Integer /*n*/, const char ** a)
 {

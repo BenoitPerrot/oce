@@ -14,7 +14,7 @@
 #ifndef _XCAFPrs_AISObject_HeaderFile
 #define _XCAFPrs_AISObject_HeaderFile
 
-#include <AIS_ColoredShape.hxx>
+#include <Visualization/AIS/AIS_ColoredShape.hxx>
 
 #include <TDF_Label.hxx>
 

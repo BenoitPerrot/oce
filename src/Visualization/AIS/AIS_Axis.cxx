@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_Axis.hxx>
+#include <Visualization/AIS/AIS_Axis.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_Axis)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Axis)
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <DsgPrs_XYZAxisPresentation.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 

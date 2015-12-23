@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <AIS_GlobalStatus.hxx>
+#include <Visualization/AIS/AIS_GlobalStatus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_GlobalStatus)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

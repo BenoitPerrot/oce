@@ -22,7 +22,7 @@
 #include <Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <AIS_TangentRelation.hxx>
+#include <Visualization/AIS/AIS_TangentRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_TangentRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -63,9 +63,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>

@@ -18,7 +18,7 @@
 #include <Handle_MeshVS_Drawer.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <MeshVS_MeshSelectionMethod.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>

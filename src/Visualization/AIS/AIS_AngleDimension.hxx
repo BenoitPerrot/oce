@@ -15,7 +15,7 @@
 #ifndef _AIS_AngleDimension_HeaderFile
 #define _AIS_AngleDimension_HeaderFile
 
-#include <AIS_Dimension.hxx>
+#include <Visualization/AIS/AIS_Dimension.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>

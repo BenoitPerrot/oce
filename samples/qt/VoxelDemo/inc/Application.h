@@ -2,7 +2,7 @@
 #define APPLICATION_H
 
 #include <qmainwindow.h>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <Voxel_Prs.hxx>
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>

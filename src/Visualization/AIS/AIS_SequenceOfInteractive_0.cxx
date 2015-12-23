@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <AIS_SequenceOfInteractive.hxx>
+#include <Visualization/AIS/AIS_SequenceOfInteractive.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <AIS_InteractiveObject.hxx>
-#include <AIS_SequenceNodeOfSequenceOfInteractive.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_SequenceNodeOfSequenceOfInteractive.hxx>
  
 
 #define SeqItem Handle(AIS_InteractiveObject)
-#define SeqItem_hxx <AIS_InteractiveObject.hxx>
+#define SeqItem_hxx <Visualization/AIS/AIS_InteractiveObject.hxx>
 #define TCollection_SequenceNode AIS_SequenceNodeOfSequenceOfInteractive
-#define TCollection_SequenceNode_hxx <AIS_SequenceNodeOfSequenceOfInteractive.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/AIS/AIS_SequenceNodeOfSequenceOfInteractive.hxx>
 #define Handle_TCollection_SequenceNode Handle_AIS_SequenceNodeOfSequenceOfInteractive
 #define TCollection_SequenceNode_Type_() AIS_SequenceNodeOfSequenceOfInteractive_Type_()
 #define TCollection_Sequence AIS_SequenceOfInteractive
-#define TCollection_Sequence_hxx <AIS_SequenceOfInteractive.hxx>
+#define TCollection_Sequence_hxx <Visualization/AIS/AIS_SequenceOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

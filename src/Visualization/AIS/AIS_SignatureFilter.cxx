@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <AIS_SignatureFilter.hxx>
+#include <Visualization/AIS/AIS_SignatureFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_SignatureFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_SignatureFilter)
 IMPLEMENT_DOWNCAST(AIS_SignatureFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_SignatureFilter)
 
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 
 AIS_SignatureFilter::AIS_SignatureFilter(const AIS_KindOfInteractive TheKind,
 					 const Standard_Integer      TheSignature):

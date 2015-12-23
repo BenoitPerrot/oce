@@ -30,12 +30,12 @@
 //		Many thanks to Philippe CARRET for the helpfull he has 
 //		give to accelerate the resolution of this problem.
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <SelectMgr_SelectionManager.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <SelectMgr_OrFilter.hxx>
 #include <SelectMgr_Filter.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Select3D_Projector.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
@@ -46,9 +46,9 @@
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
-#include <AIS_LocalStatus.hxx>
+#include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <SelectMgr_SelectableObject.hxx>
-#include <AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_LocalContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -60,12 +60,12 @@ IMPLEMENT_DOWNCAST(AIS_LocalContext,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <SelectMgr_OrFilter.hxx>
 #include <SelectMgr_CompositionFilter.hxx>
-#include <AIS_LocalStatus.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_LocalStatus.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
-#include <AIS_ListOfInteractive.hxx>
-#include <AIS_DataMapIteratorOfDataMapOfSelStat.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfSelStat.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Prs3d_LineAspect.hxx>
@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <Prs3d_Presentation.hxx>
 #include <Aspect_TypeOfMarker.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
-#include <AIS_Selection.hxx>
+#include <Visualization/AIS/AIS_Selection.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
 #include <Visual3d_View.hxx>

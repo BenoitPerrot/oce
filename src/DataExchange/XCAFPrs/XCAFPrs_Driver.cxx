@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <XCAFPrs_Driver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

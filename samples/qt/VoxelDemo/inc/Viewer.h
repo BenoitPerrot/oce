@@ -7,7 +7,7 @@
 
 #include <QWidget.h>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <V3d_View.hxx>
 #include <OpenGl_View.hxx>

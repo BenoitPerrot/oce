@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
-#include <AIS_MidPointRelation.hxx>
+#include <Visualization/AIS/AIS_MidPointRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MidPointRelation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 
 #include <Precision.hxx>
 
-#include <AIS.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <ElCLib.hxx>

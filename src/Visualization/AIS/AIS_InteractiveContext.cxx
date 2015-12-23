@@ -40,14 +40,14 @@
 #include <SelectMgr_SelectionManager.hxx>
 #include <V3d_Viewer.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <SelectMgr_OrFilter.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <V3d_View.hxx>
-#include <AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <AIS_Drawer.hxx>
+#include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Prs3d_LineAspect.hxx>
@@ -59,9 +59,9 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <SelectMgr_Filter.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
-#include <AIS_ListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_InteractiveContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -72,23 +72,23 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_InteractiveContext)
 IMPLEMENT_DOWNCAST(AIS_InteractiveContext,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 
-//#include <AIS_DataMapIteratorOfDataMapOfInteractiveInteger.hxx>
+//#include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfInteractiveInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
-#include <AIS_LocalContext.hxx>
-#include <AIS_LocalStatus.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <Precision.hxx>
-#include <AIS_Selection.hxx>
-#include <AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
-#include <AIS_ConnectedInteractive.hxx>
-#include <AIS_MultipleConnectedInteractive.hxx>
-#include <AIS_DataMapIteratorOfDataMapOfILC.hxx>
-#include <AIS_GlobalStatus.hxx>
-#include <AIS_MapIteratorOfMapOfInteractive.hxx>
+#include <Visualization/AIS/AIS_Selection.hxx>
+#include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
+#include <Visualization/AIS/AIS_ConnectedInteractive.hxx>
+#include <Visualization/AIS/AIS_MultipleConnectedInteractive.hxx>
+#include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfILC.hxx>
+#include <Visualization/AIS/AIS_GlobalStatus.hxx>
+#include <Visualization/AIS/AIS_MapIteratorOfMapOfInteractive.hxx>
 #include <PrsMgr_ModedPresentation.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Prs3d_ShadingAspect.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
 #include <Prs3d_IsoAspect.hxx>
@@ -98,11 +98,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
-#include <AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
-#include <AIS_ListIteratorOfListOfInteractive.hxx>
+#include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 
 // In the method GetDefModes() the returned value of the selection mode 
 // is always equal to 0 if it is -1.

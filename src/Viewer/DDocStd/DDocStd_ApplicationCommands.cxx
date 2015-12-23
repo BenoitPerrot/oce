@@ -34,7 +34,7 @@
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <TDocStd_PathParser.hxx>
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <TPrsStd_AISViewer.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_Viewer.hxx>

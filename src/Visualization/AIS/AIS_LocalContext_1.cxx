@@ -70,12 +70,12 @@
 
 #define OCC9026		//AEL Performance optimization of the FindSelectedOwnerFromShape() method.
 
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <SelectMgr_SelectionManager.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <SelectMgr_OrFilter.hxx>
 #include <SelectMgr_Filter.hxx>
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Select3D_Projector.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
@@ -86,9 +86,9 @@
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
-#include <AIS_LocalStatus.hxx>
+#include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <SelectMgr_SelectableObject.hxx>
-#include <AIS_LocalContext.hxx>
+#include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
@@ -97,7 +97,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_ShadingAspect.hxx>
-#include <AIS_LocalStatus.hxx>
+#include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <StdPrs_WFShape.hxx>
 #include <Graphic3d_ArrayOfTriangles.hxx>
 #include <Graphic3d_Group.hxx>
@@ -114,10 +114,10 @@
 #include <Foundation/OSD/OSD_Environment.hxx>
 
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <AIS_Selection.hxx>
+#include <Visualization/AIS/AIS_Selection.hxx>
 #include <Aspect_Grid.hxx>
 #ifdef IMP120701
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #endif
 
 

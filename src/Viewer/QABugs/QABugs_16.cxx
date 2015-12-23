@@ -19,24 +19,24 @@
 #include <Draw_Interpretor.hxx>
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
-#include <AIS_Shape.hxx>
+#include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
-#include <AIS_Trihedron.hxx>
+#include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <AIS_Circle.hxx>
+#include <Visualization/AIS/AIS_Circle.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <AIS_AngleDimension.hxx>
+#include <Visualization/AIS/AIS_AngleDimension.hxx>
 
 #include <Aspect_Window.hxx>
 #include <V3d_View.hxx>
@@ -44,7 +44,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
-#include <AIS_PlaneTrihedron.hxx>
+#include <Visualization/AIS/AIS_PlaneTrihedron.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>

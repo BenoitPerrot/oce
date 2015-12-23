@@ -1,6 +1,6 @@
 #include <QDialog>
 #include <QWidget>
-#include <AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_InteractiveContext.hxx>
 
 class DialogTransparency : public QDialog
 {

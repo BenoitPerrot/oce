@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <AIS_RadiusDimension.hxx>
+#include <Visualization/AIS/AIS_RadiusDimension.hxx>
 
-#include <AIS.hxx>
+#include <Visualization/AIS/AIS.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <AIS_TypeFilter.hxx>
+#include <Visualization/AIS/AIS_TypeFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_TypeFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_TypeFilter)
 IMPLEMENT_DOWNCAST(AIS_TypeFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_TypeFilter)
-#include <AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/AIS_InteractiveObject.hxx>
 
 AIS_TypeFilter::AIS_TypeFilter(const AIS_KindOfInteractive TheKind):
 myKind(TheKind){}
