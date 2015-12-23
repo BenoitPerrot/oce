@@ -16,7 +16,7 @@
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <HLRTopoBRep_OutLiner.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.hxx>
 #include <HLRTest.hxx>
 #include <HLRTest_Projector.hxx>
 #include <HLRTest_OutLiner.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_HLRTopoBRep_OutLiner.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <HLRTopoBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_Data.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Shape;
@@ -72,7 +72,7 @@ private:
 };
 
 
-#include <HLRTopoBRep_OutLiner.lxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.lxx>
 
 
 

@@ -51,7 +51,7 @@ private:
 };
 
 
-#include <HLRTopoBRep_VData.lxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_VData.lxx>
 
 
 

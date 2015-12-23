@@ -97,15 +97,15 @@ private:
 };
 
 #define Item HLRTopoBRep_VData
-#define Item_hxx <HLRTopoBRep_VData.hxx>
+#define Item_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_VData.hxx>
 #define TCollection_ListNode HLRTopoBRep_ListNodeOfListOfVData
-#define TCollection_ListNode_hxx <HLRTopoBRep_ListNodeOfListOfVData.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListNodeOfListOfVData.hxx>
 #define TCollection_ListIterator HLRTopoBRep_ListIteratorOfListOfVData
-#define TCollection_ListIterator_hxx <HLRTopoBRep_ListIteratorOfListOfVData.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListIteratorOfListOfVData.hxx>
 #define Handle_TCollection_ListNode Handle_HLRTopoBRep_ListNodeOfListOfVData
 #define TCollection_ListNode_Type_() HLRTopoBRep_ListNodeOfListOfVData_Type_()
 #define TCollection_List HLRTopoBRep_ListOfVData
-#define TCollection_List_hxx <HLRTopoBRep_ListOfVData.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListOfVData.hxx>
 
 #include <Foundation/TCollection/TCollection_List.lxx>
 

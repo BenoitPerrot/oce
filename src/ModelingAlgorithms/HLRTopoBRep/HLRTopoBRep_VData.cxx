@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <HLRTopoBRep_VData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_VData.hxx>
 
 //=======================================================================
 //function : HLRTopoBRep_VData

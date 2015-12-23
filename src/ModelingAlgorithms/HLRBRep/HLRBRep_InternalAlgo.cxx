@@ -18,7 +18,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <HLRTopoBRep_OutLiner.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_SeqOfShapeBounds.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>

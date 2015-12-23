@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <HLRTopoBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_Data.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <HLRTopoBRep_OutLiner.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTopoBRep_OutLiner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(HLRTopoBRep_OutLiner)
 IMPLEMENT_DOWNCAST(HLRTopoBRep_OutLiner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRTopoBRep_OutLiner)
-#include <HLRTopoBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_DSFiller.hxx>
 #include <ModelingAlgorithms/Contap/Contap_Contour.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

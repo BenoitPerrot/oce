@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(HLRBRep_Algo)
 IMPLEMENT_DOWNCAST(HLRBRep_Algo,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRBRep_Algo)
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ShapeBounds.hxx>
-#include <HLRTopoBRep_OutLiner.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.hxx>
 
 //=======================================================================
 //function : HLRBRep_Algo

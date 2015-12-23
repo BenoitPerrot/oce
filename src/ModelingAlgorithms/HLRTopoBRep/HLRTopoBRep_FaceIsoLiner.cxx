@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <HLRTopoBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_Data.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <HLRTopoBRep_FaceIsoLiner.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_FaceIsoLiner.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

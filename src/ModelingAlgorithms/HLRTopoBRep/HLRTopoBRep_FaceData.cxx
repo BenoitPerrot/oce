@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <HLRTopoBRep_FaceData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_FaceData.hxx>
 
 //=======================================================================
 //function : FaceData

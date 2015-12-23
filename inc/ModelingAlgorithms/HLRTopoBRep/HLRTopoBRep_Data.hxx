@@ -12,11 +12,11 @@
 
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <HLRTopoBRep_DataMapOfShapeFaceData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_DataMapOfShapeFaceData.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <HLRTopoBRep_MapOfShapeListOfVData.hxx>
-#include <HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData.hxx>
-#include <HLRTopoBRep_ListIteratorOfListOfVData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_MapOfShapeListOfVData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListIteratorOfListOfVData.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -151,7 +151,7 @@ private:
 };
 
 
-#include <HLRTopoBRep_Data.lxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_Data.lxx>
 
 
 

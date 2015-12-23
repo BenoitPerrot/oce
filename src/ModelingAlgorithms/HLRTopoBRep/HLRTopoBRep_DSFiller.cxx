@@ -16,13 +16,13 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/Contap/Contap_Contour.hxx>
-#include <HLRTopoBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_Data.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingAlgorithms/Contap/Contap_Point.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <HLRTopoBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_DSFiller.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -43,7 +43,7 @@
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Geometry/AppDef/AppDef_MultiPointConstraint.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
-#include <HLRTopoBRep_FaceIsoLiner.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_FaceIsoLiner.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

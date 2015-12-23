@@ -58,7 +58,7 @@ private:
 };
 
 
-#include <HLRTopoBRep_FaceData.lxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_FaceData.lxx>
 
 
 

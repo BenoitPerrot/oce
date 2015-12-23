@@ -18,7 +18,7 @@
 // #define No_Exception
 #endif
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
-#include <HLRTopoBRep_OutLiner.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
