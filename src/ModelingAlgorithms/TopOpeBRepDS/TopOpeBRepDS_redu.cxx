@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_makeTransition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_makeTransition.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>

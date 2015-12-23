@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopOpeBRepTool_BoxSort.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_BoxSort.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

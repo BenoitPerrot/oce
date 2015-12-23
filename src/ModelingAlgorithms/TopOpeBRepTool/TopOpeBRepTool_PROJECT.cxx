@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_PROJECT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PROJECT.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -34,7 +34,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 
-#include <TopOpeBRepTool_GEOMETRY.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GEOMETRY.hxx>
 
 // ----------------------------------------------------------------------
 Standard_EXPORT void FUN_tool_bounds(const TopoDS_Edge& E,Standard_Real& f,Standard_Real& l)

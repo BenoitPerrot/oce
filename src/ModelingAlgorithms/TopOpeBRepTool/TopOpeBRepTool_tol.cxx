@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_tol.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_tol.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopOpeBRepTool_HBoxTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_HBoxTool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopOpeBRepTool_box.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 Standard_EXPORT void FTOL_FaceTolerances
 (const Bnd_Box& B1, const Bnd_Box& B2,

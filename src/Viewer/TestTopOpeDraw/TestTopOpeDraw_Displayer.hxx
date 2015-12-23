@@ -26,7 +26,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 class TestTopOpeDraw_Displayer {
 

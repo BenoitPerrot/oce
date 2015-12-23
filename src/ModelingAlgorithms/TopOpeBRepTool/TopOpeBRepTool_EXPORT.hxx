@@ -17,8 +17,8 @@
 #ifndef _TopOpeBRepTool_EXPORT_HeaderFile
 #define _TopOpeBRepTool_EXPORT_HeaderFile
 
-#include <TopOpeBRepTool_GEOMETRY.hxx>
-#include <TopOpeBRepTool_PROJECT.hxx>
-#include <TopOpeBRepTool_TOPOLOGY.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GEOMETRY.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PROJECT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOPOLOGY.hxx>
 
 #endif

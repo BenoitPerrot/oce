@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepTool_CORRISO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CORRISO.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopOpeBRepTool_IndexedDataMapOfShapeconnexity.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeconnexity.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

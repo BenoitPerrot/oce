@@ -25,7 +25,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeSet.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_EdgeBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_FaceBuilder.hxx>
@@ -50,15 +50,15 @@
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceTool.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <TopOpeBRepTool_2d.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>

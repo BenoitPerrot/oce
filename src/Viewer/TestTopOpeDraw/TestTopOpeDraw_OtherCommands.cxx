@@ -22,7 +22,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 #include <stdio.h>
 
 //-----------------------------------------------------------------------

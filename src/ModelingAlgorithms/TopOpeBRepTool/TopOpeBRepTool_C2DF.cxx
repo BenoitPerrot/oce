@@ -16,8 +16,8 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRepTool_C2DF.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_C2DF.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 //=======================================================================
 //function : TopOpeBRepTool_C2DF

@@ -51,7 +51,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 
 //=======================================================================

@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopOpeBRepTool_makeTransition.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_makeTransition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

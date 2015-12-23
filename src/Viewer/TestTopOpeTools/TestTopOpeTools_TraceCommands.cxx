@@ -18,7 +18,7 @@
 #include <Viewer/TestTopOpeTools/TestTopOpeTools_Trace.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 #ifdef OCCT_DEBUG
 TestTopOpeTools_Trace theTrace(100,"trace");

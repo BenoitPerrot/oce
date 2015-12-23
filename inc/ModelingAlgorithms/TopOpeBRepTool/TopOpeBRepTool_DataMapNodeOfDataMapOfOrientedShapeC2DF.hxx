@@ -11,7 +11,7 @@
 #include <Handle_TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepTool_C2DF.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_C2DF.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -56,17 +56,17 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopOpeBRepTool_C2DF
-#define TheItem_hxx <TopOpeBRepTool_C2DF.hxx>
+#define TheItem_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_C2DF.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF
-#define TCollection_DataMapNode_hxx <TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF.hxx>
 #define TCollection_DataMapIterator TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF
-#define TCollection_DataMapIterator_hxx <TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapIteratorOfDataMapOfOrientedShapeC2DF.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF
 #define TCollection_DataMapNode_Type_() TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF_Type_()
 #define TCollection_DataMap TopOpeBRepTool_DataMapOfOrientedShapeC2DF
-#define TCollection_DataMap_hxx <TopOpeBRepTool_DataMapOfOrientedShapeC2DF.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapOfOrientedShapeC2DF.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

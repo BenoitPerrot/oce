@@ -55,8 +55,8 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <TopOpeBRepTool_PurgeInternalEdges.hxx>
-//#include <TopOpeBRepTool_FuseEdges.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PurgeInternalEdges.hxx>
+//#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_FuseEdges.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_FuseEdges.hxx>
 
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>

@@ -72,7 +72,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurveExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
-#include <TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_GeomTool.hxx>

@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopOpeBRepTool_AncestorsTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_AncestorsTool.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
@@ -33,9 +33,9 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopOpeBRepTool_GeomTool.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRepTool_OutCurveType.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_OutCurveType.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -52,7 +52,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

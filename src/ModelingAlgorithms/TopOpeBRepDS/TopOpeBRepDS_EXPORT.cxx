@@ -30,12 +30,12 @@
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 
-#include <TopOpeBRepTool_CurveTool.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_SC.hxx>
-#include <TopOpeBRepTool_makeTransition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_makeTransition.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceTool.hxx>

@@ -47,11 +47,11 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_SC.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRepTool_makeTransition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_makeTransition.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>

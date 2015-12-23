@@ -19,22 +19,22 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopOpeBRepTool_REGUS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_REGUS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_REGUW.hxx>
-#include <TopOpeBRepTool_CLASSI.hxx>
-#include <TopOpeBRepTool_define.hxx>
-#include <TopOpeBRepTool_connexity.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_REGUW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CLASSI.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_connexity.hxx>
 
 #ifdef DRAW
-#include <TopOpeBRepTool_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DRAW.hxx>
 #endif
 
 #define M_FORWARD(ori)  (ori == TopAbs_FORWARD) 

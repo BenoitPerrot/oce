@@ -35,7 +35,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepTool_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DRAW.hxx>
 
 Standard_IMPORT Draw_Color DrawTrSurf_CurveColor(const Draw_Color col);
 Standard_IMPORT void DBRep_WriteColorOrientation ();

@@ -16,7 +16,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <TopOpeBRepTool_STATE.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_STATE.hxx>
 
 TopOpeBRepTool_STATE::TopOpeBRepTool_STATE
   (const char* name, const Standard_Boolean b) :

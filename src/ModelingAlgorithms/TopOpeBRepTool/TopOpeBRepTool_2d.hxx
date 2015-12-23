@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepTool_2d_HeaderFile
 #define _TopOpeBRepTool_2d_HeaderFile
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 Standard_EXPORT Standard_Integer FC2D_Prepare(const TopoDS_Shape& S1,const TopoDS_Shape& S2);
 Standard_EXPORT Standard_Boolean FC2D_HasC3D(const TopoDS_Edge& E);

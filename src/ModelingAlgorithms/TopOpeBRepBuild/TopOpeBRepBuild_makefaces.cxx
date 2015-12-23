@@ -25,7 +25,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeSet.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_EdgeBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_FaceBuilder.hxx>
@@ -65,10 +65,10 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
-#include <TopOpeBRepTool.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
-#include <TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
 
 
 #ifdef OCCT_DEBUG
@@ -89,7 +89,7 @@ extern void* GFABUMAKEFACEPWES_DEB;
 
 #ifdef DRAW
 #include <Viewer/DBRep/DBRep.hxx>
-#include <TopOpeBRepTool_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DRAW.hxx>
 #endif
 
 Standard_EXPORT Standard_Boolean FUN_tool_ClosedW(const TopoDS_Wire& W);

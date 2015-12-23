@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_PBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_PGTopo.hxx>
-#include <TopOpeBRepTool_Plos.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_Plos.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_PWireEdgeSet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>

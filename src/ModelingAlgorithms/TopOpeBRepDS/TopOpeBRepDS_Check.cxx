@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Check)
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceTool.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

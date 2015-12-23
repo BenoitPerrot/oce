@@ -19,7 +19,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeState.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <TopOpeBRepTool_ShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeClassifier.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

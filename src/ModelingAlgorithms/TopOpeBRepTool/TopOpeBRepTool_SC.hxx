@@ -17,9 +17,9 @@
 #ifndef _TopOpeBRepTool_SC_HeaderFile
 #define _TopOpeBRepTool_SC_HeaderFile
 
-#include <TopOpeBRepTool_define.hxx>
-#include <TopOpeBRepTool_ShapeClassifier.hxx>
-#include <TopOpeBRepTool_PShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PShapeClassifier.hxx>
 
 #define MTLsc  TopOpeBRepTool_ShapeClassifier
 #define MTLpsc TopOpeBRepTool_PShapeClassifier

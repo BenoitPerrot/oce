@@ -18,7 +18,7 @@
 #define _TopOpeBRepTool_box_HeaderFile
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepTool_HBoxTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_HBoxTool.hxx>
 
 #ifdef OCCT_DEBUG
 Standard_EXPORT Standard_Boolean TopOpeBRepTool_GettraceBOX();

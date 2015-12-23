@@ -17,8 +17,8 @@
 #ifndef _TestTopOpe_VarsTopo_HeaderFile
 #define _TestTopOpe_VarsTopo_HeaderFile
 
-#include <TopOpeBRepTool_OutCurveType.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_OutCurveType.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 class VarsTopo {
 

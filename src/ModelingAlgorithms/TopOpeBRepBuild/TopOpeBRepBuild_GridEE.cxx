@@ -25,7 +25,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeSet.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_EdgeBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_FaceBuilder.hxx>
@@ -56,8 +56,8 @@
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_TKI.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -72,7 +72,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 

@@ -25,8 +25,8 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 

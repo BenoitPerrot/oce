@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #ifdef DRAW
-#include <TopOpeBRepTool_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DRAW.hxx>
 #endif
 
-#include <TopOpeBRepTool_REGUS.hxx>
-#include <TopOpeBRepTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_REGUS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 
 //=======================================================================

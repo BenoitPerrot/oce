@@ -89,7 +89,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean ChFi3d_GetcontextFORCEBLEND(); 

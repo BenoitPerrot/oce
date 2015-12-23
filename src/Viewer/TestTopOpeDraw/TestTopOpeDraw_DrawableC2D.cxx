@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableC2D)
 IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableC2D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableC2D)
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 //=======================================================================
 //function : TestTopOpeDraw_DrawableC2D

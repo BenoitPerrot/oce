@@ -46,9 +46,9 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <GeomAbs_SurfaceType.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <TopOpeBRepTool_CurveTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
-#include <TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRep_GettraceSHA(const Standard_Integer i);

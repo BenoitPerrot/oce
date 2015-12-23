@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <TopOpeBRepTool_CurveTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
 
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_Approx.hxx>
@@ -67,7 +67,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #ifdef OCCT_DEBUG
-#include <TopOpeBRepTool_KRO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_KRO.hxx>
 TOPKRO KRO_CURVETOOL_APPRO("approximation");
 extern Standard_Boolean TopOpeBRepTool_GettraceKRO();
 extern Standard_Boolean TopOpeBRepTool_GettracePCURV();

@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopOpeBRepTool_C2DF.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_C2DF.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -49,11 +49,11 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <TopOpeBRepTool_define.hxx>
-#include <TopOpeBRepTool.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_2d.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>

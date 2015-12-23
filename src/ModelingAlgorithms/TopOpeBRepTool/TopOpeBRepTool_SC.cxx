@@ -16,8 +16,8 @@
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_SC.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
 
 // ----------------------------------------------------------------------
 static TopOpeBRepTool_PShapeClassifier TopOpeBRepTool_PSC = NULL;

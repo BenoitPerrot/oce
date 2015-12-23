@@ -25,7 +25,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeSet.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_EdgeBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_FaceBuilder.hxx>
@@ -52,7 +52,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfShapeOn1State.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -66,7 +66,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopOpeBRepTool_FuseEdges.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_FuseEdges.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepBuild_GetcontextNOFE();

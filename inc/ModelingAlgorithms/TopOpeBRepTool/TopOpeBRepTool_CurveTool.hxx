@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopOpeBRepTool_GeomTool.hxx>
-#include <TopOpeBRepTool_OutCurveType.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_OutCurveType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Curve.hxx>

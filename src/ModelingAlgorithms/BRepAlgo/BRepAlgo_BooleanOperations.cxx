@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
-#include <TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>

@@ -16,7 +16,7 @@
 
 #include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
 
-#include <TopOpeBRepTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>

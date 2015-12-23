@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -11,7 +11,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
-#include <TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -21,10 +21,10 @@
 #define Hasher TopTools_OrientedShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d
-#define TCollection_IndexedDataMapNode_hxx <TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d.hxx>
+#define TCollection_IndexedDataMapNode_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeBox2d_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfShapeBox2d
-#define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
+#define TCollection_IndexedDataMap_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

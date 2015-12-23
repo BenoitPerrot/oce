@@ -18,8 +18,8 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_BuilderON.hxx>
 
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
@@ -29,7 +29,7 @@
 #include <Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <TopOpeBRepTool_SC.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_SurfaceTool.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 

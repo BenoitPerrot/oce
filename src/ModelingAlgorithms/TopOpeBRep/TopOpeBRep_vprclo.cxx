@@ -33,9 +33,9 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 
-#include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_makeTransition.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_makeTransition.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PointIterator.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>

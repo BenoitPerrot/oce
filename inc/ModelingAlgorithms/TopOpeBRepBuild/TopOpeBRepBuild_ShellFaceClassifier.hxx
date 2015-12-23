@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopOpeBRepTool_SolidClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SolidClassifier.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_CompositeClassifier.hxx>

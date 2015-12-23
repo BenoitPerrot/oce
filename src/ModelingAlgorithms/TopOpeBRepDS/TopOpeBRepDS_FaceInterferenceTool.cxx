@@ -31,9 +31,9 @@
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 
 #ifdef OCCT_DEBUG

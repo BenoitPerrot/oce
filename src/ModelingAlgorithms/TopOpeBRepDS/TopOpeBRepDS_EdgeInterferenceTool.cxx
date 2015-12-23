@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #ifdef OCCT_DEBUG

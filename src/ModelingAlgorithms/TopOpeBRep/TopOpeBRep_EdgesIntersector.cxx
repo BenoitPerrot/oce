@@ -16,7 +16,7 @@
 
 #ifdef DRAW
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_TTOT.hxx>
-#include <TopOpeBRepTool_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DRAW.hxx>
 #endif
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
@@ -48,15 +48,15 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
-#include <TopOpeBRepTool_CurveTool.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
 #include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
 #include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
-#include <TopOpeBRepTool_2d.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_tol.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_tol.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
@@ -71,7 +71,7 @@ extern Standard_Boolean TopOpeBRep_GetcontextNOFEI();
 extern Standard_Boolean TopOpeBRep_GettraceFITOL();
 extern Standard_Boolean TopOpeBRep_GettraceEEFF();
 extern void debeeff();
-#include <TopOpeBRepTool_KRO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_KRO.hxx>
 Standard_EXPORT TOPKRO KRO_DSFILLER_INTEE("intersection edge/edge");
 #endif
 

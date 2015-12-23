@@ -35,7 +35,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 //=======================================================================

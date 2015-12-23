@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
-#include <TopOpeBRepTool_BoxSort.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_BoxSort.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeScanner.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 //=======================================================================

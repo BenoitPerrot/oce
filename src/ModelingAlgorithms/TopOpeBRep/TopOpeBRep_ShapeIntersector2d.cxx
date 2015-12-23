@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_HBoxTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_HBoxTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector2d.hxx>
@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopOpeBRepTool_box.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRep_GettraceSI(); 

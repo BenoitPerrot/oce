@@ -34,14 +34,14 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <TopOpeBRepTool_tol.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_tol.hxx>
 
 Standard_EXPORT Standard_Real GLOBAL_tolFF = 1.e-7;
 
@@ -65,7 +65,7 @@ static void SAVFF(const TopoDS_Face& F1,const TopoDS_Face& F2)
 }
 
 extern Standard_Boolean TopOpeBRepTool_GettraceKRO();
-#include <TopOpeBRepTool_KRO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_KRO.hxx>
 Standard_EXPORT TOPKRO KRO_DSFILLER_INTFF("intersection face/face");
 
 #endif

@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TopOpeBRepTool_DataMapOfOrientedShapeC2DF.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapOfOrientedShapeC2DF.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Face;

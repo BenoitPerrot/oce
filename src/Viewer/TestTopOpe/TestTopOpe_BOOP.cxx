@@ -16,8 +16,8 @@
 
 #include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe.hxx>
-#include <TopOpeBRepTool.hxx>
-#include <TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
@@ -51,7 +51,7 @@ Standard_IMPORT Draw_Viewer dout;
 extern Standard_Integer TOPOPE_SeeShape(char *name);
 
 #ifdef OCCT_DEBUG
-#include <TopOpeBRepTool_KRO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_KRO.hxx>
 extern Standard_Boolean TopOpeBRepTool_GettraceKRO();
 extern void PrintKRO_PREPA();
 #endif

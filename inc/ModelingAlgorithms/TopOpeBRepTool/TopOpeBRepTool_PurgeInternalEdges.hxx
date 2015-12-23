@@ -92,7 +92,7 @@ private:
 };
 
 
-#include <TopOpeBRepTool_PurgeInternalEdges.lxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PurgeInternalEdges.lxx>
 
 
 

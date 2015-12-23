@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/TestTopOpe/TestTopOpe_VarsTopo.hxx>
-#include <TopOpeBRepTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool.hxx>
 
 VarsTopo::VarsTopo() : mytolarc(0.), mytoltan(0.)
 {

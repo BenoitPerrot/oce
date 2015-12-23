@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRepTool_PShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PShapeClassifier.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State;

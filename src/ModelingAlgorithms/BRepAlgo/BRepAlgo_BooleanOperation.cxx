@@ -24,8 +24,8 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
-#include <TopOpeBRepTool_OutCurveType.hxx>
-#include <TopOpeBRepTool_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_OutCurveType.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

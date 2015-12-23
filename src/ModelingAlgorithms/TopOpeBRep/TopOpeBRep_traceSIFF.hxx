@@ -19,7 +19,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 

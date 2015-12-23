@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/TestTopOpe/TestTopOpe.hxx>
-#include <TopOpeBRepTool_2d.hxx>
-#include <TopOpeBRepTool_C2DF.hxx>
-#include <TopOpeBRepTool_CORRISO.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_REGUS.hxx>
-#include <TopOpeBRepTool_CLASSI.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_C2DF.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CORRISO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_REGUS.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CLASSI.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -53,13 +53,13 @@
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
-#include <TopOpeBRepTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_FaceBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShellToSolid.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_SolidClassifier.hxx>
-#include <TopOpeBRepTool_ShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SolidClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeClassifier.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
@@ -72,7 +72,7 @@
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 
 #ifdef DRAW
-#include <TopOpeBRepTool_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DRAW.hxx>
 #endif
 
 Standard_IMPORT Draw_Color DrawTrSurf_CurveColor(const Draw_Color col);

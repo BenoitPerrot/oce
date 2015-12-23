@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 
 //=======================================================================
 //function : TopOpeBRepDS_Point

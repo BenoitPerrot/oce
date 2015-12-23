@@ -24,7 +24,7 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Transition.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

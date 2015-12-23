@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_box.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
 
-#include <TopOpeBRepTool_HBoxTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_HBoxTool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 Standard_EXPORT void FBOX_Prepare() 

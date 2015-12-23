@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepTool_GEOMETRY_HeaderFile
 #define _TopOpeBRepTool_GEOMETRY_HeaderFile
 
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 #include <GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

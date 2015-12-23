@@ -32,7 +32,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <TopOpeBRepTool_FuseEdges.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_FuseEdges.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceData.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CurveData.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PointData.hxx>

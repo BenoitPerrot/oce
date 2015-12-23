@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <TopOpeBRepTool_PurgeInternalEdges.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PurgeInternalEdges.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

@@ -25,12 +25,12 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_TKI.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_repvg.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_connex.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 #ifdef OCCT_DEBUG
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_reDEB.hxx>
 Standard_EXPORT void debredpnc(const Standard_Integer ie){cout<<"+++ debredpnc e"<<ie<<endl;}

@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepDS_define_HeaderFile
 #define _TopOpeBRepDS_define_HeaderFile
 
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>

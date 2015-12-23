@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesFiller.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeFiller.hxx>
-#include <TopOpeBRepTool_PShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PShapeClassifier.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;

@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopOpeBRepTool_connexity.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_connexity.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Shape;
@@ -62,15 +62,15 @@ private:
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopOpeBRepTool_connexity
-#define TheItem_hxx <TopOpeBRepTool_connexity.hxx>
+#define TheItem_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_connexity.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeconnexity
-#define TCollection_IndexedDataMapNode_hxx <TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeconnexity.hxx>
+#define TCollection_IndexedDataMapNode_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeconnexity.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeconnexity
 #define TCollection_IndexedDataMapNode_Type_() TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfShapeconnexity_Type_()
 #define TCollection_IndexedDataMap TopOpeBRepTool_IndexedDataMapOfShapeconnexity
-#define TCollection_IndexedDataMap_hxx <TopOpeBRepTool_IndexedDataMapOfShapeconnexity.hxx>
+#define TCollection_IndexedDataMap_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeconnexity.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 

@@ -23,7 +23,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointClassifier.hxx>
-#include <TopOpeBRepTool_PShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PShapeClassifier.hxx>
 #include <Handle_TopOpeBRep_FFDumper.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>

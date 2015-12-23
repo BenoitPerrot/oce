@@ -33,8 +33,8 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 
-#include <TopOpeBRepTool_TOOL.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
@@ -42,7 +42,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

@@ -30,11 +30,11 @@ IMPLEMENT_STANDARD_TYPE_END(TopOpeBRep_Hctxee2d)
 IMPLEMENT_DOWNCAST(TopOpeBRep_Hctxee2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxee2d)
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
-#include <TopOpeBRepTool_CurveTool.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRepTool_2d.hxx>
-#include <TopOpeBRepTool_GEOMETRY.hxx>
-#include <TopOpeBRepTool_PROJECT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GEOMETRY.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PROJECT.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

@@ -18,8 +18,8 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Interference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_BuilderON.hxx>
 
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_SC.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_connex.hxx>

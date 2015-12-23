@@ -3,30 +3,30 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRepTool_DataMapOfShapeface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapOfShapeface.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepTool_face.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_face.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface.hxx>
-#include <TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface.hxx>
  
 
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopOpeBRepTool_face
-#define TheItem_hxx <TopOpeBRepTool_face.hxx>
+#define TheItem_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_face.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface
-#define TCollection_DataMapNode_hxx <TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface.hxx>
 #define TCollection_DataMapIterator TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface
-#define TCollection_DataMapIterator_hxx <TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapIteratorOfDataMapOfShapeface.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface
 #define TCollection_DataMapNode_Type_() TopOpeBRepTool_DataMapNodeOfDataMapOfShapeface_Type_()
 #define TCollection_DataMap TopOpeBRepTool_DataMapOfShapeface
-#define TCollection_DataMap_hxx <TopOpeBRepTool_DataMapOfShapeface.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapOfShapeface.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

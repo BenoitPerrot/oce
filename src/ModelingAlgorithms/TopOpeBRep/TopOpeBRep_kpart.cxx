@@ -44,7 +44,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Config.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PointIterator.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

@@ -29,7 +29,7 @@
 #include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
@@ -48,7 +48,7 @@ static void SAVFE(const TopoDS_Face& F1,const TopoDS_Edge& E)
   BRepTools::Write(F1,name_1); BRepTools::Write(E,name_2); 
 }
 extern Standard_Boolean TopOpeBRepTool_GettraceKRO();
-#include <TopOpeBRepTool_KRO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_KRO.hxx>
 Standard_EXPORT TOPKRO KRO_DSFILLER_INTFE("intersection face/edge");
 #endif
 

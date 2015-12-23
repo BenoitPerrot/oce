@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableMesure)
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableP3D.hxx>
 #include <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TopOpeBRepTool_CurveTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

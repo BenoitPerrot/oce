@@ -34,9 +34,9 @@
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_TOOL.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_TOOL.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_FaceEdgeInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
@@ -45,8 +45,8 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_FaceInterferenceTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfShapeOn1State.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
-#include <TopOpeBRepTool_ShapeClassifier.hxx>
-#include <TopOpeBRepTool_PShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PShapeClassifier.hxx>
 
 Standard_EXPORT void FUN_UNKFstasta(const TopoDS_Face& FF,const TopoDS_Face& FS,
 				    const TopoDS_Edge& EE,const Standard_Boolean EEofFF,

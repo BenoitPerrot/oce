@@ -17,7 +17,7 @@
 #ifndef _TopOpeBRepTool_PROJECT_HeaderFile
 #define _TopOpeBRepTool_PROJECT_HeaderFile
 
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

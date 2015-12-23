@@ -34,10 +34,10 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_connex.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_samdom.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_EXPORT.hxx>
-#include <TopOpeBRepTool_2d.hxx>
-#include <TopOpeBRepTool_box.hxx>
-#include <TopOpeBRepTool_SC.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
 #include <Precision.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
@@ -63,7 +63,7 @@ static int Vdebfillerfe=0;void debfillerfe(void){Vdebfillerfe++;}
 void debfillerreset(void){Vdebfillerds=Vdebfillerff=Vdebfilleree=Vdebfilleref=Vdebfillerfe=0;}
 void debfillerss(const Standard_Integer i1,const Standard_Integer i2){cout<<"+ + + + debfillerss "<<i1<<" "<<i2<<endl;}
 
-#include <TopOpeBRepTool_KRO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_KRO.hxx>
 Standard_EXPORT TOPKRO KRO_DSFILLER_TOTAL("dsfiller");
 extern TOPKRO KRO_DSFILLER_INTFF;
 extern TOPKRO KRO_DSFILLER_INTEE;

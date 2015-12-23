@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
-#include <TopOpeBRepTool_DataMapOfShapeface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapOfShapeface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #ifdef DRAW
-#include <TopOpeBRepTool_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DRAW.hxx>
 #endif
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Hctxff2d.hxx>

@@ -42,7 +42,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopOpeBRepTool_BoxSort.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_BoxSort.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>

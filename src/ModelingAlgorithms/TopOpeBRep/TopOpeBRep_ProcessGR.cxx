@@ -54,7 +54,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
@@ -70,8 +70,8 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep.hxx>
-#include <TopOpeBRepTool_EXPORT.hxx>
-#include <TopOpeBRepTool_SC.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
 
 #ifdef OCCT_DEBUG
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>

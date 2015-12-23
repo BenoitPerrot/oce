@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HDataStructure)
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Check.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Filter.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Reducer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>

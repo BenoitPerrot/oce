@@ -16,8 +16,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
-#include <TopOpeBRepTool_HBoxTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_HBoxTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRepTool_HBoxTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_HBoxTool)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TopOpeBRepTool_box.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 #include <Precision.hxx>
 
 #ifdef OCCT_DEBUG

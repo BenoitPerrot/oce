@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_FFDumper)
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

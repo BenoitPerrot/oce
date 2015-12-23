@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopOpeBRepTool_PSoClassif.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PSoClassif.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeAddress.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRepTool_Plos.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_Plos.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopOpeBRepTool_SolidClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SolidClassifier.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;
 class TopOpeBRepTool_SolidClassifier;

@@ -23,10 +23,10 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Viewer/Draw/Draw_ColorKind.hxx>
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
 Standard_EXPORT void TopOpeBRepTool_DrawPoint(const gp_Pnt& P, const Draw_MarkerShape T, const Draw_ColorKind C) ;
 Standard_EXPORT void TopOpeBRepTool_DrawSegment(const gp_Pnt& P1,const gp_Pnt& P2, const Draw_ColorKind C); 

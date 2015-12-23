@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>
-#include <TopOpeBRepTool_ShapeExplorer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeExplorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeScanner.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

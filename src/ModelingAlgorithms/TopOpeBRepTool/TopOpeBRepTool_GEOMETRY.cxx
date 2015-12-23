@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_GEOMETRY.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_GEOMETRY.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Sphere.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Precision.hxx>
 
 // ----------------------------------------------------------------------

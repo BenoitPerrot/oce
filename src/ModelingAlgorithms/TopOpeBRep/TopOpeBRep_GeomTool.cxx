@@ -31,8 +31,8 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInter.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInterIterator.hxx>
-#include <TopOpeBRepTool_CurveTool.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 
 //=======================================================================
 //function : MakeCurves

@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopOpeBRepTool_ShapeClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeClassifier.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>

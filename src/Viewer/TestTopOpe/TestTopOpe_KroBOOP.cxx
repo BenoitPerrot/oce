@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #ifdef OCCT_DEBUG
-#include <TopOpeBRepTool_KRO.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_KRO.hxx>
 Standard_IMPORT TOPKRO KRO_DSFILLER_TOTAL;
 Standard_IMPORT TOPKRO KRO_DSFILLER_INTFF;
 Standard_IMPORT TOPKRO KRO_DSFILLER_INTEE;

@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopOpeBRepTool_ShapeTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 //modified by NIZHNY-MKK  Fri Jun 16 15:04:09 2000.BEGIN

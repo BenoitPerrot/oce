@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRepTool_HBoxTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_HBoxTool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <TopOpeBRepTool_BoxSort.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_BoxSort.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -33,8 +33,8 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <TopOpeBRepTool_box.hxx>
-#include <TopOpeBRepTool_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 #ifdef OCCT_DEBUG

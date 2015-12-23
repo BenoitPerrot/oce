@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>
 
-#include <TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeBox.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

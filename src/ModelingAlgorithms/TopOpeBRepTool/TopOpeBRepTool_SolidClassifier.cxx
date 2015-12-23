@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <TopOpeBRepTool_SolidClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SolidClassifier.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 //=======================================================================
