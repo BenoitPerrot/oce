@@ -17,13 +17,13 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_SiUnitAndLengthUnit.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWSiUnitAndLengthUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndLengthUnit.hxx>
 #include <StepBasic_SiUnit.hxx>
 #include <StepBasic_LengthUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 #include <StepBasic_SiPrefix.hxx>
 #include <StepBasic_SiUnitName.hxx>
-#include <RWStepBasic_RWSiUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 
 
 RWStepBasic_RWSiUnitAndLengthUnit::RWStepBasic_RWSiUnitAndLengthUnit ()

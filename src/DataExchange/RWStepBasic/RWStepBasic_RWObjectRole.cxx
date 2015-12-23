@@ -20,7 +20,7 @@
 #include <StepBasic_ObjectRole.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWObjectRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWObjectRole.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWObjectRole

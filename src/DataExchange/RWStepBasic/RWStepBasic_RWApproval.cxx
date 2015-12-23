@@ -16,7 +16,7 @@
 #include <StepBasic_Approval.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWApproval.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApproval.hxx>
 #include <StepBasic_ApprovalStatus.hxx>
 
 

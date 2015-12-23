@@ -21,7 +21,7 @@
 #include <StepBasic_CertificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWCertificationAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCertificationAssignment.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWCertificationAssignment

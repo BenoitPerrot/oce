@@ -17,7 +17,7 @@
 #include <StepBasic_OrganizationalAddress.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWOrganizationalAddress.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWOrganizationalAddress.hxx>
 #include <StepBasic_HArray1OfOrganization.hxx>
 #include <StepBasic_Organization.hxx>
 

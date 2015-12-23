@@ -16,7 +16,7 @@
 #include <StepBasic_ProductDefinitionFormationWithSpecifiedSource.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWProductDefinitionFormationWithSpecifiedSource.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormationWithSpecifiedSource.hxx>
 #include <StepBasic_Source.hxx>
 #include <StepBasic_Product.hxx>
 

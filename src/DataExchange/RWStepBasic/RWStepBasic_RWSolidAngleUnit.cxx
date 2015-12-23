@@ -16,7 +16,7 @@
 #include <StepBasic_SolidAngleUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWSolidAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSolidAngleUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 
 

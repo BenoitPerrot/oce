@@ -16,7 +16,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_Organization.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWOrganization.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWOrganization.hxx>
 
 
 RWStepBasic_RWOrganization::RWStepBasic_RWOrganization () {}

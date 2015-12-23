@@ -16,7 +16,7 @@
 #include <StepBasic_ApplicationProtocolDefinition.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWApplicationProtocolDefinition.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApplicationProtocolDefinition.hxx>
 #include <StepBasic_ApplicationContext.hxx>
 
 

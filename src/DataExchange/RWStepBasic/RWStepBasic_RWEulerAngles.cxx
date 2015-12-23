@@ -20,7 +20,7 @@
 #include <StepBasic_EulerAngles.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWEulerAngles.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWEulerAngles.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 

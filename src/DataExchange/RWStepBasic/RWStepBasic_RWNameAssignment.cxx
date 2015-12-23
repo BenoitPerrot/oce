@@ -20,7 +20,7 @@
 #include <StepBasic_NameAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWNameAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWNameAssignment.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWNameAssignment

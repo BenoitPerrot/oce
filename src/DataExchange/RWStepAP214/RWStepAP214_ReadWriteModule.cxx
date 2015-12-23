@@ -443,7 +443,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 
 
-#include <RWStepBasic_RWAddress.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWAddress.hxx>
 #include <RWStepShape_RWAdvancedBrepShapeRepresentation.hxx>
 #include <RWStepShape_RWAdvancedFace.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWAnnotationCurveOccurrence.hxx>
@@ -455,14 +455,14 @@ Handle(atype) result = *((Handle(atype)*) &start)
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWAnnotationSymbolOccurrence.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWAnnotationText.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWAnnotationTextOccurrence.hxx>
-#include <RWStepBasic_RWApplicationContext.hxx>
-#include <RWStepBasic_RWApplicationContextElement.hxx>
-#include <RWStepBasic_RWApplicationProtocolDefinition.hxx>
-#include <RWStepBasic_RWApproval.hxx>
-#include <RWStepBasic_RWApprovalPersonOrganization.hxx>
-#include <RWStepBasic_RWApprovalRelationship.hxx>
-#include <RWStepBasic_RWApprovalRole.hxx>
-#include <RWStepBasic_RWApprovalStatus.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApplicationContext.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApplicationContextElement.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApplicationProtocolDefinition.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApproval.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalPersonOrganization.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalStatus.hxx>
 #include <RWStepVisual_RWAreaInSet.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignActualDateAndTimeAssignment.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignActualDateAssignment.hxx>
@@ -494,7 +494,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepShape_RWBoxDomain.hxx>
 #include <RWStepShape_RWBoxedHalfSpace.hxx>
 #include <RWStepShape_RWBrepWithVoids.hxx>
-#include <RWStepBasic_RWCalendarDate.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCalendarDate.hxx>
 #include <RWStepVisual_RWCameraImage.hxx>
 #include <RWStepVisual_RWCameraModel.hxx>
 #include <RWStepVisual_RWCameraModelD2.hxx>
@@ -522,8 +522,8 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepShape_RWConnectedFaceSet.hxx>
 #include <RWStepVisual_RWContextDependentInvisibility.hxx>
 #include <RWStepVisual_RWContextDependentOverRidingStyledItem.hxx>
-#include <RWStepBasic_RWConversionBasedUnit.hxx>
-#include <RWStepBasic_RWCoordinatedUniversalTimeOffset.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCoordinatedUniversalTimeOffset.hxx>
 // Removed from Rev2 to Rev4 : <RWStepShape_RWCsgRepresentation.hxx>
 #include <RWStepShape_RWCsgShapeRepresentation.hxx>
 #include <RWStepShape_RWCsgSolid.hxx>
@@ -534,10 +534,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepVisual_RWCurveStyleFont.hxx>
 #include <RWStepVisual_RWCurveStyleFontPattern.hxx>
 #include <RWStepGeom_RWCylindricalSurface.hxx>
-#include <RWStepBasic_RWDate.hxx>
-#include <RWStepBasic_RWDateAndTime.hxx>
-#include <RWStepBasic_RWDateRole.hxx>
-#include <RWStepBasic_RWDateTimeRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDate.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDateAndTime.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDateRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDateTimeRole.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWDefinedSymbol.hxx>
 #include <RWStepRepr_RWDefinitionalRepresentation.hxx>
 #include <RWStepGeom_RWDegeneratePcurve.hxx>
@@ -545,7 +545,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepRepr_RWDescriptiveRepresentationItem.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWDimensionCurve.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWDimensionCurveTerminator.hxx>
-#include <RWStepBasic_RWDimensionalExponents.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDimensionalExponents.hxx>
 #include <RWStepGeom_RWDirection.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWDraughtingAnnotationOccurrence.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWDraughtingCallout.hxx>
@@ -562,10 +562,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepGeom_RWElementarySurface.hxx>
 #include <RWStepGeom_RWEllipse.hxx>
 #include <RWStepGeom_RWEvaluatedDegeneratePcurve.hxx>
-#include <RWStepBasic_RWExternalSource.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWExternalSource.hxx>
 #include <RWStepVisual_RWExternallyDefinedCurveFont.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWExternallyDefinedHatchStyle.hxx>
-#include <RWStepBasic_RWExternallyDefinedItem.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWExternallyDefinedItem.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWExternallyDefinedSymbol.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWExternallyDefinedTextFont.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWExternallyDefinedTileStyle.hxx>
@@ -591,33 +591,33 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepShape_RWGeometricallyBoundedWireframeShapeRepresentation.hxx>
 #include <RWStepRepr_RWGlobalUncertaintyAssignedContext.hxx>
 #include <RWStepRepr_RWGlobalUnitAssignedContext.hxx>
-#include <RWStepBasic_RWGroup.hxx>
-#include <RWStepBasic_RWGroupRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWGroup.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWGroupRelationship.hxx>
 #include <RWStepShape_RWHalfSpaceSolid.hxx>
 #include <RWStepGeom_RWHyperbola.hxx>
 #include <RWStepGeom_RWIntersectionCurve.hxx>
 #include <RWStepVisual_RWInvisibility.hxx>
-#include <RWStepBasic_RWLengthMeasureWithUnit.hxx>
-#include <RWStepBasic_RWLengthUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWLengthMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWLengthUnit.hxx>
 #include <RWStepGeom_RWLine.hxx>
-#include <RWStepBasic_RWLocalTime.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWLocalTime.hxx>
 #include <RWStepShape_RWLoop.hxx>
 #include <RWStepShape_RWManifoldSolidBrep.hxx>
 #include <RWStepShape_RWManifoldSurfaceShapeRepresentation.hxx>
 #include <RWStepRepr_RWMappedItem.hxx>
-#include <RWStepBasic_RWMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWMeasureWithUnit.hxx>
 #include <RWStepVisual_RWMechanicalDesignGeometricPresentationArea.hxx>
 #include <RWStepVisual_RWMechanicalDesignGeometricPresentationRepresentation.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWMechanicalDesignPresentationArea.hxx>
-#include <RWStepBasic_RWNamedUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWNamedUnit.hxx>
 #include <RWStepGeom_RWOffsetCurve3d.hxx>
 #include <RWStepGeom_RWOffsetSurface.hxx>
 // Removed from Rev2 to Rev4 : <RWStepAP214_RWOneDirectionRepeatFactor.hxx>
 #include <RWStepShape_RWOpenShell.hxx>
-#include <RWStepBasic_RWOrdinalDate.hxx>
-#include <RWStepBasic_RWOrganization.hxx>
-#include <RWStepBasic_RWOrganizationRole.hxx>
-#include <RWStepBasic_RWOrganizationalAddress.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWOrdinalDate.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWOrganization.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWOrganizationRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWOrganizationalAddress.hxx>
 #include <RWStepShape_RWOrientedClosedShell.hxx>
 #include <RWStepShape_RWOrientedEdge.hxx>
 #include <RWStepShape_RWOrientedFace.hxx>
@@ -629,16 +629,16 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepRepr_RWParametricRepresentationContext.hxx>
 #include <RWStepShape_RWPath.hxx>
 #include <RWStepGeom_RWPcurve.hxx>
-#include <RWStepBasic_RWPerson.hxx>
-#include <RWStepBasic_RWPersonAndOrganization.hxx>
-#include <RWStepBasic_RWPersonAndOrganizationRole.hxx>
-#include <RWStepBasic_RWPersonalAddress.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPerson.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPersonAndOrganization.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPersonAndOrganizationRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPersonalAddress.hxx>
 #include <RWStepGeom_RWPlacement.hxx>
 #include <RWStepVisual_RWPlanarBox.hxx>
 #include <RWStepVisual_RWPlanarExtent.hxx>
 #include <RWStepGeom_RWPlane.hxx>
-#include <RWStepBasic_RWPlaneAngleMeasureWithUnit.hxx>
-#include <RWStepBasic_RWPlaneAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPlaneAngleMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPlaneAngleUnit.hxx>
 #include <RWStepGeom_RWPoint.hxx>
 #include <RWStepGeom_RWPointOnCurve.hxx>
 #include <RWStepGeom_RWPointOnSurface.hxx>
@@ -659,22 +659,22 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepVisual_RWPresentationStyleAssignment.hxx>
 #include <RWStepVisual_RWPresentationStyleByContext.hxx>
 #include <RWStepVisual_RWPresentationView.hxx>
-#include <RWStepBasic_RWProduct.hxx>
-#include <RWStepBasic_RWProductCategory.hxx>
-#include <RWStepBasic_RWProductContext.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProduct.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductCategory.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductContext.hxx>
 // Removed from Rev2 to Rev4 : <RWStepVisual_RWProductDataRepresentationView.hxx>
-#include <RWStepBasic_RWProductDefinition.hxx>
-#include <RWStepBasic_RWProductDefinitionContext.hxx>
-#include <RWStepBasic_RWProductDefinitionFormation.hxx>
-#include <RWStepBasic_RWProductDefinitionFormationWithSpecifiedSource.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinition.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionContext.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormation.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormationWithSpecifiedSource.hxx>
 #include <RWStepRepr_RWProductDefinitionShape.hxx>
-#include <RWStepBasic_RWProductRelatedProductCategory.hxx>
-#include <RWStepBasic_RWProductType.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductRelatedProductCategory.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductType.hxx>
 #include <RWStepRepr_RWPropertyDefinition.hxx>
 #include <RWStepRepr_RWPropertyDefinitionRepresentation.hxx>
 #include <RWStepGeom_RWQuasiUniformCurve.hxx>
 #include <RWStepGeom_RWQuasiUniformSurface.hxx>
-#include <RWStepBasic_RWRatioMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWRatioMeasureWithUnit.hxx>
 #include <RWStepGeom_RWRationalBSplineCurve.hxx>
 #include <RWStepGeom_RWRationalBSplineSurface.hxx>
 #include <RWStepGeom_RWRectangularCompositeSurface.hxx>
@@ -691,16 +691,16 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepShape_RWRightCircularCone.hxx>
 #include <RWStepShape_RWRightCircularCylinder.hxx>
 #include <RWStepGeom_RWSeamCurve.hxx>
-#include <RWStepBasic_RWSecurityClassification.hxx>
-#include <RWStepBasic_RWSecurityClassificationLevel.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassification.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassificationLevel.hxx>
 #include <RWStepRepr_RWShapeAspect.hxx>
 #include <RWStepRepr_RWShapeAspectRelationship.hxx>
 #include <RWStepRepr_RWShapeAspectTransition.hxx>
 #include <RWStepShape_RWShapeDefinitionRepresentation.hxx>
 #include <RWStepShape_RWShapeRepresentation.hxx>
 #include <RWStepShape_RWShellBasedSurfaceModel.hxx>
-#include <RWStepBasic_RWSiUnit.hxx>
-#include <RWStepBasic_RWSolidAngleMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSolidAngleMeasureWithUnit.hxx>
 #include <RWStepShape_RWSolidModel.hxx>
 #include <RWStepShape_RWSolidReplica.hxx>
 #include <RWStepShape_RWSphere.hxx>
@@ -748,7 +748,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepShape_RWTransitionalShapeRepresentation.hxx>
 #include <RWStepGeom_RWTrimmedCurve.hxx>
 // Removed from Rev2 to Rev4 : <RWStepAP214_RWTwoDirectionRepeatFactor.hxx>
-#include <RWStepBasic_RWUncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWUncertaintyMeasureWithUnit.hxx>
 #include <RWStepGeom_RWUniformCurve.hxx>
 #include <RWStepGeom_RWUniformSurface.hxx>
 #include <RWStepGeom_RWVector.hxx>
@@ -756,7 +756,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepShape_RWVertexLoop.hxx>
 #include <RWStepShape_RWVertexPoint.hxx>
 #include <RWStepVisual_RWViewVolume.hxx>
-#include <RWStepBasic_RWWeekOfYearAndDayDate.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWWeekOfYearAndDayDate.hxx>
 #include <RWStepGeom_RWUniformCurveAndRationalBSplineCurve.hxx>
 #include <RWStepGeom_RWBSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <RWStepGeom_RWQuasiUniformCurveAndRationalBSplineCurve.hxx>
@@ -765,10 +765,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepGeom_RWUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <RWStepGeom_RWQuasiUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <RWStepGeom_RWBezierSurfaceAndRationalBSplineSurface.hxx>
-#include <RWStepBasic_RWSiUnitAndLengthUnit.hxx>
-#include <RWStepBasic_RWSiUnitAndPlaneAngleUnit.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndLengthUnit.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndLengthUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndPlaneAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndLengthUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit.hxx>
 #include <RWStepGeom_RWGeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 #include <RWStepShape_RWLoopAndPath.hxx>
 
@@ -776,23 +776,23 @@ Handle(atype) result = *((Handle(atype)*) &start)
 // Added by FMA
 #include <RWStepGeom_RWGeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <RWStepGeom_RWGeometricRepresentationContextAndParametricRepresentationContext.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndSolidAngleUnit.hxx>
-#include <RWStepBasic_RWSiUnitAndSolidAngleUnit.hxx>
-#include <RWStepBasic_RWSolidAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSolidAngleUnit.hxx>
 #include <RWStepShape_RWFacetedBrepAndBrepWithVoids.hxx>
-#include <RWStepBasic_RWMechanicalContext.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWMechanicalContext.hxx>
 
 // full Rev4
-#include <RWStepBasic_RWSiUnitAndRatioUnit.hxx>
-#include <RWStepBasic_RWSiUnitAndTimeUnit.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndRatioUnit.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndTimeUnit.hxx>
-#include <RWStepBasic_RWApprovalDateTime.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndRatioUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndTimeUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndRatioUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndTimeUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalDateTime.hxx>
 //not yet #include <StepVisual_CameraImage2dWithScale.hxx> derived
 //not yet #include <StepVisual_CameraImage3dWithScale.hxx> derived
 //not yet #include <StepVisual_CartesianTransformationOperator2d.hxx> derived
-#include <RWStepBasic_RWDerivedUnit.hxx>
-#include <RWStepBasic_RWDerivedUnitElement.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDerivedUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDerivedUnitElement.hxx>
 #include <RWStepRepr_RWItemDefinedTransformation.hxx>
 #include <RWStepVisual_RWPresentedItemRepresentation.hxx>
 #include <RWStepVisual_RWPresentationLayerUsage.hxx>
@@ -800,15 +800,15 @@ Handle(atype) result = *((Handle(atype)*) &start)
 //  Added by CKY (JUL-1998) for AP214 CC1 -> CC2
 
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignDocumentReference.hxx>
-#include <RWStepBasic_RWDocument.hxx>
-#include <RWStepBasic_RWDocumentRelationship.hxx>
-#include <RWStepBasic_RWDocumentType.hxx>
-#include <RWStepBasic_RWDocumentUsageConstraint.hxx>
-#include <RWStepBasic_RWEffectivity.hxx>
-#include <RWStepBasic_RWProductDefinitionEffectivity.hxx>
-#include <RWStepBasic_RWProductDefinitionRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocument.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentType.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentUsageConstraint.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWEffectivity.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionEffectivity.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionRelationship.hxx>
 
-#include <RWStepBasic_RWProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionWithAssociatedDocuments.hxx>
 
 #include <RWStepRepr_RWMakeFromUsageOption.hxx>
 #include <RWStepRepr_RWAssemblyComponentUsage.hxx>
@@ -846,8 +846,8 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedPresentedItem.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx>  
-#include <RWStepBasic_RWDocumentFile.hxx>
-#include <RWStepBasic_RWCharacterizedObject.hxx>  
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentFile.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCharacterizedObject.hxx>  
 #include <RWStepShape_RWExtrudedFaceSolid.hxx>
 #include <RWStepShape_RWRevolvedFaceSolid.hxx>  
 #include <RWStepShape_RWSweptFaceSolid.hxx> 
@@ -859,10 +859,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepBasic_SiUnitAndVolumeUnit.hxx>
 #include <StepBasic_ConversionBasedUnitAndAreaUnit.hxx>
 #include <StepBasic_ConversionBasedUnitAndVolumeUnit.hxx> 
-#include <RWStepBasic_RWSiUnitAndAreaUnit.hxx>
-#include <RWStepBasic_RWSiUnitAndVolumeUnit.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndAreaUnit.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndVolumeUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndAreaUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndVolumeUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndAreaUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndVolumeUnit.hxx>
 
 // Added by ABV 10.11.99 for AP203
 #include <StepBasic_Action.hxx>
@@ -893,10 +893,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepBasic_VersionedActionRequest.hxx>
 #include <StepBasic_ProductCategoryRelationship.hxx>
 #include <StepBasic_ActionRequestSolution.hxx>
-#include <RWStepBasic_RWAction.hxx>
-#include <RWStepBasic_RWActionAssignment.hxx>
-#include <RWStepBasic_RWActionMethod.hxx>
-#include <RWStepBasic_RWActionRequestAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWAction.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWActionAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWActionMethod.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWActionRequestAssignment.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignApproval.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignCertification.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignContract.hxx>
@@ -904,23 +904,23 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignPersonAndOrganizationAssignment.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignSecurityClassification.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignSpecificationReference.hxx>
-#include <RWStepBasic_RWCertification.hxx>
-#include <RWStepBasic_RWCertificationAssignment.hxx>
-#include <RWStepBasic_RWCertificationType.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCertification.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCertificationAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCertificationType.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWChange.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWChangeRequest.hxx>
 #include <RWStepRepr_RWConfigurationDesign.hxx>
 #include <RWStepRepr_RWConfigurationEffectivity.hxx>
-#include <RWStepBasic_RWContract.hxx>
-#include <RWStepBasic_RWContractAssignment.hxx>
-#include <RWStepBasic_RWContractType.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWContract.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWContractAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWContractType.hxx>
 #include <RWStepRepr_RWProductConcept.hxx>
-#include <RWStepBasic_RWProductConceptContext.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductConceptContext.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWStartRequest.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWStartWork.hxx>
-#include <RWStepBasic_RWVersionedActionRequest.hxx>
-#include <RWStepBasic_RWProductCategoryRelationship.hxx>
-#include <RWStepBasic_RWActionRequestSolution.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWVersionedActionRequest.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductCategoryRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWActionRequestSolution.hxx>
 
 // Added by ABV 13.01.00 for CAX-IF TRJ3
 #include <StepVisual_DraughtingModel.hxx>
@@ -958,15 +958,15 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepAP214_ExternallyDefinedClass.hxx>
 #include <StepAP214_ExternallyDefinedGeneralProperty.hxx>
 #include <StepAP214_AppliedExternalIdentificationAssignment.hxx>
-#include <RWStepBasic_RWDocumentRepresentationType.hxx>
-#include <RWStepBasic_RWObjectRole.hxx>
-#include <RWStepBasic_RWRoleAssociation.hxx>
-#include <RWStepBasic_RWIdentificationRole.hxx>
-#include <RWStepBasic_RWIdentificationAssignment.hxx>
-#include <RWStepBasic_RWExternalIdentificationAssignment.hxx>
-#include <RWStepBasic_RWEffectivityAssignment.hxx>
-#include <RWStepBasic_RWNameAssignment.hxx>
-#include <RWStepBasic_RWGeneralProperty.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentRepresentationType.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWObjectRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWRoleAssociation.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWIdentificationRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWIdentificationAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWExternalIdentificationAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWEffectivityAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWNameAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWGeneralProperty.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWClass.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWExternallyDefinedClass.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWExternallyDefinedGeneralProperty.hxx>
@@ -1111,9 +1111,9 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepRepr_StructuralResponseProperty.hxx>
 #include <StepRepr_StructuralResponsePropertyDefinitionRepresentation.hxx>
 
-#include <RWStepBasic_RWEulerAngles.hxx>
-#include <RWStepBasic_RWMassUnit.hxx>
-#include <RWStepBasic_RWThermodynamicTemperatureUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWEulerAngles.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWMassUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWThermodynamicTemperatureUnit.hxx>
 #include <RWStepElement_RWAnalysisItemWithinRepresentation.hxx>
 #include <RWStepElement_RWCurve3dElementDescriptor.hxx>
 #include <RWStepElement_RWCurveElementEndReleasePacket.hxx>
@@ -1180,15 +1180,15 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepFEA_RWFeaModelDefinition.hxx>
 #include <RWStepFEA_RWFreedomAndCoefficient.hxx>
 #include <RWStepFEA_RWFreedomsList.hxx>
-#include <RWStepBasic_RWProductDefinitionFormationRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormationRelationship.hxx>
 #include <RWStepFEA_RWNodeDefinition.hxx>
 #include <RWStepRepr_RWStructuralResponseProperty.hxx>
 #include <RWStepRepr_RWStructuralResponsePropertyDefinitionRepresentation.hxx>
 
 #include <StepBasic_SiUnitAndMassUnit.hxx>
 #include <StepBasic_SiUnitAndThermodynamicTemperatureUnit.hxx>
-#include <RWStepBasic_RWSiUnitAndMassUnit.hxx>
-#include <RWStepBasic_RWSiUnitAndThermodynamicTemperatureUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndMassUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndThermodynamicTemperatureUnit.hxx>
 #include <StepFEA_AlignedSurface3dElementCoordinateSystem.hxx>
 #include <StepFEA_ConstantSurface3dElementCoordinateSystem.hxx>
 #include <RWStepFEA_RWAlignedSurface3dElementCoordinateSystem.hxx>
@@ -1205,8 +1205,8 @@ Handle(atype) result = *((Handle(atype)*) &start)
 // PTV 28.01.2003 TRJ11 AP214 external references
 #include <StepBasic_DocumentProductAssociation.hxx>
 #include <StepBasic_DocumentProductEquivalence.hxx>
-#include <RWStepBasic_RWDocumentProductAssociation.hxx>
-#include <RWStepBasic_RWDocumentProductEquivalence.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentProductAssociation.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentProductEquivalence.hxx>
 
 //  TR12J 04.06.2003 G&DT entities GKA 
 #include <StepShape_ShapeRepresentationWithParameters.hxx>
@@ -1274,9 +1274,9 @@ Handle(atype) result = *((Handle(atype)*) &start)
 
 // added by skl 10.02.2004 for TRJ13
 #include <StepBasic_ConversionBasedUnitAndMassUnit.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndMassUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndMassUnit.hxx>
 #include <StepBasic_MassMeasureWithUnit.hxx>
-#include <RWStepBasic_RWMassMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWMassMeasureWithUnit.hxx>
 
 
 // -- General Declarations (Recognize, StepType) ---

@@ -21,7 +21,7 @@
 #include <StepBasic_ActionAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWActionAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWActionAssignment.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWActionAssignment

@@ -16,7 +16,7 @@
 #include <StepBasic_LocalTime.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWLocalTime.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWLocalTime.hxx>
 #include <StepBasic_CoordinatedUniversalTimeOffset.hxx>
 
 

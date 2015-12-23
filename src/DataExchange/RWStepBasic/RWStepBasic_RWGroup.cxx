@@ -20,7 +20,7 @@
 #include <StepBasic_Group.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWGroup.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWGroup.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWGroup

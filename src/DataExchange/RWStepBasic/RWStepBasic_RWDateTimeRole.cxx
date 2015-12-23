@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_DateTimeRole.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWDateTimeRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDateTimeRole.hxx>
 
 
 RWStepBasic_RWDateTimeRole::RWStepBasic_RWDateTimeRole () {}

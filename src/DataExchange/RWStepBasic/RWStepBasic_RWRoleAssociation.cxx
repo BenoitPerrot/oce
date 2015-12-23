@@ -20,7 +20,7 @@
 #include <StepBasic_RoleAssociation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWRoleAssociation.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWRoleAssociation.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWRoleAssociation

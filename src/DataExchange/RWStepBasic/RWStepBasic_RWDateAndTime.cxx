@@ -16,7 +16,7 @@
 #include <StepBasic_DateAndTime.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWDateAndTime.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDateAndTime.hxx>
 #include <StepBasic_Date.hxx>
 #include <StepBasic_LocalTime.hxx>
 

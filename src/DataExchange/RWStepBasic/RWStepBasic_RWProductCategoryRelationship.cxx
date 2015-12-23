@@ -21,7 +21,7 @@
 #include <StepBasic_ProductCategoryRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWProductCategoryRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductCategoryRelationship.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWProductCategoryRelationship

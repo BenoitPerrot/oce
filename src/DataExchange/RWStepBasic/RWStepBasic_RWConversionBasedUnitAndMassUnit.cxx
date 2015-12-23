@@ -16,7 +16,7 @@
 #include <StepBasic_ConversionBasedUnitAndMassUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndMassUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndMassUnit.hxx>
 
 #include <StepBasic_ConversionBasedUnit.hxx>
 #include <StepBasic_MassUnit.hxx>

@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_Address.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWAddress.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWAddress.hxx>
 
 
 RWStepBasic_RWAddress::RWStepBasic_RWAddress () {}

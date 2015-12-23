@@ -20,7 +20,7 @@
 #include <StepBasic_ProductDefinitionFormationRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWProductDefinitionFormationRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductDefinitionFormationRelationship.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWProductDefinitionFormationRelationship

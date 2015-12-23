@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_ProductCategory.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWProductCategory.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProductCategory.hxx>
 
 
 RWStepBasic_RWProductCategory::RWStepBasic_RWProductCategory () {}

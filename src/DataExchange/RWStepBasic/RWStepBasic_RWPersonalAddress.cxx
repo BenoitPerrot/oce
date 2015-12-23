@@ -17,7 +17,7 @@
 #include <StepBasic_PersonalAddress.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWPersonalAddress.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPersonalAddress.hxx>
 #include <StepBasic_HArray1OfPerson.hxx>
 #include <StepBasic_Person.hxx>
 

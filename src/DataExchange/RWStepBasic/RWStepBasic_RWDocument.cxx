@@ -20,7 +20,7 @@
 #include <StepBasic_Document.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWDocument.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocument.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWDocument

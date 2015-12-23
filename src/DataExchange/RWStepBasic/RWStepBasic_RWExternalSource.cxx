@@ -20,7 +20,7 @@
 #include <StepBasic_ExternalSource.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWExternalSource.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWExternalSource.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWExternalSource

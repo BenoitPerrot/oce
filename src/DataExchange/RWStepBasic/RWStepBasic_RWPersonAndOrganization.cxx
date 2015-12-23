@@ -16,7 +16,7 @@
 #include <StepBasic_PersonAndOrganization.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWPersonAndOrganization.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPersonAndOrganization.hxx>
 #include <StepBasic_Person.hxx>
 #include <StepBasic_Organization.hxx>
 

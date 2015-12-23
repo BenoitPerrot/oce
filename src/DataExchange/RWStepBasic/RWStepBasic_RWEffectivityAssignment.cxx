@@ -20,7 +20,7 @@
 #include <StepBasic_EffectivityAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWEffectivityAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWEffectivityAssignment.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWEffectivityAssignment

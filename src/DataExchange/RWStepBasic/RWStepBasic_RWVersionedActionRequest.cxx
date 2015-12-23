@@ -21,7 +21,7 @@
 #include <StepBasic_VersionedActionRequest.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWVersionedActionRequest.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWVersionedActionRequest.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWVersionedActionRequest

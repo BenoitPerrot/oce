@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_OrdinalDate.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWOrdinalDate.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWOrdinalDate.hxx>
 
 
 RWStepBasic_RWOrdinalDate::RWStepBasic_RWOrdinalDate () {}

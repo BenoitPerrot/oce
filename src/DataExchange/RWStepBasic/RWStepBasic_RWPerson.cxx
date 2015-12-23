@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_Person.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWPerson.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPerson.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
 

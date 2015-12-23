@@ -18,9 +18,9 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_SiUnitAndVolumeUnit.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWSiUnitAndVolumeUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndVolumeUnit.hxx>
 #include <StepBasic_SiUnit.hxx>
-#include <RWStepBasic_RWSiUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 
 RWStepBasic_RWSiUnitAndVolumeUnit::RWStepBasic_RWSiUnitAndVolumeUnit()
 {

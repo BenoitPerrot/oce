@@ -17,7 +17,7 @@
 #include <StepBasic_DocumentRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWDocumentRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentRelationship.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 

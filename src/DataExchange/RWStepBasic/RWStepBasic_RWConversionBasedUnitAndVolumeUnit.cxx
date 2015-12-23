@@ -19,7 +19,7 @@
 #include <StepBasic_ConversionBasedUnitAndVolumeUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndVolumeUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndVolumeUnit.hxx>
 
 RWStepBasic_RWConversionBasedUnitAndVolumeUnit::RWStepBasic_RWConversionBasedUnitAndVolumeUnit ()
 {

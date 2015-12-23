@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_CalendarDate.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWCalendarDate.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWCalendarDate.hxx>
 
 
 RWStepBasic_RWCalendarDate::RWStepBasic_RWCalendarDate () {}

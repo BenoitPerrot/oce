@@ -17,7 +17,7 @@
 #include <StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWConversionBasedUnitAndPlaneAngleUnit.hxx>
 #include <StepBasic_ConversionBasedUnit.hxx>
 #include <StepBasic_PlaneAngleUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>

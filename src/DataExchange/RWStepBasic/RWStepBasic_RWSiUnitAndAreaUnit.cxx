@@ -18,9 +18,9 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_SiUnitAndAreaUnit.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWSiUnitAndAreaUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndAreaUnit.hxx>
 #include <StepBasic_SiUnit.hxx>
-#include <RWStepBasic_RWSiUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 
 

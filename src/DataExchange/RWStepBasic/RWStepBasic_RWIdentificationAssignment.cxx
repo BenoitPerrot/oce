@@ -20,7 +20,7 @@
 #include <StepBasic_IdentificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWIdentificationAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWIdentificationAssignment.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWIdentificationAssignment

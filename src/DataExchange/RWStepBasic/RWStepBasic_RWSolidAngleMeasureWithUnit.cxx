@@ -16,7 +16,7 @@
 #include <StepBasic_SolidAngleMeasureWithUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWSolidAngleMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSolidAngleMeasureWithUnit.hxx>
 #include <StepBasic_NamedUnit.hxx>
 #include <StepBasic_MeasureValueMember.hxx>
 

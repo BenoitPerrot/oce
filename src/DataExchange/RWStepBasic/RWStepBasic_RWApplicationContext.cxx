@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_ApplicationContext.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWApplicationContext.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApplicationContext.hxx>
 
 
 RWStepBasic_RWApplicationContext::RWStepBasic_RWApplicationContext () {}

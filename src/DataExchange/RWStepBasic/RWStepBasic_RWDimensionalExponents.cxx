@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWDimensionalExponents.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDimensionalExponents.hxx>
 
 
 RWStepBasic_RWDimensionalExponents::RWStepBasic_RWDimensionalExponents () {}

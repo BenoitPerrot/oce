@@ -20,7 +20,7 @@
 #include <StepBasic_ExternallyDefinedItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWExternallyDefinedItem.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWExternallyDefinedItem.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWExternallyDefinedItem

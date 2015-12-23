@@ -20,7 +20,7 @@
 #include <StepBasic_GroupAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWGroupAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWGroupAssignment.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWGroupAssignment

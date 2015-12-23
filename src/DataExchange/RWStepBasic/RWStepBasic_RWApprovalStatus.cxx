@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_ApprovalStatus.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWApprovalStatus.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalStatus.hxx>
 
 
 RWStepBasic_RWApprovalStatus::RWStepBasic_RWApprovalStatus () {}

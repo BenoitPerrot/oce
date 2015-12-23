@@ -16,7 +16,7 @@
 #include <StepBasic_ApprovalPersonOrganization.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWApprovalPersonOrganization.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalPersonOrganization.hxx>
 #include <StepBasic_PersonOrganizationSelect.hxx>
 #include <StepBasic_Approval.hxx>
 #include <StepBasic_ApprovalRole.hxx>

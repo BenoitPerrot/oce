@@ -16,7 +16,7 @@
 #include <StepBasic_SecurityClassification.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWSecurityClassification.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassification.hxx>
 #include <StepBasic_SecurityClassificationLevel.hxx>
 
 

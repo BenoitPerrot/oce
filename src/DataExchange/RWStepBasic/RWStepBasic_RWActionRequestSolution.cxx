@@ -21,7 +21,7 @@
 #include <StepBasic_ActionRequestSolution.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWActionRequestSolution.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWActionRequestSolution.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWActionRequestSolution

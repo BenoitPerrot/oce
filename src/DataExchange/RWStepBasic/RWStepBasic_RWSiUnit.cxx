@@ -16,7 +16,7 @@
 #include <StepBasic_SiUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <RWStepBasic_RWSiUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 
 

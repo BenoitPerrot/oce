@@ -16,7 +16,7 @@
 #include <StepBasic_DerivedUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWDerivedUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDerivedUnit.hxx>
 #include <StepBasic_DerivedUnitElement.hxx>
 #include <StepBasic_HArray1OfDerivedUnitElement.hxx>
 

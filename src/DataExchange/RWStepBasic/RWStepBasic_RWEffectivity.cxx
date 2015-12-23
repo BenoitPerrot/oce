@@ -16,7 +16,7 @@
 #include <StepBasic_Effectivity.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWEffectivity.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWEffectivity.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 

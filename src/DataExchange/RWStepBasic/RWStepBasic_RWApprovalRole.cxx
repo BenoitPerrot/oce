@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_ApprovalRole.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWApprovalRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalRole.hxx>
 
 
 RWStepBasic_RWApprovalRole::RWStepBasic_RWApprovalRole () {}

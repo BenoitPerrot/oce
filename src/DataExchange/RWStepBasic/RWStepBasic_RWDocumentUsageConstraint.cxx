@@ -16,7 +16,7 @@
 #include <StepBasic_DocumentUsageConstraint.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWDocumentUsageConstraint.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentUsageConstraint.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 

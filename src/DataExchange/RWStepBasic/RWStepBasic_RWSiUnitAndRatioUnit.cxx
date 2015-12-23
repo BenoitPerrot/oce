@@ -15,13 +15,13 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_SiUnitAndRatioUnit.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWSiUnitAndRatioUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndRatioUnit.hxx>
 #include <StepBasic_SiUnit.hxx>
 #include <StepBasic_RatioUnit.hxx>
 #include <StepBasic_DimensionalExponents.hxx>
 #include <StepBasic_SiPrefix.hxx>
 #include <StepBasic_SiUnitName.hxx>
-#include <RWStepBasic_RWSiUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnit.hxx>
 
 
 RWStepBasic_RWSiUnitAndRatioUnit::RWStepBasic_RWSiUnitAndRatioUnit () {}

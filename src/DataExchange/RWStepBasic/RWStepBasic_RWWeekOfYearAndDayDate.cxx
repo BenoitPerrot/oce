@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_WeekOfYearAndDayDate.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWWeekOfYearAndDayDate.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWWeekOfYearAndDayDate.hxx>
 
 
 RWStepBasic_RWWeekOfYearAndDayDate::RWStepBasic_RWWeekOfYearAndDayDate () {}

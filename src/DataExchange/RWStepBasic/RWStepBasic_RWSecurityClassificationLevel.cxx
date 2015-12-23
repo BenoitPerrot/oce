@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_SecurityClassificationLevel.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWSecurityClassificationLevel.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWSecurityClassificationLevel.hxx>
 
 
 RWStepBasic_RWSecurityClassificationLevel::RWStepBasic_RWSecurityClassificationLevel () {}

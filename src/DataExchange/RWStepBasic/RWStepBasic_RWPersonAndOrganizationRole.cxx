@@ -15,7 +15,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_PersonAndOrganizationRole.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepBasic_RWPersonAndOrganizationRole.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPersonAndOrganizationRole.hxx>
 
 
 RWStepBasic_RWPersonAndOrganizationRole::RWStepBasic_RWPersonAndOrganizationRole () {}

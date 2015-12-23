@@ -20,7 +20,7 @@
 #include <StepBasic_GeneralProperty.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWGeneralProperty.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWGeneralProperty.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWGeneralProperty

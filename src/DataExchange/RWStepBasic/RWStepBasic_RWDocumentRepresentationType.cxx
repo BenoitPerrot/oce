@@ -20,7 +20,7 @@
 #include <StepBasic_DocumentRepresentationType.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWDocumentRepresentationType.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentRepresentationType.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWDocumentRepresentationType

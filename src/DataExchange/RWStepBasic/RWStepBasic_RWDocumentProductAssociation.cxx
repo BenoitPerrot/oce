@@ -20,7 +20,7 @@
 #include <StepBasic_DocumentProductAssociation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWDocumentProductAssociation.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWDocumentProductAssociation.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWDocumentProductAssociation

@@ -21,7 +21,7 @@
 #include <StepBasic_ContractAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWContractAssignment.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWContractAssignment.hxx>
 
 //=======================================================================
 //function : RWStepBasic_RWContractAssignment

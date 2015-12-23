@@ -17,7 +17,7 @@
 #include <StepBasic_ApprovalRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWApprovalRelationship.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalRelationship.hxx>
 #include <StepBasic_Approval.hxx>
 
 

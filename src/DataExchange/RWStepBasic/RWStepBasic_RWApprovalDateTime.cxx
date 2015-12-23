@@ -16,7 +16,7 @@
 #include <StepBasic_ApprovalDateTime.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWApprovalDateTime.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWApprovalDateTime.hxx>
 #include <StepBasic_DateTimeSelect.hxx>
 #include <StepBasic_Approval.hxx>
 

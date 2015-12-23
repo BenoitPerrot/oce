@@ -16,7 +16,7 @@
 #include <StepBasic_PlaneAngleMeasureWithUnit.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWPlaneAngleMeasureWithUnit.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWPlaneAngleMeasureWithUnit.hxx>
 #include <StepBasic_NamedUnit.hxx>
 #include <StepBasic_MeasureValueMember.hxx>
 

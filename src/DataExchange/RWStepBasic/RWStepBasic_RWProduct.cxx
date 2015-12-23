@@ -17,7 +17,7 @@
 #include <StepBasic_Product.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepBasic_RWProduct.hxx>
+#include <DataExchange/RWStepBasic/RWStepBasic_RWProduct.hxx>
 #include <StepBasic_HArray1OfProductContext.hxx>
 #include <StepBasic_ProductContext.hxx>
 
