@@ -21,7 +21,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <MoniTool_TypedValue.hxx>
+#include <DataExchange/MoniTool/MoniTool_TypedValue.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_TypedValue)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_TypedValue)
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/MoniTool_Element.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
 #include <Foundation/OSD/OSD_Path.hxx>

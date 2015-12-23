@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_SignType.hxx>
 
-#include <MoniTool_SignText.hxx>
+#include <DataExchange/MoniTool/MoniTool_SignText.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

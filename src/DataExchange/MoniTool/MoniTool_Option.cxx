@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <MoniTool_TypedValue.hxx>
+#include <DataExchange/MoniTool/MoniTool_TypedValue.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <MoniTool_Option.hxx>
+#include <DataExchange/MoniTool/MoniTool_Option.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_Option)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

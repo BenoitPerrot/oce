@@ -60,13 +60,13 @@ private:
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfShapeTransient
-#define TCollection_DataMapNode_hxx <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/MoniTool/MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 #define TCollection_DataMapIterator MoniTool_DataMapIteratorOfDataMapOfShapeTransient
-#define TCollection_DataMapIterator_hxx <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 #define Handle_TCollection_DataMapNode Handle_MoniTool_DataMapNodeOfDataMapOfShapeTransient
 #define TCollection_DataMapNode_Type_() MoniTool_DataMapNodeOfDataMapOfShapeTransient_Type_()
 #define TCollection_DataMap MoniTool_DataMapOfShapeTransient
-#define TCollection_DataMap_hxx <MoniTool_DataMapOfShapeTransient.hxx>
+#define TCollection_DataMap_hxx <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <MoniTool_AttrList.hxx>
-#include <MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/MoniTool_AttrList.hxx>
+#include <DataExchange/MoniTool/MoniTool_Element.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_Element)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

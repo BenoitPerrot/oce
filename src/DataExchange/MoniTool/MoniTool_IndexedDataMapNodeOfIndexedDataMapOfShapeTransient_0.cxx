@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <MoniTool_IndexedDataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_IndexedDataMapOfShapeTransient.hxx>
 
  
 
@@ -36,10 +36,10 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransi
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient
-#define TCollection_IndexedDataMapNode_hxx <MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient.hxx>
+#define TCollection_IndexedDataMapNode_hxx <DataExchange/MoniTool/MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient
 #define TCollection_IndexedDataMapNode_Type_() MoniTool_IndexedDataMapNodeOfIndexedDataMapOfShapeTransient_Type_()
 #define TCollection_IndexedDataMap MoniTool_IndexedDataMapOfShapeTransient
-#define TCollection_IndexedDataMap_hxx <MoniTool_IndexedDataMapOfShapeTransient.hxx>
+#define TCollection_IndexedDataMap_hxx <DataExchange/MoniTool/MoniTool_IndexedDataMapOfShapeTransient.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.gxx>
 

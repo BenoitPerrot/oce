@@ -14,9 +14,9 @@
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <MoniTool_AttrList.hxx>
-#include <MoniTool_IntVal.hxx>
-#include <MoniTool_RealVal.hxx>
+#include <DataExchange/MoniTool/MoniTool_AttrList.hxx>
+#include <DataExchange/MoniTool/MoniTool_IntVal.hxx>
+#include <DataExchange/MoniTool/MoniTool_RealVal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 

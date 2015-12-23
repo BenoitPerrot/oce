@@ -22,7 +22,7 @@
 #include <TopoDSToStep.hxx>
 #include <TopoDSToStep_Builder.hxx>
 #include <TopoDSToStep_Tool.hxx>
-#include <MoniTool_DataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_OrientedClosedShell.hxx>

@@ -47,7 +47,7 @@ void iges_Psect(int numsec,char ligne[80]);
 /* To use strcpy*/
 /*#include <string.h>*/
 /* To use Msg class */
-/*#include <MoniTool_Msg.hxx>*/
+/*#include <DataExchange/MoniTool/MoniTool_Msg.hxx>*/
 
 static  char sects [] = " SGDPT ";
 

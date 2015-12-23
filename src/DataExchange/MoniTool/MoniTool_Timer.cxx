@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_Timer.hxx>
+#include <DataExchange/MoniTool/MoniTool_Timer.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <MoniTool_DataMapOfTimer.hxx>
-#include <MoniTool_Timer.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfTimer.hxx>
+#include <DataExchange/MoniTool/MoniTool_Timer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_Timer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,10 +25,10 @@ IMPLEMENT_STANDARD_TYPE_END(MoniTool_Timer)
 IMPLEMENT_DOWNCAST(MoniTool_Timer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_Timer)
 
-#include <MoniTool_DataMapOfTimer.hxx>
-#include <MoniTool_DataMapIteratorOfDataMapOfTimer.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfTimer.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfTimer.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <MoniTool_TimerSentry.hxx>
+#include <DataExchange/MoniTool/MoniTool_TimerSentry.hxx>
 #include <stdio.h>
 
 

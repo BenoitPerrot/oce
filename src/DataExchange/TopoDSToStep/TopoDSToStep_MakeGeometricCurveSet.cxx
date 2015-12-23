@@ -23,7 +23,7 @@
 #include <TopoDSToStep_Builder.hxx>
 #include <TopoDSToStep_WireframeBuilder.hxx>
 #include <TopoDSToStep_Tool.hxx>
-#include <MoniTool_DataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

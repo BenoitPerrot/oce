@@ -35,9 +35,9 @@
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep.hxx>
 #include <Transfer_Binder.hxx>
-#include <MoniTool_DataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <TopoDSToStep_Tool.hxx>
-#include <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 
 
 Handle(TCollection_HAsciiString) 

@@ -24,7 +24,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <MoniTool_DataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <TopoDSToStep_WireframeBuilder.hxx>
 #include <TopoDSToStep_Tool.hxx>
 
@@ -32,7 +32,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <MoniTool_DataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Transfer_FinderProcess.hxx>

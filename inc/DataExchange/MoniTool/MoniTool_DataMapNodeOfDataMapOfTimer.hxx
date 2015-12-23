@@ -55,17 +55,17 @@ private:
 #define TheKey Standard_CString
 #define TheKey_hxx <Foundation/Standard/Standard_CString.hxx>
 #define TheItem Handle(MoniTool_Timer)
-#define TheItem_hxx <MoniTool_Timer.hxx>
+#define TheItem_hxx <DataExchange/MoniTool/MoniTool_Timer.hxx>
 #define Hasher MoniTool_MTHasher
-#define Hasher_hxx <MoniTool_MTHasher.hxx>
+#define Hasher_hxx <DataExchange/MoniTool/MoniTool_MTHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfTimer
-#define TCollection_DataMapNode_hxx <MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/MoniTool/MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
 #define TCollection_DataMapIterator MoniTool_DataMapIteratorOfDataMapOfTimer
-#define TCollection_DataMapIterator_hxx <MoniTool_DataMapIteratorOfDataMapOfTimer.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfTimer.hxx>
 #define Handle_TCollection_DataMapNode Handle_MoniTool_DataMapNodeOfDataMapOfTimer
 #define TCollection_DataMapNode_Type_() MoniTool_DataMapNodeOfDataMapOfTimer_Type_()
 #define TCollection_DataMap MoniTool_DataMapOfTimer
-#define TCollection_DataMap_hxx <MoniTool_DataMapOfTimer.hxx>
+#define TCollection_DataMap_hxx <DataExchange/MoniTool/MoniTool_DataMapOfTimer.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

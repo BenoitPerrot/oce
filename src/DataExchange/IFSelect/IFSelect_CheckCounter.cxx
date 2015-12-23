@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_SignText.hxx>
+#include <DataExchange/MoniTool/MoniTool_SignText.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>

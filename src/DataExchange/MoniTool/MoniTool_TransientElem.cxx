@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/MoniTool_Element.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <MoniTool_TransientElem.hxx>
+#include <DataExchange/MoniTool/MoniTool_TransientElem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_TransientElem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_TransientElem)
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <MoniTool_DataInfo.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataInfo.hxx>
 
 
 MoniTool_TransientElem::MoniTool_TransientElem (const Handle(Standard_Transient)& akey)

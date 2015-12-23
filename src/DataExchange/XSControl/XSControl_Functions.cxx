@@ -17,7 +17,7 @@
 #include <XSControl_Controller.hxx>
 #include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 #include <DataExchange/IFSelect/IFSelect_Option.hxx>
-#include <MoniTool_TypedValue.hxx>
+#include <DataExchange/MoniTool/MoniTool_TypedValue.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 

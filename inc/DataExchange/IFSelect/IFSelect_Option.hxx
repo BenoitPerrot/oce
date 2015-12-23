@@ -6,7 +6,7 @@
 #ifndef _IFSelect_Option_HeaderFile
 #define _IFSelect_Option_HeaderFile
 
-#include <MoniTool_Option.hxx>
+#include <DataExchange/MoniTool/MoniTool_Option.hxx>
 
 typedef MoniTool_Option IFSelect_Option;
 typedef Handle_MoniTool_Option Handle_IFSelect_Option;

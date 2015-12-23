@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <MoniTool_CaseData.hxx>
+#include <DataExchange/MoniTool/MoniTool_CaseData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_CaseData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

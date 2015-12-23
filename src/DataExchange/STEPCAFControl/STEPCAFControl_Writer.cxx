@@ -96,7 +96,7 @@
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
-#include <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 #include <StepRepr_Representation.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>

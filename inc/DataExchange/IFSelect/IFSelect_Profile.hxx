@@ -6,7 +6,7 @@
 #ifndef _IFSelect_Profile_HeaderFile
 #define _IFSelect_Profile_HeaderFile
 
-#include <MoniTool_Profile.hxx>
+#include <DataExchange/MoniTool/MoniTool_Profile.hxx>
 
 typedef MoniTool_Profile IFSelect_Profile;
 typedef Handle_MoniTool_Profile Handle_IFSelect_Profile;

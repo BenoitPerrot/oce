@@ -11,7 +11,7 @@
 #include <Handle_MoniTool_Element.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <MoniTool_AttrList.hxx>
+#include <DataExchange/MoniTool/MoniTool_AttrList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>

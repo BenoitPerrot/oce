@@ -15,7 +15,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Type.hxx>
-#include <MoniTool_ValueType.hxx>
+#include <DataExchange/MoniTool/MoniTool_ValueType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Dico_DictionaryOfTransient;

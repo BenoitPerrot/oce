@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <MoniTool_DataMapOfShapeTransient.hxx>
-#include <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 
  
 
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(MoniTool_DataMapNodeOfDataMapOfShapeTransient)
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode MoniTool_DataMapNodeOfDataMapOfShapeTransient
-#define TCollection_DataMapNode_hxx <MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/MoniTool/MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 #define TCollection_DataMapIterator MoniTool_DataMapIteratorOfDataMapOfShapeTransient
-#define TCollection_DataMapIterator_hxx <MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 #define Handle_TCollection_DataMapNode Handle_MoniTool_DataMapNodeOfDataMapOfShapeTransient
 #define TCollection_DataMapNode_Type_() MoniTool_DataMapNodeOfDataMapOfShapeTransient_Type_()
 #define TCollection_DataMap MoniTool_DataMapOfShapeTransient
-#define TCollection_DataMap_hxx <MoniTool_DataMapOfShapeTransient.hxx>
+#define TCollection_DataMap_hxx <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

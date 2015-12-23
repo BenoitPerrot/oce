@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MoniTool_Element.hxx>
-#include <MoniTool_ElemHasher.hxx>
+#include <DataExchange/MoniTool/MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/MoniTool_ElemHasher.hxx>
 
 
 Standard_Integer  MoniTool_ElemHasher::HashCode

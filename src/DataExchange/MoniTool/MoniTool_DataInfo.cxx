@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <MoniTool_DataInfo.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataInfo.hxx>
 
 Handle(Standard_Type)  MoniTool_DataInfo::Type
   (const Handle(Standard_Transient)& ent)

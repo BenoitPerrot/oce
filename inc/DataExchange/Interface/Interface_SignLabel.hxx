@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_SignLabel.hxx>
 
-#include <MoniTool_SignText.hxx>
+#include <DataExchange/MoniTool/MoniTool_SignText.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
 class TCollection_AsciiString;

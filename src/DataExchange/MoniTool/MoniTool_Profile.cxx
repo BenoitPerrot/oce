@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <MoniTool_Option.hxx>
+#include <DataExchange/MoniTool/MoniTool_Option.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <MoniTool_Profile.hxx>
+#include <DataExchange/MoniTool/MoniTool_Profile.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_Profile)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(MoniTool_Profile,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_Profile)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <MoniTool_TypedValue.hxx>
+#include <DataExchange/MoniTool/MoniTool_TypedValue.hxx>
 
 
 static Standard_Boolean IsCurrent (const Standard_CString name)

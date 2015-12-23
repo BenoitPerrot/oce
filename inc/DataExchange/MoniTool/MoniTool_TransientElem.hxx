@@ -11,7 +11,7 @@
 #include <Handle_MoniTool_TransientElem.hxx>
 
 #include <Handle_Standard_Transient.hxx>
-#include <MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/MoniTool_Element.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_MoniTool_Element.hxx>
 #include <Handle_Standard_Type.hxx>

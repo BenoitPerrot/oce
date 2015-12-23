@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_MoniTool_HSequenceOfElement.hxx>
 
-#include <MoniTool_SequenceOfElement.hxx>
+#include <DataExchange/MoniTool/MoniTool_SequenceOfElement.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MoniTool_Element.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(MoniTool_Element)
-#define Item_hxx <MoniTool_Element.hxx>
+#define Item_hxx <DataExchange/MoniTool/MoniTool_Element.hxx>
 #define TheSequence MoniTool_SequenceOfElement
-#define TheSequence_hxx <MoniTool_SequenceOfElement.hxx>
+#define TheSequence_hxx <DataExchange/MoniTool/MoniTool_SequenceOfElement.hxx>
 #define TCollection_HSequence MoniTool_HSequenceOfElement
-#define TCollection_HSequence_hxx <MoniTool_HSequenceOfElement.hxx>
+#define TCollection_HSequence_hxx <DataExchange/MoniTool/MoniTool_HSequenceOfElement.hxx>
 #define Handle_TCollection_HSequence Handle_MoniTool_HSequenceOfElement
 #define TCollection_HSequence_Type_() MoniTool_HSequenceOfElement_Type_()
 

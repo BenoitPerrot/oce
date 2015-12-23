@@ -11,14 +11,14 @@
 #include <Handle_MoniTool_TypedValue.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <MoniTool_ValueType.hxx>
+#include <DataExchange/MoniTool/MoniTool_ValueType.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfAsciiString.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <MoniTool_ValueInterpret.hxx>
-#include <MoniTool_ValueSatisfies.hxx>
+#include <DataExchange/MoniTool/MoniTool_ValueInterpret.hxx>
+#include <DataExchange/MoniTool/MoniTool_ValueSatisfies.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -13,7 +13,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <MoniTool_SignText.hxx>
+#include <DataExchange/MoniTool/MoniTool_SignText.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MoniTool_SignText)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

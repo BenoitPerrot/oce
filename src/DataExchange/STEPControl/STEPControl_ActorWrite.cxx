@@ -120,7 +120,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 
 #include <TopoDSToStep_MakeStepVertex.hxx>
 #include <StepShape_VertexPoint.hxx>
-#include <MoniTool_DataMapOfShapeTransient.hxx>
+#include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
