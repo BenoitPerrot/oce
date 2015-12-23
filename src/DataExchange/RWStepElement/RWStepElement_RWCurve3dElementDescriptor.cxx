@@ -20,7 +20,7 @@
 #include <StepElement_Curve3dElementDescriptor.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWCurve3dElementDescriptor.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWCurve3dElementDescriptor.hxx>
 #include <StepElement_CurveElementPurposeMember.hxx>
 #include <StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
 #include <StepElement_HSequenceOfCurveElementPurposeMember.hxx>

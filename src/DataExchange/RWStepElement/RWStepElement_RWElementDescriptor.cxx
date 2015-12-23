@@ -20,7 +20,7 @@
 #include <StepElement_ElementDescriptor.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWElementDescriptor.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWElementDescriptor.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWElementDescriptor

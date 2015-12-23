@@ -20,7 +20,7 @@
 #include <StepElement_CurveElementSectionDefinition.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWCurveElementSectionDefinition.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWCurveElementSectionDefinition.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWCurveElementSectionDefinition

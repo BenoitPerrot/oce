@@ -20,7 +20,7 @@
 #include <StepElement_CurveElementSectionDerivedDefinitions.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWCurveElementSectionDerivedDefinitions.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWCurveElementSectionDerivedDefinitions.hxx>
 #include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

@@ -20,7 +20,7 @@
 #include <StepElement_UniformSurfaceSection.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWUniformSurfaceSection.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWUniformSurfaceSection.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWUniformSurfaceSection

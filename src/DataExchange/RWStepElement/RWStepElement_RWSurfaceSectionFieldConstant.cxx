@@ -20,7 +20,7 @@
 #include <StepElement_SurfaceSectionFieldConstant.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWSurfaceSectionFieldConstant.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWSurfaceSectionFieldConstant.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWSurfaceSectionFieldConstant

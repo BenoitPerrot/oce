@@ -20,7 +20,7 @@
 #include <StepElement_Volume3dElementDescriptor.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWVolume3dElementDescriptor.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWVolume3dElementDescriptor.hxx>
 #include <StepElement_HArray1OfVolumeElementPurposeMember.hxx>
 #include <StepElement_VolumeElementPurposeMember.hxx>
 

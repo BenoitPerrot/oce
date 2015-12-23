@@ -20,7 +20,7 @@
 #include <StepElement_CurveElementEndReleasePacket.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWCurveElementEndReleasePacket.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWCurveElementEndReleasePacket.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWCurveElementEndReleasePacket

@@ -20,7 +20,7 @@
 #include <StepElement_SurfaceSectionFieldVarying.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWSurfaceSectionFieldVarying.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWSurfaceSectionFieldVarying.hxx>
 #include <StepElement_HArray1OfSurfaceSection.hxx>
 #include <StepElement_SurfaceSection.hxx>
 

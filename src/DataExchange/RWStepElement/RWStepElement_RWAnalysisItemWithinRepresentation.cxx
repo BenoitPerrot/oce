@@ -20,7 +20,7 @@
 #include <StepElement_AnalysisItemWithinRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepElement_RWAnalysisItemWithinRepresentation.hxx>
+#include <DataExchange/RWStepElement/RWStepElement_RWAnalysisItemWithinRepresentation.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWAnalysisItemWithinRepresentation
