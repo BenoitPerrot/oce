@@ -17,7 +17,7 @@
 // modified by mps (dec 96) ajout de ContinuityCommands
 //             jpi 09/06/97 utilisation des commandes de GeomliteTest
 
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <GeomliteTest.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

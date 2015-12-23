@@ -16,7 +16,7 @@
 
 // 09/06/97 : JPI : suppression des commandes redondantes suite a la creation de GeomliteTest
 
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>

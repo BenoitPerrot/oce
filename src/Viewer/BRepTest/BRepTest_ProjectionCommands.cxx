@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

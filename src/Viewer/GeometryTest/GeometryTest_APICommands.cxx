@@ -20,7 +20,7 @@
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>

@@ -20,7 +20,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>

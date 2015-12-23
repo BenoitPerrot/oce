@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>

@@ -19,7 +19,7 @@
 //		option -NS dans la commande tuyau pour distinguer les tuyaux
 //		a section evolutive des tuyaux a N sections avec N = 2
 
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

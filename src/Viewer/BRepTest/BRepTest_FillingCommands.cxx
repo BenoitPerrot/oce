@@ -26,7 +26,7 @@
 
 
 
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>

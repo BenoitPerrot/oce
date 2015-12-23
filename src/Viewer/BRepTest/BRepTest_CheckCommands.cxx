@@ -35,7 +35,7 @@
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis.hxx>
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>

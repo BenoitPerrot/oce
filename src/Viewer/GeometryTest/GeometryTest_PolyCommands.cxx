@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangle.hxx>

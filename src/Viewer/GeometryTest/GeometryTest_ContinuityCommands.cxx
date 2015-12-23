@@ -22,7 +22,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw.hxx>

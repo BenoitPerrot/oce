@@ -17,7 +17,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <GeomliteTest.hxx>
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <MeshTest.hxx>
 //#include <CorrectTest.hxx>

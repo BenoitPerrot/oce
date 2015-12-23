@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <GeometryTest.hxx>
+#include <Viewer/GeometryTest/GeometryTest.hxx>
 
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
