@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ShapeCustom_ConvertToBSpline.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_ConvertToBSpline.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeCustom_ConvertToBSpline)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

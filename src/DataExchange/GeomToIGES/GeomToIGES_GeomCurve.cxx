@@ -100,7 +100,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 
-#include <ShapeCustom_BSplineRestriction.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_BSplineRestriction.hxx>
 
 // Pour toutes les courbes infinies soit 
 // Udeb <= -Precision::Infinite() et/ou Ufin >= Precision::Infinite()

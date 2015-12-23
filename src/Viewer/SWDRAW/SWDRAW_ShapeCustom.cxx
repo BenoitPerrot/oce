@@ -20,9 +20,9 @@
 #include <DBRep.hxx>
 #include <SWDRAW.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeCustom.hxx>
-#include <ShapeCustom_BSplineRestriction.hxx>
-#include <ShapeCustom_RestrictionParameters.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_BSplineRestriction.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_RestrictionParameters.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

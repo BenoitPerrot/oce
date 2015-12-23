@@ -149,7 +149,7 @@
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <ShapeCustom_Curve2d.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_Curve2d.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>

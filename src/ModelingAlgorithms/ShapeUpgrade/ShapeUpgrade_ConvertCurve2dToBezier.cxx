@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve2dToBezier)
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 #include <Geometry/GeomTools/GeomTools.hxx>
-#include <ShapeCustom_Curve2d.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_Curve2d.hxx>
 
 ShapeUpgrade_ConvertCurve2dToBezier::ShapeUpgrade_ConvertCurve2dToBezier()
 {

@@ -19,7 +19,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <ShapeCustom_Curve2d.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_Curve2d.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

@@ -39,7 +39,7 @@
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
 
-//#include <ShapeCustom.hxx>
+//#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 

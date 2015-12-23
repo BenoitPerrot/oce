@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeCustom_RestrictionParameters.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_RestrictionParameters.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeCustom_RestrictionParameters)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

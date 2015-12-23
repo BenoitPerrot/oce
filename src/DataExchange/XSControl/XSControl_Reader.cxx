@@ -31,7 +31,7 @@
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_Binder.hxx>
-//#include <ShapeCustom.hxx>
+//#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 #include <Interface_Static.hxx>
 #include <Interface_Check.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

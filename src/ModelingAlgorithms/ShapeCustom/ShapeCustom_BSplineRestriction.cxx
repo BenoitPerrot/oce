@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
-#include <ShapeCustom_RestrictionParameters.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_RestrictionParameters.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -24,7 +24,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <ShapeCustom_BSplineRestriction.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_BSplineRestriction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeCustom_BSplineRestriction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

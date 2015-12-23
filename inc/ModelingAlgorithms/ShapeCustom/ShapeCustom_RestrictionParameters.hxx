@@ -121,7 +121,7 @@ private:
 };
 
 
-#include <ShapeCustom_RestrictionParameters.lxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_RestrictionParameters.lxx>
 
 
 

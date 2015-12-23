@@ -17,13 +17,13 @@
 //    abv 16.06.99 general function ApplyModifier() implemented
 //    gka 21.06.99 general LimitDegreeShape renamed to BSplineRestriction
 //    szv 03.01.01 PositiveCones merged with DirectFaces
-#include <ShapeCustom.hxx>
-#include <ShapeCustom_DirectModification.hxx>
-#include <ShapeCustom_TrsfModification.hxx>
-#include <ShapeCustom_ConvertToRevolution.hxx>
-#include <ShapeCustom_BSplineRestriction.hxx>
-#include <ShapeCustom_ConvertToBSpline.hxx>
-#include <ShapeCustom_SweptToElementary.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_DirectModification.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_TrsfModification.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_ConvertToRevolution.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_BSplineRestriction.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_ConvertToBSpline.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_SweptToElementary.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <GeomAbs_Shape.hxx>

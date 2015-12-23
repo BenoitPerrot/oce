@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <UnitsMethods.hxx>
-#include <ShapeCustom.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

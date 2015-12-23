@@ -209,7 +209,7 @@ private:
 };
 
 
-#include <ShapeCustom_BSplineRestriction.lxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_BSplineRestriction.lxx>
 
 
 

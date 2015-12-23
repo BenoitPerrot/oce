@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <ShapeCustom_Curve.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

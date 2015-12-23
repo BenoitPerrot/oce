@@ -62,8 +62,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct.hxx>
-#include <ShapeCustom.hxx>
-#include <ShapeCustom_Surface.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_Surface.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeFix.hxx>

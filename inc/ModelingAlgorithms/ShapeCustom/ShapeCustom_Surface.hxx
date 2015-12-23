@@ -77,7 +77,7 @@ private:
 };
 
 
-#include <ShapeCustom_Surface.lxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_Surface.lxx>
 
 
 

@@ -36,12 +36,12 @@
 
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
-#include <ShapeCustom_DirectModification.hxx>
-#include <ShapeCustom_RestrictionParameters.hxx>
-#include <ShapeCustom_BSplineRestriction.hxx>
-#include <ShapeCustom_ConvertToRevolution.hxx>
-#include <ShapeCustom_SweptToElementary.hxx>
-#include <ShapeCustom_ConvertToBSpline.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_DirectModification.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_RestrictionParameters.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_BSplineRestriction.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_ConvertToRevolution.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_SweptToElementary.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom_ConvertToBSpline.hxx>
 
 #include <ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>

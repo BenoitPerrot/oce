@@ -76,7 +76,7 @@
 #include <ShapeUpgrade_ShapeDivideContinuity.hxx>
 #include <ShapeUpgrade_ShapeDivideAngle.hxx>
 #include <ShapeUpgrade_ShapeConvertToBezier.hxx>
-#include <ShapeCustom.hxx>
+#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 #include <ShapeUpgrade_ShapeDivideClosed.hxx>
 #include <ShapeUpgrade_RemoveInternalWires.hxx>
 #include <ShapeUpgrade_RemoveLocations.hxx>
