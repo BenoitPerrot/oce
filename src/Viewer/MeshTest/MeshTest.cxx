@@ -18,9 +18,9 @@
 
 #include <stdio.h>
 
-#include <MeshTest.hxx>
+#include <Viewer/MeshTest/MeshTest.hxx>
 
-#include <MeshTest_DrawableMesh.hxx>
+#include <Viewer/MeshTest/MeshTest_DrawableMesh.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

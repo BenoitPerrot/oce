@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshTest_CheckTopology.hxx>
+#include <Viewer/MeshTest/MeshTest_CheckTopology.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

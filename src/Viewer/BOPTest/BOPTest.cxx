@@ -19,7 +19,7 @@
 #include <Viewer/GeomliteTest/GeomliteTest.hxx>
 #include <Viewer/GeometryTest/GeometryTest.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <MeshTest.hxx>
+#include <Viewer/MeshTest/MeshTest.hxx>
 //#include <CorrectTest.hxx>
 #include <Viewer/HLRTest/HLRTest.hxx>
 //#include <stdio.h>

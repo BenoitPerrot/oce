@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshTest.hxx>
+#include <Viewer/MeshTest/MeshTest.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretFactory.hxx>
@@ -35,7 +35,7 @@
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <MeshTest_CheckTopology.hxx>
+#include <Viewer/MeshTest/MeshTest_CheckTopology.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>

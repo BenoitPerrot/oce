@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshTest_DrawableMesh.hxx>
+#include <Viewer/MeshTest/MeshTest_DrawableMesh.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_ColorKind.hxx>
