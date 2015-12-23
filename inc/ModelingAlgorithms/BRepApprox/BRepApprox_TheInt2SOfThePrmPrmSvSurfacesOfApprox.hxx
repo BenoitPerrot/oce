@@ -14,7 +14,7 @@
 #include <IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntImp_ConstIsoparametric.hxx>
 class StdFail_NotDone;
@@ -106,11 +106,11 @@ private:
 #define ThePSurface BRepAdaptor_Surface
 #define ThePSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define ThePSurfaceTool BRepApprox_SurfaceTool
-#define ThePSurfaceTool_hxx <BRepApprox_SurfaceTool.hxx>
+#define ThePSurfaceTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #define IntImp_TheFunction BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox
-#define IntImp_TheFunction_hxx <BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
+#define IntImp_TheFunction_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #define IntImp_Int2S BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox
-#define IntImp_Int2S_hxx <BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
+#define IntImp_Int2S_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 
 #include <IntImp_Int2S.lxx>
 

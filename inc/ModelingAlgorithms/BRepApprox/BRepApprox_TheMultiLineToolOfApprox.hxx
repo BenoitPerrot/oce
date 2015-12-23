@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepApprox_TheMultiLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineOfApprox.hxx>
 #include <Geometry/Approx/Approx_Status.hxx>
 class BRepApprox_TheMultiLineOfApprox;
 class ApproxInt_SvSurfaces;
@@ -78,11 +78,11 @@ private:
 };
 
 #define TheMultiLine BRepApprox_TheMultiLineOfApprox
-#define TheMultiLine_hxx <BRepApprox_TheMultiLineOfApprox.hxx>
+#define TheMultiLine_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineOfApprox.hxx>
 #define TheMultiMPoint ApproxInt_SvSurfaces
 #define TheMultiMPoint_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLineTool BRepApprox_TheMultiLineToolOfApprox
-#define ApproxInt_MultiLineTool_hxx <BRepApprox_TheMultiLineToolOfApprox.hxx>
+#define ApproxInt_MultiLineTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineToolOfApprox.hxx>
 
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_MultiLineTool.lxx>
 

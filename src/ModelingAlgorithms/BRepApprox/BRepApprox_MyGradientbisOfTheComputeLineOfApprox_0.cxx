@@ -3,33 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <BRepApprox_TheMultiLineOfApprox.hxx>
-#include <BRepApprox_TheMultiLineToolOfApprox.hxx>
-#include <BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx>
-#include <BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx>
-#include <BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx>
-#include <BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineToolOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine BRepApprox_TheMultiLineOfApprox
-#define MultiLine_hxx <BRepApprox_TheMultiLineOfApprox.hxx>
+#define MultiLine_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineOfApprox.hxx>
 #define ToolLine BRepApprox_TheMultiLineToolOfApprox
-#define ToolLine_hxx <BRepApprox_TheMultiLineToolOfApprox.hxx>
+#define ToolLine_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineToolOfApprox.hxx>
 #define AppParCurves_ParLeastSquare BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox
-#define AppParCurves_ParLeastSquare_hxx <BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#define AppParCurves_ParLeastSquare_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #define AppParCurves_ResConstraint BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox
-#define AppParCurves_ResConstraint_hxx <BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#define AppParCurves_ResConstraint_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #define AppParCurves_ParFunction BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox
-#define AppParCurves_ParFunction_hxx <BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#define AppParCurves_ParFunction_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #define AppParCurves_Gradient_BFGS BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox
-#define AppParCurves_Gradient_BFGS_hxx <BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx>
+#define AppParCurves_Gradient_BFGS_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx>
 #define AppParCurves_Gradient BRepApprox_MyGradientbisOfTheComputeLineOfApprox
-#define AppParCurves_Gradient_hxx <BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx>
+#define AppParCurves_Gradient_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx>
 #include <Geometry/AppParCurves/AppParCurves_Gradient.gxx>
 

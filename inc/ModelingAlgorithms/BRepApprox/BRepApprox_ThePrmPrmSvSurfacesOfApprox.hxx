@@ -3,8 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _BRepApprox_TheImpPrmSvSurfacesOfApprox_HeaderFile
-#define _BRepApprox_TheImpPrmSvSurfacesOfApprox_HeaderFile
+#ifndef _BRepApprox_ThePrmPrmSvSurfacesOfApprox_HeaderFile
+#define _BRepApprox_ThePrmPrmSvSurfacesOfApprox_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
@@ -15,32 +15,29 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #include <Handle_BRepApprox_ApproxLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BRepAdaptor_Surface;
 class BRepApprox_SurfaceTool;
-class IntSurf_Quadric;
-class IntSurf_QuadricTool;
 class BRepApprox_ApproxLine;
-class BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox;
+class BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox;
+class BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox;
 class gp_Pnt;
 class gp_Vec;
 class gp_Vec2d;
 
 
 
-class BRepApprox_TheImpPrmSvSurfacesOfApprox  : public ApproxInt_SvSurfaces
+class BRepApprox_ThePrmPrmSvSurfacesOfApprox  : public ApproxInt_SvSurfaces
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT BRepApprox_TheImpPrmSvSurfacesOfApprox(const BRepAdaptor_Surface& Surf1, const IntSurf_Quadric& Surf2);
-  
-  Standard_EXPORT BRepApprox_TheImpPrmSvSurfacesOfApprox(const IntSurf_Quadric& Surf1, const BRepAdaptor_Surface& Surf2);
+  Standard_EXPORT BRepApprox_ThePrmPrmSvSurfacesOfApprox(const BRepAdaptor_Surface& Surf1, const BRepAdaptor_Surface& Surf2);
   
   Standard_EXPORT   Standard_Boolean Compute (Standard_Real& u1, Standard_Real& v1, Standard_Real& u2, Standard_Real& v2, gp_Pnt& Pt, gp_Vec& Tg, gp_Vec2d& Tguv1, gp_Vec2d& Tguv2) ;
   
@@ -81,8 +78,7 @@ private:
   gp_Vec MyTgbis;
   Standard_Boolean MyIsTangentbis;
   Standard_Boolean MyHasBeenComputedbis;
-  Standard_Boolean MyImplicitFirst;
-  BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox MyZerImpFunc;
+  BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox MyIntersectionOn2S;
 
 
 };
@@ -93,4 +89,4 @@ private:
 
 
 
-#endif // _BRepApprox_TheImpPrmSvSurfacesOfApprox_HeaderFile
+#endif // _BRepApprox_ThePrmPrmSvSurfacesOfApprox_HeaderFile

@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepApprox_SurfaceTool.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
@@ -16,8 +16,8 @@
 #define ThePSurface BRepAdaptor_Surface
 #define ThePSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define ThePSurfaceTool BRepApprox_SurfaceTool
-#define ThePSurfaceTool_hxx <BRepApprox_SurfaceTool.hxx>
+#define ThePSurfaceTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #define IntImp_ZerParFunc BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox
-#define IntImp_ZerParFunc_hxx <BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
+#define IntImp_ZerParFunc_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #include <IntImp_ZerParFunc.gxx>
 

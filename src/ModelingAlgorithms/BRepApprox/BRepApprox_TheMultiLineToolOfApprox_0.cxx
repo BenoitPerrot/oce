@@ -3,9 +3,9 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepApprox_TheMultiLineToolOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineToolOfApprox.hxx>
 
-#include <BRepApprox_TheMultiLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineOfApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -14,10 +14,10 @@
  
 
 #define TheMultiLine BRepApprox_TheMultiLineOfApprox
-#define TheMultiLine_hxx <BRepApprox_TheMultiLineOfApprox.hxx>
+#define TheMultiLine_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineOfApprox.hxx>
 #define TheMultiMPoint ApproxInt_SvSurfaces
 #define TheMultiMPoint_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLineTool BRepApprox_TheMultiLineToolOfApprox
-#define ApproxInt_MultiLineTool_hxx <BRepApprox_TheMultiLineToolOfApprox.hxx>
+#define ApproxInt_MultiLineTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheMultiLineToolOfApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_MultiLineTool.gxx>
 

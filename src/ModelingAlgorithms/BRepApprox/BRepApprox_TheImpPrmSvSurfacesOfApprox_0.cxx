@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepApprox_TheImpPrmSvSurfacesOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheImpPrmSvSurfacesOfApprox.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepApprox_SurfaceTool.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_QuadricTool.hxx>
-#include <BRepApprox_ApproxLine.hxx>
-#include <BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_ApproxLine.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
@@ -19,17 +19,17 @@
 #define ThePSurface BRepAdaptor_Surface
 #define ThePSurface_hxx <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #define ThePSurfaceTool BRepApprox_SurfaceTool
-#define ThePSurfaceTool_hxx <BRepApprox_SurfaceTool.hxx>
+#define ThePSurfaceTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #define TheISurface IntSurf_Quadric
 #define TheISurface_hxx <IntSurf_Quadric.hxx>
 #define TheISurfaceTool IntSurf_QuadricTool
 #define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
 #define Handle_TheLine Handle_BRepApprox_ApproxLine
 #define TheLine BRepApprox_ApproxLine
-#define TheLine_hxx <BRepApprox_ApproxLine.hxx>
+#define TheLine_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_ApproxLine.hxx>
 #define ApproxInt_TheZerImpFunc BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox
-#define ApproxInt_TheZerImpFunc_hxx <BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
+#define ApproxInt_TheZerImpFunc_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
 #define ApproxInt_ImpPrmSvSurfaces BRepApprox_TheImpPrmSvSurfacesOfApprox
-#define ApproxInt_ImpPrmSvSurfaces_hxx <BRepApprox_TheImpPrmSvSurfacesOfApprox.hxx>
+#define ApproxInt_ImpPrmSvSurfaces_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheImpPrmSvSurfacesOfApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_ImpPrmSvSurfaces.gxx>
 

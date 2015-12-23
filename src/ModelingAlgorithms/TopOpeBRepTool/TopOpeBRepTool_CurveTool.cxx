@@ -23,8 +23,8 @@
 #include <TopOpeBRepTool_CurveTool.hxx>
 
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
-#include <BRepApprox_Approx.hxx>
-#include <BRepApprox_ApproxLine.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_Approx.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_ApproxLine.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

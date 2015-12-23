@@ -56,8 +56,8 @@
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Precision.hxx>
-#include <BRepApprox_ApproxLine.hxx>
-#include <BRepApprox_Approx.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_ApproxLine.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_Approx.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>

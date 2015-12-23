@@ -146,7 +146,7 @@ private:
 };
 
 
-#include <BRepApprox_SurfaceTool.lxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.lxx>
 
 
 

@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepApprox_TheComputeLineOfApprox.hxx>
-#include <BRepApprox_TheComputeLineBezierOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheComputeLineOfApprox.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_TheComputeLineBezierOfApprox.hxx>
 #include <Geometry/Approx/Approx_MCurvesToBSpCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

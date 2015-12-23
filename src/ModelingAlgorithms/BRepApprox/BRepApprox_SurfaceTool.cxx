@@ -24,7 +24,7 @@
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <BRepApprox_SurfaceTool.hxx>
+#include <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 
 Standard_Integer  BRepApprox_SurfaceTool::NbSamplesU (const BRepAdaptor_Surface&) 
 {
