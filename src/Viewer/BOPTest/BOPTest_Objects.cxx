@@ -16,7 +16,7 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Section.hxx>
-#include <BOPTest_Objects.hxx>
+#include <Viewer/BOPTest/BOPTest_Objects.hxx>
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>

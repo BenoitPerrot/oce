@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPTest.hxx>
+#include <Viewer/BOPTest/BOPTest.hxx>
 
 #include <stdio.h>
 
@@ -31,7 +31,7 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_MakerVolume.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
-#include <BOPTest_DrawableShape.hxx>
+#include <Viewer/BOPTest/BOPTest_DrawableShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

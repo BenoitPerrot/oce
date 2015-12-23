@@ -18,7 +18,7 @@
 #include <Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Display.hxx>
-#include <BOPTest_DrawableShape.hxx>
+#include <Viewer/BOPTest/BOPTest_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BOPTest_DrawableShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

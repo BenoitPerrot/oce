@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPTest.hxx>
+#include <Viewer/BOPTest/BOPTest.hxx>
 
 #include <stdio.h>
 #include <string.h>
@@ -32,10 +32,10 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Section.hxx>
 //
-#include <BOPTest_DrawableShape.hxx>
-#include <BOPTest_Objects.hxx>
+#include <Viewer/BOPTest/BOPTest_DrawableShape.hxx>
+#include <Viewer/BOPTest/BOPTest_Objects.hxx>
 
-#include <BOPTest_Chronometer.hxx>
+#include <Viewer/BOPTest/BOPTest_Chronometer.hxx>
 
 static Standard_Integer bfillds  (Draw_Interpretor&, Standard_Integer, const char**); 
 static Standard_Integer bbuild   (Draw_Interpretor&, Standard_Integer, const char**);

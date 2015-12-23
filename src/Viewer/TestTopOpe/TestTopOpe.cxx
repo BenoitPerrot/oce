@@ -26,7 +26,7 @@
 #include <TopOpeBRepDS_Dumper.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_PluginMacro.hxx>
-#include <BOPTest.hxx>
+#include <Viewer/BOPTest/BOPTest.hxx>
 #include <SWDRAW.hxx>
 #ifdef _MSC_VER
 #pragma warning(4:4190)
