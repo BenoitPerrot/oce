@@ -18,7 +18,7 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <BRepMesh_DiscretFactory.hxx>
 #include <BRepMesh_DiscretRoot.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

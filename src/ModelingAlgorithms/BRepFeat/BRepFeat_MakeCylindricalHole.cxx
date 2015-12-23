@@ -40,7 +40,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Precision.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 
 

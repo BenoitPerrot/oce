@@ -40,7 +40,7 @@
 #include <ModelingAlgorithms/BiTgte/BiTgte_CurveOnEdge.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <BRepBuilderAPI_Sewing.hxx>

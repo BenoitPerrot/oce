@@ -20,7 +20,7 @@
 #include <Voxel_FastConverter.hxx>
 
 #include <Precision.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 

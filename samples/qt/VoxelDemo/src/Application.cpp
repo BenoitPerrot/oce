@@ -27,7 +27,7 @@
 #include <VoxelClient_VisDrawer.h>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeTorus.hxx>

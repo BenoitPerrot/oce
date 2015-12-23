@@ -31,7 +31,7 @@
 #include <Aspect_DisplayConnection.hxx>
 #include <DBRep.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>

@@ -32,7 +32,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerListOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>

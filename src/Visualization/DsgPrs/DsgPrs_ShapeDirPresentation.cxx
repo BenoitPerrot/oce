@@ -41,7 +41,7 @@
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <BRepClass_Edge.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

@@ -36,7 +36,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 //
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>

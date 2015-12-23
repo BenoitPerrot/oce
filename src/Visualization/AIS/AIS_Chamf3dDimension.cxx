@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf3dDimension)
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

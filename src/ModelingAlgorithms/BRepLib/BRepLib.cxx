@@ -84,7 +84,7 @@
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Geometry/Approx/Approx_CurvilinearParameter.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 

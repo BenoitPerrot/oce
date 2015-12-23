@@ -64,7 +64,7 @@
 //modified by NIZNHY-PKV Fri Mar 22 16:48:16 2002 t
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>

@@ -66,7 +66,7 @@
 #include <ModelingData/BRep/BRep_TFace.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>

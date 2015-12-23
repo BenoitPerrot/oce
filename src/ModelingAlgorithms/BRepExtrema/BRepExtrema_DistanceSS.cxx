@@ -52,7 +52,7 @@
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 

@@ -24,7 +24,7 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 
 #include <Precision.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <BRepLib_MakeVertex.hxx>

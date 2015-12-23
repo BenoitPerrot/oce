@@ -76,7 +76,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

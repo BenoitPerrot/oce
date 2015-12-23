@@ -33,7 +33,7 @@
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Vrml_IndexedFaceSet.hxx>
 #include <Vrml_Coordinate3.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

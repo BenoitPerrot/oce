@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <AIS_Shape.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <IVtkOCC_SelectableObject.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <SelectMgr_Selection.hxx>

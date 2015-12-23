@@ -50,7 +50,7 @@
 #include <BRepClass_Edge.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 

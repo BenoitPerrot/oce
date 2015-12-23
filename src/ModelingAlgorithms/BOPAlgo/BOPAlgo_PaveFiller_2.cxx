@@ -40,7 +40,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_Interf.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PassKey.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKey.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 //=======================================================================

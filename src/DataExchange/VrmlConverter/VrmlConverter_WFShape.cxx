@@ -19,7 +19,7 @@
 #include <Prs3d_ShapeTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <VrmlConverter_IsoAspect.hxx>
 #include <VrmlConverter_LineAspect.hxx>
 #include <VrmlConverter_WFRestrictedFace.hxx>

@@ -20,7 +20,7 @@
 
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <BRepExtrema_DistanceSS.hxx>

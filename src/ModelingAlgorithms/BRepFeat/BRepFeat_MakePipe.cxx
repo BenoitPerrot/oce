@@ -58,7 +58,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean BRepFeat_GettraceFEAT();

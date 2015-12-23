@@ -36,7 +36,7 @@
 #include <BRepOffsetAPI_NormalProjection.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

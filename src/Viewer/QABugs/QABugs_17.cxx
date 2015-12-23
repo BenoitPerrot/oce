@@ -743,7 +743,7 @@ static Standard_Integer  OCC189 (Draw_Interpretor& di, Standard_Integer /*argc*/
   return 0; 
 }
 
-#include <BRepBndLib.hxx>
+#include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Draw.hxx>
 //=======================================================================
 //function : OCC566
