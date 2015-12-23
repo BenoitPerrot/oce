@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_PDF_Attribute_HeaderFile
-#include <XCAFSchema_PDF_Attribute.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PDF_Attribute.hxx>
 #endif
 #ifndef _PDF_Attribute_HeaderFile
 #include <OCAF/PDF/PDF_Attribute.hxx>

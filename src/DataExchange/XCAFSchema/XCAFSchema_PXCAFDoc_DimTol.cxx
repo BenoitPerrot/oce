@@ -1,17 +1,17 @@
 #ifndef _XCAFSchema_PXCAFDoc_DimTol_HeaderFile
-#include <XCAFSchema_PXCAFDoc_DimTol.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_DimTol.hxx>
 #endif
 #ifndef _PXCAFDoc_DimTol_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_DimTol.hxx>
 #endif
 #ifndef _XCAFSchema_PColStd_HArray1OfReal_HeaderFile
-#include <XCAFSchema_PColStd_HArray1OfReal.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

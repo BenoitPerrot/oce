@@ -1,14 +1,14 @@
 #ifndef _XCAFSchema_gp_Trsf_HeaderFile
-#include <XCAFSchema_gp_Trsf.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Trsf.hxx>
 #endif
 #ifndef _gp_Trsf_HeaderFile
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #endif
 #ifndef _XCAFSchema_gp_Mat_HeaderFile
-#include <XCAFSchema_gp_Mat.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Mat.hxx>
 #endif
 #ifndef _XCAFSchema_gp_XYZ_HeaderFile
-#include <XCAFSchema_gp_XYZ.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_XYZ.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

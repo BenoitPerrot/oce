@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_PXCAFDoc_Volume_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Volume.hxx>
 #endif
 #ifndef _PXCAFDoc_Volume_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Volume.hxx>

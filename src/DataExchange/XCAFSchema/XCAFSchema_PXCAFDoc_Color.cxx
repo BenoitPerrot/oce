@@ -1,11 +1,11 @@
 #ifndef _XCAFSchema_PXCAFDoc_Color_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Color.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Color.hxx>
 #endif
 #ifndef _PXCAFDoc_Color_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Color.hxx>
 #endif
 #ifndef _XCAFSchema_Quantity_Color_HeaderFile
-#include <XCAFSchema_Quantity_Color.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_Quantity_Color.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

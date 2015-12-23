@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_PXCAFDoc_DocumentTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_DocumentTool.hxx>
 #endif
 #ifndef _PXCAFDoc_DocumentTool_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_DocumentTool.hxx>

@@ -1,11 +1,11 @@
 #ifndef _XCAFSchema_PXCAFDoc_Centroid_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Centroid.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Centroid.hxx>
 #endif
 #ifndef _PXCAFDoc_Centroid_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Centroid.hxx>
 #endif
 #ifndef _XCAFSchema_gp_Pnt_HeaderFile
-#include <XCAFSchema_gp_Pnt.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Pnt.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,14 +1,14 @@
 #ifndef _XCAFSchema_PXCAFDoc_GraphNodeSequence_HeaderFile
-#include <XCAFSchema_PXCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_GraphNodeSequence.hxx>
 #endif
 #ifndef _PXCAFDoc_GraphNodeSequence_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNodeSequence.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence_HeaderFile
-#include <XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence_HeaderFile
-#include <XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

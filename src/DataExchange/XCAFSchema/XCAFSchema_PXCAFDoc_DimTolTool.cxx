@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_PXCAFDoc_DimTolTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_DimTolTool.hxx>
 #endif
 #ifndef _PXCAFDoc_DimTolTool_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_DimTolTool.hxx>

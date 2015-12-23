@@ -1,17 +1,17 @@
 #ifndef _XCAFSchema_PXCAFDoc_Datum_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Datum.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Datum.hxx>
 #endif
 #ifndef _PXCAFDoc_Datum_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Datum.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

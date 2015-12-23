@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_gp_Mat_HeaderFile
-#include <XCAFSchema_gp_Mat.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Mat.hxx>
 #endif
 #ifndef _gp_Mat_HeaderFile
 #include <Mathematics/Primitives/gp_Mat.hxx>

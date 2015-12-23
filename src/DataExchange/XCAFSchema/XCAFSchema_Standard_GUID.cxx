@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_Standard_GUID_HeaderFile
-#include <XCAFSchema_Standard_GUID.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_Standard_GUID.hxx>
 #endif
 #ifndef _Standard_GUID_HeaderFile
 #include <Foundation/Standard/Standard_GUID.hxx>

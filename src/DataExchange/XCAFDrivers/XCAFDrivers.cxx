@@ -18,7 +18,7 @@
 #include <DataExchange/XCAFDrivers/XCAFDrivers.hxx>
 #include <DataExchange/XCAFDrivers/XCAFDrivers_DocumentStorageDriver.hxx>
 #include <DataExchange/XCAFDrivers/XCAFDrivers_DocumentRetrievalDriver.hxx>
-#include <XCAFSchema.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>

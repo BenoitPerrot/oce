@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_PMMgt_PManaged_HeaderFile
-#include <XCAFSchema_PMMgt_PManaged.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PMMgt_PManaged.hxx>
 #endif
 #ifndef _PMMgt_PManaged_HeaderFile
 #include <OCAF/PMMgt/PMMgt_PManaged.hxx>

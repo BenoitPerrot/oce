@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_Standard_Storable_HeaderFile
-#include <XCAFSchema_Standard_Storable.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_Standard_Storable.hxx>
 #endif
 #ifndef _Standard_Storable_HeaderFile
 #include <Foundation/Standard/Standard_Storable.hxx>

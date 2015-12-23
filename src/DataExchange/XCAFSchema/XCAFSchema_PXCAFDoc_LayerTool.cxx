@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_PXCAFDoc_LayerTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_LayerTool.hxx>
 #endif
 #ifndef _PXCAFDoc_LayerTool_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_LayerTool.hxx>

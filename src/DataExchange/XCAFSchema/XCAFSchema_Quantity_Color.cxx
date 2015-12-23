@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_Quantity_Color_HeaderFile
-#include <XCAFSchema_Quantity_Color.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_Quantity_Color.hxx>
 #endif
 #ifndef _Quantity_Color_HeaderFile
 #include <Foundation/Quantity/Quantity_Color.hxx>

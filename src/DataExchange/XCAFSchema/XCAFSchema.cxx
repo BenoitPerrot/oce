@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_HeaderFile
-#include <XCAFSchema.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema.hxx>
 #endif
 #ifndef _Storage_StreamUnknownTypeError_HeaderFile
 #include <Foundation/Storage/Storage_StreamUnknownTypeError.hxx>
@@ -8,79 +8,79 @@
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_Location_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Location.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Location.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_Color_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Color.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Color.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_Volume_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Volume.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Volume.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_Area_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Area.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Area.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_Centroid_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Centroid.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Centroid.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_ColorTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_ColorTool.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_ShapeTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_ShapeTool.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_DocumentTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_DocumentTool.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_LayerTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_LayerTool.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_GraphNode_HeaderFile
-#include <XCAFSchema_PXCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_GraphNode.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_GraphNodeSequence_HeaderFile
-#include <XCAFSchema_PXCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_GraphNodeSequence.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence_HeaderFile
-#include <XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_Datum_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Datum.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Datum.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_DimTol_HeaderFile
-#include <XCAFSchema_PXCAFDoc_DimTol.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_DimTol.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_DimTolTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_DimTolTool.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_Material_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Material.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Material.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_MaterialTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_MaterialTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_MaterialTool.hxx>
 #endif
 #ifndef _XCAFSchema_PDF_Attribute_HeaderFile
-#include <XCAFSchema_PDF_Attribute.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PDF_Attribute.hxx>
 #endif
 #ifndef _XCAFSchema_Standard_Persistent_HeaderFile
-#include <XCAFSchema_Standard_Persistent.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_Standard_Persistent.hxx>
 #endif
 #ifndef _XCAFSchema_PMMgt_PManaged_HeaderFile
-#include <XCAFSchema_PMMgt_PManaged.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PMMgt_PManaged.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PColStd_HArray1OfReal_HeaderFile
-#include <XCAFSchema_PColStd_HArray1OfReal.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _XCAFSchema_PTopLoc_Datum3D_HeaderFile
-#include <XCAFSchema_PTopLoc_Datum3D.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PTopLoc_Datum3D.hxx>
 #endif
 #ifndef _XCAFSchema_PTopLoc_ItemLocation_HeaderFile
-#include <XCAFSchema_PTopLoc_ItemLocation.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HExtendedString_HeaderFile
-#include <XCAFSchema_PCollection_HExtendedString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HExtendedString.hxx>
 #endif
 
 // avoid warnings on 'extern "C"' functions returning C++ classes

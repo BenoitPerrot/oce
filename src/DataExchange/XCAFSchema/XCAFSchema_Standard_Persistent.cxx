@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_Standard_Persistent_HeaderFile
-#include <XCAFSchema_Standard_Persistent.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_Standard_Persistent.hxx>
 #endif
 #ifndef _Standard_Persistent_HeaderFile
 #include <Foundation/Standard/Standard_Persistent.hxx>

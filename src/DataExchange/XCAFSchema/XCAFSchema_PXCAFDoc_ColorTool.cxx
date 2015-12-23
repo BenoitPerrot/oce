@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_PXCAFDoc_ColorTool_HeaderFile
-#include <XCAFSchema_PXCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_ColorTool.hxx>
 #endif
 #ifndef _PXCAFDoc_ColorTool_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_ColorTool.hxx>

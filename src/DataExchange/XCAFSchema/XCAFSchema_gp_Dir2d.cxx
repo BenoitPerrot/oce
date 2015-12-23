@@ -1,11 +1,11 @@
 #ifndef _XCAFSchema_gp_Dir2d_HeaderFile
-#include <XCAFSchema_gp_Dir2d.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Dir2d.hxx>
 #endif
 #ifndef _gp_Dir2d_HeaderFile
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #endif
 #ifndef _XCAFSchema_gp_XY_HeaderFile
-#include <XCAFSchema_gp_XY.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_XY.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

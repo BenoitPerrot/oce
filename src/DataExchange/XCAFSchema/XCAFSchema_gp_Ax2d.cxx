@@ -1,14 +1,14 @@
 #ifndef _XCAFSchema_gp_Ax2d_HeaderFile
-#include <XCAFSchema_gp_Ax2d.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Ax2d.hxx>
 #endif
 #ifndef _gp_Ax2d_HeaderFile
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #endif
 #ifndef _XCAFSchema_gp_Pnt2d_HeaderFile
-#include <XCAFSchema_gp_Pnt2d.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Pnt2d.hxx>
 #endif
 #ifndef _XCAFSchema_gp_Dir2d_HeaderFile
-#include <XCAFSchema_gp_Dir2d.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_gp_Dir2d.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

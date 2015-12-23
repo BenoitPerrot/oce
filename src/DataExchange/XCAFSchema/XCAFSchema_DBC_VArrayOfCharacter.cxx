@@ -1,5 +1,5 @@
 #ifndef _XCAFSchema_DBC_VArrayOfCharacter_HeaderFile
-#include <XCAFSchema_DBC_VArrayOfCharacter.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_DBC_VArrayOfCharacter.hxx>
 #endif
 #ifndef _DBC_VArrayOfCharacter_HeaderFile
 #include <OCAF/DBC/DBC_VArrayOfCharacter.hxx>

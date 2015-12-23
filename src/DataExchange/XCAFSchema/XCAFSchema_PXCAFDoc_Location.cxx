@@ -1,11 +1,11 @@
 #ifndef _XCAFSchema_PXCAFDoc_Location_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Location.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Location.hxx>
 #endif
 #ifndef _PXCAFDoc_Location_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Location.hxx>
 #endif
 #ifndef _XCAFSchema_PTopLoc_Location_HeaderFile
-#include <XCAFSchema_PTopLoc_Location.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

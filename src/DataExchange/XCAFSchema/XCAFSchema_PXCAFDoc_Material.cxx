@@ -1,20 +1,20 @@
 #ifndef _XCAFSchema_PXCAFDoc_Material_HeaderFile
-#include <XCAFSchema_PXCAFDoc_Material.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PXCAFDoc_Material.hxx>
 #endif
 #ifndef _PXCAFDoc_Material_HeaderFile
 #include <DataExchange/PXCAFDoc/PXCAFDoc_Material.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
-#include <XCAFSchema_PCollection_HAsciiString.hxx>
+#include <DataExchange/XCAFSchema/XCAFSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>
