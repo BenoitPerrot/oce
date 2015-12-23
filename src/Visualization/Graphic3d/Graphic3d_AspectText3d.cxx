@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectText3d)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
-#include <Font_NameOfFont.hxx>
+#include <Visualization/Font/Font_NameOfFont.hxx>
 
 //-Aliases
 

@@ -25,7 +25,7 @@
 
 #include <MeshVS_DrawerAttribute.hxx>
 #include <Precision.hxx>
-#include <Font_NameOfFont.hxx>
+#include <Visualization/Font/Font_NameOfFont.hxx>
 
 //================================================================
 // Function : CreateAspectFillArea3d

@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(QABugs_MyText)
 #include <Prs3d_Text.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Font_NameOfFont.hxx>
+#include <Visualization/Font/Font_NameOfFont.hxx>
 
 /*************************************************************************
 *

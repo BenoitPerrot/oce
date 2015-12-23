@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_LayerMgr)
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visual3d_View.hxx>
 #include <V3d_ColorScale.hxx>
-#include <Font_NameOfFont.hxx>
+#include <Visualization/Font/Font_NameOfFont.hxx>
 
 
 V3d_LayerMgr::V3d_LayerMgr( const Handle(V3d_View)& AView )

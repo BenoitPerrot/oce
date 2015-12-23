@@ -17,7 +17,7 @@
 
 #include <OpenGl_GraphicDriver.hxx>
 
-#include <Font_FontAspect.hxx>
+#include <Visualization/Font/Font_FontAspect.hxx>
 
 #include <OpenGl_AspectText.hxx>
 #include <OpenGl_Text.hxx>

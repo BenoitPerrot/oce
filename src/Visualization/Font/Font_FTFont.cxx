@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Font_FTFont.hxx>
-#include <Font_FontMgr.hxx>
+#include <Visualization/Font/Font_FTFont.hxx>
+#include <Visualization/Font/Font_FontMgr.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

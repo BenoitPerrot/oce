@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(Prs3d_TextAspect)
 IMPLEMENT_DOWNCAST(Prs3d_TextAspect,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Prs3d_TextAspect)
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Font_NameOfFont.hxx>
+#include <Visualization/Font/Font_NameOfFont.hxx>
 
 Prs3d_TextAspect::Prs3d_TextAspect () 
 : myAngle(0.),

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Font_FTLibrary.hxx>
+#include <Visualization/Font/Font_FTLibrary.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Font_FTLibrary, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(Font_FTLibrary, Standard_Transient)

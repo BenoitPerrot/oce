@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Font_BRepFont.hxx>
+#include <Visualization/Font/Font_BRepFont.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>

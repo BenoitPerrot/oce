@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_TextPrsBuilder)
 #include <MeshVS_DrawerAttribute.hxx>
 #include <MeshVS_Buffer.hxx>
 
-#include <Font_NameOfFont.hxx>
+#include <Visualization/Font/Font_NameOfFont.hxx>
 
 //================================================================
 // Function : Constructor MeshVS_TextPrsBuilder

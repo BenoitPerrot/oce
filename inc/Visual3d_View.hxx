@@ -38,7 +38,7 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfTriedronEcho.hxx>
-#include <Font_FontAspect.hxx>
+#include <Visualization/Font/Font_FontAspect.hxx>
 #include <Visual3d_TypeOfAnswer.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Graphic3d_ZLayerSettings.hxx>

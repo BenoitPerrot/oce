@@ -16,7 +16,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfStyleText.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfDisplayText.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Font_FontAspect.hxx>
+#include <Visualization/Font/Font_FontAspect.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

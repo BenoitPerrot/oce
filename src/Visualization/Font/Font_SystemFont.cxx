@@ -16,7 +16,7 @@
 // Updated:
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Font_SystemFont.hxx>
+#include <Visualization/Font/Font_SystemFont.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Font_SystemFont)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

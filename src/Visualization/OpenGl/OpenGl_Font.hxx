@@ -19,7 +19,7 @@
 #include <OpenGl_Texture.hxx>
 #include <OpenGl_Vec.hxx>
 
-#include <Font_FTFont.hxx>
+#include <Visualization/Font/Font_FTFont.hxx>
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>

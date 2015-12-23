@@ -22,8 +22,8 @@
 #include <Draw_Appli.hxx>
 #include <DBRep.hxx>
 
-#include <Font_BRepFont.hxx>
-#include <Font_FontMgr.hxx>
+#include <Visualization/Font/Font_BRepFont.hxx>
+#include <Visualization/Font/Font_FontMgr.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visual3d_View.hxx>
@@ -2407,7 +2407,7 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 #include <Graphic3d_VerticalTextAlignment.hxx>
 #include <Graphic3d_HorizontalTextAlignment.hxx>
 
-#include <Font_NameOfFont.hxx>
+#include <Visualization/Font/Font_NameOfFont.hxx>
 
 #include <Visual3d_ViewManager.hxx>
 

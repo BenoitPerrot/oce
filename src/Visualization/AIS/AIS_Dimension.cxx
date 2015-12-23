@@ -24,7 +24,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
 #ifndef OCE_DISABLE_TKSERVICE_FONT
-#include <Font_BRepFont.hxx>
+#include <Visualization/Font/Font_BRepFont.hxx>
 #endif // OCE_DISABLE_TKSERVICE_FONT
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

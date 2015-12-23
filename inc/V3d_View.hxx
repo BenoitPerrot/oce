@@ -56,7 +56,7 @@
 #include <Handle_V3d_Light.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfTriedronEcho.hxx>
-#include <Font_FontAspect.hxx>
+#include <Visualization/Font/Font_FontAspect.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

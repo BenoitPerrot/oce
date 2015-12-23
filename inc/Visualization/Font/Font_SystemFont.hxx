@@ -11,7 +11,7 @@
 #include <Handle_Font_SystemFont.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Font_FontAspect.hxx>
+#include <Visualization/Font/Font_FontAspect.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

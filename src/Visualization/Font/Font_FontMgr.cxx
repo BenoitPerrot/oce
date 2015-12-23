@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_SequenceOfHAsciiString.hxx>
-#include <Font_SystemFont.hxx>
+#include <Visualization/Font/Font_SystemFont.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Font_FontMgr.hxx>
+#include <Visualization/Font/Font_FontMgr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Font_FontMgr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(Font_FontMgr)
 IMPLEMENT_DOWNCAST(Font_FontMgr,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Font_FontMgr)
 
-#include <Font_FTLibrary.hxx>
+#include <Visualization/Font/Font_FTLibrary.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>

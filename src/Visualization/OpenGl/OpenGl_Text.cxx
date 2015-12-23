@@ -24,7 +24,7 @@
 #include <OpenGl_Utils.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Font_FontMgr.hxx>
+#include <Visualization/Font/Font_FontMgr.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #ifdef HAVE_GL2PS

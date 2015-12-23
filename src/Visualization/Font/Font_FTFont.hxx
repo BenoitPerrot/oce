@@ -18,9 +18,9 @@
 
 #include <Foundation/NCollection/NCollection_Vec2.hxx>
 #include <Foundation/NCollection/NCollection_String.hxx>
-#include <Font_FTLibrary.hxx>
+#include <Visualization/Font/Font_FTLibrary.hxx>
 #include <Image_PixMap.hxx>
-#include <Font_FontAspect.hxx>
+#include <Visualization/Font/Font_FontAspect.hxx>
 
 //! Wrapper over FreeType font.
 //! Notice that this class uses internal buffers for loaded glyphs
