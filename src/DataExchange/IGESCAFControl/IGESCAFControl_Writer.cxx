@@ -22,7 +22,7 @@
 #include <XCAFPrs_DataMapOfStyleTransient.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <XCAFPrs_Style.hxx>
-#include <IGESCAFControl_Writer.hxx>
+#include <DataExchange/IGESCAFControl/IGESCAFControl_Writer.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -32,7 +32,7 @@
 #include <TransferBRep.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <IGESGraph_Color.hxx>
-#include <IGESCAFControl.hxx>
+#include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <XCAFDoc_DocumentTool.hxx>

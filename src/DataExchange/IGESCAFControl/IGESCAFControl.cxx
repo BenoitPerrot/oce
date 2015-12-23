@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <IGESCAFControl.hxx>
+#include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>
 
 //=======================================================================
 //function : DecodeColor

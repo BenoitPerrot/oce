@@ -35,8 +35,8 @@
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 
-#include <IGESCAFControl_Reader.hxx>
-#include <IGESCAFControl_Writer.hxx>
+#include <DataExchange/IGESCAFControl/IGESCAFControl_Reader.hxx>
+#include <DataExchange/IGESCAFControl/IGESCAFControl_Writer.hxx>
 #include <STEPCAFControl_Reader.hxx>
 #include <STEPCAFControl_Writer.hxx>
 

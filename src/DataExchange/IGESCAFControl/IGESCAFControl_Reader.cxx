@@ -17,7 +17,7 @@
 #include <XSControl_WorkSession.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESCAFControl_Reader.hxx>
+#include <DataExchange/IGESCAFControl/IGESCAFControl_Reader.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XSControl_TransferReader.hxx>
@@ -26,7 +26,7 @@
 #include <Transfer_Binder.hxx>
 #include <TransferBRep.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <IGESCAFControl.hxx>
+#include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>
 #include <IGESGraph_Color.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
