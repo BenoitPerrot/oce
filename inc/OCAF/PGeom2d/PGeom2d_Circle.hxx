@@ -12,7 +12,7 @@
 #include <Handle_PGeom2d_Circle.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <PGeom2d_Conic.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Conic.hxx>
 class gp_Ax22d;
 
 

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom2d_Geometry.hxx>
 #endif
 #ifndef _PGeom2d_Geometry_HeaderFile
-#include <PGeom2d_Geometry.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Geometry.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
-#include <PGeom2d_Circle.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Circle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom2d_Circle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

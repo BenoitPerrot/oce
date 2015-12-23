@@ -16,7 +16,7 @@
 #include <Handle_PColgp_HArray1OfPnt2d.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
 #include <Handle_PColStd_HArray1OfInteger.hxx>
-#include <PGeom2d_BoundedCurve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_BoundedCurve.hxx>
 class PColgp_HArray1OfPnt2d;
 class PColStd_HArray1OfReal;
 class PColStd_HArray1OfInteger;

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom2d_BoundedCurve.hxx>
 #endif
 #ifndef _PGeom2d_BoundedCurve_HeaderFile
-#include <PGeom2d_BoundedCurve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_BoundedCurve.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

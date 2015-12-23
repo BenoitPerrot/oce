@@ -12,7 +12,7 @@
 #include <Handle_PGeom2d_Conic.hxx>
 
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
-#include <PGeom2d_Curve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Curve.hxx>
 class gp_Ax22d;
 
 

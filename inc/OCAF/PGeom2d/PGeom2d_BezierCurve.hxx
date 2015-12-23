@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PColgp_HArray1OfPnt2d.hxx>
 #include <Handle_PColStd_HArray1OfReal.hxx>
-#include <PGeom2d_BoundedCurve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_BoundedCurve.hxx>
 class PColgp_HArray1OfPnt2d;
 class PColStd_HArray1OfReal;
 

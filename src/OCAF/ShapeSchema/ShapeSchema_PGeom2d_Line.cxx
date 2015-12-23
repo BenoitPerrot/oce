@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom2d_Line.hxx>
 #endif
 #ifndef _PGeom2d_Line_HeaderFile
-#include <PGeom2d_Line.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Line.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Ax2d_HeaderFile
 #include <ShapeSchema_gp_Ax2d.hxx>

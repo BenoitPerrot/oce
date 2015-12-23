@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom2d_Vector.hxx>
 #endif
 #ifndef _PGeom2d_Vector_HeaderFile
-#include <PGeom2d_Vector.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Vector.hxx>
 #endif
 #ifndef _ShapeSchema_gp_Vec2d_HeaderFile
 #include <ShapeSchema_gp_Vec2d.hxx>

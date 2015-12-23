@@ -17,7 +17,7 @@
 #include <OCAF/PColgp/PColgp_HArray1OfPnt2d.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
-#include <PGeom2d_BSplineCurve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PGeom2d_BSplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

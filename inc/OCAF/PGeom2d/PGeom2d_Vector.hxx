@@ -12,7 +12,7 @@
 #include <Handle_PGeom2d_Vector.hxx>
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <PGeom2d_Geometry.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Geometry.hxx>
 class gp_Vec2d;
 
 

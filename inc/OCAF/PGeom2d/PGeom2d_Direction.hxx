@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom2d_Direction.hxx>
 
-#include <PGeom2d_Vector.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Vector.hxx>
 class gp_Vec2d;
 
 

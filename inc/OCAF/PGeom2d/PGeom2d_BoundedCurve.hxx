@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PGeom2d_BoundedCurve.hxx>
 
-#include <PGeom2d_Curve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Curve.hxx>
 
 
 class PGeom2d_BoundedCurve : public PGeom2d_Curve

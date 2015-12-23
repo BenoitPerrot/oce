@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom2d_OffsetCurve.hxx>
 #endif
 #ifndef _PGeom2d_OffsetCurve_HeaderFile
-#include <PGeom2d_OffsetCurve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_OffsetCurve.hxx>
 #endif
 #ifndef _ShapeSchema_PGeom2d_Curve_HeaderFile
 #include <ShapeSchema_PGeom2d_Curve.hxx>

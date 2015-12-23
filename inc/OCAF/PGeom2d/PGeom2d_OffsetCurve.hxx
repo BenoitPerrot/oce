@@ -13,7 +13,7 @@
 
 #include <Handle_PGeom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <PGeom2d_Curve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Curve.hxx>
 class PGeom2d_Curve;
 
 

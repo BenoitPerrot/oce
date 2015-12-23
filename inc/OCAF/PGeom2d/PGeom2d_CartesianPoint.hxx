@@ -12,7 +12,7 @@
 #include <Handle_PGeom2d_CartesianPoint.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <PGeom2d_Point.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Point.hxx>
 class gp_Pnt2d;
 
 

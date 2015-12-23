@@ -2,7 +2,7 @@
 #include <ShapeSchema_PGeom2d_Curve.hxx>
 #endif
 #ifndef _PGeom2d_Curve_HeaderFile
-#include <PGeom2d_Curve.hxx>
+#include <OCAF/PGeom2d/PGeom2d_Curve.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>
