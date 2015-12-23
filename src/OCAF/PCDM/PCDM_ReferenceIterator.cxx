@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(PCDM_ReferenceIterator)
 IMPLEMENT_DOWNCAST(PCDM_ReferenceIterator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PCDM_ReferenceIterator)
 #include <Foundation/Storage/Storage_Data.hxx>
-#include <UTL.hxx>
+#include <OCAF/UTL/UTL.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>

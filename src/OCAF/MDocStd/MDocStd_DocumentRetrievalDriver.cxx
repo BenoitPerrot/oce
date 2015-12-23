@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentRetrievalDriver)
 #include <OCAF/TDocStd/TDocStd_Owner.hxx>
 
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <UTL.hxx>
+#include <OCAF/UTL/UTL.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
 

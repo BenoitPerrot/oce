@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(CDF_Application)
 
 
 #include <Foundation/Plugin/Plugin.hxx>
-#include <UTL.hxx>
+#include <OCAF/UTL/UTL.hxx>
 
 #include <OCAF/CDF/CDF_Timer.hxx>
 

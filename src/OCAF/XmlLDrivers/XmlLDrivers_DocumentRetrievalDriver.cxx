@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <UTL.hxx>
+#include <OCAF/UTL/UTL.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 
 #ifdef WNT

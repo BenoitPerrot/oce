@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(CDM_Document)
 #include <OCAF/CDM/CDM_ListOfDocument.hxx>
 #include <OCAF/CDM/CDM_ListIteratorOfListOfDocument.hxx>
 
-#include <UTL.hxx>
+#include <OCAF/UTL/UTL.hxx>
 #include <OCAF/CDM/CDM_DataMapIteratorOfMetaDataLookUpTable.hxx>
 
 static CDM_PresentationDirectory& getPresentations() {

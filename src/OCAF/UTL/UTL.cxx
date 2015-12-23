@@ -22,7 +22,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <UTL.hxx>
+#include <OCAF/UTL/UTL.hxx>
 #include <Foundation/OSD/OSD_Host.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

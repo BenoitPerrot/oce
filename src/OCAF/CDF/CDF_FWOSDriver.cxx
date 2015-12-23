@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(CDF_FWOSDriver)
 #include <Foundation/OSD/OSD_SingleProtection.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_FileNode.hxx>
-#include <UTL.hxx>
+#include <OCAF/UTL/UTL.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #ifdef WNT
 #include <tchar.h>
