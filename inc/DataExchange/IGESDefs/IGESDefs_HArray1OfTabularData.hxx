@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESDefs_HArray1OfTabularData.hxx>
 
-#include <IGESDefs_Array1OfTabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_Array1OfTabularData.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESDefs_TabularData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESDefs_TabularData)
-#define ItemHArray1_hxx <IGESDefs_TabularData.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
 #define TheArray1 IGESDefs_Array1OfTabularData
-#define TheArray1_hxx <IGESDefs_Array1OfTabularData.hxx>
+#define TheArray1_hxx <DataExchange/IGESDefs/IGESDefs_Array1OfTabularData.hxx>
 #define TCollection_HArray1 IGESDefs_HArray1OfTabularData
-#define TCollection_HArray1_hxx <IGESDefs_HArray1OfTabularData.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDefs/IGESDefs_HArray1OfTabularData.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDefs_HArray1OfTabularData
 #define TCollection_HArray1_Type_() IGESDefs_HArray1OfTabularData_Type_()
 

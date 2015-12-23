@@ -20,7 +20,7 @@
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESDefs_AssociativityDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AssociativityDef.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_AssociativityDef)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -30,9 +30,9 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_ToolNodalConstraint.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <IGESDefs_HArray1OfTabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_HArray1OfTabularData.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
-#include <IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

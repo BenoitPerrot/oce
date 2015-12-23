@@ -19,14 +19,14 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
-#include <IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_AttributeDef)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 
 #include <IGESSolid.hxx>
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
-#include <IGESDefs.hxx>
+#include <DataExchange/IGESDefs/IGESDefs.hxx>
 
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>

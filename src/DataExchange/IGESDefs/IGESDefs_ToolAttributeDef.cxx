@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESDefs_ToolAttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolAttributeDef.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
@@ -38,7 +38,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
-#include <IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDefs_HArray1OfTabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_HArray1OfTabularData.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESDefs_TabularData.hxx>
-#include <IGESDefs_Array1OfTabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_Array1OfTabularData.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_HArray1OfTabularData)
 
 
 #define ItemHArray1 Handle(IGESDefs_TabularData)
-#define ItemHArray1_hxx <IGESDefs_TabularData.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
 #define TheArray1 IGESDefs_Array1OfTabularData
-#define TheArray1_hxx <IGESDefs_Array1OfTabularData.hxx>
+#define TheArray1_hxx <DataExchange/IGESDefs/IGESDefs_Array1OfTabularData.hxx>
 #define TCollection_HArray1 IGESDefs_HArray1OfTabularData
-#define TCollection_HArray1_hxx <IGESDefs_HArray1OfTabularData.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESDefs/IGESDefs_HArray1OfTabularData.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESDefs_HArray1OfTabularData
 #define TCollection_HArray1_Type_() IGESDefs_HArray1OfTabularData_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

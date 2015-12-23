@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_TabularData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -20,7 +20,7 @@
 // The last field (ent->DependentValues()) not resolved. Queried to mdtv
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -31,7 +31,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESDefs_ToolTabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolTabularData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

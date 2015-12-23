@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESDefs_MacroDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_MacroDef.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_MacroDef)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

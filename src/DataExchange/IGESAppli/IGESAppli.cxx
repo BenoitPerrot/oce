@@ -21,7 +21,7 @@
 #include <Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
-#include <IGESDefs.hxx>
+#include <DataExchange/IGESDefs/IGESDefs.hxx>
 #include <IGESDraw.hxx>
 
 

@@ -19,11 +19,11 @@
 #include <Foundation/TColStd/TColStd_HArray2OfTransient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDefs_AttributeTable.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_AttributeTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_AttributeTable)
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>
 

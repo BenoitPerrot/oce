@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_HArray1OfHArray1OfTextDisplayTemplate)
 #define TheKey IGESGraph_HArray1OfTextDisplayTemplate
 #define TheKey_hxx <IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #define Interface_JaggedArray IGESDefs_HArray1OfHArray1OfTextDisplayTemplate
-#define Interface_JaggedArray_hxx <IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
+#define Interface_JaggedArray_hxx <DataExchange/IGESDefs/IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #define Handle_Interface_JaggedArray Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate
 #define Interface_JaggedArray_Type_() IGESDefs_HArray1OfHArray1OfTextDisplayTemplate_Type_()
 #include <Interface_JaggedArray.gxx>

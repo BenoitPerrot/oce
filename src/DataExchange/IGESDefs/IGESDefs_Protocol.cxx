@@ -13,7 +13,7 @@
 
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <IGESDefs_Protocol.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,13 +26,13 @@ IMPLEMENT_STANDARD_TYPE_END(IGESDefs_Protocol)
 IMPLEMENT_DOWNCAST(IGESDefs_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_Protocol)
 
-#include <IGESDefs_AssociativityDef.hxx>
-#include <IGESDefs_MacroDef.hxx>
-#include <IGESDefs_UnitsData.hxx>
-#include <IGESDefs_AttributeDef.hxx>
-#include <IGESDefs_TabularData.hxx>
-#include <IGESDefs_GenericData.hxx>
-#include <IGESDefs_AttributeTable.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AssociativityDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_MacroDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_UnitsData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_GenericData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeTable.hxx>
 
 #include  <IGESGraph.hxx>
 #include  <IGESGraph_Protocol.hxx>

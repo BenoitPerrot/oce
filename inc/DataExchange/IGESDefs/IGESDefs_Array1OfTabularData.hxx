@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESDefs_TabularData)
-#define Array1Item_hxx <IGESDefs_TabularData.hxx>
+#define Array1Item_hxx <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
 #define TCollection_Array1 IGESDefs_Array1OfTabularData
-#define TCollection_Array1_hxx <IGESDefs_Array1OfTabularData.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESDefs/IGESDefs_Array1OfTabularData.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

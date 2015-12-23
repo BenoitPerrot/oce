@@ -26,7 +26,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESDefs_GenericData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_GenericData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_GenericData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

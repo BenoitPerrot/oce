@@ -18,7 +18,7 @@
 #include <Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_CopyTool.hxx>
-#include <IGESDefs_GeneralModule.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDefs_GeneralModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,21 +33,21 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_GeneralModule)
 #include <Interface_Macros.hxx>
 #include <Interface_Category.hxx>
 
-#include <IGESDefs_AssociativityDef.hxx>
-#include <IGESDefs_AttributeDef.hxx>
-#include <IGESDefs_AttributeTable.hxx>
-#include <IGESDefs_GenericData.hxx>
-#include <IGESDefs_MacroDef.hxx>
-#include <IGESDefs_TabularData.hxx>
-#include <IGESDefs_UnitsData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AssociativityDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_AttributeTable.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_GenericData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_MacroDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_UnitsData.hxx>
 
-#include <IGESDefs_ToolAssociativityDef.hxx>
-#include <IGESDefs_ToolAttributeDef.hxx>
-#include <IGESDefs_ToolAttributeTable.hxx>
-#include <IGESDefs_ToolGenericData.hxx>
-#include <IGESDefs_ToolMacroDef.hxx>
-#include <IGESDefs_ToolTabularData.hxx>
-#include <IGESDefs_ToolUnitsData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolAssociativityDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolAttributeDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolAttributeTable.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolGenericData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolMacroDef.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolTabularData.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_ToolUnitsData.hxx>
 
 
 

@@ -46,9 +46,9 @@ IMPLEMENT_STANDARD_RTTI(IGESAppli_Protocol)
 #include <DataExchange/IGESAppli/IGESAppli_PWBDrilledHole.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_NodalConstraint.hxx>
 
-#include <IGESDefs.hxx>
+#include <DataExchange/IGESDefs/IGESDefs.hxx>
 #include <IGESDraw.hxx>
-#include <IGESDefs_Protocol.hxx>
+#include <DataExchange/IGESDefs/IGESDefs_Protocol.hxx>
 #include <IGESDraw_Protocol.hxx>
 
 
