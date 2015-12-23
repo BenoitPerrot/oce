@@ -18,7 +18,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDataXtd_PatternStdDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_PatternStdDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataXtd_PatternStdDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

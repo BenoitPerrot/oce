@@ -22,7 +22,7 @@
 #include <OCAF/BinLDrivers/BinLDrivers.hxx>
 #include <BinMDF.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
-#include <BinMDataXtd.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd.hxx>
 #include <BinMNaming.hxx>
 #include <BinMDocStd.hxx>
 #include <BinMFunction.hxx>

@@ -16,7 +16,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
 #include <BinObjMgt_Persistent.hxx>
-#include <BinMDataXtd_PlacementDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_PlacementDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMDataXtd_PlacementDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

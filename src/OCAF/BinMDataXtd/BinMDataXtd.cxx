@@ -17,15 +17,15 @@
 
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinMDataXtd.hxx>
-#include <BinMDataXtd_ConstraintDriver.hxx>
-#include <BinMDataXtd_GeometryDriver.hxx>
-#include <BinMDataXtd_PatternStdDriver.hxx>
-#include <BinMDataXtd_ShapeDriver.hxx>
-#include <BinMDataXtd_PointDriver.hxx>
-#include <BinMDataXtd_AxisDriver.hxx>
-#include <BinMDataXtd_PlaneDriver.hxx>
-#include <BinMDataXtd_PlacementDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_ConstraintDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_GeometryDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_PatternStdDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_ShapeDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_PointDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_AxisDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_PlaneDriver.hxx>
+#include <OCAF/BinMDataXtd/BinMDataXtd_PlacementDriver.hxx>
 
 static Standard_Integer myDocumentVersion = -1;
 //=======================================================================
