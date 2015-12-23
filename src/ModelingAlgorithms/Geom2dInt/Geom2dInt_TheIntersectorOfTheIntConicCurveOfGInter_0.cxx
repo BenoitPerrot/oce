@@ -6,7 +6,7 @@
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheProjPCurOfGInter.hxx>
@@ -17,7 +17,7 @@
  
 
 #define ImpTool IntCurve_IConicTool
-#define ImpTool_hxx <IntCurve_IConicTool.hxx>
+#define ImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ParCurve Adaptor2d_Curve2d
 #define ParCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define ParTool Geom2dInt_Geom2dCurveTool

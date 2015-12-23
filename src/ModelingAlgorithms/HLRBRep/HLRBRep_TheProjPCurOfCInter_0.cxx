@@ -26,5 +26,5 @@
 #define IntCurve_PCLocFOfTheLocateExtPC_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_PCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 #define IntCurve_ProjPCurGen HLRBRep_TheProjPCurOfCInter
 #define IntCurve_ProjPCurGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheProjPCurOfCInter.hxx>
-#include <IntCurve_ProjPCurGen.gxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_ProjPCurGen.gxx>
 

@@ -3,30 +3,30 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurve_IntImpConicParConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntImpConicParConic.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <IntCurve_IConicTool.hxx>
-#include <IntCurve_PConic.hxx>
-#include <IntCurve_PConicTool.hxx>
-#include <IntCurve_ProjectOnPConicTool.hxx>
-#include <IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_ProjectOnPConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 
 #define ImpTool IntCurve_IConicTool
-#define ImpTool_hxx <IntCurve_IConicTool.hxx>
+#define ImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ParCurve IntCurve_PConic
-#define ParCurve_hxx <IntCurve_PConic.hxx>
+#define ParCurve_hxx <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
 #define ParTool IntCurve_PConicTool
-#define ParTool_hxx <IntCurve_PConicTool.hxx>
+#define ParTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_PConicTool.hxx>
 #define ProjectOnPCurveTool IntCurve_ProjectOnPConicTool
-#define ProjectOnPCurveTool_hxx <IntCurve_ProjectOnPConicTool.hxx>
+#define ProjectOnPCurveTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_ProjectOnPConicTool.hxx>
 #define IntImpParGen_MyImpParTool IntCurve_MyImpParToolOfIntImpConicParConic
-#define IntImpParGen_MyImpParTool_hxx <IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
+#define IntImpParGen_MyImpParTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
 #define IntImpParGen_Intersector IntCurve_IntImpConicParConic
-#define IntImpParGen_Intersector_hxx <IntCurve_IntImpConicParConic.hxx>
+#define IntImpParGen_Intersector_hxx <ModelingAlgorithms/IntCurve/IntCurve_IntImpConicParConic.hxx>
 #include <IntImpParGen_Intersector.gxx>
 

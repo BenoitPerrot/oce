@@ -76,7 +76,7 @@ private:
 };
 
 #define TheImpTool IntCurve_IConicTool
-#define TheImpTool_hxx <IntCurve_IConicTool.hxx>
+#define TheImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ThePCurve Standard_Address
 #define ThePCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePCurveTool HLRBRep_CurveTool
@@ -92,7 +92,7 @@ private:
 #define IntCurve_IntConicCurveGen HLRBRep_TheIntConicCurveOfCInter
 #define IntCurve_IntConicCurveGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 
-#include <IntCurve_IntConicCurveGen.lxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicCurveGen.lxx>
 
 #undef TheImpTool
 #undef TheImpTool_hxx

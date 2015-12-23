@@ -18,10 +18,10 @@
 #define IntCurve_IntConicConic_Tool_HeaderFile
 
 
-#include <IntCurve_IntImpConicParConic.hxx>
-#include <IntCurve_IConicTool.hxx>
-#include <IntCurve_PConic.hxx>
-// #include <IntCurve_IConicPConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntImpConicParConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
+// #include <ModelingAlgorithms/IntCurve/IntCurve_IConicPConicTool.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_Position.hxx>

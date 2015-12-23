@@ -6,7 +6,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_IntConicCurveOfCInter.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
@@ -18,7 +18,7 @@
  
 
 #define TheImpTool IntCurve_IConicTool
-#define TheImpTool_hxx <IntCurve_IConicTool.hxx>
+#define TheImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ThePCurve Standard_Address
 #define ThePCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePCurveTool HLRBRep_CurveTool
@@ -27,5 +27,5 @@
 #define TheIntConicCurve_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 #define IntCurve_UserIntConicCurveGen HLRBRep_IntConicCurveOfCInter
 #define IntCurve_UserIntConicCurveGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_IntConicCurveOfCInter.hxx>
-#include <IntCurve_UserIntConicCurveGen.gxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_UserIntConicCurveGen.gxx>
 

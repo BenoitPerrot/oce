@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntCurve_IntConicConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 #include <IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

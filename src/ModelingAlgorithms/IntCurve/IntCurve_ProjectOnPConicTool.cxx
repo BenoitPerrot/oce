@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <ElCLib.hxx>
-#include <IntCurve_PConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntCurve_ProjectOnPConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_ProjectOnPConicTool.hxx>
 
 Standard_Real IntCurve_ProjectOnPConicTool::FindParameter
                                        (const IntCurve_PConic& ThePConic,

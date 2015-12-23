@@ -76,7 +76,7 @@ private:
 };
 
 #define TheImpTool IntCurve_IConicTool
-#define TheImpTool_hxx <IntCurve_IConicTool.hxx>
+#define TheImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ThePCurve Adaptor2d_Curve2d
 #define ThePCurve_hxx <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #define ThePCurveTool Geom2dInt_Geom2dCurveTool
@@ -92,7 +92,7 @@ private:
 #define IntCurve_IntConicCurveGen Geom2dInt_TheIntConicCurveOfGInter
 #define IntCurve_IntConicCurveGen_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 
-#include <IntCurve_IntConicCurveGen.lxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicCurveGen.lxx>
 
 #undef TheImpTool
 #undef TheImpTool_hxx

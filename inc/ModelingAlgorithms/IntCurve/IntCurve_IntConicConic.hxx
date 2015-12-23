@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntCurve_IntImpConicParConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntImpConicParConic.hxx>
 #include <IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
@@ -184,7 +184,7 @@ private:
 };
 
 
-#include <IntCurve_IntConicConic.lxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.lxx>
 
 
 

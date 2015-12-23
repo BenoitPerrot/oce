@@ -6,7 +6,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheProjPCurOfCInter.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
@@ -16,7 +16,7 @@
  
 
 #define ImpTool IntCurve_IConicTool
-#define ImpTool_hxx <IntCurve_IConicTool.hxx>
+#define ImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ParCurve Standard_Address
 #define ParCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ParTool HLRBRep_CurveTool

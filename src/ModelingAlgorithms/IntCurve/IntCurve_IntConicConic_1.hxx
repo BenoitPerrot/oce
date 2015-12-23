@@ -17,7 +17,7 @@
 #ifndef IntCurve_IntConicConic_1_HeaderFile
 #define IntCurve_IntConicConic_1_HeaderFile
 
-#include <IntCurve_IntConicConic_Tool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_Tool.hxx>
 
 
 //======================================================================

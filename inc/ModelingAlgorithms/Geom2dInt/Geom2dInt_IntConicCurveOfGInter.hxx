@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntCurve_IntConicConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #include <IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

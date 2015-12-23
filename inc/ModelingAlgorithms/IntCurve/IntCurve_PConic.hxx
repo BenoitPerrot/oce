@@ -92,7 +92,7 @@ private:
 };
 
 
-#include <IntCurve_PConic.lxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConic.lxx>
 
 
 

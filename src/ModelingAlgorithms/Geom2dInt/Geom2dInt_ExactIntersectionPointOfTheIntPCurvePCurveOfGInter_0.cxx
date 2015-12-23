@@ -27,5 +27,5 @@
 #define IntCurve_ExactIntersectionPoint_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_ExactIntersectionPointOfTheIntPCurvePCurveOfGInter.hxx>
 #define IntCurve_IntPolyPolyGen Geom2dInt_TheIntPCurvePCurveOfGInter
 #define IntCurve_IntPolyPolyGen_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntPCurvePCurveOfGInter.hxx>
-#include <IntCurve_ExactIntersectionPoint.gxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_ExactIntersectionPoint.gxx>
 

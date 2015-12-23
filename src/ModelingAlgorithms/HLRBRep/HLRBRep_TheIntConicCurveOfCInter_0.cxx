@@ -5,7 +5,7 @@
 
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 
-#include <IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheProjPCurOfCInter.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx>
@@ -19,7 +19,7 @@
  
 
 #define TheImpTool IntCurve_IConicTool
-#define TheImpTool_hxx <IntCurve_IConicTool.hxx>
+#define TheImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ThePCurve Standard_Address
 #define ThePCurve_hxx <Foundation/Standard/Standard_Address.hxx>
 #define ThePCurveTool HLRBRep_CurveTool
@@ -34,5 +34,5 @@
 #define IntCurve_MyImpParToolOfTheIntersector_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #define IntCurve_IntConicCurveGen HLRBRep_TheIntConicCurveOfCInter
 #define IntCurve_IntConicCurveGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
-#include <IntCurve_IntConicCurveGen.gxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicCurveGen.gxx>
 

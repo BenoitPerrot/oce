@@ -24,10 +24,10 @@
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
-#include <IntCurve_IntConicConic.hxx>
-#include <IntCurve_IntConicConic_1.hxx>
-#include <IntCurve_IConicTool.hxx>
-#include <IntCurve_PConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_1.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>

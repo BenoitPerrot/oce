@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

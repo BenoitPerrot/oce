@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntCurve_IntConicConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntConicCurveOfCInter.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntPCurvePCurveOfCInter.hxx>
 #include <IntRes2d_Intersection.hxx>
@@ -139,7 +139,7 @@ private:
 #define IntCurve_IntCurveCurveGen HLRBRep_CInter
 #define IntCurve_IntCurveCurveGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CInter.hxx>
 
-#include <IntCurve_IntCurveCurveGen.lxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntCurveCurveGen.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

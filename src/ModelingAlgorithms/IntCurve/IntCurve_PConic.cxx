@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
-#include <IntCurve_PConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
 
 
 

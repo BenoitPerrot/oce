@@ -94,7 +94,7 @@ private:
 #define IntCurve_Polygon2dGen HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter
 #define IntCurve_Polygon2dGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter.hxx>
 
-#include <IntCurve_Polygon2dGen.lxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_Polygon2dGen.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

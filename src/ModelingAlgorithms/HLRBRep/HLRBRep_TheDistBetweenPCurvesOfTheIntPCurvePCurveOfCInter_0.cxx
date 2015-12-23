@@ -15,5 +15,5 @@
 #define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #define IntCurve_DistBetweenPCurvesGen HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter
 #define IntCurve_DistBetweenPCurvesGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
-#include <IntCurve_DistBetweenPCurvesGen.gxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_DistBetweenPCurvesGen.gxx>
 

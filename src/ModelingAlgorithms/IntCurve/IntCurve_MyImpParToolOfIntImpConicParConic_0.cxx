@@ -3,20 +3,20 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
 
-#include <IntCurve_IConicTool.hxx>
-#include <IntCurve_PConic.hxx>
-#include <IntCurve_PConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_PConicTool.hxx>
  
 
 #define ImpTool IntCurve_IConicTool
-#define ImpTool_hxx <IntCurve_IConicTool.hxx>
+#define ImpTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #define ParCurve IntCurve_PConic
-#define ParCurve_hxx <IntCurve_PConic.hxx>
+#define ParCurve_hxx <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
 #define ParTool IntCurve_PConicTool
-#define ParTool_hxx <IntCurve_PConicTool.hxx>
+#define ParTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_PConicTool.hxx>
 #define IntImpParGen_ImpParTool IntCurve_MyImpParToolOfIntImpConicParConic
-#define IntImpParGen_ImpParTool_hxx <IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
+#define IntImpParGen_ImpParTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
 #include <IntImpParGen_ImpParTool.gxx>
 

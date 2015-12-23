@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntCurve_IntConicConic.hxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntPCurvePCurveOfGInter.hxx>
 #include <IntRes2d_Intersection.hxx>
@@ -139,7 +139,7 @@ private:
 #define IntCurve_IntCurveCurveGen Geom2dInt_GInter
 #define IntCurve_IntCurveCurveGen_hxx <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
-#include <IntCurve_IntCurveCurveGen.lxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_IntCurveCurveGen.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

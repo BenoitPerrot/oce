@@ -26,5 +26,5 @@
 #define IntCurve_ExactIntersectionPoint_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ExactIntersectionPointOfTheIntPCurvePCurveOfCInter.hxx>
 #define IntCurve_IntPolyPolyGen HLRBRep_TheIntPCurvePCurveOfCInter
 #define IntCurve_IntPolyPolyGen_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntPCurvePCurveOfCInter.hxx>
-#include <IntCurve_ExactIntersectionPoint.gxx>
+#include <ModelingAlgorithms/IntCurve/IntCurve_ExactIntersectionPoint.gxx>
 
