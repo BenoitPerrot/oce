@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <GccEnt_Position.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom2dAdaptor_Curve;

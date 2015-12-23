@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GccEnt_Array1OfPosition.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Array1OfPosition.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -12,8 +12,8 @@
  
 
 #define Array1Item GccEnt_Position
-#define Array1Item_hxx <GccEnt_Position.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 #define TCollection_Array1 GccEnt_Array1OfPosition
-#define TCollection_Array1_hxx <GccEnt_Array1OfPosition.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/GccEnt/GccEnt_Array1OfPosition.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

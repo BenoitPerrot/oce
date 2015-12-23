@@ -11,14 +11,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GccEnt_Array1OfPosition.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Array1OfPosition.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfCirc2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GccEnt_Position.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 class Standard_NegativeValue;
 class Standard_OutOfRange;
 class GccEnt_BadQualifier;

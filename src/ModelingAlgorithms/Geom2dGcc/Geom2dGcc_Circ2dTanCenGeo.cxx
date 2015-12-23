@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

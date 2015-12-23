@@ -37,7 +37,7 @@
 #include <GccInt_BElips.hxx>
 #include <GccInt_BCirc.hxx>
 #include <GccInt_BHyper.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Precision.hxx>

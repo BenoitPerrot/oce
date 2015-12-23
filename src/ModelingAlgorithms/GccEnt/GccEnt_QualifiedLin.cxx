@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <GccEnt_QualifiedLin.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccEnt_QualifiedLin)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

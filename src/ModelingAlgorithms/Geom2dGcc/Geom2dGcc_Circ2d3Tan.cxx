@@ -27,8 +27,8 @@
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <Geom2dGcc_Circ2d3TanIter.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
-#include <GccEnt_QualifiedLin.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 Geom2dGcc_Circ2d3Tan::

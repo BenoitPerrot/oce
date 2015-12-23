@@ -19,10 +19,10 @@
 
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
-#include <GccEnt_QualifiedLin.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2d2TanRad.hxx>
@@ -35,7 +35,7 @@
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 
 // circular tangent to a line and a point and a given radius
 //=============================================================

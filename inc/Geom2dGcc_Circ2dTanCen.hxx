@@ -13,13 +13,13 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfCirc2d.hxx>
-#include <GccEnt_Array1OfPosition.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Array1OfPosition.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Handle_Geom2d_Point.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GccEnt_Position.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 class Standard_OutOfRange;
 class GccEnt_BadQualifier;
 class StdFail_NotDone;

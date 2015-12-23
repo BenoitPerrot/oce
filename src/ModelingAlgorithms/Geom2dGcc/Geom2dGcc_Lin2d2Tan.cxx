@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -27,7 +27,7 @@
 #include <ModelingAlgorithms/GccAna/GccAna_Lin2d2Tan.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

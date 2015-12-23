@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GccEnt_Position.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;
@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item GccEnt_Position
-#define Array1Item_hxx <GccEnt_Position.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 #define TCollection_Array1 GccEnt_Array1OfPosition
-#define TCollection_Array1_hxx <GccEnt_Array1OfPosition.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/GccEnt/GccEnt_Array1OfPosition.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

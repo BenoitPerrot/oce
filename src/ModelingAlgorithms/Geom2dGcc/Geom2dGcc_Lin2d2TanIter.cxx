@@ -18,16 +18,16 @@
 //  CREATION D UNE LIGNE TANGENTE A DEUX COURBES.                        +
 //========================================================================
 
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

@@ -17,11 +17,11 @@
 //                                                                        +
 //=========================================================================
 
-#include <GccEnt_QualifiedLin.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <GccEnt.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt.hxx>
 
 GccEnt_QualifiedLin
   GccEnt::Unqualified(const gp_Lin2d& Line) {

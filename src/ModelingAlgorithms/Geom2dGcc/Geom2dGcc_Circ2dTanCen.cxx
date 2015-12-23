@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
@@ -26,11 +26,11 @@
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2dTanCen.hxx>
 #include <Geom2dGcc_Circ2dTanCenGeo.hxx>
 #include <Geom2dGcc_QCurve.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
-#include <GccEnt_QualifiedLin.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 Geom2dGcc_Circ2dTanCen::

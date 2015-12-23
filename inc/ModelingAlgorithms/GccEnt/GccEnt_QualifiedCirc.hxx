@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <GccEnt_Position.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>

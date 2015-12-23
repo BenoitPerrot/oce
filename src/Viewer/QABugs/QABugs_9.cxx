@@ -143,7 +143,7 @@ static Standard_Integer OCC137_z (Draw_Interpretor& di, Standard_Integer argc, c
   return 0;
 }
 
-#include <GccEnt_Position.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dGcc_Circ2d2TanRad.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>

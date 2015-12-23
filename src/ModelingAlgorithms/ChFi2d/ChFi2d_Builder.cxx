@@ -61,7 +61,7 @@
 
 #include <ElCLib.hxx>
 
-#include <GccEnt_Position.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

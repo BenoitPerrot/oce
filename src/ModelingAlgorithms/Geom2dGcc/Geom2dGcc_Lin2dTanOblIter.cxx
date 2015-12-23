@@ -18,7 +18,7 @@
 // CREATION D UNE LIGNE TANGENTE A UNE COURBE ET PARALLELE A UNE DROITE. +
 //========================================================================
 
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_IsParallel.hxx>
 #include <Geom2dGcc_QCurve.hxx>
@@ -30,7 +30,7 @@
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Geom2dGcc_IsParallel.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

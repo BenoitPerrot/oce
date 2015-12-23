@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccEnt_QualifiedCirc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>

@@ -47,7 +47,7 @@
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 
-#include <GccEnt_QualifiedLin.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>

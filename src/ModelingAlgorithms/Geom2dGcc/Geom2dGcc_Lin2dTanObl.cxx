@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geom2dGcc_IsParallel.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -28,7 +28,7 @@
 #include <ModelingAlgorithms/GccAna/GccAna_Lin2dTanObl.hxx>
 #include <Geom2dGcc_Lin2dTanOblIter.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>

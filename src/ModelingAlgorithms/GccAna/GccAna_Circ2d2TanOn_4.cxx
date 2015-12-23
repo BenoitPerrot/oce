@@ -16,10 +16,10 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GccEnt_BadQualifier.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <GccEnt_QualifiedLin.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2d2TanOn.hxx>
@@ -35,7 +35,7 @@
 #include <GccInt_BCirc.hxx>
 #include <GccInt_BLine.hxx>
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
-#include <GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Precision.hxx>
 //=========================================================================
 //   Creation of a circle Tangent to : 1 straight line L1.                +

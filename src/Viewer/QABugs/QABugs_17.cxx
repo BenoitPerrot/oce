@@ -42,7 +42,7 @@
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geom2dGcc_QCurve.hxx>
-#include <GccEnt_QualifiedCirc.hxx>
+#include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
