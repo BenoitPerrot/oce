@@ -66,8 +66,8 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
 
 #include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
-#include <Aspect_Grid.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>

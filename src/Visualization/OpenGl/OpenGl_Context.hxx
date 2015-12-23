@@ -16,10 +16,10 @@
 #ifndef _OpenGl_Context_H__
 #define _OpenGl_Context_H__
 
-#include <Aspect_Handle.hxx>
-#include <Aspect_Drawable.hxx>
-#include <Aspect_Display.hxx>
-#include <Aspect_RenderingContext.hxx>
+#include <Visualization/Aspect/Aspect_Handle.hxx>
+#include <Visualization/Aspect/Aspect_Drawable.hxx>
+#include <Visualization/Aspect/Aspect_Display.hxx>
+#include <Visualization/Aspect/Aspect_RenderingContext.hxx>
 #include <Handle_OpenGl_Context.hxx>
 #include <Handle_OpenGl_Sampler.hxx>
 #include <Handle_OpenGl_ShaderManager.hxx>

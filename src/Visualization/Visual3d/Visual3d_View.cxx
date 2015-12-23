@@ -19,14 +19,14 @@
 # include <oce-config.h>
 #endif
 
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Graphic3d_GraphicDriver.hxx>
 #include <Visual3d_TransformError.hxx>
 #include <Visual3d_ViewDefinitionError.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Visual3d_Layer.hxx>
-#include <Aspect_Background.hxx>
-#include <Aspect_GradientBackground.hxx>
+#include <Visualization/Aspect/Aspect_Background.hxx>
+#include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Visual3d_ContextView.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>

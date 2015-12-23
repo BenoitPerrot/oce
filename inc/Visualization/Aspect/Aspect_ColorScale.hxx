@@ -14,11 +14,11 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Aspect_TypeOfColorScaleData.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfColorScaleData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_SequenceOfColor.hxx>
+#include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <Aspect_TypeOfColorScalePosition.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfColorScalePosition.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Quantity_Color;
 class TCollection_ExtendedString;

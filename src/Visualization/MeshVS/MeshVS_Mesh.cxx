@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Select3D_SensitivePoint.hxx>
 #include <SelectMgr_Selection.hxx>
 
-#include <Aspect_InteriorStyle.hxx>
+#include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 
 #include <Prs3d_PointAspect.hxx>
 #include <Prs3d_LineAspect.hxx>

@@ -17,8 +17,8 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <Aspect_SequenceOfColor.hxx>
-#include <Aspect_ColorScale.hxx>
+#include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
+#include <Visualization/Aspect/Aspect_ColorScale.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_ColorScale)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_TYPE_END(Aspect_ColorScale)
 IMPLEMENT_DOWNCAST(Aspect_ColorScale,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Aspect_ColorScale)
 
-#include <Aspect_SequenceOfColor.hxx>
-#include <Aspect_TypeOfColorScaleData.hxx>
-#include <Aspect_TypeOfColorScalePosition.hxx>
+#include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfColorScaleData.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfColorScalePosition.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

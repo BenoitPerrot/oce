@@ -15,10 +15,10 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <V3d_ViewerPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_GridDrawMode.hxx>
+#include <Visualization/Aspect/Aspect_GridDrawMode.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Aspect_CircularGrid.hxx>
+#include <Visualization/Aspect/Aspect_CircularGrid.hxx>
 class Graphic3d_Structure;
 class Graphic3d_Group;
 class Quantity_Color;

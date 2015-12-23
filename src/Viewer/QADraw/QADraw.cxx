@@ -27,8 +27,8 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <Aspect_Window.hxx>
-#include <Aspect_DisplayConnection.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <DBRep.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>

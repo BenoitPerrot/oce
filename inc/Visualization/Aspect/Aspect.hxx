@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Aspect_FormatOfSheetPaper.hxx>
+#include <Visualization/Aspect/Aspect_FormatOfSheetPaper.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_ExtendedString;

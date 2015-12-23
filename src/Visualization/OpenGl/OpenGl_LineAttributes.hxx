@@ -18,8 +18,8 @@
 
 #include <OpenGl_Resource.hxx>
 
-#include <Aspect_TypeOfLine.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Font_FontAspect.hxx>
 
 class OpenGl_Context;

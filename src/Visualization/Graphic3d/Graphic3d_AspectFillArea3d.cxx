@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_TYPE_END(Graphic3d_AspectFillArea3d)
 IMPLEMENT_DOWNCAST(Graphic3d_AspectFillArea3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectFillArea3d)
 
-#include <Aspect_PolygonOffsetMode.hxx>
+#include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 
 Graphic3d_AspectFillArea3d::Graphic3d_AspectFillArea3d ():

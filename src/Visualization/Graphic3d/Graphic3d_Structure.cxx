@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_Structure)
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_TextureMap.hxx>
 
-#include <Aspect_PolygonOffsetMode.hxx>
+#include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 
 #include <stdio.h>
 

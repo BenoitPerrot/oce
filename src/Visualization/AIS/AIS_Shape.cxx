@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

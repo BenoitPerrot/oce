@@ -16,7 +16,7 @@
 #include <Handle_VrmlConverter_LineAspect.hxx>
 #include <Handle_VrmlConverter_ShadingAspect.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Aspect_TypeOfDeflection.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfDeflection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_VrmlConverter_PointAspect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

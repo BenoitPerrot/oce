@@ -12,7 +12,7 @@
 
 #include <V3d_LayerMgrPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_ColorScale.hxx>
+#include <Visualization/Aspect/Aspect_ColorScale.hxx>
 #include <Handle_V3d_LayerMgr.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class V3d_LayerMgr;

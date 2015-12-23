@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Aspect_IdentDefinitionError.hxx>
-#include <Aspect_GenId.hxx>
+#include <Visualization/Aspect/Aspect_IdentDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_GenId.hxx>
 
 // =======================================================================
 // function : Aspect_GenId

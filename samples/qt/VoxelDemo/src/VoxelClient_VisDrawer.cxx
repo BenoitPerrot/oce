@@ -20,7 +20,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Graphic3d_CUserDraw.hxx>
 
 #include <InterfaceGraphic_telem.hxx>

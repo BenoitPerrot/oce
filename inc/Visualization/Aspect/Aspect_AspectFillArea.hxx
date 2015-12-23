@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_AspectFillArea.hxx>
 
-#include <Aspect_InteriorStyle.hxx>
+#include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Aspect_HatchStyle.hxx>
+#include <Visualization/Aspect/Aspect_HatchStyle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Aspect_AspectFillAreaDefinitionError;
 class Quantity_Color;

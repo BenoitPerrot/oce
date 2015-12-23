@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Aspect_WindowDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_WindowDefinitionError.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 

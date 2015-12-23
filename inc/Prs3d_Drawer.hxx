@@ -17,7 +17,7 @@
 #include <Handle_Prs3d_TextAspect.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Aspect_TypeOfDeflection.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfDeflection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Prs3d_PointAspect.hxx>
 #include <Prs3d_VertexDrawMode.hxx>

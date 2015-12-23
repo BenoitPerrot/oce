@@ -29,7 +29,7 @@
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <StdSelect_SensitivityMode.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Aspect_TypeOfFacingModel.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Handle_AIS_Drawer.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>

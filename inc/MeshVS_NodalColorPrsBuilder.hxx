@@ -12,7 +12,7 @@
 
 #include <MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_SequenceOfColor.hxx>
+#include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <MeshVS_PrsBuilder.hxx>

@@ -35,10 +35,10 @@ IMPLEMENT_STANDARD_RTTI(V3d_ColorScale)
 #include <Visual3d_Layer.hxx>
 #include <Visual3d_ViewManager.hxx>
 
-#include <Aspect_Window.hxx>
-#include <Aspect_SequenceOfColor.hxx>
-#include <Aspect_TypeOfColorScaleData.hxx>
-#include <Aspect_TypeOfColorScalePosition.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfColorScaleData.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfColorScalePosition.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>

@@ -15,8 +15,8 @@
 #ifndef InterfaceGraphic_AspectHeader
 #define InterfaceGraphic_AspectHeader
 
-#include <Aspect_Drawable.hxx>
-#include <Aspect_RenderingContext.hxx>
+#include <Visualization/Aspect/Aspect_Drawable.hxx>
+#include <Visualization/Aspect/Aspect_RenderingContext.hxx>
 
 typedef struct {
   int mapped;

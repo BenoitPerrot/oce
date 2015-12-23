@@ -28,7 +28,7 @@
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

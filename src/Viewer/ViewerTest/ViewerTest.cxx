@@ -51,8 +51,8 @@
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
-#include <Aspect_InteriorStyle.hxx>
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_TextureRoot.hxx>

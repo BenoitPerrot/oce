@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Aspect_RectangularGrid.hxx>
+#include <Visualization/Aspect/Aspect_RectangularGrid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_RectangularGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -30,12 +30,12 @@
 //-Declarations
 
 // for the class
-#include <Aspect_WindowDefinitionError.hxx>
-#include <Aspect_WindowError.hxx>
-#include <Aspect_Background.hxx>
+#include <Visualization/Aspect/Aspect_WindowDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_WindowError.hxx>
+#include <Visualization/Aspect/Aspect_Background.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_GradientBackground.hxx>
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_GradientBackground.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_Window)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

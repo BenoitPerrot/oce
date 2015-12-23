@@ -29,8 +29,8 @@
 #include <Visualization/AIS/AIS_KindOfDimension.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Aspect_TypeOfLine.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 class Geom_Plane;
 class Geom_Surface;
 class Quantity_Color;

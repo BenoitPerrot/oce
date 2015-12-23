@@ -49,11 +49,11 @@ private:
 #define SeqItem Quantity_Color
 #define SeqItem_hxx <Foundation/Quantity/Quantity_Color.hxx>
 #define TCollection_SequenceNode Aspect_SequenceNodeOfSequenceOfColor
-#define TCollection_SequenceNode_hxx <Aspect_SequenceNodeOfSequenceOfColor.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/Aspect/Aspect_SequenceNodeOfSequenceOfColor.hxx>
 #define Handle_TCollection_SequenceNode Handle_Aspect_SequenceNodeOfSequenceOfColor
 #define TCollection_SequenceNode_Type_() Aspect_SequenceNodeOfSequenceOfColor_Type_()
 #define TCollection_Sequence Aspect_SequenceOfColor
-#define TCollection_Sequence_hxx <Aspect_SequenceOfColor.hxx>
+#define TCollection_Sequence_hxx <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

@@ -14,7 +14,7 @@
 #include <Handle_Prs3d_Drawer.hxx>
 #include <Visualization/AIS/AIS_TypeOfAttribute.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 class Prs3d_Drawer;
 class Quantity_Color;
 class Graphic3d_MaterialAspect;

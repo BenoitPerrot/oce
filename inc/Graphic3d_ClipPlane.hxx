@@ -22,7 +22,7 @@
 #include <Foundation/NCollection/NCollection_Vec4.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_TextureMap.hxx>
-#include <Aspect_HatchStyle.hxx>
+#include <Visualization/Aspect/Aspect_HatchStyle.hxx>
 
 DEFINE_STANDARD_HANDLE (Graphic3d_ClipPlane, Standard_Transient)
 

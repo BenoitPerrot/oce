@@ -14,7 +14,7 @@
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_GridDrawMode.hxx>
+#include <Visualization/Aspect/Aspect_GridDrawMode.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Quantity_Color;
 

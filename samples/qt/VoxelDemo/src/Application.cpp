@@ -33,7 +33,7 @@
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeTorus.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
-#include <Aspect_ColorScale.hxx>
+#include <Visualization/Aspect/Aspect_ColorScale.hxx>
 
 #include <Windows.h>
 

@@ -19,7 +19,7 @@
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_TypeOfFacingModel.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>

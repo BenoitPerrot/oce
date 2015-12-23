@@ -12,16 +12,16 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_WNT_WClass.hxx>
-#include <Aspect_Handle.hxx>
+#include <Visualization/Aspect/Aspect_Handle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <WNT_Dword.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Aspect_TypeOfResize.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfResize.hxx>
 #include <Foundation/Quantity/Quantity_Ratio.hxx>
-#include <Aspect_Drawable.hxx>
+#include <Visualization/Aspect/Aspect_Drawable.hxx>
 class WNT_WClass;
 class Aspect_WindowDefinitionError;
 class Aspect_WindowError;

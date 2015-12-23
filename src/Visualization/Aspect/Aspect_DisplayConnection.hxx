@@ -15,8 +15,8 @@
 #define _Aspect_DisplayConnection_H__
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Aspect_DisplayConnection_Handle.hxx>
-#include <Aspect_XAtom.hxx>
+#include <Visualization/Aspect/Aspect_DisplayConnection_Handle.hxx>
+#include <Visualization/Aspect/Aspect_XAtom.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

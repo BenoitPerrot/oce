@@ -15,7 +15,7 @@
 
 #if (defined(_WIN32) || defined(__WIN32__)) && defined(HAVE_VIDEOCAPTURE)
   #include <windows.h>
-  #include <Aspect_Window.hxx>
+  #include <Visualization/Aspect/Aspect_Window.hxx>
   #include <OpenGl_AVIWriter.hxx>
   #include <V3d_View.hxx>
 #endif

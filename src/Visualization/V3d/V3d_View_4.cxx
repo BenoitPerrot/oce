@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Visual3d_View.hxx>
-#include <Aspect_Window.hxx>
-#include <Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <V3d_LayerMgr.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_Group.hxx>
@@ -28,8 +28,8 @@
 #include <V3d_Light.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Aspect_ColorScale.hxx>
-#include <Aspect_GradientBackground.hxx>
+#include <Visualization/Aspect/Aspect_ColorScale.hxx>
+#include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Graphic3d_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
@@ -41,7 +41,7 @@
 
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 
-#include <Aspect.hxx>
+#include <Visualization/Aspect/Aspect.hxx>
 
 #include <V3d_RectangularGrid.hxx>
 #include <V3d_CircularGrid.hxx>

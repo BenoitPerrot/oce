@@ -15,9 +15,9 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <V3d_ViewerPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_GridDrawMode.hxx>
+#include <Visualization/Aspect/Aspect_GridDrawMode.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Aspect_RectangularGrid.hxx>
+#include <Visualization/Aspect/Aspect_RectangularGrid.hxx>
 class Graphic3d_Structure;
 class Graphic3d_Group;
 class Quantity_Color;

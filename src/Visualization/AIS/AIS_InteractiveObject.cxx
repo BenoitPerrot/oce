@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_InteractiveObject)
 IMPLEMENT_DOWNCAST(AIS_InteractiveObject,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_InteractiveObject)
 
-#include <Aspect_PolygonOffsetMode.hxx>
+#include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PointAspect.hxx>

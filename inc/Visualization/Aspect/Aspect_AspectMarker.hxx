@@ -11,7 +11,7 @@
 #include <Handle_Aspect_AspectMarker.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Aspect_AspectMarkerDefinitionError;

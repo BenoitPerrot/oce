@@ -18,13 +18,13 @@
 
 #if !defined(_WIN32) && (!defined(__APPLE__) || defined(MACOSX_USE_GLX)) && !defined(__ANDROID__)
 
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 
-#include <Aspect_DisplayConnection.hxx>
-#include <Aspect_FillMethod.hxx>
-#include <Aspect_GradientFillMethod.hxx>
-#include <Aspect_Handle.hxx>
-#include <Aspect_TypeOfResize.hxx>
+#include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
+#include <Visualization/Aspect/Aspect_FillMethod.hxx>
+#include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
+#include <Visualization/Aspect/Aspect_Handle.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfResize.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

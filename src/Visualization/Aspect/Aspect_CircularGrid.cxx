@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Aspect_CircularGrid.hxx>
+#include <Visualization/Aspect/Aspect_CircularGrid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_CircularGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Aspect_CircularGrid)
 IMPLEMENT_DOWNCAST(Aspect_CircularGrid,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Aspect_CircularGrid)
-#include <Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
 Aspect_CircularGrid::Aspect_CircularGrid
      (const Quantity_Length aRadiusStep,

@@ -28,7 +28,7 @@
 #include <StdPrs_Point.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Prs3d_Text.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 
 void DsgPrs_SymbPresentation::Add (const Handle(Prs3d_Presentation)& aPresentation,
 				   const Handle(Prs3d_Drawer)& aDrawer,

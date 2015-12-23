@@ -21,7 +21,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_SequenceOfColor.hxx>
+#include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Graphic3d_Texture2D.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Array1OfColor.hxx>
-#include <Aspect_SequenceOfColor.hxx>
+#include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>

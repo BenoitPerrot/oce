@@ -9,7 +9,7 @@
 #include <QColor>
 #include <QColorDialog>
 
-#include <Aspect_DisplayConnection.hxx>
+#include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <OpenGl_GraphicDriver.hxx>

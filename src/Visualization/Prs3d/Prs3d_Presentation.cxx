@@ -37,17 +37,17 @@ IMPLEMENT_DOWNCAST(Prs3d_Presentation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Prs3d_Presentation)
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Graphic3d_Structure.hxx>
-#include <Aspect_TypeOfHighlightMethod.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Aspect_InteriorStyle.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 // OCC4895 SAN 22/03/04 High-level interface for controlling polygon offsets 
-#include <Aspect_PolygonOffsetMode.hxx>
+#include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 // OCC4895 SAN 22/03/04 High-level interface for controlling polygon offsets
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>

@@ -31,9 +31,9 @@
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_Root.hxx>
 
-#include <Aspect_TypeOfLine.hxx>
-#include <Aspect_TypeOfMarker.hxx>
-#include <Aspect_AspectMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_AspectMarker.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

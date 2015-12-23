@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_Shape)
 #include <StdPrs_WFShape.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PointAspect.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_ShadedShape.hxx>

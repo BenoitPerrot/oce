@@ -11,19 +11,19 @@
 #include <Handle_Visual3d_Layer.hxx>
 
 #include <Handle_Graphic3d_GraphicDriver.hxx>
-#include <Aspect_CLayer2d.hxx>
+#include <Visualization/Aspect/Aspect_CLayer2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visual3d_NListOfLayerItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
-#include <Aspect_TypeOfLayer.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLayer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <Aspect_TypeOfLine.hxx>
-#include <Aspect_TypeOfDisplayText.hxx>
-#include <Aspect_TypeOfConstraint.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfDisplayText.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Visual3d_LayerItem.hxx>
 class Graphic3d_GraphicDriver;

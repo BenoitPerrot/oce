@@ -24,15 +24,15 @@
   struct NSWindow;
 #endif
 
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 
-#include <Aspect_FillMethod.hxx>
-#include <Aspect_GradientFillMethod.hxx>
-#include <Aspect_Handle.hxx>
-#include <Aspect_TypeOfResize.hxx>
+#include <Visualization/Aspect/Aspect_FillMethod.hxx>
+#include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
+#include <Visualization/Aspect/Aspect_Handle.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfResize.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_Ratio.hxx>

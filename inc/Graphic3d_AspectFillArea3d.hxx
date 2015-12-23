@@ -16,9 +16,9 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
-#include <Aspect_AspectFillArea.hxx>
-#include <Aspect_InteriorStyle.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_AspectFillArea.hxx>
+#include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Graphic3d_TextureMap;
 class Quantity_Color;

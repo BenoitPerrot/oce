@@ -63,7 +63,7 @@
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d3Tan.hxx>
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
@@ -1269,7 +1269,7 @@ static Standard_Integer OCC884 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <Aspect_FillMethod.hxx>
+#include <Visualization/Aspect/Aspect_FillMethod.hxx>
 //=======================================================================
 //function : OCC1188
 //purpose  : 

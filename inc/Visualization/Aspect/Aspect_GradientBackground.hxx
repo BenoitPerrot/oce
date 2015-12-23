@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_GradientFillMethod.hxx>
-#include <Aspect_Background.hxx>
+#include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
+#include <Visualization/Aspect/Aspect_Background.hxx>
 class Quantity_Color;
 
 

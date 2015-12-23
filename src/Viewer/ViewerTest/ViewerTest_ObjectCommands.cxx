@@ -83,7 +83,7 @@
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyHLRToShape.hxx>
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 
 #include <Graphic3d_ArrayOfPoints.hxx>
 #include <Graphic3d_ArrayOfSegments.hxx>

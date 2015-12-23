@@ -60,7 +60,7 @@
 #include <Visualization/AIS/AIS_GlobalStatus.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 
-#include <Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
 
 #include <V3d_Light.hxx>
 #include <V3d_PositionalLight.hxx>

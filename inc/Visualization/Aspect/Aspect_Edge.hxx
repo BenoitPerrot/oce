@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Aspect_TypeOfEdge.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfEdge.hxx>
 class Aspect_EdgeDefinitionError;
 
 

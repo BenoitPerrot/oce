@@ -115,7 +115,7 @@
 
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>
-#include <Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
 #ifdef IMP120701
 #include <Visualization/AIS/AIS_Shape.hxx>
 #endif

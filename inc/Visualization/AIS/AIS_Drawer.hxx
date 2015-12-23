@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <Aspect_TypeOfDeflection.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfDeflection.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Prs3d_TypeOfHLR.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

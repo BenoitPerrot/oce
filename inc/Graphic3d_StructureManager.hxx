@@ -11,20 +11,20 @@
 #include <Handle_Graphic3d_StructureManager.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Aspect_TypeOfUpdate.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfUpdate.hxx>
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 #include <Handle_Graphic3d_AspectText3d.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
 #include <Graphic3d_MapOfStructure.hxx>
-#include <Aspect_GenId.hxx>
+#include <Visualization/Aspect/Aspect_GenId.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Graphic3d_ZLayerSettings.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
-#include <Aspect_TypeOfHighlightMethod.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>
 class Graphic3d_AspectLine3d;
 class Graphic3d_AspectText3d;
 class Graphic3d_AspectMarker3d;

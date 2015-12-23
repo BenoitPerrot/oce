@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <InterfaceGraphic_Graphic3d.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Graphic3d_CAspectLine.hxx>
 
 #include <Handle_OpenGl_ShaderProgram.hxx>

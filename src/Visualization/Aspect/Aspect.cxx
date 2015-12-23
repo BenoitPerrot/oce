@@ -23,8 +23,8 @@
 // JR 02.01.100 : Implicit conversions
 //-Design       Implementation des methodes de package
 
-#include <Aspect.hxx>
-#include <Aspect_Units.hxx>
+#include <Visualization/Aspect/Aspect.hxx>
+#include <Visualization/Aspect/Aspect_Units.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #ifdef UNICOD

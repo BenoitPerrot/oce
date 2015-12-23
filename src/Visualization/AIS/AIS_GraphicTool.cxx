@@ -26,13 +26,13 @@
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_LineAspect.hxx>
-#include <Aspect_AspectLine.hxx>
+#include <Visualization/Aspect/Aspect_AspectLine.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_DatumAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
-#include <Aspect_InteriorStyle.hxx>
+#include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 
 #include <Prs3d_ShadingAspect.hxx>
 

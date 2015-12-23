@@ -17,7 +17,7 @@
 #define OpenGl_AspectMarker_Header
 
 #include <InterfaceGraphic_Graphic3d.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Graphic3d_CAspectMarker.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

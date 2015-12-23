@@ -25,7 +25,7 @@
 #include <OpenGl_Trihedron.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Aspect_GraphicDeviceDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_GraphicDeviceDefinitionError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

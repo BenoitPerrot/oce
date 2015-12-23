@@ -12,7 +12,7 @@
 
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

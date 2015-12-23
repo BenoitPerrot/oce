@@ -15,7 +15,7 @@
 //              and add new methods SetColors() & Colors()
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_Grid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

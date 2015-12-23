@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 
 #include <Prs3d_Root.hxx>
 
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 
 #include <MeshVS_DataSource.hxx>
 #include <MeshVS_Drawer.hxx>

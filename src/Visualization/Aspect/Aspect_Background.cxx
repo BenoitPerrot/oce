@@ -27,7 +27,7 @@
 
 // for the class
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_Background.hxx>
+#include <Visualization/Aspect/Aspect_Background.hxx>
 
 //-Aliases
 

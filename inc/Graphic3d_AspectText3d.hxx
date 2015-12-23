@@ -13,8 +13,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Aspect_TypeOfStyleText.hxx>
-#include <Aspect_TypeOfDisplayText.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfStyleText.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfDisplayText.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Font_FontAspect.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>

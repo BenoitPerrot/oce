@@ -13,7 +13,7 @@
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NegativeValue;
 class Standard_NullValue;

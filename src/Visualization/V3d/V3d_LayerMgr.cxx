@@ -17,7 +17,7 @@
 #include <V3d_ColorScale.hxx>
 #include <V3d_ColorScaleLayerItem.hxx>
 #include <V3d_View.hxx>
-#include <Aspect_ColorScale.hxx>
+#include <Visualization/Aspect/Aspect_ColorScale.hxx>
 #include <V3d_LayerMgr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_LayerMgr)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(V3d_LayerMgr)
 IMPLEMENT_DOWNCAST(V3d_LayerMgr,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(V3d_LayerMgr)
 
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visual3d_View.hxx>
 #include <V3d_ColorScale.hxx>
 #include <Font_NameOfFont.hxx>

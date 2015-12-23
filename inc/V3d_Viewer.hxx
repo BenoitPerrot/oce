@@ -16,8 +16,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Visual3d_ViewManager.hxx>
 #include <V3d_ListOfTransient.hxx>
-#include <Aspect_Background.hxx>
-#include <Aspect_GradientBackground.hxx>
+#include <Visualization/Aspect/Aspect_Background.hxx>
+#include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <V3d_TypeOfOrientation.hxx>
 #include <V3d_TypeOfVisualization.hxx>
@@ -33,7 +33,7 @@
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Handle_V3d_RectangularGrid.hxx>
 #include <Handle_V3d_CircularGrid.hxx>
-#include <Aspect_GridType.hxx>
+#include <Visualization/Aspect/Aspect_GridType.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Graphic3d_Vertex.hxx>
@@ -45,8 +45,8 @@
 #include <Handle_V3d_View.hxx>
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
-#include <Aspect_GradientFillMethod.hxx>
-#include <Aspect_GridDrawMode.hxx>
+#include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
+#include <Visualization/Aspect/Aspect_GridDrawMode.hxx>
 #include <Handle_Aspect_Grid.hxx>
 #include <Graphic3d_ZLayerSettings.hxx>
 class Graphic3d_GraphicDriver;

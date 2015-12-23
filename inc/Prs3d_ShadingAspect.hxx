@@ -12,7 +12,7 @@
 
 #include <Handle_Graphic3d_AspectFillArea3d.hxx>
 #include <Prs3d_BasicAspect.hxx>
-#include <Aspect_TypeOfFacingModel.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Graphic3d_NameOfMaterial.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

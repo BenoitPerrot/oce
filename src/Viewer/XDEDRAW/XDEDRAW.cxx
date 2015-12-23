@@ -90,7 +90,7 @@
 
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <TDocStd_Owner.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>

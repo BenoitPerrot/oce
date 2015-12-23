@@ -19,8 +19,8 @@
 #include <OpenGl_IndexBuffer.hxx>
 
 #include <InterfaceGraphic_Graphic3d.hxx>
-#include <Aspect_InteriorStyle.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Graphic3d_TypeOfPrimitiveArray.hxx>
 #include <Graphic3d_IndexBuffer.hxx>
 #include <Graphic3d_BoundBuffer.hxx>

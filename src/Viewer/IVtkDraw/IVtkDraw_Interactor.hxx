@@ -34,7 +34,7 @@
 #include <vtkSmartPointer.h>
 #include <IVtkTools_ShapePicker.hxx>
 #include <IVtkDraw_HighlightAndSelectionPipeline.hxx>
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 
 class vtkWin32RenderWindowInteractor;
 typedef vtkSmartPointer<IVtkTools_ShapePicker> PSelector;

@@ -14,7 +14,7 @@
 #ifndef OcctJni_Window_H
 #define OcctJni_Window_H
 
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 
 //! This class defines dummy window
 class OcctJni_Window : public Aspect_Window

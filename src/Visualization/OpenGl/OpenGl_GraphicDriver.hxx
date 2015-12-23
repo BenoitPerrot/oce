@@ -30,15 +30,15 @@
 #include <Handle_OpenGl_View.hxx>
 #include <Handle_OpenGl_Workspace.hxx>
 
-#include <Aspect_Display.hxx>
-#include <Aspect_DisplayConnection.hxx>
-#include <Aspect_GradientFillMethod.hxx>
-#include <Aspect_FillMethod.hxx>
-#include <Aspect_CLayer2d.hxx>
-#include <Aspect_TypeOfTriedronPosition.hxx>
-#include <Aspect_TypeOfTriedronEcho.hxx>
-#include <Aspect_Handle.hxx>
-#include <Aspect_PrintAlgo.hxx>
+#include <Visualization/Aspect/Aspect_Display.hxx>
+#include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
+#include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
+#include <Visualization/Aspect/Aspect_FillMethod.hxx>
+#include <Visualization/Aspect/Aspect_CLayer2d.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfTriedronEcho.hxx>
+#include <Visualization/Aspect/Aspect_Handle.hxx>
+#include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Graphic3d_CView.hxx>
 #include <Graphic3d_CStructure.hxx>

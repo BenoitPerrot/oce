@@ -31,10 +31,10 @@
 #include <Graphic3d_BufferType.hxx>
 #include <Handle_Graphic3d_TextureParams.hxx>
 
-#include <Aspect_CLayer2d.hxx>
-#include <Aspect_Handle.hxx>
-#include <Aspect_PrintAlgo.hxx>
-#include <Aspect_PolygonOffsetMode.hxx>
+#include <Visualization/Aspect/Aspect_CLayer2d.hxx>
+#include <Visualization/Aspect/Aspect_Handle.hxx>
+#include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
+#include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <InterfaceGraphic_Visual3d.hxx>

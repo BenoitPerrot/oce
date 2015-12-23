@@ -11,7 +11,7 @@
 #include <Handle_WNT_WClass.hxx>
 
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Aspect_Handle.hxx>
+#include <Visualization/Aspect/Aspect_Handle.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <WNT_Uint.hxx>

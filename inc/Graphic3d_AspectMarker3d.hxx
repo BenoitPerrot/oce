@@ -12,8 +12,8 @@
 
 #include <Graphic3d_MarkerImage_Handle.hxx>
 #include <Graphic3d_ShaderProgram_Handle.hxx>
-#include <Aspect_AspectMarker.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_AspectMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfByte.hxx>

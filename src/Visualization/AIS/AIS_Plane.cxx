@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Graphic3d_AspectLine3d.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_MaterialAspect.hxx>

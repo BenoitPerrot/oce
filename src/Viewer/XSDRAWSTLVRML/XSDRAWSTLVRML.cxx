@@ -41,7 +41,7 @@
 #include <SelectMgr_SelectionManager.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 
 #include <StlMesh_Mesh.hxx>

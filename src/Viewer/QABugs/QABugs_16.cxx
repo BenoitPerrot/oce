@@ -38,7 +38,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Visualization/AIS/AIS_AngleDimension.hxx>
 
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 #include <V3d_View.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

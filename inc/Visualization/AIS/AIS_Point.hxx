@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Point.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>

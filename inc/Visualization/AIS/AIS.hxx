@@ -20,8 +20,8 @@
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_AIS_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Aspect_TypeOfLine.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 class gp_Pnt;
 class TopoDS_Shape;
 class gp_Lin;

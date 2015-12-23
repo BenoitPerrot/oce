@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <Graphic3d_Structure.hxx>
 #include <Graphic3d_MaterialAspect.hxx>
 #include <Graphic3d_AspectFillArea3d.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_Plane.hxx>
 #include <Visualization/AIS/AIS_Axis.hxx>

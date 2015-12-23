@@ -18,8 +18,8 @@
 
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <Font_FontAspect.hxx>
-#include <Aspect_TypeOfStyleText.hxx>
-#include <Aspect_TypeOfDisplayText.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfStyleText.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfDisplayText.hxx>
 #include <Graphic3d_CAspectText.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

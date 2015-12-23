@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_PointAspect.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>
 #include <V3d_Viewer.hxx>

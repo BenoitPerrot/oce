@@ -33,9 +33,9 @@
 //-Declarations
 
 // for the class
-#include <Aspect_AspectFillAreaDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_AspectFillAreaDefinitionError.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Aspect_AspectFillArea.hxx>
+#include <Visualization/Aspect/Aspect_AspectFillArea.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Aspect_AspectFillArea)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

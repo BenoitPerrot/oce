@@ -37,7 +37,7 @@
 #include <QColormap>
 #endif
 
-#include <Aspect_DisplayConnection.hxx>
+#include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 
 // the key for multi selection :
 #define MULTISELECTIONKEY Qt::ShiftModifier

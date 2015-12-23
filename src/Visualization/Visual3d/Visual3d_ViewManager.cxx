@@ -61,9 +61,9 @@
 #include <Visual3d_HSequenceOfView.hxx>
 #include <Graphic3d_Structure.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Aspect_GenId.hxx>
+#include <Visualization/Aspect/Aspect_GenId.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Graphic3d_DataStructureManager.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -79,8 +79,8 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_ViewManager)
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
-#include <Aspect.hxx>
-#include <Aspect_IdentDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect.hxx>
+#include <Visualization/Aspect/Aspect_IdentDefinitionError.hxx>
 
 #include <Graphic3d_GraphicDriver.hxx>
 #include <Graphic3d_MapOfStructure.hxx>

@@ -21,7 +21,7 @@
 #include <OpenGl_Window.hxx>
 #include <OpenGl_Utils.hxx>
 
-#include <Aspect_GraphicDeviceDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_GraphicDeviceDefinitionError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 

@@ -12,7 +12,7 @@
 
 #include <Visual3d_SequenceOfView.hxx>
 #include <Handle_Visual3d_Layer.hxx>
-#include <Aspect_GenId.hxx>
+#include <Visualization/Aspect/Aspect_GenId.hxx>
 #include <Handle_Graphic3d_GraphicDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
@@ -24,7 +24,7 @@
 #include <Handle_Visual3d_View.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Graphic3d_ZLayerSettings.hxx>
-#include <Aspect_TypeOfHighlightMethod.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>
 #include <Handle_Aspect_Window.hxx>
 #include <Graphic3d_CView.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>

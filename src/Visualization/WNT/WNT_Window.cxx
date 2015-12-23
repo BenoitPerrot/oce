@@ -16,8 +16,8 @@
 #include <windows.h>
 
 #include <WNT_WClass.hxx>
-#include <Aspect_WindowDefinitionError.hxx>
-#include <Aspect_WindowError.hxx>
+#include <Visualization/Aspect/Aspect_WindowDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_WindowError.hxx>
 #include <WNT_Window.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(WNT_Window)
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(WNT_Window,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(WNT_Window)
 
 #include <Image_AlienPixMap.hxx>
-#include <Aspect_Convert.hxx>
+#include <Visualization/Aspect/Aspect_Convert.hxx>
 
 #include <stdio.h>
 

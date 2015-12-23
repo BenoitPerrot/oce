@@ -18,7 +18,7 @@
 #include <Prs3d_TextAspect.hxx>
 #include <Prs3d_LineAspect.hxx>
 
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Graphic3d_AspectText3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 

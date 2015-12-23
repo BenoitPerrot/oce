@@ -177,7 +177,7 @@ Draw_Window* Draw_Window::firstWindow = NULL;
 // X11 specific part
 #if !defined(__APPLE__) || defined(MACOSX_USE_GLX)
 #include <X11/Xutil.h>
-#include <Aspect_DisplayConnection.hxx>
+#include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 
 static unsigned long thePixels[MAXCOLOR];
 

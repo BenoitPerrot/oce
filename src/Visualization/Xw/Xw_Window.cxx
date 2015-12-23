@@ -17,8 +17,8 @@
 
 #if !defined(_WIN32) && (!defined(__APPLE__) || defined(MACOSX_USE_GLX)) && !defined(__ANDROID__)
 
-#include <Aspect_Convert.hxx>
-#include <Aspect_WindowDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_Convert.hxx>
+#include <Visualization/Aspect/Aspect_WindowDefinitionError.hxx>
 
 #include <GL/glx.h>
 

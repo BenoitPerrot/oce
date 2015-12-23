@@ -15,7 +15,7 @@
 #ifndef _Graphic3d_CAspectMarker_HeaderFile
 #define _Graphic3d_CAspectMarker_HeaderFile
 
-#include <Aspect_TypeOfMarker.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <InterfaceGraphic_Visual3d.hxx>
 #include <Graphic3d_CTexture.hxx>
 #include <Graphic3d_MarkerImage_Handle.hxx>

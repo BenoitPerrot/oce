@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Aspect_PolygonOffsetMode.hxx>
+#include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 #include <Foundation/NCollection/NCollection_Vec3.hxx>
 
 #include <OpenGl_AspectFace.hxx>

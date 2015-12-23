@@ -14,7 +14,7 @@
 #ifndef ANDROIDQT_WINDOW_H
 #define ANDROIDQT_WINDOW_H
 
-#include <Aspect_Window.hxx>
+#include <Visualization/Aspect/Aspect_Window.hxx>
 
 //! This class defines dummy window.
 //! The main functionality is viewport dimensions.

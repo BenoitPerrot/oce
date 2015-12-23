@@ -16,9 +16,9 @@
 
 // To manage client post display
 
-#include <Aspect_Display.hxx>
-#include <Aspect_Drawable.hxx>
-#include <Aspect_RenderingContext.hxx>
+#include <Visualization/Aspect/Aspect_Display.hxx>
+#include <Visualization/Aspect/Aspect_Drawable.hxx>
+#include <Visualization/Aspect/Aspect_RenderingContext.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 
 // The flags below provide additional information to define the moment when

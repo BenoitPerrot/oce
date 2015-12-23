@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(ViewerTest_EventManager)
 IMPLEMENT_DOWNCAST(ViewerTest_EventManager,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ViewerTest_EventManager)
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <Aspect_Grid.hxx>
+#include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <NIS_View.hxx>
 
 //=======================================================================

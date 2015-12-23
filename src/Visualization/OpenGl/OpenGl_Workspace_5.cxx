@@ -30,7 +30,7 @@
   #include <gl2ps.h>
 #endif
 
-#include <Aspect_PolygonOffsetMode.hxx>
+#include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 #include <OpenGl_View.hxx>
 
 /*----------------------------------------------------------------------*/

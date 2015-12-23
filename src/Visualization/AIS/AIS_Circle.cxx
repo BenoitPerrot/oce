@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_Circle)
 IMPLEMENT_DOWNCAST(AIS_Circle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Circle)
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Graphic3d_AspectLine3d.hxx>

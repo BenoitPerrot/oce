@@ -11,8 +11,8 @@
 #include <Handle_Graphic3d_AspectLine3d.hxx>
 
 #include <Graphic3d_ShaderProgram_Handle.hxx>
-#include <Aspect_AspectLine.hxx>
-#include <Aspect_TypeOfLine.hxx>
+#include <Visualization/Aspect/Aspect_AspectLine.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Quantity_Color;
 

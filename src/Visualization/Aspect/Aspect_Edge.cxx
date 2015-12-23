@@ -28,8 +28,8 @@
 //-Declarations
 
 // for the class
-#include <Aspect_EdgeDefinitionError.hxx>
-#include <Aspect_Edge.hxx>
+#include <Visualization/Aspect/Aspect_EdgeDefinitionError.hxx>
+#include <Visualization/Aspect/Aspect_Edge.hxx>
 
 //-Aliases
 

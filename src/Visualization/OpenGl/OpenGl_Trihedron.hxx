@@ -18,7 +18,7 @@
 
 #include <OpenGl_Element.hxx>
 
-#include <Aspect_TypeOfTriedronPosition.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
 #include <OpenGl_AspectLine.hxx>
 #include <OpenGl_AspectText.hxx>
 #include <OpenGl_Cylinder.hxx>

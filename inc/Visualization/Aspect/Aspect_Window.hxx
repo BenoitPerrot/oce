@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Aspect_Window.hxx>
 
-#include <Aspect_Background.hxx>
-#include <Aspect_GradientBackground.hxx>
-#include <Aspect_FillMethod.hxx>
+#include <Visualization/Aspect/Aspect_Background.hxx>
+#include <Visualization/Aspect/Aspect_GradientBackground.hxx>
+#include <Visualization/Aspect/Aspect_FillMethod.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Aspect_GradientFillMethod.hxx>
-#include <Aspect_TypeOfResize.hxx>
+#include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfResize.hxx>
 #include <Foundation/Quantity/Quantity_Ratio.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Aspect_Drawable.hxx>
+#include <Visualization/Aspect/Aspect_Drawable.hxx>
 class Aspect_WindowDefinitionError;
 class Aspect_WindowError;
 class Aspect_Background;

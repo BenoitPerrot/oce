@@ -23,10 +23,10 @@
 #include <Foundation/NCollection/NCollection_List.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Aspect_FillMethod.hxx>
-#include <Aspect_GradientFillMethod.hxx>
-#include <Aspect_TypeOfTriedronPosition.hxx>
-#include <Aspect_CLayer2d.hxx>
+#include <Visualization/Aspect/Aspect_FillMethod.hxx>
+#include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
+#include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
+#include <Visualization/Aspect/Aspect_CLayer2d.hxx>
 
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <InterfaceGraphic_Visual3d.hxx>
