@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <FairCurve_BattenLaw.hxx>
-#include <FairCurve_DistributionOfTension.hxx>
-#include <FairCurve_DistributionOfSagging.hxx>
-#include <FairCurve_AnalysisCode.hxx>
-#include <FairCurve_Energy.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_BattenLaw.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_DistributionOfTension.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_DistributionOfSagging.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Energy.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
@@ -76,7 +76,7 @@ private:
 };
 
 
-#include <FairCurve_EnergyOfBatten.lxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_EnergyOfBatten.lxx>
 
 
 

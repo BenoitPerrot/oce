@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <FairCurve_Batten.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Batten.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <FairCurve_AnalysisCode.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_NegativeValue;
@@ -127,7 +127,7 @@ private:
 };
 
 
-#include <FairCurve_MinimalVariation.lxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_MinimalVariation.lxx>
 
 
 

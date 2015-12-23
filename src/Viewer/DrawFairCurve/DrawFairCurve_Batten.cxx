@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(DrawFairCurve_Batten)
 IMPLEMENT_DOWNCAST(DrawFairCurve_Batten,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawFairCurve_Batten)
 
-#include <FairCurve_Batten.hxx>
-#include <FairCurve_AnalysisCode.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Batten.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
 #include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>
 
 DrawFairCurve_Batten::DrawFairCurve_Batten(const Standard_Address TheBatten)

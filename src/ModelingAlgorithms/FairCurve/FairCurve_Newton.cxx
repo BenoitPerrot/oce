@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithHessian.hxx>
-#include <FairCurve_Newton.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Newton.hxx>
 
 FairCurve_Newton::FairCurve_Newton(math_MultipleVarFunctionWithHessian& F, 
 				   const math_Vector& StartingPoint, 

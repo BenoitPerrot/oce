@@ -63,7 +63,7 @@ private:
 };
 
 
-#include <FairCurve_BattenLaw.lxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_BattenLaw.lxx>
 
 
 

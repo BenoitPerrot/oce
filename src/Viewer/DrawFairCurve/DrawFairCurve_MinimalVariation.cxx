@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(DrawFairCurve_MinimalVariation)
 IMPLEMENT_DOWNCAST(DrawFairCurve_MinimalVariation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawFairCurve_MinimalVariation)
 
-#include <FairCurve_MinimalVariation.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_MinimalVariation.hxx>
 #include <Draw_ColorKind.hxx>
 
 DrawFairCurve_MinimalVariation::DrawFairCurve_MinimalVariation(const Standard_Address TheMVC)

@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <FairCurve_BattenLaw.hxx>
-#include <FairCurve_EnergyOfMVC.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_BattenLaw.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_EnergyOfMVC.hxx>
 
 #include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Mathematics/Optimization/math_GaussSetIntegration.hxx>

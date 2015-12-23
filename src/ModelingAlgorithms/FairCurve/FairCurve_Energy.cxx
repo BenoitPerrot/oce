@@ -22,7 +22,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <FairCurve_Energy.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Energy.hxx>
 
 #include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

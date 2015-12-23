@@ -20,9 +20,9 @@
 #include <DrawTrSurf.hxx>
 #include <DrawTrSurf_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <FairCurve_AnalysisCode.hxx>
-#include <FairCurve_Batten.hxx>
-#include <FairCurve_MinimalVariation.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Batten.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_MinimalVariation.hxx>
 #include <DrawFairCurve_Batten.hxx>
 #include <DrawFairCurve_MinimalVariation.hxx>
 #include <string.h>

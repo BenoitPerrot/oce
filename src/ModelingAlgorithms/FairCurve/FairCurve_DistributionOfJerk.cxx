@@ -23,8 +23,8 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <FairCurve_BattenLaw.hxx>
-#include <FairCurve_DistributionOfJerk.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_BattenLaw.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_DistributionOfJerk.hxx>
 
 
 #include <Mathematics/Primitives/gp_XY.hxx>

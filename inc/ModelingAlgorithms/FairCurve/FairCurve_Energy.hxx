@@ -115,7 +115,7 @@ private:
 };
 
 
-#include <FairCurve_Energy.lxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Energy.lxx>
 
 
 

@@ -16,7 +16,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <FairCurve_DistributionOfEnergy.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_DistributionOfEnergy.hxx>
 
 Standard_Integer FairCurve_DistributionOfEnergy::NbVariables() const 
 {

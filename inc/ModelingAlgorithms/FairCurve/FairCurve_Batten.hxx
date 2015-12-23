@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <FairCurve_AnalysisCode.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -274,7 +274,7 @@ private:
 };
 
 
-#include <FairCurve_Batten.lxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Batten.lxx>
 
 
 

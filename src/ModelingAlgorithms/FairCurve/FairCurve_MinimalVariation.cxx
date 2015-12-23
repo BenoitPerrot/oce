@@ -24,14 +24,14 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <FairCurve_MinimalVariation.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_MinimalVariation.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <FairCurve_BattenLaw.hxx>
-#include <FairCurve_EnergyOfMVC.hxx>
-#include <FairCurve_Newton.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_BattenLaw.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_EnergyOfMVC.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Newton.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>

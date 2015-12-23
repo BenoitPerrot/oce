@@ -68,8 +68,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
-#include <FairCurve_Batten.hxx>
-#include <FairCurve_AnalysisCode.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_Batten.hxx>
+#include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
