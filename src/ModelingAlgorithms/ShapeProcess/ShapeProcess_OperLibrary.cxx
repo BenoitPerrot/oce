@@ -13,16 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeProcess_OperLibrary.hxx>
 
 #include <Precision.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 

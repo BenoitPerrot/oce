@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>

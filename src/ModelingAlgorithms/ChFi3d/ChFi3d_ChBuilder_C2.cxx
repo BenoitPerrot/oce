@@ -16,9 +16,9 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ChFiDS_SecHArray1.hxx>
 #include <ChFiDS_SurfData.hxx>
 #include <ChFiDS_HElSpine.hxx>
@@ -27,7 +27,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <ChFiDS_SequenceOfSurfData.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ChFiDS_Stripe.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFi3d_ChBuilder.hxx>

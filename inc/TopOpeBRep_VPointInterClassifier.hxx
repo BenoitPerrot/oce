@@ -12,7 +12,7 @@
 
 #include <BRepClass_FaceClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -12,9 +12,9 @@
 
 #include <Handle_ShapeExtend_CompositeSurface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeAnalysis_TransferParameters.hxx>

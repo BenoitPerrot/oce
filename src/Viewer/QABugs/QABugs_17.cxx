@@ -25,7 +25,7 @@
 #include <ViewerTest.hxx>
 #include <ViewerTest_EventManager.hxx>
 #include <AIS_Shape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
@@ -38,7 +38,7 @@
 #include <Geom2dGcc_Lin2d2Tan.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geom2dGcc_QCurve.hxx>
@@ -46,8 +46,8 @@
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <BRepOffsetAPI_MakePipeShell.hxx>
@@ -65,8 +65,8 @@
 #include <Geom2dGcc_Circ2d3Tan.hxx>
 #include <Aspect_Window.hxx>
 
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_CompSolid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
 #include <QABugs_MyText.hxx>
 #include <Prs3d_Projector.hxx>
@@ -1419,7 +1419,7 @@ static Standard_Integer OCC1174_2 (Draw_Interpretor& di, Standard_Integer argc, 
   return 0;
 }
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepFeat_MakeDPrism.hxx>
 //=======================================================================
 //function : OCCN1

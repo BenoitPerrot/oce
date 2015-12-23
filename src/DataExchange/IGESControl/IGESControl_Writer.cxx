@@ -18,7 +18,7 @@
 
 #include <Transfer_FinderProcess.hxx>
 #include <IGESData_IGESModel.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESControl_Writer.hxx>

@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <ShapeBuild_ReShape.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
@@ -46,9 +46,9 @@
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 

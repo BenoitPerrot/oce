@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <LocOpe_Gluer.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
@@ -40,9 +40,9 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

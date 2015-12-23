@@ -33,7 +33,7 @@
 #include <TDataStd_ByteArray.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TDataStd_UAttribute.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Interpretor.hxx>
 #include <TDF_Reference.hxx>
 

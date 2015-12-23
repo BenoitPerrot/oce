@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 
 //! Describes a vertex which
@@ -49,7 +49,7 @@ private:
 };
 
 
-#include <TopoDS_Vertex.lxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.lxx>
 
 
 

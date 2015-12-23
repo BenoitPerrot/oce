@@ -124,7 +124,7 @@
 //epa test
 #include <BRepLib_MakeEdge.hxx>
 #include <AIS_Shape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>

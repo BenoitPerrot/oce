@@ -19,17 +19,17 @@
 // Author:	
 //		<pkv@PETREX>
 
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepClass3d.hxx>
 
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>

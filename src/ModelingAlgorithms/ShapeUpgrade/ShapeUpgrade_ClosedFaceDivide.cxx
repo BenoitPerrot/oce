@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeUpgrade_ClosedFaceDivide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ClosedFaceDivide)
@@ -29,11 +29,11 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_ClosedFaceDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <Precision.hxx>
 #include <ShapeExtend.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeAnalysis_Curve.hxx>

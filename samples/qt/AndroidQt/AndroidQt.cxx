@@ -21,9 +21,9 @@
 #include <OpenGl_GraphicDriver.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 
 #include <EGL/egl.h>

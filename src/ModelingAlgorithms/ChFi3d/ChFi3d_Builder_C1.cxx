@@ -22,10 +22,10 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ChFiDS_Spine.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ChFiDS_SurfData.hxx>
@@ -49,7 +49,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <ChFiDS_CommonPoint.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <AppBlend_Approx.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ChFi3d_Builder.hxx>
@@ -126,11 +126,11 @@
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

@@ -16,10 +16,10 @@
 #include <ShapeAnalysis_BoxBndTree.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ShapeAnalysis_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ShapeAnalysis.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

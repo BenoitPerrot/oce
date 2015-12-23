@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <HLRBRep_ListOfBPoint.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_Trsf;
 class TopoDS_Shape;

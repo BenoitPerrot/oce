@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Data.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -39,8 +39,8 @@
 #include <TNaming_NamedShape.hxx>
 #include <DBRep.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

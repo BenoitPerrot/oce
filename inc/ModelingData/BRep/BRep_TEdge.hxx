@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
-#include <TopoDS_TEdge.hxx>
+#include <ModelingData/TopoDS/TopoDS_TEdge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 class BRep_ListOfCurveRepresentation;

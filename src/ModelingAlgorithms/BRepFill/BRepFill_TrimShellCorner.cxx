@@ -15,9 +15,9 @@
 
 #include <TopTools_HArray2OfShape.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepFill_TrimShellCorner.hxx>
 
@@ -26,9 +26,9 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRepTools/BRepTools_ReShape.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 #include <IntTools_BeanFaceIntersector.hxx>
 #include <IntTools_Context.hxx>
@@ -50,7 +50,7 @@
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>

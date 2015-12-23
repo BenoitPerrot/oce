@@ -20,7 +20,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
@@ -53,10 +53,10 @@
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Transfer_TransientProcess.hxx>
 #include <TransferBRep_ShapeBinder.hxx>

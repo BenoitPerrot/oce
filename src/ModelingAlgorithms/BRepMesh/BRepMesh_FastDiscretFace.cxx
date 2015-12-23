@@ -47,8 +47,8 @@
 #include <TopTools_DataMapOfShapeReal.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>

@@ -25,20 +25,20 @@
 
 #include <IGESSolid_EdgeList.hxx>
 #include <IGESSolid_VertexList.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IGESSolid_Loop.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <IGESSolid_Face.hxx>
 #include <IGESSolid_Shell.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_CompSolid.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <BRepToIGESBRep_Entity.hxx>
 
 #include <BRepToIGES_BRWire.hxx>
@@ -127,16 +127,16 @@
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_CompSolid.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

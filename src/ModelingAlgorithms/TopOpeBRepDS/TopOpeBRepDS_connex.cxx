@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_connex.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 static TopTools_DataMapOfShapeListOfShape *GLOBAL_elf1 = NULL; // NYI to CDLize as a tool of DS
 static TopTools_DataMapOfShapeListOfShape *GLOBAL_elf2 = NULL; // NYI to CDLize as a tool of DS

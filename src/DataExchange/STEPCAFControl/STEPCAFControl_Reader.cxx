@@ -21,7 +21,7 @@
 #include <STEPControl_Reader.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <STEPCAFControl_DataMapOfShapePD.hxx>
@@ -37,10 +37,10 @@
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 #include <Transfer_TransientProcess.hxx>
 #include <TransferBRep.hxx>

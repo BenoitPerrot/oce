@@ -20,7 +20,7 @@
 #include <TNaming_OldShapeIterator.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Iterator.hxx>
 
 // See methods'bodies in TNaming_NamedShape.cxx

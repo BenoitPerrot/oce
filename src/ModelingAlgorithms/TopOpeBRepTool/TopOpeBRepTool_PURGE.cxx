@@ -25,8 +25,8 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <TopTools_Array1OfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>

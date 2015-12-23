@@ -19,7 +19,7 @@
 
 #include <StepGeom_CurveBoundedSurface.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <StepToTopoDS_TranslateCurveBoundedSurface.hxx>
 
 #include <Precision.hxx>
@@ -29,9 +29,9 @@
 #include <StepGeom_HArray1OfSurfaceBoundary.hxx>
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <BRepLib_MakeFace.hxx>

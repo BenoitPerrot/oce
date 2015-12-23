@@ -24,8 +24,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MoniTool_SignShape)
 IMPLEMENT_DOWNCAST(MoniTool_SignShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_SignShape)
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_HShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 
 
 MoniTool_SignShape::MoniTool_SignShape ()    {  }

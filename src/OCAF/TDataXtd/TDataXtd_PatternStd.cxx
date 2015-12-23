@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_PatternStd)
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 
 //=======================================================================

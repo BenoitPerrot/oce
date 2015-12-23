@@ -46,12 +46,12 @@
 #include <Transfer_ResultFromModel.hxx>
 
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TransferBRep.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
@@ -62,7 +62,7 @@
 #include <ShapeExtend_Explorer.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Transfer_TransientListBinder.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>

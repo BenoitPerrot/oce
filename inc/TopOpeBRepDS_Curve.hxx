@@ -13,7 +13,7 @@
 #include <Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom2d_Curve.hxx>

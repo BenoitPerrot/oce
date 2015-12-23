@@ -30,7 +30,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx> 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <BRepExtrema_ExtPC.hxx>
 #include <BRepExtrema_ExtPF.hxx>

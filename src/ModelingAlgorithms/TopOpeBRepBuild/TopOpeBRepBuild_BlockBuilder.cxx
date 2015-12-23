@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <TopOpeBRepBuild_BlockIterator.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_BlockBuilder.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 

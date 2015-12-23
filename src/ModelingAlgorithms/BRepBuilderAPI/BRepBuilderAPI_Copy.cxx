@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepBuilderAPI_Copy.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -22,7 +22,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 //! Tool class implementing necessary functionality for copying geometry

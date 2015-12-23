@@ -17,7 +17,7 @@
 // modified by Michael KLOKOV  Wed Mar  6 15:01:25 2002
 // modified by  Eugeny MALTCHIKOV Wed Jul 04 11:13:01 2012 
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -32,8 +32,8 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BOPAlgo_PaveFiller.hxx>

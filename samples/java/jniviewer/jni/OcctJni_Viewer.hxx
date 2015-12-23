@@ -14,7 +14,7 @@
 #include <OcctJni_Window.hxx>
 
 #include <AIS_InteractiveContext.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

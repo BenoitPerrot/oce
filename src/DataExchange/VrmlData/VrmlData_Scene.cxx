@@ -36,9 +36,9 @@
 #include <VrmlData_UnknownNode.hxx>
 //#include <VrmlData_WorldInfo.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <TopoDS_TFace.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_TFace.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>

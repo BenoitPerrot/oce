@@ -20,7 +20,7 @@
 #include <DrawTrSurf.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <AIS_InteractiveContext.hxx>
 #include <AIS_TexturedShape.hxx>
 #include <Image_PixMap.hxx>
@@ -292,9 +292,9 @@ Standard_Integer OCC22595 (Draw_Interpretor& di, Standard_Integer /*argc*/, cons
   return 0;
 }
 
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

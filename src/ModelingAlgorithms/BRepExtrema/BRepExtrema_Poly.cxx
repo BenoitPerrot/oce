@@ -17,8 +17,8 @@
 #include <BRepExtrema_Poly.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

@@ -37,9 +37,9 @@
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <StdPrs_WFShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_ColoredDrawer, AIS_Drawer)
 IMPLEMENT_STANDARD_RTTIEXT(AIS_ColoredDrawer, AIS_Drawer)

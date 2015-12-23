@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draw_Display.hxx>
 #include <DrawDim_Distance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(DrawDim_Distance)
 IMPLEMENT_DOWNCAST(DrawDim_Distance,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Distance)
 #include <DrawDim.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Distance)
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

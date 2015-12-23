@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Shape)
 #include <TDataXtd.hxx>
 #include <TDF_Label.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>

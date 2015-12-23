@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_NormalProjection.hxx>
 

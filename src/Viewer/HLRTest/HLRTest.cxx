@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <HLRAlgo_Projector.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
 #include <HLRTest.hxx>
 #include <HLRTest_Projector.hxx>

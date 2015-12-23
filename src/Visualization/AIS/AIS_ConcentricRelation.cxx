@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 
 #include <DsgPrs_ConcentricPresentation.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <AIS.hxx>
 
 //=======================================================================

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TopTools_ListNodeOfListOfShape)
 
 
 #define Item TopoDS_Shape
-#define Item_hxx <TopoDS_Shape.hxx>
+#define Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_ListNode TopTools_ListNodeOfListOfShape
 #define TCollection_ListNode_hxx <TopTools_ListNodeOfListOfShape.hxx>
 #define TCollection_ListIterator TopTools_ListIteratorOfListOfShape

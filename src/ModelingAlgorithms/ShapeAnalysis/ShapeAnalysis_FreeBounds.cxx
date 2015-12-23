@@ -19,8 +19,8 @@
 //szv#4 S4163
 // 11.01.00 svv #1: porting on DEC  
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeAnalysis_FreeBounds.hxx>
@@ -31,11 +31,11 @@
 
 #include <Precision.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -54,7 +54,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ShapeAnalysis_BoxBndTree.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

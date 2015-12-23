@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <StdSelect_BRepSelectionTool.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 // Handle implementation
 IMPLEMENT_STANDARD_HANDLE( IVtkOCC_SelectableObject, SelectMgr_SelectableObject )

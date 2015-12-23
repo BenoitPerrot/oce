@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <StepToTopoDS_TranslatePolyLoopError.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_Root.hxx>
 #include <Handle_StepShape_PolyLoop.hxx>
 #include <Handle_Geom_Surface.hxx>

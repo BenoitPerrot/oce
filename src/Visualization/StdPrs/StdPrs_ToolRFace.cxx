@@ -16,7 +16,7 @@
 #include <StdPrs_ToolRFace.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 
 

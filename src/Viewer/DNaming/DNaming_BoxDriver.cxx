@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepCheck_Analyzer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TDF_Label.hxx>

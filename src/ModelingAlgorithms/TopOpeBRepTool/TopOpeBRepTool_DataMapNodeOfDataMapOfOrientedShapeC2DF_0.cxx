@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
 #include <TopTools_OrientedShapeMapHasher.hxx>
 #include <TopOpeBRepTool_DataMapOfOrientedShapeC2DF.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_DataMapNodeOfDataMapOfOrientedShapeC2DF)
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopOpeBRepTool_C2DF
 #define TheItem_hxx <TopOpeBRepTool_C2DF.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher

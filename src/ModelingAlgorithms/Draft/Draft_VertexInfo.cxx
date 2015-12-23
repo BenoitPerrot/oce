@@ -16,12 +16,12 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draft_VertexInfo.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : Draft_VertexInfo

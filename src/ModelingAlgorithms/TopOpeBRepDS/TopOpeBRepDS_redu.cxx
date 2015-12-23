@@ -21,7 +21,7 @@
 #include <TopOpeBRepDS_EXPORT.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

@@ -26,7 +26,7 @@
 #include <ElCLib.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Draw_Color.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

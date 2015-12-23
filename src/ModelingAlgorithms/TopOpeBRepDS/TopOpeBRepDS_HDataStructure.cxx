@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 #include <TopOpeBRepDS_CurveIterator.hxx>
@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_HDataStructure)
 
 #include <TopOpeBRepDS_EdgeInterferenceTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>

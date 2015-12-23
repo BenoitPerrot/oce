@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DBRep_Edge.hxx>
 
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Draw_Color.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Edge;

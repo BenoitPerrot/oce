@@ -3,38 +3,38 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TopoDS_TVertex_HeaderFile
-#define _TopoDS_TVertex_HeaderFile
+#ifndef _TopoDS_TEdge_HeaderFile
+#define _TopoDS_TEdge_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopoDS_TVertex.hxx>
+#include <Handle_TopoDS_TEdge.hxx>
 
-#include <TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 
-//! A  Vertex is a topological  point in  two or three
-//! dimensions.
-class TopoDS_TVertex : public TopoDS_TShape
+//! A topological part  of a  curve  in 2D or 3D,  the
+//! boundary    is   a   set  of oriented    Vertices.
+class TopoDS_TEdge : public TopoDS_TShape
 {
 
 public:
 
   
-  //! Returns VERTEX.
+  //! Returns  EDGE.
   Standard_EXPORT   TopAbs_ShapeEnum ShapeType()  const;
 
 
 
 
-  DEFINE_STANDARD_RTTI(TopoDS_TVertex)
+  DEFINE_STANDARD_RTTI(TopoDS_TEdge)
 
 protected:
 
   
-  //! Construct a vertex.
-    TopoDS_TVertex();
+  //! Construct an edge.
+    TopoDS_TEdge();
 
 
 
@@ -46,10 +46,10 @@ private:
 };
 
 
-#include <TopoDS_TVertex.lxx>
+#include <ModelingData/TopoDS/TopoDS_TEdge.lxx>
 
 
 
 
 
-#endif // _TopoDS_TVertex_HeaderFile
+#endif // _TopoDS_TEdge_HeaderFile

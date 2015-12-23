@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Draft_VertexInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey TopoDS_Vertex
-#define TheKey_hxx <TopoDS_Vertex.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem Draft_VertexInfo
 #define TheItem_hxx <Draft_VertexInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

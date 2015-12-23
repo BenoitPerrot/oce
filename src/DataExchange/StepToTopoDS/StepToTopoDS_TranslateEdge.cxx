@@ -24,12 +24,12 @@
 #include <StepGeom_Curve.hxx>
 #include <StepShape_EdgeCurve.hxx>
 #include <StepShape_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <StepGeom_Pcurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 
 #include <StepToTopoDS.hxx>
@@ -37,8 +37,8 @@
 #include <StepToTopoDS_GeometricTool.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib.hxx>

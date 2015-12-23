@@ -15,24 +15,24 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TopoDS_FrozenShape.hxx>
-#include <TopoDS_UnCompatibleShapes.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_TShape.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_CompSolid.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Builder.hxx>
+#include <ModelingData/TopoDS/TopoDS_FrozenShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_UnCompatibleShapes.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Builder.hxx>
 
-#include <TopoDS_TShape.hxx>
-#include <TopoDS_TWire.hxx>
-#include <TopoDS_TCompound.hxx>
-#include <TopoDS_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TWire.hxx>
+#include <ModelingData/TopoDS/TopoDS_TCompound.hxx>
+#include <ModelingData/TopoDS/TopoDS_ListIteratorOfListOfShape.hxx>
 
-#include <TopoDS_FrozenShape.hxx>
-#include <TopoDS_UnCompatibleShapes.hxx>
+#include <ModelingData/TopoDS/TopoDS_FrozenShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_UnCompatibleShapes.hxx>
 
 
 //=======================================================================

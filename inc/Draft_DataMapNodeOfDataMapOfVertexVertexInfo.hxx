@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
 
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Draft_VertexInfo.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey TopoDS_Vertex
-#define TheKey_hxx <TopoDS_Vertex.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem Draft_VertexInfo
 #define TheItem_hxx <Draft_VertexInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

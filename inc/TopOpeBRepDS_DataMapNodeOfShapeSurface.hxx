@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Handle(Geom_Surface)
 #define TheItem_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define Hasher TopTools_ShapeMapHasher

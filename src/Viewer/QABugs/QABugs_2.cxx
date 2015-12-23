@@ -22,12 +22,12 @@
 #include <AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
 #include <AIS_Shape.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <BRepBndLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

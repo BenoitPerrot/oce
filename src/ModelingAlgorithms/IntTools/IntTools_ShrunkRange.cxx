@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_Context.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntTools_ShrunkRange.hxx>
 

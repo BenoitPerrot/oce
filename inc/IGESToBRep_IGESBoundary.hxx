@@ -13,7 +13,7 @@
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

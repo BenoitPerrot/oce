@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 

@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepMesh_FaceAttribute.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <BRepMesh_ShapeTool.hxx>
 #include <BRepMesh_Classifier.hxx>

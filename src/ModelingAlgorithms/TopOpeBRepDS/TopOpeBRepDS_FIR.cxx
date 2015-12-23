@@ -22,7 +22,7 @@
 #include <TopOpeBRepTool_SC.hxx>
 
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_FaceInterferenceTool.hxx>
 #include <TopOpeBRepDS_CurvePointInterference.hxx>

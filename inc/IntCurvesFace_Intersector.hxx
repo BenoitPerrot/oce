@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>

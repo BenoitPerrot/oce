@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepCheck_Face.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Face)
@@ -59,8 +59,8 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 
 #include <BRepCheck.hxx>
 #include <Precision.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>

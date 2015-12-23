@@ -23,8 +23,8 @@
 #include <BRepClass_FaceClassifier.hxx>
 #include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

@@ -22,7 +22,7 @@
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <STEPControl_ActorWrite.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -61,9 +61,9 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <TopoDSToStep_MakeGeometricCurveSet.hxx>
 #include <TopoDSToStep_MakeShellBasedSurfaceModel.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -108,7 +108,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <TopTools_HSequenceOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS_Iterator.hxx> //:d6
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx> //:d6
 #include <UnitsMethods.hxx>
 #include <STEPConstruct_AP203Context.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
@@ -123,7 +123,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <MoniTool_DataMapOfShapeTransient.hxx>
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 // Non-manifold topology processing (ssv; 10.11.2010)

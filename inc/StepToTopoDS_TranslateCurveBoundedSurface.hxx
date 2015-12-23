@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <StepToTopoDS_Root.hxx>
 #include <Handle_StepGeom_CurveBoundedSurface.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>

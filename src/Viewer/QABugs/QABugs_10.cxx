@@ -22,10 +22,10 @@
 #include <AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
 #include <AIS_Shape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <BRepLib_MakePolygon.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -38,7 +38,7 @@
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
@@ -277,7 +277,7 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeWire.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

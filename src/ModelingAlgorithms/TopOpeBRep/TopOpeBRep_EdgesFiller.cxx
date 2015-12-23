@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRep_EdgesFiller.hxx>
 #include <TopOpeBRep_PointGeomTool.hxx>
@@ -36,7 +36,7 @@
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <TopOpeBRep_define.hxx>
 

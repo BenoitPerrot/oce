@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepToTopoDS_PointPair.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <StepToTopoDS_PointPairHasher.hxx>
 #include <StepToTopoDS_PointEdgeMap.hxx>
 #include <StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
@@ -16,7 +16,7 @@
 #define TheKey StepToTopoDS_PointPair
 #define TheKey_hxx <StepToTopoDS_PointPair.hxx>
 #define TheItem TopoDS_Edge
-#define TheItem_hxx <TopoDS_Edge.hxx>
+#define TheItem_hxx <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #define Hasher StepToTopoDS_PointPairHasher
 #define Hasher_hxx <StepToTopoDS_PointPairHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfPointEdgeMap

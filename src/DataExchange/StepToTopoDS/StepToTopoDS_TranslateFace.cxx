@@ -28,7 +28,7 @@
 #include <StepShape_FaceSurface.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_TranslateFace.hxx>
 
 #include <StepToTopoDS.hxx>
@@ -64,15 +64,15 @@
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>//#3 rln 16/02/98
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>//#3 rln 16/02/98
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>//rln 28/01/98
 
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>//rln 28/01/98
@@ -88,7 +88,7 @@
 #include <StepGeom_BSplineSurface.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 // To proceed with I-DEAS-like STP (ssv; 15.11.2010)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

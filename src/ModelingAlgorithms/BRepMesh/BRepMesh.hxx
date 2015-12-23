@@ -40,8 +40,8 @@
 #include <BRepMesh_Circle.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Handle_Poly_Triangulation.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <vector>
 

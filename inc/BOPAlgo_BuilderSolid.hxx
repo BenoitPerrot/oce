@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BOPAlgo_BuilderArea.hxx>
 #include <BOPCol_BaseAllocator.hxx>
 class TopoDS_Solid;

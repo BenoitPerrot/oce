@@ -31,7 +31,7 @@
 #include <BRepOffsetAPI_MiddlePath.hxx>
 
 #include <BRepLib_MakeWire.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

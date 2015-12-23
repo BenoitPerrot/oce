@@ -12,7 +12,7 @@
 
 #include <Handle_ShapeUpgrade_FaceDivide.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

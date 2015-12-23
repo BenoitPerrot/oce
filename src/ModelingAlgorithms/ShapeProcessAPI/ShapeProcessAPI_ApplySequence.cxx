@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <ShapeProcess_ShapeContext.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeProcessAPI_ApplySequence.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

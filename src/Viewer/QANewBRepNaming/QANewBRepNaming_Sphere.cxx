@@ -21,10 +21,10 @@
 #include <TNaming_Builder.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_TagSource.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

@@ -19,7 +19,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <GeomAbs_SurfaceType.hxx>

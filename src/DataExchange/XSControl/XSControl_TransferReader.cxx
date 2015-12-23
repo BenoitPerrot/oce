@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ResultFromModel.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Interface_Graph.hxx>
 #include <XSControl_TransferReader.hxx>
@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <TransferBRep.hxx>
 #include <TransferBRep_BinderOfShape.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
-#include <TopoDS_HShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 #include <XSControl_Utils.hxx>
 #include <TopTools_MapOfShape.hxx>
 

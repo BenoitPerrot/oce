@@ -13,7 +13,7 @@
 
 #include <XSControl_WorkSession.hxx>
 #include <StepData_StepModel.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <STEPControl_Writer.hxx>
 #include <STEPControl_Controller.hxx>
 #include <STEPControl_ActorWrite.hxx>

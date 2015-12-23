@@ -3,32 +3,32 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TopoDS_Face_HeaderFile
-#define _TopoDS_Face_HeaderFile
+#ifndef _TopoDS_Wire_HeaderFile
+#define _TopoDS_Wire_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 
-//! Describes a face which
-//! - references an underlying face with the potential to
+//! Describes a wire which
+//! - references an underlying wire with the potential to
 //! be given a location and an orientation
-//! - has a location for the underlying face, giving its
+//! - has a location for the underlying wire, giving its
 //! placement in the local coordinate system
-//! - has an orientation for the underlying face, in terms
+//! - has an orientation for the underlying wire, in terms
 //! of its geometry (as opposed to orientation in relation to other shapes).
-class TopoDS_Face  : public TopoDS_Shape
+class TopoDS_Wire  : public TopoDS_Shape
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  //! Undefined Face.
-    TopoDS_Face();
+  //! Undefined Wire.
+    TopoDS_Wire();
 
 
 
@@ -48,10 +48,10 @@ private:
 };
 
 
-#include <TopoDS_Face.lxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.lxx>
 
 
 
 
 
-#endif // _TopoDS_Face_HeaderFile
+#endif // _TopoDS_Wire_HeaderFile

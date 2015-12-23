@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draw_Display.hxx>
 #include <DrawDim_Angle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -39,11 +39,11 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Vertex.hxx> 
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx> 
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 //=======================================================================

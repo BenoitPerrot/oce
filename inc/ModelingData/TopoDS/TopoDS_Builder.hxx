@@ -117,7 +117,7 @@ private:
 };
 
 
-#include <TopoDS_Builder.lxx>
+#include <ModelingData/TopoDS/TopoDS_Builder.lxx>
 
 
 

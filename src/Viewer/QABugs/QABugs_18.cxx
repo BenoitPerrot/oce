@@ -33,10 +33,10 @@
 #include <CDF.hxx>
 
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

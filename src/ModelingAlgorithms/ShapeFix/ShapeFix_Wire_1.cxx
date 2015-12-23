@@ -26,9 +26,9 @@
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -90,7 +90,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Approx/Approx_Curve3d.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 #include <ShapeAnalysis_TransferParametersProj.hxx>
 //=======================================================================

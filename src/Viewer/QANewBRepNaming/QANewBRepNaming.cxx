@@ -15,7 +15,7 @@
 
 #include <TDF_Label.hxx>
 #include <TNaming_Builder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <QANewBRepNaming.hxx>
 

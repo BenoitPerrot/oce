@@ -6,7 +6,7 @@
 #include <BiTgte_DataMapIteratorOfDataMapOfShapeBox.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BiTgte_DataMapOfShapeBox.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Bnd_Box
 #define TheItem_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define Hasher TopTools_ShapeMapHasher

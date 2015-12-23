@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepDS_SurfaceData.hxx>
 #include <TopOpeBRepDS_CurveData.hxx>
@@ -28,8 +28,8 @@
 #include <TopOpeBRepDS_Surface.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Point.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepDS_MapOfShapeData.hxx>

@@ -16,7 +16,7 @@
 
 #include <StepShape_GeometricCurveSet.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDSToStep_MakeGeometricCurveSet.hxx>
 #include <TopoDSToStep.hxx>
@@ -25,8 +25,8 @@
 #include <TopoDSToStep_Tool.hxx>
 #include <MoniTool_DataMapOfShapeTransient.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <StepShape_GeometricSetSelect.hxx>
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>

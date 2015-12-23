@@ -18,7 +18,7 @@
 #define MODIF 1 
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepAlgo_BooleanOperation.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
@@ -28,7 +28,7 @@
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>

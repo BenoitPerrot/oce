@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 #include <TopOpeBRep_PointClassifier.hxx>
 #include <TopOpeBRep_VPointInterClassifier.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
@@ -30,7 +30,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 //modified by NIZHNY-MKK  Fri Jun 16 15:04:09 2000.END
 
 

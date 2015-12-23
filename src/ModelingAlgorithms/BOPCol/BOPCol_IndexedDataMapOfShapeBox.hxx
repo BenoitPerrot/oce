@@ -15,7 +15,7 @@
 #ifndef BOPCol_IndexedDataMapOfShapeBox_HeaderFile
 #define BOPCol_IndexedDataMapOfShapeBox_HeaderFile
 
-#include <TopoDS_Shape.hxx>  
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 

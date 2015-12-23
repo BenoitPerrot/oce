@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepShape_TopologicalRepresentationItem.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
 #include <StepToTopoDS_DataMapIteratorOfDataMapOfTRI.hxx>
@@ -17,7 +17,7 @@
 #define TheKey Handle(StepShape_TopologicalRepresentationItem)
 #define TheKey_hxx <StepShape_TopologicalRepresentationItem.hxx>
 #define TheItem TopoDS_Shape
-#define TheItem_hxx <TopoDS_Shape.hxx>
+#define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfDataMapOfTRI

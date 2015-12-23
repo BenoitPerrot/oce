@@ -5,14 +5,14 @@
 
 #include <TopTools_MapOfOrientedShape.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_OrientedShapeMapHasher.hxx>
 #include <TopTools_StdMapNodeOfMapOfOrientedShape.hxx>
 #include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
 #define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_StdMapNode TopTools_StdMapNodeOfMapOfOrientedShape

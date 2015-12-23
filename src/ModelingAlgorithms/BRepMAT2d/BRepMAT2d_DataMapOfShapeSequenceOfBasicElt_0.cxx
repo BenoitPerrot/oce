@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <MAT_SequenceOfBasicElt.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepMAT2d_DataMapNodeOfDataMapOfShapeSequenceOfBasicElt.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem MAT_SequenceOfBasicElt
 #define TheItem_hxx <MAT_SequenceOfBasicElt.hxx>
 #define Hasher TopTools_ShapeMapHasher

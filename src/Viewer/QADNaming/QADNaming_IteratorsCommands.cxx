@@ -23,7 +23,7 @@
 #include <TNaming_OldShapeIterator.hxx>
 #include <TNaming_SameShapeIterator.hxx>
 #include <TNaming_Tool.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>

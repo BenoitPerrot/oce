@@ -21,7 +21,7 @@
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 #include <StdPrs_Vertex.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 
 // Computes the wireframe presentation of surfaces

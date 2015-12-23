@@ -35,7 +35,7 @@
 #include <TNaming_MapIteratorOfMapOfNamedShape.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TNaming_Selector.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_LabelMap.hxx>

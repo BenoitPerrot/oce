@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ShapeExtend_MsgRegistrator.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(ShapeProcess_ShapeContext,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeProcess_ShapeContext)
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

@@ -14,7 +14,7 @@
 
 #include <BRepClass_FaceExplorer.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepClass_FaceClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

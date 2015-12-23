@@ -23,13 +23,13 @@
 //                be present if file is in DOS coding)
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_LocationSet.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopTools_ShapeSet.hxx>
 
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <locale.h>
 #include <string.h>
 

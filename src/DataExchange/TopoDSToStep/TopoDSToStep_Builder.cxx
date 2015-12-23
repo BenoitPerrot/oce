@@ -16,7 +16,7 @@
 
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDSToStep_Builder.hxx>
@@ -31,9 +31,9 @@
 #include <StepShape_OpenShell.hxx>
 #include <StepShape_FaceSurface.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

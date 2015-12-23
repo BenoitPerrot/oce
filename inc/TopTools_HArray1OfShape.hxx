@@ -69,7 +69,7 @@ private:
 };
 
 #define ItemHArray1 TopoDS_Shape
-#define ItemHArray1_hxx <TopoDS_Shape.hxx>
+#define ItemHArray1_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheArray1 TopTools_Array1OfShape
 #define TheArray1_hxx <TopTools_Array1OfShape.hxx>
 #define TCollection_HArray1 TopTools_HArray1OfShape

@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Builder.hxx>
-#include <TopoDS_ListOfShape.hxx>
-#include <TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Builder.hxx>
+#include <ModelingData/TopoDS/TopoDS_ListOfShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopoDS_TShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

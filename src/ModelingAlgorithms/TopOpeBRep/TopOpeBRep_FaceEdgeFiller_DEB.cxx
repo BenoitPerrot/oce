@@ -21,7 +21,7 @@
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

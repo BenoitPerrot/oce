@@ -26,11 +26,11 @@
 //szv#9:PRO19565:04Oct99 missing location for standalone vertices corrected
 
 #include <IGESToBRep_CurveAndSurface.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <IGESGeom_Point.hxx>
 #include <IGESGeom_CompositeCurve.hxx>
 #include <IGESGeom_OffsetCurve.hxx>
@@ -101,13 +101,13 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <stdio.h>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

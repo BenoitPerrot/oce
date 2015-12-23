@@ -19,7 +19,7 @@
 
 #include <TestTopOpe_VarsTopo.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRep_define.hxx>
 #include <TopOpeBRepBuild_define.hxx>

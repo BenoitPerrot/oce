@@ -26,18 +26,18 @@
 //-- To printf on NT
 #include <stdio.h>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <IntCurvesFace_Intersector.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

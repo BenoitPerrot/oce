@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPCol_MapOfShape.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_BaseAllocator.hxx>

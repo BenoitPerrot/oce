@@ -13,12 +13,12 @@
 #include <BRepPrim_Builder.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepPrim_Direction.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;

@@ -13,17 +13,17 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_FClass2d.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <GeomAPI_ProjectPointOnSurf.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <IntTools_SurfaceRangeLocalizeData.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Geom2dHatch_Hatcher.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <IntTools_Curve.hxx>
 #include <IntTools_Context.hxx>
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>

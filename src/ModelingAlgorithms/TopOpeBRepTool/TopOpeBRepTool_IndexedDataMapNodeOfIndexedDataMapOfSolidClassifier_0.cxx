@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepTool_IndexedDataMapOfSolidClassifier.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolid
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem BRepClass3d_SolidClassifier
 #define TheItem_hxx <BRepClass3d_SolidClassifier.hxx>
 #define Hasher TopTools_ShapeMapHasher

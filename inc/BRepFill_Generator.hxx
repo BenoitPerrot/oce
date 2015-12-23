@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_SequenceOfShape.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 class TopoDS_Wire;
 class TopoDS_Shell;

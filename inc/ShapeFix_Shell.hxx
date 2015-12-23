@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_Shell.hxx>
 
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ShapeFix_Face.hxx>
 #include <ShapeFix_Root.hxx>

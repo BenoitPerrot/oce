@@ -11,7 +11,7 @@
 #include <Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceShape.hxx>
 
 #include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepDS_Interference;
@@ -56,7 +56,7 @@ private:
 #define TheKey Handle(TopOpeBRepDS_Interference)
 #define TheKey_hxx <TopOpeBRepDS_Interference.hxx>
 #define TheItem TopoDS_Shape
-#define TheItem_hxx <TopoDS_Shape.hxx>
+#define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceShape

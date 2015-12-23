@@ -19,15 +19,15 @@
 #include <BOPDS_DS.hxx>
 #include <BOPAlgo_SectionAttribute.hxx>
 #include <BOPDS_PaveBlock.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BOPDS_Curve.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <BOPCol_NCVector.hxx>

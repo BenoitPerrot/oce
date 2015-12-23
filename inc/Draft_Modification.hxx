@@ -14,9 +14,9 @@
 #include <Draft_DataMapOfEdgeEdgeInfo.hxx>
 #include <Draft_DataMapOfVertexVertexInfo.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draft_ErrorStatus.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>

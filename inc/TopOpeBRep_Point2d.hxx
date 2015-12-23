@@ -12,7 +12,7 @@
 
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

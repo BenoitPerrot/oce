@@ -18,7 +18,7 @@
 
 #include <SWDRAW.hxx>
 #include <DBRep.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeProcessAPI_ApplySequence.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
 #include <stdio.h>

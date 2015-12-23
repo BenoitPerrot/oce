@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Label.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_DataMapNodeOfDataMapOfShapeLabel)
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TDF_Label
 #define TheItem_hxx <TDF_Label.hxx>
 #define Hasher TopTools_ShapeMapHasher

@@ -16,7 +16,7 @@
 
 #include <TDF_Label.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_Revol.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 
@@ -25,8 +25,8 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

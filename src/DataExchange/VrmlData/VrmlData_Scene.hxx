@@ -21,7 +21,7 @@
 #include <VrmlData_ErrorStatus.hxx>
 #include <VrmlData_Geometry.hxx>
 #include <VrmlData_WorldInfo.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

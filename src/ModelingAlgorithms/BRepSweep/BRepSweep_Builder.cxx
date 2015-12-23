@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepSweep_Builder.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : BRepSweep_Builder

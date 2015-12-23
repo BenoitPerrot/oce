@@ -13,8 +13,8 @@
 
 //:r5 abv 06.04.99: ec_turbine-A.stp, #4313: protect against null curve
 //    abv 09.04.99  S4136: add parameter preci (to eliminate BRepAPI::Precision)
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeFix_EdgeProjAux.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <ShapeAnalysis.hxx>

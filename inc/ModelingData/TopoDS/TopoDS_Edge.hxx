@@ -3,32 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TopoDS_Shell_HeaderFile
-#define _TopoDS_Shell_HeaderFile
+#ifndef _TopoDS_Edge_HeaderFile
+#define _TopoDS_Edge_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 
-//! Describes a shell which
-//! - references an underlying shell with the potential to
+//! Describes an edge which
+//! - references an underlying edge with the potential to
 //! be given a location and an orientation
-//! - has a location for the underlying shell, giving its
+//! - has a location for the underlying edge, giving its
 //! placement in the local coordinate system
-//! - has an orientation for the underlying shell, in terms
-//! of its geometry (as opposed to orientation in relation to other shapes).
-class TopoDS_Shell  : public TopoDS_Shape
+//! - has an orientation for the underlying edge, in terms
+//! of its geometry (as opposed to orientation in
+//! relation to other shapes).
+class TopoDS_Edge  : public TopoDS_Shape
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  //! Constructs an Undefined Shell.
-    TopoDS_Shell();
+  //! Undefined Edge.
+    TopoDS_Edge();
 
 
 
@@ -48,10 +49,10 @@ private:
 };
 
 
-#include <TopoDS_Shell.lxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.lxx>
 
 
 
 
 
-#endif // _TopoDS_Shell_HeaderFile
+#endif // _TopoDS_Edge_HeaderFile

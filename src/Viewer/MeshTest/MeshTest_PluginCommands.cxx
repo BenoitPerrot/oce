@@ -34,7 +34,7 @@
 #include <BRepGProp.hxx>
 #include <DrawTrSurf.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <MeshTest_CheckTopology.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
@@ -43,7 +43,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepMesh_Edge.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 

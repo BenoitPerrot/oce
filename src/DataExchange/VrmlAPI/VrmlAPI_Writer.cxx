@@ -16,11 +16,11 @@
 #include <VrmlConverter_Projector.hxx>
 #include <Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <VrmlAPI_Writer.hxx>
 #include <Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <VrmlConverter_IsoAspect.hxx>

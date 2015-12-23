@@ -13,8 +13,8 @@
 // commercial license or contractual agreement.
 
 #include <BOPAlgo_WireEdgeSet.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BOPAlgo_WireSplitter.hxx>
 
 #include <Precision.hxx>
@@ -37,10 +37,10 @@
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

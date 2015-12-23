@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <TNaming_TranslateTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(TNaming_TranslateTool)
 IMPLEMENT_DOWNCAST(TNaming_TranslateTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TNaming_TranslateTool)
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
 #include <ModelingData/BRep/BRep_ListOfPointRepresentation.hxx>

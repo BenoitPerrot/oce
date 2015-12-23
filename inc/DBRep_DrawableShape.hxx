@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DBRep_DrawableShape.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep_ListOfEdge.hxx>
 #include <DBRep_ListOfFace.hxx>
 #include <DBRep_ListOfHideData.hxx>

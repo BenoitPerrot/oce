@@ -16,8 +16,8 @@
 #ifndef _FILLETALGO_H_
 #define _FILLETALGO_H_
 
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

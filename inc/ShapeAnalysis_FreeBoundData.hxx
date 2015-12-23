@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAnalysis_FreeBoundData.hxx>
 
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>

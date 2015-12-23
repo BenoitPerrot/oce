@@ -20,7 +20,7 @@
 #include <StdPrs_HLRShape.hxx>
 #include <StdPrs_HLRToolShape.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 //=======================================================================

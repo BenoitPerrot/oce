@@ -33,7 +33,7 @@
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : isTriangulated

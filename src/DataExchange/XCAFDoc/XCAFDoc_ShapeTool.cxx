@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <TDF_Attribute.hxx>
@@ -57,9 +57,9 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <TNaming_Tool.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <XCAFDoc_Location.hxx>
 

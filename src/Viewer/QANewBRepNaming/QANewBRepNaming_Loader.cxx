@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <BRepBuilderAPI_MakeShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TDF_Label.hxx>
@@ -35,7 +35,7 @@
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <TDataStd_Name.hxx>

@@ -6,7 +6,7 @@
 #include <ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TColStd_ListOfReal
 #define TheItem_hxx <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #define Hasher TopTools_ShapeMapHasher

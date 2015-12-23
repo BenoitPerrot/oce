@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRepTool_IndexedDataMapNodeOfIndexedDataMapOfSolidClassifier.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -60,7 +60,7 @@ private:
 };
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem BRepClass3d_SolidClassifier
 #define TheItem_hxx <BRepClass3d_SolidClassifier.hxx>
 #define Hasher TopTools_ShapeMapHasher

@@ -19,7 +19,7 @@
 #include <SWDRAW.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <ShapeExtend_Explorer.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 
 static Standard_Integer sortcompound (Draw_Interpretor& di, Standard_Integer argc, const char** argv)

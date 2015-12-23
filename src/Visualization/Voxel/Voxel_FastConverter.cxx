@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>
 #include <Voxel_ROctBoolDS.hxx>
@@ -25,8 +25,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepBndLib.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>

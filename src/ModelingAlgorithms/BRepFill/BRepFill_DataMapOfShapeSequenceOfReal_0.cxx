@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepFill_DataMapNodeOfDataMapOfShapeSequenceOfReal.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TColStd_SequenceOfReal
 #define TheItem_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define Hasher TopTools_ShapeMapHasher

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Draw_Text3D.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Draw_Display.hxx>
@@ -32,9 +32,9 @@ IMPLEMENT_DOWNCAST(BOPTest_DrawableShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <stdio.h>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
@@ -52,10 +52,10 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <Draw_Color.hxx>
 #include <Draw_Segment3D.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Draw_Circle3D.hxx>
@@ -64,9 +64,9 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <Draw_Color.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 //=======================================================================
 //function : 

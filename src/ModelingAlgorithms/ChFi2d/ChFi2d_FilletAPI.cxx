@@ -15,8 +15,8 @@
 
 #include <ChFi2d_FilletAPI.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 // An empty constructor of the fillet algorithm.
 // Call a method Init() to initialize the algorithm

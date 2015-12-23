@@ -17,7 +17,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Bisector_Bisec.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepFill_TrimEdgeTool.hxx>
@@ -33,7 +33,7 @@
 #include <Geom2dInt_GInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Precision.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>

@@ -18,7 +18,7 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 #include <TopOpeBRepDS_Curve.hxx>

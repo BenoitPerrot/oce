@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ShapeUpgrade_ClosedEdgeDivide.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ClosedEdgeDivide)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ClosedEdgeDivide)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ClosedEdgeDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedEdgeDivide)
 #include <ShapeAnalysis_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

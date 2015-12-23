@@ -17,7 +17,7 @@
 #include <TNaming_NamedShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_NamingTool.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NewShapeIterator.hxx> 

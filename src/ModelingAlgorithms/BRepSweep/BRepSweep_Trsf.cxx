@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <BRepSweep_Trsf.hxx>
@@ -25,9 +25,9 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepLProp/BRepLProp.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>

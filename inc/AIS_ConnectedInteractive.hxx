@@ -11,7 +11,7 @@
 #include <Handle_AIS_ConnectedInteractive.hxx>
 
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
 #include <AIS_KindOfInteractive.hxx>

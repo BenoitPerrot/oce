@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_LocationLaw.hxx>
 
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_GeomFill_HArray1OfLocationLaw.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
 
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -60,7 +60,7 @@ private:
 };
 
 #define TheKey TopoDS_Vertex
-#define TheKey_hxx <TopoDS_Vertex.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem ChFiDS_ListOfStripe
 #define TheItem_hxx <ChFiDS_ListOfStripe.hxx>
 #define Hasher TopTools_ShapeMapHasher

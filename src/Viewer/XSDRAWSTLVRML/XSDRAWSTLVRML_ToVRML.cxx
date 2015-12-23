@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XSDRAWSTLVRML_ToVRML.hxx>
 
 #include <Foundation/Standard/Standard_Stream.hxx>
@@ -23,8 +23,8 @@
 #include <BRepMesh_DiscretFactory.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-20-1998
 

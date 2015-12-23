@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_TShape.hxx>
-#include <TopoDS_TCompound.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TCompound.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopoDS_TCompound)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

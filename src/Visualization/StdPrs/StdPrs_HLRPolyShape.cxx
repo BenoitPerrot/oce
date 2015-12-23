@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Prs3d_Presentation.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_Projector.hxx>
 #include <StdPrs_HLRPolyShape.hxx>

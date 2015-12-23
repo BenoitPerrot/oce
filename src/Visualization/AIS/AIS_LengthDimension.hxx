@@ -30,8 +30,8 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 class TopoDS_Face;

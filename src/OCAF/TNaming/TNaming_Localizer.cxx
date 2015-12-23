@@ -16,7 +16,7 @@
 
 #include <TNaming_UsedShapes.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TDF_Label.hxx>
 #include <TopTools_ListOfShape.hxx>
@@ -38,7 +38,7 @@
 #include <TNaming_ListOfNamedShape.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>

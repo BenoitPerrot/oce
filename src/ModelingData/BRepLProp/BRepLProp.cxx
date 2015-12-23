@@ -20,7 +20,7 @@
 #include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 //=======================================================================

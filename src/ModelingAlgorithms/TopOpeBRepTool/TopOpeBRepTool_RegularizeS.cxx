@@ -20,7 +20,7 @@
 
 #include <TopOpeBRepTool_REGUS.hxx>
 #include <TopOpeBRepTool.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepTool_define.hxx>
 

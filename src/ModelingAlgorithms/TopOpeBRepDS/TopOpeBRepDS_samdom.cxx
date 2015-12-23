@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_samdom.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <TopOpeBRepDS_define.hxx>
 
 static TopTools_IndexedDataMapOfShapeListOfShape *Gps1 = NULL; 

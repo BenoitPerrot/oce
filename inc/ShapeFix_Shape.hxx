@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeFix_Shape.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Handle_ShapeFix_Solid.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

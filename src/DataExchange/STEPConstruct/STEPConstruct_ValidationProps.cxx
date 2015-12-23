@@ -16,7 +16,7 @@
 
 #include <StepBasic_ProductDefinition.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_RepresentationContext.hxx>
@@ -42,7 +42,7 @@
 #include <XSControl_TransferReader.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <APIHeaderSection_MakeHeader.hxx>

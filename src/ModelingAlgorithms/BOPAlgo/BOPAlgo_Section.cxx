@@ -14,16 +14,16 @@
 
 #include <BOPAlgo_PaveFiller.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPAlgo_Section.hxx>
 
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

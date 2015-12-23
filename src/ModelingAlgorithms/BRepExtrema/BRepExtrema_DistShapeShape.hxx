@@ -21,7 +21,7 @@
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>

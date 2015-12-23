@@ -15,7 +15,7 @@
 #ifndef BOPTools_DataMapOfShapeSet_HeaderFile
 #define BOPTools_DataMapOfShapeSet_HeaderFile
 
-#include <TopoDS_Shape.hxx>  
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
 #include <TopTools_ShapeMapHasher.hxx>
   
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

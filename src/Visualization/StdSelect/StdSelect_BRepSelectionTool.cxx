@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <SelectMgr_Selection.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <Select3D_SensitiveEntity.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Select3D_ListOfSensitive.hxx>
 #include <StdSelect_BRepSelectionTool.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
@@ -30,7 +30,7 @@
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Select3D_SensitivePoint.hxx>
 #include <StdSelect_BRepOwner.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
@@ -59,7 +59,7 @@
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>

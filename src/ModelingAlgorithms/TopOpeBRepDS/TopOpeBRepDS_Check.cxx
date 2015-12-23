@@ -44,9 +44,9 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Check)
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <string.h>
 #include <TopOpeBRepDS_DataMapOfCheckStatus.hxx>

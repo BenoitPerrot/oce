@@ -16,9 +16,9 @@
 
 #include <StepShape_ManifoldSolidBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <TopoDSToStep_MakeManifoldSolidBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <TopoDSToStep.hxx>

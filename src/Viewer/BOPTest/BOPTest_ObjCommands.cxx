@@ -18,8 +18,8 @@
 #include <Draw_Interpretor.hxx>
 #include <DBRep.hxx>
 //
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //
 #include <TopTools_ListOfShape.hxx>
 //

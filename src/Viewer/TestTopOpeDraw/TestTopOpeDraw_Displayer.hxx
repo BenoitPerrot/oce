@@ -18,8 +18,8 @@
 #define _TestTopOpeDraw_Displayer_HeaderFile
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

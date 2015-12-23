@@ -15,7 +15,7 @@
 #ifndef BOPCol_DataMapOfShapeListOfShape_HeaderFile
 #define BOPCol_DataMapOfShapeListOfShape_HeaderFile
 
-#include <TopoDS_Shape.hxx>  
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BOPCol_ListOfShape.hxx>
 

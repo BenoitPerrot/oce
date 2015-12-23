@@ -20,7 +20,7 @@
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_TranslateShell.hxx>
 
 #include <StepToTopoDS_TranslateFace.hxx>
@@ -28,9 +28,9 @@
 #include <StepShape_FaceSurface.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Transfer_TransientProcess.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>

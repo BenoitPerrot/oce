@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <TopTools_SequenceOfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XSControl_Reader.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>
@@ -26,7 +26,7 @@
 #include <IFSelect_Functions.hxx>
 
 #include <ShapeExtend_Explorer.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Transfer_TransientProcess.hxx>

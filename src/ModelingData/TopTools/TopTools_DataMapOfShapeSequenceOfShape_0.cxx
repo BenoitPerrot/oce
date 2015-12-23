@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopTools_DataMapNodeOfDataMapOfShapeSequenceOfShape.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopTools_SequenceOfShape
 #define TheItem_hxx <TopTools_SequenceOfShape.hxx>
 #define Hasher TopTools_ShapeMapHasher

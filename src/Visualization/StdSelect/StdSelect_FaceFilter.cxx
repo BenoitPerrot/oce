@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_TYPE_END(StdSelect_FaceFilter)
 IMPLEMENT_DOWNCAST(StdSelect_FaceFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_FaceFilter)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <StdSelect_BRepOwner.hxx>
 /*#include <.hxx>

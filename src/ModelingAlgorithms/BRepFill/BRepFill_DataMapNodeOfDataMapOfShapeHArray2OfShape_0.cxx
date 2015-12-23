@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <TopTools_HArray2OfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <BRepFill_DataMapIteratorOfDataMapOfShapeHArray2OfShape.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape)
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Handle(TopTools_HArray2OfShape)
 #define TheItem_hxx <TopTools_HArray2OfShape.hxx>
 #define Hasher TopTools_ShapeMapHasher

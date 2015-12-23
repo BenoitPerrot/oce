@@ -17,7 +17,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draft_FaceInfo.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 

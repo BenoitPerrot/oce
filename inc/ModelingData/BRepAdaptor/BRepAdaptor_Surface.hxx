@@ -12,7 +12,7 @@
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

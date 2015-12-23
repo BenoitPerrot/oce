@@ -16,8 +16,8 @@
 
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepCheck_Edge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Edge)
@@ -72,9 +72,9 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 
 #include <BRepCheck.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Precision.hxx>
 
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>

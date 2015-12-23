@@ -17,11 +17,11 @@
 // Modified by cma, Fri Nov 10 17:36:13 1995
 
 #include <HLRBRep_PolyAlgo.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRBRep_PolyHLRToShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeEdge2d.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <HLRBRep_BiPnt2D.hxx>

@@ -21,8 +21,8 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ShapeConstruct.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -56,7 +56,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : ConvertCurveToBSpline

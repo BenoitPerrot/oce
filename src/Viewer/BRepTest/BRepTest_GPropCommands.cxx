@@ -20,7 +20,7 @@
 #include <Draw_Appli.hxx>
 #include <DBRep.hxx>
 #include <BRepGProp.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/GProp/GProp_PrincipalProps.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>

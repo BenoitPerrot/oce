@@ -21,11 +21,11 @@
 #include <IntPatch_GLine.hxx>
 #include <TopOpeBRep_HArray1OfVPointInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRep_Bipoint.hxx>

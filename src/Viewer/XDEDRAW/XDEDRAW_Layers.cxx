@@ -21,7 +21,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

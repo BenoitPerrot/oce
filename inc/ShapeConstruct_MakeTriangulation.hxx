@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColgp_Array1OfPnt;

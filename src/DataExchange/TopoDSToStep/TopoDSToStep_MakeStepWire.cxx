@@ -18,7 +18,7 @@
 
 #include <StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TopoDSToStep_MakeStepWire.hxx>
@@ -30,7 +30,7 @@
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
@@ -41,7 +41,7 @@
 
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <StepShape_VertexPoint.hxx>
 #include <StepShape_Edge.hxx>

@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_Context.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfCommonPrts.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

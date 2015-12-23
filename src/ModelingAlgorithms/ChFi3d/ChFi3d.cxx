@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ChFi3d.hxx>
 #include <ChFi3d_Builder_0.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
@@ -29,7 +29,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 
 //=======================================================================

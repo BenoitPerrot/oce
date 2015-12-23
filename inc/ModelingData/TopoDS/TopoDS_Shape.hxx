@@ -236,7 +236,7 @@ private:
 };
 
 
-#include <TopoDS_Shape.lxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.lxx>
 
 
 

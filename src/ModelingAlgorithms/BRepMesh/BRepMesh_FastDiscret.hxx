@@ -34,7 +34,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepMesh_ShapeTool.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 
 class BRepMesh_DataStructureOfDelaun;

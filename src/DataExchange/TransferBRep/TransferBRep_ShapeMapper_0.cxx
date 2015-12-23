@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TransferBRep_ShapeInfo.hxx>
 #include <Transfer_Finder.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TransferBRep_ShapeMapper)
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheHasher TopTools_ShapeMapHasher
 #define TheHasher_hxx <TopTools_ShapeMapHasher.hxx>
 #define TheInfo TransferBRep_ShapeInfo

@@ -18,7 +18,7 @@
 
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <AIS_BadEdgeFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_BadEdgeFilter)

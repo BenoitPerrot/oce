@@ -21,7 +21,7 @@
 #include <TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <TDataStd_UAttribute.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepBuilderAPI_MakeShape.hxx>
 #include <TNaming_Builder.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
@@ -60,8 +60,8 @@
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <TDF_Reference.hxx>
 #include <TDataStd_TreeNode.hxx>
@@ -69,7 +69,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

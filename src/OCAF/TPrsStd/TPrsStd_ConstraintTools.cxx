@@ -20,7 +20,7 @@
 #include <TDataXtd_Constraint.hxx>
 #include <AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <TPrsStd_ConstraintTools.hxx>
 
@@ -58,11 +58,11 @@
 #include <AIS_MinRadiusDimension.hxx> 
 #include <AIS_MaxRadiusDimension.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

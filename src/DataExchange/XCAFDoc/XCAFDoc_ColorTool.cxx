@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <TDF_LabelSequence.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <XCAFDoc_ColorTool.hxx>

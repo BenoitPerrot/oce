@@ -20,7 +20,7 @@
 #include <QANewBRepNaming_Loader.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #ifdef OCCT_DEBUG
 #include <TDataStd_Name.hxx>

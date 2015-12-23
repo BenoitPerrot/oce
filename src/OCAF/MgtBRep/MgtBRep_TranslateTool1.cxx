@@ -30,7 +30,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <PGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <PTopoDS_Shape1.hxx>
 #include <MgtBRep_TranslateTool1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool1)
 #include <MgtGeom2d.hxx>
 #include <MgtPoly.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_ShapeExtend_WireData.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

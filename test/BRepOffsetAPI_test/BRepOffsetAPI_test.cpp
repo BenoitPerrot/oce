@@ -4,7 +4,7 @@
 #include <BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <GeomAbs_JoinType.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <gtest/gtest.h>
 
 TEST(BRepOffsetAPITestSuite, testEvolvedShape)

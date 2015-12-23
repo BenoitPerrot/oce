@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PTopoDS_HShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <MgtTopoDS_TranslateTool.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
@@ -29,9 +29,9 @@
 #include <PTopoDS_Shape1.hxx>
 #include <PTopoDS_TShape1.hxx>
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_TShape.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <PTopoDS_HArray1OfHShape.hxx>
 #include <PTopoDS_HArray1OfShape1.hxx>

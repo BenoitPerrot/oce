@@ -16,7 +16,7 @@
 
 #include <TNaming_NamedShape.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Localizer.hxx>
 #include <TNaming_Identifier.hxx>
 #include <TNaming_Localizer.hxx>

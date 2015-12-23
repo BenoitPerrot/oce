@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>

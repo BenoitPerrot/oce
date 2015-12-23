@@ -19,7 +19,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XSControl_Vars.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_Vars)
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(XSControl_Vars,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_Vars)
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
-#include <TopoDS_HShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 
 #include <Interface_Macros.hxx>
 

@@ -92,7 +92,7 @@ private:
 };
 
 #define Item TopoDS_Shape
-#define Item_hxx <TopoDS_Shape.hxx>
+#define Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheSequence TopTools_SequenceOfShape
 #define TheSequence_hxx <TopTools_SequenceOfShape.hxx>
 #define TCollection_HSequence TopTools_HSequenceOfShape

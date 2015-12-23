@@ -11,7 +11,7 @@
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_BRepAdaptor_HCurve2d.hxx>
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>

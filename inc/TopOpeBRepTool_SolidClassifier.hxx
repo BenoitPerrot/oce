@@ -13,8 +13,8 @@
 #include <TopOpeBRepTool_PSoClassif.hxx>
 #include <TopTools_IndexedDataMapOfShapeAddress.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Solid;

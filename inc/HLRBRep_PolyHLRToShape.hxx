@@ -13,7 +13,7 @@
 #include <Handle_HLRBRep_PolyAlgo.hxx>
 #include <HLRBRep_ListOfBPnt2D.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class HLRBRep_PolyAlgo;
 class TopoDS_Shape;

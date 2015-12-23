@@ -6,7 +6,7 @@
 #include <Draft_DataMapIteratorOfDataMapOfFaceFaceInfo.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draft_FaceInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Draft_DataMapOfFaceFaceInfo.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey TopoDS_Face
-#define TheKey_hxx <TopoDS_Face.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Face.hxx>
 #define TheItem Draft_FaceInfo
 #define TheItem_hxx <Draft_FaceInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

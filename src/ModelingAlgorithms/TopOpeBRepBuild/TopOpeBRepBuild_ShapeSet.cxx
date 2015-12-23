@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRepBuild_ShapeSet.hxx>
@@ -28,7 +28,7 @@
 #include <DBRep_DrawableShape.hxx>
 #include <TestTopOpeDraw_DrawableSHA.hxx>
 #include <TestTopOpeDraw_TTOT.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 static TCollection_AsciiString PRODINS("dins ");
 #endif

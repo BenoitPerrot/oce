@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeProcess_ShapeContext.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <Handle_ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

@@ -33,7 +33,7 @@
 #include <StepShape_EdgeBasedWireframeModel.hxx>
 #include <StepShape_FaceBasedSurfaceModel.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_Builder.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -72,11 +72,11 @@
 #include <BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
@@ -87,7 +87,7 @@
 #include <StepShape_HArray1OfConnectedEdgeSet.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 #include <StepShape_HArray1OfEdge.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <StepShape_HArray1OfConnectedFaceSet.hxx>
 #include <StepToTopoDS_TranslateFace.hxx>
 #include <StepShape_HArray1OfFace.hxx>

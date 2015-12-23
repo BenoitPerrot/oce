@@ -21,9 +21,9 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TNaming_Tool.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_MapOfShape.hxx>
 //=======================================================================

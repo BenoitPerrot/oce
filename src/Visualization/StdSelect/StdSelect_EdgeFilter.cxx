@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_TYPE_END(StdSelect_EdgeFilter)
 IMPLEMENT_DOWNCAST(StdSelect_EdgeFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_EdgeFilter)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <StdSelect_BRepOwner.hxx>
 /*#include <.hxx>

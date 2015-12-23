@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_UsedShapes)
 #define BUC60862
 
 #ifdef BUC60862
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #endif
 
 #define BUC60921      //SRN 15/05/01 : Fixes the memory leak due to pointer to RefShape is not deleted

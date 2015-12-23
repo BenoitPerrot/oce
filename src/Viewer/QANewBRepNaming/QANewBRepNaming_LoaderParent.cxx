@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <QANewBRepNaming_LoaderParent.hxx>
@@ -32,7 +32,7 @@
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>
 #include <TDataStd_Name.hxx>
 #include <TNaming_NamedShape.hxx>

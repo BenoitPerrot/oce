@@ -3,39 +3,39 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TopoDS_TShell_HeaderFile
-#define _TopoDS_TShell_HeaderFile
+#ifndef _TopoDS_TCompSolid_HeaderFile
+#define _TopoDS_TCompSolid_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopoDS_TShell.hxx>
+#include <Handle_TopoDS_TCompSolid.hxx>
 
-#include <TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 class TopoDS_TShape;
 
 
-//! A set of faces connected by their edges.
-class TopoDS_TShell : public TopoDS_TShape
+//! A set of solids connected by their faces.
+class TopoDS_TCompSolid : public TopoDS_TShape
 {
 
 public:
 
   
-  //! Creates an empty TShell.
-    TopoDS_TShell();
+  //! Creates an empty TCompSolid.
+    TopoDS_TCompSolid();
   
-  //! Returns SHELL.
+  //! returns COMPSOLID
   Standard_EXPORT   TopAbs_ShapeEnum ShapeType()  const;
   
-  //! Returns an empty TShell.
+  //! Returns an empty TCompSolid.
   Standard_EXPORT   Handle(TopoDS_TShape) EmptyCopy()  const;
 
 
 
 
-  DEFINE_STANDARD_RTTI(TopoDS_TShell)
+  DEFINE_STANDARD_RTTI(TopoDS_TCompSolid)
 
 protected:
 
@@ -50,10 +50,10 @@ private:
 };
 
 
-#include <TopoDS_TShell.lxx>
+#include <ModelingData/TopoDS/TopoDS_TCompSolid.lxx>
 
 
 
 
 
-#endif // _TopoDS_TShell_HeaderFile
+#endif // _TopoDS_TCompSolid_HeaderFile

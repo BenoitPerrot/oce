@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_TVertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_TVertex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopoDS_TVertex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

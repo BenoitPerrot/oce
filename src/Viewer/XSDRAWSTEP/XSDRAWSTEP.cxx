@@ -43,7 +43,7 @@
 #include <XSControl_WorkSession.hxx>
 #include <StepData_StepModel.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 // steptrans
 #include <StepToTopoDS_MakeTransformed.hxx>

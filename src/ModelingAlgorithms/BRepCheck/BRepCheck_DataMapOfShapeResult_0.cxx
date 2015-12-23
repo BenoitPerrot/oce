@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepCheck_Result.hxx>
 #include <TopTools_OrientedShapeMapHasher.hxx>
 #include <BRepCheck_DataMapNodeOfDataMapOfShapeResult.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Handle(BRepCheck_Result)
 #define TheItem_hxx <BRepCheck_Result.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher

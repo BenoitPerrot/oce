@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>
 #include <BOPCol_BaseAllocator.hxx>

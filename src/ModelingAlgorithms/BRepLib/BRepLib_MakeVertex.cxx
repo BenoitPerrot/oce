@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : BRepLib_MakeVertex

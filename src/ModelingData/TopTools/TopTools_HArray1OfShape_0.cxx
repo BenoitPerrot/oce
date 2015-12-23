@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_Array1OfShape.hxx>
 
  
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(TopTools_HArray1OfShape)
 
 
 #define ItemHArray1 TopoDS_Shape
-#define ItemHArray1_hxx <TopoDS_Shape.hxx>
+#define ItemHArray1_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheArray1 TopTools_Array1OfShape
 #define TheArray1_hxx <TopTools_Array1OfShape.hxx>
 #define TCollection_HArray1 TopTools_HArray1OfShape

@@ -20,10 +20,10 @@
 #include <ChFiDS_SurfData.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

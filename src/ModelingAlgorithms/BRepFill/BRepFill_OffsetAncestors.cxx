@@ -16,12 +16,12 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <BRepFill_OffsetWire.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepFill_OffsetAncestors.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 //=======================================================================

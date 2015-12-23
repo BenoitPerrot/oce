@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <MeshTest_DrawableMesh.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Draw.hxx>
 #include <Draw_ColorKind.hxx>
 #include <Draw_Color.hxx>

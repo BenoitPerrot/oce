@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Draft_VertexInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Draft_DataMapOfVertexVertexInfo.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_DataMapNodeOfDataMapOfVertexVertexInfo)
 
 
 #define TheKey TopoDS_Vertex
-#define TheKey_hxx <TopoDS_Vertex.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem Draft_VertexInfo
 #define TheItem_hxx <Draft_VertexInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

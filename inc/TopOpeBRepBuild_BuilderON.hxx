@@ -14,7 +14,7 @@
 #include <TopOpeBRepBuild_PGTopo.hxx>
 #include <TopOpeBRepTool_Plos.hxx>
 #include <TopOpeBRepBuild_PWireEdgeSet.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>

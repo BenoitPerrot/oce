@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopoDS_ListNodeOfListOfShape.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
@@ -48,15 +48,15 @@ private:
 };
 
 #define Item TopoDS_Shape
-#define Item_hxx <TopoDS_Shape.hxx>
+#define Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_ListNode TopoDS_ListNodeOfListOfShape
-#define TCollection_ListNode_hxx <TopoDS_ListNodeOfListOfShape.hxx>
+#define TCollection_ListNode_hxx <ModelingData/TopoDS/TopoDS_ListNodeOfListOfShape.hxx>
 #define TCollection_ListIterator TopoDS_ListIteratorOfListOfShape
-#define TCollection_ListIterator_hxx <TopoDS_ListIteratorOfListOfShape.hxx>
+#define TCollection_ListIterator_hxx <ModelingData/TopoDS/TopoDS_ListIteratorOfListOfShape.hxx>
 #define Handle_TCollection_ListNode Handle_TopoDS_ListNodeOfListOfShape
 #define TCollection_ListNode_Type_() TopoDS_ListNodeOfListOfShape_Type_()
 #define TCollection_List TopoDS_ListOfShape
-#define TCollection_List_hxx <TopoDS_ListOfShape.hxx>
+#define TCollection_List_hxx <ModelingData/TopoDS/TopoDS_ListOfShape.hxx>
 
 #include <Foundation/TCollection/TCollection_ListNode.lxx>
 

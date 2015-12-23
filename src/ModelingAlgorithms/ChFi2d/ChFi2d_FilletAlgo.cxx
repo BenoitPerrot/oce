@@ -23,8 +23,8 @@
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geom2dAPI_InterCurveCurve.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 
 #include <Mathematics/Primitives/gp_Circ.hxx>

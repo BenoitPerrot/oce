@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Point)
 #include <TNaming_Tool.hxx>
 #include <TNaming_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <BRepLib_MakeVertex.hxx>
 

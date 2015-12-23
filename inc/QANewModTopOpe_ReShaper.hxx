@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_QANewModTopOpe_ReShaper.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_TopTools_HSequenceOfShape.hxx>

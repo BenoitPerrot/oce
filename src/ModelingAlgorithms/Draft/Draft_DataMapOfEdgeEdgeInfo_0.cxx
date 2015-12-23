@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Draft_EdgeInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo.hxx>
@@ -15,7 +15,7 @@
  
 
 #define TheKey TopoDS_Edge
-#define TheKey_hxx <TopoDS_Edge.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #define TheItem Draft_EdgeInfo
 #define TheItem_hxx <Draft_EdgeInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

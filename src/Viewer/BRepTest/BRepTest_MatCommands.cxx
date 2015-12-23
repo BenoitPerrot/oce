@@ -48,7 +48,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 
 #include <DBRep.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

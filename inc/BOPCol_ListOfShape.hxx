@@ -16,7 +16,7 @@
 #define BOPCol_ListOfShape_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>   
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 typedef NCollection_List<TopoDS_Shape> BOPCol_ListOfShape; 
 typedef BOPCol_ListOfShape::Iterator BOPCol_ListIteratorOfListOfShape;  

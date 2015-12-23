@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepClass_Edge.hxx>
 #include <BRepClass_FacePassiveClassifier.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_CompositeClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_TopOpeBRepBuild_Loop.hxx>

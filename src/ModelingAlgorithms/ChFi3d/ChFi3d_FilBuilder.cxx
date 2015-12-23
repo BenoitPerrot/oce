@@ -17,10 +17,10 @@
 // Modified:    MPS :  (10-04-97) portage WNT pour GetFilletShape
 
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Law_Function.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <ChFiDS_SecHArray1.hxx>
 #include <ChFiDS_SurfData.hxx>

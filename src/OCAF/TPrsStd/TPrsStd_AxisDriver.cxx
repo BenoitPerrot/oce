@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_AxisDriver)
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 
 

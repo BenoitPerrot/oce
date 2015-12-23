@@ -18,7 +18,7 @@
 #include <QANewBRepNaming_Cylinder.hxx>
 #include <TNaming_Builder.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #ifdef OCCT_DEBUG
 #include <TDataStd_Name.hxx>
 #endif

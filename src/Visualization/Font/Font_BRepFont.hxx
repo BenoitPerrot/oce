@@ -28,8 +28,8 @@
 #include <Foundation/Standard/Standard_Mutex.hxx>
 #include <ShapeFix_Face.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 //! This tool provides basic services for rendering of vectorized text glyphs as BRep shapes.
 //! Single instance initialize single font for sequential glyphs rendering with implicit caching of already rendered glyphs.

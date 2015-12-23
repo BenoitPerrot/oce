@@ -18,7 +18,7 @@
 //			with a specific hilight mode
 
 #include <StdSelect_Shape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_PresentationManager.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

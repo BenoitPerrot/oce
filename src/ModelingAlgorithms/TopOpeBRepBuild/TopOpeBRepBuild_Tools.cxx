@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopOpeBRepDS_DataMapOfShapeState.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <TopTools_IndexedMapOfOrientedShape.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <TopOpeBRepBuild_Tools.hxx>
@@ -61,10 +61,10 @@
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>

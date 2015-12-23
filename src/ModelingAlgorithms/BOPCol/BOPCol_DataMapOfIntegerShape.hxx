@@ -15,7 +15,7 @@
 #ifndef BOPCol_DataMapOfIntegerShape_HeaderFile
 #define BOPCol_DataMapOfIntegerShape_HeaderFile
 
-#include <TopoDS_Shape.hxx>  
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
   
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

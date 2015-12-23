@@ -20,14 +20,14 @@
 static TCollection_AsciiString PRODINS("dins ");
 #endif
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <TopOpeBRepBuild_ShellFaceSet.hxx>
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepBuild_define.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepBuild_GettraceCHK();

@@ -16,12 +16,12 @@
 // commercial license or contractual agreement.
 
 #include <IntTools_Context.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>
 
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_MapOfShape.hxx>

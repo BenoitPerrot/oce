@@ -21,9 +21,9 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepExtrema_SupportType.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 //! This class is used to store information relative to the minimum distance between two shapes.
 class BRepExtrema_SolutionElem

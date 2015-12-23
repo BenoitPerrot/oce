@@ -6,7 +6,7 @@
 #include <TNaming_DataMapIteratorOfDataMapOfShapeShapesSet.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_ShapesSet.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TNaming_DataMapOfShapeShapesSet.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TNaming_ShapesSet
 #define TheItem_hxx <TNaming_ShapesSet.hxx>
 #define Hasher TopTools_ShapeMapHasher

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 
 //! Describes a compound which
@@ -50,7 +50,7 @@ private:
 };
 
 
-#include <TopoDS_Compound.lxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.lxx>
 
 
 

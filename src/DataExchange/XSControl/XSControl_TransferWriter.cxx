@@ -15,7 +15,7 @@
 #include <Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <XSControl_TransferWriter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

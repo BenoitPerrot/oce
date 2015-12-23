@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Color.hxx>
 #include <Draw_Display.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
@@ -44,9 +44,9 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <DBRep_ListIteratorOfListOfHideData.hxx>
 #include <DBRep_HideData.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>

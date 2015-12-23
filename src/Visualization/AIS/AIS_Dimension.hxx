@@ -37,9 +37,9 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 

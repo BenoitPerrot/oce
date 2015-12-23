@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <IntTools_Range.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -26,7 +26,7 @@
 
 #include <ElCLib.hxx>
 
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>

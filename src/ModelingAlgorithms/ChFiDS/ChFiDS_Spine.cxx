@@ -18,7 +18,7 @@
 
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ChFiDS_HElSpine.hxx>
 #include <ChFiDS_ListOfHElSpine.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -26,7 +26,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ChFiDS_Spine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_Spine)

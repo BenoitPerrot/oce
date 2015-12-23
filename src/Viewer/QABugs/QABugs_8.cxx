@@ -22,7 +22,7 @@
 #include <AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
 #include <AIS_Shape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <V3d_View.hxx>
@@ -126,7 +126,7 @@ static Standard_Integer  OCC204 (Draw_Interpretor& di, Standard_Integer argc, co
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <BRepClass3d_Intersector3d.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 static Standard_Integer OCC1651 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if ( argc != 8 ) {

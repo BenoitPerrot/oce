@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ShapeFix_FixSmallFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_FixSmallFace)
@@ -26,11 +26,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeFix_FixSmallFace)
 IMPLEMENT_DOWNCAST(ShapeFix_FixSmallFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
-#include <TopoDS.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -59,13 +59,13 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <Precision.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ElCLib.hxx>
-#include <TopoDS_Builder.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Builder.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <BRepLib.hxx>
@@ -79,8 +79,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 ShapeFix_FixSmallFace::ShapeFix_FixSmallFace()
 {

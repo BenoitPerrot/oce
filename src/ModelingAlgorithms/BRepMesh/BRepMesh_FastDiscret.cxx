@@ -57,8 +57,8 @@
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

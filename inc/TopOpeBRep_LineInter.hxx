@@ -20,9 +20,9 @@
 #include <Handle_IntPatch_GLine.hxx>
 #include <TopOpeBRep_WPointInter.hxx>
 #include <Handle_TopOpeBRep_HArray1OfVPointInter.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntSurf_TypeTrans.hxx>
 #include <IntSurf_Situation.hxx>

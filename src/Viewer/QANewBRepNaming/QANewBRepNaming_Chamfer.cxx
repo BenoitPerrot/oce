@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepFilletAPI_MakeChamfer.hxx>
 #include <QANewBRepNaming_Chamfer.hxx>
 #include <QANewBRepNaming_Loader.hxx>

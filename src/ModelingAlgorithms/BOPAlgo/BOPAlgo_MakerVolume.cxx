@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BOPAlgo_PaveFiller.hxx>
 #include <BOPAlgo_MakerVolume.hxx>
 
@@ -20,7 +20,7 @@
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(MoniTool_CaseData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MoniTool_CaseData)
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_HShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 

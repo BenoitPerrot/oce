@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <BRepFill_Filling.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepFill_EdgeFaceAndOrder.hxx>
 
 BRepFill_EdgeFaceAndOrder::BRepFill_EdgeFaceAndOrder()

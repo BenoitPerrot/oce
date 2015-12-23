@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeAnalysis_FreeBoundData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_FreeBoundData)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeAnalysis_FreeBoundData)
 IMPLEMENT_DOWNCAST(ShapeAnalysis_FreeBoundData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_FreeBoundData)
 #include <TopTools_HSequenceOfShape.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : ShapeAnalysis_FreeBoundData

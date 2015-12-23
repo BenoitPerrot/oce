@@ -37,7 +37,7 @@
 #include <XSControl.hxx>
 #include <XSControl_TransferWriter.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TransferBRep.hxx>
 #include <DBRep.hxx>
 

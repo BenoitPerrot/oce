@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopOpeBRep_Hctxff2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRep_Hctxff2d)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxff2d)
 #include <TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : TopOpeBRep_Hctxff2d

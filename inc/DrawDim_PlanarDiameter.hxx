@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DrawDim_PlanarDiameter.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DrawDim_PlanarDimension.hxx>
 class TopoDS_Face;
 class TopoDS_Shape;

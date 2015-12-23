@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Display.hxx>
 #include <DrawDim_PlanarRadius.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarRadius)
 #include <Draw_Color.hxx>
 #include <ElCLib.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 //=======================================================================
 //function : DrawDim_PlanarRadius

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 
 inline Standard_Boolean BRepProj_Projection::IsDone() const

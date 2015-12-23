@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopTools_SequenceNodeOfSequenceOfShape.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TopoDS_Shape;
@@ -47,7 +47,7 @@ private:
 };
 
 #define SeqItem TopoDS_Shape
-#define SeqItem_hxx <TopoDS_Shape.hxx>
+#define SeqItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_SequenceNode TopTools_SequenceNodeOfSequenceOfShape
 #define TCollection_SequenceNode_hxx <TopTools_SequenceNodeOfSequenceOfShape.hxx>
 #define Handle_TCollection_SequenceNode Handle_TopTools_SequenceNodeOfSequenceOfShape

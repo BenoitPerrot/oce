@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopoDS_ListNodeOfListOfShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_ListNodeOfListOfShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_ListOfShape.hxx>
-#include <TopoDS_ListIteratorOfListOfShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_ListOfShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_ListIteratorOfListOfShape.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(TopoDS_ListNodeOfListOfShape)
 
 
 #define Item TopoDS_Shape
-#define Item_hxx <TopoDS_Shape.hxx>
+#define Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_ListNode TopoDS_ListNodeOfListOfShape
-#define TCollection_ListNode_hxx <TopoDS_ListNodeOfListOfShape.hxx>
+#define TCollection_ListNode_hxx <ModelingData/TopoDS/TopoDS_ListNodeOfListOfShape.hxx>
 #define TCollection_ListIterator TopoDS_ListIteratorOfListOfShape
-#define TCollection_ListIterator_hxx <TopoDS_ListIteratorOfListOfShape.hxx>
+#define TCollection_ListIterator_hxx <ModelingData/TopoDS/TopoDS_ListIteratorOfListOfShape.hxx>
 #define Handle_TCollection_ListNode Handle_TopoDS_ListNodeOfListOfShape
 #define TCollection_ListNode_Type_() TopoDS_ListNodeOfListOfShape_Type_()
 #define TCollection_List TopoDS_ListOfShape
-#define TCollection_List_hxx <TopoDS_ListOfShape.hxx>
+#define TCollection_List_hxx <ModelingData/TopoDS/TopoDS_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

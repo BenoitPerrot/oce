@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <HLRBRep_Data.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdPrs_HLRToolShape.hxx>

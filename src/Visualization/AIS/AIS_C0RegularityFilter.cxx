@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <AIS_C0RegularityFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_C0RegularityFilter)
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <StdSelect_BRepOwner.hxx>

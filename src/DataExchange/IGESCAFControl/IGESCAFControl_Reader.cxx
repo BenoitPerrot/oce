@@ -18,7 +18,7 @@
 #include <TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESCAFControl_Reader.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <XCAFDoc_ColorTool.hxx>
@@ -31,7 +31,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <TDataStd_Name.hxx>
@@ -40,7 +40,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <XCAFDoc_ShapeMapTool.hxx>
 #include <IGESBasic_SubfigureDef.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 //=======================================================================

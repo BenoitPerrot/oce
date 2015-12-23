@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 //=======================================================================
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StlMesh_Mesh.hxx>
 #include <StlTransfer.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
@@ -38,7 +38,7 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 //function computes normals for surface
 

@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_SelectionDriver)
 IMPLEMENT_DOWNCAST(DNaming_SelectionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TFunction_Logbook.hxx>

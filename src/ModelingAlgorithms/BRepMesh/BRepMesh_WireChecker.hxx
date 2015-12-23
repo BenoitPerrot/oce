@@ -18,11 +18,11 @@
 #define _BRepMesh_WireChecker_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepMesh_Status.hxx>
 #include <BRepMesh_DataStructureOfDelaun.hxx>
 #include <BRepMesh.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_Presentation.hxx>
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepSweep_Builder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
 #include <BRepSweep_Tool.hxx>
 #include <Sweep_NumShapeTool.hxx>

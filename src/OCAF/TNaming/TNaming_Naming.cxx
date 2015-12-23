@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Name.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_Attribute.hxx>
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <TDF_Data.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_TagSource.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -70,11 +70,11 @@ IMPLEMENT_STANDARD_RTTI(TNaming_Naming)
 #include <TopTools_HArray1OfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 // #include <TNaming_NCollections.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>   
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

@@ -12,7 +12,7 @@
 
 #include <MAT2d_SequenceOfSequenceOfCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <TopTools_IndexedDataMapOfShapeShape.hxx>
 #include <Handle_Geom2d_Curve.hxx>

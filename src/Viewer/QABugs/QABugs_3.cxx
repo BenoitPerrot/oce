@@ -17,8 +17,8 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <DBRep.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -266,7 +266,7 @@ static Standard_Integer BUC60632(Draw_Interpretor& di, Standard_Integer /*n*/, c
   return 0;
 }
 
-#include<TopoDS_Wire.hxx>
+#include<ModelingData/TopoDS/TopoDS_Wire.hxx>
 
 static Standard_Integer BUC60652(Draw_Interpretor& di, Standard_Integer argc, const char ** argv )
 {
@@ -351,7 +351,7 @@ static Standard_Integer BUC60574(Draw_Interpretor& di, Standard_Integer /*n*/, c
   return 0;
 }
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
 #include <BRepPrimAPI_MakeSphere.hxx>
 
@@ -1157,7 +1157,7 @@ static int TestCMD(Draw_Interpretor& di, Standard_Integer argc, const char ** ar
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 //---------------------------------------------------------------------------------------
 

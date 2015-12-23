@@ -6,7 +6,7 @@
 #include <TopOpeBRepDS_DataMapIteratorOfShapeSurface.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepDS_ShapeSurface.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Handle(Geom_Surface)
 #define TheItem_hxx <Geometry/Geom/Geom_Surface.hxx>
 #define Hasher TopTools_ShapeMapHasher

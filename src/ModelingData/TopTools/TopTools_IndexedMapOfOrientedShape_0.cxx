@@ -7,13 +7,13 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_OrientedShapeMapHasher.hxx>
 #include <TopTools_IndexedMapNodeOfIndexedMapOfOrientedShape.hxx>
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TopTools_OrientedShapeMapHasher
 #define Hasher_hxx <TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_IndexedMapNode TopTools_IndexedMapNodeOfIndexedMapOfOrientedShape

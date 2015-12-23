@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopOpeBRep_ShapeIntersector.hxx>
 #include <TopOpeBRep_ShapeIntersector2d.hxx>
 #include <TopOpeBRep_FacesFiller.hxx>
@@ -25,8 +25,8 @@
 #include <TopOpeBRep_DSFiller.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <TopOpeBRepDS_GapFiller.hxx>
 #include <TopOpeBRepDS_Filter.hxx>

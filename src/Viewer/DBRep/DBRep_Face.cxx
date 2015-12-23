@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draw_Color.hxx>
 #include <DBRep_Face.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

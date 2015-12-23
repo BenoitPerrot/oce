@@ -23,10 +23,10 @@
 
 //  Modified by skv - Wed Jul 23 12:22:20 2003 OCC1764 
 
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <BRepCheck_Wire.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Wire)
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <TopTools_ListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_Array1OfCurve.hxx>
 #include <IntRes2d_Intersection.hxx>
@@ -70,8 +70,8 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <BRepCheck.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopTools_MapOfOrientedShape.hxx>
 #include <TopTools_HArray1OfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfOrientedShape.hxx>

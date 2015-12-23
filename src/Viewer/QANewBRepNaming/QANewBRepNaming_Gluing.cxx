@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <TDF_Label.hxx>
 #include <QANewModTopOpe_Glue.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <QANewBRepNaming_Gluing.hxx>
@@ -28,8 +28,8 @@
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <TDF_ChildIDIterator.hxx>
 #include <TNaming_Selector.hxx>
 #include <TNaming_Iterator.hxx>
@@ -38,14 +38,14 @@
 #include <TDF_MapIteratorOfAttributeMap.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <TDF_Tool.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <TDataStd_IntegerArray.hxx>

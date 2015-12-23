@@ -13,7 +13,7 @@
 #include <Handle_ShapeBuild_ReShape.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

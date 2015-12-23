@@ -15,7 +15,7 @@
 //    sln 29.11.01 Bug24: correction iteration through map in method 'Status'
 //    sln 29.11.01 Bug22: correction of methods Replace and Value for case when mode myConsiderLocation is on
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRepTools/BRepTools_ReShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepTools_ReShape)
@@ -26,16 +26,16 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRepTools_ReShape)
 IMPLEMENT_DOWNCAST(BRepTools_ReShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepTools_ReShape)
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //include <ShapeExtend.hxx>
 //#include <ModelingData/BRepTools/BRepTools_Edge.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_ReShape)
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 
 
 static void CopyRanges (const TopoDS_Edge& toedge, 

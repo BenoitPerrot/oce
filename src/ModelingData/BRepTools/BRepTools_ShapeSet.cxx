@@ -19,13 +19,13 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomTools/GeomTools.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
@@ -47,7 +47,7 @@
 #include <ModelingData/BRep/BRep_PointOnSurface.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfPointRepresentation.hxx>
 
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>

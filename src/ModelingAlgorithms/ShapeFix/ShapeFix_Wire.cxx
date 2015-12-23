@@ -45,8 +45,8 @@
 
 #include <ShapeFix_Edge.hxx>
 #include <ShapeAnalysis_Wire.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -96,9 +96,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopTools_Array1OfShape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

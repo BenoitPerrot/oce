@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffset_Offset.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepOffset_DataMapOfShapeOffset.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(BRepOffset_DataMapNodeOfDataMapOfShapeOffset)
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem BRepOffset_Offset
 #define TheItem_hxx <BRepOffset_Offset.hxx>
 #define Hasher TopTools_ShapeMapHasher

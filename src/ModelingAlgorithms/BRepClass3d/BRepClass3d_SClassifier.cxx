@@ -19,14 +19,14 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepClass3d_SClassifier.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <BRepClass3d_Intersector3d.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <IntCurvesFace_Intersector.hxx>
 // modified by NIZHNY-MKK  Mon Jun 21 15:13:40 2004

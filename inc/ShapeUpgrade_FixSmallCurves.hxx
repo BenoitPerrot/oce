@@ -13,8 +13,8 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ShapeUpgrade_SplitCurve3d.hxx>
 #include <Handle_ShapeUpgrade_SplitCurve2d.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeUpgrade_Tool.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom_Curve.hxx>

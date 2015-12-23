@@ -19,7 +19,7 @@
 
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <ShapeProcess.hxx>
 #include <ShapeProcess_ShapeContext.hxx>

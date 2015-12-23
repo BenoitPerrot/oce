@@ -11,7 +11,7 @@
 #include <Handle_StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
 
 #include <StepToTopoDS_PointPair.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class StepToTopoDS_PointPair;
@@ -56,7 +56,7 @@ private:
 #define TheKey StepToTopoDS_PointPair
 #define TheKey_hxx <StepToTopoDS_PointPair.hxx>
 #define TheItem TopoDS_Edge
-#define TheItem_hxx <TopoDS_Edge.hxx>
+#define TheItem_hxx <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #define Hasher StepToTopoDS_PointPairHasher
 #define Hasher_hxx <StepToTopoDS_PointPairHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfPointEdgeMap

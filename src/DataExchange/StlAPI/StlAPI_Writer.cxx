@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StlMesh_Mesh.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StlAPI_Writer.hxx>
 #include <StlTransfer.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <RWStl.hxx>
 #include <BRepBndLib.hxx>

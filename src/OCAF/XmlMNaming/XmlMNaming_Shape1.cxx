@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XmlMNaming_Shape1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMNaming_Shape1)
@@ -24,8 +24,8 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMNaming_Shape1)
 
 #include <XmlObjMgt.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

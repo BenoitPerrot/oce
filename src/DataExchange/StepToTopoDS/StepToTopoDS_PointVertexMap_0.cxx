@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <StepGeom_CartesianPoint.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <StepToTopoDS_CartesianPointHasher.hxx>
 #include <StepToTopoDS_DataMapNodeOfPointVertexMap.hxx>
 #include <StepToTopoDS_DataMapIteratorOfPointVertexMap.hxx>
@@ -17,7 +17,7 @@
 #define TheKey Handle(StepGeom_CartesianPoint)
 #define TheKey_hxx <StepGeom_CartesianPoint.hxx>
 #define TheItem TopoDS_Vertex
-#define TheItem_hxx <TopoDS_Vertex.hxx>
+#define TheItem_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define Hasher StepToTopoDS_CartesianPointHasher
 #define Hasher_hxx <StepToTopoDS_CartesianPointHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfPointVertexMap

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_LabelMap.hxx>
 #include <QANewBRepNaming_TopNaming.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

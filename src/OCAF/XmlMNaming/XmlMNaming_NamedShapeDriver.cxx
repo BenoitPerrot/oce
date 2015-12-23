@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamedShapeDriver)
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Iterator.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <LDOM_Text.hxx>
 #include <LDOM_OSStream.hxx>

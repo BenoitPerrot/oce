@@ -21,7 +21,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <StepGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -40,9 +40,9 @@
 #include <BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>

@@ -15,7 +15,7 @@
 
 #include <XSDRAWSTLVRML.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <VrmlAPI.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <StlAPI.hxx>

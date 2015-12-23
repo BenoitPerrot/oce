@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_BasicElt.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <BRepMAT2d_DataMapOfBasicEltShape.hxx>
 #include <BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
@@ -16,7 +16,7 @@
 #define TheKey Handle(MAT_BasicElt)
 #define TheKey_hxx <MAT_BasicElt.hxx>
 #define TheItem TopoDS_Shape
-#define TheItem_hxx <TopoDS_Shape.hxx>
+#define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape

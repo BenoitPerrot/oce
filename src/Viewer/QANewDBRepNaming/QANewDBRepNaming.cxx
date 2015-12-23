@@ -26,7 +26,7 @@
 
 #include <TDF_Label.hxx>
 #include <TNaming_Selector.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ViewerTest.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -38,7 +38,7 @@
 #include <TDF_LabelMap.hxx>
 #include <TNaming.hxx>
 #include <TDF_ChildIterator.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TNaming_NamingTool.hxx>
 #include <DBRep.hxx>
 #include <TNaming_Naming.hxx>
@@ -51,8 +51,8 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

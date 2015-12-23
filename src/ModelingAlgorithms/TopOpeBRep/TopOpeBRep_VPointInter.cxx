@@ -17,19 +17,19 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <IntPatch_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
 #include <BRepTopAdaptor_HVertex.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>

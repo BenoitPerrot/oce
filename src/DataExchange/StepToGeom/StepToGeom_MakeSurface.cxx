@@ -42,10 +42,10 @@
 #include <UnitsMethods.hxx>
 
 #include <BRepLib_MakeFace.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>  
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>

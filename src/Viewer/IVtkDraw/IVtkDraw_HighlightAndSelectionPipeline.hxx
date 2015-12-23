@@ -29,7 +29,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <vtkActor.h>
 #include <vtkPolyData.h>

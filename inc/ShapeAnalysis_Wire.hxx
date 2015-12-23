@@ -11,7 +11,7 @@
 #include <Handle_ShapeAnalysis_Wire.hxx>
 
 #include <Handle_ShapeExtend_WireData.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Handle_ShapeAnalysis_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

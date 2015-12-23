@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 
-#include <TopoDS_ListOfShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -143,7 +143,7 @@ private:
 };
 
 
-#include <TopoDS_TShape.lxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.lxx>
 
 
 

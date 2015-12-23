@@ -17,7 +17,7 @@
 //  Modified by skv - Tue Mar 15 16:20:43 2005
 // Add methods for supporting history.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffset_MakeOffset.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_MakeOffsetShape.hxx>

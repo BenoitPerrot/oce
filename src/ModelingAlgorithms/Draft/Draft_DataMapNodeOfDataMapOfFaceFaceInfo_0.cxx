@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draft_FaceInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <Draft_DataMapOfFaceFaceInfo.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_DataMapNodeOfDataMapOfFaceFaceInfo)
 
 
 #define TheKey TopoDS_Face
-#define TheKey_hxx <TopoDS_Face.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Face.hxx>
 #define TheItem Draft_FaceInfo
 #define TheItem_hxx <Draft_FaceInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

@@ -29,9 +29,9 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Precision.hxx> 
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Vertex.hxx> 
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx> 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TDF_AttributeList.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx>
@@ -46,8 +46,8 @@
 #include <TDataXtd_Geometry.hxx>
 #include <TDataXtd_Constraint.hxx> 
 #include <ElSLib.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 #include <DDataStd_DrawPresentation.hxx>
 #include <DDataStd_DrawDriver.hxx>

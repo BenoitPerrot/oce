@@ -13,7 +13,7 @@
 #include <TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geometry/Approx/Approx_ParametrizationType.hxx>

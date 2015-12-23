@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(BinMNaming_NamedShapeDriver)
 #include <TDF_Label.hxx>
 #include <TNaming_Iterator.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <BinTools_ShapeSet.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

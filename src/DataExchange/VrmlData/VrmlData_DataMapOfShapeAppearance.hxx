@@ -18,7 +18,7 @@
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <VrmlData_Appearance.hxx>
-#include <TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 
 /**
  * Data Map that provides the link between each Shape obtained in VRML import

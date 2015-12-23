@@ -24,7 +24,7 @@
 #include <Draw_Color.hxx>
 #include <DrawTrSurf.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //
 #include <BOPAlgo_Builder.hxx>
 #include <BOPAlgo_PaveFiller.hxx>

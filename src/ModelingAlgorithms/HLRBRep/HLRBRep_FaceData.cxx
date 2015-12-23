@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <HLRAlgo_WiresBlock.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <HLRBRep_Surface.hxx>
 #include <HLRBRep_FaceData.hxx>
 #include <HLRAlgo_EdgesBlock.hxx>

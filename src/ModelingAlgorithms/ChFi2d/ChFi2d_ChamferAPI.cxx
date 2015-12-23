@@ -18,8 +18,8 @@
 #include <Geometry/GC/GC_MakeLine.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 // An empty constructor.
 ChFi2d_ChamferAPI::ChFi2d_ChamferAPI()

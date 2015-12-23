@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeRetrievalDriver)
 #include <TNaming_Evolution.hxx>
 #include <TNaming_Builder.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 static TNaming_Evolution EvolutionEnum(const Standard_Integer);
 

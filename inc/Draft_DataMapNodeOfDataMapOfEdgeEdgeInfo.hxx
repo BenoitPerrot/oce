@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo.hxx>
 
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Draft_EdgeInfo.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey TopoDS_Edge
-#define TheKey_hxx <TopoDS_Edge.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #define TheItem Draft_EdgeInfo
 #define TheItem_hxx <Draft_EdgeInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

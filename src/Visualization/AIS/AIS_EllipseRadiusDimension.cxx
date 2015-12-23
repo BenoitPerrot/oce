@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <AIS_EllipseRadiusDimension.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

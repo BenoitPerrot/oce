@@ -18,11 +18,11 @@
 #include <TopOpeBRep_VPointInter.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRep_FaceEdgeIntersector.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRep_PointGeomTool.hxx>
 #include <TopOpeBRep_Point2d.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================

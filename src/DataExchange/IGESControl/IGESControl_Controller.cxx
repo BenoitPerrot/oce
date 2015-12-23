@@ -16,7 +16,7 @@
 
 #include <Interface_InterfaceModel.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <IGESControl_Controller.hxx>

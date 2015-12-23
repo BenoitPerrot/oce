@@ -19,7 +19,7 @@
 #include <BOPAlgo_BuilderArea.hxx>
 
 #include <BOPCol_ListOfShape.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 
 //=======================================================================

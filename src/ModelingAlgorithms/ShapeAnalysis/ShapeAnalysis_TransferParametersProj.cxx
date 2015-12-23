@@ -13,10 +13,10 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ShapeAnalysis_TransferParametersProj.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_TransferParametersProj)
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <ModelingData/BRep/BRep_PointOnSurface.hxx>
 #include <ModelingData/BRep/BRep_PointOnCurve.hxx>
 #include <ModelingData/BRep/BRep_PointOnCurveOnSurface.hxx>
-#include <TopoDS.hxx>  
+#include <ModelingData/TopoDS/TopoDS.hxx>  
 #include <ShapeAnalysis_Surface.hxx>
 //=======================================================================
 //function : ShapeAnalysis_TransferParametersProj

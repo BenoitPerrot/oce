@@ -22,7 +22,7 @@
 #include <DDocStd.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
@@ -48,13 +48,13 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepMesh_IncrementalMesh.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <stdio.h>
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>

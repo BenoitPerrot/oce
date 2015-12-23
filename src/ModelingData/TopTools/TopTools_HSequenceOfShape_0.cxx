@@ -9,7 +9,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 
  
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(TopTools_HSequenceOfShape)
 
 
 #define Item TopoDS_Shape
-#define Item_hxx <TopoDS_Shape.hxx>
+#define Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheSequence TopTools_SequenceOfShape
 #define TheSequence_hxx <TopTools_SequenceOfShape.hxx>
 #define TCollection_HSequence TopTools_HSequenceOfShape

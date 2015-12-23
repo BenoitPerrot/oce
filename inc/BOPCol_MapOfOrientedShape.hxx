@@ -15,7 +15,7 @@
 #ifndef BOPCol_MapOfOrientedShape_HeaderFile
 #define BOPCol_MapOfOrientedShape_HeaderFile
 
-#include <TopoDS_Shape.hxx>  
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
 #include <TopTools_OrientedShapeMapHasher.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>   

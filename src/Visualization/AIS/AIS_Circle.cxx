@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveCircle.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <AIS_Drawer.hxx>

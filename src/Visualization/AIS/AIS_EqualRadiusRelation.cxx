@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 #include <AIS.hxx>
 #include <DsgPrs_EqualRadiusPresentation.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <ElCLib.hxx>

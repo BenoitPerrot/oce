@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <BRepAlgo_DataMapOfShapeBoolean.hxx>
 #include <BRepAlgo_DataMapIteratorOfDataMapOfShapeBoolean.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean)
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Standard_Boolean
 #define TheItem_hxx <Foundation/Standard/Standard_Boolean.hxx>
 #define Hasher TopTools_ShapeMapHasher

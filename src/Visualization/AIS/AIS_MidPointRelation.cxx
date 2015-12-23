@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveCurve.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <Prs3d_DimensionAspect.hxx>
 
 #include <DsgPrs_MidPointPresentation.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 //=======================================================================
 //function : AIS_MidPointRelation

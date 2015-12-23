@@ -16,7 +16,7 @@
 #include <TopTools_MutexForShapeProvider.hxx>
 
 #include <Foundation/Standard/Standard_Mutex.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 
 // macro to compare two types of shapes

@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/BRep/BRep_ListOfPointRepresentation.hxx>
-#include <TopoDS_TVertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_TVertex.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 class gp_Pnt;
 class BRep_ListOfPointRepresentation;

@@ -16,7 +16,7 @@
 
 #include <TopOpeBRep_LineInter.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRep_FFDumper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRep_FFDumper)
@@ -33,10 +33,10 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_FFDumper)
 #include <TopOpeBRep_VPointInterIterator.hxx>
 #include <TopOpeBRep_VPointInter.hxx>
 #include <TopOpeBRep.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopOpeBRep_FFTransitionTool.hxx>

@@ -18,7 +18,7 @@
 #include <IGESData_IGESModel.hxx>
 #include <IGESToBRep_Actor.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <IGESToBRep_Reader.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -27,8 +27,8 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>

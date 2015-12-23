@@ -17,15 +17,15 @@
 // 15.06 2000 gka fix against small edges ; merging ends pcurves and 3d curves
 
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeUpgrade_FaceDivide.hxx>
 #include <ShapeUpgrade_ShapeConvertToBezier.hxx>
 #include <ShapeUpgrade_WireDivide.hxx>
 #include <ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 #include <ShapeUpgrade_ConvertCurve2dToBezier.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_Edge.hxx>
@@ -36,7 +36,7 @@
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -44,7 +44,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ShapeUpgrade_FixSmallBezierCurves.hxx>
 #include <ShapeUpgrade_FixSmallBezierCurves.hxx>
 #include <ShapeUpgrade_FixSmallBezierCurves.hxx>

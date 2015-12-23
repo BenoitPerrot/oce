@@ -16,7 +16,7 @@
 
 #include <BRepTopAdaptor_TopolTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepTopAdaptor_Tool.hxx>
 
 #include <BRepTopAdaptor_TopolTool.hxx>

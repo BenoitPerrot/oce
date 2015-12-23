@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BRepLib_EdgeError.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <BRepLib_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Curve.hxx>

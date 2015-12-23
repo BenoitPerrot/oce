@@ -16,7 +16,7 @@
 
 #include <TDF_Label.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_BooleanOperationFeat.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Precision.hxx>
@@ -35,10 +35,10 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>

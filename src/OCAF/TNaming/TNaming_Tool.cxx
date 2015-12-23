@@ -18,7 +18,7 @@
 #include <TNaming_Localizer.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_OldShapeIterator.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_LabelMap.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_MapOfNamedShape.hxx>
@@ -31,7 +31,7 @@
 #include <TNaming_OldShapeIterator.hxx>
 #include <TNaming_Iterator.hxx>
 #include <TNaming_RefShape.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_MapIteratorOfMapOfShape.hxx>

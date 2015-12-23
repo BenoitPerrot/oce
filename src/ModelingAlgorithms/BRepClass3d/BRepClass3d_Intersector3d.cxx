@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepClass3d_Intersector3d.hxx>
 
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 #include <IntCurveSurface_HInter.hxx>

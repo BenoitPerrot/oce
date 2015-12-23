@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Interface_CheckIterator.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <TransferBRep_Reader.hxx>
 
@@ -29,7 +29,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <TransferBRep.hxx>
 
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 

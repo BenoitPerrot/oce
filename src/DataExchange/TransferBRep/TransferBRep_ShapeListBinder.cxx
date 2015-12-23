@@ -15,15 +15,15 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Wire.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_CompSolid.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <TransferBRep_ShapeListBinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TransferBRep_ShapeListBinder)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TransferBRep_ShapeListBinder)
 IMPLEMENT_DOWNCAST(TransferBRep_ShapeListBinder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TransferBRep_ShapeListBinder)
-#include  <TopoDS.hxx>
+#include  <ModelingData/TopoDS/TopoDS.hxx>
 
 TransferBRep_ShapeListBinder::TransferBRep_ShapeListBinder  ()
       {  theres = new TopTools_HSequenceOfShape();  }

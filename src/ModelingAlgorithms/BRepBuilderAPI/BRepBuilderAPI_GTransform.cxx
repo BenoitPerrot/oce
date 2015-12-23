@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepBuilderAPI_GTransform.hxx>
 
@@ -28,7 +28,7 @@
 
 #include <TopTools_ListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 //=======================================================================
 //function : BRepBuilderAPI_GTransform
 //purpose  : 

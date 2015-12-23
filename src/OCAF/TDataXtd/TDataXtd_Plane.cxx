@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Plane)
 #include <TNaming_Builder.hxx>
 #include <TDF_Label.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepLib_MakeFace.hxx>

@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Constraint)
 #include <TDataXtd.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 // for symmetry midpoint the third argument is the axis or the point
 
 

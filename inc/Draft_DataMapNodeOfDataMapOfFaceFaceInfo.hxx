@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draft_DataMapNodeOfDataMapOfFaceFaceInfo.hxx>
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draft_FaceInfo.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey TopoDS_Face
-#define TheKey_hxx <TopoDS_Face.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Face.hxx>
 #define TheItem Draft_FaceInfo
 #define TheItem_hxx <Draft_FaceInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

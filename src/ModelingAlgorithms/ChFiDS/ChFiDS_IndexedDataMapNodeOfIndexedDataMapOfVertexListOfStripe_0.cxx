@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ChFiDS_ListOfStripe.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfS
 
 
 #define TheKey TopoDS_Vertex
-#define TheKey_hxx <TopoDS_Vertex.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem ChFiDS_ListOfStripe
 #define TheItem_hxx <ChFiDS_ListOfStripe.hxx>
 #define Hasher TopTools_ShapeMapHasher

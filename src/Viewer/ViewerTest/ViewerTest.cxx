@@ -184,12 +184,12 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_EventManager.hxx>
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 
@@ -4698,7 +4698,7 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 //=====================================================================
 #include <BRepOffsetAPI_MakeThickSolid.hxx>
 #include <DBRep.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <AIS_KindOfSurface.hxx>
 #include <BRepOffsetAPI_DraftAngle.hxx>

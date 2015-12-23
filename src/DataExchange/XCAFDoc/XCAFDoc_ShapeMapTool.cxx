@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFDoc_ShapeMapTool)
 IMPLEMENT_DOWNCAST(XCAFDoc_ShapeMapTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeMapTool)
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #define AUTONAMING // automatically set names for labels
 

@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
  
 
 #define Array2Item TopoDS_Shape
-#define Array2Item_hxx <TopoDS_Shape.hxx>
+#define Array2Item_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_Array2 TopTools_Array2OfShape
 #define TCollection_Array2_hxx <TopTools_Array2OfShape.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>

@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BRepFeat_Status.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <BRepFeat_Builder.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;

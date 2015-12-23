@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
-#include <TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRep_TEdge)

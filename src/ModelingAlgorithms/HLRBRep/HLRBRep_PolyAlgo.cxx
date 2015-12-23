@@ -21,12 +21,12 @@
 #include <HLRAlgo_PolyAlgo.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRAlgo_Projector.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <TopTools_MapOfShape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <HLRAlgo_ListOfBPoint.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <HLRAlgo_PolyInternalData.hxx>
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <HLRAlgo_PolyShellData.hxx>
 #include <HLRAlgo_PolyData.hxx>
 #include <HLRAlgo_BiPoint.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_Array1OfShape.hxx>

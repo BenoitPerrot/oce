@@ -13,7 +13,7 @@
 
 //    abv 28.04.99 S4137: ading method Apply for work on all types of shapes
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeBuild_ReShape)
@@ -26,16 +26,16 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeBuild_ReShape)
 IMPLEMENT_DOWNCAST(ShapeBuild_ReShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeBuild_ReShape)
 
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Solid.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================
 //function : ShapeBuild_ReShape

@@ -78,7 +78,7 @@
 #include <DrawTrSurf_BSplineSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/GeomLib/GeomLib_Tool.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep.hxx>
 
 //#ifdef WNT

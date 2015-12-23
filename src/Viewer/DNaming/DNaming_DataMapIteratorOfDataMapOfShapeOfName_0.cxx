@@ -6,7 +6,7 @@
 #include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <DNaming_DataMapOfShapeOfName.hxx>
@@ -14,7 +14,7 @@
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TCollection_AsciiString
 #define TheItem_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher TopTools_ShapeMapHasher

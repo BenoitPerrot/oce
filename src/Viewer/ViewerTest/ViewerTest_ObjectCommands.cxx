@@ -41,12 +41,12 @@
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_EventManager.hxx>
 
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
@@ -55,9 +55,9 @@
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <Draw_Window.hxx>
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
@@ -111,7 +111,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StdPrs_ShadedShape.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
 #include <AIS_MultipleConnectedInteractive.hxx>
 #include <AIS_ConnectedInteractive.hxx>
@@ -523,8 +523,8 @@ static int VPlaneTrihedron (Draw_Interpretor& di, Standard_Integer argc, const c
 //purpose  :
 //Draw arg : vaxis AxisName Xa Ya Za Xb Yb Zb
 //==============================================================================
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
@@ -775,8 +775,8 @@ static int VAxisBuilder(Draw_Interpretor& di, Standard_Integer argc, const char*
 //purpose  : Build an AIS_Point from coordinates or with a selected vertex or edge
 //Draw arg : vpoint PoinName [Xa] [Ya] [Za]
 //==============================================================================
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <AIS_Point.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
@@ -2641,7 +2641,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <Graphic3d_AspectFillArea3d.hxx>
 
 #include <BRepPrimAPI_MakeCylinder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>

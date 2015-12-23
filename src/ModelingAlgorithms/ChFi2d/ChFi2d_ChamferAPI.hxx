@@ -16,8 +16,8 @@
 #ifndef _CHAMFERAPI_H_
 #define _CHAMFERAPI_H_
 
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 
 //! A class making a chamfer between two linear edges.

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <HLRTopoBRep_OutLiner.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <HLRTest_OutLiner.hxx>

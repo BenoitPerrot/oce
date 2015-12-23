@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -34,18 +34,18 @@
 #include <TransferBRep_BinderOfShape.hxx>
 #include <TransferBRep_ShapeListBinder.hxx>
 #include <Transfer_Binder.hxx>
-#include <TopoDS_HShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
 #include <TransferBRep_TransferResultInfo.hxx>
 
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 //#include <TransferBRep_Analyzer.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

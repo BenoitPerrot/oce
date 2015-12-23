@@ -61,7 +61,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_PluginMacro.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <DBRep.hxx>

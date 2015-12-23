@@ -16,7 +16,7 @@
 #define BOPCol_SequenceOfShape_HeaderFile
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>   
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 typedef NCollection_Sequence<TopoDS_Shape> BOPCol_SequenceOfShape; 
 

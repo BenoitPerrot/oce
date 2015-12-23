@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
 #include <TopOpeBRepTool_DataMapOfShapeface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

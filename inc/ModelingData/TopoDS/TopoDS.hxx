@@ -148,7 +148,7 @@ friend class TopoDS_ListIteratorOfListOfShape;
 };
 
 
-#include <TopoDS.lxx>
+#include <ModelingData/TopoDS/TopoDS.lxx>
 
 
 

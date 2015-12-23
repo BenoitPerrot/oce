@@ -18,7 +18,7 @@
 #include <StepVisual_StyledItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepVisual_PresentationStyleAssignment.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
@@ -32,7 +32,7 @@
 #include <STEPConstruct.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 #include <XSControl_TransferReader.hxx>
 #include <XSControl_TransferWriter.hxx>

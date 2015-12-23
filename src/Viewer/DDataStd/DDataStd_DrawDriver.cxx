@@ -17,7 +17,7 @@
 #include <Draw_Drawable3D.hxx>
 #include <TDF_Label.hxx>
 #include <TDataXtd_Constraint.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DDataStd_DrawDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDataStd_DrawDriver)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 #include <TNaming_Tool.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <DBRep.hxx>
 #include <Draw_Appli.hxx>
 #include <TNaming_Tool.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <TDF_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDataStd.hxx>

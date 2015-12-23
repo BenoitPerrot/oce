@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <GeomFill_LocationDraft.hxx>
 #include <BRepFill_DraftLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

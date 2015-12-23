@@ -22,7 +22,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
 //! Customizable properties.
 class AIS_ColoredDrawer : public AIS_Drawer

@@ -17,7 +17,7 @@
 #include <TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_LabelSequence.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
 #include <XCAFPrs_DataMapOfStyleTransient.hxx>
 #include <TopTools_MapOfShape.hxx>
@@ -25,7 +25,7 @@
 #include <IGESCAFControl_Writer.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <TDF_LabelSequence.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <XCAFPrs.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
@@ -34,7 +34,7 @@
 #include <IGESGraph_Color.hxx>
 #include <IGESCAFControl.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <TDF_Label.hxx>
 #include <Transfer_TransientListBinder.hxx>
@@ -43,10 +43,10 @@
 #include <IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDataStd_Name.hxx>
 #include <IGESData_NameEntity.hxx>

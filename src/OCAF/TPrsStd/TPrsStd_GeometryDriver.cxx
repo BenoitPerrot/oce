@@ -46,8 +46,8 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <TopoDS_Shape.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 
 
 //=======================================================================

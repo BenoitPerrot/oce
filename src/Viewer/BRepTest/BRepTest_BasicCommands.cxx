@@ -39,7 +39,7 @@
 #include <BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <Geometry/GCPnts/GCPnts_QuasiUniformAbscissa.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_ShapeLaw.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Handle_TopTools_HArray1OfShape.hxx>
 #include <Handle_Law_Function.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

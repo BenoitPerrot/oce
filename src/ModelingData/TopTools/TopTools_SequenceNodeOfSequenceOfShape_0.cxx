@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_SequenceOfShape.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(TopTools_SequenceNodeOfSequenceOfShape)
 
 
 #define SeqItem TopoDS_Shape
-#define SeqItem_hxx <TopoDS_Shape.hxx>
+#define SeqItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TCollection_SequenceNode TopTools_SequenceNodeOfSequenceOfShape
 #define TCollection_SequenceNode_hxx <TopTools_SequenceNodeOfSequenceOfShape.hxx>
 #define Handle_TCollection_SequenceNode Handle_TopTools_SequenceNodeOfSequenceOfShape

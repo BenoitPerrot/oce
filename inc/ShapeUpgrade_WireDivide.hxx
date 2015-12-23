@@ -14,8 +14,8 @@
 #include <Handle_ShapeUpgrade_SplitCurve2d.hxx>
 #include <Handle_ShapeUpgrade_EdgeDivide.hxx>
 #include <Handle_ShapeAnalysis_TransferParameters.hxx>
-#include <TopoDS_Face.hxx>
-#include <TopoDS_Wire.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ShapeUpgrade_FixSmallCurves.hxx>
 #include <ShapeUpgrade_Tool.hxx>

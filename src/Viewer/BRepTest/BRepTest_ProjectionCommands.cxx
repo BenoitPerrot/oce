@@ -17,13 +17,13 @@
 #include <GeometryTest.hxx>
 #include <DrawTrSurf.hxx>
 #include <Draw_Appli.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <BRepProj_Projection.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepTest.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 //#ifdef WNT
 #include <stdio.h>
 //#endif

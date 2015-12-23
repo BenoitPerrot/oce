@@ -12,7 +12,7 @@
 
 #include <BOPAlgo_Operation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPCol_ListOfShape.hxx>
 #include <BOPCol_MapOfShape.hxx>
 #include <BOPAlgo_Builder.hxx>

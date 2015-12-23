@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <IntTools_SequenceOfCurves.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <IntTools_SequenceOfPntOn2Faces.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <Handle_IntTools_Context.hxx>

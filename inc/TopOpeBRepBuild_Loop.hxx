@@ -11,7 +11,7 @@
 #include <Handle_TopOpeBRepBuild_Loop.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_BlockIterator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Shape;

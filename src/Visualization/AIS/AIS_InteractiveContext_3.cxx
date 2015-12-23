@@ -31,7 +31,7 @@
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_BasicAspect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_IndexedMapOfOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

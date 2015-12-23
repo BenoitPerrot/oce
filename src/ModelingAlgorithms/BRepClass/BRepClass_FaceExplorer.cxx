@@ -17,14 +17,14 @@
 //  Modified by skv - Thu Jul 13 17:42:58 2006 OCC12627
 //  Total rewriting of the method Segment; add the method OtherSegment.
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <BRepClass_Edge.hxx>
 #include <BRepClass_FaceExplorer.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 //=======================================================================

@@ -25,7 +25,7 @@
 
 #include <DBRep.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 
 // LES ATTRIBUTES

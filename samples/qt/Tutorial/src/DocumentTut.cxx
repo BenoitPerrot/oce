@@ -4,7 +4,7 @@
 #include <QMessageBox>
 #include <QApplication>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <AIS_Shape.hxx>
 
 TopoDS_Shape

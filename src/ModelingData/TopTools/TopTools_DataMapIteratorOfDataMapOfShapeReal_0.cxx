@@ -6,14 +6,14 @@
 #include <TopTools_DataMapIteratorOfDataMapOfShapeReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopTools_DataMapOfShapeReal.hxx>
 #include <TopTools_DataMapNodeOfDataMapOfShapeReal.hxx>
  
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Standard_Real
 #define TheItem_hxx <Foundation/Standard/Standard_Real.hxx>
 #define Hasher TopTools_ShapeMapHasher

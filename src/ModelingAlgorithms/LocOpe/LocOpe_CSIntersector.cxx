@@ -16,7 +16,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <LocOpe_SequenceOfLin.hxx>
 #include <LocOpe_SequenceOfCirc.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
@@ -34,7 +34,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Precision.hxx>
 
 static Standard_Boolean LocAfter (const LocOpe_SequenceOfPntFace&,

@@ -11,7 +11,7 @@
 #include <Handle_TopOpeBRep_FFDumper.hxx>
 
 #include <TopOpeBRep_PFacesFiller.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopTools_DataMapOfShapeInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

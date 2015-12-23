@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopOpeBRepBuild_ListOfPave.hxx>
 #include <TopOpeBRepBuild_ListIteratorOfListOfPave.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

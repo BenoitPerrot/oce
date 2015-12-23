@@ -16,7 +16,7 @@
 
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TestTopOpe.hxx>
 
 #include <Draw_Appli.hxx>

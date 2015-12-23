@@ -31,9 +31,9 @@
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <StepRepr_MappedItem.hxx>
 #include <StepShape_FaceSurface.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <STEPControl_ActorRead.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -96,8 +96,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <StepToTopoDS_Builder.hxx>
-#include <TopoDS_Compound.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Compound.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <TransferBRep_ShapeBinder.hxx>
 
@@ -143,14 +143,14 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <TopTools_MapOfShape.hxx>
 #include <TopTools_ListOfShape.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopTools_ListIteratorOfListOfShape.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <BRepCheck_Shell.hxx>
 #include <BRepCheck_Status.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <StepData_StepModel.hxx>
 #include <HeaderSection_FileName.hxx>

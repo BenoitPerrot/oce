@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_VertexInfo.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepBuild_IndexedDataMapNodeOfIndexedDataMapOfShap
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem TopOpeBRepBuild_VertexInfo
 #define TheItem_hxx <TopOpeBRepBuild_VertexInfo.hxx>
 #define Hasher TopTools_ShapeMapHasher

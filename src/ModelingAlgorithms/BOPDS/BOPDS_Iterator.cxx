@@ -23,7 +23,7 @@
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 //
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //
 #include <BOPCol_NCVector.hxx>
 #include <BOPCol_TBB.hxx>

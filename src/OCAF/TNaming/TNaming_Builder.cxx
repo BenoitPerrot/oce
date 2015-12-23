@@ -18,7 +18,7 @@
 #include <TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
 
 // See methods'body in TNaming_NamedShape.cxx

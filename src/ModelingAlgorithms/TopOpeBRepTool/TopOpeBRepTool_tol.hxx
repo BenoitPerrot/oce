@@ -18,7 +18,7 @@
 #define _TopOpeBRepTool_tol_HeaderFile
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopOpeBRepTool_define.hxx>
 

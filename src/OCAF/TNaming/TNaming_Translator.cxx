@@ -14,24 +14,24 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_DataMapOfShapeShape.hxx>
 #include <TNaming_Translator.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
-#include <TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
-#include <TopoDS_TWire.hxx>
-#include <TopoDS_TShell.hxx>
-#include <TopoDS_TSolid.hxx>
-#include <TopoDS_TCompSolid.hxx>
-#include <TopoDS_TCompound.hxx>
+#include <ModelingData/TopoDS/TopoDS_TWire.hxx>
+#include <ModelingData/TopoDS/TopoDS_TShell.hxx>
+#include <ModelingData/TopoDS/TopoDS_TSolid.hxx>
+#include <ModelingData/TopoDS/TopoDS_TCompSolid.hxx>
+#include <ModelingData/TopoDS/TopoDS_TCompound.hxx>
 #include <TNaming_CopyShape.hxx>
 #include <TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 

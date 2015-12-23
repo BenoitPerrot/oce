@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_DimensionOwner)
 
 #include <StdSelect_Shape.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 namespace
 {

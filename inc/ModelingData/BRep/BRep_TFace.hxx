@@ -15,7 +15,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TopoDS_TFace.hxx>
+#include <ModelingData/TopoDS/TopoDS_TFace.hxx>
 #include <Handle_TopoDS_TShape.hxx>
 class Geom_Surface;
 class Poly_Triangulation;

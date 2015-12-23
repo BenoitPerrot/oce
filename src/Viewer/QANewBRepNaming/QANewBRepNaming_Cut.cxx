@@ -16,8 +16,8 @@
 #include <TDF_Label.hxx>
 #include <BRepAlgoAPI_BooleanOperation.hxx>
 #include <QANewBRepNaming_Cut.hxx>
-#include <TopoDS_Iterator.hxx>
-#include <TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopTools_ListOfShape.hxx>

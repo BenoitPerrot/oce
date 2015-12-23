@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFPrs_Style.hxx>
 #include <TopTools_ShapeMapHasher.hxx>
 #include <XCAFPrs_DataMapOfShapeStyle.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFPrs_DataMapNodeOfDataMapOfShapeStyle)
 
 
 #define TheKey TopoDS_Shape
-#define TheKey_hxx <TopoDS_Shape.hxx>
+#define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem XCAFPrs_Style
 #define TheItem_hxx <XCAFPrs_Style.hxx>
 #define Hasher TopTools_ShapeMapHasher

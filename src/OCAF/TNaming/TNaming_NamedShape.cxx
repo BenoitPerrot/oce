@@ -19,7 +19,7 @@
 #include <TNaming_NewShapeIterator.hxx>
 #include <TNaming_OldShapeIterator.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_DeltaOnModification.hxx>
 #include <TDF_DeltaOnRemoval.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 #include <TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <TDF_Label.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TNaming_Builder.hxx>
 
 #include <TDF_Label.hxx>
@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <BRepLib_MakeVertex.hxx>
-#include <TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 // Defines the nodes classes
 

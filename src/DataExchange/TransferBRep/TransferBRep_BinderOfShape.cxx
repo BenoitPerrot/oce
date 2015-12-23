@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Transfer_TransferFailure.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <TransferBRep_BinderOfShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -19,7 +19,7 @@
 
 #include <TDF_Label.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <QANewBRepNaming_Prism.hxx>
 #include <QANewBRepNaming_Loader.hxx>
 #include <TNaming_Builder.hxx>
@@ -28,12 +28,12 @@
 #include <TDF_Label.hxx>
 #include <TDF_TagSource.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TopoDS_Iterator.hxx>
+#include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 
 #ifdef OCCT_DEBUG
 #include <TDataStd_Name.hxx>

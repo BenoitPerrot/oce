@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeUpgrade_FaceDivideArea.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_FaceDivideArea)
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivideArea)
 #include <BRepGProp.hxx>
 #include <Precision.hxx> 
 #include <ShapeUpgrade_SplitSurfaceArea.hxx> 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>  
-#include <TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ShapeExtend.hxx> 
 #include <ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

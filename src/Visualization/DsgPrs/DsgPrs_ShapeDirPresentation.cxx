@@ -16,7 +16,7 @@
 
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Drawer.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DsgPrs_ShapeDirPresentation.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
@@ -29,9 +29,9 @@
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 
-#include <TopoDS_Shape.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

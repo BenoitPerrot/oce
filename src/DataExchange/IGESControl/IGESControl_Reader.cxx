@@ -33,7 +33,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Transfer_Binder.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Interface_CheckIterator.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <IFSelect_CheckCounter.hxx>//Transfer_Iterator.hxx>

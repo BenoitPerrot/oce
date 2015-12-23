@@ -20,7 +20,7 @@
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 
 class BRepAdaptor_Curve;
 class BRepAdaptor_HSurface;

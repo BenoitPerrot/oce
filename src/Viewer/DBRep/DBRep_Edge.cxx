@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Draw_Color.hxx>
 #include <DBRep_Edge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -15,7 +15,7 @@
 
 #include <XSControl_WorkSession.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XSControl_Writer.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferWriter.hxx>

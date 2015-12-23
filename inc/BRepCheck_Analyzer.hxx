@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepCheck_DataMapOfShapeResult.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRepCheck_Result.hxx>

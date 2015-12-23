@@ -13,16 +13,16 @@
 
 //#76 rln 11.03.99 S4135: compute average without weights according to tolerances
 //szv#4 S4163
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_HSequenceOfShape.hxx>
 #include <ShapeAnalysis_ShapeTolerance.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <TopoDS.hxx>
-#include <TopoDS_Vertex.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

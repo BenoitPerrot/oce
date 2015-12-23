@@ -22,7 +22,7 @@
 #include <TNaming_Builder.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <TopoDS_Solid.hxx>
+#include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 
 //=======================================================================
 //function : QANewBRepNaming_Box

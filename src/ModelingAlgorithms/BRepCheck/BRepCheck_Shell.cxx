@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopoDS_Shell.hxx>
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopTools_ListOfShape.hxx>
 #include <BRepCheck_Shell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <BRepCheck.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Edge.hxx>
-#include <TopoDS_Face.hxx>
+#include <ModelingData/TopoDS/TopoDS.hxx>
+#include <ModelingData/TopoDS/TopoDS_Edge.hxx>
+#include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <TopTools_DataMapIteratorOfDataMapOfShapeInteger.hxx>

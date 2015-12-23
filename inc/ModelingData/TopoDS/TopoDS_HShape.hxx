@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopoDS_HShape.hxx>
 
-#include <TopoDS_Shape.hxx>
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Shape;
 
@@ -62,7 +62,7 @@ private:
 };
 
 
-#include <TopoDS_HShape.lxx>
+#include <ModelingData/TopoDS/TopoDS_HShape.lxx>
 
 
 
