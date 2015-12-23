@@ -27,7 +27,7 @@
 #include <Visualization/AIS/AIS_SequenceOfInteractive.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
-#include <StdSelect_SensitivityMode.hxx>
+#include <Visualization/StdSelect/StdSelect_SensitivityMode.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>

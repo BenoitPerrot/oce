@@ -69,7 +69,7 @@ static Standard_Integer BUC60857 (Draw_Interpretor& di, Standard_Integer /*argc*
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #if ! defined(WNT)
 extern ViewerTest_DoubleMapOfInteractiveAndName& GetMapOfAIS();

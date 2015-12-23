@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StdSelect_FaceFilter.hxx>
 
-#include <StdSelect_TypeOfFace.hxx>
+#include <Visualization/StdSelect/StdSelect_TypeOfFace.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>

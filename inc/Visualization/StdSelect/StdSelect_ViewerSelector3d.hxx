@@ -13,7 +13,7 @@
 #include <Handle_Select3D_Projector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <StdSelect_SensitivityMode.hxx>
+#include <Visualization/StdSelect/StdSelect_SensitivityMode.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
@@ -159,7 +159,7 @@ private:
 };
 
 
-#include <StdSelect_ViewerSelector3d.lxx>
+#include <Visualization/StdSelect/StdSelect_ViewerSelector3d.lxx>
 
 
 

@@ -2644,7 +2644,7 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <StdSelect_ShapeTypeFilter.hxx>
+#include <Visualization/StdSelect/StdSelect_ShapeTypeFilter.hxx>
 
 
 //===============================================================================================

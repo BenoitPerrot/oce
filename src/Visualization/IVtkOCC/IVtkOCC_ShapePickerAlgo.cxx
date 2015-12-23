@@ -19,7 +19,7 @@
 #include <Visualization/IVtkOCC/IVtkOCC_SelectableObject.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 
 // Handle implementation
 IMPLEMENT_STANDARD_HANDLE(IVtkOCC_ShapePickerAlgo, IVtk_IShapePickerAlgo)

@@ -67,7 +67,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
-#include <StdSelect_ShapeTypeFilter.hxx>
+#include <Visualization/StdSelect/StdSelect_ShapeTypeFilter.hxx>
 #include <Viewer/QABugs/QABugs_MyText.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>

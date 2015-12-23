@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(AIS_DimensionOwner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_DimensionOwner)
 #include <Visualization/AIS/AIS_Dimension.hxx>
 
-#include <StdSelect_Shape.hxx>
+#include <Visualization/StdSelect/StdSelect_Shape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

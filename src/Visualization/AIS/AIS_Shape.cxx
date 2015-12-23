@@ -80,10 +80,10 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
-#include <StdSelect.hxx>
-#include <StdSelect_BRepSelectionTool.hxx>
-#include <StdSelect_BRepOwner.hxx>
-#include <StdSelect_DisplayMode.hxx>
+#include <Visualization/StdSelect/StdSelect.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepSelectionTool.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_DisplayMode.hxx>
 
 #include <Visualization/AIS/AIS_GraphicTool.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

@@ -17,7 +17,7 @@
 
 #include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
 #include <V3d_Viewer.hxx>
-#include <StdSelect_ViewerSelector3d.hxx>
+#include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>

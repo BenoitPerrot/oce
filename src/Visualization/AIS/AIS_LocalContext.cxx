@@ -32,7 +32,7 @@
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
-#include <StdSelect_ViewerSelector3d.hxx>
+#include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
-#include <StdSelect_ShapeTypeFilter.hxx>
+#include <Visualization/StdSelect/StdSelect_ShapeTypeFilter.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>

@@ -141,7 +141,7 @@ private:
 };
 
 
-#include <StdSelect_BRepOwner.lxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.lxx>
 
 
 

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <StdSelect_ShapeTypeFilter.hxx>
+#include <Visualization/StdSelect/StdSelect_ShapeTypeFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_ShapeTypeFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StdSelect_ShapeTypeFilter)
 IMPLEMENT_DOWNCAST(StdSelect_ShapeTypeFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_ShapeTypeFilter)
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 
 
 //==================================================

@@ -44,9 +44,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
 
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 
-#include <StdSelect.hxx>
+#include <Visualization/StdSelect/StdSelect.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 

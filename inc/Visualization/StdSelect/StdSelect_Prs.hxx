@@ -46,7 +46,7 @@ private:
 };
 
 
-#include <StdSelect_Prs.lxx>
+#include <Visualization/StdSelect/StdSelect_Prs.lxx>
 
 
 

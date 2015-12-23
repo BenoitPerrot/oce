@@ -36,7 +36,7 @@
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <StdSelect_SensitivityMode.hxx>
+#include <Visualization/StdSelect/StdSelect_SensitivityMode.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_AIS_LocalStatus.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>

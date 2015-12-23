@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <StdSelect_EdgeFilter.hxx>
+#include <Visualization/StdSelect/StdSelect_EdgeFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_EdgeFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_EdgeFilter)
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 /*#include <.hxx>
 #include <.hxx>
 #include <.hxx>

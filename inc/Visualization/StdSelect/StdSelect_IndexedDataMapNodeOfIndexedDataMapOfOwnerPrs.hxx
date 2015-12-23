@@ -62,15 +62,15 @@ private:
 #define TheKey Handle(SelectBasics_EntityOwner)
 #define TheKey_hxx <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #define TheItem Handle(StdSelect_Prs)
-#define TheItem_hxx <StdSelect_Prs.hxx>
+#define TheItem_hxx <Visualization/StdSelect/StdSelect_Prs.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs
-#define TCollection_IndexedDataMapNode_hxx <StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
+#define TCollection_IndexedDataMapNode_hxx <Visualization/StdSelect/StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs
 #define TCollection_IndexedDataMapNode_Type_() StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs_Type_()
 #define TCollection_IndexedDataMap StdSelect_IndexedDataMapOfOwnerPrs
-#define TCollection_IndexedDataMap_hxx <StdSelect_IndexedDataMapOfOwnerPrs.hxx>
+#define TCollection_IndexedDataMap_hxx <Visualization/StdSelect/StdSelect_IndexedDataMapOfOwnerPrs.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 

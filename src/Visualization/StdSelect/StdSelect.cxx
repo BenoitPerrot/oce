@@ -18,7 +18,7 @@
 #include <V3d_View.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <StdSelect.hxx>
+#include <Visualization/StdSelect/StdSelect.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
@@ -33,7 +33,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 
 Handle(Select3D_Projector) StdSelect::GetProjector(const Handle(V3d_View)& aViou)
 {

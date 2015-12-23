@@ -17,11 +17,11 @@
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Visualization/Select3D/Select3D_ListOfSensitive.hxx>
-#include <StdSelect_BRepSelectionTool.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepSelectionTool.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
@@ -29,7 +29,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

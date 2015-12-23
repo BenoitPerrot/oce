@@ -19,8 +19,8 @@
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <StdSelect_BRepOwner.hxx>
-#include <StdSelect_BRepSelectionTool.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepSelectionTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 // Handle implementation

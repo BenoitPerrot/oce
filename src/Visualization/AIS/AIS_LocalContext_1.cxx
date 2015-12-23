@@ -72,7 +72,7 @@
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
-#include <StdSelect_ViewerSelector3d.hxx>
+#include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
@@ -89,7 +89,7 @@
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>

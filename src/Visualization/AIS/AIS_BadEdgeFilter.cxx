@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_BadEdgeFilter)
 IMPLEMENT_DOWNCAST(AIS_BadEdgeFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_BadEdgeFilter)
 
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>

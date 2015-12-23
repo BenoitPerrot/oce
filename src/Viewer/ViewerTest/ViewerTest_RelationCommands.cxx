@@ -53,7 +53,7 @@
 #include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Precision.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <StdSelect.hxx>
+#include <Visualization/StdSelect/StdSelect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>

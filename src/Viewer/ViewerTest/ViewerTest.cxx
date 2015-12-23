@@ -38,7 +38,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <StdSelect_ShapeTypeFilter.hxx>
+#include <Visualization/StdSelect/StdSelect_ShapeTypeFilter.hxx>
 #include <Visualization/AIS/AIS.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_ColoredShape.hxx>
@@ -61,8 +61,8 @@
 #include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveWire.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <StdSelect_BRepOwner.hxx>
-#include <StdSelect_ViewerSelector3d.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Viewer/ViewerTest/ViewerTest_AutoUpdater.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
-#include <StdSelect_Prs.hxx>
+#include <Visualization/StdSelect/StdSelect_Prs.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_Prs)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

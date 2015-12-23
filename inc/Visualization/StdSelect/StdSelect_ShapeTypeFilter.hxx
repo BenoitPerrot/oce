@@ -62,7 +62,7 @@ private:
 };
 
 
-#include <StdSelect_ShapeTypeFilter.lxx>
+#include <Visualization/StdSelect/StdSelect_ShapeTypeFilter.lxx>
 
 
 

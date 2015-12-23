@@ -18,7 +18,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <StdSelect_Shape.hxx>
+#include <Visualization/StdSelect/StdSelect_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_Shape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

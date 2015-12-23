@@ -68,7 +68,7 @@ private:
 };
 
 
-#include <StdSelect_Shape.lxx>
+#include <Visualization/StdSelect/StdSelect_Shape.lxx>
 
 
 

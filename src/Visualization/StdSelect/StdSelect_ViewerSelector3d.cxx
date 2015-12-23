@@ -22,7 +22,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <StdSelect_ViewerSelector3d.hxx>
+#include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_ViewerSelector3d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StdSelect_ViewerSelector3d)
 IMPLEMENT_DOWNCAST(StdSelect_ViewerSelector3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
-#include <StdSelect.hxx>
+#include <Visualization/StdSelect/StdSelect.hxx>
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

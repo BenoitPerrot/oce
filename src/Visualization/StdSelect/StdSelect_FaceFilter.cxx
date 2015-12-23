@@ -18,7 +18,7 @@
 
 
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <StdSelect_FaceFilter.hxx>
+#include <Visualization/StdSelect/StdSelect_FaceFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_FaceFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_FaceFilter)
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 /*#include <.hxx>
 #include <.hxx>
 #include <.hxx>

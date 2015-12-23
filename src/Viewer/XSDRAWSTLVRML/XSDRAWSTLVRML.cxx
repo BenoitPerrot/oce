@@ -39,7 +39,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
-#include <StdSelect_ViewerSelector3d.hxx>
+#include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>

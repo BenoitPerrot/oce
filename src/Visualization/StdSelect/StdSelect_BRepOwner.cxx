@@ -17,12 +17,12 @@
 #define BUC60876	//GG_050401 Enable to highlight something
 //			with a specific hilight mode
 
-#include <StdSelect_Shape.hxx>
+#include <Visualization/StdSelect/StdSelect_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_BRepOwner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
