@@ -26,7 +26,7 @@
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/XDEDRAW/XDEDRAW.hxx>
 #include <Viewer/XSDRAWIGES/XSDRAWIGES.hxx>
-#include <XSDRAWSTEP.hxx>
+#include <Viewer/XSDRAWSTEP/XSDRAWSTEP.hxx>
 
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>

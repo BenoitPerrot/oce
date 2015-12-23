@@ -27,7 +27,7 @@
 #include <StlAPI_Writer.hxx>
 #include <Viewer/Draw/Draw_PluginMacro.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
-#include <XSDRAWSTEP.hxx>
+#include <Viewer/XSDRAWSTEP/XSDRAWSTEP.hxx>
 #include <Viewer/XSDRAWIGES/XSDRAWIGES.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Viewer/ViewerTest/ViewerTest.hxx>

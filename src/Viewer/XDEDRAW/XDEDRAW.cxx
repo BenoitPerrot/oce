@@ -79,7 +79,7 @@
 #include <Viewer/XDEDRAW/XDEDRAW_Props.hxx>
 #include <Viewer/XDEDRAW/XDEDRAW_Common.hxx>
 #include <Viewer/XSDRAWIGES/XSDRAWIGES.hxx>
-#include <XSDRAWSTEP.hxx>
+#include <Viewer/XSDRAWSTEP/XSDRAWSTEP.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <XCAFPrs.hxx>
 #include <Viewer/ViewerTest/ViewerTest.hxx>
