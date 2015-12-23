@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintStorageDriver)
 #include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #include <OCAF/PDataStd/PDataStd_Real.hxx>
 #include <OCAF/PDataStd/PDataStd_Integer.hxx>
 #include <OCAF/PDataXtd/PDataXtd_PatternStd.hxx>

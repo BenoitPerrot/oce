@@ -3,16 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PNaming_HArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/PNaming_HArray1OfNamedShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <PNaming_FieldOfHArray1OfNamedShape.hxx>
-#include <PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
-#include <PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/PNaming_FieldOfHArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
 
  
 
@@ -31,23 +31,23 @@ IMPLEMENT_STANDARD_RTTI(PNaming_HArray1OfNamedShape)
 
 
 #define Item Handle(PNaming_NamedShape)
-#define Item_hxx <PNaming_NamedShape.hxx>
+#define Item_hxx <OCAF/PNaming/PNaming_NamedShape.hxx>
 #define PCollection_FieldOfHArray1 PNaming_FieldOfHArray1OfNamedShape
-#define PCollection_FieldOfHArray1_hxx <PNaming_FieldOfHArray1OfNamedShape.hxx>
+#define PCollection_FieldOfHArray1_hxx <OCAF/PNaming/PNaming_FieldOfHArray1OfNamedShape.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape
-#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <OCAF/PNaming/PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray1 PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape
-#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <OCAF/PNaming/PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape
-#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <OCAF/PNaming/PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray1 PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape
-#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <OCAF/PNaming/PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray1 Handle_PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape
 #define PCollection_VArrayNodeOfFieldOfHArray1_Type_() PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape_Type_()
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray1 Handle_PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape
 #define PCollection_VArrayNodeOfFieldOfHArray1_Type_() PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape_Type_()
 #define PCollection_HArray1 PNaming_HArray1OfNamedShape
-#define PCollection_HArray1_hxx <PNaming_HArray1OfNamedShape.hxx>
+#define PCollection_HArray1_hxx <OCAF/PNaming/PNaming_HArray1OfNamedShape.hxx>
 #define Handle_PCollection_HArray1 Handle_PNaming_HArray1OfNamedShape
 #define PCollection_HArray1_Type_() PNaming_HArray1OfNamedShape_Type_()
 #include <OCAF/PCollection/PCollection_HArray1.gxx>

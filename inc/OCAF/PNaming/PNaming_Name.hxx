@@ -84,7 +84,7 @@ private:
 };
 
 
-#include <PNaming_Name.lxx>
+#include <OCAF/PNaming/PNaming_Name.lxx>
 
 
 

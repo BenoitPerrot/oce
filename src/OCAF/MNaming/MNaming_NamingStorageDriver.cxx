@@ -30,20 +30,20 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MNaming_NamingStorageDriver)
 IMPLEMENT_DOWNCAST(MNaming_NamingStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MNaming_NamingStorageDriver)
-#include <PNaming_Naming_2.hxx>
+#include <OCAF/PNaming/PNaming_Naming_2.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Tool.hxx>
 #include <TNaming_Naming.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TNaming_Name.hxx>
-#include <PNaming_Name_2.hxx>
-#include <PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/PNaming_Name_2.hxx>
+#include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_ListOfNamedShape.hxx>
 #include <TNaming_ListIteratorOfListOfNamedShape.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <PNaming_HArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/PNaming_HArray1OfNamedShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 //=======================================================================

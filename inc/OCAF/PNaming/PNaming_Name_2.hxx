@@ -100,7 +100,7 @@ private:
 };
 
 
-#include <PNaming_Name_2.lxx>
+#include <OCAF/PNaming/PNaming_Name_2.lxx>
 
 
 

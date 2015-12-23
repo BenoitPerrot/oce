@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PNaming_HArray1OfNamedShape.hxx>
-#include <PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/PNaming_HArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/PNaming_NamedShape.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
-#include <PNaming_Name_2.hxx>
+#include <OCAF/PNaming/PNaming_Name_2.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_Name_2)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

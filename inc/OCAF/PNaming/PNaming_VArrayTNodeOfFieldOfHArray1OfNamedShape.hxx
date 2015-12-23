@@ -53,15 +53,15 @@ private:
 };
 
 #define Item Handle(PNaming_NamedShape)
-#define Item_hxx <PNaming_NamedShape.hxx>
+#define Item_hxx <OCAF/PNaming/PNaming_NamedShape.hxx>
 #define DBC_VArrayNode PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape
-#define DBC_VArrayNode_hxx <PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PNaming/PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
 #define DBC_VArrayTNode PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape
-#define DBC_VArrayTNode_hxx <PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PNaming/PNaming_VArrayTNodeOfFieldOfHArray1OfNamedShape.hxx>
 #define Handle_DBC_VArrayNode Handle_PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape
 #define DBC_VArrayNode_Type_() PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape_Type_()
 #define DBC_VArray PNaming_FieldOfHArray1OfNamedShape
-#define DBC_VArray_hxx <PNaming_FieldOfHArray1OfNamedShape.hxx>
+#define DBC_VArray_hxx <OCAF/PNaming/PNaming_FieldOfHArray1OfNamedShape.hxx>
 
 #include <OCAF/DBC/DBC_VArrayTNode.lxx>
 

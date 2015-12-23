@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PNaming_Name.hxx>
-#include <PNaming_Naming.hxx>
+#include <OCAF/PNaming/PNaming_Name.hxx>
+#include <OCAF/PNaming/PNaming_Naming.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_Naming)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

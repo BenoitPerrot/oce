@@ -2,7 +2,7 @@
 #include <StdSchema_PNaming_Naming.hxx>
 #endif
 #ifndef _PNaming_Naming_HeaderFile
-#include <PNaming_Naming.hxx>
+#include <OCAF/PNaming/PNaming_Naming.hxx>
 #endif
 #ifndef _StdSchema_PNaming_Name_HeaderFile
 #include <StdSchema_PNaming_Name.hxx>

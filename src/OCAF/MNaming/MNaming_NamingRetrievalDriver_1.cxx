@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MNaming_NamingRetrievalDriver_1)
 IMPLEMENT_DOWNCAST(MNaming_NamingRetrievalDriver_1,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MNaming_NamingRetrievalDriver_1)
-#include <PNaming_Naming_1.hxx>
-#include <PNaming_NamedShape.hxx>
-#include <PNaming_HArray1OfNamedShape.hxx>
-#include <PNaming_Name_1.hxx>
+#include <OCAF/PNaming/PNaming_Naming_1.hxx>
+#include <OCAF/PNaming/PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/PNaming_HArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/PNaming_Name_1.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>
