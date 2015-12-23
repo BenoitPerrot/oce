@@ -6,9 +6,9 @@
 //for OCC graphic
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <WNT_Window.hxx>
-#include <Graphic3d_CView.hxx>
-#include <Graphic3d_Camera.hxx>
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CView.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Camera.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <OpenGl_CView.hxx>
 //for object display

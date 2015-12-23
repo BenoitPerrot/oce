@@ -20,7 +20,7 @@
 #include <Visualization/Font/Font_FontAspect.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfStyleText.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfDisplayText.hxx>
-#include <Graphic3d_CAspectText.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CAspectText.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

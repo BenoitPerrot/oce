@@ -19,7 +19,7 @@
 #include <Prs3d_LineAspect.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
-#include <Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Prs3d_DimensionAspect, Prs3d_BasicAspect)

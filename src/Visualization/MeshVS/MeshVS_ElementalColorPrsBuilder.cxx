@@ -31,13 +31,13 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_ElementalColorPrsBuilder)
 IMPLEMENT_DOWNCAST(MeshVS_ElementalColorPrsBuilder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_ElementalColorPrsBuilder)
 
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_ArrayOfPolygons.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolygons.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 
 #include <Prs3d_ShadingAspect.hxx>
 #include <Prs3d_Root.hxx>

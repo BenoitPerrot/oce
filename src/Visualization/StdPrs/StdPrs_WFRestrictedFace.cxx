@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/Hatch/Hatch_Hatcher.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>

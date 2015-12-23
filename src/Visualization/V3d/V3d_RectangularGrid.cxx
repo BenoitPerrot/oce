@@ -42,8 +42,8 @@
  * Includes
  */
 
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_RectangularGrid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -59,14 +59,14 @@ IMPLEMENT_DOWNCAST(V3d_RectangularGrid,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(V3d_RectangularGrid)
 
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_AspectText3d.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <V3d_Viewer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 
 /*----------------------------------------------------------------------*/
 /*

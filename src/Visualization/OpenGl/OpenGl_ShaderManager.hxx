@@ -16,7 +16,7 @@
 #ifndef _OpenGl_ShaderManager_HeaderFile
 #define _OpenGl_ShaderManager_HeaderFile
 
-#include <Graphic3d_ShaderProgram_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderProgram_Handle.hxx>
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>

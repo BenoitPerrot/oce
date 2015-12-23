@@ -15,7 +15,7 @@
 
 #include <OpenGl_Workspace.hxx>
 
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <OpenGl_FrameBuffer.hxx>
 #include <OpenGl_PrimitiveArray.hxx>
 #include <OpenGl_VertexBuffer.hxx>

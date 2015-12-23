@@ -20,9 +20,9 @@
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ShaderObject.hxx>
-#include <Graphic3d_ShaderProgram.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderObject.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
 #include <OpenGl_AspectFace.hxx>
 #include <OpenGl_AspectLine.hxx>
 #include <OpenGl_AspectMarker.hxx>

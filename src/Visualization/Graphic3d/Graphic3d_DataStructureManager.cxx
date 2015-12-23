@@ -32,7 +32,7 @@
 //-Declarations
 
 // for the class
-#include <Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_DataStructureManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

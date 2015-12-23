@@ -24,7 +24,7 @@
 #include <Handle_Geom_Transformation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Handle_AIS_Drawer.hxx>
 class TopoDS_Shape;

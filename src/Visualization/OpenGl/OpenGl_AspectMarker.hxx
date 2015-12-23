@@ -18,7 +18,7 @@
 
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
-#include <Graphic3d_CAspectMarker.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CAspectMarker.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <OpenGl_Element.hxx>

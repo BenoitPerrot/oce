@@ -17,12 +17,12 @@
 #include <MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <Graphic3d_ArrayOfPrimitives.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <MeshVS_MeshPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_MeshPrsBuilder)
@@ -40,15 +40,15 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshPrsBuilder)
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PointAspect.hxx>
 
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_ArrayOfPolygons.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolygons.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>

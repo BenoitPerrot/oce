@@ -18,9 +18,9 @@
 #include <QStyleFactory>
 
 #include <Visual3d_View.hxx>
-#include <Graphic3d_ExportFormat.hxx>
-#include <Graphic3d_GraphicDriver.hxx>
-#include <Graphic3d_TextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ExportFormat.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
   
 #if defined(_WIN32) || defined(__WIN32__)
 #include <WNT_Window.hxx>

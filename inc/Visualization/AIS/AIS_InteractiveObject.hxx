@@ -16,7 +16,7 @@
 #include <Handle_AIS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>

@@ -23,9 +23,9 @@
 #include <OpenGl_TextFormatter.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Graphic3d_Vertex.hxx>
-#include <Graphic3d_HorizontalTextAlignment.hxx>
-#include <Graphic3d_VerticalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_HorizontalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_VerticalTextAlignment.hxx>
 
 class Handle(OpenGl_PrinterContext);
 

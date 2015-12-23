@@ -18,10 +18,10 @@
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_Plane.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_Vertex.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

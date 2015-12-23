@@ -20,7 +20,7 @@
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_Geom_Transformation.hxx>
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <Handle_Prs3d_ShadingAspect.hxx>
 #include <Handle_PrsMgr_Presentation.hxx>
 class Graphic3d_StructureManager;

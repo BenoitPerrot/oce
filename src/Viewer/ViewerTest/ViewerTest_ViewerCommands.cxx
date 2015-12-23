@@ -21,13 +21,13 @@
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <DBRep.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_ExportFormat.hxx>
-#include <Graphic3d_NameOfTextureEnv.hxx>
-#include <Graphic3d_TextureEnv.hxx>
-#include <Graphic3d_TextureParams.hxx>
-#include <Graphic3d_TypeOfTextureFilter.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ExportFormat.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfTextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfTextureFilter.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <ViewerTest.hxx>
 #include <ViewerTest_AutoUpdater.hxx>
 #include <ViewerTest_EventManager.hxx>
@@ -68,9 +68,9 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <PrsMgr_PresentableObject.hxx>
-#include <Graphic3d_ClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <Graphic3d_Texture2Dmanual.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 
 #ifdef WNT

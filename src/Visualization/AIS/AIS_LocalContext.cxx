@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfSelStat.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_PointAspect.hxx>

@@ -31,7 +31,7 @@
 #include <OpenGl_View.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 
 #if defined(_WIN32) && defined(HAVE_VIDEOCAPTURE)
   #include <OpenGl_AVIWriter.hxx>

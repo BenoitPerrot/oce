@@ -27,10 +27,10 @@
 #include <OpenGl_AspectLine.hxx>
 #include <OpenGl_Element.hxx>
 
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_CAspectFillArea.hxx>
-#include <Graphic3d_ShaderProgram_Handle.hxx>
-#include <Graphic3d_TextureMap.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CAspectFillArea.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderProgram_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureMap.hxx>
 
 #define OPENGL_AMBIENT_MASK  (1<<0)
 #define OPENGL_DIFFUSE_MASK  (1<<1)

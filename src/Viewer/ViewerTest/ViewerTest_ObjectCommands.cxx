@@ -85,17 +85,17 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyHLRToShape.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 
-#include <Graphic3d_ArrayOfPoints.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
-#include <Graphic3d_ArrayOfTriangleFans.hxx>
-#include <Graphic3d_ArrayOfTriangleStrips.hxx>
-#include <Graphic3d_ArrayOfQuadrangles.hxx>
-#include <Graphic3d_ArrayOfQuadrangleStrips.hxx>
-#include <Graphic3d_ArrayOfPolygons.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangleFans.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangleStrips.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfQuadrangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfQuadrangleStrips.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolygons.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 
 #include <Visualization/AIS/AIS_Circle.hxx>
@@ -2399,13 +2399,13 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 //purpose  : Create a text.
 //Draw arg : vdrawtext  name  [X] [Y] [Z] [R] [G] [B] [hor_align] [ver_align] [angle] [zoomable]
 //===============================================================================================
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_AspectText3d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_VerticalTextAlignment.hxx>
-#include <Graphic3d_HorizontalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_VerticalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_HorizontalTextAlignment.hxx>
 
 #include <Visualization/Font/Font_NameOfFont.hxx>
 
@@ -2618,9 +2618,9 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 
 #include <math.h>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
-#include <Graphic3d_ArrayOfPrimitives.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
@@ -2632,13 +2632,13 @@ static int VDrawText (Draw_Interpretor& di, Standard_Integer argc, const char** 
 #include <StdPrs_ToolShadedShape.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfDir.hxx>
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Prs3d_ShadingAspect.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

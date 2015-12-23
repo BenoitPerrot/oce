@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfAddress.hxx>
 #include <Handle_Graphic3d_TextureEnv.hxx>
 #include <Visual3d_TypeOfSurfaceDetail.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Visual3d_Light.hxx>
 #include <Handle_Visual3d_HSequenceOfLight.hxx>

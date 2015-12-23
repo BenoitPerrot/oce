@@ -43,8 +43,8 @@
 #include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_LineAspect.hxx>
 

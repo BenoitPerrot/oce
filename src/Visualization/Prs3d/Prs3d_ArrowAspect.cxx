@@ -14,7 +14,7 @@
 
 #define IMP120100	//GG 01/01/00 Add SetColor() methods
 
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_InvalidAngle.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_ArrowAspect.hxx>

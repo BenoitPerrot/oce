@@ -17,8 +17,8 @@
 #define _OpenGl_Group_Header
 
 #include <InterfaceGraphic_Graphic3d.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <OpenGl_AspectLine.hxx>

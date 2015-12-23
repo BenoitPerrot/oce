@@ -53,9 +53,9 @@
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_TextureRoot.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureRoot.hxx>
 #include <Image_AlienPixMap.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Prs3d_IsoAspect.hxx>
@@ -91,7 +91,7 @@ extern int ViewerMainLoop(Standard_Integer argc, const char** argv);
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 
 #define DEFAULT_COLOR    Quantity_NOC_GOLDENROD
 #define DEFAULT_MATERIAL Graphic3d_NOM_BRASS

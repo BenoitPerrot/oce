@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 #include <V3d_Plane.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_ArrayOfQuadrangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfQuadrangles.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(V3d_Plane, MMgt_TShared)

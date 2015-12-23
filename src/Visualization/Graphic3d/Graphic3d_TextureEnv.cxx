@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_TextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_TextureEnv)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Graphic3d_TextureEnv)
 IMPLEMENT_DOWNCAST(Graphic3d_TextureEnv,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_TextureEnv)
-#include <Graphic3d_TypeOfTexture.hxx>
-#include <Graphic3d_TypeOfTextureMode.hxx>
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfTexture.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfTextureMode.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static const char *NameOfTexture_to_FileName[] =

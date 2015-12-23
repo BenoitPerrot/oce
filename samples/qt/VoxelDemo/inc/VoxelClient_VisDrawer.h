@@ -17,7 +17,7 @@
 #define _VOXEL_VISDRAWER_H_
 
 #include "Voxel_VisData.h"
-#include <Graphic3d_BndBox4f.hxx>
+#include <Visualization/Graphic3d/Graphic3d_BndBox4f.hxx>
 
 class Handle(OpenGl_GraphicDriver);
 

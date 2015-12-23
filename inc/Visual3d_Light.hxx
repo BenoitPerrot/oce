@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Visual3d_Light.hxx>
 
-#include <Graphic3d_CLight.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CLight.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visual3d_TypeOfLightSource.hxx>
 class Visual3d_LightDefinitionError;

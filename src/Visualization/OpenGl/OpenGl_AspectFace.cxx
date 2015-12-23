@@ -23,10 +23,10 @@
 #include <OpenGl_Texture.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Graphic3d_ShaderProgram.hxx>
-#include <Graphic3d_TextureMap.hxx>
-#include <Graphic3d_TypeOfReflection.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureMap.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfReflection.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 
 namespace
 {

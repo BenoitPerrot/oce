@@ -43,7 +43,7 @@
 #include <V3d_View.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 
 #include <TDataXtd_Axis.hxx>
 #include <TDataXtd_Constraint.hxx>

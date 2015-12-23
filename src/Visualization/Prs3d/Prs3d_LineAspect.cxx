@@ -15,7 +15,7 @@
 #define GER61351		//GG_171199     Enable to set an object RGB color
 //						  instead a restricted object NameOfColor.
 
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

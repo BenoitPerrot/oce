@@ -19,7 +19,7 @@
 #include <Prs3d_Presentation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
 #include <MeshVS_DataMapOfIntegerVector.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <MeshVS_VectorPrsBuilder.hxx>
@@ -36,15 +36,15 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 
 #include <MeshVS_DisplayModeFlags.hxx>
 
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_ArrayOfPolygons.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
-#include <Graphic3d_ArrayOfTriangleFans.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolygons.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangleFans.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

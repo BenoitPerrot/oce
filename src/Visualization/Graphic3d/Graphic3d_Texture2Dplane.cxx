@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_Texture2Dplane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2Dplane.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Texture2Dplane)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Graphic3d_Texture2Dplane)
 IMPLEMENT_DOWNCAST(Graphic3d_Texture2Dplane,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_Texture2Dplane)
-#include <Graphic3d_TypeOfTextureMode.hxx>
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfTextureMode.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 
 // =======================================================================
 // function : Graphic3d_Texture2Dplane

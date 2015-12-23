@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_SequenceOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfStructure.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(Graphic3d_SequenceNodeOfSequenceOfStructure)
 
 
 #define SeqItem Handle(Graphic3d_Structure)
-#define SeqItem_hxx <Graphic3d_Structure.hxx>
+#define SeqItem_hxx <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #define TCollection_SequenceNode Graphic3d_SequenceNodeOfSequenceOfStructure
-#define TCollection_SequenceNode_hxx <Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/Graphic3d/Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
 #define Handle_TCollection_SequenceNode Handle_Graphic3d_SequenceNodeOfSequenceOfStructure
 #define TCollection_SequenceNode_Type_() Graphic3d_SequenceNodeOfSequenceOfStructure_Type_()
 #define TCollection_Sequence Graphic3d_SequenceOfStructure
-#define TCollection_Sequence_hxx <Graphic3d_SequenceOfStructure.hxx>
+#define TCollection_Sequence_hxx <Visualization/Graphic3d/Graphic3d_SequenceOfStructure.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

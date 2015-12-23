@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 
 Standard_ShortReal Graphic3d_Vertex::Distance(const Graphic3d_Vertex& AOther) const
 {

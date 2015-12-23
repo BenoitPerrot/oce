@@ -18,8 +18,8 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Prs3d_Projector.hxx>
 #include <PrsMgr_Presentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_Presentation)
 #include <PrsMgr_Prs.hxx>
 #include <PrsMgr_ModedPresentation.hxx>
 
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visual3d_View.hxx>
 #include <Precision.hxx>
 

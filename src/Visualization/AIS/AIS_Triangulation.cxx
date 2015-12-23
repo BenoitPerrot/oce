@@ -23,9 +23,9 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 
 
 IMPLEMENT_STANDARD_HANDLE(AIS_Triangulation, AIS_InteractiveObject)

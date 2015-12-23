@@ -18,12 +18,12 @@
 
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Graphic3d_NameOfTexture2D.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfTexture2D.hxx>
 #include <Image_PixMap.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_Texture2Dmanual.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 

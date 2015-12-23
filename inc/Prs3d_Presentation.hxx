@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_StructureManager.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_Structure.hxx>

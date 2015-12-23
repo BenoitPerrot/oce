@@ -16,11 +16,11 @@
 #ifndef _Graphic3d_ShaderVariable_HeaderFile
 #define _Graphic3d_ShaderVariable_HeaderFile
 
-#include <Graphic3d_Vec.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vec.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <Graphic3d_ShaderVariable_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderVariable_Handle.hxx>
 
 //! Interface for generic variable value.
 struct Graphic3d_ValueInterface
@@ -162,6 +162,6 @@ protected:
   Graphic3d_ValueInterface* myValue;
 };
 
-#include <Graphic3d_ShaderVariable.lxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderVariable.lxx>
 
 #endif // _Graphic3d_ShaderVariable_HeaderFile

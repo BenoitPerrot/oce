@@ -24,14 +24,14 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_Text.hxx>
 #include <Visualization/DsgPrs/DsgPrs.hxx>
 

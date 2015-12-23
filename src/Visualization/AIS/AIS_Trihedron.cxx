@@ -65,10 +65,10 @@ IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <Prs3d_TextAspect.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_DatumAspect.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_Plane.hxx>

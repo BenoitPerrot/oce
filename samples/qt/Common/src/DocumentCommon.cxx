@@ -11,7 +11,7 @@
 
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

@@ -24,11 +24,11 @@
 
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_CView.hxx>
-#include <Graphic3d_TypeOfComposition.hxx>
-#include <Graphic3d_TypeOfTexture.hxx>
-#include <Graphic3d_PtrFrameBuffer.hxx>
-#include <Graphic3d_BufferType.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CView.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfComposition.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfTexture.hxx>
+#include <Visualization/Graphic3d/Graphic3d_PtrFrameBuffer.hxx>
+#include <Visualization/Graphic3d/Graphic3d_BufferType.hxx>
 #include <Handle_Graphic3d_TextureParams.hxx>
 
 #include <Visualization/Aspect/Aspect_CLayer2d.hxx>

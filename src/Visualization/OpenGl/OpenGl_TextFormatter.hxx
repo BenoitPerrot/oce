@@ -19,8 +19,8 @@
 #include <OpenGl_Font.hxx>
 #include <OpenGl_VertexBufferEditor.hxx>
 
-#include <Graphic3d_HorizontalTextAlignment.hxx>
-#include <Graphic3d_VerticalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_HorizontalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_VerticalTextAlignment.hxx>
 
 #include <Foundation/NCollection/NCollection_String.hxx>
 

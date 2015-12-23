@@ -42,7 +42,7 @@
 #include <StdSelect_ViewerSelector3d.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 
 #include <StlMesh_Mesh.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>

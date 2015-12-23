@@ -21,7 +21,7 @@
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
-#include <Graphic3d_CUserDraw.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CUserDraw.hxx>
 
 #include <InterfaceGraphic_telem.hxx>
 #include <OpenGl_Element.hxx>

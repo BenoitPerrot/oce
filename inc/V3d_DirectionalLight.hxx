@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_DirectionalLight.hxx>
 
-#include <Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <V3d_PositionLight.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <V3d_TypeOfOrientation.hxx>

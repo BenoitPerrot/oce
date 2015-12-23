@@ -40,11 +40,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_PointAspect.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <Select3D_SensitivePoint.hxx>

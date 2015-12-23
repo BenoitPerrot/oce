@@ -20,7 +20,7 @@
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
@@ -54,15 +54,15 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectText3d.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
-#include <Graphic3d_SequenceOfGroup.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfGroup.hxx>
 
 #include <Prs3d.hxx>
 #include <Prs3d_Presentation.hxx>

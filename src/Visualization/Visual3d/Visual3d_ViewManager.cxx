@@ -56,15 +56,15 @@
 
 // for the class
 #include <Visual3d_Layer.hxx>
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Visual3d_View.hxx>
 #include <Visual3d_HSequenceOfView.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Visualization/Aspect/Aspect_GenId.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
-#include <Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_ViewManager)
@@ -82,9 +82,9 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_ViewManager)
 #include <Visualization/Aspect/Aspect.hxx>
 #include <Visualization/Aspect/Aspect_IdentDefinitionError.hxx>
 
-#include <Graphic3d_GraphicDriver.hxx>
-#include <Graphic3d_MapOfStructure.hxx>
-#include <Graphic3d_MapIteratorOfMapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapIteratorOfMapOfStructure.hxx>
 
 
 #if defined (_WIN32) || defined(__WIN32__)

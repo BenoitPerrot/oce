@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(MPrsStd_AISPresentationRetrievalDriver)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCollection_HExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <CDM_MessageDriver.hxx>
 
 //=======================================================================

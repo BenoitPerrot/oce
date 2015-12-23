@@ -2,7 +2,7 @@
 
 #include <OpenGl_ArbFBO.hxx>
 
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 
 #include <d3dx9.h>
 

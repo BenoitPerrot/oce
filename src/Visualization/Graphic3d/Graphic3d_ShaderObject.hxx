@@ -18,8 +18,8 @@
 
 #include <Foundation/OSD/OSD_Path.hxx>
 
-#include <Graphic3d_TypeOfShaderObject.hxx>
-#include <Graphic3d_ShaderObject_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfShaderObject.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderObject_Handle.hxx>
 
 //! This class is responsible for managing shader objects.
 class Graphic3d_ShaderObject : public Standard_Transient

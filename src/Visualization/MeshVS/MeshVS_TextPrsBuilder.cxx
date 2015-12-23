@@ -33,14 +33,14 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_TextPrsBuilder)
 
 #include <MeshVS_DisplayModeFlags.hxx>
 
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_Root.hxx>
 #include <Prs3d_TextAspect.hxx>
-#include <Graphic3d_AspectText3d.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
-#include <Graphic3d_Vertex.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>

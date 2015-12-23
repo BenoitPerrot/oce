@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_Texture2D.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Texture2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

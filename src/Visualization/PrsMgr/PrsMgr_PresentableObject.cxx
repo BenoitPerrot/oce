@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <PrsMgr_Presentation.hxx>
 #include <PrsMgr_PresentationManager.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_Projector.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentableObject)
 #include <PrsMgr_PresentationManager.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <Graphic3d_TypeOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfStructure.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 
 //=======================================================================

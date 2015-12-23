@@ -16,8 +16,8 @@
 #ifndef OpenGl_Structure_Header
 #define OpenGl_Structure_Header
 
-#include <Graphic3d_CStructure.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 
 #include <OpenGl_AspectLine.hxx>
 #include <OpenGl_AspectFace.hxx>

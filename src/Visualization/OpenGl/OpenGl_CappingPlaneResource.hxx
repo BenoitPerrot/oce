@@ -19,7 +19,7 @@
 #include <OpenGl_Resource.hxx>
 #include <OpenGl_AspectFace.hxx>
 #include <OpenGl_Matrix.hxx>
-#include <Graphic3d_ClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
 
 class Handle(OpenGl_Context);
 

@@ -20,7 +20,7 @@
 //			if any in all dimensions.
 
 #include <Visualization/AIS/AIS.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

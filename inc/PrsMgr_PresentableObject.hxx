@@ -12,8 +12,8 @@
 
 #include <PrsMgr_Presentations.hxx>
 #include <PrsMgr_TypeOfPresentation3d.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
-#include <Graphic3d_CTransPersStruct.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CTransPersStruct.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PrsMgr_PresentableObjectPointer.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
@@ -29,8 +29,8 @@
 #include <Handle_Prs3d_Projector.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Handle_PrsMgr_Presentation.hxx>
-#include <Graphic3d_TransModeFlags.hxx>
-#include <Graphic3d_ClipPlane_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TransModeFlags.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ClipPlane_Handle.hxx>
 class Standard_NotImplemented;
 class PrsMgr_Presentation;
 class PrsMgr_PresentationManager;

@@ -20,7 +20,7 @@
 #include <OpenGl_Context.hxx>
 #include <OpenGl_ShaderProgram.hxx>
 
-#include <Graphic3d_IndexBuffer.hxx>
+#include <Visualization/Graphic3d/Graphic3d_IndexBuffer.hxx>
 
 //! Vertex Buffer Object - is a general storage object for vertex attributes (position, normal, color).
 //! Notice that you should use OpenGl_IndexBuffer specialization for array of indices.

@@ -18,8 +18,8 @@
 #include <Visualization/AIS/AIS_DisplayMode.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Handle_AIS_Drawer.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_IsoAspect.hxx>

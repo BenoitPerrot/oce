@@ -20,10 +20,10 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Prs3d_TextAspect.hxx>
 #include <Prs3d_Text.hxx>
-#include <Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Prs3d_TextAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 
 void Prs3d_Text::Draw (
 		       const Handle(Prs3d_Presentation)& aPresentation,

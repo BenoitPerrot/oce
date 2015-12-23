@@ -40,7 +40,7 @@
  * Includes
  */
 
-#include <Graphic3d_TextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
 #include <Visual3d_ClipDefinitionError.hxx>
 #include <Visual3d_DepthCueingDefinitionError.hxx>
 #include <Visual3d_LightDefinitionError.hxx>

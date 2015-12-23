@@ -16,7 +16,7 @@
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 
-#include <Graphic3d_Buffer.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Buffer.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

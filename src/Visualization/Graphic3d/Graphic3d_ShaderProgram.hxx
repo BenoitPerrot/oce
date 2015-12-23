@@ -16,9 +16,9 @@
 #ifndef _Graphic3d_ShaderProgram_HeaderFile
 #define _Graphic3d_ShaderProgram_HeaderFile
 
-#include <Graphic3d_ShaderObject_Handle.hxx>
-#include <Graphic3d_ShaderProgram_Handle.hxx>
-#include <Graphic3d_ShaderVariable.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderObject_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderProgram_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderVariable.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 
 //! List of shader objects.

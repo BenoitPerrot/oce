@@ -20,13 +20,13 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Visualization/DsgPrs/DsgPrs_TangentPresentation.hxx>
 
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Prs3d_PointAspect.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <StdPrs_Point.hxx>

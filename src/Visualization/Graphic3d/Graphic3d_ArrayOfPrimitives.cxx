@@ -13,13 +13,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Graphic3d_InitialisationError.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_InitialisationError.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_ArrayOfPrimitives)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

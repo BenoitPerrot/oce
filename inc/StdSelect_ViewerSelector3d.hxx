@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <SelectMgr_ViewerSelector.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Handle_V3d_View.hxx>

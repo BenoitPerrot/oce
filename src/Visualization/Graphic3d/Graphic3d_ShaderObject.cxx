@@ -16,8 +16,8 @@
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Protection.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
-#include <Graphic3d_ShaderObject.hxx>
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderObject.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 
 namespace
 {

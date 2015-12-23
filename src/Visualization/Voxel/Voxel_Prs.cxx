@@ -34,9 +34,9 @@ IMPLEMENT_STANDARD_RTTI(Voxel_Prs)
 #include "Voxel_VisData.h"
 
 #include <Prs3d_Root.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 
 Voxel_Prs::Voxel_Prs():AIS_InteractiveObject(PrsMgr_TOP_AllView),myVisData(0)
 {

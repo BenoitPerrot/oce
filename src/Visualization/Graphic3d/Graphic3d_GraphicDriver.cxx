@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_TransformError.hxx>
-#include <Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TransformError.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_GraphicDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

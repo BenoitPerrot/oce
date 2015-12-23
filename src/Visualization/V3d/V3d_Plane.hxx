@@ -16,8 +16,8 @@
 #ifndef _V3d_Plane_H__
 #define _V3d_Plane_H__
 
-#include <Graphic3d_ClipPlane.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <V3d_View.hxx>
 
 DEFINE_STANDARD_HANDLE (V3d_Plane, MMgt_TShared)

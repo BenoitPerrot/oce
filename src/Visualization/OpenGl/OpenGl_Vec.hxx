@@ -16,7 +16,7 @@
 #ifndef _OpenGl_Vec_H__
 #define _OpenGl_Vec_H__
 
-#include <Graphic3d_Vec.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vec.hxx>
 
 typedef Graphic3d_Vec2i  OpenGl_Vec2i;
 typedef Graphic3d_Vec3i  OpenGl_Vec3i;

@@ -20,13 +20,13 @@
 #include <Prs3d_Drawer.hxx>
 #include <StdSelect.hxx>
 #include <SelectMgr_Selection.hxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Select3D_SensitiveSegment.hxx>
 #include <Select3D_SensitiveCurve.hxx>
 #include <Select3D_SensitiveFace.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

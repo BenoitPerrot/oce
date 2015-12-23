@@ -20,8 +20,8 @@
 #include <StdPrs_WFSurface.hxx>
 
 
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

@@ -17,7 +17,7 @@
 #include <OpenGl_ArbFBO.hxx>
 #include <OpenGl_Context.hxx>
 #include <OpenGl_GlCore15.hxx>
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Image_PixMap.hxx>
 

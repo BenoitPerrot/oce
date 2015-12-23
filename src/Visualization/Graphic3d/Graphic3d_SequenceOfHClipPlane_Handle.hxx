@@ -17,7 +17,7 @@
 #define _Graphic3d_SequenceOfHClipPlane_Handle_HeaderFile
 
 #include <Foundation/NCollection/NCollection_Handle.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 
 typedef NCollection_Handle<Graphic3d_SequenceOfHClipPlane> Handle(Graphic3d_SequenceOfHClipPlane);
 

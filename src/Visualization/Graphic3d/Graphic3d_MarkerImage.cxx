@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_MarkerImage.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MarkerImage.hxx>
 
 #include <Image_PixMap.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>

@@ -30,11 +30,11 @@ IMPLEMENT_DOWNCAST(QABugs_PresentableObject,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(QABugs_PresentableObject)
 #include <QABugs_PresentableObject.hxx>
 
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Prs3d_ShadingAspect.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

@@ -17,7 +17,7 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfByte.hxx>
-#include <Graphic3d_MarkerImage_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MarkerImage_Handle.hxx>
 class Graphic3d_AspectMarker3d;
 class Quantity_Color;
 class TColStd_HArray1OfByte;

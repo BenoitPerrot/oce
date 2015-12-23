@@ -22,9 +22,9 @@
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_ShadedSurface.hxx>
 
-#include <Graphic3d_ArrayOfTriangleStrips.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangleStrips.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Prs3d_ShadingAspect.hxx>

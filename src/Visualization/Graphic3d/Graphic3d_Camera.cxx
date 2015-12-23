@@ -16,8 +16,8 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 
-#include <Graphic3d_Vec4.hxx>
-#include <Graphic3d_Camera.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vec4.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Camera.hxx>
 
 #include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>

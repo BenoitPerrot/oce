@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <MeshVS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

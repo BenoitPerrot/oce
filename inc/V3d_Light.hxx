@@ -22,7 +22,7 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_V3d_View.hxx>
-#include <Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <V3d_Coordinate.hxx>
 class Visual3d_Light;
 class Graphic3d_Structure;

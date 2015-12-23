@@ -30,8 +30,8 @@
 //-Declarations
 
 // for the class
-#include <Graphic3d_Vector.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d.hxx>
@@ -40,11 +40,11 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Visual3d_View.hxx>
 #include <Visual3d_ViewManager.hxx>
 

@@ -99,8 +99,8 @@
 #include <Prs3d_ShadingAspect.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <StdPrs_WFShape.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Select3D_SensitiveTriangulation.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

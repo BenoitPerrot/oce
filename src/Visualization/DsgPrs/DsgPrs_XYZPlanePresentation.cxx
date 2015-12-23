@@ -21,8 +21,8 @@
 #include <Prs3d_Root.hxx>
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_LineAspect.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 
 
 //=======================================================================

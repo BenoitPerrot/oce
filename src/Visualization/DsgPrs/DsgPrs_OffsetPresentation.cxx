@@ -28,9 +28,9 @@
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_ArrowAspect.hxx>
@@ -39,9 +39,9 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>

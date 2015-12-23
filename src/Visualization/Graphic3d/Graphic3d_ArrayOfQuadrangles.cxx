@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Graphic3d_ArrayOfQuadrangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfQuadrangles.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_ArrayOfQuadrangles)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

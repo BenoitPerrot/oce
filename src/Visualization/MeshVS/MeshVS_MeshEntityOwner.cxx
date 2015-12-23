@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(MeshVS_MeshEntityOwner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_MeshEntityOwner)
 
 #include <SelectBasics_EntityOwner.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Prs3d_Root.hxx>
 #include <SelectMgr_SelectableObject.hxx>

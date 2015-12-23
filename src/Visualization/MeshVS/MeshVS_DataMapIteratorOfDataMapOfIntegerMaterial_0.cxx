@@ -6,7 +6,7 @@
 #include <MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <MeshVS_DataMapOfIntegerMaterial.hxx>
 #include <MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
@@ -15,7 +15,7 @@
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Graphic3d_MaterialAspect
-#define TheItem_hxx <Graphic3d_MaterialAspect.hxx>
+#define TheItem_hxx <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerMaterial

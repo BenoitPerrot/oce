@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_Texture1Dmanual.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture1Dmanual.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Texture1Dmanual)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Graphic3d_Texture1Dmanual)
 IMPLEMENT_DOWNCAST(Graphic3d_Texture1Dmanual,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_Texture1Dmanual)
-#include <Graphic3d_TypeOfTextureMode.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfTextureMode.hxx>
 
 // =======================================================================
 // function : Graphic3d_Texture1Dmanual

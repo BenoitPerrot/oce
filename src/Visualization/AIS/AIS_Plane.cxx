@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ElSLib.hxx>
 
-#include <Graphic3d_ArrayOfQuadrangles.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfQuadrangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PlaneAspect.hxx>
@@ -61,10 +61,10 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 
 #include <Visualization/DsgPrs/DsgPrs_XYZPlanePresentation.hxx>
 #include <Visualization/DsgPrs/DsgPrs_ShadedPlanePresentation.hxx>

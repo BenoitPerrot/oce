@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_Projector)
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
-#include <Graphic3d_Vec4.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vec4.hxx>
 
 namespace
 {

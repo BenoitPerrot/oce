@@ -20,10 +20,10 @@
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_Texture2Dmanual.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
 #include <Precision.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <PrsMgr_ModedPresentation.hxx>

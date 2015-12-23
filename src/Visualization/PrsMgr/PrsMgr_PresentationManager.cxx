@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <PrsMgr_PresentableObject.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(PrsMgr_PresentationManager)
 IMPLEMENT_DOWNCAST(PrsMgr_PresentationManager,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentationManager)
 
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Prs3d_PresentationShadow.hxx>
 #include <PrsMgr_PresentableObject.hxx>
 #include <PrsMgr_Presentation.hxx>

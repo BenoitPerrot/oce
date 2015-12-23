@@ -49,10 +49,10 @@
 
 #include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
 #include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfILC.hxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_MapOfStructure.hxx>
-#include <Graphic3d_MapIteratorOfMapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapIteratorOfMapOfStructure.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>
 
 //=======================================================================

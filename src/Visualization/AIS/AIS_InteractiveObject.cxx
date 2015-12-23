@@ -33,7 +33,7 @@
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Prs3d_BasicAspect.hxx>
@@ -61,12 +61,12 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveObject)
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Visualization/AIS/AIS_GraphicTool.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_AspectText3d.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 
 
 //=======================================================================

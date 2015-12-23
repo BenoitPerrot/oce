@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Select3D_Projector.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_DOWNCAST(StdSelect_ViewerSelector3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <StdSelect.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Select3D_SensitiveEntity.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
@@ -68,8 +68,8 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <SelectBasics_ListIteratorOfListOfBox2d.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

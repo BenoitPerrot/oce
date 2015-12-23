@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_BRepOwner)
 
 #include <StdPrs_WFShape.hxx>
 
-#include <Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 
 //==================================================
 // Function: 

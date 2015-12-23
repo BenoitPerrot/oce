@@ -19,11 +19,11 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_Texture2Dmanual.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
 #include <Precision.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_IsoAspect.hxx>

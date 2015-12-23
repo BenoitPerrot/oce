@@ -13,23 +13,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_PriorityDefinitionError.hxx>
-#include <Graphic3d_StructureDefinitionError.hxx>
-#include <Graphic3d_TransformError.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_PriorityDefinitionError.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureDefinitionError.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TransformError.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectText3d.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Graphic3d_MapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapOfStructure.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Graphic3d_Vector.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Structure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -39,17 +39,17 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Graphic3d_Structure)
 IMPLEMENT_DOWNCAST(Graphic3d_Structure,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_Structure)
-#include <Graphic3d_Structure.pxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.pxx>
 
-#include <Graphic3d_GraphicDriver.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 
-#include <Graphic3d_MapOfStructure.hxx>
-#include <Graphic3d_MapIteratorOfMapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapIteratorOfMapOfStructure.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Graphic3d_TextureMap.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureMap.hxx>
 
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 

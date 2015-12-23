@@ -121,8 +121,8 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <V3d_LayerMgr.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <V3d_BadValue.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
@@ -130,14 +130,14 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_TextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
 #include <V3d_Light.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Aspect/Aspect_ColorScale.hxx>
 #include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Graphic3d_Vector.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -165,12 +165,12 @@ IMPLEMENT_STANDARD_RTTI(V3d_View)
 
 #include <Precision.hxx>
 
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_MapIteratorOfMapOfStructure.hxx>
-#include <Graphic3d_MapOfStructure.hxx>
-#include <Graphic3d_TextureEnv.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapIteratorOfMapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MapOfStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 
 #define V3d_FLAG_COMPUTATION   0x00000004
 

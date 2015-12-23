@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_Atomic.hxx>
 
-#include <Graphic3d_ShaderVariable.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderVariable.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Graphic3d_ShaderVariable, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(Graphic3d_ShaderVariable, Standard_Transient)

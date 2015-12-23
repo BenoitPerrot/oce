@@ -31,10 +31,10 @@
 #include <InterfaceGraphic_Graphic3d.hxx>
 #include <InterfaceGraphic_Visual3d.hxx>
 
-#include <Graphic3d_CView.hxx>
-#include <Graphic3d_CGraduatedTrihedron.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
-#include <Graphic3d_ZLayerSettings.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CView.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CGraduatedTrihedron.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
 #include <Visual3d_TypeOfSurfaceDetail.hxx>
 #include <Visual3d_TypeOfModel.hxx>
 

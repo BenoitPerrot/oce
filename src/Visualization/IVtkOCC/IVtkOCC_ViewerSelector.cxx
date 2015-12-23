@@ -17,7 +17,7 @@
 #include <Select3D_SensitiveBox.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Quaternion.hxx>
-#include <Graphic3d_Camera.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Camera.hxx>
 
 IMPLEMENT_STANDARD_HANDLE( IVtkOCC_ViewerSelector, SelectMgr_ViewerSelector )
 IMPLEMENT_STANDARD_RTTIEXT( IVtkOCC_ViewerSelector, SelectMgr_ViewerSelector )

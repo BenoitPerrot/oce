@@ -19,7 +19,7 @@
 #include <OpenGl_RenderFilter.hxx>
 #include <OpenGl_Group.hxx>
 
-#include <Graphic3d_SequenceOfGroup.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfGroup.hxx>
 
 // Forward declaration
 class Handle(OpenGl_Workspace);

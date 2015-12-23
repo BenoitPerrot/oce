@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 

@@ -18,7 +18,7 @@
 //              instead a restricted object NameOfColor.
 
 
-#include <Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Prs3d_TextAspect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

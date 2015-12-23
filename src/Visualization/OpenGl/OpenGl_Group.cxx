@@ -23,9 +23,9 @@
 #include <OpenGl_Text.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Graphic3d_ArrayOfPrimitives.hxx>
-#include <Graphic3d_CUserDraw.hxx>
-#include <Graphic3d_GroupDefinitionError.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CUserDraw.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GroupDefinitionError.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_Group, Graphic3d_Group)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_Group, Graphic3d_Group)

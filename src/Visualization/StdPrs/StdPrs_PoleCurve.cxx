@@ -19,8 +19,8 @@
 #include <Prs3d_Drawer.hxx>
 #include <StdPrs_PoleCurve.hxx>
 
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_ArrowAspect.hxx>

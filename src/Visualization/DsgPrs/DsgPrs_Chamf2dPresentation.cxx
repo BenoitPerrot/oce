@@ -20,8 +20,8 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Visualization/DsgPrs/DsgPrs_Chamf2dPresentation.hxx>
 
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_LineAspect.hxx>

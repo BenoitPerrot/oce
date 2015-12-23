@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_CStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CStructure.hxx>
 
-#include <Graphic3d_Structure.pxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_TransModeFlags.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.pxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TransModeFlags.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (Graphic3d_CStructure, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(Graphic3d_CStructure, Standard_Transient)

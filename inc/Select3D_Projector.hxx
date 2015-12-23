@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Graphic3d_Mat4d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Mat4d.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_V3d_View.hxx>
 class Standard_NoSuchObject;

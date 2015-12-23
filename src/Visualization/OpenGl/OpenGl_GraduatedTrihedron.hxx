@@ -19,7 +19,7 @@
 #include <OpenGl_Element.hxx>
 
 #include <OpenGl_Text.hxx>
-#include <Graphic3d_CGraduatedTrihedron.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CGraduatedTrihedron.hxx>
 
 class Visual3d_View;
 class OpenGl_View;

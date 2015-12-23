@@ -12,7 +12,7 @@
 
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
-#include <Graphic3d_TransModeFlags.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TransModeFlags.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

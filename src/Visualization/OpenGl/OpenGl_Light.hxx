@@ -16,7 +16,7 @@
 #ifndef OpenGl_Light_Header
 #define OpenGl_Light_Header
 
-#include <Graphic3d_CLight.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CLight.hxx>
 #include <Visual3d_TypeOfLightSource.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 

@@ -14,7 +14,7 @@
 #include <Prs3d_BasicAspect.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Graphic3d_AspectFillArea3d;
 class Quantity_Color;

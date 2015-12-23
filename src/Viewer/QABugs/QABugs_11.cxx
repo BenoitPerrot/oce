@@ -31,7 +31,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
@@ -4915,7 +4915,7 @@ static Standard_Integer OCC20627 (Draw_Interpretor& di, Standard_Integer argc, c
   return 0;
 }
 
-#include <Graphic3d_Vector.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
 Standard_Integer OCC22762 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
     if (argc!=7)

@@ -25,7 +25,7 @@ Novembre 1998 : CAL : Creation.
 ************************************************************************/
 
 // for the class
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Visual3d_LayerDefinitionError.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_TYPE_END(Visual3d_Layer)
 IMPLEMENT_DOWNCAST(Visual3d_Layer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Visual3d_Layer)
 
-#include <Graphic3d_TypeOfPrimitive.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfPrimitive.hxx>
 #include <Visual3d_ViewManager.hxx>
 
 //-Aliases

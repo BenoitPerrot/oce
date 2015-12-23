@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Graphic3d_Array2OfVertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Array2OfVertex.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -12,8 +12,8 @@
  
 
 #define Array2Item Graphic3d_Vertex
-#define Array2Item_hxx <Graphic3d_Vertex.hxx>
+#define Array2Item_hxx <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #define TCollection_Array2 Graphic3d_Array2OfVertex
-#define TCollection_Array2_hxx <Graphic3d_Array2OfVertex.hxx>
+#define TCollection_Array2_hxx <Visualization/Graphic3d/Graphic3d_Array2OfVertex.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

@@ -20,8 +20,8 @@
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <Graphic3d_ShaderObject.hxx>
-#include <Graphic3d_ShaderProgram.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderObject.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
 
 #include <InterfaceGraphic_tgl_all.hxx>
 

@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_OffsetDimension)
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Precision.hxx>
 #include <Prs3d_ArrowAspect.hxx>
 #include <Prs3d_Drawer.hxx>

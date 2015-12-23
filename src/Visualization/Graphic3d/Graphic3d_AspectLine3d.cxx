@@ -32,7 +32,7 @@
 
 // for the class
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_AspectLine3d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -27,8 +27,8 @@
 #include <OpenGl_Utils.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Graphic3d_TextureEnv.hxx>
-#include <Graphic3d_Mat4d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Mat4d.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(OpenGl_View,MMgt_TShared)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_View,MMgt_TShared)

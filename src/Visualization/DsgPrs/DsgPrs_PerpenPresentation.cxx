@@ -25,7 +25,7 @@
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_Arrow.hxx>
 #include <Prs3d_Text.hxx>
 #include <Prs3d_ArrowAspect.hxx>
@@ -34,9 +34,9 @@
 #include <Prs3d_PointAspect.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 
 #include <StdPrs_Point.hxx>
 

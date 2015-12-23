@@ -36,7 +36,7 @@
 #include <Visualization/Aspect/Aspect_GridType.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <Handle_Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
@@ -48,7 +48,7 @@
 #include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
 #include <Visualization/Aspect/Aspect_GridDrawMode.hxx>
 #include <Handle_Aspect_Grid.hxx>
-#include <Graphic3d_ZLayerSettings.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
 class Graphic3d_GraphicDriver;
 class Visual3d_ViewManager;
 class V3d_Light;

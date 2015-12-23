@@ -17,13 +17,13 @@
 #define IMP020200       //GG Add Transformation() method
 
 #include <Prs3d_Root.hxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_Presentation)
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(Prs3d_Presentation)
 IMPLEMENT_DOWNCAST(Prs3d_Presentation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Prs3d_Presentation)
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -49,8 +49,8 @@ IMPLEMENT_STANDARD_RTTI(Prs3d_Presentation)
 // OCC4895 SAN 22/03/04 High-level interface for controlling polygon offsets 
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 // OCC4895 SAN 22/03/04 High-level interface for controlling polygon offsets
-#include <Graphic3d_NameOfMaterial.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 
 
 static void MakeGraphicTrsf (const Handle(Geom_Transformation)& aGeomTrsf,

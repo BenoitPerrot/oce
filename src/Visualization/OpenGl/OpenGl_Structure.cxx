@@ -25,7 +25,7 @@
 #include <OpenGl_View.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Graphic3d_SequenceOfHClipPlane_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane_Handle.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_Structure, Graphic3d_CStructure)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_Structure, Graphic3d_CStructure)

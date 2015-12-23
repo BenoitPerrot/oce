@@ -15,7 +15,7 @@
 #include <Visual3d_LightDefinitionError.hxx>
 #include <Visual3d_View.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <Graphic3d_Vector.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
 #include <Visual3d_Light.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Visual3d_Light)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(Visual3d_Light)
 IMPLEMENT_DOWNCAST(Visual3d_Light,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Visual3d_Light)
 
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 
 // =======================================================================
 // function : Visual3d_Light

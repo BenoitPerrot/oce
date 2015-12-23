@@ -16,7 +16,7 @@
 #ifndef _OpenGl_GraphicDriver_HeaderFile
 #define _OpenGl_GraphicDriver_HeaderFile
 
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Handle_OpenGl_GraphicDriver.hxx>
 #include <OpenGl_Context.hxx>
 #include <OpenGl_PrinterContext.hxx>
@@ -40,21 +40,21 @@
 #include <Visualization/Aspect/Aspect_Handle.hxx>
 #include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <Graphic3d_CView.hxx>
-#include <Graphic3d_CStructure.hxx>
-#include <Graphic3d_CPick.hxx>
-#include <Graphic3d_TextPath.hxx>
-#include <Graphic3d_HorizontalTextAlignment.hxx>
-#include <Graphic3d_VerticalTextAlignment.hxx>
-#include <Graphic3d_CUserDraw.hxx>
-#include <Graphic3d_CGraduatedTrihedron.hxx>
-#include <Graphic3d_TypeOfComposition.hxx>
-#include <Graphic3d_ExportFormat.hxx>
-#include <Graphic3d_SortType.hxx>
-#include <Graphic3d_PtrFrameBuffer.hxx>
-#include <Graphic3d_Array1OfVertex.hxx>
-#include <Graphic3d_Array2OfVertex.hxx>
-#include <Graphic3d_BufferType.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CView.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CPick.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextPath.hxx>
+#include <Visualization/Graphic3d/Graphic3d_HorizontalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_VerticalTextAlignment.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CUserDraw.hxx>
+#include <Visualization/Graphic3d/Graphic3d_CGraduatedTrihedron.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfComposition.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ExportFormat.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SortType.hxx>
+#include <Visualization/Graphic3d/Graphic3d_PtrFrameBuffer.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Array1OfVertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Array2OfVertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_BufferType.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
 class TColStd_Array1OfInteger;

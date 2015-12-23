@@ -17,8 +17,8 @@
 #define _OpenGl_Clipping_H__
 
 #include <Visualization/Aspect/Aspect_GenId.hxx>
-#include <Graphic3d_ClipPlane.hxx>
-#include <Graphic3d_SequenceOfHClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>

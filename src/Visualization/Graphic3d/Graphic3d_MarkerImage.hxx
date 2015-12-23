@@ -16,7 +16,7 @@
 #ifndef _Graphic3d_MarkerImage_H__
 #define _Graphic3d_MarkerImage_H__
 
-#include <Graphic3d_MarkerImage_Handle.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MarkerImage_Handle.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 #include <Image_PixMap_Handle.hxx>

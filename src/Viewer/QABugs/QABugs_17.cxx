@@ -1312,7 +1312,7 @@ static Standard_Integer OCC1188 (Draw_Interpretor& di, Standard_Integer argc, co
 }
 
 #include <Visualization/AIS/AIS_Drawer.hxx>
-#include <Graphic3d_MaterialAspect.hxx>
+#include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 //=======================================================================
 //function : OCC1174_1

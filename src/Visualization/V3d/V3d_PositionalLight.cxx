@@ -38,7 +38,7 @@
 #include <V3d_BadValue.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <V3d_PositionalLight.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_PositionalLight)
@@ -51,14 +51,14 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(V3d_PositionalLight)
 IMPLEMENT_DOWNCAST(V3d_PositionalLight,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(V3d_PositionalLight)
-#include <Graphic3d_Vector.hxx>
-#include <Graphic3d_Vertex.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Visual3d_Light.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Visual3d_ContextPick.hxx>

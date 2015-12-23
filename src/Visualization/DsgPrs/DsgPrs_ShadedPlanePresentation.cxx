@@ -22,8 +22,8 @@
 #include <Prs3d_PlaneAspect.hxx>
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_ShadingAspect.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_ArrayOfPolygons.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolygons.hxx>
 
 
 //=======================================================================

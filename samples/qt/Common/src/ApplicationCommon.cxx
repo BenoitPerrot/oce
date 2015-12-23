@@ -13,7 +13,7 @@
 #include <QApplication>
 #include <QSignalMapper>
 
-#include <Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 
 #include <stdlib.h>

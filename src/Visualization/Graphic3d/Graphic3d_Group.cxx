@@ -13,17 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Graphic3d_GroupDefinitionError.hxx>
+#include <Visualization/Graphic3d/Graphic3d_GroupDefinitionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Graphic3d_Structure.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectText3d.hxx>
-#include <Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Graphic3d_Group)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,18 +35,18 @@ IMPLEMENT_DOWNCAST(Graphic3d_Group,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_Group)
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
-#include <Graphic3d_StructureManager.hxx>
-#include <Graphic3d_ShaderProgram.hxx>
-#include <Graphic3d_TransModeFlags.hxx>
-#include <Graphic3d_TextureMap.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TransModeFlags.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureMap.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/NCollection/NCollection_String.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <Graphic3d_CStructure.hxx>
-#include <Graphic3d_Structure.pxx>
+#include <Visualization/Graphic3d/Graphic3d_CStructure.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Structure.pxx>
 
 #define MyContainsFacet myCBitFields.bool2
 

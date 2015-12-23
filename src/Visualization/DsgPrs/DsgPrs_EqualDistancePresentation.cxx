@@ -23,11 +23,11 @@
 #include <Visualization/DsgPrs/DsgPrs_EqualDistancePresentation.hxx>
 
 #include <Visualization/DsgPrs/DsgPrs.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_DimensionAspect.hxx>
 #include <Prs3d_LineAspect.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Prs3d_Root.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>

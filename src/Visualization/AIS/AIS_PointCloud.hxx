@@ -19,7 +19,7 @@
 #include <Visualization/AIS/AIS.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>

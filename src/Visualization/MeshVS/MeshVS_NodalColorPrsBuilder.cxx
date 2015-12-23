@@ -23,11 +23,11 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
-#include <Graphic3d_Texture2D.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2D.hxx>
 #include <MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
 #include <MeshVS_NodalColorPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_NodalColorPrsBuilder)
@@ -40,14 +40,14 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_NodalColorPrsBuilder)
 IMPLEMENT_DOWNCAST(MeshVS_NodalColorPrsBuilder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 
-#include <Graphic3d_AspectFillArea3d.hxx>
-#include <Graphic3d_AspectLine3d.hxx>
-#include <Graphic3d_ArrayOfPolygons.hxx>
-#include <Graphic3d_ArrayOfPolylines.hxx>
-#include <Graphic3d_ArrayOfSegments.hxx>
-#include <Graphic3d_ArrayOfTriangles.hxx>
-#include <Graphic3d_Group.hxx>
-#include <Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolygons.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 
 #include <Prs3d_ShadingAspect.hxx>
 #include <Prs3d_Root.hxx>
@@ -74,8 +74,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Image_PixMap.hxx>
-#include <Graphic3d_Texture2D.hxx>
-#include <Graphic3d_TypeOfTextureMode.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Texture2D.hxx>
+#include <Visualization/Graphic3d/Graphic3d_TypeOfTextureMode.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

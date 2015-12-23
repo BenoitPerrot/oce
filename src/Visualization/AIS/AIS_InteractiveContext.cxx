@@ -89,7 +89,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Visual3d_ViewManager.hxx>
 #include <Prs3d_ShadingAspect.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
-#include <Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
 #include <Prs3d_IsoAspect.hxx>
 #include <Prs3d_DatumAspect.hxx>

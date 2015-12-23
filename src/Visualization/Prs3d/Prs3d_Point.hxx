@@ -15,9 +15,9 @@
 #define _Prs3d_Point_H__
 
 
-#include <Graphic3d_ArrayOfPoints.hxx>
-#include <Graphic3d_Vertex.hxx>
-#include <Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_Drawer.hxx>
 #include <Prs3d_PointAspect.hxx>
 #include <Prs3d_Root.hxx>

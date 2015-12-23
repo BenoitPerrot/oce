@@ -16,7 +16,7 @@
 #ifndef _OpenGl_BVHTreeSelector_HeaderFile
 #define _OpenGl_BVHTreeSelector_HeaderFile
 
-#include <Graphic3d_Camera.hxx>
+#include <Visualization/Graphic3d/Graphic3d_Camera.hxx>
 
 #include <OpenGl_Vec.hxx>
 

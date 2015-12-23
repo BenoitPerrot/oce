@@ -25,7 +25,7 @@
 #include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <Graphic3d_ClipPlane.hxx>
+#include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
 
 #include <fstream>
 
