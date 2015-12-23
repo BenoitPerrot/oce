@@ -70,10 +70,10 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx> 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>

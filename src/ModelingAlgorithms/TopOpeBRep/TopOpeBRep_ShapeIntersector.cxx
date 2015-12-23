@@ -55,9 +55,9 @@ void seteefff(const Standard_Integer e1,const Standard_Integer e2, const Standar
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 static Standard_Integer OneShapeIsHalfSpace(const TopoDS_Shape& S1,const TopoDS_Shape& S2);

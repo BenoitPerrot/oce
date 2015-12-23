@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(DNaming_PointDriver)
 IMPLEMENT_DOWNCAST(DNaming_PointDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 //OCCT
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

@@ -34,8 +34,8 @@
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
-#include <BRepLib.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>

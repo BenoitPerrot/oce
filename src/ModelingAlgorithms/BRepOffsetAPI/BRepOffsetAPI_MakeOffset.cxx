@@ -20,7 +20,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>

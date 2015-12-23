@@ -27,9 +27,9 @@
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
-#include <BRepLib_MakeVertex.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 

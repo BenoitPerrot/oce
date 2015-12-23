@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(BRepBuilderAPI_Sewing)
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>

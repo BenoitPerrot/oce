@@ -93,7 +93,7 @@
 
 #include <ChFi3d_Builder_0.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ShapeFix.hxx>
 #include <Precision.hxx>
 

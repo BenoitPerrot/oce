@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 #include <IGESData_GlobalSection.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

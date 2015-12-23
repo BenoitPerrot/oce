@@ -60,7 +60,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
-#include <BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
@@ -82,10 +82,10 @@
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 
-#include <BRepLib.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_FaceError.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FaceError.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
@@ -116,7 +116,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>

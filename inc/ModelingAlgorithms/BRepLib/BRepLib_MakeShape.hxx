@@ -12,8 +12,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepLib_Command.hxx>
-#include <BRepLib_ShapeModification.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_Command.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_ShapeModification.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StdFail_NotDone;

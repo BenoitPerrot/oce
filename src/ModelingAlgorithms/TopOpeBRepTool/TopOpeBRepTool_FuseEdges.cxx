@@ -75,8 +75,8 @@
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>

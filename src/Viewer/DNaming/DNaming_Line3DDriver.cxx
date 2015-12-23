@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <GeomAPI_Interpolate.hxx>

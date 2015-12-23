@@ -53,7 +53,7 @@
 
 
 // + edgeregul/updtol
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 // + fillface
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

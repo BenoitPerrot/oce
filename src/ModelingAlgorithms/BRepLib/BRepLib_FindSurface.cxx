@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
@@ -41,7 +41,7 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

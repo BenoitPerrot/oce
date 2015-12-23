@@ -49,7 +49,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <GeomPlate_BuildPlateSurface.hxx>
 #include <GeomPlate_BuildAveragePlane.hxx>
@@ -66,10 +66,10 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_WireError.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
 
 #include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>

@@ -38,7 +38,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>

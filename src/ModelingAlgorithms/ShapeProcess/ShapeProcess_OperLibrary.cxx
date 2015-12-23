@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>

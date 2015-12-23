@@ -60,9 +60,9 @@
 
 #include <Foundation/Standard/Standard_Assert.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 

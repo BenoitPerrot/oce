@@ -100,9 +100,9 @@
 
 #include <AIS_Circle.hxx>
 #include <AIS_Drawer.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Prs3d_Presentation.hxx>

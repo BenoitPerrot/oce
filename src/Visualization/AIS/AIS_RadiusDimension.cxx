@@ -17,7 +17,7 @@
 #include <AIS_RadiusDimension.hxx>
 
 #include <AIS.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 

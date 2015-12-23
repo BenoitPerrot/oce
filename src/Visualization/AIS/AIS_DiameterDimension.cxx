@@ -17,7 +17,7 @@
 #include <AIS_DiameterDimension.hxx>
 
 #include <AIS.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ElCLib.hxx>
 #include <GeomAPI_IntCS.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

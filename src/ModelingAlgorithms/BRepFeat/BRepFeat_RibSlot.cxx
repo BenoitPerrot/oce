@@ -70,11 +70,11 @@
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
-#include <BRepLib_MakeVertex.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 

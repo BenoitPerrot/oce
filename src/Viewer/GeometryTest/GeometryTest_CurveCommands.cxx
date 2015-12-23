@@ -122,7 +122,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 //epa test
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>

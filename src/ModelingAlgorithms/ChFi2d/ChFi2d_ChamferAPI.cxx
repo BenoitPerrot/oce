@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GC/GC_MakeLine.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 

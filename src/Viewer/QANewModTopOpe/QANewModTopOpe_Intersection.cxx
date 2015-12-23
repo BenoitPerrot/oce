@@ -23,7 +23,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SupportType.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>

@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep.hxx>
-#include <BRepLib_MakeEdge2d.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge2d.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
@@ -28,7 +28,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 

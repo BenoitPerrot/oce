@@ -31,9 +31,9 @@
 #include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <BRepOffsetAPI_ThruSections.hxx>

@@ -66,10 +66,10 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeVertex.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>

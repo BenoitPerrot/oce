@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <GeomInt_IntSS.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Graphic3d_ClipPlane.hxx>
 
@@ -225,7 +225,7 @@ static int BUC60609(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   return 0;
 }
 
-#include<BRepLib_MakeVertex.hxx>
+#include<ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include<Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include<AIS_LengthDimension.hxx>
 
@@ -675,8 +675,8 @@ static Standard_Integer BUC60792(Draw_Interpretor& di, Standard_Integer /*argc*/
 
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet2d.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
@@ -847,7 +847,7 @@ static int BUC60825(Draw_Interpretor& di, Standard_Integer argc, const char ** a
 	return 0;
 }
 
-#include <BRepLib_MakePolygon.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <BRepOffsetAPI_ThruSections.hxx>
 
 static int OCC10006(Draw_Interpretor& di, Standard_Integer argc, const char ** argv)

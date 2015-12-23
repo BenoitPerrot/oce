@@ -42,7 +42,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_NormalProjection.hxx>
-#include <BRepLib_MakeEdge.hxx>  
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>  
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -152,7 +152,7 @@
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
-#include <BRepLib_MakeFace.hxx> 
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx> 
 #include <Precision.hxx>
 // performances 
 #ifdef OCCT_DEBUG

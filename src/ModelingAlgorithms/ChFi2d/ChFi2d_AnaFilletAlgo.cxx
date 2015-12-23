@@ -20,9 +20,9 @@
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>

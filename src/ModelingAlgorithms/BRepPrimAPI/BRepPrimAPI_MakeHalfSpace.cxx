@@ -22,7 +22,7 @@
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp.hxx>

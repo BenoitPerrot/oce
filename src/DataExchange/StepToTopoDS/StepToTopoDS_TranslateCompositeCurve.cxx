@@ -37,7 +37,7 @@
 #include <StepToGeom_MakeCurve.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>

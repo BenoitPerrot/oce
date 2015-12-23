@@ -41,7 +41,7 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>

@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepLib_MakeSolid.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeSolid.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

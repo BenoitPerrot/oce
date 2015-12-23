@@ -57,7 +57,7 @@
 
 #include <TopOpeBRepTool_PurgeInternalEdges.hxx>
 //#include <TopOpeBRepTool_FuseEdges.hxx>
-#include <BRepLib_FuseEdges.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FuseEdges.hxx>
 
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

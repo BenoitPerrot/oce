@@ -53,7 +53,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:49:46 2002 f
@@ -63,7 +63,7 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:50:04 2002 t
 
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

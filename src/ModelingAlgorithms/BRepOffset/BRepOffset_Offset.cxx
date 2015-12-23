@@ -25,8 +25,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <BRepOffset.hxx>
-#include <BRepLib.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -80,7 +80,7 @@
 #include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>

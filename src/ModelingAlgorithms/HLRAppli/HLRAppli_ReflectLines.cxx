@@ -19,7 +19,7 @@
 #include <HLRBRep_HLRToShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 
 //=======================================================================

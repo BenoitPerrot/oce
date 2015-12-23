@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepLib_FaceError.hxx>
-#include <BRepLib_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FaceError.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

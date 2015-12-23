@@ -66,7 +66,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

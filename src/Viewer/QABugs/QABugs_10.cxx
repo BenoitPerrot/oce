@@ -24,9 +24,9 @@
 #include <AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <BRepLib_MakePolygon.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
@@ -275,10 +275,10 @@ static Standard_Integer OCC486(Draw_Interpretor& di, Standard_Integer argc, cons
 }
 
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>

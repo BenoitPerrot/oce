@@ -94,13 +94,13 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_Generator.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_CompatibleWires.hxx>
 
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>
 
 

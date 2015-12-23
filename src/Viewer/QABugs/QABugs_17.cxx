@@ -37,14 +37,14 @@
 #include <Geom2dGcc_QualifiedCurve.hxx>
 #include <Geom2dGcc_Lin2d2Tan.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geom2dGcc_QCurve.hxx>
 #include <GccEnt_QualifiedCirc.hxx>
 #include <Geom2dGcc_Lin2d2TanIter.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
@@ -54,7 +54,7 @@
 #include <AIS_Trihedron.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <V3d_View.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <AIS_LengthDimension.hxx>
 #include <AIS_RadiusDimension.hxx>
 #include <BRepPrimAPI_MakeBox.hxx>
@@ -938,7 +938,7 @@ static Standard_Integer BUILDEVOL(Draw_Interpretor& di,
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <GeomFill_NSections.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 //=======================================================================
 //function : OCC606
 //purpose  : 

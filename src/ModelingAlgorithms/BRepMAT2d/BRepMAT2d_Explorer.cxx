@@ -40,10 +40,10 @@
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
 
 //  Modified by Sergey KHROMOV - Thu Dec  5 10:38:14 2002 Begin

@@ -37,7 +37,7 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <IntTools_Curve.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <GeomAbs_CurveType.hxx>
 

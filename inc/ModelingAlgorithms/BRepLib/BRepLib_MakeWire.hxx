@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepLib_WireError.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_WireError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepLib_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
 class StdFail_NotDone;
 class TopoDS_Edge;
 class TopoDS_Wire;

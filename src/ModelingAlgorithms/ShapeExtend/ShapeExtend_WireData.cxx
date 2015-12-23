@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeExtend_WireData)
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 //=======================================================================

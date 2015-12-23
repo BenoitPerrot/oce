@@ -41,11 +41,11 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfReal.hxx> 
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfOrientedShapeListOfShape.hxx> 
 #include <ModelingAlgorithms/BRepFill/BRepFill_TrimEdgeTool.hxx>
-#include <BRepLib.hxx>
-#include <BRepLib_MakeVertex.hxx>
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -109,7 +109,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

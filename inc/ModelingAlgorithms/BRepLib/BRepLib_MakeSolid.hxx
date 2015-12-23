@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepLib_MakeShape.hxx>
-#include <BRepLib_ShapeModification.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_ShapeModification.hxx>
 class StdFail_NotDone;
 class TopoDS_CompSolid;
 class TopoDS_Shell;

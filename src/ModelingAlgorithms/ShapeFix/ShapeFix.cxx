@@ -55,7 +55,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_Edge.hxx>

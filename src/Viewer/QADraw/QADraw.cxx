@@ -33,7 +33,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>

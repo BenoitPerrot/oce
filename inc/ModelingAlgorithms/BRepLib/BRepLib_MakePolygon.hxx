@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepLib_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class gp_Pnt;

@@ -34,7 +34,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

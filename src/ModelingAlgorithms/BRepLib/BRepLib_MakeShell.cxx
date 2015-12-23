@@ -17,9 +17,9 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <BRepLib_MakeShell.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShell.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

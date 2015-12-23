@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Check.hxx>
 
-#include <BRepLib_FuseEdges.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FuseEdges.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

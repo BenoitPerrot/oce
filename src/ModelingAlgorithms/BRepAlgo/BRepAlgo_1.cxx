@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

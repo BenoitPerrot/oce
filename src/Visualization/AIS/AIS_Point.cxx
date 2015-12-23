@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <Select3D_SensitivePoint.hxx>
 #include <StdPrs_Point.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <AIS_Drawer.hxx>
 
 #include <AIS_InteractiveContext.hxx>

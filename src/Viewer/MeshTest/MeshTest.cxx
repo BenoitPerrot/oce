@@ -84,13 +84,13 @@
 
 
 //epa Memory leaks test
-#include <BRepLib_MakePolygon.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 //OAN: for triepoints
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 

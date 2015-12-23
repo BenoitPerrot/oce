@@ -45,8 +45,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Vertex.hxx>
-#include <BRepLib.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
@@ -90,7 +90,7 @@
 #include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <ModelingData/BRep/BRep_PointRepresentation.hxx>
@@ -107,7 +107,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Geometry/GC/GC_MakeCylindricalSurface.hxx>
 #include <Geometry/gce/gce_MakeCone.hxx>
@@ -120,7 +120,7 @@
 #include <GeomFill_Generator.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <IntTools_FClass2d.hxx>
-#include <BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
 
 
 // POP for NT

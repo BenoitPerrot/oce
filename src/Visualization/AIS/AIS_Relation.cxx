@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 
 #include <AIS_Drawer.hxx>
 #include <AIS_GraphicTool.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Relation)
 
 
 #include <Precision.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 
 //=======================================================================
 //function : AIS_Relation

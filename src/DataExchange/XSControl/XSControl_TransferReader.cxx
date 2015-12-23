@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 
 //  Pour les regularites
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Interface_EntityIterator.hxx>
 #include <IFSelect_SignatureList.hxx>

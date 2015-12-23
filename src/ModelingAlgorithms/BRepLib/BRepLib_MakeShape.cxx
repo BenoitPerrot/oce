@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepLib_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
 
 //=======================================================================
 //function : BRepLib_MakeShape

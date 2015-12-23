@@ -46,7 +46,7 @@
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <BRepOffset_DataMapOfShapeOffset.hxx>
 #include <BRepOffset_DataMapIteratorOfDataMapOfShapeOffset.hxx>
 #include <BRepOffset_Offset.hxx>
@@ -102,7 +102,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ElSLib.hxx>
 #include <GeomAPI.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

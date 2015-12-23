@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepLib_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
 class gp_Pnt;
 class TopoDS_Vertex;
 

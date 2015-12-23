@@ -21,8 +21,8 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/GeomLProp/GeomLProp.hxx>
@@ -45,7 +45,7 @@
 #include <GeomAbs_CurveType.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ElCLib.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>

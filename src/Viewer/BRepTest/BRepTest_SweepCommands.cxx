@@ -30,7 +30,7 @@
 #include <BRepOffsetAPI_MakePipeShell.hxx>
 #include <BRepOffsetAPI_MiddlePath.hxx>
 
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -50,7 +50,7 @@ static BRepOffsetAPI_MakePipeShell* Sweep= 0;
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <GeomFill_Pipe.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 //#endi#include <Mathematics/Primitives/gp_Vec.hxx>

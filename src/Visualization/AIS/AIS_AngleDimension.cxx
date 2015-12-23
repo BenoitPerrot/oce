@@ -18,10 +18,10 @@
 
 #include <AIS.hxx>
 #include <AIS_Drawer.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>

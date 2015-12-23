@@ -56,7 +56,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Precision.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx> 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx> 

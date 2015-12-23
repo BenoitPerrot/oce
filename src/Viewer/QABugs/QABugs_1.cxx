@@ -48,7 +48,7 @@ Standard_IMPORT Draw_Viewer dout;
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #if ! defined(WNT)

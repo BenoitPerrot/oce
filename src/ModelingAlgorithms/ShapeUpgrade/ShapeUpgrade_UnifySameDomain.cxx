@@ -67,9 +67,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfBoundedCurve.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ShapeBuild_ReShape.hxx>

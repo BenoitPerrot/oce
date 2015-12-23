@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>

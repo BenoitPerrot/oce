@@ -30,7 +30,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>

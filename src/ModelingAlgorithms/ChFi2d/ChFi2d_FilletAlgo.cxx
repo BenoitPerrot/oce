@@ -31,7 +31,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 ChFi2d_FilletAlgo::ChFi2d_FilletAlgo()

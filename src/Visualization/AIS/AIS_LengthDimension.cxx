@@ -19,7 +19,7 @@
 #include <AIS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ElCLib.hxx>

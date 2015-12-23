@@ -52,8 +52,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 

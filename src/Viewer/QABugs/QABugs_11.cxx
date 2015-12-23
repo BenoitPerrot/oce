@@ -78,7 +78,7 @@
 #include <AIS_ListIteratorOfListOfInteractive.hxx>
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
-#include <BRepLib_MakePolygon.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <IGESControl_Reader.hxx>
@@ -458,8 +458,8 @@ Standard_Integer  OCC125(Draw_Interpretor& di ,
   return 0;
 }
 
-#include <BRepLib_FindSurface.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 Standard_Integer  OCC157(Draw_Interpretor& di,
 			 Standard_Integer n,
 			 const char ** a)
@@ -594,9 +594,9 @@ Standard_Integer  OCC165(Draw_Interpretor& di ,
 #include<Geometry/Geom/Geom_CartesianPoint.hxx>
 #include<AIS_Point.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 
 static Standard_Integer OCC297 (Draw_Interpretor& di,Standard_Integer /*argc*/, const char ** argv )
 

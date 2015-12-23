@@ -27,7 +27,7 @@
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <AIS_Trihedron.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
@@ -50,7 +50,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Precision.hxx>
 
 #include <Geometry/GProp/GProp_PrincipalProps.hxx>
@@ -67,7 +67,7 @@
 #include <ShapeFix_Wireframe.hxx>
 #include <ShapeBuild_ReShape.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 
 //#include <QAModTopOpe_ReShaper.hxx>
 #include <QANewModTopOpe_ReShaper.hxx>

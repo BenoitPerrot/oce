@@ -58,7 +58,7 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 

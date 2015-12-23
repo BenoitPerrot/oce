@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Plane)
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>

@@ -41,7 +41,7 @@
 #include <StepToGeom_MakeTransformation3d.hxx>
 #include <UnitsMethods.hxx>
 
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>

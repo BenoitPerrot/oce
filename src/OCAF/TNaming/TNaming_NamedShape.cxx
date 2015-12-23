@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(TNaming_NamedShape)
 #include <Foundation/Standard/Standard_NullObject.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
 // Defines the nodes classes

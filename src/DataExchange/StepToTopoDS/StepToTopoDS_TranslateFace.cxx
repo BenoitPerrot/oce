@@ -74,7 +74,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>//rln 28/01/98
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Transfer_TransientProcess.hxx>

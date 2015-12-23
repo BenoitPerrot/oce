@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <BRepLib_Command.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_Command.hxx>
 
 //=======================================================================
 //function : BRepLib_Command

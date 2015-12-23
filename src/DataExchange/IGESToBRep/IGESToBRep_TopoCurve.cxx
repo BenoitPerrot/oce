@@ -52,8 +52,8 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

@@ -32,7 +32,7 @@
 
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfReal.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeSequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
@@ -52,7 +52,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>

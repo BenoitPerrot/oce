@@ -59,7 +59,7 @@
 //S4054: ShapeTool_MakeWire -> ShapeExtend_WireData //:g8: BRepLib_MakeWire -> ShapeTool_MakeWire
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
@@ -164,7 +164,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <ShapeAlgo.hxx>
 #include <ShapeAlgo_AlgoContainer.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 
 //=======================================================================

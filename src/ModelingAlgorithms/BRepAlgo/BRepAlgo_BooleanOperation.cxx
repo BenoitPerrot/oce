@@ -27,7 +27,7 @@
 #include <TopOpeBRepTool_OutCurveType.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

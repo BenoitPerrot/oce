@@ -519,7 +519,7 @@ static Standard_Integer OCC23683 (Draw_Interpretor& di, Standard_Integer argc,co
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 
@@ -1417,7 +1417,7 @@ static Standard_Integer OCC24945 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Geometry/Extrema/Extrema_FuncExtPS.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 static Standard_Integer OCC24137 (Draw_Interpretor& theDI, Standard_Integer theNArg, const char** theArgv) 
 {
   Standard_Integer anArgIter = 1;

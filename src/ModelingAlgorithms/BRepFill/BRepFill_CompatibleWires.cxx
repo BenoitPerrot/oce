@@ -25,10 +25,10 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
-#include <BRepLib.hxx>
-#include <BRepLib_FindSurface.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

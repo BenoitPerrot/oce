@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <HLRBRep_PolyHLRToShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib_MakeEdge2d.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge2d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

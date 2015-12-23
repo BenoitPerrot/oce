@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_TangentRelation)
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 

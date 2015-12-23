@@ -24,9 +24,9 @@
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepLib_MakeEdge2d.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge2d.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

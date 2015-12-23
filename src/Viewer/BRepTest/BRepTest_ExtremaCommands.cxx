@@ -20,8 +20,8 @@
 #include <BRepTest.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_Poly.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <Draw.hxx>
 
 //#ifdef WNT

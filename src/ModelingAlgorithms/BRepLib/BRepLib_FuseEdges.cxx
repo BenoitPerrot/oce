@@ -32,7 +32,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepLib_FuseEdges.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FuseEdges.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
@@ -75,8 +75,8 @@
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 

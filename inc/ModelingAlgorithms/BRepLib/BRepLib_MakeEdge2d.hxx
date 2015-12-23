@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepLib_EdgeError.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_EdgeError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <BRepLib_MakeShape.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 class StdFail_NotDone;

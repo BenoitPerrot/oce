@@ -37,7 +37,7 @@
 #include <ChFi2d_FilletAPI.hxx>
 #include <ChFi2d_ChamferAPI.hxx>
 
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

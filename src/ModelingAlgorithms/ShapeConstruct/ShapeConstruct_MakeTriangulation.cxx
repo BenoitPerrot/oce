@@ -33,8 +33,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
-#include <BRepLib_MakePolygon.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ShapeAnalysis_Edge.hxx>
 #include <ShapeAnalysis_Wire.hxx>
 #include <ShapeAnalysis_Curve.hxx>

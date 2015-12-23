@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 
 #include <AIS.hxx>
 
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

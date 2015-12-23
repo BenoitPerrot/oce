@@ -17,9 +17,9 @@
 #include <StlMesh_Mesh.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepLib_MakeVertex.hxx>
-#include <BRepLib_MakePolygon.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>

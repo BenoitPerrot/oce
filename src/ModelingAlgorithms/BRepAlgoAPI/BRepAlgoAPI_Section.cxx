@@ -24,8 +24,8 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 
 
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_MakeShell.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeShell.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 

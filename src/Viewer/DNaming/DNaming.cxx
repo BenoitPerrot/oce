@@ -75,7 +75,7 @@
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <ModelDefinitions.hxx>
 

@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
@@ -51,9 +51,9 @@
 
 #include <ElCLib.hxx>
 #include <Precision.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
-#include <BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 

@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

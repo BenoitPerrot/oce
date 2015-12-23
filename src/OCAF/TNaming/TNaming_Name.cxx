@@ -53,8 +53,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 
 // mpv modifications 08.04.2002
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
@@ -64,7 +64,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <BRepLib_MakeSolid.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeSolid.hxx>
 #include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>

@@ -1410,7 +1410,7 @@ static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const c
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 
 static int VLenghtDimension(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
 {

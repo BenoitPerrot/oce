@@ -22,7 +22,7 @@
 #include <BRepSweep_Revol.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 

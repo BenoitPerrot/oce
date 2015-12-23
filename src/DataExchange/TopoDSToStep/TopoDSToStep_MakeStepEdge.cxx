@@ -33,7 +33,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

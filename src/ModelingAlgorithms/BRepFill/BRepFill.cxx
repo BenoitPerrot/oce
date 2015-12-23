@@ -45,12 +45,12 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 
-#include <BRepLib.hxx>
-#include <BRepLib_FindSurface.hxx>
-#include <BRepLib_MakeFace.hxx>
-#include <BRepLib_MakeEdge.hxx>
-#include <BRepLib_MakeVertex.hxx>
-#include <BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

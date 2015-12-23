@@ -15,8 +15,8 @@
 #include <Font_BRepFont.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepLib_MakeWire.hxx>
-#include <BRepLib_MakeEdge.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
+#include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <Geometry/GC/GC_MakeSegment.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
