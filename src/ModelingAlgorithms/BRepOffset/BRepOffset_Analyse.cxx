@@ -15,17 +15,17 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepOffset_ListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepOffset_Analyse.hxx>
-#include <BRepOffset_Interval.hxx>
-#include <BRepOffset_Tool.hxx>
-#include <BRepOffset_ListIteratorOfListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Analyse.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Tool.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListIteratorOfListOfInterval.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

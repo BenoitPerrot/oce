@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepOffset_Analyse.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Analyse.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -30,7 +30,7 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BRepOffset_Tool.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Tool.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Tool.hxx>
 
@@ -146,8 +146,8 @@
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 
-#include <BRepOffset_ListOfInterval.hxx>
-#include <BRepOffset_Interval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ShapeCustom_Curve2d.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>

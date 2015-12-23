@@ -12,7 +12,7 @@
 
 #include <BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepOffset_Mode.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_JoinType.hxx>
 class TopoDS_Shape;

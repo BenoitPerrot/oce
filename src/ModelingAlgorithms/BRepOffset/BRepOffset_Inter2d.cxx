@@ -21,12 +21,12 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BRepOffset_Offset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Offset.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <BRepOffset_Inter2d.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Inter2d.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
-#include <BRepOffset_Offset.hxx>
-#include <BRepOffset_Tool.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Offset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Tool.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

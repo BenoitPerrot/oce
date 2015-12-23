@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepOffset_Interval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 
 //=======================================================================
 //function : BRepOffset_Interval

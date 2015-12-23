@@ -72,8 +72,8 @@
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
-#include <BRepOffset.hxx>
-#include <BRepOffset_MakeOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeOffset.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 

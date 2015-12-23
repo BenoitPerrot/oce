@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <BRepOffset_DataMapOfShapeMapOfShape.hxx>
-#include <BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapOfShapeMapOfShape.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape.hxx>
 
  
 
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape)
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape
-#define TCollection_DataMapNode_hxx <BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape.hxx>
 #define TCollection_DataMapIterator BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape
-#define TCollection_DataMapIterator_hxx <BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapIteratorOfDataMapOfShapeMapOfShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape
 #define TCollection_DataMapNode_Type_() BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape_Type_()
 #define TCollection_DataMap BRepOffset_DataMapOfShapeMapOfShape
-#define TCollection_DataMap_hxx <BRepOffset_DataMapOfShapeMapOfShape.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapOfShapeMapOfShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BRepOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>

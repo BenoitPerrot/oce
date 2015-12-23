@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepOffset_Type.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Type.hxx>
 
 
 
@@ -59,7 +59,7 @@ private:
 };
 
 
-#include <BRepOffset_Interval.lxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.lxx>
 
 
 

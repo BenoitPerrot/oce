@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepOffset_ListNodeOfListOfInterval.hxx>
 
-#include <BRepOffset_Interval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class BRepOffset_Interval;
@@ -48,15 +48,15 @@ private:
 };
 
 #define Item BRepOffset_Interval
-#define Item_hxx <BRepOffset_Interval.hxx>
+#define Item_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 #define TCollection_ListNode BRepOffset_ListNodeOfListOfInterval
-#define TCollection_ListNode_hxx <BRepOffset_ListNodeOfListOfInterval.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListNodeOfListOfInterval.hxx>
 #define TCollection_ListIterator BRepOffset_ListIteratorOfListOfInterval
-#define TCollection_ListIterator_hxx <BRepOffset_ListIteratorOfListOfInterval.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListIteratorOfListOfInterval.hxx>
 #define Handle_TCollection_ListNode Handle_BRepOffset_ListNodeOfListOfInterval
 #define TCollection_ListNode_Type_() BRepOffset_ListNodeOfListOfInterval_Type_()
 #define TCollection_List BRepOffset_ListOfInterval
-#define TCollection_List_hxx <BRepOffset_ListOfInterval.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 
 #include <Foundation/TCollection/TCollection_ListNode.lxx>
 

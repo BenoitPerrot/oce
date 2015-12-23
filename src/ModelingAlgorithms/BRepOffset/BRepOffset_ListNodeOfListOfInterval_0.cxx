@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepOffset_ListNodeOfListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListNodeOfListOfInterval.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <BRepOffset_Interval.hxx>
-#include <BRepOffset_ListOfInterval.hxx>
-#include <BRepOffset_ListIteratorOfListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListIteratorOfListOfInterval.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(BRepOffset_ListNodeOfListOfInterval)
 
 
 #define Item BRepOffset_Interval
-#define Item_hxx <BRepOffset_Interval.hxx>
+#define Item_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 #define TCollection_ListNode BRepOffset_ListNodeOfListOfInterval
-#define TCollection_ListNode_hxx <BRepOffset_ListNodeOfListOfInterval.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListNodeOfListOfInterval.hxx>
 #define TCollection_ListIterator BRepOffset_ListIteratorOfListOfInterval
-#define TCollection_ListIterator_hxx <BRepOffset_ListIteratorOfListOfInterval.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListIteratorOfListOfInterval.hxx>
 #define Handle_TCollection_ListNode Handle_BRepOffset_ListNodeOfListOfInterval
 #define TCollection_ListNode_Type_() BRepOffset_ListNodeOfListOfInterval_Type_()
 #define TCollection_List BRepOffset_ListOfInterval
-#define TCollection_List_hxx <BRepOffset_ListOfInterval.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

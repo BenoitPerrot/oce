@@ -199,7 +199,7 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <AIS_DisplayMode.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepOffsetAPI_MakeThickSolid.hxx>
-#include <BRepOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset.hxx>
 
 //==============================================================================
 //  VIEWER OBJECT MANAGEMENT GLOBAL VARIABLES

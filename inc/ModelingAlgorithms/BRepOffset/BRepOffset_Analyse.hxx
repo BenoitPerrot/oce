@@ -12,10 +12,10 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepOffset_DataMapOfShapeListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapOfShapeListOfInterval.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepOffset_Type.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Type.hxx>
 class TopoDS_Shape;
 class BRepOffset_ListOfInterval;
 class TopoDS_Edge;

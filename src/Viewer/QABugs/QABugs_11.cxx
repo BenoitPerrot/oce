@@ -495,9 +495,9 @@ Standard_Integer  OCC157(Draw_Interpretor& di,
 
 // #include <MyCommandsCMD.h>
 #include <ShapeFix_Shape.hxx>
-#include <BRepOffset_MakeOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeOffset.hxx>
 #include <BRepOffsetAPI_MakeOffset.hxx>
-#include <BRepOffset_Mode.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <AIS_Shape.hxx>
 

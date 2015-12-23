@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepOffset_Status.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Status.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -109,7 +109,7 @@ private:
 };
 
 
-#include <BRepOffset_Offset.lxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Offset.lxx>
 
 
 

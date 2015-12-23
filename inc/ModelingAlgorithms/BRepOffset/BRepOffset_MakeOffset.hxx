@@ -12,17 +12,17 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepOffset_Mode.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <BRepOffset_Analyse.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Analyse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
-#include <BRepOffset_Error.hxx>
-#include <BRepOffset_MakeLoops.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Error.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeLoops.hxx>
 class BRepAlgo_AsDes;
 class TopoDS_Shape;
 class TopoDS_Face;

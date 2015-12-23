@@ -18,8 +18,8 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepOffset_Analyse.hxx>
-#include <BRepOffset_DataMapOfShapeOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Analyse.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapOfShapeOffset.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <Handle_BRepAlgo_AsDes.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

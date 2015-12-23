@@ -19,8 +19,8 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_AsDes.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
-#include <BRepOffset_Analyse.hxx>
-#include <BRepOffset_MakeLoops.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Analyse.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeLoops.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 
 

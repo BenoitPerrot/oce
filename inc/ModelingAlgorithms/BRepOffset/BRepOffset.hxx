@@ -12,7 +12,7 @@
 
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepOffset_Status.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Status.hxx>
 class Geom_Surface;
 class BRepOffset_MakeOffset;
 class BRepOffset_Inter3d;

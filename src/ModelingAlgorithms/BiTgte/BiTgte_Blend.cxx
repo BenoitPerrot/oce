@@ -28,8 +28,8 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/BiTgte/BiTgte_DataMapOfShapeBox.hxx>
-#include <BRepOffset_Offset.hxx>
-#include <BRepOffset_Inter3d.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Offset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Inter3d.hxx>
 #include <ModelingAlgorithms/BiTgte/BiTgte_Blend.hxx>
 
 // include - all hxx,
@@ -47,15 +47,15 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
-#include <BRepOffset_DataMapOfShapeOffset.hxx>
-#include <BRepOffset_DataMapIteratorOfDataMapOfShapeOffset.hxx>
-#include <BRepOffset_Offset.hxx>
-#include <BRepOffset_MakeLoops.hxx>
-#include <BRepOffset_Inter3d.hxx>
-#include <BRepOffset_Inter2d.hxx>
-#include <BRepOffset_Interval.hxx>
-#include <BRepOffset_ListOfInterval.hxx>
-#include <BRepOffset_Tool.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapOfShapeOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapIteratorOfDataMapOfShapeOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Offset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeLoops.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Inter3d.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Inter2d.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Tool.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 #include <ChFi3d.hxx>
 #include <GeomAbs_SurfaceType.hxx>

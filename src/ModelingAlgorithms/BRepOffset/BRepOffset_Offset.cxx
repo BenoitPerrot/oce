@@ -20,11 +20,11 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepOffset_Offset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Offset.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
-#include <BRepOffset.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
@@ -74,7 +74,7 @@
 
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepOffset_Tool.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_Tool.hxx>
 #include <GeomAPI_ExtremaCurveCurve.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
