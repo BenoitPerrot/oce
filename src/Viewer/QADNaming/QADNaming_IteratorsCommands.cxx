@@ -15,7 +15,7 @@
 
 #include <stdio.h>
 
-#include <QADNaming.hxx>
+#include <Viewer/QADNaming/QADNaming.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <OCAF/TNaming/TNaming_Iterator.hxx>

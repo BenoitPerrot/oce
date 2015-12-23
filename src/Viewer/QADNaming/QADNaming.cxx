@@ -21,7 +21,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <QADNaming.hxx>
+#include <Viewer/QADNaming/QADNaming.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
 

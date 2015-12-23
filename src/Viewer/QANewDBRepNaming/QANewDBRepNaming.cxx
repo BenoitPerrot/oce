@@ -68,7 +68,7 @@ static Standard_Integer QANewDBRepNaming_CheckSelectShape(Draw_Interpretor&,Stan
 
 static Standard_Integer QANewDBRepNaming_CheckSolve(Draw_Interpretor&,Standard_Integer,const char ** a);
 
-#include <QADNaming.hxx>
+#include <Viewer/QADNaming/QADNaming.hxx>
 
 //=======================================================================
 //function : AllCommands

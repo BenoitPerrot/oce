@@ -17,7 +17,7 @@
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <QADNaming.hxx>
+#include <Viewer/QADNaming/QADNaming.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

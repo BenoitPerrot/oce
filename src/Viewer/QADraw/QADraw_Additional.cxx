@@ -15,7 +15,7 @@
 
 #include <Viewer/QABugs/QABugs.hxx>
 #include <QADraw.hxx>
-#include <QADNaming.hxx>
+#include <Viewer/QADNaming/QADNaming.hxx>
 //#if defined(WOKC40)
 //#include <QADBRepNaming.hxx>
 //#else
