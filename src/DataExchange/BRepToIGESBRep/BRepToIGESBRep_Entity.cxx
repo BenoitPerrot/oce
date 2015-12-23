@@ -39,7 +39,7 @@
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <BRepToIGESBRep_Entity.hxx>
+#include <DataExchange/BRepToIGESBRep/BRepToIGESBRep_Entity.hxx>
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BRWire.hxx>
 

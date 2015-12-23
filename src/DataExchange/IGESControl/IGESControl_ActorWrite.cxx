@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <IGESData_IGESModel.hxx>
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
-#include <BRepToIGESBRep_Entity.hxx>
+#include <DataExchange/BRepToIGESBRep/BRepToIGESBRep_Entity.hxx>
 
 #include <Transfer_TransientMapper.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
