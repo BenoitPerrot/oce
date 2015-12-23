@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 #include <MeshVS_SymmetricPairHasher.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Texture2D.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTextureMode.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>

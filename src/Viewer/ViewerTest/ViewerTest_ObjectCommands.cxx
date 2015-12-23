@@ -132,7 +132,7 @@
 #include <Prs3d_LineAspect.hxx>
 #include <Prs3d_PointAspect.hxx>
 
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
 
 #ifdef _MSC_VER

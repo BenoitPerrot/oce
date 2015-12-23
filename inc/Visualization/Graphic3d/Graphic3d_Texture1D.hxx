@@ -13,7 +13,7 @@
 #include <Visualization/Graphic3d/Graphic3d_NameOfTexture1D.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTexture.hxx>
-#include <Image_PixMap_Handle.hxx>
+#include <Visualization/Image/Image_PixMap_Handle.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class TCollection_AsciiString;

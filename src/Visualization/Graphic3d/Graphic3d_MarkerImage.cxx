@@ -15,7 +15,7 @@
 
 #include <Visualization/Graphic3d/Graphic3d_MarkerImage.hxx>
 
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 

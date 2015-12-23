@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(WNT_Window)
 IMPLEMENT_DOWNCAST(WNT_Window,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(WNT_Window)
 
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Visualization/Aspect/Aspect_Convert.hxx>
 
 #include <stdio.h>

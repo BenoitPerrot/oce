@@ -19,7 +19,7 @@
 #include <OpenGl_GlCore15.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_Texture, OpenGl_Resource)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_Texture, OpenGl_Resource)

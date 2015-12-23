@@ -52,7 +52,7 @@
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>
 #include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
@@ -62,7 +62,7 @@
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <Visual3d_LayerItem.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
-#include <Image_Diff.hxx>
+#include <Visualization/Image/Image_Diff.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

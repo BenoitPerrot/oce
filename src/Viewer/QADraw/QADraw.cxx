@@ -18,7 +18,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Window.hxx>
 #include <Draw_Viewer.hxx>
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <V3d_View.hxx>
 #include <ViewerTest.hxx>
 #include <ViewerTest_EventManager.hxx>

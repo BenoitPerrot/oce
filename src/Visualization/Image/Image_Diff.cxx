@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Image_Diff.hxx>
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_Diff.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 

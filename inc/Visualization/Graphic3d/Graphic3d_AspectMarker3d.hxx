@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HArray1OfByte.hxx>
-#include <Image_PixMap_Handle.hxx>
+#include <Visualization/Image/Image_PixMap_Handle.hxx>
 class Quantity_Color;
 class TColStd_HArray1OfByte;
 

@@ -23,8 +23,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_TexturedShape.hxx>
-#include <Image_PixMap.hxx>
-#include <Image_Color.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
+#include <Visualization/Image/Image_Color.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

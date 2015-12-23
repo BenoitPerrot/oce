@@ -12,7 +12,7 @@
 
 #include <Visualization/Graphic3d/Graphic3d_TextureRoot.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTexture.hxx>
-#include <Image_PixMap_Handle.hxx>
+#include <Visualization/Image/Image_PixMap_Handle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Graphic3d/Graphic3d_LevelOfTextureAnisotropy.hxx>
 class TCollection_AsciiString;

@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Texture1D.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfTexture1D.hxx>
-#include <Image_PixMap_Handle.hxx>
+#include <Visualization/Image/Image_PixMap_Handle.hxx>
 class TCollection_AsciiString;
 
 

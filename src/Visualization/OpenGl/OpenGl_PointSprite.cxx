@@ -17,7 +17,7 @@
 #include <Visualization/Graphic3d/Graphic3d_TextureParams.hxx>
 #include <OpenGl_Context.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_PointSprite, OpenGl_Texture)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_PointSprite, OpenGl_Texture)

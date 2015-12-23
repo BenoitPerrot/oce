@@ -17,7 +17,7 @@
   #include <FreeImage.h>
 #endif
 
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

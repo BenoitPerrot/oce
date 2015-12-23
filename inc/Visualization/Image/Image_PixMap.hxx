@@ -16,8 +16,8 @@
 #ifndef _Image_PixMap_H__
 #define _Image_PixMap_H__
 
-#include <Image_PixMapData.hxx>
-#include <Image_PixMap_Handle.hxx>
+#include <Visualization/Image/Image_PixMapData.hxx>
+#include <Visualization/Image/Image_PixMap_Handle.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 

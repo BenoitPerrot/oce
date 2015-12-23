@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(Graphic3d_AspectMarker3d)
 IMPLEMENT_DOWNCAST(Graphic3d_AspectMarker3d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_AspectMarker3d)
 #include <Foundation/TColStd/TColStd_Array1OfByte.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MarkerImage.hxx>
 
 // =======================================================================

@@ -19,7 +19,7 @@
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfTexture2D.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>

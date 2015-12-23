@@ -19,7 +19,7 @@
 #include <OpenGl_GlCore11.hxx>
 #include <OpenGl_tgl_funcs.hxx>
 
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Visual3d_Layer.hxx>
 
 #include <Foundation/NCollection/NCollection_Mat4.hxx>

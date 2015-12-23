@@ -154,7 +154,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_View)
 #include <V3d_BadValue.hxx>
 #include <V3d_StereoDumpOptions.hxx>
 
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

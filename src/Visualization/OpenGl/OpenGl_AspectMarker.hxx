@@ -25,7 +25,7 @@
 #include <Handle_OpenGl_PointSprite.hxx>
 #include <Handle_OpenGl_ShaderProgram.hxx>
 
-#include <Image_PixMap_Handle.hxx>
+#include <Visualization/Image/Image_PixMap_Handle.hxx>
 
 class OpenGl_AspectMarker : public OpenGl_Element
 {

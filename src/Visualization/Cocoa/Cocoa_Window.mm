@@ -19,7 +19,7 @@
 
 #include <Visualization/Cocoa/Cocoa_LocalPool.hxx>
 
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Visualization/Aspect/Aspect_Convert.hxx>
 #include <Visualization/Aspect/Aspect_WindowDefinitionError.hxx>
 

@@ -21,7 +21,7 @@
 #include <OpenGl_ShaderProgram.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MarkerImage.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
 #include <Foundation/NCollection/NCollection_Vec4.hxx>

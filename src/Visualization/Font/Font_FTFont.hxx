@@ -19,7 +19,7 @@
 #include <Foundation/NCollection/NCollection_Vec2.hxx>
 #include <Foundation/NCollection/NCollection_String.hxx>
 #include <Visualization/Font/Font_FTLibrary.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Visualization/Font/Font_FontAspect.hxx>
 
 //! Wrapper over FreeType font.

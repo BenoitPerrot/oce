@@ -26,7 +26,7 @@
 #include <Draw_Window.hxx>
 #include <Draw_Appli.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 
 extern Draw_Interpretor theCommands;

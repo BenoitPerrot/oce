@@ -12,7 +12,7 @@
 
 #include <Visualization/Graphic3d/Graphic3d_Texture2D.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfTexture2D.hxx>
-#include <Image_PixMap_Handle.hxx>
+#include <Visualization/Image/Image_PixMap_Handle.hxx>
 class TCollection_AsciiString;
 
 

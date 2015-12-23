@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(Graphic3d_TextureRoot,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Graphic3d_TextureRoot)
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 
-#include <Image_AlienPixMap.hxx>
+#include <Visualization/Image/Image_AlienPixMap.hxx>
 
 #include <Foundation/OSD/OSD_Directory.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>

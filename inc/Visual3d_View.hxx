@@ -46,7 +46,7 @@
 #include <Visualization/Aspect/Aspect_Handle.hxx>
 #include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
 #include <Visualization/Graphic3d/Graphic3d_PtrFrameBuffer.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_BufferType.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ExportFormat.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SortType.hxx>

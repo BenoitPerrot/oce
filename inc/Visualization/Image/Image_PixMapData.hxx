@@ -16,7 +16,7 @@
 #ifndef _Image_PixMapData_H__
 #define _Image_PixMapData_H__
 
-#include <Image_Color.hxx>
+#include <Visualization/Image/Image_Color.hxx>
 #include <Foundation/NCollection/NCollection_Buffer.hxx>
 
 //! Structure to manage image buffer.

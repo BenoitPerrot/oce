@@ -70,7 +70,7 @@
 #include <Visualization/Graphic3d/Graphic3d_BufferType.hxx>
 #include <Visualization/Aspect/Aspect_Handle.hxx>
 #include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <V3d_StereoDumpOptions.hxx>
 #include <V3d_TypeOfBackfacingModel.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ClipPlane_Handle.hxx>

@@ -16,7 +16,7 @@
 #ifndef _Image_Diff_H__
 #define _Image_Diff_H__
 
-#include <Image_PixMap.hxx>
+#include <Visualization/Image/Image_PixMap.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
