@@ -19,11 +19,11 @@
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <PTopoDS_Shape1.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
-#include <MgtBRep.hxx>
+#include <OCAF/MgtBRep/MgtBRep.hxx>
 
 #include <MgtTopoDS.hxx>
-#include <MgtBRep_TranslateTool.hxx>
-#include <MgtBRep_TranslateTool1.hxx>
+#include <OCAF/MgtBRep/MgtBRep_TranslateTool.hxx>
+#include <OCAF/MgtBRep/MgtBRep_TranslateTool1.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

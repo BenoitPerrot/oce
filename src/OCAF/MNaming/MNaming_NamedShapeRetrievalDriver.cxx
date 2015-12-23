@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MNaming_NamedShapeRetrievalDriver)
 IMPLEMENT_DOWNCAST(MNaming_NamedShapeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeRetrievalDriver)
 
-#include <MgtBRep.hxx>
+#include <OCAF/MgtBRep/MgtBRep.hxx>
 
 #include <PCollection_HAsciiString.hxx>
 

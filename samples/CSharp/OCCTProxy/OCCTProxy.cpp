@@ -16,7 +16,7 @@
 //brep tools
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <MgtBRep.hxx>
+#include <OCAF/MgtBRep/MgtBRep.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 //csfdb I/E
 #include <Foundation/FSD/FSD_File.hxx>

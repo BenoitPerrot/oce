@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MNaming_NamedShapeStorageDriver)
 IMPLEMENT_DOWNCAST(MNaming_NamedShapeStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeStorageDriver)
 
-#include <MgtBRep.hxx>
+#include <OCAF/MgtBRep/MgtBRep.hxx>
 
 #include <PNaming_NamedShape.hxx>
 

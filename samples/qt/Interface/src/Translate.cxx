@@ -42,8 +42,8 @@
 #include <StlAPI_Writer.hxx>
 #include <VrmlAPI_Writer.hxx>
 
-#include <MgtBRep.hxx>
-#include <MgtBRep_TriangleMode.hxx>
+#include <OCAF/MgtBRep/MgtBRep.hxx>
+#include <OCAF/MgtBRep/MgtBRep_TriangleMode.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

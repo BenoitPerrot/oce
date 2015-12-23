@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PTopoDS_HShape.hxx>
-#include <MgtBRep_TriangleMode.hxx>
+#include <OCAF/MgtBRep/MgtBRep_TriangleMode.hxx>
 class PTopoDS_HShape;
 class TopoDS_Shape;
 class PTColStd_TransientPersistentMap;

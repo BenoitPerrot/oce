@@ -3,21 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _MgtBRep_TranslateTool1_HeaderFile
-#define _MgtBRep_TranslateTool1_HeaderFile
+#ifndef _MgtBRep_TranslateTool_HeaderFile
+#define _MgtBRep_TranslateTool_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MgtBRep_TranslateTool1.hxx>
+#include <Handle_MgtBRep_TranslateTool.hxx>
 
-#include <MgtBRep_TriangleMode.hxx>
-#include <MgtTopoDS_TranslateTool1.hxx>
+#include <OCAF/MgtBRep/MgtBRep_TriangleMode.hxx>
+#include <MgtTopoDS_TranslateTool.hxx>
 #include <Handle_PGeom_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_PGeom2d_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_PGeom_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
+#include <Handle_PTopoDS_HShape.hxx>
 class Standard_TypeMismatch;
 class PGeom_Curve;
 class Geom_Curve;
@@ -28,71 +29,71 @@ class Geom2d_Curve;
 class PGeom_Surface;
 class Geom_Surface;
 class TopoDS_Shape;
-class PTopoDS_Shape1;
+class PTopoDS_HShape;
 
 
-//! The TranslateTool1 class is provided to support the
+//! The TranslateTool class is provided to support the
 //! translation of BRep topological data structures.
 //! Used to call the MgtTopoDS methods.
-class MgtBRep_TranslateTool1 : public MgtTopoDS_TranslateTool1
+class MgtBRep_TranslateTool : public MgtTopoDS_TranslateTool
 {
 
 public:
 
   
-  //! Creates a new TranslateTool1
-  Standard_EXPORT MgtBRep_TranslateTool1(const MgtBRep_TriangleMode aTriMode);
+  //! Creates a new TranslateTool
+  Standard_EXPORT MgtBRep_TranslateTool(const MgtBRep_TriangleMode aTriMode);
   
   Standard_EXPORT   void Add (TopoDS_Shape& S1, const TopoDS_Shape& S2)  const;
   
   Standard_EXPORT   void MakeVertex (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeVertex (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeVertex (const Handle(PTopoDS_HShape)& S)  const;
   
   Standard_EXPORT   void MakeEdge (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeEdge (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeEdge (const Handle(PTopoDS_HShape)& S)  const;
   
   Standard_EXPORT   void MakeWire (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeWire (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeWire (const Handle(PTopoDS_HShape)& S)  const;
   
   Standard_EXPORT   void MakeFace (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeFace (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeFace (const Handle(PTopoDS_HShape)& S)  const;
   
   Standard_EXPORT   void MakeShell (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeShell (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeShell (const Handle(PTopoDS_HShape)& S)  const;
   
   Standard_EXPORT   void MakeSolid (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeSolid (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeSolid (const Handle(PTopoDS_HShape)& S)  const;
   
   Standard_EXPORT   void MakeCompSolid (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeCompSolid (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeCompSolid (const Handle(PTopoDS_HShape)& S)  const;
   
   Standard_EXPORT   void MakeCompound (TopoDS_Shape& S)  const;
   
-  Standard_EXPORT   void MakeCompound (PTopoDS_Shape1& S)  const;
+  Standard_EXPORT   void MakeCompound (const Handle(PTopoDS_HShape)& S)  const;
   
-  Standard_EXPORT virtual   void UpdateVertex (const TopoDS_Shape& S1, PTopoDS_Shape1& S2, PTColStd_TransientPersistentMap& M)  const;
+  Standard_EXPORT virtual   void UpdateVertex (const TopoDS_Shape& S1, const Handle(PTopoDS_HShape)& S2, PTColStd_TransientPersistentMap& M)  const;
   
-  Standard_EXPORT virtual   void UpdateVertex (const PTopoDS_Shape1& S1, TopoDS_Shape& S2, PTColStd_PersistentTransientMap& M)  const;
+  Standard_EXPORT virtual   void UpdateVertex (const Handle(PTopoDS_HShape)& S1, TopoDS_Shape& S2, PTColStd_PersistentTransientMap& M)  const;
   
-  Standard_EXPORT virtual   void UpdateEdge (const TopoDS_Shape& S1, PTopoDS_Shape1& S2, PTColStd_TransientPersistentMap& M)  const;
+  Standard_EXPORT virtual   void UpdateEdge (const TopoDS_Shape& S1, const Handle(PTopoDS_HShape)& S2, PTColStd_TransientPersistentMap& M)  const;
   
-  Standard_EXPORT virtual   void UpdateEdge (const PTopoDS_Shape1& S1, TopoDS_Shape& S2, PTColStd_PersistentTransientMap& M)  const;
+  Standard_EXPORT virtual   void UpdateEdge (const Handle(PTopoDS_HShape)& S1, TopoDS_Shape& S2, PTColStd_PersistentTransientMap& M)  const;
   
-  Standard_EXPORT virtual   void UpdateFace (const TopoDS_Shape& S1, PTopoDS_Shape1& S2, PTColStd_TransientPersistentMap& M)  const;
+  Standard_EXPORT virtual   void UpdateFace (const TopoDS_Shape& S1, const Handle(PTopoDS_HShape)& S2, PTColStd_TransientPersistentMap& M)  const;
   
-  Standard_EXPORT virtual   void UpdateFace (const PTopoDS_Shape1& S1, TopoDS_Shape& S2, PTColStd_PersistentTransientMap& M)  const;
+  Standard_EXPORT virtual   void UpdateFace (const Handle(PTopoDS_HShape)& S1, TopoDS_Shape& S2, PTColStd_PersistentTransientMap& M)  const;
 
 
 
 
-  DEFINE_STANDARD_RTTI(MgtBRep_TranslateTool1)
+  DEFINE_STANDARD_RTTI(MgtBRep_TranslateTool)
 
 protected:
 
@@ -131,4 +132,4 @@ private:
 
 
 
-#endif // _MgtBRep_TranslateTool1_HeaderFile
+#endif // _MgtBRep_TranslateTool_HeaderFile

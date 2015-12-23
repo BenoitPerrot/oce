@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <PTopoDS_HShape.hxx>
-#include <MgtBRep_TranslateTool.hxx>
+#include <OCAF/MgtBRep/MgtBRep_TranslateTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MgtBRep_TranslateTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
