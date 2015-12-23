@@ -16,7 +16,7 @@
 #include <StepAP214_AppliedApprovalAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAppliedApprovalAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedApprovalAssignment.hxx>
 #include <StepAP214_HArray1OfApprovalItem.hxx>
 #include <StepAP214_ApprovalItem.hxx>
 #include <StepBasic_Approval.hxx>

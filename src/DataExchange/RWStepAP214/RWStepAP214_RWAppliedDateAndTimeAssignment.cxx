@@ -17,7 +17,7 @@
 #include <StepAP214_AppliedDateAndTimeAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAppliedDateAndTimeAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedDateAndTimeAssignment.hxx>
 #include <StepAP214_HArray1OfDateAndTimeItem.hxx>
 #include <StepAP214_DateAndTimeItem.hxx>
 #include <StepBasic_DateAndTime.hxx>

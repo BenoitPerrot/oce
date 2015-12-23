@@ -16,7 +16,7 @@
 #include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx>
 #include <StepAP214_HArray1OfPersonAndOrganizationItem.hxx>
 #include <StepAP214_PersonAndOrganizationItem.hxx>
 #include <StepBasic_PersonAndOrganization.hxx>

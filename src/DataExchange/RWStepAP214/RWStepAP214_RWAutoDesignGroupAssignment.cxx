@@ -16,7 +16,7 @@
 #include <StepAP214_AutoDesignGroupAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAutoDesignGroupAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignGroupAssignment.hxx>
 #include <StepAP214_HArray1OfAutoDesignGroupedItem.hxx>
 #include <StepAP214_AutoDesignGroupedItem.hxx>
 #include <StepBasic_Group.hxx>

@@ -16,7 +16,7 @@
 #include <StepAP214_AppliedSecurityClassificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx>
 #include <StepAP214_HArray1OfSecurityClassificationItem.hxx>
 #include <StepAP214_SecurityClassificationItem.hxx>
 #include <StepBasic_SecurityClassification.hxx>

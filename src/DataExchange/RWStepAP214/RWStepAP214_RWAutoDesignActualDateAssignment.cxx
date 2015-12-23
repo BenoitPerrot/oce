@@ -16,7 +16,7 @@
 #include <StepAP214_AutoDesignActualDateAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAutoDesignActualDateAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignActualDateAssignment.hxx>
 #include <StepAP214_HArray1OfAutoDesignDatedItem.hxx>
 #include <StepAP214_AutoDesignDatedItem.hxx>
 #include <StepBasic_Date.hxx>

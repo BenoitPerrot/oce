@@ -16,7 +16,7 @@
 #include <StepAP214_AutoDesignPresentedItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAutoDesignPresentedItem.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignPresentedItem.hxx>
 #include <StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx>
 #include <StepAP214_AutoDesignPresentedItemSelect.hxx>
 

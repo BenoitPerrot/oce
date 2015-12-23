@@ -20,7 +20,7 @@
 #include <StepAP214_AppliedExternalIdentificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAppliedExternalIdentificationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedExternalIdentificationAssignment.hxx>
 #include <StepAP214_HArray1OfExternalIdentificationItem.hxx>
 #include <StepAP214_ExternalIdentificationItem.hxx>
 

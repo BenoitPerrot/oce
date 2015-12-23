@@ -16,7 +16,7 @@
 #include <StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
 #include <StepBasic_HArray1OfApproval.hxx>
 #include <StepBasic_Approval.hxx>
 #include <StepBasic_SecurityClassification.hxx>

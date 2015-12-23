@@ -16,7 +16,7 @@
 #include <StepAP214_AutoDesignApprovalAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAutoDesignApprovalAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignApprovalAssignment.hxx>
 #include <StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
 #include <StepAP214_AutoDesignGeneralOrgItem.hxx>
 #include <StepBasic_Approval.hxx>

@@ -20,7 +20,7 @@
 #include <StepAP214_RepItemGroup.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWRepItemGroup.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWRepItemGroup.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 
 //=======================================================================

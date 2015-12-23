@@ -21,7 +21,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_StepWriter.hxx>
-#include <RWStepAP214_ReadWriteModule.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWStepAP214_ReadWriteModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -464,17 +464,17 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepBasic_RWApprovalRole.hxx>
 #include <RWStepBasic_RWApprovalStatus.hxx>
 #include <RWStepVisual_RWAreaInSet.hxx>
-#include <RWStepAP214_RWAutoDesignActualDateAndTimeAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignActualDateAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignApprovalAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignDateAndPersonAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignGroupAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignNominalDateAndTimeAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignNominalDateAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignOrganizationAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignPersonAndOrganizationAssignment.hxx>
-#include <RWStepAP214_RWAutoDesignPresentedItem.hxx>
-#include <RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignActualDateAndTimeAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignActualDateAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignApprovalAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignDateAndPersonAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignGroupAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignNominalDateAndTimeAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignNominalDateAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignOrganizationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignPresentedItem.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignSecurityClassificationAssignment.hxx>
 // Removed from Rev2 to Rev4 : <RWStepAP214_RWAutoDesignViewArea.hxx>
 #include <RWStepGeom_RWAxis1Placement.hxx>
 #include <RWStepGeom_RWAxis2Placement2d.hxx>
@@ -679,7 +679,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepGeom_RWRationalBSplineSurface.hxx>
 #include <RWStepGeom_RWRectangularCompositeSurface.hxx>
 #include <RWStepGeom_RWRectangularTrimmedSurface.hxx>
-#include <RWStepAP214_RWRepItemGroup.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWRepItemGroup.hxx>
 #include <RWStepGeom_RWReparametrisedCompositeCurveSegment.hxx>
 #include <RWStepRepr_RWRepresentation.hxx>
 #include <RWStepRepr_RWRepresentationContext.hxx>
@@ -799,7 +799,7 @@ Handle(atype) result = *((Handle(atype)*) &start)
 
 //  Added by CKY (JUL-1998) for AP214 CC1 -> CC2
 
-#include <RWStepAP214_RWAutoDesignDocumentReference.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignDocumentReference.hxx>
 #include <RWStepBasic_RWDocument.hxx>
 #include <RWStepBasic_RWDocumentRelationship.hxx>
 #include <RWStepBasic_RWDocumentType.hxx>
@@ -837,15 +837,15 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <StepShape_RevolvedFaceSolid.hxx>  
 #include <StepShape_SweptFaceSolid.hxx>  
 
-#include <RWStepAP214_RWAppliedDateAndTimeAssignment.hxx>
-#include <RWStepAP214_RWAppliedDateAssignment.hxx>
-#include <RWStepAP214_RWAppliedApprovalAssignment.hxx>
-#include <RWStepAP214_RWAppliedDocumentReference.hxx>
-#include <RWStepAP214_RWAppliedGroupAssignment.hxx>
-#include <RWStepAP214_RWAppliedOrganizationAssignment.hxx>
-#include <RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx>
-#include <RWStepAP214_RWAppliedPresentedItem.hxx>
-#include <RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx>  
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedDateAndTimeAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedDateAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedApprovalAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedDocumentReference.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedGroupAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedOrganizationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedPresentedItem.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedSecurityClassificationAssignment.hxx>  
 #include <RWStepBasic_RWDocumentFile.hxx>
 #include <RWStepBasic_RWCharacterizedObject.hxx>  
 #include <RWStepShape_RWExtrudedFaceSolid.hxx>
@@ -967,10 +967,10 @@ Handle(atype) result = *((Handle(atype)*) &start)
 #include <RWStepBasic_RWEffectivityAssignment.hxx>
 #include <RWStepBasic_RWNameAssignment.hxx>
 #include <RWStepBasic_RWGeneralProperty.hxx>
-#include <RWStepAP214_RWClass.hxx>
-#include <RWStepAP214_RWExternallyDefinedClass.hxx>
-#include <RWStepAP214_RWExternallyDefinedGeneralProperty.hxx>
-#include <RWStepAP214_RWAppliedExternalIdentificationAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWClass.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWExternallyDefinedClass.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWExternallyDefinedGeneralProperty.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedExternalIdentificationAssignment.hxx>
 
 // abv 11.07.00: CAX-IF TRJ4: k1_geo-ac.stp
 #include <StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>

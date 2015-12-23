@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectDerived)
 IMPLEMENT_DOWNCAST(STEPSelections_SelectDerived,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectDerived)
 #include <StepData_ReadWriteModule.hxx>
-#include <RWStepAP214_GeneralModule.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_GeneralModule.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

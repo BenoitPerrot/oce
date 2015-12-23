@@ -16,7 +16,7 @@
 #include <StepAP214_AutoDesignDateAndPersonAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWAutoDesignDateAndPersonAssignment.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWAutoDesignDateAndPersonAssignment.hxx>
 #include <StepAP214_HArray1OfAutoDesignDateAndPersonItem.hxx>
 #include <StepAP214_AutoDesignDateAndPersonItem.hxx>
 #include <StepBasic_PersonAndOrganization.hxx>

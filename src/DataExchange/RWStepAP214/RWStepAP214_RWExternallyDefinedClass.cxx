@@ -20,7 +20,7 @@
 #include <StepAP214_ExternallyDefinedClass.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWExternallyDefinedClass.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWExternallyDefinedClass.hxx>
 #include <StepBasic_ExternallyDefinedItem.hxx>
 
 //=======================================================================

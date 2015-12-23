@@ -20,7 +20,7 @@
 #include <StepAP214_Class.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepAP214_RWClass.hxx>
+#include <DataExchange/RWStepAP214/RWStepAP214_RWClass.hxx>
 
 //=======================================================================
 //function : RWStepAP214_RWClass
