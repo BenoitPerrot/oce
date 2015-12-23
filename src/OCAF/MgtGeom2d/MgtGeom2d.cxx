@@ -46,7 +46,7 @@
 #include <PGeom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_VectorWithMagnitude.hxx>
 #include <PGeom2d_VectorWithMagnitude.hxx>
-#include <MgtGeom2d.hxx>
+#include <OCAF/MgtGeom2d/MgtGeom2d.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
