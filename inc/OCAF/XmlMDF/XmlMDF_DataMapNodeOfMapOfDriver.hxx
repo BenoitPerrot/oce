@@ -55,17 +55,17 @@ private:
 #define TheKey TCollection_AsciiString
 #define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TheItem Handle(XmlMDF_ADriver)
-#define TheItem_hxx <XmlMDF_ADriver.hxx>
+#define TheItem_hxx <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode XmlMDF_DataMapNodeOfMapOfDriver
-#define TCollection_DataMapNode_hxx <XmlMDF_DataMapNodeOfMapOfDriver.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/XmlMDF/XmlMDF_DataMapNodeOfMapOfDriver.hxx>
 #define TCollection_DataMapIterator XmlMDF_DataMapIteratorOfMapOfDriver
-#define TCollection_DataMapIterator_hxx <XmlMDF_DataMapIteratorOfMapOfDriver.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/XmlMDF/XmlMDF_DataMapIteratorOfMapOfDriver.hxx>
 #define Handle_TCollection_DataMapNode Handle_XmlMDF_DataMapNodeOfMapOfDriver
 #define TCollection_DataMapNode_Type_() XmlMDF_DataMapNodeOfMapOfDriver_Type_()
 #define TCollection_DataMap XmlMDF_MapOfDriver
-#define TCollection_DataMap_hxx <XmlMDF_MapOfDriver.hxx>
+#define TCollection_DataMap_hxx <OCAF/XmlMDF/XmlMDF_MapOfDriver.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

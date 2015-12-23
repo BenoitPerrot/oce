@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlMDF_ADriverTable.hxx>
 
-#include <XmlMDF_TypeADriverMap.hxx>
+#include <OCAF/XmlMDF/XmlMDF_TypeADriverMap.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_XmlMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

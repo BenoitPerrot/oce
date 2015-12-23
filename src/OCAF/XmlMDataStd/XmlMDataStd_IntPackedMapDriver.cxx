@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntPackedMapDriver)
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDataStd/TDataStd_IntPackedMap.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>

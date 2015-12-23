@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDF_ADriver.hxx>
-#include <XmlMDF_TypeADriverMap.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_TypeADriverMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDF_ADriverTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

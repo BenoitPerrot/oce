@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 
 #include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
 #include <OCAF/XmlLDrivers/XmlLDrivers_NamespaceDef.hxx>
-#include <XmlMDF.hxx>
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>

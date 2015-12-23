@@ -18,7 +18,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDF_ReferenceDriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ReferenceDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDF_ReferenceDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

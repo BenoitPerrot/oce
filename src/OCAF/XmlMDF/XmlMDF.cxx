@@ -14,15 +14,15 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_Data.hxx>
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <XmlMDF_MapOfDriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_MapOfDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMDF.hxx>
-#include <XmlMDF_ADriver.hxx>
-#include <XmlMDF_TagSourceDriver.hxx>
-#include <XmlMDF_ReferenceDriver.hxx>
-#include <XmlMDF_DataMapIteratorOfTypeADriverMap.hxx>
+#include <OCAF/XmlMDF/XmlMDF.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_TagSourceDriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ReferenceDriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_DataMapIteratorOfTypeADriverMap.hxx>
 
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlObjMgt_DOMString.hxx>

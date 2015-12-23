@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCDM/PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <OCAF/XmlLDrivers/XmlLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlLDrivers_DocumentRetrievalDriver)
@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(XmlLDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 
 #include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
-#include <XmlMDF.hxx>
+#include <OCAF/XmlMDF/XmlMDF.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <XmlObjMgt.hxx>

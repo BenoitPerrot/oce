@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlMDataXtd_PlacementDriver.hxx>
 
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -16,14 +16,14 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
 
 #include <OCAF/XmlLDrivers/XmlLDrivers_DocumentStorageDriver.hxx>
 #include <OCAF/XmlLDrivers/XmlLDrivers_DocumentRetrievalDriver.hxx>
-#include <XmlMDF_ADriverTable.hxx>
-#include <XmlMDF.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <XmlMDocStd.hxx>
 #include <XmlMFunction.hxx>

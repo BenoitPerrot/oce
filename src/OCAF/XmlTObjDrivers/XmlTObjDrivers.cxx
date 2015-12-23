@@ -17,7 +17,7 @@
 
 #include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
 #include <XmlTObjDrivers.hxx>
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <XmlTObjDrivers_DocumentStorageDriver.hxx>
 #include <XmlTObjDrivers_DocumentRetrievalDriver.hxx>
 #include <XmlTObjDrivers_ModelDriver.hxx>

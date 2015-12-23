@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlXCAFDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

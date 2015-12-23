@@ -19,7 +19,7 @@
 #define XmlTObjDrivers_IntSparseArrayDriver_HeaderFile
 
 #include <OCAF/TObj/TObj_Common.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 
 class XmlTObjDrivers_IntSparseArrayDriver : public XmlMDF_ADriver 
 {

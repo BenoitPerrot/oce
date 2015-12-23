@@ -20,7 +20,7 @@
 #define XmlTObjDrivers_XYZDriver_HeaderFile
 
 #include <OCAF/TObj/TObj_Common.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 
 class XmlTObjDrivers_XYZDriver : public XmlMDF_ADriver 
 {

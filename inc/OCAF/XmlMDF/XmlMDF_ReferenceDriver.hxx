@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _XmlMDF_TagSourceDriver_HeaderFile
-#define _XmlMDF_TagSourceDriver_HeaderFile
+#ifndef _XmlMDF_ReferenceDriver_HeaderFile
+#define _XmlMDF_ReferenceDriver_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlMDF_TagSourceDriver.hxx>
+#include <Handle_XmlMDF_ReferenceDriver.hxx>
 
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -22,13 +22,13 @@ class XmlObjMgt_Persistent;
 
 
 //! Attribute Driver.
-class XmlMDF_TagSourceDriver : public XmlMDF_ADriver
+class XmlMDF_ReferenceDriver : public XmlMDF_ADriver
 {
 
 public:
 
   
-  Standard_EXPORT XmlMDF_TagSourceDriver(const Handle(CDM_MessageDriver)& theMessageDriver);
+  Standard_EXPORT XmlMDF_ReferenceDriver(const Handle(CDM_MessageDriver)& theMessageDriver);
   
   Standard_EXPORT   Handle(TDF_Attribute) NewEmpty()  const;
   
@@ -39,7 +39,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(XmlMDF_TagSourceDriver)
+  DEFINE_STANDARD_RTTI(XmlMDF_ReferenceDriver)
 
 protected:
 
@@ -59,4 +59,4 @@ private:
 
 
 
-#endif // _XmlMDF_TagSourceDriver_HeaderFile
+#endif // _XmlMDF_ReferenceDriver_HeaderFile

@@ -11,7 +11,7 @@
 #include <Handle_XmlMXCAFDoc_LocationDriver.hxx>
 
 #include <ModelingData/TopTools/TopTools_LocationSetPtr.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

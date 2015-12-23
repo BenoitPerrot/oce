@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDF_ADriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -15,14 +15,14 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/XmlDrivers/XmlDrivers.hxx>
 
 #include <OCAF/XmlDrivers/XmlDrivers_DocumentStorageDriver.hxx>
 #include <OCAF/XmlDrivers/XmlDrivers_DocumentRetrievalDriver.hxx>
-#include <XmlMDF_ADriverTable.hxx>
-#include <XmlMDF.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <OCAF/XmlMDataXtd/XmlMDataXtd.hxx>
 #include <XmlMDocStd.hxx>

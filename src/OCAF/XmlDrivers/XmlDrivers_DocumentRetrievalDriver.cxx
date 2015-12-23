@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <OCAF/XmlDrivers/XmlDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlDrivers_DocumentRetrievalDriver)
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentRetrievalDriver)
 #include <XmlObjMgt_Element.hxx>
 #include <XmlMNaming_NamedShapeDriver.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
-#include <XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 //=======================================================================
 //function : XmlDrivers_DocumentRetrievalDriver
