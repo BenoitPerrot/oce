@@ -3,29 +3,29 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TPrsStd_PlaneDriver_HeaderFile
-#define _TPrsStd_PlaneDriver_HeaderFile
+#ifndef _TPrsStd_PointDriver_HeaderFile
+#define _TPrsStd_PointDriver_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TPrsStd_PlaneDriver.hxx>
+#include <Handle_TPrsStd_PointDriver.hxx>
 
-#include <TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 class TDF_Label;
 class AIS_InteractiveObject;
 
 
-//! An implementation of TPrsStd_Driver for planes.
-class TPrsStd_PlaneDriver : public TPrsStd_Driver
+//! An implementation of TPrsStd_Driver for points.
+class TPrsStd_PointDriver : public TPrsStd_Driver
 {
 
 public:
 
   
-  //! Constructs an empty plane driver.
-  Standard_EXPORT TPrsStd_PlaneDriver();
+  //! Constructs an empty point driver.
+  Standard_EXPORT TPrsStd_PointDriver();
   
   //! Build the AISObject (if null) or update it.
   //! No compute is done.
@@ -36,7 +36,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(TPrsStd_PlaneDriver)
+  DEFINE_STANDARD_RTTI(TPrsStd_PointDriver)
 
 protected:
 
@@ -56,4 +56,4 @@ private:
 
 
 
-#endif // _TPrsStd_PlaneDriver_HeaderFile
+#endif // _TPrsStd_PointDriver_HeaderFile

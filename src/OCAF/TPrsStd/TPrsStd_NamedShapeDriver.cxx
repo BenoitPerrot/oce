@@ -15,7 +15,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <TPrsStd_NamedShapeDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_NamedShapeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TPrsStd_DriverTable.hxx> 
+#include <OCAF/TPrsStd/TPrsStd_DriverTable.hxx> 
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

@@ -33,8 +33,8 @@
 #include <OCAF/TDocStd/TDocStd_Owner.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <DDF.hxx>
-#include <TPrsStd_AISViewer.hxx>
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 
 #include <Draw_Viewer.hxx>
 #include <Draw.hxx>

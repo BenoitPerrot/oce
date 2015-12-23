@@ -1365,8 +1365,8 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 #include<OCAF/TDocStd/TDocStd_Application.hxx>
 #include<OCAF/TDF/TDF_Delta.hxx>
 #include<OCAF/TDataXtd/TDataXtd_Constraint.hxx>
-#include<TPrsStd_AISPresentation.hxx>
-#include<TPrsStd_AISViewer.hxx>
+#include<OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
+#include<OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include<OCAF/TNaming/TNaming_Builder.hxx>
 #include<OCAF/TNaming/TNaming_Naming.hxx>
 #include<OCAF/TNaming/TNaming_NamedShape.hxx>

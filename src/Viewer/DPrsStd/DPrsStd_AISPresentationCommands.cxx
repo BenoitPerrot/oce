@@ -33,8 +33,8 @@
 
 // for AIS
 
-#include <TPrsStd_AISPresentation.hxx>
-#include <TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <ViewerTest.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx> 
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>

@@ -17,15 +17,15 @@
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
-#include <TPrsStd_AISPresentation.hxx>
-#include <TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <TPrsStd_DriverTable.hxx>
-#include <TPrsStd_NamedShapeDriver.hxx>
-#include <TPrsStd_PlaneDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_DriverTable.hxx>
+#include <OCAF/TPrsStd/TPrsStd_NamedShapeDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_PlaneDriver.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 
 // ====================================================================================

@@ -13,7 +13,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <TPrsStd_AxisDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AxisDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_AxisDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

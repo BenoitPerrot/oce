@@ -144,10 +144,10 @@
 //#include <OCAF/TDataStd/TDataStd_ConstraintEnum.hxx>
 //#include <OCAF/TNaming/TNaming_Tool.hxx>
 //#include <Visualization/AIS/AIS_InteractiveObject.hxx>
-//#include <TPrsStd_ConstraintTools.hxx>
+//#include <OCAF/TPrsStd/TPrsStd_ConstraintTools.hxx>
 //#include <Visualization/AIS/AIS_DiameterDimension.hxx>
-//#include <TPrsStd_Position.hxx>
-//#include <TPrsStd_AISPresentation.hxx>
+//#include <OCAF/TPrsStd/TPrsStd_Position.hxx>
+//#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 //#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <StepShape_AdvancedFace.hxx>

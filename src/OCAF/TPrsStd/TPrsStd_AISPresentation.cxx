@@ -24,7 +24,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_AttributeDelta.hxx>
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_AISPresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -41,11 +41,11 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_AISPresentation)
 #include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <TPrsStd_Driver.hxx>
-#include <TPrsStd_DriverTable.hxx>
+#include <OCAF/TPrsStd/TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_DriverTable.hxx>
 
 
 #define BUC60917

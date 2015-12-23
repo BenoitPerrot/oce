@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinMPrsStd_AISPresentationDriver)
 IMPLEMENT_DOWNCAST(BinMPrsStd_AISPresentationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMPrsStd_AISPresentationDriver)
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

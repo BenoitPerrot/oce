@@ -3,29 +3,29 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TPrsStd_AxisDriver_HeaderFile
-#define _TPrsStd_AxisDriver_HeaderFile
+#ifndef _TPrsStd_ConstraintDriver_HeaderFile
+#define _TPrsStd_ConstraintDriver_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TPrsStd_AxisDriver.hxx>
+#include <Handle_TPrsStd_ConstraintDriver.hxx>
 
-#include <TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 class TDF_Label;
 class AIS_InteractiveObject;
 
 
-//! An implementation of TPrsStd_Driver for axes.
-class TPrsStd_AxisDriver : public TPrsStd_Driver
+//! An implementation of TPrsStd_Driver for constraints.
+class TPrsStd_ConstraintDriver : public TPrsStd_Driver
 {
 
 public:
 
   
-  //! Constructs an empty axis driver.
-  Standard_EXPORT TPrsStd_AxisDriver();
+  //! Constructs an empty constraint driver.
+  Standard_EXPORT TPrsStd_ConstraintDriver();
   
   //! Build the AISObject (if null) or update it.
   //! No compute is done.
@@ -36,7 +36,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(TPrsStd_AxisDriver)
+  DEFINE_STANDARD_RTTI(TPrsStd_ConstraintDriver)
 
 protected:
 
@@ -56,4 +56,4 @@ private:
 
 
 
-#endif // _TPrsStd_AxisDriver_HeaderFile
+#endif // _TPrsStd_ConstraintDriver_HeaderFile

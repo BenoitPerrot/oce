@@ -22,7 +22,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
-#include <TPrsStd_ConstraintTools.hxx>
+#include <OCAF/TPrsStd/TPrsStd_ConstraintTools.hxx>
 
 #include <stdio.h>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>

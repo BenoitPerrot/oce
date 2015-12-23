@@ -13,7 +13,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <TPrsStd_PlaneDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_PlaneDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_PlaneDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

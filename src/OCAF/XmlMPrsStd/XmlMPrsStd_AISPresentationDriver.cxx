@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMPrsStd_AISPresentationDriver)
 
 #include <XmlObjMgt.hxx>
 
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 
 #define OCC6010 // vro: 09.06.2004
 

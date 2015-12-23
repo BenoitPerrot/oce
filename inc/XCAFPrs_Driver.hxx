@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XCAFPrs_Driver.hxx>
 
-#include <TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_AIS_InteractiveObject.hxx>
 class TDF_Label;

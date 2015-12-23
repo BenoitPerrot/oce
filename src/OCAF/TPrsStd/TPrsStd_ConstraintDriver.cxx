@@ -13,7 +13,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <TPrsStd_ConstraintDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_ConstraintDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_ConstraintDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_ConstraintDriver)
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
-#include <TPrsStd_ConstraintTools.hxx>
+#include <OCAF/TPrsStd/TPrsStd_ConstraintTools.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>

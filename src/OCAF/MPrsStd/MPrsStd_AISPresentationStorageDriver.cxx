@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MPrsStd_AISPresentationStorageDriver)
 
 #include <OCAF/PPrsStd/PPrsStd_AISPresentation.hxx>
 #include <OCAF/PPrsStd/PPrsStd_AISPresentation_1.hxx>
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

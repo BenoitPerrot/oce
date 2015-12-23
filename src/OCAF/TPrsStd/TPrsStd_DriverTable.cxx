@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TPrsStd_Driver.hxx>
-#include <TPrsStd_DriverTable.hxx>
+#include <OCAF/TPrsStd/TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_DriverTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_DriverTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,15 +27,15 @@ IMPLEMENT_STANDARD_TYPE_END(TPrsStd_DriverTable)
 IMPLEMENT_DOWNCAST(TPrsStd_DriverTable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_DriverTable)
 
-#include <TPrsStd_DataMapOfGUIDDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_DataMapOfGUIDDriver.hxx>
 
-#include <TPrsStd_Driver.hxx>
-#include <TPrsStd_AxisDriver.hxx>
-#include <TPrsStd_ConstraintDriver.hxx>
-#include <TPrsStd_GeometryDriver.hxx>
-#include <TPrsStd_NamedShapeDriver.hxx>
-#include <TPrsStd_PlaneDriver.hxx>
-#include <TPrsStd_PointDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AxisDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_ConstraintDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_GeometryDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_NamedShapeDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_PlaneDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_PointDriver.hxx>
 
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>

@@ -20,7 +20,7 @@
 #include <V3d_Viewer.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TPrsStd_AISViewer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

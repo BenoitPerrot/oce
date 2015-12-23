@@ -1044,7 +1044,7 @@ static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, con
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <XCAFPrs_Driver.hxx>
@@ -1825,9 +1825,9 @@ static Standard_Integer OCC902(Draw_Interpretor& di, Standard_Integer argc, cons
 }
 
 #include <DDF.hxx>
-#include <TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 //=======================================================================
 //function : OCC1029_AISTransparency 
 //purpose  : OCC1029_AISTransparency  (DOC,entry,[real])

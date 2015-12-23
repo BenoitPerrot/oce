@@ -30,8 +30,8 @@
 #include <DDocStd.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
-#include <TPrsStd_AISPresentation.hxx>
-#include <TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx> 
 
 //=======================================================================

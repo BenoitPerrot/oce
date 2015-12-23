@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XCAFApp_Application)
 IMPLEMENT_DOWNCAST(XCAFApp_Application,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XCAFApp_Application)
-#include <TPrsStd_DriverTable.hxx>
+#include <OCAF/TPrsStd/TPrsStd_DriverTable.hxx>
 #include <XCAFPrs_Driver.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

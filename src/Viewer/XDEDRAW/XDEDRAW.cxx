@@ -54,9 +54,9 @@
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
 #include <OCAF/TDataStd/TDataStd_ByteArray.hxx>
-#include <TPrsStd_AISPresentation.hxx>
-#include <TPrsStd_NamedShapeDriver.hxx>
-#include <TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_NamedShapeDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 
 #include <XCAFDoc.hxx>
 #include <XCAFDoc_Color.hxx>

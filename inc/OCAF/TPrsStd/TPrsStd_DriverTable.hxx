@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TPrsStd_DriverTable.hxx>
 
-#include <TPrsStd_DataMapOfGUIDDriver.hxx>
+#include <OCAF/TPrsStd/TPrsStd_DataMapOfGUIDDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TPrsStd_Driver.hxx>

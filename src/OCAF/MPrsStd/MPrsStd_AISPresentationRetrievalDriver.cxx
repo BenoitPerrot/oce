@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MPrsStd_AISPresentationRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MPrsStd_AISPresentationRetrievalDriver)
 
 #include <OCAF/PPrsStd/PPrsStd_AISPresentation.hxx>
-#include <TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
