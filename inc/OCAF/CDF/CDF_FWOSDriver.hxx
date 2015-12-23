@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_CDF_FWOSDriver.hxx>
 
-#include <CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_CDM_MetaData.hxx>
 #include <Handle_CDM_Document.hxx>

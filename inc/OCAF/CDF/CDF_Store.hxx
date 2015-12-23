@@ -15,10 +15,10 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <PCDM_StoreStatus.hxx>
-#include <CDF_TryStoreStatus.hxx>
+#include <OCAF/CDF/CDF_TryStoreStatus.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>
-#include <CDF_StoreSetNameStatus.hxx>
-#include <CDF_SubComponentStatus.hxx>
+#include <OCAF/CDF/CDF_StoreSetNameStatus.hxx>
+#include <OCAF/CDF/CDF_SubComponentStatus.hxx>
 class CDF_StoreList;
 class CDM_Document;
 class TCollection_ExtendedString;

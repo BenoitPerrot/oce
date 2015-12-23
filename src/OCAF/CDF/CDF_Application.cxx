@@ -18,14 +18,14 @@
 
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <PCDM_Reader.hxx>
 #include <CDM_MetaData.hxx>
-#include <CDF_Application.hxx>
+#include <OCAF/CDF/CDF_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_Application)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_RTTI(CDF_Application)
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <CDM_MetaData.hxx>
 #include <CDM_CanCloseStatus.hxx>
-#include <CDF_Session.hxx>
-#include <CDF_Directory.hxx>
-#include <CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Directory.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <PCDM_ReaderStatus.hxx>
 #include <PCDM_ReadWriter.hxx>
 #include <PCDM_RetrievalDriver.hxx>
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(CDF_Application)
 #include <Foundation/Plugin/Plugin.hxx>
 #include <UTL.hxx>
 
-#include <CDF_Timer.hxx>
+#include <OCAF/CDF/CDF_Timer.hxx>
 
 #define theMetaDataDriver CDF_Session::CurrentSession()->MetaDataDriver()
 

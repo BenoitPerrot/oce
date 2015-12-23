@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDF_MetaDataDriver.hxx>
-#include <CDF_MetaDataDriverFactory.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriverFactory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_MetaDataDriverFactory)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -31,16 +31,16 @@ IMPLEMENT_STANDARD_TYPE_END(TDocStd_Application)
 IMPLEMENT_DOWNCAST(TDocStd_Application,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 
-#include <CDF_Session.hxx>
-#include <CDF_DirectoryIterator.hxx>
-#include <CDF_Directory.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
+#include <OCAF/CDF/CDF_DirectoryIterator.hxx>
+#include <OCAF/CDF/CDF_Directory.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Plugin/Plugin_Failure.hxx>
 #include <TDF_Label.hxx>
-#include <CDF_Store.hxx>
+#include <OCAF/CDF/CDF_Store.hxx>
 #include <TDocStd_PathParser.hxx>
 
 #include <CDM_MessageDriver.hxx>

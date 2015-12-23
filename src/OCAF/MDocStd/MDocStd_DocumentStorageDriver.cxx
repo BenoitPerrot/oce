@@ -46,8 +46,8 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentStorageDriver)
 #include <Foundation/Plugin/Plugin.hxx>
 
 
-#include <CDF_Application.hxx>
-#include <CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Application.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
 
 
 //=======================================================================

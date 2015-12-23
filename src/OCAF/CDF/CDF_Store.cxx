@@ -12,16 +12,16 @@
 // commercial license or contractual agreement.
 
 // Modified by rmi, Thu Dec  4 14:24:24 1997
-#include <CDF_StoreList.hxx>
+#include <OCAF/CDF/CDF_StoreList.hxx>
 #include <CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDF_Store.hxx>
-#include <CDF_Session.hxx>
-#include <CDF_Application.hxx>
+#include <OCAF/CDF/CDF_Store.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Application.hxx>
 #include <PCDM_StoreStatus.hxx>
-#include <CDF_StoreSetNameStatus.hxx>
+#include <OCAF/CDF/CDF_StoreSetNameStatus.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <PCDM_StorageDriver.hxx>
 #include <PCDM.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

@@ -30,7 +30,7 @@
 #include <TDocStd_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <DDocStd.hxx>
-#include <CDF.hxx>
+#include <OCAF/CDF/CDF.hxx>
 
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

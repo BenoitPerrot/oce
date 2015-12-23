@@ -23,7 +23,7 @@
 
 #include <TDF_IDList.hxx>
 #include <TDocStd.hxx>
-#include <CDF.hxx>
+#include <OCAF/CDF/CDF.hxx>
 //#include <LCTLOFF.h>
 #include <Foundation/OSD/OSD_Environment.hxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_FWOSDriver_DriverFactory.hxx>
 
-#include <CDF_MetaDataDriverFactory.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriverFactory.hxx>
 #include <Handle_CDF_MetaDataDriver.hxx>
 class CDF_MetaDataDriver;
 

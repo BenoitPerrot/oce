@@ -29,7 +29,7 @@
 #include <TDF_MapIteratorOfLabelMap.hxx>
 #include <DBRep.hxx>
 #include <TDocStd_Document.hxx>
-#include <CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 

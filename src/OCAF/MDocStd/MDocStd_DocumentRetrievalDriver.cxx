@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentRetrievalDriver)
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
 
-#include <CDF_Application.hxx>
-#include <CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Application.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
 
 
 //=======================================================================

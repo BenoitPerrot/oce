@@ -19,7 +19,7 @@
 #include <TDocStd_Application.hxx>
 #include <TDocStd_Document.hxx>
 #include <TDocStd_XLinkTool.hxx> 
-#include <CDF_Session.hxx> 
+#include <OCAF/CDF/CDF_Session.hxx> 
 
 // ====================================================================================
 // This sample contains template for typical actions with OCAF document at application 

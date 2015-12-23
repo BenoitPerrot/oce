@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <FWOSDriver_DriverFactory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(FWOSDriver_DriverFactory)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(FWOSDriver_DriverFactory)
 IMPLEMENT_DOWNCAST(FWOSDriver_DriverFactory,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(FWOSDriver_DriverFactory)
 
-#include <CDF_FWOSDriver.hxx>
+#include <OCAF/CDF/CDF_FWOSDriver.hxx>
 FWOSDriver_DriverFactory::FWOSDriver_DriverFactory(){}
 
 

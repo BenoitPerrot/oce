@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <CDF_Timer.hxx>
+#include <OCAF/CDF/CDF_Timer.hxx>
 #include <stdlib.h>
 
 CDF_Timer::CDF_Timer() {

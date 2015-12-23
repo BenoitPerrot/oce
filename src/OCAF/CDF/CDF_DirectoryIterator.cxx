@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <CDF_Directory.hxx>
+#include <OCAF/CDF/CDF_Directory.hxx>
 #include <CDM_Document.hxx>
-#include <CDF_DirectoryIterator.hxx>
-#include <CDF_Session.hxx>
+#include <OCAF/CDF/CDF_DirectoryIterator.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
 CDF_DirectoryIterator::CDF_DirectoryIterator():myIterator(CDF_Session::CurrentSession()->Directory()->List()) {}
 
 

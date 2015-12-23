@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <CDF_DirectoryIterator.hxx>
+#include <OCAF/CDF/CDF_DirectoryIterator.hxx>
 #include <CDM_Document.hxx>
 #include <CDM_ListOfDocument.hxx>
-#include <CDF_Directory.hxx>
+#include <OCAF/CDF/CDF_Directory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_Directory)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

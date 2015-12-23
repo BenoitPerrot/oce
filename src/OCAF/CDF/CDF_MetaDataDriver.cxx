@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_Document.hxx>
 #include <PCDM_ReferenceIterator.hxx>
-#include <CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_MetaDataDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(CDF_MetaDataDriver)
 IMPLEMENT_DOWNCAST(CDF_MetaDataDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(CDF_MetaDataDriver)
-#include <CDF_Application.hxx>
-#include <CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Application.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
 
 
 //=======================================================================

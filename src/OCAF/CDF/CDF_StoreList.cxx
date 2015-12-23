@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <CDF_StoreList.hxx>
+#include <OCAF/CDF/CDF_StoreList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_StoreList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(CDF_StoreList)
 #include <PCDM_Document.hxx>
 #include <PCDM_StorageDriver.hxx>
 
-#include <CDF_MetaDataDriverError.hxx>
-#include <CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriverError.hxx>
+#include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 
-#include <CDF_Session.hxx>
-#include <CDF_Application.hxx>
-#include <CDF_Timer.hxx>
+#include <OCAF/CDF/CDF_Session.hxx>
+#include <OCAF/CDF/CDF_Application.hxx>
+#include <OCAF/CDF/CDF_Timer.hxx>
 
 static void CAUGHT(TCollection_ExtendedString& status,const TCollection_ExtendedString& what) {
   Handle(Standard_Failure) F = Standard_Failure::Caught();

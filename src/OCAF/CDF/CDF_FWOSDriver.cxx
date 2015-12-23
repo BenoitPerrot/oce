@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <CDM_MetaData.hxx>
 #include <CDM_Document.hxx>
-#include <CDF_FWOSDriver.hxx>
+#include <OCAF/CDF/CDF_FWOSDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(CDF_FWOSDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
