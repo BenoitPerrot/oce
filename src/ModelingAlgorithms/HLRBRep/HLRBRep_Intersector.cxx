@@ -33,7 +33,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ElCLib.hxx>
 
-#include <IntImpParGen.hxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 #include <IntRes2d_Position.hxx>
 #include <IntRes2d_Transition.hxx>
 

@@ -27,5 +27,5 @@
 #define IntImpParGen_MyImpParTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfCInter.hxx>
 #define IntImpParGen_Intersector HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter
 #define IntImpParGen_Intersector_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheIntersectorOfTheIntConicCurveOfCInter.hxx>
-#include <IntImpParGen_Intersector.gxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen_Intersector.gxx>
 

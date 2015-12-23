@@ -30,7 +30,7 @@
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_Tool.hxx>
-#include <IntImpParGen.hxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_1.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

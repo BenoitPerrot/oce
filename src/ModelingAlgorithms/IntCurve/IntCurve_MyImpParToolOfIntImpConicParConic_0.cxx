@@ -18,5 +18,5 @@
 #define ParTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_PConicTool.hxx>
 #define IntImpParGen_ImpParTool IntCurve_MyImpParToolOfIntImpConicParConic
 #define IntImpParGen_ImpParTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
-#include <IntImpParGen_ImpParTool.gxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen_ImpParTool.gxx>
 

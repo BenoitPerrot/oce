@@ -18,7 +18,7 @@
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntImpParGen.hxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <IntRes2d_Position.hxx>
 #include <IntRes2d_Transition.hxx>
@@ -28,7 +28,7 @@
 
 
 
-#include <IntImpParGen_Tool.hxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen_Tool.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 

@@ -32,7 +32,7 @@
 #include <IntRes2d_IntersectionSegment.hxx>
 
 
-#include <IntImpParGen.hxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 
 #include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
 #include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>

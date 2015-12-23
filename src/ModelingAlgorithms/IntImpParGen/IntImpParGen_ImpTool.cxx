@@ -14,4 +14,4 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <IntImpParGen_ImpTool.hxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen_ImpTool.hxx>

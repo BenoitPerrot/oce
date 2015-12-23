@@ -28,5 +28,5 @@
 #define IntImpParGen_MyImpParTool_hxx <ModelingAlgorithms/IntCurve/IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
 #define IntImpParGen_Intersector IntCurve_IntImpConicParConic
 #define IntImpParGen_Intersector_hxx <ModelingAlgorithms/IntCurve/IntCurve_IntImpConicParConic.hxx>
-#include <IntImpParGen_Intersector.gxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen_Intersector.gxx>
 

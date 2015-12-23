@@ -23,7 +23,7 @@
 #include <IntRes2d_Transition.hxx>
 #include <IntRes2d_Position.hxx>
 
-#include <IntImpParGen.hxx>
+#include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 
 #include <Mathematics/Optimization/math_FunctionSample.hxx>
 #include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
