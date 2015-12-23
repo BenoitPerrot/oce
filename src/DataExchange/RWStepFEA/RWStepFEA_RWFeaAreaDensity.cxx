@@ -20,7 +20,7 @@
 #include <StepFEA_FeaAreaDensity.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaAreaDensity.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaAreaDensity.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaAreaDensity

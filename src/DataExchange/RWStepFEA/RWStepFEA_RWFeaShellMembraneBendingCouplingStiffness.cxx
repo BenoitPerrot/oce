@@ -20,7 +20,7 @@
 #include <StepFEA_FeaShellMembraneBendingCouplingStiffness.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaShellMembraneBendingCouplingStiffness.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaShellMembraneBendingCouplingStiffness.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaShellMembraneBendingCouplingStiffness

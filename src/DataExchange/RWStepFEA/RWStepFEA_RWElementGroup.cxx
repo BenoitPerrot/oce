@@ -20,7 +20,7 @@
 #include <StepFEA_ElementGroup.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWElementGroup.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWElementGroup.hxx>
 #include <StepFEA_HArray1OfElementRepresentation.hxx>
 #include <StepFEA_ElementRepresentation.hxx>
 

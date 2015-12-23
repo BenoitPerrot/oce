@@ -20,7 +20,7 @@
 #include <StepFEA_NodeDefinition.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWNodeDefinition.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWNodeDefinition.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWNodeDefinition

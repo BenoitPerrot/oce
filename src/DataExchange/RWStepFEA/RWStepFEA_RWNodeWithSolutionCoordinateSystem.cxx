@@ -20,7 +20,7 @@
 #include <StepFEA_NodeWithSolutionCoordinateSystem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWNodeWithSolutionCoordinateSystem.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWNodeWithSolutionCoordinateSystem.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

@@ -20,7 +20,7 @@
 #include <StepFEA_FeaMoistureAbsorption.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaMoistureAbsorption.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaMoistureAbsorption.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaMoistureAbsorption

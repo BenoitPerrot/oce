@@ -20,7 +20,7 @@
 #include <StepFEA_DummyNode.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWDummyNode.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWDummyNode.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

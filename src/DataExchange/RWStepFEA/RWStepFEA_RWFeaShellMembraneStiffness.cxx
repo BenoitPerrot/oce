@@ -20,7 +20,7 @@
 #include <StepFEA_FeaShellMembraneStiffness.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaShellMembraneStiffness.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaShellMembraneStiffness.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaShellMembraneStiffness

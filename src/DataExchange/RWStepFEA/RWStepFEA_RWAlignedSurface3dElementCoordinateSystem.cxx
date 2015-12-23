@@ -20,7 +20,7 @@
 #include <StepFEA_AlignedSurface3dElementCoordinateSystem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWAlignedSurface3dElementCoordinateSystem.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWAlignedSurface3dElementCoordinateSystem.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWAlignedSurface3dElementCoordinateSystem

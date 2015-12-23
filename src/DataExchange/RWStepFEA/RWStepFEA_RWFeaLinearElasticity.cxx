@@ -20,7 +20,7 @@
 #include <StepFEA_FeaLinearElasticity.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaLinearElasticity.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaLinearElasticity.hxx>
 
 #include <StepFEA_SymmetricTensor43dMember.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

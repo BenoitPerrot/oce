@@ -20,7 +20,7 @@
 #include <StepFEA_ArbitraryVolume3dElementCoordinateSystem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWArbitraryVolume3dElementCoordinateSystem.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWArbitraryVolume3dElementCoordinateSystem.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWArbitraryVolume3dElementCoordinateSystem

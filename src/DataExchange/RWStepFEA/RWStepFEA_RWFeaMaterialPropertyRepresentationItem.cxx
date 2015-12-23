@@ -20,7 +20,7 @@
 #include <StepFEA_FeaMaterialPropertyRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaMaterialPropertyRepresentationItem.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaMaterialPropertyRepresentationItem.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaMaterialPropertyRepresentationItem

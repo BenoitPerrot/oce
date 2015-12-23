@@ -20,7 +20,7 @@
 #include <StepFEA_Curve3dElementProperty.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWCurve3dElementProperty.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWCurve3dElementProperty.hxx>
 #include <StepFEA_HArray1OfCurveElementInterval.hxx>
 #include <StepFEA_CurveElementInterval.hxx>
 #include <StepFEA_HArray1OfCurveElementEndOffset.hxx>

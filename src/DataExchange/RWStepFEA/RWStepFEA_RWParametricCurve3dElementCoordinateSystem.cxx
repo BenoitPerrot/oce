@@ -20,7 +20,7 @@
 #include <StepFEA_ParametricCurve3dElementCoordinateSystem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWParametricCurve3dElementCoordinateSystem.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWParametricCurve3dElementCoordinateSystem.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWParametricCurve3dElementCoordinateSystem

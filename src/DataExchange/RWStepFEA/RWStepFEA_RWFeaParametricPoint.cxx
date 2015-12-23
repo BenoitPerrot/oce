@@ -20,7 +20,7 @@
 #include <StepFEA_FeaParametricPoint.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaParametricPoint.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaParametricPoint.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 

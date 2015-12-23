@@ -20,7 +20,7 @@
 #include <StepFEA_CurveElementLocation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWCurveElementLocation.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWCurveElementLocation.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWCurveElementLocation

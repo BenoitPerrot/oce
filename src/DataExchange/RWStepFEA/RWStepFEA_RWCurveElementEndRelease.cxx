@@ -20,7 +20,7 @@
 #include <StepFEA_CurveElementEndRelease.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWCurveElementEndRelease.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWCurveElementEndRelease.hxx>
 #include <StepElement_HArray1OfCurveElementEndReleasePacket.hxx>
 #include <StepElement_CurveElementEndReleasePacket.hxx>
 

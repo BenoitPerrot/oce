@@ -20,7 +20,7 @@
 #include <StepFEA_FeaSecantCoefficientOfLinearThermalExpansion.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaSecantCoefficientOfLinearThermalExpansion.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaSecantCoefficientOfLinearThermalExpansion.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaSecantCoefficientOfLinearThermalExpansion

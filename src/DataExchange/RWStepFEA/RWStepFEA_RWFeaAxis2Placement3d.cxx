@@ -20,7 +20,7 @@
 #include <StepFEA_FeaAxis2Placement3d.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaAxis2Placement3d.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaAxis2Placement3d.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaAxis2Placement3d

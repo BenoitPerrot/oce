@@ -20,7 +20,7 @@
 #include <StepFEA_Volume3dElementRepresentation.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWVolume3dElementRepresentation.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWVolume3dElementRepresentation.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepFEA_HArray1OfNodeRepresentation.hxx>

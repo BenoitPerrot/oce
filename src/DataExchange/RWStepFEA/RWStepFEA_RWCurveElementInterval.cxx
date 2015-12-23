@@ -20,7 +20,7 @@
 #include <StepFEA_CurveElementInterval.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWCurveElementInterval.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWCurveElementInterval.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWCurveElementInterval

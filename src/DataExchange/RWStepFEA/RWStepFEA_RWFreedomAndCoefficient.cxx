@@ -20,7 +20,7 @@
 #include <StepFEA_FreedomAndCoefficient.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFreedomAndCoefficient.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFreedomAndCoefficient.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFreedomAndCoefficient

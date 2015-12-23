@@ -20,7 +20,7 @@
 #include <StepFEA_FeaModel3d.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaModel3d.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaModel3d.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>

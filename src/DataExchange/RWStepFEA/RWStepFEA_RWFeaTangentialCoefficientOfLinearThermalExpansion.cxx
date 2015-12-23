@@ -20,7 +20,7 @@
 #include <StepFEA_FeaTangentialCoefficientOfLinearThermalExpansion.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaTangentialCoefficientOfLinearThermalExpansion.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaTangentialCoefficientOfLinearThermalExpansion.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaTangentialCoefficientOfLinearThermalExpansion

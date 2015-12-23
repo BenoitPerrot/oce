@@ -20,7 +20,7 @@
 #include <StepFEA_FreedomsList.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFreedomsList.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFreedomsList.hxx>
 #include <StepFEA_HArray1OfDegreeOfFreedom.hxx>
 #include <StepFEA_DegreeOfFreedom.hxx>
 

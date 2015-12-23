@@ -20,7 +20,7 @@
 #include <StepFEA_NodeWithVector.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWNodeWithVector.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWNodeWithVector.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 

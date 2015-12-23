@@ -20,7 +20,7 @@
 #include <StepFEA_FeaCurveSectionGeometricRelationship.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <RWStepFEA_RWFeaCurveSectionGeometricRelationship.hxx>
+#include <DataExchange/RWStepFEA/RWStepFEA_RWFeaCurveSectionGeometricRelationship.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWFeaCurveSectionGeometricRelationship
