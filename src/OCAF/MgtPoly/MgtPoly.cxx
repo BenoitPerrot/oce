@@ -24,7 +24,7 @@
 #include <PPoly_Polygon2D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <PPoly_PolygonOnTriangulation.hxx>
-#include <MgtPoly.hxx>
+#include <OCAF/MgtPoly/MgtPoly.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <PColgp_HArray1OfPnt.hxx>

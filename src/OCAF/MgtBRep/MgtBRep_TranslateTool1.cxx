@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool1)
 #include <MgtTopLoc.hxx>
 #include <OCAF/MgtGeom/MgtGeom.hxx>
 #include <OCAF/MgtGeom2d/MgtGeom2d.hxx>
-#include <MgtPoly.hxx>
+#include <OCAF/MgtPoly/MgtPoly.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
