@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
-#include <IGESConvGeom_GeomBuilder.hxx>
+#include <DataExchange/IGESConvGeom/IGESConvGeom_GeomBuilder.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Interface_Translates.hxx>

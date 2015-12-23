@@ -52,7 +52,7 @@
 #include <IGESGeom_SplineSurface.hxx>
 #include <IGESGeom_BSplineSurface.hxx>
 
-#include <IGESConvGeom.hxx>
+#include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 
 #include <Interface_Macros.hxx>  
 

@@ -67,7 +67,7 @@
 
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 
-#include <IGESConvGeom_GeomBuilder.hxx>
+#include <DataExchange/IGESConvGeom/IGESConvGeom_GeomBuilder.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 

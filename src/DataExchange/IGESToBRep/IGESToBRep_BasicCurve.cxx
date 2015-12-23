@@ -85,7 +85,7 @@
 #include <IGESGeom_SplineCurve.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
 
-#include <IGESConvGeom.hxx>
+#include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 
 #include <Interface_Macros.hxx>
 

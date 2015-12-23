@@ -71,7 +71,7 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
-#include <IGESConvGeom_GeomBuilder.hxx>
+#include <DataExchange/IGESConvGeom/IGESConvGeom_GeomBuilder.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_ToolLocation.hxx>
