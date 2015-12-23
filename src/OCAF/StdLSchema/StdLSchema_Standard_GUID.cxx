@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_Standard_GUID_HeaderFile
-#include <StdLSchema_Standard_GUID.hxx>
+#include <OCAF/StdLSchema/StdLSchema_Standard_GUID.hxx>
 #endif
 #ifndef _Standard_GUID_HeaderFile
 #include <Foundation/Standard/Standard_GUID.hxx>

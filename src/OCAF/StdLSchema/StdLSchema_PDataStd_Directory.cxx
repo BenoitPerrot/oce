@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDataStd_Directory_HeaderFile
-#include <StdLSchema_PDataStd_Directory.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Directory.hxx>
 #endif
 #ifndef _PDataStd_Directory_HeaderFile
 #include <OCAF/PDataStd/PDataStd_Directory.hxx>

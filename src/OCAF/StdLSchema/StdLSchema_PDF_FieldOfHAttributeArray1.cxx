@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDF_FieldOfHAttributeArray1_HeaderFile
-#include <StdLSchema_PDF_FieldOfHAttributeArray1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_FieldOfHAttributeArray1.hxx>
 #endif
 #ifndef _PDF_FieldOfHAttributeArray1_HeaderFile
 #include <OCAF/PDF/PDF_FieldOfHAttributeArray1.hxx>

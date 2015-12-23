@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_HeaderFile
-#include <StdLSchema.hxx>
+#include <OCAF/StdLSchema/StdLSchema.hxx>
 #endif
 #ifndef _Storage_StreamUnknownTypeError_HeaderFile
 #include <Foundation/Storage/Storage_StreamUnknownTypeError.hxx>
@@ -8,157 +8,157 @@
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #endif
 #ifndef _StdLSchema_PDF_Data_HeaderFile
-#include <StdLSchema_PDF_Data.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_Data.hxx>
 #endif
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile
-#include <StdLSchema_PDF_Attribute.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_Attribute.hxx>
 #endif
 #ifndef _StdLSchema_PDF_TagSource_HeaderFile
-#include <StdLSchema_PDF_TagSource.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_TagSource.hxx>
 #endif
 #ifndef _StdLSchema_PDF_Reference_HeaderFile
-#include <StdLSchema_PDF_Reference.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_Reference.hxx>
 #endif
 #ifndef _StdLSchema_PDF_HAttributeArray1_HeaderFile
-#include <StdLSchema_PDF_HAttributeArray1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Name_HeaderFile
-#include <StdLSchema_PDataStd_Name.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Name.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Comment_HeaderFile
-#include <StdLSchema_PDataStd_Comment.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Comment.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Integer_HeaderFile
-#include <StdLSchema_PDataStd_Integer.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Integer.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_IntegerArray_HeaderFile
-#include <StdLSchema_PDataStd_IntegerArray.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_IntegerArray.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_IntegerArray_1_HeaderFile
-#include <StdLSchema_PDataStd_IntegerArray_1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_IntegerArray_1.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Real_HeaderFile
-#include <StdLSchema_PDataStd_Real.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Real.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_RealArray_HeaderFile
-#include <StdLSchema_PDataStd_RealArray.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_RealArray.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_RealArray_1_HeaderFile
-#include <StdLSchema_PDataStd_RealArray_1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_RealArray_1.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_ExtStringArray_HeaderFile
-#include <StdLSchema_PDataStd_ExtStringArray.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ExtStringArray.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_ExtStringArray_1_HeaderFile
-#include <StdLSchema_PDataStd_ExtStringArray_1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ExtStringArray_1.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_TreeNode_HeaderFile
-#include <StdLSchema_PDataStd_TreeNode.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_TreeNode.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Expression_HeaderFile
-#include <StdLSchema_PDataStd_Expression.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Expression.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Relation_HeaderFile
-#include <StdLSchema_PDataStd_Relation.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Relation.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Variable_HeaderFile
-#include <StdLSchema_PDataStd_Variable.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Variable.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_NoteBook_HeaderFile
-#include <StdLSchema_PDataStd_NoteBook.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_NoteBook.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_UAttribute_HeaderFile
-#include <StdLSchema_PDataStd_UAttribute.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_UAttribute.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Directory_HeaderFile
-#include <StdLSchema_PDataStd_Directory.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Directory.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_Tick_HeaderFile
-#include <StdLSchema_PDataStd_Tick.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Tick.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_IntegerList_HeaderFile
-#include <StdLSchema_PDataStd_IntegerList.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_IntegerList.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_RealList_HeaderFile
-#include <StdLSchema_PDataStd_RealList.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_RealList.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_ExtStringList_HeaderFile
-#include <StdLSchema_PDataStd_ExtStringList.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ExtStringList.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_BooleanList_HeaderFile
-#include <StdLSchema_PDataStd_BooleanList.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_BooleanList.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_ReferenceList_HeaderFile
-#include <StdLSchema_PDataStd_ReferenceList.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ReferenceList.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_BooleanArray_HeaderFile
-#include <StdLSchema_PDataStd_BooleanArray.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_BooleanArray.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_ReferenceArray_HeaderFile
-#include <StdLSchema_PDataStd_ReferenceArray.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ReferenceArray.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_ByteArray_HeaderFile
-#include <StdLSchema_PDataStd_ByteArray.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ByteArray.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_ByteArray_1_HeaderFile
-#include <StdLSchema_PDataStd_ByteArray_1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ByteArray_1.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_NamedData_HeaderFile
-#include <StdLSchema_PDataStd_NamedData.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_NamedData.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_AsciiString_HeaderFile
-#include <StdLSchema_PDataStd_AsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_AsciiString.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_IntPackedMap_HeaderFile
-#include <StdLSchema_PDataStd_IntPackedMap.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_IntPackedMap.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_IntPackedMap_1_HeaderFile
-#include <StdLSchema_PDataStd_IntPackedMap_1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_IntPackedMap_1.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_HArray1OfHAsciiString_HeaderFile
-#include <StdLSchema_PDataStd_HArray1OfHAsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_HArray1OfHAsciiString.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_HArray1OfHArray1OfInteger_HeaderFile
-#include <StdLSchema_PDataStd_HArray1OfHArray1OfInteger.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_HArray1OfHArray1OfInteger.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_HArray1OfHArray1OfReal_HeaderFile
-#include <StdLSchema_PDataStd_HArray1OfHArray1OfReal.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_HArray1OfHArray1OfReal.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_HArray1OfByte_HeaderFile
-#include <StdLSchema_PDataStd_HArray1OfByte.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_HArray1OfByte.hxx>
 #endif
 #ifndef _StdLSchema_PFunction_Function_HeaderFile
-#include <StdLSchema_PFunction_Function.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PFunction_Function.hxx>
 #endif
 #ifndef _StdLSchema_PDocStd_Document_HeaderFile
-#include <StdLSchema_PDocStd_Document.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDocStd_Document.hxx>
 #endif
 #ifndef _StdLSchema_PDocStd_XLink_HeaderFile
-#include <StdLSchema_PDocStd_XLink.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDocStd_XLink.hxx>
 #endif
 #ifndef _StdLSchema_PCDM_Document_HeaderFile
-#include <StdLSchema_PCDM_Document.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCDM_Document.hxx>
 #endif
 #ifndef _StdLSchema_Standard_Persistent_HeaderFile
-#include <StdLSchema_Standard_Persistent.hxx>
+#include <OCAF/StdLSchema/StdLSchema_Standard_Persistent.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfInteger_HeaderFile
-#include <StdLSchema_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HAsciiString_HeaderFile
-#include <StdLSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
-#include <StdLSchema_PCollection_HExtendedString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HExtendedString.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfReal_HeaderFile
-#include <StdLSchema_PColStd_HArray1OfReal.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PColStd_HArray1OfReal.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfExtendedString_HeaderFile
-#include <StdLSchema_PColStd_HArray1OfExtendedString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PColStd_HArray1OfExtendedString.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray2OfInteger_HeaderFile
-#include <StdLSchema_PColStd_HArray2OfInteger.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PColStd_HArray2OfInteger.hxx>
 #endif
 
 // avoid warnings on 'extern "C"' functions returning C++ classes

@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDataStd_NoteBook_HeaderFile
-#include <StdLSchema_PDataStd_NoteBook.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_NoteBook.hxx>
 #endif
 #ifndef _PDataStd_NoteBook_HeaderFile
 #include <OCAF/PDataStd/PDataStd_NoteBook.hxx>

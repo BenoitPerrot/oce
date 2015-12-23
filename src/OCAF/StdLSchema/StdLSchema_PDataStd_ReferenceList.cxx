@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDataStd_ReferenceList_HeaderFile
-#include <StdLSchema_PDataStd_ReferenceList.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_ReferenceList.hxx>
 #endif
 #ifndef _PDataStd_ReferenceList_HeaderFile
 #include <OCAF/PDataStd/PDataStd_ReferenceList.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfExtendedString_HeaderFile
-#include <StdLSchema_PColStd_HArray1OfExtendedString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PColStd_HArray1OfExtendedString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

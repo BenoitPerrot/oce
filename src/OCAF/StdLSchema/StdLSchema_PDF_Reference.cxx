@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDF_Reference_HeaderFile
-#include <StdLSchema_PDF_Reference.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_Reference.hxx>
 #endif
 #ifndef _PDF_Reference_HeaderFile
 #include <OCAF/PDF/PDF_Reference.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HAsciiString_HeaderFile
-#include <StdLSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

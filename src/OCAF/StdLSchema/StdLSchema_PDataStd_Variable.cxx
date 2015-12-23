@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDataStd_Variable_HeaderFile
-#include <StdLSchema_PDataStd_Variable.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Variable.hxx>
 #endif
 #ifndef _PDataStd_Variable_HeaderFile
 #include <OCAF/PDataStd/PDataStd_Variable.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HAsciiString_HeaderFile
-#include <StdLSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PCDM_Document_HeaderFile
-#include <StdLSchema_PCDM_Document.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCDM_Document.hxx>
 #endif
 #ifndef _PCDM_Document_HeaderFile
 #include <OCAF/PCDM/PCDM_Document.hxx>

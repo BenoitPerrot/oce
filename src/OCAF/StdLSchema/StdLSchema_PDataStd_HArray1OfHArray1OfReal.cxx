@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDataStd_HArray1OfHArray1OfReal_HeaderFile
-#include <StdLSchema_PDataStd_HArray1OfHArray1OfReal.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_HArray1OfHArray1OfReal.hxx>
 #endif
 #ifndef _PDataStd_HArray1OfHArray1OfReal_HeaderFile
 #include <OCAF/PDataStd/PDataStd_HArray1OfHArray1OfReal.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal_HeaderFile
-#include <StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

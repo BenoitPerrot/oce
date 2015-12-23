@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PFunction_Function_HeaderFile
-#include <StdLSchema_PFunction_Function.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PFunction_Function.hxx>
 #endif
 #ifndef _PFunction_Function_HeaderFile
 #include <OCAF/PFunction/PFunction_Function.hxx>
 #endif
 #ifndef _StdLSchema_Standard_GUID_HeaderFile
-#include <StdLSchema_Standard_GUID.hxx>
+#include <OCAF/StdLSchema/StdLSchema_Standard_GUID.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

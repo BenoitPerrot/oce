@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_Standard_Storable_HeaderFile
-#include <StdLSchema_Standard_Storable.hxx>
+#include <OCAF/StdLSchema/StdLSchema_Standard_Storable.hxx>
 #endif
 #ifndef _Standard_Storable_HeaderFile
 #include <Foundation/Standard/Standard_Storable.hxx>

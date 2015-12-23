@@ -1,14 +1,14 @@
 #ifndef _StdLSchema_PDocStd_XLink_HeaderFile
-#include <StdLSchema_PDocStd_XLink.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDocStd_XLink.hxx>
 #endif
 #ifndef _PDocStd_XLink_HeaderFile
 #include <OCAF/PDocStd/PDocStd_XLink.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HAsciiString_HeaderFile
-#include <StdLSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HAsciiString_HeaderFile
-#include <StdLSchema_PCollection_HAsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

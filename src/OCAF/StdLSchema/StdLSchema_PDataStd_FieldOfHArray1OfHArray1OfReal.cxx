@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal_HeaderFile
-#include <StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>
 #endif
 #ifndef _PDataStd_FieldOfHArray1OfHArray1OfReal_HeaderFile
 #include <OCAF/PDataStd/PDataStd_FieldOfHArray1OfHArray1OfReal.hxx>

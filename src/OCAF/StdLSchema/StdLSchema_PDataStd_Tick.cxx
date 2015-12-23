@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDataStd_Tick_HeaderFile
-#include <StdLSchema_PDataStd_Tick.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Tick.hxx>
 #endif
 #ifndef _PDataStd_Tick_HeaderFile
 #include <OCAF/PDataStd/PDataStd_Tick.hxx>

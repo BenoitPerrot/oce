@@ -1,14 +1,14 @@
 #ifndef _StdLSchema_PDF_Data_HeaderFile
-#include <StdLSchema_PDF_Data.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_Data.hxx>
 #endif
 #ifndef _PDF_Data_HeaderFile
 #include <OCAF/PDF/PDF_Data.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfInteger_HeaderFile
-#include <StdLSchema_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PColStd_HArray1OfInteger.hxx>
 #endif
 #ifndef _StdLSchema_PDF_HAttributeArray1_HeaderFile
-#include <StdLSchema_PDF_HAttributeArray1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

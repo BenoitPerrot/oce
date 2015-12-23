@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfByte_HeaderFile
-#include <StdLSchema_PDataStd_FieldOfHArray1OfByte.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_FieldOfHArray1OfByte.hxx>
 #endif
 #ifndef _PDataStd_FieldOfHArray1OfByte_HeaderFile
 #include <OCAF/PDataStd/PDataStd_FieldOfHArray1OfByte.hxx>

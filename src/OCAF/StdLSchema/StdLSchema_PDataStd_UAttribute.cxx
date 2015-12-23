@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDataStd_UAttribute_HeaderFile
-#include <StdLSchema_PDataStd_UAttribute.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_UAttribute.hxx>
 #endif
 #ifndef _PDataStd_UAttribute_HeaderFile
 #include <OCAF/PDataStd/PDataStd_UAttribute.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
-#include <StdLSchema_PCollection_HExtendedString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HExtendedString.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

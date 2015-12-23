@@ -19,7 +19,7 @@
 #include <OCAF/StdDrivers/StdDrivers_DocumentStorageDriver.hxx>
 #include <OCAF/StdDrivers/StdDrivers_DocumentRetrievalDriver.hxx>
 #include <StdSchema.hxx>
-#include <StdLSchema.hxx>
+#include <OCAF/StdLSchema/StdLSchema.hxx>
 #include <OCAF/ShapeSchema/ShapeSchema.hxx>
 #include <Foundation/Storage/Storage_HArrayOfSchema.hxx>
 

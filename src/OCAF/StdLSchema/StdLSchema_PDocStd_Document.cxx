@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDocStd_Document_HeaderFile
-#include <StdLSchema_PDocStd_Document.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDocStd_Document.hxx>
 #endif
 #ifndef _PDocStd_Document_HeaderFile
 #include <OCAF/PDocStd/PDocStd_Document.hxx>
 #endif
 #ifndef _StdLSchema_PDF_Data_HeaderFile
-#include <StdLSchema_PDF_Data.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_Data.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

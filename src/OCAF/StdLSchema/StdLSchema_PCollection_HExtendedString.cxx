@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
-#include <StdLSchema_PCollection_HExtendedString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HExtendedString.hxx>
 #endif
 #ifndef _PCollection_HExtendedString_HeaderFile
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #endif
 #ifndef _StdLSchema_DBC_VArrayOfExtCharacter_HeaderFile
-#include <StdLSchema_DBC_VArrayOfExtCharacter.hxx>
+#include <OCAF/StdLSchema/StdLSchema_DBC_VArrayOfExtCharacter.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfHAsciiString_HeaderFile
-#include <StdLSchema_PDataStd_FieldOfHArray1OfHAsciiString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_FieldOfHArray1OfHAsciiString.hxx>
 #endif
 #ifndef _PDataStd_FieldOfHArray1OfHAsciiString_HeaderFile
 #include <OCAF/PDataStd/PDataStd_FieldOfHArray1OfHAsciiString.hxx>

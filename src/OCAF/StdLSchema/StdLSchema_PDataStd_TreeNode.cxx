@@ -1,17 +1,17 @@
 #ifndef _StdLSchema_PDataStd_TreeNode_HeaderFile
-#include <StdLSchema_PDataStd_TreeNode.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_TreeNode.hxx>
 #endif
 #ifndef _PDataStd_TreeNode_HeaderFile
 #include <OCAF/PDataStd/PDataStd_TreeNode.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_TreeNode_HeaderFile
-#include <StdLSchema_PDataStd_TreeNode.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_TreeNode.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_TreeNode_HeaderFile
-#include <StdLSchema_PDataStd_TreeNode.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_TreeNode.hxx>
 #endif
 #ifndef _StdLSchema_Standard_GUID_HeaderFile
-#include <StdLSchema_Standard_GUID.hxx>
+#include <OCAF/StdLSchema/StdLSchema_Standard_GUID.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

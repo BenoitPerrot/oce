@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_PDF_TagSource_HeaderFile
-#include <StdLSchema_PDF_TagSource.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_TagSource.hxx>
 #endif
 #ifndef _PDF_TagSource_HeaderFile
 #include <OCAF/PDF/PDF_TagSource.hxx>

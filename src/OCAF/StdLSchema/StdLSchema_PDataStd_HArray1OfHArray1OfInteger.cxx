@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDataStd_HArray1OfHArray1OfInteger_HeaderFile
-#include <StdLSchema_PDataStd_HArray1OfHArray1OfInteger.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_HArray1OfHArray1OfInteger.hxx>
 #endif
 #ifndef _PDataStd_HArray1OfHArray1OfInteger_HeaderFile
 #include <OCAF/PDataStd/PDataStd_HArray1OfHArray1OfInteger.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfInteger_HeaderFile
-#include <StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

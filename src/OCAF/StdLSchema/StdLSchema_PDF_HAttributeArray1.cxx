@@ -1,11 +1,11 @@
 #ifndef _StdLSchema_PDF_HAttributeArray1_HeaderFile
-#include <StdLSchema_PDF_HAttributeArray1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _PDF_HAttributeArray1_HeaderFile
 #include <OCAF/PDF/PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _StdLSchema_PDF_FieldOfHAttributeArray1_HeaderFile
-#include <StdLSchema_PDF_FieldOfHAttributeArray1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_FieldOfHAttributeArray1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

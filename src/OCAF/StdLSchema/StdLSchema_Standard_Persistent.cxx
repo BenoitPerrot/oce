@@ -1,5 +1,5 @@
 #ifndef _StdLSchema_Standard_Persistent_HeaderFile
-#include <StdLSchema_Standard_Persistent.hxx>
+#include <OCAF/StdLSchema/StdLSchema_Standard_Persistent.hxx>
 #endif
 #ifndef _Standard_Persistent_HeaderFile
 #include <Foundation/Standard/Standard_Persistent.hxx>

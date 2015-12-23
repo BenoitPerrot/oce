@@ -1,14 +1,14 @@
 #ifndef _StdLSchema_PDataStd_Relation_HeaderFile
-#include <StdLSchema_PDataStd_Relation.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDataStd_Relation.hxx>
 #endif
 #ifndef _PDataStd_Relation_HeaderFile
 #include <OCAF/PDataStd/PDataStd_Relation.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
-#include <StdLSchema_PCollection_HExtendedString.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PCollection_HExtendedString.hxx>
 #endif
 #ifndef _StdLSchema_PDF_HAttributeArray1_HeaderFile
-#include <StdLSchema_PDF_HAttributeArray1.hxx>
+#include <OCAF/StdLSchema/StdLSchema_PDF_HAttributeArray1.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>
