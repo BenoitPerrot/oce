@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_Comment.hxx>
 #endif
 #ifndef _PDataStd_Comment_HeaderFile
-#include <PDataStd_Comment.hxx>
+#include <OCAF/PDataStd/PDataStd_Comment.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
 #include <StdLSchema_PCollection_HExtendedString.hxx>

@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_Name.hxx>
 #endif
 #ifndef _PDataStd_Name_HeaderFile
-#include <PDataStd_Name.hxx>
+#include <OCAF/PDataStd/PDataStd_Name.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
 #include <StdLSchema_PCollection_HExtendedString.hxx>

@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_IntegerRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_IntegerRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_IntegerRetrievalDriver)
 #include <TDataStd_Integer.hxx>
-#include <PDataStd_Integer.hxx>
+#include <OCAF/PDataStd/PDataStd_Integer.hxx>
 #include <TDF_Label.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

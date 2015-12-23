@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
-#include <PDataStd_RealList.hxx>
+#include <OCAF/PDataStd/PDataStd_RealList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_RealList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

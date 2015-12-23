@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_IntegerArray_1.hxx>
 #endif
 #ifndef _PDataStd_IntegerArray_1_HeaderFile
-#include <PDataStd_IntegerArray_1.hxx>
+#include <OCAF/PDataStd/PDataStd_IntegerArray_1.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfInteger_HeaderFile
 #include <StdLSchema_PColStd_HArray1OfInteger.hxx>

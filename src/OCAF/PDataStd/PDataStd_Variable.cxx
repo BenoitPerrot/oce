@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
-#include <PDataStd_Variable.hxx>
+#include <OCAF/PDataStd/PDataStd_Variable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Variable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_HArray1OfHArray1OfInteger.hxx>
 #endif
 #ifndef _PDataStd_HArray1OfHArray1OfInteger_HeaderFile
-#include <PDataStd_HArray1OfHArray1OfInteger.hxx>
+#include <OCAF/PDataStd/PDataStd_HArray1OfHArray1OfInteger.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfInteger_HeaderFile
 #include <StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfInteger.hxx>

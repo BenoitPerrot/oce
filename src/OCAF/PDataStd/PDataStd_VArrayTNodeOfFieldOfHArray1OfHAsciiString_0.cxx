@@ -3,22 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString.hxx>
+#include <OCAF/PDataStd/PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString.hxx>
 
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
-#include <PDataStd_FieldOfHArray1OfHAsciiString.hxx>
-#include <PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
+#include <OCAF/PDataStd/PDataStd_FieldOfHArray1OfHAsciiString.hxx>
+#include <OCAF/PDataStd/PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
  
 
 #define Item Handle(PCollection_HAsciiString)
 #define Item_hxx <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #define DBC_VArrayNode PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString
-#define DBC_VArrayNode_hxx <PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PDataStd/PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
 #define DBC_VArrayTNode PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString
-#define DBC_VArrayTNode_hxx <PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PDataStd/PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString.hxx>
 #define Handle_DBC_VArrayNode Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString
 #define DBC_VArrayNode_Type_() PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString_Type_()
 #define DBC_VArray PDataStd_FieldOfHArray1OfHAsciiString
-#define DBC_VArray_hxx <PDataStd_FieldOfHArray1OfHAsciiString.hxx>
+#define DBC_VArray_hxx <OCAF/PDataStd/PDataStd_FieldOfHArray1OfHAsciiString.hxx>
 #include <OCAF/DBC/DBC_VArrayTNode.gxx>
 

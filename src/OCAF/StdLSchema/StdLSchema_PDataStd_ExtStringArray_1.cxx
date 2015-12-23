@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_ExtStringArray_1.hxx>
 #endif
 #ifndef _PDataStd_ExtStringArray_1_HeaderFile
-#include <PDataStd_ExtStringArray_1.hxx>
+#include <OCAF/PDataStd/PDataStd_ExtStringArray_1.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfExtendedString_HeaderFile
 #include <StdLSchema_PColStd_HArray1OfExtendedString.hxx>

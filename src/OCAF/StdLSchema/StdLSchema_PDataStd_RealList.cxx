@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_RealList.hxx>
 #endif
 #ifndef _PDataStd_RealList_HeaderFile
-#include <PDataStd_RealList.hxx>
+#include <OCAF/PDataStd/PDataStd_RealList.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfReal_HeaderFile
 #include <StdLSchema_PColStd_HArray1OfReal.hxx>

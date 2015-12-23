@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_Directory.hxx>
 #endif
 #ifndef _PDataStd_Directory_HeaderFile
-#include <PDataStd_Directory.hxx>
+#include <OCAF/PDataStd/PDataStd_Directory.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_NoteBook.hxx>
 #endif
 #ifndef _PDataStd_NoteBook_HeaderFile
-#include <PDataStd_NoteBook.hxx>
+#include <OCAF/PDataStd/PDataStd_NoteBook.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

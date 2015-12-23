@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_BooleanList.hxx>
 #endif
 #ifndef _PDataStd_BooleanList_HeaderFile
-#include <PDataStd_BooleanList.hxx>
+#include <OCAF/PDataStd/PDataStd_BooleanList.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfInteger_HeaderFile
 #include <StdLSchema_PColStd_HArray1OfInteger.hxx>

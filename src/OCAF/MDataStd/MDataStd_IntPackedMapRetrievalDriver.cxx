@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_IntPackedMapRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_IntPackedMapRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_IntPackedMapRetrievalDriver)
-#include <PDataStd_IntPackedMap.hxx>
+#include <OCAF/PDataStd/PDataStd_IntPackedMap.hxx>
 #include <TDataStd_IntPackedMap.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>

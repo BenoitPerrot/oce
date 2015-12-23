@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_Real.hxx>
+#include <OCAF/PDataStd/PDataStd_Real.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Real)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

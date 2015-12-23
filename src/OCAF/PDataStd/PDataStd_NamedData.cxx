@@ -18,11 +18,11 @@
 #include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <OCAF/PColStd/PColStd_HArray2OfInteger.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfExtendedString.hxx>
-#include <PDataStd_HArray1OfByte.hxx>
-#include <PDataStd_HArray1OfHArray1OfInteger.hxx>
-#include <PDataStd_HArray1OfHArray1OfReal.hxx>
+#include <OCAF/PDataStd/PDataStd_HArray1OfByte.hxx>
+#include <OCAF/PDataStd/PDataStd_HArray1OfHArray1OfInteger.hxx>
+#include <OCAF/PDataStd/PDataStd_HArray1OfHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
-#include <PDataStd_NamedData.hxx>
+#include <OCAF/PDataStd/PDataStd_NamedData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_NamedData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

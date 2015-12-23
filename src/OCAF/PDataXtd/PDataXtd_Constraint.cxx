@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_Real.hxx>
+#include <OCAF/PDataStd/PDataStd_Real.hxx>
 #include <PDF_HAttributeArray1.hxx>
 #include <PNaming_NamedShape.hxx>
 #include <PDataXtd_Constraint.hxx>

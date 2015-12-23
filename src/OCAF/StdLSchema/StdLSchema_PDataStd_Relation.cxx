@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_Relation.hxx>
 #endif
 #ifndef _PDataStd_Relation_HeaderFile
-#include <PDataStd_Relation.hxx>
+#include <OCAF/PDataStd/PDataStd_Relation.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
 #include <StdLSchema_PCollection_HExtendedString.hxx>

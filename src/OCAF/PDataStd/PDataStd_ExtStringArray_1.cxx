@@ -15,7 +15,7 @@
 
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <OCAF/PColStd/PColStd_HArray1OfExtendedString.hxx>
-#include <PDataStd_ExtStringArray_1.hxx>
+#include <OCAF/PDataStd/PDataStd_ExtStringArray_1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_ExtStringArray_1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

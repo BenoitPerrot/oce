@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_NamedDataRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_NamedDataRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataRetrievalDriver)
-#include <PDataStd_NamedData.hxx>
+#include <OCAF/PDataStd/PDataStd_NamedData.hxx>
 #include <TDataStd_NamedData.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

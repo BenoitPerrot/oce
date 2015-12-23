@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_Tick.hxx>
 #endif
 #ifndef _PDataStd_Tick_HeaderFile
-#include <PDataStd_Tick.hxx>
+#include <OCAF/PDataStd/PDataStd_Tick.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

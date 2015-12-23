@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_Expression.hxx>
 #endif
 #ifndef _PDataStd_Expression_HeaderFile
-#include <PDataStd_Expression.hxx>
+#include <OCAF/PDataStd/PDataStd_Expression.hxx>
 #endif
 #ifndef _StdLSchema_PCollection_HExtendedString_HeaderFile
 #include <StdLSchema_PCollection_HExtendedString.hxx>

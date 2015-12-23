@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_HArray1OfHAsciiString.hxx>
 #endif
 #ifndef _PDataStd_HArray1OfHAsciiString_HeaderFile
-#include <PDataStd_HArray1OfHAsciiString.hxx>
+#include <OCAF/PDataStd/PDataStd_HArray1OfHAsciiString.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfHAsciiString_HeaderFile
 #include <StdLSchema_PDataStd_FieldOfHArray1OfHAsciiString.hxx>

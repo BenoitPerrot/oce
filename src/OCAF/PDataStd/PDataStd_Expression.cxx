@@ -16,7 +16,7 @@
 
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <PDF_HAttributeArray1.hxx>
-#include <PDataStd_Expression.hxx>
+#include <OCAF/PDataStd/PDataStd_Expression.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Expression)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

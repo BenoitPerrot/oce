@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_ByteArrayStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_ByteArrayStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ByteArrayStorageDriver)
-#include <PDataStd_ByteArray.hxx>
-#include <PDataStd_ByteArray_1.hxx>
+#include <OCAF/PDataStd/PDataStd_ByteArray.hxx>
+#include <OCAF/PDataStd/PDataStd_ByteArray_1.hxx>
 #include <TDataStd_ByteArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_RealArrayStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_RealArrayStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_RealArrayStorageDriver)
-#include <PDataStd_RealArray.hxx>
-#include <PDataStd_RealArray_1.hxx>
+#include <OCAF/PDataStd/PDataStd_RealArray.hxx>
+#include <OCAF/PDataStd/PDataStd_RealArray_1.hxx>
 #include <TDataStd_RealArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

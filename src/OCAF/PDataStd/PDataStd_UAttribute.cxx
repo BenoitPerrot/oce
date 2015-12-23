@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
-#include <PDataStd_UAttribute.hxx>
+#include <OCAF/PDataStd/PDataStd_UAttribute.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_UAttribute)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

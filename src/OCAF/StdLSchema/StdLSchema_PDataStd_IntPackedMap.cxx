@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_IntPackedMap.hxx>
 #endif
 #ifndef _PDataStd_IntPackedMap_HeaderFile
-#include <PDataStd_IntPackedMap.hxx>
+#include <OCAF/PDataStd/PDataStd_IntPackedMap.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfInteger_HeaderFile
 #include <StdLSchema_PColStd_HArray1OfInteger.hxx>

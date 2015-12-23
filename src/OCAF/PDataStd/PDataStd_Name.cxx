@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
-#include <PDataStd_Name.hxx>
+#include <OCAF/PDataStd/PDataStd_Name.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_Name)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

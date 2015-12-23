@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_TreeNodeRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_TreeNodeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_TreeNodeRetrievalDriver)
-#include <PDataStd_TreeNode.hxx>
+#include <OCAF/PDataStd/PDataStd_TreeNode.hxx>
 #include <TDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Label.hxx>

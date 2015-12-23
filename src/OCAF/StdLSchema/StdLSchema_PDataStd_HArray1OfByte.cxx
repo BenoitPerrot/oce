@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_HArray1OfByte.hxx>
 #endif
 #ifndef _PDataStd_HArray1OfByte_HeaderFile
-#include <PDataStd_HArray1OfByte.hxx>
+#include <OCAF/PDataStd/PDataStd_HArray1OfByte.hxx>
 #endif
 #ifndef _StdLSchema_PDataStd_FieldOfHArray1OfByte_HeaderFile
 #include <StdLSchema_PDataStd_FieldOfHArray1OfByte.hxx>

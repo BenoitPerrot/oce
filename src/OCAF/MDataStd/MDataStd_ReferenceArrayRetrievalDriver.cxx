@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_ReferenceArrayRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_ReferenceArrayRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ReferenceArrayRetrievalDriver)
-#include <PDataStd_ReferenceArray.hxx>
+#include <OCAF/PDataStd/PDataStd_ReferenceArray.hxx>
 #include <TDataStd_ReferenceArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

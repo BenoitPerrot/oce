@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_DirectoryRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataStd_DirectoryRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_DirectoryRetrievalDriver)
-#include <PDataStd_Directory.hxx>
+#include <OCAF/PDataStd/PDataStd_Directory.hxx>
 #include <TDataStd_Directory.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

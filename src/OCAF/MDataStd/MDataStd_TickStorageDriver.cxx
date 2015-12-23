@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_TickStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_TickStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_TickStorageDriver)
-#include <PDataStd_Tick.hxx>
+#include <OCAF/PDataStd/PDataStd_Tick.hxx>
 #include <TDataStd_Tick.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataStd_NoteBookStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_NoteBookStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NoteBookStorageDriver)
-#include <PDataStd_NoteBook.hxx>
+#include <OCAF/PDataStd/PDataStd_NoteBook.hxx>
 #include <TDataStd_NoteBook.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataStd_TreeNode.hxx>
+#include <OCAF/PDataStd/PDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <PDataStd_TreeNode.hxx>
+#include <OCAF/PDataStd/PDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_TreeNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_Integer.hxx>
 #endif
 #ifndef _PDataStd_Integer_HeaderFile
-#include <PDataStd_Integer.hxx>
+#include <OCAF/PDataStd/PDataStd_Integer.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

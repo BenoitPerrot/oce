@@ -2,7 +2,7 @@
 #include <StdLSchema_PDataStd_ReferenceList.hxx>
 #endif
 #ifndef _PDataStd_ReferenceList_HeaderFile
-#include <PDataStd_ReferenceList.hxx>
+#include <OCAF/PDataStd/PDataStd_ReferenceList.hxx>
 #endif
 #ifndef _StdLSchema_PColStd_HArray1OfExtendedString_HeaderFile
 #include <StdLSchema_PColStd_HArray1OfExtendedString.hxx>

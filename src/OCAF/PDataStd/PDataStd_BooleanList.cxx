@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
-#include <PDataStd_BooleanList.hxx>
+#include <OCAF/PDataStd/PDataStd_BooleanList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_BooleanList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
