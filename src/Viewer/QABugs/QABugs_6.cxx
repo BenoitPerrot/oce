@@ -24,8 +24,8 @@
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 
 static Standard_Integer OCC281bug (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)

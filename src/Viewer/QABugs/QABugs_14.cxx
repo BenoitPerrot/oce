@@ -61,7 +61,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 static Standard_Integer BUC60897 (Draw_Interpretor& di, Standard_Integer /*argc*/, const char ** /*argv*/)

@@ -170,9 +170,9 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
-#include <V3d.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
+#include <Visualization/V3d/V3d.hxx>
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>

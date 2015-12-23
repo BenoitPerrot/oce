@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <V3d_Plane.hxx>
+#include <Visualization/V3d/V3d_Plane.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfQuadrangles.hxx>

@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_Light.hxx>
 
-#include <V3d_TypeOfLight.hxx>
+#include <Visualization/V3d/V3d_TypeOfLight.hxx>
 #include <Handle_Visual3d_Light.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_V3d_Light.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_TypeOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
-#include <V3d_Coordinate.hxx>
+#include <Visualization/V3d/V3d_Coordinate.hxx>
 class Visual3d_Light;
 class Graphic3d_Structure;
 class V3d_BadValue;

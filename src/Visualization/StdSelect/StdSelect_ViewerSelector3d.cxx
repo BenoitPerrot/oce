@@ -18,7 +18,7 @@
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
@@ -77,9 +77,9 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
-#include <V3d.hxx>
-#include <V3d_View.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 static Standard_Integer StdSel_NumberOfFreeEdges (const Handle(Poly_Triangulation)& Trg)

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 

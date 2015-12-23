@@ -17,7 +17,7 @@
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>

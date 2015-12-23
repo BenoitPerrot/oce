@@ -41,8 +41,8 @@
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <V3d_View.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Visual3d_View.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>

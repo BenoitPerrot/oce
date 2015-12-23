@@ -17,8 +17,8 @@
 ************************************************************************/
 
 // for the class
-#include <V3d_ColorScale.hxx>
-#include <V3d_ColorScaleLayerItem.hxx>
+#include <Visualization/V3d/V3d_ColorScale.hxx>
+#include <Visualization/V3d/V3d_ColorScaleLayerItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_ColorScaleLayerItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -25,7 +25,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visual3d_View.hxx>
 
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_Sewing.hxx>

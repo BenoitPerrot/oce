@@ -35,12 +35,12 @@
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <Visual3d_View.hxx>
 #include <Visual3d_ViewManager.hxx>
-#include <V3d_AmbientLight.hxx>
-#include <V3d_DirectionalLight.hxx>
-#include <V3d_LayerMgr.hxx>
-#include <V3d_LayerMgrPointer.hxx>
-#include <V3d_PositionalLight.hxx>
-#include <V3d_SpotLight.hxx>
+#include <Visualization/V3d/V3d_AmbientLight.hxx>
+#include <Visualization/V3d/V3d_DirectionalLight.hxx>
+#include <Visualization/V3d/V3d_LayerMgr.hxx>
+#include <Visualization/V3d/V3d_LayerMgrPointer.hxx>
+#include <Visualization/V3d/V3d_PositionalLight.hxx>
+#include <Visualization/V3d/V3d_SpotLight.hxx>
 #include <Foundation/NCollection/NCollection_DoubleMap.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
@@ -3079,7 +3079,7 @@ static int VExport(Draw_Interpretor& di, Standard_Integer argc, const char** arg
 //function : VColorScale
 //purpose  : representation color scale
 //==============================================================================
-#include <V3d_ColorScale.hxx>
+#include <Visualization/V3d/V3d_ColorScale.hxx>
 
 static int VColorScale (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {

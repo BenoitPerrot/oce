@@ -40,7 +40,7 @@
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
@@ -75,8 +75,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/StdSelect/StdSelect_ShapeTypeFilter.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visual3d_View.hxx>
 
 #ifdef ALE70590

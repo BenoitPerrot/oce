@@ -116,22 +116,22 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Visual3d_Light.hxx>
 #include <Visual3d_Layer.hxx>
 
-#include <V3d.hxx>
+#include <Visualization/V3d/V3d.hxx>
 #include <Visual3d_View.hxx>
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
-#include <V3d_LayerMgr.hxx>
+#include <Visualization/V3d/V3d_LayerMgr.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
-#include <V3d_UnMapped.hxx>
-#include <V3d_View.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_UnMapped.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
-#include <V3d_Light.hxx>
+#include <Visualization/V3d/V3d_Light.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Aspect/Aspect_ColorScale.hxx>
@@ -141,7 +141,7 @@ To solve the problem (for lack of a better solution) I make 2 passes.
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_View)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -151,8 +151,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(V3d_View)
 IMPLEMENT_DOWNCAST(V3d_View,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(V3d_View)
-#include <V3d_BadValue.hxx>
-#include <V3d_StereoDumpOptions.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_StereoDumpOptions.hxx>
 
 #include <Visualization/Image/Image_AlienPixMap.hxx>
 

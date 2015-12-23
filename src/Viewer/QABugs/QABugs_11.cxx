@@ -43,7 +43,7 @@
 #include <Geometry/GCPnts/GCPnts_UniformDeflection.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <IGESToBRep.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -84,7 +84,7 @@
 #include <IGESControl_Reader.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 

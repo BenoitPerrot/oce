@@ -31,12 +31,12 @@
  * Includes
  */
 
-#include <V3d.hxx>
-#include <V3d_BadValue.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <V3d_SpotLight.hxx>
+#include <Visualization/V3d/V3d_SpotLight.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_SpotLight)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

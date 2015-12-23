@@ -38,12 +38,12 @@
 // SetDisplayMode( IO, mode, updateviewer ) methods
 
 #include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>

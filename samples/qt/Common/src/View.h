@@ -6,7 +6,7 @@
 #include <QList>
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 
 class TopoDS_Shape;
 class QRubberBand;

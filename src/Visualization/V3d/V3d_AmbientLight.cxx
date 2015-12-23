@@ -16,9 +16,9 @@
 // Modified     30-03-98 : ZOV ; PRO6774 (reconstruction of the class hierarchy and suppressing useless methods)
 
 
-#include <V3d.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_AmbientLight.hxx>
+#include <Visualization/V3d/V3d.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_AmbientLight.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_AmbientLight)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

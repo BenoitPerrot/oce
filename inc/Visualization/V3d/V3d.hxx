@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <V3d_TypeOfOrientation.hxx>
+#include <Visualization/V3d/V3d_TypeOfOrientation.hxx>
 #include <Handle_Graphic3d_Group.hxx>
-#include <V3d_Coordinate.hxx>
-#include <V3d_Parameter.hxx>
+#include <Visualization/V3d/V3d_Coordinate.hxx>
+#include <Visualization/V3d/V3d_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Handle_V3d_Viewer.hxx>

@@ -31,15 +31,15 @@
  * Includes
  */
 
-#include <V3d.hxx>
+#include <Visualization/V3d/V3d.hxx>
 #include <Visual3d_Light.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
-#include <V3d_BadValue.hxx>
-#include <V3d_Light.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_Light.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <V3d_View.hxx>
-#include <V3d_Light.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
+#include <Visualization/V3d/V3d_Light.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_Light)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

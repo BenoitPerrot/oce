@@ -17,7 +17,7 @@
   #include <windows.h>
   #include <Visualization/Aspect/Aspect_Window.hxx>
   #include <Visualization/OpenGl/OpenGl_AVIWriter.hxx>
-  #include <V3d_View.hxx>
+  #include <Visualization/V3d/V3d_View.hxx>
 #endif
 
 #include <Viewer/ViewerTest/ViewerTest.hxx>

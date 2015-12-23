@@ -10,16 +10,16 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_SpotLight.hxx>
 
-#include <V3d_PositionLight.hxx>
+#include <Visualization/V3d/V3d_PositionLight.hxx>
 #include <Handle_V3d_Viewer.hxx>
-#include <V3d_Coordinate.hxx>
-#include <V3d_TypeOfOrientation.hxx>
+#include <Visualization/V3d/V3d_Coordinate.hxx>
+#include <Visualization/V3d/V3d_TypeOfOrientation.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Quantity/Quantity_Coefficient.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Handle_V3d_View.hxx>
-#include <V3d_TypeOfRepresentation.hxx>
+#include <Visualization/V3d/V3d_TypeOfRepresentation.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 class V3d_BadValue;
 class V3d_Viewer;

@@ -13,27 +13,27 @@
 
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Visual3d_ViewManager.hxx>
-#include <V3d_Light.hxx>
+#include <Visualization/V3d/V3d_Light.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
-#include <V3d_RectangularGrid.hxx>
-#include <V3d_CircularGrid.hxx>
+#include <Visualization/V3d/V3d_RectangularGrid.hxx>
+#include <Visualization/V3d/V3d_CircularGrid.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
-#include <V3d_BadValue.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/Aspect/Aspect_Background.hxx>
 #include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Visual3d_Light.hxx>
-#include <V3d_DirectionalLight.hxx>
-#include <V3d_PositionalLight.hxx>
-#include <V3d_AmbientLight.hxx>
-#include <V3d_BadValue.hxx>
-#include <V3d.hxx>				       
+#include <Visualization/V3d/V3d_DirectionalLight.hxx>
+#include <Visualization/V3d/V3d_PositionalLight.hxx>
+#include <Visualization/V3d/V3d_AmbientLight.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d.hxx>				       
 void V3d_Viewer::UpdateLights() {
 
   for (InitActiveViews();MoreActiveViews();NextActiveViews()){

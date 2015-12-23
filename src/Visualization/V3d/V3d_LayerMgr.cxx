@@ -14,11 +14,11 @@
 // commercial license or contractual agreement.
 
 #include <Visual3d_Layer.hxx>
-#include <V3d_ColorScale.hxx>
-#include <V3d_ColorScaleLayerItem.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_ColorScale.hxx>
+#include <Visualization/V3d/V3d_ColorScaleLayerItem.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/Aspect/Aspect_ColorScale.hxx>
-#include <V3d_LayerMgr.hxx>
+#include <Visualization/V3d/V3d_LayerMgr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_LayerMgr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_LayerMgr)
 
 #include <Visualization/Aspect/Aspect_Window.hxx>
 #include <Visual3d_View.hxx>
-#include <V3d_ColorScale.hxx>
+#include <Visualization/V3d/V3d_ColorScale.hxx>
 #include <Visualization/Font/Font_NameOfFont.hxx>
 
 

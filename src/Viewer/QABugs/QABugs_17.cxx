@@ -53,7 +53,7 @@
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakePipeShell.hxx>
 #include <Visualization/AIS/AIS_Trihedron.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <Visualization/AIS/AIS_LengthDimension.hxx>
 #include <Visualization/AIS/AIS_RadiusDimension.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/StdSelect/StdSelect.hxx>

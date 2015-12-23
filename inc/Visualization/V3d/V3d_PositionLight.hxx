@@ -11,13 +11,13 @@
 #include <Handle_V3d_PositionLight.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
-#include <V3d_TypeOfRepresentation.hxx>
-#include <V3d_Light.hxx>
+#include <Visualization/V3d/V3d_TypeOfRepresentation.hxx>
+#include <Visualization/V3d/V3d_Light.hxx>
 #include <Handle_V3d_Viewer.hxx>
-#include <V3d_Coordinate.hxx>
+#include <Visualization/V3d/V3d_Coordinate.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
 #include <Handle_V3d_View.hxx>
-#include <V3d_TypeOfPickLight.hxx>
+#include <Visualization/V3d/V3d_TypeOfPickLight.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Graphic3d_Group.hxx>

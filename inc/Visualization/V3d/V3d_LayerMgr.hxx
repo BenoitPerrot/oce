@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_LayerMgr.hxx>
 
-#include <V3d_ViewPointer.hxx>
+#include <Visualization/V3d/V3d_ViewPointer.hxx>
 #include <Handle_Visual3d_Layer.hxx>
 #include <Handle_V3d_ColorScale.hxx>
 #include <Handle_V3d_ColorScaleLayerItem.hxx>
@@ -82,7 +82,7 @@ private:
 };
 
 
-#include <V3d_LayerMgr.lxx>
+#include <Visualization/V3d/V3d_LayerMgr.lxx>
 
 
 

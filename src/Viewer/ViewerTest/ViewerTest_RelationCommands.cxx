@@ -64,9 +64,9 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
-#include <V3d.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
+#include <Visualization/V3d/V3d.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <Viewer/ViewerTest/ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
 #include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>

@@ -28,7 +28,7 @@
 #include <Viewer/ViewerTest/ViewerTest.hxx>
 
 
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 
 
 // for AIS
@@ -40,7 +40,7 @@
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx> 
 #include <Viewer/ViewerTest/ViewerTest.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>

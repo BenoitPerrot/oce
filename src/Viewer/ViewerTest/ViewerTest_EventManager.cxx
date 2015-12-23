@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

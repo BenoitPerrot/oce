@@ -13,7 +13,7 @@
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <V3d_ViewerPointer.hxx>
+#include <Visualization/V3d/V3d_ViewerPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Aspect/Aspect_GridDrawMode.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

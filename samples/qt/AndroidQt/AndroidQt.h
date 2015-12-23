@@ -25,7 +25,7 @@
 #undef GLdouble
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 
 #include <QMutex>
 

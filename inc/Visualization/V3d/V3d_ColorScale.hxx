@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_V3d_ColorScale.hxx>
 
-#include <V3d_LayerMgrPointer.hxx>
+#include <Visualization/V3d/V3d_LayerMgrPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Aspect/Aspect_ColorScale.hxx>
 #include <Handle_V3d_LayerMgr.hxx>

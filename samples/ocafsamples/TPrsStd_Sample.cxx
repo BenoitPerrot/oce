@@ -21,7 +21,7 @@
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <OCAF/TPrsStd/TPrsStd_DriverTable.hxx>
 #include <OCAF/TPrsStd/TPrsStd_NamedShapeDriver.hxx>

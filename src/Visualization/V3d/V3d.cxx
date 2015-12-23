@@ -32,10 +32,10 @@
 // for the class
 #include <Visualization/Graphic3d/Graphic3d_Vector.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <V3d_View.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>

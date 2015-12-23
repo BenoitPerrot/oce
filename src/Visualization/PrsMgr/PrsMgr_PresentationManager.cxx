@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentationManager)
 #include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visual3d_View.hxx>
 #include <Visual3d_Layer.hxx>
 

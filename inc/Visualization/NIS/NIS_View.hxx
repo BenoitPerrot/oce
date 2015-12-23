@@ -17,7 +17,7 @@
 #define NIS_View_HeaderFile
 
 #include <Handle_NIS_InteractiveObject.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>

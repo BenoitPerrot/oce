@@ -26,12 +26,12 @@
 #define OCC9657
 
 #include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Visualization/StdSelect/StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
@@ -62,11 +62,11 @@
 
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 
-#include <V3d_Light.hxx>
-#include <V3d_PositionalLight.hxx>
-#include <V3d_SpotLight.hxx>
-#include <V3d_DirectionalLight.hxx>
-#include <V3d_AmbientLight.hxx>
+#include <Visualization/V3d/V3d_Light.hxx>
+#include <Visualization/V3d/V3d_PositionalLight.hxx>
+#include <Visualization/V3d/V3d_SpotLight.hxx>
+#include <Visualization/V3d/V3d_DirectionalLight.hxx>
+#include <Visualization/V3d/V3d_AmbientLight.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>

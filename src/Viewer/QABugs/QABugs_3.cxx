@@ -358,7 +358,7 @@ static Standard_Integer BUC60574(Draw_Interpretor& di, Standard_Integer /*n*/, c
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>
 
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 
 static Standard_Integer BUC60699(Draw_Interpretor& di, Standard_Integer /*n*/, const char ** a)

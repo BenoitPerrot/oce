@@ -23,8 +23,8 @@
 #include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 
 #include <OCAF/TDocStd/TDocStd_Application.hxx>

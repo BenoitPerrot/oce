@@ -34,12 +34,12 @@
  * Includes
  */
 
-#include <V3d.hxx>
-#include <V3d_BadValue.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <V3d_DirectionalLight.hxx>
+#include <Visualization/V3d/V3d_DirectionalLight.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_DirectionalLight)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_DirectionalLight)
 #include <Visual3d_Light.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Visual3d_ContextPick.hxx>
-#include <V3d_BadValue.hxx>
+#include <Visualization/V3d/V3d_BadValue.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

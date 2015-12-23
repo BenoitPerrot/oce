@@ -14,8 +14,8 @@
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 #include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
-#include <V3d_DirectionalLight.hxx>
-#include <V3d_AmbientLight.hxx>
+#include <Visualization/V3d/V3d_DirectionalLight.hxx>
+#include <Visualization/V3d/V3d_AmbientLight.hxx>
 
 static Handle(Graphic3d_GraphicDriver) Viewer_aGraphicDriver;
 

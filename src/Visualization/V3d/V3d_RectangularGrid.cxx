@@ -45,7 +45,7 @@
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <V3d_RectangularGrid.hxx>
+#include <Visualization/V3d/V3d_RectangularGrid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_RectangularGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_RectangularGrid)
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Visual3d_ViewManager.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 

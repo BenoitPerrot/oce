@@ -29,7 +29,7 @@
 #include <Viewer/DDF/DDF.hxx>
 #include <Viewer/DDocStd/DDocStd.hxx>
 #include <Viewer/ViewerTest/ViewerTest.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx> 

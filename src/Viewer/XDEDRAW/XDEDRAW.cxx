@@ -26,8 +26,8 @@
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Viewer/ViewerTest/ViewerTest.hxx>
 

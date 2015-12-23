@@ -15,8 +15,8 @@
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 
 //! Main C++ back-end for activity.
 class OcctJni_Viewer

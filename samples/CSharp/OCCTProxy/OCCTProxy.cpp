@@ -6,8 +6,8 @@
 #include <WNT_Window.hxx>
 #include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>
 //for object display
-#include <V3d_Viewer.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 //topology

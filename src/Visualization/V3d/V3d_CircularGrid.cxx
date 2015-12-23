@@ -44,7 +44,7 @@
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <V3d_CircularGrid.hxx>
+#include <Visualization/V3d/V3d_CircularGrid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(V3d_CircularGrid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_CircularGrid)
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visual3d_ViewManager.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 /*----------------------------------------------------------------------*/

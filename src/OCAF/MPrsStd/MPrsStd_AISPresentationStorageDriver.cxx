@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(MPrsStd_AISPresentationStorageDriver)
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
-#include <V3d_Viewer.hxx>
+#include <Visualization/V3d/V3d_Viewer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

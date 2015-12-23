@@ -35,7 +35,7 @@
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <RWStl.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>

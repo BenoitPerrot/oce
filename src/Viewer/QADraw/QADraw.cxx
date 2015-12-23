@@ -19,7 +19,7 @@
 #include <Viewer/Draw/Draw_Window.hxx>
 #include <Viewer/Draw/Draw_Viewer.hxx>
 #include <Visualization/Image/Image_AlienPixMap.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 #include <Viewer/ViewerTest/ViewerTest.hxx>
 #include <Viewer/ViewerTest/ViewerTest_EventManager.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

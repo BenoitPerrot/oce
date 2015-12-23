@@ -39,7 +39,7 @@
 #include <Visualization/AIS/AIS_AngleDimension.hxx>
 
 #include <Visualization/Aspect/Aspect_Window.hxx>
-#include <V3d_View.hxx>
+#include <Visualization/V3d/V3d_View.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
