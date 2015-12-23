@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(QABugs_MyText)
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/Font/Font_NameOfFont.hxx>
 

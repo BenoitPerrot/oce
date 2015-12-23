@@ -14,8 +14,8 @@
 #ifndef _Select3D_PointData_HeaderFile
 #define _Select3D_PointData_HeaderFile
 
-#include <Select3D_Pnt.hxx>
-#include <Select3D_Pnt2d.hxx>
+#include <Visualization/Select3D/Select3D_Pnt.hxx>
+#include <Visualization/Select3D/Select3D_Pnt2d.hxx>
 
 // A framework for safe management of Select3D_SensitivePoly polygons of 3D and 2D points
 class Select3D_PointData {

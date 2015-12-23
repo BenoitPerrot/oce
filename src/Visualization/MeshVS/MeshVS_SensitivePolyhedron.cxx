@@ -18,8 +18,8 @@
 #include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Select3D_Projector.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

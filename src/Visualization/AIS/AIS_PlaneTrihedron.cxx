@@ -53,8 +53,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_PlaneTrihedron)
 
 #include <Visualization/DsgPrs/DsgPrs_DatumPrs.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveSegment.hxx>
-#include <Select3D_SensitivePoint.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 #include <Geometry/Geom/Geom_Axis1Placement.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PlaneTrihedron)
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <Select3D_SensitiveFace.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveFace.hxx>
 
 #define OCC10
 

@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_FixRelation)
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

@@ -32,7 +32,7 @@
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
-#include <Select3D_ListOfSensitive.hxx>
+#include <Visualization/Select3D/Select3D_ListOfSensitive.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

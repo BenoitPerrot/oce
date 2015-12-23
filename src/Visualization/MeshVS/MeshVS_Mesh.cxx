@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <Select3D_SensitivePoint.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 #include <SelectMgr_Selection.hxx>
 
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>
-#include <Select3D_SensitiveGroup.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveGroup.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>

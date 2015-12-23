@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveGroup.hxx>
 
-#include <Select3D_ListOfSensitive.hxx>
+#include <Visualization/Select3D/Select3D_ListOfSensitive.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 #include <Handle_Select3D_Projector.hxx>
@@ -132,7 +132,7 @@ private:
 };
 
 
-#include <Select3D_SensitiveGroup.lxx>
+#include <Visualization/Select3D/Select3D_SensitiveGroup.lxx>
 
 
 

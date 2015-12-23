@@ -37,7 +37,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
-#include <Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

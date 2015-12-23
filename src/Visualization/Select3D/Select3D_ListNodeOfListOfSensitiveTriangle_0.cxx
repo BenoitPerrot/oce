@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Select3D_SensitiveTriangle.hxx>
-#include <Select3D_ListOfSensitiveTriangle.hxx>
-#include <Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_ListOfSensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(Select3D_ListNodeOfListOfSensitiveTriangle)
 
 
 #define Item Handle(Select3D_SensitiveTriangle)
-#define Item_hxx <Select3D_SensitiveTriangle.hxx>
+#define Item_hxx <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
 #define TCollection_ListNode Select3D_ListNodeOfListOfSensitiveTriangle
-#define TCollection_ListNode_hxx <Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
+#define TCollection_ListNode_hxx <Visualization/Select3D/Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
 #define TCollection_ListIterator Select3D_ListIteratorOfListOfSensitiveTriangle
-#define TCollection_ListIterator_hxx <Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
+#define TCollection_ListIterator_hxx <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
 #define Handle_TCollection_ListNode Handle_Select3D_ListNodeOfListOfSensitiveTriangle
 #define TCollection_ListNode_Type_() Select3D_ListNodeOfListOfSensitiveTriangle_Type_()
 #define TCollection_List Select3D_ListOfSensitiveTriangle
-#define TCollection_List_hxx <Select3D_ListOfSensitiveTriangle.hxx>
+#define TCollection_List_hxx <Visualization/Select3D/Select3D_ListOfSensitiveTriangle.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

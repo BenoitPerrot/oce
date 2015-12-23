@@ -14,7 +14,7 @@
 #include <Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_Projector.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>

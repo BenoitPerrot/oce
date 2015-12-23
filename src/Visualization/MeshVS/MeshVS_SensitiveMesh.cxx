@@ -14,11 +14,11 @@
 // commercial license or contractual agreement.
 
 #include <SelectBasics_EntityOwner.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/MeshVS/MeshVS_SensitiveMesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveMesh)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Visualization/MeshVS/MeshVS_MeshOwner.hxx>

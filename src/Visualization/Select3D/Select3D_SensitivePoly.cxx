@@ -16,10 +16,10 @@
 #include <SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Select3D_SensitivePoly.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoly.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitivePoly)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,9 +33,9 @@ IMPLEMENT_DOWNCAST(Select3D_SensitivePoly,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitivePoly)
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Select3D_Pnt.hxx>
-#include <Select3D_Pnt2d.hxx>
-#include <Select3D_Box2d.hxx>
+#include <Visualization/Select3D/Select3D_Pnt.hxx>
+#include <Visualization/Select3D/Select3D_Pnt2d.hxx>
+#include <Visualization/Select3D/Select3D_Box2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 

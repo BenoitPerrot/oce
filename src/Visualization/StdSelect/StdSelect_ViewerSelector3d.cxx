@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <SelectMgr_Selection.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <SelectMgr_SelectableObject.hxx>
@@ -52,18 +52,18 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <Select3D_SensitiveCurve.hxx>
-#include <Select3D_SensitiveSegment.hxx>
-#include <Select3D_SensitiveFace.hxx>
-#include <Select3D_SensitiveCircle.hxx>
-#include <Select3D_SensitivePoint.hxx>
-#include <Select3D_SensitiveTriangulation.hxx>
-#include <Select3D_SensitiveTriangle.hxx>
-#include <Select3D_SensitiveWire.hxx>
-#include <Select3D_SensitiveEntitySequence.hxx>
-#include <Select3D_ListOfSensitiveTriangle.hxx>
-#include <Select3D_SensitiveBox.hxx>
-#include <Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveFace.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveWire.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
+#include <Visualization/Select3D/Select3D_ListOfSensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
 
 #include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>

@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_Projector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

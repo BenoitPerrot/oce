@@ -52,7 +52,7 @@
 #include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 #include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Precision.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <StdSelect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

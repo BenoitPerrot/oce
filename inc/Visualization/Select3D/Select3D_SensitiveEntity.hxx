@@ -116,7 +116,7 @@ private:
 };
 
 
-#include <Select3D_SensitiveEntity.lxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.lxx>
 
 
 

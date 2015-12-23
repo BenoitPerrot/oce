@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshPrsBuilder)
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
-#include <Select3D_SensitivePoint.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Visualization/MeshVS/MeshVS_Drawer.hxx>

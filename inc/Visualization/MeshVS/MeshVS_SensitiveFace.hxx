@@ -12,9 +12,9 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Select3D_SensitiveFace.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveFace.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Select3D_TypeOfSensitivity.hxx>
+#include <Visualization/Select3D/Select3D_TypeOfSensitivity.hxx>
 #include <Handle_Select3D_Projector.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

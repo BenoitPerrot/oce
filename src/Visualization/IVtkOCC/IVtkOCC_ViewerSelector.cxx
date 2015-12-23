@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/IVtkOCC/IVtkOCC_ViewerSelector.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Quaternion.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Camera.hxx>

@@ -62,8 +62,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveSegment.hxx>
-#include <Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

@@ -22,9 +22,9 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Select3D_SensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveTriangle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

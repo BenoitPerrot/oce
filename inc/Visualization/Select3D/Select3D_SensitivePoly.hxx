@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitivePoly.hxx>
 
-#include <Select3D_Box2d.hxx>
-#include <Select3D_PointData.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_Box2d.hxx>
+#include <Visualization/Select3D/Select3D_PointData.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -88,7 +88,7 @@ private:
 };
 
 
-#include <Select3D_SensitivePoly.lxx>
+#include <Visualization/Select3D/Select3D_SensitivePoly.lxx>
 
 
 

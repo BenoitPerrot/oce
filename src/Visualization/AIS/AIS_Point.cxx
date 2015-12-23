@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectBasics_EntityOwner.hxx>
-#include <Select3D_SensitivePoint.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 #include <StdPrs_Point.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>

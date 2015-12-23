@@ -15,7 +15,7 @@
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Visualization/MeshVS/MeshVS_SensitiveFace.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_DOWNCAST(MeshVS_SensitiveFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveFace)
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <CSLib_Class2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 

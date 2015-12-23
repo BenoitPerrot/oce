@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_Projector.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
@@ -153,7 +153,7 @@ private:
 };
 
 
-#include <Select3D_SensitiveTriangulation.lxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangulation.lxx>
 
 
 

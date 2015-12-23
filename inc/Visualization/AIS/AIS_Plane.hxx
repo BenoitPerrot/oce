@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/AIS/AIS_TypeOfPlane.hxx>
-#include <Select3D_TypeOfSensitivity.hxx>
+#include <Visualization/Select3D/Select3D_TypeOfSensitivity.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

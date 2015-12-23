@@ -64,8 +64,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_IdenticRelation)
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 
-#include <Select3D_SensitiveCurve.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>

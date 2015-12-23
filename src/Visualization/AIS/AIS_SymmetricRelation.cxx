@@ -44,8 +44,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveSegment.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

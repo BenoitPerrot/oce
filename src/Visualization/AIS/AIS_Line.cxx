@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <StdPrs_Curve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

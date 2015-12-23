@@ -23,10 +23,10 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

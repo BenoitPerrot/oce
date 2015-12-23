@@ -98,15 +98,15 @@ private:
 };
 
 #define Item Handle(Select3D_SensitiveEntity)
-#define Item_hxx <Select3D_SensitiveEntity.hxx>
+#define Item_hxx <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #define TCollection_ListNode Select3D_ListNodeOfListOfSensitive
-#define TCollection_ListNode_hxx <Select3D_ListNodeOfListOfSensitive.hxx>
+#define TCollection_ListNode_hxx <Visualization/Select3D/Select3D_ListNodeOfListOfSensitive.hxx>
 #define TCollection_ListIterator Select3D_ListIteratorOfListOfSensitive
-#define TCollection_ListIterator_hxx <Select3D_ListIteratorOfListOfSensitive.hxx>
+#define TCollection_ListIterator_hxx <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitive.hxx>
 #define Handle_TCollection_ListNode Handle_Select3D_ListNodeOfListOfSensitive
 #define TCollection_ListNode_Type_() Select3D_ListNodeOfListOfSensitive_Type_()
 #define TCollection_List Select3D_ListOfSensitive
-#define TCollection_List_hxx <Select3D_ListOfSensitive.hxx>
+#define TCollection_List_hxx <Visualization/Select3D/Select3D_ListOfSensitive.hxx>
 
 #include <Foundation/TCollection/TCollection_List.lxx>
 

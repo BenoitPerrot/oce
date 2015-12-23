@@ -26,7 +26,7 @@
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>

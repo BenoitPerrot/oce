@@ -208,7 +208,7 @@ private:
 };
 
 
-#include <Select3D_Projector.lxx>
+#include <Visualization/Select3D/Select3D_Projector.lxx>
 
 
 

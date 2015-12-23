@@ -77,7 +77,7 @@
 #include <SelectMgr_Filter.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <SelectMgr_ListOfFilter.hxx>
 #include <V3d_View.hxx>
@@ -101,7 +101,7 @@
 #include <StdPrs_WFShape.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Select3D_SensitiveTriangulation.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>

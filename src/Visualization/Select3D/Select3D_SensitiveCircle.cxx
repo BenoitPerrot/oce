@@ -26,10 +26,10 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Select3D_Projector.hxx>
-#include <Select3D_SensitiveCircle.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveCircle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -46,11 +46,11 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCircle)
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 
 #include <CSLib_Class2d.hxx>
-#include <Select3D_SensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
 #include <ElCLib.hxx>
-#include <Select3D_Pnt.hxx>
-#include <Select3D_Pnt2d.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Pnt.hxx>
+#include <Visualization/Select3D/Select3D_Pnt2d.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 
 
 static Standard_Integer S3D_GetCircleNBPoints(const Handle(Geom_Circle)& C,

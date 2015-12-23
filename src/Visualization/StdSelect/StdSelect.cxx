@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <V3d_View.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
@@ -22,9 +22,9 @@
 #include <SelectMgr_Selection.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <Select3D_SensitiveSegment.hxx>
-#include <Select3D_SensitiveCurve.hxx>
-#include <Select3D_SensitiveFace.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveFace.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

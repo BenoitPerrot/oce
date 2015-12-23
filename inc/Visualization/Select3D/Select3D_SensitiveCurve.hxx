@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Geom_Curve.hxx>
-#include <Select3D_SensitivePoly.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoly.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -106,7 +106,7 @@ private:
 };
 
 
-#include <Select3D_SensitiveCurve.lxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.lxx>
 
 
 

@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Select3D_SensitiveWire.hxx>
 
-#include <Select3D_SensitiveEntitySequence.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Handle_Select3D_SensitiveEntity.hxx>
 #include <Handle_Select3D_Projector.hxx>

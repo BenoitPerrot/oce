@@ -16,14 +16,14 @@
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Select3D_SensitivePoint.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitivePoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitivePoint)
 IMPLEMENT_DOWNCAST(Select3D_SensitivePoint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitivePoint)
 
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ElCLib.hxx>
 #include <CSLib_Class2d.hxx>

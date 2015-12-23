@@ -51,9 +51,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx> 
 
-#include <Select3D_SensitiveSegment.hxx>
-#include <Select3D_SensitiveCurve.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 
 #include <ElCLib.hxx>

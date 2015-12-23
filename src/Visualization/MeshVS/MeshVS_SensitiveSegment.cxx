@@ -15,7 +15,7 @@
 
 #include <SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Visualization/MeshVS/MeshVS_SensitiveSegment.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MeshVS_SensitiveSegment)
 IMPLEMENT_DOWNCAST(MeshVS_SensitiveSegment,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveSegment)
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <CSLib_Class2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

@@ -26,15 +26,15 @@
 #include <SelectBasics_EntityOwner.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Select3D_SensitiveTriangulation.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveTriangulation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveTriangulation)
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
 #include <CSLib_Class2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Select3D_SensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
 #include <Precision.hxx>
 #include <ElCLib.hxx>
 #include <CSLib_Class2d.hxx>

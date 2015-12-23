@@ -17,7 +17,7 @@
 #define __IVTKOCC_VIEWERSELECTOR_H__
 
 #include <Visualization/IVtk/IVtk_IView.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_ViewerSelector.hxx>
 

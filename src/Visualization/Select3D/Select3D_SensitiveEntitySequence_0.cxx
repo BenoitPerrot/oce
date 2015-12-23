@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Select3D_SensitiveEntitySequence.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Select3D_SensitiveEntity.hxx>
-#include <Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
  
 
 #define SeqItem Handle(Select3D_SensitiveEntity)
-#define SeqItem_hxx <Select3D_SensitiveEntity.hxx>
+#define SeqItem_hxx <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #define TCollection_SequenceNode Select3D_SequenceNodeOfSensitiveEntitySequence
-#define TCollection_SequenceNode_hxx <Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/Select3D/Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
 #define Handle_TCollection_SequenceNode Handle_Select3D_SequenceNodeOfSensitiveEntitySequence
 #define TCollection_SequenceNode_Type_() Select3D_SequenceNodeOfSensitiveEntitySequence_Type_()
 #define TCollection_Sequence Select3D_SensitiveEntitySequence
-#define TCollection_Sequence_hxx <Select3D_SensitiveEntitySequence.hxx>
+#define TCollection_Sequence_hxx <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

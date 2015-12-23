@@ -45,8 +45,8 @@
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Select3D_SensitiveGroup.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveGroup.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>

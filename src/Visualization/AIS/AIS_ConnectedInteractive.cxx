@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(AIS_ConnectedInteractive)
 IMPLEMENT_DOWNCAST(AIS_ConnectedInteractive,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>

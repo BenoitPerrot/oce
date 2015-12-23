@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -80,7 +80,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/ProjLib/ProjLib.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 
 //=======================================================================
 //function : Constructor

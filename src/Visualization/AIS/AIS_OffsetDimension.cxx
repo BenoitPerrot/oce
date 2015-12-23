@@ -53,8 +53,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_OffsetDimension)
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
-#include <Select3D_SensitiveBox.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <StdPrs_WFDeflectionShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>

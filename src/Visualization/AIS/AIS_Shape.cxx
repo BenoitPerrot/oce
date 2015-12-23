@@ -79,7 +79,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <StdSelect.hxx>
 #include <StdSelect_BRepSelectionTool.hxx>
 #include <StdSelect_BRepOwner.hxx>
@@ -93,7 +93,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 static Standard_Boolean myFirstCompute;

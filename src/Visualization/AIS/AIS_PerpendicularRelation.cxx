@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 
 #include <Precision.hxx>
 
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>

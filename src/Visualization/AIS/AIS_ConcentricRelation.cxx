@@ -38,8 +38,8 @@ IMPLEMENT_DOWNCAST(AIS_ConcentricRelation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveCircle.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 
 #include <Visualization/DsgPrs/DsgPrs_ConcentricPresentation.hxx>
 

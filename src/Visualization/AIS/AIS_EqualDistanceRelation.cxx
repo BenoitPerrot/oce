@@ -47,9 +47,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Visualization/DsgPrs/DsgPrs_EqualDistancePresentation.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <Select3D_SensitiveSegment.hxx>
-#include <Select3D_SensitiveBox.hxx>
-#include <Select3D_SensitiveCircle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
 #include <Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>

@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Select3D_Projector.hxx>

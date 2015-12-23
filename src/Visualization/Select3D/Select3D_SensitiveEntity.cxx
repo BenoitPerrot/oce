@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <SelectBasics_EntityOwner.hxx>
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(Select3D_SensitiveEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveEntity)
 #include <Precision.hxx>
 #include <SelectBasics_EntityOwner.hxx>
-#include <Select3D_Macro.hxx>
+#include <Visualization/Select3D/Select3D_Macro.hxx>
 
 //=======================================================================
 //function : Select3D_SensitiveEntity

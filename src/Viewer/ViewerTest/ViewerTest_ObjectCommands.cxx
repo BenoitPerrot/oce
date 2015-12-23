@@ -106,7 +106,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <Select3D_SensitiveCircle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
@@ -119,9 +119,9 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
-#include <Select3D_SensitiveTriangle.hxx>
-#include <Select3D_SensitiveCurve.hxx>
-#include <Select3D_SensitivePoint.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdPrs_Curve.hxx>
 

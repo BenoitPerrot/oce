@@ -11,9 +11,9 @@
 #include <Handle_Select3D_SensitiveSegment.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Select3D_Pnt.hxx>
-#include <Select3D_Pnt2d.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_Pnt.hxx>
+#include <Visualization/Select3D/Select3D_Pnt2d.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -122,7 +122,7 @@ private:
 };
 
 
-#include <Select3D_SensitiveSegment.lxx>
+#include <Visualization/Select3D/Select3D_SensitiveSegment.lxx>
 
 
 

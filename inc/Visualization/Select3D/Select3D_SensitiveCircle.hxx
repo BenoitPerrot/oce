@@ -11,11 +11,11 @@
 #include <Handle_Select3D_SensitiveCircle.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Select3D_Pnt2d.hxx>
-#include <Select3D_Pnt.hxx>
+#include <Visualization/Select3D/Select3D_Pnt2d.hxx>
+#include <Visualization/Select3D/Select3D_Pnt.hxx>
 #include <Handle_Geom_Circle.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Select3D_SensitivePoly.hxx>
+#include <Visualization/Select3D/Select3D_SensitivePoly.hxx>
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColgp_HArray1OfPnt.hxx>

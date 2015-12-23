@@ -26,9 +26,9 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Select3D_SensitiveFace.hxx>
+#include <Visualization/Select3D/Select3D_SensitiveFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Select3D_SensitiveFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveFace)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveFace,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveFace)
-#include <Select3D_Projector.hxx>
+#include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <SelectBasics_BasicTool.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
