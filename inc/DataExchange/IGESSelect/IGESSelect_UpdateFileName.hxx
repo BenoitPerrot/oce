@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSelect_UpdateFileName.hxx>
 
-#include <IGESSelect_ModelModifier.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 class IFSelect_ContextModif;
 class IGESData_IGESModel;

@@ -11,7 +11,7 @@
 #include <Handle_IGESSelect_AddFileComment.hxx>
 
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <IGESSelect_FileModifier.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_FileModifier.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HSequenceOfHAsciiString;

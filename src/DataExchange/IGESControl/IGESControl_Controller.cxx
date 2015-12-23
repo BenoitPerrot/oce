@@ -30,41 +30,41 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESControl_Controller)
 IMPLEMENT_DOWNCAST(IGESControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
-#include <IGESSelect_WorkLibrary.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_WorkLibrary.hxx>
 #include <IGESToBRep_Actor.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <IGESSolid.hxx>
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
 
 #include <Interface_Static.hxx>
-#include <IGESSelect_AutoCorrect.hxx>
-#include <IGESSelect_ComputeStatus.hxx>
-#include <IGESSelect_UpdateFileName.hxx>
-#include <IGESSelect_SetGlobalParameter.hxx>
-#include <IGESSelect_FloatFormat.hxx>
-#include <IGESSelect_SelectBypassGroup.hxx>
-#include <IGESSelect_SelectBypassSubfigure.hxx>
-#include <IGESSelect_SelectBasicGeom.hxx>
-#include <IGESSelect_SelectFaces.hxx>
-#include <IGESSelect_SelectPCurves.hxx>
-#include <IGESSelect_SelectVisibleStatus.hxx>
-#include <IGESSelect_SelectSubordinate.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_AutoCorrect.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ComputeStatus.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_UpdateFileName.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SetGlobalParameter.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_FloatFormat.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectBypassGroup.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectBypassSubfigure.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectBasicGeom.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectFaces.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectPCurves.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectVisibleStatus.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectSubordinate.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectType.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
-#include <IGESSelect_IGESTypeForm.hxx>
-#include <IGESSelect_SignStatus.hxx>
-#include <IGESSelect_SignLevelNumber.hxx>
-#include <IGESSelect_SignColor.hxx>
-#include <IGESSelect_IGESName.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_IGESTypeForm.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SignStatus.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SignLevelNumber.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SignColor.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_IGESName.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignType.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignMultiple.hxx>
-#include <IGESSelect_CounterOfLevelNumber.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_CounterOfLevelNumber.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
-#include <IGESSelect_EditHeader.hxx>
-#include <IGESSelect_EditDirPart.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_EditHeader.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_EditDirPart.hxx>
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
-#include <IGESSelect_RemoveCurves.hxx>
-#include <IGESSelect_SetLabel.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_RemoveCurves.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SetLabel.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

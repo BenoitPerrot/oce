@@ -15,7 +15,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_SelectFromSingleView.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectFromSingleView.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectFromSingleView)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

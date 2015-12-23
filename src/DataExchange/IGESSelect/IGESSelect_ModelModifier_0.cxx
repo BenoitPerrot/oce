@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSelect_ModelModifier.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_ModelModifier)
 #define Proto IGESData_Protocol
 #define Proto_hxx <DataExchange/IGESData/IGESData_Protocol.hxx>
 #define IFSelect_ModelModifier IGESSelect_ModelModifier
-#define IFSelect_ModelModifier_hxx <IGESSelect_ModelModifier.hxx>
+#define IFSelect_ModelModifier_hxx <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
 #define Handle_IFSelect_ModelModifier Handle_IGESSelect_ModelModifier
 #define IFSelect_ModelModifier_Type_() IGESSelect_ModelModifier_Type_()
 #include <DataExchange/IFSelect/IFSelect_ModelModifier.gxx>

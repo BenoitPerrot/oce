@@ -18,7 +18,7 @@
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_AddFileComment.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_AddFileComment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_AddFileComment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

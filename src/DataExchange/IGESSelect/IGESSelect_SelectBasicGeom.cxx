@@ -16,7 +16,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESSelect_SelectBasicGeom.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectBasicGeom.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectBasicGeom)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

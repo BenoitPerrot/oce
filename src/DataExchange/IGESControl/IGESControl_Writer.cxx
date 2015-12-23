@@ -23,7 +23,7 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESControl/IGESControl_Writer.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
-#include <IGESSelect_WorkLibrary.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_WorkLibrary.hxx>
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <DataExchange/BRepToIGESBRep/BRepToIGESBRep_Entity.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

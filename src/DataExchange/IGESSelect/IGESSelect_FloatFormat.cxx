@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
-#include <IGESSelect_FloatFormat.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_FloatFormat.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_FloatFormat)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

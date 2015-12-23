@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSelect_ViewSorter.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESSelect_DispPerDrawing.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_DispPerDrawing.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_DispPerDrawing)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

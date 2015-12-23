@@ -19,7 +19,7 @@
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESSelect_WorkLibrary.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_WorkLibrary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_WorkLibrary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -42,10 +42,10 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <DataExchange/IGESFile/IGESFile_Read.hxx>
-#include <IGESSelect_Dumper.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_Dumper.hxx>
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <IGESSelect_FileModifier.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_FileModifier.hxx>
 
 #include <Interface_ReportEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>

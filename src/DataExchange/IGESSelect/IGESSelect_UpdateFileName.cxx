@@ -15,7 +15,7 @@
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_UpdateFileName.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_UpdateFileName.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_UpdateFileName)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

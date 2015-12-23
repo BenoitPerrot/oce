@@ -15,7 +15,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_SelectSingleViewFrom.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectSingleViewFrom.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectSingleViewFrom)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectSingleViewFrom)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectSingleViewFrom,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectSingleViewFrom)
-#include <IGESSelect_ViewSorter.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_Macros.hxx>
 

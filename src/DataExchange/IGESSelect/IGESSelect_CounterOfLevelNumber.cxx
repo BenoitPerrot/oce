@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESSelect_CounterOfLevelNumber.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_CounterOfLevelNumber.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_CounterOfLevelNumber)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <IGESSelect_ModelModifier.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 class TCollection_HAsciiString;
 class IFSelect_ContextModif;

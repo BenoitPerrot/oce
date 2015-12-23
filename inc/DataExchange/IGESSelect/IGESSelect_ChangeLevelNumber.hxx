@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _IGESSelect_ChangeLevelList_HeaderFile
-#define _IGESSelect_ChangeLevelList_HeaderFile
+#ifndef _IGESSelect_ChangeLevelNumber_HeaderFile
+#define _IGESSelect_ChangeLevelNumber_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_ChangeLevelList.hxx>
+#include <Handle_IGESSelect_ChangeLevelNumber.hxx>
 
 #include <Handle_IFSelect_IntParam.hxx>
-#include <IGESSelect_ModelModifier.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 class IFSelect_IntParam;
@@ -21,43 +21,35 @@ class Interface_CopyTool;
 class TCollection_AsciiString;
 
 
-//! Changes Level List (in directory part) to a new single value
-//! Only entities attached to a LevelListEntity are considered
-//! If OldNumber is defined, only entities whose LevelList
-//! contains its Value are processed. Else all LevelLists are.
+//! Changes Level Number (as null or single) to a new single value
+//! Entities attached to a LevelListEntity are ignored
+//! Entities considered can be, either all Entities but those
+//! attached to a LevelListEntity, or Entities attached to a
+//! specific Level Number (0 for not defined).
 //!
 //! Remark : this concerns the Directory Part only. The Level List
 //! Entities themselves (their content) are not affected.
-//!
-//! If NewNumber is defined (positive or zero), it gives the new
-//! value for Level Number. Else, the first value of the LevelList
-//! is set as new LevelNumber
-class IGESSelect_ChangeLevelList : public IGESSelect_ModelModifier
+class IGESSelect_ChangeLevelNumber : public IGESSelect_ModelModifier
 {
 
 public:
 
   
-  //! Creates a ChangeLevelList, not yet defined
+  //! Creates a ChangeLevelNumber, not yet defined
   //! (see SetOldNumber and SetNewNumber)
-  Standard_EXPORT IGESSelect_ChangeLevelList();
+  Standard_EXPORT IGESSelect_ChangeLevelNumber();
   
   //! Returns True if OldNumber is defined : then, only entities
-  //! which have a LevelList which contains the value are processed.
-  //! Else, all entities attached to a LevelList are.
+  //! attached to the value of OldNumber will be considered. Else,
+  //! all entities but those attached to a Level List will be.
   Standard_EXPORT   Standard_Boolean HasOldNumber()  const;
   
   //! Returns the parameter for OldNumber. If not defined (Null
-  //! Handle), it will be interpreted as "all level lists"
+  //! Handle), it will be interpreted as "all level numbers"
   Standard_EXPORT   Handle(IFSelect_IntParam) OldNumber()  const;
   
   //! Sets a parameter for OldNumber
   Standard_EXPORT   void SetOldNumber (const Handle(IFSelect_IntParam)& param) ;
-  
-  //! Returns True if NewNumber is defined : then, it gives the new
-  //! value for Level Number. Else, the first value of the LevelList
-  //! is used as new Level Number.
-  Standard_EXPORT   Standard_Boolean HasNewNumber()  const;
   
   //! Returns the parameter for NewNumber. If not defined (Null
   //! Handle), it will be interpreted as "new value 0"
@@ -67,24 +59,23 @@ public:
   Standard_EXPORT   void SetNewNumber (const Handle(IFSelect_IntParam)& param) ;
   
   //! Specific action : considers selected target entities :
-  //! If OldNumber is not defined, all entities attached to a
-  //! Level List
+  //! If OldNumber is not defined, all entities but those attached
+  //! to a Level List
   //! If OldNumber is defined (value not negative), entities with a
-  //! Level List which contains this value
+  //! defined Level Number (can be zero)
   //! Attaches all these entities to value given by NewNumber, or
-  //! the first value of the Level List
+  //! zero if not defined
   Standard_EXPORT   void Performing (IFSelect_ContextModif& ctx, const Handle(IGESData_IGESModel)& target, Interface_CopyTool& TC)  const;
   
-  //! Returns a text which begins by
-  //! "Changes Level Lists containing <old>", or
-  //! "Changes all Level Lists in D.E.", and ends by
-  //! " to Number <new>"  or  " to Number = first value in List"
+  //! Returns a text which is
+  //! "Changes Level Number <old> to <new>" , or
+  //! "Changes all Levels Numbers positive and zero to <new>"
   Standard_EXPORT   TCollection_AsciiString Label()  const;
 
 
 
 
-  DEFINE_STANDARD_RTTI(IGESSelect_ChangeLevelList)
+  DEFINE_STANDARD_RTTI(IGESSelect_ChangeLevelNumber)
 
 protected:
 
@@ -106,4 +97,4 @@ private:
 
 
 
-#endif // _IGESSelect_ChangeLevelList_HeaderFile
+#endif // _IGESSelect_ChangeLevelNumber_HeaderFile

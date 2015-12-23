@@ -15,7 +15,7 @@
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_SelectFaces.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectFaces.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectFaces)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

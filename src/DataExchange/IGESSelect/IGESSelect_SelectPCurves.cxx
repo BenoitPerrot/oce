@@ -15,7 +15,7 @@
 #include <Interface_Graph.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_SelectPCurves.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectPCurves.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectPCurves)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectPCurves)
 #include <IGESSolid_Shell.hxx>
 #include <IGESSolid_Face.hxx>
 #include <IGESSolid_Loop.hxx>
-#include <IGESSelect_SelectBasicGeom.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectBasicGeom.hxx>
 
 #include <Interface_Macros.hxx>
 

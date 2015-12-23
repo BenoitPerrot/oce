@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
-#include <IGESSelect_Activator.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_Activator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,43 +37,43 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_Activator)
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <IGESSelect_IGESTypeForm.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_IGESTypeForm.hxx>
 
-#include <IGESSelect_ViewSorter.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 
-#include <IGESSelect_DispPerSingleView.hxx>
-#include <IGESSelect_DispPerDrawing.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_DispPerSingleView.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_DispPerDrawing.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>
-#include <IGESSelect_SelectVisibleStatus.hxx>
-#include <IGESSelect_SelectLevelNumber.hxx>
-#include <IGESSelect_SelectName.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectVisibleStatus.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectLevelNumber.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectName.hxx>
 
-#include <IGESSelect_SelectFromSingleView.hxx>
-#include <IGESSelect_SelectFromDrawing.hxx>
-#include <IGESSelect_SelectSingleViewFrom.hxx>
-#include <IGESSelect_SelectDrawingFrom.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectFromSingleView.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectFromDrawing.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectSingleViewFrom.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectDrawingFrom.hxx>
 
-#include <IGESSelect_SelectBypassGroup.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectBypassGroup.hxx>
 
-#include <IGESSelect_FloatFormat.hxx>
-#include <IGESSelect_UpdateCreationDate.hxx>
-#include <IGESSelect_UpdateLastChange.hxx>
-#include <IGESSelect_UpdateFileName.hxx>
-#include <IGESSelect_SetVersion5.hxx>
-#include <IGESSelect_SetGlobalParameter.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_FloatFormat.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_UpdateCreationDate.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_UpdateLastChange.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_UpdateFileName.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SetVersion5.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SetGlobalParameter.hxx>
 
-#include <IGESSelect_AutoCorrect.hxx>
-#include <IGESSelect_ComputeStatus.hxx>
-#include <IGESSelect_RebuildDrawings.hxx>
-#include <IGESSelect_RebuildGroups.hxx>
-#include <IGESSelect_AddGroup.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_AutoCorrect.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ComputeStatus.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_RebuildDrawings.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_RebuildGroups.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_AddGroup.hxx>
 
-#include <IGESSelect_SplineToBSpline.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SplineToBSpline.hxx>
 
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <IGESSelect_WorkLibrary.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_WorkLibrary.hxx>
 #include <stdio.h>
 
 

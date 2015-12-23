@@ -18,7 +18,7 @@
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_SplineToBSpline.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SplineToBSpline.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SplineToBSpline)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

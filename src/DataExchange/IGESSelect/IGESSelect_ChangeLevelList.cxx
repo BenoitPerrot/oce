@@ -19,7 +19,7 @@
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_ChangeLevelList.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ChangeLevelList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_ChangeLevelList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

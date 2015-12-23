@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <IGESSelect_SignLevelNumber.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SignLevelNumber.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SignLevelNumber)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

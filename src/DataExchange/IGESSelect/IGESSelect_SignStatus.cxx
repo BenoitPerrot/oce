@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_SignStatus.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SignStatus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SignStatus)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

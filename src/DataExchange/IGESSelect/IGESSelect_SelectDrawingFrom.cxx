@@ -15,7 +15,7 @@
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_SelectDrawingFrom.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_SelectDrawingFrom.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SelectDrawingFrom)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectDrawingFrom)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectDrawingFrom,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectDrawingFrom)
-#include <IGESSelect_ViewSorter.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_Macros.hxx>
 

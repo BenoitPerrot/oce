@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IGESSelect_ModelModifier.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
 #include <Handle_IGESData_IGESModel.hxx>
 class IFSelect_ContextModif;
 class IGESData_IGESModel;

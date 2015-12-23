@@ -15,7 +15,7 @@
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <IGESSelect_RebuildDrawings.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_RebuildDrawings.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_RebuildDrawings)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_RebuildDrawings)
 IMPLEMENT_DOWNCAST(IGESSelect_RebuildDrawings,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildDrawings)
-#include <IGESSelect_ViewSorter.hxx>
+#include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
