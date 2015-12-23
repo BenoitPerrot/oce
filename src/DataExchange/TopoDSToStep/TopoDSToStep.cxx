@@ -18,11 +18,11 @@
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <TopoDSToStep_Tool.hxx>
-#include <TopoDSToStep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
-//#include <TopoDSToStep_DirectModification.hxx>
-//#include <TopoDSToStep_ConicalSurfModif.hxx>
+//#include <DataExchange/TopoDSToStep/TopoDSToStep_DirectModification.hxx>
+//#include <DataExchange/TopoDSToStep/TopoDSToStep_ConicalSurfModif.hxx>
 
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -36,7 +36,7 @@
 #include <TransferBRep.hxx>
 #include <Transfer_Binder.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapIteratorOfDataMapOfShapeTransient.hxx>
 
 

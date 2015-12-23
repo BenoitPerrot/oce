@@ -18,10 +18,10 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <TopoDSToStep_MakeFacetedBrepAndBrepWithVoids.hxx>
-#include <TopoDSToStep.hxx>
-#include <TopoDSToStep_Builder.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeFacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Builder.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <DataExchange/StepShape/StepShape_ClosedShell.hxx>

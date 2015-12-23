@@ -18,11 +18,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <TopoDSToStep_MakeGeometricCurveSet.hxx>
-#include <TopoDSToStep.hxx>
-#include <TopoDSToStep_Builder.hxx>
-#include <TopoDSToStep_WireframeBuilder.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeGeometricCurveSet.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Builder.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_WireframeBuilder.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>

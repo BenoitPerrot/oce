@@ -3,17 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TopoDSToStep_MakeFacetedBrep_HeaderFile
-#define _TopoDSToStep_MakeFacetedBrep_HeaderFile
+#ifndef _TopoDSToStep_MakeManifoldSolidBrep_HeaderFile
+#define _TopoDSToStep_MakeManifoldSolidBrep_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepShape_FacetedBrep.hxx>
-#include <TopoDSToStep_Root.hxx>
+#include <Handle_StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
-class StepShape_FacetedBrep;
+class StepShape_ManifoldSolidBrep;
 class StdFail_NotDone;
 class TopoDS_Shell;
 class Transfer_FinderProcess;
@@ -21,22 +21,22 @@ class TopoDS_Solid;
 
 
 //! This class implements the mapping between classes
-//! Shell or Solid from TopoDS and FacetedBrep from
+//! Shell or Solid from TopoDS and ManifoldSolidBrep from
 //! StepShape. All the topology and geometry comprised
 //! into the shell or the solid are taken into account and
 //! translated.
-class TopoDSToStep_MakeFacetedBrep  : public TopoDSToStep_Root
+class TopoDSToStep_MakeManifoldSolidBrep  : public TopoDSToStep_Root
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT TopoDSToStep_MakeFacetedBrep(const TopoDS_Shell& S, const Handle(Transfer_FinderProcess)& FP);
+  Standard_EXPORT TopoDSToStep_MakeManifoldSolidBrep(const TopoDS_Shell& S, const Handle(Transfer_FinderProcess)& FP);
   
-  Standard_EXPORT TopoDSToStep_MakeFacetedBrep(const TopoDS_Solid& S, const Handle(Transfer_FinderProcess)& FP);
+  Standard_EXPORT TopoDSToStep_MakeManifoldSolidBrep(const TopoDS_Solid& S, const Handle(Transfer_FinderProcess)& FP);
   
-  Standard_EXPORT  const  Handle(StepShape_FacetedBrep)& Value()  const;
+  Standard_EXPORT  const  Handle(StepShape_ManifoldSolidBrep)& Value()  const;
 
 
 
@@ -51,7 +51,7 @@ private:
 
 
 
-  Handle(StepShape_FacetedBrep) theFacetedBrep;
+  Handle(StepShape_ManifoldSolidBrep) theManifoldSolidBrep;
 
 
 };
@@ -62,4 +62,4 @@ private:
 
 
 
-#endif // _TopoDSToStep_MakeFacetedBrep_HeaderFile
+#endif // _TopoDSToStep_MakeManifoldSolidBrep_HeaderFile

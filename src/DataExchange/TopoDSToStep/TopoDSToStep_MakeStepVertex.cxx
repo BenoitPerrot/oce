@@ -17,9 +17,9 @@
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <TopoDSToStep_MakeStepVertex.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepVertex.hxx>
 
 #include <DataExchange/GeomToStep/GeomToStep_MakeCartesianPoint.hxx>
 

@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>

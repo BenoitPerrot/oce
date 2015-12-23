@@ -19,12 +19,12 @@
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <TopoDSToStep_MakeStepWire.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepWire.hxx>
 
-#include <TopoDSToStep_MakeStepVertex.hxx>
-#include <TopoDSToStep_MakeStepEdge.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepVertex.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepEdge.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 

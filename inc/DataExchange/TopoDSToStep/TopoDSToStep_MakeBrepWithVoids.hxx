@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepShape_BrepWithVoids.hxx>
-#include <TopoDSToStep_Root.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 class StepShape_BrepWithVoids;
 class StdFail_NotDone;

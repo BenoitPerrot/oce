@@ -19,12 +19,12 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <TopoDSToStep_MakeFacetedBrep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeFacetedBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
-#include <TopoDSToStep.hxx>
-#include <TopoDSToStep_Builder.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Builder.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d.hxx>
 #include <Transfer_FinderProcess.hxx>

@@ -19,11 +19,11 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <TopoDSToStep_MakeManifoldSolidBrep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeManifoldSolidBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <TopoDSToStep.hxx>
-#include <TopoDSToStep_Builder.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Builder.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

@@ -3,43 +3,43 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TopoDSToStep_MakeStepVertex_HeaderFile
-#define _TopoDSToStep_MakeStepVertex_HeaderFile
+#ifndef _TopoDSToStep_MakeStepFace_HeaderFile
+#define _TopoDSToStep_MakeStepFace_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepShape_TopologicalRepresentationItem.hxx>
-#include <TopoDSToStep_MakeVertexError.hxx>
-#include <TopoDSToStep_Root.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeFaceError.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 class StepShape_TopologicalRepresentationItem;
 class StdFail_NotDone;
-class TopoDS_Vertex;
+class TopoDS_Face;
 class TopoDSToStep_Tool;
 class Transfer_FinderProcess;
 
 
 //! This class implements the mapping between classes
-//! Vertex from TopoDS and TopologicalRepresentationItem from
+//! Face from TopoDS and TopologicalRepresentationItem from
 //! StepShape.
-class TopoDSToStep_MakeStepVertex  : public TopoDSToStep_Root
+class TopoDSToStep_MakeStepFace  : public TopoDSToStep_Root
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT TopoDSToStep_MakeStepVertex();
+  Standard_EXPORT TopoDSToStep_MakeStepFace();
   
-  Standard_EXPORT TopoDSToStep_MakeStepVertex(const TopoDS_Vertex& V, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP);
+  Standard_EXPORT TopoDSToStep_MakeStepFace(const TopoDS_Face& F, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP);
   
-  Standard_EXPORT   void Init (const TopoDS_Vertex& V, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP) ;
+  Standard_EXPORT   void Init (const TopoDS_Face& F, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP) ;
   
   Standard_EXPORT  const  Handle(StepShape_TopologicalRepresentationItem)& Value()  const;
   
-  Standard_EXPORT   TopoDSToStep_MakeVertexError Error()  const;
+  Standard_EXPORT   TopoDSToStep_MakeFaceError Error()  const;
 
 
 
@@ -55,7 +55,7 @@ private:
 
 
   Handle(StepShape_TopologicalRepresentationItem) myResult;
-  TopoDSToStep_MakeVertexError myError;
+  TopoDSToStep_MakeFaceError myError;
 
 
 };
@@ -66,4 +66,4 @@ private:
 
 
 
-#endif // _TopoDSToStep_MakeStepVertex_HeaderFile
+#endif // _TopoDSToStep_MakeStepFace_HeaderFile

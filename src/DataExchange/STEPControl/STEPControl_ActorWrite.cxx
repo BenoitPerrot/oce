@@ -50,16 +50,16 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <DataExchange/STEPConstruct/STEPConstruct_UnitContext.hxx>
 
 //  TransferShape
-#include <TopoDSToStep.hxx>
-#include <TopoDSToStep_Builder.hxx>
-#include <TopoDSToStep_FacetedTool.hxx>
-#include <TopoDSToStep_Tool.hxx>
-#include <TopoDSToStep_MakeManifoldSolidBrep.hxx>
-#include <TopoDSToStep_MakeBrepWithVoids.hxx>
-#include <TopoDSToStep_MakeFacetedBrep.hxx>
-#include <TopoDSToStep_MakeFacetedBrepAndBrepWithVoids.hxx>
-#include <TopoDSToStep_MakeGeometricCurveSet.hxx>
-#include <TopoDSToStep_MakeShellBasedSurfaceModel.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Builder.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_FacetedTool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeManifoldSolidBrep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeBrepWithVoids.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeFacetedBrep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeFacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeGeometricCurveSet.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeShellBasedSurfaceModel.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -118,7 +118,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <Transfer_SequenceOfBinder.hxx>
 
-#include <TopoDSToStep_MakeStepVertex.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepVertex.hxx>
 #include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <DataExchange/StepShape/StepShape_HArray1OfGeometricSetSelect.hxx>

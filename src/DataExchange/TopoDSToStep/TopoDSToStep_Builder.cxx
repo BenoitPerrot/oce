@@ -17,13 +17,13 @@
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <TopoDSToStep_Builder.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Builder.hxx>
 
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 
-#include <TopoDSToStep_MakeStepFace.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepFace.hxx>
 
 #include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
 #include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>

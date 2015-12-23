@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepShape_TopologicalRepresentationItem.hxx>
-#include <TopoDSToStep_BuilderError.hxx>
-#include <TopoDSToStep_Root.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_BuilderError.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 class StepShape_TopologicalRepresentationItem;
 class StdFail_NotDone;

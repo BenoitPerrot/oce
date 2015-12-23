@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopoDSToStep_FacetedTool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_FacetedTool.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

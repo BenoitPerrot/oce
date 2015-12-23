@@ -3,43 +3,43 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _TopoDSToStep_MakeStepFace_HeaderFile
-#define _TopoDSToStep_MakeStepFace_HeaderFile
+#ifndef _TopoDSToStep_MakeStepEdge_HeaderFile
+#define _TopoDSToStep_MakeStepEdge_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepShape_TopologicalRepresentationItem.hxx>
-#include <TopoDSToStep_MakeFaceError.hxx>
-#include <TopoDSToStep_Root.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeEdgeError.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
 #include <Handle_Transfer_FinderProcess.hxx>
 class StepShape_TopologicalRepresentationItem;
 class StdFail_NotDone;
-class TopoDS_Face;
+class TopoDS_Edge;
 class TopoDSToStep_Tool;
 class Transfer_FinderProcess;
 
 
 //! This class implements the mapping between classes
-//! Face from TopoDS and TopologicalRepresentationItem from
+//! Edge from TopoDS and TopologicalRepresentationItem from
 //! StepShape.
-class TopoDSToStep_MakeStepFace  : public TopoDSToStep_Root
+class TopoDSToStep_MakeStepEdge  : public TopoDSToStep_Root
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT TopoDSToStep_MakeStepFace();
+  Standard_EXPORT TopoDSToStep_MakeStepEdge();
   
-  Standard_EXPORT TopoDSToStep_MakeStepFace(const TopoDS_Face& F, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP);
+  Standard_EXPORT TopoDSToStep_MakeStepEdge(const TopoDS_Edge& E, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP);
   
-  Standard_EXPORT   void Init (const TopoDS_Face& F, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP) ;
+  Standard_EXPORT   void Init (const TopoDS_Edge& E, TopoDSToStep_Tool& T, const Handle(Transfer_FinderProcess)& FP) ;
   
   Standard_EXPORT  const  Handle(StepShape_TopologicalRepresentationItem)& Value()  const;
   
-  Standard_EXPORT   TopoDSToStep_MakeFaceError Error()  const;
+  Standard_EXPORT   TopoDSToStep_MakeEdgeError Error()  const;
 
 
 
@@ -55,7 +55,7 @@ private:
 
 
   Handle(StepShape_TopologicalRepresentationItem) myResult;
-  TopoDSToStep_MakeFaceError myError;
+  TopoDSToStep_MakeEdgeError myError;
 
 
 };
@@ -66,4 +66,4 @@ private:
 
 
 
-#endif // _TopoDSToStep_MakeStepFace_HeaderFile
+#endif // _TopoDSToStep_MakeStepEdge_HeaderFile

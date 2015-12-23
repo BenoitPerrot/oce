@@ -24,12 +24,12 @@
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopoDSToStep_Tool.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_Tool.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <TopoDSToStep_MakeStepFace.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepFace.hxx>
 
-#include <TopoDSToStep_MakeStepWire.hxx>
-#include <TopoDSToStep.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_MakeStepWire.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

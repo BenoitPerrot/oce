@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopoDSToStep_FacetedError.hxx>
+#include <DataExchange/TopoDSToStep/TopoDSToStep_FacetedError.hxx>
 class TopoDS_Shape;
 
 
