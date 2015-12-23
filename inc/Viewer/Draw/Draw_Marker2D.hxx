@@ -11,10 +11,10 @@
 #include <Handle_Draw_Marker2D.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Draw_Drawable2D.hxx>
+#include <Viewer/Draw/Draw_Drawable2D.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_Pnt2d;

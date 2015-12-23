@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <QADraw.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Window.hxx>
-#include <Draw_Viewer.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Viewer.hxx>
 #include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <V3d_View.hxx>
 #include <ViewerTest.hxx>
@@ -46,7 +46,7 @@
 #  include <unistd.h>
 #endif
 
-#include <Draw_PluginMacro.hxx>
+#include <Viewer/Draw/Draw_PluginMacro.hxx>
 
 Handle(TColStd_HSequenceOfReal) GetColorOfPixel (const Image_PixMap&    theImage,
                                                  const Standard_Integer theCoordinateX,

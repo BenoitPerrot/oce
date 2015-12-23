@@ -68,10 +68,10 @@ static Standard_Boolean Affich=0;
 
 #ifdef DRAW
 static Standard_Integer CorrNumber = 0;
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Segment2D.hxx>
-//#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Segment2D.hxx>
+//#include <Viewer/Draw/Draw.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

@@ -20,10 +20,10 @@
 
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
 
 #include <stdio.h>
 #ifdef WNT

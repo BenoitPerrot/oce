@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <TestTopOpeDraw_DrawableSHA.hxx>
 #include <TestTopOpeDraw_DrawableC3D.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>

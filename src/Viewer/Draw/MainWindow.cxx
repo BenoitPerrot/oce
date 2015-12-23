@@ -20,7 +20,7 @@
 #include <DrawRessource.h>
 #include <init.h>
 #include <MainWindow.h>
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <CommandWindow.h>
 
 Standard_Boolean Draw_Interprete(const char* command); // Implemented in Draw.cxx

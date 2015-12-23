@@ -18,11 +18,11 @@
 
 #include <DrawDim.hxx>
 
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Viewer/DBRep/DBRep.hxx> 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx> 
 #include <DrawDim_PlanarDistance.hxx>
 #include <DrawDim_PlanarRadius.hxx>

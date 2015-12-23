@@ -12,13 +12,13 @@
 
 #include <Handle_Draw_Text3D.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <DrawTrSurf_Curve.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class Draw_Text3D;
 class Geom_Curve;
 class Draw_Color;

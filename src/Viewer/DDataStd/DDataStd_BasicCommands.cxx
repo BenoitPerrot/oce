@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 
 #include <Viewer/DDF/DDF.hxx>

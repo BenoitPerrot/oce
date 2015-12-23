@@ -27,12 +27,12 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
-#include <Draw_SequenceOfDrawable3D.hxx>
+#include <Viewer/Draw/Draw_SequenceOfDrawable3D.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <GeometryTest.hxx>

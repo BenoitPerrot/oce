@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <XSDRAWSTLVRML.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <VrmlAPI.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
@@ -25,14 +25,14 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <StlAPI_Writer.hxx>
-#include <Draw_PluginMacro.hxx>
+#include <Viewer/Draw/Draw_PluginMacro.hxx>
 #include <XSDRAW.hxx>
 #include <XSDRAWSTEP.hxx>
 #include <XSDRAWIGES.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
-#include <Draw.hxx>
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <RWStl.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <V3d_View.hxx>

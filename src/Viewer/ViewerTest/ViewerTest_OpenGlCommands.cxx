@@ -18,8 +18,8 @@
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ShaderObject.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>

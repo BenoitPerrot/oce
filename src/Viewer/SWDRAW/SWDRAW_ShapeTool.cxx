@@ -18,7 +18,7 @@
 // 15.06.99 abv/pdn: command comptol added (from S4030)
 #include <SWDRAW_ShapeTool.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

@@ -20,7 +20,7 @@
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 //! This class checks topology of the mesh presented by
 //! triangulations of faces.

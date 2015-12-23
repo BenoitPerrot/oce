@@ -24,7 +24,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
@@ -83,7 +83,7 @@
 #include <XSDRAW.hxx>
 #include <XCAFPrs.hxx>
 #include <ViewerTest.hxx>
-#include <Draw_PluginMacro.hxx>
+#include <Viewer/Draw/Draw_PluginMacro.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

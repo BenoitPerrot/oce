@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <GeomAbs_IsoType.hxx>
 class Adaptor2d_Curve2d;
 class Draw_Display;

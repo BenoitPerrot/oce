@@ -16,8 +16,8 @@
 #include <Viewer/DDocStd/DDocStd.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <OCAF/TDocStd/TDocStd_XLinkTool.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
@@ -30,8 +30,8 @@
 #include <OCAF/TDocStd/TDocStd_XLinkRoot.hxx>
 #include <OCAF/TDocStd/TDocStd_XLinkIterator.hxx>
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 #include <Foundation/Plugin/Plugin.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class TopoDS_Shape;
 class TDF_Data;
 class TopTools_ListOfShape;

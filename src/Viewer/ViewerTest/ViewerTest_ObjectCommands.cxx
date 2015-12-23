@@ -17,9 +17,9 @@
 #include <ViewerTest.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
 #include <Visualization/Font/Font_BRepFont.hxx>
@@ -59,7 +59,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_DisplayMode.hxx>

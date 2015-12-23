@@ -12,11 +12,11 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Draw_Text2D.hxx>
-#include <Draw_Marker2D.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Draw_Text2D;
 class gp_Pnt2d;

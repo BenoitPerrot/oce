@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/DPrsStd/DPrsStd.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

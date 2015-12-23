@@ -11,7 +11,7 @@
 #include <Handle_DrawTrSurf_BezierSurface.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <DrawTrSurf_Surface.hxx>
 #include <Handle_Geom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

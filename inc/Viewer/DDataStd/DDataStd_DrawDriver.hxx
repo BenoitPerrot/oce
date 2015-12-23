@@ -13,7 +13,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Handle_TDataXtd_Constraint.hxx>
-#include <Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Draw_Drawable3D;
 class TDF_Label;

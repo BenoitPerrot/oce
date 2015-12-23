@@ -14,14 +14,14 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/DDocStd/DDocStd.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Viewer.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Viewer.hxx>
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

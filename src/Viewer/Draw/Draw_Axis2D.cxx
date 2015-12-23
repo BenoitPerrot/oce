@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Axis2D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Axis2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Axis2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

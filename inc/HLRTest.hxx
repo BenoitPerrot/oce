@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_HLRTopoBRep_OutLiner.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class HLRAlgo_Projector;
 class TopoDS_Shape;
 class HLRTopoBRep_OutLiner;

@@ -22,9 +22,9 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <tcl.h>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Window.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
@@ -116,7 +116,7 @@ defaultPrompt:
 #if !defined(_WIN32) && !defined(__WIN32__)
 
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <unistd.h>
 
 #if defined(__APPLE__) && !defined(MACOSX_USE_GLX)
@@ -1270,7 +1270,7 @@ prompt:
 #include "DrawRessource.h"
 #include "init.h"
 
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Foundation/OSD/OSD.hxx>
 
 #ifdef _TK

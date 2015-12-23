@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Size.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 
 //! Implements ProgressIndicator (interface provided by Message)

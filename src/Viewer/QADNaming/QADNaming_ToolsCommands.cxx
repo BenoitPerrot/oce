@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <QADNaming.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

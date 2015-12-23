@@ -33,10 +33,10 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ElSLib.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>

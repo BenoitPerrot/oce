@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 

@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <QABugs.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

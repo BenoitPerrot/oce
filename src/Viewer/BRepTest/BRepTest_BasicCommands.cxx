@@ -20,9 +20,9 @@
 #include <Viewer/BRepTest/BRepTest.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Box.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Box.hxx>
 
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>
@@ -49,9 +49,9 @@
 #include <DrawTrSurf.hxx>
 
 
-#include <Draw_Segment3D.hxx>
-#include <Draw_Marker3D.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 
 #include <stdio.h>
 

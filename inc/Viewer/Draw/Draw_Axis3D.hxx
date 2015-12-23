@@ -11,9 +11,9 @@
 #include <Handle_Draw_Axis3D.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 class Draw_Color;
 class gp_Pnt;
 class gp_Ax3;

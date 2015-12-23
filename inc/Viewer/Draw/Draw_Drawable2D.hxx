@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Draw_Drawable2D.hxx>
 
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 
 

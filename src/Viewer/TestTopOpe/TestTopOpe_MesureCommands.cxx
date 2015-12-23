@@ -19,8 +19,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TestTopOpe.hxx>
 
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>
 #include <DrawTrSurf_Curve.hxx>
 

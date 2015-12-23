@@ -17,8 +17,8 @@
 
 #include <QABugs.hxx>
 
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
@@ -744,7 +744,7 @@ static Standard_Integer  OCC189 (Draw_Interpretor& di, Standard_Integer /*argc*/
 }
 
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 //=======================================================================
 //function : OCC566
 //purpose  : 

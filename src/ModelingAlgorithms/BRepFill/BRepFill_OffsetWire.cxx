@@ -115,7 +115,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #ifdef DRAW
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <DrawTrSurf.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

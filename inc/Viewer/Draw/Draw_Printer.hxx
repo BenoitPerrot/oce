@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Message/Message_Printer.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

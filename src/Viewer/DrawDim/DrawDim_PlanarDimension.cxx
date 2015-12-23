@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarDimension)
 IMPLEMENT_DOWNCAST(DrawDim_PlanarDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDimension)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 
 //=======================================================================

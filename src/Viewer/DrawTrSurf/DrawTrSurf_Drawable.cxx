@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <DrawTrSurf_Drawable.hxx>

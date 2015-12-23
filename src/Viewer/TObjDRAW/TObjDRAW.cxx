@@ -27,7 +27,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #include <Viewer/DDocStd/DDocStd.hxx>
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
@@ -37,7 +37,7 @@
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 
-#include <Draw_PluginMacro.hxx>
+#include <Viewer/Draw/Draw_PluginMacro.hxx>
 
 // avoid warnings on 'extern "C"' functions returning C++ classes
 #ifdef _MSC_VER

@@ -16,9 +16,9 @@
 
 #include <MeshTest_DrawableMesh.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <Draw.hxx>
-#include <Draw_ColorKind.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

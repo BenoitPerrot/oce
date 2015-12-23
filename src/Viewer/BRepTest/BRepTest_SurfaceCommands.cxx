@@ -20,8 +20,8 @@
 
 #include <DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -41,7 +41,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Precision.hxx>
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 
 #ifdef _WIN32
 //#define strcasecmp strcmp Already defined

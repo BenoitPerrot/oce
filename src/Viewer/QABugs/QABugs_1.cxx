@@ -15,7 +15,7 @@
 
 #include <QABugs.hxx>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
@@ -36,8 +36,8 @@
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 
-#include <Draw_Viewer.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Viewer.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #ifndef WNT
 extern Draw_Viewer dout;

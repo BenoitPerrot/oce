@@ -17,8 +17,8 @@
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeDraft.hxx>

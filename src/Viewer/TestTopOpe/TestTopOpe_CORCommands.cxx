@@ -62,10 +62,10 @@
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
 #include <TopOpeBRepDS_EXPORT.hxx>
 
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>

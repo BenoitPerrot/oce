@@ -26,8 +26,8 @@
 
 #include <Precision.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
 #ifdef WNT

@@ -16,8 +16,8 @@
 
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <DrawTrSurf_Triangulation2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Triangulation2D)
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Triangulation2D)
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>
 
 #ifdef WNT

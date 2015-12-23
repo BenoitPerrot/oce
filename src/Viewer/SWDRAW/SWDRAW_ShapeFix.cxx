@@ -16,7 +16,7 @@
 
 #include <SWDRAW_ShapeFix.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <SWDRAW.hxx>
@@ -60,7 +60,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBounds.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

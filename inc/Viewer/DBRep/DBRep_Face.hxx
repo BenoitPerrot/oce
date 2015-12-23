@@ -11,7 +11,7 @@
 #include <Handle_DBRep_Face.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

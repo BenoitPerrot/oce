@@ -16,11 +16,11 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBRep_DrawableShape)
@@ -34,7 +34,7 @@ IMPLEMENT_DOWNCAST(DBRep_DrawableShape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 
 
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 
 #include <Viewer/DBRep/DBRep_Face.hxx>
 #include <Viewer/DBRep/DBRep_Edge.hxx>

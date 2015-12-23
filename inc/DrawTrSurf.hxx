@@ -25,7 +25,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom_BezierSurface.hxx>
 #include <Handle_Geom_BSplineSurface.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class gp_Pnt;
 class gp_Pnt2d;
 class Geom_Geometry;

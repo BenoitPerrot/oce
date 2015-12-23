@@ -37,14 +37,14 @@ IMPLEMENT_STANDARD_RTTI(Law_Interpol)
 #ifdef DRAW
 
 // Pour le dessin.
-#include <Draw_Appli.hxx>
-#include <Draw_Display.hxx>
-#include <Draw.hxx>
-#include <Draw_Segment3D.hxx>
-#include <Draw_Segment2D.hxx>
-#include <Draw_Marker2D.hxx>
-#include <Draw_ColorKind.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Segment2D.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 
 static void Law_draw1dcurve(const Handle(Law_BSpline)& bs,
                             const gp_Vec2d&            tra,

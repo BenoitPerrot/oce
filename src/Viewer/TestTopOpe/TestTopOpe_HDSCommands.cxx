@@ -47,9 +47,9 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopOpeBRepDS_define.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf_Curve.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
 
 class TSEEpar {

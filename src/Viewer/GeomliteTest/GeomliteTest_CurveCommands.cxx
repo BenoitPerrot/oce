@@ -19,7 +19,7 @@
 // Modified by JPI 01/08/97 : ajout de la commande approxcurve
 
 #include <GeomliteTest.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 #include <DrawTrSurf_Curve.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
@@ -27,12 +27,12 @@
 #include <DrawTrSurf_BSplineCurve.hxx>
 #include <DrawTrSurf_BezierCurve2d.hxx>
 #include <DrawTrSurf_BSplineCurve2d.hxx>
-#include <Draw_Marker3D.hxx>
-#include <Draw_Marker2D.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

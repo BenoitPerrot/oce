@@ -13,7 +13,7 @@
 
 #include <SWDRAW.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
 #include <SWDRAW_ShapeTool.hxx>
@@ -29,12 +29,12 @@
 
 #include <ShapeProcess_OperLibrary.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
 //  for NSPApply -- CKY 12 JUL 2001
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 
 static int dejadraw = 0;
 

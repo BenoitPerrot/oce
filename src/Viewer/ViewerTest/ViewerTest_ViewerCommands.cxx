@@ -48,9 +48,9 @@
 #include <Visualization/NIS/NIS_Triangulated.hxx>
 #include <Visualization/NIS/NIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
 #include <Visualization/Image/Image_AlienPixMap.hxx>
 #include <Visualization/OpenGl/OpenGl_GraphicDriver.hxx>

@@ -21,8 +21,8 @@
 #include <XSDRAW.hxx>
 #include <StepSelect_Activator.hxx>
 
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
@@ -55,7 +55,7 @@
 #include <STEPSelections_Counter.hxx>
 #include <STEPSelections_AssemblyExplorer.hxx>
 
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <Transfer_TransientProcess.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

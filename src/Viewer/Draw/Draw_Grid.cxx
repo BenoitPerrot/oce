@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Display.hxx>
-#include <Draw_Grid.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Grid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Grid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_RTTI(Draw_Grid)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 
-#include <Draw_Appli.hxx>
-#include <Draw_ColorKind.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 
 static Standard_Real MinimumStep = 1.e-3 ;
 static Standard_Real Ratio       = 200.0 ;

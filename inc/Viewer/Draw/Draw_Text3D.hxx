@@ -11,10 +11,10 @@
 #include <Handle_Draw_Text3D.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class gp_Pnt;
 class Draw_Color;

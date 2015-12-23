@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Box.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Box.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Box)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

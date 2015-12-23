@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Text2D.hxx>
+#include <Viewer/Draw/Draw_Text2D.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableC2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableC2D)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TestTopOpeDraw_DrawableC2D)
 IMPLEMENT_DOWNCAST(TestTopOpeDraw_DrawableC2D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableC2D)
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <TopOpeBRepTool_define.hxx>
 
 //=======================================================================

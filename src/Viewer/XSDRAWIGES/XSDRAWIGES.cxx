@@ -52,7 +52,7 @@
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 //#include <GeometryTest.hxx>  essai CKY 4-AUT-1998
@@ -78,7 +78,7 @@
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <IGESControl_Reader.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 

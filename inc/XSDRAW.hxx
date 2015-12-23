@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IFSelect_SessionPilot.hxx>
 #include <Handle_XSControl_WorkSession.hxx>

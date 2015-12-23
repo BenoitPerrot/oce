@@ -11,10 +11,10 @@
 #include <Handle_HLRTest_Projector.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class HLRAlgo_Projector;
 class Draw_Display;
 class Draw_Drawable3D;

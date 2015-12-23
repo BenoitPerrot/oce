@@ -12,10 +12,10 @@
 
 #include <Handle_Poly_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class Poly_Polygon3D;
 class Draw_Display;
 class Draw_Drawable3D;

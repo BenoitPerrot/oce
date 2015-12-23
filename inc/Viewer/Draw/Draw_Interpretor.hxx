@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_PInterp.hxx>
+#include <Viewer/Draw/Draw_PInterp.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

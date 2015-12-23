@@ -22,8 +22,8 @@
 
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <Viewer/DDataStd/DDataStd_TreeBrowser.hxx>

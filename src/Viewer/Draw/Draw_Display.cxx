@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <ElCLib.hxx>
 
 extern Standard_Boolean Draw_Bounds;

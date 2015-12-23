@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ListOfBPoint.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 class HLRBRep_PolyAlgo;
 class Draw_Display;
 

@@ -21,7 +21,7 @@
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDF_Data.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDataStd_Real;
 class TFunction_Function;
 class TDataStd_Integer;

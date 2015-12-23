@@ -20,7 +20,7 @@
 #include <GeometryTest.hxx>
 #include <GeomliteTest.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 void GeometryTest::AllCommands(Draw_Interpretor& theCommands)
 {

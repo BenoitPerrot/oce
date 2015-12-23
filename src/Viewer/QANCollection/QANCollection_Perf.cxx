@@ -16,8 +16,8 @@
 #include <QANCollection.hxx>
 #include <QANCollection_Common.hxx>
 
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

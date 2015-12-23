@@ -11,8 +11,8 @@
 #include <Handle_Draw_Segment3D.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 class gp_Pnt;
 class Draw_Color;
 class Draw_Display;

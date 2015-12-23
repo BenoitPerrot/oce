@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
 #include <HLRTest_DrawableEdgeTool.hxx>

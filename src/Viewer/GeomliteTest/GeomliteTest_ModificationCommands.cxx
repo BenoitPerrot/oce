@@ -16,10 +16,10 @@
 
 #include <GeomliteTest.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 
 #include <Precision.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>

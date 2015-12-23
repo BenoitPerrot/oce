@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 

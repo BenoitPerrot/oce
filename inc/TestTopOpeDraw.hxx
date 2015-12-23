@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class TestTopOpeDraw_ListOfPnt2d;
 class TestTopOpeDraw_DrawableSHA;
 class TestTopOpeDraw_DrawableSUR;

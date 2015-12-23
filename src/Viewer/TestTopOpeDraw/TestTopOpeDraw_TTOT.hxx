@@ -25,8 +25,8 @@
 #include <GeomAbs_SurfaceType.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Draw.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 
 class TestTopOpeDraw_TTOT {
 

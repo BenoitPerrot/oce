@@ -16,13 +16,13 @@
 #include <Viewer/DBRep/DBRep_ListOfHideData.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class Standard_DomainError;
 class TopoDS_Shape;
 class Draw_Color;

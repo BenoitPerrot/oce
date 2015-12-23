@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
@@ -43,8 +43,8 @@
 #include <DrawTrSurf_Triangulation.hxx>
 #include <DrawTrSurf_Polygon3D.hxx>
 #include <DrawTrSurf_Polygon2D.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
 #include <Geometry/GeomTools/GeomTools_Curve2dSet.hxx>

@@ -13,7 +13,7 @@
 #include <Handle_HLRBRep_Algo.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_HLRBRep_Data.hxx>
 class HLRBRep_Algo;
 class Draw_Display;

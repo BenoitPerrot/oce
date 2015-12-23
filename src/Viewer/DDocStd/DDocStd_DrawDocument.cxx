@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDocStd_DrawDocument)

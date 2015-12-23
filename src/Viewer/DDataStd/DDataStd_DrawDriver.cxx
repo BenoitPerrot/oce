@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -29,21 +29,21 @@ IMPLEMENT_STANDARD_TYPE_END(DDataStd_DrawDriver)
 IMPLEMENT_DOWNCAST(DDataStd_DrawDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 
-#include <Draw.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Viewer/DDataStd/DDataStd.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 // drawable object
 #include <DrawTrSurf_Surface.hxx>
-#include <Draw_Axis3D.hxx>
+#include <Viewer/Draw/Draw_Axis3D.hxx>
 #include <DrawDim_Distance.hxx>
 #include <DrawDim_Radius.hxx>
 #include <DrawDim_Angle.hxx>

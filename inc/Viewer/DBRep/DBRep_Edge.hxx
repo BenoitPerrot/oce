@@ -11,7 +11,7 @@
 #include <Handle_DBRep_Edge.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Edge;
 class Draw_Color;

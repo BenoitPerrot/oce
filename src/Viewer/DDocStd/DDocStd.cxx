@@ -21,9 +21,9 @@
 #include <Viewer/DDocStd/DDocStd.hxx>
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>

@@ -19,10 +19,10 @@
 
 #include <GeomliteTest.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.hxx>
@@ -32,9 +32,9 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Marker2D.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Precision.hxx>

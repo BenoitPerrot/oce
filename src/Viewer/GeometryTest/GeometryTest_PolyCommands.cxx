@@ -21,7 +21,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf_Triangulation.hxx>
 #include <DrawTrSurf_Polygon3D.hxx>
 #include <DrawTrSurf_Polygon2D.hxx>

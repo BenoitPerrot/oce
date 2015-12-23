@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -25,7 +25,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 
-#include <Draw_Axis3D.hxx>
+#include <Viewer/Draw/Draw_Axis3D.hxx>
 #include <Precision.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

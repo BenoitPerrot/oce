@@ -19,16 +19,16 @@
 
 // Modif : DFO 05/11/96
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_ProgressIndicator.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 
-#include <Draw_Drawable3D.hxx>
-#include <Draw_Grid.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Text3D.hxx>
-#include <Draw_Text2D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Grid.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Text3D.hxx>
+#include <Viewer/Draw/Draw_Text2D.hxx>
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 

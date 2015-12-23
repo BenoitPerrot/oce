@@ -21,9 +21,9 @@
 #define COMMANDTITLE "Command Window"
 
 #include <CommandWindow.h>
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <MainWindow.h>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 
 
 

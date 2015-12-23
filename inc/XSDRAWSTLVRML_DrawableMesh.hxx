@@ -11,7 +11,7 @@
 #include <Handle_XSDRAWSTLVRML_DrawableMesh.hxx>
 
 #include <Handle_MeshVS_Mesh.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 class MeshVS_Mesh;
 class Draw_Display;
 

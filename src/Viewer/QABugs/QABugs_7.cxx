@@ -15,7 +15,7 @@
 
 #include <QABugs.hxx>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

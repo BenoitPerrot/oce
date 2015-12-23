@@ -105,7 +105,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 
 #ifdef DRAW
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 static Standard_Boolean Affich = 0;

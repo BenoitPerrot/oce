@@ -15,7 +15,7 @@
 #include <Viewer/BOPTest/BOPTest.hxx>
 #include <stdio.h>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 //
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

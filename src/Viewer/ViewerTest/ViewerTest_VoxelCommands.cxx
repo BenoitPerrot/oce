@@ -16,8 +16,8 @@
 #include <ViewerTest.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 
 #include <Voxel_BoolDS.hxx>
 #include <Voxel_ColorDS.hxx>

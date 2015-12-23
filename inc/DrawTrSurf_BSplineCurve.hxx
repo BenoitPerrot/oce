@@ -11,8 +11,8 @@
 #include <Handle_DrawTrSurf_BSplineCurve.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_MarkerShape.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DrawTrSurf_Curve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>

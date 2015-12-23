@@ -38,8 +38,8 @@
 #include <ModelingAlgorithms/IntTools/IntTools_FaceFace.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Color.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>

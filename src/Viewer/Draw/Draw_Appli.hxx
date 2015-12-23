@@ -24,8 +24,8 @@
 #define Draw_Appli_HeaderFile
 
 
-#include <Draw_Viewer.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Viewer.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 typedef void (*FDraw_InitAppli)(Draw_Interpretor&);
 

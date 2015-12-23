@@ -12,10 +12,10 @@
 
 #include <Handle_Poly_Triangulation.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Draw_Drawable2D.hxx>
+#include <Viewer/Draw/Draw_Drawable2D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class Poly_Triangulation;
 class TColStd_HArray1OfInteger;
 class Draw_Display;

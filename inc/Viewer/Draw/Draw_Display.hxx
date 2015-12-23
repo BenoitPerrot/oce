@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Draw_Color;
 class gp_Pnt;

@@ -15,8 +15,8 @@
 
 #include <Viewer/DDocStd/DDocStd.hxx>
 
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

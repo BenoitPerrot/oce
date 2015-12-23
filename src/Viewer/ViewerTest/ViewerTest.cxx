@@ -69,9 +69,9 @@
 
 #include <stdio.h>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_PluginMacro.hxx>
+#include <Viewer/Draw/Draw_PluginMacro.hxx>
 
 // avoid warnings on 'extern "C"' functions returning C++ classes
 #ifdef _MSC_VER
@@ -163,9 +163,9 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 
 
 #include <string.h>
-#include <Draw_Interpretor.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
 
@@ -193,7 +193,7 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_DisplayMode.hxx>

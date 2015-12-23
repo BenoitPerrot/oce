@@ -18,7 +18,7 @@
 
 #include <GeomliteTest.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 void GeomliteTest::AllCommands(Draw_Interpretor& theCommands)
 {

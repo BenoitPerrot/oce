@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <DrawTrSurf_BSplineCurve2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_BSplineCurve2d)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_BSplineCurve2d)
 IMPLEMENT_DOWNCAST(DrawTrSurf_BSplineCurve2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineCurve2d)
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

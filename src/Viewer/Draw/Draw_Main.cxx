@@ -45,17 +45,17 @@
 #include <windows.h> /* SW_SHOW */
 #endif
 
-#include <Draw_Main.hxx>
+#include <Viewer/Draw/Draw_Main.hxx>
 #include <stdlib.h>
 #include <string.h>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Foundation/OSD/OSD.hxx>
 
 #include <tcl.h>
 
 #ifdef WNT
 #include <sys/stat.h>
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 
 #include <stdio.h>
 #include <io.h>

@@ -41,9 +41,9 @@
 #include <ElCLib.hxx>
 
 #ifdef DRAW
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
-#include <Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
 static Standard_Boolean Affich = Standard_False;
 #endif
 

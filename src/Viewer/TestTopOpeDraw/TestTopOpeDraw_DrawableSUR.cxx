@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Text3D.hxx>
+#include <Viewer/Draw/Draw_Text3D.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableSUR.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSUR)

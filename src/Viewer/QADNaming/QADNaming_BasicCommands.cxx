@@ -32,9 +32,9 @@
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TNaming/TNaming_MapOfNamedShape.hxx>
 #include <OCAF/TNaming/TNaming_MapIteratorOfMapOfNamedShape.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>

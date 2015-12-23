@@ -17,7 +17,7 @@
 #include <OCAF/TDocStd/TDocStd_MultiTransactionManager.hxx>
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DDF/DDF_Browser.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
@@ -34,7 +34,7 @@
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>
 
 //=======================================================================

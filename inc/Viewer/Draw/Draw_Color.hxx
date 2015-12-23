@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 

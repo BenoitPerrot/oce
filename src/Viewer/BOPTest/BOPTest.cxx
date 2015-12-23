@@ -15,7 +15,7 @@
 
 #include <Viewer/BOPTest/BOPTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <GeomliteTest.hxx>
 #include <GeometryTest.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
@@ -62,5 +62,5 @@ void  BOPTest::AllCommands(Draw_Interpretor& theCommands)
   BOPTest::AllCommands(theCommands);
   //printf(" BOP Plugin is loaded\n");
 }
-//#include <Draw_PluginMacro.hxx>
+//#include <Viewer/Draw/Draw_PluginMacro.hxx>
 //DPLUGIN(BOPTest)

@@ -25,9 +25,9 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_SequenceOfDrawable3D.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_SequenceOfDrawable3D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 
 #if !defined(__Draw_API)
 # ifdef WNT

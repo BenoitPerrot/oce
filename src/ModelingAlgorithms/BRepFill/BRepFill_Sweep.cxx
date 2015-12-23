@@ -126,7 +126,7 @@
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>  
 
 #ifdef DRAW
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 static Standard_Boolean Affich = 0;

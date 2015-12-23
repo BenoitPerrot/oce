@@ -17,8 +17,8 @@
 
 #include <QABugs.hxx>
 
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
@@ -1040,7 +1040,7 @@ static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, con
 
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
@@ -4557,7 +4557,7 @@ static Standard_Integer OCC12584 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Interface_Macros.hxx>
 #include <IGESControl_Controller.hxx>
 #include <XSDRAW.hxx>
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <XSDRAW_Commands.hxx>

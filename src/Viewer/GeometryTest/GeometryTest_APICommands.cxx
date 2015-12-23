@@ -16,10 +16,10 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <GeometryTest.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
@@ -30,10 +30,10 @@
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_PointsToBSplineSurface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Draw_Segment3D.hxx>
-#include <Draw_Marker3D.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>

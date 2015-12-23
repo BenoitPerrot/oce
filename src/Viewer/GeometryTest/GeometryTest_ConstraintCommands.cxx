@@ -22,9 +22,9 @@
 
 #include <GeometryTest.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRad.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d3Tan.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanOn.hxx>
@@ -39,9 +39,9 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_Interpolate.hxx>
-#include <Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_Interpolate.hxx>
-#include <Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>

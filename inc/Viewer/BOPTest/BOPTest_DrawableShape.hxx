@@ -11,7 +11,7 @@
 #include <Handle_BOPTest_DrawableShape.hxx>
 
 #include <Handle_Draw_Text3D.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

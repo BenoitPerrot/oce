@@ -17,9 +17,9 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
-#include <Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
@@ -43,7 +43,7 @@
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 
 // memory management
 #include <Foundation/Standard/Standard.hxx>

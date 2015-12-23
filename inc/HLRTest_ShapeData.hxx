@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRTest_ShapeData.hxx>
 
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Draw_Color;
 

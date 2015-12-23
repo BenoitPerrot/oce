@@ -11,10 +11,10 @@
 #include <Handle_DDF_Data.hxx>
 
 #include <Handle_TDF_Data.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDF_Data;
 class Draw_Display;
 class Draw_Drawable3D;

@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Handle_TDF_Attribute.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDF_Data;
 class TDF_Label;
 class Standard_GUID;

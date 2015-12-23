@@ -34,9 +34,9 @@
 #include <GeometryTest.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <Draw_MarkerShape.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <DrawTrSurf.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
@@ -49,11 +49,11 @@
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Precision.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Draw_Marker3D.hxx>
-#include <Draw_Segment2D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Segment2D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>

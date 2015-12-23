@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <DrawTrSurf_Polygon2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Polygon2D)
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_Polygon2D)
 IMPLEMENT_DOWNCAST(DrawTrSurf_Polygon2D,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Polygon2D)
 #include <Mathematics/Polyhedral/Poly.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 
 //=======================================================================
 //function : DrawTrSurf_Polygon2D

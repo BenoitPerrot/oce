@@ -22,8 +22,8 @@
 #include <HLRTest_OutLiner.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_HLRToShape.hxx>

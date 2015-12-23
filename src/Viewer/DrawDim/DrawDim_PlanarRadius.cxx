@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <DrawDim_PlanarRadius.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarRadius)
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarRadius)
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <ElCLib.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

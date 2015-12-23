@@ -11,10 +11,10 @@
 #include <Handle_Draw_Segment2D.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Drawable2D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Drawable2D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class gp_Pnt2d;
 class Draw_Color;
 class Draw_Display;

@@ -15,29 +15,29 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_ProgressIndicator.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Foundation/OSD/OSD.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 
-#include <Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_Version.hxx>
 
-#include <Draw_Drawable3D.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
 #include <Foundation/OSD/OSD_SharedLibrary.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <Draw_Failure.hxx>
+#include <Viewer/Draw/Draw_Failure.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

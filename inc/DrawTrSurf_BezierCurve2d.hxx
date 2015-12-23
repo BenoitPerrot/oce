@@ -11,7 +11,7 @@
 #include <Handle_DrawTrSurf_BezierCurve2d.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 #include <Handle_Geom2d_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

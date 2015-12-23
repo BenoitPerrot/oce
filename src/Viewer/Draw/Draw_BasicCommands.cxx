@@ -20,12 +20,12 @@
 #include <Foundation/Standard/Standard_Version.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_ProgressIndicator.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Chronometer.hxx>
-#include <Draw_Printer.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Chronometer.hxx>
+#include <Viewer/Draw/Draw_Printer.hxx>
 
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

@@ -24,9 +24,9 @@
 #include <DrawTrSurf.hxx>
 #include <GeometryTest.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 /*********************************************************************************/
 void  InitEpsSurf(Standard_Real& epsnl,Standard_Real& epsdis, Standard_Real& epsangk1, 

@@ -15,7 +15,7 @@
 
 #include <QABugs.hxx>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <ViewerTest.hxx>
@@ -393,7 +393,7 @@ static Standard_Integer OCC23774(Draw_Interpretor& di, Standard_Integer n, const
 
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Foundation/OSD/OSD_Thread.hxx>
 static void GeomConvertTest (Draw_Interpretor& di, Standard_Integer theTargetNbUPoles, Standard_CString theFileName)
 {
@@ -611,7 +611,7 @@ static Standard_Integer OCC24008 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 //=======================================================================
 //function : OCC23945
 //purpose  : 

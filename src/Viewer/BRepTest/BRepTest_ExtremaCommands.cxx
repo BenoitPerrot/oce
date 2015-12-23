@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 //#ifdef WNT
 #include <stdio.h>

@@ -15,7 +15,7 @@
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_Printer.hxx>
+#include <Viewer/Draw/Draw_Printer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Printer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

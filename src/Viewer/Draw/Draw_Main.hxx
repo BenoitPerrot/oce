@@ -25,7 +25,7 @@
 #define Draw_Main_HeaderFile
 
 #include <Foundation/Standard/Standard_TypeDef.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 
 typedef void (*FDraw_InitAppli)(Draw_Interpretor&);

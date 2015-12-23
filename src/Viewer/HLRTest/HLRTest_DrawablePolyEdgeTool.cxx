@@ -17,7 +17,7 @@
 // Modified by cma, Mon Oct 23 16:11:46 1995
 
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <HLRTest_DrawablePolyEdgeTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_DrawablePolyEdgeTool)
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(HLRTest_DrawablePolyEdgeTool)
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ListIteratorOfListOfBPoint.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 
 #define PntX1 ((Standard_Real*)Coordinates)[0]

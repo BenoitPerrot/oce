@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <DrawDim_Dimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_Dimension)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(DrawDim_Dimension)
 IMPLEMENT_DOWNCAST(DrawDim_Dimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Dimension)
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 

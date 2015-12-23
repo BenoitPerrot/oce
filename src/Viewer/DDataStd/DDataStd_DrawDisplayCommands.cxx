@@ -16,12 +16,12 @@
 
 #include <Viewer/DDataStd/DDataStd.hxx>
 #include <Viewer/DDF/DDF.hxx>
-#include <Draw.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Viewer.hxx>
-#include <Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Viewer.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>   
 #include <Mathematics/Primitives/gp_Pnt.hxx>

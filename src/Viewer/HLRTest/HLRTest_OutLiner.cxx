@@ -16,8 +16,8 @@
 
 #include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_OutLiner.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <HLRTest_OutLiner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_OutLiner)

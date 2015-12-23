@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <HLRTest_Projector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRTest_Projector)

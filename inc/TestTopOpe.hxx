@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 class TopOpeBRepBuild_HBuilder;

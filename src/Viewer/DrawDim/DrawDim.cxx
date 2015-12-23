@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <DrawDim.hxx>
 
-#include <Draw_Text3D.hxx>
+#include <Viewer/Draw/Draw_Text3D.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>  
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -37,8 +37,8 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <ElCLib.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

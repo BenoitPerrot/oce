@@ -16,8 +16,8 @@
 
 #include <TestTopOpeTools.hxx>
 #include <TestTopOpeTools_Trace.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <TopOpeBRepTool_define.hxx>
 
 #ifdef OCCT_DEBUG

@@ -24,8 +24,8 @@
 #include <TestTopOpe_BOOP.hxx>
 #include <TopOpeBRepDS_DSX.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_PluginMacro.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_PluginMacro.hxx>
 #include <Viewer/BOPTest/BOPTest.hxx>
 #include <SWDRAW.hxx>
 #ifdef _MSC_VER

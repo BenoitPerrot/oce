@@ -43,14 +43,14 @@
 
 #ifdef DRAW
 // Pour le dessin.
-#include <Draw_Appli.hxx>
-#include <Draw_Display.hxx>
-#include <Draw.hxx>
-#include <Draw_Segment3D.hxx>
-#include <Draw_Segment2D.hxx>
-#include <Draw_Marker2D.hxx>
-#include <Draw_ColorKind.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Segment2D.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw_ColorKind.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 static Standard_Boolean dodraw = 0;
 static Standard_Real drawfac = 0.1;
 #endif

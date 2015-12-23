@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <QANCollection.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>

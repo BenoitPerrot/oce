@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 
@@ -29,5 +29,5 @@ void Draw_InitAppli (Draw_Interpretor& di)
   DrawTrSurf::BasicCommands (di);
 }
 
-#include <Draw_Main.hxx>
+#include <Viewer/Draw/Draw_Main.hxx>
 DRAW_MAIN

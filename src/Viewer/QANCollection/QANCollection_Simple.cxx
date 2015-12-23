@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <QANCollection.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 #include <Foundation/OSD/OSD_PerfMeter.hxx>
 

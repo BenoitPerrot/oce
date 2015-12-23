@@ -11,7 +11,7 @@
 #include <Handle_TestTopOpeDraw_DrawableSUR.hxx>
 
 #include <Handle_Draw_Text3D.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <DrawTrSurf_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

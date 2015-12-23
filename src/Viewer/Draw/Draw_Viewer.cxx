@@ -19,12 +19,12 @@
 //                       in PseudoColor 8 planes format
 //              see : SaveView(filename)
 
-#include <Draw_Viewer.hxx>
+#include <Viewer/Draw/Draw_Viewer.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Draw_Window.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Window.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 
 
 #define precpers 0.95

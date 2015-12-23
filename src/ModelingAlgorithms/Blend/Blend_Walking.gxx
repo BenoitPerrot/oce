@@ -29,7 +29,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #ifdef DRAW
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <DrawTrSurf_BSplineCurve.hxx>
 #endif
 //POP pour NT

@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <DrawDim_PlanarAngle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarAngle)
@@ -32,8 +32,8 @@ IMPLEMENT_DOWNCAST(DrawDim_PlanarAngle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarAngle)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DrawDim.hxx>
-#include <Draw.hxx>
-#include <Draw_MarkerShape.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

@@ -28,10 +28,10 @@
 #include <Viewer/DDF/DDF.hxx>
 #include <Viewer/DDF/DDF_Data.hxx>
 
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 

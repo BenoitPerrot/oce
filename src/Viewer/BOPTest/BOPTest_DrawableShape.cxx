@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Text3D.hxx>
+#include <Viewer/Draw/Draw_Text3D.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/BOPTest/BOPTest_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BOPTest_DrawableShape)
@@ -49,8 +49,8 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
@@ -58,10 +58,10 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Draw_Circle3D.hxx>
+#include <Viewer/Draw/Draw_Circle3D.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

@@ -40,10 +40,10 @@
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <stdio.h>

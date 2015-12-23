@@ -11,14 +11,14 @@
 #include <Handle_DrawTrSurf_Curve2d.hxx>
 
 #include <Handle_Geom2d_Curve.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DrawTrSurf_Drawable.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class Geom2d_Curve;
 class Draw_Color;
 class Draw_Display;

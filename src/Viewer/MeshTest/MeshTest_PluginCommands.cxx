@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <MeshTest.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretFactory.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -24,7 +24,7 @@
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

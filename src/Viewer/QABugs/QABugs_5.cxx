@@ -15,7 +15,7 @@
 
 #include <QABugs.hxx>
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <DrawTrSurf.hxx>

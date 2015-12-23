@@ -16,10 +16,10 @@
 
 #include <GeometryTest.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <ModelingAlgorithms/BRepProj/BRepProj_Projection.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>

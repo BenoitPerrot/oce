@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeChamfer.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Text2D.hxx>
+#include <Viewer/Draw/Draw_Text2D.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableP2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableP2D)

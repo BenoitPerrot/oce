@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/DPrsStd/DPrsStd.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
-#include <Draw_PluginMacro.hxx>
+#include <Viewer/Draw/Draw_PluginMacro.hxx>
 #include <Viewer/DNaming/DNaming.hxx>
 #include <Viewer/DDataStd/DDataStd.hxx> 
 #include <Viewer/DDF/DDF.hxx> 

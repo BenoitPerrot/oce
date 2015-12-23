@@ -16,8 +16,8 @@
 
 #include <Viewer/DDataStd/DDataStd.hxx>
 #include <Viewer/DDF/DDF.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

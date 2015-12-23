@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(Draw_Drawable3D)
-#define SeqItem_hxx <Draw_Drawable3D.hxx>
+#define SeqItem_hxx <Viewer/Draw/Draw_Drawable3D.hxx>
 #define TCollection_SequenceNode Draw_SequenceNodeOfSequenceOfDrawable3D
-#define TCollection_SequenceNode_hxx <Draw_SequenceNodeOfSequenceOfDrawable3D.hxx>
+#define TCollection_SequenceNode_hxx <Viewer/Draw/Draw_SequenceNodeOfSequenceOfDrawable3D.hxx>
 #define Handle_TCollection_SequenceNode Handle_Draw_SequenceNodeOfSequenceOfDrawable3D
 #define TCollection_SequenceNode_Type_() Draw_SequenceNodeOfSequenceOfDrawable3D_Type_()
 #define TCollection_Sequence Draw_SequenceOfDrawable3D
-#define TCollection_Sequence_hxx <Draw_SequenceOfDrawable3D.hxx>
+#define TCollection_Sequence_hxx <Viewer/Draw/Draw_SequenceOfDrawable3D.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

@@ -20,8 +20,8 @@
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <DrawTrSurf.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

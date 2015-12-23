@@ -16,8 +16,8 @@
 
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_PipeError.hxx>

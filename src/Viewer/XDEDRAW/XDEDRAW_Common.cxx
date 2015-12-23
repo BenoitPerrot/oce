@@ -21,8 +21,8 @@
 #include <IGESControl_Controller.hxx>
 #include <STEPControl_Controller.hxx>
 
-#include <Draw.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <XSDRAW.hxx>
 #include <XDEDRAW.hxx>
 #include <XSDRAWIGES.hxx>

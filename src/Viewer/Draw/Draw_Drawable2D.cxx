@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Drawable2D.hxx>
+#include <Viewer/Draw/Draw_Drawable2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Draw_Drawable2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

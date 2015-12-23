@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_TDocStd_Document.hxx>
 #include <Handle_TDF_Attribute.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDocStd_Application;
 class TDocStd_Document;
 class TDF_Label;

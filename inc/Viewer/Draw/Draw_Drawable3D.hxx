@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class Draw_Display;
 
 
@@ -87,7 +87,7 @@ private:
 };
 
 
-#include <Draw_Drawable3D.lxx>
+#include <Viewer/Draw/Draw_Drawable3D.lxx>
 
 
 

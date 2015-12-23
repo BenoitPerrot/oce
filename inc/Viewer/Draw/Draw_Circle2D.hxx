@@ -12,8 +12,8 @@
 
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Drawable2D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Drawable2D.hxx>
 class gp_Circ2d;
 class Draw_Color;
 class Draw_Display;

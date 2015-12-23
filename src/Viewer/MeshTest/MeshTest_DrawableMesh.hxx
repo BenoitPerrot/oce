@@ -18,10 +18,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 class TopoDS_Shape;
 class TColStd_SequenceOfInteger;

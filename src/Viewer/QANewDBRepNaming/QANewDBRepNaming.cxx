@@ -22,7 +22,7 @@
 
 #include <OCAF/TDF/TDF_Data.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TNaming/TNaming_Selector.hxx>
@@ -57,7 +57,7 @@
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
-//////#include <Draw_PluginMacro.hxx>
+//////#include <Viewer/Draw/Draw_PluginMacro.hxx>
 //////#include <DBrowser.hxx>
 
 static Standard_Integer QANewDBRepNaming_CheckNaming(Draw_Interpretor&,Standard_Integer,const char ** a);

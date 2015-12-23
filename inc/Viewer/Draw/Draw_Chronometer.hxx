@@ -11,10 +11,10 @@
 #include <Handle_Draw_Chronometer.hxx>
 
 #include <Foundation/OSD/OSD_Timer.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class OSD_Timer;
 class Draw_Display;
 class Draw_Drawable3D;

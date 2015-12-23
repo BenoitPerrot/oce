@@ -19,9 +19,9 @@
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_MapOfAsciiString.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_MapOfAsciiString.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

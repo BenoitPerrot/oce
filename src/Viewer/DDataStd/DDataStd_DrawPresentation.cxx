@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DDataStd_DrawPresentation)
 IMPLEMENT_DOWNCAST(DDataStd_DrawPresentation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DDataStd_DrawPresentation)
-#include <Draw_Drawable3D.hxx>
-#include <Draw.hxx>
-#include <Draw_Viewer.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Viewer.hxx>
 #include <OCAF/TDF/TDF_DefaultDeltaOnModification.hxx>
 #include <OCAF/TDF/TDF_DefaultDeltaOnRemoval.hxx>
 #include <OCAF/TDF/TDF_DeltaOnAddition.hxx>

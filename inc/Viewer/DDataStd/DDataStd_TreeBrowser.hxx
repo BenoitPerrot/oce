@@ -11,10 +11,10 @@
 #include <Handle_DDataStd_TreeBrowser.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Handle_TDataStd_TreeNode.hxx>
 class TDF_Label;
 class Draw_Display;

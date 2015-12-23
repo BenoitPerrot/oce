@@ -18,7 +18,7 @@
 
 #include <SWDRAW_ShapeAnalysis.hxx>
 #include <stdio.h>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <SWDRAW.hxx>

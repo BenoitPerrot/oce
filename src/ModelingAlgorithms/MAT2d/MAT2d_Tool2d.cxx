@@ -23,7 +23,7 @@
 #endif
 
 #ifdef DRAW
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <DrawTrSurf.hxx>

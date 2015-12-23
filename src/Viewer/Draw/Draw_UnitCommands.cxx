@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_ProgressIndicator.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Units/Units_Token.hxx>

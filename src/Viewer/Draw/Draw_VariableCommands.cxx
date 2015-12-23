@@ -15,22 +15,22 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_ProgressIndicator.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 
-#include <Draw_Display.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Number.hxx>
-#include <Draw_Axis3D.hxx>
-#include <Draw_Axis2D.hxx>
-#include <Draw_Grid.hxx>
-#include <Draw_Drawable3D.hxx>
-#include <Draw_SequenceOfDrawable3D.hxx>
-#include <Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Number.hxx>
+#include <Viewer/Draw/Draw_Axis3D.hxx>
+#include <Viewer/Draw/Draw_Axis2D.hxx>
+#include <Viewer/Draw/Draw_Grid.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_SequenceOfDrawable3D.hxx>
+#include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>
 

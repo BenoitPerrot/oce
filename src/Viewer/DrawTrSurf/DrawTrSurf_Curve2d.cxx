@@ -13,9 +13,9 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Curve2d)

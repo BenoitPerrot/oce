@@ -21,8 +21,8 @@
 
 
 #include <OCAF/TDF/TDF_Data.hxx>
-#include <Draw_Display.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Viewer/DDF/DDF_Browser.hxx>

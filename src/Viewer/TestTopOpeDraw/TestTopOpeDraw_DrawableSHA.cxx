@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Draw_Text3D.hxx>
-#include <Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Text3D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Display.hxx>
+#include <Viewer/Draw/Draw_Display.hxx>
 #include <TestTopOpeDraw_DrawableSHA.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TestTopOpeDraw_DrawableSHA)
@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeDraw_DrawableSHA)
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Draw_Color.hxx>
-#include <Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 Draw_Color DBRep_ColorOrientation (const TopAbs_Orientation);

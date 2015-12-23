@@ -15,7 +15,7 @@
 
 #include <QADNaming.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

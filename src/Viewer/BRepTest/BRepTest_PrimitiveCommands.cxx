@@ -16,8 +16,8 @@
 
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

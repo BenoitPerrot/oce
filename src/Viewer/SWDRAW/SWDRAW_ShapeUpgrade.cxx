@@ -21,14 +21,14 @@
 #include <SWDRAW_ShapeUpgrade.hxx>
 //#include <SWDRAW_ShapeUpgrade.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ShapeUpgrade.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <ShapeUpgrade_SplitCurve2dContinuity.hxx>
 #include <ShapeUpgrade_SplitSurfaceContinuity.hxx>
 //#include <ShapeUpgrade_SupportModification.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

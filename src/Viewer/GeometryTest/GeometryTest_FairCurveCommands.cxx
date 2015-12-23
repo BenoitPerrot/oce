@@ -16,7 +16,7 @@
 
 #include <GeometryTest.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <DrawTrSurf.hxx>
 #include <DrawTrSurf_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

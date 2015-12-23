@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Shape;

@@ -16,10 +16,10 @@
 
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Fuse.hxx>

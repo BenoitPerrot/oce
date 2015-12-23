@@ -21,12 +21,12 @@
 
 #include <GeomliteTest.hxx>
 #include <DrawTrSurf.hxx>
-#include <Draw.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Precision.hxx>
-#include <Draw_Marker3D.hxx>
-#include <Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

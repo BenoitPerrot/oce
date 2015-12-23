@@ -31,7 +31,7 @@
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 

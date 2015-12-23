@@ -20,11 +20,11 @@
 #include <TestTopOpe.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
-#include <Draw.hxx>
-#include <Draw_Marker3D.hxx>
-#include <Draw_Segment3D.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
+#include <Viewer/Draw/Draw.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Segment3D.hxx>
 #include <DrawTrSurf_Point.hxx>
 #include <DrawTrSurf.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -266,7 +266,7 @@ Standard_Integer GETP3D(Draw_Interpretor& di, Standard_Integer /*narg*/, const c
   return 0;
 }
 #ifdef OCCT_DEBUG
-#include <Draw_Chronometer.hxx>
+#include <Viewer/Draw/Draw_Chronometer.hxx>
 Standard_IMPORT Standard_Boolean Draw_Chrono;
 Standard_Integer CHROBOOP(Draw_Interpretor& di, Standard_Integer n, const char** a)
 {

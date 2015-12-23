@@ -12,13 +12,13 @@
 
 #include <Handle_Draw_Text2D.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <DrawTrSurf_Curve2d.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class Draw_Text2D;
 class Geom2d_Curve;
 class Draw_Color;

@@ -11,12 +11,12 @@
 #include <Handle_TestTopOpeDraw_DrawableMesure.hxx>
 
 #include <Handle_TColgp_HArray1OfPnt.hxx>
-#include <Draw_Color.hxx>
+#include <Viewer/Draw/Draw_Color.hxx>
 #include <Handle_TestTopOpeDraw_DrawableC3D.hxx>
 #include <Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TestTopOpeDraw_DrawableC3D.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class TColgp_HArray1OfPnt;
 class TestTopOpeDraw_DrawableC3D;
 class TestTopOpeDraw_HArray1OfDrawableP3D;

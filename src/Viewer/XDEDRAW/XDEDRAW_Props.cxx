@@ -17,7 +17,7 @@
 
 #include <XDEDRAW_Props.hxx>
 
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/DDocStd/DDocStd.hxx>
 

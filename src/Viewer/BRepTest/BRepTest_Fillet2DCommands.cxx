@@ -23,8 +23,8 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <Draw_Interpretor.hxx>
-#include <Draw_Appli.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Appli.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet2d.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

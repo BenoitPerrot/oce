@@ -98,9 +98,9 @@
 
 #ifdef DRAW
 #include <DrawTrSurf.hxx>
-#include <Draw_Marker3D.hxx>
-#include <Draw_Marker2D.hxx>
-#include <Draw.hxx>
+#include <Viewer/Draw/Draw_Marker3D.hxx>
+#include <Viewer/Draw/Draw_Marker2D.hxx>
+#include <Viewer/Draw/Draw.hxx>
 // 0 : Pas de display
 // 1 : Display des Geometries et controle intermediaire
 // 2 : Display du nombre de contrainte par courbe + Intersection

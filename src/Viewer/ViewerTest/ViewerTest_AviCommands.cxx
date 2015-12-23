@@ -21,7 +21,7 @@
 #endif
 
 #include <ViewerTest.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 
 static Standard_Integer avi_record(Draw_Interpretor& /*di*/,
                                    Standard_Integer argc, const char** argv)

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 class Draw_Display;
 
 
@@ -66,7 +66,7 @@ private:
 };
 
 
-#include <Draw_Grid.lxx>
+#include <Viewer/Draw/Draw_Grid.lxx>
 
 
 

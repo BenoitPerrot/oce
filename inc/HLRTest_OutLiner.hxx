@@ -11,10 +11,10 @@
 #include <Handle_HLRTest_OutLiner.hxx>
 
 #include <Handle_HLRTopoBRep_OutLiner.hxx>
-#include <Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Draw_Interpretor.hxx>
+#include <Viewer/Draw/Draw_Interpretor.hxx>
 class HLRTopoBRep_OutLiner;
 class TopoDS_Shape;
 class Draw_Display;
