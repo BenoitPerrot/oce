@@ -13,7 +13,7 @@
 
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <IGESAppli_Protocol.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,25 +26,25 @@ IMPLEMENT_STANDARD_TYPE_END(IGESAppli_Protocol)
 IMPLEMENT_DOWNCAST(IGESAppli_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_Protocol)
 
-#include <IGESAppli_Node.hxx>
-#include <IGESAppli_FiniteElement.hxx>
-#include <IGESAppli_NodalDisplAndRot.hxx>
-#include <IGESAppli_NodalResults.hxx>
-#include <IGESAppli_ElementResults.hxx>
-#include <IGESAppli_Flow.hxx>
-#include <IGESAppli_PipingFlow.hxx>
-#include <IGESAppli_RegionRestriction.hxx>
-#include <IGESAppli_LevelFunction.hxx>
-#include <IGESAppli_LineWidening.hxx>
-#include <IGESAppli_DrilledHole.hxx>
-#include <IGESAppli_ReferenceDesignator.hxx>
-#include <IGESAppli_PinNumber.hxx>
-#include <IGESAppli_PartNumber.hxx>
-#include <IGESAppli_FlowLineSpec.hxx>
-#include <IGESAppli_LevelToPWBLayerMap.hxx>
-#include <IGESAppli_PWBArtworkStackup.hxx>
-#include <IGESAppli_PWBDrilledHole.hxx>
-#include <IGESAppli_NodalConstraint.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_NodalDisplAndRot.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_NodalResults.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ElementResults.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Flow.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PipingFlow.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_RegionRestriction.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_LevelFunction.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_LineWidening.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_DrilledHole.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ReferenceDesignator.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PinNumber.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PartNumber.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_FlowLineSpec.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_LevelToPWBLayerMap.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PWBArtworkStackup.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PWBDrilledHole.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_NodalConstraint.hxx>
 
 #include <IGESDefs.hxx>
 #include <IGESDraw.hxx>

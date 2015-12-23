@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESAppli_ReferenceDesignator.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ReferenceDesignator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_ReferenceDesignator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

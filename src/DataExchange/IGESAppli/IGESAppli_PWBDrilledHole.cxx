@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_PWBDrilledHole.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PWBDrilledHole.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_PWBDrilledHole)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

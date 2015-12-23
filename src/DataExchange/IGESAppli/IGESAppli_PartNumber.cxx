@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESAppli_PartNumber.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PartNumber.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_PartNumber)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

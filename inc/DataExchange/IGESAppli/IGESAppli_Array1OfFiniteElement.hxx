@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESAppli_FiniteElement)
-#define Array1Item_hxx <IGESAppli_FiniteElement.hxx>
+#define Array1Item_hxx <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
 #define TCollection_Array1 IGESAppli_Array1OfFiniteElement
-#define TCollection_Array1_hxx <IGESAppli_Array1OfFiniteElement.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfFiniteElement.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

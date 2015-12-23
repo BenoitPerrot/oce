@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESAppli_Array1OfNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Array1OfNode.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
  
 
 #define Array1Item Handle(IGESAppli_Node)
-#define Array1Item_hxx <IGESAppli_Node.hxx>
+#define Array1Item_hxx <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #define TCollection_Array1 IGESAppli_Array1OfNode
-#define TCollection_Array1_hxx <IGESAppli_Array1OfNode.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfNode.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

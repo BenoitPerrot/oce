@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_LineWidening.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_LineWidening.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_LineWidening)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

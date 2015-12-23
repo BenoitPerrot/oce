@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESAppli_DrilledHole.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_DrilledHole.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESAppli_ToolDrilledHole.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ToolDrilledHole.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_LevelListEntity.hxx>
 

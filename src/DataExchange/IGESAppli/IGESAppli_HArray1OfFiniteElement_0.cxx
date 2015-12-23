@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESAppli_HArray1OfFiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESAppli_FiniteElement.hxx>
-#include <IGESAppli_Array1OfFiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Array1OfFiniteElement.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESAppli_HArray1OfFiniteElement)
 
 
 #define ItemHArray1 Handle(IGESAppli_FiniteElement)
-#define ItemHArray1_hxx <IGESAppli_FiniteElement.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
 #define TheArray1 IGESAppli_Array1OfFiniteElement
-#define TheArray1_hxx <IGESAppli_Array1OfFiniteElement.hxx>
+#define TheArray1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfFiniteElement.hxx>
 #define TCollection_HArray1 IGESAppli_HArray1OfFiniteElement
-#define TCollection_HArray1_hxx <IGESAppli_HArray1OfFiniteElement.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESAppli_HArray1OfFiniteElement
 #define TCollection_HArray1_Type_() IGESAppli_HArray1OfFiniteElement_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESAppli_LevelToPWBLayerMap.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_LevelToPWBLayerMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_LevelToPWBLayerMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

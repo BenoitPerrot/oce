@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESAppli_ToolNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ToolNode.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESGeom_TransformationMatrix.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

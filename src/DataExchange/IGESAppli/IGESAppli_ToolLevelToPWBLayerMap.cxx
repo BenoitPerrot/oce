@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESAppli_LevelToPWBLayerMap.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_LevelToPWBLayerMap.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESAppli_ToolLevelToPWBLayerMap.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ToolLevelToPWBLayerMap.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>

@@ -25,7 +25,7 @@
 #include <IGESDraw_ConnectPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESGraph_TextDisplayTemplate.hxx>
-#include <IGESAppli_PipingFlow.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PipingFlow.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_PipingFlow)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

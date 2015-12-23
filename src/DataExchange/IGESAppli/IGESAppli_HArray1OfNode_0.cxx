@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESAppli_HArray1OfNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESAppli_Node.hxx>
-#include <IGESAppli_Array1OfNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Array1OfNode.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESAppli_HArray1OfNode)
 
 
 #define ItemHArray1 Handle(IGESAppli_Node)
-#define ItemHArray1_hxx <IGESAppli_Node.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #define TheArray1 IGESAppli_Array1OfNode
-#define TheArray1_hxx <IGESAppli_Array1OfNode.hxx>
+#define TheArray1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfNode.hxx>
 #define TCollection_HArray1 IGESAppli_HArray1OfNode
-#define TCollection_HArray1_hxx <IGESAppli_HArray1OfNode.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESAppli_HArray1OfNode
 #define TCollection_HArray1_Type_() IGESAppli_HArray1OfNode_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

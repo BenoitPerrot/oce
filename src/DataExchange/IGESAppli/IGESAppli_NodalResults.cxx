@@ -18,12 +18,12 @@
 
 #include <IGESDimen_GeneralNote.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <IGESAppli_HArray1OfNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESAppli_Node.hxx>
-#include <IGESAppli_NodalResults.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_NodalResults.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_NodalResults)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

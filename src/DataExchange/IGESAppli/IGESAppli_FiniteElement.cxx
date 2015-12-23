@@ -16,11 +16,11 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_HArray1OfNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESAppli_Node.hxx>
-#include <IGESAppli_FiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_FiniteElement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESAppli_FiniteElement)
 IMPLEMENT_DOWNCAST(IGESAppli_FiniteElement,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_FiniteElement)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <IGESAppli.hxx>
+#include <DataExchange/IGESAppli/IGESAppli.hxx>
 
 IGESAppli_FiniteElement::IGESAppli_FiniteElement ()    {  }
 

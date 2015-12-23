@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESAppli_RegionRestriction.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_RegionRestriction.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESAppli_ToolRegionRestriction.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ToolRegionRestriction.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESData_LevelListEntity.hxx>
 

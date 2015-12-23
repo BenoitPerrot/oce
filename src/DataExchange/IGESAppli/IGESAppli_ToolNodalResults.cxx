@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESAppli_NodalResults.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_NodalResults.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -28,11 +28,11 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESAppli_ToolNodalResults.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ToolNodalResults.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESDimen_GeneralNote.hxx>
-#include <IGESAppli_Node.hxx>
-#include <IGESAppli_HArray1OfNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

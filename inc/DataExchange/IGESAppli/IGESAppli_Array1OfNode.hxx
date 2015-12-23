@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESAppli_Node)
-#define Array1Item_hxx <IGESAppli_Node.hxx>
+#define Array1Item_hxx <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #define TCollection_Array1 IGESAppli_Array1OfNode
-#define TCollection_Array1_hxx <IGESAppli_Array1OfNode.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfNode.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

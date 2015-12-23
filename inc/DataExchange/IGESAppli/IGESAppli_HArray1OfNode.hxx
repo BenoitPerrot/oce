@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_HArray1OfNode.hxx>
 
-#include <IGESAppli_Array1OfNode.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Array1OfNode.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESAppli_Node.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESAppli_Node)
-#define ItemHArray1_hxx <IGESAppli_Node.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #define TheArray1 IGESAppli_Array1OfNode
-#define TheArray1_hxx <IGESAppli_Array1OfNode.hxx>
+#define TheArray1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfNode.hxx>
 #define TCollection_HArray1 IGESAppli_HArray1OfNode
-#define TCollection_HArray1_hxx <IGESAppli_HArray1OfNode.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESAppli_HArray1OfNode
 #define TCollection_HArray1_Type_() IGESAppli_HArray1OfNode_Type_()
 

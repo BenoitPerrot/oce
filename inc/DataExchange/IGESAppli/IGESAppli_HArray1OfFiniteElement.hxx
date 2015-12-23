@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_HArray1OfFiniteElement.hxx>
 
-#include <IGESAppli_Array1OfFiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Array1OfFiniteElement.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESAppli_FiniteElement.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESAppli_FiniteElement)
-#define ItemHArray1_hxx <IGESAppli_FiniteElement.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
 #define TheArray1 IGESAppli_Array1OfFiniteElement
-#define TheArray1_hxx <IGESAppli_Array1OfFiniteElement.hxx>
+#define TheArray1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfFiniteElement.hxx>
 #define TCollection_HArray1 IGESAppli_HArray1OfFiniteElement
-#define TCollection_HArray1_hxx <IGESAppli_HArray1OfFiniteElement.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESAppli_HArray1OfFiniteElement
 #define TCollection_HArray1_Type_() IGESAppli_HArray1OfFiniteElement_Type_()
 

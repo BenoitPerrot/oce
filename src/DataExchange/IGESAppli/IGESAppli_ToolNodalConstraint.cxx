@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESAppli_NodalConstraint.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_NodalConstraint.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -28,10 +28,10 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESAppli_ToolNodalConstraint.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ToolNodalConstraint.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <IGESDefs_HArray1OfTabularData.hxx>
-#include <IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #include <IGESDefs_TabularData.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

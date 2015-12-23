@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESAppli_PWBArtworkStackup.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_PWBArtworkStackup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_PWBArtworkStackup)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

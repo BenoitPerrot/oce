@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESAppli_HArray1OfFlow.hxx>
 
-#include <IGESAppli_Array1OfFlow.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Array1OfFlow.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESAppli_Flow.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESAppli_Flow)
-#define ItemHArray1_hxx <IGESAppli_Flow.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESAppli/IGESAppli_Flow.hxx>
 #define TheArray1 IGESAppli_Array1OfFlow
-#define TheArray1_hxx <IGESAppli_Array1OfFlow.hxx>
+#define TheArray1_hxx <DataExchange/IGESAppli/IGESAppli_Array1OfFlow.hxx>
 #define TCollection_HArray1 IGESAppli_HArray1OfFlow
-#define TCollection_HArray1_hxx <IGESAppli_HArray1OfFlow.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESAppli/IGESAppli_HArray1OfFlow.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESAppli_HArray1OfFlow
 #define TCollection_HArray1_Type_() IGESAppli_HArray1OfFlow_Type_()
 

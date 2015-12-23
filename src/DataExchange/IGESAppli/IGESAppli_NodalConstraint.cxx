@@ -16,11 +16,11 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Node.hxx>
 #include <IGESDefs_HArray1OfTabularData.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESDefs_TabularData.hxx>
-#include <IGESAppli_NodalConstraint.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_NodalConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESAppli_NodalConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

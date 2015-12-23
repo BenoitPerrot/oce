@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <IGESToBRep_Actor.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <IGESSolid.hxx>
-#include <IGESAppli.hxx>
+#include <DataExchange/IGESAppli/IGESAppli.hxx>
 
 #include <Interface_Static.hxx>
 #include <IGESSelect_AutoCorrect.hxx>

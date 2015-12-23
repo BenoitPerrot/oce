@@ -18,7 +18,7 @@
 
 // UNFINISHED & UNSTARTED
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESAppli_ElementResults.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ElementResults.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -29,14 +29,14 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESAppli_ToolElementResults.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_ToolElementResults.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
-#include <IGESAppli_FiniteElement.hxx>
-#include <IGESAppli_HArray1OfFiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
 #include <IGESDimen_GeneralNote.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

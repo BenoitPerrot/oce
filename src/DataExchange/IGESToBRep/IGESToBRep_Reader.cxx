@@ -42,8 +42,8 @@
 #include <IGESData_IGESEntity.hxx>
 #include <IGESSolid.hxx>
 #include <IGESSolid_Protocol.hxx>
-#include <IGESAppli.hxx>
-#include <IGESAppli_Protocol.hxx>
+#include <DataExchange/IGESAppli/IGESAppli.hxx>
+#include <DataExchange/IGESAppli/IGESAppli_Protocol.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Interface_CheckTool.hxx>
