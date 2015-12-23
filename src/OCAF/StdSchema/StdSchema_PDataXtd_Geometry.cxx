@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_Geometry.hxx>
 #endif
 #ifndef _PDataXtd_Geometry_HeaderFile
-#include <PDataXtd_Geometry.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Geometry.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

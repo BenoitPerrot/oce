@@ -14,7 +14,7 @@
 #include <OCAF/PDataStd/PDataStd_Real.hxx>
 #include <PDF_HAttributeArray1.hxx>
 #include <PNaming_NamedShape.hxx>
-#include <PDataXtd_Constraint.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataXtd_Constraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

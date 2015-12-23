@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_Point.hxx>
 #endif
 #ifndef _PDataXtd_Point_HeaderFile
-#include <PDataXtd_Point.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Point.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

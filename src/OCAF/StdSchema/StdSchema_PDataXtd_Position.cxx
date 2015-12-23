@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_Position.hxx>
 #endif
 #ifndef _PDataXtd_Position_HeaderFile
-#include <PDataXtd_Position.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Position.hxx>
 #endif
 #ifndef _StdSchema_gp_Pnt_HeaderFile
 #include <StdSchema_gp_Pnt.hxx>

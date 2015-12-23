@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_ConstraintStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_ConstraintStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintStorageDriver)
-#include <PDataXtd_Constraint.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <PNaming_NamedShape.hxx>

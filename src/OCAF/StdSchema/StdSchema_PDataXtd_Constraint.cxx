@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_Constraint.hxx>
 #endif
 #ifndef _PDataXtd_Constraint_HeaderFile
-#include <PDataXtd_Constraint.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #endif
 #ifndef _StdSchema_PDF_HAttributeArray1_HeaderFile
 #include <StdSchema_PDF_HAttributeArray1.hxx>

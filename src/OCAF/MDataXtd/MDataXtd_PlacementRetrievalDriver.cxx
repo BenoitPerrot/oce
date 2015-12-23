@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PlacementRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PlacementRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PlacementRetrievalDriver)
-#include <PDataXtd_Placement.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Placement.hxx>
 #include <TDataXtd_Placement.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

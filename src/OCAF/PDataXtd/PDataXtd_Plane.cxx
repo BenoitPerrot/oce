@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PDataXtd_Plane.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Plane.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataXtd_Plane)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

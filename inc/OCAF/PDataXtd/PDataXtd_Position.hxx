@@ -52,7 +52,7 @@ private:
 };
 
 
-#include <PDataXtd_Position.lxx>
+#include <OCAF/PDataXtd/PDataXtd_Position.lxx>
 
 
 

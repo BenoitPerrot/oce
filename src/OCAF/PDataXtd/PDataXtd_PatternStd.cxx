@@ -17,7 +17,7 @@
 #include <PNaming_NamedShape.hxx>
 #include <OCAF/PDataStd/PDataStd_Real.hxx>
 #include <OCAF/PDataStd/PDataStd_Integer.hxx>
-#include <PDataXtd_PatternStd.hxx>
+#include <OCAF/PDataXtd/PDataXtd_PatternStd.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataXtd_PatternStd)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PatternStdRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PatternStdRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PatternStdRetrievalDriver)
-#include <PDataXtd_PatternStd.hxx>
+#include <OCAF/PDataXtd/PDataXtd_PatternStd.hxx>
 #include <TDataXtd_PatternStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

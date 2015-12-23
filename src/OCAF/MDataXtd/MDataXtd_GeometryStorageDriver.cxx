@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataXtd_GeometryStorageDriver)
 #include <TDataXtd_GeometryEnum.hxx>
 #include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <TDataXtd_Geometry.hxx>
-#include <PDataXtd_Geometry.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Geometry.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 

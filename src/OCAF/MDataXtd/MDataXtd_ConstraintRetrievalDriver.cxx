@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_ConstraintRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_ConstraintRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_ConstraintRetrievalDriver)
 #include <OCAF/MDataXtd/MDataXtd.hxx>
-#include <PDataXtd_Constraint.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Constraint.hxx>
 #include <TDataXtd_Constraint.hxx>
 #include <TDataXtd_ConstraintEnum.hxx>
 #include <TNaming_NamedShape.hxx>

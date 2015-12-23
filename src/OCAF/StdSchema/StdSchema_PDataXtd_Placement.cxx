@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_Placement.hxx>
 #endif
 #ifndef _PDataXtd_Placement_HeaderFile
-#include <PDataXtd_Placement.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Placement.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

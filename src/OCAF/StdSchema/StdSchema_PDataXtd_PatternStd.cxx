@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_PatternStd.hxx>
 #endif
 #ifndef _PDataXtd_PatternStd_HeaderFile
-#include <PDataXtd_PatternStd.hxx>
+#include <OCAF/PDataXtd/PDataXtd_PatternStd.hxx>
 #endif
 #ifndef _StdSchema_PNaming_NamedShape_HeaderFile
 #include <StdSchema_PNaming_NamedShape.hxx>

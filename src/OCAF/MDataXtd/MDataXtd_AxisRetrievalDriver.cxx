@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_AxisRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_AxisRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_AxisRetrievalDriver)
-#include <PDataXtd_Axis.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Axis.hxx>
 #include <TDataXtd_Axis.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

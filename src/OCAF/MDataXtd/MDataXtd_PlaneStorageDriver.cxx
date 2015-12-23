@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PlaneStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PlaneStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PlaneStorageDriver)
-#include <PDataXtd_Plane.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Plane.hxx>
 #include <TDataXtd_Plane.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 

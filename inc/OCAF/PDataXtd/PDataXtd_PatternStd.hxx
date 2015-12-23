@@ -122,7 +122,7 @@ private:
 };
 
 
-#include <PDataXtd_PatternStd.lxx>
+#include <OCAF/PDataXtd/PDataXtd_PatternStd.lxx>
 
 
 

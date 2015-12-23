@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_Plane.hxx>
 #endif
 #ifndef _PDataXtd_Plane_HeaderFile
-#include <PDataXtd_Plane.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Plane.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

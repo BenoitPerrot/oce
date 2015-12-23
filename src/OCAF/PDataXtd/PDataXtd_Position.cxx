@@ -17,7 +17,7 @@
 // modified     Sergey Zaritchny
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <PDataXtd_Position.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Position.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataXtd_Position)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

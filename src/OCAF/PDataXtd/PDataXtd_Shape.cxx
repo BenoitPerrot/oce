@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //modified     Sergey Zaritchny
-#include <PDataXtd_Shape.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataXtd_Shape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

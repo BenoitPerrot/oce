@@ -2,7 +2,7 @@
 #include <StdSchema_PDataXtd_Axis.hxx>
 #endif
 #ifndef _PDataXtd_Axis_HeaderFile
-#include <PDataXtd_Axis.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Axis.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

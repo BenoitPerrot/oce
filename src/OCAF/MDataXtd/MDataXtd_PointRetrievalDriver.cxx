@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PointRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PointRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PointRetrievalDriver)
-#include <PDataXtd_Point.hxx>
+#include <OCAF/PDataXtd/PDataXtd_Point.hxx>
 #include <TDataXtd_Point.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
