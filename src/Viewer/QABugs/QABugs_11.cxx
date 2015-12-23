@@ -54,7 +54,7 @@
 #include <Foundation/OSD/OSD_Exception_ACCESS_VIOLATION.hxx>
 #include <Foundation/OSD/OSD_Exception_STACK_OVERFLOW.hxx>
 #include <Foundation/OSD/OSD.hxx>
-#include <STEPCAFControl_Writer.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>

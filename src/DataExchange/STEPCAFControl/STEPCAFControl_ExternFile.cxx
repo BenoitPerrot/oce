@@ -16,7 +16,7 @@
 #include <XSControl_WorkSession.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPCAFControl_ExternFile)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

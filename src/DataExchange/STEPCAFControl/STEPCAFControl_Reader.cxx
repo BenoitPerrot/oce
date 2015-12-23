@@ -13,19 +13,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <STEPControl_Reader.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <STEPCAFControl_DataMapOfShapePD.hxx>
-#include <STEPCAFControl_DataMapOfPDExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfShapePD.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
 #include <XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepRepr_RepresentationItem.hxx>
@@ -33,7 +33,7 @@
 #include <StepShape_ConnectedFaceSet.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <STEPConstruct_Tool.hxx>
-#include <STEPCAFControl_Reader.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -68,8 +68,8 @@
 #include <STEPConstruct_Styles.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
 #include <STEPConstruct_UnitContext.hxx>
-#include <STEPCAFControl_Controller.hxx>
-#include <STEPCAFControl_DataMapOfSDRExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Controller.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfSDRExternFile.hxx>
 
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
@@ -102,15 +102,15 @@
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <STEPCAFControl_DataMapOfShapePD.hxx>
-#include <STEPCAFControl_DataMapOfPDExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfShapePD.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <StepVisual_StyleContextSelect.hxx>
 #include <StepRepr_RepresentedDefinition.hxx>
 #include <StepRepr_CharacterizedDefinition.hxx>
 #include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
 #include <XCAFDoc_GraphNode.hxx>
-#include <STEPCAFControl_Reader.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
 // skl 21.08.2003 for reading G&DT
 #include <StepShape_DimensionalSize.hxx>
@@ -184,7 +184,7 @@
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx>
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_HArray1OfFace.hxx>
 #include <StepShape_HArray1OfFaceBound.hxx>

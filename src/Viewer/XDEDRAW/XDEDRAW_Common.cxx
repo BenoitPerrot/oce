@@ -37,15 +37,15 @@
 
 #include <DataExchange/IGESCAFControl/IGESCAFControl_Reader.hxx>
 #include <DataExchange/IGESCAFControl/IGESCAFControl_Writer.hxx>
-#include <STEPCAFControl_Reader.hxx>
-#include <STEPCAFControl_Writer.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Writer.hxx>
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <STEPCAFControl_DictionaryOfExternFile.hxx>
-#include <STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <Viewer/XSDRAW/XSDRAW_Vars.hxx>
 #include <stdio.h>
 

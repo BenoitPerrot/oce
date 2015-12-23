@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPCAFControl_DataMapOfLabelShape.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelShape.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_LabelMapHasher.hxx>
-#include <STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
-#include <STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx>
  
 
 #define TheKey TDF_Label
@@ -21,12 +21,12 @@
 #define Hasher TDF_LabelMapHasher
 #define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfLabelShape
-#define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape
-#define TCollection_DataMapIterator_hxx <STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelShape
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfLabelShape_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelShape
-#define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelShape.hxx>
+#define TCollection_DataMap_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

@@ -1771,7 +1771,7 @@ struct QABugs_NHandleClass
 
 #include <XCAFDoc_ColorTool.hxx>
 #include <STEPControl_StepModelType.hxx>
-#include <STEPCAFControl_Writer.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Writer.hxx>
 static Standard_Integer OCC23951 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if (argc != 1) {
@@ -2742,7 +2742,7 @@ static Standard_Integer OCC24606 (Draw_Interpretor& theDI,
 //function : OCC23010
 //purpose  :
 //=======================================================================
-#include <STEPCAFControl_Reader.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
 class mOcafApplication : public TDocStd_Application
 {

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <STEPCAFControl_Controller.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPCAFControl_Controller)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPCAFControl_Controller)
 IMPLEMENT_DOWNCAST(STEPCAFControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPCAFControl_Controller)
-#include <STEPCAFControl_ActorWrite.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ActorWrite.hxx>
 #include <XSAlgo.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 

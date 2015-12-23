@@ -80,7 +80,7 @@ private:
 };
 
 
-#include <STEPCAFControl_ExternFile.lxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.lxx>
 
 
 

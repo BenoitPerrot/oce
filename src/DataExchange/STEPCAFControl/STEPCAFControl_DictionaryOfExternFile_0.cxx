@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <STEPCAFControl_DictionaryOfExternFile.hxx>
-#include <STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
-#include <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
  
@@ -31,15 +31,15 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_DictionaryOfExternFile)
 
 
 #define TheItem Handle(STEPCAFControl_ExternFile)
-#define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
+#define TheItem_hxx <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #define Dico_Iterator STEPCAFControl_IteratorOfDictionaryOfExternFile
-#define Dico_Iterator_hxx <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
+#define Dico_Iterator_hxx <DataExchange/STEPCAFControl/STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #define Dico_StackItem STEPCAFControl_StackItemOfDictionaryOfExternFile
-#define Dico_StackItem_hxx <STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
+#define Dico_StackItem_hxx <DataExchange/STEPCAFControl/STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 #define Handle_Dico_StackItem Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile
 #define Dico_StackItem_Type_() STEPCAFControl_StackItemOfDictionaryOfExternFile_Type_()
 #define Dico_Dictionary STEPCAFControl_DictionaryOfExternFile
-#define Dico_Dictionary_hxx <STEPCAFControl_DictionaryOfExternFile.hxx>
+#define Dico_Dictionary_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
 #define Handle_Dico_Dictionary Handle_STEPCAFControl_DictionaryOfExternFile
 #define Dico_Dictionary_Type_() STEPCAFControl_DictionaryOfExternFile_Type_()
 #include <Foundation/Dico/Dico_Dictionary.gxx>

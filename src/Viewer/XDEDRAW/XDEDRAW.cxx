@@ -35,7 +35,7 @@
 #include <Viewer/DDocStd/DDocStd.hxx>
 #include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 
-#include <STEPCAFControl_Controller.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Controller.hxx>
 
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>

@@ -3,29 +3,29 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <STEPCAFControl_DataMapOfPDExternFile.hxx>
-#include <STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
  
 
 #define TheKey Handle(StepBasic_ProductDefinition)
 #define TheKey_hxx <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
-#define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
+#define TheItem_hxx <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile
-#define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile
-#define TCollection_DataMapIterator_hxx <STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx>
 #define Handle_TCollection_DataMapNode Handle_STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfPDExternFile
-#define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfPDExternFile.hxx>
+#define TCollection_DataMap_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfPDExternFile.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

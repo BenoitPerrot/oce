@@ -60,13 +60,13 @@ private:
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR
-#define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR
-#define TCollection_DataMapIterator_hxx <STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR.hxx>
 #define Handle_TCollection_DataMapNode Handle_STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfShapeSDR
-#define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfShapeSDR.hxx>
+#define TCollection_DataMap_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfShapeSDR.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

@@ -56,17 +56,17 @@ private:
 #define TheKey TDF_Label
 #define TheKey_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
-#define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
+#define TheItem_hxx <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #define Hasher TDF_LabelMapHasher
 #define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile
-#define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile
-#define TCollection_DataMapIterator_hxx <STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx>
 #define Handle_TCollection_DataMapNode Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelExternFile
-#define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelExternFile.hxx>
+#define TCollection_DataMap_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelExternFile.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

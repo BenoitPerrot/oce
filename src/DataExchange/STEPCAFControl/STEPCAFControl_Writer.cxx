@@ -20,16 +20,16 @@
 // (analysis of SDRs which the CDSR links should be done)
 // Names and validation props are supported for top-level shapes only
 
-#include <STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <STEPControl_Writer.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <STEPCAFControl_Writer.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
@@ -59,14 +59,14 @@
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <STEPCAFControl_Controller.hxx>
-#include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_Controller.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
-#include <STEPCAFControl_ActorWrite.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ActorWrite.hxx>
 #include <STEPConstruct_ValidationProps.hxx>
 #include <XCAFDoc_Area.hxx>
 #include <XCAFDoc_Volume.hxx>

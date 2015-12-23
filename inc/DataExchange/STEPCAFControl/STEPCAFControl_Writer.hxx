@@ -12,8 +12,8 @@
 
 #include <STEPControl_Writer.hxx>
 #include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
-#include <STEPCAFControl_DataMapOfLabelShape.hxx>
-#include <STEPCAFControl_DataMapOfLabelExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelShape.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelExternFile.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <Handle_XSControl_WorkSession.hxx>

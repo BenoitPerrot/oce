@@ -3,30 +3,30 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <STEPCAFControl_DataMapOfLabelExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelExternFile.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <OCAF/TDF/TDF_LabelMapHasher.hxx>
-#include <STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
-#include <STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
+#include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx>
  
 
 #define TheKey TDF_Label
 #define TheKey_hxx <OCAF/TDF/TDF_Label.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
-#define TheItem_hxx <STEPCAFControl_ExternFile.hxx>
+#define TheItem_hxx <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #define Hasher TDF_LabelMapHasher
 #define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile
-#define TCollection_DataMapNode_hxx <STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
 #define TCollection_DataMapIterator STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile
-#define TCollection_DataMapIterator_hxx <STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx>
 #define Handle_TCollection_DataMapNode Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile
 #define TCollection_DataMapNode_Type_() STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile_Type_()
 #define TCollection_DataMap STEPCAFControl_DataMapOfLabelExternFile
-#define TCollection_DataMap_hxx <STEPCAFControl_DataMapOfLabelExternFile.hxx>
+#define TCollection_DataMap_hxx <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelExternFile.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 
