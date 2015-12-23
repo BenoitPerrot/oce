@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XBRepMesh.hxx>
+#include <ModelingAlgorithms/XBRepMesh/XBRepMesh.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_PluginMacro.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 
