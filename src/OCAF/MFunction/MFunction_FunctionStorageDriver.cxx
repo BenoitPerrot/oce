@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MFunction_FunctionStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MFunction_FunctionStorageDriver)
 
 #include <TFunction_Function.hxx>
-#include <PFunction_Function.hxx>
+#include <OCAF/PFunction/PFunction_Function.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 

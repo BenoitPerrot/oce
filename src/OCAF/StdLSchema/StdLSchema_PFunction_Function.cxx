@@ -2,7 +2,7 @@
 #include <StdLSchema_PFunction_Function.hxx>
 #endif
 #ifndef _PFunction_Function_HeaderFile
-#include <PFunction_Function.hxx>
+#include <OCAF/PFunction/PFunction_Function.hxx>
 #endif
 #ifndef _StdLSchema_Standard_GUID_HeaderFile
 #include <StdLSchema_Standard_GUID.hxx>

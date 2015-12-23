@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <PFunction_Function.hxx>
+#include <OCAF/PFunction/PFunction_Function.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PFunction_Function)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MFunction_FunctionRetrievalDriver)
 IMPLEMENT_DOWNCAST(MFunction_FunctionRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MFunction_FunctionRetrievalDriver)
 
-#include <PFunction_Function.hxx>
+#include <OCAF/PFunction/PFunction_Function.hxx>
 #include <TFunction_Function.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
