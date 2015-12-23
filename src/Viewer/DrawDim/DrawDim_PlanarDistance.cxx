@@ -19,7 +19,7 @@
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <DrawDim_PlanarDistance.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDistance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarDistance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarDistance)
 IMPLEMENT_DOWNCAST(DrawDim_PlanarDistance,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDistance)
-#include <DrawDim.hxx>
+#include <Viewer/DrawDim/DrawDim.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>  
 #include <Geometry/Geom/Geom_Curve.hxx>

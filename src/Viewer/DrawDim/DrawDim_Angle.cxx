@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <DrawDim_Angle.hxx>
+#include <Viewer/DrawDim/DrawDim_Angle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_Angle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawDim_Angle)
 IMPLEMENT_DOWNCAST(DrawDim_Angle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
-#include <DrawDim.hxx>
+#include <Viewer/DrawDim/DrawDim.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -11,7 +11,7 @@
 #include <Handle_DrawDim_PlanarDistance.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DrawDim_PlanarDimension.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDimension.hxx>
 class TopoDS_Face;
 class TopoDS_Shape;
 class Draw_Display;

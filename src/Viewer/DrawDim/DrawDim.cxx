@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <DrawDim.hxx>
+#include <Viewer/DrawDim/DrawDim.hxx>
 
 #include <Viewer/Draw/Draw_Text3D.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>  

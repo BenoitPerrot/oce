@@ -3,37 +3,37 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _DrawDim_PlanarDiameter_HeaderFile
-#define _DrawDim_PlanarDiameter_HeaderFile
+#ifndef _DrawDim_PlanarRadius_HeaderFile
+#define _DrawDim_PlanarRadius_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawDim_PlanarDiameter.hxx>
+#include <Handle_DrawDim_PlanarRadius.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DrawDim_PlanarDimension.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDimension.hxx>
 class TopoDS_Face;
 class TopoDS_Shape;
 class Draw_Display;
 
 
 
-class DrawDim_PlanarDiameter : public DrawDim_PlanarDimension
+class DrawDim_PlanarRadius : public DrawDim_PlanarDimension
 {
 
 public:
 
   
-  Standard_EXPORT DrawDim_PlanarDiameter(const TopoDS_Face& plane, const TopoDS_Shape& circle);
+  Standard_EXPORT DrawDim_PlanarRadius(const TopoDS_Face& plane, const TopoDS_Shape& circle);
   
-  Standard_EXPORT DrawDim_PlanarDiameter(const TopoDS_Shape& circle);
+  Standard_EXPORT DrawDim_PlanarRadius(const TopoDS_Shape& circle);
   
   Standard_EXPORT   void DrawOn (Draw_Display& dis)  const;
 
 
 
 
-  DEFINE_STANDARD_RTTI(DrawDim_PlanarDiameter)
+  DEFINE_STANDARD_RTTI(DrawDim_PlanarRadius)
 
 protected:
 
@@ -54,4 +54,4 @@ private:
 
 
 
-#endif // _DrawDim_PlanarDiameter_HeaderFile
+#endif // _DrawDim_PlanarRadius_HeaderFile

@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <DrawDim.hxx>
+#include <Viewer/DrawDim/DrawDim.hxx>
 
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
@@ -24,9 +24,9 @@
 #include <Viewer/DBRep/DBRep.hxx> 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx> 
-#include <DrawDim_PlanarDistance.hxx>
-#include <DrawDim_PlanarRadius.hxx>
-#include <DrawDim_PlanarAngle.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDistance.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarRadius.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarAngle.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

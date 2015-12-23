@@ -13,7 +13,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <DrawDim_PlanarDimension.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDimension.hxx>
 class TopoDS_Face;
 class TopoDS_Shape;
 class Draw_Display;

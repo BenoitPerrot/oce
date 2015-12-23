@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <DrawDim_PlanarDimension.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarDimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

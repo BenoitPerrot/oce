@@ -17,7 +17,7 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <DrawDim_Dimension.hxx>
+#include <Viewer/DrawDim/DrawDim_Dimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_Dimension)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

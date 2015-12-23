@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <DrawDim_PlanarRadius.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarRadius.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarRadius)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawDim_PlanarRadius)
 IMPLEMENT_DOWNCAST(DrawDim_PlanarRadius,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarRadius)
-#include <DrawDim.hxx>
+#include <Viewer/DrawDim/DrawDim.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

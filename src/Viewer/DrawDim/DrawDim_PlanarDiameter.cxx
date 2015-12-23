@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <DrawDim_PlanarDiameter.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDiameter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_PlanarDiameter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

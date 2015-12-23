@@ -68,13 +68,13 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 // drawable object
 #include <DrawTrSurf_Surface.hxx>
 #include <Viewer/Draw/Draw_Axis3D.hxx>
-#include <DrawDim_Distance.hxx>
-#include <DrawDim_Radius.hxx>
-#include <DrawDim_Angle.hxx>
-#include <DrawDim_PlanarDistance.hxx>
-#include <DrawDim_PlanarRadius.hxx>
-#include <DrawDim_PlanarAngle.hxx>
-#include <DrawDim_PlanarDiameter.hxx>
+#include <Viewer/DrawDim/DrawDim_Distance.hxx>
+#include <Viewer/DrawDim/DrawDim_Radius.hxx>
+#include <Viewer/DrawDim/DrawDim_Angle.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDistance.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarRadius.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarAngle.hxx>
+#include <Viewer/DrawDim/DrawDim_PlanarDiameter.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 
 static Standard_Integer DISCRET    = 100;

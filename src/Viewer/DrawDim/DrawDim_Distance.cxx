@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <DrawDim_Distance.hxx>
+#include <Viewer/DrawDim/DrawDim_Distance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_Distance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawDim_Distance)
 IMPLEMENT_DOWNCAST(DrawDim_Distance,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawDim_Distance)
-#include <DrawDim.hxx>
+#include <Viewer/DrawDim/DrawDim.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

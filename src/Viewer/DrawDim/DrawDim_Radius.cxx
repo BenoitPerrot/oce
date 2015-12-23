@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <DrawDim_Radius.hxx>
+#include <Viewer/DrawDim/DrawDim_Radius.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawDim_Radius)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
