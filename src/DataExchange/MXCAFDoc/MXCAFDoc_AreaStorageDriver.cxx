@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_AreaStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_AreaStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_AreaStorageDriver)
 #include <XCAFDoc_Area.hxx>
-#include <PXCAFDoc_Area.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Area.hxx>
 
 //=======================================================================
 //function : MXCAFDoc_AreaStorageDriver

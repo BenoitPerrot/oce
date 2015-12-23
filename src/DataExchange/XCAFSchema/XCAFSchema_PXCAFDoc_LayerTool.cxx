@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_LayerTool.hxx>
 #endif
 #ifndef _PXCAFDoc_LayerTool_HeaderFile
-#include <PXCAFDoc_LayerTool.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_LayerTool.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

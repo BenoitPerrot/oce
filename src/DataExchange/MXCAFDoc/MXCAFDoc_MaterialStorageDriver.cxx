@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_MaterialStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_MaterialStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialStorageDriver)
 #include <XCAFDoc_Material.hxx>
-#include <PXCAFDoc_Material.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Material.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

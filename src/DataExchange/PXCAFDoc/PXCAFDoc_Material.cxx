@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
-#include <PXCAFDoc_Material.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Material.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_Material)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

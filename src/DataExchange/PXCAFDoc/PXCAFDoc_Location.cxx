@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
-#include <PXCAFDoc_Location.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Location.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_Location)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

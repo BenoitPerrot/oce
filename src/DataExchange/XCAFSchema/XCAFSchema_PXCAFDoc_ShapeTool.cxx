@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_ShapeTool.hxx>
 #endif
 #ifndef _PXCAFDoc_ShapeTool_HeaderFile
-#include <PXCAFDoc_ShapeTool.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_ShapeTool.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_MaterialRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_MaterialRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialRetrievalDriver)
-#include <PXCAFDoc_Material.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Material.hxx>
 #include <XCAFDoc_Material.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

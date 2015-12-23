@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_Color.hxx>
 #endif
 #ifndef _PXCAFDoc_Color_HeaderFile
-#include <PXCAFDoc_Color.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Color.hxx>
 #endif
 #ifndef _XCAFSchema_Quantity_Color_HeaderFile
 #include <XCAFSchema_Quantity_Color.hxx>

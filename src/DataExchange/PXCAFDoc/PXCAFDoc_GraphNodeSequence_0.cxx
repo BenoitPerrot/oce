@@ -3,16 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PXCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNodeSequence.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PXCAFDoc_GraphNode.hxx>
-#include <PXCAFDoc_GraphNodeSequence.hxx>
-#include <PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNode.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <PXCAFDoc_SeqExplorerOfGraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_SeqExplorerOfGraphNodeSequence.hxx>
  
 
 
@@ -30,15 +30,15 @@ IMPLEMENT_STANDARD_RTTI(PXCAFDoc_GraphNodeSequence)
 
 
 #define Item Handle(PXCAFDoc_GraphNode)
-#define Item_hxx <PXCAFDoc_GraphNode.hxx>
+#define Item_hxx <DataExchange/PXCAFDoc/PXCAFDoc_GraphNode.hxx>
 #define PCollection_SeqNode PXCAFDoc_SeqNodeOfGraphNodeSequence
-#define PCollection_SeqNode_hxx <PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#define PCollection_SeqNode_hxx <DataExchange/PXCAFDoc/PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #define PCollection_SeqExplorer PXCAFDoc_SeqExplorerOfGraphNodeSequence
-#define PCollection_SeqExplorer_hxx <PXCAFDoc_SeqExplorerOfGraphNodeSequence.hxx>
+#define PCollection_SeqExplorer_hxx <DataExchange/PXCAFDoc/PXCAFDoc_SeqExplorerOfGraphNodeSequence.hxx>
 #define Handle_PCollection_SeqNode Handle_PXCAFDoc_SeqNodeOfGraphNodeSequence
 #define PCollection_SeqNode_Type_() PXCAFDoc_SeqNodeOfGraphNodeSequence_Type_()
 #define PCollection_HSequence PXCAFDoc_GraphNodeSequence
-#define PCollection_HSequence_hxx <PXCAFDoc_GraphNodeSequence.hxx>
+#define PCollection_HSequence_hxx <DataExchange/PXCAFDoc/PXCAFDoc_GraphNodeSequence.hxx>
 #define Handle_PCollection_HSequence Handle_PXCAFDoc_GraphNodeSequence
 #define PCollection_HSequence_Type_() PXCAFDoc_GraphNodeSequence_Type_()
 #include <OCAF/PCollection/PCollection_HSequence.gxx>

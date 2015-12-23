@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_Volume.hxx>
 #endif
 #ifndef _PXCAFDoc_Volume_HeaderFile
-#include <PXCAFDoc_Volume.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Volume.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

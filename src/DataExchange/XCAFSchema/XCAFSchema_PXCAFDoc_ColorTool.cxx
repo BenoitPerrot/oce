@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_ColorTool.hxx>
 #endif
 #ifndef _PXCAFDoc_ColorTool_HeaderFile
-#include <PXCAFDoc_ColorTool.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_ColorTool.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

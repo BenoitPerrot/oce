@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_MaterialToolStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_MaterialToolStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_MaterialToolStorageDriver)
-#include <PXCAFDoc_MaterialTool.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_MaterialTool.hxx>
 #include <XCAFDoc_MaterialTool.hxx>
 
 //=======================================================================

@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_DimTol.hxx>
 #endif
 #ifndef _PXCAFDoc_DimTol_HeaderFile
-#include <PXCAFDoc_DimTol.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_DimTol.hxx>
 #endif
 #ifndef _XCAFSchema_PColStd_HArray1OfReal_HeaderFile
 #include <XCAFSchema_PColStd_HArray1OfReal.hxx>

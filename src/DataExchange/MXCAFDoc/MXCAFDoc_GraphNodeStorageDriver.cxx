@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MXCAFDoc_GraphNodeStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_GraphNodeStorageDriver)
 
 #include <XCAFDoc_GraphNode.hxx>
-#include <PXCAFDoc_GraphNode.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNode.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 
 

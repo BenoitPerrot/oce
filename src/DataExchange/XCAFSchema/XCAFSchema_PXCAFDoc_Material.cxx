@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_Material.hxx>
 #endif
 #ifndef _PXCAFDoc_Material_HeaderFile
-#include <PXCAFDoc_Material.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Material.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
 #include <XCAFSchema_PCollection_HAsciiString.hxx>

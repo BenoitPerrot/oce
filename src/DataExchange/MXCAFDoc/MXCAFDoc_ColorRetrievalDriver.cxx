@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MXCAFDoc_ColorRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_ColorRetrievalDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
-#include <PXCAFDoc_Color.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Color.hxx>
 #include <XCAFDoc_Color.hxx>
 
 

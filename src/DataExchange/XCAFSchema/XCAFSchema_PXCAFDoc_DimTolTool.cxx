@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_DimTolTool.hxx>
 #endif
 #ifndef _PXCAFDoc_DimTolTool_HeaderFile
-#include <PXCAFDoc_DimTolTool.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_DimTolTool.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

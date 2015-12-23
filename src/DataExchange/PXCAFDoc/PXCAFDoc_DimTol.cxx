@@ -15,7 +15,7 @@
 
 #include <OCAF/PColStd/PColStd_HArray1OfReal.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
-#include <PXCAFDoc_DimTol.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_DimTol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_DimTol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

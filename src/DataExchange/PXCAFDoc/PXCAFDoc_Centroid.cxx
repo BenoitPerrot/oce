@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <PXCAFDoc_Centroid.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Centroid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_Centroid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MXCAFDoc_DocumentToolStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DocumentToolStorageDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
-#include <PXCAFDoc_DocumentTool.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_DocumentTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 
 //=======================================================================

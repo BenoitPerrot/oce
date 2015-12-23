@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PXCAFDoc_GraphNode.hxx>
-#include <PXCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNode.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNodeSequence.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <PXCAFDoc_GraphNode.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_GraphNode.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_GraphNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

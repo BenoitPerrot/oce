@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <PXCAFDoc_Color.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Color.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_Color)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

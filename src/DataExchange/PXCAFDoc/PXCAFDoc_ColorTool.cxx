@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PXCAFDoc_ColorTool.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_ColorTool.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PXCAFDoc_ColorTool)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

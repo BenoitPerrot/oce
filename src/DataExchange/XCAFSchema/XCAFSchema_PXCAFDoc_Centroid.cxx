@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_Centroid.hxx>
 #endif
 #ifndef _PXCAFDoc_Centroid_HeaderFile
-#include <PXCAFDoc_Centroid.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Centroid.hxx>
 #endif
 #ifndef _XCAFSchema_gp_Pnt_HeaderFile
 #include <XCAFSchema_gp_Pnt.hxx>

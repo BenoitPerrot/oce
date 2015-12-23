@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_AreaRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_AreaRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_AreaRetrievalDriver)
-#include <PXCAFDoc_Area.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Area.hxx>
 #include <XCAFDoc_Area.hxx>
 
 //=======================================================================

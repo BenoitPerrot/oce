@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_Datum.hxx>
 #endif
 #ifndef _PXCAFDoc_Datum_HeaderFile
-#include <PXCAFDoc_Datum.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Datum.hxx>
 #endif
 #ifndef _XCAFSchema_PCollection_HAsciiString_HeaderFile
 #include <XCAFSchema_PCollection_HAsciiString.hxx>

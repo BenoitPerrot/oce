@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_Location.hxx>
 #endif
 #ifndef _PXCAFDoc_Location_HeaderFile
-#include <PXCAFDoc_Location.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_Location.hxx>
 #endif
 #ifndef _XCAFSchema_PTopLoc_Location_HeaderFile
 #include <XCAFSchema_PTopLoc_Location.hxx>

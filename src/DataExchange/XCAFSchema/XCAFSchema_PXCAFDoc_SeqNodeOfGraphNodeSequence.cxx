@@ -2,7 +2,7 @@
 #include <XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #endif
 #ifndef _PXCAFDoc_SeqNodeOfGraphNodeSequence_HeaderFile
-#include <PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #endif
 #ifndef _XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence_HeaderFile
 #include <XCAFSchema_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
