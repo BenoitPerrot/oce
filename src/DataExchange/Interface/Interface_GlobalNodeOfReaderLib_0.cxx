@@ -47,5 +47,5 @@ IMPLEMENT_STANDARD_RTTI(Interface_GlobalNodeOfReaderLib)
 #define LibCtl_Node_Type_() Interface_NodeOfReaderLib_Type_()
 #define LibCtl_Library Interface_ReaderLib
 #define LibCtl_Library_hxx <DataExchange/Interface/Interface_ReaderLib.hxx>
-#include <LibCtl_GlobalNode.gxx>
+#include <DataExchange/LibCtl/LibCtl_GlobalNode.gxx>
 

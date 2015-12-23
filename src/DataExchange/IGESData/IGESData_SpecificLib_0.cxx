@@ -32,5 +32,5 @@
 #define LibCtl_Node_Type_() IGESData_NodeOfSpecificLib_Type_()
 #define LibCtl_Library IGESData_SpecificLib
 #define LibCtl_Library_hxx <DataExchange/IGESData/IGESData_SpecificLib.hxx>
-#include <LibCtl_Library.gxx>
+#include <DataExchange/LibCtl/LibCtl_Library.gxx>
 

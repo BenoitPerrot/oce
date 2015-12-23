@@ -48,5 +48,5 @@ IMPLEMENT_STANDARD_RTTI(Interface_NodeOfGeneralLib)
 #define LibCtl_Node_Type_() Interface_NodeOfGeneralLib_Type_()
 #define LibCtl_Library Interface_GeneralLib
 #define LibCtl_Library_hxx <DataExchange/Interface/Interface_GeneralLib.hxx>
-#include <LibCtl_Node.gxx>
+#include <DataExchange/LibCtl/LibCtl_Node.gxx>
 

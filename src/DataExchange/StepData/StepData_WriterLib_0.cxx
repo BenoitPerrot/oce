@@ -31,5 +31,5 @@
 #define LibCtl_Node_Type_() StepData_NodeOfWriterLib_Type_()
 #define LibCtl_Library StepData_WriterLib
 #define LibCtl_Library_hxx <StepData_WriterLib.hxx>
-#include <LibCtl_Library.gxx>
+#include <DataExchange/LibCtl/LibCtl_Library.gxx>
 

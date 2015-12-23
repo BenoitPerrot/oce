@@ -48,5 +48,5 @@ IMPLEMENT_STANDARD_RTTI(IGESData_NodeOfWriterLib)
 #define LibCtl_Node_Type_() IGESData_NodeOfWriterLib_Type_()
 #define LibCtl_Library IGESData_WriterLib
 #define LibCtl_Library_hxx <DataExchange/IGESData/IGESData_WriterLib.hxx>
-#include <LibCtl_Node.gxx>
+#include <DataExchange/LibCtl/LibCtl_Node.gxx>
 

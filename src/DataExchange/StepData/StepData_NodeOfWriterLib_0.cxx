@@ -48,5 +48,5 @@ IMPLEMENT_STANDARD_RTTI(StepData_NodeOfWriterLib)
 #define LibCtl_Node_Type_() StepData_NodeOfWriterLib_Type_()
 #define LibCtl_Library StepData_WriterLib
 #define LibCtl_Library_hxx <StepData_WriterLib.hxx>
-#include <LibCtl_Node.gxx>
+#include <DataExchange/LibCtl/LibCtl_Node.gxx>
 
