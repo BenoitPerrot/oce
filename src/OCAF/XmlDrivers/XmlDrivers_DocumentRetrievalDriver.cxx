@@ -16,7 +16,7 @@
 #include <XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMDF_ADriver.hxx>
-#include <XmlDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlDrivers_DocumentRetrievalDriver)
 IMPLEMENT_DOWNCAST(XmlDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentRetrievalDriver)
 
-#include <XmlDrivers.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers.hxx>
 #include <XmlMDataStd.hxx>
 #include <XmlMNaming.hxx>
 #include <XmlObjMgt_Element.hxx>

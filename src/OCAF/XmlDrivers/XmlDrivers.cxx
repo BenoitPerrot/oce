@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlDrivers.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers.hxx>
 
-#include <XmlDrivers_DocumentStorageDriver.hxx>
-#include <XmlDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers_DocumentRetrievalDriver.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <XmlMDF.hxx>
 #include <XmlMDataStd.hxx>

@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlXCAFDrivers_DocumentRetrievalDriver)
 IMPLEMENT_DOWNCAST(XmlXCAFDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlXCAFDrivers_DocumentRetrievalDriver)
 
-#include <XmlDrivers.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers.hxx>
 #include <XmlMXCAFDoc.hxx>
 
 //=======================================================================

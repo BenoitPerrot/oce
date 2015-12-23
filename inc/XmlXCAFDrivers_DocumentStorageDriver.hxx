@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_XmlXCAFDrivers_DocumentStorageDriver.hxx>
 
-#include <XmlDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers_DocumentStorageDriver.hxx>
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 class TCollection_ExtendedString;

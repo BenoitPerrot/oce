@@ -21,7 +21,7 @@
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <XmlDrivers.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers.hxx>
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID XSStorageDriver  ("f78ff496-a779-11d5-aab4-0050044b1af1");

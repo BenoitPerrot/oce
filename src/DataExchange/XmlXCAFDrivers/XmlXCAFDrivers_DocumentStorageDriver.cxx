@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlXCAFDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(XmlXCAFDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlXCAFDrivers_DocumentStorageDriver)
 
-#include <XmlDrivers.hxx>
+#include <OCAF/XmlDrivers/XmlDrivers.hxx>
 #include <XmlMXCAFDoc.hxx>
 
 //=======================================================================
