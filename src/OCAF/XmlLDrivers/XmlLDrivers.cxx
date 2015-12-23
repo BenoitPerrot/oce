@@ -25,7 +25,7 @@
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/XmlMDF/XmlMDF.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
-#include <XmlMDocStd.hxx>
+#include <OCAF/XmlMDocStd/XmlMDocStd.hxx>
 #include <XmlMFunction.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 

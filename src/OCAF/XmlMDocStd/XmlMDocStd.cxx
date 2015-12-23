@@ -15,9 +15,9 @@
 
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMDocStd.hxx>
+#include <OCAF/XmlMDocStd/XmlMDocStd.hxx>
 
-#include <XmlMDocStd_XLinkDriver.hxx>
+#include <OCAF/XmlMDocStd/XmlMDocStd_XLinkDriver.hxx>
 
 //=======================================================================
 //function : AddDrivers

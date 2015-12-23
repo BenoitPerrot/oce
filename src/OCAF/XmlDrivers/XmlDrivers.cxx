@@ -25,7 +25,7 @@
 #include <OCAF/XmlMDF/XmlMDF.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <OCAF/XmlMDataXtd/XmlMDataXtd.hxx>
-#include <XmlMDocStd.hxx>
+#include <OCAF/XmlMDocStd/XmlMDocStd.hxx>
 #include <XmlMNaming.hxx>
 #include <XmlMPrsStd.hxx>
 #include <XmlMFunction.hxx>

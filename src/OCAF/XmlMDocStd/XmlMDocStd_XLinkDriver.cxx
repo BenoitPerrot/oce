@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMDocStd_XLinkDriver.hxx>
+#include <OCAF/XmlMDocStd/XmlMDocStd_XLinkDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDocStd_XLinkDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
