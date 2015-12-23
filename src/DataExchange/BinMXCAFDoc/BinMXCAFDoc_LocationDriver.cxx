@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BinMXCAFDoc_LocationDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_LocationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMXCAFDoc_LocationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

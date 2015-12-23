@@ -64,7 +64,7 @@ private:
 };
 
 
-#include <BinMXCAFDoc_LocationDriver.lxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_LocationDriver.lxx>
 
 
 

@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
-#include <BinMXCAFDoc_ColorDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_ColorDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinMXCAFDoc_ColorDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

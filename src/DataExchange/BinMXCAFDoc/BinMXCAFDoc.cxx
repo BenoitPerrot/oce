@@ -15,24 +15,24 @@
 
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <BinMXCAFDoc.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc.hxx>
 
-#include <BinMXCAFDoc_AreaDriver.hxx>
-#include <BinMXCAFDoc_CentroidDriver.hxx>
-#include <BinMXCAFDoc_ColorDriver.hxx>
-#include <BinMXCAFDoc_GraphNodeDriver.hxx>
-#include <BinMXCAFDoc_LocationDriver.hxx>
-#include <BinMXCAFDoc_VolumeDriver.hxx>
-#include <BinMXCAFDoc_DatumDriver.hxx>
-#include <BinMXCAFDoc_DimTolDriver.hxx>
-#include <BinMXCAFDoc_MaterialDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_AreaDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_CentroidDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_ColorDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_GraphNodeDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_LocationDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_VolumeDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_DatumDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_DimTolDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_MaterialDriver.hxx>
 
-#include <BinMXCAFDoc_ColorToolDriver.hxx>
-#include <BinMXCAFDoc_DocumentToolDriver.hxx>
-#include <BinMXCAFDoc_LayerToolDriver.hxx>
-#include <BinMXCAFDoc_ShapeToolDriver.hxx>
-#include <BinMXCAFDoc_DimTolToolDriver.hxx>
-#include <BinMXCAFDoc_MaterialToolDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_ColorToolDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_DocumentToolDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_LayerToolDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_ShapeToolDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_DimTolToolDriver.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc_MaterialToolDriver.hxx>
 
 #include <OCAF/BinMNaming/BinMNaming_NamedShapeDriver.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>

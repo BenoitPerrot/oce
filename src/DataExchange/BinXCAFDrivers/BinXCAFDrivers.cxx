@@ -20,7 +20,7 @@
 #include <BinXCAFDrivers.hxx>
 #include <BinXCAFDrivers_DocumentStorageDriver.hxx>
 #include <BinXCAFDrivers_DocumentRetrievalDriver.hxx>
-#include <BinMXCAFDoc.hxx>
+#include <DataExchange/BinMXCAFDoc/BinMXCAFDoc.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <OCAF/BinDrivers/BinDrivers.hxx>
