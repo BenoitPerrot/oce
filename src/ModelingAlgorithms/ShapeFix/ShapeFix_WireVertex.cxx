@@ -14,7 +14,7 @@
 //szv#4 S4163
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeAnalysis_WireVertex.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireVertex.hxx>
 #include <ShapeFix_WireVertex.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -25,7 +25,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx> //ied_modif_for_compil_Nov-19-1998
 

@@ -31,7 +31,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 
 #include <ShapeExtend_Explorer.hxx>
-#include <ShapeAnalysis_FreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBounds.hxx>
 
 //=======================================================================
 //function : ShapeFix_FreeBounds

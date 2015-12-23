@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_EdgeDivide)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_EdgeDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_EdgeDivide)
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_EdgeDivide

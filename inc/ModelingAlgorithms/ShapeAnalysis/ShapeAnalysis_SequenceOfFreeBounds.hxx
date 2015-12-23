@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(ShapeAnalysis_FreeBoundData)
-#define SeqItem_hxx <ShapeAnalysis_FreeBoundData.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.hxx>
 #define TCollection_SequenceNode ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds
-#define TCollection_SequenceNode_hxx <ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds.hxx>
 #define Handle_TCollection_SequenceNode Handle_ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds
 #define TCollection_SequenceNode_Type_() ShapeAnalysis_SequenceNodeOfSequenceOfFreeBounds_Type_()
 #define TCollection_Sequence ShapeAnalysis_SequenceOfFreeBounds
-#define TCollection_Sequence_hxx <ShapeAnalysis_SequenceOfFreeBounds.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_SequenceOfFreeBounds.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

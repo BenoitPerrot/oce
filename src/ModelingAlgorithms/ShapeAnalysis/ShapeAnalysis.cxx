@@ -25,7 +25,7 @@
 #include <ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 
 // PLANTAGE IsOuterBound, 15-SEP-1998
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -41,7 +41,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
@@ -55,7 +55,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>

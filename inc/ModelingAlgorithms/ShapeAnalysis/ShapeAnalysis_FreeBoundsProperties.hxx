@@ -147,7 +147,7 @@ private:
 };
 
 
-#include <ShapeAnalysis_FreeBoundsProperties.lxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundsProperties.lxx>
 
 
 

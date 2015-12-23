@@ -50,10 +50,10 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_EdgeProjAux)
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <ShapeAnalysis.hxx>
-#include <ShapeAnalysis_Curve.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

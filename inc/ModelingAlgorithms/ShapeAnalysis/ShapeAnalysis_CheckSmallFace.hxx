@@ -190,7 +190,7 @@ private:
 };
 
 
-#include <ShapeAnalysis_CheckSmallFace.lxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_CheckSmallFace.lxx>
 
 
 

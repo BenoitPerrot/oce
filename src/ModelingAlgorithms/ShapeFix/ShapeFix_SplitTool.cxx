@@ -20,9 +20,9 @@
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeFix_SplitTool.hxx>
 
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_Surface.hxx>
-#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeExtend_WireData.hxx>
@@ -37,7 +37,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
 
 //=======================================================================

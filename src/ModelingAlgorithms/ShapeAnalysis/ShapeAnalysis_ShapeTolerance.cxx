@@ -15,7 +15,7 @@
 //szv#4 S4163
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
-#include <ShapeAnalysis_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

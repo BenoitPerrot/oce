@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <ShapeAnalysis_TransferParameters.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParameters.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_TransferParameters)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,7 +26,7 @@ IMPLEMENT_DOWNCAST(ShapeAnalysis_TransferParameters,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParameters)
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp.hxx>

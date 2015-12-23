@@ -127,7 +127,7 @@ private:
 };
 
 
-#include <ShapeAnalysis_FreeBoundData.lxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.lxx>
 
 
 

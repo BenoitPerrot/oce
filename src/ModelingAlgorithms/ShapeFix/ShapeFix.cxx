@@ -46,7 +46,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_Shape.hxx>
@@ -57,7 +57,7 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ShapeBuild_ReShape.hxx>

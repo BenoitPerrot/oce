@@ -33,12 +33,12 @@
 //#9 smh 14.12.99 BUC60615 Using tolerance of verteces during checking degenerated edge.
 
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionPoint.hxx>
@@ -48,7 +48,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_Wire)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -78,9 +78,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <ShapeExtend.hxx>
-#include <ShapeAnalysis.hxx>
-#include <ShapeAnalysis_Curve.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Precision.hxx>
@@ -94,9 +94,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Wire)
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

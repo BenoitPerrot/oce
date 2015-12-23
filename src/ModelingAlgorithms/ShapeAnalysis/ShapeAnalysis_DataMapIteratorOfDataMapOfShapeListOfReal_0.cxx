@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
-#include <ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -20,12 +20,12 @@
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal
-#define TCollection_DataMapNode_hxx <ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal.hxx>
 #define TCollection_DataMapIterator ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal
-#define TCollection_DataMapIterator_hxx <ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapIteratorOfDataMapOfShapeListOfReal.hxx>
 #define Handle_TCollection_DataMapNode Handle_ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal
 #define TCollection_DataMapNode_Type_() ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal_Type_()
 #define TCollection_DataMap ShapeAnalysis_DataMapOfShapeListOfReal
-#define TCollection_DataMap_hxx <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

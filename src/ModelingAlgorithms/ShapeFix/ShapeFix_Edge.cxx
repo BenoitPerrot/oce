@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Edge)
@@ -63,12 +63,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
 
 //=======================================================================

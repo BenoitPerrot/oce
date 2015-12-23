@@ -51,7 +51,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

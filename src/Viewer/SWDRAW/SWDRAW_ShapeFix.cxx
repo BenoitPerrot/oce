@@ -35,10 +35,10 @@
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 
 #include <ShapeBuild_ReShape.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
-#include <ShapeAnalysis_WireVertex.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireVertex.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
@@ -61,7 +61,7 @@
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 
 #include <Draw_ProgressIndicator.hxx>
-#include <ShapeAnalysis_FreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBounds.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>

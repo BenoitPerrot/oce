@@ -14,7 +14,7 @@
 //szv#4 S4163
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <ShapeAnalysis_Shell.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Shell.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

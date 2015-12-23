@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeAnalysis_HSequenceOfFreeBounds.hxx>
 
-#include <ShapeAnalysis_SequenceOfFreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_SequenceOfFreeBounds.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ShapeAnalysis_FreeBoundData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(ShapeAnalysis_FreeBoundData)
-#define Item_hxx <ShapeAnalysis_FreeBoundData.hxx>
+#define Item_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.hxx>
 #define TheSequence ShapeAnalysis_SequenceOfFreeBounds
-#define TheSequence_hxx <ShapeAnalysis_SequenceOfFreeBounds.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_SequenceOfFreeBounds.hxx>
 #define TCollection_HSequence ShapeAnalysis_HSequenceOfFreeBounds
-#define TCollection_HSequence_hxx <ShapeAnalysis_HSequenceOfFreeBounds.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_HSequenceOfFreeBounds.hxx>
 #define Handle_TCollection_HSequence Handle_ShapeAnalysis_HSequenceOfFreeBounds
 #define TCollection_HSequence_Type_() ShapeAnalysis_HSequenceOfFreeBounds_Type_()
 

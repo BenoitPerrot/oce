@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeAnalysis_CheckSmallFace.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_CheckSmallFace.hxx>
 #include <ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

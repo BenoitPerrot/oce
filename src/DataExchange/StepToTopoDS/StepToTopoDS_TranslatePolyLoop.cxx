@@ -32,7 +32,7 @@
 //#include <BRepAPI.hxx>
 
 #include <ElSLib.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

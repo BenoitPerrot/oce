@@ -110,7 +110,7 @@
 
 #include <Interface_Macros.hxx>
 
-//#include <ShapeAnalysis.hxx>
+//#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 //#include <ShapeCustom.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>

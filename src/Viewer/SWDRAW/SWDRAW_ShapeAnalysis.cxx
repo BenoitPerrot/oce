@@ -35,11 +35,11 @@
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
-#include <ShapeAnalysis.hxx>
-#include <ShapeAnalysis_ShapeTolerance.hxx>
-#include <ShapeAnalysis_Curve.hxx>
-#include <ShapeAnalysis_Surface.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -54,7 +54,7 @@
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
-#include <ShapeAnalysis_ShapeContents.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeContents.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -62,13 +62,13 @@
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <ShapeAnalysis_FreeBounds.hxx>
-#include <ShapeAnalysis_FreeBoundsProperties.hxx>
-#include <ShapeAnalysis_FreeBoundData.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundsProperties.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.hxx>
 #include <ShapeFix_FreeBounds.hxx>
 
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 
 static Standard_Integer tolerance
   (Draw_Interpretor& di, Standard_Integer argc, const char** argv)

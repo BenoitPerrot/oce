@@ -100,7 +100,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 #include <Foundation/OSD/OSD_Timer.hxx>
 
 #include <ShapeExtend_Explorer.hxx>  
-#include <ShapeAnalysis_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
 #include <Interface_MSG.hxx>
 #include <Interface_Static.hxx>
 

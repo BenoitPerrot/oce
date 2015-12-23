@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <ShapeAnalysis_Shell.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Shell.hxx>
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_ReShape.hxx> 
 #include <Foundation/Message/Message_Msg.hxx>

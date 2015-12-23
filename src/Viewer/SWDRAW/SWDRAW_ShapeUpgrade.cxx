@@ -55,9 +55,9 @@
 
 #include <stdio.h> 
 //#include <ShapeExtend_WireData.hxx>
-//#include <ShapeAnalysis_Shell.hxx>
-//#include <ShapeAnalysis_WireOrder.hxx>
-//#include <ShapeAnalysis_Wire.hxx>
+//#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Shell.hxx>
+//#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
+//#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 //#include <ShapeUpgrade_ShellSewing.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>

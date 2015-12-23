@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 //#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
@@ -78,7 +78,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 

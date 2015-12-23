@@ -1342,7 +1342,7 @@ static Standard_Integer OCC24051 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
-#include <ShapeAnalysis_ShapeContents.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeContents.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 static Standard_Integer OCC24086 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv) 
 {

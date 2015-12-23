@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_TransferParametersProj)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,9 +36,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <ShapeBuild_Edge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <ModelingData/BRep/BRep_PointOnCurve.hxx>
 #include <ModelingData/BRep/BRep_PointOnCurveOnSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>  
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 //=======================================================================
 //function : ShapeAnalysis_TransferParametersProj
 //purpose  : 

@@ -35,7 +35,7 @@
 
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
-#include <ShapeAnalysis_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

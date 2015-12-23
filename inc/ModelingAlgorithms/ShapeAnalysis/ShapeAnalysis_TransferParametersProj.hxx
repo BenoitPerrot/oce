@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ShapeAnalysis_TransferParameters.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParameters.hxx>
 #include <Handle_TColStd_HSequenceOfReal.hxx>
 class Geom_Curve;
 class Geom2d_Curve;

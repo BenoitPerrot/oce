@@ -35,9 +35,9 @@
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_Wire.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
 
 //=======================================================================

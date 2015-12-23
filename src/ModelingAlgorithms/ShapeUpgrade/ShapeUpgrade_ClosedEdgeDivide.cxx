@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ClosedEdgeDivide)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ClosedEdgeDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedEdgeDivide)
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

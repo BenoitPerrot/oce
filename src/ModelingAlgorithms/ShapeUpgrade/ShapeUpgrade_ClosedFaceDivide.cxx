@@ -34,9 +34,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -44,11 +44,11 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <ShapeAnalysis_Surface.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ClosedFaceDivide

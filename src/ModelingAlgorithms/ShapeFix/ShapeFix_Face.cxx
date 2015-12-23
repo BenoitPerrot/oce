@@ -28,7 +28,7 @@
 // abv 19.10.2001  FixAddNaturalBound improved and extracted as separate fix
 // skl,pdn 14.05.2002  OCC55 (correction precision for small faces)
 
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -83,17 +83,17 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <Foundation/Message/Message_Msg.hxx>  
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeFix_Edge.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
-#include <ShapeAnalysis_Wire.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>

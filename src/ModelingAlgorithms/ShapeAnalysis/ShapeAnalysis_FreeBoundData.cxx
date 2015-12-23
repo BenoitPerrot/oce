@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <ShapeAnalysis_FreeBoundData.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_FreeBoundData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

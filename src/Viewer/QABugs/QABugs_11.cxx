@@ -988,7 +988,7 @@ static Standard_Integer OCC277bug (Draw_Interpretor& di, Standard_Integer nb, co
   return 0;
 }
 
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, const char ** a)
 {

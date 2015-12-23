@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ShapeAnalysis_WireVertex.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireVertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

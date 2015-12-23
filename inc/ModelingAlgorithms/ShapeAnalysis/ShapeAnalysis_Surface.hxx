@@ -348,7 +348,7 @@ private:
 };
 
 
-#include <ShapeAnalysis_Surface.lxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.lxx>
 
 
 

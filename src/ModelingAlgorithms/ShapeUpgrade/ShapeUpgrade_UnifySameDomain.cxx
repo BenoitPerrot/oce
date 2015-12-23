@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfSurface.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
@@ -76,7 +76,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ShapeFix_Face.hxx>

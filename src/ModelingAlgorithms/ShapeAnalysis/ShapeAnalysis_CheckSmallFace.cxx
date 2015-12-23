@@ -15,10 +15,10 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapOfShapeListOfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <ShapeAnalysis_CheckSmallFace.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_CheckSmallFace.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>  
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
@@ -40,7 +40,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 //#include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
@@ -71,9 +71,9 @@
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx> 
 //=======================================================

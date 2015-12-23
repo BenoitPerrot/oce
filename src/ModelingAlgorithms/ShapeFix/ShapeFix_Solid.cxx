@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ShapeExtend.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -79,7 +79,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <ShapeAnalysis_FreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBounds.hxx>
 
 //======================================================
 //function : ShapeFix_Solid

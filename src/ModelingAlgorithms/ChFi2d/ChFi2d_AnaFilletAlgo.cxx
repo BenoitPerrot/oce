@@ -26,7 +26,7 @@
 
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

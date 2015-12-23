@@ -203,7 +203,7 @@ private:
 };
 
 
-#include <ShapeAnalysis_ShapeContents.lxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeContents.lxx>
 
 
 

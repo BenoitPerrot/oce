@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 
 #include <Precision.hxx>
 

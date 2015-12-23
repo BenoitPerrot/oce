@@ -26,7 +26,7 @@
 #endif
 
 #include <ShapeExtend_CompositeSurface.hxx>
-#include <ShapeAnalysis_TransferParameters.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParameters.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -92,20 +92,20 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeBuild_Vertex.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <ShapeAnalysis.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_WireSegment.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeFix_Face.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 
 //=======================================================================
 //function : ShapeFix_ComposeShell

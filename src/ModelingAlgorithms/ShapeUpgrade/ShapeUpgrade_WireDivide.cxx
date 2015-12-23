@@ -22,7 +22,7 @@
 #include <ShapeUpgrade_SplitCurve3d.hxx>
 #include <ShapeUpgrade_SplitCurve2d.hxx>
 #include <ShapeUpgrade_EdgeDivide.hxx>
-#include <ShapeAnalysis_TransferParameters.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParameters.hxx>
 #include <ShapeUpgrade_FixSmallCurves.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -63,13 +63,13 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <ShapeExtend.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeUpgrade_FixSmallCurves.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 
 //=======================================================================

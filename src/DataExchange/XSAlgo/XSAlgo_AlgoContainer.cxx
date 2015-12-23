@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 #include <ShapeExtend_MsgRegistrator.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <UnitsMethods.hxx>
 #include <ShapeCustom.hxx>

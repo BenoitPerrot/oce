@@ -45,7 +45,7 @@
 
 #include <UnitsMethods.hxx>
 #include <Precision.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 
 // ----------------------------------------------------------------

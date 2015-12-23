@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_SplitCommonVertex)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeExtend.hxx>

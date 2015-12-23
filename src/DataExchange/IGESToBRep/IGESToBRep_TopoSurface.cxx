@@ -144,7 +144,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>//#16
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 //S4054
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>

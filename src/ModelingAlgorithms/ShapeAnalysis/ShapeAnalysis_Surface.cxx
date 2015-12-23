@@ -34,7 +34,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeAnalysis_Surface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -60,12 +60,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 
 #include <Precision.hxx>
 
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

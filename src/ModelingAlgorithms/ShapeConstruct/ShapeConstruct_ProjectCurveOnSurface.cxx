@@ -28,7 +28,7 @@
 //szv#4 S4163
 //:s5 abv 22.04.99  Adding debug printouts in catch {} blocks
 //#1  svv 11.01.00  Porting on DEC
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -75,8 +75,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 
-#include <ShapeAnalysis_Curve.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ShapeExtend.hxx>
 
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>

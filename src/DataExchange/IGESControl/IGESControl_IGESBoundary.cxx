@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeBuild_Edge.hxx>
-#include <ShapeAnalysis_Wire.hxx>
-#include <ShapeAnalysis_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>

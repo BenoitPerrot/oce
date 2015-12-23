@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeAnalysis_HSequenceOfFreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_HSequenceOfFreeBounds.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <ShapeAnalysis_FreeBoundData.hxx>
-#include <ShapeAnalysis_SequenceOfFreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_SequenceOfFreeBounds.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_HSequenceOfFreeBounds)
 
 
 #define Item Handle(ShapeAnalysis_FreeBoundData)
-#define Item_hxx <ShapeAnalysis_FreeBoundData.hxx>
+#define Item_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.hxx>
 #define TheSequence ShapeAnalysis_SequenceOfFreeBounds
-#define TheSequence_hxx <ShapeAnalysis_SequenceOfFreeBounds.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_SequenceOfFreeBounds.hxx>
 #define TCollection_HSequence ShapeAnalysis_HSequenceOfFreeBounds
-#define TCollection_HSequence_hxx <ShapeAnalysis_HSequenceOfFreeBounds.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_HSequenceOfFreeBounds.hxx>
 #define Handle_TCollection_HSequence Handle_ShapeAnalysis_HSequenceOfFreeBounds
 #define TCollection_HSequence_Type_() ShapeAnalysis_HSequenceOfFreeBounds_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

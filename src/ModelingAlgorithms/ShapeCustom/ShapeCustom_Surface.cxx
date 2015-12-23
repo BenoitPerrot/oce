@@ -41,8 +41,8 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 
-#include <ShapeAnalysis_Geom.hxx>
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Geom.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 //=======================================================================
 //function : ShapeCustom_Surface

@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_SweptToElementary)
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
 
-#include <ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 

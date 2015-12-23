@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_ToolContainer.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
@@ -64,8 +64,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <ShapeConstruct.hxx>
 #include <ShapeCustom.hxx>
 #include <ShapeCustom_Surface.hxx>
-#include <ShapeAnalysis.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeUpgrade.hxx>

@@ -55,12 +55,12 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

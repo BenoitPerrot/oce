@@ -37,10 +37,10 @@
 #include <ShapeExtend.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeBuild_Vertex.hxx>
-#include <ShapeAnalysis_Curve.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_Surface.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -92,7 +92,7 @@
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
-#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 //=======================================================================
 //function : FixGaps3d
 //purpose  : 

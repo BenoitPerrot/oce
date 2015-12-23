@@ -51,7 +51,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ShapeConstruct_Curve.hxx>
 
 #include <StepShape_EdgeCurve.hxx>

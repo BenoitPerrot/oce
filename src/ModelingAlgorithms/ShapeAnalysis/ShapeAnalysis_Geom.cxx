@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <ShapeAnalysis_Geom.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Geom.hxx>
 
 #include <Geometry/GProp/GProp_PGProps.hxx>
 #include <Geometry/GProp/GProp_PrincipalProps.hxx>

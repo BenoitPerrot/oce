@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3d)
 #include <ShapeExtend.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_SplitCurve3d

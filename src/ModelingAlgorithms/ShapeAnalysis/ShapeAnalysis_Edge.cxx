@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

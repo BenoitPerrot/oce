@@ -24,7 +24,7 @@
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
-#include <ShapeAnalysis_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShellSewing

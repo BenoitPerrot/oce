@@ -44,13 +44,13 @@
 // PTV 26.06.2002  Remove regressions after fix OCC450
 
 #include <ShapeFix_Edge.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <ShapeAnalysis_WireOrder.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Wire)
@@ -117,12 +117,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeBuild_Vertex.hxx>
 #include <ShapeBuild_ReShape.hxx>
-#include <ShapeAnalysis_Curve.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_Surface.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ShapeConstruct_ProjectCurveOnSurface.hxx>  
-#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 
@@ -131,7 +131,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
-#include <ShapeAnalysis_TransferParameters.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParameters.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeFix_IntersectionTool.hxx>
 #include <ShapeFix_SplitTool.hxx>

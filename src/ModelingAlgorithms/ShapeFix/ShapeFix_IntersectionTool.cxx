@@ -39,10 +39,10 @@
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
-#include <ShapeAnalysis.hxx>
-#include <ShapeAnalysis_Edge.hxx>
-#include <ShapeAnalysis_Surface.hxx>
-#include <ShapeAnalysis_TransferParametersProj.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeBuild_Edge.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

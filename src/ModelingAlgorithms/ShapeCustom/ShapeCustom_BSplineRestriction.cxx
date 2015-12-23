@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ShapeCustom_RestrictionParameters.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -88,7 +88,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_BSplineRestriction)
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 
 static GeomAbs_Shape IntegerToGeomAbsShape(const Standard_Integer i)
 {

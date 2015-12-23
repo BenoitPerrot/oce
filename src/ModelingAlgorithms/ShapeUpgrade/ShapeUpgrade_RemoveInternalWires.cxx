@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveInternalWires)
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>  
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ShapeExtend.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ShapeExtend_WireData.hxx>

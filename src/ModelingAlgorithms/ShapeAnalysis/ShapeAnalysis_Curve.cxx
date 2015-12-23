@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
 #include <ElCLib.hxx>
 
@@ -43,7 +43,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
-#include <ShapeAnalysis.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Conic.hxx>

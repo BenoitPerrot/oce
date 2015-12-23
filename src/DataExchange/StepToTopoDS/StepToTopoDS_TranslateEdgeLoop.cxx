@@ -35,7 +35,7 @@
 #include <StepToTopoDS_TranslateVertex.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
 #include <StepToTopoDS_GeometricTool.hxx>
-#include <ShapeAnalysis_Curve.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <StepToGeom_MakeCurve2d.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 
@@ -87,7 +87,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ShapeFix_EdgeProjAux.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeBuild_Edge.hxx>
 

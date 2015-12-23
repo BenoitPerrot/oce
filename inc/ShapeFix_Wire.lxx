@@ -17,7 +17,7 @@
 
 #include <ShapeExtend.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 
 //=======================================================================
 //function : SetFace

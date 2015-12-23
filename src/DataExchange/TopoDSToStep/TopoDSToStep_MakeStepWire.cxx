@@ -56,7 +56,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>
-#include <ShapeAnalysis_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 // ----------------------------------------------------------------------------
 // Constructors

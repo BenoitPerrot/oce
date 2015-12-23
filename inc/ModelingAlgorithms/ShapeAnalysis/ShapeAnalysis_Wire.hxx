@@ -539,7 +539,7 @@ private:
 };
 
 
-#include <ShapeAnalysis_Wire.lxx>
+#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.lxx>
 
 
 
