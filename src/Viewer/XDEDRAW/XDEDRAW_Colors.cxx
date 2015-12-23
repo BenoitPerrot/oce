@@ -17,7 +17,7 @@
 
 #include <Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

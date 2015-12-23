@@ -750,7 +750,7 @@ static Standard_Integer OCC166 (Draw_Interpretor& di, Standard_Integer /*argc*/,
 }
 
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 
@@ -1038,7 +1038,7 @@ static Standard_Integer OCC333bug (Draw_Interpretor& di, Standard_Integer n, con
 }
 
 
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <Draw.hxx>
 #include <XCAFDoc_ShapeTool.hxx>

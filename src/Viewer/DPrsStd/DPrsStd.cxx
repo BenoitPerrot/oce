@@ -22,7 +22,7 @@
 #include <DNaming.hxx>
 #include <Viewer/DDataStd/DDataStd.hxx> 
 #include <Viewer/DDF/DDF.hxx> 
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 //#include <OCAF/AppStdL/AppStdL_Application.hxx>
 #include <OCAF/AppStd/AppStd_Application.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

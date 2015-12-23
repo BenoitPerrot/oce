@@ -29,8 +29,8 @@
 
 #include <Draw.hxx>
 
-#include <DDocStd.hxx>
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>

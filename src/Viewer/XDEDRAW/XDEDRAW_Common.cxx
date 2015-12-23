@@ -29,8 +29,8 @@
 #include <XSDRAWSTEP.hxx>
 
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <DDocStd_DrawDocument.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>

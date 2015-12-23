@@ -24,7 +24,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Data.hxx> 
 #include <Viewer/DDF/DDF.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <ViewerTest.hxx>
 
 

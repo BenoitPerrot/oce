@@ -14,7 +14,7 @@
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDocStd_DrawDocument)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

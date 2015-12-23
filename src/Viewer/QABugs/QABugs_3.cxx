@@ -1355,7 +1355,7 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 #include<OCAF/TDF/TDF_Label.hxx>
 #include<OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
-#include<DDocStd.hxx>
+#include<Viewer/DDocStd/DDocStd.hxx>
 
 #include<Viewer/DDF/DDF.hxx>
 

@@ -29,7 +29,7 @@
 
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <OCAF/TDocStd/TDocStd_Owner.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Viewer/DDF/DDF.hxx>

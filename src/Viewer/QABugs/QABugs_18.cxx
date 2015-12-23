@@ -29,7 +29,7 @@
 
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <OCAF/CDF/CDF.hxx>
 
 #include <Foundation/Resource/Resource_Manager.hxx>

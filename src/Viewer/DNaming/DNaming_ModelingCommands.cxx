@@ -37,7 +37,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <OCAF/TDF/TDF_TagSource.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>

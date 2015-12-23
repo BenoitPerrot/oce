@@ -32,8 +32,8 @@
 #include <ViewerTest.hxx>
 
 #include <Viewer/DDF/DDF_Browser.hxx>
-#include <DDocStd.hxx>
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 
 #include <STEPCAFControl_Controller.hxx>
 

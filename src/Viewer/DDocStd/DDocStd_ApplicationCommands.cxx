@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Viewer.hxx>
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>

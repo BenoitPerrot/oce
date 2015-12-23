@@ -21,7 +21,7 @@
 #include <QANewDBRepNaming.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
 

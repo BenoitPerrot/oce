@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <OCAF/TDocStd/TDocStd_MultiTransactionManager.hxx>
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Draw.hxx>
 #include <Viewer/DDF/DDF_Browser.hxx>

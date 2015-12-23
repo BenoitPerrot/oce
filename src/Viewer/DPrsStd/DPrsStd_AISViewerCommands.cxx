@@ -27,7 +27,7 @@
 #include <OCAF/TDF/TDF_Tool.hxx> 
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <Viewer/DDF/DDF.hxx>
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>

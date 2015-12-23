@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
 #include <Draw.hxx>
@@ -24,7 +24,7 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/TDocStd/TDocStd_Modified.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDocStd/TDocStd_XLink.hxx>
 #include <OCAF/TDocStd/TDocStd_XLinkRoot.hxx>

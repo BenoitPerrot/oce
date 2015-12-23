@@ -18,8 +18,8 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <DDocStd.hxx>
-#include <DDocStd_DrawDocument.hxx>
+#include <Viewer/DDocStd/DDocStd.hxx>
+#include <Viewer/DDocStd/DDocStd_DrawDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
