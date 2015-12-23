@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRepFill_TrimEdgeTool.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_TrimEdgeTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

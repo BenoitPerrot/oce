@@ -24,7 +24,7 @@
 #include <GeomFill_SectionLaw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFill_NSections.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_NSections.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_NSections)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepFill_NSections)
 IMPLEMENT_DOWNCAST(BRepFill_NSections,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 
-#include <BRepFill.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

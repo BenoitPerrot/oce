@@ -13,7 +13,7 @@
 #include <Handle_BRepFill_PipeShell.hxx>
 #include <BRepPrimAPI_MakeSweep.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepFill_TypeOfContact.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_TypeOfContact.hxx>
 #include <Handle_Law_Function.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_PipeError.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

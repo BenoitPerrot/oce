@@ -20,11 +20,11 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <BRepFill_CompatibleWires.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_CompatibleWires.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
-#include <BRepFill.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_FindSurface.hxx>
 #include <BRepLib_MakeWire.hxx>

@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_MultiLine.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <BRepFill_MultiLineTool.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MultiLineTool.hxx>
 
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>

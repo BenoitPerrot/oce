@@ -19,9 +19,9 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 
-#include <BRepFill.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_PipeError.hxx>
-#include <BRepFill_Generator.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Generator.hxx>
 #include <BRepPrimAPI_MakePrism.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
 #include <BRepOffsetAPI_MakePipe.hxx>

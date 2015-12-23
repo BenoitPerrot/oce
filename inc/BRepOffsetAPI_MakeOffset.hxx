@@ -14,7 +14,7 @@
 #include <GeomAbs_JoinType.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFill_ListOfOffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ListOfOffsetWire.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;

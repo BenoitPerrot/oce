@@ -20,17 +20,17 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFill_Filling.hxx>
-#include <BRepFill_EdgeFaceAndOrder.hxx>
-#include <BRepFill_FaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Filling.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_EdgeFaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_FaceAndOrder.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <BRepFill_CurveConstraint.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_CurveConstraint.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

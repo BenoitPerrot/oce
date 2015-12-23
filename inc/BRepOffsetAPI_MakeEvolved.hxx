@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepFill_Evolved.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Evolved.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <GeomAbs_JoinType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

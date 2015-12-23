@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFill_TrimShellCorner.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_TrimShellCorner.hxx>
 
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

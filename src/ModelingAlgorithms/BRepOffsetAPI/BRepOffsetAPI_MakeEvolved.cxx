@@ -16,13 +16,13 @@
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepFill_Evolved.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Evolved.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BRepOffsetAPI_MakeEvolved.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
-#include <BRepFill.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 
 //=======================================================================
 //function : BRepOffsetAPI_MakeEvolved

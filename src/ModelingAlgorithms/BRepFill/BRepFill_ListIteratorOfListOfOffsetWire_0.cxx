@@ -3,24 +3,24 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_ListIteratorOfListOfOffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ListIteratorOfListOfOffsetWire.hxx>
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <BRepFill_ListOfOffsetWire.hxx>
-#include <BRepFill_OffsetWire.hxx>
-#include <BRepFill_ListNodeOfListOfOffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ListOfOffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_OffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ListNodeOfListOfOffsetWire.hxx>
  
 
 #define Item BRepFill_OffsetWire
-#define Item_hxx <BRepFill_OffsetWire.hxx>
+#define Item_hxx <ModelingAlgorithms/BRepFill/BRepFill_OffsetWire.hxx>
 #define TCollection_ListNode BRepFill_ListNodeOfListOfOffsetWire
-#define TCollection_ListNode_hxx <BRepFill_ListNodeOfListOfOffsetWire.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/BRepFill/BRepFill_ListNodeOfListOfOffsetWire.hxx>
 #define TCollection_ListIterator BRepFill_ListIteratorOfListOfOffsetWire
-#define TCollection_ListIterator_hxx <BRepFill_ListIteratorOfListOfOffsetWire.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/BRepFill/BRepFill_ListIteratorOfListOfOffsetWire.hxx>
 #define Handle_TCollection_ListNode Handle_BRepFill_ListNodeOfListOfOffsetWire
 #define TCollection_ListNode_Type_() BRepFill_ListNodeOfListOfOffsetWire_Type_()
 #define TCollection_List BRepFill_ListOfOffsetWire
-#define TCollection_List_hxx <BRepFill_ListOfOffsetWire.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/BRepFill/BRepFill_ListOfOffsetWire.hxx>
 #include <Foundation/TCollection/TCollection_ListIterator.gxx>
 

@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 
-#include <BRepFill_DraftLaw.hxx>
-#include <BRepFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DraftLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
 #include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -25,12 +25,12 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepFill_Draft.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Draft.hxx>
 
-#include <BRepFill_DraftLaw.hxx>
-#include <BRepFill_ShapeLaw.hxx>
-#include <BRepFill_Sweep.hxx>
-#include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DraftLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ShapeLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Sweep.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>

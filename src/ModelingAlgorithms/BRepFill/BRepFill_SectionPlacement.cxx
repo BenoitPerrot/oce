@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <BRepFill_SectionPlacement.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SectionPlacement.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

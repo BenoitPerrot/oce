@@ -26,8 +26,8 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepFill_OffsetWire.hxx>
-#include <BRepFill_ListIteratorOfListOfOffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_OffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ListIteratorOfListOfOffsetWire.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

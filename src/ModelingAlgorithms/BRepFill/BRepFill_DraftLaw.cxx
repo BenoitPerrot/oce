@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <GeomFill_LocationDraft.hxx>
-#include <BRepFill_DraftLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DraftLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_DraftLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

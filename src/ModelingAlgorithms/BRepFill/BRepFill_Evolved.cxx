@@ -24,25 +24,25 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <BRepMAT2d_BisectingLocus.hxx>
 #include <BRepMAT2d_LinkTopoBilo.hxx>
-#include <BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <BRepFill_Evolved.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Evolved.hxx>
 
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
-#include <BRepFill_OffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_OffsetWire.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <BRepLib.hxx>
 #include <BRepMAT2d_Explorer.hxx>
-#include <BRepFill_Pipe.hxx>
-#include <BRepFill_OffsetAncestors.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Pipe.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_OffsetAncestors.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
 #include <BRepLib_FindSurface.hxx>
 #include <BRepLib_MakeFace.hxx>
@@ -126,12 +126,12 @@
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <BRepFill_TrimSurfaceTool.hxx>
-#include <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
-#include <BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
-#include <BRepFill_DataMapOfShapeSequenceOfReal.hxx>       
-#include <BRepFill_DataMapOfShapeSequenceOfPnt.hxx>       
-#include <BRepFill_DataMapIteratorOfDataMapOfShapeDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_TrimSurfaceTool.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfReal.hxx>       
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfPnt.hxx>       
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfShapeDataMapOfShapeListOfShape.hxx>
 #include <Precision.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

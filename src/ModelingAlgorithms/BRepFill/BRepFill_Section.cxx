@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepFill_Section.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Section.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

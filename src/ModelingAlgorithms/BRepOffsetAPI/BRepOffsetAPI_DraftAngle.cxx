@@ -33,7 +33,7 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <BRepLib.hxx>
-#include <BRepFill_DataMapOfShapeSequenceOfReal.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfReal.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeSequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
@@ -44,7 +44,7 @@
 #include <TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRep_Point2d.hxx>
 #include <Precision.hxx>
-#include <BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal.hxx>
 #include <BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
 #include <BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>

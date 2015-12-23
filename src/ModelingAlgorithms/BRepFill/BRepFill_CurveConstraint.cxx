@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <BRepFill_CurveConstraint.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_CurveConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_CurveConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

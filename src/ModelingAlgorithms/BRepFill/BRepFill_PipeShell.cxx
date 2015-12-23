@@ -17,8 +17,8 @@
 #include <stdio.h>
 
 #include <Law_Function.hxx>
-#include <BRepFill_LocationLaw.hxx>
-#include <BRepFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
 #include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
@@ -28,10 +28,10 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFill_Section.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Section.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <BRepFill_Sweep.hxx>
-#include <BRepFill_PipeShell.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Sweep.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_PipeShell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_PipeShell)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -57,16 +57,16 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
-#include <BRepFill.hxx>
-#include <BRepFill_Sweep.hxx>
-#include <BRepFill_SectionPlacement.hxx>
-#include <BRepFill_Edge3DLaw.hxx>
-#include <BRepFill_ACRLaw.hxx>
-#include <BRepFill_EdgeOnSurfLaw.hxx>
-#include <BRepFill_ShapeLaw.hxx>
-#include <BRepFill_CompatibleWires.hxx>
-#include <BRepFill_NSections.hxx>
-#include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Sweep.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SectionPlacement.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Edge3DLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ACRLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_EdgeOnSurfLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ShapeLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_CompatibleWires.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_NSections.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 #include <GeomFill_TrihedronLaw.hxx>

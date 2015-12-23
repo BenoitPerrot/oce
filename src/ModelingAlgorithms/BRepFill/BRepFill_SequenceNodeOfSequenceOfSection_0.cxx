@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_SequenceNodeOfSequenceOfSection.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SequenceNodeOfSequenceOfSection.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <BRepFill_Section.hxx>
-#include <BRepFill_SequenceOfSection.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Section.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfSection.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_SequenceNodeOfSequenceOfSection)
 
 
 #define SeqItem BRepFill_Section
-#define SeqItem_hxx <BRepFill_Section.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/BRepFill/BRepFill_Section.hxx>
 #define TCollection_SequenceNode BRepFill_SequenceNodeOfSequenceOfSection
-#define TCollection_SequenceNode_hxx <BRepFill_SequenceNodeOfSequenceOfSection.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/BRepFill/BRepFill_SequenceNodeOfSequenceOfSection.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepFill_SequenceNodeOfSequenceOfSection
 #define TCollection_SequenceNode_Type_() BRepFill_SequenceNodeOfSequenceOfSection_Type_()
 #define TCollection_Sequence BRepFill_SequenceOfSection
-#define TCollection_Sequence_hxx <BRepFill_SequenceOfSection.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfSection.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

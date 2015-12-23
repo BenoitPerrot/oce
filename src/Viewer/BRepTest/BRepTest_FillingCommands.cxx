@@ -60,7 +60,7 @@
 #include <GeomPlate_MakeApprox.hxx>
 #include <GeomPlate_PlateG0Criterion.hxx>
 #include <GeomPlate_PlateG1Criterion.hxx>
-#include <BRepFill_CurveConstraint.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_CurveConstraint.hxx>
 #include <GeomPlate_PointConstraint.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

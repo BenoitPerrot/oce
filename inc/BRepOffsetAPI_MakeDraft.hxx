@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepFill_Draft.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Draft.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_TransitionMode.hxx>

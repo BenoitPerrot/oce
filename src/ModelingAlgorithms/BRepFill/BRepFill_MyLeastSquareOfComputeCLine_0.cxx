@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_MyLeastSquareOfComputeCLine.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MyLeastSquareOfComputeCLine.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <BRepFill_MultiLine.hxx>
-#include <BRepFill_MultiLineTool.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MultiLineTool.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
  
 
 #define MultiLine BRepFill_MultiLine
-#define MultiLine_hxx <BRepFill_MultiLine.hxx>
+#define MultiLine_hxx <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
 #define LineTool BRepFill_MultiLineTool
-#define LineTool_hxx <BRepFill_MultiLineTool.hxx>
+#define LineTool_hxx <ModelingAlgorithms/BRepFill/BRepFill_MultiLineTool.hxx>
 #define AppCont_LeastSquare BRepFill_MyLeastSquareOfComputeCLine
-#define AppCont_LeastSquare_hxx <BRepFill_MyLeastSquareOfComputeCLine.hxx>
+#define AppCont_LeastSquare_hxx <ModelingAlgorithms/BRepFill/BRepFill_MyLeastSquareOfComputeCLine.hxx>
 #include <Geometry/AppCont/AppCont_LeastSquare.gxx>
 

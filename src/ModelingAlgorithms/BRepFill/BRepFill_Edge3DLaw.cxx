@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <GeomFill_LocationLaw.hxx>
-#include <BRepFill_Edge3DLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Edge3DLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_Edge3DLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

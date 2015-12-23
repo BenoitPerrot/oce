@@ -16,29 +16,29 @@
 
 #include <stdio.h>
 
-#include <BRepFill_LocationLaw.hxx>
-#include <BRepFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
 #include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <BRepFill_DataMapOfShapeHArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepFill_Sweep.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Sweep.hxx>
 
-#include <BRepFill_SectionLaw.hxx>
-//#include <BRepFill_TrimCorner.hxx>
-#include <BRepFill_CurveConstraint.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
+//#include <ModelingAlgorithms/BRepFill/BRepFill_TrimCorner.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_CurveConstraint.hxx>
 
 #include <GeomFill_SectionLaw.hxx>
 #include <GeomFill_LocationLaw.hxx>
 #include <GeomFill_Sweep.hxx>
 
 // modified by NIZHNY-MKK  Wed Oct 22 12:25:45 2003
-#include <BRepFill_TrimShellCorner.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_TrimShellCorner.hxx>
 
 //#include <GeomPlate_BuildPlateSurface.hxx>
 //#include <GeomPlate_Surface.hxx>

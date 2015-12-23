@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFill_EdgeOnSurfLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_EdgeOnSurfLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_EdgeOnSurfLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

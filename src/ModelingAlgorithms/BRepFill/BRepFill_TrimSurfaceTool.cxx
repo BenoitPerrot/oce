@@ -23,16 +23,16 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BRepFill_TrimSurfaceTool.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_TrimSurfaceTool.hxx>
 
 #include <Precision.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
-#include <BRepFill_ComputeCLine.hxx>
-#include <BRepFill_MultiLine.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ComputeCLine.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
 #include <BRepIntCurveSurface_Inter.hxx>
-#include <BRepFill_ApproxSeewing.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ApproxSeewing.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>

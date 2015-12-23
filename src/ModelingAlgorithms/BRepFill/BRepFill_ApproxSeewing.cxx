@@ -17,8 +17,8 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <BRepFill_MultiLine.hxx>
-#include <BRepFill_ApproxSeewing.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ApproxSeewing.hxx>
 
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/AppDef/AppDef_Compute.hxx>

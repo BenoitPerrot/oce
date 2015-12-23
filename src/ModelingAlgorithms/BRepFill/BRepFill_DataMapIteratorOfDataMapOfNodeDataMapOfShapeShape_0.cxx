@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <MAT_Node.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
-#include <BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape.hxx>
  
 
 #define TheKey Handle(MAT_Node)
@@ -20,12 +20,12 @@
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape
-#define TCollection_DataMapNode_hxx <BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/BRepFill/BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape.hxx>
 #define TCollection_DataMapIterator BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape
-#define TCollection_DataMapIterator_hxx <BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfNodeDataMapOfShapeShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfNodeDataMapOfShapeShape_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfNodeDataMapOfShapeShape
-#define TCollection_DataMap_hxx <BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfNodeDataMapOfShapeShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

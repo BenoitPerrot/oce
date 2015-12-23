@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <BRepFill_EdgeFaceAndOrder.hxx>
-#include <BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_EdgeFaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder.hxx>
  
 
 #define SeqItem BRepFill_EdgeFaceAndOrder
-#define SeqItem_hxx <BRepFill_EdgeFaceAndOrder.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/BRepFill/BRepFill_EdgeFaceAndOrder.hxx>
 #define TCollection_SequenceNode BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder
-#define TCollection_SequenceNode_hxx <BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/BRepFill/BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder.hxx>
 #define Handle_TCollection_SequenceNode Handle_BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder
 #define TCollection_SequenceNode_Type_() BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder_Type_()
 #define TCollection_Sequence BRepFill_SequenceOfEdgeFaceAndOrder
-#define TCollection_Sequence_hxx <BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

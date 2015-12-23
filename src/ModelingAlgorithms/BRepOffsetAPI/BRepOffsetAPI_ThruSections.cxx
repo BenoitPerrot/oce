@@ -97,8 +97,8 @@
 #include <BRepLib.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 
-#include <BRepFill_Generator.hxx>
-#include <BRepFill_CompatibleWires.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Generator.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_CompatibleWires.hxx>
 
 #include <BRepLib_MakeFace.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_FindPlane.hxx>

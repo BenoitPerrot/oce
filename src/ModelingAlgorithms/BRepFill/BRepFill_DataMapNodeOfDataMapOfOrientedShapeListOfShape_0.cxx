@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
-#include <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
-#include <BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape.hxx>
 
  
 
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape)
 #define Hasher TopTools_OrientedShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>
 #define TCollection_DataMapNode BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape
-#define TCollection_DataMapNode_hxx <BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/BRepFill/BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
 #define TCollection_DataMapIterator BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape
-#define TCollection_DataMapIterator_hxx <BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape.hxx>
 #define Handle_TCollection_DataMapNode Handle_BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape
 #define TCollection_DataMapNode_Type_() BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape_Type_()
 #define TCollection_DataMap BRepFill_DataMapOfOrientedShapeListOfShape
-#define TCollection_DataMap_hxx <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

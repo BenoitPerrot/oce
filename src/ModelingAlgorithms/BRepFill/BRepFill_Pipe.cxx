@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>
 #include <ModelingData/TopTools/TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
@@ -24,7 +24,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepFill_Pipe.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Pipe.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
@@ -39,10 +39,10 @@
 #include <GeomFill_DiscreteTrihedron.hxx>
 #include <GeomFill_CurveAndTrihedron.hxx>
 
-#include <BRepFill_SectionPlacement.hxx>
-#include <BRepFill_ShapeLaw.hxx>
-#include <BRepFill_Edge3DLaw.hxx>
-#include <BRepFill_Sweep.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_SectionPlacement.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ShapeLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Edge3DLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Sweep.hxx>
 
 #include <GeomAbs_Shape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

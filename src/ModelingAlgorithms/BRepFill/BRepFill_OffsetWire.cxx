@@ -25,22 +25,22 @@
 #include <BRepMAT2d_LinkTopoBilo.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
-#include <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
-#include <BRepFill_TrimEdgeTool.hxx>
-#include <BRepFill_OffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_TrimEdgeTool.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_OffsetWire.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <BRepFill_DataMapOfNodeShape.hxx>
-#include <BRepFill_DataMapOfShapeSequenceOfPnt.hxx>
-#include <BRepFill_DataMapOfShapeSequenceOfReal.hxx> 
-#include <BRepFill_DataMapOfOrientedShapeListOfShape.hxx> 
-#include <BRepFill_TrimEdgeTool.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfNodeShape.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfPnt.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfReal.hxx> 
+#include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfOrientedShapeListOfShape.hxx> 
+#include <ModelingAlgorithms/BRepFill/BRepFill_TrimEdgeTool.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepLib_MakeFace.hxx>

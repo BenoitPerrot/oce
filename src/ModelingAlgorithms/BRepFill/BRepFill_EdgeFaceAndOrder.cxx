@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepFill_Filling.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_Filling.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepFill_EdgeFaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_EdgeFaceAndOrder.hxx>
 
 BRepFill_EdgeFaceAndOrder::BRepFill_EdgeFaceAndOrder()
 {

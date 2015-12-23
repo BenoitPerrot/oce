@@ -43,7 +43,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <BRepFill.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill.hxx>
 
 #include <BRepLib.hxx>
 #include <BRepLib_FindSurface.hxx>

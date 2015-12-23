@@ -21,7 +21,7 @@
 #include <GeomFill_SectionLaw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepFill_ShapeLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_ShapeLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_ShapeLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -26,7 +26,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepFill_LocationLaw)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

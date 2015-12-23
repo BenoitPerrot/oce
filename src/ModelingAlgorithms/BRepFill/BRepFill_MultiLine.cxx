@@ -21,7 +21,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRepFill_MultiLine.hxx>
+#include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
 
 #include <BRepIntCurveSurface_Inter.hxx>
 #include <Mathematics/Primitives/gp.hxx>
