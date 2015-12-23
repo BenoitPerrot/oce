@@ -124,7 +124,7 @@ private:
 };
 
 
-#include <ShapeAlgo_AlgoContainer.lxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.lxx>
 
 
 

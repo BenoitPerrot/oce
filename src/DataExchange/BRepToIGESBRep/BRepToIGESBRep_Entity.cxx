@@ -145,8 +145,8 @@
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <Interface_Static.hxx>
 
-#include <ShapeAlgo.hxx>
-#include <ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 
 //=======================================================================

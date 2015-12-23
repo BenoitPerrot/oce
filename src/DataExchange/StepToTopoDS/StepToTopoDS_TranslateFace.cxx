@@ -86,8 +86,8 @@
 #include <StepGeom_OffsetSurface.hxx> //:d4
 #include <StepGeom_BSplineSurfaceForm.hxx>
 #include <StepGeom_BSplineSurface.hxx>
-#include <ShapeAlgo.hxx>
-#include <ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 // To proceed with I-DEAS-like STP (ssv; 15.11.2010)

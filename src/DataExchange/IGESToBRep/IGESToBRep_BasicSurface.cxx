@@ -83,8 +83,8 @@
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
-#include <ShapeAlgo.hxx>
-#include <ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <ShapeConstruct_Curve.hxx>
 
 //=======================================================================

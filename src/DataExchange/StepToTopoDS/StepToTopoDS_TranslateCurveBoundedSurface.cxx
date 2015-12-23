@@ -36,8 +36,8 @@
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <StepGeom_BSplineSurface.hxx>
-#include <ShapeAlgo.hxx>
-#include <ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 
 //=======================================================================
 //function : StepToTopoDS_TranslateCurveBoundedSurface

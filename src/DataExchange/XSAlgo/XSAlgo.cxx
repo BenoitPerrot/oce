@@ -15,7 +15,7 @@
 
 #include <XSAlgo_AlgoContainer.hxx>
 #include <XSAlgo.hxx>
-#include <ShapeAlgo.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ShapeProcess_OperLibrary.hxx>
 #include <Interface_Static.hxx>
 

@@ -68,8 +68,8 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <ShapeAlgo.hxx>
-#include <ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Transfer_FinderProcess.hxx>

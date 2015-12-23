@@ -37,8 +37,8 @@
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 
 
-//#include <ShapeAlgo.hxx>
-//#include <ShapeAlgo_AlgoContainer.hxx>
+//#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
+//#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 
 
 //=======================================================================

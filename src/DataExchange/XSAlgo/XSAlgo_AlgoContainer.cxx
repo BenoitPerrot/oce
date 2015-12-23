@@ -55,9 +55,9 @@ IMPLEMENT_STANDARD_RTTI(XSAlgo_AlgoContainer)
 
 #include <ShapeProcess.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
-#include <ShapeAlgo.hxx>
-#include <ShapeAlgo_AlgoContainer.hxx>
-#include <ShapeAlgo_ToolContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_ToolContainer.hxx>
 #include <ShapeBuild_ReShape.hxx>
 #include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 #include <ShapeExtend_MsgRegistrator.hxx>
