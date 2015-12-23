@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <MeshVS_DataMapOfIntegerAsciiString.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <MeshVS_TextPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_TextPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_TextPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_TextPrsBuilder)
 IMPLEMENT_DOWNCAST(MeshVS_TextPrsBuilder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_TextPrsBuilder)
 
-#include <MeshVS_DisplayModeFlags.hxx>
+#include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Prs3d_Root.hxx>
@@ -46,11 +46,11 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_TextPrsBuilder)
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_Drawer.hxx>
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_DrawerAttribute.hxx>
-#include <MeshVS_Buffer.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_Buffer.hxx>
 
 #include <Visualization/Font/Font_NameOfFont.hxx>
 

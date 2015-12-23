@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_SequenceNodeOfSequenceOfPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_SequenceNodeOfSequenceOfPrsBuilder.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <MeshVS_PrsBuilder.hxx>
-#include <MeshVS_SequenceOfPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_SequenceOfPrsBuilder.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_SequenceNodeOfSequenceOfPrsBuilder)
 
 
 #define SeqItem Handle(MeshVS_PrsBuilder)
-#define SeqItem_hxx <MeshVS_PrsBuilder.hxx>
+#define SeqItem_hxx <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
 #define TCollection_SequenceNode MeshVS_SequenceNodeOfSequenceOfPrsBuilder
-#define TCollection_SequenceNode_hxx <MeshVS_SequenceNodeOfSequenceOfPrsBuilder.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/MeshVS/MeshVS_SequenceNodeOfSequenceOfPrsBuilder.hxx>
 #define Handle_TCollection_SequenceNode Handle_MeshVS_SequenceNodeOfSequenceOfPrsBuilder
 #define TCollection_SequenceNode_Type_() MeshVS_SequenceNodeOfSequenceOfPrsBuilder_Type_()
 #define TCollection_Sequence MeshVS_SequenceOfPrsBuilder
-#define TCollection_Sequence_hxx <MeshVS_SequenceOfPrsBuilder.hxx>
+#define TCollection_Sequence_hxx <Visualization/MeshVS/MeshVS_SequenceOfPrsBuilder.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <MeshVS_DataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <MeshVS_DataMapOfIntegerTwoColors.hxx>
-#include <MeshVS_ElementalColorPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerTwoColors.hxx>
+#include <Visualization/MeshVS/MeshVS_ElementalColorPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_ElementalColorPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -52,20 +52,20 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_ElementalColorPrsBuilder)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
-#include <MeshVS_DisplayModeFlags.hxx>
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_DataMapOfColorMapOfInteger.hxx>
-#include <MeshVS_DataMapOfTwoColorsMapOfInteger.hxx>
-#include <MeshVS_Drawer.hxx>
-#include <MeshVS_DrawerAttribute.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfTwoColorsMapOfInteger.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfColorMapOfInteger.hxx>
-#include <MeshVS_MeshPrsBuilder.hxx>
-#include <MeshVS_Buffer.hxx>
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfColorMapOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfTwoColorsMapOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfTwoColorsMapOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfColorMapOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_Buffer.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 
 //================================================================
 // Function : Constructor MeshVS_ElementalColorPrsBuilder

@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <MeshVS_DataMapOfIntegerBoolean.hxx>
-#include <MeshVS_DataMapNodeOfDataMapOfIntegerBoolean.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerBoolean.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerBoolean.hxx>
  
 
 #define TheKey Standard_Integer
@@ -18,12 +18,12 @@
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerBoolean
-#define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerBoolean.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerBoolean.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean
-#define TCollection_DataMapIterator_hxx <MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean.hxx>
 #define Handle_TCollection_DataMapNode Handle_MeshVS_DataMapNodeOfDataMapOfIntegerBoolean
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerBoolean_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerBoolean
-#define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerBoolean.hxx>
+#define TCollection_DataMap_hxx <Visualization/MeshVS/MeshVS_DataMapOfIntegerBoolean.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

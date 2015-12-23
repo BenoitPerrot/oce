@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_Array1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_Array1OfSequenceOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item TColStd_SequenceOfInteger
 #define Array1Item_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define TCollection_Array1 MeshVS_Array1OfSequenceOfInteger
-#define TCollection_Array1_hxx <MeshVS_Array1OfSequenceOfInteger.hxx>
+#define TCollection_Array1_hxx <Visualization/MeshVS/MeshVS_Array1OfSequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

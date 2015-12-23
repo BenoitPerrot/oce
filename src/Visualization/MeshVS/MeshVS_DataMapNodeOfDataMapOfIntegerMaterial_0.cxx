@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <MeshVS_DataMapOfIntegerMaterial.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerMaterial.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial.hxx>
 
  
 
@@ -36,12 +36,12 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfIntegerMaterial)
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerMaterial
-#define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial
-#define TCollection_DataMapIterator_hxx <MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial.hxx>
 #define Handle_TCollection_DataMapNode Handle_MeshVS_DataMapNodeOfDataMapOfIntegerMaterial
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerMaterial_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerMaterial
-#define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerMaterial.hxx>
+#define TCollection_DataMap_hxx <Visualization/MeshVS/MeshVS_DataMapOfIntegerMaterial.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

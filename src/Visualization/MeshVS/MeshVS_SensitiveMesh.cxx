@@ -20,7 +20,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Select3D_Projector.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
-#include <MeshVS_SensitiveMesh.hxx>
+#include <Visualization/MeshVS/MeshVS_SensitiveMesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitiveMesh)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveMesh)
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Select3D_Projector.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_MeshOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshOwner.hxx>
 
 //=======================================================================
 // name    : MeshVS_SensitiveMesh::MeshVS_SensitiveMesh

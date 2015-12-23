@@ -13,16 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
-#include <MeshVS_DataMapOfIntegerVector.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerVector.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <MeshVS_VectorPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_VectorPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_VectorPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_VectorPrsBuilder)
 IMPLEMENT_DOWNCAST(MeshVS_VectorPrsBuilder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 
-#include <MeshVS_DisplayModeFlags.hxx>
+#include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolygons.hxx>
@@ -59,13 +59,13 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_Drawer.hxx>
-#include <MeshVS_DrawerAttribute.hxx>
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_EntityType.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerVector.hxx>
-#include <MeshVS_Buffer.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_EntityType.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerVector.hxx>
+#include <Visualization/MeshVS/MeshVS_Buffer.hxx>
 
 //================================================================
 // Function : Constructor MeshVS_VectorPrsBuilder

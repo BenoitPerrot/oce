@@ -18,7 +18,7 @@
 #include <Select3D_Projector.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <MeshVS_SensitiveSegment.hxx>
+#include <Visualization/MeshVS/MeshVS_SensitiveSegment.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitiveSegment)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

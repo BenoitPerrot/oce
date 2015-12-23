@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Draw_Display.hxx>
 #include <XSDRAWSTLVRML_DrawableMesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

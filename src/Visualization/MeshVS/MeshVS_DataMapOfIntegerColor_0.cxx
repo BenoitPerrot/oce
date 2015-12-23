@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_DataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerColor.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx>
  
 
 #define TheKey Standard_Integer
@@ -20,12 +20,12 @@
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerColor
-#define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerColor
-#define TCollection_DataMapIterator_hxx <MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx>
 #define Handle_TCollection_DataMapNode Handle_MeshVS_DataMapNodeOfDataMapOfIntegerColor
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerColor_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerColor
-#define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerColor.hxx>
+#define TCollection_DataMap_hxx <Visualization/MeshVS/MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <MeshVS_Array1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_Array1OfSequenceOfInteger.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_HArray1OfSequenceOfInteger)
 #define ItemHArray1 TColStd_SequenceOfInteger
 #define ItemHArray1_hxx <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #define TheArray1 MeshVS_Array1OfSequenceOfInteger
-#define TheArray1_hxx <MeshVS_Array1OfSequenceOfInteger.hxx>
+#define TheArray1_hxx <Visualization/MeshVS/MeshVS_Array1OfSequenceOfInteger.hxx>
 #define TCollection_HArray1 MeshVS_HArray1OfSequenceOfInteger
-#define TCollection_HArray1_hxx <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#define TCollection_HArray1_hxx <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #define Handle_TCollection_HArray1 Handle_MeshVS_HArray1OfSequenceOfInteger
 #define TCollection_HArray1_Type_() MeshVS_HArray1OfSequenceOfInteger_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

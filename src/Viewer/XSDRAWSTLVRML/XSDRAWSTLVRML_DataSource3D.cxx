@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <XSDRAWSTLVRML_DataSource3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

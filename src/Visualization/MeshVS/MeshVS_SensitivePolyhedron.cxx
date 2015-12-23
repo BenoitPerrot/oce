@@ -15,7 +15,7 @@
 
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Select3D_Projector.hxx>
@@ -26,7 +26,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <SelectBasics_ListOfBox2d.hxx>
-#include <MeshVS_SensitivePolyhedron.hxx>
+#include <Visualization/MeshVS/MeshVS_SensitivePolyhedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitivePolyhedron)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_TYPE_END(MeshVS_SensitivePolyhedron)
 IMPLEMENT_DOWNCAST(MeshVS_SensitivePolyhedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitivePolyhedron)
 
-#include <MeshVS_Tool.hxx>
+#include <Visualization/MeshVS/MeshVS_Tool.hxx>
 #include <CSLib_Class2d.hxx>
 #include <ElCLib.hxx>
 

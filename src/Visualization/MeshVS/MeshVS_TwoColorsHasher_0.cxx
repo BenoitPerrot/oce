@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_TwoColorsHasher.hxx>
+#include <Visualization/MeshVS/MeshVS_TwoColorsHasher.hxx>
 
  
 
 #define Key MeshVS_TwoColors
-#define Key_hxx <MeshVS_TwoColors.hxx>
+#define Key_hxx <Visualization/MeshVS/MeshVS_TwoColors.hxx>
 #define TCollection_MapHasher MeshVS_TwoColorsHasher
-#define TCollection_MapHasher_hxx <MeshVS_TwoColorsHasher.hxx>
+#define TCollection_MapHasher_hxx <Visualization/MeshVS/MeshVS_TwoColorsHasher.hxx>
 #include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

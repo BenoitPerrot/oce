@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <PrsMgr_PresentationManager.hxx>
-#include <MeshVS_MeshOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_MeshOwner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,12 +32,12 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshOwner)
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>
 
 
 #ifndef MeshVS_PRSBUILDERHXX
-#include <MeshVS_PrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
 #endif
 
 

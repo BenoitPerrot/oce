@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <MeshVS_DataMapOfIntegerAsciiString.hxx>
-#include <MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerAsciiString.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
  
 
 #define TheKey Standard_Integer
@@ -19,12 +19,12 @@
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString
-#define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString
-#define TCollection_DataMapIterator_hxx <MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx>
 #define Handle_TCollection_DataMapNode Handle_MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfIntegerAsciiString
-#define TCollection_DataMap_hxx <MeshVS_DataMapOfIntegerAsciiString.hxx>
+#define TCollection_DataMap_hxx <Visualization/MeshVS/MeshVS_DataMapOfIntegerAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

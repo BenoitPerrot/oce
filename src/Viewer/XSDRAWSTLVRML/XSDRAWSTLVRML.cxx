@@ -47,17 +47,17 @@
 #include <StlMesh_Mesh.hxx>
 #include <StlMesh_SequenceOfMeshTriangle.hxx>
 
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_MeshPrsBuilder.hxx>
-#include <MeshVS_TextPrsBuilder.hxx>
-#include <MeshVS_Drawer.hxx>
-#include <MeshVS_DrawerAttribute.hxx>
-#include <MeshVS_MeshEntityOwner.hxx>
-#include <MeshVS_DataMapOfIntegerAsciiString.hxx>
-#include <MeshVS_NodalColorPrsBuilder.hxx>
-#include <MeshVS_ElementalColorPrsBuilder.hxx>
-#include <MeshVS_VectorPrsBuilder.hxx>
-#include <MeshVS_DeformedDataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_TextPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshEntityOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerAsciiString.hxx>
+#include <Visualization/MeshVS/MeshVS_NodalColorPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_ElementalColorPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_VectorPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_DeformedDataSource.hxx>
 
 #include <XSDRAWSTLVRML_DataSource.hxx>
 #include <XSDRAWSTLVRML_DataSource3D.hxx>

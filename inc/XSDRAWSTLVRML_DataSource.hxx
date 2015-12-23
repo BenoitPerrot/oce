@@ -14,10 +14,10 @@
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Handle_TColStd_HArray2OfInteger.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <MeshVS_EntityType.hxx>
+#include <Visualization/MeshVS/MeshVS_EntityType.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StlMesh_Mesh;

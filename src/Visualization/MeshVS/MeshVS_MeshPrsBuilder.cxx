@@ -13,17 +13,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfTriangles.hxx>
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
-#include <MeshVS_MeshPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_MeshPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -64,14 +64,14 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshPrsBuilder)
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 #include <Select3D_SensitivePoint.hxx>
 
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_Drawer.hxx>
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_Tool.hxx>
-#include <MeshVS_DrawerAttribute.hxx>
-#include <MeshVS_MapOfTwoNodes.hxx>
-#include <MeshVS_Buffer.hxx>
-#include <MeshVS_SymmetricPairHasher.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Tool.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_MapOfTwoNodes.hxx>
+#include <Visualization/MeshVS/MeshVS_Buffer.hxx>
+#include <Visualization/MeshVS/MeshVS_SymmetricPairHasher.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <PrsMgr_PresentationManager.hxx>
-#include <MeshVS_MeshEntityOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshEntityOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_MeshEntityOwner)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,11 +34,11 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshEntityOwner)
 #include <SelectMgr_SelectableObject.hxx>
 #include <PrsMgr_PresentationManager.hxx>
 #include <PrsMgr_PresentationManager3d.hxx>
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 
 
 #ifndef MeshVS_PRSBUILDERHXX
-#include <MeshVS_PrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
 #endif
 
 

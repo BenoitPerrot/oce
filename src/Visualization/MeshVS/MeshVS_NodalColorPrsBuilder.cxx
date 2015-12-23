@@ -16,19 +16,19 @@
 #define _POLYGONES_
 // if define _POLYGONES_ ColorPrsBuilder use ArrayOfPolygons for drawing faces
 
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Prs3d_Presentation.hxx>
-#include <MeshVS_DataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Texture2D.hxx>
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPrimitives.hxx>
-#include <MeshVS_NodalColorPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_NodalColorPrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_NodalColorPrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -61,16 +61,16 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
-#include <MeshVS_DisplayModeFlags.hxx>
-#include <MeshVS_DrawerAttribute.hxx>
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_Drawer.hxx>
-#include <MeshVS_Mesh.hxx>
-#include <MeshVS_MeshPrsBuilder.hxx>
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <MeshVS_Buffer.hxx>
-#include <MeshVS_Tool.hxx>
-#include <MeshVS_SymmetricPairHasher.hxx>
+#include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshPrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_Buffer.hxx>
+#include <Visualization/MeshVS/MeshVS_Tool.hxx>
+#include <Visualization/MeshVS/MeshVS_SymmetricPairHasher.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Image/Image_PixMap.hxx>

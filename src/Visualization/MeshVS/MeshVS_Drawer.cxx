@@ -16,7 +16,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_Drawer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
-#include <MeshVS_ColorHasher.hxx>
+#include <Visualization/MeshVS/MeshVS_ColorHasher.hxx>
 
 //================================================================
 // Function : HashCode

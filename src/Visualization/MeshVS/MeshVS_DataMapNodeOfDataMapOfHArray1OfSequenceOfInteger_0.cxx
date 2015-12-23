@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger.hxx>
 
  
 
@@ -32,16 +32,16 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger)
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(MeshVS_HArray1OfSequenceOfInteger)
-#define TheItem_hxx <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#define TheItem_hxx <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger
-#define TCollection_DataMapNode_hxx <MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger.hxx>
 #define TCollection_DataMapIterator MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger
-#define TCollection_DataMapIterator_hxx <MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger.hxx>
 #define Handle_TCollection_DataMapNode Handle_MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger
 #define TCollection_DataMapNode_Type_() MeshVS_DataMapNodeOfDataMapOfHArray1OfSequenceOfInteger_Type_()
 #define TCollection_DataMap MeshVS_DataMapOfHArray1OfSequenceOfInteger
-#define TCollection_DataMap_hxx <MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx>
+#define TCollection_DataMap_hxx <Visualization/MeshVS/MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

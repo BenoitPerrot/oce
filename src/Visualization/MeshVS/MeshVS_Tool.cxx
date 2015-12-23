@@ -14,16 +14,16 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
-#include <MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <MeshVS_Tool.hxx>
+#include <Visualization/MeshVS/MeshVS_Tool.hxx>
 
-#include <MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
 #include <Precision.hxx>
 #include <Visualization/Font/Font_NameOfFont.hxx>
 

@@ -14,15 +14,15 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_DataSource)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MeshVS_DataSource)
 IMPLEMENT_DOWNCAST(MeshVS_DataSource,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_DataSource)
-#include <MeshVS_Tool.hxx>
-#include <MeshVS_Buffer.hxx>
+#include <Visualization/MeshVS/MeshVS_Tool.hxx>
+#include <Visualization/MeshVS/MeshVS_Buffer.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

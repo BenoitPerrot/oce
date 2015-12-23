@@ -13,16 +13,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_PrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>
-#include <MeshVS_DataMapOfIntegerOwner.hxx>
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapOfIntegerOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_Mesh)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -72,18 +72,18 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_MeshEntityOwner.hxx>
-#include <MeshVS_MeshOwner.hxx>
-#include <MeshVS_SensitiveMesh.hxx>
-#include <MeshVS_DummySensitiveEntity.hxx>
-#include <MeshVS_SensitiveSegment.hxx>
-#include <MeshVS_SensitiveFace.hxx>
-#include <MeshVS_DrawerAttribute.hxx>
-#include <MeshVS_DataMapIteratorOfDataMapOfIntegerOwner.hxx>
-#include <MeshVS_SensitivePolyhedron.hxx>
-#include <MeshVS_SelectionModeFlags.hxx>
-#include <MeshVS_Buffer.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshEntityOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_MeshOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_SensitiveMesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DummySensitiveEntity.hxx>
+#include <Visualization/MeshVS/MeshVS_SensitiveSegment.hxx>
+#include <Visualization/MeshVS/MeshVS_SensitiveFace.hxx>
+#include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
+#include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerOwner.hxx>
+#include <Visualization/MeshVS/MeshVS_SensitivePolyhedron.hxx>
+#include <Visualization/MeshVS/MeshVS_SelectionModeFlags.hxx>
+#include <Visualization/MeshVS/MeshVS_Buffer.hxx>
 
 #include <Foundation/OSD/OSD_Timer.hxx>
 

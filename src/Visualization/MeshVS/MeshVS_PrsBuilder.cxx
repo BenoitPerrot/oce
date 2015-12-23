@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <MeshVS_DataSource.hxx>
-#include <MeshVS_Drawer.hxx>
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Prs3d_Presentation.hxx>
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectBasics_EntityOwner.hxx>
-#include <MeshVS_PrsBuilder.hxx>
+#include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_PrsBuilder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MeshVS_PrsBuilder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_PrsBuilder)
 
 #include <Prs3d_Root.hxx>
-#include <MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 
 //================================================================
 // Function : Constructor MeshVS_PrsBuilder
