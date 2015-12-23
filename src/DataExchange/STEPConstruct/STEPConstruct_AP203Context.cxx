@@ -21,10 +21,10 @@
 #include <StepBasic_PersonAndOrganizationRole.hxx>
 #include <StepBasic_DateTimeRole.hxx>
 #include <StepBasic_ApprovalRole.hxx>
-#include <StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
-#include <StepAP203_CcDesignSecurityClassification.hxx>
-#include <StepAP203_CcDesignDateAndTimeAssignment.hxx>
-#include <StepAP203_CcDesignApproval.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignSecurityClassification.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignApproval.hxx>
 #include <StepBasic_ApprovalPersonOrganization.hxx>
 #include <StepBasic_ApprovalDateTime.hxx>
 #include <StepBasic_ProductCategoryRelationship.hxx>
@@ -57,10 +57,10 @@
 #include <StepBasic_Person.hxx>
 #include <StepBasic_Organization.hxx>
 #include <StepBasic_SecurityClassification.hxx>
-#include <StepAP203_HArray1OfPersonOrganizationItem.hxx>
-#include <StepAP203_HArray1OfClassifiedItem.hxx>
-#include <StepAP203_HArray1OfDateTimeItem.hxx>
-#include <StepAP203_HArray1OfApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfPersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfClassifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfDateTimeItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfApprovedItem.hxx>
 #include <StepBasic_ProductCategory.hxx>
 
 #if defined(__BORLANDC__) || (defined(_MSC_VER) && _MSC_VER >= 1900)

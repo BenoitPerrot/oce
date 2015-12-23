@@ -18,12 +18,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP203_CcDesignSpecificationReference.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignSpecificationReference.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignSpecificationReference.hxx>
-#include <StepAP203_HArray1OfSpecifiedItem.hxx>
-#include <StepAP203_SpecifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfSpecifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_SpecifiedItem.hxx>
 
 //=======================================================================
 //function : RWStepAP203_RWCcDesignSpecificationReference

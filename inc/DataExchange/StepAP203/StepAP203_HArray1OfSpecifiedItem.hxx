@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepAP203_HArray1OfSpecifiedItem.hxx>
 
-#include <StepAP203_Array1OfSpecifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_Array1OfSpecifiedItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 StepAP203_SpecifiedItem
-#define ItemHArray1_hxx <StepAP203_SpecifiedItem.hxx>
+#define ItemHArray1_hxx <DataExchange/StepAP203/StepAP203_SpecifiedItem.hxx>
 #define TheArray1 StepAP203_Array1OfSpecifiedItem
-#define TheArray1_hxx <StepAP203_Array1OfSpecifiedItem.hxx>
+#define TheArray1_hxx <DataExchange/StepAP203/StepAP203_Array1OfSpecifiedItem.hxx>
 #define TCollection_HArray1 StepAP203_HArray1OfSpecifiedItem
-#define TCollection_HArray1_hxx <StepAP203_HArray1OfSpecifiedItem.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepAP203/StepAP203_HArray1OfSpecifiedItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepAP203_HArray1OfSpecifiedItem
 #define TCollection_HArray1_Type_() StepAP203_HArray1OfSpecifiedItem_Type_()
 

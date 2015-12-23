@@ -109,14 +109,14 @@
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_Direction.hxx>
 
-#include <StepAP203_CcDesignApproval.hxx>
-#include <StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
-#include <StepAP203_CcDesignDateAndTimeAssignment.hxx>
-#include <StepAP203_CcDesignSecurityClassification.hxx>
-#include <StepAP203_HArray1OfApprovedItem.hxx>
-#include <StepAP203_HArray1OfPersonOrganizationItem.hxx>
-#include <StepAP203_HArray1OfDateTimeItem.hxx>
-#include <StepAP203_HArray1OfClassifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignApproval.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignSecurityClassification.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfPersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfDateTimeItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfClassifiedItem.hxx>
 
 #include <StepAP214_AppliedApprovalAssignment.hxx>
 #include <StepAP214_AppliedPersonAndOrganizationAssignment.hxx>

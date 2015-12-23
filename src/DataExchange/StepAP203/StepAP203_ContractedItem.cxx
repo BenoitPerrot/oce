@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepAP203_ContractedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_ContractedItem.hxx>
 
 //=======================================================================
 //function : StepAP203_ContractedItem

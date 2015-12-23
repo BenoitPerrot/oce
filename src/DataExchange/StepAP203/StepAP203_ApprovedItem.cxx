@@ -22,13 +22,13 @@
 #include <StepRepr_ConfigurationEffectivity.hxx>
 #include <StepRepr_ConfigurationItem.hxx>
 #include <StepBasic_SecurityClassification.hxx>
-#include <StepAP203_ChangeRequest.hxx>
-#include <StepAP203_Change.hxx>
-#include <StepAP203_StartRequest.hxx>
-#include <StepAP203_StartWork.hxx>
+#include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
+#include <DataExchange/StepAP203/StepAP203_Change.hxx>
+#include <DataExchange/StepAP203/StepAP203_StartRequest.hxx>
+#include <DataExchange/StepAP203/StepAP203_StartWork.hxx>
 #include <StepBasic_Certification.hxx>
 #include <StepBasic_Contract.hxx>
-#include <StepAP203_ApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_ApprovedItem.hxx>
 
 //=======================================================================
 //function : StepAP203_ApprovedItem

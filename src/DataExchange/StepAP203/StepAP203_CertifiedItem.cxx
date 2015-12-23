@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepRepr_SuppliedPartRelationship.hxx>
-#include <StepAP203_CertifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_CertifiedItem.hxx>
 
 //=======================================================================
 //function : StepAP203_CertifiedItem

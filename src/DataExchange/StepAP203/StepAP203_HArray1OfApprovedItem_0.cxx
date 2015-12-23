@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP203_HArray1OfApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfApprovedItem.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepAP203_ApprovedItem.hxx>
-#include <StepAP203_Array1OfApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_ApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_Array1OfApprovedItem.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepAP203_HArray1OfApprovedItem)
 
 
 #define ItemHArray1 StepAP203_ApprovedItem
-#define ItemHArray1_hxx <StepAP203_ApprovedItem.hxx>
+#define ItemHArray1_hxx <DataExchange/StepAP203/StepAP203_ApprovedItem.hxx>
 #define TheArray1 StepAP203_Array1OfApprovedItem
-#define TheArray1_hxx <StepAP203_Array1OfApprovedItem.hxx>
+#define TheArray1_hxx <DataExchange/StepAP203/StepAP203_Array1OfApprovedItem.hxx>
 #define TCollection_HArray1 StepAP203_HArray1OfApprovedItem
-#define TCollection_HArray1_hxx <StepAP203_HArray1OfApprovedItem.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepAP203/StepAP203_HArray1OfApprovedItem.hxx>
 #define Handle_TCollection_HArray1 Handle_StepAP203_HArray1OfApprovedItem
 #define TCollection_HArray1_Type_() StepAP203_HArray1OfApprovedItem_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

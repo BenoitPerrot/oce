@@ -16,9 +16,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepAP203_HArray1OfCertifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfCertifiedItem.hxx>
 #include <StepBasic_Certification.hxx>
-#include <StepAP203_CcDesignCertification.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignCertification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_CcDesignCertification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

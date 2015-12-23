@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepRepr_ShapeAspect.hxx>
-#include <StepAP203_SpecifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_SpecifiedItem.hxx>
 
 //=======================================================================
 //function : StepAP203_SpecifiedItem

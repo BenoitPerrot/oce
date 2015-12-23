@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepAP203_WorkItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_WorkItem.hxx>
 
 //=======================================================================
 //function : StepAP203_WorkItem

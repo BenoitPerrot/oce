@@ -17,17 +17,17 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepAP203_Change.hxx>
-#include <StepAP203_StartWork.hxx>
-#include <StepAP203_ChangeRequest.hxx>
-#include <StepAP203_StartRequest.hxx>
+#include <DataExchange/StepAP203/StepAP203_Change.hxx>
+#include <DataExchange/StepAP203/StepAP203_StartWork.hxx>
+#include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
+#include <DataExchange/StepAP203/StepAP203_StartRequest.hxx>
 #include <StepRepr_ConfigurationItem.hxx>
 #include <StepBasic_Product.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepBasic_Contract.hxx>
 #include <StepBasic_SecurityClassification.hxx>
-#include <StepAP203_PersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_PersonOrganizationItem.hxx>
 
 //=======================================================================
 //function : StepAP203_PersonOrganizationItem

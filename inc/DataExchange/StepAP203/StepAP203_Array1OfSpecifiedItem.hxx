@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item StepAP203_SpecifiedItem
-#define Array1Item_hxx <StepAP203_SpecifiedItem.hxx>
+#define Array1Item_hxx <DataExchange/StepAP203/StepAP203_SpecifiedItem.hxx>
 #define TCollection_Array1 StepAP203_Array1OfSpecifiedItem
-#define TCollection_Array1_hxx <StepAP203_Array1OfSpecifiedItem.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepAP203/StepAP203_Array1OfSpecifiedItem.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

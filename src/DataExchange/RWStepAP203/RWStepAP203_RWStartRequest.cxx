@@ -18,12 +18,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP203_StartRequest.hxx>
+#include <DataExchange/StepAP203/StepAP203_StartRequest.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWStartRequest.hxx>
-#include <StepAP203_HArray1OfStartRequestItem.hxx>
-#include <StepAP203_StartRequestItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfStartRequestItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_StartRequestItem.hxx>
 
 //=======================================================================
 //function : RWStepAP203_RWStartRequest

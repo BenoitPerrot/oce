@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
 #include <StepRepr_AssemblyComponentUsage.hxx>
-#include <StepAP203_ClassifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_ClassifiedItem.hxx>
 
 //=======================================================================
 //function : StepAP203_ClassifiedItem

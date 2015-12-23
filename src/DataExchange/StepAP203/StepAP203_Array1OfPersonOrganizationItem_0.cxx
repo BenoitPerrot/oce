@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepAP203_Array1OfPersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_Array1OfPersonOrganizationItem.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepAP203_PersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_PersonOrganizationItem.hxx>
  
 
 #define Array1Item StepAP203_PersonOrganizationItem
-#define Array1Item_hxx <StepAP203_PersonOrganizationItem.hxx>
+#define Array1Item_hxx <DataExchange/StepAP203/StepAP203_PersonOrganizationItem.hxx>
 #define TCollection_Array1 StepAP203_Array1OfPersonOrganizationItem
-#define TCollection_Array1_hxx <StepAP203_Array1OfPersonOrganizationItem.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepAP203/StepAP203_Array1OfPersonOrganizationItem.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

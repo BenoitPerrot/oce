@@ -18,12 +18,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP203_CcDesignCertification.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignCertification.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignCertification.hxx>
-#include <StepAP203_HArray1OfCertifiedItem.hxx>
-#include <StepAP203_CertifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfCertifiedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_CertifiedItem.hxx>
 
 //=======================================================================
 //function : RWStepAP203_RWCcDesignCertification

@@ -16,9 +16,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepAP203_HArray1OfChangeRequestItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfChangeRequestItem.hxx>
 #include <StepBasic_VersionedActionRequest.hxx>
-#include <StepAP203_ChangeRequest.hxx>
+#include <DataExchange/StepAP203/StepAP203_ChangeRequest.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP203_ChangeRequest)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
-#include <StepAP203_ChangeRequestItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_ChangeRequestItem.hxx>
 
 //=======================================================================
 //function : StepAP203_ChangeRequestItem

@@ -18,12 +18,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP203_CcDesignApproval.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignApproval.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignApproval.hxx>
-#include <StepAP203_HArray1OfApprovedItem.hxx>
-#include <StepAP203_ApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfApprovedItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_ApprovedItem.hxx>
 
 //=======================================================================
 //function : RWStepAP203_RWCcDesignApproval

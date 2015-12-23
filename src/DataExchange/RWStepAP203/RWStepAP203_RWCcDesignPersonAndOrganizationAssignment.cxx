@@ -18,12 +18,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignPersonAndOrganizationAssignment.hxx>
-#include <StepAP203_HArray1OfPersonOrganizationItem.hxx>
-#include <StepAP203_PersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfPersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_PersonOrganizationItem.hxx>
 
 //=======================================================================
 //function : RWStepAP203_RWCcDesignPersonAndOrganizationAssignment

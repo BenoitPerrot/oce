@@ -18,12 +18,12 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepAP203_CcDesignDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP203/StepAP203_CcDesignDateAndTimeAssignment.hxx>
 #include <StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignDateAndTimeAssignment.hxx>
-#include <StepAP203_HArray1OfDateTimeItem.hxx>
-#include <StepAP203_DateTimeItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_HArray1OfDateTimeItem.hxx>
+#include <DataExchange/StepAP203/StepAP203_DateTimeItem.hxx>
 
 //=======================================================================
 //function : RWStepAP203_RWCcDesignDateAndTimeAssignment
