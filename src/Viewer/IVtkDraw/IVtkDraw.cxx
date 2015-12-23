@@ -114,7 +114,7 @@
 #include <X11/Shell.h>
 #include <X11/Xlib.h>
 #include <GL/glx.h>
-#include <Xw_Window.hxx>
+#include <Visualization/Xw/Xw_Window.hxx>
 #include <vtkXRenderWindowInteractor.h>
 #include <vtkXOpenGLRenderWindow.h>
 #include <X11/Xutil.h>

@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_View)
 #elif (defined(__APPLE__) && !defined(MACOSX_USE_GLX))
   #include <Visualization/Cocoa/Cocoa_Window.hxx>
 #else
-  #include <Xw_Window.hxx>
+  #include <Visualization/Xw/Xw_Window.hxx>
 #endif
 
 #include <float.h>

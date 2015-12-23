@@ -33,7 +33,7 @@
 #include <X11/Xatom.h>
 #include <X11/Xmu/StdCmap.h>
 #include <X11/Xlib.h>
-#include <Xw_Window.hxx>
+#include <Visualization/Xw/Xw_Window.hxx>
 #include <QColormap>
 #endif
 
