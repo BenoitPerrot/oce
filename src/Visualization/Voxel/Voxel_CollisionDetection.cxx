@@ -15,9 +15,9 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_CollisionDetection.hxx>
-#include <Voxel_FastConverter.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_CollisionDetection.hxx>
+#include <Visualization/Voxel/Voxel_FastConverter.hxx>
 
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>

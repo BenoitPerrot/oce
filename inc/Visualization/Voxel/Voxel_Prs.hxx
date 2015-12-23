@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Handle_Poly_Triangulation.hxx>
-#include <Voxel_VoxelDisplayMode.hxx>
+#include <Visualization/Voxel/Voxel_VoxelDisplayMode.hxx>
 #include <Handle_Quantity_HArray1OfColor.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

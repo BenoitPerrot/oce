@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/V3d/V3d_View.hxx>
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_ROctBoolDS.hxx>
-#include <Voxel_Selector.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_ROctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_Selector.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

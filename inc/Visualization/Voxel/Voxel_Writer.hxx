@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Voxel_VoxelFileFormat.hxx>
+#include <Visualization/Voxel/Voxel_VoxelFileFormat.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Voxel_BoolDS;

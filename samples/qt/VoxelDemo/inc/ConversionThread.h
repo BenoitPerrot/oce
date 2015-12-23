@@ -2,8 +2,8 @@
 #define _CONVERSIONTHREAD_H_
 
 #include <QThread.h>
-//#include <Voxel_Converter.hxx>
-#include <Voxel_FastConverter.hxx>
+//#include <Visualization/Voxel/Voxel_Converter.hxx>
+#include <Visualization/Voxel/Voxel_FastConverter.hxx>
 
 class ConversionThread : public QThread
 {

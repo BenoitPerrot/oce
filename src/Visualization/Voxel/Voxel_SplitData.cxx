@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_SplitData.hxx>
+#include <Visualization/Voxel/Voxel_SplitData.hxx>
 
 Voxel_SplitData::Voxel_SplitData():myValues(0),mySplitData(0)
 {

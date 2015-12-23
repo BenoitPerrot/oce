@@ -9,7 +9,7 @@
 
 #include <WNT_Window.hxx>
 
-#include <Voxel_Prs.hxx>
+#include <Visualization/Voxel/Voxel_Prs.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Visualization/AIS/AIS_ListIteratorOfListOfInteractive.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>

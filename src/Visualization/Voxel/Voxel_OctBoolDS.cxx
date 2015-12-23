@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_OctBoolDS.hxx>
-#include <Voxel_TypeDef.hxx>
+#include <Visualization/Voxel/Voxel_OctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_TypeDef.hxx>
 
 #include <stdlib.h>
 

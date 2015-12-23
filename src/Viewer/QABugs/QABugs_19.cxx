@@ -673,9 +673,9 @@ static Standard_Integer OCC23945 (Draw_Interpretor& /*di*/,Standard_Integer n, c
   return 0;
 }
 
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_FastConverter.hxx>
-#include <Voxel_BooleanOperation.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_FastConverter.hxx>
+#include <Visualization/Voxel/Voxel_BooleanOperation.hxx>
 static Standard_Integer OCC24019 (Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
 {
   if ( argc != 2 ) {
@@ -1313,7 +1313,7 @@ static Standard_Integer OCC24012 (Draw_Interpretor& di, Standard_Integer argc, c
 	return 0;
 }
 
-#include <Voxel_FastConverter.hxx>
+#include <Visualization/Voxel/Voxel_FastConverter.hxx>
 static Standard_Integer OCC24051 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv) 
 {
 	if (argc != 1) {

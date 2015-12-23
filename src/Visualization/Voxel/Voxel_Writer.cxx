@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_FloatDS.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_FloatDS.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Voxel_Writer.hxx>
-#include <Voxel_TypeDef.hxx>
+#include <Visualization/Voxel/Voxel_Writer.hxx>
+#include <Visualization/Voxel/Voxel_TypeDef.hxx>
 
 #include <Precision.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_FloatDS.hxx>
+#include <Visualization/Voxel/Voxel_FloatDS.hxx>
 
 #include <stdlib.h>
 

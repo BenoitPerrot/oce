@@ -14,16 +14,16 @@
 #include <QInputDialog.h>
 #include <QCloseEvent>
 
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_FloatDS.hxx>
-#include <Voxel_OctBoolDS.hxx>
-#include <Voxel_ROctBoolDS.hxx>
-#include <Voxel_BooleanOperation.hxx>
-#include <Voxel_CollisionDetection.hxx>
-#include <Voxel_FastConverter.hxx>
-#include <Voxel_Writer.hxx>
-#include <Voxel_Reader.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_FloatDS.hxx>
+#include <Visualization/Voxel/Voxel_OctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ROctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_BooleanOperation.hxx>
+#include <Visualization/Voxel/Voxel_CollisionDetection.hxx>
+#include <Visualization/Voxel/Voxel_FastConverter.hxx>
+#include <Visualization/Voxel/Voxel_Writer.hxx>
+#include <Visualization/Voxel/Voxel_Reader.hxx>
 #include <VoxelClient_VisDrawer.h>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>

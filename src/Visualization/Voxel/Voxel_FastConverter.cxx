@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_ROctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_ROctBoolDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Voxel_FastConverter.hxx>
+#include <Visualization/Voxel/Voxel_FastConverter.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

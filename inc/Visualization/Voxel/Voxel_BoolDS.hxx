@@ -3,22 +3,22 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _Voxel_FloatDS_HeaderFile
-#define _Voxel_FloatDS_HeaderFile
+#ifndef _Voxel_BoolDS_HeaderFile
+#define _Voxel_BoolDS_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Voxel_DS.hxx>
+#include <Visualization/Voxel/Voxel_DS.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Foundation/Standard/Standard_ShortReal.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
 
 
-//! A 3D voxel model keeping a foating-point
+//! A 3D voxel model keeping a bool flag (1 or 0)
 //! value for each voxel.
-class Voxel_FloatDS  : public Voxel_DS
+class Voxel_BoolDS  : public Voxel_DS
 {
 public:
 
@@ -26,13 +26,13 @@ public:
 
   
   //! An empty constructor.
-  Standard_EXPORT Voxel_FloatDS();
+  Standard_EXPORT Voxel_BoolDS();
   
   //! A constructor initializing the voxel model.
   //! (x, y, z) - the start point of the box.
   //! (x_len, y_len, z_len) - lengths in x, y and z directions along axes of a co-ordinate system.
   //! (nb_x, nb_y, nb_z) - number of splits (voxels) along x, y and z directions.
-  Standard_EXPORT Voxel_FloatDS(const Standard_Real x, const Standard_Real y, const Standard_Real z, const Standard_Real x_len, const Standard_Real y_len, const Standard_Real z_len, const Standard_Integer nb_x, const Standard_Integer nb_y, const Standard_Integer nb_z);
+  Standard_EXPORT Voxel_BoolDS(const Standard_Real x, const Standard_Real y, const Standard_Real z, const Standard_Real x_len, const Standard_Real y_len, const Standard_Real z_len, const Standard_Integer nb_x, const Standard_Integer nb_y, const Standard_Integer nb_z);
   
   //! Initialization of the voxel model.
   //! (x, y, z) - the start point of the box.
@@ -42,7 +42,7 @@ public:
   
   //! A destructor of the voxel model.
   Standard_EXPORT   void Destroy() ;
-~Voxel_FloatDS()
+~Voxel_BoolDS()
 {
   Destroy();
 }
@@ -52,13 +52,13 @@ public:
   Standard_EXPORT   void SetZero() ;
   
   //! Defines a value for voxel with co-ordinates (ix, iy, iz).
-  //! Initial state of the model is so that all voxels have value 0.0f,
+  //! Initial state of the model is so that all voxels have value 0 (false),
   //! and this data doesn't occupy memory.
-  //! Memory for data is allocating during setting non-zero values.
-  Standard_EXPORT   void Set (const Standard_Integer ix, const Standard_Integer iy, const Standard_Integer iz, const Standard_ShortReal data) ;
+  //! Memory for data is allocating during setting non-zero values (true).
+  Standard_EXPORT   void Set (const Standard_Integer ix, const Standard_Integer iy, const Standard_Integer iz, const Standard_Boolean data = Standard_True) ;
   
   //! Returns the value of voxel with co-ordinates (ix, iy, iz).
-  Standard_EXPORT   Standard_ShortReal Get (const Standard_Integer ix, const Standard_Integer iy, const Standard_Integer iz)  const;
+  Standard_EXPORT   Standard_Boolean Get (const Standard_Integer ix, const Standard_Integer iy, const Standard_Integer iz)  const;
 
 
 
@@ -83,4 +83,4 @@ private:
 
 
 
-#endif // _Voxel_FloatDS_HeaderFile
+#endif // _Voxel_BoolDS_HeaderFile

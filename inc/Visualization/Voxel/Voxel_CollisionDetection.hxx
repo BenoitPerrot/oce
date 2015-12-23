@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
 class TopoDS_Shape;
 class Bnd_Box;
 class Voxel_BoolDS;

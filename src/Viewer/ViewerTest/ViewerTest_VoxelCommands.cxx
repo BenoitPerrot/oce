@@ -19,13 +19,13 @@
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_FloatDS.hxx>
-#include <Voxel_OctBoolDS.hxx>
-#include <Voxel_ROctBoolDS.hxx>
-#include <Voxel_BooleanOperation.hxx>
-#include <Voxel_FastConverter.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_FloatDS.hxx>
+#include <Visualization/Voxel/Voxel_OctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ROctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_BooleanOperation.hxx>
+#include <Visualization/Voxel/Voxel_FastConverter.hxx>
 
 // A method parses the input parameters.
 static Standard_Boolean GetInputParameters(Standard_Integer  nbargs, const char** args, 

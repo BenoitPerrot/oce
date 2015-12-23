@@ -23,10 +23,10 @@
 #include <Mathematics/Collections/TColgp_HArray1OfDir.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_ROctBoolDS.hxx>
-#include <Voxel_VoxelDisplayMode.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_ROctBoolDS.hxx>
+#include <Visualization/Voxel/Voxel_VoxelDisplayMode.hxx>
 
 enum VoxelDirection
 {

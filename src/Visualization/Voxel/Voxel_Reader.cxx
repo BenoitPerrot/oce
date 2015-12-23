@@ -14,12 +14,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Voxel_Reader.hxx>
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_FloatDS.hxx>
-#include <Voxel_VoxelFileFormat.hxx>
-#include <Voxel_TypeDef.hxx>
+#include <Visualization/Voxel/Voxel_Reader.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_FloatDS.hxx>
+#include <Visualization/Voxel/Voxel_VoxelFileFormat.hxx>
+#include <Visualization/Voxel/Voxel_TypeDef.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>

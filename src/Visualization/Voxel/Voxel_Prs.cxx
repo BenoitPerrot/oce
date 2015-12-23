@@ -18,7 +18,7 @@
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
-#include <Voxel_Prs.hxx>
+#include <Visualization/Voxel/Voxel_Prs.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Voxel_Prs)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Voxel_Prs)
 IMPLEMENT_DOWNCAST(Voxel_Prs,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Voxel_Prs)
-#include "Voxel_VisData.h"
+#include <Visualization/Voxel/Voxel_VisData.h>
 
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>

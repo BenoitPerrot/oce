@@ -3,9 +3,9 @@
 
 #include <qmainwindow.h>
 #include <Visualization/AIS/AIS_Shape.hxx>
-#include <Voxel_Prs.hxx>
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_Prs.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
 #include "Viewer.h"
 
 class Application: public QMainWindow

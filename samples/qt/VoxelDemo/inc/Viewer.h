@@ -12,8 +12,8 @@
 #include <Visualization/V3d/V3d_View.hxx>
 #include <Visualization/OpenGl/OpenGl_View.hxx>
 
-#include <Voxel_Prs.hxx>
-#include <Voxel_Selector.hxx>
+#include <Visualization/Voxel/Voxel_Prs.hxx>
+#include <Visualization/Voxel/Voxel_Selector.hxx>
 
 class Viewer : public QWidget 
 {

@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Voxel_BoolDS.hxx>
-#include <Voxel_ColorDS.hxx>
-#include <Voxel_FloatDS.hxx>
-#include <Voxel_DS.hxx>
-#include <Voxel_BooleanOperation.hxx>
+#include <Visualization/Voxel/Voxel_BoolDS.hxx>
+#include <Visualization/Voxel/Voxel_ColorDS.hxx>
+#include <Visualization/Voxel/Voxel_FloatDS.hxx>
+#include <Visualization/Voxel/Voxel_DS.hxx>
+#include <Visualization/Voxel/Voxel_BooleanOperation.hxx>
 #include <Precision.hxx>
 
 Voxel_BooleanOperation::Voxel_BooleanOperation()
