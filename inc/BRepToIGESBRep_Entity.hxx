@@ -14,7 +14,7 @@
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Handle_IGESSolid_EdgeList.hxx>
 #include <Handle_IGESSolid_VertexList.hxx>
-#include <BRepToIGES_BREntity.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

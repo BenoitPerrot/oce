@@ -24,7 +24,7 @@
 #include <IGESControl_Writer.hxx>
 #include <IGESControl_Controller.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
-#include <BRepToIGES_BREntity.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <BRepToIGESBRep_Entity.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

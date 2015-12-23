@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepToIGES_BREntity.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Surface.hxx>

@@ -41,7 +41,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <BRepToIGESBRep_Entity.hxx>
 
-#include <BRepToIGES_BRWire.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRWire.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

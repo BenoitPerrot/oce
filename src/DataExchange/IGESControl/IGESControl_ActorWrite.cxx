@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <Interface_Macros.hxx>
 #include <IGESData_IGESModel.hxx>
 
-#include <BRepToIGES_BREntity.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <BRepToIGESBRep_Entity.hxx>
 
 #include <Transfer_TransientMapper.hxx>

@@ -18,7 +18,7 @@
 //szv#4 S4163
 //S4181 pdn implementing of writing IGES elementary surfaces.
 
-#include <BRepToIGES_BREntity.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
@@ -28,7 +28,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <BRepToIGES_BRWire.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRWire.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

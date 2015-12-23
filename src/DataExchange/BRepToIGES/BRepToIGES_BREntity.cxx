@@ -22,11 +22,11 @@
 #include <IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <BRepToIGES_BREntity.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 
-#include <BRepToIGES_BRWire.hxx>
-#include <BRepToIGES_BRShell.hxx>
-#include <BRepToIGES_BRSolid.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRWire.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRShell.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRSolid.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

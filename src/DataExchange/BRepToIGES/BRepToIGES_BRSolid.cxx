@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepToIGES_BREntity.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <BRepToIGES_BRSolid.hxx>
-#include <BRepToIGES_BRShell.hxx>
-#include <BRepToIGES_BRWire.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRSolid.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRShell.hxx>
+#include <DataExchange/BRepToIGES/BRepToIGES_BRWire.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
