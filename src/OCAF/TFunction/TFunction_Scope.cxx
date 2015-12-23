@@ -15,11 +15,11 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <TFunction_DoubleMapOfIntegerLabel.hxx>
-#include <TFunction_Scope.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_Scope.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TFunction_Scope)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

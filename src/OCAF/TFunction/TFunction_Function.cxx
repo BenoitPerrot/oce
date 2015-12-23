@@ -19,7 +19,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_DataSet.hxx>
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TFunction_Function)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TFunction_Function)
 IMPLEMENT_DOWNCAST(TFunction_Function,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TFunction_Function)
-#include <TFunction_GraphNode.hxx>
-#include <TFunction_Scope.hxx>
+#include <OCAF/TFunction/TFunction_GraphNode.hxx>
+#include <OCAF/TFunction/TFunction_Scope.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

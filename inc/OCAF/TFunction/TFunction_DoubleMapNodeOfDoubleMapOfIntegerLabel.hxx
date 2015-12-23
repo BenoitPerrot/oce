@@ -65,13 +65,13 @@ private:
 #define Hasher2 TDF_LabelMapHasher
 #define Hasher2_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DoubleMapNode TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel
-#define TCollection_DoubleMapNode_hxx <TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
+#define TCollection_DoubleMapNode_hxx <OCAF/TFunction/TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 #define TCollection_DoubleMapIterator TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel
-#define TCollection_DoubleMapIterator_hxx <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
+#define TCollection_DoubleMapIterator_hxx <OCAF/TFunction/TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 #define Handle_TCollection_DoubleMapNode Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel
 #define TCollection_DoubleMapNode_Type_() TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel_Type_()
 #define TCollection_DoubleMap TFunction_DoubleMapOfIntegerLabel
-#define TCollection_DoubleMap_hxx <TFunction_DoubleMapOfIntegerLabel.hxx>
+#define TCollection_DoubleMap_hxx <OCAF/TFunction/TFunction_DoubleMapOfIntegerLabel.hxx>
 
 #include <Foundation/TCollection/TCollection_DoubleMapNode.lxx>
 

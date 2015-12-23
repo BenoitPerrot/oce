@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
-#include <TFunction_Function.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <DNaming.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

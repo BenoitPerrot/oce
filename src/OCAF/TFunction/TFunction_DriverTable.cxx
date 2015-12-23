@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <TFunction_Driver.hxx>
-#include <TFunction_DriverTable.hxx>
+#include <OCAF/TFunction/TFunction_Driver.hxx>
+#include <OCAF/TFunction/TFunction_DriverTable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TFunction_DriverTable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_TYPE_END(TFunction_DriverTable)
 IMPLEMENT_DOWNCAST(TFunction_DriverTable,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TFunction_DriverTable)
 
-#include <TFunction_DataMapOfGUIDDriver.hxx>
-#include <TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx>
-#include <TFunction_Driver.hxx>
+#include <OCAF/TFunction/TFunction_DataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/TFunction_Driver.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/TDF/TDF.hxx>
 

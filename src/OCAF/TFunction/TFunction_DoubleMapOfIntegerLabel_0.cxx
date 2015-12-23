@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TFunction_DoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapOfIntegerLabel.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_MultiplyDefined.hxx>
@@ -11,8 +11,8 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <OCAF/TDF/TDF_LabelMapHasher.hxx>
-#include <TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
-#include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
  
 
 #define TheKey1 Standard_Integer
@@ -24,12 +24,12 @@
 #define Hasher2 TDF_LabelMapHasher
 #define Hasher2_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DoubleMapNode TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel
-#define TCollection_DoubleMapNode_hxx <TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
+#define TCollection_DoubleMapNode_hxx <OCAF/TFunction/TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 #define TCollection_DoubleMapIterator TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel
-#define TCollection_DoubleMapIterator_hxx <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
+#define TCollection_DoubleMapIterator_hxx <OCAF/TFunction/TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 #define Handle_TCollection_DoubleMapNode Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel
 #define TCollection_DoubleMapNode_Type_() TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel_Type_()
 #define TCollection_DoubleMap TFunction_DoubleMapOfIntegerLabel
-#define TCollection_DoubleMap_hxx <TFunction_DoubleMapOfIntegerLabel.hxx>
+#define TCollection_DoubleMap_hxx <OCAF/TFunction/TFunction_DoubleMapOfIntegerLabel.hxx>
 #include <Foundation/TCollection/TCollection_DoubleMap.gxx>
 

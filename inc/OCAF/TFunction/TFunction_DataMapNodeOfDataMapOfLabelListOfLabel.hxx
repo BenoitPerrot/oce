@@ -60,13 +60,13 @@ private:
 #define Hasher TDF_LabelMapHasher
 #define Hasher_hxx <OCAF/TDF/TDF_LabelMapHasher.hxx>
 #define TCollection_DataMapNode TFunction_DataMapNodeOfDataMapOfLabelListOfLabel
-#define TCollection_DataMapNode_hxx <TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TFunction/TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
 #define TCollection_DataMapIterator TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel
-#define TCollection_DataMapIterator_hxx <TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TFunction/TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel.hxx>
 #define Handle_TCollection_DataMapNode Handle_TFunction_DataMapNodeOfDataMapOfLabelListOfLabel
 #define TCollection_DataMapNode_Type_() TFunction_DataMapNodeOfDataMapOfLabelListOfLabel_Type_()
 #define TCollection_DataMap TFunction_DataMapOfLabelListOfLabel
-#define TCollection_DataMap_hxx <TFunction_DataMapOfLabelListOfLabel.hxx>
+#define TCollection_DataMap_hxx <OCAF/TFunction/TFunction_DataMapOfLabelListOfLabel.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

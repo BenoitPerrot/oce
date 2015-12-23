@@ -15,7 +15,7 @@
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <Handle_TFunction_Scope.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TFunction_ExecutionStatus.hxx>
+#include <OCAF/TFunction/TFunction_ExecutionStatus.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TFunction_Scope;
 class TDF_Label;

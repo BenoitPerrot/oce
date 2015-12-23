@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item TFunction_DataMapOfGUIDDriver
-#define Array1Item_hxx <TFunction_DataMapOfGUIDDriver.hxx>
+#define Array1Item_hxx <OCAF/TFunction/TFunction_DataMapOfGUIDDriver.hxx>
 #define TCollection_Array1 TFunction_Array1OfDataMapOfGUIDDriver
-#define TCollection_Array1_hxx <TFunction_Array1OfDataMapOfGUIDDriver.hxx>
+#define TCollection_Array1_hxx <OCAF/TFunction/TFunction_Array1OfDataMapOfGUIDDriver.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

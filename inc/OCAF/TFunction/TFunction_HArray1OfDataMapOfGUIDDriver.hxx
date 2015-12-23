@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 
-#include <TFunction_Array1OfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/TFunction_Array1OfDataMapOfGUIDDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 TFunction_DataMapOfGUIDDriver
-#define ItemHArray1_hxx <TFunction_DataMapOfGUIDDriver.hxx>
+#define ItemHArray1_hxx <OCAF/TFunction/TFunction_DataMapOfGUIDDriver.hxx>
 #define TheArray1 TFunction_Array1OfDataMapOfGUIDDriver
-#define TheArray1_hxx <TFunction_Array1OfDataMapOfGUIDDriver.hxx>
+#define TheArray1_hxx <OCAF/TFunction/TFunction_Array1OfDataMapOfGUIDDriver.hxx>
 #define TCollection_HArray1 TFunction_HArray1OfDataMapOfGUIDDriver
-#define TCollection_HArray1_hxx <TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
+#define TCollection_HArray1_hxx <OCAF/TFunction/TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 #define Handle_TCollection_HArray1 Handle_TFunction_HArray1OfDataMapOfGUIDDriver
 #define TCollection_HArray1_Type_() TFunction_HArray1OfDataMapOfGUIDDriver_Type_()
 

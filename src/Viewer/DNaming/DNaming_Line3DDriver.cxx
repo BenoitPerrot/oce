@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
@@ -59,8 +59,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <TNaming.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TFunction_Logbook.hxx>
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <DNaming.hxx>
 #include <ModelDefinitions.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>

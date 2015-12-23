@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 #include <DNaming_BoxDriver.hxx>
@@ -27,10 +27,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DNaming_BoxDriver)
 IMPLEMENT_DOWNCAST(DNaming_BoxDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>

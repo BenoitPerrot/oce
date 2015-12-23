@@ -13,10 +13,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <DNaming_BooleanOperationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_BooleanOperationDriver)
@@ -28,10 +28,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DNaming_BooleanOperationDriver)
 IMPLEMENT_DOWNCAST(DNaming_BooleanOperationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>

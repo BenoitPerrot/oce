@@ -19,7 +19,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_DataSet.hxx>
-#include <TFunction_GraphNode.hxx>
+#include <OCAF/TFunction/TFunction_GraphNode.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TFunction_GraphNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TFunction_GraphNode)
 IMPLEMENT_DOWNCAST(TFunction_GraphNode,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TFunction_GraphNode)
-#include <TFunction_Scope.hxx>
+#include <OCAF/TFunction/TFunction_Scope.hxx>
 
 //=======================================================================
 //function : GetID

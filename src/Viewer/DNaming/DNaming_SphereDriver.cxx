@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
 #include <DNaming_SphereDriver.hxx>
@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Builder.hxx>
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 
 #include <DNaming.hxx>
 #include <ModelDefinitions.hxx>

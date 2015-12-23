@@ -16,7 +16,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

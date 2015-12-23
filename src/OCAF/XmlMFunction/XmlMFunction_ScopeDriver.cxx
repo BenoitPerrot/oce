@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(XmlMFunction_ScopeDriver)
 #include <OCAF/TDF/TDF_LabelList.hxx>
 #include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 
-#include <TFunction_Scope.hxx>
-#include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_Scope.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 
 IMPLEMENT_DOMSTRING (LastIDIndex,    "lastid")
 IMPLEMENT_DOMSTRING (LastLabelIndex, "lastlabel")

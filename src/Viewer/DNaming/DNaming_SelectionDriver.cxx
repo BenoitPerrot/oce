@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <DNaming_SelectionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_SelectionDriver)
@@ -29,12 +29,12 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SelectionDriver)
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_Selector.hxx>
 #include <TNaming_Tool.hxx>
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <ModelDefinitions.hxx>
 

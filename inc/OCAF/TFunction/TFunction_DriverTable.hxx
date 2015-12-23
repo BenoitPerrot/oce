@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_DriverTable.hxx>
 
-#include <TFunction_DataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/TFunction_DataMapOfGUIDDriver.hxx>
 #include <Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

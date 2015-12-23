@@ -102,7 +102,7 @@ private:
 };
 
 
-#include <TFunction_Logbook.lxx>
+#include <OCAF/TFunction/TFunction_Logbook.lxx>
 
 
 

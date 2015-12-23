@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TFunction_Scope.hxx>
 
-#include <TFunction_DoubleMapOfIntegerLabel.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

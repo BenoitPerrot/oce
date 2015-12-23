@@ -11,7 +11,7 @@
 #include <Handle_TFunction_GraphNode.hxx>
 
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <TFunction_ExecutionStatus.hxx>
+#include <OCAF/TFunction/TFunction_ExecutionStatus.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

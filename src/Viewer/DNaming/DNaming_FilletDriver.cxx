@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <TNaming_Iterator.hxx>
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TFunction_Logbook.hxx>
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <DNaming.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelDefinitions.hxx>

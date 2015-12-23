@@ -964,7 +964,7 @@ static Standard_Integer DDataStd_DumpRelation (Draw_Interpretor& di,
   return 1;
 }
 
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 //=======================================================================
 //function : SetFunction (DF, entry, guid, failure)
 //=======================================================================

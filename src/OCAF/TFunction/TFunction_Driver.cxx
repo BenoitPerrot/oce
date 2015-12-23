@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_LabelList.hxx>
-#include <TFunction_Driver.hxx>
+#include <OCAF/TFunction/TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TFunction_Driver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

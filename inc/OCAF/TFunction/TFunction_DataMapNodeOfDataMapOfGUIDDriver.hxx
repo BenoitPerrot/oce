@@ -55,17 +55,17 @@ private:
 #define TheKey Standard_GUID
 #define TheKey_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TheItem Handle(TFunction_Driver)
-#define TheItem_hxx <TFunction_Driver.hxx>
+#define TheItem_hxx <OCAF/TFunction/TFunction_Driver.hxx>
 #define Hasher Standard_GUID
 #define Hasher_hxx <Foundation/Standard/Standard_GUID.hxx>
 #define TCollection_DataMapNode TFunction_DataMapNodeOfDataMapOfGUIDDriver
-#define TCollection_DataMapNode_hxx <TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/TFunction/TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 #define TCollection_DataMapIterator TFunction_DataMapIteratorOfDataMapOfGUIDDriver
-#define TCollection_DataMapIterator_hxx <TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/TFunction/TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx>
 #define Handle_TCollection_DataMapNode Handle_TFunction_DataMapNodeOfDataMapOfGUIDDriver
 #define TCollection_DataMapNode_Type_() TFunction_DataMapNodeOfDataMapOfGUIDDriver_Type_()
 #define TCollection_DataMap TFunction_DataMapOfGUIDDriver
-#define TCollection_DataMap_hxx <TFunction_DataMapOfGUIDDriver.hxx>
+#define TCollection_DataMap_hxx <OCAF/TFunction/TFunction_DataMapOfGUIDDriver.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

@@ -13,13 +13,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TFunction_Scope.hxx>
+#include <OCAF/TFunction/TFunction_Scope.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_LabelList.hxx>
-#include <TFunction_Iterator.hxx>
-#include <TFunction_IFunction.hxx>
-#include <TFunction_GraphNode.hxx>
-#include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_Iterator.hxx>
+#include <OCAF/TFunction/TFunction_IFunction.hxx>
+#include <OCAF/TFunction/TFunction_GraphNode.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>

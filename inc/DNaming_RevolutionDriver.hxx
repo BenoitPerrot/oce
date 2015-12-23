@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_DNaming_RevolutionDriver.hxx>
 
-#include <TFunction_Driver.hxx>
+#include <OCAF/TFunction/TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TFunction_Logbook;

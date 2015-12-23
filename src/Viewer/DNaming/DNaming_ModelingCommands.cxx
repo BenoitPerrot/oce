@@ -49,10 +49,10 @@
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
-#include <TFunction_Function.hxx>
-#include <TFunction_Logbook.hxx>
-#include <TFunction_Driver.hxx>
-#include <TFunction_DriverTable.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Logbook.hxx>
+#include <OCAF/TFunction/TFunction_Driver.hxx>
+#include <OCAF/TFunction/TFunction_DriverTable.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Selector.hxx>
 #include <TNaming_Builder.hxx>

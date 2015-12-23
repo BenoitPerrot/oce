@@ -106,7 +106,7 @@ private:
 };
 
 
-#include <TFunction_Function.lxx>
+#include <OCAF/TFunction/TFunction_Function.lxx>
 
 
 

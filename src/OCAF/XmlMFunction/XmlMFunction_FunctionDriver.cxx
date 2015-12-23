@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMFunction_FunctionDriver)
 
 #include <XmlObjMgt.hxx>
 
-#include <TFunction_Function.hxx>
+#include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 
 IMPLEMENT_DOMSTRING (GuidString, "guid")

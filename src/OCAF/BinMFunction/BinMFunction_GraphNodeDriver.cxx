@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMFunction_GraphNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMFunction_GraphNodeDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <TFunction_GraphNode.hxx>
+#include <OCAF/TFunction/TFunction_GraphNode.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

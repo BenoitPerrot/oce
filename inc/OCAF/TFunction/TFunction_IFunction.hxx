@@ -12,7 +12,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <TFunction_ExecutionStatus.hxx>
+#include <OCAF/TFunction/TFunction_ExecutionStatus.hxx>
 #include <Handle_TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TFunction_GraphNode.hxx>

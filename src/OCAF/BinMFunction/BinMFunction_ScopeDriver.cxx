@@ -29,13 +29,13 @@ IMPLEMENT_DOWNCAST(BinMFunction_ScopeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMFunction_ScopeDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <TFunction_Scope.hxx>
+#include <OCAF/TFunction/TFunction_Scope.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 
