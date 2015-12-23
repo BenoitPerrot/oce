@@ -29,7 +29,7 @@
 #include <GeometryTest.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

@@ -51,7 +51,7 @@
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 //Temporary
-#//include <DrawTrSurf.hxx>
+#//include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 
 //=======================================================================

@@ -18,7 +18,7 @@
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
-#include <DrawTrSurf_Drawable.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Drawable.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Drawable)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

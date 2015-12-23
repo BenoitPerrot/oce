@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <DrawTrSurf_Curve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 #include <Handle_Geom_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -78,7 +78,7 @@ private:
 };
 
 
-#include <DrawTrSurf_BezierCurve.lxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierCurve.lxx>
 
 
 

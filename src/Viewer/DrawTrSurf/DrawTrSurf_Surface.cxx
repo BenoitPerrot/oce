@@ -16,7 +16,7 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <DrawTrSurf_Surface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Surface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Surface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

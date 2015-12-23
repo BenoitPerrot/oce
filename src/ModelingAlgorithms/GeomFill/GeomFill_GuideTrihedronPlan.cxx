@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 #include <Precision.hxx>
 
 #if DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 
 #ifdef OCCT_DEBUG

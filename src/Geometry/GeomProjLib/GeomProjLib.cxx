@@ -63,7 +63,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static Standard_Boolean Affich = Standard_False;
 static Standard_Integer NBPROJ = 1;
 #endif

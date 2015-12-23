@@ -91,7 +91,7 @@ static Standard_Boolean Affich = Standard_False;
 static Standard_Integer NbOFFSET = 0;
 #endif
 #ifdef DRAW 
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #endif
 #include <stdio.h>

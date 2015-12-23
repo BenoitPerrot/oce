@@ -69,7 +69,7 @@ static Standard_Boolean Affich=0;
 #ifdef DRAW
 static Standard_Integer CorrNumber = 0;
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Segment2D.hxx>
 //#include <Viewer/Draw/Draw.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

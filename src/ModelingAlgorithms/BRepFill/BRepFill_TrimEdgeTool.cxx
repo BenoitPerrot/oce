@@ -41,7 +41,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 static Standard_Boolean Affich       = Standard_False;
 #endif

@@ -29,7 +29,7 @@
 #include <ShapeUpgrade_SplitSurfaceContinuity.hxx>
 //#include <ShapeUpgrade_SupportModification.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

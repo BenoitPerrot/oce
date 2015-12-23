@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_NSections)
 
 #ifdef OCCT_DEBUG
 # ifdef DRAW
-#  include <DrawTrSurf.hxx>
+#  include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 # endif
 static Standard_Boolean Affich = 0;
 static Standard_Integer NbSurf = 0;

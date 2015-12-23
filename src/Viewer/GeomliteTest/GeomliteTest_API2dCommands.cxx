@@ -21,9 +21,9 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf_Curve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ExtremaCurveCurve.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_PointsToBSpline.hxx>

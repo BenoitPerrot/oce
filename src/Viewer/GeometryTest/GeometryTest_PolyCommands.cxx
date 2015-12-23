@@ -20,11 +20,11 @@
 #include <Mathematics/Polyhedral/Poly_Triangle.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf_Triangulation.hxx>
-#include <DrawTrSurf_Polygon3D.hxx>
-#include <DrawTrSurf_Polygon2D.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Triangulation.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Polygon3D.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Polygon2D.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>

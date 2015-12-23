@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <OCAF/TDF/TDF_LabelList.hxx> 
 #include <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
 // drawable object
-#include <DrawTrSurf_Surface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Surface.hxx>
 #include <Viewer/Draw/Draw_Axis3D.hxx>
 #include <Viewer/DrawDim/DrawDim_Distance.hxx>
 #include <Viewer/DrawDim/DrawDim_Radius.hxx>

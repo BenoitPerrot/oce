@@ -17,7 +17,7 @@
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

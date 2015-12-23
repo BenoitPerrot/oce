@@ -76,7 +76,7 @@
 
 #ifdef OCCT_DEBUG
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 //static Standard_Integer compteur = 0;
 #endif

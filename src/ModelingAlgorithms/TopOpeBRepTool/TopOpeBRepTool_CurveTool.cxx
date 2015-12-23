@@ -77,7 +77,7 @@ extern Standard_Boolean TopOpeBRepTool_GettraceCHKBSPL();
 //#define IFV 
 #define CurveImprovement
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static Standard_Integer NbCalls = 0;
 #endif
 //=======================================================================

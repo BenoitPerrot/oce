@@ -20,13 +20,13 @@
 
 #include <GeomliteTest.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
-#include <DrawTrSurf_Curve.hxx>
-#include <DrawTrSurf_Curve2d.hxx>
-#include <DrawTrSurf_BezierCurve.hxx>
-#include <DrawTrSurf_BSplineCurve.hxx>
-#include <DrawTrSurf_BezierCurve2d.hxx>
-#include <DrawTrSurf_BSplineCurve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierCurve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve2d.hxx>
 #include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <Viewer/Draw/Draw_Marker2D.hxx>
 #include <Viewer/Draw/Draw.hxx>

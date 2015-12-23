@@ -18,7 +18,7 @@
 #include <TopOpeBRepTool_DRAW.hxx>
 #include <TopOpeBRepDS_DRAW.hxx>
 
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

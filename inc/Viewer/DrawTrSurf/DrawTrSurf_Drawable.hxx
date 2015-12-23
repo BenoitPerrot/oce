@@ -81,7 +81,7 @@ private:
 };
 
 
-#include <DrawTrSurf_Drawable.lxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Drawable.lxx>
 
 
 

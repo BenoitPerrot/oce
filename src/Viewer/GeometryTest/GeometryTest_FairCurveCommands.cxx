@@ -17,8 +17,8 @@
 #include <GeometryTest.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
-#include <DrawTrSurf.hxx>
-#include <DrawTrSurf_Point.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Point.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/FairCurve/FairCurve_AnalysisCode.hxx>
 #include <ModelingAlgorithms/FairCurve/FairCurve_Batten.hxx>

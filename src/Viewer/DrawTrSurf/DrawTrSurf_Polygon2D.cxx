@@ -17,7 +17,7 @@
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <DrawTrSurf_Polygon2D.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Polygon2D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Polygon2D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

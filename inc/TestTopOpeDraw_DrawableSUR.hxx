@@ -12,7 +12,7 @@
 
 #include <Handle_Draw_Text3D.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <DrawTrSurf_Surface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Surface.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

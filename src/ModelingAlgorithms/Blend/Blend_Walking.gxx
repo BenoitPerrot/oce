@@ -30,7 +30,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #ifdef DRAW
 #include <Viewer/Draw/Draw.hxx>
-#include <DrawTrSurf_BSplineCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve.hxx>
 #endif
 //POP pour NT
 #include <stdio.h>

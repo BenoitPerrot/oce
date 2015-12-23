@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Stream.hxx>
 
 #include <GeomliteTest.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
@@ -36,10 +36,10 @@
 
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
-#include <DrawTrSurf_BSplineCurve.hxx>
-#include <DrawTrSurf_BezierCurve.hxx>
-#include <DrawTrSurf_BSplineCurve2d.hxx>
-#include <DrawTrSurf_BezierCurve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierCurve2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

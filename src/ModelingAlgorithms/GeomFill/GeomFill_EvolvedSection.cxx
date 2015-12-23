@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_EvolvedSection)
 
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static Standard_Integer NumSec = 0;
 static Standard_Boolean Affich = 0;
 #endif

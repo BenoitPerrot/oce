@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <DrawTrSurf_Point.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Point.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

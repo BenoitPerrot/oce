@@ -22,7 +22,7 @@
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>
-#include <DrawTrSurf_Curve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 
 #include <TestTopOpeTools_Mesure.hxx>
 #include <TestTopOpeTools_HArray1OfMesure.hxx>

@@ -18,15 +18,15 @@
 
 #ifdef DRAW
 #include <Viewer/DBRep/DBRep.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <stdio.h>
 #endif
 
 #ifdef DRAW
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf_Curve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 
 #include <ModelingAlgorithms/MAT2d/MAT2d_Circuit.hxx>

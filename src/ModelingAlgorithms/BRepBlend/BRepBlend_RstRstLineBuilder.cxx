@@ -46,7 +46,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 static Standard_Integer IndexOfSection = 0;
 extern Standard_Boolean Blend_GettraceDRAWSECT(); 

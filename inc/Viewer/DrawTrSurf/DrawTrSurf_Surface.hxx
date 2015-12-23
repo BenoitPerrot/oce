@@ -13,7 +13,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <DrawTrSurf_Drawable.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Drawable.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
@@ -99,7 +99,7 @@ private:
 };
 
 
-#include <DrawTrSurf_Surface.lxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Surface.lxx>
 
 
 

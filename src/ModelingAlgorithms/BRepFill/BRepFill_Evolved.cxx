@@ -139,7 +139,7 @@
 
 #ifdef DRAW
 #include <Viewer/DBRep/DBRep.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <stdio.h>
 static Standard_Boolean AffichGeom = Standard_False;
 static Standard_Boolean AffichEdge = Standard_False;

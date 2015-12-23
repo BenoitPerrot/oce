@@ -25,8 +25,8 @@
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <Viewer/Draw/Draw_Segment3D.hxx>
-#include <DrawTrSurf_Point.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Point.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

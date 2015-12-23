@@ -48,9 +48,9 @@
 #include <TopOpeBRepDS_define.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf_Curve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 class TSEEpar {
 public:

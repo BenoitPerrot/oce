@@ -55,9 +55,9 @@
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
-#include <DrawTrSurf_BSplineCurve2d.hxx>
-#include <DrawTrSurf_Point.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Point.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>

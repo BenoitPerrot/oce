@@ -37,7 +37,7 @@
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Delaun.hxx>

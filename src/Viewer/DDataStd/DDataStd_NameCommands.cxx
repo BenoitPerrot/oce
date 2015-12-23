@@ -18,7 +18,7 @@
 #include <Viewer/DDF/DDF.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
 

@@ -168,7 +168,7 @@
 #ifdef OCCT_DEBUG
 # ifdef DRAW
 #include <Foundation/OSD/OSD_Chronometer.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 # endif //DRAW
 //  Modified by Sergey KHROMOV - Thu Apr 11 12:23:40 2002 Begin
 // The method

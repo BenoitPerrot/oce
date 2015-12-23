@@ -69,7 +69,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #endif
 #ifdef OCCT_DEBUG

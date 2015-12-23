@@ -22,7 +22,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //

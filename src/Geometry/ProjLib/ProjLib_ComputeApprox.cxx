@@ -45,7 +45,7 @@
 
 //#define DRAW
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 #ifdef OCCT_DEBUG
 static Standard_Boolean AffichValue = Standard_False;

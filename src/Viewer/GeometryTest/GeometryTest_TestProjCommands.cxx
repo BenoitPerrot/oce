@@ -22,7 +22,7 @@
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Marker3D.hxx>
 
 #include <stdio.h>

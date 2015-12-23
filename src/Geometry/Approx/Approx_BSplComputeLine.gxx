@@ -40,7 +40,7 @@ static Standard_Boolean mydebug = Standard_False;
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Text2D.hxx>
 #include <Viewer/Draw/Draw_Text3D.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

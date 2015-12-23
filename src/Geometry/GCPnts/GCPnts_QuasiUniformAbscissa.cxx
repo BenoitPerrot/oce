@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #ifdef OCCT_DEBUG
-//#include <DrawTrSurf.hxx>
+//#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 //static Standard_Integer compteur = 0;
 #endif

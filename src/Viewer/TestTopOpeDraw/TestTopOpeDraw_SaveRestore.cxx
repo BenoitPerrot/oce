@@ -20,7 +20,7 @@
 #include <TestTopOpeDraw_DrawableSHA.hxx>
 #include <TestTopOpeDraw_DrawableC3D.hxx>
 #include <TestTopOpeDraw_DrawableMesure.hxx>
-#include <DrawTrSurf_Curve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>

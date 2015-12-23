@@ -18,7 +18,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Viewer/Draw/Draw_Marker3D.hxx>

@@ -96,7 +96,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static Standard_Boolean Affich = 0;
 #endif
 

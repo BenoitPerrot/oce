@@ -229,7 +229,7 @@ Standard_IMPORT void DBRep_WriteColorOrientation ();
 Standard_IMPORT Draw_Color DBRep_ColorOrientation (const TopAbs_Orientation Or);
 
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfOrientedShapeInteger.hxx>

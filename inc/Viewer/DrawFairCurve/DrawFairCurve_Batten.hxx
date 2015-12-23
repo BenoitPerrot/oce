@@ -11,7 +11,7 @@
 #include <Handle_DrawFairCurve_Batten.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <DrawTrSurf_BSplineCurve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

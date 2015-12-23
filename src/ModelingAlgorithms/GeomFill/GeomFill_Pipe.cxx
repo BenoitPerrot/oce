@@ -99,7 +99,7 @@ static Standard_Integer NbSections = 0;
 #endif
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 
 static Standard_Boolean CheckSense(const TColGeom_SequenceOfCurve& Seq1,

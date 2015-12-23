@@ -46,7 +46,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/ProjLib/ProjLib_ComputeApproxOnPolarSurface.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 
 #include <Viewer/Draw/Draw_Segment3D.hxx>

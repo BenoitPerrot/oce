@@ -53,7 +53,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 //#include <GeometryTest.hxx>  essai CKY 4-AUT-1998
 //#include <Viewer/BRepTest/BRepTest.hxx>      essai CKY 4-AUT-1998

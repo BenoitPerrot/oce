@@ -3,51 +3,47 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _DrawTrSurf_Curve_HeaderFile
-#define _DrawTrSurf_Curve_HeaderFile
+#ifndef _DrawTrSurf_Curve2d_HeaderFile
+#define _DrawTrSurf_Curve2d_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawTrSurf_Curve.hxx>
+#include <Handle_DrawTrSurf_Curve2d.hxx>
 
-#include <Handle_Geom_Curve.hxx>
+#include <Handle_Geom2d_Curve.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <DrawTrSurf_Drawable.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Drawable.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-class Geom_Curve;
+class Geom2d_Curve;
 class Draw_Color;
 class Draw_Display;
 class Draw_Drawable3D;
 
 
-
-//! This class defines a drawable curve in 3d space.
-class DrawTrSurf_Curve : public DrawTrSurf_Drawable
+//! This class defines a drawable curve in 2d space.
+//! The curve is drawned in the plane XOY.
+class DrawTrSurf_Curve2d : public DrawTrSurf_Drawable
 {
 
 public:
 
   
 
-  //! creates a drawable curve from a curve of package Geom.
-  Standard_EXPORT DrawTrSurf_Curve(const Handle(Geom_Curve)& C, const Standard_Boolean DispOrigin = Standard_True);
+  //! creates a drawable curve from a curve of package Geom2d.
+  Standard_EXPORT DrawTrSurf_Curve2d(const Handle(Geom2d_Curve)& C, const Standard_Boolean DispOrigin = Standard_True);
   
-  Standard_EXPORT DrawTrSurf_Curve(const Handle(Geom_Curve)& C, const Draw_Color& aColor, const Standard_Integer Discret, const Standard_Real Deflection, const Standard_Integer DrawMode, const Standard_Boolean DispOrigin = Standard_True, const Standard_Boolean DispCurvRadius = Standard_False, const Standard_Real RadiusMax = 1.0e3, const Standard_Real RatioOfRadius = 0.1);
+  Standard_EXPORT DrawTrSurf_Curve2d(const Handle(Geom2d_Curve)& C, const Draw_Color& aColor, const Standard_Integer Discret, const Standard_Boolean DispOrigin = Standard_True, const Standard_Boolean DispCurvRadius = Standard_False, const Standard_Real RadiusMax = 1.0e3, const Standard_Real RatioOfRadius = 0.1);
   
   Standard_EXPORT   void DrawOn (Draw_Display& dis)  const;
   
-      Handle(Geom_Curve) GetCurve()  const;
+      Handle(Geom2d_Curve) GetCurve()  const;
   
       void SetColor (const Draw_Color& aColor) ;
-  
-      Standard_Boolean DisplayOrigin()  const;
-  
-      void DisplayOrigin (const Standard_Boolean V) ;
   
       void ShowCurvature() ;
   
@@ -69,6 +65,9 @@ public:
   //! For variable dump.
   Standard_EXPORT virtual   void Dump (Standard_OStream& S)  const;
   
+  //! Returns False.
+  Standard_EXPORT virtual   Standard_Boolean Is3D()  const;
+  
   //! For variable whatis command. Set  as a result  the
   //! type of the variable.
   Standard_EXPORT virtual   void Whatis (Draw_Interpretor& I)  const;
@@ -76,12 +75,12 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(DrawTrSurf_Curve)
+  DEFINE_STANDARD_RTTI(DrawTrSurf_Curve2d)
 
 protected:
 
 
-  Handle(Geom_Curve) curv;
+  Handle(Geom2d_Curve) curv;
   Draw_Color look;
   Standard_Boolean disporigin;
   Standard_Boolean dispcurvradius;
@@ -97,10 +96,10 @@ private:
 };
 
 
-#include <DrawTrSurf_Curve.lxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.lxx>
 
 
 
 
 
-#endif // _DrawTrSurf_Curve_HeaderFile
+#endif // _DrawTrSurf_Curve2d_HeaderFile

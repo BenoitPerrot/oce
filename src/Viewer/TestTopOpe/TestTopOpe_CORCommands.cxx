@@ -64,7 +64,7 @@
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 

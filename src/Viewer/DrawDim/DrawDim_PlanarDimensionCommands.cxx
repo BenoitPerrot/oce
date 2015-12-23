@@ -41,7 +41,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #ifdef WNT
 #include <stdio.h>
 #endif

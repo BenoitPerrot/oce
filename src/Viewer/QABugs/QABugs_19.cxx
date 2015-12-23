@@ -17,7 +17,7 @@
 
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeSegment.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 #include <Precision.hxx>
 

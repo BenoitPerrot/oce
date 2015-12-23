@@ -50,7 +50,7 @@
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusType.hxx>
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_ErrorTypeStatus.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
 #include <stdio.h>
 

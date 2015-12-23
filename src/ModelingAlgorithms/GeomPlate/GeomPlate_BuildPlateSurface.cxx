@@ -97,7 +97,7 @@
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_MakeApprox.hxx>
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <Viewer/Draw/Draw_Marker2D.hxx>
 #include <Viewer/Draw/Draw.hxx>

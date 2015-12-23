@@ -95,7 +95,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #if DRAW
 static Standard_Integer Affich = 0;
 #include <Geometry/Approx/Approx_Curve3d.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 
 //=======================================================================

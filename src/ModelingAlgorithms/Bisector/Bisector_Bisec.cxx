@@ -38,7 +38,7 @@
 #include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
 
 /*
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static char tname[100];
 static Standard_CString name = tname ;
 static Standard_Integer nbb  = 0;

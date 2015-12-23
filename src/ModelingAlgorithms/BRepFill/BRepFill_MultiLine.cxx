@@ -53,7 +53,7 @@
 #include <GeomAbs_SurfaceType.hxx>
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static Standard_Boolean AffichCurve = Standard_False;
 static Standard_Integer NbProj = 1;
 #endif

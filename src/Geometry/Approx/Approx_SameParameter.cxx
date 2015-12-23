@@ -44,7 +44,7 @@
 
 #ifdef OCCT_DEBUG
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <stdio.h>

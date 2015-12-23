@@ -4705,7 +4705,7 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 #include <Precision.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 //#include <DbgTools.hxx>
 //#include <FeatAlgo_MakeLinearForm.hxx>
 

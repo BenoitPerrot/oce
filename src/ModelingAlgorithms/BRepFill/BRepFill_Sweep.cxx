@@ -127,7 +127,7 @@
 
 #ifdef DRAW
 #include <Viewer/Draw/Draw.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 static Standard_Boolean Affich = 0;
 #endif

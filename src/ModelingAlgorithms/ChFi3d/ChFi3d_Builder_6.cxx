@@ -138,7 +138,7 @@
 #include <Viewer/Draw/Draw_Segment3D.hxx>
 #include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <Viewer/Draw/Draw.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static Standard_Integer IndexOfConge = 0;
 #endif
 

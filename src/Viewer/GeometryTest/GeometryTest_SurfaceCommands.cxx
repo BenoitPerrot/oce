@@ -20,7 +20,7 @@
 //		a section evolutive des tuyaux a N sections avec N = 2
 
 #include <GeometryTest.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
@@ -58,8 +58,8 @@
 #include <ModelingAlgorithms/GeomFill/GeomFill_AppSurf.hxx>
 
 
-#include <DrawTrSurf_BezierSurface.hxx>
-#include <DrawTrSurf_BSplineSurface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierSurface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineSurface.hxx>
 
 #ifdef WNT
 #include <stdio.h>

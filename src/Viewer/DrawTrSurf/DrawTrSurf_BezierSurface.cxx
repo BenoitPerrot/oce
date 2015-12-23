@@ -16,7 +16,7 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <DrawTrSurf_BezierSurface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_BezierSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_BezierSurface)
 IMPLEMENT_DOWNCAST(DrawTrSurf_BezierSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BezierSurface)
-#include <DrawTrSurf_BezierCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>

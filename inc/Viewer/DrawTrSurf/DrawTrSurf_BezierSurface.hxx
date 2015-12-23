@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _DrawTrSurf_BezierCurve2d_HeaderFile
-#define _DrawTrSurf_BezierCurve2d_HeaderFile
+#ifndef _DrawTrSurf_BezierSurface_HeaderFile
+#define _DrawTrSurf_BezierSurface_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawTrSurf_BezierCurve2d.hxx>
+#include <Handle_DrawTrSurf_BezierSurface.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <DrawTrSurf_Curve2d.hxx>
-#include <Handle_Geom2d_BezierCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Surface.hxx>
+#include <Handle_Geom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
-class Geom2d_BezierCurve;
+class Geom_BezierSurface;
 class Draw_Color;
 class Draw_Display;
 class Draw_Drawable3D;
 
 
 
-class DrawTrSurf_BezierCurve2d : public DrawTrSurf_Curve2d
+class DrawTrSurf_BezierSurface : public DrawTrSurf_Surface
 {
 
 public:
@@ -32,10 +32,10 @@ public:
   
 
   //! creates a drawable Bezier curve from a Bezier curve of
-  //! package Geom2d.
-  Standard_EXPORT DrawTrSurf_BezierCurve2d(const Handle(Geom2d_BezierCurve)& C);
+  //! package Geom.
+  Standard_EXPORT DrawTrSurf_BezierSurface(const Handle(Geom_BezierSurface)& S);
   
-  Standard_EXPORT DrawTrSurf_BezierCurve2d(const Handle(Geom2d_BezierCurve)& C, const Draw_Color& CurvColor, const Draw_Color& PolesColor, const Standard_Boolean ShowPoles, const Standard_Integer Discret);
+  Standard_EXPORT DrawTrSurf_BezierSurface(const Handle(Geom_BezierSurface)& S, const Standard_Integer NbUIsos, const Standard_Integer NbVIsos, const Draw_Color& BoundsColor, const Draw_Color& IsosColor, const Draw_Color& PolesColor, const Standard_Boolean ShowPoles, const Standard_Integer Discret, const Standard_Real Deflection, const Standard_Integer DrawMode);
   
   Standard_EXPORT   void DrawOn (Draw_Display& dis)  const;
   
@@ -43,13 +43,7 @@ public:
   
   Standard_EXPORT   void ClearPoles() ;
   
-
-  //! Returns in <Index> the index of the first pole  of the
-  //! curve projected by the Display <D> at a distance lower
-  //! than <Prec> from <X,Y>. If no pole  is found  index is
-  //! set to 0, else index is always  greater than the input
-  //! value of index.
-  Standard_EXPORT   void FindPole (const Standard_Real X, const Standard_Real Y, const Draw_Display& D, const Standard_Real Prec, Standard_Integer& Index)  const;
+  Standard_EXPORT   void FindPole (const Standard_Real X, const Standard_Real Y, const Draw_Display& D, const Standard_Real Prec, Standard_Integer& UIndex, Standard_Integer& VIndex)  const;
   
       void SetPolesColor (const Draw_Color& aColor) ;
   
@@ -61,7 +55,7 @@ public:
 
 
 
-  DEFINE_STANDARD_RTTI(DrawTrSurf_BezierCurve2d)
+  DEFINE_STANDARD_RTTI(DrawTrSurf_BezierSurface)
 
 protected:
 
@@ -78,10 +72,10 @@ private:
 };
 
 
-#include <DrawTrSurf_BezierCurve2d.lxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierSurface.lxx>
 
 
 
 
 
-#endif // _DrawTrSurf_BezierCurve2d_HeaderFile
+#endif // _DrawTrSurf_BezierSurface_HeaderFile

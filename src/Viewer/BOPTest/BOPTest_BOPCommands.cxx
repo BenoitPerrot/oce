@@ -37,7 +37,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_FaceFace.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>

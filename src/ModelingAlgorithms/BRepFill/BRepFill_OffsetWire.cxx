@@ -116,8 +116,8 @@
 
 #ifdef DRAW
 #include <Viewer/Draw/Draw.hxx>
-#include <DrawTrSurf.hxx>
-#include <DrawTrSurf_Curve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 static Standard_Boolean AffichGeom  = Standard_False;
 static Standard_Boolean Affich2d    = Standard_False;

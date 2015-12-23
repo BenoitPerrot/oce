@@ -13,7 +13,7 @@
 #include <Handle_Draw_Text2D.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <DrawTrSurf_Curve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

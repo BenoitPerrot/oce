@@ -20,7 +20,7 @@
 #include <stdio.h>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <SWDRAW.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

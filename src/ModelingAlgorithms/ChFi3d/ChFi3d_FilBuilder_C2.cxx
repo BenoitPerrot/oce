@@ -110,7 +110,7 @@
 #include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData.hxx>
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 #ifdef OCCT_DEBUG
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

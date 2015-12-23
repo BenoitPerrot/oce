@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <GeomliteTest.hxx>
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
@@ -74,8 +74,8 @@
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 
 
-#include <DrawTrSurf_BezierSurface.hxx>
-#include <DrawTrSurf_BSplineSurface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BezierSurface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/GeomLib/GeomLib_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

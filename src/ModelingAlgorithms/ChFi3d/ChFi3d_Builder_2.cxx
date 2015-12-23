@@ -129,7 +129,7 @@
 
 #ifdef OCCT_DEBUG
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #endif
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 extern Standard_Real  t_perfsetofkpart,t_perfsetofkgen,t_makextremities,t_performsurf,t_startsol;

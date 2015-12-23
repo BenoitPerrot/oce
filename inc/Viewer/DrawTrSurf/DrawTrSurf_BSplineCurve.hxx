@@ -14,7 +14,7 @@
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <DrawTrSurf_Curve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 #include <Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
@@ -104,7 +104,7 @@ private:
 };
 
 
-#include <DrawTrSurf_BSplineCurve.lxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve.lxx>
 
 
 

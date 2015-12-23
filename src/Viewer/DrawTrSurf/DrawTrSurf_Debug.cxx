@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Geometry/GeomTools/GeomTools.hxx>
 #include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
 #include <Geometry/GeomTools/GeomTools_CurveSet.hxx>

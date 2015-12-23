@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <DrawTrSurf_Triangulation.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Triangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_Triangulation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

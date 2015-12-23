@@ -17,8 +17,8 @@
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
-#include <DrawTrSurf.hxx>
-#include <DrawTrSurf_Curve2d.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>

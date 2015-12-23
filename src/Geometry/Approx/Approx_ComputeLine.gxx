@@ -41,7 +41,7 @@ static Standard_Boolean mydebug = Standard_False;
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #endif

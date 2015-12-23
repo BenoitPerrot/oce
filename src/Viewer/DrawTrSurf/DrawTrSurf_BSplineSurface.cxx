@@ -16,7 +16,7 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <DrawTrSurf_BSplineSurface.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DrawTrSurf_BSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DrawTrSurf_BSplineSurface)
 IMPLEMENT_DOWNCAST(DrawTrSurf_BSplineSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DrawTrSurf_BSplineSurface)
-#include <DrawTrSurf_BSplineCurve.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

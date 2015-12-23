@@ -48,7 +48,7 @@
 #include <stdio.h>
 
 #ifdef DRAW
-#include <DrawTrSurf.hxx>
+#include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 static Standard_Boolean Affich     = Standard_False;
 static Standard_Integer NbSECTIONS = 0;
 #endif
