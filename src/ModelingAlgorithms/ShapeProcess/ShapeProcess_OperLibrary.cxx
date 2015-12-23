@@ -14,10 +14,10 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <ShapeProcess_OperLibrary.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_OperLibrary.hxx>
 
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -30,9 +30,9 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_MsgRegistrator.hxx>
-#include <ShapeProcess.hxx>
-#include <ShapeProcess_UOperator.hxx>
-#include <ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_UOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>

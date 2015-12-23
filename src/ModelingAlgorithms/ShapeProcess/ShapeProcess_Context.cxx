@@ -18,7 +18,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Context.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeProcess_Context)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

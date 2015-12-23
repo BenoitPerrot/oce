@@ -14,7 +14,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Handle_ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Context.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_ShapeBuild_ReShape.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>

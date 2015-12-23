@@ -16,7 +16,7 @@
 #ifndef ShapeProcess_OperFunc_HeaderFile
 #define ShapeProcess_OperFunc_HeaderFile
 
-#include <ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Context.hxx>
 
 typedef Standard_Boolean (*ShapeProcess_OperFunc) (const Handle(ShapeProcess_Context)& context);
 

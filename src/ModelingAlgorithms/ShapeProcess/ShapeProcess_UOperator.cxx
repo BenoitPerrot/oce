@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeProcess_Context.hxx>
-#include <ShapeProcess_UOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_UOperator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeProcess_UOperator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

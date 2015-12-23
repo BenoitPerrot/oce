@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeProcess_DictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_DictionaryOfOperator.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <ShapeProcess_DictionaryOfOperator.hxx>
-#include <ShapeProcess_Operator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_DictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Operator.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <ShapeProcess_IteratorOfDictionaryOfOperator.hxx>
-#include <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_IteratorOfDictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
  
@@ -31,15 +31,15 @@ IMPLEMENT_STANDARD_RTTI(ShapeProcess_DictionaryOfOperator)
 
 
 #define TheItem Handle(ShapeProcess_Operator)
-#define TheItem_hxx <ShapeProcess_Operator.hxx>
+#define TheItem_hxx <ModelingAlgorithms/ShapeProcess/ShapeProcess_Operator.hxx>
 #define Dico_Iterator ShapeProcess_IteratorOfDictionaryOfOperator
-#define Dico_Iterator_hxx <ShapeProcess_IteratorOfDictionaryOfOperator.hxx>
+#define Dico_Iterator_hxx <ModelingAlgorithms/ShapeProcess/ShapeProcess_IteratorOfDictionaryOfOperator.hxx>
 #define Dico_StackItem ShapeProcess_StackItemOfDictionaryOfOperator
-#define Dico_StackItem_hxx <ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
+#define Dico_StackItem_hxx <ModelingAlgorithms/ShapeProcess/ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 #define Handle_Dico_StackItem Handle_ShapeProcess_StackItemOfDictionaryOfOperator
 #define Dico_StackItem_Type_() ShapeProcess_StackItemOfDictionaryOfOperator_Type_()
 #define Dico_Dictionary ShapeProcess_DictionaryOfOperator
-#define Dico_Dictionary_hxx <ShapeProcess_DictionaryOfOperator.hxx>
+#define Dico_Dictionary_hxx <ModelingAlgorithms/ShapeProcess/ShapeProcess_DictionaryOfOperator.hxx>
 #define Handle_Dico_Dictionary Handle_ShapeProcess_DictionaryOfOperator
 #define Dico_Dictionary_Type_() ShapeProcess_DictionaryOfOperator_Type_()
 #include <Foundation/Dico/Dico_Dictionary.gxx>

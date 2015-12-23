@@ -20,7 +20,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeProcessAPI_ApplySequence.hxx>
-#include <ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
 #include <stdio.h>
 
 //=======================================================================

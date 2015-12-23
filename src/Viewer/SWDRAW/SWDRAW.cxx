@@ -27,7 +27,7 @@
 
 //#72 rln 09.03.99 Packaging of SWDRAW
 
-#include <ShapeProcess_OperLibrary.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_OperLibrary.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Viewer/Draw/Draw_Window.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

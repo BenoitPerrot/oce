@@ -1278,9 +1278,9 @@ static Standard_Integer OCC22 (Draw_Interpretor& di, Standard_Integer argc, cons
 }
 
 
-#include <ShapeProcess_OperLibrary.hxx>
-#include <ShapeProcess_ShapeContext.hxx>
-#include <ShapeProcess.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_OperLibrary.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess.hxx>
 
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>

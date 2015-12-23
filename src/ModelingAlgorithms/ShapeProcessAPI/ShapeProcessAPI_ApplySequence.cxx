@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ShapeProcessAPI_ApplySequence.hxx>
@@ -24,8 +24,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Resource/Resource_Manager.hxx>
-#include <ShapeProcess.hxx>
-#include <ShapeProcess_OperLibrary.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_OperLibrary.hxx>
 
 //=======================================================================
 //function : ShapeProcessAPI_ApplySequence

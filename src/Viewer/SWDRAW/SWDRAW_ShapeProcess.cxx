@@ -21,9 +21,9 @@
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <ShapeProcess.hxx>
-#include <ShapeProcess_ShapeContext.hxx>
-#include <ShapeProcess_OperLibrary.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_OperLibrary.hxx>
 
 //=======================================================================
 //function : ApplySequence

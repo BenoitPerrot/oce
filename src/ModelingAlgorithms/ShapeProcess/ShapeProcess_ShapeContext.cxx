@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeProcess_ShapeContext)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

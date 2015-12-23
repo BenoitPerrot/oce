@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeProcess_Operator.hxx>
-#include <ShapeProcess_Context.hxx>
-#include <ShapeProcess.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Operator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -25,8 +25,8 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
-#include <ShapeProcess_Operator.hxx>
-#include <ShapeProcess_DictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Operator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/ShapeProcess_DictionaryOfOperator.hxx>
 
 static Handle(ShapeProcess_DictionaryOfOperator) dic;
 
