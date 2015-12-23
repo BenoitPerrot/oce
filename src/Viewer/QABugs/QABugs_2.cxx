@@ -169,7 +169,7 @@ static Standard_Integer OCC527(Draw_Interpretor& di, Standard_Integer argc, cons
 }
 
 #include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
-#include <StlTransfer.hxx>
+#include <DataExchange/StlTransfer/StlTransfer.hxx>
 //=======================================================================
 //function : OCC1048
 //purpose  : 

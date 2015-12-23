@@ -14,7 +14,7 @@
 #include <DataExchange/StlMesh/StlMesh_Mesh.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StlAPI/StlAPI_Writer.hxx>
-#include <StlTransfer.hxx>
+#include <DataExchange/StlTransfer/StlTransfer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <DataExchange/RWStl/RWStl.hxx>
