@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <HeaderSection_HeaderRecognizer.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_HeaderRecognizer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HeaderSection_HeaderRecognizer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,9 +26,9 @@ IMPLEMENT_STANDARD_TYPE_END(HeaderSection_HeaderRecognizer)
 IMPLEMENT_DOWNCAST(HeaderSection_HeaderRecognizer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HeaderSection_HeaderRecognizer)
 
-#include <HeaderSection_FileName.hxx>
-#include <HeaderSection_FileSchema.hxx>
-#include <HeaderSection_FileDescription.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 
 
 

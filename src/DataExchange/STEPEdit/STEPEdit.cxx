@@ -18,7 +18,7 @@
 #include <STEPEdit.hxx>
 //#include <StepData_FileProtocol.hxx>
 #include <StepAP214.hxx>
-//#include <HeaderSection.hxx>
+//#include <DataExchange/HeaderSection/HeaderSection.hxx>
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 

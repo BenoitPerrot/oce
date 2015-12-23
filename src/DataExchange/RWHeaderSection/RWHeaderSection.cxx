@@ -16,9 +16,9 @@
 
 #include <StepData.hxx>
 
-#include <HeaderSection_Protocol.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_Protocol.hxx>
 
-#include <HeaderSection.hxx>
+#include <DataExchange/HeaderSection/HeaderSection.hxx>
 #include <RWHeaderSection_ReadWriteModule.hxx>
 #include <RWHeaderSection_GeneralModule.hxx>
 

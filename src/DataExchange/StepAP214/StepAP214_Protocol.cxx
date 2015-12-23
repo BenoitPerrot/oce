@@ -436,7 +436,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 
 // Added by CKY (Resources)
-#include <HeaderSection.hxx>
+#include <DataExchange/HeaderSection/HeaderSection.hxx>
 
 
 #include <Interface_DataMapOfTransientInteger.hxx>

@@ -31,14 +31,14 @@ IMPLEMENT_DOWNCAST(RWHeaderSection_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(RWHeaderSection_ReadWriteModule)
 #include <Interface_ReaderLib.hxx>
 #include <StepData_WriterLib.hxx>
-#include <HeaderSection_Protocol.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_Protocol.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_ParamType.hxx>
 
 
-#include <HeaderSection_FileName.hxx>
-#include <HeaderSection_FileDescription.hxx>
-#include <HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 
 #include <StepData_UndefinedEntity.hxx>
 

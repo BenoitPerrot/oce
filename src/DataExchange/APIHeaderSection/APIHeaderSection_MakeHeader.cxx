@@ -18,9 +18,9 @@
 //pdn 11.01.99 including <stdio.h> for compilation on NT
 
 #include <stdio.h>
-#include <HeaderSection_FileName.hxx>
-#include <HeaderSection_FileSchema.hxx>
-#include <HeaderSection_FileDescription.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 #include <StepData_StepModel.hxx>
 #include <Interface_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -29,9 +29,9 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_EntityIterator.hxx>
 
-#include <HeaderSection_FileSchema.hxx>
-#include <HeaderSection_FileName.hxx>
-#include <HeaderSection_FileDescription.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 
 #include <StepData_Protocol.hxx>
 

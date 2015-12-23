@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <StepData_StepModel.hxx>
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 #include <StepData_FileProtocol.hxx>
-#include <HeaderSection.hxx>
+#include <DataExchange/HeaderSection/HeaderSection.hxx>
 #include <RWHeaderSection.hxx>
 #include <IFSelect_SignCounter.hxx>
 #include <IFSelect_SelectSignature.hxx>

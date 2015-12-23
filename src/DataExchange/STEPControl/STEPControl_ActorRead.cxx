@@ -153,7 +153,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <StepData_StepModel.hxx>
-#include <HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
 
 #define TRANSLOG
 

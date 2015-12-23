@@ -90,7 +90,7 @@
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <StepVisual_Invisibility.hxx>
 #include <StepVisual_HArray1OfInvisibleItem.hxx>
-#include <HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <StepData_StepModel.hxx>
 #include <StepAP214_Protocol.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

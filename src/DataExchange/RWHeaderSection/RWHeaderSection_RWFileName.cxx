@@ -13,7 +13,7 @@
 
 #include <StepData_StepReaderData.hxx>
 #include <Interface_Check.hxx>
-#include <HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
 #include <StepData_StepWriter.hxx>
 #include <RWHeaderSection_RWFileName.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>

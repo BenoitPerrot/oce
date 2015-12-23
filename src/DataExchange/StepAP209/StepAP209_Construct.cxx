@@ -37,9 +37,9 @@
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 
-#include <HeaderSection_FileName.hxx>
-#include <HeaderSection_FileSchema.hxx>
-#include <HeaderSection_FileDescription.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 
 #include <StepBasic_ProductDefinitionFormation.hxx>
 #include <StepBasic_ProductDefinitionFormationRelationship.hxx>

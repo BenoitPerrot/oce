@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_GeneralModule)
 
 #include <Interface_EntityIterator.hxx>
 
-#include <HeaderSection.hxx>
+#include <DataExchange/HeaderSection/HeaderSection.hxx>
 
 #include <RWHeaderSection.hxx>
 
@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_GeneralModule)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
-#include <HeaderSection_FileName.hxx>
-#include <HeaderSection_FileDescription.hxx>
-#include <HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
+#include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 
 #include <StepData_UndefinedEntity.hxx>
 #include <Interface_Macros.hxx>
