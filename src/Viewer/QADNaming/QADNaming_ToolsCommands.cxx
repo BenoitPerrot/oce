@@ -28,8 +28,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TNaming/TNaming_Translator.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <DNaming_DataMapOfShapeOfName.hxx>
-#include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/DNaming_DataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

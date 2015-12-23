@@ -16,7 +16,7 @@
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
-#include <DNaming_SphereDriver.hxx>
+#include <Viewer/DNaming/DNaming_SphereDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_SphereDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_SphereDriver)
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
 
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <ModelDefinitions.hxx>
 
 //=======================================================================

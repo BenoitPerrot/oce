@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
-#include <DNaming_BooleanOperationDriver.hxx>
+#include <Viewer/DNaming/DNaming_BooleanOperationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_BooleanOperationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelDefinitions.hxx>
 
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Fuse.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>

@@ -16,7 +16,7 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
@@ -60,17 +60,17 @@
 #include <OCAF/TNaming/TNaming_Name.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 
-#include <DNaming_BoxDriver.hxx>
-#include <DNaming_CylinderDriver.hxx>
-#include <DNaming_SelectionDriver.hxx>
-#include <DNaming_BooleanOperationDriver.hxx>
-#include <DNaming_FilletDriver.hxx>
-#include <DNaming_TransformationDriver.hxx>
-#include <DNaming_PrismDriver.hxx>
-#include <DNaming_RevolutionDriver.hxx>
-#include <DNaming_SphereDriver.hxx>
-#include <DNaming_PointDriver.hxx>
-#include <DNaming_Line3DDriver.hxx>
+#include <Viewer/DNaming/DNaming_BoxDriver.hxx>
+#include <Viewer/DNaming/DNaming_CylinderDriver.hxx>
+#include <Viewer/DNaming/DNaming_SelectionDriver.hxx>
+#include <Viewer/DNaming/DNaming_BooleanOperationDriver.hxx>
+#include <Viewer/DNaming/DNaming_FilletDriver.hxx>
+#include <Viewer/DNaming/DNaming_TransformationDriver.hxx>
+#include <Viewer/DNaming/DNaming_PrismDriver.hxx>
+#include <Viewer/DNaming/DNaming_RevolutionDriver.hxx>
+#include <Viewer/DNaming/DNaming_SphereDriver.hxx>
+#include <Viewer/DNaming/DNaming_PointDriver.hxx>
+#include <Viewer/DNaming/DNaming_Line3DDriver.hxx>
 #ifdef WNT
 #define EXCEPTION ...
 #else

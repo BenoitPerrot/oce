@@ -17,7 +17,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
@@ -29,8 +29,8 @@
 #include <OCAF/TNaming/TNaming_CopyShape.hxx>
 #include <OCAF/TNaming/TNaming_Translator.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <DNaming_DataMapOfShapeOfName.hxx>
-#include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/DNaming_DataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 //=======================================================================

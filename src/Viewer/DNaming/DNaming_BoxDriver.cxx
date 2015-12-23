@@ -16,7 +16,7 @@
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
-#include <DNaming_BoxDriver.hxx>
+#include <Viewer/DNaming/DNaming_BoxDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_BoxDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelDefinitions.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 //=======================================================================
 //function : DNaming_BoxDriver

@@ -16,7 +16,7 @@
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
-#include <DNaming_CylinderDriver.hxx>
+#include <Viewer/DNaming/DNaming_CylinderDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_CylinderDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_CylinderDriver)
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelDefinitions.hxx>
 
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

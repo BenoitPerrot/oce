@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
-#include <DNaming_Line3DDriver.hxx>
+#include <Viewer/DNaming/DNaming_Line3DDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_Line3DDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <ModelDefinitions.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 

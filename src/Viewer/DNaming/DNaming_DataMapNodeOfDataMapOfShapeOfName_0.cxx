@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <DNaming_DataMapOfShapeOfName.hxx>
-#include <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/DNaming_DataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
 
  
 
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(DNaming_DataMapNodeOfDataMapOfShapeOfName)
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode DNaming_DataMapNodeOfDataMapOfShapeOfName
-#define TCollection_DataMapNode_hxx <DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
+#define TCollection_DataMapNode_hxx <Viewer/DNaming/DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
 #define TCollection_DataMapIterator DNaming_DataMapIteratorOfDataMapOfShapeOfName
-#define TCollection_DataMapIterator_hxx <DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
+#define TCollection_DataMapIterator_hxx <Viewer/DNaming/DNaming_DataMapIteratorOfDataMapOfShapeOfName.hxx>
 #define Handle_TCollection_DataMapNode Handle_DNaming_DataMapNodeOfDataMapOfShapeOfName
 #define TCollection_DataMapNode_Type_() DNaming_DataMapNodeOfDataMapOfShapeOfName_Type_()
 #define TCollection_DataMap DNaming_DataMapOfShapeOfName
-#define TCollection_DataMap_hxx <DNaming_DataMapOfShapeOfName.hxx>
+#define TCollection_DataMap_hxx <Viewer/DNaming/DNaming_DataMapOfShapeOfName.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

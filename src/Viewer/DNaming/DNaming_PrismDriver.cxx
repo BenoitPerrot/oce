@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DNaming_PrismDriver.hxx>
+#include <Viewer/DNaming/DNaming_PrismDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_PrismDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PrismDriver)
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_TagSource.hxx>
 
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <ModelDefinitions.hxx>
 
 //=======================================================================

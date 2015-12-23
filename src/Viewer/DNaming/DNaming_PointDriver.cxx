@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
-#include <DNaming_PointDriver.hxx>
+#include <Viewer/DNaming/DNaming_PointDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_PointDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <ModelDefinitions.hxx>
 
 //=======================================================================

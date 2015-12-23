@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <DNaming_TransformationDriver.hxx>
+#include <Viewer/DNaming/DNaming_TransformationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_TransformationDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>

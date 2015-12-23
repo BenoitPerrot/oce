@@ -30,7 +30,7 @@
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 
 #include <Viewer/DDF/DDF.hxx>
 #include <Viewer/DDF/DDF_Data.hxx>

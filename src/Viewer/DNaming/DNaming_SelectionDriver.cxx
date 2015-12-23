@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
-#include <DNaming_SelectionDriver.hxx>
+#include <Viewer/DNaming/DNaming_SelectionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_SelectionDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

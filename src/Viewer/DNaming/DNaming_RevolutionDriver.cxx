@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DNaming_RevolutionDriver.hxx>
+#include <Viewer/DNaming/DNaming_RevolutionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_RevolutionDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_TagSource.hxx>
 
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <ModelDefinitions.hxx>
 
 //=======================================================================

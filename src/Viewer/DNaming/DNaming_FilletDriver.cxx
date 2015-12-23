@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DNaming_FilletDriver.hxx>
+#include <Viewer/DNaming/DNaming_FilletDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DNaming_FilletDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelDefinitions.hxx>
 

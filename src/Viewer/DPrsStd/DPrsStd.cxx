@@ -19,7 +19,7 @@
 #include <Draw.hxx>
 
 #include <Draw_PluginMacro.hxx>
-#include <DNaming.hxx>
+#include <Viewer/DNaming/DNaming.hxx>
 #include <Viewer/DDataStd/DDataStd.hxx> 
 #include <Viewer/DDF/DDF.hxx> 
 #include <Viewer/DDocStd/DDocStd.hxx>
