@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PTopoDS_Shape1.hxx>
-#include <PCDMShape_Document.hxx>
+#include <OCAF/PCDMShape/PCDMShape_Document.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PCDMShape_Document)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

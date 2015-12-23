@@ -2,7 +2,7 @@
 #include <ShapeSchema_PCDMShape_Document.hxx>
 #endif
 #ifndef _PCDMShape_Document_HeaderFile
-#include <PCDMShape_Document.hxx>
+#include <OCAF/PCDMShape/PCDMShape_Document.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_Shape1_HeaderFile
 #include <ShapeSchema_PTopoDS_Shape1.hxx>
