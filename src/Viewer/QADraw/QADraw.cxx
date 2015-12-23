@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QADraw.hxx>
+#include <Viewer/QADraw/QADraw.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Window.hxx>

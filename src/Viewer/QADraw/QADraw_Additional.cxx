@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/QABugs/QABugs.hxx>
-#include <QADraw.hxx>
+#include <Viewer/QADraw/QADraw.hxx>
 #include <Viewer/QADNaming/QADNaming.hxx>
 //#if defined(WOKC40)
 //#include <QADBRepNaming.hxx>
