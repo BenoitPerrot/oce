@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XDEDRAW.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW.hxx>
 #include <stdio.h>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
@@ -73,11 +73,11 @@
 #include <XCAFPrs_Driver.hxx>
 #include <XCAFApp_Application.hxx>
 
-#include <XDEDRAW_Shapes.hxx>
-#include <XDEDRAW_Colors.hxx>
-#include <XDEDRAW_Layers.hxx>
-#include <XDEDRAW_Props.hxx>
-#include <XDEDRAW_Common.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Shapes.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Colors.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Layers.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Props.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Common.hxx>
 #include <XSDRAWIGES.hxx>
 #include <XSDRAWSTEP.hxx>
 #include <XSDRAW.hxx>

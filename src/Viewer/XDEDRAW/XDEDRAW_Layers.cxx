@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XDEDRAW_Layers.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Layers.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

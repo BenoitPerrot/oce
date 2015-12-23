@@ -15,7 +15,7 @@
 
 // OCC532 sln 24.07.2002. Add epsilon parameter to SetProps function
 
-#include <XDEDRAW_Props.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Props.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

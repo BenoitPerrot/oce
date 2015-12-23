@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XDEDRAW_Common.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW_Common.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <Interface_Macros.hxx>
@@ -24,7 +24,7 @@
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <XSDRAW.hxx>
-#include <XDEDRAW.hxx>
+#include <Viewer/XDEDRAW/XDEDRAW.hxx>
 #include <XSDRAWIGES.hxx>
 #include <XSDRAWSTEP.hxx>
 
