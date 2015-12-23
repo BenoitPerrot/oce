@@ -16,10 +16,10 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Trsf.hxx>
-#include <Sweep_NumShapeIterator.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShapeIterator.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Iterator.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

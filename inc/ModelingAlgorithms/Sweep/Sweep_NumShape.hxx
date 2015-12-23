@@ -90,7 +90,7 @@ private:
 };
 
 
-#include <Sweep_NumShape.lxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.lxx>
 
 
 

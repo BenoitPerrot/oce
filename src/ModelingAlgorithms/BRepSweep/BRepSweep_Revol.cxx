@@ -17,11 +17,11 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Rotation.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>

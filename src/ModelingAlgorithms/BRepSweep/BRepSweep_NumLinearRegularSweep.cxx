@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_NumLinearRegularSweep.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
@@ -29,12 +29,12 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Tool.hxx>
-#include <Sweep_NumShapeTool.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShapeTool.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Iterator.hxx>
-#include <Sweep_NumShapeIterator.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShapeIterator.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

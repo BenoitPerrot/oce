@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Translation.hxx>

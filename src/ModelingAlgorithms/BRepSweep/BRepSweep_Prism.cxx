@@ -18,11 +18,11 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Translation.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Precision.hxx>

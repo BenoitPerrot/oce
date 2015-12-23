@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

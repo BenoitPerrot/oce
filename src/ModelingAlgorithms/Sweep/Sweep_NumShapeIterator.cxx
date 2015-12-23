@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Sweep_NumShape.hxx>
-#include <Sweep_NumShapeIterator.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShapeIterator.hxx>
 
 //=======================================================================
 //function : Sweep_NumShapeIterator

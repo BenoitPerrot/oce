@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Sweep_NumShape.hxx>
-#include <Sweep_NumShapeTool.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShapeTool.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================

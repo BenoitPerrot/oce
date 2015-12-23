@@ -12,9 +12,9 @@
 
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Sweep_NumShape.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 #include <ModelingAlgorithms/BRepSweep/BRepSweep_Tool.hxx>
-#include <Sweep_NumShapeTool.hxx>
+#include <ModelingAlgorithms/Sweep/Sweep_NumShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfBoolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
