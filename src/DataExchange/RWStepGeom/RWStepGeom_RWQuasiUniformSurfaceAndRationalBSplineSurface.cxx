@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepGeom_RWQuasiUniformSurfaceAndRationalBSplineSurface.hxx>
 #include <StepGeom_QuasiUniformSurface.hxx>
 #include <StepGeom_RationalBSplineSurface.hxx>
@@ -26,7 +26,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepGeom_QuasiUniformSurfaceAndRationalBSplineSurface.hxx>

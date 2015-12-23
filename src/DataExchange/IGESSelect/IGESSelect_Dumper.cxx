@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_Dumper)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

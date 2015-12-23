@@ -19,14 +19,14 @@
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>
-#include <Interface_ShareFlags.hxx>
+#include <DataExchange/Interface/Interface_ShareFlags.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
-#include <Interface_Static.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 // S3767 dce 18/01/1999
 #include <Foundation/Message/Message_Msg.hxx>
@@ -34,14 +34,14 @@
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Transfer_Binder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>//Transfer_Iterator.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>

@@ -57,13 +57,13 @@ private:
 #define TheKey TCollection_AsciiString
 #define TheKey_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define Hasher Interface_MapAsciiStringHasher
-#define Hasher_hxx <Interface_MapAsciiStringHasher.hxx>
+#define Hasher_hxx <DataExchange/Interface/Interface_MapAsciiStringHasher.hxx>
 #define TCollection_IndexedMapNode Interface_IndexedMapNodeOfIndexedMapOfAsciiString
-#define TCollection_IndexedMapNode_hxx <Interface_IndexedMapNodeOfIndexedMapOfAsciiString.hxx>
+#define TCollection_IndexedMapNode_hxx <DataExchange/Interface/Interface_IndexedMapNodeOfIndexedMapOfAsciiString.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_Interface_IndexedMapNodeOfIndexedMapOfAsciiString
 #define TCollection_IndexedMapNode_Type_() Interface_IndexedMapNodeOfIndexedMapOfAsciiString_Type_()
 #define TCollection_IndexedMap Interface_IndexedMapOfAsciiString
-#define TCollection_IndexedMap_hxx <Interface_IndexedMapOfAsciiString.hxx>
+#define TCollection_IndexedMap_hxx <DataExchange/Interface/Interface_IndexedMapOfAsciiString.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 

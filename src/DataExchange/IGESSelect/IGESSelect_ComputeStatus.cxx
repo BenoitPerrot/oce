@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_ComputeStatus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,9 +30,9 @@ IMPLEMENT_DOWNCAST(IGESSelect_ComputeStatus,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_ComputeStatus)
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 IGESSelect_ComputeStatus::IGESSelect_ComputeStatus ()
     : IGESSelect_ModelModifier (Standard_False)    {  }

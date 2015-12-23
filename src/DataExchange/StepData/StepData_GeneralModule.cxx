@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <StepData_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_GeneralModule)

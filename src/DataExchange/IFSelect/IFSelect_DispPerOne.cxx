@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_DispPerOne.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -27,8 +27,8 @@ IMPLEMENT_DOWNCAST(IFSelect_DispPerOne,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerOne)
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <DataExchange/IFGraph/IFGraph_SCRoots.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 //  Genere un paquet par racine (strong comp.) locale a la liste transmise

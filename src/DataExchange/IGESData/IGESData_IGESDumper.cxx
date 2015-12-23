@@ -12,15 +12,15 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_MSG.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificModule.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

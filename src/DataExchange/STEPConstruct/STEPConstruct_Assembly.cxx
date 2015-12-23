@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <STEPConstruct_Assembly.hxx>
 

@@ -15,7 +15,7 @@
 #include <StepData_SelectMember.hxx>
 #include <StepVisual_MarkerMember.hxx>
 #include <StepVisual_MarkerSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_MarkerSelect::StepVisual_MarkerSelect () {  }
 

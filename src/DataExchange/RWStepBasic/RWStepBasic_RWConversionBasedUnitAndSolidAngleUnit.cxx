@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepBasic_RWConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <StepBasic_ConversionBasedUnit.hxx>
 #include <StepBasic_SolidAngleUnit.hxx>
@@ -23,7 +23,7 @@
 #include <StepBasic_MeasureWithUnit.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>

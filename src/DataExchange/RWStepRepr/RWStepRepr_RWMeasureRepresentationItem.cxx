@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepRepr_MeasureRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepRepr_RWMeasureRepresentationItem.hxx>
 #include <StepRepr_MeasureRepresentationItem.hxx>
 #include <StepBasic_NamedUnit.hxx>
@@ -28,9 +28,9 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <string.h>
 
-#include <Interface_EntityIterator.hxx>
-#include <Interface_FloatWriter.hxx>
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 
 //=======================================================================
 //function : RWStepRepr_RWMeasureRepresentationItem

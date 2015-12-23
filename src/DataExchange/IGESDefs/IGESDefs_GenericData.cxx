@@ -39,8 +39,8 @@ IMPLEMENT_DOWNCAST(IGESDefs_GenericData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_GenericData)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 IGESDefs_GenericData::IGESDefs_GenericData ()    {  }

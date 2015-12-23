@@ -13,13 +13,13 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_EntityList.hxx>
-#include <Interface_EntityCluster.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_EntityList.hxx>
+#include <DataExchange/Interface/Interface_EntityCluster.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 

@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 //pdn S4135 05.04.99 comment uninitialized Interface_Static::IVal("iges.convert.read");
-#include <Interface_ParamList.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_ParamList.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
@@ -25,15 +25,15 @@
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <Interface_EntityList.hxx>
+#include <DataExchange/Interface/Interface_EntityList.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESType.hxx>
-#include <Interface_FileParameter.hxx>
-#include <Interface_FileReaderData.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <stdio.h>
 #include <DataExchange/IGESData/IGESData_Status.hxx>
 

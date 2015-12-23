@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_FloatFormat)
 IMPLEMENT_DOWNCAST(IGESSelect_FloatFormat,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_FloatFormat)
-#include <Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
 #include <stdio.h>
 
 

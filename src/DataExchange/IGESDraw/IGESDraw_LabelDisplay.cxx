@@ -41,7 +41,7 @@ IMPLEMENT_DOWNCAST(IGESDraw_LabelDisplay,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_LabelDisplay)
 #include <DataExchange/IGESDraw/IGESDraw_View.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_PerspectiveView.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 IGESDraw_LabelDisplay::IGESDraw_LabelDisplay ()    {  }

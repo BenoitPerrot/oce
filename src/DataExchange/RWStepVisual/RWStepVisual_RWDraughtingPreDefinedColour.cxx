@@ -14,7 +14,7 @@
 //:S4134: abv 03.03.99: implementation of DraughtingPreDefinedColour modified
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_DraughtingPreDefinedColour.hxx>
 #include <StepData_StepWriter.hxx>
 #include <RWStepVisual_RWDraughtingPreDefinedColour.hxx>

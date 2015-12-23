@@ -13,7 +13,7 @@
 
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_FileProtocol)

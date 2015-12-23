@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(IGESData_FileRecognizer)
 #define Interface_Recognizer_hxx <DataExchange/IGESData/IGESData_FileRecognizer.hxx>
 #define Handle_Interface_Recognizer Handle_IGESData_FileRecognizer
 #define Interface_Recognizer_Type_() IGESData_FileRecognizer_Type_()
-#include <Interface_Recognizer.gxx>
+#include <DataExchange/Interface/Interface_Recognizer.gxx>
 

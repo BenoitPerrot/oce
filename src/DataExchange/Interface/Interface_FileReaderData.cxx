@@ -17,13 +17,13 @@
 //====================================================================
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Interface_ParamSet.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_FileParameter.hxx>
-#include <Interface_ParamList.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_ParamList.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_FileReaderData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

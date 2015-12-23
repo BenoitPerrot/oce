@@ -15,7 +15,7 @@
 #include <StepVisual_PreDefinedTextFont.hxx>
 #include <StepVisual_ExternallyDefinedTextFont.hxx>
 #include <StepVisual_FontSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_FontSelect::StepVisual_FontSelect () {  }
 

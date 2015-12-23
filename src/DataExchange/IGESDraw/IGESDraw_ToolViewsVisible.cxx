@@ -21,11 +21,11 @@
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESData/IGESData_DirChecker.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_ToolViewsVisible.hxx>
@@ -35,7 +35,7 @@
 #include <DataExchange/IGESDraw/IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

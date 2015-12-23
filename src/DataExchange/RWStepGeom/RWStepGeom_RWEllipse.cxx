@@ -12,16 +12,16 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_Ellipse.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <RWStepGeom_RWEllipse.hxx>
 #include <StepGeom_Axis2Placement.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepGeom_Ellipse.hxx>

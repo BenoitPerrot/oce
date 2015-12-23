@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_ESDescr)
 IMPLEMENT_DOWNCAST(StepData_ESDescr,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_ESDescr)
 #include <StepData_Simple.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 StepData_ESDescr::StepData_ESDescr  (const Standard_CString name)

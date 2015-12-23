@@ -16,7 +16,7 @@
 #include <StepAP214_AutoDesignDateAndPersonAssignment.hxx>
 #include <StepBasic_ProductDefinitionEffectivity.hxx>
 #include <StepAP214_AutoDesignDatedItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignDatedItem::StepAP214_AutoDesignDatedItem () {  }
 

@@ -96,7 +96,7 @@
 
 // Processing of non-manifold topology (ssv; 10.11.2010)
 #include <TransferBRep.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 // ----------------------------------------------------------------------------
 // Constructors

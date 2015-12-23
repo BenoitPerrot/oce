@@ -13,7 +13,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectName.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectName)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectName,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectName)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

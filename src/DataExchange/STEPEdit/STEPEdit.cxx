@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <StepData_StepModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectSignature.hxx>

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESSolid_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_ReadWriteModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESSolid/IGESSolid_Block.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_BooleanTree.hxx>

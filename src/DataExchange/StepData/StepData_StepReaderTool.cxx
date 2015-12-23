@@ -14,9 +14,9 @@
 #include <StepData_FileRecognizer.hxx>
 #include <StepData_StepReaderData.hxx>
 #include <StepData_Protocol.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <StepData_StepReaderTool.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -27,7 +27,7 @@
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 

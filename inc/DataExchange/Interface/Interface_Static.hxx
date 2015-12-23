@@ -11,18 +11,18 @@
 #include <Handle_Interface_Static.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Handle_Interface_Static.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColStd_HArray1OfAsciiString.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <Interface_StaticSatisfies.hxx>
+#include <DataExchange/Interface/Interface_StaticSatisfies.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>

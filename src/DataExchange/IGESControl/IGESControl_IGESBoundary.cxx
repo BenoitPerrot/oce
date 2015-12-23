@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep_TopoCurve.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_ToolContainer.hxx>

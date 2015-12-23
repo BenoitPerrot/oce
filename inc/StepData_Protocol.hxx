@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_Protocol.hxx>
 
-#include <Interface_DataMapOfTransientInteger.hxx>
+#include <DataExchange/Interface/Interface_DataMapOfTransientInteger.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Standard_Transient.hxx>

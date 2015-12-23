@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESData/IGESData_DirChecker.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_DefaultGeneral.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_DefaultGeneral)
@@ -33,11 +33,11 @@ IMPLEMENT_STANDARD_RTTI(IGESData_DefaultGeneral)
 #include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <DataExchange/IGESData/IGESData_FreeFormatEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <Interface_UndefinedContent.hxx>
-#include <Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_UndefinedContent.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/IGESData/IGESData.hxx>
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

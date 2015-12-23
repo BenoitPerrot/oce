@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 
 //  ###############################################################
 //  Macros to help Dumping Parts of IGES Entities

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <STEPSelections_SequenceOfAssemblyComponent.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>

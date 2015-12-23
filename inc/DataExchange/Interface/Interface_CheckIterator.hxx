@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Interface_CheckStatus.hxx>
+#include <DataExchange/Interface/Interface_CheckStatus.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Message_Messenger.hxx>
 class Interface_HSequenceOfCheck;

@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

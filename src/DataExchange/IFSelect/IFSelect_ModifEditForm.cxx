@@ -13,9 +13,9 @@
 
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ModifEditForm.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

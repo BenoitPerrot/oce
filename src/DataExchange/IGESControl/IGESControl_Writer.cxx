@@ -33,8 +33,8 @@
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <XSControl_TransferWriter.hxx>
 
-#include <Interface_Macros.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>

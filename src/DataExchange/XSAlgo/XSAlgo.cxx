@@ -17,7 +17,7 @@
 #include <XSAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeProcess/ShapeProcess_OperLibrary.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 static Handle(XSAlgo_AlgoContainer) theContainer;
 

@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_Finder)
 IMPLEMENT_DOWNCAST(Transfer_Finder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_Finder)
-#include <Interface_IntVal.hxx>
+#include <DataExchange/Interface/Interface_IntVal.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>

@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceError.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectSingleViewFrom.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_SelectSingleViewFrom,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectSingleViewFrom)
 #include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

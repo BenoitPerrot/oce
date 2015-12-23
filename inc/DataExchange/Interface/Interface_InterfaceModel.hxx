@@ -22,7 +22,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Interface_DataState.hxx>
+#include <DataExchange/Interface/Interface_DataState.hxx>
 #include <Handle_Interface_ReportEntity.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>

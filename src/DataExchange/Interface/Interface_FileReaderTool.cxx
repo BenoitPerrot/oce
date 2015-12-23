@@ -12,23 +12,23 @@
 // commercial license or contractual agreement.
 
 // dce 21/01/99 S3767 : Suppression of general messages
-#include <Interface_Protocol.hxx>
-#include <Interface_FileReaderData.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
-#include <Interface_FileReaderTool.hxx>
-#include <Interface_ReportEntity.hxx>
-#include <Interface_InterfaceMismatch.hxx>
-#include <Interface_CheckFailure.hxx>
-#include <Interface_GeneralModule.hxx>
-#include <Interface_ReaderModule.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_FileReaderTool.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_CheckFailure.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_ReaderModule.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message.hxx>

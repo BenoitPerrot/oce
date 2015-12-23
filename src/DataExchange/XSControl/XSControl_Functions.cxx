@@ -18,7 +18,7 @@
 #include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 #include <DataExchange/IFSelect/IFSelect_Option.hxx>
 #include <MoniTool_TypedValue.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
 #include <XSControl_WorkSession.hxx>
@@ -28,11 +28,11 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <Transfer_Binder.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 #include <Transfer_TransferIterator.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
@@ -50,7 +50,7 @@
 #include <Transfer_ResultFromModel.hxx>
 #include <XSControl_SelectForTransfer.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 

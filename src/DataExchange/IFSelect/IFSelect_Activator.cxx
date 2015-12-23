@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_Activator)
 #include <DataExchange/IFSelect/IFSelect_Option.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 static Handle(Dico_DictionaryOfInteger) thedico; // = new Dico_DictionaryOfInteger;

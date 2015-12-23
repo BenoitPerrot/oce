@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Interface_CopyControl.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_CopyControl)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

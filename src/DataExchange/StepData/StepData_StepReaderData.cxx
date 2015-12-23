@@ -13,7 +13,7 @@
 
 //    abv 09.04.99 S4136: eliminate parameter step.readaccept.void
 //    sln 04,10.2001. BUC61003. Prevent exception which may occur during reading of complex entity (if entity's items are not in alphabetical order)
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_PDescr.hxx>
@@ -38,12 +38,12 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_StepReaderData)
 IMPLEMENT_DOWNCAST(StepData_StepReaderData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_StepReaderData)
 #include <StepData_StepModel.hxx>
-#include <Interface_FileParameter.hxx>
-#include <Interface_ParamList.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_ParamList.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <Interface_Static.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_StepReaderData)
 
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <StepData_SelectMember.hxx>
 #include <StepData_SelectNamed.hxx>
 #include <StepData_SelectReal.hxx>

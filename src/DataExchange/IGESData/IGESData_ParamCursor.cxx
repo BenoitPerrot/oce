@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 
 
 

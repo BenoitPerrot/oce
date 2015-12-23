@@ -45,12 +45,12 @@
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_Protocol.hxx>
 
-#include <Interface_Macros.hxx>
-#include <Interface_CheckTool.hxx>
-#include <Interface_CheckIterator.hxx>
-#include <Interface_ShareFlags.hxx>
-#include <Interface_Static.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_CheckTool.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareFlags.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 #include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep_Actor.hxx>

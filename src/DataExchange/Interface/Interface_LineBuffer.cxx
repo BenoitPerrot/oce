@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_LineBuffer.hxx>
+#include <DataExchange/Interface/Interface_LineBuffer.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 

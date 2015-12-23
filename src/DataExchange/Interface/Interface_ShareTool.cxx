@@ -11,22 +11,22 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_GTool.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_GTool.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_IntList.hxx>
-#include <Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_IntList.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

@@ -17,8 +17,8 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESData/IGESData_GeneralModule.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificModule.hxx>
 
@@ -33,8 +33,8 @@
 #include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 #include <DataExchange/IGESData/IGESData_DirChecker.hxx>
 
-#include <Interface_Static.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <UnitsMethods.hxx>
 
 

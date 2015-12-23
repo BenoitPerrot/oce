@@ -14,7 +14,7 @@
 #include <StepAP214_Protocol.hxx>
 #include <StepAP214.hxx>
 
-#include <Interface_Statics.hxx>
+#include <DataExchange/Interface/Interface_Statics.hxx>
 #include <StepAP214_Protocol.hxx>
 
 StaticHandle(StepAP214_Protocol, proto);

@@ -29,8 +29,8 @@
 #include <Viewer/DBRep/DBRep.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 
 //  Pour le transfert (write)
 //  Pour NewModel et Write : definition de produit (temporaire ...)
@@ -50,7 +50,7 @@
 #include <StepGeom_Axis2Placement3d.hxx>
 
 #include <stdio.h>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <STEPSelections_Counter.hxx>
 #include <STEPSelections_AssemblyExplorer.hxx>

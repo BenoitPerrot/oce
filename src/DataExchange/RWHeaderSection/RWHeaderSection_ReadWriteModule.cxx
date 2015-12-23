@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_StepWriter.hxx>
 #include <RWHeaderSection_ReadWriteModule.hxx>
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(RWHeaderSection_ReadWriteModule)
 IMPLEMENT_DOWNCAST(RWHeaderSection_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(RWHeaderSection_ReadWriteModule)
-#include <Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <StepData_WriterLib.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_Protocol.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 
 
 #include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SignColor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_SignColor)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SignColor)
 IMPLEMENT_DOWNCAST(IGESSelect_SignColor,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SignColor)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

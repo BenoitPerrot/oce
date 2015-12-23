@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_AttributeDef)
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_HArray1OfTextDisplayTemplate.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 //  For each Attribute Value, according to Attribute Type :

@@ -47,7 +47,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
 #include <StepBasic_CalendarDate.hxx>
 #include <StepBasic_LocalTime.hxx>

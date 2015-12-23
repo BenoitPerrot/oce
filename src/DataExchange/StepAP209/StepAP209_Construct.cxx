@@ -29,8 +29,8 @@
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepAP209_Construct.hxx>
 
-#include <Interface_EntityIterator.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

@@ -11,17 +11,17 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Protocol.hxx>
-#include <Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_CopyControl.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_CopyTool.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectErrorEntities.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

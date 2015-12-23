@@ -50,7 +50,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_SurfaceOfRevolution.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 

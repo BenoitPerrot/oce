@@ -16,10 +16,10 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepElement_SurfaceSectionFieldVarying.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepElement_RWSurfaceSectionFieldVarying.hxx>
 #include <StepElement_HArray1OfSurfaceSection.hxx>
 #include <StepElement_SurfaceSection.hxx>

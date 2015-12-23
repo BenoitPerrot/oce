@@ -28,7 +28,7 @@
 
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 //=============================================================================

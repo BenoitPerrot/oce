@@ -25,12 +25,12 @@ IMPLEMENT_STANDARD_TYPE_END(IGESData_DefaultSpecific)
 IMPLEMENT_DOWNCAST(IGESData_DefaultSpecific,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_DefaultSpecific)
 #include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
-#include <Interface_UndefinedContent.hxx>
+#include <DataExchange/Interface/Interface_UndefinedContent.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <DataExchange/IGESData/IGESData.hxx>
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
 

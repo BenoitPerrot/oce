@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_HSequenceOfCheck.hxx>
 
-#include <Interface_SequenceOfCheck.hxx>
+#include <DataExchange/Interface/Interface_SequenceOfCheck.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(Interface_Check)
-#define Item_hxx <Interface_Check.hxx>
+#define Item_hxx <DataExchange/Interface/Interface_Check.hxx>
 #define TheSequence Interface_SequenceOfCheck
-#define TheSequence_hxx <Interface_SequenceOfCheck.hxx>
+#define TheSequence_hxx <DataExchange/Interface/Interface_SequenceOfCheck.hxx>
 #define TCollection_HSequence Interface_HSequenceOfCheck
-#define TCollection_HSequence_hxx <Interface_HSequenceOfCheck.hxx>
+#define TCollection_HSequence_hxx <DataExchange/Interface/Interface_HSequenceOfCheck.hxx>
 #define Handle_TCollection_HSequence Handle_Interface_HSequenceOfCheck
 #define TCollection_HSequence_Type_() Interface_HSequenceOfCheck_Type_()
 

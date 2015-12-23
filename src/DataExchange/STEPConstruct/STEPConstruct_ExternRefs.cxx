@@ -25,7 +25,7 @@
 #include <StepBasic_DocumentFile.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 #include <StepData_SelectNamed.hxx>
 

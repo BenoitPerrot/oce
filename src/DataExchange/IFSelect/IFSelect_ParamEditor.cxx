@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ParamEditor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_ParamEditor)
 IMPLEMENT_DOWNCAST(IFSelect_ParamEditor,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_ParamEditor)
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 
 IFSelect_ParamEditor::IFSelect_ParamEditor

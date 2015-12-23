@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_StepModel.hxx>
 
-#include <Interface_EntityList.hxx>
+#include <DataExchange/Interface/Interface_EntityList.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>

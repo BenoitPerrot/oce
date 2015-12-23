@@ -27,7 +27,7 @@
 #include <STEPConstruct_ContextTool.hxx>
 #include <StepData_StepModel.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <StepBasic_ProductDefinition.hxx>
 //#include <StepBasic_ProductDefinitionContext.hxx>
@@ -41,7 +41,7 @@
 
 #include <StepBasic_HArray1OfProduct.hxx>
 #include <StepBasic_ProductType.hxx> //:i3
-#include <Interface_Static.hxx> //:j4
+#include <DataExchange/Interface/Interface_Static.hxx> //:j4
 #include <DataExchange/GeomToStep/GeomToStep_MakeAxis2Placement3d.hxx>
 
 #include "stdio.h"

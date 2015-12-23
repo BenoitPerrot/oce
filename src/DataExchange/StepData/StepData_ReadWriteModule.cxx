@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_StepReaderData.hxx>
 #include <StepData_StepWriter.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_ReadWriteModule)
 IMPLEMENT_DOWNCAST(StepData_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_ReadWriteModule)
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

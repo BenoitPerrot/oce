@@ -16,7 +16,7 @@
 #include <StepVisual_PresentationLayerAssignment.hxx>
 #include <StepVisual_PresentationRepresentation.hxx>
 #include <StepVisual_InvisibleItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_InvisibleItem::StepVisual_InvisibleItem () {  }
 

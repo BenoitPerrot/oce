@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

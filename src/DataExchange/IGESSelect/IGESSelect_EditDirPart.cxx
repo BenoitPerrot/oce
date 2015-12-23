@@ -15,7 +15,7 @@
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_EditDirPart.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_EditDirPart)
@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_EditDirPart)
 IMPLEMENT_DOWNCAST(IGESSelect_EditDirPart,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_EditDirPart)
-#include <Interface_TypedValue.hxx>
-#include <Interface_Static.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 

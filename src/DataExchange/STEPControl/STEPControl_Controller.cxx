@@ -13,7 +13,7 @@
 
 //:j4 gka 16.03.99 S4134
 //    gka 05.04.99 S4136: parameters definitions changed
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -59,8 +59,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <Interface_Static.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignAncestor.hxx>
 #include <STEPSelections_SelectFaces.hxx>
 #include <STEPSelections_SelectDerived.hxx>

@@ -37,11 +37,11 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_AttributeTable)
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 //  ATTENTION  ATTENTION : L Appellation "ROW" n est pas reconduite en l etat

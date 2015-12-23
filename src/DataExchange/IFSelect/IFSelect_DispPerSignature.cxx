@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_DispPerSignature.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerSignature)
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <stdio.h>
 
 

@@ -11,28 +11,28 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfListOfInteger.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_GTool.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_GTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_BitMap.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_BitMap.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_GeneralModule.hxx>
-#include <Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <Interface_GTool.hxx>
+#include <DataExchange/Interface/Interface_GTool.hxx>
 
 // Flags : 0 = Presence, 1 = Sharing Error
 #define Graph_Present 0

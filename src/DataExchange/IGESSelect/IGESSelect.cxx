@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IGESSelect/IGESSelect.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
@@ -23,7 +23,7 @@
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 void  IGESSelect::Run ()

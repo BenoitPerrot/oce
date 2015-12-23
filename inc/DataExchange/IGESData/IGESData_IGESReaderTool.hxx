@@ -12,14 +12,14 @@
 
 #include <Handle_Interface_ParamList.hxx>
 #include <Handle_IGESData_FileRecognizer.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IGESData/IGESData_IGESType.hxx>
 #include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Interface_FileReaderTool.hxx>
+#include <DataExchange/Interface/Interface_FileReaderTool.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

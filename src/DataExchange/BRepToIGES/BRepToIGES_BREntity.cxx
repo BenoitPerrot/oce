@@ -36,8 +36,8 @@
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
-#include <Interface_Macros.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 //#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 

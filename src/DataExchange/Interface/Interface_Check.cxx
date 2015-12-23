@@ -17,7 +17,7 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_Check)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

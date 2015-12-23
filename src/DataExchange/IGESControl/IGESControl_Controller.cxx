@@ -14,7 +14,7 @@
 //#58 rln 28.12.98 changing default values for Global Section
 //sln 14.01.2002 OCC51 : verifying whether entry model of method ActorRead is IGESDatat_IGESModel 
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <DataExchange/IGESSolid/IGESSolid.hxx>
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
 
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_AutoCorrect.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_ComputeStatus.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_UpdateFileName.hxx>
@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <DataExchange/IGESControl/IGESControl_AlgoContainer.hxx>
 
 #include <XSAlgo.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelEntities.hxx>

@@ -21,11 +21,11 @@
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESData/IGESData_DirChecker.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_ToolNewGeneralNote.hxx>
@@ -35,11 +35,11 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

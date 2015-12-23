@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepData_FileRecognizer.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
-#include <Interface_FileReaderTool.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_FileReaderTool.hxx>
 #include <Handle_StepData_StepReaderData.hxx>
 #include <Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

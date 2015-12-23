@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepBasic_ProductDefinition.hxx>
 #include <STEPSelections_AssemblyComponent.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <STEPSelections_AssemblyExplorer.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepRepr_MappedItem.hxx>
@@ -31,7 +31,7 @@
 #include <STEPSelections_HSequenceOfAssemblyLink.hxx>
 #include <StepBasic_Product.hxx>
 #include <StepBasic_ProductDefinitionFormation.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 

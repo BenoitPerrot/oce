@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPSelections_SelectFaces.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

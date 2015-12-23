@@ -14,7 +14,7 @@
 #include <DataExchange/HeaderSection/HeaderSection_Protocol.hxx>
 #include <DataExchange/HeaderSection/HeaderSection.hxx>
 
-#include <Interface_Statics.hxx>
+#include <DataExchange/Interface/Interface_Statics.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_Protocol.hxx>
 
 StaticHandle(HeaderSection_Protocol, proto);

@@ -15,7 +15,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <Interface_STAT.hxx>
+#include <DataExchange/Interface/Interface_STAT.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static Interface_STAT statvoid("");

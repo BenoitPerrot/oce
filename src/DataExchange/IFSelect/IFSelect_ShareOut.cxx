@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_ShareOut)
 IMPLEMENT_DOWNCAST(IFSelect_ShareOut,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_ShareOut)
-#include <Interface_InterfaceError.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

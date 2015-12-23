@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Transfer_ResultFromTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Interface_CheckStatus.hxx>
+#include <DataExchange/Interface/Interface_CheckStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

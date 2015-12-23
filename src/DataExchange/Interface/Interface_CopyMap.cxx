@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_CopyMap.hxx>
+#include <DataExchange/Interface/Interface_CopyMap.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_CopyMap)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Interface_CopyMap)
 IMPLEMENT_DOWNCAST(Interface_CopyMap,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_CopyMap)
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 
 //  CopyMap : rien de plus qu une Map passive
 

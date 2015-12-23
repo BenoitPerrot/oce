@@ -12,17 +12,17 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepVisual_RWPresentationStyleByContext.hxx>
 #include <StepVisual_StyleContextSelect.hxx>
 #include <StepVisual_HArray1OfPresentationStyleSelect.hxx>
 #include <StepVisual_PresentationStyleSelect.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepVisual_PresentationStyleByContext.hxx>

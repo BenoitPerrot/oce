@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESDimen_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_ReadWriteModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESDimen/IGESDimen_AngularDimension.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_BasicDimension.hxx>

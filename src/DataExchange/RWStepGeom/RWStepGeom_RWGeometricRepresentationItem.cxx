@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <StepData_StepWriter.hxx>
 #include <RWStepGeom_RWGeometricRepresentationItem.hxx>

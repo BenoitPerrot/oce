@@ -14,18 +14,18 @@
 //:k4 abv 30.11.98: TR9: warnings for BWV
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_BrepWithVoids.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <RWStepShape_RWBrepWithVoids.hxx>
 #include <StepShape_HArray1OfOrientedClosedShell.hxx>
 #include <StepShape_OrientedClosedShell.hxx>
 #include <StepShape_ClosedShell.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepShape_BrepWithVoids.hxx>

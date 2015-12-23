@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESBasic_SpecificModule)
 IMPLEMENT_DOWNCAST(IGESBasic_SpecificModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESBasic_SpecificModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_AssocGroupType.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_ExternalRefFile.hxx>

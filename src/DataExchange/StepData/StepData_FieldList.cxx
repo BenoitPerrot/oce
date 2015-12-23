@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <StepData_Field.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepData_FieldList.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 

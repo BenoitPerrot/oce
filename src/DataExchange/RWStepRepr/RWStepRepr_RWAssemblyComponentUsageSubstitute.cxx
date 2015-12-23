@@ -13,15 +13,15 @@
 
 //gka 05.03.99 S4134 upgrade from CD to DIS
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepRepr_AssemblyComponentUsageSubstitute.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepRepr_RWAssemblyComponentUsageSubstitute.hxx>
 #include <StepRepr_AssemblyComponentUsage.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepRepr_AssemblyComponentUsageSubstitute.hxx>

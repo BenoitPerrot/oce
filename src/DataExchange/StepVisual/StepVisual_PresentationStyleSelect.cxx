@@ -16,7 +16,7 @@
 #include <StepVisual_CurveStyle.hxx>
 #include <StepVisual_SurfaceStyleUsage.hxx>
 #include <StepVisual_PresentationStyleSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_PresentationStyleSelect::StepVisual_PresentationStyleSelect () {  }
 

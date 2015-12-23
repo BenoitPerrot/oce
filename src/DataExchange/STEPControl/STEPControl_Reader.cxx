@@ -21,14 +21,14 @@
 #include <STEPControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>
-#include <Interface_ShareFlags.hxx>
+#include <DataExchange/Interface/Interface_ShareFlags.hxx>
 
 #include <STEPControl_ActorRead.hxx>
 
 #include <StepBasic_ProductDefinition.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <StepBasic_ProductDefinitionContext.hxx>
 #include <StepBasic_ApplicationContext.hxx>

@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_AddGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_AddGroup)
 IMPLEMENT_DOWNCAST(IGESSelect_AddGroup,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_AddGroup)
-#include <Interface_Check.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

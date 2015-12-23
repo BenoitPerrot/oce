@@ -15,7 +15,7 @@
 #include <StepRepr_ItemDefinedTransformation.hxx>
 #include <StepRepr_FunctionallyDefinedTransformation.hxx>
 #include <StepRepr_Transformation.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepRepr_Transformation::StepRepr_Transformation () {  }
 

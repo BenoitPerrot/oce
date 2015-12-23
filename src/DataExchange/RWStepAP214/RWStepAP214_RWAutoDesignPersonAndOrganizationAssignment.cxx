@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepAP214_AutoDesignPersonAndOrganizationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepAP214_RWAutoDesignPersonAndOrganizationAssignment.hxx>
 #include <StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
 #include <StepAP214_AutoDesignGeneralOrgItem.hxx>
@@ -23,7 +23,7 @@
 #include <StepBasic_PersonAndOrganizationRole.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepAP214_AutoDesignPersonAndOrganizationAssignment.hxx>

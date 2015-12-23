@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDefs_SpecificModule)
 IMPLEMENT_DOWNCAST(IGESDefs_SpecificModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_SpecificModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESDefs/IGESDefs_AssociativityDef.hxx>
 #include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>

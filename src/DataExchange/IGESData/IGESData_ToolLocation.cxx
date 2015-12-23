@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESData_ToolLocation)
 IMPLEMENT_DOWNCAST(IGESData_ToolLocation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_ToolLocation)
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
 #include <DataExchange/IGESData/IGESData_SingleParentEntity.hxx>
 #include <DataExchange/IGESData/IGESData_GeneralModule.hxx>

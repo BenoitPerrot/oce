@@ -14,7 +14,7 @@
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectRange.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

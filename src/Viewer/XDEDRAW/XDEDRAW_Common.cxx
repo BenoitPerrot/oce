@@ -16,7 +16,7 @@
 #include <Viewer/XDEDRAW/XDEDRAW_Common.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <STEPControl_Controller.hxx>

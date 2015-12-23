@@ -34,7 +34,7 @@
 #include <DataExchange/IGESSolid/IGESSolid_HArray1OfLoop.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_HArray1OfFace.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_HArray1OfShell.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

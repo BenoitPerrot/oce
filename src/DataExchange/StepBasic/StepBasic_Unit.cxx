@@ -18,7 +18,7 @@
 #include <StepBasic_NamedUnit.hxx>
 #include <StepBasic_DerivedUnit.hxx>
 #include <StepBasic_Unit.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <StepBasic_NamedUnit.hxx>
 #include <StepBasic_DerivedUnit.hxx>
 

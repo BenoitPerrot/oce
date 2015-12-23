@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Interface_SequenceNodeOfSequenceOfCheck.hxx>
+#include <DataExchange/Interface/Interface_SequenceNodeOfSequenceOfCheck.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Interface_Check.hxx>
-#include <Interface_SequenceOfCheck.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_SequenceOfCheck.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(Interface_SequenceNodeOfSequenceOfCheck)
 
 
 #define SeqItem Handle(Interface_Check)
-#define SeqItem_hxx <Interface_Check.hxx>
+#define SeqItem_hxx <DataExchange/Interface/Interface_Check.hxx>
 #define TCollection_SequenceNode Interface_SequenceNodeOfSequenceOfCheck
-#define TCollection_SequenceNode_hxx <Interface_SequenceNodeOfSequenceOfCheck.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/Interface/Interface_SequenceNodeOfSequenceOfCheck.hxx>
 #define Handle_TCollection_SequenceNode Handle_Interface_SequenceNodeOfSequenceOfCheck
 #define TCollection_SequenceNode_Type_() Interface_SequenceNodeOfSequenceOfCheck_Type_()
 #define TCollection_Sequence Interface_SequenceOfCheck
-#define TCollection_Sequence_hxx <Interface_SequenceOfCheck.hxx>
+#define TCollection_Sequence_hxx <DataExchange/Interface/Interface_SequenceOfCheck.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

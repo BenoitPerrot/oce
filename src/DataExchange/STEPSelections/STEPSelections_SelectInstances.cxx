@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPSelections_SelectInstances.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectInstances)
 IMPLEMENT_DOWNCAST(STEPSelections_SelectInstances,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
 #include <STEPConstruct_Assembly.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
-#include <Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
 
 static Handle(Interface_HGraph) myGraph;
 static Interface_EntityIterator myEntities;

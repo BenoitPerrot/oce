@@ -32,5 +32,5 @@ IMPLEMENT_STANDARD_RTTI(IGESDefs_HArray1OfHArray1OfTextDisplayTemplate)
 #define Interface_JaggedArray_hxx <DataExchange/IGESDefs/IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #define Handle_Interface_JaggedArray Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate
 #define Interface_JaggedArray_Type_() IGESDefs_HArray1OfHArray1OfTextDisplayTemplate_Type_()
-#include <Interface_JaggedArray.gxx>
+#include <DataExchange/Interface/Interface_JaggedArray.gxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_IFSelect_AppliedModifiers.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SequenceOfGeneralModifier.hxx>
-#include <Interface_IntList.hxx>
+#include <DataExchange/Interface/Interface_IntList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

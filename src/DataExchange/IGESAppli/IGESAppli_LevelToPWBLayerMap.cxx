@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

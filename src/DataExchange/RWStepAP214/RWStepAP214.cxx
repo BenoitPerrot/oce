@@ -19,8 +19,8 @@
 #include <StepAP214.hxx>
 #include <RWStepAP214_ReadWriteModule.hxx>
 #include <RWStepAP214_GeneralModule.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <StepData_WriterLib.hxx>
 
 

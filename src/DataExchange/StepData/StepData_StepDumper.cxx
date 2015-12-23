@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepModel.hxx>
-#include <Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_StepWriter.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -20,8 +20,8 @@
 #include <StepData_StepDumper.hxx>
 #include <StepData_ReadWriteModule.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Interface_GeneralModule.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

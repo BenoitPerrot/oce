@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <RWHeaderSection_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWHeaderSection_GeneralModule)
@@ -29,17 +29,17 @@ IMPLEMENT_STANDARD_TYPE_END(RWHeaderSection_GeneralModule)
 IMPLEMENT_DOWNCAST(RWHeaderSection_GeneralModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(RWHeaderSection_GeneralModule)
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
-#include <Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 #include <DataExchange/HeaderSection/HeaderSection.hxx>
 
 #include <RWHeaderSection.hxx>
 
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 
@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_GeneralModule)
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 
 #include <StepData_UndefinedEntity.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 RWHeaderSection_GeneralModule::RWHeaderSection_GeneralModule ()

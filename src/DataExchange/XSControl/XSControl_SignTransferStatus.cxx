@@ -14,7 +14,7 @@
 #include <XSControl_TransferReader.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <XSControl_SignTransferStatus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_SignTransferStatus)
@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(XSControl_SignTransferStatus,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_SignTransferStatus)
 #include <Transfer_Binder.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 //#include <stdio.h>
 
 static TCollection_AsciiString& themes()

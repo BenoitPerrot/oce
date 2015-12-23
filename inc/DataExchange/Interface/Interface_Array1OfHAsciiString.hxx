@@ -95,7 +95,7 @@ private:
 #define Array1Item Handle(TCollection_HAsciiString)
 #define Array1Item_hxx <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #define TCollection_Array1 Interface_Array1OfHAsciiString
-#define TCollection_Array1_hxx <Interface_Array1OfHAsciiString.hxx>
+#define TCollection_Array1_hxx <DataExchange/Interface/Interface_Array1OfHAsciiString.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

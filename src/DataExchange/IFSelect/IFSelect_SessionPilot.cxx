@@ -31,11 +31,11 @@ IMPLEMENT_DOWNCAST(IFSelect_SessionPilot,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SessionPilot)
 #include <DataExchange/IFSelect/IFSelect_Activator.hxx>
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>

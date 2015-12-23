@@ -12,7 +12,7 @@
 
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Interface_CopyControl.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Transfer_TransientProcess;

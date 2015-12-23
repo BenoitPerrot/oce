@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Interface_CheckStatus.hxx>
+#include <DataExchange/Interface/Interface_CheckStatus.hxx>
 #include <Handle_Message_Messenger.hxx>
 class TColStd_HSequenceOfHAsciiString;
 class Standard_Transient;

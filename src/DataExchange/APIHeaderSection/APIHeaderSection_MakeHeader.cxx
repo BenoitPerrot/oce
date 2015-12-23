@@ -22,12 +22,12 @@
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 #include <StepData_StepModel.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
@@ -35,11 +35,11 @@
 
 #include <StepData_Protocol.hxx>
 
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
-#include <Interface_MSG.hxx>
-#include <Interface_Version.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_Version.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 // This is a generic header for any STEP sheme
 

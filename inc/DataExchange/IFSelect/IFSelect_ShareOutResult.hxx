@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_IFSelect_PacketList.hxx>

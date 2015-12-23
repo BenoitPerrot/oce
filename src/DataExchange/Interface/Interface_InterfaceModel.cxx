@@ -15,22 +15,22 @@
 //svv#1 11.01.00 : porting on DEC
 //svv#2 21.02.00 : porting on SIL
 //smh#14 17.03.2000 : FRA62479 Clearing of gtool.
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_GTool.hxx>
+#include <DataExchange/Interface/Interface_GTool.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Interface_InterfaceMismatch.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_ReportEntity.hxx>
-#include <Interface_CheckIterator.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_InterfaceModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -40,15 +40,15 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Interface_InterfaceModel)
 IMPLEMENT_DOWNCAST(Interface_InterfaceModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_InterfaceModel)
-#include <Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerTransient.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Interface_SignType.hxx>
+#include <DataExchange/Interface/Interface_SignType.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
 // Un Modele d`Interface est un ensemble ferme d`Entites d`interface : chacune

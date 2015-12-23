@@ -15,15 +15,15 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_AppliedModifiers.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_ShareOutResult.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_CopyTool.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_ModelCopier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_ModelCopier)
@@ -41,9 +41,9 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_ModelCopier)
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CheckIterator.hxx>
-#include <Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <stdio.h>

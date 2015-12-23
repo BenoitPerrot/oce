@@ -14,16 +14,16 @@
 #include <DataExchange/IFSelect/IFSelect_ShareOut.hxx>
 #include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ShareOutResult.hxx>
 #include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <DataExchange/IFGraph/IFGraph_AllShared.hxx>
-#include <Interface_GraphContent.hxx>
+#include <DataExchange/Interface/Interface_GraphContent.hxx>
 
 
 

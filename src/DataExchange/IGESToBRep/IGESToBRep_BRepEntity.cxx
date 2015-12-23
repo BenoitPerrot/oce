@@ -65,7 +65,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Precision.hxx>
 

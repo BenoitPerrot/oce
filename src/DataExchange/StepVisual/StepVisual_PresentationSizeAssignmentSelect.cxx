@@ -16,7 +16,7 @@
 #include <StepVisual_PresentationArea.hxx>
 #include <StepVisual_AreaInSet.hxx>
 #include <StepVisual_PresentationSizeAssignmentSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_PresentationSizeAssignmentSelect::StepVisual_PresentationSizeAssignmentSelect () {  }
 

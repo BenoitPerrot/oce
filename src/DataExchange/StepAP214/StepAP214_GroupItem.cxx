@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <StepAP214_GroupItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_GroupItem::StepAP214_GroupItem () {  }
 

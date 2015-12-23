@@ -17,10 +17,10 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_CurveBoundedSurface.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepGeom_RWCurveBoundedSurface.hxx>
 #include <StepGeom_HArray1OfSurfaceBoundary.hxx>
 #include <StepGeom_SurfaceBoundary.hxx>

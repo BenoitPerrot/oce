@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,8 +30,8 @@ IMPLEMENT_DOWNCAST(IGESSelect_ViewSorter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_ViewSorter)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

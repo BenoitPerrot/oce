@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectLevelNumber.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_SelectLevelNumber,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectLevelNumber)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

@@ -13,7 +13,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <Interface_BitMap.hxx>
+#include <DataExchange/Interface/Interface_BitMap.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 

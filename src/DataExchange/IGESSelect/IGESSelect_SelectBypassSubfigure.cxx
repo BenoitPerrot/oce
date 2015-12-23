@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectBypassSubfigure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBypassSubfigure)
 #include <DataExchange/IGESDraw/IGESDraw_RectArraySubfigure.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_CircArraySubfigure.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

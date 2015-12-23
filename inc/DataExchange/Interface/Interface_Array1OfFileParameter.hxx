@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item Interface_FileParameter
-#define Array1Item_hxx <Interface_FileParameter.hxx>
+#define Array1Item_hxx <DataExchange/Interface/Interface_FileParameter.hxx>
 #define TCollection_Array1 Interface_Array1OfFileParameter
-#define TCollection_Array1_hxx <Interface_Array1OfFileParameter.hxx>
+#define TCollection_Array1_hxx <DataExchange/Interface/Interface_Array1OfFileParameter.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

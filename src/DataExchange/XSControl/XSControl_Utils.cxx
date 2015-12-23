@@ -27,13 +27,13 @@
 #include <XSControl_Utils.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeBinder.hxx>

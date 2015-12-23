@@ -59,13 +59,13 @@ private:
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode Interface_DataMapNodeOfDataMapOfTransientInteger
-#define TCollection_DataMapNode_hxx <Interface_DataMapNodeOfDataMapOfTransientInteger.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/Interface/Interface_DataMapNodeOfDataMapOfTransientInteger.hxx>
 #define TCollection_DataMapIterator Interface_DataMapIteratorOfDataMapOfTransientInteger
-#define TCollection_DataMapIterator_hxx <Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/Interface/Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx>
 #define Handle_TCollection_DataMapNode Handle_Interface_DataMapNodeOfDataMapOfTransientInteger
 #define TCollection_DataMapNode_Type_() Interface_DataMapNodeOfDataMapOfTransientInteger_Type_()
 #define TCollection_DataMap Interface_DataMapOfTransientInteger
-#define TCollection_DataMap_hxx <Interface_DataMapOfTransientInteger.hxx>
+#define TCollection_DataMap_hxx <DataExchange/Interface/Interface_DataMapOfTransientInteger.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

@@ -77,7 +77,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 /* Just used for WriteShape */
 

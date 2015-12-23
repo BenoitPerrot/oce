@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Interface_FileReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESData_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESData_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_ReadWriteModule)
 #include <DataExchange/IGESData/IGESData_IGESType.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

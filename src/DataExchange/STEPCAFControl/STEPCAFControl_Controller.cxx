@@ -27,7 +27,7 @@ IMPLEMENT_DOWNCAST(STEPCAFControl_Controller,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPCAFControl_Controller)
 #include <STEPCAFControl_ActorWrite.hxx>
 #include <XSAlgo.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 //=======================================================================
 //function : STEPCAFControl_Controller

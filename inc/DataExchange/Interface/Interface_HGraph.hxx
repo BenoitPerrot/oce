@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_HGraph.hxx>
 
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -12,7 +12,7 @@
 #include <Transfer_Binder.hxx>
 #include <Transfer_ActorOfProcessForTransient.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Transfer_TransferFailure.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
@@ -20,9 +20,9 @@
 #include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
  
 

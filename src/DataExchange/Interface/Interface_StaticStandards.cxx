@@ -14,7 +14,7 @@
 //#74 rln 10.03.99 S4135: new parameters, values and default values
 //    gka 10.04.99 S4136: eliminate parameter 'lastpreci'
 //S4181 pdn 23.04.99: adding new parameter handling writing of elementary surfaces
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 //tatouage de la librairie

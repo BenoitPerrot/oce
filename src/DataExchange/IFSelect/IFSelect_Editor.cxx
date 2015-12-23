@@ -13,7 +13,7 @@
 
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
@@ -21,7 +21,7 @@
 #include <DataExchange/IFSelect/IFSelect_ListEditor.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_Editor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_Editor)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_Editor)
 IMPLEMENT_DOWNCAST(IFSelect_Editor,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_Editor)
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 #include <string.h>
 
 

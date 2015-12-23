@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_GTool.hxx>
-#include <Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>

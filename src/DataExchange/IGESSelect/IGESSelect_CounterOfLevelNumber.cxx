@@ -13,7 +13,7 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_CounterOfLevelNumber)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 #include <Foundation/Message/Message_Messenger.hxx>

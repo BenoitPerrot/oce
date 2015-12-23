@@ -15,7 +15,7 @@
 //:j4 gka 11 Mar 99 S4134 :  added new types for DIS
 //    gka 09.04.99: S4136: new name of parameter write.step.schema 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <StepAP214_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepAP214_Protocol)
@@ -439,7 +439,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/HeaderSection/HeaderSection.hxx>
 
 
-#include <Interface_DataMapOfTransientInteger.hxx>
+#include <DataExchange/Interface/Interface_DataMapOfTransientInteger.hxx>
 // Added from CC2 to DIS March 1999 j4
 
 #include <StepAP214_AppliedDateAndTimeAssignment.hxx>
@@ -458,7 +458,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <StepShape_ExtrudedFaceSolid.hxx>
 #include <StepShape_RevolvedFaceSolid.hxx>
 #include <StepShape_SweptFaceSolid.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <StepBasic_AreaUnit.hxx>
 #include <StepBasic_VolumeUnit.hxx>
 #include <StepBasic_SiUnitAndAreaUnit.hxx>

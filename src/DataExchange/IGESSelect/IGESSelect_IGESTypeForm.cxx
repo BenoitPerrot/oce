@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_IGESTypeForm.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_IGESTypeForm)
@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_IGESTypeForm,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_IGESTypeForm)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

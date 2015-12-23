@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceError.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectFromDrawing.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectFromDrawing)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectFromDrawing,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectFromDrawing)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #define PourDrawing 404
 

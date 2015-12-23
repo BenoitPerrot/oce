@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_PacketList)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(IFSelect_PacketList)
 IMPLEMENT_DOWNCAST(IFSelect_PacketList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_PacketList)
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 
 
 

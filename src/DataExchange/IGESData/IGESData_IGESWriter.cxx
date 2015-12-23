@@ -13,8 +13,8 @@
 
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Interface_InterfaceMismatch.hxx>
-#include <Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
@@ -24,11 +24,11 @@
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <DataExchange/IGESData/IGESData_DefType.hxx>
 #include <DataExchange/IGESData/IGESData_DirPart.hxx>
-#include <Interface_ParamSet.hxx>
-#include <Interface_ReportEntity.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 
@@ -44,8 +44,8 @@
 #include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_FileParameter.hxx>
-#include <Interface_ParamList.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_ParamList.hxx>
 #include <stdio.h>
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 

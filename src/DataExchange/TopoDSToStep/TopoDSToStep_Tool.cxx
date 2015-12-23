@@ -25,7 +25,7 @@
 #include <TopoDSToStep_Tool.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 //=======================================================================
 //function : TopoDSToStep_Tool

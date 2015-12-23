@@ -15,7 +15,7 @@
 #include <StepAP214_AppliedOrganizationAssignment.hxx>
 #include <StepBasic_Approval.hxx>
 #include <StepAP214_OrganizationItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_OrganizationItem::StepAP214_OrganizationItem ()  {  }
 

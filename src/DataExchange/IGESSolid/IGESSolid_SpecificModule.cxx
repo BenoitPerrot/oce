@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_SpecificModule)
 IMPLEMENT_DOWNCAST(IGESSolid_SpecificModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_SpecificModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESSolid/IGESSolid_Block.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_BooleanTree.hxx>

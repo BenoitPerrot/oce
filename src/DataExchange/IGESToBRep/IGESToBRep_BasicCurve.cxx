@@ -87,7 +87,7 @@
 
 #include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Precision.hxx>  
 

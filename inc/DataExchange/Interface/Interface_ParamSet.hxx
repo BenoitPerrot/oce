@@ -16,7 +16,7 @@
 #include <Handle_Interface_ParamSet.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 class Interface_ParamList;
 class Standard_OutOfRange;
 class Interface_FileParameter;

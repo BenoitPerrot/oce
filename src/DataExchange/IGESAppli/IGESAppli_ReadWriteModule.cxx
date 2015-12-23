@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESAppli_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_ReadWriteModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESAppli/IGESAppli_DrilledHole.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_ElementResults.hxx>

@@ -54,7 +54,7 @@
 
 #include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 
-#include <Interface_Macros.hxx>  
+#include <DataExchange/Interface/Interface_Macros.hxx>  
 
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>

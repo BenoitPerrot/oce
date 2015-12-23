@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <Interface_GraphContent.hxx>
+#include <DataExchange/Interface/Interface_GraphContent.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>
 class TColStd_HSequenceOfInteger;

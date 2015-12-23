@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_DispGlobal.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(IFSelect_DispGlobal)
 IMPLEMENT_DOWNCAST(IFSelect_DispGlobal,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispGlobal)
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 // Genere un seul paquet avec la sortie finale
 

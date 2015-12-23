@@ -35,7 +35,7 @@
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 #include <Foundation/OSD/OSD_OpenFile.hxx>

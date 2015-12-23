@@ -16,7 +16,7 @@
 #include <StepBasic_LocalTime.hxx>
 #include <StepBasic_DateAndTime.hxx>
 #include <StepBasic_DateTimeSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepBasic_DateTimeSelect::StepBasic_DateTimeSelect () {  }
 

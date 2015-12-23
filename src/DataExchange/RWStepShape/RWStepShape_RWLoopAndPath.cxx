@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_LoopAndPath.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepShape_RWLoopAndPath.hxx>
 #include <StepShape_Loop.hxx>
 #include <StepShape_Path.hxx>
@@ -23,7 +23,7 @@
 #include <StepShape_OrientedEdge.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepShape_LoopAndPath.hxx>

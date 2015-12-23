@@ -45,7 +45,7 @@
 #include <Transfer_TransientProcess.hxx>
 #include <TransferBRep.hxx>
 #include <Transfer_Binder.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <XSControl_TransferReader.hxx>
 
 #include <StepBasic_Product.hxx>
@@ -88,7 +88,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_LayeredItem.hxx>
 #include <XCAFDoc_LayerTool.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
 #include <STEPConstruct_Assembly.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
@@ -179,7 +179,7 @@
 #include <StepBasic_ProductDefinition.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <StepShape_ManifoldSolidBrep.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>

@@ -12,16 +12,16 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_GeometricCurveSet.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepShape_RWGeometricCurveSet.hxx>
 #include <StepShape_HArray1OfGeometricSetSelect.hxx>
 #include <StepShape_GeometricSetSelect.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepShape_GeometricCurveSet.hxx>

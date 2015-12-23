@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_GTool.hxx>
-#include <Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_GTool.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_HGraph)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Interface_Graph.hxx>
-#include <Interface_GraphContent.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_GraphContent.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_Graph;

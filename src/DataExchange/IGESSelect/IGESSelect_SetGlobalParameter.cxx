@@ -14,7 +14,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SetGlobalParameter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SetGlobalParameter)
 IMPLEMENT_DOWNCAST(IGESSelect_SetGlobalParameter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SetGlobalParameter)
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
-#include <Interface_ParamSet.hxx>
-#include <Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
 #include <stdio.h>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 
 IGESSelect_SetGlobalParameter::IGESSelect_SetGlobalParameter

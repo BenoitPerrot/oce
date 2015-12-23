@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <Interface_ParamList.hxx>
-#include <Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Interface_ParamList.hxx>
+#include <DataExchange/Interface/Interface_ParamSet.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Interface_FileParameter.hxx>
-#include <Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_ParamSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_ParamSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

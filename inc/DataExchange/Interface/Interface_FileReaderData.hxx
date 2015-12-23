@@ -16,7 +16,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Handle_Interface_ParamList.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>

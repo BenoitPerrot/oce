@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_Protocol.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <StepSelect_StepType.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepSelect_StepType)
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_StepType)
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepData_ReadWriteModule.hxx>
 #include <StepData_UndefinedEntity.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 static TCollection_AsciiString lastvalue;

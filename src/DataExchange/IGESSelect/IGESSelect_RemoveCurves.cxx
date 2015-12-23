@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_RemoveCurves.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_RemoveCurves)
 IMPLEMENT_DOWNCAST(IGESSelect_RemoveCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_RemoveCurves)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>

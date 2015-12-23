@@ -13,7 +13,7 @@
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Interface_BitMap.hxx>
+#include <DataExchange/Interface/Interface_BitMap.hxx>
 #include <Handle_TColStd_HArray1OfListOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_Protocol.hxx>

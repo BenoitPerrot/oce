@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_AutoCorrect.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,9 +30,9 @@ IMPLEMENT_DOWNCAST(IGESSelect_AutoCorrect,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_AutoCorrect)
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

@@ -12,8 +12,8 @@
 
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Interface_SignType.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_DataMapOfTransientInteger.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_DataMapOfTransientInteger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

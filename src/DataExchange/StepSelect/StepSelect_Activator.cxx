@@ -24,11 +24,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepSelect_Activator)
 IMPLEMENT_DOWNCAST(StepSelect_Activator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepSelect_Activator)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <StepData_UndefinedEntity.hxx>
 #include <StepData_Simple.hxx>
 #include <StepData_Plex.hxx>

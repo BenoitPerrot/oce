@@ -13,7 +13,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_SignLabel.hxx>
+#include <DataExchange/Interface/Interface_SignLabel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_SignLabel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Interface_SignLabel)
 IMPLEMENT_DOWNCAST(Interface_SignLabel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Interface_SignLabel)
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 

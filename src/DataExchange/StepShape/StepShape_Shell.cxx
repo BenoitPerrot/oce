@@ -15,7 +15,7 @@
 #include <StepShape_OpenShell.hxx>
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_Shell.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_Shell::StepShape_Shell () {  }
 

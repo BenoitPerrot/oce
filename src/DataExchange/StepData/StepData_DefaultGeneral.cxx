@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <StepData_DefaultGeneral.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_DefaultGeneral)
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_DefaultGeneral)
 IMPLEMENT_DOWNCAST(StepData_DefaultGeneral,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_DefaultGeneral)
 #include <StepData.hxx>
-#include <Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <StepData_UndefinedEntity.hxx>
-#include <Interface_UndefinedContent.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_UndefinedContent.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 
 
 //  DefaultGeneral de StepData  reconnait  UN SEUL TYPE : UndefinedEntity

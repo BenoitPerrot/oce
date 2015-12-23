@@ -10,9 +10,9 @@
 #include <StepData_StepModel.hxx>
 #include <StepData_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 
  
 

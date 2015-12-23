@@ -14,9 +14,9 @@
 #include <XSControl_Controller.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <XSControl_TransferWriter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_TransferWriter)
@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferWriter)
 #include <XSControl_Utils.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 
 XSControl_TransferWriter::XSControl_TransferWriter ()

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //#include <DataExchange/IFSelect/IFSelect_ModelModifier.ixx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 IFSelect_ModelModifier::IFSelect_ModelModifier (const Standard_Boolean grf)
     : IFSelect_Modifier (grf)    {  }

@@ -16,7 +16,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Interface_CheckStatus.hxx>
+#include <DataExchange/Interface/Interface_CheckStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 class Standard_Transient;

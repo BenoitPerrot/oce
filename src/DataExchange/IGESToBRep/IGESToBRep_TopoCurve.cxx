@@ -83,7 +83,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_OffsetCurve.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Precision.hxx>  
 

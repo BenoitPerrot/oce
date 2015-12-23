@@ -25,7 +25,7 @@
 //  This set of macros allows user to simply declare and use "static" Handles.
 //  It is available once having included this file :
 //  ***************************************************
-//         #include <Interface_Statics.hxx>
+//         #include <DataExchange/Interface/Interface_Statics.hxx>
 
 //  Static construction is replaced by using the macro StaticHandle :
 //  ***************************************************

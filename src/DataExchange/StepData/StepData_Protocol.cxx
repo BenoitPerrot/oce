@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <StepData_EDescr.hxx>
 #include <StepData_ESDescr.hxx>
 #include <StepData_ECDescr.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_Protocol)
 #include <StepData_StepModel.hxx>
 #include <StepData_UndefinedEntity.hxx>
 #include <StepData_Described.hxx>
-#include <Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx>
+#include <DataExchange/Interface/Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx>
 #include <stdio.h>
 
 

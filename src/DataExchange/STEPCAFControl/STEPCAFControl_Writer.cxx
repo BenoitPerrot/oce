@@ -62,7 +62,7 @@
 #include <STEPCAFControl_Controller.hxx>
 #include <STEPCAFControl_IteratorOfDictionaryOfExternFile.hxx>
 #include <STEPConstruct_ExternRefs.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
@@ -109,7 +109,7 @@
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 // #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepRepr_SpecifiedHigherUsageOccurrence.hxx>
 
 // added by skl 15.01.2004 for D&GT writing

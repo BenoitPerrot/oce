@@ -14,13 +14,13 @@
 //:i1 gka 03.04.99 BUC60301 
 
 #include <XSControl_WorkSession.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <XSControl_Writer.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferWriter.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 XSControl_Writer::XSControl_Writer ()

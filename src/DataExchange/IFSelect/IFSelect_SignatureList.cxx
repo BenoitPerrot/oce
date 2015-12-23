@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignatureList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignatureList)
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SignatureList)
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfInteger.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_MSG.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 

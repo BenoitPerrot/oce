@@ -16,7 +16,7 @@
 #include <StepShape_BooleanResult.hxx>
 #include <StepShape_CsgPrimitive.hxx>
 #include <StepShape_BooleanOperand.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_BooleanOperand::StepShape_BooleanOperand () {  }
 

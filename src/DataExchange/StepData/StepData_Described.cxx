@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <StepData_EDescr.hxx>
-#include <Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
 #include <StepData_Simple.hxx>
 #include <StepData_Field.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepData_Described.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Described)

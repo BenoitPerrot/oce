@@ -17,7 +17,7 @@
 #include <StepAP214_AppliedOrganizationAssignment.hxx>
 #include <StepBasic_Effectivity.hxx>
 #include <StepAP214_DateItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_DateItem::StepAP214_DateItem () {  }
 

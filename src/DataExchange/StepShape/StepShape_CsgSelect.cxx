@@ -14,7 +14,7 @@
 #include <StepShape_BooleanResult.hxx>
 #include <StepShape_CsgPrimitive.hxx>
 #include <StepShape_CsgSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_CsgSelect::StepShape_CsgSelect () {  }
 

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectPCurves.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectPCurves)
 #include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectBasicGeom.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 IGESSelect_SelectPCurves::IGESSelect_SelectPCurves
   (const Standard_Boolean basic)

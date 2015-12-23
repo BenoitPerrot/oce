@@ -52,7 +52,7 @@
 #include <StepBasic_HArray1OfNamedUnit.hxx>
 #include <StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
 #include <UnitsMethods.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 //=======================================================================
 //function : STEPConstruct_UnitContext

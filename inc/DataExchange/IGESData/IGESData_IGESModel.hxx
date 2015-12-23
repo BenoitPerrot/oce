@@ -12,7 +12,7 @@
 
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

@@ -101,7 +101,7 @@
 #include <DataExchange/IGESSolid/IGESSolid_SphericalSurface.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 

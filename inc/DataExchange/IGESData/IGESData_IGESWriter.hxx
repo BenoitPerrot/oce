@@ -17,8 +17,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IGESData/IGESData_ReadStage.hxx>
-#include <Interface_LineBuffer.hxx>
-#include <Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_LineBuffer.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IGESData_Protocol.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>

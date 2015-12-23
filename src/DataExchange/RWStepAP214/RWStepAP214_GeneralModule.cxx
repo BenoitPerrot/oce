@@ -15,10 +15,10 @@
 //:n5 abv 15 Feb 99: S4132 complex type bounded_curve + surface_curve
 //:j4 gka 16.03.99 S4134
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <RWStepAP214_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -33,14 +33,14 @@ IMPLEMENT_STANDARD_TYPE_END(RWStepAP214_GeneralModule)
 IMPLEMENT_DOWNCAST(RWStepAP214_GeneralModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(RWStepAP214_GeneralModule)
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 //#define DeclareAndCast(atype,result,start) \  NON car Name
 // Handle(atype) result = *((Handle(atype)*) &start)
 
-#include <Interface_GeneralLib.hxx>
-#include <Interface_Category.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_Category.hxx>
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 #include <StepAP214.hxx>
 

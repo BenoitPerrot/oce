@@ -15,7 +15,7 @@
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/APIHeaderSection/APIHeaderSection_EditHeader.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(APIHeaderSection_EditHeader)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(APIHeaderSection_EditHeader)
 IMPLEMENT_DOWNCAST(APIHeaderSection_EditHeader,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(APIHeaderSection_EditHeader)
-#include <Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
 
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 

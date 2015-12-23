@@ -26,8 +26,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSelect_Activator)
 IMPLEMENT_DOWNCAST(IGESSelect_Activator,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_Activator)
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 

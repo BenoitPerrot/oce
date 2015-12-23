@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(XSDRAW_Vars)
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

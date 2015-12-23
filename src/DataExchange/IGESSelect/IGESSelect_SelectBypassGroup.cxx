@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectBypassGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBypassGroup)
 #include <DataExchange/IGESBasic/IGESBasic_GroupWithoutBackP.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_OrderedGroup.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_OrderedGroupWithoutBackP.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 #define TypePourGroup 402

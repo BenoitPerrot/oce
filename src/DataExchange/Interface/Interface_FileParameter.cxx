@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
 
 //=======================================================================
 //function : Interface_FileParameter

@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_ResultFromTransient.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <Transfer_ResultFromModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_ResultFromModel)
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(Transfer_ResultFromModel)
 IMPLEMENT_DOWNCAST(Transfer_ResultFromModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_ResultFromModel)
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Transfer_Binder.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

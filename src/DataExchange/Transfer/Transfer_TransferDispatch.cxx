@@ -11,16 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceError.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_TransferDispatch.hxx>
 #include <Transfer_DispatchControl.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

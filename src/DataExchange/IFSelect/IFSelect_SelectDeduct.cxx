@@ -13,9 +13,9 @@
 
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectPointed.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectionIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

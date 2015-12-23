@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_BasicDumper)
 #include <DataExchange/IFSelect/IFSelect_DispPerCount.hxx>
 #include <DataExchange/IFSelect/IFSelect_TransformStandard.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #define FIRSTCHAR 1
 // Param litteral "own" sous la forme  :"<val>" -> first = 3

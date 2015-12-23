@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPSelections_SelectAssembly.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectAssembly)
 IMPLEMENT_DOWNCAST(STEPSelections_SelectAssembly,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectAssembly)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <StepRepr_NextAssemblyUsageOccurrence.hxx>

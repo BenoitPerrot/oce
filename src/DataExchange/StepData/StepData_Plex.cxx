@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
 #include <StepData_ECDescr.hxx>
 #include <StepData_Simple.hxx>
 #include <StepData_Field.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <StepData_Plex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Plex)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_Plex)
 IMPLEMENT_DOWNCAST(StepData_Plex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_Plex)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
 
 
 static StepData_Field bid;

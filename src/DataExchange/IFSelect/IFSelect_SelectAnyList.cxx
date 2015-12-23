@@ -13,10 +13,10 @@
 
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectAnyList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectAnyList)
 IMPLEMENT_DOWNCAST(IFSelect_SelectAnyList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectAnyList)
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <stdio.h>
 
 // ....    Definition de liste : methodes "deferred" NbItems & FillResult

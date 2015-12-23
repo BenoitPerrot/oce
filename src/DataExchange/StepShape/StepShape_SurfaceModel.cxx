@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepShape_ShellBasedSurfaceModel.hxx>
 #include <StepShape_SurfaceModel.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_SurfaceModel::StepShape_SurfaceModel () {  }
 

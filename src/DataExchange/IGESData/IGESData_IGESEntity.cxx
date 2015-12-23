@@ -13,7 +13,7 @@
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <DataExchange/IGESData/IGESData_ReadWriteModule.hxx>
 #include <DataExchange/IGESData/IGESData_GeneralModule.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderTool.hxx>
@@ -26,9 +26,9 @@
 #include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_EntityList.hxx>
+#include <DataExchange/Interface/Interface_EntityList.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESData_IGESEntity)
@@ -41,11 +41,11 @@ IMPLEMENT_DOWNCAST(IGESData_IGESEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESData_IGESEntity)
 #include <DataExchange/IGESData/IGESData_NameEntity.hxx>
 #include <DataExchange/IGESData/IGESData_SingleParentEntity.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <stdio.h>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 
 

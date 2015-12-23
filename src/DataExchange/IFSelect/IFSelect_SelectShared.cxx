@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectShared.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -26,8 +26,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SelectShared)
 IMPLEMENT_DOWNCAST(IFSelect_SelectShared,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SelectShared)
-#include <Interface_Graph.hxx>
-#include <Interface_GraphContent.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_GraphContent.hxx>
 
 
 IFSelect_SelectShared::IFSelect_SelectShared ()    {  }

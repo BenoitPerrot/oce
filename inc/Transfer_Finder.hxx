@@ -17,7 +17,7 @@
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Dico_DictionaryOfTransient;
 class Standard_Type;

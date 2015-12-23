@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPSelections_SelectDerived.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectDerived)
 #include <StepData_ReadWriteModule.hxx>
 #include <RWStepAP214_GeneralModule.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 STEPSelections_SelectDerived::STEPSelections_SelectDerived():StepSelect_StepType()
 {

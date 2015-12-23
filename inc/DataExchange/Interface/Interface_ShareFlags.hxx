@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Interface_InterfaceModel.hxx>
-#include <Interface_BitMap.hxx>
+#include <DataExchange/Interface/Interface_BitMap.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Interface_GTool.hxx>
 #include <Handle_Interface_Protocol.hxx>

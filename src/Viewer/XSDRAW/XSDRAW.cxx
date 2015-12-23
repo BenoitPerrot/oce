@@ -14,8 +14,8 @@
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <XSControl_Controller.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_FinderProcess.hxx>
@@ -41,7 +41,7 @@
 #include <TransferBRep.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 #include <Foundation/Message/Message.hxx>

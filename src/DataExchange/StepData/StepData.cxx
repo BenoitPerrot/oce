@@ -18,10 +18,10 @@
 # include <StepData_Protocol.hxx>
 # include <StepData_DefaultGeneral.hxx>
 # include <StepData_FileProtocol.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
-#include <Interface_Statics.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Statics.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IFGraph/IFGraph_Articulations.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 
 
 

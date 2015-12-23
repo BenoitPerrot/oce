@@ -15,7 +15,7 @@
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <STEPEdit_EditSDR.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(STEPEdit_EditSDR)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(STEPEdit_EditSDR)
 IMPLEMENT_DOWNCAST(STEPEdit_EditSDR,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPEdit_EditSDR)
-#include <Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 #include <StepData_StepModel.hxx>

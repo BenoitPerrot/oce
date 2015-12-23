@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_EntityCluster.hxx>
+#include <DataExchange/Interface/Interface_EntityCluster.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <Interface_EntityList.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_EntityCluster.hxx>
+#include <DataExchange/Interface/Interface_EntityList.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityCluster.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_EntityCluster)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_IGESName.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_IGESName)
@@ -28,7 +28,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_IGESName,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_IGESName)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 static char falsetype [] = "?";
 static char voidlabel [] = "";

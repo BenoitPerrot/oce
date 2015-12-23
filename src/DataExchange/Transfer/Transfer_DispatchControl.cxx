@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Transfer_TransientProcess.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_DispatchControl.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

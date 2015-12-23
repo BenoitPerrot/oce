@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <Transfer_TransferFailure.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Transfer_TransferIterator.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <Transfer_TransferInput.hxx>
 #include <Transfer_Binder.hxx>
@@ -26,7 +26,7 @@
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <Transfer_MultipleBinder.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 Transfer_TransferInput::Transfer_TransferInput ()    {  }

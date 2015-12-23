@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESData_ReadWriteModule.hxx>
 
-#include <Interface_ReaderModule.hxx>
+#include <DataExchange/Interface/Interface_ReaderModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_FileReaderData.hxx>
 #include <Handle_Interface_Check.hxx>

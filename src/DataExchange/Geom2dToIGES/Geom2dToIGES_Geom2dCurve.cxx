@@ -66,7 +66,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_OffsetCurve.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Precision.hxx>
 

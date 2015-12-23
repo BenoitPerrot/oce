@@ -17,17 +17,17 @@
 //#66 rln Setting IGES 5.3 by default
 //#73 rln 10.03.99 S4135: "read.scale.unit" is applied after translation
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_ParamSet.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
-#include <Interface_ParamType.hxx>
-#include <Interface_FloatWriter.hxx>
-#include <Interface_FileReaderData.hxx>
-#include <Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 #include <stdio.h>
 

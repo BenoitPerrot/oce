@@ -16,10 +16,10 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepElement_ElementMaterial.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepElement_RWElementMaterial.hxx>
 #include <StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
 #include <StepRepr_MaterialPropertyRepresentation.hxx>

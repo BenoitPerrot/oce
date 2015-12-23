@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectBasicGeom.hxx>
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBasicGeom)
 #include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

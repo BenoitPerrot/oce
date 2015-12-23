@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepBasic_RWProductDefinitionWithAssociatedDocuments.hxx>
 #include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <StepBasic_ProductDefinitionContext.hxx>
@@ -23,7 +23,7 @@
 #include <StepBasic_Document.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>

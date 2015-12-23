@@ -14,10 +14,10 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepData_StepModel.hxx>
@@ -36,11 +36,11 @@ IMPLEMENT_STANDARD_RTTI(StepData_StepModel)
 #include <StepData_StepWriter.hxx>
 
 #include <StepData.hxx>
-#include <Interface_CopyTool.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_GeneralModule.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 

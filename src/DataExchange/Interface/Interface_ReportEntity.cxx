@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_ReportEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

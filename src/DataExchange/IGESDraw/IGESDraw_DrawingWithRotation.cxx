@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(IGESDraw_DrawingWithRotation)
 #include <DataExchange/IGESGraph/IGESGraph_DrawingUnits.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_DrawingSize.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 IGESDraw_DrawingWithRotation::IGESDraw_DrawingWithRotation ()    {  }

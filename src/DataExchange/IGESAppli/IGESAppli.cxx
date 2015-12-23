@@ -17,8 +17,8 @@
 #include <DataExchange/IGESAppli/IGESAppli_GeneralModule.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_ReadWriteModule.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_SpecificModule.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <DataExchange/IGESDefs/IGESDefs.hxx>

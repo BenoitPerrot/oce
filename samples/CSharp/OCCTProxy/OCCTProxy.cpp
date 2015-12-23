@@ -29,7 +29,7 @@
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <DataExchange/IGESControl/IGESControl_Writer.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 //step I/E
 #include <STEPControl_Reader.hxx>
 #include <STEPControl_Writer.hxx>

@@ -18,10 +18,10 @@
 #include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 class TColStd_HSequenceOfHAsciiString;
 class Interface_ParamSet;
 class Interface_Check;

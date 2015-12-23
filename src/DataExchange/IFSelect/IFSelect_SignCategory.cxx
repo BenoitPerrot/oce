@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignCategory.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IFSelect_SignCategory)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SignCategory)
 IMPLEMENT_DOWNCAST(IFSelect_SignCategory,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SignCategory)
-#include <Interface_Category.hxx>
+#include <DataExchange/Interface/Interface_Category.hxx>
 
 
 static Standard_CString nulsign = "";

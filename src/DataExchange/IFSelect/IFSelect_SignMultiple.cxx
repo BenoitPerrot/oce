@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignMultiple.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

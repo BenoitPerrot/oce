@@ -86,8 +86,8 @@
 #include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 
 #include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 

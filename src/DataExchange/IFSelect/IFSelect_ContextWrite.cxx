@@ -11,16 +11,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_AppliedModifiers.hxx>
-#include <Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 

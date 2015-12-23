@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDefs_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESDefs_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDefs_ReadWriteModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESDefs/IGESDefs_AssociativityDef.hxx>
 #include <DataExchange/IGESDefs/IGESDefs_AttributeDef.hxx>

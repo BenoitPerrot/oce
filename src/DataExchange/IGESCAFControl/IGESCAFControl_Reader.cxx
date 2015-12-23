@@ -28,7 +28,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <DataExchange/IGESCAFControl/IGESCAFControl.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

@@ -29,7 +29,7 @@
 
 #include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 //=============================================================================
 // Geom2dToIGES_Geom2dVector

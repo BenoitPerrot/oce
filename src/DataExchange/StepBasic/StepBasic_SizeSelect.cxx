@@ -15,7 +15,7 @@
 #include <StepData_SelectMember.hxx>
 #include <StepBasic_SizeSelect.hxx>
 #include <StepBasic_SizeMember.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 //=======================================================================

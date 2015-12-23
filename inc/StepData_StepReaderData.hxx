@@ -11,13 +11,13 @@
 #include <Handle_StepData_StepReaderData.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Interface_IndexedMapOfAsciiString.hxx>
+#include <DataExchange/Interface/Interface_IndexedMapOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Check.hxx>
-#include <Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_PDescr.hxx>
 #include <Handle_Standard_Transient.hxx>

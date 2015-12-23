@@ -15,7 +15,7 @@
 #include <StepVisual_PresentationRepresentation.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepVisual_LayeredItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_LayeredItem::StepVisual_LayeredItem () {  }
 

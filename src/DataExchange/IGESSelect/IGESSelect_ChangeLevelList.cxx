@@ -17,7 +17,7 @@
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_ChangeLevelList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -34,9 +34,9 @@ IMPLEMENT_DOWNCAST(IGESSelect_ChangeLevelList,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_ChangeLevelList)
 #include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 
 IGESSelect_ChangeLevelList::IGESSelect_ChangeLevelList ()

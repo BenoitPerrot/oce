@@ -49,7 +49,7 @@ IMPLEMENT_DOWNCAST(STEPControl_ActorRead,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <Foundation/OSD/OSD_Timer.hxx>
 
-// #include <Interface_InterfaceModel.hxx>  // pour mise au point
+// #include <DataExchange/Interface/Interface_InterfaceModel.hxx>  // pour mise au point
 
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
@@ -85,8 +85,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <UnitsMethods.hxx>
 
 //  Representation Relationship & cie
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <TransferBRep.hxx>
 #include <StepShape_ContextDependentShapeRepresentation.hxx>
 #include <StepRepr_ShapeRepresentationRelationship.hxx>
@@ -101,9 +101,9 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 
 #include <TransferBRep_ShapeBinder.hxx>
 
-#include <Interface_Static.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>

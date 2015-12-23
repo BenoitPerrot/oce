@@ -17,8 +17,8 @@
 #include <DataExchange/IGESDraw/IGESDraw_GeneralModule.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_ReadWriteModule.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_SpecificModule.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <DataExchange/IGESDimen/IGESDimen.hxx>

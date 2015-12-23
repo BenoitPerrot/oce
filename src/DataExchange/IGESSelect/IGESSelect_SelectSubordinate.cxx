@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectSubordinate.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectSubordinate)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectSubordinate,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectSubordinate)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESControl_ActorWrite)
 IMPLEMENT_DOWNCAST(IGESControl_ActorWrite,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <TransferBRep_ShapeMapper.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_ActorWrite)
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 IGESControl_ActorWrite::IGESControl_ActorWrite ()  {  ModeTrans() = 0;  }
 

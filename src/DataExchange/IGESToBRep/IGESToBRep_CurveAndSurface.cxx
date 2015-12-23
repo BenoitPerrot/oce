@@ -48,8 +48,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Precision.hxx>
 
-#include <Interface_Macros.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

@@ -27,7 +27,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Handle_Transfer_ResultFromModel.hxx>
-#include <Interface_CheckStatus.hxx>
+#include <DataExchange/Interface/Interface_CheckStatus.hxx>
 class XSControl_Controller;
 class Interface_InterfaceModel;
 class Interface_HGraph;

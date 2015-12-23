@@ -27,7 +27,7 @@ IMPLEMENT_DOWNCAST(StepData_FreeFormEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_FreeFormEntity)
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

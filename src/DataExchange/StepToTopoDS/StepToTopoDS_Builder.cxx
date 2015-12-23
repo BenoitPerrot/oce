@@ -37,7 +37,7 @@
 #include <StepToTopoDS_Builder.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <TransferBRep.hxx>
 
 #include <StepToTopoDS_Tool.hxx>

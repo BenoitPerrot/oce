@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(IGESAppli_Node)
 IMPLEMENT_DOWNCAST(IGESAppli_Node,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_Node)
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 IGESAppli_Node::IGESAppli_Node ()    {  }
 

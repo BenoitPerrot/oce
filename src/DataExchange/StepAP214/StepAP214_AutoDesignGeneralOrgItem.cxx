@@ -21,7 +21,7 @@
 #include <StepRepr_ExternallyDefinedRepresentation.hxx>
 #include <StepAP214_AutoDesignDocumentReference.hxx>
 #include <StepAP214_AutoDesignGeneralOrgItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignGeneralOrgItem::StepAP214_AutoDesignGeneralOrgItem () {  }
 

@@ -15,12 +15,12 @@
 //#73 rln 10.03.99 S4135: "read.scale.unit" does not affect GlobalSection
 //#13 smh 13.01.2000 : Parsing long year date
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(IGESData_IGESModel)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
-#include <Interface_Static.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 
 #include <stdio.h>

@@ -16,7 +16,7 @@
 #include <StepVisual_SurfaceStyleBoundary.hxx>
 #include <StepVisual_SurfaceStyleParameterLine.hxx>
 #include <StepVisual_SurfaceStyleElementSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_SurfaceStyleElementSelect::StepVisual_SurfaceStyleElementSelect () {  }
 

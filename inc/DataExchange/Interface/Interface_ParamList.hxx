@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Interface_ParamList.hxx>
 
-#include <Interface_VectorOfFileParameter.hxx>
+#include <DataExchange/Interface/Interface_VectorOfFileParameter.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -80,7 +80,7 @@ private:
 };
 
 
-#include <Interface_ParamList.lxx>
+#include <DataExchange/Interface/Interface_ParamList.lxx>
 
 
 

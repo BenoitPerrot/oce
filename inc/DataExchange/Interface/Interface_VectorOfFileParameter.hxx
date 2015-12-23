@@ -18,7 +18,7 @@
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
 
 /**
  * Block of comments describing class Interface_VectorOfFileParameter

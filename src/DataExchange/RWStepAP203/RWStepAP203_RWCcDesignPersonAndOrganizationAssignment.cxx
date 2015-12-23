@@ -17,10 +17,10 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepAP203_RWCcDesignPersonAndOrganizationAssignment.hxx>
 #include <StepAP203_HArray1OfPersonOrganizationItem.hxx>
 #include <StepAP203_PersonOrganizationItem.hxx>

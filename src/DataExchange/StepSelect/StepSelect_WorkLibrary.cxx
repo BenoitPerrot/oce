@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextWrite.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <StepSelect_WorkLibrary.hxx>
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 #include <StepData_StepModel.hxx>
 #include <StepFile_Read.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
 #include <StepSelect_FileModifier.hxx>
 
@@ -46,14 +46,14 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
-#include <Interface_ParamType.hxx>
-#include <Interface_ReportEntity.hxx>
-#include <Interface_UndefinedContent.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_UndefinedContent.hxx>
 
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 
 StepSelect_WorkLibrary::StepSelect_WorkLibrary

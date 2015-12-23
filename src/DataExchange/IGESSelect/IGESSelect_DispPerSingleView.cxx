@@ -13,9 +13,9 @@
 
 #include <DataExchange/IGESSelect/IGESSelect_ViewSorter.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_DispPerSingleView.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSelect_DispPerSingleView)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_DispPerSingleView)
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_PacketList.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 IGESSelect_DispPerSingleView::IGESSelect_DispPerSingleView ()

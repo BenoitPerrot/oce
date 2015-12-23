@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_TransientMapper.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Finder.hxx>
@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_FinderProcess)
 IMPLEMENT_DOWNCAST(Transfer_FinderProcess,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_FinderProcess)
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 #include <Transfer_Binder.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 
 Transfer_FinderProcess::Transfer_FinderProcess (const Standard_Integer nb)

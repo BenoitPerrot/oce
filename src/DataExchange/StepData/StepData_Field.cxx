@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <StepData_SelectMember.hxx>
 #include <StepData_Field.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <StepData_SelectMember.hxx>
 #include <StepData_SelectInt.hxx>
 #include <StepData_SelectReal.hxx>
@@ -23,7 +23,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfTransient.hxx>

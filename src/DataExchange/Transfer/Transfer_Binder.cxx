@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransferFailure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(Transfer_Binder)
 #include <Transfer_TransferFailure.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_IntVal.hxx>
+#include <DataExchange/Interface/Interface_IntVal.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 
 

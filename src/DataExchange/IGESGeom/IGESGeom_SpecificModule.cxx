@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGeom_SpecificModule)
 IMPLEMENT_DOWNCAST(IGESGeom_SpecificModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGeom_SpecificModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESGeom/IGESGeom_BSplineCurve.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>

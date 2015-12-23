@@ -16,7 +16,7 @@
 #include <StepBasic_Organization.hxx>
 #include <StepBasic_PersonAndOrganization.hxx>
 #include <StepBasic_PersonOrganizationSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepBasic_PersonOrganizationSelect::StepBasic_PersonOrganizationSelect () {  }
 

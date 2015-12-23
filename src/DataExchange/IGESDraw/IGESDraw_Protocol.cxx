@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

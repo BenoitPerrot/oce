@@ -18,7 +18,7 @@
 #include <Handle_Standard_Transient.hxx>
 #include <MoniTool_TypedValue.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <MoniTool_ValueType.hxx>
 class Standard_Type;
 class TColStd_HArray1OfAsciiString;

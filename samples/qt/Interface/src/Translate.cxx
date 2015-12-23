@@ -36,8 +36,8 @@
 #include <STEPControl_Reader.hxx>
 #include <STEPControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>
-#include <Interface_Static.hxx>
-//#include <Interface_TraceFile.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+//#include <DataExchange/Interface/Interface_TraceFile.hxx>
 
 #include <StlAPI_Writer.hxx>
 #include <VrmlAPI_Writer.hxx>

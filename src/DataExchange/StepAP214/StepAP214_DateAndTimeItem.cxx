@@ -17,7 +17,7 @@
 #include <StepAP214_AppliedOrganizationAssignment.hxx>
 #include <StepBasic_Effectivity.hxx>
 #include <StepAP214_DateAndTimeItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_DateAndTimeItem::StepAP214_DateAndTimeItem () {  }
 

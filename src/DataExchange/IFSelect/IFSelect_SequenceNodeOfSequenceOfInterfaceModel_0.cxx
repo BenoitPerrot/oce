@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_SequenceOfInterfaceModel.hxx>
 
  
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_RTTI(IFSelect_SequenceNodeOfSequenceOfInterfaceModel)
 
 
 #define SeqItem Handle(Interface_InterfaceModel)
-#define SeqItem_hxx <Interface_InterfaceModel.hxx>
+#define SeqItem_hxx <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #define TCollection_SequenceNode IFSelect_SequenceNodeOfSequenceOfInterfaceModel
 #define TCollection_SequenceNode_hxx <DataExchange/IFSelect/IFSelect_SequenceNodeOfSequenceOfInterfaceModel.hxx>
 #define Handle_TCollection_SequenceNode Handle_IFSelect_SequenceNodeOfSequenceOfInterfaceModel

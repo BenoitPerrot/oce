@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Handle_Transfer_TransferFailure.hxx>
 
 #if !defined No_Exception && !defined No_Transfer_TransferFailure

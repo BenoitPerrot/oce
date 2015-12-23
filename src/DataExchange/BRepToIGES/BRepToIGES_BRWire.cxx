@@ -70,7 +70,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Precision.hxx>
 
@@ -86,7 +86,7 @@
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>

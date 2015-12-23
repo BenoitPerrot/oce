@@ -32,9 +32,9 @@
 extern "C" void recfile_modeprint (int mode);  // controle trace recfile
           // recfile_modeprint est declare a part
 
-#include <Interface_ParamType.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepData_Protocol.hxx>
 
 #include <StepData_StepReaderData.hxx>
@@ -43,7 +43,7 @@ extern "C" void recfile_modeprint (int mode);  // controle trace recfile
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

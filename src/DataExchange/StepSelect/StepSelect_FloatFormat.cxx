@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepSelect_FloatFormat)
 IMPLEMENT_DOWNCAST(StepSelect_FloatFormat,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepSelect_FloatFormat)
-#include <Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
 #include <stdio.h>
 
 

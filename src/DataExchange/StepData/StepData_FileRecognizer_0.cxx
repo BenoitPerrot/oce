@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(StepData_FileRecognizer)
 #define Interface_Recognizer_hxx <StepData_FileRecognizer.hxx>
 #define Handle_Interface_Recognizer Handle_StepData_FileRecognizer
 #define Interface_Recognizer_Type_() StepData_FileRecognizer_Type_()
-#include <Interface_Recognizer.gxx>
+#include <DataExchange/Interface/Interface_Recognizer.gxx>
 

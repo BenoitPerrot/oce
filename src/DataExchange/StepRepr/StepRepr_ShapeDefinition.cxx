@@ -16,7 +16,7 @@
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepRepr_ShapeAspectRelationship.hxx>
 #include <StepRepr_ShapeDefinition.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepRepr_ShapeDefinition::StepRepr_ShapeDefinition () {  }
 

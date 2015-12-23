@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Graph.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectFaces.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectFaces)
 #include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 IGESSelect_SelectFaces::IGESSelect_SelectFaces ()

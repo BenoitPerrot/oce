@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 
-#include <Interface_Macros.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 

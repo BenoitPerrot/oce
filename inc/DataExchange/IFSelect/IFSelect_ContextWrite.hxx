@@ -15,7 +15,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_IFSelect_AppliedModifiers.hxx>
 #include <Handle_Interface_HGraph.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_IFSelect_GeneralModifier.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

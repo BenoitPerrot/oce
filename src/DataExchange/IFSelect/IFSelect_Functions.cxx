@@ -30,20 +30,20 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <Interface_Static.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_SessionFile.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 
-#include <Interface_Category.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_Category.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
 #include <DataExchange/IFSelect/IFSelect_GraphCounter.hxx>
@@ -78,9 +78,9 @@
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <DataExchange/IFSelect/IFSelect_ListEditor.hxx>
 
-#include <Interface_Macros.hxx>
-#include <Interface_Version.hxx>
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Version.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 #include <stdio.h>
 
 

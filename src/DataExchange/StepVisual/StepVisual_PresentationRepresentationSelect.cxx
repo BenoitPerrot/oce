@@ -15,7 +15,7 @@
 #include <StepVisual_PresentationRepresentation.hxx>
 #include <StepVisual_PresentationSet.hxx>
 #include <StepVisual_PresentationRepresentationSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_PresentationRepresentationSelect::StepVisual_PresentationRepresentationSelect () {  }
 

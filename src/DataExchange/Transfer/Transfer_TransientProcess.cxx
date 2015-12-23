@@ -11,15 +11,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Transfer_TransientProcess)
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Transfer_TransientProcess)
 IMPLEMENT_DOWNCAST(Transfer_TransientProcess,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Transfer_TransientProcess)
-#include <Interface_Check.hxx>
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 #include <Transfer_Binder.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 

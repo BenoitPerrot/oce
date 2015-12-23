@@ -11,20 +11,20 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_GTool.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_GTool.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ShareFlags.hxx>
-#include <Interface_GeneralModule.hxx>
-#include <Interface_ReportEntity.hxx>
-#include <Interface_IntList.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareFlags.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_IntList.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 

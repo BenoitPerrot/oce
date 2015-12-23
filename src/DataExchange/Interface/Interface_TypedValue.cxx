@@ -16,8 +16,8 @@
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_TypedValue)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

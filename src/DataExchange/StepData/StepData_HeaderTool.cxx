@@ -17,8 +17,8 @@
 #include <StepData_Protocol.hxx>
 #include <StepData_FileProtocol.hxx>
 #include <StepData_HeaderTool.hxx>
-#include <Interface_ReaderLib.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 
 
 //  HeaderTool prend en charge le Schema de Donnees utilise pour un Fichier

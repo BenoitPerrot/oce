@@ -25,7 +25,7 @@
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepBasic_SecurityClassification.hxx>
 #include <StepAP214_ApprovalItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_ApprovalItem::StepAP214_ApprovalItem () {  }
 

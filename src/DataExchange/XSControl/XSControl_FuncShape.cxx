@@ -26,12 +26,12 @@
 #include <DataExchange/IFSelect/IFSelect_SessionPilot.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <Transfer_Finder.hxx>
 #include <Transfer_Binder.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
 //#include <TransferBRep_Analyzer.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
@@ -60,7 +60,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Transfer_TransientListBinder.hxx>

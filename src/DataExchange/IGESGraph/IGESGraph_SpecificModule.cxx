@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESGraph_SpecificModule)
 IMPLEMENT_DOWNCAST(IGESGraph_SpecificModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESGraph_SpecificModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESGraph/IGESGraph_Color.hxx>
 #include <DataExchange/IGESGraph/IGESGraph_DefinitionLevel.hxx>

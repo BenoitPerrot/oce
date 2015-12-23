@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <Interface_EntityList.hxx>
+#include <DataExchange/Interface/Interface_EntityList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/IGESData/IGESData_DefType.hxx>

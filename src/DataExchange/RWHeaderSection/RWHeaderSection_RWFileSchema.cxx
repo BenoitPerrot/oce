@@ -12,11 +12,11 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <StepData_StepWriter.hxx>
 #include <RWHeaderSection_RWFileSchema.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 
 
 RWHeaderSection_RWFileSchema::RWHeaderSection_RWFileSchema () {}

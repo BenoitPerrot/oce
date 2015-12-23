@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDraw_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESDraw_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDraw_ReadWriteModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESDraw/IGESDraw_CircArraySubfigure.hxx>
 #include <DataExchange/IGESDraw/IGESDraw_ConnectPoint.hxx>

@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Interface_FileReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_ReaderModule.hxx>
+#include <DataExchange/Interface/Interface_ReaderModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Interface_ReaderModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

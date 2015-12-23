@@ -17,7 +17,7 @@
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <DataExchange/IGESControl/IGESControl_Writer.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
@@ -29,9 +29,9 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>         // pour igeslist
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
-#include <Interface_Check.hxx>
-#include <Interface_CheckTool.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_CheckTool.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
 #include <stdio.h>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -48,7 +48,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
@@ -77,7 +77,7 @@
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <DataExchange/IGESControl/IGESControl_Reader.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

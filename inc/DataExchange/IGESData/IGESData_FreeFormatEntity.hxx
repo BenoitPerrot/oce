@@ -14,7 +14,7 @@
 #include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

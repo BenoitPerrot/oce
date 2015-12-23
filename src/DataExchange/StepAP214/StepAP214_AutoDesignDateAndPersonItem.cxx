@@ -22,7 +22,7 @@
 #include <StepBasic_ProductDefinitionRelationship.hxx>
 #include <StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <StepAP214_AutoDesignDateAndPersonItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignDateAndPersonItem::StepAP214_AutoDesignDateAndPersonItem () {  }
 

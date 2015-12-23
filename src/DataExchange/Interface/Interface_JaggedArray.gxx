@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-//#include <Interface_JaggedArray.ixx>
+//#include <DataExchange/Interface/Interface_JaggedArray.ixx>
 
 Interface_JaggedArray::Interface_JaggedArray
   (const Standard_Integer low, const Standard_Integer up)

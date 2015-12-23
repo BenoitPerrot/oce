@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepVisual_RWContextDependentOverRidingStyledItem.hxx>
 #include <StepVisual_HArray1OfStyleContextSelect.hxx>
 #include <StepVisual_StyleContextSelect.hxx>
@@ -25,7 +25,7 @@
 #include <StepVisual_StyledItem.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepVisual_ContextDependentOverRidingStyledItem.hxx>

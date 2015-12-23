@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_Editor.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <DataExchange/IFSelect/IFSelect_ListEditor.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_EditForm)
 IMPLEMENT_DOWNCAST(IFSelect_EditForm,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_EditForm)
-#include <Interface_TypedValue.hxx>
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 

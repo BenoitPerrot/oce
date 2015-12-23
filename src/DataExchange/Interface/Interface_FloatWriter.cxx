@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //#52 rln 23.12.98
-#include <Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
 #include <stdio.h>
 
 

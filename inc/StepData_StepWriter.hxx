@@ -12,11 +12,11 @@
 
 #include <Handle_StepData_StepModel.hxx>
 #include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Interface_LineBuffer.hxx>
+#include <DataExchange/Interface/Interface_LineBuffer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Interface_FloatWriter.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

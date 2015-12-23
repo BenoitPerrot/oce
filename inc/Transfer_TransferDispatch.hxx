@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>

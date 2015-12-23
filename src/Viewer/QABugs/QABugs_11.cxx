@@ -56,7 +56,7 @@
 #include <Foundation/OSD/OSD.hxx>
 #include <STEPCAFControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
@@ -4554,7 +4554,7 @@ static Standard_Integer OCC12584 (Draw_Interpretor& di, Standard_Integer argc, c
   return 0;
 }
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>

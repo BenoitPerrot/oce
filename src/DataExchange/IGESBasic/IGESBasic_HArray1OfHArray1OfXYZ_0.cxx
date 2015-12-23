@@ -32,5 +32,5 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray1OfHArray1OfXYZ)
 #define Interface_JaggedArray_hxx <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfXYZ.hxx>
 #define Handle_Interface_JaggedArray Handle_IGESBasic_HArray1OfHArray1OfXYZ
 #define Interface_JaggedArray_Type_() IGESBasic_HArray1OfHArray1OfXYZ_Type_()
-#include <Interface_JaggedArray.gxx>
+#include <DataExchange/Interface/Interface_JaggedArray.gxx>
 

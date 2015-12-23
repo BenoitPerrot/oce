@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_IGESData_IGESReaderData.hxx>

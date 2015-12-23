@@ -26,8 +26,8 @@ IMPLEMENT_DOWNCAST(StepData_DescrProtocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_DescrProtocol)
 #include <StepData_DescrGeneral.hxx>
 #include <StepData_DescrReadWrite.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <StepData_WriterLib.hxx>
 
 

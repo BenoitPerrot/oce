@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ModifReorder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_ModifReorder)
 IMPLEMENT_DOWNCAST(IFSelect_ModifReorder,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_ModifReorder)
-#include <Interface_ShareTool.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 IFSelect_ModifReorder::IFSelect_ModifReorder (const Standard_Boolean rootlast)
     : IFSelect_Modifier (Standard_True)    {  thertl = rootlast;  }

@@ -17,8 +17,8 @@
 #include <StepData_StepModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <Interface_InterfaceMismatch.hxx>
-#include <Interface_FloatWriter.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_FloatWriter.hxx>
 #include <StepData_Protocol.hxx>
 #include <StepData_WriterLib.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -30,7 +30,7 @@
 #include <StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <StepData_StepWriter.hxx>
 #include <StepData_WriterLib.hxx>
 #include <StepData_ReadWriteModule.hxx>
@@ -40,12 +40,12 @@
 #include <StepData_SelectMember.hxx>
 #include <StepData_SelectArrReal.hxx>
 
-#include <Interface_EntityIterator.hxx>
-#include <Interface_ReportEntity.hxx>
-#include <Interface_Check.hxx>
-#include <Interface_InterfaceMismatch.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <stdio.h>
 
 #define StepLong 72

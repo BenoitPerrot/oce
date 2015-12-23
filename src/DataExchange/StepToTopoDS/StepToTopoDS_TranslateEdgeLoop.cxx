@@ -83,7 +83,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 #include <Precision.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_EdgeProjAux.hxx>

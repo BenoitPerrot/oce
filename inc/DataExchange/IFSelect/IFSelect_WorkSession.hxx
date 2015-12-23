@@ -18,7 +18,7 @@
 #include <Handle_Interface_HGraph.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Handle_Interface_GTool.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Handle_Dico_DictionaryOfTransient.hxx>
 #include <Handle_IFSelect_ModelCopier.hxx>

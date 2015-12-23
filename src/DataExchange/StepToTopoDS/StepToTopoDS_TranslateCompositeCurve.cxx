@@ -25,7 +25,7 @@
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <Precision.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>

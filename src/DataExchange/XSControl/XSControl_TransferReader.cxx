@@ -14,8 +14,8 @@
 //:   abv 09.04.99: S4136: remove parameter lastpreci
 // szv#11:CASCADE30:01Feb00 BRepBuilderAPI::Precision(p) removed
 #include <XSControl_Controller.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_TransientProcess.hxx>
@@ -25,8 +25,8 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Transfer_ResultFromModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Interface_CheckIterator.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_TransferReader)
@@ -51,25 +51,25 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 
 //  Precision :
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 
 //  Pour les regularites
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignatureList.hxx>
-#include <Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <Transfer_IteratorOfProcessForTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_CheckCounter.hxx>
 
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_SignLabel.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_SignLabel.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 

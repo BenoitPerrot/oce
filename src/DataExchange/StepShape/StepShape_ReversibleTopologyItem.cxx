@@ -19,7 +19,7 @@
 #include <StepShape_ClosedShell.hxx>
 #include <StepShape_OpenShell.hxx>
 #include <StepShape_ReversibleTopologyItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_ReversibleTopologyItem::StepShape_ReversibleTopologyItem () {  }
 

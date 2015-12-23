@@ -11,19 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_CopyControl.hxx>
-#include <Interface_CopyMap.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Interface_CopyMap.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_GeneralModule.hxx>
-#include <Interface_InterfaceError.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_Protocol.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_CopyTool.hxx>
-#include <Interface_GeneralModule.hxx>
-#include <Interface_ReportEntity.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 

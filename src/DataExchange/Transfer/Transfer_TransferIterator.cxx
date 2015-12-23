@@ -17,7 +17,7 @@
 #include <Transfer_Binder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Transfer_TransferIterator.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

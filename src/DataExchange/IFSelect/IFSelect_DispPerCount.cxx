@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IFSelect/IFSelect_IntParam.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
 #include <DataExchange/IFSelect/IFSelect_DispPerCount.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,8 +29,8 @@ IMPLEMENT_DOWNCAST(IFSelect_DispPerCount,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_DispPerCount)
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <DataExchange/IFGraph/IFGraph_SCRoots.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 IFSelect_DispPerCount::IFSelect_DispPerCount ()    {  }

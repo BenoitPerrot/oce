@@ -29,9 +29,9 @@
 
 #include <Foundation/Message/Message.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <Interface_Macros.hxx>
-#include <Interface_Static.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 #include <Transfer_Binder.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>

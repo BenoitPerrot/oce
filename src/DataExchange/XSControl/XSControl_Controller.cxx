@@ -12,20 +12,20 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
-#include <Interface_Protocol.hxx>
+#include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <Transfer_ActorOfFinderProcess.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <XSControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_Controller)
@@ -68,7 +68,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 
 //  ParamEditor
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/IFSelect/IFSelect_ParamEditor.hxx>
 #include <DataExchange/IFSelect/IFSelect_EditForm.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectModelRoots.hxx>
@@ -81,7 +81,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Controller)
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 

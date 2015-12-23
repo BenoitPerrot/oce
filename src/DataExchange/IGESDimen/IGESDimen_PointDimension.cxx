@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_PointDimension)
 IMPLEMENT_DOWNCAST(IGESDimen_PointDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_PointDimension)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 IGESDimen_PointDimension::IGESDimen_PointDimension ()    {  }
 

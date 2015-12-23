@@ -27,15 +27,15 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/OSD/OSD_Process.hxx>
 
-#include <Interface_Version.hxx>
+#include <DataExchange/Interface/Interface_Version.hxx>
 #include <Foundation/Quantity/Quantity_Date.hxx>
 
 

@@ -21,10 +21,10 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSControl_WorkSession)
@@ -38,8 +38,8 @@ IMPLEMENT_DOWNCAST(XSControl_WorkSession,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Interface_HGraph.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Profile.hxx>
 
@@ -54,13 +54,13 @@ IMPLEMENT_STANDARD_RTTI(XSControl_WorkSession)
 #include <Transfer_SimpleBinderOfTransient.hxx>
 
 // tpent
-#include <Interface_IntVal.hxx>
+#include <DataExchange/Interface/Interface_IntVal.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Dico/Dico_IteratorOfDictionaryOfTransient.hxx>
 
-#include <Interface_Macros.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 

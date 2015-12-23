@@ -19,7 +19,7 @@
 #include <StepRepr_ShapeAspect.hxx>
 #include <StepBasic_DocumentRelationship.hxx>
 #include <StepAP214_AutoDesignPresentedItemSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignPresentedItemSelect::StepAP214_AutoDesignPresentedItemSelect ()    {  }
 

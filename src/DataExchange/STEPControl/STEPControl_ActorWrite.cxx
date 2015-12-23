@@ -101,10 +101,10 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorWrite)
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>  
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
-#include <Interface_MSG.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_MSG.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>

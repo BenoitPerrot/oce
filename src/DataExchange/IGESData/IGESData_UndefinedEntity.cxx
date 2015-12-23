@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Interface_UndefinedContent.hxx>
+#include <DataExchange/Interface/Interface_UndefinedContent.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_DirPart.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
 #include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IGESData_UndefinedEntity)
 #include <DataExchange/IGESData/IGESData_LabelDisplayEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ColorEntity.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

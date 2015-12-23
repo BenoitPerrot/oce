@@ -18,8 +18,8 @@
 #include <STEPControl_Controller.hxx>
 #include <STEPControl_ActorWrite.hxx>
 #include <XSControl_TransferWriter.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Transfer_FinderProcess.hxx>

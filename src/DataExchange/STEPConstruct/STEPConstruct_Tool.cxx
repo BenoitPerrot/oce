@@ -16,9 +16,9 @@
 #include <XSControl_WorkSession.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <Interface_HGraph.hxx>
-#include <Interface_InterfaceModel.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_HGraph.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <STEPConstruct_Tool.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <XSControl_TransferWriter.hxx>

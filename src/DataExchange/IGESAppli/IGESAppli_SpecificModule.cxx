@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESAppli_SpecificModule)
 IMPLEMENT_DOWNCAST(IGESAppli_SpecificModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESAppli_SpecificModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESAppli/IGESAppli_DrilledHole.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_ElementResults.hxx>

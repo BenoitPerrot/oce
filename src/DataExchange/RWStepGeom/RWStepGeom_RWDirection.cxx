@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_Direction.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <RWStepGeom_RWDirection.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 

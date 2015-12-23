@@ -108,7 +108,7 @@
 #include <DataExchange/IGESSolid/IGESSolid_HArray1OfVertexList.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 //#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 //#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
@@ -143,7 +143,7 @@
 #include <TransferBRep_OrientedShapeMapper.hxx>
 #include <Transfer_TransientMapper.hxx>
 #include <Transfer_SimpleBinderOfTransient.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>

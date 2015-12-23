@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <StepAP214_SecurityClassificationItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_SecurityClassificationItem::StepAP214_SecurityClassificationItem () {  }
 

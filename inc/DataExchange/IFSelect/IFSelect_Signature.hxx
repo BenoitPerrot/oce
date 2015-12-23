@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Interface_SignType.hxx>
+#include <DataExchange/Interface/Interface_SignType.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Standard_Transient.hxx>

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
-#include <Interface_ParamSet.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/IGESData/IGESData_DirPart.hxx>
 #include <DataExchange/IGESData/IGESData_IGESType.hxx>
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESData_IGESReaderData)
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
-#include <Interface_FileParameter.hxx>
-#include <Interface_ParamList.hxx>
-#include <Interface_ParamType.hxx>
+#include <DataExchange/Interface/Interface_FileParameter.hxx>
+#include <DataExchange/Interface/Interface_ParamList.hxx>
+#include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

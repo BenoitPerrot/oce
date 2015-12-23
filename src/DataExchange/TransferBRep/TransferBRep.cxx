@@ -25,11 +25,11 @@
 #include <Foundation/Message/Message_Printer.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <TransferBRep_TransferResultInfo.hxx>
-#include <Interface_CheckIterator.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <TransferBRep.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <TransferBRep_BinderOfShape.hxx>
 #include <TransferBRep_ShapeListBinder.hxx>
@@ -51,7 +51,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 
 #include <stdio.h>
 

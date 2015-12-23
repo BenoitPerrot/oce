@@ -13,10 +13,10 @@
 
 //create  s4134 from CC2 to DIS
 #include <StepData_StepReaderData.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepAP214_AppliedDateAndTimeAssignment.hxx>
 #include <StepData_StepWriter.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <RWStepAP214_RWAppliedDateAndTimeAssignment.hxx>
 #include <StepAP214_HArray1OfDateAndTimeItem.hxx>
 #include <StepAP214_DateAndTimeItem.hxx>
@@ -24,7 +24,7 @@
 #include <StepBasic_DateTimeRole.hxx>
 
 
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 #include <StepAP214_AppliedDateAndTimeAssignment.hxx>

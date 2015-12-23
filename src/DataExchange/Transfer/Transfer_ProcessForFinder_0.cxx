@@ -12,7 +12,7 @@
 #include <Transfer_Binder.hxx>
 #include <Transfer_ActorOfProcessForFinder.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
-#include <Interface_InterfaceError.hxx>
+#include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <Transfer_TransferFailure.hxx>
 #include <Transfer_FindHasher.hxx>
 #include <Transfer_HSequenceOfFinder.hxx>
@@ -20,10 +20,10 @@
 #include <Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 #include <Transfer_IteratorOfProcessForFinder.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <Interface_CheckIterator.hxx>
+#include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
  
 

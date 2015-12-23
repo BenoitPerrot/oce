@@ -28,7 +28,7 @@
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <STEPConstruct_Part.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepBasic_ProductDefinitionContext.hxx>

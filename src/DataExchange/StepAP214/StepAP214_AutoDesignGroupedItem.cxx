@@ -24,7 +24,7 @@
 #include <StepShape_ShapeRepresentation.hxx>
 #include <StepVisual_TemplateInstance.hxx>
 #include <StepAP214_AutoDesignGroupedItem.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepAP214_AutoDesignGroupedItem::StepAP214_AutoDesignGroupedItem () {  }
 

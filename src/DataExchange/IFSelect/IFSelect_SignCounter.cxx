@@ -14,9 +14,9 @@
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <Interface_Graph.hxx>
+#include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_SignCounter)
 IMPLEMENT_DOWNCAST(IFSelect_SignCounter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_SignCounter)
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
 IFSelect_SignCounter::IFSelect_SignCounter

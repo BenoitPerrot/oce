@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_StepData_StepModel.hxx>
-#include <Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <StepData_WriterLib.hxx>
 #include <StepData_StepWriter.hxx>
 #include <Handle_StepData_Protocol.hxx>

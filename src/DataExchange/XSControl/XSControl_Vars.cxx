@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_Vars)
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_HShape.hxx>
 
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 XSControl_Vars::XSControl_Vars  ()

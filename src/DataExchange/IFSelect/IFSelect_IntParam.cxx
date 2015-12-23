@@ -21,7 +21,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IFSelect_IntParam)
 IMPLEMENT_DOWNCAST(IFSelect_IntParam,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IFSelect_IntParam)
-#include <Interface_Static.hxx>
+#include <DataExchange/Interface/Interface_Static.hxx>
 
 
 IFSelect_IntParam::IFSelect_IntParam ()

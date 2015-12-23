@@ -13,8 +13,8 @@
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Handle_Interface_CopyControl.hxx>
 #include <Handle_Interface_CopyMap.hxx>
-#include <Interface_BitMap.hxx>
-#include <Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_BitMap.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

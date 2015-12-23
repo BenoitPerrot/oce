@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESBasic_ReadWriteModule)
 IMPLEMENT_DOWNCAST(IGESBasic_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESBasic_ReadWriteModule)
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_AssocGroupType.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_ExternalRefFile.hxx>

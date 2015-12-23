@@ -19,7 +19,7 @@
 #include <StepShape_RightCircularCone.hxx>
 #include <StepShape_RightCircularCylinder.hxx>
 #include <StepShape_CsgPrimitive.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_CsgPrimitive::StepShape_CsgPrimitive () {  }
 

@@ -16,7 +16,7 @@
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepVisual_PresentationSet.hxx>
 #include <StepVisual_StyleContextSelect.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepVisual_StyleContextSelect::StepVisual_StyleContextSelect () {  }
 

@@ -17,8 +17,8 @@
 #include <DataExchange/IGESSolid/IGESSolid_GeneralModule.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_ReadWriteModule.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_SpecificModule.hxx>
-#include <Interface_GeneralLib.hxx>
-#include <Interface_ReaderLib.hxx>
+#include <DataExchange/Interface/Interface_GeneralLib.hxx>
+#include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
 #include <DataExchange/IGESGeom/IGESGeom.hxx>

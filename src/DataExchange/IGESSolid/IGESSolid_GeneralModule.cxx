@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/IGESData/IGESData_DirChecker.hxx>
-#include <Interface_ShareTool.hxx>
-#include <Interface_Check.hxx>
+#include <DataExchange/Interface/Interface_ShareTool.hxx>
+#include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_GeneralModule)
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_GeneralModule)
 IMPLEMENT_DOWNCAST(IGESSolid_GeneralModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_GeneralModule)
-#include <Interface_Macros.hxx>
-#include <Interface_Category.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_Category.hxx>
 
 #include <DataExchange/IGESSolid/IGESSolid_Block.hxx>
 #include <DataExchange/IGESSolid/IGESSolid_BooleanTree.hxx>

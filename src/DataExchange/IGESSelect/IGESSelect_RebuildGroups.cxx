@@ -13,7 +13,7 @@
 
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
-#include <Interface_CopyTool.hxx>
+#include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_RebuildGroups.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildGroups)
 #include <DataExchange/IGESBasic/IGESBasic_OrderedGroup.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_OrderedGroupWithoutBackP.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Interface_EntityIterator.hxx>
-#include <Interface_Macros.hxx>
+#include <DataExchange/Interface/Interface_EntityIterator.hxx>
+#include <DataExchange/Interface/Interface_Macros.hxx>
 
 
 

@@ -12,7 +12,7 @@
 
 #include <Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
-#include <Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Interface_CopyControl.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_InterfaceModel;
