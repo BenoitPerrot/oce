@@ -34,7 +34,7 @@
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireVertex.hxx>

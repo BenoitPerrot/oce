@@ -70,7 +70,7 @@
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <Precision.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeUpgrade_ShapeDivideContinuity.hxx>

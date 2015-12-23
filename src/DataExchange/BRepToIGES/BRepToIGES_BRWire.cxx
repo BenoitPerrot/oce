@@ -87,7 +87,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Interface_Static.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>

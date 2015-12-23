@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Shell.hxx>
 #include <ShapeExtend.hxx>
-#include <ShapeBuild_ReShape.hxx> 
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx> 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>

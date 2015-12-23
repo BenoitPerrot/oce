@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_WireDivide)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ShapeExtend.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeUpgrade_FixSmallCurves.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>

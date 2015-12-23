@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shape)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ShapeFix.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeFix_Face.hxx>

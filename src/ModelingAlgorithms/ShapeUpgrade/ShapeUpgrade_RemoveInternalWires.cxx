@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveInternalWires)
 #include <ShapeExtend.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>

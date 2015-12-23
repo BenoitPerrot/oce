@@ -29,7 +29,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>

@@ -114,9 +114,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <ShapeExtend.hxx>
-#include <ShapeBuild_Edge.hxx>
-#include <ShapeBuild_Vertex.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Vertex.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>

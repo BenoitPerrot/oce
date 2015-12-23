@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeUpgrade_UnifySameDomain.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -72,12 +72,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ShapeFix_Face.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>

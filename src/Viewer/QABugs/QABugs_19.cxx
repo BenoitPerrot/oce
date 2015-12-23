@@ -2782,7 +2782,7 @@ static Standard_Integer OCC23010 (Draw_Interpretor& di, Standard_Integer argc, c
 //function : OCC25202
 //purpose  :
 //=======================================================================
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 static Standard_Integer OCC25202 ( Draw_Interpretor& theDI,
 				   Standard_Integer theArgN,
 				   const char** theArgVal)

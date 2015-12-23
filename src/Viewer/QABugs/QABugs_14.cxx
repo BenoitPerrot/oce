@@ -50,7 +50,7 @@
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ShapeExtend_WireData.hxx>

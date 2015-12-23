@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(ShapeUpgrade_FaceDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivide)
 #include <Precision.hxx>
 #include <ShapeExtend.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_FaceDivide)
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_FaceDivide

@@ -44,7 +44,7 @@
 #include <ShapeCustom_ConvertToBSpline.hxx>
 
 #include <ShapeExtend.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ShapeUpgrade_ShapeDivideAngle.hxx>
 #include <ShapeUpgrade_ShapeConvertToBezier.hxx>
 #include <ShapeUpgrade_ShapeDivideContinuity.hxx>

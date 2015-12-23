@@ -43,8 +43,8 @@
 
 #include <ShapeExtend_WireData.hxx>
 #include <ShapeExtend_Explorer.hxx>
-#include <ShapeBuild_Vertex.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Vertex.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>

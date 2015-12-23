@@ -14,7 +14,7 @@
 //    abv 28.04.99 S4137: ading method Apply for work on all types of shapes
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeBuild_ReShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeBuild_ReShape)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeExtend.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================

@@ -81,7 +81,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>  
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ShapeFix_Wire.hxx>
@@ -98,7 +98,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>

@@ -65,7 +65,7 @@
 #include <QANewModTopOpe_Glue.hxx>
 
 #include <ShapeFix_Wireframe.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 

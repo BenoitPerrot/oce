@@ -39,7 +39,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 
 #include <ShapeFix_Face.hxx>
 #include <ShapeFix_Wire.hxx>

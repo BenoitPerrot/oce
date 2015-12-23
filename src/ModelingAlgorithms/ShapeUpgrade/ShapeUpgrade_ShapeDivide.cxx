@@ -18,12 +18,12 @@
 //    sln 29.11.01 Bug21: in method Perform(..) nullify location of compound's faces only if mode myConsiderLocation is on
 
 #include <ShapeUpgrade_FaceDivide.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeUpgrade_ShapeDivide.hxx>
 #include <Precision.hxx>
 #include <ShapeExtend.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

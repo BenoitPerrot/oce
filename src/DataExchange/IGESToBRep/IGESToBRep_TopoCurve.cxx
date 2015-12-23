@@ -115,7 +115,7 @@
 #include <Geometry/TColGeom/TColGeom_HSequenceOfBoundedCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HSequenceOfBoundedCurve.hxx>
 //#include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

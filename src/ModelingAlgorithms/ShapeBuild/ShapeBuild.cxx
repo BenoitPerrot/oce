@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <ShapeBuild.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild.hxx>
 
 //=======================================================================
 //function : PlaneXOY

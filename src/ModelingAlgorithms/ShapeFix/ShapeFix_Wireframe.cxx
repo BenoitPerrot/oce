@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 //#include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <ShapeConstruct.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 
 //=======================================================================

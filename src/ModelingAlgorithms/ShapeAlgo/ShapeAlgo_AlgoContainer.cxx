@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ShapeConstruct.hxx>
 #include <ShapeCustom.hxx>
 #include <ShapeCustom_Surface.hxx>

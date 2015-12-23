@@ -16,7 +16,7 @@
 #include <ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <ShapeProcess_ShapeContext.hxx>

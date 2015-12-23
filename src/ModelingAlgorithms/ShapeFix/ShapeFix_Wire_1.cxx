@@ -35,8 +35,8 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 #include <ShapeExtend.hxx>
-#include <ShapeBuild_Edge.hxx>
-#include <ShapeBuild_Vertex.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Vertex.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
@@ -61,7 +61,7 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 
 //szv
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

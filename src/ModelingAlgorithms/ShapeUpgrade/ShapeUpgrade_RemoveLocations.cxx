@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_RemoveLocations)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
 //#include <ShapeUpgrade_DataMapOfShapeListOfTransient.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 
 //=======================================================================

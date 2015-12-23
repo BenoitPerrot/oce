@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_IGESBoundary)
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_TopoCurve.hxx>
 #include <ShapeFix_Wire.hxx>

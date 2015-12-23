@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParameters)
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 
 
 //=======================================================================

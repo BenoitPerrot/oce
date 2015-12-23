@@ -1341,7 +1341,7 @@ static Standard_Integer BUC60841(Draw_Interpretor& di, Standard_Integer argc, co
   return 0;
 }
 
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 
 static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*argc*/, const char ** argv )
 {

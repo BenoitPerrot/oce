@@ -90,8 +90,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 
 #include <ShapeExtend.hxx>
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeBuild_Vertex.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Vertex.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
@@ -99,7 +99,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <ShapeFix_Edge.hxx>
 #include <ShapeFix_WireSegment.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <ShapeFix_Face.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>

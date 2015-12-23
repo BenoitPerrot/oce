@@ -32,7 +32,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
-#include <ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <Foundation/Message/Message_ProgressIndicator.hxx>

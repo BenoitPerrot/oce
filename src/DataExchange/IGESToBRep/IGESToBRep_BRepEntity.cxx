@@ -91,7 +91,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>//rln
 
 #include <ShapeExtend_WireData.hxx>
-#include <ShapeBuild_Edge.hxx>
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

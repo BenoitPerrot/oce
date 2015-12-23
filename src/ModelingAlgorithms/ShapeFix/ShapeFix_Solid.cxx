@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeBuild_ReShape.hxx> 
+#include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx> 
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ShapeExtend.hxx>
