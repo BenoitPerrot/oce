@@ -12,15 +12,15 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ChFiDS_State.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_State.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ChFiDS_ListOfHElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfHElSpine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <ChFiDS_ErrorStatus.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>
 #include <GeomAbs_CurveType.hxx>
@@ -262,7 +262,7 @@ private:
 };
 
 
-#include <ChFiDS_Spine.lxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.lxx>
 
 
 

@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <ChFiDS_CommonPoint.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_CommonPoint.hxx>
 
 //=======================================================================
 //function : ChFiDS_CommonPoint

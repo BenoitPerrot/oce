@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ChFiDS_StripeArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_StripeArray1.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
  
 
 #define Array1Item Handle(ChFiDS_Stripe)
-#define Array1Item_hxx <ChFiDS_Stripe.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
 #define TCollection_Array1 ChFiDS_StripeArray1
-#define TCollection_Array1_hxx <ChFiDS_StripeArray1.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_StripeArray1.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

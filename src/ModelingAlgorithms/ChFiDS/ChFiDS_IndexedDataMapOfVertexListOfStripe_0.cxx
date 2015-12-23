@@ -3,28 +3,28 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ChFiDS_ListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
  
 
 #define TheKey TopoDS_Vertex
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem ChFiDS_ListOfStripe
-#define TheItem_hxx <ChFiDS_ListOfStripe.hxx>
+#define TheItem_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe
-#define TCollection_IndexedDataMapNode_hxx <ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
+#define TCollection_IndexedDataMapNode_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe
 #define TCollection_IndexedDataMapNode_Type_() ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe_Type_()
 #define TCollection_IndexedDataMap ChFiDS_IndexedDataMapOfVertexListOfStripe
-#define TCollection_IndexedDataMap_hxx <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
+#define TCollection_IndexedDataMap_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
 #include <Foundation/TCollection/TCollection_IndexedDataMap.gxx>
 

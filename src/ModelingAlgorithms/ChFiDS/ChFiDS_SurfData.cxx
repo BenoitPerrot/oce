@@ -15,10 +15,10 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <ChFiDS_FaceInterference.hxx>
-#include <ChFiDS_CommonPoint.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_FaceInterference.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_CommonPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_SurfData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

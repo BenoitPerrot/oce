@@ -177,7 +177,7 @@ private:
 };
 
 
-#include <ChFiDS_Stripe.lxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.lxx>
 
 
 

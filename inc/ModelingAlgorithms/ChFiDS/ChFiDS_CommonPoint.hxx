@@ -133,7 +133,7 @@ private:
 };
 
 
-#include <ChFiDS_CommonPoint.lxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_CommonPoint.lxx>
 
 
 

@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(ChFiDS_Spine)
-#define SeqItem_hxx <ChFiDS_Spine.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #define TCollection_SequenceNode ChFiDS_SequenceNodeOfSequenceOfSpine
-#define TCollection_SequenceNode_hxx <ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
 #define Handle_TCollection_SequenceNode Handle_ChFiDS_SequenceNodeOfSequenceOfSpine
 #define TCollection_SequenceNode_Type_() ChFiDS_SequenceNodeOfSequenceOfSpine_Type_()
 #define TCollection_Sequence ChFiDS_SequenceOfSpine
-#define TCollection_Sequence_hxx <ChFiDS_SequenceOfSpine.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSpine.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

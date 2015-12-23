@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ChFiDS_HData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <ChFiDS_SurfData.hxx>
-#include <ChFiDS_SequenceOfSurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_HData)
 
 
 #define Item Handle(ChFiDS_SurfData)
-#define Item_hxx <ChFiDS_SurfData.hxx>
+#define Item_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #define TheSequence ChFiDS_SequenceOfSurfData
-#define TheSequence_hxx <ChFiDS_SequenceOfSurfData.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 #define TCollection_HSequence ChFiDS_HData
-#define TCollection_HSequence_hxx <ChFiDS_HData.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
 #define Handle_TCollection_HSequence Handle_ChFiDS_HData
 #define TCollection_HSequence_Type_() ChFiDS_HData_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

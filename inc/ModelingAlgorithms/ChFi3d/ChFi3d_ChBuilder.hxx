@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ChFiDS_ChamfMethod.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ChamfMethod.hxx>
 #include <Handle_ChFiDS_SecHArray1.hxx>
 #include <Handle_ChFiDS_SurfData.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>

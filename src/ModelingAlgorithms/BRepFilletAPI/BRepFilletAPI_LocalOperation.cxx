@@ -16,5 +16,5 @@
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ChFiDS_SecHArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_LocalOperation.hxx>

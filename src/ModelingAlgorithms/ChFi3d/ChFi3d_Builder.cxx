@@ -21,12 +21,12 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <ChFiDS_SurfData.hxx>
-#include <ChFiDS_HElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HElSpine.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
@@ -40,12 +40,12 @@
 #include <ModelingAlgorithms/Blend/Blend_SurfCurvFuncInv.hxx>
 #include <ModelingAlgorithms/Blend/Blend_RstRstFunction.hxx>
 #include <ModelingAlgorithms/Blend/Blend_CurvPointFuncInv.hxx>
-#include <ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
-#include <ChFiDS_SequenceOfSurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ChFiDS_ListOfStripe.hxx>
-#include <ChFiDS_CommonPoint.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_CommonPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -84,10 +84,10 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ChFiDS_Stripe.hxx>
-#include <ChFiDS_ListIteratorOfListOfStripe.hxx>
-#include <ChFiDS_SequenceOfSurfData.hxx>
-#include <ChFiDS_HData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
 
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 

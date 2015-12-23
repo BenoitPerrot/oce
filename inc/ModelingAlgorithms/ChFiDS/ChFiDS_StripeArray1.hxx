@@ -3,8 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _ChFiDS_SecArray1_HeaderFile
-#define _ChFiDS_SecArray1_HeaderFile
+#ifndef _ChFiDS_StripeArray1_HeaderFile
+#define _ChFiDS_StripeArray1_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
@@ -13,37 +13,38 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Handle_ChFiDS_Stripe.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;
-class ChFiDS_CircSection;
+class ChFiDS_Stripe;
 
 
 
-class ChFiDS_SecArray1 
+class ChFiDS_StripeArray1 
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-    ChFiDS_SecArray1(const Standard_Integer Low, const Standard_Integer Up);
+    ChFiDS_StripeArray1(const Standard_Integer Low, const Standard_Integer Up);
   
-    ChFiDS_SecArray1(const ChFiDS_CircSection& Item, const Standard_Integer Low, const Standard_Integer Up);
+    ChFiDS_StripeArray1(const Handle(ChFiDS_Stripe)& Item, const Standard_Integer Low, const Standard_Integer Up);
   
-  Standard_EXPORT   void Init (const ChFiDS_CircSection& V) ;
+  Standard_EXPORT   void Init (const Handle(ChFiDS_Stripe)& V) ;
   
       void Destroy() ;
-~ChFiDS_SecArray1()
+~ChFiDS_StripeArray1()
 {
   Destroy();
 }
   
       Standard_Boolean IsAllocated()  const;
   
-  Standard_EXPORT  const  ChFiDS_SecArray1& Assign (const ChFiDS_SecArray1& Other) ;
- const  ChFiDS_SecArray1& operator = (const ChFiDS_SecArray1& Other) 
+  Standard_EXPORT  const  ChFiDS_StripeArray1& Assign (const ChFiDS_StripeArray1& Other) ;
+ const  ChFiDS_StripeArray1& operator = (const ChFiDS_StripeArray1& Other) 
 {
   return Assign(Other);
 }
@@ -54,16 +55,16 @@ public:
   
       Standard_Integer Upper()  const;
   
-      void SetValue (const Standard_Integer Index, const ChFiDS_CircSection& Value) ;
+      void SetValue (const Standard_Integer Index, const Handle(ChFiDS_Stripe)& Value) ;
   
-     const  ChFiDS_CircSection& Value (const Standard_Integer Index)  const;
-   const  ChFiDS_CircSection& operator () (const Standard_Integer Index)  const
+     const  Handle(ChFiDS_Stripe)& Value (const Standard_Integer Index)  const;
+   const  Handle(ChFiDS_Stripe)& operator () (const Standard_Integer Index)  const
 {
   return Value(Index);
 }
   
-      ChFiDS_CircSection& ChangeValue (const Standard_Integer Index) ;
-    ChFiDS_CircSection& operator () (const Standard_Integer Index) 
+      Handle(ChFiDS_Stripe)& ChangeValue (const Standard_Integer Index) ;
+    Handle(ChFiDS_Stripe)& operator () (const Standard_Integer Index) 
 {
   return ChangeValue(Index);
 }
@@ -80,7 +81,7 @@ protected:
 private:
 
   
-  Standard_EXPORT ChFiDS_SecArray1(const ChFiDS_SecArray1& AnArray);
+  Standard_EXPORT ChFiDS_StripeArray1(const ChFiDS_StripeArray1& AnArray);
 
 
   Standard_Integer myLowerBound;
@@ -91,10 +92,10 @@ private:
 
 };
 
-#define Array1Item ChFiDS_CircSection
-#define Array1Item_hxx <ChFiDS_CircSection.hxx>
-#define TCollection_Array1 ChFiDS_SecArray1
-#define TCollection_Array1_hxx <ChFiDS_SecArray1.hxx>
+#define Array1Item Handle(ChFiDS_Stripe)
+#define Array1Item_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
+#define TCollection_Array1 ChFiDS_StripeArray1
+#define TCollection_Array1_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_StripeArray1.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 
@@ -106,4 +107,4 @@ private:
 
 
 
-#endif // _ChFiDS_SecArray1_HeaderFile
+#endif // _ChFiDS_StripeArray1_HeaderFile

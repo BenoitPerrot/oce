@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_Spine.hxx>
-#include <ChFiDS_HData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_Stripe)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

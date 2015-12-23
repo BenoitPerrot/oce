@@ -143,13 +143,13 @@
 
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_PointOnRst.hxx>
 
-#include <ChFiDS_HData.hxx>
-#include <ChFiDS_SurfData.hxx>
-#include <ChFiDS_FaceInterference.hxx>
-#include <ChFiDS_Spine.hxx>
-#include <ChFiDS_FilSpine.hxx>
-#include <ChFiDS_SequenceOfSurfData.hxx>
-#include <ChFiDS_Regul.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_FaceInterference.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_FilSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Regul.hxx>
 #include <Law_Function.hxx>
 #include <Law_Composite.hxx>
 #include <GeomAPI_PointsToBSpline.hxx>

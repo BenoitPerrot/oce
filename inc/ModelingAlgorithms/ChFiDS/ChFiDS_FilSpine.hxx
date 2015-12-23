@@ -12,7 +12,7 @@
 
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Law_Laws.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

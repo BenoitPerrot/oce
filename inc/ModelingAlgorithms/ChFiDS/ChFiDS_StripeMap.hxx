@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
 #include <Handle_ChFiDS_Stripe.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Vertex;
@@ -67,7 +67,7 @@ private:
 };
 
 
-#include <ChFiDS_StripeMap.lxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_StripeMap.lxx>
 
 
 

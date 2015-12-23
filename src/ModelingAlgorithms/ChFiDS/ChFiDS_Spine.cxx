@@ -19,15 +19,15 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ChFiDS_HElSpine.hxx>
-#include <ChFiDS_ListOfHElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfHElSpine.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_Spine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,9 +37,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ChFiDS_Spine)
 IMPLEMENT_DOWNCAST(ChFiDS_Spine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ChFiDS_Spine)
-#include <ChFiDS_HElSpine.hxx>
-#include <ChFiDS_ErrorStatus.hxx> 
-#include <ChFiDS_ListIteratorOfListOfHElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx> 
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfListOfHElSpine.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ChFiDS_Stripe.hxx>
-#include <ChFiDS_ListOfStripe.hxx>
-#include <ChFiDS_StripeMap.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_StripeMap.hxx>
 
 //=======================================================================
 //function : ChFiDS_StripeMap

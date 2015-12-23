@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_ChamfSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ChamfSpine.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ChFiDS_ChamfSpine)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_HElSpine.hxx>
 
-#include <ChFiDS_ElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ElSpine.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
@@ -57,9 +57,9 @@ private:
 };
 
 #define TheCurve ChFiDS_ElSpine
-#define TheCurve_hxx <ChFiDS_ElSpine.hxx>
+#define TheCurve_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ElSpine.hxx>
 #define Adaptor3d_GenHCurve ChFiDS_HElSpine
-#define Adaptor3d_GenHCurve_hxx <ChFiDS_HElSpine.hxx>
+#define Adaptor3d_GenHCurve_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_HElSpine.hxx>
 #define Handle_Adaptor3d_GenHCurve Handle_ChFiDS_HElSpine
 #define Adaptor3d_GenHCurve_Type_() ChFiDS_HElSpine_Type_()
 

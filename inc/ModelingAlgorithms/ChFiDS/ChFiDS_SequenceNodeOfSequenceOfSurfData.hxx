@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(ChFiDS_SurfData)
-#define SeqItem_hxx <ChFiDS_SurfData.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #define TCollection_SequenceNode ChFiDS_SequenceNodeOfSequenceOfSurfData
-#define TCollection_SequenceNode_hxx <ChFiDS_SequenceNodeOfSequenceOfSurfData.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceNodeOfSequenceOfSurfData.hxx>
 #define Handle_TCollection_SequenceNode Handle_ChFiDS_SequenceNodeOfSequenceOfSurfData
 #define TCollection_SequenceNode_Type_() ChFiDS_SequenceNodeOfSequenceOfSurfData_Type_()
 #define TCollection_Sequence ChFiDS_SequenceOfSurfData
-#define TCollection_Sequence_hxx <ChFiDS_SequenceOfSurfData.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

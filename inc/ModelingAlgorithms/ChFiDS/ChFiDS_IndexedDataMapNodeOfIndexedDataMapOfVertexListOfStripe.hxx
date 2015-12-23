@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ChFiDS_ListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Vertex;
@@ -62,15 +62,15 @@ private:
 #define TheKey TopoDS_Vertex
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define TheItem ChFiDS_ListOfStripe
-#define TheItem_hxx <ChFiDS_ListOfStripe.hxx>
+#define TheItem_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_IndexedDataMapNode ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe
-#define TCollection_IndexedDataMapNode_hxx <ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
+#define TCollection_IndexedDataMapNode_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe
 #define TCollection_IndexedDataMapNode_Type_() ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe_Type_()
 #define TCollection_IndexedDataMap ChFiDS_IndexedDataMapOfVertexListOfStripe
-#define TCollection_IndexedDataMap_hxx <ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
+#define TCollection_IndexedDataMap_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 

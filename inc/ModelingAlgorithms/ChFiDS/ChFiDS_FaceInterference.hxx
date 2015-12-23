@@ -82,7 +82,7 @@ private:
 };
 
 
-#include <ChFiDS_FaceInterference.lxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_FaceInterference.lxx>
 
 
 

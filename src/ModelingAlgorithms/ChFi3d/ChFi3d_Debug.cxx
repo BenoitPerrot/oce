@@ -17,7 +17,7 @@
 #include <stdio.h>
 
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

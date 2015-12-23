@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_SurfData.hxx>
 
-#include <ChFiDS_CommonPoint.hxx>
-#include <ChFiDS_FaceInterference.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_CommonPoint.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_FaceInterference.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_MMgt_TShared.hxx>
@@ -186,7 +186,7 @@ private:
 };
 
 
-#include <ChFiDS_SurfData.lxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.lxx>
 
 
 

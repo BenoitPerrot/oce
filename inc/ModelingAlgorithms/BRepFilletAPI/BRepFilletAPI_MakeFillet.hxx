@@ -22,7 +22,7 @@
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <Handle_ChFiDS_SecHArray1.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <ChFiDS_ErrorStatus.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>
 class StdFail_NotDone;
 class Standard_NoSuchObject;
 class TopoDS_Shape;

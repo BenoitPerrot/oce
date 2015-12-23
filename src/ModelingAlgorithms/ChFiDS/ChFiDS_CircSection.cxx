@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <ChFiDS_CircSection.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_CircSection.hxx>
 
 //=======================================================================
 //function : ChFiDS_CircSection

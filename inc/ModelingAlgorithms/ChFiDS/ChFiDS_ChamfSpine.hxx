@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ChFiDS_ChamfMethod.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ChamfMethod.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 
 
 //! Provides  data specific to chamfers

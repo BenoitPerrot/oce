@@ -19,17 +19,17 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <ChFiDS_SecHArray1.hxx>
-#include <ChFiDS_SurfData.hxx>
-#include <ChFiDS_HElSpine.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_HElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <ChFiDS_SequenceOfSurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ChFiDS_Stripe.hxx>
-#include <ChFiDS_ListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_ChBuilder.hxx>
 
 //=======================================================================

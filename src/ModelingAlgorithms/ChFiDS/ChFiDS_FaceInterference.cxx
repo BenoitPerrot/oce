@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ChFiDS_FaceInterference.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_FaceInterference.hxx>
 
 //=======================================================================
 //function : ChFiDS_FaceInterference

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_SecHArray1.hxx>
 
-#include <ChFiDS_SecArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SecArray1.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 ChFiDS_CircSection
-#define ItemHArray1_hxx <ChFiDS_CircSection.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_CircSection.hxx>
 #define TheArray1 ChFiDS_SecArray1
-#define TheArray1_hxx <ChFiDS_SecArray1.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SecArray1.hxx>
 #define TCollection_HArray1 ChFiDS_SecHArray1
-#define TCollection_HArray1_hxx <ChFiDS_SecHArray1.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
 #define Handle_TCollection_HArray1 Handle_ChFiDS_SecHArray1
 #define TCollection_HArray1_Type_() ChFiDS_SecHArray1_Type_()
 

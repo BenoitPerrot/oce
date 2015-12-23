@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ChFiDS_HData.hxx>
 
-#include <ChFiDS_SequenceOfSurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_ChFiDS_SurfData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(ChFiDS_SurfData)
-#define Item_hxx <ChFiDS_SurfData.hxx>
+#define Item_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #define TheSequence ChFiDS_SequenceOfSurfData
-#define TheSequence_hxx <ChFiDS_SequenceOfSurfData.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_SequenceOfSurfData.hxx>
 #define TCollection_HSequence ChFiDS_HData
-#define TCollection_HSequence_hxx <ChFiDS_HData.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
 #define Handle_TCollection_HSequence Handle_ChFiDS_HData
 #define TCollection_HSequence_Type_() ChFiDS_HData_Type_()
 

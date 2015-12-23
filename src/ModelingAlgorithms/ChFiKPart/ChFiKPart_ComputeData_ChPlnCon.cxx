@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiKPart_ComputeData.hxx>
 #include <Precision.hxx>

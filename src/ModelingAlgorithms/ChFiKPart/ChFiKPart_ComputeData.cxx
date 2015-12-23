@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ChFiKPart_ComputeData.hxx>
 
@@ -68,8 +68,8 @@
 #include <Geom2dInt_GInter.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve2d.hxx>
-#include <ChFiDS_FilSpine.hxx>
-#include <ChFiDS_ChamfSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_FilSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ChamfSpine.hxx>
 
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Surface.hxx>

@@ -62,15 +62,15 @@ private:
 };
 
 #define Item Handle(ChFiDS_HElSpine)
-#define Item_hxx <ChFiDS_HElSpine.hxx>
+#define Item_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_HElSpine.hxx>
 #define TCollection_ListNode ChFiDS_ListNodeOfListOfHElSpine
-#define TCollection_ListNode_hxx <ChFiDS_ListNodeOfListOfHElSpine.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ListNodeOfListOfHElSpine.hxx>
 #define TCollection_ListIterator ChFiDS_ListIteratorOfListOfHElSpine
-#define TCollection_ListIterator_hxx <ChFiDS_ListIteratorOfListOfHElSpine.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfListOfHElSpine.hxx>
 #define Handle_TCollection_ListNode Handle_ChFiDS_ListNodeOfListOfHElSpine
 #define TCollection_ListNode_Type_() ChFiDS_ListNodeOfListOfHElSpine_Type_()
 #define TCollection_List ChFiDS_ListOfHElSpine
-#define TCollection_List_hxx <ChFiDS_ListOfHElSpine.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfHElSpine.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 

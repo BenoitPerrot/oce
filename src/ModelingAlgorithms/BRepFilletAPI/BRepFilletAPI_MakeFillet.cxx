@@ -24,14 +24,14 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <ChFiDS_SecHArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <ChFiDS_Spine.hxx>
-#include <ChFiDS_ErrorStatus.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>
 #include <Law_Linear.hxx>
 #include <Law_S.hxx>
 #include <Law_Interpol.hxx>

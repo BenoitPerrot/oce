@@ -21,11 +21,11 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <ChFiDS_SecHArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SecHArray1.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeChamfer.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 

@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_SurfData.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -30,7 +30,7 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <ChFiDS_ElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ElSpine.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>

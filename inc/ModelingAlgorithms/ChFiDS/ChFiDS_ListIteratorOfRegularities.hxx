@@ -61,15 +61,15 @@ private:
 };
 
 #define Item ChFiDS_Regul
-#define Item_hxx <ChFiDS_Regul.hxx>
+#define Item_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_Regul.hxx>
 #define TCollection_ListNode ChFiDS_ListNodeOfRegularities
-#define TCollection_ListNode_hxx <ChFiDS_ListNodeOfRegularities.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ListNodeOfRegularities.hxx>
 #define TCollection_ListIterator ChFiDS_ListIteratorOfRegularities
-#define TCollection_ListIterator_hxx <ChFiDS_ListIteratorOfRegularities.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfRegularities.hxx>
 #define Handle_TCollection_ListNode Handle_ChFiDS_ListNodeOfRegularities
 #define TCollection_ListNode_Type_() ChFiDS_ListNodeOfRegularities_Type_()
 #define TCollection_List ChFiDS_Regularities
-#define TCollection_List_hxx <ChFiDS_Regularities.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/ChFiDS/ChFiDS_Regularities.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 
