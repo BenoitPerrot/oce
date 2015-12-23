@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <IntImp_ConstIsoparametric.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 class StdFail_NotDone;
 class Standard_DomainError;
 class Standard_ConstructionError;
@@ -113,7 +113,7 @@ private:
 #define IntImp_Int2S GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox
 #define IntImp_Int2S_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 
-#include <IntImp_Int2S.lxx>
+#include <ModelingAlgorithms/IntImp/IntImp_Int2S.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx

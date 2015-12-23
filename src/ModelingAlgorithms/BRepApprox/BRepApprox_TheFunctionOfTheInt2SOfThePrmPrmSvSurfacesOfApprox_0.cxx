@@ -19,5 +19,5 @@
 #define ThePSurfaceTool_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_SurfaceTool.hxx>
 #define IntImp_ZerParFunc BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox
 #define IntImp_ZerParFunc_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
-#include <IntImp_ZerParFunc.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerParFunc.gxx>
 

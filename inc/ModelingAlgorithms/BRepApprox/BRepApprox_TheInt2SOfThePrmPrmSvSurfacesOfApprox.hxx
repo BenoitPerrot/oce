@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntImp_ConstIsoparametric.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 class StdFail_NotDone;
 class Standard_DomainError;
 class Standard_ConstructionError;
@@ -112,7 +112,7 @@ private:
 #define IntImp_Int2S BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox
 #define IntImp_Int2S_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 
-#include <IntImp_Int2S.lxx>
+#include <ModelingAlgorithms/IntImp/IntImp_Int2S.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx

@@ -122,7 +122,7 @@ private:
 #define IntImp_ZerImpFunc GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox
 #define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 
-#include <IntImp_ZerImpFunc.lxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerImpFunc.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx

@@ -28,5 +28,5 @@
 #define TheFunction_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheCSFunctionOfHInter.hxx>
 #define IntImp_IntCS IntCurveSurface_TheExactHInter
 #define IntImp_IntCS_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheExactHInter.hxx>
-#include <IntImp_IntCS.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_IntCS.gxx>
 

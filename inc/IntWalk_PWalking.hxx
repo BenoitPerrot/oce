@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntImp_ConstIsoparametric.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <IntWalk_TheInt2S.hxx>

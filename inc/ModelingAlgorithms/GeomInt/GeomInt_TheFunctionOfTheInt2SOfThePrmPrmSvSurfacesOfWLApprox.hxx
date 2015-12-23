@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntImp_ConstIsoparametric.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 #include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -117,7 +117,7 @@ private:
 #define IntImp_ZerParFunc GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox
 #define IntImp_ZerParFunc_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 
-#include <IntImp_ZerParFunc.lxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerParFunc.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx

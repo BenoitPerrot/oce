@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IntImp_ConstIsoparametric.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 
 #if !defined(WNT) || defined(__ApproxInt_DLL) || defined(__IntImp_DLL) || defined(__IntWalk_DLL) || defined(__GeomInt_DLL) || defined(__IntPatch_DLL)
  Standard_EXPORTEXTERN const IntImp_ConstIsoparametric  *ChoixRef;

@@ -23,5 +23,5 @@
 #define TheCurveTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 #define IntImp_ZerCSParFunc IntCurveSurface_TheCSFunctionOfHInter
 #define IntImp_ZerCSParFunc_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheCSFunctionOfHInter.hxx>
-#include <IntImp_ZerCSParFunc.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerCSParFunc.gxx>
 

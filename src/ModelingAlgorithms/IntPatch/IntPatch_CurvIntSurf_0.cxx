@@ -28,5 +28,5 @@
 #define TheFunction_hxx <IntPatch_CSFunction.hxx>
 #define IntImp_IntCS IntPatch_CurvIntSurf
 #define IntImp_IntCS_hxx <IntPatch_CurvIntSurf.hxx>
-#include <IntImp_IntCS.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_IntCS.gxx>
 

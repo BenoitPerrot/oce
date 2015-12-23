@@ -27,5 +27,5 @@
 #define IntImp_TheFunction_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
 #define IntImp_Int2S BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox
 #define IntImp_Int2S_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx>
-#include <IntImp_Int2S.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_Int2S.gxx>
 

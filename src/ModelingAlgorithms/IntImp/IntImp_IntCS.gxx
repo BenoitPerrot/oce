@@ -20,7 +20,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IntImp_ComputeTangence.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ComputeTangence.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Precision.hxx>
 

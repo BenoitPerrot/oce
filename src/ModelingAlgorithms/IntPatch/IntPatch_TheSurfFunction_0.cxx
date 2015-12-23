@@ -26,5 +26,5 @@
 #define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
 #define IntImp_ZerImpFunc IntPatch_TheSurfFunction
 #define IntImp_ZerImpFunc_hxx <IntPatch_TheSurfFunction.hxx>
-#include <IntImp_ZerImpFunc.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerImpFunc.gxx>
 

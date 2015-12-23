@@ -19,5 +19,5 @@
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define IntImp_ZerParFunc IntWalk_TheFunctionOfTheInt2S
 #define IntImp_ZerParFunc_hxx <IntWalk_TheFunctionOfTheInt2S.hxx>
-#include <IntImp_ZerParFunc.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerParFunc.gxx>
 

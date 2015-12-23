@@ -27,5 +27,5 @@
 #define IntImp_TheFunction_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #define IntImp_Int2S GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox
 #define IntImp_Int2S_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
-#include <IntImp_Int2S.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_Int2S.gxx>
 

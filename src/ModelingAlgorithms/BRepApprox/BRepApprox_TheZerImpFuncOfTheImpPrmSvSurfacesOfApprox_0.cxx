@@ -26,5 +26,5 @@
 #define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
 #define IntImp_ZerImpFunc BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox
 #define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
-#include <IntImp_ZerImpFunc.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerImpFunc.gxx>
 

@@ -27,5 +27,5 @@
 #define TheFunction_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheCSFunctionOfInterCSurf.hxx>
 #define IntImp_IntCS HLRBRep_TheExactInterCSurf
 #define IntImp_IntCS_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheExactInterCSurf.hxx>
-#include <IntImp_IntCS.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_IntCS.gxx>
 

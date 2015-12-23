@@ -27,7 +27,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
-#include <IntImp_ComputeTangence.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ComputeTangence.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>

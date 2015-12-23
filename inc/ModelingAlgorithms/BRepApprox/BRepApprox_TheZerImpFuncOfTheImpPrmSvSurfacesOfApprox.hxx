@@ -121,7 +121,7 @@ private:
 #define IntImp_ZerImpFunc BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox
 #define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/BRepApprox/BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx>
 
-#include <IntImp_ZerImpFunc.lxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerImpFunc.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx

@@ -18,7 +18,7 @@
 #endif
 
 
-#include <IntImp_ComputeTangence.hxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ComputeTangence.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>
 

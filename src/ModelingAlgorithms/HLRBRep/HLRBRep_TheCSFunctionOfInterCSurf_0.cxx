@@ -22,5 +22,5 @@
 #define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #define IntImp_ZerCSParFunc HLRBRep_TheCSFunctionOfInterCSurf
 #define IntImp_ZerCSParFunc_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheCSFunctionOfInterCSurf.hxx>
-#include <IntImp_ZerCSParFunc.gxx>
+#include <ModelingAlgorithms/IntImp/IntImp_ZerCSParFunc.gxx>
 
