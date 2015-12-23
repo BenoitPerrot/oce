@@ -17,7 +17,7 @@
 #include <OCAF/PCDM/PCDM_SequenceOfDocument.hxx>
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <StdDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/StdDrivers/StdDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

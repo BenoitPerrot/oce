@@ -22,7 +22,7 @@
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <StdDrivers.hxx>
+#include <OCAF/StdDrivers/StdDrivers.hxx>
 #include <Foundation/Storage/Storage_HArrayOfSchema.hxx>
 #include <StdSchema.hxx>
 #include <StdLSchema.hxx>

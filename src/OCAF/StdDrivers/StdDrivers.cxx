@@ -15,9 +15,9 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <StdDrivers.hxx>
-#include <StdDrivers_DocumentStorageDriver.hxx>
-#include <StdDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/StdDrivers/StdDrivers.hxx>
+#include <OCAF/StdDrivers/StdDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/StdDrivers/StdDrivers_DocumentRetrievalDriver.hxx>
 #include <StdSchema.hxx>
 #include <StdLSchema.hxx>
 #include <OCAF/ShapeSchema/ShapeSchema.hxx>
