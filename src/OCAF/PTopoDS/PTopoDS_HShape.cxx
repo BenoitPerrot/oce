@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <PTopoDS_TShape.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <PTopoDS_HShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_HShape)

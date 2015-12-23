@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PBRep_PointRepresentation.hxx>
 
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_PBRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

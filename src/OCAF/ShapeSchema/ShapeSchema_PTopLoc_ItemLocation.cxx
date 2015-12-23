@@ -2,7 +2,7 @@
 #include <ShapeSchema_PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _PTopLoc_ItemLocation_HeaderFile
-#include <PTopLoc_ItemLocation.hxx>
+#include <OCAF/PTopLoc/PTopLoc_ItemLocation.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Datum3D_HeaderFile
 #include <ShapeSchema_PTopLoc_Datum3D.hxx>

@@ -16,7 +16,7 @@
 
 #include <OCAF/PGeom/PGeom_Surface.hxx>
 #include <OCAF/PPoly/PPoly_Triangulation.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_TFace1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_TFace1)

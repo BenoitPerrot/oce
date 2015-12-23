@@ -14,7 +14,7 @@
 
 #include <OCAF/PGeom/PGeom_Surface.hxx>
 #include <OCAF/PPoly/PPoly_Polygon2D.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_PolygonOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_PolygonOnSurface)

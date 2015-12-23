@@ -13,7 +13,7 @@
 
 #include <Handle_PTopLoc_Datum3D.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class PTopLoc_Datum3D;
 class PTopLoc_Location;

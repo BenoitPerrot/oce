@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PPoly/PPoly_Polygon3D.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_Polygon3D)

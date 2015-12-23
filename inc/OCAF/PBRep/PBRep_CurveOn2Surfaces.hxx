@@ -12,7 +12,7 @@
 #include <Handle_PBRep_CurveOn2Surfaces.hxx>
 
 #include <Handle_PGeom_Surface.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>

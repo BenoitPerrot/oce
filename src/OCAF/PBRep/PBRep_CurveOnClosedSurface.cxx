@@ -16,7 +16,7 @@
 
 #include <OCAF/PGeom2d/PGeom2d_Curve.hxx>
 #include <OCAF/PGeom/PGeom_Surface.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <OCAF/PBRep/PBRep_CurveOnClosedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

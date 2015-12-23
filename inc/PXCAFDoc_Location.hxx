@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Handle_PXCAFDoc_Location.hxx>
 
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 class PTopLoc_Location;
 

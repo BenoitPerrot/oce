@@ -22,7 +22,7 @@
 
 
 #include <PTopoDS_TShape1.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <PTopoDS_Shape1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopoDS_Shape1)

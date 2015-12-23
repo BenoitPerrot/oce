@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_PTopoDS_TShape1.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>

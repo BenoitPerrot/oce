@@ -13,7 +13,7 @@
 
 #include <Handle_PGeom_Surface.hxx>
 #include <Handle_PPoly_Triangulation.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <PTopoDS_TFace.hxx>

@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PTopLoc_Datum3D.hxx>
-#include <PTopLoc_Location.hxx>
-#include <PTopLoc_ItemLocation.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Datum3D.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_ItemLocation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PTopLoc_ItemLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

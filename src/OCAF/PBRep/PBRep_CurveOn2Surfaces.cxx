@@ -16,7 +16,7 @@
 
 #include <OCAF/PGeom/PGeom_Surface.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_CurveOn2Surfaces.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_CurveOn2Surfaces)

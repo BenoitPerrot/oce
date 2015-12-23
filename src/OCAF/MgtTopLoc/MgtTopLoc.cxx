@@ -16,11 +16,11 @@
 
 // Update:      Frederic Maupas
 
-#include <PTopLoc_Datum3D.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Datum3D.hxx>
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
 

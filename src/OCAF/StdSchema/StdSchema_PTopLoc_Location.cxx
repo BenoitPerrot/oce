@@ -2,7 +2,7 @@
 #include <StdSchema_PTopLoc_Location.hxx>
 #endif
 #ifndef _PTopLoc_Location_HeaderFile
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #endif
 #ifndef _StdSchema_PTopLoc_ItemLocation_HeaderFile
 #include <StdSchema_PTopLoc_ItemLocation.hxx>

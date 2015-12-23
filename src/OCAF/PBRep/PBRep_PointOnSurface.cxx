@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PGeom/PGeom_Surface.hxx>
-#include <PTopLoc_Location.hxx>
+#include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_PointOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_PointOnSurface)
