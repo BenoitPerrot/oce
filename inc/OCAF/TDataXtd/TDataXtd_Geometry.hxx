@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataXtd_Geometry.hxx>
 
-#include <TDataXtd_GeometryEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
 #include <TDF_Attribute.hxx>
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

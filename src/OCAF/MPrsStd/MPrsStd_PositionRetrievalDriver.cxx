@@ -32,7 +32,7 @@ IMPLEMENT_DOWNCAST(MPrsStd_PositionRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MPrsStd_PositionRetrievalDriver)
 
 #include <OCAF/PDataXtd/PDataXtd_Position.hxx>
-#include <TDataXtd_Position.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================

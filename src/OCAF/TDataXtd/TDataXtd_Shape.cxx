@@ -19,7 +19,7 @@
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Shape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Shape)
 IMPLEMENT_DOWNCAST(TDataXtd_Shape,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Shape)
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <TDF_Label.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>

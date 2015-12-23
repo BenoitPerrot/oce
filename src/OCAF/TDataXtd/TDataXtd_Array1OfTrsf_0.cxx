@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TDataXtd_Array1OfTrsf.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item gp_Trsf
 #define Array1Item_hxx <Mathematics/Primitives/gp_Trsf.hxx>
 #define TCollection_Array1 TDataXtd_Array1OfTrsf
-#define TCollection_Array1_hxx <TDataXtd_Array1OfTrsf.hxx>
+#define TCollection_Array1_hxx <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

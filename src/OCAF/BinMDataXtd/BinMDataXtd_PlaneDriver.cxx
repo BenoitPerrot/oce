@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataXtd_PlaneDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataXtd_PlaneDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

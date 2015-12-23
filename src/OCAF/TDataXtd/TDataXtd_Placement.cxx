@@ -17,7 +17,7 @@
 #include <TDF_Label.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataXtd_Placement.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Placement.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Placement)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataXtd_ShapeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataXtd_ShapeDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

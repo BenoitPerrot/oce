@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataXtd_Position.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Position)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

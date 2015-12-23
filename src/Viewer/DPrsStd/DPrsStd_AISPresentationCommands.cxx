@@ -45,12 +45,12 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 
-#include <TDataXtd_Axis.hxx>
-#include <TDataXtd_Constraint.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TDataXtd_Plane.hxx>
-#include <TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 
 //#include <TSketchStd_Geometry.hxx>

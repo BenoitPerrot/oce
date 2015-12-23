@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Plane)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Plane)
 IMPLEMENT_DOWNCAST(TDataXtd_Plane,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Plane)
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_Builder.hxx>

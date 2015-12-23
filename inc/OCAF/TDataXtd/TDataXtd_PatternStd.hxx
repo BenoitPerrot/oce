@@ -15,7 +15,7 @@
 #include <Handle_TNaming_NamedShape.hxx>
 #include <Handle_TDataStd_Real.hxx>
 #include <Handle_TDataStd_Integer.hxx>
-#include <TDataXtd_Pattern.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Pattern.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_TDF_RelocationTable.hxx>
 #include <Handle_TDF_DataSet.hxx>
@@ -131,7 +131,7 @@ private:
 };
 
 
-#include <TDataXtd_PatternStd.lxx>
+#include <OCAF/TDataXtd/TDataXtd_PatternStd.lxx>
 
 
 

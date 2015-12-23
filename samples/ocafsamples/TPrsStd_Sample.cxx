@@ -26,7 +26,7 @@
 #include <TPrsStd_DriverTable.hxx>
 #include <TPrsStd_NamedShapeDriver.hxx>
 #include <TPrsStd_PlaneDriver.hxx>
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 
 // ====================================================================================
 // This sample contains template for typical actions with OCAF visualization attributes

@@ -16,7 +16,7 @@
 
 #include <Draw_Drawable3D.hxx>
 #include <TDF_Label.hxx>
-#include <TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DDataStd_DrawDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -57,11 +57,11 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 // attribut affichable
 #include <TNaming_NamedShape.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd_GeometryEnum.hxx>
-#include <TDataXtd_Point.hxx>
-#include <TDataXtd_Axis.hxx>
-#include <TDataXtd_Plane.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <TDF_ChildIterator.hxx>
 #include <TDF_LabelList.hxx> 
 #include <TDF_ListIteratorOfLabelList.hxx>

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_PlacementDriver)
 IMPLEMENT_DOWNCAST(XmlMDataXtd_PlacementDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_PlacementDriver)
-#include <TDataXtd_Placement.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Placement.hxx>
 
 //=======================================================================
 //function : XmlMDataXtd_PlacementDriver

@@ -26,8 +26,8 @@ IMPLEMENT_DOWNCAST(TPrsStd_AxisDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_AxisDriver)
 
 #include <TDF_Label.hxx>
-#include <TDataXtd_Axis.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <Visualization/AIS/AIS_Axis.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_DriverTable)
 #include <TPrsStd_PlaneDriver.hxx>
 #include <TPrsStd_PointDriver.hxx>
 
-#include <TDataXtd_Axis.hxx>
-#include <TDataXtd_Constraint.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <TDataXtd_Plane.hxx>
-#include <TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 
 
 static Handle(TPrsStd_DriverTable) drivertable;

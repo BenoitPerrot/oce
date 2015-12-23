@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_ShapeRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_ShapeRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_ShapeRetrievalDriver)
 #include <OCAF/PDataXtd/PDataXtd_Shape.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_ShapeRetrievalDriver::MDataXtd_ShapeRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

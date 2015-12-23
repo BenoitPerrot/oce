@@ -94,7 +94,7 @@ private:
 #define Array1Item gp_Trsf
 #define Array1Item_hxx <Mathematics/Primitives/gp_Trsf.hxx>
 #define TCollection_Array1 TDataXtd_Array1OfTrsf
-#define TCollection_Array1_hxx <TDataXtd_Array1OfTrsf.hxx>
+#define TCollection_Array1_hxx <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

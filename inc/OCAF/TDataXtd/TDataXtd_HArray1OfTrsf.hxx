@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataXtd_HArray1OfTrsf.hxx>
 
-#include <TDataXtd_Array1OfTrsf.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -71,9 +71,9 @@ private:
 #define ItemHArray1 gp_Trsf
 #define ItemHArray1_hxx <Mathematics/Primitives/gp_Trsf.hxx>
 #define TheArray1 TDataXtd_Array1OfTrsf
-#define TheArray1_hxx <TDataXtd_Array1OfTrsf.hxx>
+#define TheArray1_hxx <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
 #define TCollection_HArray1 TDataXtd_HArray1OfTrsf
-#define TCollection_HArray1_hxx <TDataXtd_HArray1OfTrsf.hxx>
+#define TCollection_HArray1_hxx <OCAF/TDataXtd/TDataXtd_HArray1OfTrsf.hxx>
 #define Handle_TCollection_HArray1 Handle_TDataXtd_HArray1OfTrsf
 #define TCollection_HArray1_Type_() TDataXtd_HArray1OfTrsf_Type_()
 

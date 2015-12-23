@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDataXtd_PlacementDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDataXtd_PlacementDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Attribute.hxx>
-#include <TDataXtd_Placement.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Placement.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

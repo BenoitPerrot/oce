@@ -26,12 +26,12 @@ IMPLEMENT_DOWNCAST(TPrsStd_ConstraintDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_ConstraintDriver)
 
 #include <TDF_Label.hxx>
-#include <TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <TPrsStd_ConstraintTools.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
-#include <TDataXtd_Position.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_Relation.hxx>

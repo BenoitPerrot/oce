@@ -20,7 +20,7 @@
 #include <TDF_LabelList.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
-#include <TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Constraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Constraint)
 IMPLEMENT_DOWNCAST(TDataXtd_Constraint,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Constraint)
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <TDF_ChildIterator.hxx>
-#include <TDataXtd_ConstraintEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 // for symmetry midpoint the third argument is the axis or the point
 

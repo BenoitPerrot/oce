@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Geometry)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Geometry)
 IMPLEMENT_DOWNCAST(TDataXtd_Geometry,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Geometry)
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 

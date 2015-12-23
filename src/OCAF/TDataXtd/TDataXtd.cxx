@@ -14,18 +14,18 @@
 // commercial license or contractual agreement.
 
 #include <TDF_IDList.hxx>
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <TDF_IDList.hxx>
-#include <TDataXtd.hxx>
-#include <TDataXtd_Axis.hxx>
-#include <TDataXtd_Constraint.hxx>
-#include <TDataXtd_Geometry.hxx>
-#include <TDataXtd_PatternStd.hxx>
-#include <TDataXtd_Placement.hxx>
-#include <TDataXtd_Point.hxx>
-#include <TDataXtd_Plane.hxx>
-#include <TDataXtd_Position.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_PatternStd.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Placement.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Position.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 #include <TDF_IDList.hxx>
 
 //=======================================================================

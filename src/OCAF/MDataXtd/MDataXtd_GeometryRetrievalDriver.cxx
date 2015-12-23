@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDataXtd_GeometryRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_GeometryRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_GeometryRetrievalDriver)
-#include <TDataXtd_GeometryEnum.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <OCAF/PDataXtd/PDataXtd_Geometry.hxx>
 #include <OCAF/MDataXtd/MDataXtd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>

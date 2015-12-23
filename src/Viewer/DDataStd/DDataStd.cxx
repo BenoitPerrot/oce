@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <DDataStd.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <TNaming_NamedShape.hxx>

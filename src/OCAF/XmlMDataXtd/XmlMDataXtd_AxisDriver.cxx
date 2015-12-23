@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_AxisDriver)
 IMPLEMENT_DOWNCAST(XmlMDataXtd_AxisDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_AxisDriver)
-#include <TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 
 //=======================================================================
 //function : XmlMDataXtd_AxisDriver

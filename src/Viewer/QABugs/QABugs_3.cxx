@@ -1364,7 +1364,7 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 #include<TDocStd_Document.hxx>
 #include<TDocStd_Application.hxx>
 #include<TDF_Delta.hxx>
-#include<TDataXtd_Constraint.hxx>
+#include<OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include<TPrsStd_AISPresentation.hxx>
 #include<TPrsStd_AISViewer.hxx>
 #include<TNaming_Builder.hxx>

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PointStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PointStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PointStorageDriver)
 #include <OCAF/PDataXtd/PDataXtd_Point.hxx>
-#include <TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_PointStorageDriver::MDataXtd_PointStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver) {}

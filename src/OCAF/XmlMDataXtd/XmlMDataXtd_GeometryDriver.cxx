@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_GeometryDriver)
 IMPLEMENT_DOWNCAST(XmlMDataXtd_GeometryDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_GeometryDriver)
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 
 static const XmlObjMgt_DOMString& GeometryTypeString
                                         (const TDataXtd_GeometryEnum);

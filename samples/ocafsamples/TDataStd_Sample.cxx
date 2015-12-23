@@ -16,7 +16,7 @@
 
 #include <TDF_Data.hxx>
 #include <TDF_Label.hxx>
-#include <TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataStd/TDataStd_Current.hxx>
 #include <OCAF/TDataStd/TDataStd_Comment.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
@@ -26,15 +26,15 @@
 #include <TDF_Reference.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
-#include <TDataXtd_Constraint.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataStd/TDataStd_Directory.hxx>
-#include <TDataXtd_Point.hxx>
-#include <TDataXtd_Plane.hxx>
-#include <TDataXtd_Geometry.hxx>
-#include <TDataXtd_GeometryEnum.hxx>
-#include <TDataXtd_ConstraintEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_AxisRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_AxisRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_AxisRetrievalDriver)
 #include <OCAF/PDataXtd/PDataXtd_Axis.hxx>
-#include <TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_AxisRetrievalDriver::MDataXtd_AxisRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

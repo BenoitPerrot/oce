@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_ShapeDriver)
 IMPLEMENT_DOWNCAST(XmlMDataXtd_ShapeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_ShapeDriver)
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 
 //=======================================================================
 //function : XmlMDataXtd_ShapeDriver

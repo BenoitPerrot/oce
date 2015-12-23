@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_ShapeStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_ShapeStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_ShapeStorageDriver)
 #include <OCAF/PDataXtd/PDataXtd_Shape.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_ShapeStorageDriver::MDataXtd_ShapeStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)

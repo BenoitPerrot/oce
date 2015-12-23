@@ -26,8 +26,8 @@ IMPLEMENT_DOWNCAST(TPrsStd_PointDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_PointDriver)
 
 #include <TDF_Label.hxx>
-#include <TDataXtd_Point.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 //#include <OCAF/TDataStd/TDataStd_Datum.hxx>
 #include <Visualization/AIS/AIS_Point.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

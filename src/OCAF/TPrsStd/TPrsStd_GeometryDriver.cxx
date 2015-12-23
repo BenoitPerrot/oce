@@ -27,11 +27,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TPrsStd_GeometryDriver)
 IMPLEMENT_DOWNCAST(TPrsStd_GeometryDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_GeometryDriver)
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <TDF_Label.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>

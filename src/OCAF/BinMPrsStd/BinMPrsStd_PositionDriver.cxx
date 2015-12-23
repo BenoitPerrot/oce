@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinMPrsStd_PositionDriver)
 IMPLEMENT_DOWNCAST(BinMPrsStd_PositionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMPrsStd_PositionDriver)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TDataXtd_Position.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================

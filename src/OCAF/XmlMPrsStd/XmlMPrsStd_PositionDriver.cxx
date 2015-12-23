@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMPrsStd_PositionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMPrsStd_PositionDriver)
 
 #include <XmlObjMgt.hxx>
-#include <TDataXtd_Position.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 #include <stdio.h>

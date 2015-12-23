@@ -52,8 +52,8 @@
 
 // enums
 #include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
-#include <TDataXtd_ConstraintEnum.hxx>
-#include <TDataXtd_GeometryEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <OCAF/MgtGeom/MgtGeom.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

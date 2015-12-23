@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <TDataXtd_GeometryEnum.hxx>
-#include <TDataXtd_ConstraintEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
 class TDF_IDList;
 class TDataXtd_Position;
 class TDataXtd_Constraint;

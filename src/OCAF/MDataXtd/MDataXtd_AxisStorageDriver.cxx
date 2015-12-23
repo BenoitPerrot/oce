@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_AxisStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_AxisStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_AxisStorageDriver)
 #include <OCAF/PDataXtd/PDataXtd_Axis.hxx>
-#include <TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_AxisStorageDriver::MDataXtd_AxisStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)

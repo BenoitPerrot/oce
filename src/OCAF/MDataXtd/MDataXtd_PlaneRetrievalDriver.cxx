@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PlaneRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PlaneRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PlaneRetrievalDriver)
 #include <OCAF/PDataXtd/PDataXtd_Plane.hxx>
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_PlaneRetrievalDriver::MDataXtd_PlaneRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

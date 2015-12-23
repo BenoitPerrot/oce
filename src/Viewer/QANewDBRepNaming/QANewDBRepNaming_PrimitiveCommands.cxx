@@ -50,7 +50,7 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
 

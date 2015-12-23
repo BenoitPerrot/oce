@@ -41,10 +41,10 @@
 #include <TDF_ListIteratorOfLabelList.hxx>
 #include <TDF_Tool.hxx> 
 #include <TNaming_NamedShape.hxx>
-#include <TDataXtd_Point.hxx>
-#include <TDataXtd_Axis.hxx>
-#include <TDataXtd_Geometry.hxx>
-#include <TDataXtd_Constraint.hxx> 
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx> 
 #include <ElSLib.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>

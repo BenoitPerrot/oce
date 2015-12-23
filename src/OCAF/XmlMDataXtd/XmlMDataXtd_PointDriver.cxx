@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_PointDriver)
 IMPLEMENT_DOWNCAST(XmlMDataXtd_PointDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_PointDriver)
-#include <TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 
 //=======================================================================
 //function : XmlMDataXtd_PointDriver

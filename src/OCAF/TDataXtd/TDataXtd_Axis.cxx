@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
-#include <TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_Axis)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataXtd_Axis)
 IMPLEMENT_DOWNCAST(TDataXtd_Axis,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_Axis)
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <TNaming_NamedShape.hxx>
 #include <TNaming_Tool.hxx>
 #include <TNaming_Builder.hxx>

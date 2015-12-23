@@ -43,10 +43,10 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 
-#include <TDataXtd_Geometry.hxx>
-#include <TDataXtd_Point.hxx>
-#include <TDataXtd_Axis.hxx>
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 
 #include <TNaming_Builder.hxx>
 

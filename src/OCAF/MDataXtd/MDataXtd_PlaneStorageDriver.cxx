@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PlaneStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PlaneStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PlaneStorageDriver)
 #include <OCAF/PDataXtd/PDataXtd_Plane.hxx>
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_PlaneStorageDriver::MDataXtd_PlaneStorageDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ASDriver(theMsgDriver)

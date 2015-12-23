@@ -1,11 +1,11 @@
-#include "TDataXtd_PatternStd.hxx"
-#include "TDF_Label.hxx"
-#include "XCAFApp_Application.hxx"
-#include "TDocStd_Document.hxx"
-#include "OCAF/TDataStd/TDataStd_Integer.hxx"
-#include "OCAF/TDataStd/TDataStd_Real.hxx"
-#include "TDataXtd_Array1OfTrsf.hxx"
-#include "TNaming_NamedShape.hxx"
+#include <OCAF/TDataXtd/TDataXtd_PatternStd.hxx>
+#include <TDF_Label.hxx>
+#include <XCAFApp_Application.hxx>
+#include <TDocStd_Document.hxx>
+#include <OCAF/TDataStd/TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/TDataStd_Real.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
+#include <TNaming_NamedShape.hxx>
 
 #include <gtest/gtest.h>
 

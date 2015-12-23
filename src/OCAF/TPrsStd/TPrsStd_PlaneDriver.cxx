@@ -26,9 +26,9 @@ IMPLEMENT_DOWNCAST(TPrsStd_PlaneDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TPrsStd_PlaneDriver)
 
 #include <TDF_Label.hxx>
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 //#include <OCAF/TDataStd/TDataStd_Datum.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <Visualization/AIS/AIS_Plane.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

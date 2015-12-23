@@ -25,13 +25,13 @@
 #include <TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDataStd/TDataStd_Directory.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 
 
 // LES ATTRIBUTES
 
 #include <OCAF/TDataStd/TDataStd_NoteBook.hxx>
-#include <TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
 
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

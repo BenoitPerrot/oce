@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataXtd_PlaneDriver)
 IMPLEMENT_DOWNCAST(XmlMDataXtd_PlaneDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_PlaneDriver)
-#include <TDataXtd_Plane.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 
 //=======================================================================
 //function : XmlMDataXtd_PlaneDriver

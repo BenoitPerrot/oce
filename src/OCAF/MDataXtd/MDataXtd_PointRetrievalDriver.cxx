@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PointRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PointRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PointRetrievalDriver)
 #include <OCAF/PDataXtd/PDataXtd_Point.hxx>
-#include <TDataXtd_Point.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Point.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataXtd_PointRetrievalDriver::MDataXtd_PointRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

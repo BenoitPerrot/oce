@@ -27,12 +27,12 @@
 
 #include <TNaming_NamedShape.hxx>
 
-#include <TDataXtd.hxx>
+#include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
-#include <TDataXtd_Constraint.hxx>
-#include <TDataXtd_PatternStd.hxx>
-#include <TDataXtd_Position.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_PatternStd.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Foundation/Standard/Standard_Macro.hxx>

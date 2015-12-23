@@ -16,8 +16,8 @@
 #include <Handle_PGeom_Geometry.hxx>
 #include <Handle_Geom_Geometry.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TDataXtd_ConstraintEnum.hxx>
-#include <TDataXtd_GeometryEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
 class MDF_ASDriverHSequence;
 class CDM_MessageDriver;
 class MDF_ARDriverHSequence;

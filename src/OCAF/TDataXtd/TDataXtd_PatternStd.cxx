@@ -18,11 +18,11 @@
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <TDF_Label.hxx>
-#include <TDataXtd_Array1OfTrsf.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
 #include <TDF_Attribute.hxx>
 #include <TDF_RelocationTable.hxx>
 #include <TDF_DataSet.hxx>
-#include <TDataXtd_PatternStd.hxx>
+#include <OCAF/TDataXtd/TDataXtd_PatternStd.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDataXtd_PatternStd)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDataXtd_PatternStd)
 IMPLEMENT_DOWNCAST(TDataXtd_PatternStd,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDataXtd_PatternStd)
 #include <OCAF/TDataStd/TDataStd.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <TDF_Label.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>

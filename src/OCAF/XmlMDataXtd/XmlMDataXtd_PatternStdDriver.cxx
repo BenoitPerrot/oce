@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_PatternStdDriver)
 
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
-#include <TDataXtd_PatternStd.hxx>
+#include <OCAF/TDataXtd/TDataXtd_PatternStd.hxx>
 #include <TNaming_NamedShape.hxx>
 
 IMPLEMENT_DOMSTRING (SignatureString,           "signature")

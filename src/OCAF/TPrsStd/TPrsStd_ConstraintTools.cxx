@@ -17,7 +17,7 @@
 // Modified     Mon 30 10:15:43 1998 by SZY
 
 
-#include <TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -34,7 +34,7 @@
 #include <TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 #include <TDF_Reference.hxx>
 
 

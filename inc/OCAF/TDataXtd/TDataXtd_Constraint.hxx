@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDataXtd_Constraint.hxx>
 
-#include <TDataXtd_ConstraintEnum.hxx>
+#include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
 #include <Handle_TDataStd_Real.hxx>
 #include <Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

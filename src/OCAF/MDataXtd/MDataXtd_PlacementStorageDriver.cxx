@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataXtd_PlacementStorageDriver)
 IMPLEMENT_DOWNCAST(MDataXtd_PlacementStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataXtd_PlacementStorageDriver)
 #include <OCAF/PDataXtd/PDataXtd_Placement.hxx>
-#include <TDataXtd_Placement.hxx>
+#include <OCAF/TDataXtd/TDataXtd_Placement.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 
