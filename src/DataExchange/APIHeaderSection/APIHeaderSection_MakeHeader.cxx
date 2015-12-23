@@ -25,7 +25,7 @@
 #include <Interface_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_HArray1OfHAsciiString.hxx>
-#include <APIHeaderSection_MakeHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_EntityIterator.hxx>
 

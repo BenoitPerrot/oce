@@ -44,7 +44,7 @@
 #include <TransferBRep.hxx>
 #include <Transfer_Binder.hxx>
 
-#include <APIHeaderSection_MakeHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 #include <StepRepr_RepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>

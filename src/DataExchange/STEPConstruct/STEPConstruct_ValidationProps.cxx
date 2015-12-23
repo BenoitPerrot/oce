@@ -45,7 +45,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <APIHeaderSection_MakeHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_GeometricRepresentationItem.hxx>
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>

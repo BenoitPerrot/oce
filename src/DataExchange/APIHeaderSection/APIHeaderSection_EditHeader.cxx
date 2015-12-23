@@ -16,7 +16,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Interface_InterfaceModel.hxx>
-#include <APIHeaderSection_EditHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_EditHeader.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(APIHeaderSection_EditHeader)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(APIHeaderSection_EditHeader,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(APIHeaderSection_EditHeader)
 #include <Interface_TypedValue.hxx>
 
-#include <APIHeaderSection_MakeHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 
 static Standard_Boolean IsTimeStamp
   (const Handle(TCollection_HAsciiString)& val)

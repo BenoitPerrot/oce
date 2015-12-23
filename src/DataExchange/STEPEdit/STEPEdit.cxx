@@ -20,7 +20,7 @@
 #include <StepAP214.hxx>
 //#include <HeaderSection.hxx>
 
-#include <APIHeaderSection_MakeHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 
 #include <StepSelect_StepType.hxx>
 #include <IFSelect_SelectSignature.hxx>

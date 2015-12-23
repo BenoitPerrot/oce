@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 
 #include <Foundation/Standard/Standard_Version.hxx>
 #include <StepData_StepModel.hxx>
-#include <APIHeaderSection_MakeHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
 #include <StepData_FileProtocol.hxx>
 #include <HeaderSection.hxx>
 #include <RWHeaderSection.hxx>
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <STEPEdit_EditContext.hxx>
 #include <STEPEdit_EditSDR.hxx>
 
-#include <APIHeaderSection_EditHeader.hxx>
+#include <DataExchange/APIHeaderSection/APIHeaderSection_EditHeader.hxx>
 #include <IFSelect_EditForm.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
