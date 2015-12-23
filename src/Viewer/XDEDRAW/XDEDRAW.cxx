@@ -78,7 +78,7 @@
 #include <Viewer/XDEDRAW/XDEDRAW_Layers.hxx>
 #include <Viewer/XDEDRAW/XDEDRAW_Props.hxx>
 #include <Viewer/XDEDRAW/XDEDRAW_Common.hxx>
-#include <XSDRAWIGES.hxx>
+#include <Viewer/XSDRAWIGES/XSDRAWIGES.hxx>
 #include <XSDRAWSTEP.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <XCAFPrs.hxx>
