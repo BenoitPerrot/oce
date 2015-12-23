@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepToTopoDS_TranslateVertexError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertexError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Handle_StepShape_Vertex.hxx>
 class StdFail_NotDone;
 class StepShape_Vertex;

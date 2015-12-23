@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <StepToTopoDS_MakeTransformed.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_MakeTransformed.hxx>
 #include <Transfer_Binder.hxx>
 #include <TransferBRep_ShapeBinder.hxx>
 

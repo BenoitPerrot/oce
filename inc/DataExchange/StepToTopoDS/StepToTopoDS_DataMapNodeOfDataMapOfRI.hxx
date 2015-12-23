@@ -60,13 +60,13 @@ private:
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfDataMapOfRI
-#define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfDataMapOfRI
-#define TCollection_DataMapIterator_hxx <StepToTopoDS_DataMapIteratorOfDataMapOfRI.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapIteratorOfDataMapOfRI.hxx>
 #define Handle_TCollection_DataMapNode Handle_StepToTopoDS_DataMapNodeOfDataMapOfRI
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfDataMapOfRI_Type_()
 #define TCollection_DataMap StepToTopoDS_DataMapOfRI
-#define TCollection_DataMap_hxx <StepToTopoDS_DataMapOfRI.hxx>
+#define TCollection_DataMap_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfRI.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

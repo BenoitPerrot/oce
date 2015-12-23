@@ -23,12 +23,12 @@
 #include <DataExchange/StepShape/StepShape_Edge.hxx>
 #include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <StepToTopoDS_GeometricTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_GeometricTool.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <StepToTopoDS.hxx>
-//#include <StepToTopoDS_ExtPCOnS.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS.hxx>
+//#include <DataExchange/StepToTopoDS/StepToTopoDS_ExtPCOnS.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>

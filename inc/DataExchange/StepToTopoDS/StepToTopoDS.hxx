@@ -11,15 +11,15 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TCollection_HAsciiString.hxx>
-#include <StepToTopoDS_BuilderError.hxx>
-#include <StepToTopoDS_TranslateShellError.hxx>
-#include <StepToTopoDS_TranslateFaceError.hxx>
-#include <StepToTopoDS_TranslateEdgeError.hxx>
-#include <StepToTopoDS_TranslateVertexError.hxx>
-#include <StepToTopoDS_TranslateVertexLoopError.hxx>
-#include <StepToTopoDS_TranslatePolyLoopError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_BuilderError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateShellError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateFaceError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdgeError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertexError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertexLoopError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslatePolyLoopError.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <StepToTopoDS_GeometricToolError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_GeometricToolError.hxx>
 class TCollection_HAsciiString;
 class StepToTopoDS_Root;
 class StepToTopoDS_TranslateShell;

@@ -58,15 +58,15 @@ private:
 #define TheItem TopoDS_Vertex
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #define Hasher StepToTopoDS_CartesianPointHasher
-#define Hasher_hxx <StepToTopoDS_CartesianPointHasher.hxx>
+#define Hasher_hxx <DataExchange/StepToTopoDS/StepToTopoDS_CartesianPointHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfPointVertexMap
-#define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfPointVertexMap.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapNodeOfPointVertexMap.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfPointVertexMap
-#define TCollection_DataMapIterator_hxx <StepToTopoDS_DataMapIteratorOfPointVertexMap.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapIteratorOfPointVertexMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_StepToTopoDS_DataMapNodeOfPointVertexMap
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfPointVertexMap_Type_()
 #define TCollection_DataMap StepToTopoDS_PointVertexMap
-#define TCollection_DataMap_hxx <StepToTopoDS_PointVertexMap.hxx>
+#define TCollection_DataMap_hxx <DataExchange/StepToTopoDS/StepToTopoDS_PointVertexMap.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

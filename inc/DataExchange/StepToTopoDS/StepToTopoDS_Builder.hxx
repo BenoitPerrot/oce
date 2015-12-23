@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepToTopoDS_BuilderError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_BuilderError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Handle_StepShape_ManifoldSolidBrep.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_StepShape_BrepWithVoids.hxx>

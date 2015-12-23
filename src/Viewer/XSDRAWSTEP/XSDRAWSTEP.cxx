@@ -46,7 +46,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 // steptrans
-#include <StepToTopoDS_MakeTransformed.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_MakeTransformed.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 
 #include <stdio.h>

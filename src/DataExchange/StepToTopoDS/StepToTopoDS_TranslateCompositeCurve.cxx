@@ -22,7 +22,7 @@
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <StepToTopoDS_TranslateCompositeCurve.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCompositeCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
@@ -35,7 +35,7 @@
 #include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
-#include <StepToTopoDS_TranslateEdge.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdge.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

@@ -20,14 +20,14 @@
 #include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <StepToTopoDS_TranslateCurveBoundedSurface.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCurveBoundedSurface.hxx>
 
 #include <Precision.hxx>
 
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfSurfaceBoundary.hxx>
-#include <StepToTopoDS_TranslateCompositeCurve.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCompositeCurve.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

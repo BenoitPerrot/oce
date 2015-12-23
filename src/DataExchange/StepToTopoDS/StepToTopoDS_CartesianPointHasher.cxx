@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepToTopoDS_CartesianPointHasher.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_CartesianPointHasher.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 
 //=======================================================================

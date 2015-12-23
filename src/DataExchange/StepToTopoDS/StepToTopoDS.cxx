@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepToTopoDS.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS.hxx>
 
 Handle(TCollection_HAsciiString) StepToTopoDS::DecodeBuilderError(const StepToTopoDS_BuilderError Error)
 {

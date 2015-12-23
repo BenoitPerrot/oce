@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepToTopoDS_DataMapOfTRI.hxx>
-#include <StepToTopoDS_PointVertexMap.hxx>
-#include <StepToTopoDS_PointEdgeMap.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfTRI.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_PointVertexMap.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_PointEdgeMap.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

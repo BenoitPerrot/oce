@@ -59,13 +59,13 @@ private:
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfDataMapOfRINames
-#define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfDataMapOfRINames
-#define TCollection_DataMapIterator_hxx <StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx>
 #define Handle_TCollection_DataMapNode Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfDataMapOfRINames_Type_()
 #define TCollection_DataMap StepToTopoDS_DataMapOfRINames
-#define TCollection_DataMap_hxx <StepToTopoDS_DataMapOfRINames.hxx>
+#define TCollection_DataMap_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfRINames.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
 
-#include <StepToTopoDS_PointPair.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_PointPair.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
@@ -54,19 +54,19 @@ private:
 };
 
 #define TheKey StepToTopoDS_PointPair
-#define TheKey_hxx <StepToTopoDS_PointPair.hxx>
+#define TheKey_hxx <DataExchange/StepToTopoDS/StepToTopoDS_PointPair.hxx>
 #define TheItem TopoDS_Edge
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #define Hasher StepToTopoDS_PointPairHasher
-#define Hasher_hxx <StepToTopoDS_PointPairHasher.hxx>
+#define Hasher_hxx <DataExchange/StepToTopoDS/StepToTopoDS_PointPairHasher.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfPointEdgeMap
-#define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfPointEdgeMap
-#define TCollection_DataMapIterator_hxx <StepToTopoDS_DataMapIteratorOfPointEdgeMap.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapIteratorOfPointEdgeMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_StepToTopoDS_DataMapNodeOfPointEdgeMap
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfPointEdgeMap_Type_()
 #define TCollection_DataMap StepToTopoDS_PointEdgeMap
-#define TCollection_DataMap_hxx <StepToTopoDS_PointEdgeMap.hxx>
+#define TCollection_DataMap_hxx <DataExchange/StepToTopoDS/StepToTopoDS_PointEdgeMap.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

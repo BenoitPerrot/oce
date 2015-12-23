@@ -28,23 +28,23 @@
 #include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
 #include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
 #include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
 #include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
 #include <DataExchange/StepShape/StepShape_FaceBasedSurfaceModel.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_Builder.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Builder.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <TransferBRep.hxx>
 
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_DataMapOfTRI.hxx>
-#include <StepToTopoDS_TranslateShell.hxx>
-#include <StepToTopoDS_TranslateCompositeCurve.hxx>
-#include <StepToTopoDS_TranslateCurveBoundedSurface.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfTRI.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateShell.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCompositeCurve.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCurveBoundedSurface.hxx>
 
 //#include <DataExchange/StepShape/StepShape_VertexShell.hxx>
 #include <DataExchange/StepShape/StepShape_Shell.hxx>
@@ -85,11 +85,11 @@
 #include <DataExchange/StepShape/StepShape_ConnectedEdgeSet.hxx>
 #include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
 #include <DataExchange/StepShape/StepShape_HArray1OfConnectedEdgeSet.hxx>
-#include <StepToTopoDS_TranslateEdge.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdge.hxx>
 #include <DataExchange/StepShape/StepShape_HArray1OfEdge.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <DataExchange/StepShape/StepShape_HArray1OfConnectedFaceSet.hxx>
-#include <StepToTopoDS_TranslateFace.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateFace.hxx>
 #include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
 
 #include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>

@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepToTopoDS_DataMapOfRI.hxx>
-#include <StepToTopoDS_DataMapOfRINames.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfRI.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfRINames.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepRepr_RepresentationItem.hxx>

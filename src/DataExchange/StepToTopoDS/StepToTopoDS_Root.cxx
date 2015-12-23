@@ -17,7 +17,7 @@
 //    gka 13.04.99 S4136: add myPrecision and myMaxTol fields
 
 
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Precision.hxx>
 
 //=======================================================================

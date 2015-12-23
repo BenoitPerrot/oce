@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Handle_StepGeom_CurveBoundedSurface.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

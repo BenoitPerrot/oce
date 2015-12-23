@@ -64,13 +64,13 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
-#include <StepToTopoDS_MakeTransformed.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_MakeTransformed.hxx>
 
 // FaceSurface :
 #include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_DataMapOfTRI.hxx>
-#include <StepToTopoDS_TranslateFace.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfTRI.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateFace.hxx>
 
 //  Unites :
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
@@ -95,7 +95,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <StepToTopoDS_Builder.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 

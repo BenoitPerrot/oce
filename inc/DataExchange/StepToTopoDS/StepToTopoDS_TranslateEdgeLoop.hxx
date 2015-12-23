@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepToTopoDS_TranslateEdgeLoopError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdgeLoopError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Handle_StepShape_FaceBound.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_StepGeom_Surface.hxx>

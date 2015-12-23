@@ -18,16 +18,16 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_VertexLoop.hxx>
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_TranslateVertexLoop.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertexLoop.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //#include <BRepAPI.hxx>
 
 #include <DataExchange/StepShape/StepShape_Vertex.hxx>
-#include <StepToTopoDS_TranslateVertex.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertex.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

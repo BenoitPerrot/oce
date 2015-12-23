@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_DataMapOfRINames.hxx>
-#include <StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfRINames.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx>
 
  
 
@@ -36,12 +36,12 @@ IMPLEMENT_STANDARD_RTTI(StepToTopoDS_DataMapNodeOfDataMapOfRINames)
 #define Hasher TCollection_AsciiString
 #define Hasher_hxx <Foundation/TCollection/TCollection_AsciiString.hxx>
 #define TCollection_DataMapNode StepToTopoDS_DataMapNodeOfDataMapOfRINames
-#define TCollection_DataMapNode_hxx <StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
+#define TCollection_DataMapNode_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 #define TCollection_DataMapIterator StepToTopoDS_DataMapIteratorOfDataMapOfRINames
-#define TCollection_DataMapIterator_hxx <StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx>
+#define TCollection_DataMapIterator_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapIteratorOfDataMapOfRINames.hxx>
 #define Handle_TCollection_DataMapNode Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames
 #define TCollection_DataMapNode_Type_() StepToTopoDS_DataMapNodeOfDataMapOfRINames_Type_()
 #define TCollection_DataMap StepToTopoDS_DataMapOfRINames
-#define TCollection_DataMap_hxx <StepToTopoDS_DataMapOfRINames.hxx>
+#define TCollection_DataMap_hxx <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfRINames.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

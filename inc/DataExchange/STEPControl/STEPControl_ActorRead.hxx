@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_STEPControl_ActorRead.hxx>
 
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_StepRepr_Representation.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>

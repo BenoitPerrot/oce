@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepToTopoDS_TranslateShellError.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateShellError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Handle_StepShape_ConnectedFaceSet.hxx>
 class StdFail_NotDone;
 class StepShape_ConnectedFaceSet;

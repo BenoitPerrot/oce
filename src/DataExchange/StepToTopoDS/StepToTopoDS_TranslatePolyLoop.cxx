@@ -18,13 +18,13 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_PolyLoop.hxx>
-#include <StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_TranslatePolyLoop.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslatePolyLoop.hxx>
 
-#include <StepToTopoDS_PointPair.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_PointPair.hxx>
 
 #include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 

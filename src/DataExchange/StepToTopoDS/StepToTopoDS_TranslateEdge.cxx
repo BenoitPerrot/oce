@@ -19,8 +19,8 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_Edge.hxx>
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
 #include <DataExchange/StepShape/StepShape_Vertex.hxx>
@@ -30,11 +30,11 @@
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_TranslateEdge.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdge.hxx>
 
-#include <StepToTopoDS.hxx>
-#include <StepToTopoDS_TranslateVertex.hxx>
-#include <StepToTopoDS_GeometricTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertex.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_GeometricTool.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>

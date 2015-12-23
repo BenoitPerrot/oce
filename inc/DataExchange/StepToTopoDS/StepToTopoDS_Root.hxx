@@ -61,7 +61,7 @@ private:
 };
 
 
-#include <StepToTopoDS_Root.lxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.lxx>
 
 
 

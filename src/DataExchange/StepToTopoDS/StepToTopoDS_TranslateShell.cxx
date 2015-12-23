@@ -18,12 +18,12 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_TranslateShell.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateShell.hxx>
 
-#include <StepToTopoDS_TranslateFace.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateFace.hxx>
 
 #include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 

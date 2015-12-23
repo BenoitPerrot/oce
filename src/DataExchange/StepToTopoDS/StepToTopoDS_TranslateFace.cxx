@@ -26,18 +26,18 @@
 // sln 01.10.2001 BUC61003. StepToTopoDS_TranslateFace::Init function is corrected (verifying  Handle(...).IsNull() is added)
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_TranslateFace.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateFace.hxx>
 
-#include <StepToTopoDS.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS.hxx>
 
 #include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>
 
-#include <StepToTopoDS_TranslateVertexLoop.hxx>
-#include <StepToTopoDS_TranslatePolyLoop.hxx>
-#include <StepToTopoDS_TranslateEdgeLoop.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertexLoop.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslatePolyLoop.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdgeLoop.hxx>
 
 #include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
 #include <DataExchange/StepShape/StepShape_VertexLoop.hxx>

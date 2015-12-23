@@ -19,22 +19,22 @@
 //pdn 18.12.98 to keep pcurves
 //:o0 abv 16.02.99: POLYLINE allowed as 3d curve of edge
 //:   abv 07.04.99: S4136: improve tolerance management and dealing with pcurves
-//    rln 02.06.99 removing #include <StepToTopoDS_DegeneratedTool.hxx>
+//    rln 02.06.99 removing #include <DataExchange/StepToTopoDS/StepToTopoDS_DegeneratedTool.hxx>
 //    smh 31.01.01 BUC60810 : IsNull protection
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_FaceBound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_TranslateEdgeLoop.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdgeLoop.hxx>
 
-#include <StepToTopoDS.hxx>
-#include <StepToTopoDS_TranslateVertex.hxx>
-#include <StepToTopoDS_TranslateEdge.hxx>
-#include <StepToTopoDS_GeometricTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertex.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdge.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_GeometricTool.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve2d.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>

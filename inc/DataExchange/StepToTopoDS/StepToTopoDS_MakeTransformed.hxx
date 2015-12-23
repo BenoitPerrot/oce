@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Handle_StepGeom_CartesianTransformationOperator3d.hxx>

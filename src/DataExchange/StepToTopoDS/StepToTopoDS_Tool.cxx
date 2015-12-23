@@ -18,17 +18,17 @@
 //    (Bind general;  BindVertex ?)
 
 #include <Transfer_TransientProcess.hxx>
-#include <StepToTopoDS_DataMapOfTRI.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfTRI.hxx>
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_PointPair.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_PointPair.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
 #include <TransferBRep.hxx>
 
 // ============================================================================

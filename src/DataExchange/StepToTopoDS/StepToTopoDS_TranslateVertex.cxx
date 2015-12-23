@@ -18,10 +18,10 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <DataExchange/StepShape/StepShape_Vertex.hxx>
-#include <StepToTopoDS_Tool.hxx>
-#include <StepToTopoDS_NMTool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Tool.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepToTopoDS_TranslateVertex.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertex.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeCartesianPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 

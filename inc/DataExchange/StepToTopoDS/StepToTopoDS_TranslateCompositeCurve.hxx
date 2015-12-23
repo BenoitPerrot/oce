@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <StepToTopoDS_Root.hxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Handle_StepGeom_CompositeCurve.hxx>
 #include <Handle_Transfer_TransientProcess.hxx>
 #include <Handle_StepGeom_Surface.hxx>
@@ -79,7 +79,7 @@ private:
 };
 
 
-#include <StepToTopoDS_TranslateCompositeCurve.lxx>
+#include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCompositeCurve.lxx>
 
 
 
