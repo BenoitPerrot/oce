@@ -16,13 +16,13 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_IntersectionSegment.hxx>
-#include <IntCurveSurface_Intersection.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Intersection.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_IntersectionSegment.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 
 #define PARAMEQUAL(a,b) (Abs((a)-(b))< (1e-8))
 

@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem IntCurveSurface_IntersectionSegment
-#define SeqItem_hxx <IntCurveSurface_IntersectionSegment.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
 #define TCollection_SequenceNode IntCurveSurface_SequenceNodeOfSequenceOfSeg
-#define TCollection_SequenceNode_hxx <IntCurveSurface_SequenceNodeOfSequenceOfSeg.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceNodeOfSequenceOfSeg.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntCurveSurface_SequenceNodeOfSequenceOfSeg
 #define TCollection_SequenceNode_Type_() IntCurveSurface_SequenceNodeOfSequenceOfSeg_Type_()
 #define TCollection_Sequence IntCurveSurface_SequenceOfSeg
-#define TCollection_Sequence_hxx <IntCurveSurface_SequenceOfSeg.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfSeg.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

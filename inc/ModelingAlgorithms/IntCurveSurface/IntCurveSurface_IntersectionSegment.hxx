@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 class IntCurveSurface_IntersectionPoint;
 
 

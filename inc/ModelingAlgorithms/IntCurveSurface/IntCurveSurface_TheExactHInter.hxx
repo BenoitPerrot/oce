@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntCurveSurface_TheCSFunctionOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheCSFunctionOfHInter.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>

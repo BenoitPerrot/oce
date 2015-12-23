@@ -19,5 +19,5 @@
 #define TheBoundingBox_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define IntCurveSurface_PolygonTool HLRBRep_ThePolygonToolOfInterCSurf
 #define IntCurveSurface_PolygonTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonToolOfInterCSurf.hxx>
-#include <IntCurveSurface_PolygonTool.gxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_PolygonTool.gxx>
 

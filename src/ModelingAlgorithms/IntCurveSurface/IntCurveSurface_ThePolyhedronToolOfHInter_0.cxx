@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
  
 
 #define ThePolyhedron IntCurveSurface_ThePolyhedronOfHInter
-#define ThePolyhedron_hxx <IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#define ThePolyhedron_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #define IntCurveSurface_PolyhedronTool IntCurveSurface_ThePolyhedronToolOfHInter
-#define IntCurveSurface_PolyhedronTool_hxx <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
-#include <IntCurveSurface_PolyhedronTool.gxx>
+#define IntCurveSurface_PolyhedronTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_PolyhedronTool.gxx>
 

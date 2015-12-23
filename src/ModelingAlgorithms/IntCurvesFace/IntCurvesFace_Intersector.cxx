@@ -23,21 +23,21 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 
-#include <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -51,13 +51,13 @@
 
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
-#include <IntCurveSurface_TheHCurveTool.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Intf_Tool.hxx>
-#include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
-#include <IntCurveSurface_ThePolygonOfHInter.hxx>
-#include <IntCurveSurface_SequenceOfPnt.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfPnt.hxx>
 
 
 

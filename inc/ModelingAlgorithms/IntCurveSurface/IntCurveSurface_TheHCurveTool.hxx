@@ -116,9 +116,9 @@ private:
 #define CurveGen Handle(Adaptor3d_HCurve)
 #define CurveGen_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define IntCurveSurface_HCurveTool IntCurveSurface_TheHCurveTool
-#define IntCurveSurface_HCurveTool_hxx <IntCurveSurface_TheHCurveTool.hxx>
+#define IntCurveSurface_HCurveTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 
-#include <IntCurveSurface_HCurveTool.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HCurveTool.lxx>
 
 #undef CurveGen
 #undef CurveGen_hxx

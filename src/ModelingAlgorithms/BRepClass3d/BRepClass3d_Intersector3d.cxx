@@ -19,12 +19,12 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_Intersector3d.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

@@ -145,9 +145,9 @@ private:
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define IntCurveSurface_Polyhedron IntCurveSurface_ThePolyhedronOfHInter
-#define IntCurveSurface_Polyhedron_hxx <IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#define IntCurveSurface_Polyhedron_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 
-#include <IntCurveSurface_Polyhedron.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Polyhedron.lxx>
 
 #undef ThePSurface
 #undef ThePSurface_hxx

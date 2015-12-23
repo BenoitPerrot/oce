@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_Geom_Curve.hxx>
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

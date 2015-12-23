@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntCurveSurface_Intersection.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Intersection.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

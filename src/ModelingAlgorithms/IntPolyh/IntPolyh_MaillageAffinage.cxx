@@ -44,7 +44,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx> 
 
-#include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 
 #include <IntPolyh_ArrayOfCouples.hxx>
 #include <IntPolyh_Edge.hxx>

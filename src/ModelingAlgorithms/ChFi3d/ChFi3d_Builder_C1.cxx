@@ -115,8 +115,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_Transition.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtCC.hxx>

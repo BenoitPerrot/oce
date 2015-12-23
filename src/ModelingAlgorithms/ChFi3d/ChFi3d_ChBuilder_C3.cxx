@@ -89,8 +89,8 @@
 
 #include <ElSLib.hxx>
 #include <ElCLib.hxx>
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 
 
 #include <Precision.hxx>

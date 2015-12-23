@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntCurveSurface_SequenceOfPnt.hxx>
-#include <IntCurveSurface_SequenceOfSeg.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfPnt.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfSeg.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;

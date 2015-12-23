@@ -24,8 +24,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 #include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

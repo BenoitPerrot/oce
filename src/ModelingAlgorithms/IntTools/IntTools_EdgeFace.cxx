@@ -68,10 +68,10 @@
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 
 
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 
 static
   Standard_Boolean IsCoplanar (const BRepAdaptor_Curve&  ,

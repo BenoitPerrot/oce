@@ -3,11 +3,11 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <IntSurf_Quadric.hxx>
-#include <IntCurveSurface_TheHCurveTool.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
  
 
 #define TheQuadric IntSurf_Quadric
@@ -15,8 +15,8 @@
 #define TheCurve Handle(Adaptor3d_HCurve)
 #define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define TheCurveTool IntCurveSurface_TheHCurveTool
-#define TheCurveTool_hxx <IntCurveSurface_TheHCurveTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 #define IntCurveSurface_QuadricCurveFunc IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter
-#define IntCurveSurface_QuadricCurveFunc_hxx <IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
-#include <IntCurveSurface_QuadricCurveFunc.gxx>
+#define IntCurveSurface_QuadricCurveFunc_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_QuadricCurveFunc.gxx>
 

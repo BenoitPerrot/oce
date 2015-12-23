@@ -99,8 +99,8 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Law_Interpol.hxx>
 

@@ -20,5 +20,5 @@
 #define ThePSurfaceTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_SurfaceTool.hxx>
 #define IntCurveSurface_Polyhedron HLRBRep_ThePolyhedronOfInterCSurf
 #define IntCurveSurface_Polyhedron_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronOfInterCSurf.hxx>
-#include <IntCurveSurface_Polyhedron.gxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Polyhedron.gxx>
 

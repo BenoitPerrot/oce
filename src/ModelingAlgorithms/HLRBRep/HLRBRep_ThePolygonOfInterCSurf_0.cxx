@@ -20,5 +20,5 @@
 #define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #define IntCurveSurface_Polygon HLRBRep_ThePolygonOfInterCSurf
 #define IntCurveSurface_Polygon_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
-#include <IntCurveSurface_Polygon.gxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Polygon.gxx>
 

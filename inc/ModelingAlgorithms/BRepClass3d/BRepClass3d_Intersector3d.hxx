@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

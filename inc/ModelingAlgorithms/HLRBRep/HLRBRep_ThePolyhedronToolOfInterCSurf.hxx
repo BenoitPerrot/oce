@@ -71,7 +71,7 @@ private:
 #define IntCurveSurface_PolyhedronTool HLRBRep_ThePolyhedronToolOfInterCSurf
 #define IntCurveSurface_PolyhedronTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolyhedronToolOfInterCSurf.hxx>
 
-#include <IntCurveSurface_PolyhedronTool.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_PolyhedronTool.lxx>
 
 #undef ThePolyhedron
 #undef ThePolyhedron_hxx

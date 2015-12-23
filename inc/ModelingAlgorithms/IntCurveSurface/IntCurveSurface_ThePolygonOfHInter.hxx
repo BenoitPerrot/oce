@@ -96,11 +96,11 @@ private:
 #define TheCurve Handle(Adaptor3d_HCurve)
 #define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define TheCurveTool IntCurveSurface_TheHCurveTool
-#define TheCurveTool_hxx <IntCurveSurface_TheHCurveTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 #define IntCurveSurface_Polygon IntCurveSurface_ThePolygonOfHInter
-#define IntCurveSurface_Polygon_hxx <IntCurveSurface_ThePolygonOfHInter.hxx>
+#define IntCurveSurface_Polygon_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonOfHInter.hxx>
 
-#include <IntCurveSurface_Polygon.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Polygon.lxx>
 
 #undef TheCurve
 #undef TheCurve_hxx

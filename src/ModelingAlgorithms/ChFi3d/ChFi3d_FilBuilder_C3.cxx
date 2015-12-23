@@ -63,7 +63,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

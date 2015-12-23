@@ -110,9 +110,9 @@
 //#include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
-#include <IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheQuadCurvFuncOfTheQuadCurvExactHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_LineOn2S.hxx>

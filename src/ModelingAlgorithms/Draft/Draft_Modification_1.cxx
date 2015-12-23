@@ -77,9 +77,9 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 

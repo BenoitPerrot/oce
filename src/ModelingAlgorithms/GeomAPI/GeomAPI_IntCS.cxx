@@ -24,8 +24,8 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
 
 //=======================================================================
 //function : GeomAPI_IntCS

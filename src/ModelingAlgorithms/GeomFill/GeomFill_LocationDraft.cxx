@@ -51,9 +51,9 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationDraft)
 #include <ModelingAlgorithms/GeomFill/GeomFill_FunctionDraft.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Tensor.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_Intersection.hxx>
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Intersection.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 
 #include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>

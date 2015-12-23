@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_TheInterferenceOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheInterferenceOfHInter.hxx>
 
-#include <IntCurveSurface_ThePolygonOfHInter.hxx>
-#include <IntCurveSurface_ThePolygonToolOfHInter.hxx>
-#include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
-#include <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonToolOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Intf_Array1OfLin.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
@@ -17,14 +17,14 @@
  
 
 #define Polygon3d IntCurveSurface_ThePolygonOfHInter
-#define Polygon3d_hxx <IntCurveSurface_ThePolygonOfHInter.hxx>
+#define Polygon3d_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonOfHInter.hxx>
 #define ToolPolygon3d IntCurveSurface_ThePolygonToolOfHInter
-#define ToolPolygon3d_hxx <IntCurveSurface_ThePolygonToolOfHInter.hxx>
+#define ToolPolygon3d_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonToolOfHInter.hxx>
 #define Polyhedron IntCurveSurface_ThePolyhedronOfHInter
-#define Polyhedron_hxx <IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#define Polyhedron_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #define ToolPolyh IntCurveSurface_ThePolyhedronToolOfHInter
-#define ToolPolyh_hxx <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
+#define ToolPolyh_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 #define Intf_InterferencePolygonPolyhedron IntCurveSurface_TheInterferenceOfHInter
-#define Intf_InterferencePolygonPolyhedron_hxx <IntCurveSurface_TheInterferenceOfHInter.hxx>
+#define Intf_InterferencePolygonPolyhedron_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheInterferenceOfHInter.hxx>
 #include <Intf_InterferencePolygonPolyhedron.gxx>
 

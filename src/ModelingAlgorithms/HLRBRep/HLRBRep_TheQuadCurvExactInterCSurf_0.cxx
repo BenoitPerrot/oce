@@ -23,5 +23,5 @@
 #define IntCurveSurface_TheQuadCurvFunc_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
 #define IntCurveSurface_QuadricCurveExactInter HLRBRep_TheQuadCurvExactInterCSurf
 #define IntCurveSurface_QuadricCurveExactInter_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvExactInterCSurf.hxx>
-#include <IntCurveSurface_QuadricCurveExactInter.gxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_QuadricCurveExactInter.gxx>
 

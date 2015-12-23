@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -20,6 +20,6 @@
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define IntCurveSurface_Polyhedron IntCurveSurface_ThePolyhedronOfHInter
-#define IntCurveSurface_Polyhedron_hxx <IntCurveSurface_ThePolyhedronOfHInter.hxx>
-#include <IntCurveSurface_Polyhedron.gxx>
+#define IntCurveSurface_Polyhedron_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Polyhedron.gxx>
 

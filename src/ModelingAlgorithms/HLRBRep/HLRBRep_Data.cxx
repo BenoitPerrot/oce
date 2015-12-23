@@ -48,8 +48,8 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>

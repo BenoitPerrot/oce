@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_GeomAdaptor_HCurve.hxx>
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
@@ -20,7 +20,7 @@
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Handle_Bnd_HArray1OfBox.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 class GeomAdaptor_HCurve;
 class BRepTopAdaptor_TopolTool;
 class Bnd_HArray1OfBox;

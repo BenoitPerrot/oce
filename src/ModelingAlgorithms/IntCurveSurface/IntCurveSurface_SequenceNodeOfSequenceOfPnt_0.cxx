@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_SequenceNodeOfSequenceOfPnt.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceNodeOfSequenceOfPnt.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_SequenceOfPnt.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfPnt.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(IntCurveSurface_SequenceNodeOfSequenceOfPnt)
 
 
 #define SeqItem IntCurveSurface_IntersectionPoint
-#define SeqItem_hxx <IntCurveSurface_IntersectionPoint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #define TCollection_SequenceNode IntCurveSurface_SequenceNodeOfSequenceOfPnt
-#define TCollection_SequenceNode_hxx <IntCurveSurface_SequenceNodeOfSequenceOfPnt.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceNodeOfSequenceOfPnt.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntCurveSurface_SequenceNodeOfSequenceOfPnt
 #define TCollection_SequenceNode_Type_() IntCurveSurface_SequenceNodeOfSequenceOfPnt_Type_()
 #define TCollection_Sequence IntCurveSurface_SequenceOfPnt
-#define TCollection_Sequence_hxx <IntCurveSurface_SequenceOfPnt.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfPnt.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

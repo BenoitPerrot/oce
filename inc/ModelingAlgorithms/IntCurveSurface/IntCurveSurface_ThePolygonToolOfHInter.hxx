@@ -61,13 +61,13 @@ private:
 #define ThePoint gp_Pnt
 #define ThePoint_hxx <Mathematics/Primitives/gp_Pnt.hxx>
 #define ThePolygon IntCurveSurface_ThePolygonOfHInter
-#define ThePolygon_hxx <IntCurveSurface_ThePolygonOfHInter.hxx>
+#define ThePolygon_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonOfHInter.hxx>
 #define TheBoundingBox Bnd_Box
 #define TheBoundingBox_hxx <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #define IntCurveSurface_PolygonTool IntCurveSurface_ThePolygonToolOfHInter
-#define IntCurveSurface_PolygonTool_hxx <IntCurveSurface_ThePolygonToolOfHInter.hxx>
+#define IntCurveSurface_PolygonTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolygonToolOfHInter.hxx>
 
-#include <IntCurveSurface_PolygonTool.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_PolygonTool.lxx>
 
 #undef ThePoint
 #undef ThePoint_hxx

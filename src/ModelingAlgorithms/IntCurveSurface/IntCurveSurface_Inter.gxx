@@ -34,8 +34,8 @@
 #include <Intf_TangentZone.hxx>
 #include <Intf_Tool.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
 #include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 #include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

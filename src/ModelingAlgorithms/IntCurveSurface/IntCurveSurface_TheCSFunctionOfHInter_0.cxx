@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_TheCSFunctionOfHInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheCSFunctionOfHInter.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
-#include <IntCurveSurface_TheHCurveTool.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
  
@@ -20,8 +20,8 @@
 #define TheCurve Handle(Adaptor3d_HCurve)
 #define TheCurve_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define TheCurveTool IntCurveSurface_TheHCurveTool
-#define TheCurveTool_hxx <IntCurveSurface_TheHCurveTool.hxx>
+#define TheCurveTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 #define IntImp_ZerCSParFunc IntCurveSurface_TheCSFunctionOfHInter
-#define IntImp_ZerCSParFunc_hxx <IntCurveSurface_TheCSFunctionOfHInter.hxx>
+#define IntImp_ZerCSParFunc_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheCSFunctionOfHInter.hxx>
 #include <IntImp_ZerCSParFunc.gxx>
 

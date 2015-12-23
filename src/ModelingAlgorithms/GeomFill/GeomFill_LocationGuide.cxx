@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

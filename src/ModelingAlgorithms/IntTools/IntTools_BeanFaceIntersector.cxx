@@ -58,9 +58,9 @@
 #include <IntTools_Context.hxx>
 #include <IntTools_Tools.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>

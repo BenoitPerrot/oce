@@ -13,7 +13,7 @@
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntCurveSurface_SequenceOfPnt.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepTopAdaptor_TopolTool;
 class BRepAdaptor_HSurface;

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntCurveSurface_Intersection.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_Intersection.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_Lin;

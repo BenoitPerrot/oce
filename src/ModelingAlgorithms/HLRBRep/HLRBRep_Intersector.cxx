@@ -20,9 +20,9 @@
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
-#include <IntCurveSurface_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Intersector.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>

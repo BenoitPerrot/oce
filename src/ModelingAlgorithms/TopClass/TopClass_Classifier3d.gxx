@@ -30,8 +30,8 @@ void TopClass_Classifier3d::Reset(const gp_Lin&       L,
   isSet       = Standard_True;
 }
 //======================================================================
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 
 void TopClass_Classifier3d::Compare(const TopoDS_Face&        Face,
 				    const TopAbs_Orientation) {  

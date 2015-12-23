@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 
-#include <IntCurveSurface_IntersectionPoint.hxx>
-#include <IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 
 #include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_PlanFunc.hxx>

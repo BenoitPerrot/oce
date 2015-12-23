@@ -67,7 +67,7 @@ private:
 #define IntCurveSurface_PolygonTool HLRBRep_ThePolygonToolOfInterCSurf
 #define IntCurveSurface_PolygonTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonToolOfInterCSurf.hxx>
 
-#include <IntCurveSurface_PolygonTool.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_PolygonTool.lxx>
 
 #undef ThePoint
 #undef ThePoint_hxx

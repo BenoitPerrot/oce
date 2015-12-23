@@ -67,11 +67,11 @@ private:
 };
 
 #define ThePolyhedron IntCurveSurface_ThePolyhedronOfHInter
-#define ThePolyhedron_hxx <IntCurveSurface_ThePolyhedronOfHInter.hxx>
+#define ThePolyhedron_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronOfHInter.hxx>
 #define IntCurveSurface_PolyhedronTool IntCurveSurface_ThePolyhedronToolOfHInter
-#define IntCurveSurface_PolyhedronTool_hxx <IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
+#define IntCurveSurface_PolyhedronTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_ThePolyhedronToolOfHInter.hxx>
 
-#include <IntCurveSurface_PolyhedronTool.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_PolyhedronTool.lxx>
 
 #undef ThePolyhedron
 #undef ThePolyhedron_hxx

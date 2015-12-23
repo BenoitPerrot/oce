@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntCurveSurface_TransitionOnCurve.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 class gp_Pnt;
 
 
@@ -78,7 +78,7 @@ private:
 };
 
 
-#include <IntCurveSurface_IntersectionPoint.lxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.lxx>
 
 
 

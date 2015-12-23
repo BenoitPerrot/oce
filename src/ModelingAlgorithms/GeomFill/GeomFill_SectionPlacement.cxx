@@ -43,8 +43,8 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

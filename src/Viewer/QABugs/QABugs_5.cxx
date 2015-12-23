@@ -26,8 +26,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>

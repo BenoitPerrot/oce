@@ -18,5 +18,5 @@
 #define TheCurveTool_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_LineTool.hxx>
 #define IntCurveSurface_QuadricCurveFunc HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf
 #define IntCurveSurface_QuadricCurveFunc_hxx <ModelingAlgorithms/HLRBRep/HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf.hxx>
-#include <IntCurveSurface_QuadricCurveFunc.gxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_QuadricCurveFunc.gxx>
 

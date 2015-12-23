@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntCurveSurface_TheHCurveTool.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
@@ -20,6 +20,6 @@
 #define CurveGen Handle(Adaptor3d_HCurve)
 #define CurveGen_hxx <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #define IntCurveSurface_HCurveTool IntCurveSurface_TheHCurveTool
-#define IntCurveSurface_HCurveTool_hxx <IntCurveSurface_TheHCurveTool.hxx>
-#include <IntCurveSurface_HCurveTool.gxx>
+#define IntCurveSurface_HCurveTool_hxx <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TheHCurveTool.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HCurveTool.gxx>
 

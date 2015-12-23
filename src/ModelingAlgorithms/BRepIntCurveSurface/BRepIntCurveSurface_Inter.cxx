@@ -21,7 +21,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>

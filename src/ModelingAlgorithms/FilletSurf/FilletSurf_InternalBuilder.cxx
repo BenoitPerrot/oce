@@ -74,8 +74,8 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
-#include <IntCurveSurface_HInter.hxx>
-#include <IntCurveSurface_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx> 
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
