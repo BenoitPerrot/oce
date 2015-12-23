@@ -28,8 +28,8 @@
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 
 
 //=======================================================================

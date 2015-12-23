@@ -54,15 +54,15 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfCurve.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfPoint.hxx>
 //
-#include <BOPTools.hxx>
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_AlgoTools2D.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderFace.hxx>
-#include <BOPTools_CoupleOfShape.hxx>
-#include <BOPTools_ListOfCoupleOfShape.hxx>
-#include <BOPTools_MapOfSet.hxx>
-#include <BOPTools_DataMapOfShapeSet.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_CoupleOfShape.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_ListOfCoupleOfShape.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_MapOfSet.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_DataMapOfShapeSet.hxx>
 
 
 static

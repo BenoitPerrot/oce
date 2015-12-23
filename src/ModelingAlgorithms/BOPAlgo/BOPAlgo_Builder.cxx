@@ -29,7 +29,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 
 //=======================================================================
 //function : 

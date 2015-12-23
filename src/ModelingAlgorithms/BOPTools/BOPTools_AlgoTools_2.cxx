@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 
 #include <Precision.hxx>
 

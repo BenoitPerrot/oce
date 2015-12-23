@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 

@@ -58,7 +58,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
-#include <BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 typedef NCollection_DataMap \
   <TopoDS_Shape, Standard_Boolean, TopTools_ShapeMapHasher> \

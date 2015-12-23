@@ -48,7 +48,7 @@
 #include <IntTools_CommonPrt.hxx>
 #include <IntTools_SequenceOfRanges.hxx>
 //
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>

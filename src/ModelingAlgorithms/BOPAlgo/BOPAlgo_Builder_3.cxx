@@ -59,10 +59,10 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 //
-#include <BOPTools.hxx>
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_MapOfSet.hxx>
-#include <BOPTools_Set.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_MapOfSet.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_Set.hxx>
 //
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderSolid.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>

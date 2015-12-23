@@ -50,8 +50,8 @@
 
 #include <IntTools_Context.hxx>
 
-#include <BOPTools_AlgoTools3D.hxx>
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_MapOfPassKey.hxx>

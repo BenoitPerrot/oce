@@ -40,7 +40,7 @@
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfVV.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Tools.hxx>

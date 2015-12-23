@@ -61,7 +61,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_Pave.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_CoupleOfPaveBlocks.hxx>
 //
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 //
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Tools.hxx>
 

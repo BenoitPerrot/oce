@@ -17,7 +17,7 @@
 
 
 #include <Foundation/NCollection/NCollection_List.hxx>   
-#include <BOPTools_ShapeSet.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_ShapeSet.hxx>
 
 typedef NCollection_List<BOPTools_ShapeSet> BOPTools_ListOfShapeSet; 
 typedef BOPTools_ListOfShapeSet::Iterator BOPTools_ListIteratorOfListOfShapeSet;  

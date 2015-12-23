@@ -55,7 +55,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
 #include <IntTools_Tools.hxx>
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 #include <GeomAPI_ProjectPointOnCurve.hxx>
 
 #include <algorithm>

@@ -46,12 +46,12 @@
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderFace.hxx>
 
-#include <BOPTools.hxx>
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_AlgoTools2D.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
-#include <BOPTools_MapOfSet.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_MapOfSet.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
 

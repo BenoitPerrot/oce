@@ -154,7 +154,7 @@
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
-#include <BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 #ifdef DRAW
 #include <DBRep.hxx>

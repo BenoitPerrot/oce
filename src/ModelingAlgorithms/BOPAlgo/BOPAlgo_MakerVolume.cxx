@@ -34,8 +34,8 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderSolid.hxx>
 
-#include <BOPTools.hxx>
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 
 static
   void AddFace(const TopoDS_Shape& theF,

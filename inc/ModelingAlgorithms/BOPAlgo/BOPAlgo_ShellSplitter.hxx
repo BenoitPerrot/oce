@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
-#include <BOPTools_ListOfConnexityBlock.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_ListOfConnexityBlock.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
-#include <BOPTools_ConnexityBlock.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_ConnexityBlock.hxx>
 class TopoDS_Shape;
 
 

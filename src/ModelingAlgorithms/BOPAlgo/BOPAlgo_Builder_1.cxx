@@ -37,7 +37,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ShapeInfo.hxx>
 
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 
 //=======================================================================
 //function : FillImagesVertices

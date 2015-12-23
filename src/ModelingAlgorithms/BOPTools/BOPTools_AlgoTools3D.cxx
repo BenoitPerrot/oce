@@ -20,7 +20,7 @@
 #include <IntTools_Context.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
@@ -81,7 +81,7 @@
 #include <IntTools_Tools.hxx>
 #include <IntTools_Context.hxx>
 
-#include <BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 static void Add(const TopoDS_Shape& aS,
                 BOPCol_IndexedMapOfShape& myShapes, 

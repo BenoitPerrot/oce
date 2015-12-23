@@ -65,10 +65,10 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
-#include <BOPTools.hxx>
-#include <BOPTools_CoupleOfShape.hxx>
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_CoupleOfShape.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 //
 #include <IntTools_Context.hxx>
 //

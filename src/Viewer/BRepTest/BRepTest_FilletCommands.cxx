@@ -35,7 +35,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-//#include <BOPTools_DSFiller.hxx>
+//#include <ModelingAlgorithms/BOPTools/BOPTools_DSFiller.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 
 #include <BRepAlgoAPI_BooleanOperation.hxx>

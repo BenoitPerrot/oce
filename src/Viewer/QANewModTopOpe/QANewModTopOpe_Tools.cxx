@@ -47,7 +47,7 @@
 #include <IntTools_CommonPrt.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_CommonBlock.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 #include <algorithm>

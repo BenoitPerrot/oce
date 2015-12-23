@@ -28,7 +28,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 //
 #include <Precision.hxx>
 //
@@ -68,11 +68,11 @@
 //
 #include <IntTools_Tools.hxx>
 //
-#include <BOPTools.hxx>
-#include <BOPTools_CoupleOfShape.hxx>
-#include <BOPTools_ListOfCoupleOfShape.hxx>
-#include <BOPTools_AlgoTools2D.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_CoupleOfShape.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_ListOfCoupleOfShape.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>

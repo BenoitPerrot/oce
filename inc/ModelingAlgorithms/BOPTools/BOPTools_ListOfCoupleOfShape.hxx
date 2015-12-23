@@ -16,7 +16,7 @@
 #define BOPTools_ListOfCoupleOfShape_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>  
-#include <BOPTools_CoupleOfShape.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_CoupleOfShape.hxx>
 
 typedef NCollection_List<BOPTools_CoupleOfShape> BOPTools_ListOfCoupleOfShape; 
 typedef BOPTools_ListOfCoupleOfShape::Iterator BOPTools_ListIteratorOfListOfCoupleOfShape;  

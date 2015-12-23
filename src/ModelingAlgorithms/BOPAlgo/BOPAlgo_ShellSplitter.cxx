@@ -35,9 +35,9 @@
 //
 #include <IntTools_Context.hxx>
 //
-#include <BOPTools.hxx>
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_CoupleOfShape.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_CoupleOfShape.hxx>
 
 //
 static

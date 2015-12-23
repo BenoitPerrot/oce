@@ -16,7 +16,7 @@
 #define BOPTools_ListOfConnexityBlock_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>   
-#include <BOPTools_ConnexityBlock.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_ConnexityBlock.hxx>
 
 typedef NCollection_List<BOPTools_ConnexityBlock> BOPTools_ListOfConnexityBlock; 
 typedef BOPTools_ListOfConnexityBlock::Iterator BOPTools_ListIteratorOfListOfConnexityBlock;  

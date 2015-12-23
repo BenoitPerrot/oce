@@ -45,7 +45,7 @@ private:
 };
 
 
-#include <BOPTools_SetMapHasher.lxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_SetMapHasher.lxx>
 
 
 

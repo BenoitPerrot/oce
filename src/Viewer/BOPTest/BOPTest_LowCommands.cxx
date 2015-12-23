@@ -39,7 +39,7 @@
 #include <DBRep.hxx>
 #include <DrawTrSurf.hxx>
 
-#include <BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 static
   void PrintState (Draw_Interpretor& aDI,

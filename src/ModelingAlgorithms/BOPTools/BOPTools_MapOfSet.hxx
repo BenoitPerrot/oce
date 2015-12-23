@@ -15,8 +15,8 @@
 #ifndef BOPTest_MapOfShapeSet_HeaderFile
 #define BOPTest_MapOfShapeSet_HeaderFile
 
-#include <BOPTools_Set.hxx>  
-#include <BOPTools_SetMapHasher.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_Set.hxx>  
+#include <ModelingAlgorithms/BOPTools/BOPTools_SetMapHasher.hxx>
 
 #include <Foundation/NCollection/NCollection_Map.hxx>   
 

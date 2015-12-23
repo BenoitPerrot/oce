@@ -69,8 +69,8 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_Curve.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_Iterator.hxx>
 
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 static
   Standard_Boolean IsBasedOnPlane(const TopoDS_Face& aF);

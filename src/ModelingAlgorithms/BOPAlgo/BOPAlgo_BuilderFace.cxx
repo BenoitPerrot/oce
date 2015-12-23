@@ -52,12 +52,12 @@
 #include <IntTools_FClass2d.hxx>
 #include <IntTools_Context.hxx>
 //
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_WireEdgeSet.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeShape.hxx>

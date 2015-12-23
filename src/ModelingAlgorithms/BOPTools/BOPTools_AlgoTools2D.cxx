@@ -18,7 +18,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
-#include <BOPTools_AlgoTools2D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
@@ -75,7 +75,7 @@
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 
-#include <BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 #include <IntTools_Tools.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

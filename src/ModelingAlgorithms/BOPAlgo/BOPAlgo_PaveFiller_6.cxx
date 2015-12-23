@@ -62,8 +62,8 @@
 #include <IntSurf_ListOfPntOn2S.hxx>
 #include <IntSurf_PntOn2S.hxx>
 
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>

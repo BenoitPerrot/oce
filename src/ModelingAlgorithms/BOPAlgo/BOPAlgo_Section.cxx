@@ -44,10 +44,10 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfListOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfFaceInfo.hxx>
 //
-#include <BOPTools.hxx>
-#include <BOPTools_AlgoTools.hxx>
-#include <BOPTools_AlgoTools3D.hxx>
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools3D.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 //
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderSolid.hxx>
 

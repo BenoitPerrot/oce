@@ -16,7 +16,7 @@
 #define BOPTools_ListOfEdgeSet_HeaderFile
 
 #include <Foundation/NCollection/NCollection_List.hxx>   
-#include <BOPTools_EdgeSet.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_EdgeSet.hxx>
 
 typedef NCollection_List<BOPTools_EdgeSet> BOPTools_ListOfEdgeSet; 
 typedef BOPTools_ListOfEdgeSet::Iterator BOPTools_ListIteratorOfListOfEdgeSet;  

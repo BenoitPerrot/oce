@@ -34,7 +34,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
 
-#include <BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 
 
 //=======================================================================

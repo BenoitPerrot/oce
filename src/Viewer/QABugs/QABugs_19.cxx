@@ -3009,7 +3009,7 @@ static Standard_Integer OCC25413 (Draw_Interpretor& di, Standard_Integer narg , 
 #include <BRepAlgoAPI_Cut.hxx>
 #include <BRepAlgoAPI_Section.hxx>
 //
-#include <BOPTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>

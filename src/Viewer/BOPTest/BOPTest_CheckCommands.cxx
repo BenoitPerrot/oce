@@ -42,7 +42,7 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_ArgumentAnalyzer.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_CheckResult.hxx>
 
-#include <BOPTools_AlgoTools.hxx>
+#include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 
 #include <BOPTest_Chronometer.hxx>
 //
