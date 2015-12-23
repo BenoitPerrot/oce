@@ -19,7 +19,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <MXCAFDoc_ColorToolRetrievalDriver.hxx>
+#include <DataExchange/MXCAFDoc/MXCAFDoc_ColorToolRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_ColorToolRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

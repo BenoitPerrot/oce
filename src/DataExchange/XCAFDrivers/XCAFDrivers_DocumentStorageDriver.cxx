@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDrivers_DocumentStorageDriver)
 #include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
-#include <MXCAFDoc.hxx>
+#include <DataExchange/MXCAFDoc/MXCAFDoc.hxx>
 #include <OCAF/StdDrivers/StdDrivers_DocumentStorageDriver.hxx>
 
 //=======================================================================

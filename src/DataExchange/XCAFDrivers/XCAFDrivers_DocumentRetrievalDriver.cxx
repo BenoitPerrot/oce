@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDrivers_DocumentRetrievalDriver)
 #include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx> 
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
-#include <MXCAFDoc.hxx>
+#include <DataExchange/MXCAFDoc/MXCAFDoc.hxx>
 #include <OCAF/StdDrivers/StdDrivers_DocumentRetrievalDriver.hxx>
 
 //=======================================================================

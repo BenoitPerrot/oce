@@ -18,7 +18,7 @@
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <MXCAFDoc_AreaStorageDriver.hxx>
+#include <DataExchange/MXCAFDoc/MXCAFDoc_AreaStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_AreaStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

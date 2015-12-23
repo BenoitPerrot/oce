@@ -19,7 +19,7 @@
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <MXCAFDoc_ShapeToolStorageDriver.hxx>
+#include <DataExchange/MXCAFDoc/MXCAFDoc_ShapeToolStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_ShapeToolStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

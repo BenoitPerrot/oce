@@ -18,7 +18,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <MXCAFDoc_DatumRetrievalDriver.hxx>
+#include <DataExchange/MXCAFDoc/MXCAFDoc_DatumRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_DatumRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

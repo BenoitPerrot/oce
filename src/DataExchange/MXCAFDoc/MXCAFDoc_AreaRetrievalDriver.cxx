@@ -18,7 +18,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <MXCAFDoc_AreaRetrievalDriver.hxx>
+#include <DataExchange/MXCAFDoc/MXCAFDoc_AreaRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MXCAFDoc_AreaRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
