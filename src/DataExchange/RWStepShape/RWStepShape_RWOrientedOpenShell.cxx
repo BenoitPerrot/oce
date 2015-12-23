@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_OrientedOpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedOpenShell.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWOrientedOpenShell.hxx>
-#include <StepShape_OpenShell.hxx>
-#include <StepShape_HArray1OfFace.hxx>
-#include <StepShape_Face.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/StepShape_Face.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_OrientedOpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedOpenShell.hxx>
 
 
 RWStepShape_RWOrientedOpenShell::RWStepShape_RWOrientedOpenShell () {}

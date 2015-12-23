@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepShape_EdgeBasedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeBasedWireframeShapeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_EdgeBasedWireframeShapeRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

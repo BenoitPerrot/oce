@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWShellBasedSurfaceModel.hxx>
-#include <StepShape_HArray1OfShell.hxx>
-#include <StepShape_Shell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfShell.hxx>
+#include <DataExchange/StepShape/StepShape_Shell.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
 
 
 RWStepShape_RWShellBasedSurfaceModel::RWStepShape_RWShellBasedSurfaceModel () {}

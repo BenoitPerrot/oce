@@ -56,8 +56,8 @@
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndLengthUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_DerivedUnitElement.hxx>
@@ -66,7 +66,7 @@
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndAreaUnit.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct.hxx>
 

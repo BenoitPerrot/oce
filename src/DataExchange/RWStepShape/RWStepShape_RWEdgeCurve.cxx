@@ -13,21 +13,21 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWEdgeCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
-#include <StepShape_Vertex.hxx>
-#include <StepShape_OrientedEdge.hxx>
-#include <StepShape_FaceBound.hxx>
-#include <StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepShape_EdgeCurve.hxx>
-#include <StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
 
 #include <Precision.hxx>
 

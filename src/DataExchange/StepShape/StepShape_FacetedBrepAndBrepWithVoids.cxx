@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_FacetedBrep.hxx>
-#include <StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_HArray1OfOrientedClosedShell.hxx>
-#include <StepShape_OrientedClosedShell.hxx>
-#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_FacetedBrepAndBrepWithVoids)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_TYPE_END(StepShape_FacetedBrepAndBrepWithVoids)
 IMPLEMENT_DOWNCAST(StepShape_FacetedBrepAndBrepWithVoids,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepShape_FacetedBrepAndBrepWithVoids)
 
-#include <StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
 
-#include <StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
 
 
 StepShape_FacetedBrepAndBrepWithVoids::StepShape_FacetedBrepAndBrepWithVoids ()  {}

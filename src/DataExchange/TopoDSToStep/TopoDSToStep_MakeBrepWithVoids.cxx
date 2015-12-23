@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Transfer_FinderProcess.hxx>
@@ -23,11 +23,11 @@
 #include <TopoDSToStep_Builder.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
-#include <StepShape_TopologicalRepresentationItem.hxx>
-#include <StepShape_OpenShell.hxx> //:d7
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_OrientedClosedShell.hxx>
-#include <StepShape_HArray1OfOrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx> //:d7
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedClosedShell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

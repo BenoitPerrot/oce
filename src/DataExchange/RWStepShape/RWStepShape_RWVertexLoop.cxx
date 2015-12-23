@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_VertexLoop.hxx>
+#include <DataExchange/StepShape/StepShape_VertexLoop.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWVertexLoop.hxx>
-#include <StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_VertexLoop.hxx>
+#include <DataExchange/StepShape/StepShape_VertexLoop.hxx>
 
 
 RWStepShape_RWVertexLoop::RWStepShape_RWVertexLoop () {}

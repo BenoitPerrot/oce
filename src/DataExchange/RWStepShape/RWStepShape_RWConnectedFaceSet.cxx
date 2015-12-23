@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWConnectedFaceSet.hxx>
-#include <StepShape_HArray1OfFace.hxx>
-#include <StepShape_Face.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/StepShape_Face.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
 
 
 RWStepShape_RWConnectedFaceSet::RWStepShape_RWConnectedFaceSet () {}

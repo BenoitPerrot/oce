@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 // pour Share
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 
 
 //=======================================================================

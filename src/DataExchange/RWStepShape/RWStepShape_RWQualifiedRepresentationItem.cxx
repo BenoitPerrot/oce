@@ -13,13 +13,13 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_QualifiedRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_QualifiedRepresentationItem.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWQualifiedRepresentationItem.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_ValueQualifier.hxx>
-#include <StepShape_HArray1OfValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_ValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfValueQualifier.hxx>
 
 
 RWStepShape_RWQualifiedRepresentationItem::RWStepShape_RWQualifiedRepresentationItem () {}

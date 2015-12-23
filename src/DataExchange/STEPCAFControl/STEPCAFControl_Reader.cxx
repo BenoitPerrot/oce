@@ -30,7 +30,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
@@ -52,9 +52,9 @@
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
@@ -113,11 +113,11 @@
 #include <DataExchange/STEPCAFControl/STEPCAFControl_Reader.hxx>
 
 // skl 21.08.2003 for reading G&DT
-#include <StepShape_DimensionalSize.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalSize.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
-#include <StepShape_EdgeCurve.hxx>
-#include <StepShape_DimensionalCharacteristicRepresentation.hxx>
-#include <StepShape_ShapeDimensionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalCharacteristicRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDimensionRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ValueRange.hxx>
 #include <DataExchange/StepRepr/StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
@@ -150,7 +150,7 @@
 //#include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 //#include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepShape_AdvancedFace.hxx>
+#include <DataExchange/StepShape/StepShape_AdvancedFace.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_HArray1OfDatumReference.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_DatumReference.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_Datum.hxx>
@@ -173,25 +173,25 @@
 #include <DataExchange/StepDimTol/StepDimTol_StraightnessTolerance.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_SurfaceProfileTolerance.hxx>
 
-#include <StepShape_SolidModel.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
-#include <StepShape_GeometricSet.hxx>
+#include <DataExchange/StepShape/StepShape_SolidModel.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
-#include <StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_HArray1OfFace.hxx>
-#include <StepShape_HArray1OfFaceBound.hxx>
-#include <StepShape_Loop.hxx>
-#include <StepShape_EdgeLoop.hxx>
-#include <StepShape_HArray1OfOrientedEdge.hxx>
-#include <StepShape_HArray1OfShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfShell.hxx>
 
 #ifdef OCCT_DEBUG
 //! Converts address of the passed shape (TShape) to string.

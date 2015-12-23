@@ -21,7 +21,7 @@
 //szv#4 S4163
 // abv 30.11.99: fix %30 pdn changed to produce SurfaceOfRevolution instead of DegenerateToroidalSurface
 
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopoDSToStep_Tool.hxx>
@@ -70,15 +70,15 @@
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
-#include <StepShape_HArray1OfFaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFaceBound.hxx>
 #include <DataExchange/StepGeom/StepGeom_PcurveOrSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
-#include <StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
-#include <StepShape_EdgeCurve.hxx>
-#include <StepShape_AdvancedFace.hxx>
-#include <StepShape_FaceBound.hxx>
-#include <StepShape_FaceOuterBound.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_AdvancedFace.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceOuterBound.hxx>
 #include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_DegenerateToroidalSurface.hxx>
 

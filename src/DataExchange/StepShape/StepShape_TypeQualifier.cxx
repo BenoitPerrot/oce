@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_TypeQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_TypeQualifier.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_TypeQualifier)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepShape_ToleranceValue.hxx>
-#include <StepShape_LimitsAndFits.hxx>
-#include <StepShape_ToleranceMethodDefinition.hxx>
+#include <DataExchange/StepShape/StepShape_ToleranceValue.hxx>
+#include <DataExchange/StepShape/StepShape_LimitsAndFits.hxx>
+#include <DataExchange/StepShape/StepShape_ToleranceMethodDefinition.hxx>
 
 StepShape_ToleranceMethodDefinition::StepShape_ToleranceMethodDefinition  ()    {  }
 

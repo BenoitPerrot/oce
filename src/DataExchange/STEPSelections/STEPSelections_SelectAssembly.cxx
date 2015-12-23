@@ -32,12 +32,12 @@ IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectAssembly)
 IMPLEMENT_DOWNCAST(STEPSelections_SelectAssembly,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectAssembly)
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 
 STEPSelections_SelectAssembly::STEPSelections_SelectAssembly():IFSelect_SelectExplore (-1){ }
 

@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepShape_HArray1OfValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfValueQualifier.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
-#include <StepShape_ValueQualifier.hxx>
-#include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_ValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

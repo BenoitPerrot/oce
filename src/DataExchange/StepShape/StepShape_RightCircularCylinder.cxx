@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_RightCircularCylinder.hxx>
+#include <DataExchange/StepShape/StepShape_RightCircularCylinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_RightCircularCylinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

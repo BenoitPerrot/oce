@@ -13,12 +13,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_PlusMinusTolerance.hxx>
+#include <DataExchange/StepShape/StepShape_PlusMinusTolerance.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWPlusMinusTolerance.hxx>
-#include <StepShape_ToleranceMethodDefinition.hxx>
-#include <StepShape_DimensionalCharacteristic.hxx>
+#include <DataExchange/StepShape/StepShape_ToleranceMethodDefinition.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalCharacteristic.hxx>
 
 
 RWStepShape_RWPlusMinusTolerance::RWStepShape_RWPlusMinusTolerance () {}

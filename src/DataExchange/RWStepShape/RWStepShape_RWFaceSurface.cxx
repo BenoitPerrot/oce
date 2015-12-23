@@ -13,19 +13,19 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWFaceSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepShape_HArray1OfFaceBound.hxx>
-#include <StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 
 
 RWStepShape_RWFaceSurface::RWStepShape_RWFaceSurface () {}

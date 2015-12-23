@@ -14,13 +14,13 @@
 //:k8 abv 06.01.99: TR10: writing unique names for NAUOs
 // :j4 16.03.99 gka S4134
 // abv 18.11.99 renamed from StepPDR_MakeItem
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
@@ -39,13 +39,13 @@
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 
 //  Relationship
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_ItemDefinedTransformation.hxx>
 #include <DataExchange/StepRepr/StepRepr_Transformation.hxx>

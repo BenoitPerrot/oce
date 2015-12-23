@@ -20,8 +20,8 @@
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
-#include <StepShape_Edge.hxx>
-#include <StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <StepToTopoDS_GeometricTool.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
@@ -39,7 +39,7 @@
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
 #include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>
-#include <StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
 //#include <BRepAPI.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

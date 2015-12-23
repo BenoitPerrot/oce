@@ -15,7 +15,7 @@
 #include <DataExchange/StepGeom/StepGeom_Point.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepShape_GeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSetSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_GeometricSetSelect::StepShape_GeometricSetSelect () {  }

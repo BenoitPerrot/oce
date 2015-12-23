@@ -13,8 +13,8 @@
 
 #include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_FaceSurface.hxx>
-#include <StepShape_RevolvedFaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_RevolvedFaceSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_RevolvedFaceSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

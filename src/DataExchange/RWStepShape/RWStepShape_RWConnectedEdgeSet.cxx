@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_ConnectedEdgeSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedEdgeSet.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWConnectedEdgeSet.hxx>
-#include <StepShape_HArray1OfEdge.hxx>
-#include <StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfEdge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWConnectedEdgeSet

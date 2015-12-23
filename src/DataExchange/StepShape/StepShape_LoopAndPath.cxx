@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_Loop.hxx>
-#include <StepShape_Path.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_Path.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_HArray1OfOrientedEdge.hxx>
-#include <StepShape_OrientedEdge.hxx>
-#include <StepShape_LoopAndPath.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_LoopAndPath.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_LoopAndPath)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_TYPE_END(StepShape_LoopAndPath)
 IMPLEMENT_DOWNCAST(StepShape_LoopAndPath,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepShape_LoopAndPath)
 
-#include <StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
 
-#include <StepShape_Path.hxx>
+#include <DataExchange/StepShape/StepShape_Path.hxx>
 
 
 StepShape_LoopAndPath::StepShape_LoopAndPath ()  {}

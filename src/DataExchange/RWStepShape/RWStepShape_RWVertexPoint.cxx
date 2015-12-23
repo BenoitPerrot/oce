@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWVertexPoint.hxx>
@@ -23,7 +23,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 
 
 RWStepShape_RWVertexPoint::RWStepShape_RWVertexPoint () {}

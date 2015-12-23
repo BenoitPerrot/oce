@@ -25,7 +25,7 @@
 //    smh 31.01.01 Bad data in file : case of vertex loop on plane face
 // sln 01.10.2001 BUC61003. StepToTopoDS_TranslateFace::Init function is corrected (verifying  Handle(...).IsNull() is added)
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -39,15 +39,15 @@
 #include <StepToTopoDS_TranslatePolyLoop.hxx>
 #include <StepToTopoDS_TranslateEdgeLoop.hxx>
 
-#include <StepShape_EdgeCurve.hxx>
-#include <StepShape_VertexLoop.hxx>
-#include <StepShape_EdgeLoop.hxx>
-#include <StepShape_PolyLoop.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_VertexLoop.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_PolyLoop.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepShape_FaceBound.hxx>
-#include <StepShape_FaceOuterBound.hxx>
-#include <StepShape_OrientedEdge.hxx>
-#include <StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceOuterBound.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
 
 //#3 rln 16/02/98
 #include <ModelingData/BRep/BRep_TEdge.hxx>

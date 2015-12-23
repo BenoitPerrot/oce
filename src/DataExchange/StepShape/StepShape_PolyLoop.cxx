@@ -14,7 +14,7 @@
 #include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepShape_PolyLoop.hxx>
+#include <DataExchange/StepShape/StepShape_PolyLoop.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_PolyLoop)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

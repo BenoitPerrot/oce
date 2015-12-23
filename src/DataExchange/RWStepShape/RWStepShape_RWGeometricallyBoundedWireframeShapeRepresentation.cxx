@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWGeometricallyBoundedWireframeShapeRepresentation.hxx>
@@ -25,7 +25,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 
 
 RWStepShape_RWGeometricallyBoundedWireframeShapeRepresentation::RWStepShape_RWGeometricallyBoundedWireframeShapeRepresentation () {}

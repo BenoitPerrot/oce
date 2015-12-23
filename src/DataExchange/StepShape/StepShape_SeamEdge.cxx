@@ -17,8 +17,8 @@
 
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_Edge.hxx>
-#include <StepShape_SeamEdge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_SeamEdge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_SeamEdge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

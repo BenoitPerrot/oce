@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_BoxedHalfSpace.hxx>
+#include <DataExchange/StepShape/StepShape_BoxedHalfSpace.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWBoxedHalfSpace.hxx>
-#include <StepShape_BoxDomain.hxx>
+#include <DataExchange/StepShape/StepShape_BoxDomain.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_BoxedHalfSpace.hxx>
+#include <DataExchange/StepShape/StepShape_BoxedHalfSpace.hxx>
 
 
 RWStepShape_RWBoxedHalfSpace::RWStepShape_RWBoxedHalfSpace () {}

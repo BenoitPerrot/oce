@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_BooleanResult.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanResult.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWBooleanResult.hxx>
-#include <StepShape_BooleanOperator.hxx>
-#include <StepShape_BooleanOperand.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanOperator.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanOperand.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_BooleanResult.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanResult.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 

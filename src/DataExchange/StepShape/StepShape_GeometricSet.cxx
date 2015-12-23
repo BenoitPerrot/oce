@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_HArray1OfGeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfGeometricSetSelect.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_GeometricSetSelect.hxx>
-#include <StepShape_GeometricSet.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_GeometricSet)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

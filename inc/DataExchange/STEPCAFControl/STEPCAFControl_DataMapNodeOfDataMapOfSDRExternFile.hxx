@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(StepShape_ShapeDefinitionRepresentation)
-#define TheKey_hxx <StepShape_ShapeDefinitionRepresentation.hxx>
+#define TheKey_hxx <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
 #define TheItem_hxx <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #define Hasher TColStd_MapTransientHasher

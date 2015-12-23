@@ -22,16 +22,16 @@
 
 #include <stdio.h>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
 #include <Transfer_TransientProcess.hxx>
-#include <StepShape_BrepWithVoids.hxx>
-#include <StepShape_FacetedBrep.hxx>
-#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
 #include <StepToTopoDS_NMTool.hxx>
-#include <StepShape_GeometricSet.hxx>
-#include <StepShape_EdgeBasedWireframeModel.hxx>
-#include <StepShape_FaceBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBasedSurfaceModel.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_Builder.hxx>
@@ -46,17 +46,17 @@
 #include <StepToTopoDS_TranslateCompositeCurve.hxx>
 #include <StepToTopoDS_TranslateCurveBoundedSurface.hxx>
 
-//#include <StepShape_VertexShell.hxx>
-#include <StepShape_Shell.hxx>
-#include <StepShape_OpenShell.hxx>
-#include <StepShape_OrientedClosedShell.hxx> //:e0
+//#include <DataExchange/StepShape/StepShape_VertexShell.hxx>
+#include <DataExchange/StepShape/StepShape_Shell.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx> //:e0
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_RectangularCompositeSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfacePatch.hxx>
-#include <StepShape_GeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSetSelect.hxx>
 #include <StepToGeom_MakeCurve.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <StepToGeom_MakeSurface.hxx>
@@ -82,15 +82,15 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
-#include <StepShape_ConnectedEdgeSet.hxx>
-#include <StepShape_EdgeBasedWireframeModel.hxx>
-#include <StepShape_HArray1OfConnectedEdgeSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedEdgeSet.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfConnectedEdgeSet.hxx>
 #include <StepToTopoDS_TranslateEdge.hxx>
-#include <StepShape_HArray1OfEdge.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfEdge.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <StepShape_HArray1OfConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfConnectedFaceSet.hxx>
 #include <StepToTopoDS_TranslateFace.hxx>
-#include <StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
 
 #include <DataExchange/STEPControl/STEPControl_ActorRead.hxx>
 

@@ -12,13 +12,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepShape_Edge.hxx>
-#include <StepShape_Path.hxx>
-#include <StepShape_Face.hxx>
-#include <StepShape_FaceBound.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_OpenShell.hxx>
-#include <StepShape_ReversibleTopologyItem.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_Path.hxx>
+#include <DataExchange/StepShape/StepShape_Face.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_ReversibleTopologyItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_ReversibleTopologyItem::StepShape_ReversibleTopologyItem () {  }

@@ -36,7 +36,7 @@
 //  Pour NewModel et Write : definition de produit (temporaire ...)
 #include <Transfer_FinderProcess.hxx>
 #include <TransferBRep_ShapeMapper.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 
 #include <XSControl_Controller.hxx>

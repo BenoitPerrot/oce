@@ -28,7 +28,7 @@
 #include <DataExchange/StepBasic/StepBasic_ApprovalPersonOrganization.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApprovalDateTime.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductCategoryRelationship.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>

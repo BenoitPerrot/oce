@@ -25,12 +25,12 @@
 #include <TransferBRep_ShapeBinder.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -51,14 +51,14 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 
 // #include <DataExchange/Interface/Interface_InterfaceModel.hxx>  // pour mise au point
 
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
-#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
-#include <StepShape_FacetedBrep.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
-#include <StepShape_ManifoldSolidBrep.hxx>
-#include <StepShape_BrepWithVoids.hxx>
-#include <StepShape_GeometricSet.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
 
 // MappedItem :
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <StepToTopoDS_MakeTransformed.hxx>
 
 // FaceSurface :
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_DataMapOfTRI.hxx>
 #include <StepToTopoDS_TranslateFace.hxx>
@@ -88,7 +88,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <TransferBRep.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
 #include <DataExchange/StepRepr/StepRepr_Transformation.hxx>
@@ -117,15 +117,15 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <XSAlgo.hxx>
 #include <XSAlgo_AlgoContainer.hxx>
-#include <StepShape_EdgeBasedWireframeModel.hxx>
-#include <StepShape_FaceBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBasedSurfaceModel.hxx>
 
-#include <StepShape_AdvancedBrepShapeRepresentation.hxx>
-#include <StepShape_FacetedBrepShapeRepresentation.hxx>
-#include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
-#include <StepShape_EdgeBasedWireframeShapeRepresentation.hxx>
-#include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
-#include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_AdvancedBrepShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeBasedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>
@@ -139,7 +139,7 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <DataExchange/StepDimTol/StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 
 // For non-manifold topology processing (ssv; 12.11.2010)
-#include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>

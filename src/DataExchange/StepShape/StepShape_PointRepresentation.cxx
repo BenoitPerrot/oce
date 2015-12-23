@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepShape_PointRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_PointRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

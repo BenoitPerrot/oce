@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_Face.hxx>
+#include <DataExchange/StepShape/StepShape_Face.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_HArray1OfFaceBound.hxx>
-#include <StepShape_FaceBound.hxx>
-#include <StepShape_OrientedFace.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_OrientedFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

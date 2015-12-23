@@ -18,12 +18,12 @@
 //gka,abv 05.04.99: S4136: improving tolerance management, eliminate BRepAPI::Precision()
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
-#include <StepShape_EdgeCurve.hxx>
-#include <StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -54,8 +54,8 @@
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 
-#include <StepShape_EdgeCurve.hxx>
-#include <StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 //#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
@@ -72,7 +72,7 @@
 #include <UnitsMethods.hxx>
 
 //:d8
-#include <StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <StepToGeom_MakeCartesianPoint.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>

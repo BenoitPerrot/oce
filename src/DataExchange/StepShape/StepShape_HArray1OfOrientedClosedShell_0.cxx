@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_HArray1OfOrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedClosedShell.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepShape_OrientedClosedShell.hxx>
-#include <StepShape_Array1OfOrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_Array1OfOrientedClosedShell.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepShape_HArray1OfOrientedClosedShell)
 
 
 #define ItemHArray1 Handle(StepShape_OrientedClosedShell)
-#define ItemHArray1_hxx <StepShape_OrientedClosedShell.hxx>
+#define ItemHArray1_hxx <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx>
 #define TheArray1 StepShape_Array1OfOrientedClosedShell
-#define TheArray1_hxx <StepShape_Array1OfOrientedClosedShell.hxx>
+#define TheArray1_hxx <DataExchange/StepShape/StepShape_Array1OfOrientedClosedShell.hxx>
 #define TCollection_HArray1 StepShape_HArray1OfOrientedClosedShell
-#define TCollection_HArray1_hxx <StepShape_HArray1OfOrientedClosedShell.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepShape/StepShape_HArray1OfOrientedClosedShell.hxx>
 #define Handle_TCollection_HArray1 Handle_StepShape_HArray1OfOrientedClosedShell
 #define TCollection_HArray1_Type_() StepShape_HArray1OfOrientedClosedShell_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

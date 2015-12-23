@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Transfer_FinderProcess.hxx>
@@ -25,16 +25,16 @@
 #include <TopoDSToStep_Builder.hxx>
 #include <TopoDSToStep_Tool.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
-#include <StepShape_Shell.hxx>
-#include <StepShape_OpenShell.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_TopologicalRepresentationItem.hxx>
-#include <StepShape_ConnectedFaceSet.hxx>
-#include <StepShape_OpenShell.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_FaceSurface.hxx>
-#include <StepShape_HArray1OfShell.hxx>
-#include <StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/StepShape_Shell.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(STEPSelections_SelectGSCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectGSCurves)
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_CompositeCurve.hxx>
-#include <StepShape_GeometricSet.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
 #include <DataExchange/StepGeom/StepGeom_CompositeCurveSegment.hxx>
 
 static Standard_Integer flag;

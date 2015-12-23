@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(StepShape_TopologicalRepresentationItem)
-#define TheKey_hxx <StepShape_TopologicalRepresentationItem.hxx>
+#define TheKey_hxx <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher

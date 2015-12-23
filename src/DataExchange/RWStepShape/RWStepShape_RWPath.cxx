@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_Path.hxx>
+#include <DataExchange/StepShape/StepShape_Path.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWPath.hxx>
-#include <StepShape_HArray1OfOrientedEdge.hxx>
-#include <StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_Path.hxx>
+#include <DataExchange/StepShape/StepShape_Path.hxx>
 
 
 RWStepShape_RWPath::RWStepShape_RWPath () {}

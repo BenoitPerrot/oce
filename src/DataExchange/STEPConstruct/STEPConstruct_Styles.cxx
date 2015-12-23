@@ -21,7 +21,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <StepVisual_Colour.hxx>
@@ -49,7 +49,7 @@
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <StepVisual_ColourRgb.hxx>
 #include <StepVisual_FillAreaStyleColour.hxx>
 #include <StepVisual_FillStyleSelect.hxx>
@@ -77,7 +77,7 @@
 #include <StepVisual_DraughtingModel.hxx>
 #include <StepVisual_PresentationStyleByContext.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationRelationshipWithTransformation.hxx>
 #include <DataExchange/StepRepr/StepRepr_Transformation.hxx>

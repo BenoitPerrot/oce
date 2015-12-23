@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepShape_PrecisionQualifier.hxx>
-#include <StepShape_TypeQualifier.hxx>
-#include <StepShape_ValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_PrecisionQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_TypeQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_ValueQualifier.hxx>
 
 StepShape_ValueQualifier::StepShape_ValueQualifier  ()    {  }
 

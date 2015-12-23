@@ -22,7 +22,7 @@
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionFormation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionRelationship.hxx>
 #include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>

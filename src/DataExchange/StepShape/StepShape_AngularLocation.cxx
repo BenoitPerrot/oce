@@ -17,7 +17,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
-#include <StepShape_AngularLocation.hxx>
+#include <DataExchange/StepShape/StepShape_AngularLocation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_AngularLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

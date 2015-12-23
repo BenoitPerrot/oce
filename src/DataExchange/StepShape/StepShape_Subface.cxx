@@ -15,10 +15,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepShape_Face.hxx>
+#include <DataExchange/StepShape/StepShape_Face.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_HArray1OfFaceBound.hxx>
-#include <StepShape_Subface.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_Subface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_Subface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

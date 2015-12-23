@@ -17,7 +17,7 @@
 //gka,abv 14.09.99: S4136: eliminate BRepAPI::Precision()
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_PolyLoop.hxx>
+#include <DataExchange/StepShape/StepShape_PolyLoop.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

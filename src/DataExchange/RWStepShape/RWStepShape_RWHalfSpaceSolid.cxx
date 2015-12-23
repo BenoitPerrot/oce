@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_HalfSpaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_HalfSpaceSolid.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWHalfSpaceSolid.hxx>
@@ -23,7 +23,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_HalfSpaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_HalfSpaceSolid.hxx>
 
 
 RWStepShape_RWHalfSpaceSolid::RWStepShape_RWHalfSpaceSolid () {}

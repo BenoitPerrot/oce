@@ -12,9 +12,9 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepShape_OpenShell.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_Shell.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_Shell.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_Shell::StepShape_Shell () {  }

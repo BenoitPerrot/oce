@@ -8,7 +8,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR.hxx>
@@ -17,7 +17,7 @@
 #define TheKey TopoDS_Shape
 #define TheKey_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define TheItem Handle(StepShape_ShapeDefinitionRepresentation)
-#define TheItem_hxx <StepShape_ShapeDefinitionRepresentation.hxx>
+#define TheItem_hxx <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR

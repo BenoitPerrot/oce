@@ -13,8 +13,8 @@
 
 #include <DataExchange/StepGeom/StepGeom_Direction.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_FaceSurface.hxx>
-#include <StepShape_ExtrudedFaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_ExtrudedFaceSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ExtrudedFaceSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

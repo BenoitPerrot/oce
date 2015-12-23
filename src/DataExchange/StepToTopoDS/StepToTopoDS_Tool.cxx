@@ -19,7 +19,7 @@
 
 #include <Transfer_TransientProcess.hxx>
 #include <StepToTopoDS_DataMapOfTRI.hxx>
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <StepToTopoDS_PointPair.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

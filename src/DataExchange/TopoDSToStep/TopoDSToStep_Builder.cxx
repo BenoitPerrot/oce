@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopoDSToStep_Tool.hxx>
@@ -25,11 +25,11 @@
 
 #include <TopoDSToStep_MakeStepFace.hxx>
 
-#include <StepShape_ConnectedFaceSet.hxx>
-#include <StepShape_HArray1OfFace.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_OpenShell.hxx>
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>

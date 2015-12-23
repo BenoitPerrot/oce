@@ -13,15 +13,15 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureValueMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepShape_HArray1OfValueQualifier.hxx>
-#include <StepShape_ValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_ValueQualifier.hxx>
 
 
 RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem::RWStepShape_RWMeasureRepresentationItemAndQualifiedRepresentationItem () {}

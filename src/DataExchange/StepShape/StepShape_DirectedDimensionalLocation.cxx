@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_DirectedDimensionalLocation.hxx>
+#include <DataExchange/StepShape/StepShape_DirectedDimensionalLocation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_DirectedDimensionalLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_ToleranceMethodDefinition.hxx>
-#include <StepShape_DimensionalCharacteristic.hxx>
-#include <StepShape_PlusMinusTolerance.hxx>
+#include <DataExchange/StepShape/StepShape_ToleranceMethodDefinition.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalCharacteristic.hxx>
+#include <DataExchange/StepShape/StepShape_PlusMinusTolerance.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_PlusMinusTolerance)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

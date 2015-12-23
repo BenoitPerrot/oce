@@ -13,11 +13,11 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWDefinitionalRepresentationAndShapeRepresentation.hxx>
-#include <StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 

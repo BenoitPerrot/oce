@@ -12,16 +12,16 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepShape_AdvancedBrepShapeRepresentation.hxx>
-#include <StepShape_CsgShapeRepresentation.hxx>
-#include <StepShape_FacetedBrepShapeRepresentation.hxx>
-#include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
-#include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
-#include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_AdvancedBrepShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_CsgShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSurfaceShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_Representation.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <StepVisual_TemplateInstance.hxx>
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGroupedItem.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>

@@ -16,7 +16,7 @@
 
 //szv#4 S4163
 
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <TopoDSToStep_Tool.hxx>
@@ -43,13 +43,13 @@
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
-#include <StepShape_VertexPoint.hxx>
-#include <StepShape_Edge.hxx>
-#include <StepShape_EdgeLoop.hxx>
-#include <StepShape_VertexLoop.hxx>
-#include <StepShape_HArray1OfOrientedEdge.hxx>
-#include <StepShape_OrientedEdge.hxx>
-#include <StepShape_PolyLoop.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_VertexLoop.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_PolyLoop.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

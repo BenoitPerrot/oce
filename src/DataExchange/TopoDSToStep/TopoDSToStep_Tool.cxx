@@ -16,7 +16,7 @@
 
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

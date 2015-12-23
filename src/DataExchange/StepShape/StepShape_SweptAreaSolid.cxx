@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_SweptAreaSolid.hxx>
+#include <DataExchange/StepShape/StepShape_SweptAreaSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_SweptAreaSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

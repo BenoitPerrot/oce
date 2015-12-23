@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <TopoDSToStep_MakeFacetedBrep.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <TopoDSToStep.hxx>
 #include <TopoDSToStep_Builder.hxx>
 #include <TopoDSToStep_Tool.hxx>

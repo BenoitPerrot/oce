@@ -32,17 +32,17 @@ IMPLEMENT_STANDARD_TYPE_END(STEPSelections_SelectInstances)
 IMPLEMENT_DOWNCAST(STEPSelections_SelectInstances,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(STEPSelections_SelectInstances)
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <StepShape_FacetedBrep.hxx>
-#include <StepShape_BrepWithVoids.hxx>
-#include <StepShape_ManifoldSolidBrep.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
-#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
-#include <StepShape_GeometricSet.hxx>
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>

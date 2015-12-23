@@ -35,8 +35,8 @@ static Standard_CString schemaAP214IS  = "AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 
 static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 
 #include <DataExchange/StepBasic/StepBasic_Address.hxx>
-#include <StepShape_AdvancedBrepShapeRepresentation.hxx>
-#include <StepShape_AdvancedFace.hxx>
+#include <DataExchange/StepShape/StepShape_AdvancedBrepShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_AdvancedFace.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_AnnotationCurveOccurrence.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_AnnotationFillArea.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_AnnotationFillAreaOccurrence.hxx>
@@ -80,14 +80,14 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <StepVisual_BackgroundColour.hxx>
 #include <DataExchange/StepGeom/StepGeom_BezierCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_BezierSurface.hxx>
-#include <StepShape_Block.hxx>
-#include <StepShape_BooleanResult.hxx>
+#include <DataExchange/StepShape/StepShape_Block.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanResult.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundaryCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
-#include <StepShape_BoxDomain.hxx>
-#include <StepShape_BoxedHalfSpace.hxx>
-#include <StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_BoxDomain.hxx>
+#include <DataExchange/StepShape/StepShape_BoxedHalfSpace.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
 #include <DataExchange/StepBasic/StepBasic_CalendarDate.hxx>
 #include <StepVisual_CameraImage.hxx>
 #include <StepVisual_CameraModel.hxx>
@@ -98,7 +98,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator3d.hxx>
 #include <DataExchange/StepGeom/StepGeom_Circle.hxx>
-#include <StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
 #include <StepVisual_Colour.hxx>
 #include <StepVisual_ColourRgb.hxx>
 #include <StepVisual_ColourSpecification.hxx>
@@ -114,14 +114,14 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 
 #include <DataExchange/StepGeom/StepGeom_Conic.hxx>
 #include <DataExchange/StepGeom/StepGeom_ConicalSurface.hxx>
-#include <StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
 #include <StepVisual_ContextDependentInvisibility.hxx>
 #include <StepVisual_ContextDependentOverRidingStyledItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_CoordinatedUniversalTimeOffset.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepShape_CsgRepresentation.hxx>
-#include <StepShape_CsgShapeRepresentation.hxx>
-#include <StepShape_CsgSolid.hxx>
+#include <DataExchange/StepShape/StepShape_CsgShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_CsgSolid.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_CurveBoundedSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_CurveReplica.hxx>
@@ -152,9 +152,9 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_DraughtingTextLiteralWithDelineation.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_DrawingDefinition.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_DrawingRevision.hxx>
-#include <StepShape_Edge.hxx>
-#include <StepShape_EdgeCurve.hxx>
-#include <StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
 #include <DataExchange/StepGeom/StepGeom_ElementarySurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Ellipse.hxx>
 #include <DataExchange/StepGeom/StepGeom_EvaluatedDegeneratePcurve.hxx>
@@ -166,31 +166,31 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 // Removed from CC1-Rev2 to CC1-Rev4, re-added CC2-Rev4 :
 #include <StepVisual_ExternallyDefinedTextFont.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_ExternallyDefinedTileStyle.hxx>
-#include <StepShape_ExtrudedAreaSolid.hxx>
-#include <StepShape_Face.hxx>
+#include <DataExchange/StepShape/StepShape_ExtrudedAreaSolid.hxx>
+#include <DataExchange/StepShape/StepShape_Face.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepShape_FaceBasedSurfaceModel.hxx>
-#include <StepShape_FaceBound.hxx>
-#include <StepShape_FaceOuterBound.hxx>
-#include <StepShape_FaceSurface.hxx>
-#include <StepShape_FacetedBrep.hxx>
-#include <StepShape_FacetedBrepShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceOuterBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepShapeRepresentation.hxx>
 #include <StepVisual_FillAreaStyle.hxx>
 #include <StepVisual_FillAreaStyleColour.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_FillAreaStyleHatching.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_FillAreaStyleTileSymbolWithStyle.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_FillAreaStyleTiles.hxx>
 #include <DataExchange/StepRepr/StepRepr_FunctionallyDefinedTransformation.hxx>
-#include <StepShape_GeometricCurveSet.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricCurveSet.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContext.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <StepShape_GeometricSet.hxx>
-#include <StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
-#include <StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSet.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricallyBoundedWireframeShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_GlobalUncertaintyAssignedContext.hxx>
 #include <DataExchange/StepRepr/StepRepr_GlobalUnitAssignedContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_Group.hxx>
 #include <DataExchange/StepBasic/StepBasic_GroupRelationship.hxx>
-#include <StepShape_HalfSpaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_HalfSpaceSolid.hxx>
 #include <DataExchange/StepGeom/StepGeom_Hyperbola.hxx>
 #include <DataExchange/StepGeom/StepGeom_IntersectionCurve.hxx>
 #include <StepVisual_Invisibility.hxx>
@@ -198,9 +198,9 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepBasic/StepBasic_LengthUnit.hxx>
 #include <DataExchange/StepGeom/StepGeom_Line.hxx>
 #include <DataExchange/StepBasic/StepBasic_LocalTime.hxx>
-#include <StepShape_Loop.hxx>
-#include <StepShape_ManifoldSolidBrep.hxx>
-#include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSurfaceShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_MappedItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
 #include <StepVisual_MechanicalDesignGeometricPresentationArea.hxx>
@@ -211,21 +211,21 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepGeom/StepGeom_OffsetCurve3d.hxx>
 #include <DataExchange/StepGeom/StepGeom_OffsetSurface.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepAP214_OneDirectionRepeatFactor.hxx>
-#include <StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_OpenShell.hxx>
 #include <DataExchange/StepBasic/StepBasic_OrdinalDate.hxx>
 #include <DataExchange/StepBasic/StepBasic_Organization.hxx>
 #include <DataExchange/StepBasic/StepBasic_OrganizationRole.hxx>
 #include <DataExchange/StepBasic/StepBasic_OrganizationalAddress.hxx>
-#include <StepShape_OrientedClosedShell.hxx>
-#include <StepShape_OrientedEdge.hxx>
-#include <StepShape_OrientedFace.hxx>
-#include <StepShape_OrientedOpenShell.hxx>
-#include <StepShape_OrientedPath.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedFace.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedOpenShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedPath.hxx>
 #include <DataExchange/StepGeom/StepGeom_OuterBoundaryCurve.hxx>
 #include <StepVisual_OverRidingStyledItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_Parabola.hxx>
 #include <DataExchange/StepRepr/StepRepr_ParametricRepresentationContext.hxx>
-#include <StepShape_Path.hxx>
+#include <DataExchange/StepShape/StepShape_Path.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 #include <DataExchange/StepBasic/StepBasic_Person.hxx>
 #include <DataExchange/StepBasic/StepBasic_PersonAndOrganization.hxx>
@@ -242,7 +242,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepGeom/StepGeom_PointOnSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_PointReplica.hxx>
 #include <StepVisual_PointStyle.hxx>
-#include <StepShape_PolyLoop.hxx>
+#include <DataExchange/StepShape/StepShape_PolyLoop.hxx>
 #include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <StepVisual_PreDefinedColour.hxx>
 #include <StepVisual_PreDefinedCurveFont.hxx>
@@ -287,24 +287,24 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>
-#include <StepShape_RevolvedAreaSolid.hxx>
-#include <StepShape_RightAngularWedge.hxx>
-#include <StepShape_RightCircularCone.hxx>
-#include <StepShape_RightCircularCylinder.hxx>
+#include <DataExchange/StepShape/StepShape_RevolvedAreaSolid.hxx>
+#include <DataExchange/StepShape/StepShape_RightAngularWedge.hxx>
+#include <DataExchange/StepShape/StepShape_RightCircularCone.hxx>
+#include <DataExchange/StepShape/StepShape_RightCircularCylinder.hxx>
 #include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassification.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassificationLevel.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspectRelationship.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspectTransition.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SolidAngleMeasureWithUnit.hxx>
-#include <StepShape_SolidModel.hxx>
-#include <StepShape_SolidReplica.hxx>
-#include <StepShape_Sphere.hxx>
+#include <DataExchange/StepShape/StepShape_SolidModel.hxx>
+#include <DataExchange/StepShape/StepShape_SolidReplica.hxx>
+#include <DataExchange/StepShape/StepShape_Sphere.hxx>
 #include <DataExchange/StepGeom/StepGeom_SphericalSurface.hxx>
 #include <StepVisual_StyledItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
@@ -322,7 +322,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <StepVisual_SurfaceStyleSegmentationCurve.hxx>
 #include <StepVisual_SurfaceStyleSilhouette.hxx>
 #include <StepVisual_SurfaceStyleUsage.hxx>
-#include <StepShape_SweptAreaSolid.hxx>
+#include <DataExchange/StepShape/StepShape_SweptAreaSolid.hxx>
 #include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_SymbolColour.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_SymbolRepresentation.hxx>
@@ -343,19 +343,19 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <StepVisual_TextStyleForDefinedFont.hxx>
 #include <StepVisual_TextStyleWithBoxCharacteristics.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepVisual_TextStyleWithMirror.hxx>
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <DataExchange/StepGeom/StepGeom_ToroidalSurface.hxx>
-#include <StepShape_Torus.hxx>
-#include <StepShape_TransitionalShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_Torus.hxx>
+#include <DataExchange/StepShape/StepShape_TransitionalShapeRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_TrimmedCurve.hxx>
 // Removed from CC1-Rev2 to Rev4 : <StepAP214_TwoDirectionRepeatFactor.hxx>
 #include <DataExchange/StepBasic/StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <DataExchange/StepGeom/StepGeom_UniformCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_UniformSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Vector.hxx>
-#include <StepShape_Vertex.hxx>
-#include <StepShape_VertexLoop.hxx>
-#include <StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_VertexLoop.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 #include <StepVisual_ViewVolume.hxx>
 #include <DataExchange/StepBasic/StepBasic_WeekOfYearAndDayDate.hxx>
 #include <DataExchange/StepGeom/StepGeom_UniformCurveAndRationalBSplineCurve.hxx>
@@ -371,7 +371,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndLengthUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndPlaneAngleUnit.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
-#include <StepShape_LoopAndPath.hxx>
+#include <DataExchange/StepShape/StepShape_LoopAndPath.hxx>
 
 // Added by FMA (for Rev4)
 #include <DataExchange/StepGeom/StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
@@ -379,7 +379,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SolidAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
-#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
 
 // Added by CKY (OCT-1996 for CC1-Rev4)
 #include <DataExchange/StepBasic/StepBasic_DesignContext.hxx>
@@ -433,7 +433,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationshipWithTransformation.hxx>
 #include <DataExchange/StepRepr/StepRepr_MaterialDesignation.hxx>
 
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 
 // Added by CKY (Resources)
 #include <DataExchange/HeaderSection/HeaderSection.hxx>
@@ -455,9 +455,9 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 // Added by ABV 08.09.99 for CAX TRJ 2 (validation properties)
 #include <DataExchange/StepRepr/StepRepr_MeasureRepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentFile.hxx>
-#include <StepShape_ExtrudedFaceSolid.hxx>
-#include <StepShape_RevolvedFaceSolid.hxx>
-#include <StepShape_SweptFaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_ExtrudedFaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_RevolvedFaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_SweptFaceSolid.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/StepBasic/StepBasic_AreaUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_VolumeUnit.hxx>
@@ -500,14 +500,14 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <StepVisual_DraughtingModel.hxx>
 
 // Added by ABV 18.04.00 for CAX-IF TRJ4 (dimensions)
-#include <StepShape_AngularLocation.hxx>
-#include <StepShape_AngularSize.hxx>
-#include <StepShape_DimensionalCharacteristicRepresentation.hxx>
-#include <StepShape_DimensionalLocation.hxx>
-#include <StepShape_DimensionalLocationWithPath.hxx>
-#include <StepShape_DimensionalSize.hxx>
-#include <StepShape_DimensionalSizeWithPath.hxx>
-#include <StepShape_ShapeDimensionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_AngularLocation.hxx>
+#include <DataExchange/StepShape/StepShape_AngularSize.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalCharacteristicRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalLocation.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalLocationWithPath.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalSize.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalSizeWithPath.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDimensionRepresentation.hxx>
 
 // Added by ABV 10.05.00 for CAX-IF TRJ4 (external references)
 #include <DataExchange/StepBasic/StepBasic_DocumentRepresentationType.hxx>
@@ -523,38 +523,38 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepAP214/StepAP214_ExternallyDefinedClass.hxx>
 #include <DataExchange/StepAP214/StepAP214_ExternallyDefinedGeneralProperty.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>
-#include <StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_DefinitionalRepresentationAndShapeRepresentation.hxx>
 
 // Added by CKY , 25 APR 2001 for Dimensional Tolerances (CAX-IF TRJ7)
 #include <DataExchange/StepRepr/StepRepr_CompositeShapeAspect.hxx>
 #include <DataExchange/StepRepr/StepRepr_DerivedShapeAspect.hxx>
 #include <DataExchange/StepRepr/StepRepr_Extension.hxx>
-#include <StepShape_DirectedDimensionalLocation.hxx>
-#include <StepShape_LimitsAndFits.hxx>
-#include <StepShape_ToleranceValue.hxx>
-#include <StepShape_MeasureQualification.hxx>
-#include <StepShape_PlusMinusTolerance.hxx>
-#include <StepShape_PrecisionQualifier.hxx>
-#include <StepShape_TypeQualifier.hxx>
-#include <StepShape_QualifiedRepresentationItem.hxx>
-#include <StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_DirectedDimensionalLocation.hxx>
+#include <DataExchange/StepShape/StepShape_LimitsAndFits.hxx>
+#include <DataExchange/StepShape/StepShape_ToleranceValue.hxx>
+#include <DataExchange/StepShape/StepShape_MeasureQualification.hxx>
+#include <DataExchange/StepShape/StepShape_PlusMinusTolerance.hxx>
+#include <DataExchange/StepShape/StepShape_PrecisionQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_TypeQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_QualifiedRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_MeasureRepresentationItemAndQualifiedRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_CompoundRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_ValueRange.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspectDerivingRelationship.hxx>
 
 // Added by ABV 28.12.01 for CAX-IF TRJ9 (edge_based_wireframe_model)
-#include <StepShape_CompoundShapeRepresentation.hxx>
-#include <StepShape_ConnectedEdgeSet.hxx>
-#include <StepShape_ConnectedFaceShapeRepresentation.hxx>
-#include <StepShape_EdgeBasedWireframeModel.hxx>
-#include <StepShape_EdgeBasedWireframeShapeRepresentation.hxx>
-#include <StepShape_FaceBasedSurfaceModel.hxx>
-#include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_CompoundShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedEdgeSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeBasedWireframeModel.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeBasedWireframeShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_OrientedSurface.hxx>
-#include <StepShape_Subface.hxx>
-#include <StepShape_Subedge.hxx>
-#include <StepShape_SeamEdge.hxx>
-#include <StepShape_ConnectedFaceSubSet.hxx>
+#include <DataExchange/StepShape/StepShape_Subface.hxx>
+#include <DataExchange/StepShape/StepShape_Subedge.hxx>
+#include <DataExchange/StepShape/StepShape_SeamEdge.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSubSet.hxx>
 
 //AP209 types
 #include <DataExchange/StepBasic/StepBasic_EulerAngles.hxx>
@@ -621,7 +621,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepRepr/StepRepr_DataEnvironment.hxx>
 #include <DataExchange/StepRepr/StepRepr_MaterialPropertyRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRelationship.hxx>
-#include <StepShape_PointRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_PointRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_MaterialProperty.hxx>
 #include <DataExchange/StepFEA/StepFEA_FeaModelDefinition.hxx>
 #include <DataExchange/StepFEA/StepFEA_FreedomAndCoefficient.hxx>
@@ -647,7 +647,7 @@ static Standard_CString schemaAP203    = "CONFIG_CONTROL_DESIGN";
 #include <DataExchange/StepBasic/StepBasic_DocumentProductEquivalence.hxx>
 
 //TR12J 4.06.2003 G&DT entities
-#include <StepShape_ShapeRepresentationWithParameters.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentationWithParameters.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_ShapeToleranceSelect.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_AngularityTolerance.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_ConcentricityTolerance.hxx>

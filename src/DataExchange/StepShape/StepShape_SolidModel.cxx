@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_SolidModel.hxx>
+#include <DataExchange/StepShape/StepShape_SolidModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_SolidModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

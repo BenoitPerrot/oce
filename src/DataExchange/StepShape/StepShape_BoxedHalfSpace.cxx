@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_BoxDomain.hxx>
+#include <DataExchange/StepShape/StepShape_BoxDomain.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <StepShape_BoxedHalfSpace.hxx>
+#include <DataExchange/StepShape/StepShape_BoxedHalfSpace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_BoxedHalfSpace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

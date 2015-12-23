@@ -19,8 +19,8 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Transfer_TransientProcess.hxx>
 #include <Transfer_Binder.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ContextDependentShapeRepresentation.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct.hxx>
 #include <TransferBRep.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <StepToTopoDS_DataMapOfTRI.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(StepToTopoDS_DataMapNodeOfDataMapOfTRI)
 
 
 #define TheKey Handle(StepShape_TopologicalRepresentationItem)
-#define TheKey_hxx <StepShape_TopologicalRepresentationItem.hxx>
+#define TheKey_hxx <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #define TheItem TopoDS_Shape
 #define TheItem_hxx <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #define Hasher TColStd_MapTransientHasher

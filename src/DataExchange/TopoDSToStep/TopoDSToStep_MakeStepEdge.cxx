@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopoDSToStep_Tool.hxx>
@@ -40,8 +40,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <StepShape_Vertex.hxx>
-#include <StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_HArray1OfPcurveOrSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_SeamCurve.hxx>

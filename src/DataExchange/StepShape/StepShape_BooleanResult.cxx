@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_BooleanOperand.hxx>
-#include <StepShape_BooleanResult.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanOperand.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanResult.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_BooleanResult)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

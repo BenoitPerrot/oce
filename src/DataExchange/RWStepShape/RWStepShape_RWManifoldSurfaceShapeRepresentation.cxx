@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSurfaceShapeRepresentation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWManifoldSurfaceShapeRepresentation.hxx>
@@ -25,7 +25,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_ManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSurfaceShapeRepresentation.hxx>
 
 
 RWStepShape_RWManifoldSurfaceShapeRepresentation::RWStepShape_RWManifoldSurfaceShapeRepresentation () {}

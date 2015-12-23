@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/STEPSelections/STEPSelections_HSequenceOfAssemblyLink.hxx>
 #include <DataExchange/STEPSelections/STEPSelections_AssemblyComponent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

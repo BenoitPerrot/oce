@@ -13,18 +13,18 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_GeometricCurveSet.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricCurveSet.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWGeometricCurveSet.hxx>
-#include <StepShape_HArray1OfGeometricSetSelect.hxx>
-#include <StepShape_GeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfGeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSetSelect.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_GeometricCurveSet.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricCurveSet.hxx>
 
 
 RWStepShape_RWGeometricCurveSet::RWStepShape_RWGeometricCurveSet () {}

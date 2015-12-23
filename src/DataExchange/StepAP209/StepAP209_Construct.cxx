@@ -16,7 +16,7 @@
 #include <DataExchange/StepFEA/StepFEA_FeaModel.hxx>
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <DataExchange/StepFEA/StepFEA_FeaAxis2Placement3d.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <DataExchange/StepElement/StepElement_HSequenceOfElementMaterial.hxx>
 #include <DataExchange/StepFEA/StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 #include <DataExchange/StepFEA/StepFEA_HSequenceOfElementRepresentation.hxx>
@@ -98,7 +98,7 @@
 #include <DataExchange/StepFEA/StepFEA_FeaAxis2Placement3d.hxx>
 #include <DataExchange/StepFEA/StepFEA_CoordinateSystemType.hxx>
 
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 

@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_HArray1OfValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfValueQualifier.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_ValueQualifier.hxx>
-#include <StepShape_QualifiedRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_ValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_QualifiedRepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_QualifiedRepresentationItem)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

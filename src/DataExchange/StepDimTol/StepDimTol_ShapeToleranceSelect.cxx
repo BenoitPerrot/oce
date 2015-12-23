@@ -17,7 +17,7 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
-#include <StepShape_PlusMinusTolerance.hxx>
+#include <DataExchange/StepShape/StepShape_PlusMinusTolerance.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_ShapeToleranceSelect.hxx>
 
 //=======================================================================

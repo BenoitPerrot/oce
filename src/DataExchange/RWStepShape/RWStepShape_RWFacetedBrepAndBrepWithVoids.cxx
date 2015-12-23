@@ -13,21 +13,21 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWFacetedBrepAndBrepWithVoids.hxx>
-#include <StepShape_FacetedBrep.hxx>
-#include <StepShape_BrepWithVoids.hxx>
-#include <StepShape_ClosedShell.hxx>
-#include <StepShape_HArray1OfOrientedClosedShell.hxx>
-#include <StepShape_OrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrepAndBrepWithVoids.hxx>
 
 
 RWStepShape_RWFacetedBrepAndBrepWithVoids::RWStepShape_RWFacetedBrepAndBrepWithVoids () {}

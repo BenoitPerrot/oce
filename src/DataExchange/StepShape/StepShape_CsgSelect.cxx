@@ -11,9 +11,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_BooleanResult.hxx>
-#include <StepShape_CsgPrimitive.hxx>
-#include <StepShape_CsgSelect.hxx>
+#include <DataExchange/StepShape/StepShape_BooleanResult.hxx>
+#include <DataExchange/StepShape/StepShape_CsgPrimitive.hxx>
+#include <DataExchange/StepShape/StepShape_CsgSelect.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_CsgSelect::StepShape_CsgSelect () {  }

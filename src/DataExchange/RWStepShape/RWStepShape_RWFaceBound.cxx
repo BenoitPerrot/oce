@@ -13,21 +13,21 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWFaceBound.hxx>
-#include <StepShape_Loop.hxx>
-#include <StepShape_EdgeLoop.hxx>
-#include <StepShape_OrientedEdge.hxx>
-#include <StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
 
 
 RWStepShape_RWFaceBound::RWStepShape_RWFaceBound () {}

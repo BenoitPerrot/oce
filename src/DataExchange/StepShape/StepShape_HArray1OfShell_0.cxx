@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepShape_HArray1OfShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfShell.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepShape_Shell.hxx>
-#include <StepShape_Array1OfShell.hxx>
+#include <DataExchange/StepShape/StepShape_Shell.hxx>
+#include <DataExchange/StepShape/StepShape_Array1OfShell.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepShape_HArray1OfShell)
 
 
 #define ItemHArray1 StepShape_Shell
-#define ItemHArray1_hxx <StepShape_Shell.hxx>
+#define ItemHArray1_hxx <DataExchange/StepShape/StepShape_Shell.hxx>
 #define TheArray1 StepShape_Array1OfShell
-#define TheArray1_hxx <StepShape_Array1OfShell.hxx>
+#define TheArray1_hxx <DataExchange/StepShape/StepShape_Array1OfShell.hxx>
 #define TCollection_HArray1 StepShape_HArray1OfShell
-#define TCollection_HArray1_hxx <StepShape_HArray1OfShell.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepShape/StepShape_HArray1OfShell.hxx>
 #define Handle_TCollection_HArray1 Handle_StepShape_HArray1OfShell
 #define TCollection_HArray1_Type_() StepShape_HArray1OfShell_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

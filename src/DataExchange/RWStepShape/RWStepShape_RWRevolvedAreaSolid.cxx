@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_RevolvedAreaSolid.hxx>
+#include <DataExchange/StepShape/StepShape_RevolvedAreaSolid.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWRevolvedAreaSolid.hxx>
@@ -24,7 +24,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_RevolvedAreaSolid.hxx>
+#include <DataExchange/StepShape/StepShape_RevolvedAreaSolid.hxx>
 
 
 RWStepShape_RWRevolvedAreaSolid::RWStepShape_RWRevolvedAreaSolid () {}

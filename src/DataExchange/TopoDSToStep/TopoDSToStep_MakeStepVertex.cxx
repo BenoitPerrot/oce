@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopoDSToStep_Tool.hxx>
@@ -26,7 +26,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TransferBRep_ShapeMapper.hxx>

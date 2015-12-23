@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_FaceOuterBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceOuterBound.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWFaceOuterBound.hxx>
-#include <StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_FaceOuterBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceOuterBound.hxx>
 
 
 RWStepShape_RWFaceOuterBound::RWStepShape_RWFaceOuterBound () {}

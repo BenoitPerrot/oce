@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_ConnectedFaceSubSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSubSet.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWConnectedFaceSubSet.hxx>
-#include <StepShape_HArray1OfFace.hxx>
-#include <StepShape_Face.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/StepShape_Face.hxx>
 
 //=======================================================================
 //function : RWStepShape_RWConnectedFaceSubSet

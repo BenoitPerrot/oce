@@ -47,7 +47,7 @@
 #include <DataExchange/StepRepr/StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
 
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 
 #include <DataExchange/StepAP214/StepAP214_AppliedDocumentReference.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedExternalIdentificationAssignment.hxx>

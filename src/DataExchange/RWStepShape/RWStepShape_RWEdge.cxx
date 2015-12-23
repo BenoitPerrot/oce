@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWEdge.hxx>
-#include <StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
 
 
 RWStepShape_RWEdge::RWStepShape_RWEdge () {}

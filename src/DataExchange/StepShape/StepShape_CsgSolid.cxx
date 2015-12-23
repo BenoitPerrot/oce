@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_CsgSelect.hxx>
-#include <StepShape_CsgSolid.hxx>
+#include <DataExchange/StepShape/StepShape_CsgSelect.hxx>
+#include <DataExchange/StepShape/StepShape_CsgSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_CsgSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
-#include <StepShape_SurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_SurfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 StepShape_SurfaceModel::StepShape_SurfaceModel () {  }

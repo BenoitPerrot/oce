@@ -17,7 +17,7 @@
 //:   gka 09.04.99: S4136: eliminate BRepAPI::Precision()
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -31,8 +31,8 @@
 
 #include <DataExchange/StepGeom/StepGeom_Point.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianPoint.hxx>
-#include <StepShape_VertexPoint.hxx>
-#include <StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_VertexPoint.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
 
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Precision.hxx>

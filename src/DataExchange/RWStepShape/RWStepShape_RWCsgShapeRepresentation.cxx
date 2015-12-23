@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_CsgShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_CsgShapeRepresentation.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWCsgShapeRepresentation.hxx>
@@ -25,7 +25,7 @@
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_CsgShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_CsgShapeRepresentation.hxx>
 
 
 RWStepShape_RWCsgShapeRepresentation::RWStepShape_RWCsgShapeRepresentation () {}

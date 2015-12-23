@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWFacetedBrep.hxx>
-#include <StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_FacetedBrep.hxx>
+#include <DataExchange/StepShape/StepShape_FacetedBrep.hxx>
 
 
 RWStepShape_RWFacetedBrep::RWStepShape_RWFacetedBrep () {}

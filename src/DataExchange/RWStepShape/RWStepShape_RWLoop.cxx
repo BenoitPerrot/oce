@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_Loop.hxx>
+#include <DataExchange/StepShape/StepShape_Loop.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWLoop.hxx>
 

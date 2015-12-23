@@ -13,8 +13,8 @@
 
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_Vertex.hxx>
-#include <StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_EdgeCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

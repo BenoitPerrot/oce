@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_NonManifoldSurfaceShapeRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

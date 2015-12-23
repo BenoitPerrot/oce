@@ -35,8 +35,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentProductEquivalence.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <DataExchange/StepRepr/StepRepr_PropertyDefinition.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationRelationship.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>

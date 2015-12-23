@@ -13,14 +13,14 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_MeasureQualification.hxx>
+#include <DataExchange/StepShape/StepShape_MeasureQualification.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWMeasureQualification.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepShape_ValueQualifier.hxx>
-#include <StepShape_HArray1OfValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_ValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfValueQualifier.hxx>
 
 
 RWStepShape_RWMeasureQualification::RWStepShape_RWMeasureQualification () {}

@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_Torus.hxx>
+#include <DataExchange/StepShape/StepShape_Torus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_Torus)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

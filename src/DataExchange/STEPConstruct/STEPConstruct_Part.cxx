@@ -15,9 +15,9 @@
 //:k9 abv 6 Jan 99: TR10: eliminating duplicated APPLICATION_CONTEXT entities
 //:j4 gka 16.03.99 S4134
 //    abv 20.11.99 renamed from StepPDR_SDRtool
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductRelatedProductCategory.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationContext.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductContext.hxx>
@@ -43,8 +43,8 @@
 #include <DataExchange/StepBasic/StepBasic_ProductType.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfProduct.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionShape.hxx>
-#include <StepShape_ShapeRepresentation.hxx>
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 
 // ------------------------------
 // Modification a faire : 

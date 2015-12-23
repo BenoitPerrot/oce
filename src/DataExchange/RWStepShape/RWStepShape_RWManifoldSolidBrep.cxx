@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWManifoldSolidBrep.hxx>
-#include <StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
 
 
 RWStepShape_RWManifoldSolidBrep::RWStepShape_RWManifoldSolidBrep () {}

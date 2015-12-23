@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_HArray1OfShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfShell.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_Shell.hxx>
-#include <StepShape_ShellBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/StepShape_Shell.hxx>
+#include <DataExchange/StepShape/StepShape_ShellBasedSurfaceModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ShellBasedSurfaceModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

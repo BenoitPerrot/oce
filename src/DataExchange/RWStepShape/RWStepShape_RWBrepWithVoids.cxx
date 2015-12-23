@@ -15,20 +15,20 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWBrepWithVoids.hxx>
-#include <StepShape_HArray1OfOrientedClosedShell.hxx>
-#include <StepShape_OrientedClosedShell.hxx>
-#include <StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfOrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedClosedShell.hxx>
+#include <DataExchange/StepShape/StepShape_ClosedShell.hxx>
 
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/StepShape_BrepWithVoids.hxx>
 
 
 RWStepShape_RWBrepWithVoids::RWStepShape_RWBrepWithVoids () {}

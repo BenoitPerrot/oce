@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepShape_ToleranceValue.hxx>
+#include <DataExchange/StepShape/StepShape_ToleranceValue.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_ToleranceValue)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

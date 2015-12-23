@@ -15,9 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepShape_ShapeDimensionRepresentation.hxx>
-#include <StepShape_DimensionalCharacteristic.hxx>
-#include <StepShape_DimensionalCharacteristicRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDimensionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalCharacteristic.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalCharacteristicRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_DimensionalCharacteristicRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

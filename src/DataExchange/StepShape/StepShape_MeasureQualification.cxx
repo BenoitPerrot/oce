@@ -13,9 +13,9 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_MeasureWithUnit.hxx>
-#include <StepShape_HArray1OfValueQualifier.hxx>
-#include <StepShape_ValueQualifier.hxx>
-#include <StepShape_MeasureQualification.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_ValueQualifier.hxx>
+#include <DataExchange/StepShape/StepShape_MeasureQualification.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_MeasureQualification)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

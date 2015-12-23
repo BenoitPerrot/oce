@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_Vertex.hxx>
-#include <StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_Vertex.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_OrientedEdge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

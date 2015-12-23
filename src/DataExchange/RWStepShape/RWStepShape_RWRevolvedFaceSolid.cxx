@@ -13,17 +13,17 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_RevolvedFaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_RevolvedFaceSolid.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWRevolvedFaceSolid.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis1Placement.hxx>
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
 
-#include <StepShape_RevolvedFaceSolid.hxx>
+#include <DataExchange/StepShape/StepShape_RevolvedFaceSolid.hxx>
 
 
 RWStepShape_RWRevolvedFaceSolid::RWStepShape_RWRevolvedFaceSolid () {}

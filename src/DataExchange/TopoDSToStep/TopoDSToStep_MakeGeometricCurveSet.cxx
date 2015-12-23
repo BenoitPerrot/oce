@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepShape_GeometricCurveSet.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricCurveSet.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
@@ -28,8 +28,8 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
-#include <StepShape_GeometricSetSelect.hxx>
-#include <StepShape_HArray1OfGeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_GeometricSetSelect.hxx>
+#include <DataExchange/StepShape/StepShape_HArray1OfGeometricSetSelect.hxx>
 
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

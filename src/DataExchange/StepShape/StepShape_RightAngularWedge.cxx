@@ -13,7 +13,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepShape_RightAngularWedge.hxx>
+#include <DataExchange/StepShape/StepShape_RightAngularWedge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_RightAngularWedge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

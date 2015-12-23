@@ -22,7 +22,7 @@
 //    rln 02.06.99 removing #include <StepToTopoDS_DegeneratedTool.hxx>
 //    smh 31.01.01 BUC60810 : IsNull protection
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/StepShape_FaceBound.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
@@ -41,11 +41,11 @@
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
-#include <StepShape_EdgeLoop.hxx>
-#include <StepShape_Edge.hxx>
-#include <StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/StepShape_Edge.hxx>
+#include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
-#include <StepShape_EdgeCurve.hxx>
+#include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Pcurve.hxx>
 //#include <DataExchange/StepGeom/StepGeom_Polyline.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>

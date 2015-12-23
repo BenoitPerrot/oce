@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfSDRExternFile.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile)
 
 
 #define TheKey Handle(StepShape_ShapeDefinitionRepresentation)
-#define TheKey_hxx <StepShape_ShapeDefinitionRepresentation.hxx>
+#define TheKey_hxx <DataExchange/StepShape/StepShape_ShapeDefinitionRepresentation.hxx>
 #define TheItem Handle(STEPCAFControl_ExternFile)
 #define TheItem_hxx <DataExchange/STEPCAFControl/STEPCAFControl_ExternFile.hxx>
 #define Hasher TColStd_MapTransientHasher

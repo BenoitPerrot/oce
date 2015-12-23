@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepShape_DimensionalLocationWithPath.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalLocationWithPath.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWDimensionalLocationWithPath.hxx>

@@ -17,7 +17,7 @@
 //:   gka 09.04.99: S4136: improving tolerance management
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/StepShape_ConnectedFaceSet.hxx>
 #include <StepToTopoDS_Tool.hxx>
 #include <StepToTopoDS_NMTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -25,7 +25,7 @@
 
 #include <StepToTopoDS_TranslateFace.hxx>
 
-#include <StepShape_FaceSurface.hxx>
+#include <DataExchange/StepShape/StepShape_FaceSurface.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

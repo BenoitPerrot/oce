@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepShape_DimensionalLocation.hxx>
+#include <DataExchange/StepShape/StepShape_DimensionalLocation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepShape_DimensionalLocation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
