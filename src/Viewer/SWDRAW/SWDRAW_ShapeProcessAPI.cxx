@@ -19,7 +19,7 @@
 #include <Viewer/SWDRAW/SWDRAW.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeProcessAPI_ApplySequence.hxx>
+#include <ModelingAlgorithms/ShapeProcessAPI/ShapeProcessAPI_ApplySequence.hxx>
 #include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
 #include <stdio.h>
 

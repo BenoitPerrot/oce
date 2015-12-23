@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/ShapeProcess/ShapeProcess_ShapeContext.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <ShapeProcessAPI_ApplySequence.hxx>
+#include <ModelingAlgorithms/ShapeProcessAPI/ShapeProcessAPI_ApplySequence.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
