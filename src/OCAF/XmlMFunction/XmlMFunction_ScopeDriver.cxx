@@ -16,7 +16,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <XmlMFunction_ScopeDriver.hxx>
+#include <OCAF/XmlMFunction/XmlMFunction_ScopeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMFunction_ScopeDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -26,7 +26,7 @@
 #include <OCAF/XmlMDF/XmlMDF.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <OCAF/XmlMDocStd/XmlMDocStd.hxx>
-#include <XmlMFunction.hxx>
+#include <OCAF/XmlMFunction/XmlMFunction.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 
 #include <locale.h>

@@ -15,11 +15,11 @@
 
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlMFunction.hxx>
+#include <OCAF/XmlMFunction/XmlMFunction.hxx>
 
-#include <XmlMFunction_FunctionDriver.hxx>
-#include <XmlMFunction_ScopeDriver.hxx>
-#include <XmlMFunction_GraphNodeDriver.hxx>
+#include <OCAF/XmlMFunction/XmlMFunction_FunctionDriver.hxx>
+#include <OCAF/XmlMFunction/XmlMFunction_ScopeDriver.hxx>
+#include <OCAF/XmlMFunction/XmlMFunction_GraphNodeDriver.hxx>
 
 //=======================================================================
 //function : AddDrivers
