@@ -70,7 +70,7 @@ private:
 };
 
 
-#include <BRepSweep_Builder.lxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.lxx>
 
 
 

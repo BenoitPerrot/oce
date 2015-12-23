@@ -65,7 +65,7 @@ private:
 };
 
 
-#include <BRepSweep_Iterator.lxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Iterator.lxx>
 
 
 

@@ -21,7 +21,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <LocOpe_RevolutionForm.hxx>
 
-#include <BRepSweep_Revol.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <LocOpe_BuildShape.hxx>

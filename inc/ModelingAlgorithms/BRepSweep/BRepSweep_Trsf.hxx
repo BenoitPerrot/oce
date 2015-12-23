@@ -12,7 +12,7 @@
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepSweep_NumLinearRegularSweep.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_NumLinearRegularSweep.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class BRep_Builder;
 class TopoDS_Shape;

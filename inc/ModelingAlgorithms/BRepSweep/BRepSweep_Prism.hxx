@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepSweep_Translation.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Translation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;

@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepSweep_Trsf.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Trsf.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;

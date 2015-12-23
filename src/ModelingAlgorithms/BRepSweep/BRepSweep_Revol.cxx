@@ -19,8 +19,8 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRepSweep_Revol.hxx>
-#include <BRepSweep_Rotation.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Rotation.hxx>
 #include <Sweep_NumShape.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>

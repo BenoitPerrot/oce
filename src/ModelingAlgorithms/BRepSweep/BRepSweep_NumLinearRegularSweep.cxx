@@ -18,10 +18,10 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRepSweep_Builder.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
-#include <BRepSweep_NumLinearRegularSweep.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_NumLinearRegularSweep.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
@@ -30,10 +30,10 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
-#include <BRepSweep_Builder.hxx>
-#include <BRepSweep_Tool.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Tool.hxx>
 #include <Sweep_NumShapeTool.hxx>
-#include <BRepSweep_Iterator.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Iterator.hxx>
 #include <Sweep_NumShapeIterator.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 

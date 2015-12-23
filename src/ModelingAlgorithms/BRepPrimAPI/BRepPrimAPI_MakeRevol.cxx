@@ -19,7 +19,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <BRepSweep_Revol.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>

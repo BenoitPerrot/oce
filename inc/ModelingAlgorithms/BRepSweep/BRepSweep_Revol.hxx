@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepSweep_Rotation.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Rotation.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

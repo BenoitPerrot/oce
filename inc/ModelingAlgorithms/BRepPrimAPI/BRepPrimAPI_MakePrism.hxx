@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepSweep_Prism.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;

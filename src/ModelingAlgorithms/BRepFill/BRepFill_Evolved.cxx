@@ -50,8 +50,8 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
-#include <BRepSweep_Revol.hxx>
-#include <BRepSweep_Prism.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>

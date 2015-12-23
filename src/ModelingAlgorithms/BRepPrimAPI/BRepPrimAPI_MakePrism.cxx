@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <BRepSweep_Prism.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakePrism.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>

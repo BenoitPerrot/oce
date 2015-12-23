@@ -24,7 +24,7 @@
 #include <LocOpe_Prism.hxx>
 
 
-#include <BRepSweep_Prism.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <LocOpe_BuildShape.hxx>

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <BRepSweep_Trsf.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Trsf.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

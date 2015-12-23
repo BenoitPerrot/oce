@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepSweep_Iterator.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Iterator.hxx>
 
 //=======================================================================
 //function : BRepSweep_Iterator

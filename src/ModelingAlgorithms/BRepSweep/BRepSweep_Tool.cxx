@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepSweep_Tool.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 //=======================================================================

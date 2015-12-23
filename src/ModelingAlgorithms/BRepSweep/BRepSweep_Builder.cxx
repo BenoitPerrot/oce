@@ -16,7 +16,7 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepSweep_Builder.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 //=======================================================================

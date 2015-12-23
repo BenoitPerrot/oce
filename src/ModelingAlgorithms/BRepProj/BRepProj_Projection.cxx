@@ -33,7 +33,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <BRepSweep_Prism.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_Generator.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

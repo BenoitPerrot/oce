@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <BRepSweep_Prism.hxx>
-#include <BRepSweep_Translation.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Prism.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Translation.hxx>
 #include <Sweep_NumShape.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>

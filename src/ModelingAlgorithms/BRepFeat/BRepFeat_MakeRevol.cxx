@@ -45,7 +45,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <BRepSweep_Revol.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

@@ -24,7 +24,7 @@
 #include <LocOpe_Revol.hxx>
 
 
-#include <BRepSweep_Revol.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Revol.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <LocOpe_BuildShape.hxx>

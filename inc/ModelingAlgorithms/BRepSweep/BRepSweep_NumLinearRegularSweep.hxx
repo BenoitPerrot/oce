@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepSweep_Builder.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Sweep_NumShape.hxx>
-#include <BRepSweep_Tool.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Tool.hxx>
 #include <Sweep_NumShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfBoolean.hxx>

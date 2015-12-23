@@ -19,7 +19,7 @@
 #include <Sweep_NumShape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <BRepSweep_Rotation.hxx>
+#include <ModelingAlgorithms/BRepSweep/BRepSweep_Rotation.hxx>
 #include <ModelingData/BRepTools/BRepTools_Quilt.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
