@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 //#include <Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

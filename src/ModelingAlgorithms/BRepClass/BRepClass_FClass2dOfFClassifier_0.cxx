@@ -3,19 +3,19 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepClass_FClass2dOfFClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FClass2dOfFClassifier.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <BRepClass_Edge.hxx>
-#include <BRepClass_Intersector.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
  
 
 #define TheEdge BRepClass_Edge
-#define TheEdge_hxx <BRepClass_Edge.hxx>
+#define TheEdge_hxx <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #define TheIntersector BRepClass_Intersector
-#define TheIntersector_hxx <BRepClass_Intersector.hxx>
+#define TheIntersector_hxx <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
 #define TopClass_Classifier2d BRepClass_FClass2dOfFClassifier
-#define TopClass_Classifier2d_hxx <BRepClass_FClass2dOfFClassifier.hxx>
+#define TopClass_Classifier2d_hxx <ModelingAlgorithms/BRepClass/BRepClass_FClass2dOfFClassifier.hxx>
 #include <TopClass_Classifier2d.gxx>
 

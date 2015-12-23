@@ -47,7 +47,7 @@
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BRepClass_FaceExplorer.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceExplorer.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 

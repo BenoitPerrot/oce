@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <BRepClass_Intersector.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

@@ -44,10 +44,10 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepClass_FacePassiveClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FacePassiveClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
@@ -61,7 +61,7 @@
 //OCC454(apo)->
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx> 
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 //<-OCC454(apo)
 #include <BRepTopAdaptor_FClass2d.hxx> 
 

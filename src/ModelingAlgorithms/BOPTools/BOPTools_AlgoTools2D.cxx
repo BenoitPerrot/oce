@@ -69,7 +69,7 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 

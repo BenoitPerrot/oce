@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <BRepClass_Edge.hxx>
-#include <BRepClass_FacePassiveClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FacePassiveClassifier.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepBuild_CompositeClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

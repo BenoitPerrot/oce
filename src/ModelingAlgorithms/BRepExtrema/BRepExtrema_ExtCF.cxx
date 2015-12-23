@@ -19,7 +19,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>

@@ -38,7 +38,7 @@
 #include <BRepExtrema_ExtCC.hxx>
 #include <BRepExtrema_ExtCF.hxx>
 #include <BRepExtrema_ExtFF.hxx>
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>

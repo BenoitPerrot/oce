@@ -20,8 +20,8 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <BRepClass_Edge.hxx>
-#include <BRepClass_FaceExplorer.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceExplorer.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

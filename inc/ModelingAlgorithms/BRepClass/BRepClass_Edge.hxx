@@ -56,7 +56,7 @@ private:
 };
 
 
-#include <BRepClass_Edge.lxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.lxx>
 
 
 

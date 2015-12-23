@@ -20,7 +20,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_BlendTool.hxx>
 
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

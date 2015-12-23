@@ -83,8 +83,8 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <TopOpeBRepDS_connex.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <BRepClass_Intersector.hxx>
-#include <BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <IntRes2d_IntersectionSegment.hxx>
 #include <ElCLib.hxx>

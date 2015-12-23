@@ -27,7 +27,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <BRepClass3d_SolidClassifier.hxx>
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>

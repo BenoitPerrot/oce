@@ -31,7 +31,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <BRepFeat_SplitShape.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

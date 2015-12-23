@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRepTool_ShapeClassifier.hxx>
-#include <BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -31,9 +31,9 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <BRepClass_FacePassiveClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FacePassiveClassifier.hxx>
 #include <BRepClass3d_SolidExplorer.hxx>
-#include <BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>

@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 
 
 //=======================================================================

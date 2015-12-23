@@ -3,8 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _BRepClass_FacePassiveClassifier_HeaderFile
-#define _BRepClass_FacePassiveClassifier_HeaderFile
+#ifndef _BRepClass_FClass2dOfFClassifier_HeaderFile
+#define _BRepClass_FClass2dOfFClassifier_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <TopTrans_CurveTransition.hxx>
-#include <BRepClass_Intersector.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
@@ -25,14 +25,14 @@ class gp_Lin2d;
 
 
 
-class BRepClass_FacePassiveClassifier 
+class BRepClass_FClass2dOfFClassifier 
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT BRepClass_FacePassiveClassifier();
+  Standard_EXPORT BRepClass_FClass2dOfFClassifier();
   
   Standard_EXPORT   void Reset (const gp_Lin2d& L, const Standard_Real P, const Standard_Real Tol) ;
   
@@ -77,11 +77,11 @@ private:
 };
 
 #define TheEdge BRepClass_Edge
-#define TheEdge_hxx <BRepClass_Edge.hxx>
+#define TheEdge_hxx <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #define TheIntersector BRepClass_Intersector
-#define TheIntersector_hxx <BRepClass_Intersector.hxx>
-#define TopClass_Classifier2d BRepClass_FacePassiveClassifier
-#define TopClass_Classifier2d_hxx <BRepClass_FacePassiveClassifier.hxx>
+#define TheIntersector_hxx <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
+#define TopClass_Classifier2d BRepClass_FClass2dOfFClassifier
+#define TopClass_Classifier2d_hxx <ModelingAlgorithms/BRepClass/BRepClass_FClass2dOfFClassifier.hxx>
 
 #include <TopClass_Classifier2d.lxx>
 
@@ -95,4 +95,4 @@ private:
 
 
 
-#endif // _BRepClass_FacePassiveClassifier_HeaderFile
+#endif // _BRepClass_FClass2dOfFClassifier_HeaderFile

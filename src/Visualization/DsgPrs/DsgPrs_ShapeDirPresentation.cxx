@@ -39,8 +39,8 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
-#include <BRepClass_FaceClassifier.hxx>
-#include <BRepClass_Edge.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
 #include <Graphic3d_Group.hxx>

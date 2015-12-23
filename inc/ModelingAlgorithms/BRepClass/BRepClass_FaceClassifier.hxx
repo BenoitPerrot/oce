@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepClass_FClassifier.hxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FClassifier.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BRepClass_FaceExplorer;
 class gp_Pnt2d;

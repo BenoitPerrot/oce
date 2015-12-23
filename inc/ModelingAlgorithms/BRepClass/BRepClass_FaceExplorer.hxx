@@ -100,7 +100,7 @@ private:
 };
 
 
-#include <BRepClass_FaceExplorer.lxx>
+#include <ModelingAlgorithms/BRepClass/BRepClass_FaceExplorer.lxx>
 
 
 
