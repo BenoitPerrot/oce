@@ -15,7 +15,7 @@
 
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <QABugs_PresentableObject.hxx>
+#include <Viewer/QABugs/QABugs_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QABugs_PresentableObject)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(QABugs_PresentableObject)
 IMPLEMENT_DOWNCAST(QABugs_PresentableObject,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(QABugs_PresentableObject)
-#include <QABugs_PresentableObject.hxx>
+#include <Viewer/QABugs/QABugs_PresentableObject.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>

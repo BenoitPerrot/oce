@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QABugs.hxx>
+#include <Viewer/QABugs/QABugs.hxx>
 #include <QADraw.hxx>
 #include <QADNaming.hxx>
 //#if defined(WOKC40)

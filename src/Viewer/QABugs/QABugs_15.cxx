@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <QABugs.hxx>
+#include <Viewer/QABugs/QABugs.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
@@ -24,7 +24,7 @@
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
-#include <QABugs_PresentableObject.hxx>
+#include <Viewer/QABugs/QABugs_PresentableObject.hxx>
 
 Handle(QABugs_PresentableObject) theObject1=NULL;
 Handle(QABugs_PresentableObject) theObject2=NULL;

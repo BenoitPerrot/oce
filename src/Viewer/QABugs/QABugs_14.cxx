@@ -15,7 +15,7 @@
 
 #include <stdio.h>
 
-#include <QABugs.hxx>
+#include <Viewer/QABugs/QABugs.hxx>
 
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/DBRep/DBRep.hxx>

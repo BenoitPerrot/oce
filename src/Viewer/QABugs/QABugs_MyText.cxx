@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
-#include <QABugs_MyText.hxx>
+#include <Viewer/QABugs/QABugs_MyText.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QABugs_MyText)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(QABugs_MyText)
 IMPLEMENT_DOWNCAST(QABugs_MyText,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(QABugs_MyText)
-#include <QABugs_MyText.hxx>
+#include <Viewer/QABugs/QABugs_MyText.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>

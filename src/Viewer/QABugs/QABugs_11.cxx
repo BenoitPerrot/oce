@@ -15,7 +15,7 @@
 
 #include <stdio.h>
 
-#include <QABugs.hxx>
+#include <Viewer/QABugs/QABugs.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

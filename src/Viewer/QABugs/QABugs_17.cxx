@@ -15,7 +15,7 @@
 
 #include <stdio.h>
 
-#include <QABugs.hxx>
+#include <Viewer/QABugs/QABugs.hxx>
 
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
@@ -68,7 +68,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
 #include <StdSelect_ShapeTypeFilter.hxx>
-#include <QABugs_MyText.hxx>
+#include <Viewer/QABugs/QABugs_MyText.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
