@@ -17,7 +17,7 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TestTopOpe.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe.hxx>
 
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

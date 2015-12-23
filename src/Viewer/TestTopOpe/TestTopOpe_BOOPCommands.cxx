@@ -17,9 +17,9 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TestTopOpe.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe.hxx>
 
-#include <TestTopOpe_BOOP.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

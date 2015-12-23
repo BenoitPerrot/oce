@@ -59,7 +59,7 @@
 #include <TopOpeBRep_DSFiller.hxx>
 
 #ifdef DRAW
-//#include <TestTopOpe.hxx>
+//#include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #endif
 
 //=======================================================================

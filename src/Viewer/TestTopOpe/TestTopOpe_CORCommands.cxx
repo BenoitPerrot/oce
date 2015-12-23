@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpe.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #include <TopOpeBRepTool_2d.hxx>
 #include <TopOpeBRepTool_C2DF.hxx>
 #include <TopOpeBRepTool_CORRISO.hxx>

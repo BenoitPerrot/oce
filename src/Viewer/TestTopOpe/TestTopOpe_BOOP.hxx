@@ -17,7 +17,7 @@
 #ifndef _TestTopOpe_BOOP_HeaderFile
 #define _TestTopOpe_BOOP_HeaderFile
 
-#include <TestTopOpe_VarsTopo.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe_VarsTopo.hxx>
 #include <TopOpeBRep_DSFiller.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <TopOpeBRep_DSFiller.hxx>

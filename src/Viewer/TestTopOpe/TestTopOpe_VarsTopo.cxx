@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpe_VarsTopo.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe_VarsTopo.hxx>
 #include <TopOpeBRepTool.hxx>
 
 VarsTopo::VarsTopo() : mytolarc(0.), mytoltan(0.)

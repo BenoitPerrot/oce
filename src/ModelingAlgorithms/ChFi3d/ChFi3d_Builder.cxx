@@ -99,7 +99,7 @@
 
 #ifdef DRAW
 #include <TestTopOpeTools.hxx>
-#include <TestTopOpe.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #endif
 #ifdef OCCT_DEBUG
 #include <Foundation/OSD/OSD_Chronometer.hxx>

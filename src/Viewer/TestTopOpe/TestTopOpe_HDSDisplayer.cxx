@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpe_HDSDisplayer.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe_HDSDisplayer.hxx>
 
 #include <TopOpeBRepDS_Curve.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>

@@ -17,11 +17,11 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TestTopOpe.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #include <TestTopOpeTools.hxx>
 #include <TestTopOpeDraw.hxx>
-#include <TestTopOpe_HDSDisplayer.hxx>
-#include <TestTopOpe_BOOP.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe_HDSDisplayer.hxx>
+#include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
 #include <TopOpeBRepDS_DSX.hxx>
 #include <TopOpeBRepDS_Dumper.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
