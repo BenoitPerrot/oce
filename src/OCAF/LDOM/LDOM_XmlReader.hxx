@@ -22,7 +22,7 @@
 //#define XML_BUFFER_SIZE 1000
 #define XML_BUFFER_SIZE 20480
 
-#include <LDOM_BasicElement.hxx>
+#include <OCAF/LDOM/LDOM_BasicElement.hxx>
 
 class TCollection_AsciiString;
 class LDOM_OSStream;

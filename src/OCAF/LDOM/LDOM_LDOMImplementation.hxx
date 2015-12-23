@@ -17,7 +17,7 @@
 #define LDOM_LDOMImplementation_HeaderFile
 
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <LDOM_Document.hxx>
+#include <OCAF/LDOM/LDOM_Document.hxx>
 
 class LDOM_DocumentType;
 

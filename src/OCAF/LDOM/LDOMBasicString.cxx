@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <LDOMBasicString.hxx>
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <errno.h>
@@ -323,7 +323,7 @@ Standard_Boolean LDOMBasicString::GetInteger (Standard_Integer& aResult) const
 //=======================================================================
 // Debug Function for DBX: use "print -p <Variable> or pp <Variable>"
 //=======================================================================
-#include <LDOM_OSStream.hxx>
+#include <OCAF/LDOM/LDOM_OSStream.hxx>
 #define FLITERAL 0x10
 char * db_pretty_print (const LDOMBasicString * aString, int fl, char *)
 {

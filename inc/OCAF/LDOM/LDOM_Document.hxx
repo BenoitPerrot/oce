@@ -16,11 +16,11 @@
 #ifndef LDOM_Document_HeaderFile
 #define LDOM_Document_HeaderFile
 
-#include <LDOM_Element.hxx>
+#include <OCAF/LDOM/LDOM_Element.hxx>
 #include <Handle_LDOM_MemManager.hxx>
-#include <LDOM_Text.hxx>
-#include <LDOM_CDATASection.hxx>
-#include <LDOM_Comment.hxx>
+#include <OCAF/LDOM/LDOM_Text.hxx>
+#include <OCAF/LDOM/LDOM_CDATASection.hxx>
+#include <OCAF/LDOM/LDOM_Comment.hxx>
 
 //  Class LDOM_Document
 

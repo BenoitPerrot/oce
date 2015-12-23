@@ -19,10 +19,10 @@
 //#define LDOM_PARSER_TRACE
 
 #include <LDOMParser.hxx>
-#include <LDOM_MemManager.hxx>
-#include <LDOM_XmlReader.hxx>
-#include <LDOM_BasicText.hxx>
-#include <LDOM_CharReference.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_XmlReader.hxx>
+#include <OCAF/LDOM/LDOM_BasicText.hxx>
+#include <OCAF/LDOM/LDOM_CharReference.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
 #include <fcntl.h>

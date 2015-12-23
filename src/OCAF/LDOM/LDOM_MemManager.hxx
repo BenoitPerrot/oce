@@ -18,7 +18,7 @@
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <LDOM_Document.hxx>
+#include <OCAF/LDOM/LDOM_Document.hxx>
 
 class LDOM_BasicElement;
 

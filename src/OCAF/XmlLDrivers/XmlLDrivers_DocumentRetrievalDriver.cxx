@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #include <XmlObjMgt_Document.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlMDataStd.hxx>
-#include <LDOM_LDOMImplementation.hxx>
-#include <LDOM_DocumentType.hxx>
+#include <OCAF/LDOM/LDOM_LDOMImplementation.hxx>
+#include <OCAF/LDOM/LDOM_DocumentType.hxx>
 #include <LDOMParser.hxx>
 
 #include <TDF_Data.hxx>

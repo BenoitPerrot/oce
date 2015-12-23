@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMFunction_ScopeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMFunction_ScopeDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

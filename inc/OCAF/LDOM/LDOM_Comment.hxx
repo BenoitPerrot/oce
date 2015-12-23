@@ -13,38 +13,39 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#ifndef LDOM_CDATASection_HeaderFile
-#define LDOM_CDATASection_HeaderFile
+#ifndef LDOM_Comment_HeaderFile
+#define LDOM_Comment_HeaderFile
 
-#include <LDOM_Text.hxx>
+#include <OCAF/LDOM/LDOM_CharacterData.hxx>
 
-//  Class LDOM_CDATASection
+//  Class LDOM_Comment
 
-class LDOM_CDATASection : public LDOM_Text
+class LDOM_Comment : public LDOM_CharacterData
 {
  public:
   // ---------- PUBLIC METHODS ----------
 
-  LDOM_CDATASection () {}
+  LDOM_Comment () {}
   // Empty constructor
 
-  LDOM_CDATASection (const LDOM_CDATASection& theOther): LDOM_Text (theOther) {}
+  LDOM_Comment (const LDOM_Comment& theOther) : LDOM_CharacterData (theOther) {}
   // Copy constructor
 
-  LDOM_CDATASection&    operator =      (const LDOM_NullPtr * theNull)
-        { return (LDOM_CDATASection&) LDOM_CharacterData::operator = (theNull);}
+  LDOM_Comment&         operator =      (const LDOM_NullPtr * theNull)
+           { return (LDOM_Comment&) LDOM_CharacterData::operator = (theNull); }
   // Nullify
 
-  LDOM_CDATASection&    operator =      (const LDOM_CDATASection& theOther)
-        { return (LDOM_CDATASection&) LDOM_CharacterData::operator= (theOther);}
+  LDOM_Comment&         operator =      (const LDOM_Comment& theOther)
+           { return (LDOM_Comment&) LDOM_CharacterData::operator = (theOther); }
   // Assignment
 
  protected:
   friend class LDOM_Document;
+  // ---------- PROTECTED METHODS ----------
 
-  LDOM_CDATASection                     (const LDOM_BasicText&          theText,
+  LDOM_Comment                          (const LDOM_BasicText&          theText,
                                          const Handle(LDOM_MemManager)& theDoc)
-    : LDOM_Text (theText, theDoc) {}
+    : LDOM_CharacterData (theText, theDoc) {}
 };
 
 #endif

@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExtStringArrayDriver)
 
 #include <TDataStd_ExtStringArray.hxx>
 
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
 #include <XmlMDataStd.hxx>

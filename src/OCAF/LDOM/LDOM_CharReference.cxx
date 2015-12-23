@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LDOM_CharReference.hxx>
+#include <OCAF/LDOM/LDOM_CharReference.hxx>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

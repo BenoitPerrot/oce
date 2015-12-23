@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LDOM_CharacterData.hxx>
-#include <LDOM_BasicText.hxx>
+#include <OCAF/LDOM/LDOM_CharacterData.hxx>
+#include <OCAF/LDOM/LDOM_BasicText.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================

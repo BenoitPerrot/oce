@@ -1,4 +1,4 @@
-// Created on: 2001-07-26
+// Created on: 2001-09-12
 // Created by: Alexander GRIGORIEV
 // Copyright (c) 2001-2014 OPEN CASCADE SAS
 //
@@ -13,39 +13,38 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#ifndef LDOM_Text_HeaderFile
-#define LDOM_Text_HeaderFile
+#ifndef LDOM_CDATASection_HeaderFile
+#define LDOM_CDATASection_HeaderFile
 
-#include <LDOM_CharacterData.hxx>
+#include <OCAF/LDOM/LDOM_Text.hxx>
 
-//  Class LDOM_Text
+//  Class LDOM_CDATASection
 
-class LDOM_Text : public LDOM_CharacterData
+class LDOM_CDATASection : public LDOM_Text
 {
  public:
   // ---------- PUBLIC METHODS ----------
 
-  LDOM_Text () {}
+  LDOM_CDATASection () {}
   // Empty constructor
 
-  LDOM_Text (const LDOM_Text& anOther) : LDOM_CharacterData (anOther) {}
+  LDOM_CDATASection (const LDOM_CDATASection& theOther): LDOM_Text (theOther) {}
   // Copy constructor
 
-  LDOM_Text&            operator =      (const LDOM_NullPtr * theNull)
-                { return (LDOM_Text&) LDOM_CharacterData::operator= (theNull); }
+  LDOM_CDATASection&    operator =      (const LDOM_NullPtr * theNull)
+        { return (LDOM_CDATASection&) LDOM_CharacterData::operator = (theNull);}
   // Nullify
 
-  LDOM_Text&            operator =      (const LDOM_Text& theOther)
-                { return (LDOM_Text&) LDOM_CharacterData::operator= (theOther);}
+  LDOM_CDATASection&    operator =      (const LDOM_CDATASection& theOther)
+        { return (LDOM_CDATASection&) LDOM_CharacterData::operator= (theOther);}
   // Assignment
 
  protected:
   friend class LDOM_Document;
-  // ---------- PROTECTED METHODS ----------
 
-  LDOM_Text                             (const LDOM_BasicText&          theText,
+  LDOM_CDATASection                     (const LDOM_BasicText&          theText,
                                          const Handle(LDOM_MemManager)& theDoc)
-                                : LDOM_CharacterData (theText, theDoc) {}
+    : LDOM_Text (theText, theDoc) {}
 };
 
 #endif

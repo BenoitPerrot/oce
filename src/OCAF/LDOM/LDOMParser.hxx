@@ -18,8 +18,8 @@
 #ifndef LDOMParser_HeaderFile
 #define LDOMParser_HeaderFile
 
-#include <LDOM_Document.hxx>
-#include <LDOM_OSStream.hxx>
+#include <OCAF/LDOM/LDOM_Document.hxx>
+#include <OCAF/LDOM/LDOM_OSStream.hxx>
 
 class LDOM_XmlReader;
 //class istream;

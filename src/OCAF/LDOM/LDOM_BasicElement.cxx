@@ -15,10 +15,10 @@
 
 //AGV 140202: Replace(const char *) for (LDOMBasicString)=>myTagName
 
-#include <LDOM_BasicElement.hxx>
-#include <LDOM_BasicAttribute.hxx>
-#include <LDOM_BasicText.hxx>
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_BasicElement.hxx>
+#include <OCAF/LDOM/LDOM_BasicAttribute.hxx>
+#include <OCAF/LDOM/LDOM_BasicText.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 
 //=======================================================================
 //function : Create

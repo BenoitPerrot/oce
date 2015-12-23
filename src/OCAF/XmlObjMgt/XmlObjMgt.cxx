@@ -19,7 +19,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <LDOM_Text.hxx>
+#include <OCAF/LDOM/LDOM_Text.hxx>
 
 #include <errno.h>
 #include <stdio.h>

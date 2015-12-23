@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LDOM_LDOMImplementation.hxx>
+#include <OCAF/LDOM/LDOM_LDOMImplementation.hxx>
 
 //=======================================================================
 //function : createDocument

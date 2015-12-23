@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <LDOMString.hxx>
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 
 //=======================================================================
 //function : CreateDirectString

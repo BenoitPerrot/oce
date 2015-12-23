@@ -16,7 +16,7 @@
 #ifndef LDOM_BasicAttribute_HeaderFile
 #define LDOM_BasicAttribute_HeaderFile
 
-#include <LDOM_BasicNode.hxx>
+#include <OCAF/LDOM/LDOM_BasicNode.hxx>
 #include <LDOMBasicString.hxx>
 
 class LDOM_XmlReader;

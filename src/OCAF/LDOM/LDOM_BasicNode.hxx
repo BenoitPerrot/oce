@@ -16,7 +16,7 @@
 #ifndef LDOM_BasicNode_HeaderFile
 #define LDOM_BasicNode_HeaderFile
 
-#include <LDOM_Node.hxx>
+#include <OCAF/LDOM/LDOM_Node.hxx>
 
 class LDOM_BasicElement;
 class LDOM_NullPtr;

@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LDOM_MemManager.hxx>
-#include <LDOM_BasicElement.hxx>
-#include <LDOM_BasicAttribute.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_BasicElement.hxx>
+#include <OCAF/LDOM/LDOM_BasicAttribute.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 

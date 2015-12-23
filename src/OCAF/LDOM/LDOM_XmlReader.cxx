@@ -16,12 +16,12 @@
 //AGV 060302: Input from istream
 //            AGV 130302: bug corr: was error if strlen(root_elem_name) < 7
 
-#include <LDOM_XmlReader.hxx>
+#include <OCAF/LDOM/LDOM_XmlReader.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <LDOM_MemManager.hxx>
-#include <LDOM_BasicAttribute.hxx>
-#include <LDOM_CharReference.hxx>
-#include <LDOM_OSStream.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_BasicAttribute.hxx>
+#include <OCAF/LDOM/LDOM_CharReference.hxx>
+#include <OCAF/LDOM/LDOM_OSStream.hxx>
 
 #include <string.h>
 #include <errno.h>

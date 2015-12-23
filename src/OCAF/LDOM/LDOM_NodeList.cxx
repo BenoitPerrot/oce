@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LDOM_DeclareSequence.hxx>
-#include <LDOM_NodeList.hxx>
-#include <LDOM_BasicNode.hxx>
+#include <OCAF/LDOM/LDOM_DeclareSequence.hxx>
+#include <OCAF/LDOM/LDOM_NodeList.hxx>
+#include <OCAF/LDOM/LDOM_BasicNode.hxx>
 
 typedef const LDOM_BasicNode * LDOM_BasicNodePtr;
 

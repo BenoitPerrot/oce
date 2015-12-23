@@ -18,9 +18,9 @@
 #ifndef LDOM_BasicElement_HeaderFile
 #define LDOM_BasicElement_HeaderFile
 
-#include <LDOM_BasicNode.hxx>
+#include <OCAF/LDOM/LDOM_BasicNode.hxx>
 #include <LDOMBasicString.hxx>
-#include <LDOM_Node.hxx>
+#include <OCAF/LDOM/LDOM_Node.hxx>
 
 class LDOM_XmlReader;
 class LDOMParser;

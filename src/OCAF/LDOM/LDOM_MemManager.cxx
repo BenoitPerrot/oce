@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <LDOMBasicString.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (LDOM_MemManager, MMgt_TShared)

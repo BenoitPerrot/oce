@@ -42,8 +42,8 @@ IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamedShapeDriver)
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <LDOM_Text.hxx>
-#include <LDOM_OSStream.hxx>
+#include <OCAF/LDOM/LDOM_Text.hxx>
+#include <OCAF/LDOM/LDOM_OSStream.hxx>
 
 #include <Foundation/Standard/Standard_SStream.hxx>
 

@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_ReferenceListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ReferenceListDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>

@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_NamedDataDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_NamedDataDriver)
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDataStd_NamedData.hxx>

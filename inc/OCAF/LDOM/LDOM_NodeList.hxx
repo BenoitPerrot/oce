@@ -16,7 +16,7 @@
 #ifndef LDOM_NodeList_HeaderFile
 #define LDOM_NodeList_HeaderFile
 
-#include <LDOM_Node.hxx>
+#include <OCAF/LDOM/LDOM_Node.hxx>
 
 class LDOM_BasicNode;
 class LDOM_BasicNodeSequence;

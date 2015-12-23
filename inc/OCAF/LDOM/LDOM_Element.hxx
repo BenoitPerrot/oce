@@ -16,8 +16,8 @@
 #ifndef LDOM_Element_HeaderFile
 #define LDOM_Element_HeaderFile
 
-#include <LDOM_Attr.hxx>
-#include <LDOM_NodeList.hxx>
+#include <OCAF/LDOM/LDOM_Attr.hxx>
+#include <OCAF/LDOM/LDOM_NodeList.hxx>
 
 class LDOMParser;
 class LDOM_BasicElement;

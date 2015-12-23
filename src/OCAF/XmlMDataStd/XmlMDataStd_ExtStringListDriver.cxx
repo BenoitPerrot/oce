@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExtStringListDriver)
 #include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <XmlObjMgt.hxx>
 #include <XmlObjMgt_Document.hxx>
-#include <LDOM_MemManager.hxx>
+#include <OCAF/LDOM/LDOM_MemManager.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")
 IMPLEMENT_DOMSTRING (LastIndexString,  "last")
