@@ -19,8 +19,8 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <XmlObjMgt_Persistent.hxx>
-#include <TObj_TIntSparseArray.hxx>
-#include <TObj_Assistant.hxx>
+#include <OCAF/TObj/TObj_TIntSparseArray.hxx>
+#include <OCAF/TObj/TObj_Assistant.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 

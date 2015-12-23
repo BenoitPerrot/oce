@@ -15,6 +15,6 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_SequenceOfObject.hxx>
+#include <OCAF/TObj/TObj_SequenceOfObject.hxx>
 
 IMPLEMENT_HSEQUENCE(TObj_HSequenceOfObject)

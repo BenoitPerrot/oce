@@ -18,7 +18,7 @@
 #ifndef XmlTObjDrivers_HeaderFile
 #define XmlTObjDrivers_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 
 class Handle(XmlMDF_ADriverTable);

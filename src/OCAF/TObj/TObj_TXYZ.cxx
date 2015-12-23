@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_TXYZ.hxx>
+#include <OCAF/TObj/TObj_TXYZ.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 

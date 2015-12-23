@@ -18,8 +18,8 @@
 #ifndef TObj_CheckModel_HeaderFile
 #define TObj_CheckModel_HeaderFile
 
-#include <TObj_Common.hxx>
-#include <TObj_Model.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
 #include <Foundation/Message/Message_Algorithm.hxx>
 
 /**

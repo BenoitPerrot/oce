@@ -18,7 +18,7 @@
 #ifndef Handle_TObj_Object_HeaderFile
 #define Handle_TObj_Object_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 
 //!
 //! Definition of the handle of TObj_Object

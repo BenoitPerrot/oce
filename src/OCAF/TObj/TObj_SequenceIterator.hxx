@@ -18,8 +18,8 @@
 #ifndef TObj_SequenceIterator_HeaderFile
 #define TObj_SequenceIterator_HeaderFile
 
-#include <TObj_Container.hxx>
-#include <TObj_ObjectIterator.hxx>
+#include <OCAF/TObj/TObj_Container.hxx>
+#include <OCAF/TObj/TObj_ObjectIterator.hxx>
 
 /**
 * This class is an iterator on sequence

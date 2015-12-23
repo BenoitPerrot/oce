@@ -16,11 +16,11 @@
 #include <TObjDRAW.hxx>
 #include <stdio.h>
 
-#include <TObj_Model.hxx>
-#include <TObj_TModel.hxx>
-#include <TObj_Object.hxx>
-#include <TObj_ObjectIterator.hxx>
-#include <TObj_TNameContainer.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
+#include <OCAF/TObj/TObj_TModel.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
+#include <OCAF/TObj/TObj_ObjectIterator.hxx>
+#include <OCAF/TObj/TObj_TNameContainer.hxx>
 
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>

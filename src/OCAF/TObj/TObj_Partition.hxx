@@ -18,8 +18,8 @@
 #ifndef TObj_Partition_HeaderFile
 #define TObj_Partition_HeaderFile
 
-#include <TObj_Object.hxx>
-#include <TObj_Persistence.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
+#include <OCAF/TObj/TObj_Persistence.hxx>
 
 class Handle(TCollection_HExtendedString);
 class Handle(TObj_Partition);

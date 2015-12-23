@@ -18,7 +18,7 @@
 #ifndef TObj_Assistant_HeaderFile
 #define TObj_Assistant_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 
 class Handle(TObj_Model);
 class TColStd_SequenceOfTransient;

@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_TIntSparseArray.hxx>
+#include <OCAF/TObj/TObj_TIntSparseArray.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_ImmutableObject.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>

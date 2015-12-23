@@ -20,7 +20,7 @@
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
-#include <TObj_TXYZ.hxx>
+#include <OCAF/TObj/TObj_TXYZ.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(BinTObjDrivers_XYZDriver,BinMDF_ADriver)
 IMPLEMENT_STANDARD_RTTIEXT(BinTObjDrivers_XYZDriver,BinMDF_ADriver)

@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_TModel.hxx>
+#include <OCAF/TObj/TObj_TModel.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>

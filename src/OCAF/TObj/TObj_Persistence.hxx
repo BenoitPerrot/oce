@@ -18,7 +18,7 @@
 #ifndef TObj_Persistence_HeaderFile
 #define TObj_Persistence_HeaderFile
 
-#include <TObj_Container.hxx>
+#include <OCAF/TObj/TObj_Container.hxx>
 
 class TDF_Label;
 class Handle(TObj_Object);

@@ -18,7 +18,7 @@
 #ifndef BinTObjDrivers_IntSparseArrayDriver_HeaderFile
 #define BinTObjDrivers_IntSparseArrayDriver_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 
 class BinTObjDrivers_IntSparseArrayDriver : public BinMDF_ADriver 

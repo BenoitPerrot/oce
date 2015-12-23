@@ -18,8 +18,8 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include "XmlTObjDrivers_ObjectDriver.hxx"
-#include <TObj_TObject.hxx>
-#include <TObj_Persistence.hxx>
+#include <OCAF/TObj/TObj_TObject.hxx>
+#include <OCAF/TObj/TObj_Persistence.hxx>
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt.hxx>

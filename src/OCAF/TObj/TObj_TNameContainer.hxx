@@ -18,8 +18,8 @@
 #ifndef TObj_TNameContainer_HeaderFile
 #define TObj_TNameContainer_HeaderFile
 
-#include <TObj_Common.hxx>
-#include <TObj_Container.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Container.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 
 class Handle(TCollection_HExtendedString);

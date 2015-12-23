@@ -18,7 +18,7 @@
 #ifndef TObj_TIntSparseArray_HeaderFile
 #define TObj_TIntSparseArray_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 
 #include <Foundation/NCollection/NCollection_SparseArray.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>

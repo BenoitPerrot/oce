@@ -19,7 +19,7 @@
 #ifndef BinTObjDrivers_ObjectDriver_HeaderFile
 #define BinTObjDrivers_ObjectDriver_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 
 class BinTObjDrivers_ObjectDriver : public BinMDF_ADriver 

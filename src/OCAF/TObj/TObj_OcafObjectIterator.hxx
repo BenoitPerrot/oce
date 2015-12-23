@@ -18,7 +18,7 @@
 #ifndef TObj_OcafObjectIterator_HeaderFile
 #define TObj_OcafObjectIterator_HeaderFile
 
-#include <TObj_LabelIterator.hxx>
+#include <OCAF/TObj/TObj_LabelIterator.hxx>
 
 /**
 * This class provides an iterator by objects in a partition.

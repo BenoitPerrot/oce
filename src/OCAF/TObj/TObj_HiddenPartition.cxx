@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_HiddenPartition.hxx>
+#include <OCAF/TObj/TObj_HiddenPartition.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_HiddenPartition, TObj_Partition)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_HiddenPartition, TObj_Partition)

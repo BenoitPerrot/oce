@@ -25,7 +25,7 @@
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 
-#include <TObj_TXYZ.hxx>
+#include <OCAF/TObj/TObj_TXYZ.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(XmlTObjDrivers_XYZDriver,XmlMDF_ADriver)
 IMPLEMENT_STANDARD_RTTIEXT(XmlTObjDrivers_XYZDriver,XmlMDF_ADriver)

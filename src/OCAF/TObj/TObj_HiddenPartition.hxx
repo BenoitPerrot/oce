@@ -18,7 +18,7 @@
 #ifndef TObj_HiddenPartition_HeaderFile
 #define TObj_HiddenPartition_HeaderFile
 
-#include <TObj_Partition.hxx>
+#include <OCAF/TObj/TObj_Partition.hxx>
 
 /**
  * This class is partition is predefined hidden flag

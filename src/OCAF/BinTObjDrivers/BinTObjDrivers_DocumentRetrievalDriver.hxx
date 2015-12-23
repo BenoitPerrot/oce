@@ -18,7 +18,7 @@
 #ifndef BinTObjDrivers_DocumentRetrievalDriver_HeaderFile
 #define BinTObjDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentRetrievalDriver.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriverTable.hxx>
 

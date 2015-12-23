@@ -18,9 +18,9 @@
 #ifndef TObj_Object_HeaderFile
 #define TObj_Object_HeaderFile
 
-#include <TObj_Common.hxx>
-#include <TObj_DeletingMode.hxx>
-#include <TObj_SequenceOfObject.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
+#include <OCAF/TObj/TObj_DeletingMode.hxx>
+#include <OCAF/TObj/TObj_SequenceOfObject.hxx>
 #include <Handle_TObj_Model.hxx>
 #include <Handle_TObj_Object.hxx>
 

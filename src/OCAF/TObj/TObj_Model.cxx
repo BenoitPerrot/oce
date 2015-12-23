@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_Model.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
 
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Precision.hxx>
@@ -29,17 +29,17 @@
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDocStd/TDocStd_Owner.hxx>
 
-#include <TObj_Assistant.hxx>
-#include <TObj_Application.hxx>
-#include <TObj_CheckModel.hxx>
-#include <TObj_HiddenPartition.hxx>
-#include <TObj_LabelIterator.hxx>
-#include <TObj_ModelIterator.hxx>
-#include <TObj_Object.hxx>
-#include <TObj_Partition.hxx>
-#include <TObj_TObject.hxx>
-#include <TObj_TModel.hxx>
-#include <TObj_TNameContainer.hxx>
+#include <OCAF/TObj/TObj_Assistant.hxx>
+#include <OCAF/TObj/TObj_Application.hxx>
+#include <OCAF/TObj/TObj_CheckModel.hxx>
+#include <OCAF/TObj/TObj_HiddenPartition.hxx>
+#include <OCAF/TObj/TObj_LabelIterator.hxx>
+#include <OCAF/TObj/TObj_ModelIterator.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
+#include <OCAF/TObj/TObj_Partition.hxx>
+#include <OCAF/TObj/TObj_TObject.hxx>
+#include <OCAF/TObj/TObj_TModel.hxx>
+#include <OCAF/TObj/TObj_TNameContainer.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 

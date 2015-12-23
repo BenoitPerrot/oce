@@ -18,7 +18,7 @@
 #ifndef BinTObjDrivers_HeaderFile
 #define BinTObjDrivers_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 
 class Handle(BinMDF_ADriverTable);

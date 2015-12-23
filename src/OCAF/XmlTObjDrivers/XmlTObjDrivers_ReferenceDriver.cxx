@@ -26,10 +26,10 @@
 #include <XmlObjMgt_Persistent.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 
-#include <TObj_TReference.hxx>
-#include <TObj_Model.hxx>
-#include <TObj_Object.hxx>
-#include <TObj_Assistant.hxx>
+#include <OCAF/TObj/TObj_TReference.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
+#include <OCAF/TObj/TObj_Assistant.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 
 

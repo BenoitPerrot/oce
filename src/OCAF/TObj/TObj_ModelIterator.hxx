@@ -18,9 +18,9 @@
 #ifndef TObj_ModelIterator_HeaderFile
 #define TObj_ModelIterator_HeaderFile
 
-#include <TObj_Object.hxx>
-#include <TObj_ObjectIterator.hxx>
-#include <TObj_SequenceOfIterator.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
+#include <OCAF/TObj/TObj_ObjectIterator.hxx>
+#include <OCAF/TObj/TObj_SequenceOfIterator.hxx>
 
 class Handle(TObj_Model);
 

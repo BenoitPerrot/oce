@@ -18,11 +18,11 @@
 #ifndef TObj_LabelIterator_HeaderFile
 #define TObj_LabelIterator_HeaderFile
 
-#include <TObj_Object.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <TObj_ObjectIterator.hxx>
+#include <OCAF/TObj/TObj_ObjectIterator.hxx>
 
 /**
 * This class is a basis for OCAF based iterators.

@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_LabelIterator.hxx>
+#include <OCAF/TObj/TObj_LabelIterator.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_LabelIterator,TObj_ObjectIterator)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_LabelIterator,TObj_ObjectIterator)

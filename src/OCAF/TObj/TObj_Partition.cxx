@@ -15,10 +15,10 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_Partition.hxx>
+#include <OCAF/TObj/TObj_Partition.hxx>
 
-#include <TObj_Model.hxx>
-#include <TObj_TNameContainer.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
+#include <OCAF/TObj/TObj_TNameContainer.hxx>
 
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 

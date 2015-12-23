@@ -21,9 +21,9 @@
 #include <OCAF/TDF/TDF_Tool.hxx>
 
 #include <OCAF/BinTObjDrivers/BinTObjDrivers_ObjectDriver.hxx>
-#include <TObj_Assistant.hxx>
-#include <TObj_TObject.hxx>
-#include <TObj_Persistence.hxx>
+#include <OCAF/TObj/TObj_Assistant.hxx>
+#include <OCAF/TObj/TObj_TObject.hxx>
+#include <OCAF/TObj/TObj_Persistence.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(BinTObjDrivers_ObjectDriver,BinMDF_ADriver)
 IMPLEMENT_STANDARD_RTTIEXT(BinTObjDrivers_ObjectDriver,BinMDF_ADriver);

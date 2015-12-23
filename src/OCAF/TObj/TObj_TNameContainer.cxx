@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_TNameContainer.hxx>
+#include <OCAF/TObj/TObj_TNameContainer.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_TNameContainer,TDF_Attribute)

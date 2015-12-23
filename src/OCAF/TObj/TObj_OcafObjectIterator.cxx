@@ -15,8 +15,8 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_OcafObjectIterator.hxx>
-#include <TObj_Object.hxx>
+#include <OCAF/TObj/TObj_OcafObjectIterator.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
 
 
 IMPLEMENT_STANDARD_HANDLE(TObj_OcafObjectIterator,TObj_LabelIterator)

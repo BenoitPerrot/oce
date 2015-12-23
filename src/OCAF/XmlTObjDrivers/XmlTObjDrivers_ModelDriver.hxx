@@ -18,7 +18,7 @@
 #ifndef XmlTObjDrivers_ModelDriver_HeaderFile
 #define XmlTObjDrivers_ModelDriver_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 #include <XmlMDF_ADriver.hxx>
 
 class XmlTObjDrivers_ModelDriver : public XmlMDF_ADriver 

@@ -18,7 +18,7 @@
 #ifndef TObj_TXYZ_HeaderFile
 #define TObj_TXYZ_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>

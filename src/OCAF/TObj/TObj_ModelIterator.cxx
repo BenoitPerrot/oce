@@ -15,9 +15,9 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_ModelIterator.hxx>
+#include <OCAF/TObj/TObj_ModelIterator.hxx>
 
-#include <TObj_Model.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(TObj_ModelIterator,TObj_ObjectIterator)
 IMPLEMENT_STANDARD_RTTIEXT(TObj_ModelIterator,TObj_ObjectIterator)

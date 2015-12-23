@@ -19,11 +19,11 @@
 #include <OCAF/BinTObjDrivers/BinTObjDrivers_ReferenceDriver.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <TObj_TReference.hxx>
+#include <OCAF/TObj/TObj_TReference.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
-#include <TObj_Object.hxx>
-#include <TObj_Model.hxx>
-#include <TObj_Assistant.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
+#include <OCAF/TObj/TObj_Assistant.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 

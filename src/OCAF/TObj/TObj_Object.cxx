@@ -15,21 +15,21 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_Object.hxx>
+#include <OCAF/TObj/TObj_Object.hxx>
 
-#include <TObj_Assistant.hxx>
-#include <TObj_LabelIterator.hxx>
-#include <TObj_Model.hxx>
-#include <TObj_ObjectIterator.hxx>
-#include <TObj_OcafObjectIterator.hxx>
-#include <TObj_Persistence.hxx>
-#include <TObj_ReferenceIterator.hxx>
-#include <TObj_SequenceIterator.hxx>
+#include <OCAF/TObj/TObj_Assistant.hxx>
+#include <OCAF/TObj/TObj_LabelIterator.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
+#include <OCAF/TObj/TObj_ObjectIterator.hxx>
+#include <OCAF/TObj/TObj_OcafObjectIterator.hxx>
+#include <OCAF/TObj/TObj_Persistence.hxx>
+#include <OCAF/TObj/TObj_ReferenceIterator.hxx>
+#include <OCAF/TObj/TObj_SequenceIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_AsciiString.hxx>
-#include <TObj_TModel.hxx>
-#include <TObj_TNameContainer.hxx>
-#include <TObj_TObject.hxx>
-#include <TObj_TReference.hxx>
+#include <OCAF/TObj/TObj_TModel.hxx>
+#include <OCAF/TObj/TObj_TNameContainer.hxx>
+#include <OCAF/TObj/TObj_TObject.hxx>
+#include <OCAF/TObj/TObj_TReference.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

@@ -25,9 +25,9 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 
-#include <TObj_TModel.hxx>
-#include <TObj_Model.hxx>
-#include <TObj_Assistant.hxx>
+#include <OCAF/TObj/TObj_TModel.hxx>
+#include <OCAF/TObj/TObj_Model.hxx>
+#include <OCAF/TObj/TObj_Assistant.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(XmlTObjDrivers_ModelDriver,XmlMDF_ADriver)
 IMPLEMENT_STANDARD_RTTIEXT(XmlTObjDrivers_ModelDriver,XmlMDF_ADriver);

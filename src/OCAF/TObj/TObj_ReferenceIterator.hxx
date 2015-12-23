@@ -18,7 +18,7 @@
 #ifndef TObj_ReferenceIterator_HeaderFile
 #define TObj_ReferenceIterator_HeaderFile
 
-#include <TObj_LabelIterator.hxx>
+#include <OCAF/TObj/TObj_LabelIterator.hxx>
 
 /**
 * This class provides an iterator by references of the object

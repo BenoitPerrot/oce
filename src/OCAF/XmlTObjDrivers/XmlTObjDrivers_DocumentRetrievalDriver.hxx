@@ -18,7 +18,7 @@
 #ifndef XmlTObjDrivers_DocumentRetrievalDriver_HeaderFile
 #define XmlTObjDrivers_DocumentRetrievalDriver_HeaderFile
 
-#include <TObj_Common.hxx>
+#include <OCAF/TObj/TObj_Common.hxx>
 #include <XmlLDrivers_DocumentRetrievalDriver.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 

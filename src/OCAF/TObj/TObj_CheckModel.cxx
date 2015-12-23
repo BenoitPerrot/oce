@@ -15,9 +15,9 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_CheckModel.hxx>
+#include <OCAF/TObj/TObj_CheckModel.hxx>
 
-#include <TObj_ObjectIterator.hxx>
+#include <OCAF/TObj/TObj_ObjectIterator.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_Status.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

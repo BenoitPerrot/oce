@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <TObj_Application.hxx>
+#include <OCAF/TObj/TObj_Application.hxx>
 
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
