@@ -38,7 +38,7 @@
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

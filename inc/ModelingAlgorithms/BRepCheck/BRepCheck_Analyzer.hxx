@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepCheck_DataMapOfShapeResult.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_DataMapOfShapeResult.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_BRepCheck_Result.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
@@ -146,7 +146,7 @@ private:
 };
 
 
-#include <BRepCheck_Analyzer.lxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.lxx>
 
 
 

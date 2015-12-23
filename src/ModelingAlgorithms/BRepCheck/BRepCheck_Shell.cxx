@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Shell)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,8 +29,8 @@ IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Shell)
 IMPLEMENT_DOWNCAST(BRepCheck_Shell,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 
-#include <BRepCheck_ListOfStatus.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

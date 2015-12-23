@@ -12,9 +12,9 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepCheck_Status.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 class TopoDS_Shell;
 class TopoDS_Shape;
 class TopTools_ListOfShape;

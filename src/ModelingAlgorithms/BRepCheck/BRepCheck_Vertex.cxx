@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepCheck_Vertex.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Vertex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Vertex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Vertex)
 IMPLEMENT_DOWNCAST(BRepCheck_Vertex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepCheck_Vertex)
 
-#include <BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Vertex)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 

@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <BRepGProp.hxx>
-#include <BRepCheck_Shell.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -48,9 +48,9 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <Precision.hxx>
-#include <BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 #include <BRepPrimAPI_MakeCylinder.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>

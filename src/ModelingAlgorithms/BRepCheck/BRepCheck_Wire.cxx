@@ -27,7 +27,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Wire)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Wire)
 IMPLEMENT_DOWNCAST(BRepCheck_Wire,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
-#include <BRepCheck_ListOfStatus.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
@@ -69,7 +69,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfOrientedShape.hxx>

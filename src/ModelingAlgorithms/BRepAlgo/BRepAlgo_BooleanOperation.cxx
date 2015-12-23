@@ -38,9 +38,9 @@
 //  sewing
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Sewing.hxx>
-#include <BRepCheck.hxx>
-#include <BRepCheck_Edge.hxx>
-#include <BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
 
 #include <TopOpeBRepDS_DSX.hxx>
 

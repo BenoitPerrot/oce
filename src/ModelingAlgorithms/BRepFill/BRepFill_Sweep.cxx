@@ -123,7 +123,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
 //OCC500(apo)
-#include <BRepCheck_Edge.hxx>  
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>  
 
 #ifdef DRAW
 #include <Draw.hxx>

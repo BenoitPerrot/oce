@@ -74,7 +74,7 @@
 
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
-#include <BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 
 static 
   void CheckEdge (const TopoDS_Edge& E,

@@ -16,8 +16,8 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepCheck_ListOfStatus.hxx>
-#include <BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Result)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Result)
 IMPLEMENT_DOWNCAST(BRepCheck_Result,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepCheck_Result)
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 
 
 //=======================================================================

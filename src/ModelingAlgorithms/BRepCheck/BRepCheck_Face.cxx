@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepCheck_Face.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Face.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Face)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,8 +28,8 @@ IMPLEMENT_STANDARD_TYPE_END(BRepCheck_Face)
 IMPLEMENT_DOWNCAST(BRepCheck_Face,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 
-#include <BRepCheck_ListOfStatus.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 
 #include <ModelingData/BRep/BRep_TFace.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 
 
 
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

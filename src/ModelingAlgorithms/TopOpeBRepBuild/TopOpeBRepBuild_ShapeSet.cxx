@@ -20,7 +20,7 @@
 #include <TopOpeBRepBuild_ShapeSet.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 #ifdef DRAW

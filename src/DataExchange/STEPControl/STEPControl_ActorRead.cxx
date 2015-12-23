@@ -146,8 +146,8 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_ActorRead)
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BRepCheck_Shell.hxx>
-#include <BRepCheck_Status.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BRepCheck_Status.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class BRepCheck_ListOfStatus;

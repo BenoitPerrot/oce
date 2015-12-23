@@ -14,14 +14,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
-#include <BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

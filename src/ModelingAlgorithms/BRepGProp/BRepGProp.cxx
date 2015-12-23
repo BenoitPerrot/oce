@@ -25,7 +25,7 @@
 #include <ModelingData/TopTools/TopTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>  
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #ifdef OCCT_DEBUG
 static Standard_Integer AffichEps = 0;

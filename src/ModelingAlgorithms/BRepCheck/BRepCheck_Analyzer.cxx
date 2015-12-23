@@ -17,15 +17,15 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepCheck_Result.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 
-#include <BRepCheck_Vertex.hxx>
-#include <BRepCheck_Edge.hxx>
-#include <BRepCheck_Wire.hxx>
-#include <BRepCheck_Face.hxx>
-#include <BRepCheck_Shell.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Vertex.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Face.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

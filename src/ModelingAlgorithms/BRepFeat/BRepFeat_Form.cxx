@@ -53,7 +53,7 @@
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <BRepFeat.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

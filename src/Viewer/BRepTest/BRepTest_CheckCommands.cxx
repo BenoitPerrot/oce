@@ -16,9 +16,9 @@
 
 #include <BRepTest.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
-#include <BRepCheck_Analyzer.hxx>
-#include <BRepCheck_Result.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
@@ -28,8 +28,8 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <DBRep_DrawableShape.hxx>
 #include <Draw_SequenceOfDrawable3D.hxx>
-#include <BRepCheck.hxx>
-#include <BRepCheck_Edge.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>

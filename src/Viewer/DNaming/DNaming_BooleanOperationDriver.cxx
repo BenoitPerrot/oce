@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <TFunction_Logbook.hxx>
 #include <TNaming.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
@@ -58,9 +58,9 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <BRepLib.hxx>
 #include <Precision.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
-#include <BRepCheck_Result.hxx>
-#include <BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <GeomAbs_SurfaceType.hxx>

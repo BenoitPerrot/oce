@@ -11,9 +11,9 @@
 #include <Handle_BRepCheck_Wire.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepCheck_Status.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 class TopoDS_Wire;
 class TopoDS_Shape;
 class TopoDS_Face;

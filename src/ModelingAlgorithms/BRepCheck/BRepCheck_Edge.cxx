@@ -18,7 +18,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BRepCheck_Edge.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BRepCheck_Edge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <BRepCheck_ListOfStatus.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>
@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Edge)
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

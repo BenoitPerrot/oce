@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepCheck_Vertex.hxx>
 
-#include <BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Vertex;
 class TopoDS_Shape;

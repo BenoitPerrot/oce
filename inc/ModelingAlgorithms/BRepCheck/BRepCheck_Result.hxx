@@ -12,8 +12,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepCheck_DataMapOfShapeListOfStatus.hxx>
-#include <BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_DataMapOfShapeListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
@@ -82,7 +82,7 @@ private:
 };
 
 
-#include <BRepCheck_Result.lxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.lxx>
 
 
 

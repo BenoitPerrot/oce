@@ -29,7 +29,7 @@
 #include <BRepLib_FindSurface.hxx>
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
-#include <BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 #include <BRepExtrema_DistShapeShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>

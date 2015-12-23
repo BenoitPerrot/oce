@@ -20,12 +20,12 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 
-#include <BRepCheck.hxx>
-#include <BRepCheck_Analyzer.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
-#include <BRepCheck_ListOfStatus.hxx>
-#include <BRepCheck_Result.hxx>
-#include <BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
 #include <BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

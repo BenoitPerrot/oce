@@ -13,9 +13,9 @@
 #include <Handle_BRep_CurveRepresentation.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepCheck_Status.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 class BRep_CurveRepresentation;
 class Adaptor3d_HCurve;
 class TopoDS_Edge;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <BRepCheck_Status.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 #include <Handle_BRepCheck_ListNodeOfListOfStatus.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
@@ -61,15 +61,15 @@ private:
 };
 
 #define Item BRepCheck_Status
-#define Item_hxx <BRepCheck_Status.hxx>
+#define Item_hxx <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 #define TCollection_ListNode BRepCheck_ListNodeOfListOfStatus
-#define TCollection_ListNode_hxx <BRepCheck_ListNodeOfListOfStatus.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/BRepCheck/BRepCheck_ListNodeOfListOfStatus.hxx>
 #define TCollection_ListIterator BRepCheck_ListIteratorOfListOfStatus
-#define TCollection_ListIterator_hxx <BRepCheck_ListIteratorOfListOfStatus.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 #define Handle_TCollection_ListNode Handle_BRepCheck_ListNodeOfListOfStatus
 #define TCollection_ListNode_Type_() BRepCheck_ListNodeOfListOfStatus_Type_()
 #define TCollection_List BRepCheck_ListOfStatus
-#define TCollection_List_hxx <BRepCheck_ListOfStatus.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 

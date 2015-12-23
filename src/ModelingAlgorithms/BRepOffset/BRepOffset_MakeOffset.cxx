@@ -43,8 +43,8 @@
 
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepCheck_Edge.hxx>
-#include <BRepCheck_Vertex.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Vertex.hxx>
 #include <BRepLib.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

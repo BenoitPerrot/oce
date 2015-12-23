@@ -18,7 +18,7 @@
 #include <QANewModTopOpe.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -32,11 +32,11 @@
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
-#include <BRepCheck_Result.hxx>
-#include <BRepCheck.hxx>
-#include <BRepCheck_Shell.hxx>
-#include <BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Shell.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 

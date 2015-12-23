@@ -57,14 +57,14 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <BRepCheck_Wire.hxx>
-#include <BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 //#include <DBRep.hxx>
-#include <BRepCheck_Analyzer.hxx>
-#include <BRepCheck_ListIteratorOfListOfStatus.hxx>
-#include <BRepCheck.hxx>
-#include <BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepBuild_GettraceSPS();
