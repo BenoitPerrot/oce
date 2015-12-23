@@ -17,7 +17,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <BRepLProp_SurfaceTool.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_SurfaceTool.hxx>
 
 //=======================================================================
 //function : Value

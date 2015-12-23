@@ -21,7 +21,7 @@
 
 #include <TopOpeBRepDS_CurvePointInterference.hxx>
 #include <TopOpeBRepDS_EdgeVertexInterference.hxx>
-#include <BRepLProp_CLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <TopoDS_Iterator.hxx>
 #include <Precision.hxx>

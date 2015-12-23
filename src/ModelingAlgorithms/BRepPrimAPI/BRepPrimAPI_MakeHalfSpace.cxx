@@ -24,7 +24,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <BRepExtrema_ExtPF.hxx>
-#include <BRepLProp_SLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <TopExp_Explorer.hxx>

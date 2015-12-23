@@ -37,7 +37,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <BRepLProp.hxx>
+#include <ModelingData/BRepLProp/BRepLProp.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>
 #include <TopoDS_Face.hxx>

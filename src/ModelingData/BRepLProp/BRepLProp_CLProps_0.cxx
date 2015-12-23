@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <BRepLProp_CLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 
 #include <Geometry/LProp/LProp_BadContinuity.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <BRepLProp_CurveTool.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CurveTool.hxx>
  
 
 #define Curve BRepAdaptor_Curve
@@ -25,8 +25,8 @@
 #define Dir gp_Dir
 #define Dir_hxx <Mathematics/Primitives/gp_Dir.hxx>
 #define Tool BRepLProp_CurveTool
-#define Tool_hxx <BRepLProp_CurveTool.hxx>
+#define Tool_hxx <ModelingData/BRepLProp/BRepLProp_CurveTool.hxx>
 #define LProp_CLProps BRepLProp_CLProps
-#define LProp_CLProps_hxx <BRepLProp_CLProps.hxx>
+#define LProp_CLProps_hxx <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <Geometry/LProp/LProp_CLProps.gxx>
 

@@ -58,7 +58,7 @@
 #include <BRepTools_Modifier.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <BRepLProp.hxx>
+#include <ModelingData/BRepLProp/BRepLProp.hxx>
 
 #include <BRepMAT2d_LinkTopoBilo.hxx>
 #include <BRepMAT2d_BisectingLocus.hxx>

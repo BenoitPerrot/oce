@@ -23,7 +23,7 @@
 #include <BRepSweep_Iterator.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepLProp.hxx>
+#include <ModelingData/BRepLProp/BRepLProp.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <TopoDS.hxx>
 #include <TopoDS_Vertex.hxx>

@@ -90,7 +90,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <BRepTopAdaptor_TopolTool.hxx>
-#include <BRepLProp_SLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 
 #include <TopAbs.hxx>

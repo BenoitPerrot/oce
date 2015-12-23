@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <BRepLProp.hxx>
+#include <ModelingData/BRepLProp/BRepLProp.hxx>
 
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>

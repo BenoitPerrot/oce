@@ -58,7 +58,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfReal.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
-#include <BRepLProp_CLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>

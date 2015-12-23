@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <BRepLProp.hxx>
+#include <ModelingData/BRepLProp/BRepLProp.hxx>
 #include <Precision.hxx>
-#include <BRepLProp_CLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <TopoDS_Edge.hxx>

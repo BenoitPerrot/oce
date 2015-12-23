@@ -62,7 +62,7 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
-#include <BRepLProp_CLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

@@ -42,7 +42,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <BRepTools.hxx>
 #include <TopExp_Explorer.hxx>
-#include <BRepLProp_CLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CLProps.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_2d.hxx>

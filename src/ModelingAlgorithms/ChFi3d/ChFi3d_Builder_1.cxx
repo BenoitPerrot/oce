@@ -64,7 +64,7 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <BRepLProp_SLProps.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 
 #include <TopAbs.hxx>
 #include <TopAbs_ShapeEnum.hxx>

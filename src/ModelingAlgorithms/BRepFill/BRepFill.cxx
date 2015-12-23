@@ -77,7 +77,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <GeomFill_Generator.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <BRepLProp.hxx>
+#include <ModelingData/BRepLProp/BRepLProp.hxx>
 #include <BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <Geometry/GProp/GProp_PrincipalProps.hxx>

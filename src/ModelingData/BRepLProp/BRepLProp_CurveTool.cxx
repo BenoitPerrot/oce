@@ -17,7 +17,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <BRepLProp_CurveTool.hxx>
+#include <ModelingData/BRepLProp/BRepLProp_CurveTool.hxx>
 
 //=======================================================================
 //function : Value
