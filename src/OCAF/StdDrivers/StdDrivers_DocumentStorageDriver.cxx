@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(StdDrivers_DocumentStorageDriver)
 
 #include <TNaming_Tool.hxx>
 #include <TNaming_NamedShape.hxx>
-#include <PDocStd_Document.hxx>
+#include <OCAF/PDocStd/PDocStd_Document.hxx>
 #include <TDocStd_Document.hxx>
 
 #include <TDF_Label.hxx>

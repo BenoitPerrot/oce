@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/MDF/MDF_ARDriverTable.hxx>
-#include <PDocStd_Document.hxx>
+#include <OCAF/PDocStd/PDocStd_Document.hxx>
 #include <TDocStd_Document.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/PCDM/PCDM_Document.hxx>
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentRetrievalDriver)
 #include <TDocStd_Document.hxx>
 #include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <PDocStd_Document.hxx>
+#include <OCAF/PDocStd/PDocStd_Document.hxx>
 #include <TDF_Data.hxx> 
 #include <TDocStd_Owner.hxx>
 

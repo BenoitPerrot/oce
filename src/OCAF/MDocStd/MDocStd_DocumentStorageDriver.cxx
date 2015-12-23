@@ -14,7 +14,7 @@
 #include <OCAF/MDF/MDF_ASDriverTable.hxx>
 #include <OCAF/PCDM/PCDM_Document.hxx>
 #include <TDocStd_Document.hxx>
-#include <PDocStd_Document.hxx>
+#include <OCAF/PDocStd/PDocStd_Document.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentStorageDriver)
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
 #include <OCAF/MDF/MDF_TypeASDriverMap.hxx>
 #include <OCAF/PDF/PDF_Data.hxx>
-#include <PDocStd_Document.hxx>
+#include <OCAF/PDocStd/PDocStd_Document.hxx>
 
 #include <TDF_Tool.hxx>
 #include <UTL.hxx>

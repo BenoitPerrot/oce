@@ -2,7 +2,7 @@
 #include <StdLSchema_PDocStd_Document.hxx>
 #endif
 #ifndef _PDocStd_Document_HeaderFile
-#include <PDocStd_Document.hxx>
+#include <OCAF/PDocStd/PDocStd_Document.hxx>
 #endif
 #ifndef _StdLSchema_PDF_Data_HeaderFile
 #include <StdLSchema_PDF_Data.hxx>
