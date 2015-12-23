@@ -17,7 +17,7 @@
 #define BinLDrivers_VectorOfDocumentSection_H
 
 #include <Foundation/NCollection/NCollection_Vector.hxx>
-#include <BinLDrivers_DocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
 
 /// Collection of BinLDrivers_DocumentSection
 typedef NCollection_Vector <BinLDrivers_DocumentSection>

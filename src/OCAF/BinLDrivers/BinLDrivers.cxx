@@ -18,15 +18,15 @@
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BinLDrivers.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers.hxx>
 #include <BinMDF.hxx>
 #include <BinMDataStd.hxx>
 #include <BinMFunction.hxx>
 //#include <BinMNaming.hxx>
 #include <BinMDocStd.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <BinLDrivers_DocumentStorageDriver.hxx>
-#include <BinLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Plugin/Plugin_Macro.hxx>
 
 static Standard_GUID BinLStorageDriver  ("13a56835-8269-11d5-aab2-0050044b1af1");

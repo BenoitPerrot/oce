@@ -15,7 +15,7 @@
 #include <BinObjMgt_RRelocationTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
-#include <BinLDrivers_VectorOfDocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_VectorOfDocumentSection.hxx>
 #include <PCDM_RetrievalDriver.hxx>
 #include <Handle_PCDM_Document.hxx>
 #include <Handle_CDM_Document.hxx>

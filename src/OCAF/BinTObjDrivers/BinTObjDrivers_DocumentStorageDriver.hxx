@@ -19,7 +19,7 @@
 #define BinTObjDrivers_DocumentStorageDriver_HeaderFile
 
 #include <TObj_Common.hxx>
-#include <BinLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentStorageDriver.hxx>
 #include <BinMDF_ADriverTable.hxx>
 
 class Handle(CDM_MessageDriver);

@@ -15,7 +15,7 @@
 
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinLDrivers_DocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
 #include <OCAF/BinDrivers/BinDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinDrivers_DocumentStorageDriver)

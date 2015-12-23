@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BinLDrivers_DocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
 #include <Foundation/FSD/FSD_FileHeader.hxx>
 
 //=======================================================================

@@ -22,8 +22,8 @@
 #include <TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Storage/Storage_HeaderData.hxx>
-#include <BinLDrivers_DocumentSection.hxx>
-#include <BinLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,8 +34,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_DOWNCAST(BinLDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
-#include <BinLDrivers.hxx>
-#include <BinLDrivers_Marker.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_Marker.hxx>
 #include <BinMDF_ADriver.hxx>
 #include <BinMDataStd.hxx>
 #include <BinObjMgt_Persistent.hxx>

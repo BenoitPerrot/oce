@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BinDrivers_DocumentStorageDriver.hxx>
 
-#include <BinLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentStorageDriver.hxx>
 #include <Handle_BinMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

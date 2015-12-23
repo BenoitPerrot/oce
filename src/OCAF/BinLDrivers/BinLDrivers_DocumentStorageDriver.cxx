@@ -19,10 +19,10 @@
 #include <CDM_Document.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <BinLDrivers_DocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
 #include <TDF_LabelList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <BinLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinLDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,8 +33,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BinLDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(BinLDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
-#include <BinLDrivers.hxx>
-#include <BinLDrivers_Marker.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_Marker.hxx>
 #include <BinMDF_ADriver.hxx>
 #include <BinObjMgt_Persistent.hxx>
 #include <CDM_Application.hxx>

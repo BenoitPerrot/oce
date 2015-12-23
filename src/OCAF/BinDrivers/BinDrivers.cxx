@@ -19,7 +19,7 @@
 #include <CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/BinDrivers/BinDrivers.hxx>
-#include <BinLDrivers.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers.hxx>
 #include <BinMDF.hxx>
 #include <BinMDataStd.hxx>
 #include <BinMDataXtd.hxx>

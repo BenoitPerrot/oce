@@ -15,7 +15,7 @@
 
 #include <BinMDF_ADriverTable.hxx>
 #include <CDM_MessageDriver.hxx>
-#include <BinLDrivers_DocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
 #include <OCAF/BinDrivers/BinDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(BinDrivers_DocumentRetrievalDriver)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(BinDrivers_DocumentRetrievalDriver)
 IMPLEMENT_DOWNCAST(BinDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinDrivers_DocumentRetrievalDriver)
 #include <OCAF/BinDrivers/BinDrivers.hxx>
-#include <BinLDrivers_DocumentSection.hxx>
+#include <OCAF/BinLDrivers/BinLDrivers_DocumentSection.hxx>
 #include <BinMNaming.hxx>
 #include <BinMNaming_NamedShapeDriver.hxx>
 #include <TNaming_NamedShape.hxx>
