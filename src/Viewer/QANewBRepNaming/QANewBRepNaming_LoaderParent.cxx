@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <QANewBRepNaming_LoaderParent.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_LoaderParent.hxx>
 
 #include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

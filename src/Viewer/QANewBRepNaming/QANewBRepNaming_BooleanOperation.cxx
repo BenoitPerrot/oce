@@ -16,8 +16,8 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperation.hxx>
-#include <QANewBRepNaming_BooleanOperation.hxx>
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_BooleanOperation.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 

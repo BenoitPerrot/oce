@@ -34,12 +34,12 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
-#include <QANewBRepNaming_Box.hxx>
-#include <QANewBRepNaming_Cylinder.hxx>
-#include <QANewBRepNaming_Sphere.hxx>
-#include <QANewBRepNaming_Prism.hxx>
-#include <QANewBRepNaming_Revol.hxx>
-#include <QANewBRepNaming_ImportShape.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Box.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Cylinder.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Sphere.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Prism.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Revol.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_ImportShape.hxx>
 
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSphere.hxx>
@@ -60,9 +60,9 @@
 
 #include <Viewer/QADNaming/QADNaming.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
-#include <QANewBRepNaming_Fillet.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Fillet.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeChamfer.hxx>
-#include <QANewBRepNaming_Chamfer.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Chamfer.hxx>
 
 //=======================================================================
 //function : QANewDBRepNaming_NameBox

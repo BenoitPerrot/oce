@@ -48,7 +48,7 @@ private:
 };
 
 
-#include <QANewBRepNaming_TopNaming.lxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_TopNaming.lxx>
 
 
 

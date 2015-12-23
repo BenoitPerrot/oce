@@ -3,29 +3,29 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _QANewBRepNaming_Fuse_HeaderFile
-#define _QANewBRepNaming_Fuse_HeaderFile
+#ifndef _QANewBRepNaming_Common_HeaderFile
+#define _QANewBRepNaming_Common_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <QANewBRepNaming_BooleanOperationFeat.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_BooleanOperationFeat.hxx>
 class TDF_Label;
 class BRepAlgoAPI_BooleanOperation;
 
 
 
-class QANewBRepNaming_Fuse  : public QANewBRepNaming_BooleanOperationFeat
+class QANewBRepNaming_Common  : public QANewBRepNaming_BooleanOperationFeat
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT QANewBRepNaming_Fuse();
+  Standard_EXPORT QANewBRepNaming_Common();
   
-  Standard_EXPORT QANewBRepNaming_Fuse(const TDF_Label& ResultLabel);
+  Standard_EXPORT QANewBRepNaming_Common(const TDF_Label& ResultLabel);
   
   Standard_EXPORT   void Load (BRepAlgoAPI_BooleanOperation& MakeShape)  const;
 
@@ -52,4 +52,4 @@ private:
 
 
 
-#endif // _QANewBRepNaming_Fuse_HeaderFile
+#endif // _QANewBRepNaming_Common_HeaderFile

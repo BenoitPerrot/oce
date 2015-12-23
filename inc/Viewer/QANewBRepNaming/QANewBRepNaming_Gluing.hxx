@@ -13,7 +13,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <QANewBRepNaming_TopNaming.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_TopNaming.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NullObject;

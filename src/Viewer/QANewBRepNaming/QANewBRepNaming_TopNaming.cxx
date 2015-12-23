@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <QANewBRepNaming_TopNaming.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_TopNaming.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 

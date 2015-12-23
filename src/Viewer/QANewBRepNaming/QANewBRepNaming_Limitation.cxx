@@ -15,7 +15,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <QANewModTopOpe_Limitation.hxx>
-#include <QANewBRepNaming_Limitation.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Limitation.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
@@ -29,7 +29,7 @@
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 // Specific
 #include <QANewModTopOpe_ModeOfLimitation.hxx>
 

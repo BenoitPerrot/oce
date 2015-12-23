@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
-#include <QANewBRepNaming_Gluing.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Gluing.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

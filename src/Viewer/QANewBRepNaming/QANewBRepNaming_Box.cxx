@@ -16,9 +16,9 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
-#include <QANewBRepNaming_Box.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Box.hxx>
 
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>

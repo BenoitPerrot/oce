@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <QANewBRepNaming_TopNaming.hxx>
-#include <QANewBRepNaming_TypeOfPrimitive3D.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_TopNaming.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_TypeOfPrimitive3D.hxx>
 class TDF_Label;
 class BRepPrimAPI_MakeBox;
 

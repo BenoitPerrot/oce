@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <QANewBRepNaming_BooleanOperationFeat.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_BooleanOperationFeat.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -53,7 +53,7 @@
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 
 #ifdef OCCT_DEBUG
 #include <OCAF/TDataStd/TDataStd_Name.hxx>

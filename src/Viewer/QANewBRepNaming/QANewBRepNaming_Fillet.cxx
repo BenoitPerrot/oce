@@ -16,13 +16,13 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
-#include <QANewBRepNaming_Fillet.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Fillet.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

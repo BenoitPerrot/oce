@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <QANewBRepNaming_TopNaming.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_TopNaming.hxx>
 #include <Handle_TDF_TagSource.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TDF_Label;

@@ -17,7 +17,7 @@
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
-#include <QANewBRepNaming.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

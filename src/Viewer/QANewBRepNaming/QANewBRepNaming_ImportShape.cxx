@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_TagSource.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <QANewBRepNaming_ImportShape.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_ImportShape.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
@@ -47,7 +47,7 @@
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
-#include <QANewBRepNaming_LoaderParent.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_LoaderParent.hxx>
 //=======================================================================
 //function : QANewBRepNaming_ImportShape
 //purpose  : Constructor

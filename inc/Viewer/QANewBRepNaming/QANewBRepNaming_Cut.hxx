@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <QANewBRepNaming_BooleanOperationFeat.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_BooleanOperationFeat.hxx>
 class TDF_Label;
 class BRepAlgoAPI_BooleanOperation;
 

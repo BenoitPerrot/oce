@@ -73,16 +73,16 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <QANewBRepNaming_Fuse.hxx>
-#include <QANewBRepNaming_Cut.hxx>
-#include <QANewBRepNaming_Common.hxx>
-#include <QANewBRepNaming_Intersection.hxx>
-#include <QANewBRepNaming_Limitation.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Fuse.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Cut.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Common.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Intersection.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Limitation.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <QANewModTopOpe_Glue.hxx>
-#include <QANewBRepNaming_Gluing.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Gluing.hxx>
 
 //==============================================================
 //function : QANewDBRepNaming_NameBooleanOperationFeat

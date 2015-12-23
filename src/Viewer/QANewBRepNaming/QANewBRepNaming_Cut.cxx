@@ -15,7 +15,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_BooleanOperation.hxx>
-#include <QANewBRepNaming_Cut.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Cut.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -26,7 +26,7 @@
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 
 
 //=======================================================================

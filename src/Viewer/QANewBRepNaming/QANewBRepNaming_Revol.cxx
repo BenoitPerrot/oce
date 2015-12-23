@@ -17,8 +17,8 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeRevol.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <QANewBRepNaming_Revol.hxx>
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Revol.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 

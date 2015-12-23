@@ -20,7 +20,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <QANewBRepNaming_Loader.hxx>
+#include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 
 #include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
