@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/IVtkTools/IVtkTools_DisplayModeFilter.hxx>
-#include <IVtkVTK_ShapeData.hxx>
+#include <Visualization/IVtkVTK/IVtkVTK_ShapeData.hxx>
 #include <vtkInformation.h>
 #include <vtkInformationVector.h>
 #include <vtkObjectFactory.h>

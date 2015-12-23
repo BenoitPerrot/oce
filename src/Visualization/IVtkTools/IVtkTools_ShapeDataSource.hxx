@@ -18,7 +18,7 @@
 
 #include <Visualization/IVtkTools/IVtkTools.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
-#include <IVtkVTK_ShapeData.hxx>
+#include <Visualization/IVtkVTK/IVtkVTK_ShapeData.hxx>
 #include <vtkInformationIdTypeKey.h>
 #include <vtkPolyDataAlgorithm.h>
 #include <vtkType.h>

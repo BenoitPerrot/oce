@@ -15,7 +15,7 @@
 
 #include <Visualization/IVtkTools/IVtkTools_ShapePicker.hxx>
 #include <Visualization/IVtkTools/IVtkTools_ShapeObject.hxx>
-#include <IVtkVTK_View.hxx>
+#include <Visualization/IVtkVTK/IVtkVTK_View.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <vtkCommand.h>
 #include <vtkObjectFactory.h>

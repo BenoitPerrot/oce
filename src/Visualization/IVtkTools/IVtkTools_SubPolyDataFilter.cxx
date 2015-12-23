@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/IVtkTools/IVtkTools_SubPolyDataFilter.hxx>
-#include <IVtkVTK_ShapeData.hxx>
+#include <Visualization/IVtkVTK/IVtkVTK_ShapeData.hxx>
 #include <vtkCellArray.h>
 #include <vtkInformation.h>
 #include <vtkInformationVector.h>

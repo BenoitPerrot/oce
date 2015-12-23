@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 
-#include <IVtkVTK_View.hxx>
+#include <Visualization/IVtkVTK/IVtkVTK_View.hxx>
 #include <vtkAutoInit.h>
 #include <vtkCamera.h>
 #include <vtkRenderer.h>

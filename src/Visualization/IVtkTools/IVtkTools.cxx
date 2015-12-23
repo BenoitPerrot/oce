@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/IVtkTools/IVtkTools.hxx>
-#include <IVtkVTK_ShapeData.hxx>
+#include <Visualization/IVtkVTK/IVtkVTK_ShapeData.hxx>
 #include <vtkLookupTable.h>
 #include <vtkMapper.h>
 

@@ -73,7 +73,7 @@
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>
 
 #include <Visualization/IVtk/IVtk_Types.hxx>
-#include <IVtkVTK_ShapeData.hxx>
+#include <Visualization/IVtkVTK/IVtkVTK_ShapeData.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_ShapeMesher.hxx>
 #include <Visualization/IVtkTools/IVtkTools_ShapeDataSource.hxx>
