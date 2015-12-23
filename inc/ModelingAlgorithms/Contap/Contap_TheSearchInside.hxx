@@ -75,11 +75,11 @@ private:
 #define TheTopolTool Adaptor3d_TopolTool
 #define TheTopolTool_hxx <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #define TheSITool Contap_HContTool
-#define TheSITool_hxx <Contap_HContTool.hxx>
+#define TheSITool_hxx <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
 #define TheFunction Contap_SurfFunction
-#define TheFunction_hxx <Contap_SurfFunction.hxx>
+#define TheFunction_hxx <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
 #define IntStart_SearchInside Contap_TheSearchInside
-#define IntStart_SearchInside_hxx <Contap_TheSearchInside.hxx>
+#define IntStart_SearchInside_hxx <ModelingAlgorithms/Contap/Contap_TheSearchInside.hxx>
 
 #include <IntStart_SearchInside.lxx>
 

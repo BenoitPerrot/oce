@@ -21,9 +21,9 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <Contap_Line.hxx>
-#include <Contap_SurfFunction.hxx>
-#include <Contap_Contour.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Line.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Contour.hxx>
 
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
@@ -43,13 +43,13 @@
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 
-#include <Contap_ContAna.hxx>
-#include <Contap_HContTool.hxx>
-#include <Contap_HCurve2dTool.hxx>
-#include <Contap_SurfProps.hxx>
-#include <Contap_TheIWalking.hxx>
-#include <Contap_TheSegmentOfTheSearch.hxx>
-#include <Contap_ThePathPointOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Contap_ContAna.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HCurve2dTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SurfProps.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheIWalking.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheSegmentOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
 
 #define Tolpetit 1.e-10  // pour dist au carre
 

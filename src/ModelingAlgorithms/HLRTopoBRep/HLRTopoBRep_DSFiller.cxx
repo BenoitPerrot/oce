@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Contap_Contour.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Contour.hxx>
 #include <HLRTopoBRep_Data.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <Contap_Point.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Point.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <HLRTopoBRep_DSFiller.hxx>
 
@@ -52,7 +52,7 @@
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_HVertex.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_Tool.hxx>
-#include <Contap_Line.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Line.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Precision.hxx>

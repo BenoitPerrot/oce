@@ -19,11 +19,11 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntSurf_Quadric.hxx>
-#include <Contap_ArcFunction.hxx>
+#include <ModelingAlgorithms/Contap/Contap_ArcFunction.hxx>
 
-#include <Contap_HContTool.hxx>
-#include <Contap_SurfProps.hxx>
-#include <Contap_HCurve2dTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SurfProps.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HCurve2dTool.hxx>
 
 Contap_ArcFunction::Contap_ArcFunction ():
 myMean(1.),

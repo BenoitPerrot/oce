@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <Contap_HCurve2dTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HCurve2dTool.hxx>
 
 //============================================================
 Standard_Integer Contap_HCurve2dTool::NbSamples (const Handle(Adaptor2d_HCurve2d)& C,

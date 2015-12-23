@@ -13,7 +13,7 @@
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Contap_TFunction.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TFunction.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
@@ -92,7 +92,7 @@ private:
 };
 
 
-#include <Contap_ArcFunction.lxx>
+#include <ModelingAlgorithms/Contap/Contap_ArcFunction.lxx>
 
 
 

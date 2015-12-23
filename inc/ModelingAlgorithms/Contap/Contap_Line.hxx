@@ -14,7 +14,7 @@
 #include <Handle_IntSurf_LineOn2S.hxx>
 #include <Handle_Contap_TheHSequenceOfPoint.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Contap_IType.hxx>
+#include <ModelingAlgorithms/Contap/Contap_IType.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -113,7 +113,7 @@ private:
 };
 
 
-#include <Contap_Line.lxx>
+#include <ModelingAlgorithms/Contap/Contap_Line.lxx>
 
 
 

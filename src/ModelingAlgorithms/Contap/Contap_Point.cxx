@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IntSurf_Transition.hxx>
-#include <Contap_Point.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Point.hxx>
 
 Contap_Point::Contap_Point ():
   onarc(Standard_False),isvtx(Standard_False),ismult(Standard_False),

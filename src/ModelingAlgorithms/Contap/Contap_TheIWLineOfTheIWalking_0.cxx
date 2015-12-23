@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Contap_TheIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheIWLineOfTheIWalking.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(Contap_TheIWLineOfTheIWalking)
 #define TheStartPoint IntSurf_PathPoint
 #define TheStartPoint_hxx <IntSurf_PathPoint.hxx>
 #define IntWalk_IWLine Contap_TheIWLineOfTheIWalking
-#define IntWalk_IWLine_hxx <Contap_TheIWLineOfTheIWalking.hxx>
+#define IntWalk_IWLine_hxx <ModelingAlgorithms/Contap/Contap_TheIWLineOfTheIWalking.hxx>
 #define Handle_IntWalk_IWLine Handle_Contap_TheIWLineOfTheIWalking
 #define IntWalk_IWLine_Type_() Contap_TheIWLineOfTheIWalking_Type_()
 #include <IntWalk_IWLine.gxx>

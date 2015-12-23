@@ -141,7 +141,7 @@ private:
 };
 
 
-#include <Contap_Point.lxx>
+#include <ModelingAlgorithms/Contap/Contap_Point.lxx>
 
 
 

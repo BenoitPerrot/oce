@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Contap_SequenceNodeOfTheSequenceOfPoint.hxx>
 
-#include <Contap_Point.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Point.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Contap_Point;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Contap_Point
-#define SeqItem_hxx <Contap_Point.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Contap/Contap_Point.hxx>
 #define TCollection_SequenceNode Contap_SequenceNodeOfTheSequenceOfPoint
-#define TCollection_SequenceNode_hxx <Contap_SequenceNodeOfTheSequenceOfPoint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfTheSequenceOfPoint.hxx>
 #define Handle_TCollection_SequenceNode Handle_Contap_SequenceNodeOfTheSequenceOfPoint
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfTheSequenceOfPoint_Type_()
 #define TCollection_Sequence Contap_TheSequenceOfPoint
-#define TCollection_Sequence_hxx <Contap_TheSequenceOfPoint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Contap/Contap_TheSequenceOfPoint.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

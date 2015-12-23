@@ -12,7 +12,7 @@
 
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Contap_ThePathPointOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 class Adaptor2d_HCurve2d;
 class Standard_DomainError;
@@ -71,9 +71,9 @@ private:
 #define TheArc Handle(Adaptor2d_HCurve2d)
 #define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define ThePathPoint Contap_ThePathPointOfTheSearch
-#define ThePathPoint_hxx <Contap_ThePathPointOfTheSearch.hxx>
+#define ThePathPoint_hxx <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
 #define IntStart_Segment Contap_TheSegmentOfTheSearch
-#define IntStart_Segment_hxx <Contap_TheSegmentOfTheSearch.hxx>
+#define IntStart_Segment_hxx <ModelingAlgorithms/Contap/Contap_TheSegmentOfTheSearch.hxx>
 
 #include <IntStart_Segment.lxx>
 

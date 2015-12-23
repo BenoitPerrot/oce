@@ -12,7 +12,7 @@
 
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Contap_TFunction.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TFunction.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -133,7 +133,7 @@ private:
 };
 
 
-#include <Contap_SurfFunction.lxx>
+#include <ModelingAlgorithms/Contap/Contap_SurfFunction.lxx>
 
 
 

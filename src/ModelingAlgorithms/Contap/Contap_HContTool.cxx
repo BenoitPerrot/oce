@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Contap_HContTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
 
 #include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>

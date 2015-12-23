@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Contap_SequenceOfIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SequenceOfIWLineOfTheIWalking.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Contap_TheIWLineOfTheIWalking.hxx>
 #include <Handle_Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
@@ -147,15 +147,15 @@ private:
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define TheIWFunction Contap_SurfFunction
-#define TheIWFunction_hxx <Contap_SurfFunction.hxx>
+#define TheIWFunction_hxx <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
 #define IntWalk_TheIWLine Contap_TheIWLineOfTheIWalking
-#define IntWalk_TheIWLine_hxx <Contap_TheIWLineOfTheIWalking.hxx>
+#define IntWalk_TheIWLine_hxx <ModelingAlgorithms/Contap/Contap_TheIWLineOfTheIWalking.hxx>
 #define IntWalk_SequenceOfIWLine Contap_SequenceOfIWLineOfTheIWalking
-#define IntWalk_SequenceOfIWLine_hxx <Contap_SequenceOfIWLineOfTheIWalking.hxx>
+#define IntWalk_SequenceOfIWLine_hxx <ModelingAlgorithms/Contap/Contap_SequenceOfIWLineOfTheIWalking.hxx>
 #define IntWalk_SequenceNodeOfSequenceOfIWLine Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking
-#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #define IntWalk_SequenceNodeOfSequenceOfIWLine Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking
-#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#define IntWalk_SequenceNodeOfSequenceOfIWLine_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #define Handle_IntWalk_TheIWLine Handle_Contap_TheIWLineOfTheIWalking
 #define IntWalk_TheIWLine_Type_() Contap_TheIWLineOfTheIWalking_Type_()
 #define Handle_IntWalk_SequenceNodeOfSequenceOfIWLine Handle_Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking
@@ -163,7 +163,7 @@ private:
 #define Handle_IntWalk_SequenceNodeOfSequenceOfIWLine Handle_Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking
 #define IntWalk_SequenceNodeOfSequenceOfIWLine_Type_() Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking_Type_()
 #define IntWalk_IWalking Contap_TheIWalking
-#define IntWalk_IWalking_hxx <Contap_TheIWalking.hxx>
+#define IntWalk_IWalking_hxx <ModelingAlgorithms/Contap/Contap_TheIWalking.hxx>
 
 #include <IntWalk_IWalking.lxx>
 

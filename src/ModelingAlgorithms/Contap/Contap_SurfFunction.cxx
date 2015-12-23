@@ -23,10 +23,10 @@
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <Contap_SurfFunction.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
 
-#include <Contap_SurfProps.hxx>
-#include <Contap_HContTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SurfProps.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 
 Contap_SurfFunction::Contap_SurfFunction ():

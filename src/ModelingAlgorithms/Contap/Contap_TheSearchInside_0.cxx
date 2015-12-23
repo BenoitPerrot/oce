@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Contap_TheSearchInside.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheSearchInside.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <Contap_HContTool.hxx>
-#include <Contap_SurfFunction.hxx>
+#include <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
 #include <IntSurf_InteriorPoint.hxx>
  
 
@@ -23,10 +23,10 @@
 #define TheTopolTool Adaptor3d_TopolTool
 #define TheTopolTool_hxx <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #define TheSITool Contap_HContTool
-#define TheSITool_hxx <Contap_HContTool.hxx>
+#define TheSITool_hxx <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
 #define TheFunction Contap_SurfFunction
-#define TheFunction_hxx <Contap_SurfFunction.hxx>
+#define TheFunction_hxx <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
 #define IntStart_SearchInside Contap_TheSearchInside
-#define IntStart_SearchInside_hxx <Contap_TheSearchInside.hxx>
+#define IntStart_SearchInside_hxx <ModelingAlgorithms/Contap/Contap_TheSearchInside.hxx>
 #include <IntStart_SearchInside.gxx>
 

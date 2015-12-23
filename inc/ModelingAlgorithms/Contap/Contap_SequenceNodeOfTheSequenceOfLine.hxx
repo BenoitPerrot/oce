@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Contap_SequenceNodeOfTheSequenceOfLine.hxx>
 
-#include <Contap_Line.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Line.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Contap_Line;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Contap_Line
-#define SeqItem_hxx <Contap_Line.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Contap/Contap_Line.hxx>
 #define TCollection_SequenceNode Contap_SequenceNodeOfTheSequenceOfLine
-#define TCollection_SequenceNode_hxx <Contap_SequenceNodeOfTheSequenceOfLine.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfTheSequenceOfLine.hxx>
 #define Handle_TCollection_SequenceNode Handle_Contap_SequenceNodeOfTheSequenceOfLine
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfTheSequenceOfLine_Type_()
 #define TCollection_Sequence Contap_TheSequenceOfLine
-#define TCollection_Sequence_hxx <Contap_TheSequenceOfLine.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Contap/Contap_TheSequenceOfLine.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

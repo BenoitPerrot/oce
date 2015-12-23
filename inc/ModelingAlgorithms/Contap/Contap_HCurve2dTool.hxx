@@ -144,7 +144,7 @@ private:
 };
 
 
-#include <Contap_HCurve2dTool.lxx>
+#include <ModelingAlgorithms/Contap/Contap_HCurve2dTool.lxx>
 
 
 

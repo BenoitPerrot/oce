@@ -99,7 +99,7 @@ private:
 };
 
 
-#include <Contap_ContAna.lxx>
+#include <ModelingAlgorithms/Contap/Contap_ContAna.lxx>
 
 
 

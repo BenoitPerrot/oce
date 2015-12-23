@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Contap_TheHSequenceOfPoint.hxx>
 
-#include <Contap_TheSequenceOfPoint.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheSequenceOfPoint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -92,11 +92,11 @@ private:
 };
 
 #define Item Contap_Point
-#define Item_hxx <Contap_Point.hxx>
+#define Item_hxx <ModelingAlgorithms/Contap/Contap_Point.hxx>
 #define TheSequence Contap_TheSequenceOfPoint
-#define TheSequence_hxx <Contap_TheSequenceOfPoint.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/Contap/Contap_TheSequenceOfPoint.hxx>
 #define TCollection_HSequence Contap_TheHSequenceOfPoint
-#define TCollection_HSequence_hxx <Contap_TheHSequenceOfPoint.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/Contap/Contap_TheHSequenceOfPoint.hxx>
 #define Handle_TCollection_HSequence Handle_Contap_TheHSequenceOfPoint
 #define TCollection_HSequence_Type_() Contap_TheHSequenceOfPoint_Type_()
 

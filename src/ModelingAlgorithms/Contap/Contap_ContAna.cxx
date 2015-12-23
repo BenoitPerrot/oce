@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Contap_ContAna.hxx>
+#include <ModelingAlgorithms/Contap/Contap_ContAna.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
 
-#include <Contap_TheSegmentOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheSegmentOfTheSearch.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Contap_TheSegmentOfTheSearch;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Contap_TheSegmentOfTheSearch
-#define SeqItem_hxx <Contap_TheSegmentOfTheSearch.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Contap/Contap_TheSegmentOfTheSearch.hxx>
 #define TCollection_SequenceNode Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch
-#define TCollection_SequenceNode_hxx <Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
 #define Handle_TCollection_SequenceNode Handle_Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch
 #define TCollection_SequenceNode_Type_() Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch_Type_()
 #define TCollection_Sequence Contap_SequenceOfSegmentOfTheSearch
-#define TCollection_Sequence_hxx <Contap_SequenceOfSegmentOfTheSearch.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Contap/Contap_SequenceOfSegmentOfTheSearch.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Contap_SequenceOfSegmentOfTheSearch.hxx>
-#include <Contap_SequenceOfPathPointOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SequenceOfSegmentOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Contap_SequenceOfPathPointOfTheSearch.hxx>
 #include <Handle_Adaptor3d_HVertex.hxx>
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Handle_Adaptor3d_TopolTool.hxx>
@@ -87,30 +87,30 @@ private:
 #define TheArc Handle(Adaptor2d_HCurve2d)
 #define TheArc_hxx <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #define TheArcTool Contap_HCurve2dTool
-#define TheArcTool_hxx <Contap_HCurve2dTool.hxx>
+#define TheArcTool_hxx <ModelingAlgorithms/Contap/Contap_HCurve2dTool.hxx>
 #define TheSOBTool Contap_HContTool
-#define TheSOBTool_hxx <Contap_HContTool.hxx>
+#define TheSOBTool_hxx <ModelingAlgorithms/Contap/Contap_HContTool.hxx>
 #define Handle_TheTopolTool Handle_Adaptor3d_TopolTool
 #define TheTopolTool Adaptor3d_TopolTool
 #define TheTopolTool_hxx <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #define TheFunction Contap_ArcFunction
-#define TheFunction_hxx <Contap_ArcFunction.hxx>
+#define TheFunction_hxx <ModelingAlgorithms/Contap/Contap_ArcFunction.hxx>
 #define IntStart_ThePathPoint Contap_ThePathPointOfTheSearch
-#define IntStart_ThePathPoint_hxx <Contap_ThePathPointOfTheSearch.hxx>
+#define IntStart_ThePathPoint_hxx <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
 #define IntStart_SequenceOfPathPoint Contap_SequenceOfPathPointOfTheSearch
-#define IntStart_SequenceOfPathPoint_hxx <Contap_SequenceOfPathPointOfTheSearch.hxx>
+#define IntStart_SequenceOfPathPoint_hxx <ModelingAlgorithms/Contap/Contap_SequenceOfPathPointOfTheSearch.hxx>
 #define IntStart_SequenceNodeOfSequenceOfPathPoint Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch
-#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
+#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
 #define IntStart_SequenceNodeOfSequenceOfPathPoint Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch
-#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
+#define IntStart_SequenceNodeOfSequenceOfPathPoint_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
 #define IntStart_TheSegment Contap_TheSegmentOfTheSearch
-#define IntStart_TheSegment_hxx <Contap_TheSegmentOfTheSearch.hxx>
+#define IntStart_TheSegment_hxx <ModelingAlgorithms/Contap/Contap_TheSegmentOfTheSearch.hxx>
 #define IntStart_SequenceOfSegment Contap_SequenceOfSegmentOfTheSearch
-#define IntStart_SequenceOfSegment_hxx <Contap_SequenceOfSegmentOfTheSearch.hxx>
+#define IntStart_SequenceOfSegment_hxx <ModelingAlgorithms/Contap/Contap_SequenceOfSegmentOfTheSearch.hxx>
 #define IntStart_SequenceNodeOfSequenceOfSegment Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch
-#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
+#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
 #define IntStart_SequenceNodeOfSequenceOfSegment Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch
-#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
+#define IntStart_SequenceNodeOfSequenceOfSegment_hxx <ModelingAlgorithms/Contap/Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
 #define Handle_IntStart_SequenceNodeOfSequenceOfPathPoint Handle_Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch
 #define IntStart_SequenceNodeOfSequenceOfPathPoint_Type_() Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch_Type_()
 #define Handle_IntStart_SequenceNodeOfSequenceOfPathPoint Handle_Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch
@@ -120,7 +120,7 @@ private:
 #define Handle_IntStart_SequenceNodeOfSequenceOfSegment Handle_Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch
 #define IntStart_SequenceNodeOfSequenceOfSegment_Type_() Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch_Type_()
 #define IntStart_SearchOnBoundaries Contap_TheSearch
-#define IntStart_SearchOnBoundaries_hxx <Contap_TheSearch.hxx>
+#define IntStart_SearchOnBoundaries_hxx <ModelingAlgorithms/Contap/Contap_TheSearch.hxx>
 
 #include <IntStart_SearchOnBoundaries.lxx>
 

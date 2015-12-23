@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Contap_TheHSequenceOfPoint.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheHSequenceOfPoint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Contap_Point.hxx>
-#include <Contap_TheSequenceOfPoint.hxx>
+#include <ModelingAlgorithms/Contap/Contap_Point.hxx>
+#include <ModelingAlgorithms/Contap/Contap_TheSequenceOfPoint.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(Contap_TheHSequenceOfPoint)
 
 
 #define Item Contap_Point
-#define Item_hxx <Contap_Point.hxx>
+#define Item_hxx <ModelingAlgorithms/Contap/Contap_Point.hxx>
 #define TheSequence Contap_TheSequenceOfPoint
-#define TheSequence_hxx <Contap_TheSequenceOfPoint.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/Contap/Contap_TheSequenceOfPoint.hxx>
 #define TCollection_HSequence Contap_TheHSequenceOfPoint
-#define TCollection_HSequence_hxx <Contap_TheHSequenceOfPoint.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/Contap/Contap_TheHSequenceOfPoint.hxx>
 #define Handle_TCollection_HSequence Handle_Contap_TheHSequenceOfPoint
 #define TCollection_HSequence_Type_() Contap_TheHSequenceOfPoint_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>
