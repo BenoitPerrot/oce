@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntRes2d_Position.hxx>
-#include <IntRes2d_TypeTrans.hxx>
-#include <IntRes2d_Situation.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Situation.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_DomainError;
@@ -126,7 +126,7 @@ private:
 };
 
 
-#include <IntRes2d_Transition.lxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.lxx>
 
 
 

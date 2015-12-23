@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_CInter.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_InterCSurf.hxx>

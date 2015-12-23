@@ -52,7 +52,7 @@
 #include <IntSurf_LineOn2S.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <IntSurf_ListOfPntOn2S.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Geometry/ProjLib/ProjLib_Plane.hxx>
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>

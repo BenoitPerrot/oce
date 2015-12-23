@@ -12,7 +12,7 @@
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>

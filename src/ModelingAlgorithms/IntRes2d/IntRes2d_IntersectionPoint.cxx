@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <IntRes2d_Transition.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IntRes2d_IntersectionPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -31,7 +31,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_HCurve2dTool.hxx>
 
 

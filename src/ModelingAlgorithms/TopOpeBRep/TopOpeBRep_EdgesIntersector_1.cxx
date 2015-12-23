@@ -22,8 +22,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>
 #include <TopOpeBRep_Point2d.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>

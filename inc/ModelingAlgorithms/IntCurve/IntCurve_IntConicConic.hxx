@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntImpConicParConic.hxx>
-#include <IntRes2d_Intersection.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
 class gp_Lin2d;

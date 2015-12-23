@@ -85,8 +85,8 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ElCLib.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>

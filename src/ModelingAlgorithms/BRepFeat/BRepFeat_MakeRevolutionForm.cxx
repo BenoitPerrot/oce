@@ -74,7 +74,7 @@
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 

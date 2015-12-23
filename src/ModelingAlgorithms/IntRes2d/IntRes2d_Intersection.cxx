@@ -16,15 +16,15 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
-#include <IntRes2d_Intersection.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.hxx>
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntRes2d_SequenceOfIntersectionPoint.hxx>
-#include <IntRes2d_SequenceOfIntersectionSegment.hxx>
-#include <IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
 
 
 #define PARAMEQUAL(a,b) (Abs((a)-(b))< (1e-8))

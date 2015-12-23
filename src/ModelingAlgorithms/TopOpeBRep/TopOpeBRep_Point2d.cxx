@@ -21,7 +21,7 @@
 #include <TopOpeBRep_Hctxff2d.hxx>
 #include <TopOpeBRep_Hctxee2d.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

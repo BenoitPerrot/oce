@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <IntRes2d_Intersection.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom2d_Curve.hxx>

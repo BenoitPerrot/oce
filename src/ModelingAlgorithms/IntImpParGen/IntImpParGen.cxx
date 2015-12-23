@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <IntRes2d_Transition.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
-#include <IntRes2d_Domain.hxx>
-#include <IntRes2d_Position.hxx>
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 

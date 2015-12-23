@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntRes2d_SequenceOfIntersectionPoint.hxx>
-#include <IntRes2d_SequenceOfIntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionSegment.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StdFail_NotDone;
@@ -106,7 +106,7 @@ private:
 };
 
 
-#include <IntRes2d_Intersection.lxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.lxx>
 
 
 

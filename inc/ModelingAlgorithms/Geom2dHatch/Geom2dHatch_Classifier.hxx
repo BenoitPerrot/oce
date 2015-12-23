@@ -13,7 +13,7 @@
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_FClass2dOfClassifier.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class Standard_DomainError;

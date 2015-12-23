@@ -79,7 +79,7 @@
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanRad.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QualifiedCurve.hxx>
 
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

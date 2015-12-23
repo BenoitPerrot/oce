@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
@@ -27,20 +27,20 @@
 
 #include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_Tool.hxx>
 #include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_1.hxx>
 #include <ElCLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Precision.hxx>
-#include <IntRes2d_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_TypeTrans.hxx>
 
 Standard_Boolean Affichage=Standard_False;
 Standard_Boolean AffichageGraph=Standard_True;

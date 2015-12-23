@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ElCLib.hxx>
 
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>

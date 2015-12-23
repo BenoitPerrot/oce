@@ -10,7 +10,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygon2dOfTheIntPCurvePCurveOfCInter.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfCInter.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ExactIntersectionPointOfTheIntPCurvePCurveOfCInter.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
  
 
 #define TheCurve Standard_Address

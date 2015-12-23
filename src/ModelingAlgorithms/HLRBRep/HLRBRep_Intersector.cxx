@@ -19,9 +19,9 @@
 #endif
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Intersector.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
@@ -34,8 +34,8 @@
 #include <ElCLib.hxx>
 
 #include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
-#include <IntRes2d_Position.hxx>
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 

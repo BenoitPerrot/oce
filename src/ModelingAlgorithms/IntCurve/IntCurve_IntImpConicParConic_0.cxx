@@ -11,7 +11,7 @@
 #include <ModelingAlgorithms/IntCurve/IntCurve_PConicTool.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_ProjectOnPConicTool.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_MyImpParToolOfIntImpConicParConic.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  

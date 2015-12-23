@@ -67,7 +67,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_InterCurveCurve.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <TDataStd_RealArray.hxx>
 #include <TDF_CopyLabel.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>

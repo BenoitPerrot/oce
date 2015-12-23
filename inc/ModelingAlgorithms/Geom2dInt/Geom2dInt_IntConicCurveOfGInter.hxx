@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
-#include <IntRes2d_Intersection.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class IntCurve_IConicTool;

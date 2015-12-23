@@ -12,7 +12,7 @@
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
@@ -93,7 +93,7 @@ private:
 };
 
 
-#include <IntRes2d_IntersectionPoint.lxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.lxx>
 
 
 

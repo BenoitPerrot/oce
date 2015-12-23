@@ -23,7 +23,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ElCLib.hxx>
@@ -34,8 +34,8 @@
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
-#include <IntRes2d_Transition.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 static 
 void RefineTolerance(const TopoDS_Face& aF,

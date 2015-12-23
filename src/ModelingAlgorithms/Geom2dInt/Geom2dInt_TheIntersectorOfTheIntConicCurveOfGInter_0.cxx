@@ -11,7 +11,7 @@
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_Geom2dCurveTool.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheProjPCurOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_MyImpParToolOfTheIntersectorOfTheIntConicCurveOfGInter.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  

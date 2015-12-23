@@ -62,9 +62,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
-#include <IntRes2d_IntersectionSegment.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

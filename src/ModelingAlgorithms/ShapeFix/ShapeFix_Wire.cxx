@@ -90,8 +90,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
-#include <IntRes2d_SequenceOfIntersectionPoint.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>

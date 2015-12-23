@@ -56,8 +56,8 @@
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 //
-#include <IntRes2d_Domain.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 //
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 //

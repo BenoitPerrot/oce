@@ -18,7 +18,7 @@
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_ThePolygon2dOfTheIntPCurvePCurveOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_ExactIntersectionPointOfTheIntPCurvePCurveOfGInter.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
  
 

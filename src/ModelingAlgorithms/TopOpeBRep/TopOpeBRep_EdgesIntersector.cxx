@@ -27,8 +27,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>
 #include <TopOpeBRep_Point2d.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRep_EdgesIntersector.hxx>
@@ -192,7 +192,7 @@ void TopOpeBRep_EdgesIntersector::ForceTolerances(const Standard_Real Tol1,const
   myTolForced = Standard_True;
 }
 
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 static Standard_Boolean TransitionEqualAndExtremity( const IntRes2d_Transition& T1
 				       ,const IntRes2d_Transition& T2) {
   if(   T1.PositionOnCurve() == IntRes2d_Head

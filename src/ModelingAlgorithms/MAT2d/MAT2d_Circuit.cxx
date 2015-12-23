@@ -67,7 +67,7 @@ IMPLEMENT_STANDARD_RTTI(MAT2d_Circuit)
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #ifdef DRAW
   static Handle(DrawTrSurf_Curve2d) draw;

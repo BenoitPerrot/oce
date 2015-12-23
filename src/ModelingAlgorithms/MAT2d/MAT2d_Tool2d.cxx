@@ -45,11 +45,11 @@
 #include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Inter.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

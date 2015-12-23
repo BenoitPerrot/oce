@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -71,8 +71,8 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
 #include <ModelingData/TopTools/TopTools_OrientedShapeMapHasher.hxx>

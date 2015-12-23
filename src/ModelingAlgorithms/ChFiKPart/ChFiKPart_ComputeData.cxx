@@ -60,10 +60,10 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <IntSurf_Transition.hxx>
 #include <IntSurf_TypeTrans.hxx>
-#include <IntRes2d_Transition.hxx>
-#include <IntRes2d_TypeTrans.hxx>
-#include <IntRes2d_Position.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

@@ -14,13 +14,13 @@
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
-#include <IntRes2d_SequenceOfIntersectionPoint.hxx>
-#include <IntRes2d_SequenceOfIntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionSegment.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRep_SequenceOfPoint2d.hxx>

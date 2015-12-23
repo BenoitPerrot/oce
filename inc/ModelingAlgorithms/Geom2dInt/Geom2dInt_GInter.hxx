@@ -14,7 +14,7 @@
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntConicCurveOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheIntPCurvePCurveOfGInter.hxx>
-#include <IntRes2d_Intersection.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_ConstructionError;

@@ -17,9 +17,9 @@
 #ifndef IntImpParGen_Tool_HeaderFile
 #define IntImpParGen_Tool_HeaderFile
 
-#include <IntRes2d_Domain.hxx>
-#include <IntRes2d_Position.hxx>
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
  

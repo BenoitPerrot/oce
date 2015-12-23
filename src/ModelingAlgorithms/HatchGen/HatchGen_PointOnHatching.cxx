@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
 #include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
 

@@ -13,7 +13,7 @@
 #include <ModelingAlgorithms/BRepClass/BRepClass_FClass2dOfFClassifier.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class Standard_DomainError;

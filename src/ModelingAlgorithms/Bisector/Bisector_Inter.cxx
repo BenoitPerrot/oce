@@ -18,12 +18,12 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Inter.hxx>
-#include <IntRes2d_Intersection.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
@@ -34,8 +34,8 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <IntRes2d_Transition.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Optimization/math_BissecNewton.hxx>
 #include <ElCLib.hxx>

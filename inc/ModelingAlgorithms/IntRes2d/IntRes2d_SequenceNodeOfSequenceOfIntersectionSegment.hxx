@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment.hxx>
 
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntRes2d_IntersectionSegment;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem IntRes2d_IntersectionSegment
-#define SeqItem_hxx <IntRes2d_IntersectionSegment.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #define TCollection_SequenceNode IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment
-#define TCollection_SequenceNode_hxx <IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment.hxx>
 #define Handle_TCollection_SequenceNode Handle_IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment
 #define TCollection_SequenceNode_Type_() IntRes2d_SequenceNodeOfSequenceOfIntersectionSegment_Type_()
 #define TCollection_Sequence IntRes2d_SequenceOfIntersectionSegment
-#define TCollection_Sequence_hxx <IntRes2d_SequenceOfIntersectionSegment.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionSegment.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

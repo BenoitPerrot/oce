@@ -42,8 +42,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
-#include <IntRes2d_Domain.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>

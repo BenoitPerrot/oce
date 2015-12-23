@@ -61,7 +61,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 

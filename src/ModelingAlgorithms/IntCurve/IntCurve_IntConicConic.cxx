@@ -19,7 +19,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
@@ -28,7 +28,7 @@
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_1.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_IConicTool.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_PConic.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

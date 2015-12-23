@@ -117,8 +117,8 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_HInter.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtCC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
@@ -183,7 +183,7 @@ extern void ChFi3d_ResultChron(OSD_Chronometer & ch,Standard_Real& time);
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <Mathematics/Optimization/math_FunctionSample.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 //  Modified by Sergey KHROMOV - Fri Dec 21 17:08:19 2001 Begin
 Standard_Boolean isTangentFaces(const TopoDS_Edge &theEdge,
 				const TopoDS_Face &theFace1,

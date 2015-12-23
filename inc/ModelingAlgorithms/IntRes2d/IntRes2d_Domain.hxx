@@ -136,7 +136,7 @@ private:
 };
 
 
-#include <IntRes2d_Domain.lxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.lxx>
 
 
 

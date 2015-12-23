@@ -11,7 +11,7 @@
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_ThePolygon2dOfTheIntPCurvePCurveOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheDistBetweenPCurvesOfTheIntPCurvePCurveOfGInter.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_ExactIntersectionPointOfTheIntPCurvePCurveOfGInter.hxx>
-#include <IntRes2d_Domain.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
  
 
 #define TheCurve Adaptor2d_Curve2d

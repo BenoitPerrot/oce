@@ -1137,7 +1137,7 @@ static Standard_Integer OCC814 (Draw_Interpretor& di, Standard_Integer argc,cons
 }
 
 #include <ShapeAnalysis_Wire.hxx>
-#include <IntRes2d_SequenceOfIntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <ShapeFix_Wire.hxx>
 //=======================================================================

@@ -29,9 +29,9 @@
 #include <ModelingAlgorithms/HatchGen/HatchGen_Domains.hxx>
 #include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
 #include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <TopTrans_CurveTransition.hxx>

@@ -43,7 +43,7 @@
 #include <ModelingAlgorithms/GccAna/GccAna_Pnt2dBisec.hxx>
 
 #include <ModelingAlgorithms/GccInt/GccInt_BHyper.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

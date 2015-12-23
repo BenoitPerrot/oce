@@ -30,7 +30,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeData.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_InterferenceList.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_FaceData.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Data.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_Data)
@@ -46,8 +46,8 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_TransitionOnCurve.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
@@ -184,10 +184,10 @@ static const Standard_Real CutBig = 1.e-1;
 //-- ======================================================================
 //--  
 
-#include <IntRes2d_TypeTrans.hxx>
-#include <IntRes2d_Position.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
-#include <IntRes2d_Transition.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_TypeTrans.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 
 static long unsigned Mask32[32] = { 1,2,4,8,  16,32,64,128,  256,512,1024,2048,
 				 4096,8192,16384,32768,

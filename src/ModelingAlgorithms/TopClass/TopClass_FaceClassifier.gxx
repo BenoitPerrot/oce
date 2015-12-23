@@ -17,8 +17,8 @@
 //  Modified by skv - Thu Jul 13 18:00:34 2006 OCC12627
 // The method Perform is totally rewroted.
 
-#include <IntRes2d_IntersectionSegment.hxx>
-#include <IntRes2d_IntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
+#include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 //=======================================================================
 //function : TopClass_FaceClassifier
