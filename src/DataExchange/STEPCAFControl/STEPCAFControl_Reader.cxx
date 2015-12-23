@@ -15,7 +15,7 @@
 
 #include <STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <STEPCAFControl_ExternFile.hxx>
 #include <STEPControl_Reader.hxx>

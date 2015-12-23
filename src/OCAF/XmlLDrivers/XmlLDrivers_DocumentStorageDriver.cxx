@@ -49,7 +49,7 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 #include <OCAF/CDM/CDM_NullMessageDriver.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 
 #include <locale.h>

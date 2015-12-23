@@ -26,8 +26,8 @@
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
 
 #include <TObj_Assistant.hxx>
 #include <TObj_Application.hxx>

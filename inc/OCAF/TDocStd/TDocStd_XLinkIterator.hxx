@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TDocStd_XLinkPtr.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkPtr.hxx>
 #include <Handle_TDocStd_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
@@ -67,7 +67,7 @@ private:
 };
 
 
-#include <TDocStd_XLinkIterator.lxx>
+#include <OCAF/TDocStd/TDocStd_XLinkIterator.lxx>
 
 
 

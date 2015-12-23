@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(StdLDrivers_DocumentStorageDriver)
 #include <OCAF/MDataStd/MDataStd.hxx> 
 #include <OCAF/MDocStd/MDocStd.hxx> 
 #include <OCAF/PDocStd/PDocStd_Document.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/MFunction/MFunction.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>

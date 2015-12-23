@@ -27,10 +27,10 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 
-#include <TDocStd_Document.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <DDocStd.hxx>
-#include <TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <DDF.hxx>
 #include <TPrsStd_AISViewer.hxx>

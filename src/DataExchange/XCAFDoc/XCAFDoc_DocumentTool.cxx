@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 #include <XCAFDoc_LayerTool.hxx>

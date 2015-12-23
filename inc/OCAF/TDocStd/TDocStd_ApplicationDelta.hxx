@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_ApplicationDelta.hxx>
 
-#include <TDocStd_SequenceOfDocument.hxx>
+#include <OCAF/TDocStd/TDocStd_SequenceOfDocument.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
@@ -55,7 +55,7 @@ private:
 };
 
 
-#include <TDocStd_ApplicationDelta.lxx>
+#include <OCAF/TDocStd/TDocStd_ApplicationDelta.lxx>
 
 
 

@@ -43,8 +43,8 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 #include <LDOMParser.hxx>
 
 #include <OCAF/TDF/TDF_Data.hxx>
-#include <TDocStd_Owner.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/CDM/CDM_MetaData.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentStorageDriver)
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 
 #define SHAPESECTION_POS (Standard_CString)"SHAPE_SECTION_POS:"
 

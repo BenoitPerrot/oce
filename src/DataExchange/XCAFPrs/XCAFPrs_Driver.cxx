@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFPrs_Driver)
 #include <XCAFDoc_ShapeTool.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 
 //=======================================================================
 //function : Update

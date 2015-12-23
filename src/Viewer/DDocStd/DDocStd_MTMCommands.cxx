@@ -14,9 +14,9 @@
 // commercial license or contractual agreement.
 
 #include <DDocStd.hxx>
-#include <TDocStd_MultiTransactionManager.hxx>
+#include <OCAF/TDocStd/TDocStd_MultiTransactionManager.hxx>
 #include <DDocStd_DrawDocument.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Draw.hxx>
 #include <DDF_Browser.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

@@ -39,7 +39,7 @@ IMPLEMENT_DOWNCAST(MDocStd_XLinkStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDocStd_XLinkStorageDriver)
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
 #include <OCAF/PDocStd/PDocStd_XLink.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>

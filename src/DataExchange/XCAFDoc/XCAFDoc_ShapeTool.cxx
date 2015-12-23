@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_ShapeTool)
 #include <OCAF/TDataStd/TDataStd_ChildNodeIterator.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 
 #include <TNaming_Builder.hxx>
 #include <TNaming_NamedShape.hxx>

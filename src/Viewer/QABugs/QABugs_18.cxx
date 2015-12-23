@@ -27,8 +27,8 @@
 #include <V3d_View.hxx>
 #include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 
-#include <TDocStd_Application.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <DDocStd.hxx>
 #include <OCAF/CDF/CDF.hxx>
 

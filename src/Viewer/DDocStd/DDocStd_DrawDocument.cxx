@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <DDocStd_DrawDocument.hxx>
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_TYPE_END(DDocStd_DrawDocument)
 IMPLEMENT_DOWNCAST(DDocStd_DrawDocument,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DDocStd_DrawDocument)
 
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

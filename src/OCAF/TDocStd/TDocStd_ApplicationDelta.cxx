@@ -13,9 +13,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_SequenceOfDocument.hxx>
+#include <OCAF/TDocStd/TDocStd_SequenceOfDocument.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDocStd_ApplicationDelta.hxx>
+#include <OCAF/TDocStd/TDocStd_ApplicationDelta.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_ApplicationDelta)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDocStd_ApplicationDelta)
 IMPLEMENT_DOWNCAST(TDocStd_ApplicationDelta,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_ApplicationDelta)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 
 //=======================================================================
 //function : TDocStd_ApplicationDelta

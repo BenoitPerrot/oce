@@ -25,7 +25,7 @@
 
 #include <DDF.hxx>
 
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>
 
 #include <TNaming_NamedShape.hxx>

@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Handle(TDocStd_Document)
-#define SeqItem_hxx <TDocStd_Document.hxx>
+#define SeqItem_hxx <OCAF/TDocStd/TDocStd_Document.hxx>
 #define TCollection_SequenceNode TDocStd_SequenceNodeOfSequenceOfDocument
-#define TCollection_SequenceNode_hxx <TDocStd_SequenceNodeOfSequenceOfDocument.hxx>
+#define TCollection_SequenceNode_hxx <OCAF/TDocStd/TDocStd_SequenceNodeOfSequenceOfDocument.hxx>
 #define Handle_TCollection_SequenceNode Handle_TDocStd_SequenceNodeOfSequenceOfDocument
 #define TCollection_SequenceNode_Type_() TDocStd_SequenceNodeOfSequenceOfDocument_Type_()
 #define TCollection_Sequence TDocStd_SequenceOfDocument
-#define TCollection_Sequence_hxx <TDocStd_SequenceOfDocument.hxx>
+#define TCollection_Sequence_hxx <OCAF/TDocStd/TDocStd_SequenceOfDocument.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

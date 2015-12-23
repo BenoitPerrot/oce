@@ -21,12 +21,12 @@
 
 
 
-#include <TDocStd_XLinkIterator.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkIterator.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <TDocStd_XLinkRoot.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkRoot.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_XLinkRoot)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_TYPE_END(TDocStd_XLinkRoot)
 IMPLEMENT_DOWNCAST(TDocStd_XLinkRoot,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_XLinkRoot)
 
-#include <TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
 
 
 //=======================================================================

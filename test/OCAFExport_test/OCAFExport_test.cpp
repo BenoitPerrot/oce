@@ -1,6 +1,6 @@
 #include <OCAF/AppStd/AppStd_Application.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <Foundation/OSD/OSD_File.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

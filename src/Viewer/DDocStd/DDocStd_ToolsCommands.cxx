@@ -17,7 +17,7 @@
 
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

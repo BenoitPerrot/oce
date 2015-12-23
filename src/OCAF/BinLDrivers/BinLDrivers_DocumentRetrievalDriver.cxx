@@ -45,8 +45,8 @@ IMPLEMENT_STANDARD_RTTI(BinLDrivers_DocumentRetrievalDriver)
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Foundation/Storage/Storage_Schema.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
 
 #define SHAPESECTION_POS "SHAPE_SECTION_POS:"
 #define SIZEOFSHAPELABEL  18

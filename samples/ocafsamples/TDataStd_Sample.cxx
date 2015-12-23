@@ -47,7 +47,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
 // ====================================================================================

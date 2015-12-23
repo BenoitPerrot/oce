@@ -16,10 +16,10 @@
 
 #include <Foundation/Resource/Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_Application)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 #include <Foundation/Plugin/Plugin_Failure.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/CDF/CDF_Store.hxx>
-#include <TDocStd_PathParser.hxx>
+#include <OCAF/TDocStd/TDocStd_PathParser.hxx>
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Application)
 #define OCC159
 
 #ifdef OCC159
-#include <TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
 #endif
 
 //=======================================================================

@@ -58,7 +58,7 @@
 #include <TNaming_Builder.hxx>
 #include <TNaming_Naming.hxx>
 #include <TNaming_Name.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 
 #include <DNaming_BoxDriver.hxx>
 #include <DNaming_CylinderDriver.hxx>

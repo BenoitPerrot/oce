@@ -20,7 +20,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_ColorKind.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Data.hxx> 
 #include <DDF.hxx>

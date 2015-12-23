@@ -13,14 +13,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_Application.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <DDocStd.hxx>
 #include <DDocStd_DrawDocument.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Draw.hxx>
@@ -28,7 +28,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 #include <DBRep.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 

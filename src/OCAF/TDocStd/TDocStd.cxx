@@ -22,12 +22,12 @@
 // Declarations:	
 
 #include <OCAF/TDF/TDF_IDList.hxx>
-#include <TDocStd.hxx>
+#include <OCAF/TDocStd/TDocStd.hxx>
 #include <OCAF/CDF/CDF.hxx>
 //#include <LCTLOFF.h>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
-#include <TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
 
 
 

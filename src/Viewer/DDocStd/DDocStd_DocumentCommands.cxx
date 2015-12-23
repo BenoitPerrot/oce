@@ -18,18 +18,18 @@
 #include <DDF.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
-#include <TDocStd_XLinkTool.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkTool.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <TDocStd_Modified.hxx>
+#include <OCAF/TDocStd/TDocStd_Modified.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <DDocStd_DrawDocument.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_XLink.hxx>
-#include <TDocStd_XLinkRoot.hxx>
-#include <TDocStd_XLinkIterator.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkRoot.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkIterator.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
@@ -39,7 +39,7 @@
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 // pour propagate
-#include <TDocStd_XLinkTool.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkTool.hxx>
 
 #include <Foundation/OSD/OSD_Function.hxx>
 #include <Foundation/OSD/OSD_SharedLibrary.hxx>

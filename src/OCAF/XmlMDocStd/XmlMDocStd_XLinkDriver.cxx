@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDocStd_XLinkDriver)
 
 #include <XmlObjMgt.hxx>
 
-#include <TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 

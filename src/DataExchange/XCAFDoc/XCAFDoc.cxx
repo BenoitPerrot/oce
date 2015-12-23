@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 
 
 //=======================================================================

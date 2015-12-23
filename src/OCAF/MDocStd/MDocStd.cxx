@@ -31,10 +31,10 @@ static Standard_GUID StandardStorageDriver ("ad696000-5b34-11d1-b5ba-00a0c906436
 static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064368");
 
 /* ======= not used functionality ======
-//#include <TDocStd_Document.hxx>
+//#include <OCAF/TDocStd/TDocStd_Document.hxx>
 //#include <OCAF/MDocStd/MDocStd_PersistentMap.hxx>
-//#include <TDocStd_XLink.hxx>
-//#include <TDocStd_XLinkIterator.hxx>
+//#include <OCAF/TDocStd/TDocStd_XLink.hxx>
+//#include <OCAF/TDocStd/TDocStd_XLinkIterator.hxx>
 //#include <OCAF/MDocStd/MDocStd_ListIteratorOfDocEntryList.hxx>
 //#include <OCAF/TDF/TDF_Label.hxx>
 //#include <OCAF/TDF/TDF_ChildIterator.hxx>

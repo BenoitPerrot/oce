@@ -18,7 +18,7 @@
 #ifndef TObj_Application_HeaderFile
 #define TObj_Application_HeaderFile
 
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <TObj_Common.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>

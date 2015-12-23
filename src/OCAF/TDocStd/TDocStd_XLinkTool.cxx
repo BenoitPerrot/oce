@@ -17,10 +17,10 @@
 #include <OCAF/TDF/TDF_DataSet.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TDocStd_XLinkTool.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkTool.hxx>
 
 // standard copy
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -36,7 +36,7 @@
 #include <OCAF/TDF/TDF_CopyTool.hxx>
 #include <OCAF/TDF/TDF_ComparisonTool.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>
-#include <TDocStd_XLink.hxx> 
+#include <OCAF/TDocStd/TDocStd_XLink.hxx> 
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>

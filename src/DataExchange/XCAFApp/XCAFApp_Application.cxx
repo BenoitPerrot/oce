@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <XCAFApp_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFApp_Application)

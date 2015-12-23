@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_XLinkRoot.hxx>
 
-#include <TDocStd_XLinkPtr.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkPtr.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Data.hxx>
 #include <Handle_TDF_Attribute.hxx>
@@ -95,7 +95,7 @@ private:
 };
 
 
-#include <TDocStd_XLinkRoot.lxx>
+#include <OCAF/TDocStd/TDocStd_XLinkRoot.lxx>
 
 
 

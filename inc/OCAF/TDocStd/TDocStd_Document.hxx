@@ -274,7 +274,7 @@ private:
 };
 
 
-#include <TDocStd_Document.lxx>
+#include <OCAF/TDocStd/TDocStd_Document.lxx>
 
 
 

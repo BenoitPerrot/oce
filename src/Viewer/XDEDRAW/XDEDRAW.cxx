@@ -42,7 +42,7 @@
 #include <OCAF/TDF/TDF_LabelSequence.hxx>
 #include <OCAF/TDF/TDF_AttributeIterator.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_UAttribute.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
@@ -92,7 +92,7 @@
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
-#include <TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
 #include <Geometry/Geom/Geom_Axis2Placement.hxx>
 #include <Visualization/AIS/AIS_Trihedron.hxx>
 

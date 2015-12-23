@@ -16,9 +16,9 @@
 
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <TDocStd_Application.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_XLinkTool.hxx> 
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkTool.hxx> 
 #include <OCAF/CDF/CDF_Session.hxx> 
 
 // ====================================================================================

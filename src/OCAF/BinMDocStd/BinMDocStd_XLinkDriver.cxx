@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(BinMDocStd_XLinkDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BinMDocStd_XLinkDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>

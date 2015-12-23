@@ -77,7 +77,7 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 
 #include <DDocStd.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #if ! defined(WNT)

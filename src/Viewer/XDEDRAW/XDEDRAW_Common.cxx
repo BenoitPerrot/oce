@@ -28,10 +28,10 @@
 #include <XSDRAWIGES.hxx>
 #include <XSDRAWSTEP.hxx>
 
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <DDocStd_DrawDocument.hxx>
 #include <DDocStd.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 

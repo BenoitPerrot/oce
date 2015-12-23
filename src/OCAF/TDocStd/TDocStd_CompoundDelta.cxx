@@ -16,8 +16,8 @@
 
 
 
-#include <TDocStd_Document.hxx>
-#include <TDocStd_CompoundDelta.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_CompoundDelta.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_CompoundDelta)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

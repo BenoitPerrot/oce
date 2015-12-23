@@ -49,8 +49,8 @@
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
 
 
 IMPLEMENT_STANDARD_HANDLE(TObj_Object,MMgt_TShared)

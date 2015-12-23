@@ -220,9 +220,9 @@ static Standard_Integer OCC22980 (Draw_Interpretor& di, Standard_Integer /*argc*
 
 #endif /* HAVE_TBB */
 
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <XCAFApp_Application.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
@@ -2245,7 +2245,7 @@ static Standard_Integer OCC24931 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <OCAF/AppStdL/AppStdL_Application.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
 #include <OCAF/TDF/TDF_AttributeIterator.hxx>
 //=======================================================================

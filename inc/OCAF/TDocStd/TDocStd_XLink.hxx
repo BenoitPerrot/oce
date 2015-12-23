@@ -11,7 +11,7 @@
 #include <Handle_TDocStd_XLink.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TDocStd_XLinkPtr.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkPtr.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Handle_TDF_Reference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -133,7 +133,7 @@ private:
 };
 
 
-#include <TDocStd_XLink.lxx>
+#include <OCAF/TDocStd/TDocStd_XLink.lxx>
 
 
 

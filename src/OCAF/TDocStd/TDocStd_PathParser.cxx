@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDocStd_PathParser.hxx>
+#include <OCAF/TDocStd/TDocStd_PathParser.hxx>
 
 TDocStd_PathParser::TDocStd_PathParser(const TCollection_ExtendedString& path)
 {

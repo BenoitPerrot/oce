@@ -18,8 +18,8 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Viewer.hxx>
 #include <DDocStd_DrawDocument.hxx>
-#include <TDocStd_Application.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <Draw.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
@@ -32,7 +32,7 @@
 #include <OCAF/TDF/TDF_Tool.hxx> 
 
 #include <Foundation/OSD/OSD_Path.hxx>
-#include <TDocStd_PathParser.hxx>
+#include <OCAF/TDocStd/TDocStd_PathParser.hxx>
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <TPrsStd_AISViewer.hxx>

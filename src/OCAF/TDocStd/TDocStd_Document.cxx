@@ -19,8 +19,8 @@
 #include <OCAF/TDF/TDF_DeltaList.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <TDocStd_CompoundDelta.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_CompoundDelta.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_Document)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,13 +31,13 @@ IMPLEMENT_STANDARD_TYPE_END(TDocStd_Document)
 IMPLEMENT_DOWNCAST(TDocStd_Document,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_Document)
 
-#include <TDocStd.hxx>
+#include <OCAF/TDocStd/TDocStd.hxx>
 
-#include <TDocStd_XLink.hxx>
-#include <TDocStd_XLinkIterator.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkIterator.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 
-#include <TDocStd_Context.hxx>
+#include <OCAF/TDocStd/TDocStd_Context.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_AttributeIterator.hxx>
@@ -49,12 +49,12 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_Document)
 #include <OCAF/TDF/TDF_ListIteratorOfAttributeDeltaList.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Delta.hxx>
-#include <TDocStd_CompoundDelta.hxx>
-#include <TDocStd_Owner.hxx>
-#include <TDocStd_Modified.hxx>
+#include <OCAF/TDocStd/TDocStd_CompoundDelta.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Modified.hxx>
 
 #include <OCAF/TDF/TDF_IDMap.hxx>
-#include <TDocStd_LabelIDMapDataMap.hxx>
+#include <OCAF/TDocStd/TDocStd_LabelIDMapDataMap.hxx>
 
 #include <OCAF/CDM/CDM_MetaData.hxx>
 

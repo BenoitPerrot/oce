@@ -21,8 +21,8 @@
 
 
 
-#include <TDocStd_XLinkRoot.hxx>
-#include <TDocStd_XLinkIterator.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkRoot.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkIterator.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
@@ -30,7 +30,7 @@
 #include <OCAF/TDF/TDF_AttributeDelta.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_XLink)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -47,9 +47,9 @@ IMPLEMENT_STANDARD_RTTI(TDocStd_XLink)
 #include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Reference.hxx>
-#include <TDocStd.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_XLinkRoot.hxx>
+#include <OCAF/TDocStd/TDocStd.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkRoot.hxx>
 
 
 //=======================================================================

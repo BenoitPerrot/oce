@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TDocStd_MultiTransactionManager.hxx>
 
-#include <TDocStd_SequenceOfDocument.hxx>
-#include <TDocStd_SequenceOfApplicationDelta.hxx>
+#include <OCAF/TDocStd/TDocStd_SequenceOfDocument.hxx>
+#include <OCAF/TDocStd/TDocStd_SequenceOfApplicationDelta.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
@@ -158,7 +158,7 @@ private:
 };
 
 
-#include <TDocStd_MultiTransactionManager.lxx>
+#include <OCAF/TDocStd/TDocStd_MultiTransactionManager.lxx>
 
 
 

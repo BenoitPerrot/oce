@@ -11,7 +11,7 @@
 #include <Handle_AppStdL_Application.hxx>
 
 #include <Handle_CDM_MessageDriver.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class CDM_MessageDriver;
 class TColStd_SequenceOfExtendedString;

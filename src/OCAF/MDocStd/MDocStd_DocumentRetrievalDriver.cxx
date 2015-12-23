@@ -13,7 +13,7 @@
 
 #include <OCAF/MDF/MDF_ARDriverTable.hxx>
 #include <OCAF/PDocStd/PDocStd_Document.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/PCDM/PCDM_Document.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
@@ -31,13 +31,13 @@ IMPLEMENT_STANDARD_TYPE_END(MDocStd_DocumentRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDocStd_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDocStd_DocumentRetrievalDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <TDocStd_Application.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
 #include <OCAF/PDocStd/PDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Data.hxx> 
-#include <TDocStd_Owner.hxx>
+#include <OCAF/TDocStd/TDocStd_Owner.hxx>
 
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <UTL.hxx>

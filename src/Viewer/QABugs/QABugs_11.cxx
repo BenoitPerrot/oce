@@ -749,10 +749,10 @@ static Standard_Integer OCC166 (Draw_Interpretor& di, Standard_Integer /*argc*/,
   return 0;
 }
 
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <DDocStd.hxx>
 #include <OCAF/PCDM/PCDM_StoreStatus.hxx>
-#include <TDocStd_Application.hxx>
+#include <OCAF/TDocStd/TDocStd_Application.hxx>
 
 static Standard_Integer OCC381_Save (Draw_Interpretor& di, Standard_Integer nb, const char ** a)
 {

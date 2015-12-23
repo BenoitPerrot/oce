@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TDocStd_SequenceOfApplicationDelta.hxx>
+#include <OCAF/TDocStd/TDocStd_SequenceOfApplicationDelta.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_SequenceOfDocument.hxx>
-#include <TDocStd_MultiTransactionManager.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_SequenceOfDocument.hxx>
+#include <OCAF/TDocStd/TDocStd_MultiTransactionManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_MultiTransactionManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TDocStd_MultiTransactionManager)
 IMPLEMENT_DOWNCAST(TDocStd_MultiTransactionManager,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TDocStd_MultiTransactionManager)
-#include <TDocStd_Document.hxx>
-#include <TDocStd_ApplicationDelta.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_ApplicationDelta.hxx>
 
 //=======================================================================
 //function : TDocStd_MultiTransactionManager

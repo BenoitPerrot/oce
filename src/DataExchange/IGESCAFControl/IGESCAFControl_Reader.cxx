@@ -15,7 +15,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IGESCAFControl_Reader.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

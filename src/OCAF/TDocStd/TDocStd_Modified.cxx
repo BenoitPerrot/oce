@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
-#include <TDocStd_Modified.hxx>
+#include <OCAF/TDocStd/TDocStd_Modified.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TDocStd_Modified)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -22,11 +22,11 @@
 
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
-#include <TDocStd_Document.hxx>
-#include <TDocStd_XLinkIterator.hxx>
+#include <OCAF/TDocStd/TDocStd_Document.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkIterator.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
-#include <TDocStd_XLink.hxx>
-#include <TDocStd_XLinkRoot.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLinkRoot.hxx>
 
 
 //=======================================================================

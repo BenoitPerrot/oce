@@ -1359,10 +1359,10 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 
 #include<DDF.hxx>
 
-#include<TDocStd_Modified.hxx>
+#include<OCAF/TDocStd/TDocStd_Modified.hxx>
 #include<OCAF/TDF/TDF_ListIteratorOfDeltaList.hxx>
-#include<TDocStd_Document.hxx>
-#include<TDocStd_Application.hxx>
+#include<OCAF/TDocStd/TDocStd_Document.hxx>
+#include<OCAF/TDocStd/TDocStd_Application.hxx>
 #include<OCAF/TDF/TDF_Delta.hxx>
 #include<OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include<TPrsStd_AISPresentation.hxx>

@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDocStd_XLinkRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDocStd_XLinkRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDocStd_XLinkRetrievalDriver)
-#include <TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/TDocStd_XLink.hxx>
 #include <OCAF/PDocStd/PDocStd_XLink.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
