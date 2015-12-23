@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <XSDRAWSTLVRML_ElemNodesMap.hxx>
-#include <XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_ElemNodesMap.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
  
 
 #define TheKey Standard_Integer
@@ -19,12 +19,12 @@
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode XSDRAWSTLVRML_DataMapNodeOfElemNodesMap
-#define TCollection_DataMapNode_hxx <XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
+#define TCollection_DataMapNode_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapNodeOfElemNodesMap.hxx>
 #define TCollection_DataMapIterator XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap
-#define TCollection_DataMapIterator_hxx <XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap.hxx>
+#define TCollection_DataMapIterator_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapIteratorOfElemNodesMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_XSDRAWSTLVRML_DataMapNodeOfElemNodesMap
 #define TCollection_DataMapNode_Type_() XSDRAWSTLVRML_DataMapNodeOfElemNodesMap_Type_()
 #define TCollection_DataMap XSDRAWSTLVRML_ElemNodesMap
-#define TCollection_DataMap_hxx <XSDRAWSTLVRML_ElemNodesMap.hxx>
+#define TCollection_DataMap_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_ElemNodesMap.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

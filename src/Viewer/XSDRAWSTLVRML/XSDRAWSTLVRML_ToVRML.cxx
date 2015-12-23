@@ -13,7 +13,7 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <XSDRAWSTLVRML_ToVRML.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_ToVRML.hxx>
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

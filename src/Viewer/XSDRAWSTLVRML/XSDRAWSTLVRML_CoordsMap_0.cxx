@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <XSDRAWSTLVRML_CoordsMap.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_CoordsMap.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
-#include <XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
-#include <XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx>
  
 
 #define TheKey Standard_Integer
@@ -20,12 +20,12 @@
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode XSDRAWSTLVRML_DataMapNodeOfCoordsMap
-#define TCollection_DataMapNode_hxx <XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
+#define TCollection_DataMapNode_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
 #define TCollection_DataMapIterator XSDRAWSTLVRML_DataMapIteratorOfCoordsMap
-#define TCollection_DataMapIterator_hxx <XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx>
+#define TCollection_DataMapIterator_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_XSDRAWSTLVRML_DataMapNodeOfCoordsMap
 #define TCollection_DataMapNode_Type_() XSDRAWSTLVRML_DataMapNodeOfCoordsMap_Type_()
 #define TCollection_DataMap XSDRAWSTLVRML_CoordsMap
-#define TCollection_DataMap_hxx <XSDRAWSTLVRML_CoordsMap.hxx>
+#define TCollection_DataMap_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_CoordsMap.hxx>
 #include <Foundation/TCollection/TCollection_DataMap.gxx>
 

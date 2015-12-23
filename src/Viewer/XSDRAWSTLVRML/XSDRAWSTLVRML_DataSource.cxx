@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <XSDRAWSTLVRML_DataSource.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataSource.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSDRAWSTLVRML_DataSource)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

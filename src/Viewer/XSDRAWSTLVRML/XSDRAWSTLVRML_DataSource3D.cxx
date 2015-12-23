@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Visualization/MeshVS/MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <XSDRAWSTLVRML_DataSource3D.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataSource3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XSDRAWSTLVRML_DataSource3D)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

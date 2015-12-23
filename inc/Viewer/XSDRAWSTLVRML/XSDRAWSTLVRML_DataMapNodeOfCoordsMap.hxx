@@ -59,13 +59,13 @@ private:
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode XSDRAWSTLVRML_DataMapNodeOfCoordsMap
-#define TCollection_DataMapNode_hxx <XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
+#define TCollection_DataMapNode_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
 #define TCollection_DataMapIterator XSDRAWSTLVRML_DataMapIteratorOfCoordsMap
-#define TCollection_DataMapIterator_hxx <XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx>
+#define TCollection_DataMapIterator_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataMapIteratorOfCoordsMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_XSDRAWSTLVRML_DataMapNodeOfCoordsMap
 #define TCollection_DataMapNode_Type_() XSDRAWSTLVRML_DataMapNodeOfCoordsMap_Type_()
 #define TCollection_DataMap XSDRAWSTLVRML_CoordsMap
-#define TCollection_DataMap_hxx <XSDRAWSTLVRML_CoordsMap.hxx>
+#define TCollection_DataMap_hxx <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_CoordsMap.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <XSDRAWSTLVRML.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <VrmlAPI.hxx>
@@ -59,9 +59,9 @@
 #include <Visualization/MeshVS/MeshVS_VectorPrsBuilder.hxx>
 #include <Visualization/MeshVS/MeshVS_DeformedDataSource.hxx>
 
-#include <XSDRAWSTLVRML_DataSource.hxx>
-#include <XSDRAWSTLVRML_DataSource3D.hxx>
-#include <XSDRAWSTLVRML_DrawableMesh.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataSource.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DataSource3D.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_DrawableMesh.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
@@ -74,7 +74,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <XSDRAWSTLVRML_ToVRML.hxx>
+#include <Viewer/XSDRAWSTLVRML/XSDRAWSTLVRML_ToVRML.hxx>
 
 // avoid warnings on 'extern "C"' functions returning C++ classes
 #ifdef _MSC_VER
