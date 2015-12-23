@@ -20,7 +20,7 @@
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <BRepMesh_DiscretFactory.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretFactory.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

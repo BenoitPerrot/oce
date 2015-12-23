@@ -18,9 +18,9 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 
-#include <BRepMesh_Status.hxx>
-#include <BRepMesh.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Status.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 
 class BRepAdaptor_HSurface;

@@ -16,12 +16,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <BRepMesh_VertexTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_VertexTool.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <BRepMesh_Triangle.hxx>
-#include <BRepMesh_PairOfIndex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfIndex.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 
 class BRepMesh_Vertex;
 class BRepMesh_VertexTool;

@@ -14,8 +14,8 @@
 // commercial license or contractual agreement.
 
 #include <XBRepMesh.hxx>
-#include <BRepMesh_PluginMacro.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PluginMacro.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 
 //=======================================================================
 //function : Discret

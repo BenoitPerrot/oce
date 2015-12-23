@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
-#include <BRepMesh_FaceAttribute.hxx>
-#include <BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 
 class TopoDS_Face;

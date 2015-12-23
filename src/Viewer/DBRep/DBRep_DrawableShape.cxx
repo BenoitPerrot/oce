@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>

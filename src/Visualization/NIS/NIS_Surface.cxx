@@ -16,7 +16,7 @@
 #include <NIS_Surface.hxx>
 #include <NIS_SurfaceDrawer.hxx>
 #include <NIS_Triangulated.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/BRep/BRep_ListIteratorOfListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_PolygonOnTriangulation.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>

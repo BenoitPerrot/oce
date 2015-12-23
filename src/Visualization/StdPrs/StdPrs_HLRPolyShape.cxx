@@ -26,7 +26,7 @@
 #include <Graphic3d_Group.hxx>
 #include <Graphic3d_ArrayOfPolylines.hxx>
 #include <Prs3d_LineAspect.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <HLRBRep_PolyAlgo.hxx>
 #include <HLRBRep_ListOfBPoint.hxx>
 #include <HLRBRep_BiPoint.hxx>

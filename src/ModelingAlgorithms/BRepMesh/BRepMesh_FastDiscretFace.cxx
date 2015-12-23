@@ -12,10 +12,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_FastDiscretFace.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FastDiscretFace.hxx>
 
-#include <BRepMesh_PairOfPolygon.hxx>
-#include <BRepMesh_ShapeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfPolygon.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_ShapeTool.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 

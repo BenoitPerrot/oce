@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_DiscretRoot.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_DiscretRoot, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(BRepMesh_DiscretRoot, Standard_Transient)

@@ -18,8 +18,8 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
-#include <BRepMesh_WireChecker.hxx>
-#include <BRepMesh_Status.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_WireChecker.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Status.hxx>
 
 #ifdef HAVE_TBB
   // paralleling using Intel TBB

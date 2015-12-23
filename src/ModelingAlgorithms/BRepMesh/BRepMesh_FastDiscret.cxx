@@ -14,19 +14,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_FastDiscret.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FastDiscret.hxx>
 
-#include <BRepMesh_WireChecker.hxx>
-#include <BRepMesh_FastDiscretFace.hxx>
-#include <BRepMesh_FaceAttribute.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <BRepMesh_GeomTool.hxx>
-#include <BRepMesh_PairOfPolygon.hxx>
-#include <BRepMesh_Classifier.hxx>
-#include <BRepMesh_EdgeParameterProvider.hxx>
-#include <BRepMesh_IEdgeTool.hxx>
-#include <BRepMesh_EdgeTessellator.hxx>
-#include <BRepMesh_EdgeTessellationExtractor.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_WireChecker.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FastDiscretFace.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_GeomTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfPolygon.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Classifier.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_EdgeParameterProvider.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IEdgeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_EdgeTessellator.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_EdgeTessellationExtractor.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>

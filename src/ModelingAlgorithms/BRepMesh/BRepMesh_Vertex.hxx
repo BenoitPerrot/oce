@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <BRepMesh_DegreeOfFreedom.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DegreeOfFreedom.hxx>
 
 //! Light weighted structure representing vertex 
 //! of the mesh in parametric space. Vertex could be 

@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <BRepMesh_PairOfIndex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfIndex.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 

@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_VertexTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_VertexTool.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Precision.hxx>
-#include <BRepMesh_Vertex.hxx>
-#include <BRepMesh_VertexInspector.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Vertex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_VertexInspector.hxx>
 
 //=======================================================================
 //function : Inspect

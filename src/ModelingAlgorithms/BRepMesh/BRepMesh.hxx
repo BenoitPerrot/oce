@@ -33,11 +33,11 @@
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_EBTree.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
-#include <BRepMesh_Edge.hxx>
-#include <BRepMesh_Triangle.hxx>
-#include <BRepMesh_PairOfPolygon.hxx>
-#include <BRepMesh_PairOfIndex.hxx>
-#include <BRepMesh_Circle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Edge.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfPolygon.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfIndex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Circle.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #include <Handle_Poly_Triangulation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

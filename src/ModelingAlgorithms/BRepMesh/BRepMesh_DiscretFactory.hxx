@@ -17,12 +17,12 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <BRepMesh_PluginEntryType.hxx>
-#include <BRepMesh_FactoryError.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PluginEntryType.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FactoryError.hxx>
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Plugin/Plugin_MapOfFunctions.hxx>
-#include <BRepMesh_DiscretRoot.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
 
 class TColStd_MapOfAsciiString;
 class TCollection_AsciiString;

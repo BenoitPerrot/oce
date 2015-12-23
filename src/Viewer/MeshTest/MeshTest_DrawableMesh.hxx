@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Handle_Draw_Drawable3D.hxx>

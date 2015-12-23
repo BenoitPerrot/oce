@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_EdgeParameterProvider.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_EdgeParameterProvider.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

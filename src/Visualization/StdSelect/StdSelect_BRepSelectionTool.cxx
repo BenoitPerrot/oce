@@ -64,7 +64,7 @@
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 

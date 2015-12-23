@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
 
 class BRepMesh_Vertex;
 class BRepMesh_Edge;

@@ -19,9 +19,9 @@
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <Foundation/NCollection/NCollection_CellFilter.hxx>
-#include <BRepMesh_Vertex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Vertex.hxx>
 
 //! Class intended for fast searching of the coincidence points.
 class BRepMesh_VertexInspector : public NCollection_CellFilter_InspectorXY

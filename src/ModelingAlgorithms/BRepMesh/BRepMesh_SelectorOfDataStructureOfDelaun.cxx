@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_SelectorOfDataStructureOfDelaun.hxx>
-#include <BRepMesh_PairOfIndex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_SelectorOfDataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfIndex.hxx>
 
 //=======================================================================
 //function : Default constructor

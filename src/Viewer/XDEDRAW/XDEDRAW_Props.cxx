@@ -53,7 +53,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <stdio.h>

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_IEdgeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IEdgeTool.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_IEdgeTool, Standard_Transient)
 IMPLEMENT_STANDARD_RTTIEXT(BRepMesh_IEdgeTool, Standard_Transient)

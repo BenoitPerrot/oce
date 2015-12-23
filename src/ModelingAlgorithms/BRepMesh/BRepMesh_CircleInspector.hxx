@@ -16,8 +16,8 @@
 #ifndef BRepMesh_CircleInspector_Header
 #define BRepMesh_CircleInspector_Header
 
-#include <BRepMesh.hxx>
-#include <BRepMesh_Circle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Circle.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

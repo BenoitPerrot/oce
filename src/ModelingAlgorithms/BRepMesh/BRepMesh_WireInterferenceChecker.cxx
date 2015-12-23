@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_WireInterferenceChecker.hxx>
-#include <BRepMesh_GeomTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_WireInterferenceChecker.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_GeomTool.hxx>
 #include <Precision.hxx>
 
 // TODO: remove this variable after implementation of LoopChecker2d.

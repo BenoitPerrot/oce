@@ -34,7 +34,7 @@
 #include <CSLib.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

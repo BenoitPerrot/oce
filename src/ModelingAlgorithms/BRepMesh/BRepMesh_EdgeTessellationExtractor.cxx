@@ -13,11 +13,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_EdgeTessellationExtractor.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_EdgeTessellationExtractor.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <BRepMesh_ShapeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_ShapeTool.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_EdgeTessellationExtractor, BRepMesh_IEdgeTool)
 IMPLEMENT_STANDARD_RTTIEXT(BRepMesh_EdgeTessellationExtractor, BRepMesh_IEdgeTool)

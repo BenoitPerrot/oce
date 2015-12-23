@@ -14,12 +14,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_CircleTool.hxx>
-#include <BRepMesh_GeomTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_CircleTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_GeomTool.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Precision.hxx>
-#include <BRepMesh_Circle.hxx>
-#include <BRepMesh_CircleInspector.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Circle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_CircleInspector.hxx>
 
 //=======================================================================
 //function : Inspect

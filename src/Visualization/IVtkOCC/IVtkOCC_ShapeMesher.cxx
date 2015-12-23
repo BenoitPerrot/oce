@@ -17,10 +17,10 @@
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
-#include <BRepMesh_DiscretFactory.hxx>
-#include <BRepMesh_DiscretRoot.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretFactory.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Hatch_Hatcher.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>

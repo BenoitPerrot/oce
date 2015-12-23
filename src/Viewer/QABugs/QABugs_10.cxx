@@ -39,7 +39,7 @@
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

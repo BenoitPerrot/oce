@@ -23,11 +23,11 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <BRepMesh_DegreeOfFreedom.hxx>
-#include <BRepMesh_Edge.hxx>
-#include <BRepMesh_Vertex.hxx>
-#include <BRepMesh_Triangle.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DegreeOfFreedom.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Edge.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Vertex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (MeshTest_DrawableMesh, Draw_Drawable3D)

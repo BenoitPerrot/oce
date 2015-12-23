@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_ShapeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_ShapeTool.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

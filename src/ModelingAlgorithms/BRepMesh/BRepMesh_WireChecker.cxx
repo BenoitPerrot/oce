@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_WireChecker.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_WireChecker.hxx>
 
 #include <Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -24,12 +24,12 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
-#include <BRepMesh_PairOfPolygon.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfPolygon.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <BRepMesh_Classifier.hxx>
-#include <BRepMesh_WireInterferenceChecker.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Classifier.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_WireInterferenceChecker.hxx>
 
 #ifdef HAVE_TBB
   // paralleling using Intel TBB

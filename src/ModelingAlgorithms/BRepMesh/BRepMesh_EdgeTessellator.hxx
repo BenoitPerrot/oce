@@ -18,10 +18,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <BRepMesh.hxx>
-#include <BRepMesh_IEdgeTool.hxx>
-#include <BRepMesh_GeomTool.hxx>
-#include <BRepMesh_FaceAttribute.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IEdgeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_GeomTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>

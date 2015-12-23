@@ -19,9 +19,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepMesh_Status.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Status.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

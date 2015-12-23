@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <BRepMesh_VertexInspector.hxx>
-#include <BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_VertexInspector.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

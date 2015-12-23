@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_Delaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Delaun.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
@@ -25,11 +25,11 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_B2d.hxx>
 
-#include <BRepMesh_SelectorOfDataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_SelectorOfDataStructureOfDelaun.hxx>
 
-#include <BRepMesh_Edge.hxx>
-#include <BRepMesh_Vertex.hxx>
-#include <BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Edge.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Vertex.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
 
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 

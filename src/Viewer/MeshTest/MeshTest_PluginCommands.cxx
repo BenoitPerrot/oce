@@ -16,14 +16,14 @@
 #include <MeshTest.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Foundation/TColStd/TColStd_MapOfAsciiString.hxx>
-#include <BRepMesh_DiscretFactory.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretFactory.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfAsciiString.hxx>
-#include <BRepMesh_FactoryError.hxx>
-#include <BRepMesh_DiscretRoot.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FactoryError.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepMesh_DiscretRoot.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
 #include <Draw.hxx>
 #include <DBRep.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
@@ -44,7 +44,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <BRepMesh_Edge.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Edge.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 
 #include <stdio.h>

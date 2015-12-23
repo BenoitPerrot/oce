@@ -11,7 +11,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_NurbsConvert.hxx>
 
 #include <gtest/gtest.h>

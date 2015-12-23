@@ -16,17 +16,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <BRepMesh_FastDiscretFace.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <BRepMesh.hxx>
-#include <BRepMesh_FaceAttribute.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FastDiscretFace.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <ModelingData/TopTools/TopTools_MutexForShapeProvider.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Poly_Triangulation.hxx>
-#include <BRepMesh_Delaun.hxx>
-#include <BRepMesh_Triangle.hxx>
-#include <BRepMesh_Classifier.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Delaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Classifier.hxx>
 #include <ElSLib.hxx>
 
 class BRepMesh_DataStructureOfDelaun;

@@ -39,7 +39,7 @@
 #if 0
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #endif
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

@@ -14,15 +14,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
-#include <BRepMesh_FaceChecker.hxx>
-#include <BRepMesh_ShapeTool.hxx>
-#include <BRepMesh_Edge.hxx>
-#include <BRepMesh_PluginMacro.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceChecker.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_ShapeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Edge.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_PluginMacro.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

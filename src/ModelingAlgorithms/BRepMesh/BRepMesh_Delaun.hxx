@@ -20,12 +20,12 @@
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <BRepMesh_CircleTool.hxx>
-#include <BRepMesh_Triangle.hxx>
-#include <BRepMesh_Edge.hxx>
-#include <BRepMesh.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
-#include <BRepMesh_GeomTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_CircleTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Edge.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_GeomTool.hxx>
 
 class Bnd_B2d;
 class Bnd_Box2d;

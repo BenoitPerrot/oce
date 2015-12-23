@@ -12,11 +12,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_FaceAttribute.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
-#include <BRepMesh_ShapeTool.hxx>
-#include <BRepMesh_Classifier.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_ShapeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Classifier.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (BRepMesh_FaceAttribute, Standard_Transient)

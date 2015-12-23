@@ -16,24 +16,24 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <BRepMesh_FastDiscret.hxx>
-#include <BRepMesh_DataStructureOfDelaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FastDiscret.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
-#include <BRepMesh_Status.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Status.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MutexForShapeProvider.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Handle_BRepAdaptor_HSurface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <BRepMesh_Delaun.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Delaun.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <BRepMesh_Triangle.hxx>
-#include <BRepMesh_FaceAttribute.hxx>
-#include <BRepMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepMesh_ShapeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_ShapeTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 

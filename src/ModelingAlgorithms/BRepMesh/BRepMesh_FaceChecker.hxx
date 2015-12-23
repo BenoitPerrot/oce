@@ -24,7 +24,7 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BRepMesh_EdgeChecker.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_EdgeChecker.hxx>
 
 #include <vector>
 

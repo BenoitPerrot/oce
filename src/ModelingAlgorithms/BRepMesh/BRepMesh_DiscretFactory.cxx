@@ -13,12 +13,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepMesh_DiscretFactory.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretFactory.hxx>
 
 #include <Foundation/OSD/OSD_SharedLibrary.hxx>
 #include <Foundation/OSD/OSD_Function.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
-#include <BRepMesh_DiscretRoot.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_DiscretRoot.hxx>
 
 #ifdef HAVE_OCE_PATHS_H
 # include "oce-paths.h"

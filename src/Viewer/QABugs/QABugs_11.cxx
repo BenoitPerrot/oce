@@ -1283,7 +1283,7 @@ static Standard_Integer OCC22 (Draw_Interpretor& di, Standard_Integer argc, cons
 #include <ShapeProcess.hxx>
 
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
-#include <BRepMesh_IncrementalMesh.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 
 //=======================================================================
 //function : OCC24

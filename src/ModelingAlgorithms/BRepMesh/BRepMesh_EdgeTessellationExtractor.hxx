@@ -18,8 +18,8 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <BRepMesh_IEdgeTool.hxx>
-#include <BRepMesh_EdgeParameterProvider.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_IEdgeTool.hxx>
+#include <ModelingAlgorithms/BRepMesh/BRepMesh_EdgeParameterProvider.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Handle_Poly_PolygonOnTriangulation.hxx>
 #include <Handle_Poly_Triangulation.hxx>
