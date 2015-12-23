@@ -16,9 +16,9 @@
 
 #include <PTopoDS_HShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <PTopoDS_Shape1.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/MgtBRep/MgtBRep.hxx>
 
 #include <OCAF/MgtTopoDS/MgtTopoDS.hxx>

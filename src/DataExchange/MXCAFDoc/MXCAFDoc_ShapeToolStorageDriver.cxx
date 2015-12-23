@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_ShapeToolStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_ShapeToolStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_ShapeToolStorageDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <PXCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 

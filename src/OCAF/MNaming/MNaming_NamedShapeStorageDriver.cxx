@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(MNaming_NamedShapeStorageDriver)
 #include <OCAF/PNaming/PNaming_NamedShape.hxx>
 
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 
 #include <PTopoDS_HArray1OfShape1.hxx>
 

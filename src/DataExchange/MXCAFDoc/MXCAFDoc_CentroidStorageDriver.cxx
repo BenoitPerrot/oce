@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_CentroidStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_CentroidStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_CentroidStorageDriver)
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <PXCAFDoc_Centroid.hxx>
 #include <XCAFDoc_Centroid.hxx>
 

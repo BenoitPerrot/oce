@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
-#include <PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
 
  
 
@@ -37,12 +37,12 @@ IMPLEMENT_STANDARD_RTTI(PTColStd_DataMapNodeOfTransientPersistentMap)
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode PTColStd_DataMapNodeOfTransientPersistentMap
-#define TCollection_DataMapNode_hxx <PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/PTColStd/PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
 #define TCollection_DataMapIterator PTColStd_DataMapIteratorOfTransientPersistentMap
-#define TCollection_DataMapIterator_hxx <PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/PTColStd/PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_PTColStd_DataMapNodeOfTransientPersistentMap
 #define TCollection_DataMapNode_Type_() PTColStd_DataMapNodeOfTransientPersistentMap_Type_()
 #define TCollection_DataMap PTColStd_TransientPersistentMap
-#define TCollection_DataMap_hxx <PTColStd_TransientPersistentMap.hxx>
+#define TCollection_DataMap_hxx <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <Foundation/TCollection/TCollection_DataMapNode.gxx>
 

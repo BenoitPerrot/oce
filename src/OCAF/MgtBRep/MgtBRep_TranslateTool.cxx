@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <OCAF/PGeom/PGeom_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/PGeom2d/PGeom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <OCAF/PGeom/PGeom_Surface.hxx>

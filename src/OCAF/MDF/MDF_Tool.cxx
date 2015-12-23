@@ -50,10 +50,10 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
-#include <PTColStd_DataMapIteratorOfPersistentTransientMap.hxx>
-#include <PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_DataMapIteratorOfPersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 

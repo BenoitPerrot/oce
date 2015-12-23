@@ -11,7 +11,7 @@
 #include <TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 
  
 
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(MDF_RRelocationTable)
 #define TheOtherTargetType Handle(Standard_Transient)
 #define TheOtherTargetType_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define TheMapType PTColStd_PersistentTransientMap
-#define TheMapType_hxx <PTColStd_PersistentTransientMap.hxx>
+#define TheMapType_hxx <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #define MDF_RelocationTable MDF_RRelocationTable
 #define MDF_RelocationTable_hxx <OCAF/MDF/MDF_RRelocationTable.hxx>
 #define Handle_MDF_RelocationTable Handle_MDF_RRelocationTable

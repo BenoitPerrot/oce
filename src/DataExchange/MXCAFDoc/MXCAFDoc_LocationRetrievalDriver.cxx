@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_LocationRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_LocationRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_LocationRetrievalDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <PXCAFDoc_Location.hxx>
 #include <XCAFDoc_Location.hxx>
 

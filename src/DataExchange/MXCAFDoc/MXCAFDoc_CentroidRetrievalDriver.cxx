@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_CentroidRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_CentroidRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_CentroidRetrievalDriver)
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <PXCAFDoc_Centroid.hxx>
 #include <XCAFDoc_Centroid.hxx>
 

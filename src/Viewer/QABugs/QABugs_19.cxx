@@ -1963,7 +1963,7 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
 #include <IGESControl_Controller.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <PTopoDS_HShape.hxx>
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -1971,7 +1971,7 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
 #include <Foundation/FSD/FSD_File.hxx>
 #include <ShapeSchema.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <Foundation/Storage/Storage_Root.hxx>
 
 static Standard_Integer OCC24565 (Draw_Interpretor& di, Standard_Integer argc, const char** argv)

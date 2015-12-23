@@ -58,15 +58,15 @@ private:
 #define TheItem Handle(Standard_Transient)
 #define TheItem_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Hasher PTColStd_MapPersistentHasher
-#define Hasher_hxx <PTColStd_MapPersistentHasher.hxx>
+#define Hasher_hxx <OCAF/PTColStd/PTColStd_MapPersistentHasher.hxx>
 #define TCollection_DataMapNode PTColStd_DataMapNodeOfPersistentTransientMap
-#define TCollection_DataMapNode_hxx <PTColStd_DataMapNodeOfPersistentTransientMap.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/PTColStd/PTColStd_DataMapNodeOfPersistentTransientMap.hxx>
 #define TCollection_DataMapIterator PTColStd_DataMapIteratorOfPersistentTransientMap
-#define TCollection_DataMapIterator_hxx <PTColStd_DataMapIteratorOfPersistentTransientMap.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/PTColStd/PTColStd_DataMapIteratorOfPersistentTransientMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_PTColStd_DataMapNodeOfPersistentTransientMap
 #define TCollection_DataMapNode_Type_() PTColStd_DataMapNodeOfPersistentTransientMap_Type_()
 #define TCollection_DataMap PTColStd_PersistentTransientMap
-#define TCollection_DataMap_hxx <PTColStd_PersistentTransientMap.hxx>
+#define TCollection_DataMap_hxx <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

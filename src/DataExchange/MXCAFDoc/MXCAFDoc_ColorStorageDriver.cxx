@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_ColorStorageDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_ColorStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_ColorStorageDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <PXCAFDoc_Color.hxx>
 #include <XCAFDoc_Color.hxx>
 

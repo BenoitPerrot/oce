@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PTColStd_MapPersistentHasher.hxx>
+#include <OCAF/PTColStd/PTColStd_MapPersistentHasher.hxx>
 
 #include <Foundation/Standard/Standard_Persistent.hxx>
  
@@ -11,6 +11,6 @@
 #define Key Handle(Standard_Persistent)
 #define Key_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TCollection_MapHasher PTColStd_MapPersistentHasher
-#define TCollection_MapHasher_hxx <PTColStd_MapPersistentHasher.hxx>
+#define TCollection_MapHasher_hxx <OCAF/PTColStd/PTColStd_MapPersistentHasher.hxx>
 #include <Foundation/TCollection/TCollection_MapHasher.gxx>
 

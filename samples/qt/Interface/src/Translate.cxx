@@ -27,8 +27,8 @@
 #include <Foundation/Storage/Storage_Root.hxx>
 #include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
 #include <PTopoDS_HShape.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 
 #include <IGESControl_Reader.hxx>
 #include <IGESControl_Writer.hxx>

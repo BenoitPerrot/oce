@@ -47,7 +47,7 @@
 
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 
 #include <OCAF/MDF/MDF_TagSourceStorageDriver.hxx>
 #include <OCAF/MDF/MDF_TagSourceRetrievalDriver.hxx>

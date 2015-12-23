@@ -17,8 +17,8 @@
 #include <PTopoDS_HShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool1.hxx>
 #include <PTopoDS_Shape1.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS.hxx>
@@ -38,8 +38,8 @@
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <PTColStd_TransientPersistentMap.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 
 #ifdef chrono
 #include <Foundation/OSD/OSD_Timer.hxx>

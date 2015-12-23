@@ -60,13 +60,13 @@ private:
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode PTColStd_DataMapNodeOfTransientPersistentMap
-#define TCollection_DataMapNode_hxx <PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
+#define TCollection_DataMapNode_hxx <OCAF/PTColStd/PTColStd_DataMapNodeOfTransientPersistentMap.hxx>
 #define TCollection_DataMapIterator PTColStd_DataMapIteratorOfTransientPersistentMap
-#define TCollection_DataMapIterator_hxx <PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
+#define TCollection_DataMapIterator_hxx <OCAF/PTColStd/PTColStd_DataMapIteratorOfTransientPersistentMap.hxx>
 #define Handle_TCollection_DataMapNode Handle_PTColStd_DataMapNodeOfTransientPersistentMap
 #define TCollection_DataMapNode_Type_() PTColStd_DataMapNodeOfTransientPersistentMap_Type_()
 #define TCollection_DataMap PTColStd_TransientPersistentMap
-#define TCollection_DataMap_hxx <PTColStd_TransientPersistentMap.hxx>
+#define TCollection_DataMap_hxx <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

@@ -16,8 +16,8 @@
 #include <OCAF/PPoly/PPoly_Triangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <OCAF/PPoly/PPoly_Triangulation.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <OCAF/PPoly/PPoly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>

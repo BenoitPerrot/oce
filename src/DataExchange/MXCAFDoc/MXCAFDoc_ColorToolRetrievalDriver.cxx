@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MXCAFDoc_ColorToolRetrievalDriver)
 IMPLEMENT_DOWNCAST(MXCAFDoc_ColorToolRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MXCAFDoc_ColorToolRetrievalDriver)
 #include <OCAF/MgtTopLoc/MgtTopLoc.hxx>
-#include <PTColStd_PersistentTransientMap.hxx>
+#include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <PXCAFDoc_ColorTool.hxx>
 #include <XCAFDoc_ColorTool.hxx>
 

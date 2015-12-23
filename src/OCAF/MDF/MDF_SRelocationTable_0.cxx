@@ -11,7 +11,7 @@
 #include <OCAF/PDF/PDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <PTColStd_TransientPersistentMap.hxx>
+#include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 
  
 
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(MDF_SRelocationTable)
 #define TheOtherTargetType Handle(Standard_Persistent)
 #define TheOtherTargetType_hxx <Foundation/Standard/Standard_Persistent.hxx>
 #define TheMapType PTColStd_TransientPersistentMap
-#define TheMapType_hxx <PTColStd_TransientPersistentMap.hxx>
+#define TheMapType_hxx <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 #define MDF_RelocationTable MDF_SRelocationTable
 #define MDF_RelocationTable_hxx <OCAF/MDF/MDF_SRelocationTable.hxx>
 #define Handle_MDF_RelocationTable Handle_MDF_SRelocationTable
