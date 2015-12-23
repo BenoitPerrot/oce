@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESBasic_ExternalRefFile.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalRefFile.hxx>
 #include <IGESData_IGESReaderData.hxx>
 #include <IGESData_ParamReader.hxx>
 #include <IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESBasic_ToolExternalRefFile.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ToolExternalRefFile.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Interface_Macros.hxx>

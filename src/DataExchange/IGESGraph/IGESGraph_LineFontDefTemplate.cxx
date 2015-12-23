@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <IGESGraph_LineFontDefTemplate.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGraph_LineFontDefTemplate)

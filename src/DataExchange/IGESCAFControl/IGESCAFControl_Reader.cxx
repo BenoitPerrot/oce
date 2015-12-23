@@ -39,7 +39,7 @@
 #include <IGESData_LevelListEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <XCAFDoc_ShapeMapTool.hxx>
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

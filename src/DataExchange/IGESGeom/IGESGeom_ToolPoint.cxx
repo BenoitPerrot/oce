@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGeom_ToolPoint.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESData_Dump.hxx>

@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_Hierarchy.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Hierarchy.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_Hierarchy)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

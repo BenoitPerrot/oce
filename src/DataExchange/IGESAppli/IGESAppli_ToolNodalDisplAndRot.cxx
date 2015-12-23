@@ -36,7 +36,7 @@
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfNode.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
-#include <IGESBasic_HArray1OfHArray1OfXYZ.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

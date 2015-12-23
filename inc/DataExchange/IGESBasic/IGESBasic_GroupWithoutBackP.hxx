@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_GroupWithoutBackP.hxx>
 
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 class Standard_OutOfRange;
 
 

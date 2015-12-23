@@ -38,8 +38,8 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXY.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfXY.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfXY.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

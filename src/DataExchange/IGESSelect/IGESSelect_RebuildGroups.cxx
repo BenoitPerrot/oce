@@ -30,10 +30,10 @@ IMPLEMENT_DOWNCAST(IGESSelect_RebuildGroups,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_RebuildGroups)
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESBasic_Group.hxx>
-#include <IGESBasic_GroupWithoutBackP.hxx>
-#include <IGESBasic_OrderedGroup.hxx>
-#include <IGESBasic_OrderedGroupWithoutBackP.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_GroupWithoutBackP.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_OrderedGroup.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_OrderedGroupWithoutBackP.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Interface_EntityIterator.hxx>
 #include <Interface_Macros.hxx>

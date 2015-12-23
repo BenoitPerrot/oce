@@ -20,7 +20,7 @@
 // The last field (theDependentValues) not resolved. Queried to mdtv
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

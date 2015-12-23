@@ -53,7 +53,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <IGESBasic_SingleParent.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>

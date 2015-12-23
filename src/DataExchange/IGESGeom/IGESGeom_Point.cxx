@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESGeom_Point.hxx>

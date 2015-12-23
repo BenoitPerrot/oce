@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_SubfigureDef)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESBasic_Array2OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Array2OfHArray1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -15,6 +15,6 @@
 #define Array2Item Handle(TColStd_HArray1OfReal)
 #define Array2Item_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TCollection_Array2 IGESBasic_Array2OfHArray1OfReal
-#define TCollection_Array2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
+#define TCollection_Array2_hxx <DataExchange/IGESBasic/IGESBasic_Array2OfHArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

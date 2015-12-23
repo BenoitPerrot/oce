@@ -61,7 +61,7 @@
 #include <IGESSolid_ManifoldSolid.hxx>
 #include <IGESSolid_PlaneSurface.hxx>
 
-#include <IGESBasic_SingleParent.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

@@ -103,7 +103,7 @@ private:
 #define Array2Item Handle(TColStd_HArray1OfReal)
 #define Array2Item_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TCollection_Array2 IGESBasic_Array2OfHArray1OfReal
-#define TCollection_Array2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
+#define TCollection_Array2_hxx <DataExchange/IGESBasic/IGESBasic_Array2OfHArray1OfReal.hxx>
 
 #include <Foundation/TCollection/TCollection_Array2.lxx>
 

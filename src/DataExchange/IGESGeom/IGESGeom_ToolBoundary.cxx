@@ -33,7 +33,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>

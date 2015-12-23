@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESBasic_HArray1OfLineFontEntity.hxx>
 
-#include <IGESBasic_Array1OfLineFontEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Array1OfLineFontEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESData_LineFontEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -72,9 +72,9 @@ private:
 #define ItemHArray1 Handle(IGESData_LineFontEntity)
 #define ItemHArray1_hxx <IGESData_LineFontEntity.hxx>
 #define TheArray1 IGESBasic_Array1OfLineFontEntity
-#define TheArray1_hxx <IGESBasic_Array1OfLineFontEntity.hxx>
+#define TheArray1_hxx <DataExchange/IGESBasic/IGESBasic_Array1OfLineFontEntity.hxx>
 #define TCollection_HArray1 IGESBasic_HArray1OfLineFontEntity
-#define TCollection_HArray1_hxx <IGESBasic_HArray1OfLineFontEntity.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESBasic_HArray1OfLineFontEntity
 #define TCollection_HArray1_Type_() IGESBasic_HArray1OfLineFontEntity_Type_()
 

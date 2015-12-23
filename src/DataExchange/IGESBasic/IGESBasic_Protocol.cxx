@@ -13,7 +13,7 @@
 
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <IGESBasic_Protocol.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,22 +26,22 @@ IMPLEMENT_STANDARD_TYPE_END(IGESBasic_Protocol)
 IMPLEMENT_DOWNCAST(IGESBasic_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESBasic_Protocol)
 
-#include <IGESBasic_AssocGroupType.hxx>
-#include <IGESBasic_ExternalRefFile.hxx>
-#include <IGESBasic_ExternalRefFileIndex.hxx>
-#include <IGESBasic_ExternalRefFileName.hxx>
-#include <IGESBasic_ExternalRefLibName.hxx>
-#include <IGESBasic_ExternalRefName.hxx>
-#include <IGESBasic_ExternalReferenceFile.hxx>
-#include <IGESBasic_Group.hxx>
-#include <IGESBasic_GroupWithoutBackP.hxx>
-#include <IGESBasic_Hierarchy.hxx>
-#include <IGESBasic_Name.hxx>
-#include <IGESBasic_OrderedGroup.hxx>
-#include <IGESBasic_OrderedGroupWithoutBackP.hxx>
-#include <IGESBasic_SingleParent.hxx>
-#include <IGESBasic_SingularSubfigure.hxx>
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_AssocGroupType.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalRefFile.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalRefFileIndex.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalRefFileName.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalRefLibName.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalRefName.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalReferenceFile.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_GroupWithoutBackP.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Hierarchy.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Name.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_OrderedGroup.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_OrderedGroupWithoutBackP.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingularSubfigure.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 
 #include <IGESData.hxx>
 #include <IGESData_Protocol.hxx>

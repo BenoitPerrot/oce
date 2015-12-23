@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDefs_ToolAssociativityDef.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>

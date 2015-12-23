@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESBasic_HArray2OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray2OfHArray1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <IGESBasic_Array2OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Array2OfHArray1OfReal.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray2OfHArray1OfReal)
 #define ItemHArray2 Handle(TColStd_HArray1OfReal)
 #define ItemHArray2_hxx <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #define TheArray2 IGESBasic_Array2OfHArray1OfReal
-#define TheArray2_hxx <IGESBasic_Array2OfHArray1OfReal.hxx>
+#define TheArray2_hxx <DataExchange/IGESBasic/IGESBasic_Array2OfHArray1OfReal.hxx>
 #define TCollection_HArray2 IGESBasic_HArray2OfHArray1OfReal
-#define TCollection_HArray2_hxx <IGESBasic_HArray2OfHArray1OfReal.hxx>
+#define TCollection_HArray2_hxx <DataExchange/IGESBasic/IGESBasic_HArray2OfHArray1OfReal.hxx>
 #define Handle_TCollection_HArray2 Handle_IGESBasic_HArray2OfHArray1OfReal
 #define TCollection_HArray2_Type_() IGESBasic_HArray2OfHArray1OfReal_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

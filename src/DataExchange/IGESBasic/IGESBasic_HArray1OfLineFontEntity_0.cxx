@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESBasic_HArray1OfLineFontEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <IGESData_LineFontEntity.hxx>
-#include <IGESBasic_Array1OfLineFontEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Array1OfLineFontEntity.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(IGESBasic_HArray1OfLineFontEntity)
 #define ItemHArray1 Handle(IGESData_LineFontEntity)
 #define ItemHArray1_hxx <IGESData_LineFontEntity.hxx>
 #define TheArray1 IGESBasic_Array1OfLineFontEntity
-#define TheArray1_hxx <IGESBasic_Array1OfLineFontEntity.hxx>
+#define TheArray1_hxx <DataExchange/IGESBasic/IGESBasic_Array1OfLineFontEntity.hxx>
 #define TCollection_HArray1 IGESBasic_HArray1OfLineFontEntity
-#define TCollection_HArray1_hxx <IGESBasic_HArray1OfLineFontEntity.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESBasic_HArray1OfLineFontEntity
 #define TCollection_HArray1_Type_() IGESBasic_HArray1OfLineFontEntity_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

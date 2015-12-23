@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(IGESGraph_Protocol)
 #include <IGESGraph_IntercharacterSpacing.hxx>
 #include <IGESGraph_UniformRectGrid.hxx>
 
-#include <IGESBasic.hxx>
-#include <IGESBasic_Protocol.hxx>
+#include <DataExchange/IGESBasic/IGESBasic.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Protocol.hxx>
 
 static int deja = 0;
 static Handle(Standard_Type) atype01,atype02,atype03,atype04,atype05,atype06,

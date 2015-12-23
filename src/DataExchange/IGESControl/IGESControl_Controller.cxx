@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 #include <IGESSelect_SelectVisibleStatus.hxx>
 #include <IGESSelect_SelectSubordinate.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectType.hxx>
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <IGESSelect_IGESTypeForm.hxx>
 #include <IGESSelect_SignStatus.hxx>
 #include <IGESSelect_SignLevelNumber.hxx>

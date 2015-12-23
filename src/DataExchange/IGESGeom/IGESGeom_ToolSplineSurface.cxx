@@ -31,7 +31,7 @@
 #include <IGESGeom_ToolSplineSurface.hxx>
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <IGESBasic_HArray2OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray2OfHArray1OfReal.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

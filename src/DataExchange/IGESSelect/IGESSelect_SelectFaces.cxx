@@ -30,8 +30,8 @@ IMPLEMENT_DOWNCAST(IGESSelect_SelectFaces,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectFaces)
 #include <IGESData_IGESEntity.hxx>
 #include <IGESGeom_Plane.hxx>
-#include <IGESBasic_SingleParent.hxx>
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>
 #include <IGESSolid_Shell.hxx>
 

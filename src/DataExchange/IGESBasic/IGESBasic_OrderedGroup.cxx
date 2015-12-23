@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESBasic_OrderedGroup.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_OrderedGroup.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_OrderedGroup)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -19,7 +19,7 @@
 #include <Interface_HArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESBasic_ExternalReferenceFile.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalReferenceFile.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_ExternalReferenceFile)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

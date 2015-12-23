@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectBypassGroup)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectBypassGroup,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBypassGroup)
 #include <IGESData_IGESEntity.hxx>
-#include <IGESBasic_Group.hxx>
-#include <IGESBasic_GroupWithoutBackP.hxx>
-#include <IGESBasic_OrderedGroup.hxx>
-#include <IGESBasic_OrderedGroupWithoutBackP.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_GroupWithoutBackP.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_OrderedGroup.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_OrderedGroupWithoutBackP.hxx>
 #include <Interface_Macros.hxx>
 
 

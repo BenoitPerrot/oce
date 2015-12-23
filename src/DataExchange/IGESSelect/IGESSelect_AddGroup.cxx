@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(IGESSelect_AddGroup,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_AddGroup)
 #include <Interface_Check.hxx>
 #include <Interface_EntityIterator.hxx>
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Interface_Macros.hxx>

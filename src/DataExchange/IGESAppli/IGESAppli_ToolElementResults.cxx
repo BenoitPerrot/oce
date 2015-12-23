@@ -33,8 +33,8 @@
 #include <IGESData_ParamCursor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfReal.hxx>
-#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
 #include <IGESDimen_GeneralNote.hxx>

@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESGraph_ToolLineFontDefTemplate.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <Interface_Macros.hxx>
 
 

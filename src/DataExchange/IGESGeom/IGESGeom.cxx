@@ -21,7 +21,7 @@
 #include <Interface_ReaderLib.hxx>
 #include <IGESData_WriterLib.hxx>
 #include <IGESData_SpecificLib.hxx>
-#include <IGESBasic.hxx>
+#include <DataExchange/IGESBasic/IGESBasic.hxx>
 
 //  Ancillary data to work on a Package of IGES Entities with a Protocol
 //  (Modules are created and loaded in appropriate libraries, once by Init)

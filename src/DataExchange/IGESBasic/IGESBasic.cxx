@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESBasic_Protocol.hxx>
-#include <IGESBasic.hxx>
-#include <IGESBasic_Protocol.hxx>
-#include <IGESBasic_GeneralModule.hxx>
-#include <IGESBasic_ReadWriteModule.hxx>
-#include <IGESBasic_SpecificModule.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Protocol.hxx>
+#include <DataExchange/IGESBasic/IGESBasic.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Protocol.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_GeneralModule.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ReadWriteModule.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SpecificModule.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <IGESData_WriterLib.hxx>

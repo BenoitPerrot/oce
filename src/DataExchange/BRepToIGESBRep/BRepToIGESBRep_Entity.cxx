@@ -86,9 +86,9 @@
 
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
 
-#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_IGESModel.hxx>

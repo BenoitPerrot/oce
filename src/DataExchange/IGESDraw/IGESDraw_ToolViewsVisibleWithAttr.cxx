@@ -38,7 +38,7 @@
 #include <IGESGraph_HArray1OfColor.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESBasic_HArray1OfLineFontEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>

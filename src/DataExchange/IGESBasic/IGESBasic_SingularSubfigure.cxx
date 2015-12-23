@@ -16,9 +16,9 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESBasic_SingularSubfigure.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingularSubfigure.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_SingularSubfigure)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

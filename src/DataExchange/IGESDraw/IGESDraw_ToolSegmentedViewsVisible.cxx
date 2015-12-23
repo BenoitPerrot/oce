@@ -36,7 +36,7 @@
 #include <IGESData_LineFontEntity.hxx>
 #include <IGESDraw_HArray1OfViewKindEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <IGESBasic_HArray1OfLineFontEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfLineFontEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Interface_Macros.hxx>
 

@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <IGESBasic_AssocGroupType.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_AssocGroupType.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_AssocGroupType)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

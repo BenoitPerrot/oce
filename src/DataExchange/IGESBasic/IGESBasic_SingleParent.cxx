@@ -19,7 +19,7 @@
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESBasic_SingleParent.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_SingleParent)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -29,8 +29,8 @@
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESSolid_HArray1OfVertexList.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 #include <IGESSolid_HArray1OfLoop.hxx>
 #include <IGESSolid_HArray1OfFace.hxx>
 #include <IGESSolid_HArray1OfShell.hxx>

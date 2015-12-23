@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <IGESBasic_ExternalRefFileIndex.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_ExternalRefFileIndex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_ExternalRefFileIndex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

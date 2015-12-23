@@ -27,7 +27,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 

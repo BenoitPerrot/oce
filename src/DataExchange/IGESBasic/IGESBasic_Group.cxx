@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESBasic_Group)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

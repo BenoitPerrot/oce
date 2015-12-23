@@ -41,7 +41,7 @@
 
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomSurface.hxx>
 
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>
 

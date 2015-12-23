@@ -20,8 +20,8 @@
 #include <IGESDimen_GeneralNote.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_HArray1OfFiniteElement.hxx>
-#include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
-#include <IGESBasic_HArray1OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_FiniteElement.hxx>

@@ -33,7 +33,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESDefs_ToolTabularData.hxx>
 #include <IGESData_ParamCursor.hxx>
-#include <IGESBasic_HArray1OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <IGESData_Dump.hxx>

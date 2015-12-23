@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectBypassSubfigure)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectBypassSubfigure,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBypassSubfigure)
 #include <IGESData_IGESEntity.hxx>
-#include <IGESBasic_SubfigureDef.hxx>
-#include <IGESBasic_SingularSubfigure.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingularSubfigure.hxx>
 #include <IGESDraw_NetworkSubfigureDef.hxx>
 #include <IGESDraw_NetworkSubfigure.hxx>
 #include <IGESDraw_RectArraySubfigure.hxx>

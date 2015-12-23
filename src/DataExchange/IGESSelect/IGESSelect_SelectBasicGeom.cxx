@@ -36,8 +36,8 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBasicGeom)
 #include <IGESGeom_TrimmedSurface.hxx>
 #include <IGESGeom_BoundedSurface.hxx>
 #include <IGESGeom_Boundary.hxx>
-#include <IGESBasic_SingleParent.hxx>
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>
 #include <IGESSolid_Shell.hxx>
 #include <IGESSolid_Face.hxx>

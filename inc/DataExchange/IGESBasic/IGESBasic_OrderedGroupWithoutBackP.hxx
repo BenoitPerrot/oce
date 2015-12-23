@@ -3,36 +3,35 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _IGESBasic_OrderedGroup_HeaderFile
-#define _IGESBasic_OrderedGroup_HeaderFile
+#ifndef _IGESBasic_OrderedGroupWithoutBackP_HeaderFile
+#define _IGESBasic_OrderedGroupWithoutBackP_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_OrderedGroup.hxx>
+#include <Handle_IGESBasic_OrderedGroupWithoutBackP.hxx>
 
-#include <IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 class Standard_OutOfRange;
 
 
-//! defines OrderedGroup, Type <402> Form <14>
+//! defines OrderedGroupWithoutBackP, Type <402> Form <15>
 //! in package IGESBasic
-//! this class defines an Ordered Group with back pointers
 //! Allows a collection of a set of entities to be
 //! maintained as a single entity, but the group is
-//! ordered.
+//! ordered and there are no back pointers.
 //! It inherits from Group
-class IGESBasic_OrderedGroup : public IGESBasic_Group
+class IGESBasic_OrderedGroupWithoutBackP : public IGESBasic_Group
 {
 
 public:
 
   
-  Standard_EXPORT IGESBasic_OrderedGroup();
+  Standard_EXPORT IGESBasic_OrderedGroupWithoutBackP();
 
 
 
 
-  DEFINE_STANDARD_RTTI(IGESBasic_OrderedGroup)
+  DEFINE_STANDARD_RTTI(IGESBasic_OrderedGroupWithoutBackP)
 
 protected:
 
@@ -52,4 +51,4 @@ private:
 
 
 
-#endif // _IGESBasic_OrderedGroup_HeaderFile
+#endif // _IGESBasic_OrderedGroupWithoutBackP_HeaderFile

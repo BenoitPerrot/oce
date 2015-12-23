@@ -40,7 +40,7 @@
 #include <IGESGeom_BoundedSurface.hxx>
 #include <IGESGeom_Plane.hxx>
 #include <IGESSolid_PlaneSurface.hxx>
-#include <IGESBasic_SingleParent.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>

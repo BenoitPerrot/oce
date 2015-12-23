@@ -31,11 +31,11 @@
 #include <IGESToBRep_TopoSurface.hxx>
 #include <IGESToBRep_BRepEntity.hxx>
 
-#include <IGESBasic_Group.hxx>
-#include <IGESBasic_GroupWithoutBackP.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_GroupWithoutBackP.hxx>
 
-#include <IGESBasic_SubfigureDef.hxx>
-#include <IGESBasic_SingularSubfigure.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_SingularSubfigure.hxx>
 
 #include <IGESData_ToolLocation.hxx>
 

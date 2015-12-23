@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_RemoveCurves)
 #include <IGESGeom_Boundary.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 
