@@ -87,7 +87,7 @@ private:
 };
 
 
-#include <BRepProj_Projection.lxx>
+#include <ModelingAlgorithms/BRepProj/BRepProj_Projection.lxx>
 
 
 

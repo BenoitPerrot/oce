@@ -20,7 +20,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DBRep.hxx>
 #include <Draw_Interpretor.hxx>
-#include <BRepProj_Projection.hxx>
+#include <ModelingAlgorithms/BRepProj/BRepProj_Projection.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepTest.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

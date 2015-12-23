@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepProj_Projection.hxx>
+#include <ModelingAlgorithms/BRepProj/BRepProj_Projection.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 
