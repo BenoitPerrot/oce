@@ -83,7 +83,7 @@ private:
 #define TopClass_Classifier2d BRepClass_FClass2dOfFClassifier
 #define TopClass_Classifier2d_hxx <ModelingAlgorithms/BRepClass/BRepClass_FClass2dOfFClassifier.hxx>
 
-#include <TopClass_Classifier2d.lxx>
+#include <ModelingAlgorithms/TopClass/TopClass_Classifier2d.lxx>
 
 #undef TheEdge
 #undef TheEdge_hxx

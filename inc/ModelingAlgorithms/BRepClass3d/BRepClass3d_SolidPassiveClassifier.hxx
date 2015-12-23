@@ -75,7 +75,7 @@ private:
 #define TopClass_Classifier3d BRepClass3d_SolidPassiveClassifier
 #define TopClass_Classifier3d_hxx <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidPassiveClassifier.hxx>
 
-#include <TopClass_Classifier3d.lxx>
+#include <ModelingAlgorithms/TopClass/TopClass_Classifier3d.lxx>
 
 #undef TheIntersector
 #undef TheIntersector_hxx

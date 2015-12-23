@@ -17,5 +17,5 @@
 #define TheIntersector_hxx <ModelingAlgorithms/BRepClass/BRepClass_Intersector.hxx>
 #define TopClass_Classifier2d BRepClass_FacePassiveClassifier
 #define TopClass_Classifier2d_hxx <ModelingAlgorithms/BRepClass/BRepClass_FacePassiveClassifier.hxx>
-#include <TopClass_Classifier2d.gxx>
+#include <ModelingAlgorithms/TopClass/TopClass_Classifier2d.gxx>
 

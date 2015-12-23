@@ -84,7 +84,7 @@ private:
 #define TopClass_FaceClassifier Geom2dHatch_Classifier
 #define TopClass_FaceClassifier_hxx <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Classifier.hxx>
 
-#include <TopClass_FaceClassifier.lxx>
+#include <ModelingAlgorithms/TopClass/TopClass_FaceClassifier.lxx>
 
 #undef TheFaceExplorer
 #undef TheFaceExplorer_hxx

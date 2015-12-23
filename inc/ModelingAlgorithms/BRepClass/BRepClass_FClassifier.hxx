@@ -84,7 +84,7 @@ private:
 #define TopClass_FaceClassifier BRepClass_FClassifier
 #define TopClass_FaceClassifier_hxx <ModelingAlgorithms/BRepClass/BRepClass_FClassifier.hxx>
 
-#include <TopClass_FaceClassifier.lxx>
+#include <ModelingAlgorithms/TopClass/TopClass_FaceClassifier.lxx>
 
 #undef TheFaceExplorer
 #undef TheFaceExplorer_hxx

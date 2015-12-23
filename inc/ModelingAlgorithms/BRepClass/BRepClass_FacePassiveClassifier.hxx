@@ -83,7 +83,7 @@ private:
 #define TopClass_Classifier2d BRepClass_FacePassiveClassifier
 #define TopClass_Classifier2d_hxx <ModelingAlgorithms/BRepClass/BRepClass_FacePassiveClassifier.hxx>
 
-#include <TopClass_Classifier2d.lxx>
+#include <ModelingAlgorithms/TopClass/TopClass_Classifier2d.lxx>
 
 #undef TheEdge
 #undef TheEdge_hxx

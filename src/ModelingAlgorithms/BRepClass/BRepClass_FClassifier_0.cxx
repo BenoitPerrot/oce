@@ -23,5 +23,5 @@
 #define TopClass_FClass2d_hxx <ModelingAlgorithms/BRepClass/BRepClass_FClass2dOfFClassifier.hxx>
 #define TopClass_FaceClassifier BRepClass_FClassifier
 #define TopClass_FaceClassifier_hxx <ModelingAlgorithms/BRepClass/BRepClass_FClassifier.hxx>
-#include <TopClass_FaceClassifier.gxx>
+#include <ModelingAlgorithms/TopClass/TopClass_FaceClassifier.gxx>
 
