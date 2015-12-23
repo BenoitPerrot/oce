@@ -70,7 +70,7 @@
 
 #ifdef DRAW
 #include <DrawTrSurf.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 #ifdef OCCT_DEBUG
 static Standard_Boolean Affich       = Standard_False;

@@ -18,7 +18,7 @@
 #include <QABugs.hxx>
 
 #include <Draw_Interpretor.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
@@ -37,7 +37,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_SplitShape.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>

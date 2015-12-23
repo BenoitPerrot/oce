@@ -25,10 +25,10 @@
 #include <TestTopOpeDraw_TTOT.hxx>
 
 #include <Precision.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

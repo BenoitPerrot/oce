@@ -25,7 +25,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <V3d_Viewer.hxx>
 #include <V3d_View.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

@@ -42,7 +42,7 @@
 
 #ifdef DRAW
 #include <DrawTrSurf.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 static Standard_Boolean Affich       = Standard_False;
 #endif
 

@@ -19,7 +19,7 @@
 
 #ifdef DRAW
 #include <TopOpeBRepDS_define.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

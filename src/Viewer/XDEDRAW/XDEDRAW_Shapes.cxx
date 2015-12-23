@@ -16,7 +16,7 @@
 #include <XDEDRAW_Shapes.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DDocStd.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

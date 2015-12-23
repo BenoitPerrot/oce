@@ -42,7 +42,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw_Appli.hxx>
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

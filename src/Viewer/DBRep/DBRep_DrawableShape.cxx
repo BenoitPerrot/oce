@@ -21,7 +21,7 @@
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Draw_Drawable3D.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBRep_DrawableShape)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,13 +36,13 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 
 #include <Draw_Appli.hxx>
 
-#include <DBRep_Face.hxx>
-#include <DBRep_Edge.hxx>
-#include <DBRep_IsoBuilder.hxx>
-#include <DBRep_ListIteratorOfListOfFace.hxx>
-#include <DBRep_ListIteratorOfListOfEdge.hxx>
-#include <DBRep_ListIteratorOfListOfHideData.hxx>
-#include <DBRep_HideData.hxx>
+#include <Viewer/DBRep/DBRep_Face.hxx>
+#include <Viewer/DBRep/DBRep_Edge.hxx>
+#include <Viewer/DBRep/DBRep_IsoBuilder.hxx>
+#include <Viewer/DBRep/DBRep_ListIteratorOfListOfFace.hxx>
+#include <Viewer/DBRep/DBRep_ListIteratorOfListOfEdge.hxx>
+#include <Viewer/DBRep/DBRep_ListIteratorOfListOfHideData.hxx>
+#include <Viewer/DBRep/DBRep_HideData.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

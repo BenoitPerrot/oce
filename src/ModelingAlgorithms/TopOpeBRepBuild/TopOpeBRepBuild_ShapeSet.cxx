@@ -24,8 +24,8 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 #ifdef DRAW
-#include <DBRep.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <TestTopOpeDraw_DrawableSHA.hxx>
 #include <TestTopOpeDraw_TTOT.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

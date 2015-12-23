@@ -27,7 +27,7 @@
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

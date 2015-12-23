@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Draw_Marker3D.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Draw_Text3D;

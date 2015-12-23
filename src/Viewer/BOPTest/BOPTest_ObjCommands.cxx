@@ -16,7 +16,7 @@
 #include <stdio.h>
 
 #include <Draw_Interpretor.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 //
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

@@ -26,14 +26,14 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Draw_SequenceOfDrawable3D.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Edge.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <GeometryTest.hxx>
 #include <Precision.hxx>

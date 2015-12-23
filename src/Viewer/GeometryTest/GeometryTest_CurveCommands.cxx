@@ -128,7 +128,7 @@
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #ifdef WNT
 Standard_IMPORT Draw_Viewer dout;

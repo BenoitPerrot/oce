@@ -68,7 +68,7 @@ void debregufa(const Standard_Integer /*iF*/) {}
 #endif
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 
 #define M_FORWARD(O)  (O == TopAbs_FORWARD)

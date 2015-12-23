@@ -66,7 +66,7 @@ private:
 };
 
 
-#include <DBRep_IsoBuilder.lxx>
+#include <Viewer/DBRep/DBRep_IsoBuilder.lxx>
 
 
 

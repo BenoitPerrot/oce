@@ -40,7 +40,7 @@
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <OCAF/TNaming/TNaming_NamingTool.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <OCAF/TNaming/TNaming_Naming.hxx>
 #include <OCAF/TNaming/TNaming_Name.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

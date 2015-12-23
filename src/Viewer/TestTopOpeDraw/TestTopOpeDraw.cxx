@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <TestTopOpeDraw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 //=======================================================================
 //function : AllCommands

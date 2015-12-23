@@ -19,7 +19,7 @@
 
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw.hxx>
 #include <Draw_Color.hxx>
 #include <DrawTrSurf.hxx>

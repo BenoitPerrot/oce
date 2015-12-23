@@ -86,7 +86,7 @@ private:
 };
 
 
-#include <DBRep_HideData.lxx>
+#include <Viewer/DBRep/DBRep_HideData.lxx>
 
 
 

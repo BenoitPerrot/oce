@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(XSDRAW_Vars)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <DrawTrSurf.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <Interface_Macros.hxx>
 

@@ -39,13 +39,13 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Drawable3D.hxx>
-#include <DBRep.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <stdio.h>
 
 //=======================================================================

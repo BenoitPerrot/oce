@@ -68,7 +68,7 @@ private:
 };
 
 
-#include <DBRep_Face.lxx>
+#include <Viewer/DBRep/DBRep_Face.lxx>
 
 
 

@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Draw_Display.hxx>
 #include <Draw_Color.hxx>
-#include <DBRep_HideData.hxx>
+#include <Viewer/DBRep/DBRep_HideData.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_PolyAlgo.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_BiPoint.hxx>

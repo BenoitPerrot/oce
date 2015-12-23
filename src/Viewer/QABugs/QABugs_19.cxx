@@ -16,7 +16,7 @@
 #include <QABugs.hxx>
 
 #include <Draw_Interpretor.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>

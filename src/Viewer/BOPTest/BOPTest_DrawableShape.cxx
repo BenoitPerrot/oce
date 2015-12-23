@@ -53,7 +53,7 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <Draw_Segment3D.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

@@ -17,7 +17,7 @@
 #define Debug(expr)  cout<<" MAT2d_Tool2d.cxx  :  expr :"<<expr<<endl;
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <stdio.h>
 #endif

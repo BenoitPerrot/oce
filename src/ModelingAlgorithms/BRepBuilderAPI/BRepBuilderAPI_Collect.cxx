@@ -34,7 +34,7 @@ Standard_Boolean Affich;
 #endif
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 //=======================================================================
 //function : BuilBack

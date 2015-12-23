@@ -47,7 +47,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 #ifdef OCCT_DEBUG_ALGO
 Standard_Boolean AffichLoop  = Standard_False;

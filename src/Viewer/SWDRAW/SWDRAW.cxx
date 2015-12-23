@@ -14,7 +14,7 @@
 #include <SWDRAW.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <SWDRAW_ShapeTool.hxx>
 #include <SWDRAW_ShapeAnalysis.hxx>

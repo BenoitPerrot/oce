@@ -54,7 +54,7 @@ private:
 };
 
 
-#include <DBRep_Edge.lxx>
+#include <Viewer/DBRep/DBRep_Edge.lxx>
 
 
 

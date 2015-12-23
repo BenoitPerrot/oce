@@ -62,15 +62,15 @@ private:
 };
 
 #define Item Handle(DBRep_Face)
-#define Item_hxx <DBRep_Face.hxx>
+#define Item_hxx <Viewer/DBRep/DBRep_Face.hxx>
 #define TCollection_ListNode DBRep_ListNodeOfListOfFace
-#define TCollection_ListNode_hxx <DBRep_ListNodeOfListOfFace.hxx>
+#define TCollection_ListNode_hxx <Viewer/DBRep/DBRep_ListNodeOfListOfFace.hxx>
 #define TCollection_ListIterator DBRep_ListIteratorOfListOfFace
-#define TCollection_ListIterator_hxx <DBRep_ListIteratorOfListOfFace.hxx>
+#define TCollection_ListIterator_hxx <Viewer/DBRep/DBRep_ListIteratorOfListOfFace.hxx>
 #define Handle_TCollection_ListNode Handle_DBRep_ListNodeOfListOfFace
 #define TCollection_ListNode_Type_() DBRep_ListNodeOfListOfFace_Type_()
 #define TCollection_List DBRep_ListOfFace
-#define TCollection_List_hxx <DBRep_ListOfFace.hxx>
+#define TCollection_List_hxx <Viewer/DBRep/DBRep_ListOfFace.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 

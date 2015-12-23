@@ -79,7 +79,7 @@
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 #include <Geometry/GeomLib/GeomLib_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 //#ifdef WNT
 #include <stdio.h>

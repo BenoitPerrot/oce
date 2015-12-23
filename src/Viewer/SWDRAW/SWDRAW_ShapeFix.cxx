@@ -17,7 +17,7 @@
 #include <SWDRAW_ShapeFix.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <SWDRAW.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

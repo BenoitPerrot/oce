@@ -32,7 +32,7 @@
 #include <OCAF/TDF/TDF_AttributeList.hxx>
 #include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
 
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

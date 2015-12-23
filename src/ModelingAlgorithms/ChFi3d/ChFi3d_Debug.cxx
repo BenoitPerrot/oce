@@ -36,7 +36,7 @@
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 
 #ifdef OCCT_DEBUG

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 

@@ -47,7 +47,7 @@
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #ifdef WNT

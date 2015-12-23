@@ -116,7 +116,7 @@ extern void ChFi3d_ResultChron(OSD_Chronometer & ch, Standard_Real&    time);
 #ifdef DRAW
 static Standard_Boolean Affich = Standard_False;
 static char name[100];
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 
 //=======================================================================

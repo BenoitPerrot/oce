@@ -19,7 +19,7 @@
 #include <SWDRAW_ShapeAnalysis.hxx>
 #include <stdio.h>
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <SWDRAW.hxx>
 #include <Precision.hxx>

@@ -19,7 +19,7 @@
 #include <Draw.hxx>
 #include <Draw_Interpretor.hxx>
 #include <QANewDBRepNaming.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <DDocStd.hxx>
 

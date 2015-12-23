@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
 #include <Draw_Segment3D.hxx>

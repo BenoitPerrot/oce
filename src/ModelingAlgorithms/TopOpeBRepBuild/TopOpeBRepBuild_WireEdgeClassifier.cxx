@@ -20,7 +20,7 @@
 #include <TopOpeBRepBuild_WireEdgeClassifier.hxx>
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 
 #include <Precision.hxx>

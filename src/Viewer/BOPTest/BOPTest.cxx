@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/BOPTest/BOPTest.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <GeomliteTest.hxx>
 #include <GeometryTest.hxx>

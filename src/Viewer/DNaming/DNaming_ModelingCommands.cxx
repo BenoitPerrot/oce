@@ -17,7 +17,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <DNaming.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

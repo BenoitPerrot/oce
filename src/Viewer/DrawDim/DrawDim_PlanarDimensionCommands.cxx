@@ -21,9 +21,9 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <DBRep.hxx> 
+#include <Viewer/DBRep/DBRep.hxx> 
 #include <Draw.hxx>
-#include <DBRep.hxx> 
+#include <Viewer/DBRep/DBRep.hxx> 
 #include <DrawDim_PlanarDistance.hxx>
 #include <DrawDim_PlanarRadius.hxx>
 #include <DrawDim_PlanarAngle.hxx>

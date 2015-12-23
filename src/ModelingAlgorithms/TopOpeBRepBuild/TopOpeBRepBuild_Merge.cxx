@@ -60,7 +60,7 @@
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-//#include <DBRep.hxx>
+//#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>

@@ -21,7 +21,7 @@
 #include <DrawTrSurf.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

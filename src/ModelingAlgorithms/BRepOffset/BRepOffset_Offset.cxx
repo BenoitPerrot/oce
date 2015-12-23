@@ -92,7 +92,7 @@ static Standard_Integer NbOFFSET = 0;
 #endif
 #ifdef DRAW 
 #include <DrawTrSurf.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 #include <stdio.h>
 

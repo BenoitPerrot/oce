@@ -17,7 +17,7 @@
 #include <TestTopOpeDraw.hxx>
 #include <TestTopOpeDraw_Displayer.hxx>
 #include <TestTopOpeDraw_TTOT.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Draw_Interpretor.hxx>

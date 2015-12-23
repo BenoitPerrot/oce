@@ -17,7 +17,7 @@
 #include <SWDRAW_ShapeProcessAPI.hxx>
 
 #include <SWDRAW.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeProcessAPI_ApplySequence.hxx>
 #include <ShapeProcess_ShapeContext.hxx>

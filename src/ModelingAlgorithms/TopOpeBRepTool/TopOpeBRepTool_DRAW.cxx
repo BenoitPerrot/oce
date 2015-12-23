@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>

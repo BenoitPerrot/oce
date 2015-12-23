@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <TestTopOpeDraw_TTOT.hxx>
 static TCollection_AsciiString PRODINS("dins ");
 #endif

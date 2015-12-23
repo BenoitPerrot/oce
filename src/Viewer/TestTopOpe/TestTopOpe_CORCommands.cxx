@@ -66,7 +66,7 @@
 #include <Draw_Interpretor.hxx>
 #include <DrawTrSurf.hxx>
 #include <Draw_Color.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>

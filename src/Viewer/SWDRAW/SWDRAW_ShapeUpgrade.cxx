@@ -22,7 +22,7 @@
 //#include <SWDRAW_ShapeUpgrade.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ShapeUpgrade.hxx>
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <ShapeUpgrade_SplitCurve2dContinuity.hxx>

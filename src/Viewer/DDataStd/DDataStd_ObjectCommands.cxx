@@ -35,7 +35,7 @@
 
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 
 //=======================================================================

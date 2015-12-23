@@ -20,7 +20,7 @@
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <StlAPI.hxx>
 #include <XSDRAW.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <VrmlAPI_Writer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>

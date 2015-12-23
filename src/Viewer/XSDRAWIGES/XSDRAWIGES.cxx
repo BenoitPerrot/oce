@@ -54,7 +54,7 @@
 
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 //#include <GeometryTest.hxx>  essai CKY 4-AUT-1998
 //#include <Viewer/BRepTest/BRepTest.hxx>      essai CKY 4-AUT-1998
 //#include <MeshTest.hxx>      essai CKY 4-AUT-1998

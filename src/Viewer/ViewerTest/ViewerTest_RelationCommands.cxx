@@ -37,7 +37,7 @@
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw_Window.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ElSLib.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>

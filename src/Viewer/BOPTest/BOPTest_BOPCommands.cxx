@@ -17,7 +17,7 @@
 
 #include <stdio.h>
 
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>

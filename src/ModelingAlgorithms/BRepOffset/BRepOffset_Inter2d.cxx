@@ -87,7 +87,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #ifdef DRAW 
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 Standard_IMPORT extern Standard_Boolean AffichInt2d;
 static Standard_Integer NbF2d = 0;
 static Standard_Integer NbE2d = 0;

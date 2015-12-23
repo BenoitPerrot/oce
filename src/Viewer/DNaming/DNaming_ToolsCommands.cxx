@@ -16,7 +16,7 @@
 
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DNaming.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

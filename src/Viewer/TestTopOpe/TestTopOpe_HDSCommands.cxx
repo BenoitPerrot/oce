@@ -46,7 +46,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <TopOpeBRepDS_define.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf_Curve.hxx>
 #include <Draw_Interpretor.hxx>

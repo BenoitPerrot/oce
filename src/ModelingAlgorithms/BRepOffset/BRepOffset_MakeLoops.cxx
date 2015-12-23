@@ -38,7 +38,7 @@
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 Standard_Integer NbF = 1;
 static Standard_Boolean Affich = Standard_False;
 #endif

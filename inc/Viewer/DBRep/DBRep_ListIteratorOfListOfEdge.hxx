@@ -62,15 +62,15 @@ private:
 };
 
 #define Item Handle(DBRep_Edge)
-#define Item_hxx <DBRep_Edge.hxx>
+#define Item_hxx <Viewer/DBRep/DBRep_Edge.hxx>
 #define TCollection_ListNode DBRep_ListNodeOfListOfEdge
-#define TCollection_ListNode_hxx <DBRep_ListNodeOfListOfEdge.hxx>
+#define TCollection_ListNode_hxx <Viewer/DBRep/DBRep_ListNodeOfListOfEdge.hxx>
 #define TCollection_ListIterator DBRep_ListIteratorOfListOfEdge
-#define TCollection_ListIterator_hxx <DBRep_ListIteratorOfListOfEdge.hxx>
+#define TCollection_ListIterator_hxx <Viewer/DBRep/DBRep_ListIteratorOfListOfEdge.hxx>
 #define Handle_TCollection_ListNode Handle_DBRep_ListNodeOfListOfEdge
 #define TCollection_ListNode_Type_() DBRep_ListNodeOfListOfEdge_Type_()
 #define TCollection_List DBRep_ListOfEdge
-#define TCollection_List_hxx <DBRep_ListOfEdge.hxx>
+#define TCollection_List_hxx <Viewer/DBRep/DBRep_ListOfEdge.hxx>
 
 #include <Foundation/TCollection/TCollection_ListIterator.lxx>
 

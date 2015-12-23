@@ -29,7 +29,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <GeometryTest.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

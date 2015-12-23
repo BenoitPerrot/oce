@@ -107,7 +107,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_PipeShell)
 #ifdef DRAW
 #include <Draw.hxx>
 #include <DrawTrSurf.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 static Standard_Boolean Affich = 0;
 #endif
 

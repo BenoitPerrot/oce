@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <DBRep_Face.hxx>
-#include <DBRep_IsoBuilder.hxx>
+#include <Viewer/DBRep/DBRep_Face.hxx>
+#include <Viewer/DBRep/DBRep_IsoBuilder.hxx>
 
 #include <Precision.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

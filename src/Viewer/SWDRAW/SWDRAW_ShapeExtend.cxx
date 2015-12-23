@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <SWDRAW_ShapeExtend.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <SWDRAW.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>

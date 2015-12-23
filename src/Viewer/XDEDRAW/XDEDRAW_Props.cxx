@@ -18,7 +18,7 @@
 #include <XDEDRAW_Props.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DDocStd.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

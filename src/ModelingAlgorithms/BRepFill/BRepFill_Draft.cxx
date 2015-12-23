@@ -95,7 +95,7 @@
 #ifdef DRAW
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 static Standard_Boolean Affich = 0;
 #endif

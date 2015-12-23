@@ -157,7 +157,7 @@
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 Standard_Boolean AffichInter  = Standard_False;
 static Standard_Integer NbNewEdges  = 1;
 static Standard_Integer NbFaces     = 1;

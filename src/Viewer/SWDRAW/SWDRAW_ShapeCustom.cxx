@@ -17,7 +17,7 @@
 #include <SWDRAW_ShapeCustom.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <SWDRAW.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>

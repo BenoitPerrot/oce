@@ -11,9 +11,9 @@
 #include <Handle_DBRep_DrawableShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep_ListOfEdge.hxx>
-#include <DBRep_ListOfFace.hxx>
-#include <DBRep_ListOfHideData.hxx>
+#include <Viewer/DBRep/DBRep_ListOfEdge.hxx>
+#include <Viewer/DBRep/DBRep_ListOfFace.hxx>
+#include <Viewer/DBRep/DBRep_ListOfHideData.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Draw_Color.hxx>

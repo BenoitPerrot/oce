@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw_Appli.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TDataStd/TDataStd_Integer.hxx>
@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 #include <DrawDim_PlanarRadius.hxx>
 #include <DrawDim_PlanarAngle.hxx>
 #include <DrawDim_PlanarDiameter.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 
 static Standard_Integer DISCRET    = 100;
 static Standard_Integer NBISOS     = 10;

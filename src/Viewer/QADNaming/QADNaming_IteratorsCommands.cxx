@@ -24,7 +24,7 @@
 #include <OCAF/TNaming/TNaming_SameShapeIterator.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 

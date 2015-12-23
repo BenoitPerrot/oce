@@ -66,7 +66,7 @@ Standard_EXPORT void debreguso(const Standard_Integer iS) {cout<<"++ debreguso "
 #endif
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 
 //=======================================================================

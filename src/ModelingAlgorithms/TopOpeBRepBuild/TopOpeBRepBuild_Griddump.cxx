@@ -51,7 +51,7 @@
 #include <stdio.h>
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #endif
 
 #include <TopOpeBRepBuild_GIter.hxx>

@@ -88,7 +88,7 @@ extern void* GFABUMAKEFACEPWES_DEB;
 #endif
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <TopOpeBRepTool_DRAW.hxx>
 #endif
 

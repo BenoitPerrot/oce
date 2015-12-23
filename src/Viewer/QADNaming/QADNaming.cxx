@@ -37,7 +37,7 @@
 #include <OCAF/TNaming/TNaming_Iterator.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

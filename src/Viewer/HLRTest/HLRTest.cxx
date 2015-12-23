@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Draw_Appli.hxx>
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Algo.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_HLRToShape.hxx>
 #include <ModelingAlgorithms/HLRAppli/HLRAppli_ReflectLines.hxx>

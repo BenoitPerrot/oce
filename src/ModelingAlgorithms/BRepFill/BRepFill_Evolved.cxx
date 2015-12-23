@@ -138,7 +138,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #ifdef DRAW
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 #include <stdio.h>
 static Standard_Boolean AffichGeom = Standard_False;

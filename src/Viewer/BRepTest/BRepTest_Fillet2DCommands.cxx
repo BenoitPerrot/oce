@@ -22,7 +22,7 @@
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet2d.hxx>

@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Draw_Color.hxx>
-#include <DBRep_Edge.hxx>
+#include <Viewer/DBRep/DBRep_Edge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBRep_Edge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

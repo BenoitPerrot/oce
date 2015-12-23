@@ -18,7 +18,7 @@
 #include <Draw_Interpretor.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 static Standard_Integer BuildNamedShape (Draw_Interpretor& di,
 					 Standard_Integer nb, 

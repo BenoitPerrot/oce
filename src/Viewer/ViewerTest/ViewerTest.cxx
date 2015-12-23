@@ -166,7 +166,7 @@ void GetTypeAndSignfromString (const char* name,AIS_KindOfInteractive& TheType,S
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -4697,7 +4697,7 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 //========================= for testing Draft and Rib =================
 //=====================================================================
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Visualization/AIS/AIS_KindOfSurface.hxx>

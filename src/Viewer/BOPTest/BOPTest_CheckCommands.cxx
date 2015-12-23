@@ -30,7 +30,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
 
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <Draw.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>

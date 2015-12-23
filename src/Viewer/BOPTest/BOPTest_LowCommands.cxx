@@ -36,7 +36,7 @@
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 #include <DrawTrSurf.hxx>
 
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>

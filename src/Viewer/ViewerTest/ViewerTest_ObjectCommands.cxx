@@ -20,7 +20,7 @@
 #include <Draw_Interpretor.hxx>
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <Visualization/Font/Font_BRepFont.hxx>
 #include <Visualization/Font/Font_FontMgr.hxx>

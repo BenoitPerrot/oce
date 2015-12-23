@@ -58,8 +58,8 @@
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeThickSolid.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <DBRep.hxx>
-#include <DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
+#include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>

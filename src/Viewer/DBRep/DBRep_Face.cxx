@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Draw_Color.hxx>
-#include <DBRep_Face.hxx>
+#include <Viewer/DBRep/DBRep_Face.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DBRep_Face)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

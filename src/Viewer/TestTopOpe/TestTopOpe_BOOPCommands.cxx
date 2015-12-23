@@ -25,7 +25,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Draw.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 extern void suppressarg(Standard_Integer& na,const char** a,const Standard_Integer d);
 #ifdef OCCT_DEBUG

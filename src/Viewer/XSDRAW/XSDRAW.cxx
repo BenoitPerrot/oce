@@ -39,7 +39,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TransferBRep.hxx>
-#include <DBRep.hxx>
+#include <Viewer/DBRep/DBRep.hxx>
 
 #include <Interface_Macros.hxx>
 #include <stdio.h>
