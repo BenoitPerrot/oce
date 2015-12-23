@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(PXCAFDoc_SeqNodeOfGraphNodeSequence)
 #define PCollection_HSequence_hxx <PXCAFDoc_GraphNodeSequence.hxx>
 #define Handle_PCollection_HSequence Handle_PXCAFDoc_GraphNodeSequence
 #define PCollection_HSequence_Type_() PXCAFDoc_GraphNodeSequence_Type_()
-#include <PCollection_SeqNode.gxx>
+#include <OCAF/PCollection/PCollection_SeqNode.gxx>
 

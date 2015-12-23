@@ -103,7 +103,7 @@ private:
 #define Handle_PCollection_HArray1 Handle_PColgp_HArray1OfLin2d
 #define PCollection_HArray1_Type_() PColgp_HArray1OfLin2d_Type_()
 
-#include <PCollection_HArray1.lxx>
+#include <OCAF/PCollection/PCollection_HArray1.lxx>
 
 #undef Item
 #undef Item_hxx

@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(MDocStd_XLinkStorageDriver)
 #include <TDocStd_XLink.hxx>
 #include <PDocStd_XLink.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 #define DeclareAndSpeedCast(V,T,Vdown) Handle(T) Vdown = *((Handle(T)*)& V)

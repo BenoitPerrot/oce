@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MXCAFDoc_DatumStorageDriver)
 #include <PXCAFDoc_Datum.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 
 //=======================================================================
 //function : MXCAFDoc_DatumStorageDriver

@@ -15,7 +15,7 @@
 
 #include <PNaming_HArray1OfNamedShape.hxx>
 #include <PNaming_NamedShape.hxx>
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <PNaming_Name_1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PNaming_Name_1)

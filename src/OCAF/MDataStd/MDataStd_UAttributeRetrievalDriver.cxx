@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_UAttributeRetrievalDriver)
 #include <TDataStd_UAttribute.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================

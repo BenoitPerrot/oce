@@ -2,7 +2,7 @@
 #include <XCAFSchema_PCollection_HExtendedString.hxx>
 #endif
 #ifndef _PCollection_HExtendedString_HeaderFile
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #endif
 #ifndef _XCAFSchema_DBC_VArrayOfExtCharacter_HeaderFile
 #include <XCAFSchema_DBC_VArrayOfExtCharacter.hxx>

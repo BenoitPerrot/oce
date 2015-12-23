@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataRetrievalDriver)
 #include <TDataStd_NamedData.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfStringInteger.hxx>
 #include <TDataStd_DataMapOfStringReal.hxx>
 #include <TDataStd_DataMapOfStringByte.hxx>

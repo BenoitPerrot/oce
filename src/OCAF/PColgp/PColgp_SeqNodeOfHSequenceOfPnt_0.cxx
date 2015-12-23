@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(PColgp_SeqNodeOfHSequenceOfPnt)
 #define PCollection_HSequence_hxx <OCAF/PColgp/PColgp_HSequenceOfPnt.hxx>
 #define Handle_PCollection_HSequence Handle_PColgp_HSequenceOfPnt
 #define PCollection_HSequence_Type_() PColgp_HSequenceOfPnt_Type_()
-#include <PCollection_SeqNode.gxx>
+#include <OCAF/PCollection/PCollection_SeqNode.gxx>
 

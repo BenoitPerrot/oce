@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_HArray1OfHArray1OfReal)
 #define PCollection_HArray1_hxx <PDataStd_HArray1OfHArray1OfReal.hxx>
 #define Handle_PCollection_HArray1 Handle_PDataStd_HArray1OfHArray1OfReal
 #define PCollection_HArray1_Type_() PDataStd_HArray1OfHArray1OfReal_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

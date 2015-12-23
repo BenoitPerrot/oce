@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ReferenceArrayStorageDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDF_Tool.hxx>
 #include <TDF_Label.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 
 //=======================================================================
 //function : MDataStd_ReferenceArrayStorageDriver

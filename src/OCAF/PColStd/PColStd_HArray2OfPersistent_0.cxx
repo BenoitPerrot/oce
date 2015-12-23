@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PColStd_HArray2OfPersistent)
 #define PCollection_HArray2_hxx <PColStd_HArray2OfPersistent.hxx>
 #define Handle_PCollection_HArray2 Handle_PColStd_HArray2OfPersistent
 #define PCollection_HArray2_Type_() PColStd_HArray2OfPersistent_Type_()
-#include <PCollection_HArray2.gxx>
+#include <OCAF/PCollection/PCollection_HArray2.gxx>
 

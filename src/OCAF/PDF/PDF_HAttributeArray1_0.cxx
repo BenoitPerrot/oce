@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PDF_HAttributeArray1)
 #define PCollection_HArray1_hxx <PDF_HAttributeArray1.hxx>
 #define Handle_PCollection_HArray1 Handle_PDF_HAttributeArray1
 #define PCollection_HArray1_Type_() PDF_HAttributeArray1_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

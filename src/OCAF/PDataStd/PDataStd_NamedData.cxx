@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <PColStd_HArray1OfInteger.hxx>
 #include <PColStd_HArray1OfReal.hxx>
 #include <PColStd_HArray2OfInteger.hxx>

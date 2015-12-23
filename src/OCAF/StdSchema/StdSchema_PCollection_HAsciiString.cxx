@@ -2,7 +2,7 @@
 #include <StdSchema_PCollection_HAsciiString.hxx>
 #endif
 #ifndef _PCollection_HAsciiString_HeaderFile
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #endif
 #ifndef _StdSchema_DBC_VArrayOfCharacter_HeaderFile
 #include <StdSchema_DBC_VArrayOfCharacter.hxx>

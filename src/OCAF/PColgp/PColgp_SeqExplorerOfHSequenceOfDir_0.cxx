@@ -24,5 +24,5 @@
 #define PCollection_HSequence_hxx <OCAF/PColgp/PColgp_HSequenceOfDir.hxx>
 #define Handle_PCollection_HSequence Handle_PColgp_HSequenceOfDir
 #define PCollection_HSequence_Type_() PColgp_HSequenceOfDir_Type_()
-#include <PCollection_SeqExplorer.gxx>
+#include <OCAF/PCollection/PCollection_SeqExplorer.gxx>
 

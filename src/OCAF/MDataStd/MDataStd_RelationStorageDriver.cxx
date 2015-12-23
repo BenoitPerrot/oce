@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_RelationStorageDriver)
 #include <PDataStd_Relation.hxx>
 #include <TDataStd_Relation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx> 
 #include <PDF_HAttributeArray1.hxx> 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

@@ -83,7 +83,7 @@ private:
 };
 
 #define Item Handle(PCollection_HAsciiString)
-#define Item_hxx <PCollection_HAsciiString.hxx>
+#define Item_hxx <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #define PCollection_FieldOfHArray1 PDataStd_FieldOfHArray1OfHAsciiString
 #define PCollection_FieldOfHArray1_hxx <PDataStd_FieldOfHArray1OfHAsciiString.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString
@@ -103,7 +103,7 @@ private:
 #define Handle_PCollection_HArray1 Handle_PDataStd_HArray1OfHAsciiString
 #define PCollection_HArray1_Type_() PDataStd_HArray1OfHAsciiString_Type_()
 
-#include <PCollection_HArray1.lxx>
+#include <OCAF/PCollection/PCollection_HArray1.lxx>
 
 #undef Item
 #undef Item_hxx

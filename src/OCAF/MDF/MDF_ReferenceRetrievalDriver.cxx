@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MDF_ReferenceRetrievalDriver)
 IMPLEMENT_DOWNCAST(MDF_ReferenceRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDF_ReferenceRetrievalDriver)
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <PDF_Reference.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

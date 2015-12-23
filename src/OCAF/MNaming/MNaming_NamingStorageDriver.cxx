@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(MNaming_NamingStorageDriver)
 IMPLEMENT_DOWNCAST(MNaming_NamingStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MNaming_NamingStorageDriver)
 #include <PNaming_Naming_2.hxx>
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <TDF_Tool.hxx>
 #include <TNaming_Naming.hxx>

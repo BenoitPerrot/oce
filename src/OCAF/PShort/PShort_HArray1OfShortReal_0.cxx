@@ -49,5 +49,5 @@ IMPLEMENT_STANDARD_RTTI(PShort_HArray1OfShortReal)
 #define PCollection_HArray1_hxx <PShort_HArray1OfShortReal.hxx>
 #define Handle_PCollection_HArray1 Handle_PShort_HArray1OfShortReal
 #define PCollection_HArray1_Type_() PShort_HArray1OfShortReal_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

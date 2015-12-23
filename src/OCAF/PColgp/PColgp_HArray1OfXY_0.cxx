@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PColgp_HArray1OfXY)
 #define PCollection_HArray1_hxx <OCAF/PColgp/PColgp_HArray1OfXY.hxx>
 #define Handle_PCollection_HArray1 Handle_PColgp_HArray1OfXY
 #define PCollection_HArray1_Type_() PColgp_HArray1OfXY_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

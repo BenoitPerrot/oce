@@ -103,7 +103,7 @@ private:
 #define Handle_PCollection_HArray1 Handle_PPoly_HArray1OfTriangle
 #define PCollection_HArray1_Type_() PPoly_HArray1OfTriangle_Type_()
 
-#include <PCollection_HArray1.lxx>
+#include <OCAF/PCollection/PCollection_HArray1.lxx>
 
 #undef Item
 #undef Item_hxx

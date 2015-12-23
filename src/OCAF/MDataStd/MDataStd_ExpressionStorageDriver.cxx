@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ExpressionStorageDriver)
 #include <PDataStd_Expression.hxx>
 #include <TDataStd_Expression.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <TDF_ListIteratorOfAttributeList.hxx> 
 #include <PDF_HAttributeArray1.hxx> 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

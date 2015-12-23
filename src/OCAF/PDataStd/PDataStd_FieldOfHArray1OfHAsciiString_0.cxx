@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
 #include <PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString.hxx>
 
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(PDataStd_FieldOfHArray1OfHAsciiString)
  
 
 #define Item Handle(PCollection_HAsciiString)
-#define Item_hxx <PCollection_HAsciiString.hxx>
+#define Item_hxx <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #define DBC_VArrayNode PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString
 #define DBC_VArrayNode_hxx <PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
 #define DBC_VArrayTNode PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString

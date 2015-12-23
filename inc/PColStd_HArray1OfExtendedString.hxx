@@ -83,7 +83,7 @@ private:
 };
 
 #define Item Handle(PCollection_HExtendedString)
-#define Item_hxx <PCollection_HExtendedString.hxx>
+#define Item_hxx <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #define PCollection_FieldOfHArray1 PColStd_FieldOfHArray1OfExtendedString
 #define PCollection_FieldOfHArray1_hxx <PColStd_FieldOfHArray1OfExtendedString.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString
@@ -103,7 +103,7 @@ private:
 #define Handle_PCollection_HArray1 Handle_PColStd_HArray1OfExtendedString
 #define PCollection_HArray1_Type_() PColStd_HArray1OfExtendedString_Type_()
 
-#include <PCollection_HArray1.lxx>
+#include <OCAF/PCollection/PCollection_HArray1.lxx>
 
 #undef Item
 #undef Item_hxx

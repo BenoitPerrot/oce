@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PTopoDS_HArray1OfHShape)
 #define PCollection_HArray1_hxx <PTopoDS_HArray1OfHShape.hxx>
 #define Handle_PCollection_HArray1 Handle_PTopoDS_HArray1OfHShape
 #define PCollection_HArray1_Type_() PTopoDS_HArray1OfHShape_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

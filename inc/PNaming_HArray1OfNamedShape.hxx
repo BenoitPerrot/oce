@@ -103,7 +103,7 @@ private:
 #define Handle_PCollection_HArray1 Handle_PNaming_HArray1OfNamedShape
 #define PCollection_HArray1_Type_() PNaming_HArray1OfNamedShape_Type_()
 
-#include <PCollection_HArray1.lxx>
+#include <OCAF/PCollection/PCollection_HArray1.lxx>
 
 #undef Item
 #undef Item_hxx

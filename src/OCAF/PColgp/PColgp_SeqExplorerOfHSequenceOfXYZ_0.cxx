@@ -24,5 +24,5 @@
 #define PCollection_HSequence_hxx <OCAF/PColgp/PColgp_HSequenceOfXYZ.hxx>
 #define Handle_PCollection_HSequence Handle_PColgp_HSequenceOfXYZ
 #define PCollection_HSequence_Type_() PColgp_HSequenceOfXYZ_Type_()
-#include <PCollection_SeqExplorer.gxx>
+#include <OCAF/PCollection/PCollection_SeqExplorer.gxx>
 

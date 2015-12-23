@@ -53,7 +53,7 @@ private:
 };
 
 #define Item Handle(PCollection_HAsciiString)
-#define Item_hxx <PCollection_HAsciiString.hxx>
+#define Item_hxx <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #define DBC_VArrayNode PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString
 #define DBC_VArrayNode_hxx <PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
 #define DBC_VArrayTNode PDataStd_VArrayTNodeOfFieldOfHArray1OfHAsciiString

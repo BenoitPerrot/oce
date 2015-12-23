@@ -115,7 +115,7 @@ private:
 #define Handle_PCollection_HArray2 Handle_PColgp_HArray2OfPnt
 #define PCollection_HArray2_Type_() PColgp_HArray2OfPnt_Type_()
 
-#include <PCollection_HArray2.lxx>
+#include <OCAF/PCollection/PCollection_HArray2.lxx>
 
 #undef Item
 #undef Item_hxx

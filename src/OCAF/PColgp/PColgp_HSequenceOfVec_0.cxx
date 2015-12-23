@@ -41,5 +41,5 @@ IMPLEMENT_STANDARD_RTTI(PColgp_HSequenceOfVec)
 #define PCollection_HSequence_hxx <OCAF/PColgp/PColgp_HSequenceOfVec.hxx>
 #define Handle_PCollection_HSequence Handle_PColgp_HSequenceOfVec
 #define PCollection_HSequence_Type_() PColgp_HSequenceOfVec_Type_()
-#include <PCollection_HSequence.gxx>
+#include <OCAF/PCollection/PCollection_HSequence.gxx>
 

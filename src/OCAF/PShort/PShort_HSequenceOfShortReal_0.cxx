@@ -40,5 +40,5 @@ IMPLEMENT_STANDARD_RTTI(PShort_HSequenceOfShortReal)
 #define PCollection_HSequence_hxx <PShort_HSequenceOfShortReal.hxx>
 #define Handle_PCollection_HSequence Handle_PShort_HSequenceOfShortReal
 #define PCollection_HSequence_Type_() PShort_HSequenceOfShortReal_Type_()
-#include <PCollection_HSequence.gxx>
+#include <OCAF/PCollection/PCollection_HSequence.gxx>
 

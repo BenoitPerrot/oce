@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PNaming_HArray1OfNamedShape)
 #define PCollection_HArray1_hxx <PNaming_HArray1OfNamedShape.hxx>
 #define Handle_PCollection_HArray1 Handle_PNaming_HArray1OfNamedShape
 #define PCollection_HArray1_Type_() PNaming_HArray1OfNamedShape_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

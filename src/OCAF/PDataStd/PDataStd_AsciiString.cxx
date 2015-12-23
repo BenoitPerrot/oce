@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <PDataStd_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_AsciiString)
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PDataStd_AsciiString)
 IMPLEMENT_DOWNCAST(PDataStd_AsciiString,Standard_Persistent)
 IMPLEMENT_STANDARD_RTTI(PDataStd_AsciiString)
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 //=======================================================================
 //function : PDataStd_AsciiString
 //purpose  : Constructor

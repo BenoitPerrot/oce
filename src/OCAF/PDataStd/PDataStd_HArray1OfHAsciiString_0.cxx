@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PDataStd_FieldOfHArray1OfHAsciiString.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_HArray1OfHAsciiString)
 
 
 #define Item Handle(PCollection_HAsciiString)
-#define Item_hxx <PCollection_HAsciiString.hxx>
+#define Item_hxx <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #define PCollection_FieldOfHArray1 PDataStd_FieldOfHArray1OfHAsciiString
 #define PCollection_FieldOfHArray1_hxx <PDataStd_FieldOfHArray1OfHAsciiString.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString
@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PDataStd_HArray1OfHAsciiString)
 #define PCollection_HArray1_hxx <PDataStd_HArray1OfHAsciiString.hxx>
 #define Handle_PCollection_HArray1 Handle_PDataStd_HArray1OfHAsciiString
 #define PCollection_HArray1_Type_() PDataStd_HArray1OfHAsciiString_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

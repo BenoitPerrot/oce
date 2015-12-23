@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(MDataStd_ExtStringArrayRetrievalDriver_1,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_ExtStringArrayRetrievalDriver_1)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <PDataStd_ExtStringArray.hxx>
 #include <PDataStd_ExtStringArray_1.hxx>
 #include <TDataStd_ExtStringArray.hxx>

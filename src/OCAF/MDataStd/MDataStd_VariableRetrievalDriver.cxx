@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_VariableRetrievalDriver)
 #include <TDataStd_Variable.hxx>
 #include <PDataStd_Variable.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================

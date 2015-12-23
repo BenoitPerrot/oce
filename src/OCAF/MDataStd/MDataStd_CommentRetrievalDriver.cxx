@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_CommentRetrievalDriver)
 #include <PDataStd_Comment.hxx>
 #include <TDataStd_Comment.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 MDataStd_CommentRetrievalDriver::MDataStd_CommentRetrievalDriver(const Handle(CDM_MessageDriver)& theMsgDriver):MDF_ARDriver(theMsgDriver)

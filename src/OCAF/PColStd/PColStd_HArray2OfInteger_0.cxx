@@ -49,5 +49,5 @@ IMPLEMENT_STANDARD_RTTI(PColStd_HArray2OfInteger)
 #define PCollection_HArray2_hxx <PColStd_HArray2OfInteger.hxx>
 #define Handle_PCollection_HArray2 Handle_PColStd_HArray2OfInteger
 #define PCollection_HArray2_Type_() PColStd_HArray2OfInteger_Type_()
-#include <PCollection_HArray2.gxx>
+#include <OCAF/PCollection/PCollection_HArray2.gxx>
 

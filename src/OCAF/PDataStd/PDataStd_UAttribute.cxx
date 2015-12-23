@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <PDataStd_UAttribute.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PDataStd_UAttribute)
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PDataStd_UAttribute)
 IMPLEMENT_DOWNCAST(PDataStd_UAttribute,Standard_Persistent)
 IMPLEMENT_STANDARD_RTTI(PDataStd_UAttribute)
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 
 //=======================================================================
 //function : PDataStd_UAttribute

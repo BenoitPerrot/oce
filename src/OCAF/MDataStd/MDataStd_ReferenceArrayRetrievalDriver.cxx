@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ReferenceArrayRetrievalDriver)
 #include <TDataStd_ReferenceArray.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <TDF_Tool.hxx>

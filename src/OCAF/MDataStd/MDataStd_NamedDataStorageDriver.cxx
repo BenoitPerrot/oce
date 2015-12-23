@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(MDataStd_NamedDataStorageDriver)
 IMPLEMENT_DOWNCAST(MDataStd_NamedDataStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MDataStd_NamedDataStorageDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

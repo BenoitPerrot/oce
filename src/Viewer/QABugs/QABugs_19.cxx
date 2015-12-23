@@ -34,7 +34,7 @@
 
 #include <Precision.hxx>
 
-#include <PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 
 #include <cstdio>
 #include <cmath>

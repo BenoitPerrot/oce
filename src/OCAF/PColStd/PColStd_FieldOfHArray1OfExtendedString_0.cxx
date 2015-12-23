@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 #include <PColStd_VArrayTNodeOfFieldOfHArray1OfExtendedString.hxx>
 
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_TYPE_END(PColStd_FieldOfHArray1OfExtendedString)
  
 
 #define Item Handle(PCollection_HExtendedString)
-#define Item_hxx <PCollection_HExtendedString.hxx>
+#define Item_hxx <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #define DBC_VArrayNode PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString
 #define DBC_VArrayNode_hxx <PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 #define DBC_VArrayTNode PColStd_VArrayTNodeOfFieldOfHArray1OfExtendedString

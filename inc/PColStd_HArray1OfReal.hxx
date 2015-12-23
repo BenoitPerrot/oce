@@ -102,7 +102,7 @@ private:
 #define Handle_PCollection_HArray1 Handle_PColStd_HArray1OfReal
 #define PCollection_HArray1_Type_() PColStd_HArray1OfReal_Type_()
 
-#include <PCollection_HArray1.lxx>
+#include <OCAF/PCollection/PCollection_HArray1.lxx>
 
 #undef Item
 #undef Item_hxx

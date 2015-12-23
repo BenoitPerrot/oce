@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ExtStringArrayStorageDriver)
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <PDataStd_ExtStringArray.hxx>
 #include <PDataStd_ExtStringArray_1.hxx>
 #include <TDataStd_ExtStringArray.hxx>

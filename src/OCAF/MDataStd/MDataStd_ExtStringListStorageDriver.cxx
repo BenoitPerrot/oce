@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MDataStd_ExtStringListStorageDriver)
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <TDataStd_ListIteratorOfListOfExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 
 //=======================================================================
 //function : MDataStd_ExtStringListStorageDriver

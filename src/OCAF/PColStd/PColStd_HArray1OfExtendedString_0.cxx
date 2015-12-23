@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <PColStd_FieldOfHArray1OfExtendedString.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(PColStd_HArray1OfExtendedString)
 
 
 #define Item Handle(PCollection_HExtendedString)
-#define Item_hxx <PCollection_HExtendedString.hxx>
+#define Item_hxx <OCAF/PCollection/PCollection_HExtendedString.hxx>
 #define PCollection_FieldOfHArray1 PColStd_FieldOfHArray1OfExtendedString
 #define PCollection_FieldOfHArray1_hxx <PColStd_FieldOfHArray1OfExtendedString.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString
@@ -50,5 +50,5 @@ IMPLEMENT_STANDARD_RTTI(PColStd_HArray1OfExtendedString)
 #define PCollection_HArray1_hxx <PColStd_HArray1OfExtendedString.hxx>
 #define Handle_PCollection_HArray1 Handle_PColStd_HArray1OfExtendedString
 #define PCollection_HArray1_Type_() PColStd_HArray1OfExtendedString_Type_()
-#include <PCollection_HArray1.gxx>
+#include <OCAF/PCollection/PCollection_HArray1.gxx>
 

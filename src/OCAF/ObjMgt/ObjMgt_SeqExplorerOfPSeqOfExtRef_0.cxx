@@ -24,5 +24,5 @@
 #define PCollection_HSequence_hxx <OCAF/ObjMgt/ObjMgt_PSeqOfExtRef.hxx>
 #define Handle_PCollection_HSequence Handle_ObjMgt_PSeqOfExtRef
 #define PCollection_HSequence_Type_() ObjMgt_PSeqOfExtRef_Type_()
-#include <PCollection_SeqExplorer.gxx>
+#include <OCAF/PCollection/PCollection_SeqExplorer.gxx>
 
