@@ -39,8 +39,8 @@
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 #include <IGESSolid_ToroidalSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <IGESGeom_SplineSurface.hxx>
-#include <IGESGeom_BSplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>
 #include <IGESToBRep_BasicSurface.hxx>
 
 #include <IGESToBRep.hxx>
@@ -49,8 +49,8 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
-#include <IGESGeom_SplineSurface.hxx>
-#include <IGESGeom_BSplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>
 
 #include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 
@@ -78,8 +78,8 @@
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx> 
 //S4181
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>

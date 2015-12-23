@@ -31,7 +31,7 @@
 #include <DataExchange/IGESDraw/IGESDraw_ToolView.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESData/IGESData_TransfEntity.hxx>
-#include <IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
 #include <Interface_Macros.hxx>
 
 

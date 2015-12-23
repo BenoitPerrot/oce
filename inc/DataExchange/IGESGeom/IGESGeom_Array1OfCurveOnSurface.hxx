@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESGeom_CurveOnSurface)
-#define Array1Item_hxx <IGESGeom_CurveOnSurface.hxx>
+#define Array1Item_hxx <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
 #define TCollection_Array1 IGESGeom_Array1OfCurveOnSurface
-#define TCollection_Array1_hxx <IGESGeom_Array1OfCurveOnSurface.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfCurveOnSurface.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

@@ -17,11 +17,11 @@
 //--------------------------------------------------------------------
 
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESGeom_HArray1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfTransformationMatrix.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <IGESSolid_SolidAssembly.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SolidAssembly)

@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESGeom_Protocol.hxx>
-#include <IGESGeom.hxx>
-#include <IGESGeom_Protocol.hxx>
-#include <IGESGeom_GeneralModule.hxx>
-#include <IGESGeom_ReadWriteModule.hxx>
-#include <IGESGeom_SpecificModule.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Protocol.hxx>
+#include <DataExchange/IGESGeom/IGESGeom.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Protocol.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_GeneralModule.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ReadWriteModule.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SpecificModule.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>

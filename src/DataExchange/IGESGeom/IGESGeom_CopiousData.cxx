@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IGESGeom_CopiousData.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CopiousData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CopiousData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

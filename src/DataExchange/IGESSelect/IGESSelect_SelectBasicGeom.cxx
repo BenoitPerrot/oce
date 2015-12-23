@@ -30,12 +30,12 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectBasicGeom)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectBasicGeom,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectBasicGeom)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_Plane.hxx>
-#include <IGESGeom_CompositeCurve.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>

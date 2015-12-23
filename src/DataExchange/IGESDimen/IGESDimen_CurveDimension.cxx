@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESDimen_CurveDimension)
 IMPLEMENT_DOWNCAST(IGESDimen_CurveDimension,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESDimen_CurveDimension)
-#include <IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 

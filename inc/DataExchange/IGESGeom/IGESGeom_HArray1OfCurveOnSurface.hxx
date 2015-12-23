@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_HArray1OfCurveOnSurface.hxx>
 
-#include <IGESGeom_Array1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Array1OfCurveOnSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGeom_CurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESGeom_CurveOnSurface)
-#define ItemHArray1_hxx <IGESGeom_CurveOnSurface.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
 #define TheArray1 IGESGeom_Array1OfCurveOnSurface
-#define TheArray1_hxx <IGESGeom_Array1OfCurveOnSurface.hxx>
+#define TheArray1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfCurveOnSurface.hxx>
 #define TCollection_HArray1 IGESGeom_HArray1OfCurveOnSurface
-#define TCollection_HArray1_hxx <IGESGeom_HArray1OfCurveOnSurface.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESGeom/IGESGeom_HArray1OfCurveOnSurface.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGeom_HArray1OfCurveOnSurface
 #define TCollection_HArray1_Type_() IGESGeom_HArray1OfCurveOnSurface_Type_()
 

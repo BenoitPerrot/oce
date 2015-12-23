@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <DataExchange/IGESData/IGESData_TransfEntity.hxx>

@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESGeom_SplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESGeom_ToolSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ToolSplineCurve.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

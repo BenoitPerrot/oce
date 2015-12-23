@@ -50,9 +50,9 @@ IMPLEMENT_STANDARD_RTTI(IGESDimen_Protocol)
 #include <DataExchange/IGESDimen/IGESDimen_WitnessLine.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_GeneralLabel.hxx>
 
-#include <IGESGeom.hxx>
+#include <DataExchange/IGESGeom/IGESGeom.hxx>
 #include <IGESGraph.hxx>
-#include <IGESGeom_Protocol.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Protocol.hxx>
 #include <IGESGraph_Protocol.hxx>
 
 static int deja = 0;

@@ -34,7 +34,7 @@
 #include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_WitnessLine.hxx>
-#include <IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
 #include <Interface_Macros.hxx>
 
 

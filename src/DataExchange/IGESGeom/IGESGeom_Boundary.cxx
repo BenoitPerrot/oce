@@ -22,7 +22,7 @@
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_Boundary)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

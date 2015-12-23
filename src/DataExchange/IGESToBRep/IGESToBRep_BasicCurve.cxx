@@ -29,16 +29,16 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <IGESGeom_BSplineCurve.hxx>
-#include <IGESGeom_CircularArc.hxx>
-#include <IGESGeom_ConicArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ConicArc.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <IGESGeom_CopiousData.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CopiousData.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <IGESGeom_Line.hxx>
-#include <IGESGeom_SplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <IGESToBRep_BasicCurve.hxx>
 
 #include <IGESToBRep.hxx>
@@ -78,12 +78,12 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
-#include <IGESGeom_BSplineCurve.hxx>
-#include <IGESGeom_CircularArc.hxx>
-#include <IGESGeom_ConicArc.hxx>
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_SplineCurve.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ConicArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 
 #include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 

@@ -21,7 +21,7 @@
 #include <Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
-#include <IGESGeom.hxx>
+#include <DataExchange/IGESGeom/IGESGeom.hxx>
 #include <IGESGraph.hxx>
 
 //  Ancillary data to work on a Package of IGES Entities with a Protocol

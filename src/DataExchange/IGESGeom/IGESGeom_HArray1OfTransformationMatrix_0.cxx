@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_HArray1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfTransformationMatrix.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
-#include <IGESGeom_Array1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESGeom_HArray1OfTransformationMatrix)
 
 
 #define ItemHArray1 Handle(IGESGeom_TransformationMatrix)
-#define ItemHArray1_hxx <IGESGeom_TransformationMatrix.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #define TheArray1 IGESGeom_Array1OfTransformationMatrix
-#define TheArray1_hxx <IGESGeom_Array1OfTransformationMatrix.hxx>
+#define TheArray1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 #define TCollection_HArray1 IGESGeom_HArray1OfTransformationMatrix
-#define TCollection_HArray1_hxx <IGESGeom_HArray1OfTransformationMatrix.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESGeom/IGESGeom_HArray1OfTransformationMatrix.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGeom_HArray1OfTransformationMatrix
 #define TCollection_HArray1_Type_() IGESGeom_HArray1OfTransformationMatrix_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

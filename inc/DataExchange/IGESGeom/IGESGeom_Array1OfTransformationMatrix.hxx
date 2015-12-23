@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESGeom_TransformationMatrix)
-#define Array1Item_hxx <IGESGeom_TransformationMatrix.hxx>
+#define Array1Item_hxx <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #define TCollection_Array1 IGESGeom_Array1OfTransformationMatrix
-#define TCollection_Array1_hxx <IGESGeom_Array1OfTransformationMatrix.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

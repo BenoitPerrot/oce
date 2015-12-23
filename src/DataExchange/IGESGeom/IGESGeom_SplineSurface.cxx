@@ -20,7 +20,7 @@
 #include <DataExchange/IGESBasic/IGESBasic_HArray2OfHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGeom_SplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_SplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

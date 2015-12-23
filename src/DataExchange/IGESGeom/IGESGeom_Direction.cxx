@@ -18,7 +18,7 @@
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_Direction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

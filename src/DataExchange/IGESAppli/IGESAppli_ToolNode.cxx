@@ -30,7 +30,7 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_ToolNode.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Interface_Macros.hxx>

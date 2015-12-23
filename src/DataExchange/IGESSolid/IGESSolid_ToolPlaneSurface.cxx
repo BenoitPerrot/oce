@@ -30,8 +30,8 @@
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <IGESSolid_ToolPlaneSurface.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <Interface_Macros.hxx>
 
 

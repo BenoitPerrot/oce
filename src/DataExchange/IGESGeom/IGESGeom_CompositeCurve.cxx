@@ -19,7 +19,7 @@
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CompositeCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

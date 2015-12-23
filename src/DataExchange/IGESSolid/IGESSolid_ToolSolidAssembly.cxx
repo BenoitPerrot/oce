@@ -31,9 +31,9 @@
 #include <IGESSolid_ToolSolidAssembly.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESGeom_HArray1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfTransformationMatrix.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

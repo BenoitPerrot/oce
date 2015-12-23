@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_RemoveCurves)
 IMPLEMENT_DOWNCAST(IGESSelect_RemoveCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_RemoveCurves)
 #include <Interface_Macros.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>

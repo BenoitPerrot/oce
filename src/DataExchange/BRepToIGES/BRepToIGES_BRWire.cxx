@@ -67,8 +67,8 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
-#include <IGESGeom_CompositeCurve.hxx>
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
 #include <Interface_Macros.hxx>
 

@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,7 +28,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESGeom_ToolDirection.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ToolDirection.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

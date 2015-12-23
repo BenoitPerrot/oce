@@ -16,8 +16,8 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <IGESSolid_SphericalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

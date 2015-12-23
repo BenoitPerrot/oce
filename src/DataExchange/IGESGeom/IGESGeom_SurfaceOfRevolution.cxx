@@ -16,9 +16,9 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SurfaceOfRevolution.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_SurfaceOfRevolution)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

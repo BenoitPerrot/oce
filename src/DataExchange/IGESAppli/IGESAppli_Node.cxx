@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <DataExchange/IGESData/IGESData_TransfEntity.hxx>

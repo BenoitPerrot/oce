@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CurveOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

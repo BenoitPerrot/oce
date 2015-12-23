@@ -71,19 +71,19 @@
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_BSplineSurface.hxx>
-#include <IGESGeom_CircularArc.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_Direction.hxx>
-#include <IGESGeom_Line.hxx>
-#include <IGESGeom_OffsetSurface.hxx>
-#include <IGESGeom_Plane.hxx>
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_RuledSurface.hxx>
-#include <IGESGeom_SurfaceOfRevolution.hxx>
-#include <IGESGeom_TabulatedCylinder.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_OffsetSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_RuledSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TabulatedCylinder.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 
 #include <IGESSolid_PlaneSurface.hxx>
 #include <Interface_Macros.hxx>

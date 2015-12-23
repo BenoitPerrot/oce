@@ -19,7 +19,7 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESGeom_TabulatedCylinder.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TabulatedCylinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_TabulatedCylinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

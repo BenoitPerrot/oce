@@ -32,13 +32,13 @@
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_RuledSurface.hxx>
-#include <IGESGeom_SurfaceOfRevolution.hxx>
-#include <IGESGeom_TabulatedCylinder.hxx>
-#include <IGESGeom_OffsetSurface.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_RuledSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TabulatedCylinder.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_OffsetSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
 #include <IGESSolid_PlaneSurface.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -88,12 +88,12 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
-#include <IGESGeom_BSplineSurface.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_Line.hxx>
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 
 #include <IGESSolid_CylindricalSurface.hxx>
 #include <IGESSolid_ConicalSurface.hxx>
@@ -156,7 +156,7 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
-#include <IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
 #include <ElCLib.hxx>
 
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeOffset.hxx>

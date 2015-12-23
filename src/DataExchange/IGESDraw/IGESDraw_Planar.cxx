@@ -16,7 +16,7 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>

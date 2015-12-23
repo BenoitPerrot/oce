@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESGeom_Boundary)
-#define Array1Item_hxx <IGESGeom_Boundary.hxx>
+#define Array1Item_hxx <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
 #define TCollection_Array1 IGESGeom_Array1OfBoundary
-#define TCollection_Array1_hxx <IGESGeom_Array1OfBoundary.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfBoundary.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

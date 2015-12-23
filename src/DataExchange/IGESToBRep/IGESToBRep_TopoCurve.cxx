@@ -31,11 +31,11 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_CompositeCurve.hxx>
-#include <IGESGeom_OffsetCurve.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_OffsetCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
@@ -47,7 +47,7 @@
 #include <IGESToBRep_BasicSurface.hxx>
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <IGESToBRep_TopoSurface.hxx>
-#include <IGESGeom_CircularArc.hxx>//added by rln 32/12/97
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>//added by rln 32/12/97
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -79,9 +79,9 @@
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
-#include <IGESGeom_CompositeCurve.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_OffsetCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_OffsetCurve.hxx>
 
 #include <Interface_Macros.hxx>
 

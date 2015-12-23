@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_TransformationMatrix)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

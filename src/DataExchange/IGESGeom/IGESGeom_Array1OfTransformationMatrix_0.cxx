@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_Array1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
  
 
 #define Array1Item Handle(IGESGeom_TransformationMatrix)
-#define Array1Item_hxx <IGESGeom_TransformationMatrix.hxx>
+#define Array1Item_hxx <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #define TCollection_Array1 IGESGeom_Array1OfTransformationMatrix
-#define TCollection_Array1_hxx <IGESGeom_Array1OfTransformationMatrix.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

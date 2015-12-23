@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESGeom_Flash.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Flash.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_Flash)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

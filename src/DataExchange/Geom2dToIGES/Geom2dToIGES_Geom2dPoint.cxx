@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dEntity.hxx>
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dPoint.hxx>
@@ -25,7 +25,7 @@
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>
 
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
 
 //=============================================================================

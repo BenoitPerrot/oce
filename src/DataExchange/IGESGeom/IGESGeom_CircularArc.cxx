@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_CircularArc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

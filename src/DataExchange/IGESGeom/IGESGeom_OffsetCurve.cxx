@@ -19,7 +19,7 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <IGESGeom_OffsetCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_OffsetCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

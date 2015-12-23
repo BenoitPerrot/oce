@@ -16,7 +16,7 @@
 // pour l'ecriture du fichier IGES.
 
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomPoint.hxx>
@@ -26,7 +26,7 @@
 
 #include <Geometry/Geom/Geom_Point.hxx>
 
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
 #include <Interface_Macros.hxx>
 

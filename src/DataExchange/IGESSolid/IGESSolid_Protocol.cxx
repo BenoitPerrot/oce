@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(IGESSolid_Protocol)
 #include <IGESSolid_ManifoldSolid.hxx>
 #include <IGESSolid_VertexList.hxx>
 
-#include <IGESGeom.hxx>
-#include <IGESGeom_Protocol.hxx>
+#include <DataExchange/IGESGeom/IGESGeom.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Protocol.hxx>
 
 
 static int deja = 0;

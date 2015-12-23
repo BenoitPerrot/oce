@@ -59,11 +59,11 @@
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
-#include <IGESGeom_Boundary.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_Plane.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 
 #include <Interface_Macros.hxx>
 

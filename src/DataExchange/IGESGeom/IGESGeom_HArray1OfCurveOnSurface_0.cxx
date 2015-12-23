@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESGeom_HArray1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfCurveOnSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_Array1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Array1OfCurveOnSurface.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESGeom_HArray1OfCurveOnSurface)
 
 
 #define ItemHArray1 Handle(IGESGeom_CurveOnSurface)
-#define ItemHArray1_hxx <IGESGeom_CurveOnSurface.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
 #define TheArray1 IGESGeom_Array1OfCurveOnSurface
-#define TheArray1_hxx <IGESGeom_Array1OfCurveOnSurface.hxx>
+#define TheArray1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfCurveOnSurface.hxx>
 #define TCollection_HArray1 IGESGeom_HArray1OfCurveOnSurface
-#define TCollection_HArray1_hxx <IGESGeom_HArray1OfCurveOnSurface.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESGeom/IGESGeom_HArray1OfCurveOnSurface.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGeom_HArray1OfCurveOnSurface
 #define TCollection_HArray1_Type_() IGESGeom_HArray1OfCurveOnSurface_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

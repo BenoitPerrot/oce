@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESGeom_BSplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_BSplineSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

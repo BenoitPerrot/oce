@@ -16,7 +16,7 @@
 // pour l'ecriture du fichier IGES.
 
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
-#include <IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <Geometry/Geom/Geom_Vector.hxx>
 #include <Geometry/Geom/Geom_VectorWithMagnitude.hxx>
 #include <Geometry/Geom/Geom_Direction.hxx>
@@ -35,9 +35,9 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ToolLocation.hxx>
 
-#include <IGESGeom_CopiousData.hxx>
-#include <IGESGeom_Line.hxx>
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CopiousData.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
 #include <Interface_Macros.hxx>
 

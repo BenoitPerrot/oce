@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_HArray1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_TrimmedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

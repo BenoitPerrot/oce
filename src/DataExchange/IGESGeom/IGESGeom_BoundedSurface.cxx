@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_HArray1OfBoundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfBoundary.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGeom_Boundary.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_BoundedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

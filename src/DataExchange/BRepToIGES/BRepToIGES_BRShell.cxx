@@ -45,10 +45,10 @@
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_HArray1OfCurveOnSurface.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
-#include <IGESGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SurfaceOfRevolution.hxx>
 
 #include <Interface_Macros.hxx>
 

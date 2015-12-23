@@ -94,8 +94,8 @@
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
 
-#include <IGESGeom_CompositeCurve.hxx>
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
 #include <IGESSolid_Face.hxx>
 #include <IGESSolid_HArray1OfFace.hxx>

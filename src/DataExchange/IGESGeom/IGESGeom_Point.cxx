@@ -19,7 +19,7 @@
 #include <DataExchange/IGESBasic/IGESBasic_SubfigureDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_Point)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

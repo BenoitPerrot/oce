@@ -29,10 +29,10 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSelect_SelectPCurves)
 IMPLEMENT_DOWNCAST(IGESSelect_SelectPCurves,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectPCurves)
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 #include <IGESSolid_ManifoldSolid.hxx>
 #include <IGESSolid_Shell.hxx>

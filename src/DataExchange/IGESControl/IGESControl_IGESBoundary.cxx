@@ -63,7 +63,7 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_AlgoContainer.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_ToolContainer.hxx>
-#include <IGESGeom_BSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineCurve.hxx>
 
 
 //=======================================================================

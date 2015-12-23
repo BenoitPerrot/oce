@@ -31,27 +31,27 @@
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 
-#include <IGESGeom_RuledSurface.hxx>
-#include <IGESGeom_SurfaceOfRevolution.hxx>
-#include <IGESGeom_TabulatedCylinder.hxx>
-#include <IGESGeom_OffsetSurface.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_RuledSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TabulatedCylinder.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_OffsetSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 
-#include <IGESGeom_Boundary.hxx>
-#include <IGESGeom_BoundedSurface.hxx>
-#include <IGESGeom_BSplineCurve.hxx>
-#include <IGESGeom_BSplineSurface.hxx>
-#include <IGESGeom_CircularArc.hxx>
-#include <IGESGeom_ConicArc.hxx>
-#include <IGESGeom_Line.hxx>
-#include <IGESGeom_CompositeCurve.hxx>
-#include <IGESGeom_CopiousData.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_OffsetCurve.hxx>
-#include <IGESGeom_Plane.hxx>
-#include <IGESGeom_Point.hxx>
-#include <IGESGeom_SplineCurve.hxx>
-#include <IGESGeom_SplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ConicArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Line.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CopiousData.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_OffsetCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineSurface.hxx>
 
 #include <IGESSolid_VertexList.hxx>
 #include <IGESSolid_EdgeList.hxx>

@@ -20,10 +20,10 @@
 // SplineSurfaces.
 //%13 pdn 12.02.99: USA60293 avoid applying transformation twice
 
-#include <IGESGeom_SplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <IGESGeom_SplineSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <DataExchange/IGESConvGeom/IGESConvGeom.hxx>
 

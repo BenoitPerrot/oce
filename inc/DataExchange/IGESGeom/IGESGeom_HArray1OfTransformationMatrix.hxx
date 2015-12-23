@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESGeom_HArray1OfTransformationMatrix.hxx>
 
-#include <IGESGeom_Array1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESGeom_TransformationMatrix.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESGeom_TransformationMatrix)
-#define ItemHArray1_hxx <IGESGeom_TransformationMatrix.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #define TheArray1 IGESGeom_Array1OfTransformationMatrix
-#define TheArray1_hxx <IGESGeom_Array1OfTransformationMatrix.hxx>
+#define TheArray1_hxx <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 #define TCollection_HArray1 IGESGeom_HArray1OfTransformationMatrix
-#define TCollection_HArray1_hxx <IGESGeom_HArray1OfTransformationMatrix.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESGeom/IGESGeom_HArray1OfTransformationMatrix.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESGeom_HArray1OfTransformationMatrix
 #define TCollection_HArray1_Type_() IGESGeom_HArray1OfTransformationMatrix_Type_()
 

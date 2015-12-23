@@ -19,8 +19,8 @@
 #include <DataExchange/IGESDimen/IGESDimen_GeneralNote.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_LeaderArrow.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_CircularArc.hxx>
-#include <IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
 #include <DataExchange/IGESDimen/IGESDimen_PointDimension.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESDimen_PointDimension)

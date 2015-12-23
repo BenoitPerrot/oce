@@ -18,7 +18,7 @@
 //#54 rln 24.12.98 CCI60005
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESGeom_BSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineCurve.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -29,7 +29,7 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESGeom_ToolBSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ToolBSplineCurve.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

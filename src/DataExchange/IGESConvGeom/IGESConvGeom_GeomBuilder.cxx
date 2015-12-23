@@ -15,12 +15,12 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESGeom_CopiousData.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CopiousData.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 #include <DataExchange/IGESConvGeom/IGESConvGeom_GeomBuilder.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

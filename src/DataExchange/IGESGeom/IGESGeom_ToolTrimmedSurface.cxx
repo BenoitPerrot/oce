@@ -17,7 +17,7 @@
 //--------------------------------------------------------------------
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 #include <DataExchange/IGESData/IGESData_IGESReaderData.hxx>
 #include <DataExchange/IGESData/IGESData_ParamReader.hxx>
 #include <DataExchange/IGESData/IGESData_IGESWriter.hxx>
@@ -28,11 +28,11 @@
 #include <Interface_CopyTool.hxx>
 #include <DataExchange/IGESData/IGESData_IGESDumper.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
-#include <IGESGeom_ToolTrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_ToolTrimmedSurface.hxx>
 #include <DataExchange/IGESData/IGESData_ParamCursor.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESGeom_CurveOnSurface.hxx>
-#include <IGESGeom_HArray1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_HArray1OfCurveOnSurface.hxx>
 #include <DataExchange/IGESData/IGESData_Dump.hxx>
 #include <Interface_Macros.hxx>
 

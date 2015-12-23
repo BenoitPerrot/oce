@@ -20,7 +20,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESGeom_SplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_SplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

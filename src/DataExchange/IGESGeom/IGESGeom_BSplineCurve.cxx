@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESGeom_BSplineCurve.hxx>
+#include <DataExchange/IGESGeom/IGESGeom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESGeom_BSplineCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
