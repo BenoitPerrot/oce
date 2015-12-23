@@ -18,7 +18,7 @@
 
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
-#include <IGESSolid_PlaneSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_PlaneSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

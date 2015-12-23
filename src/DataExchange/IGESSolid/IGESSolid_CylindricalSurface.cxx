@@ -18,7 +18,7 @@
 
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
-#include <IGESSolid_CylindricalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_CylindricalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_CylindricalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

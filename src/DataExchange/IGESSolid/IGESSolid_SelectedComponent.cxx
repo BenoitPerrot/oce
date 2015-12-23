@@ -16,10 +16,10 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_BooleanTree.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_BooleanTree.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESSolid_SelectedComponent.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SelectedComponent.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SelectedComponent)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESSolid_VertexList)
-#define Array1Item_hxx <IGESSolid_VertexList.hxx>
+#define Array1Item_hxx <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
 #define TCollection_Array1 IGESSolid_Array1OfVertexList
-#define TCollection_Array1_hxx <IGESSolid_Array1OfVertexList.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESSolid/IGESSolid_Array1OfVertexList.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

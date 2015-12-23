@@ -19,7 +19,7 @@
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <IGESSolid_SolidOfLinearExtrusion.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SolidOfLinearExtrusion.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SolidOfLinearExtrusion)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

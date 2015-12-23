@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <IGESSolid_Cylinder.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Cylinder.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Cylinder)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

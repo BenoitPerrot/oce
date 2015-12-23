@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <IGESSolid_Torus.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Torus.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Torus)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

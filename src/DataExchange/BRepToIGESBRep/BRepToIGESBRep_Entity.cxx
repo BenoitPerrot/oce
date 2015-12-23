@@ -23,19 +23,19 @@
 //      abv 31.01.00 inheriting from BRepToIGES_BREntity to remove code duplication
 //eap: Tue Aug 29 11:02:56 2000: Shape Processing moved to upper levels
 
-#include <IGESSolid_EdgeList.hxx>
-#include <IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <IGESSolid_Face.hxx>
-#include <IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <ModelingData/TopoDS/TopoDS_CompSolid.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -97,16 +97,16 @@
 #include <DataExchange/IGESGeom/IGESGeom_CompositeCurve.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 
-#include <IGESSolid_Face.hxx>
-#include <IGESSolid_HArray1OfFace.hxx>
-#include <IGESSolid_Loop.hxx>
-#include <IGESSolid_HArray1OfLoop.hxx>
-#include <IGESSolid_Shell.hxx>
-#include <IGESSolid_HArray1OfShell.hxx>
-#include <IGESSolid_ManifoldSolid.hxx>
-#include <IGESSolid_VertexList.hxx>
-#include <IGESSolid_HArray1OfVertexList.hxx>
-#include <IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfFace.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfLoop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfShell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfVertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
 
 #include <Interface_Macros.hxx>
 

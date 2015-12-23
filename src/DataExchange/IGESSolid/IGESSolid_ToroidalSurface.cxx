@@ -19,7 +19,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESSolid_ToroidalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ToroidalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_ToroidalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

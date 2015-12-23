@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESSolid_Loop)
-#define Array1Item_hxx <IGESSolid_Loop.hxx>
+#define Array1Item_hxx <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
 #define TCollection_Array1 IGESSolid_Array1OfLoop
-#define TCollection_Array1_hxx <IGESSolid_Array1OfLoop.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESSolid/IGESSolid_Array1OfLoop.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

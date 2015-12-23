@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_HArray1OfFace.hxx>
 
-#include <IGESSolid_Array1OfFace.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Array1OfFace.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESSolid_Face.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESSolid_Face)
-#define ItemHArray1_hxx <IGESSolid_Face.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESSolid/IGESSolid_Face.hxx>
 #define TheArray1 IGESSolid_Array1OfFace
-#define TheArray1_hxx <IGESSolid_Array1OfFace.hxx>
+#define TheArray1_hxx <DataExchange/IGESSolid/IGESSolid_Array1OfFace.hxx>
 #define TCollection_HArray1 IGESSolid_HArray1OfFace
-#define TCollection_HArray1_hxx <IGESSolid_HArray1OfFace.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESSolid/IGESSolid_HArray1OfFace.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESSolid_HArray1OfFace
 #define TCollection_HArray1_Type_() IGESSolid_HArray1OfFace_Type_()
 

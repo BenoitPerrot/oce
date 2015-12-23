@@ -53,13 +53,13 @@
 #include <DataExchange/IGESGeom/IGESGeom_SplineCurve.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_SplineSurface.hxx>
 
-#include <IGESSolid_VertexList.hxx>
-#include <IGESSolid_EdgeList.hxx>
-#include <IGESSolid_Loop.hxx>
-#include <IGESSolid_Face.hxx>
-#include <IGESSolid_Shell.hxx>
-#include <IGESSolid_ManifoldSolid.hxx>
-#include <IGESSolid_PlaneSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 
@@ -90,10 +90,10 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <IGESSolid_CylindricalSurface.hxx>
-#include <IGESSolid_ConicalSurface.hxx>
-#include <IGESSolid_SphericalSurface.hxx>
-#include <IGESSolid_ToroidalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_CylindricalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ConicalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SphericalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ToroidalSurface.hxx>
 
 #include <XSAlgo.hxx>
 

@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSolid_Protocol.hxx>
-#include <IGESSolid.hxx>
-#include <IGESSolid_Protocol.hxx>
-#include <IGESSolid_GeneralModule.hxx>
-#include <IGESSolid_ReadWriteModule.hxx>
-#include <IGESSolid_SpecificModule.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Protocol.hxx>
+#include <DataExchange/IGESSolid/IGESSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Protocol.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_GeneralModule.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ReadWriteModule.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SpecificModule.hxx>
 #include <Interface_GeneralLib.hxx>
 #include <Interface_ReaderLib.hxx>
 #include <DataExchange/IGESData/IGESData_WriterLib.hxx>

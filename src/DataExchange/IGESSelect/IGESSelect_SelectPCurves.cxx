@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectPCurves)
 #include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Boundary.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
-#include <IGESSolid_ManifoldSolid.hxx>
-#include <IGESSolid_Shell.hxx>
-#include <IGESSolid_Face.hxx>
-#include <IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_SelectBasicGeom.hxx>
 
 #include <Interface_Macros.hxx>

@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_SelectFaces)
 #include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
-#include <IGESSolid_ManifoldSolid.hxx>
-#include <IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
 
 #include <Interface_Macros.hxx>
 

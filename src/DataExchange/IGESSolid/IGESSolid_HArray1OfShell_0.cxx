@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IGESSolid_HArray1OfShell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfShell.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <IGESSolid_Shell.hxx>
-#include <IGESSolid_Array1OfShell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Array1OfShell.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(IGESSolid_HArray1OfShell)
 
 
 #define ItemHArray1 Handle(IGESSolid_Shell)
-#define ItemHArray1_hxx <IGESSolid_Shell.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
 #define TheArray1 IGESSolid_Array1OfShell
-#define TheArray1_hxx <IGESSolid_Array1OfShell.hxx>
+#define TheArray1_hxx <DataExchange/IGESSolid/IGESSolid_Array1OfShell.hxx>
 #define TCollection_HArray1 IGESSolid_HArray1OfShell
-#define TCollection_HArray1_hxx <IGESSolid_HArray1OfShell.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESSolid/IGESSolid_HArray1OfShell.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESSolid_HArray1OfShell
 #define TCollection_HArray1_Type_() IGESSolid_HArray1OfShell_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

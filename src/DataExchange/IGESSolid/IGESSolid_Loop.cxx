@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Loop)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESSolid_Loop)
 IMPLEMENT_DOWNCAST(IGESSolid_Loop,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_Loop)
-#include <IGESSolid_EdgeList.hxx>
-#include <IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
 
 
 IGESSolid_Loop::IGESSolid_Loop ()    {  }

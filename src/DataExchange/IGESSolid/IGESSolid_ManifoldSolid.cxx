@@ -16,12 +16,12 @@
 //--------------------------------------------------------------------
 //--------------------------------------------------------------------
 
-#include <IGESSolid_Shell.hxx>
-#include <IGESSolid_HArray1OfShell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfShell.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_ManifoldSolid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

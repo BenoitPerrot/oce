@@ -40,8 +40,8 @@
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESSolid.hxx>
-#include <IGESSolid_Protocol.hxx>
+#include <DataExchange/IGESSolid/IGESSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Protocol.hxx>
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
 #include <DataExchange/IGESAppli/IGESAppli_Protocol.hxx>
 

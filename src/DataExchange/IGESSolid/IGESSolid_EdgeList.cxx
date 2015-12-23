@@ -17,13 +17,13 @@
 //--------------------------------------------------------------------
 
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESSolid_HArray1OfVertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfVertexList.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESSolid_VertexList.hxx>
-#include <IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_EdgeList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

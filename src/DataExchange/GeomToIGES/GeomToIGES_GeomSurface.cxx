@@ -85,7 +85,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_TabulatedCylinder.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
 
-#include <IGESSolid_PlaneSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>
 
@@ -110,10 +110,10 @@
 #include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
-#include <IGESSolid_CylindricalSurface.hxx>
-#include <IGESSolid_ConicalSurface.hxx>
-#include <IGESSolid_SphericalSurface.hxx>
-#include <IGESSolid_ToroidalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_CylindricalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ConicalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SphericalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ToroidalSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 

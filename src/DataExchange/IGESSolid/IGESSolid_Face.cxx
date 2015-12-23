@@ -17,10 +17,10 @@
 //--------------------------------------------------------------------
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESSolid_HArray1OfLoop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfLoop.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <IGESSolid_Loop.hxx>
-#include <IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Face)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -11,29 +11,29 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESSolid_ManifoldSolid.hxx>
-#include <IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
-#include <IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESSolid_Loop.hxx>
-#include <IGESSolid_EdgeList.hxx>
-#include <IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
 #include <Mathematics/Collections/TColgp_HSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <IGESSolid_TopoBuilder.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_TopoBuilder.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <DataExchange/IGESData/IGESData_HArray1OfIGESEntity.hxx>
-#include <IGESSolid_HArray1OfVertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfVertexList.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
-#include <IGESSolid_HArray1OfLoop.hxx>
-#include <IGESSolid_HArray1OfFace.hxx>
-#include <IGESSolid_HArray1OfShell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfLoop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfFace.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_HArray1OfShell.hxx>
 #include <Interface_Macros.hxx>
 
 

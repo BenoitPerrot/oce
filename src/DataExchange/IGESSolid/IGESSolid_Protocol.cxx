@@ -13,7 +13,7 @@
 
 #include <Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <IGESSolid_Protocol.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,30 +26,30 @@ IMPLEMENT_STANDARD_TYPE_END(IGESSolid_Protocol)
 IMPLEMENT_DOWNCAST(IGESSolid_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESSolid_Protocol)
 
-#include <IGESSolid_PlaneSurface.hxx>
-#include <IGESSolid_Block.hxx>
-#include <IGESSolid_RightAngularWedge.hxx>
-#include <IGESSolid_BooleanTree.hxx>
-#include <IGESSolid_SelectedComponent.hxx>
-#include <IGESSolid_ConeFrustum.hxx>
-#include <IGESSolid_Shell.hxx>
-#include <IGESSolid_ConicalSurface.hxx>
-#include <IGESSolid_SolidAssembly.hxx>
-#include <IGESSolid_Cylinder.hxx>
-#include <IGESSolid_SolidInstance.hxx>
-#include <IGESSolid_CylindricalSurface.hxx>
-#include <IGESSolid_SolidOfLinearExtrusion.hxx>
-#include <IGESSolid_EdgeList.hxx>
-#include <IGESSolid_SolidOfRevolution.hxx>
-#include <IGESSolid_Ellipsoid.hxx>
-#include <IGESSolid_Sphere.hxx>
-#include <IGESSolid_Face.hxx>
-#include <IGESSolid_SphericalSurface.hxx>
-#include <IGESSolid_ToroidalSurface.hxx>
-#include <IGESSolid_Loop.hxx>
-#include <IGESSolid_Torus.hxx>
-#include <IGESSolid_ManifoldSolid.hxx>
-#include <IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Block.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_RightAngularWedge.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_BooleanTree.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SelectedComponent.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ConeFrustum.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ConicalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SolidAssembly.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Cylinder.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SolidInstance.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_CylindricalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SolidOfLinearExtrusion.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SolidOfRevolution.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Ellipsoid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Sphere.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SphericalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ToroidalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Torus.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
 
 #include <DataExchange/IGESGeom/IGESGeom.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Protocol.hxx>

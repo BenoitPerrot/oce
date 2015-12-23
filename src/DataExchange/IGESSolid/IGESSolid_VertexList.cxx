@@ -19,7 +19,7 @@
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_VertexList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_VertexList)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

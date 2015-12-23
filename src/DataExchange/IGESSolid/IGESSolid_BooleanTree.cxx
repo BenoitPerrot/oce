@@ -20,7 +20,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <IGESSolid_BooleanTree.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_BooleanTree.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_BooleanTree)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

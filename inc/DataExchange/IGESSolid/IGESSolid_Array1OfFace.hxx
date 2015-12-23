@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESSolid_Face)
-#define Array1Item_hxx <IGESSolid_Face.hxx>
+#define Array1Item_hxx <DataExchange/IGESSolid/IGESSolid_Face.hxx>
 #define TCollection_Array1 IGESSolid_Array1OfFace
-#define TCollection_Array1_hxx <IGESSolid_Array1OfFace.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESSolid/IGESSolid_Array1OfFace.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

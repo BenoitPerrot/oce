@@ -39,7 +39,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_TrimmedSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_BoundedSurface.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Plane.hxx>
-#include <IGESSolid_PlaneSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
 #include <DataExchange/IGESBasic/IGESBasic_SingleParent.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
@@ -95,11 +95,11 @@
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 
-#include <IGESSolid_CylindricalSurface.hxx>
-#include <IGESSolid_ConicalSurface.hxx>
-#include <IGESSolid_ToroidalSurface.hxx>
-#include <IGESSolid_SphericalSurface.hxx>
-#include <IGESSolid_PlaneSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_CylindricalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ConicalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_ToroidalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SphericalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_PlaneSurface.hxx>
 
 #include <Interface_Macros.hxx>
 

@@ -19,7 +19,7 @@
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IGESSolid_SphericalSurface.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SphericalSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SphericalSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

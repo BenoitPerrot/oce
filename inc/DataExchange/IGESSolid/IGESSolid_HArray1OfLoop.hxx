@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IGESSolid_HArray1OfLoop.hxx>
 
-#include <IGESSolid_Array1OfLoop.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_Array1OfLoop.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_IGESSolid_Loop.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -70,11 +70,11 @@ private:
 };
 
 #define ItemHArray1 Handle(IGESSolid_Loop)
-#define ItemHArray1_hxx <IGESSolid_Loop.hxx>
+#define ItemHArray1_hxx <DataExchange/IGESSolid/IGESSolid_Loop.hxx>
 #define TheArray1 IGESSolid_Array1OfLoop
-#define TheArray1_hxx <IGESSolid_Array1OfLoop.hxx>
+#define TheArray1_hxx <DataExchange/IGESSolid/IGESSolid_Array1OfLoop.hxx>
 #define TCollection_HArray1 IGESSolid_HArray1OfLoop
-#define TCollection_HArray1_hxx <IGESSolid_HArray1OfLoop.hxx>
+#define TCollection_HArray1_hxx <DataExchange/IGESSolid/IGESSolid_HArray1OfLoop.hxx>
 #define Handle_TCollection_HArray1 Handle_IGESSolid_HArray1OfLoop
 #define TCollection_HArray1_Type_() IGESSolid_HArray1OfLoop_Type_()
 

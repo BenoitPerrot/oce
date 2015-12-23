@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_TransformationMatrix.hxx>
-#include <IGESSolid_SolidAssembly.hxx>
+#include <DataExchange/IGESSolid/IGESSolid_SolidAssembly.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESSolid_SolidAssembly)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>
 
-#include <IGESSolid.hxx>
+#include <DataExchange/IGESSolid/IGESSolid.hxx>
 #include <DataExchange/IGESAppli/IGESAppli.hxx>
 #include <DataExchange/IGESDefs/IGESDefs.hxx>
 

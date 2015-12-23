@@ -93,9 +93,9 @@ private:
 };
 
 #define Array1Item Handle(IGESSolid_Shell)
-#define Array1Item_hxx <IGESSolid_Shell.hxx>
+#define Array1Item_hxx <DataExchange/IGESSolid/IGESSolid_Shell.hxx>
 #define TCollection_Array1 IGESSolid_Array1OfShell
-#define TCollection_Array1_hxx <IGESSolid_Array1OfShell.hxx>
+#define TCollection_Array1_hxx <DataExchange/IGESSolid/IGESSolid_Array1OfShell.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 
