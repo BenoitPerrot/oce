@@ -1,5 +1,5 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 
 #include <gtest/gtest.h>
 

@@ -18,7 +18,7 @@
 
 #include <Interface_Macros.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <STEPControl_Controller.hxx>
 
 #include <Viewer/Draw/Draw.hxx>

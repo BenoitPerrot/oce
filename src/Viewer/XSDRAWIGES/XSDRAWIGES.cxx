@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Interface_Static.hxx>
 
-#include <IGESControl_Writer.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Writer.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <IGESData_BasicEditor.hxx>
 
 #include <IGESData.hxx>
@@ -76,7 +76,7 @@
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_Functions.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
-#include <IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include <Interface_InterfaceModel.hxx>
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

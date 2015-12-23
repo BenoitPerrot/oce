@@ -81,7 +81,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakePolygon.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include <IGESData_IGESModel.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
@@ -4555,7 +4555,7 @@ static Standard_Integer OCC12584 (Draw_Interpretor& di, Standard_Integer argc, c
 }
 
 #include <Interface_Macros.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <Viewer/XSDRAW/XSDRAW.hxx>
 #include <Viewer/Draw/Draw_ProgressIndicator.hxx>
 #include <XSControl_WorkSession.hxx>

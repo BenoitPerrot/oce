@@ -14,7 +14,7 @@
 #include <Transfer_Finder.hxx>
 #include <Transfer_Binder.hxx>
 #include <Transfer_FinderProcess.hxx>
-#include <IGESControl_ActorWrite.hxx>
+#include <DataExchange/IGESControl/IGESControl_ActorWrite.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_ActorWrite)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -1959,8 +1959,8 @@ static Standard_Integer OCC24667 (Draw_Interpretor& di, Standard_Integer n, cons
   return 0;
 }
 
-#include <IGESControl_Reader.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <IGESData_IGESEntity.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Analyzer.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>

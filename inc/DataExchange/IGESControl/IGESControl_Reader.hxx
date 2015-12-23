@@ -107,7 +107,7 @@ private:
 };
 
 
-#include <IGESControl_Reader.lxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.lxx>
 
 
 

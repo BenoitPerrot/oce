@@ -1729,7 +1729,7 @@ static Standard_Integer BUC60921 (Draw_Interpretor& di,
   return 0;
 }
 
-#include<IGESControl_Reader.hxx>
+#include<DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include<ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeHalfSpace.hxx>
 
 static Standard_Integer BUC60951_(Draw_Interpretor& di, Standard_Integer argc, const char ** a)

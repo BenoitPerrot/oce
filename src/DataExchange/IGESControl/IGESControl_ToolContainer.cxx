@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <IGESToBRep_IGESBoundary.hxx>
-#include <IGESControl_ToolContainer.hxx>
+#include <DataExchange/IGESControl/IGESControl_ToolContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_ToolContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESControl_ToolContainer)
 IMPLEMENT_DOWNCAST(IGESControl_ToolContainer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_ToolContainer)
-#include <IGESControl_IGESBoundary.hxx>
+#include <DataExchange/IGESControl/IGESControl_IGESBoundary.hxx>
 
 //=======================================================================
 //function : IGESControl_ToolContainer

@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Transfer_FinderProcess.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_Controller)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -68,8 +68,8 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_Controller)
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <IGESControl_ActorWrite.hxx>
-#include <IGESControl_AlgoContainer.hxx>
+#include <DataExchange/IGESControl/IGESControl_ActorWrite.hxx>
+#include <DataExchange/IGESControl/IGESControl_AlgoContainer.hxx>
 
 #include <XSAlgo.hxx>
 #include <Interface_Macros.hxx>

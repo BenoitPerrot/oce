@@ -27,7 +27,7 @@
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeBox.hxx>
 
 #include <STEPControl_Reader.hxx>
-#include <IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
 #include <XSControl_WorkSession.hxx>
 
 #include <EGL/egl.h>

@@ -30,9 +30,9 @@
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <OCAF/PTColStd/PTColStd_TransientPersistentMap.hxx>
 
-#include <IGESControl_Reader.hxx>
-#include <IGESControl_Writer.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Writer.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <STEPControl_Reader.hxx>
 #include <STEPControl_Writer.hxx>
 #include <STEPControl_StepModelType.hxx>

@@ -25,9 +25,9 @@
 #include <Foundation/Storage/Storage_HSeqOfRoot.hxx>
 #include <Foundation/Storage/Storage_Root.hxx>
 // iges I/E
-#include <IGESControl_Reader.hxx>
-#include <IGESControl_Controller.hxx>
-#include <IGESControl_Writer.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Writer.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Interface_Static.hxx>
 //step I/E

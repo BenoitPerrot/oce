@@ -15,8 +15,8 @@
 //abv 10.04.99 S4136: eliminate using BRepAPI::Precision()
 #include <XSControl_WorkSession.hxx>
 #include <IGESData_IGESModel.hxx>
-#include <IGESControl_Reader.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Reader.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <XSControl_Controller.hxx>
 #include <XSControl_TransferReader.hxx>
 #include <Interface_ShareFlags.hxx>

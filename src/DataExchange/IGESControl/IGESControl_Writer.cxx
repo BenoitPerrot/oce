@@ -21,8 +21,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <IGESControl_Writer.hxx>
-#include <IGESControl_Controller.hxx>
+#include <DataExchange/IGESControl/IGESControl_Writer.hxx>
+#include <DataExchange/IGESControl/IGESControl_Controller.hxx>
 #include <IGESSelect_WorkLibrary.hxx>
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <DataExchange/BRepToIGESBRep/BRepToIGESBRep_Entity.hxx>

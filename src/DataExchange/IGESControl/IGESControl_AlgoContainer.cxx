@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IGESControl_AlgoContainer.hxx>
+#include <DataExchange/IGESControl/IGESControl_AlgoContainer.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(IGESControl_AlgoContainer)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -24,7 +24,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(IGESControl_AlgoContainer)
 IMPLEMENT_DOWNCAST(IGESControl_AlgoContainer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IGESControl_AlgoContainer)
-#include <IGESControl_ToolContainer.hxx>
+#include <DataExchange/IGESControl/IGESControl_ToolContainer.hxx>
 
 //=======================================================================
 //function : IGESControl_AlgoContainer
