@@ -52,7 +52,7 @@
 #include <IGESToBRep_Actor.hxx>
 #include <IGESData_FileProtocol.hxx>
 #include <TransferBRep.hxx>
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 // add of stdio.h for NT compilation
 #include <stdio.h>

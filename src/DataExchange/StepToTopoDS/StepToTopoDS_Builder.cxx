@@ -81,7 +81,7 @@
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <StepShape_ConnectedEdgeSet.hxx>
 #include <StepShape_EdgeBasedWireframeModel.hxx>
 #include <StepShape_HArray1OfConnectedEdgeSet.hxx>

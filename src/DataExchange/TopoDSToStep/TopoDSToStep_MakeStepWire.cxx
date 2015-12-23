@@ -55,7 +55,7 @@
 #include <TransferBRep_ShapeMapper.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 
 // ----------------------------------------------------------------------------

@@ -88,7 +88,7 @@
 #include <Precision.hxx>  
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 // szv 19.08.99: new methods for fixing gaps between edges (3d curves and pcurves)
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
@@ -91,7 +91,7 @@
 #include <Geometry/Approx/Approx_Curve3d.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 //=======================================================================
 //function : FixGaps3d

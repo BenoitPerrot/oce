@@ -47,7 +47,7 @@
 #include <ElCLib.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 
 //Temporary

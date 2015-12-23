@@ -73,7 +73,7 @@ IMPLEMENT_STANDARD_RTTI(XSControl_TransferReader)
 
 #include <Foundation/Message/Message_Messenger.hxx>
 
-#include <ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
 #include <stdio.h>
 
 

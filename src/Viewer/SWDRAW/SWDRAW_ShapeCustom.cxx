@@ -47,7 +47,7 @@
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

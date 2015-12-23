@@ -16,7 +16,7 @@
 #include <Handle_ShapeFix_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
@@ -268,7 +268,7 @@ private:
 };
 
 
-#include <ShapeFix_Face.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.lxx>
 
 
 

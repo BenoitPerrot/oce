@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
-#include <ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Root)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

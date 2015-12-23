@@ -27,7 +27,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
-#include <ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Edge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 

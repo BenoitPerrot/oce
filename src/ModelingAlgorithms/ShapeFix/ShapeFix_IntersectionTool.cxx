@@ -16,10 +16,10 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
-#include <ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ShapeFix_IntersectionTool.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_IntersectionTool.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -44,7 +44,7 @@
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
-#include <ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

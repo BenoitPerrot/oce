@@ -16,13 +16,13 @@
 
 // pdn 17.12.98 ie_exhaust-A.stp
 
-#include <ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
-#include <ShapeFix_Shell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Shell)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

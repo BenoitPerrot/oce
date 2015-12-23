@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_ShapeFix_Face.hxx>
-#include <ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
@@ -131,7 +131,7 @@ private:
 };
 
 
-#include <ShapeFix_Shell.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shell.lxx>
 
 
 

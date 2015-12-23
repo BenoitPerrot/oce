@@ -82,7 +82,7 @@ private:
 };
 
 
-#include <ShapeFix_IntersectionTool.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_IntersectionTool.lxx>
 
 
 

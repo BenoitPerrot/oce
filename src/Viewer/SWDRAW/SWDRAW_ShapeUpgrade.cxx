@@ -68,11 +68,11 @@
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
-#include <ShapeFix_ComposeShell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ComposeShell.hxx>
 #include <Precision.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
 #include <ShapeUpgrade_ShapeDivideContinuity.hxx>
 #include <ShapeUpgrade_ShapeDivideAngle.hxx>
 #include <ShapeUpgrade_ShapeConvertToBezier.hxx>

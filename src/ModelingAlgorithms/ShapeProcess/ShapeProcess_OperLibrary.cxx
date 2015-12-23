@@ -51,14 +51,14 @@
 #include <ShapeUpgrade_ShapeDivideClosed.hxx>
 #include <ShapeUpgrade_ShapeDivideClosedEdges.hxx>
 
-#include <ShapeFix_ShapeTolerance.hxx>
-#include <ShapeFix_Shape.hxx>
-#include <ShapeFix_Face.hxx>
-#include <ShapeFix_Wire.hxx>
-#include <ShapeFix_FixSmallFace.hxx>
-#include <ShapeFix_Wireframe.hxx>
-#include <ShapeFix.hxx>
-#include <ShapeFix_SplitCommonVertex.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_FixSmallFace.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wireframe.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_SplitCommonVertex.hxx>
 
 
 //=======================================================================

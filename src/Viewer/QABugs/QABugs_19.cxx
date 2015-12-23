@@ -1642,7 +1642,7 @@ static Standard_Integer OCC23972 (Draw_Interpretor& di,Standard_Integer n, const
   return 0;
 }
 
-#include <ShapeFix_EdgeProjAux.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_EdgeProjAux.hxx>
 static Standard_Integer OCC24370 (Draw_Interpretor& di, Standard_Integer argc,const char ** argv)
 {
   if (argc < 5) {
@@ -2861,7 +2861,7 @@ static Standard_Integer OCC25202 ( Draw_Interpretor& theDI,
   return 0;
 }
 
-#include <ShapeFix_Wireframe.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wireframe.hxx>
 //=======================================================================
 //function : OCC7570
 //purpose  : 

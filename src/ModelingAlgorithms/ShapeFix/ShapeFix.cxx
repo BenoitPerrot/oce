@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
 //:k2 abv 16.12.98: eliminating code duplication
 //pdn     18.12.98: checking deviation for SP edges
 //:   abv 22.02.99: method FillFace() removed since PRO13123 is fixed
@@ -42,16 +42,16 @@
 //:i2
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
-#include <ShapeFix_Edge.hxx>
-#include <ShapeFix_Shape.hxx>
-#include <ShapeFix_Wire.hxx>
-#include <ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

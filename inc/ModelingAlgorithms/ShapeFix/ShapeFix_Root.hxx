@@ -124,7 +124,7 @@ private:
 };
 
 
-#include <ShapeFix_Root.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.lxx>
 
 
 

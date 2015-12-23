@@ -26,7 +26,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_String.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
-#include <ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

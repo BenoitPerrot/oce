@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
-#include <ShapeFix_ComposeShell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ComposeShell.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>

@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_IGESBoundary)
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_TopoCurve.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 
 //=======================================================================
 //function : IGESToBRep_IGESBoundary

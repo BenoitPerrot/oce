@@ -58,7 +58,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-//#include <ShapeFix_Wire.hxx>
+//#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ElCLib.hxx>

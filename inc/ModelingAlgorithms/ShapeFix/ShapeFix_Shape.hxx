@@ -14,7 +14,7 @@
 #include <Handle_ShapeFix_Solid.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
 #include <Handle_ShapeFix_Shell.hxx>
@@ -150,7 +150,7 @@ private:
 };
 
 
-#include <ShapeFix_Shape.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.lxx>
 
 
 

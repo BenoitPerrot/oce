@@ -64,7 +64,7 @@
 //#include <QAModTopOpe_Glue.hxx>
 #include <QANewModTopOpe_Glue.hxx>
 
-#include <ShapeFix_Wireframe.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wireframe.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
@@ -825,7 +825,7 @@ static Standard_Integer OCC710 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <ShapeFix_Shell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shell.hxx>
 static Standard_Integer OCC904 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if(argc != 4) {

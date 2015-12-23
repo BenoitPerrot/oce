@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeFix_EdgeConnect.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_EdgeConnect.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

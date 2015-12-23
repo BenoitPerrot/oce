@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(IGESToBRep_Actor)
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 
 #include <Interface_Macros.hxx>
 #include <Interface_Static.hxx>

@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ModelingAlgorithms/IntPatch/IntPatch_ImpImpIntersection.hxx>
 #include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
@@ -79,14 +79,14 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
-#include <ShapeFix_ComposeShell.hxx>
-#include <ShapeFix_SequenceOfWireSegment.hxx>
-#include <ShapeFix_WireSegment.hxx>
-#include <ShapeFix_Edge.hxx>
-#include <ShapeFix_Shell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ComposeShell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_SequenceOfWireSegment.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_WireSegment.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shell.hxx>
 #include <ShapeUpgrade_RemoveLocations.hxx>
 
 

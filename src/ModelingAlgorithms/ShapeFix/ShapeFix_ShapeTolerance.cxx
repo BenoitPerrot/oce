@@ -14,7 +14,7 @@
 // 25.12.98 pdn: adding empty constructor
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>

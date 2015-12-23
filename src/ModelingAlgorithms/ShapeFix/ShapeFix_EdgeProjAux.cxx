@@ -16,7 +16,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ShapeFix_EdgeProjAux.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_EdgeProjAux.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_EdgeProjAux)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -94,7 +94,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
-#include <ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
 #include <Precision.hxx>
 
 #ifdef DRAW

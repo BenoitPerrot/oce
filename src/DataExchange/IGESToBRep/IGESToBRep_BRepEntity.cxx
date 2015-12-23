@@ -96,7 +96,7 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <IGESData_IGESModel.hxx>  
-//#include <ShapeFix_Face.hxx>
+//#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <IGESToBRep_AlgoContainer.hxx>
 #include <IGESToBRep_ToolContainer.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

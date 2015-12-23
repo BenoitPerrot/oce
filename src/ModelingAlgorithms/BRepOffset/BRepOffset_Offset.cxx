@@ -82,7 +82,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
-#include <ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 

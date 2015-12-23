@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <ShapeFix_Wireframe.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wireframe.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Wireframe)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,12 +38,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wireframe)
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <ShapeFix.hxx>
-#include <ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
 #include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

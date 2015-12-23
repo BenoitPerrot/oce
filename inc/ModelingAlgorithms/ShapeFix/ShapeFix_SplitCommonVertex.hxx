@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 class TopoDS_Shape;
 
 

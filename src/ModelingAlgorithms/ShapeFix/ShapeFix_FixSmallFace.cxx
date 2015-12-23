@@ -15,7 +15,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <ShapeFix_FixSmallFace.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_FixSmallFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_FixSmallFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -57,10 +57,10 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ElCLib.hxx>
@@ -70,11 +70,11 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <ShapeFix_Face.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>

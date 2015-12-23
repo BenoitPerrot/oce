@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeFix_SplitCommonVertex.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_SplitCommonVertex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_SplitCommonVertex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

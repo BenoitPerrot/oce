@@ -14,7 +14,7 @@
 #include <Handle_ShapeAnalysis_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <Handle_Geom_Surface.hxx>
@@ -521,7 +521,7 @@ private:
 };
 
 
-#include <ShapeFix_Wire.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.lxx>
 
 
 

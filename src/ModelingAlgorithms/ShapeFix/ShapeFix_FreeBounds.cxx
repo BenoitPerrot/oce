@@ -19,7 +19,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <ShapeFix_FreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_FreeBounds.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 

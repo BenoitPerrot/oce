@@ -16,7 +16,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
-#include <ShapeFix_FaceConnect.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_FaceConnect.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
@@ -41,8 +41,8 @@
 
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 
-#include <ShapeFix_Face.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

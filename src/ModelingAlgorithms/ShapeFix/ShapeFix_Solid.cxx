@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeFix_Shell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
-#include <ShapeFix_Solid.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Solid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Solid)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

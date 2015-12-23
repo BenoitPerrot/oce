@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class TopoDS_Shape;
 class TopTools_MapOfShape;
@@ -108,7 +108,7 @@ private:
 };
 
 
-#include <ShapeFix_Wireframe.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wireframe.lxx>
 
 
 

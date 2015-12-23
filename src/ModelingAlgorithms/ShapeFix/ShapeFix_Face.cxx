@@ -29,7 +29,7 @@
 // skl,pdn 14.05.2002  OCC55 (correction precision for small faces)
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
@@ -38,8 +38,8 @@
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ShapeFix_DataMapOfShapeBox2d.hxx>
-#include <ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Face)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -84,8 +84,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
-#include <ShapeFix_Wire.hxx>
-#include <ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -96,7 +96,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
-#include <ShapeFix_ComposeShell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ComposeShell.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>
@@ -108,8 +108,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
-#include <ShapeFix.hxx>
-#include <ShapeFix_DataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
@@ -120,8 +120,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 
-#include <ShapeFix_IntersectionTool.hxx>
-#include <ShapeFix_SplitTool.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_IntersectionTool.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_SplitTool.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>

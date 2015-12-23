@@ -1139,7 +1139,7 @@ static Standard_Integer OCC814 (Draw_Interpretor& di, Standard_Integer argc,cons
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionPoint.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 //=======================================================================
 //function : OCC884
 //purpose  : 

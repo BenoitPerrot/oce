@@ -101,7 +101,7 @@ private:
 };
 
 
-#include <ShapeFix_FreeBounds.lxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_FreeBounds.lxx>
 
 
 

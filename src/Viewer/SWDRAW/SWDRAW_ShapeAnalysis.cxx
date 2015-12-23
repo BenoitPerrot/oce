@@ -65,7 +65,7 @@
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBounds.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundsProperties.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBoundData.hxx>
-#include <ShapeFix_FreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_FreeBounds.hxx>
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>

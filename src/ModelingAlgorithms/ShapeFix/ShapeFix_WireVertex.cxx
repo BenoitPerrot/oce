@@ -15,7 +15,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireVertex.hxx>
-#include <ShapeFix_WireVertex.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_WireVertex.hxx>
 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

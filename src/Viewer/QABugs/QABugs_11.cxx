@@ -409,7 +409,7 @@ static int pipe_OCC9 (Draw_Interpretor& di,
 // OCC125
 // usage : OCC125 shell
 //======================================================================
-#include <ShapeFix_Shell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shell.hxx>
 
 Standard_Integer  OCC125(Draw_Interpretor& di ,
 			 Standard_Integer n,
@@ -494,7 +494,7 @@ Standard_Integer  OCC157(Draw_Interpretor& di,
 }
 
 // #include <MyCommandsCMD.h>
-#include <ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeOffset.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffset.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
@@ -5018,7 +5018,7 @@ Standard_Integer OCC22301 (Draw_Interpretor& di, Standard_Integer argc, const ch
 
   return 0;
 }
-#include <ShapeFix_FixSmallFace.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_FixSmallFace.hxx>
 Standard_Integer OCC22586 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
 	

@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <ShapeFix_WireSegment.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_WireSegment.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 

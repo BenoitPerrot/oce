@@ -58,7 +58,7 @@
 
 //#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 
 #include <Transfer_TransferOutput.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>

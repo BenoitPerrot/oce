@@ -30,15 +30,15 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeFix_SequenceOfWireSegment.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_SequenceOfWireSegment.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <ShapeFix_WireSegment.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_WireSegment.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <ShapeFix_ComposeShell.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ComposeShell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_ComposeShell)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -95,13 +95,13 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
-#include <ShapeFix_Wire.hxx>
-#include <ShapeFix_Edge.hxx>
-#include <ShapeFix_WireSegment.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_WireSegment.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParametersProj.hxx>
-#include <ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>

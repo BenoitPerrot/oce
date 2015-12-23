@@ -53,9 +53,9 @@ IMPLEMENT_STANDARD_RTTI(IGESControl_IGESBoundary)
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_ShapeTolerance.hxx>
-#include <ShapeFix_Edge.hxx>
-#include <ShapeFix_Wire.hxx>
-#include <ShapeFix_ShapeTolerance.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/ShapeFix_ShapeTolerance.hxx>
 #include <IGESToBRep.hxx>
 #include <IGESToBRep_TopoCurve.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
