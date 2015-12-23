@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(MPrsStd_AISPresentationStorageDriver)
 IMPLEMENT_DOWNCAST(MPrsStd_AISPresentationStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MPrsStd_AISPresentationStorageDriver)
 
-#include <PPrsStd_AISPresentation.hxx>
-#include <PPrsStd_AISPresentation_1.hxx>
+#include <OCAF/PPrsStd/PPrsStd_AISPresentation.hxx>
+#include <OCAF/PPrsStd/PPrsStd_AISPresentation_1.hxx>
 #include <TPrsStd_AISPresentation.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
