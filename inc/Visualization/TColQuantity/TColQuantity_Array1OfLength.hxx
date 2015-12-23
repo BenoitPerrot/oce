@@ -94,7 +94,7 @@ private:
 #define Array1Item Quantity_Length
 #define Array1Item_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TCollection_Array1 TColQuantity_Array1OfLength
-#define TCollection_Array1_hxx <TColQuantity_Array1OfLength.hxx>
+#define TCollection_Array1_hxx <Visualization/TColQuantity/TColQuantity_Array1OfLength.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

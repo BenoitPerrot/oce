@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColQuantity_Array2OfLength.hxx>
+#include <Visualization/TColQuantity/TColQuantity_Array2OfLength.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -14,6 +14,6 @@
 #define Array2Item Quantity_Length
 #define Array2Item_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TCollection_Array2 TColQuantity_Array2OfLength
-#define TCollection_Array2_hxx <TColQuantity_Array2OfLength.hxx>
+#define TCollection_Array2_hxx <Visualization/TColQuantity/TColQuantity_Array2OfLength.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

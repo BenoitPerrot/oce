@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TColQuantity_HArray2OfLength.hxx>
 
-#include <TColQuantity_Array2OfLength.hxx>
+#include <Visualization/TColQuantity/TColQuantity_Array2OfLength.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -77,9 +77,9 @@ private:
 #define ItemHArray2 Quantity_Length
 #define ItemHArray2_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TheArray2 TColQuantity_Array2OfLength
-#define TheArray2_hxx <TColQuantity_Array2OfLength.hxx>
+#define TheArray2_hxx <Visualization/TColQuantity/TColQuantity_Array2OfLength.hxx>
 #define TCollection_HArray2 TColQuantity_HArray2OfLength
-#define TCollection_HArray2_hxx <TColQuantity_HArray2OfLength.hxx>
+#define TCollection_HArray2_hxx <Visualization/TColQuantity/TColQuantity_HArray2OfLength.hxx>
 #define Handle_TCollection_HArray2 Handle_TColQuantity_HArray2OfLength
 #define TCollection_HArray2_Type_() TColQuantity_HArray2OfLength_Type_()
 

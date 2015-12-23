@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TColQuantity_HArray2OfLength.hxx>
+#include <Visualization/TColQuantity/TColQuantity_HArray2OfLength.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <TColQuantity_Array2OfLength.hxx>
+#include <Visualization/TColQuantity/TColQuantity_Array2OfLength.hxx>
 
  
 
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_RTTI(TColQuantity_HArray2OfLength)
 #define ItemHArray2 Quantity_Length
 #define ItemHArray2_hxx <Foundation/Quantity/Quantity_Length.hxx>
 #define TheArray2 TColQuantity_Array2OfLength
-#define TheArray2_hxx <TColQuantity_Array2OfLength.hxx>
+#define TheArray2_hxx <Visualization/TColQuantity/TColQuantity_Array2OfLength.hxx>
 #define TCollection_HArray2 TColQuantity_HArray2OfLength
-#define TCollection_HArray2_hxx <TColQuantity_HArray2OfLength.hxx>
+#define TCollection_HArray2_hxx <Visualization/TColQuantity/TColQuantity_HArray2OfLength.hxx>
 #define Handle_TCollection_HArray2 Handle_TColQuantity_HArray2OfLength
 #define TCollection_HArray2_Type_() TColQuantity_HArray2OfLength_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>
