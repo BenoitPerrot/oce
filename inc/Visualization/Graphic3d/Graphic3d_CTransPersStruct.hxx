@@ -21,7 +21,7 @@
 #ifndef _Graphic3d_CTransPersStruct_HeaderFile
 #define _Graphic3d_CTransPersStruct_HeaderFile
 
-#include <InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 typedef CALL_DEF_TRANSFORM_PERSISTENCE Graphic3d_CTransPersStruct;
 
 #endif /*_Graphic3d_CTransPersStruct_HeaderFile*/

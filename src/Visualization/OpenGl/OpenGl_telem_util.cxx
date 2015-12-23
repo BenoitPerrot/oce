@@ -67,8 +67,8 @@ when a face has confused or aligned points.
 #include <OpenGl_GlCore11.hxx>
 
 #include <OpenGl_telem_util.hxx>
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 
 #define GPRECIS 0.000001
 Tint TelGetPolygonNormal(tel_point pnts, Tint* indexs, Tint npnt, Tfloat *norm ) {

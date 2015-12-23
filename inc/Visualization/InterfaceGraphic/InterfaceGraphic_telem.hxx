@@ -17,7 +17,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <InterfaceGraphic_tgl_all.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_tgl_all.hxx>
 #include <stdlib.h>
 
 #ifdef __BORLANDC__

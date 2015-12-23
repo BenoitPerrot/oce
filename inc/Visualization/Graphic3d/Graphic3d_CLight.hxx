@@ -14,8 +14,8 @@
 #ifndef _Graphic3d_CLight_HeaderFile
 #define _Graphic3d_CLight_HeaderFile
 
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vec.hxx>
 
 //! Light definition

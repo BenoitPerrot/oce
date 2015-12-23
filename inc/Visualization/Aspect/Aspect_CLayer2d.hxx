@@ -22,7 +22,7 @@
 #ifndef _Aspect_CLayer2d_HeaderFile
 #define _Aspect_CLayer2d_HeaderFile
 
-#include <InterfaceGraphic_Aspect.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Aspect.hxx>
 typedef CALL_DEF_LAYER Aspect_CLayer2d;
 
 #endif /*Aspect_CLayer2d_HeaderFile*/

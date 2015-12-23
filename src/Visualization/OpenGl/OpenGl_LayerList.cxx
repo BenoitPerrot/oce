@@ -19,8 +19,8 @@
 #include <OpenGl_Structure.hxx>
 #include <OpenGl_Workspace.hxx>
 
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
 //=======================================================================
 //function : OpenGl_LayerList

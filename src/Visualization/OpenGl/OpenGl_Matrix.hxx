@@ -16,7 +16,7 @@
 #ifndef OpenGl_Matrix_Header
 #define OpenGl_Matrix_Header
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 
 struct OpenGl_Matrix
 {

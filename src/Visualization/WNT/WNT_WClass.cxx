@@ -27,7 +27,7 @@ IMPLEMENT_DOWNCAST(WNT_WClass,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(WNT_WClass)
 
 #include <Foundation/Standard/Standard_PCharacter.hxx>
-#include <InterfaceGraphic.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
 #include <string.h>
 

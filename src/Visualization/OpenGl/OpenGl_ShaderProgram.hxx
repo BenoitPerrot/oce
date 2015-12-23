@@ -23,7 +23,7 @@
 #include <Visualization/Graphic3d/Graphic3d_ShaderObject.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram.hxx>
 
-#include <InterfaceGraphic_tgl_all.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_tgl_all.hxx>
 
 #include <OpenGl_Vec.hxx>
 #include <OpenGl_Matrix.hxx>

@@ -16,7 +16,7 @@
 #ifndef _OpenGl_AspectFace_Header
 #define _OpenGl_AspectFace_Header
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

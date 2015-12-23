@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OpenGl_GlCore12.hxx>
-#include <InterfaceGraphic.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
 #include <OpenGl_Context.hxx>
 #include <OpenGl_GraphicDriver.hxx>

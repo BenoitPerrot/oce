@@ -19,7 +19,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-#include <InterfaceGraphic.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
 #include <OpenGl_Window.hxx>
 

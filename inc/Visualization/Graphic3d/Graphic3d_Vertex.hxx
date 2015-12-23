@@ -17,7 +17,7 @@
 #define _Graphic3d_Vertex_HeaderFile
 
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 

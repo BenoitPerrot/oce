@@ -28,8 +28,8 @@
 #include <Visualization/Aspect/Aspect_TypeOfTriedronPosition.hxx>
 #include <Visualization/Aspect/Aspect_CLayer2d.hxx>
 
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_CView.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CGraduatedTrihedron.hxx>

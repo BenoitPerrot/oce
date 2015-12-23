@@ -15,7 +15,7 @@
 
 #include <OpenGl_GlCore15.hxx>
 
-#include <InterfaceGraphic.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
 #include <OpenGl_AspectLine.hxx>
 #include <OpenGl_AspectFace.hxx>

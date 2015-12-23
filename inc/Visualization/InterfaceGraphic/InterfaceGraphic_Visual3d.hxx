@@ -15,8 +15,8 @@
 #ifndef InterfaceGraphic_Visual3dHeader
 #define InterfaceGraphic_Visual3dHeader
 
-#include <InterfaceGraphic_Aspect.hxx>
-#include <InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Aspect.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/Aspect/Aspect_RenderingContext.hxx>
 #include <Visualization/Aspect/Aspect_GraphicCallbackProc.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>

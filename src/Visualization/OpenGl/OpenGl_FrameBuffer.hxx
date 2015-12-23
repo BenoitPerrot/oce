@@ -20,7 +20,7 @@
 #include <OpenGl_Texture.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <InterfaceGraphic.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic.hxx>
 
 //! Class implements FrameBuffer Object (FBO) resource
 //! intended for off-screen rendering.

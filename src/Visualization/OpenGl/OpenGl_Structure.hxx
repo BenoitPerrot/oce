@@ -31,7 +31,7 @@
 #include <OpenGl_Workspace.hxx>
 
 #include <Foundation/NCollection/NCollection_List.hxx>
-#include <InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 
 class OpenGl_Structure;
 class OpenGl_GraphicDriver;

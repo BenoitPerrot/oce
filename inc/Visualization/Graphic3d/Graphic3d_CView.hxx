@@ -14,8 +14,8 @@
 #ifndef _Graphic3d_CView_HeaderFile
 #define _Graphic3d_CView_HeaderFile
 
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_RenderingParams.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureEnv.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Camera.hxx>

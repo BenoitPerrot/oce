@@ -19,7 +19,7 @@
 #include <OpenGl_PriorityList.hxx>
 #include <OpenGl_Layer.hxx>
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

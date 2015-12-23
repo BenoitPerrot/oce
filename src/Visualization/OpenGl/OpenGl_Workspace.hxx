@@ -36,8 +36,8 @@
 #include <Visualization/Aspect/Aspect_PrintAlgo.hxx>
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 

@@ -19,7 +19,7 @@
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 #include <Foundation/NCollection/NCollection_Array1.hxx>
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 
 #include <Handle_OpenGl_Workspace.hxx>
 #include <OpenGl_BVHClipPrimitiveSet.hxx>

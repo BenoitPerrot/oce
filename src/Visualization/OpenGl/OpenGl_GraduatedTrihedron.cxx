@@ -15,9 +15,9 @@
 
 #include <OpenGl_GlCore11.hxx>
 
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic_Aspect.hxx>
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Aspect.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 
 #ifndef _WIN32
   #include <string.h>

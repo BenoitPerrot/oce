@@ -23,7 +23,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CUserDraw.hxx>
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 #include <OpenGl_Element.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <OpenGl_NamedStatus.hxx>

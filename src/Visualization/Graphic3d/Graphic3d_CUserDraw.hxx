@@ -21,7 +21,7 @@
 #ifndef _Graphic3d_CUserDraw_HeaderFile
 #define _Graphic3d_CUserDraw_HeaderFile
 
-#include <InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 typedef CALL_DEF_USERDRAW Graphic3d_CUserDraw;
 
 #endif /*Graphic3d_CUserDraw_HeaderFile*/

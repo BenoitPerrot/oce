@@ -16,7 +16,7 @@
 #ifndef _OpenGl_Group_Header
 #define _OpenGl_Group_Header
 
-#include <InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 

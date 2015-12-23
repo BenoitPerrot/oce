@@ -16,7 +16,7 @@
 #ifndef OpenGl_CView_Header
 #define OpenGl_CView_Header
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 
 #include <OpenGl_Workspace.hxx>
 #include <OpenGl_View.hxx>

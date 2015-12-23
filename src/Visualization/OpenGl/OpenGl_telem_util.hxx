@@ -37,7 +37,7 @@ xx-xx-xx : xxx ; Creation.
 #ifndef  OPENGL_TELEM_UTIL_H
 #define  OPENGL_TELEM_UTIL_H
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 #include <cmath>
 
 /*

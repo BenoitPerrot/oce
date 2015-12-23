@@ -15,7 +15,7 @@
 #ifndef _Graphic3d_CAspectLine_HeaderFile
 #define _Graphic3d_CAspectLine_HeaderFile
 
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CTexture.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram_Handle.hxx>
 

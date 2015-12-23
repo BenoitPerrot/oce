@@ -16,7 +16,7 @@
 #ifndef OpenGl_AspectText_Header
 #define OpenGl_AspectText_Header
 
-#include <InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
 #include <Visualization/Font/Font_FontAspect.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfStyleText.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfDisplayText.hxx>

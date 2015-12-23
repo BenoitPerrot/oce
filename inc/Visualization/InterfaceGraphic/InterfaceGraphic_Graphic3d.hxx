@@ -15,7 +15,7 @@
 #ifndef InterfaceGraphic_Graphic3dHeader
 #define InterfaceGraphic_Graphic3dHeader
 
-#include <InterfaceGraphic_telem.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 #include <Visualization/Graphic3d/Graphic3d_BndBox4f.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 

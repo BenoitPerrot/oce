@@ -21,8 +21,8 @@
 #ifndef _Graphic3d_CPick_HeaderFile
 #define _Graphic3d_CPick_HeaderFile
 
-#include <InterfaceGraphic_Graphic3d.hxx>
-#include <InterfaceGraphic_Visual3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Graphic3d.hxx>
+#include <Visualization/InterfaceGraphic/InterfaceGraphic_Visual3d.hxx>
 typedef CALL_DEF_PICK Graphic3d_CPick;
 
 #endif /*Graphic3d_CPick_HeaderFile*/
