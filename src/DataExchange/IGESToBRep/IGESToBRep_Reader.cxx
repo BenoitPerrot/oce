@@ -36,7 +36,7 @@
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 
-#include <IGESFile_Read.hxx>
+#include <DataExchange/IGESFile/IGESFile_Read.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>

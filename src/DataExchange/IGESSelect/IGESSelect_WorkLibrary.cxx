@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(IGESSelect_WorkLibrary)
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <DataExchange/IGESData/IGESData_FileProtocol.hxx>
-#include <IGESFile_Read.hxx>
+#include <DataExchange/IGESFile/IGESFile_Read.hxx>
 #include <IGESSelect_Dumper.hxx>
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>

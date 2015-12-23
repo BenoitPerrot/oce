@@ -28,7 +28,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 
 // definition de base, a inclure pour utiliser
-#include <IGESFile_Read.hxx>
+#include <DataExchange/IGESFile/IGESFile_Read.hxx>
 
 #include "igesread.h"
 
