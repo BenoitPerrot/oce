@@ -38,7 +38,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_ChBuilder.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
-#include <ChFiKPart_ComputeData_Fcts.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_Fcts.hxx>
 
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfListOfStripe.hxx>

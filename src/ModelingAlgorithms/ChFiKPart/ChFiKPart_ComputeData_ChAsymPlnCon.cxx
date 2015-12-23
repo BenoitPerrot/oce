@@ -19,7 +19,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ChFiKPart_ComputeData.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
@@ -43,7 +43,7 @@
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 
-#include <ChFiKPart_ComputeData_Fcts.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_Fcts.hxx>
 
 
 //=======================================================================

@@ -19,7 +19,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Spine.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ChFiKPart_ComputeData.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -74,21 +74,21 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 
-#include <ChFiKPart_ComputeData_Fcts.hxx>
-#include <ChFiKPart_ComputeData_ChPlnPln.hxx>
-#include <ChFiKPart_ComputeData_ChPlnCyl.hxx>
-#include <ChFiKPart_ComputeData_ChPlnCon.hxx>
-#include <ChFiKPart_ComputeData_ChAsymPlnPln.hxx>
-#include <ChFiKPart_ComputeData_ChAsymPlnCyl.hxx>
-#include <ChFiKPart_ComputeData_ChAsymPlnCon.hxx> 
-#include <ChFiKPart_ComputeData_FilPlnCon.hxx>
-#include <ChFiKPart_ComputeData_FilPlnCyl.hxx>
-#include <ChFiKPart_ComputeData_FilPlnPln.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_Fcts.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_ChPlnPln.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_ChPlnCyl.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_ChPlnCon.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_ChAsymPlnPln.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_ChAsymPlnCyl.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_ChAsymPlnCon.hxx> 
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_FilPlnCon.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_FilPlnCyl.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_FilPlnPln.hxx>
 
 
-#include <ChFiKPart_ComputeData_CS.hxx>
-#include <ChFiKPart_ComputeData_Rotule.hxx>
-#include <ChFiKPart_ComputeData_Sphere.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_CS.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_Rotule.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_Sphere.hxx>
 
 //=======================================================================
 //function : Compute

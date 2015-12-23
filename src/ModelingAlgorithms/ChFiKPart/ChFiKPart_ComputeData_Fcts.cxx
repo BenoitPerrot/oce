@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ChFiKPart_ComputeData_Fcts.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData_Fcts.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>

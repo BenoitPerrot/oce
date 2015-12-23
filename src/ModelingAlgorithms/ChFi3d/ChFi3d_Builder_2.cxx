@@ -123,7 +123,7 @@
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfHElSpine.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfListOfHElSpine.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <ChFiKPart_ComputeData.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 

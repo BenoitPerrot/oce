@@ -104,7 +104,7 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 
-#include <ChFiKPart_ComputeData.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_Line.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_ConstRad.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_ConstRadInv.hxx>

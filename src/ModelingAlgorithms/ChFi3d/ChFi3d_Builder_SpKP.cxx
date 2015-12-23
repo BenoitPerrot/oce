@@ -57,7 +57,7 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Surface.hxx>
 
-#include <ChFiKPart_RstMap.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_RstMap.hxx>
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepBuild_HBuilder.hxx>

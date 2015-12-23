@@ -107,7 +107,7 @@
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_HData.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_CommonPoint.hxx>
 
-#include <ChFiKPart_ComputeData.hxx>
+#include <ModelingAlgorithms/ChFiKPart/ChFiKPart_ComputeData.hxx>
 
 #ifdef DRAW
 #include <DrawTrSurf.hxx>
