@@ -15,9 +15,9 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <XmlXCAFDrivers.hxx>
-#include <XmlXCAFDrivers_DocumentStorageDriver.hxx>
-#include <XmlXCAFDrivers_DocumentRetrievalDriver.hxx>
+#include <DataExchange/XmlXCAFDrivers/XmlXCAFDrivers.hxx>
+#include <DataExchange/XmlXCAFDrivers/XmlXCAFDrivers_DocumentStorageDriver.hxx>
+#include <DataExchange/XmlXCAFDrivers/XmlXCAFDrivers_DocumentRetrievalDriver.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>

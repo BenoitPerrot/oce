@@ -16,7 +16,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlXCAFDrivers_DocumentStorageDriver.hxx>
+#include <DataExchange/XmlXCAFDrivers/XmlXCAFDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlXCAFDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
