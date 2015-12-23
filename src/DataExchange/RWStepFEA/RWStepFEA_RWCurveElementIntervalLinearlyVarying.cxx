@@ -21,8 +21,8 @@
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWCurveElementIntervalLinearlyVarying.hxx>
-#include <StepElement_HArray1OfCurveElementSectionDefinition.hxx>
-#include <StepElement_CurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementSectionDefinition.hxx>
 
 //=======================================================================
 //function : RWStepFEA_RWCurveElementIntervalLinearlyVarying

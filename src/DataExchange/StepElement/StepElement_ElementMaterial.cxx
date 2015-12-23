@@ -17,7 +17,7 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfMaterialPropertyRepresentation.hxx>
-#include <StepElement_ElementMaterial.hxx>
+#include <DataExchange/StepElement/StepElement_ElementMaterial.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_ElementMaterial)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

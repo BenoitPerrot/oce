@@ -17,13 +17,13 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepElement_Curve3dElementDescriptor.hxx>
+#include <DataExchange/StepElement/StepElement_Curve3dElementDescriptor.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepElement/RWStepElement_RWCurve3dElementDescriptor.hxx>
-#include <StepElement_CurveElementPurposeMember.hxx>
-#include <StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
-#include <StepElement_HSequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HSequenceOfCurveElementPurposeMember.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWCurve3dElementDescriptor

@@ -15,8 +15,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_HArray1OfSurfaceSection.hxx>
-#include <StepElement_SurfaceSectionFieldVarying.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfSurfaceSection.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceSectionFieldVarying.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_SurfaceSectionFieldVarying)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

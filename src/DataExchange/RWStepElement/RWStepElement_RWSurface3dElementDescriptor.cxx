@@ -17,13 +17,13 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepElement_Surface3dElementDescriptor.hxx>
+#include <DataExchange/StepElement/StepElement_Surface3dElementDescriptor.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepElement/RWStepElement_RWSurface3dElementDescriptor.hxx>
-#include <StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMember.hxx>
-#include <StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
-#include <StepElement_SurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWSurface3dElementDescriptor

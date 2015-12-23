@@ -15,8 +15,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_CurveElementFreedom.hxx>
-#include <StepElement_CurveElementEndReleasePacket.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementFreedom.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementEndReleasePacket.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_CurveElementEndReleasePacket)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

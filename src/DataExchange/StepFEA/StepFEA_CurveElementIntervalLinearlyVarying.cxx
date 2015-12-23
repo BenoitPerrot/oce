@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_HArray1OfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfCurveElementSectionDefinition.hxx>
 #include <StepFEA_CurveElementLocation.hxx>
 #include <DataExchange/StepBasic/StepBasic_EulerAngles.hxx>
 #include <StepFEA_CurveElementIntervalLinearlyVarying.hxx>

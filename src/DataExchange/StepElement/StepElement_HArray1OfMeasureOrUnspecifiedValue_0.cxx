@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepElement_MeasureOrUnspecifiedValue.hxx>
-#include <StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HArray1OfMeasureOrUnspecifiedValue)
 
 
 #define ItemHArray1 StepElement_MeasureOrUnspecifiedValue
-#define ItemHArray1_hxx <StepElement_MeasureOrUnspecifiedValue.hxx>
+#define ItemHArray1_hxx <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
 #define TheArray1 StepElement_Array1OfMeasureOrUnspecifiedValue
-#define TheArray1_hxx <StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
+#define TheArray1_hxx <DataExchange/StepElement/StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
 #define TCollection_HArray1 StepElement_HArray1OfMeasureOrUnspecifiedValue
-#define TCollection_HArray1_hxx <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepElement/StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #define Handle_TCollection_HArray1 Handle_StepElement_HArray1OfMeasureOrUnspecifiedValue
 #define TCollection_HArray1_Type_() StepElement_HArray1OfMeasureOrUnspecifiedValue_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

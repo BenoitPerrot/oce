@@ -17,8 +17,8 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
-#include <StepElement_MeasureOrUnspecifiedValue.hxx>
-#include <StepElement_MeasureOrUnspecifiedValueMember.hxx>
+#include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValueMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString aCDM = "CONTEXT_DEPENDENT_MEASURE";

@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_Array1OfVolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_Array1OfVolumeElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepElement_VolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_VolumeElementPurposeMember.hxx>
  
 
 #define Array1Item Handle(StepElement_VolumeElementPurposeMember)
-#define Array1Item_hxx <StepElement_VolumeElementPurposeMember.hxx>
+#define Array1Item_hxx <DataExchange/StepElement/StepElement_VolumeElementPurposeMember.hxx>
 #define TCollection_Array1 StepElement_Array1OfVolumeElementPurposeMember
-#define TCollection_Array1_hxx <StepElement_Array1OfVolumeElementPurposeMember.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepElement/StepElement_Array1OfVolumeElementPurposeMember.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

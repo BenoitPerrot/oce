@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_HArray2OfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HArray2OfSurfaceElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <StepElement_SurfaceElementPurposeMember.hxx>
-#include <StepElement_Array2OfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_Array2OfSurfaceElementPurposeMember.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HArray2OfSurfaceElementPurposeMember)
 
 
 #define ItemHArray2 Handle(StepElement_SurfaceElementPurposeMember)
-#define ItemHArray2_hxx <StepElement_SurfaceElementPurposeMember.hxx>
+#define ItemHArray2_hxx <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
 #define TheArray2 StepElement_Array2OfSurfaceElementPurposeMember
-#define TheArray2_hxx <StepElement_Array2OfSurfaceElementPurposeMember.hxx>
+#define TheArray2_hxx <DataExchange/StepElement/StepElement_Array2OfSurfaceElementPurposeMember.hxx>
 #define TCollection_HArray2 StepElement_HArray2OfSurfaceElementPurposeMember
-#define TCollection_HArray2_hxx <StepElement_HArray2OfSurfaceElementPurposeMember.hxx>
+#define TCollection_HArray2_hxx <DataExchange/StepElement/StepElement_HArray2OfSurfaceElementPurposeMember.hxx>
 #define Handle_TCollection_HArray2 Handle_StepElement_HArray2OfSurfaceElementPurposeMember
 #define TCollection_HArray2_Type_() StepElement_HArray2OfSurfaceElementPurposeMember_Type_()
 #include <Foundation/TCollection/TCollection_HArray2.gxx>

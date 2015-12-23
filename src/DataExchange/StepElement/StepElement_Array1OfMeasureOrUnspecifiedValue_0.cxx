@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepElement_MeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
  
 
 #define Array1Item StepElement_MeasureOrUnspecifiedValue
-#define Array1Item_hxx <StepElement_MeasureOrUnspecifiedValue.hxx>
+#define Array1Item_hxx <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
 #define TCollection_Array1 StepElement_Array1OfMeasureOrUnspecifiedValue
-#define TCollection_Array1_hxx <StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepElement/StepElement_Array1OfMeasureOrUnspecifiedValue.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

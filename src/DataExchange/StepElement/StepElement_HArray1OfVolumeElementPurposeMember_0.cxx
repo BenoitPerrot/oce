@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_HArray1OfVolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfVolumeElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepElement_VolumeElementPurposeMember.hxx>
-#include <StepElement_Array1OfVolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_VolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_Array1OfVolumeElementPurposeMember.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HArray1OfVolumeElementPurposeMember)
 
 
 #define ItemHArray1 Handle(StepElement_VolumeElementPurposeMember)
-#define ItemHArray1_hxx <StepElement_VolumeElementPurposeMember.hxx>
+#define ItemHArray1_hxx <DataExchange/StepElement/StepElement_VolumeElementPurposeMember.hxx>
 #define TheArray1 StepElement_Array1OfVolumeElementPurposeMember
-#define TheArray1_hxx <StepElement_Array1OfVolumeElementPurposeMember.hxx>
+#define TheArray1_hxx <DataExchange/StepElement/StepElement_Array1OfVolumeElementPurposeMember.hxx>
 #define TCollection_HArray1 StepElement_HArray1OfVolumeElementPurposeMember
-#define TCollection_HArray1_hxx <StepElement_HArray1OfVolumeElementPurposeMember.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepElement/StepElement_HArray1OfVolumeElementPurposeMember.hxx>
 #define Handle_TCollection_HArray1 Handle_StepElement_HArray1OfVolumeElementPurposeMember
 #define TCollection_HArray1_Type_() StepElement_HArray1OfVolumeElementPurposeMember_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

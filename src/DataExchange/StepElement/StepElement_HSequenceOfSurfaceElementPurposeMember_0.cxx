@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StepElement_SurfaceElementPurposeMember.hxx>
-#include <StepElement_SequenceOfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SequenceOfSurfaceElementPurposeMember.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HSequenceOfSurfaceElementPurposeMember)
 
 
 #define Item Handle(StepElement_SurfaceElementPurposeMember)
-#define Item_hxx <StepElement_SurfaceElementPurposeMember.hxx>
+#define Item_hxx <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
 #define TheSequence StepElement_SequenceOfSurfaceElementPurposeMember
-#define TheSequence_hxx <StepElement_SequenceOfSurfaceElementPurposeMember.hxx>
+#define TheSequence_hxx <DataExchange/StepElement/StepElement_SequenceOfSurfaceElementPurposeMember.hxx>
 #define TCollection_HSequence StepElement_HSequenceOfSurfaceElementPurposeMember
-#define TCollection_HSequence_hxx <StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
+#define TCollection_HSequence_hxx <DataExchange/StepElement/StepElement_HSequenceOfSurfaceElementPurposeMember.hxx>
 #define Handle_TCollection_HSequence Handle_StepElement_HSequenceOfSurfaceElementPurposeMember
 #define TCollection_HSequence_Type_() StepElement_HSequenceOfSurfaceElementPurposeMember_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

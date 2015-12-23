@@ -17,11 +17,11 @@
 #include <DataExchange/StepBasic/StepBasic_Product.hxx>
 #include <StepFEA_FeaAxis2Placement3d.hxx>
 #include <StepShape_ShapeRepresentation.hxx>
-#include <StepElement_HSequenceOfElementMaterial.hxx>
+#include <DataExchange/StepElement/StepElement_HSequenceOfElementMaterial.hxx>
 #include <StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 #include <StepFEA_HSequenceOfElementRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_HSequenceOfCurveElementSectionDefinition.hxx>
 #include <StepFEA_Curve3dElementRepresentation.hxx>
 #include <StepFEA_ElementRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
@@ -102,7 +102,7 @@
 
 #include <DataExchange/StepData/StepData_StepModel.hxx>
 
-#include <StepElement_AnalysisItemWithinRepresentation.hxx>
+#include <DataExchange/StepElement/StepElement_AnalysisItemWithinRepresentation.hxx>
 
 #include <StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>

@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepElement_VolumeElementPurpose.hxx>
-#include <StepElement_VolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_VolumeElementPurpose.hxx>
+#include <DataExchange/StepElement/StepElement_VolumeElementPurposeMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================

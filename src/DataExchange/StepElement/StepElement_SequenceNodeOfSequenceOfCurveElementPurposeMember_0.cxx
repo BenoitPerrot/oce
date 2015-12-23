@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepElement_CurveElementPurposeMember.hxx>
-#include <StepElement_SequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SequenceOfCurveElementPurposeMember.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(StepElement_SequenceNodeOfSequenceOfCurveElementPurposeM
 
 
 #define SeqItem Handle(StepElement_CurveElementPurposeMember)
-#define SeqItem_hxx <StepElement_CurveElementPurposeMember.hxx>
+#define SeqItem_hxx <DataExchange/StepElement/StepElement_CurveElementPurposeMember.hxx>
 #define TCollection_SequenceNode StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember
-#define TCollection_SequenceNode_hxx <StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/StepElement/StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember.hxx>
 #define Handle_TCollection_SequenceNode Handle_StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember
 #define TCollection_SequenceNode_Type_() StepElement_SequenceNodeOfSequenceOfCurveElementPurposeMember_Type_()
 #define TCollection_Sequence StepElement_SequenceOfCurveElementPurposeMember
-#define TCollection_Sequence_hxx <StepElement_SequenceOfCurveElementPurposeMember.hxx>
+#define TCollection_Sequence_hxx <DataExchange/StepElement/StepElement_SequenceOfCurveElementPurposeMember.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

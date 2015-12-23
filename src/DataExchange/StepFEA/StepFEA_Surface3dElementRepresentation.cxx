@@ -16,9 +16,9 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <StepFEA_FeaModel3d.hxx>
-#include <StepElement_Surface3dElementDescriptor.hxx>
-#include <StepElement_SurfaceElementProperty.hxx>
-#include <StepElement_ElementMaterial.hxx>
+#include <DataExchange/StepElement/StepElement_Surface3dElementDescriptor.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceElementProperty.hxx>
+#include <DataExchange/StepElement/StepElement_ElementMaterial.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <StepRepr_HArray1OfRepresentationItem.hxx>
 #include <StepRepr_RepresentationContext.hxx>

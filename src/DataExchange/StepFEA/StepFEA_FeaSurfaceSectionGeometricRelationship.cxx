@@ -15,8 +15,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_SurfaceSection.hxx>
-#include <StepElement_AnalysisItemWithinRepresentation.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceSection.hxx>
+#include <DataExchange/StepElement/StepElement_AnalysisItemWithinRepresentation.hxx>
 #include <StepFEA_FeaSurfaceSectionGeometricRelationship.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepFEA_FeaSurfaceSectionGeometricRelationship)

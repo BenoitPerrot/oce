@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepElement_CurveElementEndReleasePacket.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementEndReleasePacket.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepElement/RWStepElement_RWCurveElementEndReleasePacket.hxx>

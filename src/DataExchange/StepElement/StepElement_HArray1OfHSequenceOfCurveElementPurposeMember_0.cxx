@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepElement_HSequenceOfCurveElementPurposeMember.hxx>
-#include <StepElement_Array1OfHSequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HSequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_Array1OfHSequenceOfCurveElementPurposeMember.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(StepElement_HArray1OfHSequenceOfCurveElementPurposeMembe
 
 
 #define ItemHArray1 Handle(StepElement_HSequenceOfCurveElementPurposeMember)
-#define ItemHArray1_hxx <StepElement_HSequenceOfCurveElementPurposeMember.hxx>
+#define ItemHArray1_hxx <DataExchange/StepElement/StepElement_HSequenceOfCurveElementPurposeMember.hxx>
 #define TheArray1 StepElement_Array1OfHSequenceOfCurveElementPurposeMember
-#define TheArray1_hxx <StepElement_Array1OfHSequenceOfCurveElementPurposeMember.hxx>
+#define TheArray1_hxx <DataExchange/StepElement/StepElement_Array1OfHSequenceOfCurveElementPurposeMember.hxx>
 #define TCollection_HArray1 StepElement_HArray1OfHSequenceOfCurveElementPurposeMember
-#define TCollection_HArray1_hxx <StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepElement/StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
 #define Handle_TCollection_HArray1 Handle_StepElement_HArray1OfHSequenceOfCurveElementPurposeMember
 #define TCollection_HArray1_Type_() StepElement_HArray1OfHSequenceOfCurveElementPurposeMember_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

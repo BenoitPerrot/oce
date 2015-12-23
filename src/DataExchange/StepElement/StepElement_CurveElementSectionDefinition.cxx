@@ -16,7 +16,7 @@
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepElement_CurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementSectionDefinition.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_CurveElementSectionDefinition)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

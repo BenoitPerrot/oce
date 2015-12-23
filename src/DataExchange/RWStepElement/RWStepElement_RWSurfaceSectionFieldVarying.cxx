@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepElement_SurfaceSectionFieldVarying.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceSectionFieldVarying.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepElement/RWStepElement_RWSurfaceSectionFieldVarying.hxx>
-#include <StepElement_HArray1OfSurfaceSection.hxx>
-#include <StepElement_SurfaceSection.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfSurfaceSection.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceSection.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWSurfaceSectionFieldVarying

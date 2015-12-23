@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_Array1OfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_Array1OfCurveElementSectionDefinition.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <StepElement_CurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementSectionDefinition.hxx>
  
 
 #define Array1Item Handle(StepElement_CurveElementSectionDefinition)
-#define Array1Item_hxx <StepElement_CurveElementSectionDefinition.hxx>
+#define Array1Item_hxx <DataExchange/StepElement/StepElement_CurveElementSectionDefinition.hxx>
 #define TCollection_Array1 StepElement_Array1OfCurveElementSectionDefinition
-#define TCollection_Array1_hxx <StepElement_Array1OfCurveElementSectionDefinition.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepElement/StepElement_Array1OfCurveElementSectionDefinition.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

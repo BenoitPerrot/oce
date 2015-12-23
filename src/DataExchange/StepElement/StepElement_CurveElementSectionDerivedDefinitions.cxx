@@ -15,11 +15,11 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepElement_MeasureOrUnspecifiedValue.hxx>
-#include <StepElement_CurveElementSectionDerivedDefinitions.hxx>
+#include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementSectionDerivedDefinitions.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_CurveElementSectionDerivedDefinitions)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepElement_CurveElementPurpose.hxx>
-#include <StepElement_CurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementPurpose.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementPurposeMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================

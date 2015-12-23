@@ -17,7 +17,7 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepElement_SurfaceSectionFieldConstant.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceSectionFieldConstant.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepElement/RWStepElement_RWSurfaceSectionFieldConstant.hxx>

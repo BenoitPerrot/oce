@@ -15,9 +15,9 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfHSequenceOfSurfaceElementPurposeMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepElement_Surface3dElementDescriptor.hxx>
+#include <DataExchange/StepElement/StepElement_Surface3dElementDescriptor.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_Surface3dElementDescriptor)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

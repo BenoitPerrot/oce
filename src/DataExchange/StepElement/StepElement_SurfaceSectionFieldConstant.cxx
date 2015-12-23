@@ -15,8 +15,8 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepElement_SurfaceSection.hxx>
-#include <StepElement_SurfaceSectionFieldConstant.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceSection.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceSectionFieldConstant.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_SurfaceSectionFieldConstant)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

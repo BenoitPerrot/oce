@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepElement_CurveElementFreedom.hxx>
-#include <StepElement_CurveElementFreedomMember.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementFreedom.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementFreedomMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 static Standard_CString anEnum = "ENUMERATED_CURVE_ELEMENT_FREEDOM";

@@ -15,7 +15,7 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V2.0
 
-#include <StepElement_SurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepElement_SurfaceElementPurposeMember)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

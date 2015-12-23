@@ -17,8 +17,8 @@
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>
-#include <StepElement_ElementAspect.hxx>
-#include <StepElement_ElementAspectMember.hxx>
+#include <DataExchange/StepElement/StepElement_ElementAspect.hxx>
+#include <DataExchange/StepElement/StepElement_ElementAspectMember.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
 //=======================================================================

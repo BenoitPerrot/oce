@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_Array2OfSurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_Array2OfSurfaceElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <StepElement_SurfaceElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
  
 
 #define Array2Item Handle(StepElement_SurfaceElementPurposeMember)
-#define Array2Item_hxx <StepElement_SurfaceElementPurposeMember.hxx>
+#define Array2Item_hxx <DataExchange/StepElement/StepElement_SurfaceElementPurposeMember.hxx>
 #define TCollection_Array2 StepElement_Array2OfSurfaceElementPurposeMember
-#define TCollection_Array2_hxx <StepElement_Array2OfSurfaceElementPurposeMember.hxx>
+#define TCollection_Array2_hxx <DataExchange/StepElement/StepElement_Array2OfSurfaceElementPurposeMember.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

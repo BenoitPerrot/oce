@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepElement_SequenceOfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_SequenceOfCurveElementSectionDefinition.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StepElement_CurveElementSectionDefinition.hxx>
-#include <StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_CurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
  
 
 #define SeqItem Handle(StepElement_CurveElementSectionDefinition)
-#define SeqItem_hxx <StepElement_CurveElementSectionDefinition.hxx>
+#define SeqItem_hxx <DataExchange/StepElement/StepElement_CurveElementSectionDefinition.hxx>
 #define TCollection_SequenceNode StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition
-#define TCollection_SequenceNode_hxx <StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
+#define TCollection_SequenceNode_hxx <DataExchange/StepElement/StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
 #define Handle_TCollection_SequenceNode Handle_StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition
 #define TCollection_SequenceNode_Type_() StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition_Type_()
 #define TCollection_Sequence StepElement_SequenceOfCurveElementSectionDefinition
-#define TCollection_Sequence_hxx <StepElement_SequenceOfCurveElementSectionDefinition.hxx>
+#define TCollection_Sequence_hxx <DataExchange/StepElement/StepElement_SequenceOfCurveElementSectionDefinition.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

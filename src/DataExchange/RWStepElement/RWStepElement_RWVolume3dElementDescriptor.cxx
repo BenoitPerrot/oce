@@ -17,12 +17,12 @@
 
 #include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepElement_Volume3dElementDescriptor.hxx>
+#include <DataExchange/StepElement/StepElement_Volume3dElementDescriptor.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepElement/RWStepElement_RWVolume3dElementDescriptor.hxx>
-#include <StepElement_HArray1OfVolumeElementPurposeMember.hxx>
-#include <StepElement_VolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_HArray1OfVolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/StepElement_VolumeElementPurposeMember.hxx>
 
 //=======================================================================
 //function : RWStepElement_RWVolume3dElementDescriptor

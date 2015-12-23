@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_FreedomAndCoefficient.hxx>
 
 #include <StepFEA_DegreeOfFreedom.hxx>
-#include <StepElement_MeasureOrUnspecifiedValue.hxx>
+#include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepFEA_DegreeOfFreedom;
 class StepElement_MeasureOrUnspecifiedValue;
