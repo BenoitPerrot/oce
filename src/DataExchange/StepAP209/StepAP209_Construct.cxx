@@ -27,7 +27,7 @@
 #include <StepBasic_ProductDefinition.hxx>
 #include <StepData_StepModel.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
-#include <StepAP209_Construct.hxx>
+#include <DataExchange/StepAP209/StepAP209_Construct.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
