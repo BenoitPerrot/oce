@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
-#include <GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_Bisec)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

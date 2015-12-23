@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <GccInt_BCirc.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BCirc.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BCirc)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

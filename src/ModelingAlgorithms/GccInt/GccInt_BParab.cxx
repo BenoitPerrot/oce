@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
-#include <GccInt_BParab.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BParab.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BParab)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

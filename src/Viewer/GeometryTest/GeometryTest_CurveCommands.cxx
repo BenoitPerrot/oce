@@ -65,8 +65,8 @@
 #include <ModelingAlgorithms/GccAna/GccAna_CircPnt2dBisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_LinPnt2dBisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Pnt2dBisec.hxx>
-#include <GccInt_Bisec.hxx>
-#include <GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

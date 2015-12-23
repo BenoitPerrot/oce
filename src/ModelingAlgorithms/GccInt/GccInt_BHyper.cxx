@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
-#include <GccInt_BHyper.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BHyper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BHyper)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

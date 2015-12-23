@@ -22,16 +22,16 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_CircPnt2dBisec.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
-#include <GccInt_BHyper.hxx>
-#include <GccInt_BCirc.hxx>
-#include <GccInt_BElips.hxx>
-#include <GccInt_BLine.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BHyper.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BCirc.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BElips.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>

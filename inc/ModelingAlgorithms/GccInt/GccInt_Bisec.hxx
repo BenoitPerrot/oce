@@ -11,7 +11,7 @@
 #include <Handle_GccInt_Bisec.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
 class Standard_DomainError;
 class gp_Pnt2d;
 class gp_Lin2d;

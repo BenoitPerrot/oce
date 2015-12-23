@@ -30,9 +30,9 @@
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
-#include <GccInt_IType.hxx>
-#include <GccInt_BCirc.hxx>
-#include <GccInt_BLine.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BCirc.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>

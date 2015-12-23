@@ -30,10 +30,10 @@
 #include <ModelingAlgorithms/GccAna/GccAna_LinPnt2dBisec.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
-#include <GccInt_IType.hxx>
-#include <GccInt_Bisec.hxx>
-#include <GccInt_BCirc.hxx>
-#include <GccInt_BLine.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BCirc.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Precision.hxx>

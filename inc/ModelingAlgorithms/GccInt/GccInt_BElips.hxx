@@ -11,8 +11,8 @@
 #include <Handle_GccInt_BElips.hxx>
 
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
-#include <GccInt_Bisec.hxx>
-#include <GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
 class gp_Elips2d;
 
 

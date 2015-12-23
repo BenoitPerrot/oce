@@ -38,10 +38,10 @@
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GccInt_IType.hxx>
-#include <GccInt_Bisec.hxx>
-#include <GccInt_BLine.hxx>
-#include <GccInt_BCirc.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BCirc.hxx>
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_CircPnt2dBisec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

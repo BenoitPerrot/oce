@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
-#include <GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
@@ -47,8 +47,8 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <GccInt_IType.hxx>
-#include <GccInt_BLine.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2dBisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Pnt2dBisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_CircLin2dBisec.hxx>

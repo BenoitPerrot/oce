@@ -18,7 +18,7 @@
 //   CREATION of the BISSECTRICE between a DROITE and POINTS.             +
 //=========================================================================
 
-#include <GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
@@ -28,8 +28,8 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
-#include <GccInt_BParab.hxx>
-#include <GccInt_BLine.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BParab.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp.hxx>

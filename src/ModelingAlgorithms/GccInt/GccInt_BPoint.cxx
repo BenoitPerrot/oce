@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <GccInt_BPoint.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BPoint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GccInt_BPoint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

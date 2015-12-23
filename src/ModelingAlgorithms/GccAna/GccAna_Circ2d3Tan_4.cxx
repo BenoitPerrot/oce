@@ -31,11 +31,11 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2dBisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_CircPnt2dBisec.hxx>
-#include <GccInt_IType.hxx>
-#include <GccInt_BCirc.hxx>
-#include <GccInt_BLine.hxx>
-#include <GccInt_BElips.hxx>
-#include <GccInt_BHyper.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BCirc.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BElips.hxx>
+#include <ModelingAlgorithms/GccInt/GccInt_BHyper.hxx>
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 
