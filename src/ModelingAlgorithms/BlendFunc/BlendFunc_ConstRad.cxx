@@ -33,12 +33,12 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <BlendFunc_ConstRad.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_ConstRad.hxx>
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math_SVD.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <GeomFill.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

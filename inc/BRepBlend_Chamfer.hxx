@@ -6,7 +6,7 @@
 #ifndef _BRepBlend_Chamfer_HeaderFile
 #define _BRepBlend_Chamfer_HeaderFile
 
-#include <BlendFunc_Chamfer.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Chamfer.hxx>
 
 typedef BlendFunc_Chamfer BRepBlend_Chamfer;
 

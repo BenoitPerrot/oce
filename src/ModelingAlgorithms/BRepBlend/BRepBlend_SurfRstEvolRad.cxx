@@ -37,7 +37,7 @@
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <GeomFill.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

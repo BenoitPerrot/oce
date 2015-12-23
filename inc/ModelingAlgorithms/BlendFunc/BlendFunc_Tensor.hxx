@@ -77,7 +77,7 @@ private:
 };
 
 
-#include <BlendFunc_Tensor.lxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Tensor.lxx>
 
 
 

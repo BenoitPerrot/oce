@@ -28,12 +28,12 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <BlendFunc_Ruled.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Ruled.hxx>
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

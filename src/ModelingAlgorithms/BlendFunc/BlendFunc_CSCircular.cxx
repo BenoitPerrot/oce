@@ -34,13 +34,13 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <BlendFunc_CSCircular.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_CSCircular.hxx>
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <GeomFill.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

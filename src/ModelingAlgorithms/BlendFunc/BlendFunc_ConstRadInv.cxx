@@ -18,10 +18,10 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <BlendFunc_ConstRadInv.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_ConstRadInv.hxx>
 
 #include <Precision.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 
 #define Eps 1.e-15
 

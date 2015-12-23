@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <BlendFunc_SectionShape.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Handle_Law_Function.hxx>
 #include <ModelingAlgorithms/Blend/Blend_SurfRstFunction.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BlendFunc_SectionShape.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
 #include <ChFi3d_Builder.hxx>
 #include <ChFi3d_FilletShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

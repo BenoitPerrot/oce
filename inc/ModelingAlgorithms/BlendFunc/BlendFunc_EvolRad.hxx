@@ -3,8 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _BlendFunc_ConstRad_HeaderFile
-#define _BlendFunc_ConstRad_HeaderFile
+#ifndef _BlendFunc_EvolRad_HeaderFile
+#define _BlendFunc_EvolRad_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
@@ -12,6 +12,7 @@
 
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
+#include <Handle_Law_Function.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -20,13 +21,14 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <BlendFunc_Tensor.hxx>
-#include <BlendFunc_SectionShape.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Tensor.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Function.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
+class Law_Function;
 class math_Matrix;
 class gp_Pnt;
 class gp_Vec;
@@ -39,18 +41,17 @@ class TColgp_Array1OfPnt;
 class TColgp_Array1OfVec;
 class TColgp_Array1OfPnt2d;
 class TColgp_Array1OfVec2d;
-class gp_Ax1;
 
 
 
-class BlendFunc_ConstRad  : public Blend_Function
+class BlendFunc_EvolRad  : public Blend_Function
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT BlendFunc_ConstRad(const Handle(Adaptor3d_HSurface)& S1, const Handle(Adaptor3d_HSurface)& S2, const Handle(Adaptor3d_HCurve)& C);
+  Standard_EXPORT BlendFunc_EvolRad(const Handle(Adaptor3d_HSurface)& S1, const Handle(Adaptor3d_HSurface)& S2, const Handle(Adaptor3d_HCurve)& C, const Handle(Law_Function)& Law);
   
   //! returns the number of equations of the function.
   Standard_EXPORT   Standard_Integer NbEquations()  const;
@@ -111,14 +112,13 @@ public:
   
   Standard_EXPORT virtual   Standard_Boolean TwistOnS2()  const;
   
-  //! Inits the value of radius, and the "quadrant".
-  Standard_EXPORT   void Set (const Standard_Real Radius, const Standard_Integer Choix) ;
+  Standard_EXPORT   void Set (const Standard_Integer Choix) ;
   
   //! Sets  the  type  of   section generation   for the
   //! approximations.
   Standard_EXPORT   void Set (const BlendFunc_SectionShape TypeSection) ;
   
-  //! Utile pour une visu rapide et approximative de la surface.
+  //! Method for graphic traces
   Standard_EXPORT   void Section (const Standard_Real Param, const Standard_Real U1, const Standard_Real V1, const Standard_Real U2, const Standard_Real V2, Standard_Real& Pdeb, Standard_Real& Pfin, gp_Circ& C) ;
   
   //! Returns  if the section is rationnal
@@ -163,8 +163,6 @@ public:
   
   Standard_EXPORT   void Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfPnt2d& Poles2d, TColStd_Array1OfReal& Weigths) ;
   
-  Standard_EXPORT   gp_Ax1 AxeRot (const Standard_Real Prm) ;
-  
   Standard_EXPORT   void Resolution (const Standard_Integer IC2d, const Standard_Real Tol, Standard_Real& TolU, Standard_Real& TolV)  const;
 
 
@@ -186,6 +184,8 @@ private:
   Handle(Adaptor3d_HSurface) surf2;
   Handle(Adaptor3d_HCurve) curv;
   Handle(Adaptor3d_HCurve) tcurv;
+  Handle(Law_Function) fevol;
+  Handle(Law_Function) tevol;
   gp_Pnt pts1;
   gp_Pnt pts2;
   Standard_Boolean istangent;
@@ -194,8 +194,11 @@ private:
   gp_Vec tg2;
   gp_Vec2d tg22d;
   Standard_Real param;
-  Standard_Real ray1;
-  Standard_Real ray2;
+  Standard_Real sg1;
+  Standard_Real sg2;
+  Standard_Real ray;
+  Standard_Real dray;
+  Standard_Real d2ray;
   Standard_Integer choix;
   Standard_Integer myXOrder;
   Standard_Integer myTOrder;
@@ -217,11 +220,11 @@ private:
   gp_Vec d2n2w;
   gp_Vec nplan;
   gp_Vec nsurf1;
+  gp_Vec nsurf2;
   gp_Vec dns1u1;
   gp_Vec dns1u2;
   gp_Vec dns1v1;
   gp_Vec dns1v2;
-  gp_Vec nsurf2;
   gp_Vec dnplan;
   gp_Vec d2nplan;
   gp_Vec dnsurf1;
@@ -246,8 +249,10 @@ private:
   BlendFunc_Tensor D2EDX2;
   math_Matrix D2EDXDT;
   math_Vector D2EDT2;
-  Standard_Real maxang;
   Standard_Real minang;
+  Standard_Real maxang;
+  Standard_Real lengthmin;
+  Standard_Real lengthmax;
   Standard_Real distmin;
   BlendFunc_SectionShape mySShape;
   Convert_ParameterisationType myTConv;
@@ -261,4 +266,4 @@ private:
 
 
 
-#endif // _BlendFunc_ConstRad_HeaderFile
+#endif // _BlendFunc_EvolRad_HeaderFile

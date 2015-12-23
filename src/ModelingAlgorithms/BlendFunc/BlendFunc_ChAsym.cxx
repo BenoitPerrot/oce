@@ -28,11 +28,11 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <BlendFunc_ChAsym.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_ChAsym.hxx>
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math_SVD.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

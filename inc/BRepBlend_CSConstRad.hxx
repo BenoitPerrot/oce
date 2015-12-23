@@ -6,7 +6,7 @@
 #ifndef _BRepBlend_CSConstRad_HeaderFile
 #define _BRepBlend_CSConstRad_HeaderFile
 
-#include <BlendFunc_CSConstRad.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_CSConstRad.hxx>
 
 typedef BlendFunc_CSConstRad BRepBlend_CSConstRad;
 

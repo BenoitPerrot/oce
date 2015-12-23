@@ -32,13 +32,13 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <BlendFunc_CSConstRad.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_CSConstRad.hxx>
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <GeomFill.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

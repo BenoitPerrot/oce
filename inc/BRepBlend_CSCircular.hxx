@@ -6,7 +6,7 @@
 #ifndef _BRepBlend_CSCircular_HeaderFile
 #define _BRepBlend_CSCircular_HeaderFile
 
-#include <BlendFunc_CSCircular.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_CSCircular.hxx>
 
 typedef BlendFunc_CSCircular BRepBlend_CSCircular;
 

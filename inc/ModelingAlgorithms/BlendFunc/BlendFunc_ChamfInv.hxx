@@ -15,7 +15,7 @@
 #include <Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <BlendFunc_Corde.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Corde.hxx>
 #include <ModelingAlgorithms/Blend/Blend_FuncInv.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

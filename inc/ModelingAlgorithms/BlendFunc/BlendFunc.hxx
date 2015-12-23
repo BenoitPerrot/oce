@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BlendFunc_SectionShape.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>

@@ -6,7 +6,7 @@
 #ifndef _BRepBlend_Ruled_HeaderFile
 #define _BRepBlend_Ruled_HeaderFile
 
-#include <BlendFunc_Ruled.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Ruled.hxx>
 
 typedef BlendFunc_Ruled BRepBlend_Ruled;
 

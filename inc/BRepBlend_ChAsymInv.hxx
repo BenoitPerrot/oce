@@ -6,7 +6,7 @@
 #ifndef _BRepBlend_ChAsymInv_HeaderFile
 #define _BRepBlend_ChAsymInv_HeaderFile
 
-#include <BlendFunc_ChAsymInv.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_ChAsymInv.hxx>
 
 typedef BlendFunc_ChAsymInv BRepBlend_ChAsymInv;
 

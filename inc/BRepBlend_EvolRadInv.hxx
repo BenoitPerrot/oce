@@ -6,7 +6,7 @@
 #ifndef _BRepBlend_EvolRadInv_HeaderFile
 #define _BRepBlend_EvolRadInv_HeaderFile
 
-#include <BlendFunc_EvolRadInv.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_EvolRadInv.hxx>
 
 typedef BlendFunc_EvolRadInv BRepBlend_EvolRadInv;
 

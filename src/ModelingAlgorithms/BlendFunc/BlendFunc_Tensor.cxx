@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <BlendFunc_Tensor.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Tensor.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>

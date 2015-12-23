@@ -53,7 +53,7 @@
 #include <BRepBlend_ChamfInv.hxx>
 #include <BRepBlend_ChAsym.hxx>
 #include <BRepBlend_ChAsymInv.hxx>
-#include <BlendFunc_SectionShape.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
 #include <BRepBlend_Walking.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>

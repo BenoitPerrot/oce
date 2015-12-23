@@ -31,9 +31,9 @@
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec2d.hxx>
-#include <BlendFunc_Chamfer.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Chamfer.hxx>
 
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <ElCLib.hxx>
 #include <Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

@@ -19,10 +19,10 @@
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <Law_Function.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <BlendFunc_EvolRadInv.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_EvolRadInv.hxx>
 
 #include <Precision.hxx>
-#include <BlendFunc.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #define Eps 1.e-15
 
 

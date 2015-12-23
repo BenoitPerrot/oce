@@ -3,8 +3,8 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _BlendFunc_EvolRad_HeaderFile
-#define _BlendFunc_EvolRad_HeaderFile
+#ifndef _BlendFunc_Chamfer_HeaderFile
+#define _BlendFunc_Chamfer_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
@@ -12,30 +12,22 @@
 
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <Handle_Adaptor3d_HCurve.hxx>
-#include <Handle_Law_Function.hxx>
-#include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Mathematics/Optimization/math_Vector.hxx>
-#include <Mathematics/Optimization/math_Matrix.hxx>
-#include <BlendFunc_Tensor.hxx>
-#include <BlendFunc_SectionShape.hxx>
-#include <Mathematics/Convert/Convert_ParameterisationType.hxx>
+#include <Foundation/Standard/Standard_Real.hxx>
+#include <ModelingAlgorithms/BlendFunc/BlendFunc_Corde.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Function.hxx>
+#include <Foundation/Standard/Standard_Boolean.hxx>
+#include <Mathematics/Optimization/math_Vector.hxx>
 #include <GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
-class Law_Function;
 class math_Matrix;
 class gp_Pnt;
 class gp_Vec;
 class gp_Vec2d;
-class gp_Circ;
 class TColStd_Array1OfReal;
 class TColStd_Array1OfInteger;
+class gp_Lin;
 class Blend_Point;
 class TColgp_Array1OfPnt;
 class TColgp_Array1OfVec;
@@ -44,14 +36,14 @@ class TColgp_Array1OfVec2d;
 
 
 
-class BlendFunc_EvolRad  : public Blend_Function
+class BlendFunc_Chamfer  : public Blend_Function
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT BlendFunc_EvolRad(const Handle(Adaptor3d_HSurface)& S1, const Handle(Adaptor3d_HSurface)& S2, const Handle(Adaptor3d_HCurve)& C, const Handle(Law_Function)& Law);
+  Standard_EXPORT BlendFunc_Chamfer(const Handle(Adaptor3d_HSurface)& S1, const Handle(Adaptor3d_HSurface)& S2, const Handle(Adaptor3d_HCurve)& CG);
   
   //! returns the number of equations of the function.
   Standard_EXPORT   Standard_Integer NbEquations()  const;
@@ -108,20 +100,10 @@ public:
   //! these points.
   Standard_EXPORT   void Tangent (const Standard_Real U1, const Standard_Real V1, const Standard_Real U2, const Standard_Real V2, gp_Vec& TgFirst, gp_Vec& TgLast, gp_Vec& NormFirst, gp_Vec& NormLast)  const;
   
-  Standard_EXPORT virtual   Standard_Boolean TwistOnS1()  const;
+  //! Sets the distances and the "quadrant".
+  Standard_EXPORT   void Set (const Standard_Real Dist1, const Standard_Real Dist2, const Standard_Integer Choix) ;
   
-  Standard_EXPORT virtual   Standard_Boolean TwistOnS2()  const;
-  
-  Standard_EXPORT   void Set (const Standard_Integer Choix) ;
-  
-  //! Sets  the  type  of   section generation   for the
-  //! approximations.
-  Standard_EXPORT   void Set (const BlendFunc_SectionShape TypeSection) ;
-  
-  //! Method for graphic traces
-  Standard_EXPORT   void Section (const Standard_Real Param, const Standard_Real U1, const Standard_Real V1, const Standard_Real U2, const Standard_Real V2, Standard_Real& Pdeb, Standard_Real& Pfin, gp_Circ& C) ;
-  
-  //! Returns  if the section is rationnal
+  //! Returns False
   Standard_EXPORT   Standard_Boolean IsRational()  const;
   
   //! Returns the length of the maximum section
@@ -140,6 +122,8 @@ public:
   //!
   //! The array must provide  enough room to  accomodate
   //! for the parameters. i.e. T.Length() > NbIntervals()
+  //! raises
+  //! OutOfRange from Standard
   Standard_EXPORT   void Intervals (TColStd_Array1OfReal& T, const GeomAbs_Shape S)  const;
   
   Standard_EXPORT   void GetShape (Standard_Integer& NbPoles, Standard_Integer& NbKnots, Standard_Integer& Degree, Standard_Integer& NbPoles2d) ;
@@ -155,11 +139,14 @@ public:
   
   Standard_EXPORT   void Mults (TColStd_Array1OfInteger& TMults) ;
   
-  //! Used for the first and last section
-  Standard_EXPORT virtual   Standard_Boolean Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfVec& DPoles, TColgp_Array1OfVec& D2Poles, TColgp_Array1OfPnt2d& Poles2d, TColgp_Array1OfVec2d& DPoles2d, TColgp_Array1OfVec2d& D2Poles2d, TColStd_Array1OfReal& Weigths, TColStd_Array1OfReal& DWeigths, TColStd_Array1OfReal& D2Weigths) ;
+  //! Obsolete method
+  Standard_EXPORT   void Section (const Standard_Real Param, const Standard_Real U1, const Standard_Real V1, const Standard_Real U2, const Standard_Real V2, Standard_Real& Pdeb, Standard_Real& Pfin, gp_Lin& C) ;
   
   //! Used for the first and last section
-  Standard_EXPORT virtual   Standard_Boolean Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfVec& DPoles, TColgp_Array1OfPnt2d& Poles2d, TColgp_Array1OfVec2d& DPoles2d, TColStd_Array1OfReal& Weigths, TColStd_Array1OfReal& DWeigths) ;
+  Standard_EXPORT   Standard_Boolean Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfVec& DPoles, TColgp_Array1OfVec& D2Poles, TColgp_Array1OfPnt2d& Poles2d, TColgp_Array1OfVec2d& DPoles2d, TColgp_Array1OfVec2d& D2Poles2d, TColStd_Array1OfReal& Weigths, TColStd_Array1OfReal& DWeigths, TColStd_Array1OfReal& D2Weigths) ;
+  
+  //! Used for the first and last section
+  Standard_EXPORT   Standard_Boolean Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfVec& DPoles, TColgp_Array1OfPnt2d& Poles2d, TColgp_Array1OfVec2d& DPoles2d, TColStd_Array1OfReal& Weigths, TColStd_Array1OfReal& DWeigths) ;
   
   Standard_EXPORT   void Section (const Blend_Point& P, TColgp_Array1OfPnt& Poles, TColgp_Array1OfPnt2d& Poles2d, TColStd_Array1OfReal& Weigths) ;
   
@@ -176,86 +163,16 @@ protected:
 
 private:
 
-  
-  Standard_EXPORT   Standard_Boolean ComputeValues (const math_Vector& X, const Standard_Integer Order, const Standard_Boolean ByParam = Standard_False, const Standard_Real Param = 0) ;
 
 
   Handle(Adaptor3d_HSurface) surf1;
   Handle(Adaptor3d_HSurface) surf2;
   Handle(Adaptor3d_HCurve) curv;
-  Handle(Adaptor3d_HCurve) tcurv;
-  Handle(Law_Function) fevol;
-  Handle(Law_Function) tevol;
-  gp_Pnt pts1;
-  gp_Pnt pts2;
-  Standard_Boolean istangent;
-  gp_Vec tg1;
-  gp_Vec2d tg12d;
-  gp_Vec tg2;
-  gp_Vec2d tg22d;
-  Standard_Real param;
-  Standard_Real sg1;
-  Standard_Real sg2;
-  Standard_Real ray;
-  Standard_Real dray;
-  Standard_Real d2ray;
   Standard_Integer choix;
-  Standard_Integer myXOrder;
-  Standard_Integer myTOrder;
-  math_Vector xval;
-  Standard_Real tval;
-  gp_Vec d1u1;
-  gp_Vec d1u2;
-  gp_Vec d1v1;
-  gp_Vec d1v2;
-  gp_Vec d2u1;
-  gp_Vec d2v1;
-  gp_Vec d2uv1;
-  gp_Vec d2u2;
-  gp_Vec d2v2;
-  gp_Vec d2uv2;
-  gp_Vec dn1w;
-  gp_Vec dn2w;
-  gp_Vec d2n1w;
-  gp_Vec d2n2w;
-  gp_Vec nplan;
-  gp_Vec nsurf1;
-  gp_Vec nsurf2;
-  gp_Vec dns1u1;
-  gp_Vec dns1u2;
-  gp_Vec dns1v1;
-  gp_Vec dns1v2;
-  gp_Vec dnplan;
-  gp_Vec d2nplan;
-  gp_Vec dnsurf1;
-  gp_Vec dnsurf2;
-  gp_Vec dndu1;
-  gp_Vec dndu2;
-  gp_Vec dndv1;
-  gp_Vec dndv2;
-  gp_Vec d2ndu1;
-  gp_Vec d2ndu2;
-  gp_Vec d2ndv1;
-  gp_Vec d2ndv2;
-  gp_Vec d2nduv1;
-  gp_Vec d2nduv2;
-  gp_Vec d2ndtu1;
-  gp_Vec d2ndtu2;
-  gp_Vec d2ndtv1;
-  gp_Vec d2ndtv2;
-  math_Vector E;
-  math_Matrix DEDX;
-  math_Vector DEDT;
-  BlendFunc_Tensor D2EDX2;
-  math_Matrix D2EDXDT;
-  math_Vector D2EDT2;
-  Standard_Real minang;
-  Standard_Real maxang;
-  Standard_Real lengthmin;
-  Standard_Real lengthmax;
+  Standard_Real tol;
   Standard_Real distmin;
-  BlendFunc_SectionShape mySShape;
-  Convert_ParameterisationType myTConv;
+  BlendFunc_Corde corde1;
+  BlendFunc_Corde corde2;
 
 
 };
@@ -266,4 +183,4 @@ private:
 
 
 
-#endif // _BlendFunc_EvolRad_HeaderFile
+#endif // _BlendFunc_Chamfer_HeaderFile
