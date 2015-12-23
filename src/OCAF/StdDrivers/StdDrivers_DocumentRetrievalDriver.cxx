@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(StdDrivers_DocumentRetrievalDriver)
 #include <OCAF/MDF/MDF.hxx>
 #include <OCAF/MDataStd/MDataStd.hxx> 
 #include <OCAF/MDataXtd/MDataXtd.hxx>
-#include <MNaming.hxx>  
+#include <OCAF/MNaming/MNaming.hxx>  
 #include <OCAF/MDocStd/MDocStd.hxx> 
 #include <OCAF/MFunction/MFunction.hxx>
 #include <MPrsStd.hxx>

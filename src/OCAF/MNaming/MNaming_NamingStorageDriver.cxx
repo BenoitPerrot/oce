@@ -19,7 +19,7 @@
 #include <PDF_Attribute.hxx>
 #include <TDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_SRelocationTable.hxx>
-#include <MNaming_NamingStorageDriver.hxx>
+#include <OCAF/MNaming/MNaming_NamingStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MNaming_NamingStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

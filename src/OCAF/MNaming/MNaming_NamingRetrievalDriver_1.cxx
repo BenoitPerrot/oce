@@ -18,7 +18,7 @@
 #include <TDF_Attribute.hxx>
 #include <PDF_Attribute.hxx>
 #include <OCAF/MDF/MDF_RRelocationTable.hxx>
-#include <MNaming_NamingRetrievalDriver_1.hxx>
+#include <OCAF/MNaming/MNaming_NamingRetrievalDriver_1.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MNaming_NamingRetrievalDriver_1)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -24,14 +24,14 @@
 #include <OCAF/MDF/MDF_ASDriverHSequence.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/MDF/MDF_ARDriverHSequence.hxx>
-#include <MNaming.hxx>
+#include <OCAF/MNaming/MNaming.hxx>
 
-#include <MNaming_NamedShapeStorageDriver.hxx>
-#include <MNaming_NamedShapeRetrievalDriver.hxx>
-#include <MNaming_NamingStorageDriver.hxx>
-#include <MNaming_NamingRetrievalDriver.hxx>
-#include <MNaming_NamingRetrievalDriver_1.hxx>
-#include <MNaming_NamingRetrievalDriver_2.hxx>
+#include <OCAF/MNaming/MNaming_NamedShapeStorageDriver.hxx>
+#include <OCAF/MNaming/MNaming_NamedShapeRetrievalDriver.hxx>
+#include <OCAF/MNaming/MNaming_NamingStorageDriver.hxx>
+#include <OCAF/MNaming/MNaming_NamingRetrievalDriver.hxx>
+#include <OCAF/MNaming/MNaming_NamingRetrievalDriver_1.hxx>
+#include <OCAF/MNaming/MNaming_NamingRetrievalDriver_2.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 
 //=======================================================================
