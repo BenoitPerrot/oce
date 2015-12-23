@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PPoly_Triangle.hxx>
+#include <OCAF/PPoly/PPoly_Triangle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PPoly_Triangle)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

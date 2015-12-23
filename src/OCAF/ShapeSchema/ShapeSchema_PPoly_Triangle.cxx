@@ -2,7 +2,7 @@
 #include <ShapeSchema_PPoly_Triangle.hxx>
 #endif
 #ifndef _PPoly_Triangle_HeaderFile
-#include <PPoly_Triangle.hxx>
+#include <OCAF/PPoly/PPoly_Triangle.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PPoly_PolygonOnTriangulation.hxx>
-#include <PPoly_Triangulation.hxx>
+#include <OCAF/PPoly/PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/PPoly/PPoly_Triangulation.hxx>
 #include <PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_PolygonOnTriangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

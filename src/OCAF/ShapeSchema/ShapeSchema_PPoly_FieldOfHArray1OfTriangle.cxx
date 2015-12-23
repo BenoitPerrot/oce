@@ -2,7 +2,7 @@
 #include <ShapeSchema_PPoly_FieldOfHArray1OfTriangle.hxx>
 #endif
 #ifndef _PPoly_FieldOfHArray1OfTriangle_HeaderFile
-#include <PPoly_FieldOfHArray1OfTriangle.hxx>
+#include <OCAF/PPoly/PPoly_FieldOfHArray1OfTriangle.hxx>
 #endif
 #ifndef _Storage_Schema_HeaderFile
 #include <Foundation/Storage/Storage_Schema.hxx>

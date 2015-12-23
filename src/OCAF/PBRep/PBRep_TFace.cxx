@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/PGeom/PGeom_Surface.hxx>
-#include <PPoly_Triangulation.hxx>
+#include <OCAF/PPoly/PPoly_Triangulation.hxx>
 #include <PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_TFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

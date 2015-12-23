@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PPoly_Polygon3D.hxx>
+#include <OCAF/PPoly/PPoly_Polygon3D.hxx>
 #include <PTopLoc_Location.hxx>
 #include <OCAF/PBRep/PBRep_Polygon3D.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PPoly_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _PPoly_PolygonOnTriangulation_HeaderFile
-#include <PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/PPoly/PPoly_PolygonOnTriangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PColStd_HArray1OfInteger_HeaderFile
 #include <ShapeSchema_PColStd_HArray1OfInteger.hxx>

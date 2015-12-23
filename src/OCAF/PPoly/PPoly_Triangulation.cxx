@@ -14,8 +14,8 @@
 
 #include <OCAF/PColgp/PColgp_HArray1OfPnt.hxx>
 #include <OCAF/PColgp/PColgp_HArray1OfPnt2d.hxx>
-#include <PPoly_HArray1OfTriangle.hxx>
-#include <PPoly_Triangulation.hxx>
+#include <OCAF/PPoly/PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/PPoly/PPoly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PPoly_Triangulation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

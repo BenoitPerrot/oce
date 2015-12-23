@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <PPoly_Triangle.hxx>
+#include <OCAF/PPoly/PPoly_Triangle.hxx>
 #include <Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PPoly_Triangle;
@@ -53,15 +53,15 @@ private:
 };
 
 #define Item PPoly_Triangle
-#define Item_hxx <PPoly_Triangle.hxx>
+#define Item_hxx <OCAF/PPoly/PPoly_Triangle.hxx>
 #define DBC_VArrayNode PPoly_VArrayNodeOfFieldOfHArray1OfTriangle
-#define DBC_VArrayNode_hxx <PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
+#define DBC_VArrayNode_hxx <OCAF/PPoly/PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 #define DBC_VArrayTNode PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle
-#define DBC_VArrayTNode_hxx <PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
+#define DBC_VArrayTNode_hxx <OCAF/PPoly/PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
 #define Handle_DBC_VArrayNode Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle
 #define DBC_VArrayNode_Type_() PPoly_VArrayNodeOfFieldOfHArray1OfTriangle_Type_()
 #define DBC_VArray PPoly_FieldOfHArray1OfTriangle
-#define DBC_VArray_hxx <PPoly_FieldOfHArray1OfTriangle.hxx>
+#define DBC_VArray_hxx <OCAF/PPoly/PPoly_FieldOfHArray1OfTriangle.hxx>
 
 #include <OCAF/DBC/DBC_VArrayTNode.lxx>
 

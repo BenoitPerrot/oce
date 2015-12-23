@@ -2,7 +2,7 @@
 #include <ShapeSchema_PPoly_Polygon3D.hxx>
 #endif
 #ifndef _PPoly_Polygon3D_HeaderFile
-#include <PPoly_Polygon3D.hxx>
+#include <OCAF/PPoly/PPoly_Polygon3D.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt_HeaderFile
 #include <ShapeSchema_PColgp_HArray1OfPnt.hxx>

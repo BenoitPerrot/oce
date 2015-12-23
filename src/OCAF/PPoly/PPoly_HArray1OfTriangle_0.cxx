@@ -3,16 +3,16 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/PPoly/PPoly_HArray1OfTriangle.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <PPoly_Triangle.hxx>
-#include <PPoly_FieldOfHArray1OfTriangle.hxx>
-#include <PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
-#include <PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
+#include <OCAF/PPoly/PPoly_Triangle.hxx>
+#include <OCAF/PPoly/PPoly_FieldOfHArray1OfTriangle.hxx>
+#include <OCAF/PPoly/PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
+#include <OCAF/PPoly/PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
 
  
 
@@ -31,23 +31,23 @@ IMPLEMENT_STANDARD_RTTI(PPoly_HArray1OfTriangle)
 
 
 #define Item PPoly_Triangle
-#define Item_hxx <PPoly_Triangle.hxx>
+#define Item_hxx <OCAF/PPoly/PPoly_Triangle.hxx>
 #define PCollection_FieldOfHArray1 PPoly_FieldOfHArray1OfTriangle
-#define PCollection_FieldOfHArray1_hxx <PPoly_FieldOfHArray1OfTriangle.hxx>
+#define PCollection_FieldOfHArray1_hxx <OCAF/PPoly/PPoly_FieldOfHArray1OfTriangle.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PPoly_VArrayNodeOfFieldOfHArray1OfTriangle
-#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <OCAF/PPoly/PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray1 PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle
-#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <OCAF/PPoly/PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
 #define PCollection_VArrayNodeOfFieldOfHArray1 PPoly_VArrayNodeOfFieldOfHArray1OfTriangle
-#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
+#define PCollection_VArrayNodeOfFieldOfHArray1_hxx <OCAF/PPoly/PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 #define PCollection_VArrayTNodeOfFieldOfHArray1 PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle
-#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
+#define PCollection_VArrayTNodeOfFieldOfHArray1_hxx <OCAF/PPoly/PPoly_VArrayTNodeOfFieldOfHArray1OfTriangle.hxx>
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray1 Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle
 #define PCollection_VArrayNodeOfFieldOfHArray1_Type_() PPoly_VArrayNodeOfFieldOfHArray1OfTriangle_Type_()
 #define Handle_PCollection_VArrayNodeOfFieldOfHArray1 Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle
 #define PCollection_VArrayNodeOfFieldOfHArray1_Type_() PPoly_VArrayNodeOfFieldOfHArray1OfTriangle_Type_()
 #define PCollection_HArray1 PPoly_HArray1OfTriangle
-#define PCollection_HArray1_hxx <PPoly_HArray1OfTriangle.hxx>
+#define PCollection_HArray1_hxx <OCAF/PPoly/PPoly_HArray1OfTriangle.hxx>
 #define Handle_PCollection_HArray1 Handle_PPoly_HArray1OfTriangle
 #define PCollection_HArray1_Type_() PPoly_HArray1OfTriangle_Type_()
 #include <OCAF/PCollection/PCollection_HArray1.gxx>

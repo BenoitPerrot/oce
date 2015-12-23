@@ -13,17 +13,17 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Polyhedral/Poly_Triangle.hxx>
-#include <PPoly_Triangle.hxx>
+#include <OCAF/PPoly/PPoly_Triangle.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <PPoly_Triangulation.hxx>
+#include <OCAF/PPoly/PPoly_Triangulation.hxx>
 #include <PTColStd_PersistentTransientMap.hxx>
 #include <PTColStd_TransientPersistentMap.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
-#include <PPoly_Polygon3D.hxx>
+#include <OCAF/PPoly/PPoly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
-#include <PPoly_Polygon2D.hxx>
+#include <OCAF/PPoly/PPoly_Polygon2D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
-#include <PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/PPoly/PPoly_PolygonOnTriangulation.hxx>
 #include <OCAF/MgtPoly/MgtPoly.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -38,7 +38,7 @@
 #include <OCAF/PColStd/PColStd_HArray1OfInteger.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
-#include <PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/PPoly/PPoly_HArray1OfTriangle.hxx>
 
 #define MgtBRepSpeedDownCast
 

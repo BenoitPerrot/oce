@@ -2,7 +2,7 @@
 #include <ShapeSchema_PPoly_Triangulation.hxx>
 #endif
 #ifndef _PPoly_Triangulation_HeaderFile
-#include <PPoly_Triangulation.hxx>
+#include <OCAF/PPoly/PPoly_Triangulation.hxx>
 #endif
 #ifndef _ShapeSchema_PColgp_HArray1OfPnt_HeaderFile
 #include <ShapeSchema_PColgp_HArray1OfPnt.hxx>
