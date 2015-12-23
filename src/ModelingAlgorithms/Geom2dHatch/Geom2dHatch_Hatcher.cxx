@@ -34,7 +34,7 @@
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopTrans_CurveTransition.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_CurveTransition.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Intersector.hxx>

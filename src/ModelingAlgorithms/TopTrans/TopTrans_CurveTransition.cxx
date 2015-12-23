@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <TopTrans_CurveTransition.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_CurveTransition.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
 #define GREATER 1

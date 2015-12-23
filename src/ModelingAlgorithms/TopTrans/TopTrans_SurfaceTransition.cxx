@@ -16,7 +16,7 @@
 
 // Modified: eap Mar 25 2002 (occ102,occ227), touch case
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <TopTrans_SurfaceTransition.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_SurfaceTransition.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>

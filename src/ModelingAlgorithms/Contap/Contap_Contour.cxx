@@ -34,7 +34,7 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 
-#include <TopTrans_CurveTransition.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_CurveTransition.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopTrans_Array2OfOrientation.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_Array2OfOrientation.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
@@ -14,6 +14,6 @@
 #define Array2Item TopAbs_Orientation
 #define Array2Item_hxx <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #define TCollection_Array2 TopTrans_Array2OfOrientation
-#define TCollection_Array2_hxx <TopTrans_Array2OfOrientation.hxx>
+#define TCollection_Array2_hxx <ModelingAlgorithms/TopTrans/TopTrans_Array2OfOrientation.hxx>
 #include <Foundation/TCollection/TCollection_Array2.gxx>
 

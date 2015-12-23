@@ -52,7 +52,7 @@
 
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <TopTrans_CurveTransition.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_CurveTransition.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

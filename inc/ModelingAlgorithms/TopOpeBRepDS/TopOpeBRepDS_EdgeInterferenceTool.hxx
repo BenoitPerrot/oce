@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopTrans_CurveTransition.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_CurveTransition.hxx>
 #include <Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_Interference;

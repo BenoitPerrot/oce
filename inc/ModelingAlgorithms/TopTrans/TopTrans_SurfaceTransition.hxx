@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <TopTrans_Array2OfOrientation.hxx>
+#include <ModelingAlgorithms/TopTrans/TopTrans_Array2OfOrientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
