@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDocStd/XmlMDocStd_XLinkDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDocStd_XLinkDriver)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDocStd_XLinkDriver)
 IMPLEMENT_DOWNCAST(XmlMDocStd_XLinkDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDocStd_XLinkDriver)
 
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 #include <OCAF/TDocStd/TDocStd_XLink.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

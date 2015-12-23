@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMFunction/XmlMFunction_ScopeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMFunction_ScopeDriver)
@@ -27,8 +27,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMFunction_ScopeDriver)
 IMPLEMENT_DOWNCAST(XmlMFunction_ScopeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMFunction_ScopeDriver)
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
 
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

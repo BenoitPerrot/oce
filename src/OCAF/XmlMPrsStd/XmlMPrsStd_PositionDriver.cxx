@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMPrsStd/XmlMPrsStd_PositionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMPrsStd_PositionDriver)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMPrsStd_PositionDriver)
 IMPLEMENT_DOWNCAST(XmlMPrsStd_PositionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMPrsStd_PositionDriver)
 
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 

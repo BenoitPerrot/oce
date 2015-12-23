@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMFunction/XmlMFunction_GraphNodeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMFunction_GraphNodeDriver)
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMFunction_GraphNodeDriver)
 IMPLEMENT_DOWNCAST(XmlMFunction_GraphNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMFunction_GraphNodeDriver)
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 #include <OCAF/TFunction/TFunction_GraphNode.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>

@@ -15,9 +15,9 @@
 
 //AGV 130202: Changed prototype LDOM_Node::getOwnerDocument()
 
-#include <XmlObjMgt_Persistent.hxx>
-#include <XmlObjMgt_Document.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 //=======================================================================

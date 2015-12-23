@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming_NamingDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMNaming_NamingDriver)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMNaming_NamingDriver)
 IMPLEMENT_DOWNCAST(XmlMNaming_NamingDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamingDriver)
 
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming.hxx>
 #include <OCAF/TNaming/TNaming_Name.hxx>
 #include <OCAF/TNaming/TNaming_Naming.hxx>

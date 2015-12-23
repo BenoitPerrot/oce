@@ -14,7 +14,7 @@
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Handle_XmlMDF_ADriver.hxx>
-#include <XmlObjMgt_Element.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class XmlMDF_ADriverTable;
 class CDM_MessageDriver;

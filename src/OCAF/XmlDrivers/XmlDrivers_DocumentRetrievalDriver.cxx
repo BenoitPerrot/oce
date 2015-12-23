@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentRetrievalDriver)
 #include <OCAF/XmlDrivers/XmlDrivers.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming.hxx>
-#include <XmlObjMgt_Element.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>

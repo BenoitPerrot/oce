@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <XmlObjMgt_Element.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Storable.hxx>
-#include <XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class TopoDS_Shape;
 

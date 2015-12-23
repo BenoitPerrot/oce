@@ -17,7 +17,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ReferenceDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDF_ReferenceDriver)
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDF_ReferenceDriver)
 IMPLEMENT_DOWNCAST(XmlMDF_ReferenceDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDF_ReferenceDriver)
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 #include <OCAF/TDF/TDF_Reference.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

@@ -17,8 +17,8 @@
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
 #include <OCAF/LDOM/LDOM_Text.hxx>
 
 #include <errno.h>

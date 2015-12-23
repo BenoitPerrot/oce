@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMFunction/XmlMFunction_FunctionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMFunction_FunctionDriver)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMFunction_FunctionDriver)
 IMPLEMENT_DOWNCAST(XmlMFunction_FunctionDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMFunction_FunctionDriver)
 
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 #include <OCAF/TFunction/TFunction_Function.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

@@ -34,9 +34,9 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 
 #include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
 #include <OCAF/XmlMDF/XmlMDF.hxx>
-#include <XmlObjMgt_RRelocationTable.hxx>
-#include <XmlObjMgt_Document.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <OCAF/LDOM/LDOM_LDOMImplementation.hxx>
 #include <OCAF/LDOM/LDOM_DocumentType.hxx>

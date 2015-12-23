@@ -14,7 +14,7 @@
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <XmlObjMgt_Element.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 class TCollection_ExtendedString;
 class XmlMDF_ADriverTable;
 class CDM_MessageDriver;

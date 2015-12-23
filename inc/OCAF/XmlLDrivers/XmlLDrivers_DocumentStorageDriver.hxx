@@ -13,11 +13,11 @@
 #include <Handle_XmlMDF_ADriverTable.hxx>
 #include <OCAF/XmlLDrivers/XmlLDrivers_SequenceOfNamespaceDef.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <XmlObjMgt_SRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>
 #include <OCAF/PCDM/PCDM_StorageDriver.hxx>
 #include <Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <XmlObjMgt_Element.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_CDM_MessageDriver.hxx>
 class XmlMDF_ADriverTable;

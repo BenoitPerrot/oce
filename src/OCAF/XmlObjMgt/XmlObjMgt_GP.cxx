@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <XmlObjMgt_GP.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_GP.hxx>
 #include <stdio.h>
 #include <errno.h>
 

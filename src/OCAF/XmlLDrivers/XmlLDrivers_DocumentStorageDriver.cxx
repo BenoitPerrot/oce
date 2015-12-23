@@ -35,13 +35,13 @@ IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 #include <OCAF/XmlMDF/XmlMDF.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ADriverTable.hxx>
 
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_SRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>
 
 #include <OCAF/LDOM/LDOM_XmlWriter.hxx>
 #include <OCAF/LDOM/LDOM_LDOMImplementation.hxx>
 #include <OCAF/LDOM/LDOM_DocumentType.hxx>
-#include <XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
 
 #include <Foundation/Storage/Storage_Data.hxx>
 #include <OCAF/PCDM/PCDM.hxx>

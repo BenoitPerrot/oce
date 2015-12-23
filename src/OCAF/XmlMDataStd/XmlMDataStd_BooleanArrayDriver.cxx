@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_BooleanArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_BooleanArrayDriver)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_BooleanArrayDriver)
 #include <OCAF/TDataStd/TDataStd_BooleanArray.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfByte.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")
 IMPLEMENT_DOMSTRING (LastIndexString,  "last")

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <XmlObjMgt_DOMString.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_DOMString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class gp_Trsf;
 class gp_Mat;

@@ -17,7 +17,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMNaming_NamedShapeDriver)
 IMPLEMENT_DOWNCAST(XmlMNaming_NamedShapeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMNaming_NamedShapeDriver)
 
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_Array1.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Array1.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming_Shape1.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>

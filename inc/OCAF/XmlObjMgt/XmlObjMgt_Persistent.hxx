@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <XmlObjMgt_Element.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <XmlObjMgt_DOMString.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_DOMString.hxx>
 
 
 //! root for XML-persistence
@@ -67,7 +67,7 @@ private:
 };
 
 
-#include <XmlObjMgt_Persistent.lxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.lxx>
 
 
 

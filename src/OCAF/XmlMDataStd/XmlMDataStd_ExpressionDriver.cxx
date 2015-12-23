@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_ExpressionDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_ExpressionDriver)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExpressionDriver)
 
 #include <OCAF/TDF/TDF_ListIteratorOfAttributeList.hxx>
 
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 IMPLEMENT_DOMSTRING (VariablesString, "variables")
 

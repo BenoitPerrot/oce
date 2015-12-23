@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <XmlMXCAFDoc_LocationDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -30,11 +30,11 @@ IMPLEMENT_DOWNCAST(XmlMXCAFDoc_LocationDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_LocationDriver)
 
 #include <XCAFDoc_Location.hxx>
-#include <XmlObjMgt_Document.hxx>
-#include <XmlObjMgt_DOMString.hxx>
-#include <XmlObjMgt_Persistent.hxx>
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_GP.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_DOMString.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_GP.hxx>
 #include <Mathematics/TopLoc/TopLoc_Datum3D.hxx>
 
 #include <OCAF/XmlMNaming/XmlMNaming.hxx>

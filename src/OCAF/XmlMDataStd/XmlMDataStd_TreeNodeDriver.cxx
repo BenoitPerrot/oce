@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_TreeNodeDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_TreeNodeDriver)
@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_TreeNodeDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_TreeNodeDriver)
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 IMPLEMENT_DOMSTRING (TreeIdString,   "treeid")
 IMPLEMENT_DOMSTRING (ChildrenString, "children")

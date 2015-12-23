@@ -22,9 +22,9 @@
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_Persistent.hxx>
-#include <XmlObjMgt_RRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
 
 #include <OCAF/TObj/TObj_TReference.hxx>
 #include <OCAF/TObj/TObj_Model.hxx>

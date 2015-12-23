@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_ExtStringListDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_ExtStringListDriver)
@@ -29,8 +29,8 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_ExtStringListDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_ExtStringListDriver)
 #include <OCAF/TDataStd/TDataStd_ExtStringList.hxx>
 #include <OCAF/TDataStd/TDataStd_ListIteratorOfListOfExtendedString.hxx>
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")

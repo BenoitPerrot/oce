@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

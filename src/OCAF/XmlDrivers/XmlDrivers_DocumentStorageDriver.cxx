@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(XmlDrivers_DocumentStorageDriver)
 #include <OCAF/XmlDrivers/XmlDrivers.hxx>
 #include <OCAF/XmlMNaming/XmlMNaming_NamedShapeDriver.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
-#include <XmlObjMgt_Element.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 //=======================================================================
 //function : XmlDrivers_DocumentStorageDriver
 //purpose  : Constructor

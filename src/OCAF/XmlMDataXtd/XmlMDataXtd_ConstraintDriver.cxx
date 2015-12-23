@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataXtd/XmlMDataXtd_ConstraintDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataXtd_ConstraintDriver)
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_RTTI(XmlMDataXtd_ConstraintDriver)
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 static TDataXtd_ConstraintEnum    ConstraintTypeEnum
                                                 (const XmlObjMgt_DOMString&);

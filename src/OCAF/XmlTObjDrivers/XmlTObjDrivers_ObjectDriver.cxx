@@ -20,9 +20,9 @@
 #include "XmlTObjDrivers_ObjectDriver.hxx"
 #include <OCAF/TObj/TObj_TObject.hxx>
 #include <OCAF/TObj/TObj_Persistence.hxx>
-#include <XmlObjMgt_Persistent.hxx>
-#include <XmlObjMgt_RRelocationTable.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 IMPLEMENT_STANDARD_HANDLE(XmlTObjDrivers_ObjectDriver,XmlMDF_ADriver)
 IMPLEMENT_STANDARD_RTTIEXT(XmlTObjDrivers_ObjectDriver,XmlMDF_ADriver);

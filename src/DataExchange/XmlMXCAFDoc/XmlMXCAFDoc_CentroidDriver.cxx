@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <XmlMXCAFDoc_CentroidDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMXCAFDoc_CentroidDriver)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMXCAFDoc_CentroidDriver)
 IMPLEMENT_DOWNCAST(XmlMXCAFDoc_CentroidDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMXCAFDoc_CentroidDriver)
 
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 #include <XCAFDoc_Centroid.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 

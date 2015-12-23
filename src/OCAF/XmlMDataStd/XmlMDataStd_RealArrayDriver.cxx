@@ -18,7 +18,7 @@
 # include <stdio.h>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_RealArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_RealArrayDriver)
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_RealArrayDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_RealArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_RealArrayDriver)
 #include <OCAF/TDataStd/TDataStd_RealArray.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>

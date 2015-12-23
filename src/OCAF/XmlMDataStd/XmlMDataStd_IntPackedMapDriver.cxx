@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_IntPackedMapDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_IntPackedMapDriver)
@@ -27,9 +27,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_IntPackedMapDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_IntPackedMapDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntPackedMapDriver)
-#include <XmlObjMgt.hxx>
-#include <XmlObjMgt_RRelocationTable.hxx>
-#include <XmlObjMgt_SRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>

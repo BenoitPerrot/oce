@@ -17,7 +17,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_IntegerArrayDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_IntegerArrayDriver)
@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(XmlMDataStd_IntegerArrayDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_IntegerArrayDriver)
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd.hxx>
 
 IMPLEMENT_DOMSTRING (FirstIndexString, "first")

@@ -18,8 +18,8 @@
 #include <Handle_TDF_Attribute.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <XmlObjMgt_RRelocationTable.hxx>
-#include <XmlObjMgt_SRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>
 class CDM_MessageDriver;
 class TDF_Attribute;
 class Standard_Type;

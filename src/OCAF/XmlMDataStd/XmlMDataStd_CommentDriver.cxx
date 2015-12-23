@@ -15,7 +15,7 @@
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
 #include <OCAF/XmlMDataStd/XmlMDataStd_CommentDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlMDataStd_CommentDriver)
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlMDataStd_CommentDriver)
 IMPLEMENT_DOWNCAST(XmlMDataStd_CommentDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlMDataStd_CommentDriver)
 #include <OCAF/TDataStd/TDataStd_Comment.hxx>
-#include <XmlObjMgt.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt.hxx>
 
 //=======================================================================
 //function : XmlMDataStd_CommentDriver

@@ -24,9 +24,9 @@
 #include <OCAF/XmlMDF/XmlMDF_ReferenceDriver.hxx>
 #include <OCAF/XmlMDF/XmlMDF_DataMapIteratorOfTypeADriverMap.hxx>
 
-#include <XmlObjMgt_Persistent.hxx>
-#include <XmlObjMgt_DOMString.hxx>
-#include <XmlObjMgt_Document.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Persistent.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_DOMString.hxx>
+#include <OCAF/XmlObjMgt/XmlObjMgt_Document.hxx>
 
 #include <OCAF/TDF/TDF_TagSource.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
