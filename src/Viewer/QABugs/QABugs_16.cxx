@@ -59,10 +59,10 @@
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //#include <QAModTopOpe_Limitation.hxx>
-#include <QANewModTopOpe_Limitation.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Limitation.hxx>
 
 //#include <QAModTopOpe_Glue.hxx>
-#include <QANewModTopOpe_Glue.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Glue.hxx>
 
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wireframe.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
@@ -70,7 +70,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 
 //#include <QAModTopOpe_ReShaper.hxx>
-#include <QANewModTopOpe_ReShaper.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_ReShaper.hxx>
 
 #include <ViewerTest_EventManager.hxx>
 

@@ -15,7 +15,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <QANewModTopOpe_Limitation.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Limitation.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

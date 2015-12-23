@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <QANewModTopOpe_Glue.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Glue.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -43,7 +43,7 @@
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <QANewModTopOpe_Tools.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Tools.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 
 //=======================================================================

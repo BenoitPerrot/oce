@@ -16,7 +16,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
-#include <QANewModTopOpe_ReShaper.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_ReShaper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QANewModTopOpe_ReShaper)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

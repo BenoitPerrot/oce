@@ -15,7 +15,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <QANewModTopOpe_Tools.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Tools.hxx>
 
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>

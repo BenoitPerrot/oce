@@ -15,7 +15,7 @@
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <QANewModTopOpe_Glue.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Glue.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
@@ -50,7 +50,7 @@
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <OCAF/TDataStd/TDataStd_IntegerArray.hxx>
 
-#include <QANewModTopOpe_Glue.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Glue.hxx>
 
 #ifdef OCCT_DEBUG
 #include <OCAF/TDataStd/TDataStd_Name.hxx>

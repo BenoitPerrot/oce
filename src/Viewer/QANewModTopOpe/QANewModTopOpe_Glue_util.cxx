@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <QANewModTopOpe_Glue.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Glue.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

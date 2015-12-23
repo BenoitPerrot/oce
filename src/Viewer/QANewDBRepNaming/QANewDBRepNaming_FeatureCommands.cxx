@@ -55,8 +55,8 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 
-#include <QANewModTopOpe_Limitation.hxx>
-#include <QANewModTopOpe_Intersection.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Limitation.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Intersection.hxx>
 
 #include <Foundation/Standard/Standard_Assert.hxx>
 
@@ -81,7 +81,7 @@
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <QANewModTopOpe_Glue.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Glue.hxx>
 #include <Viewer/QANewBRepNaming/QANewBRepNaming_Gluing.hxx>
 
 //==============================================================

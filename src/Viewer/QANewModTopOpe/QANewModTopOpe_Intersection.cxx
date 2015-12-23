@@ -15,7 +15,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <QANewModTopOpe_Intersection.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Intersection.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <QANewModTopOpe_Tools.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Tools.hxx>
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PaveFiller.hxx>
 

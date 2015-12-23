@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <QANewModTopOpe_CutPtr.hxx>
-#include <QANewModTopOpe_CommonPtr.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_CutPtr.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_CommonPtr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <QANewModTopOpe_ModeOfLimitation.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_ModeOfLimitation.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;

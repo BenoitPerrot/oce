@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <QANewModTopOpe_Limitation.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_Limitation.hxx>
 #include <Viewer/QANewBRepNaming/QANewBRepNaming_Limitation.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
@@ -31,7 +31,7 @@
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <Viewer/QANewBRepNaming/QANewBRepNaming_Loader.hxx>
 // Specific
-#include <QANewModTopOpe_ModeOfLimitation.hxx>
+#include <Viewer/QANewModTopOpe/QANewModTopOpe_ModeOfLimitation.hxx>
 
 //=======================================================================
 //function : QANewBRepNaming_Limitation
