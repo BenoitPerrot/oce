@@ -78,9 +78,9 @@ private:
 #define TheShape Standard_Integer
 #define TheShape_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TopBas_Interference TopBas_TestInterference
-#define TopBas_Interference_hxx <TopBas_TestInterference.hxx>
+#define TopBas_Interference_hxx <ModelingAlgorithms/TopBas/TopBas_TestInterference.hxx>
 
-#include <TopBas_Interference.lxx>
+#include <ModelingAlgorithms/TopBas/TopBas_Interference.lxx>
 
 #undef TheSubShape
 #undef TheSubShape_hxx

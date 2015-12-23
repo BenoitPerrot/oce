@@ -82,7 +82,7 @@ private:
 #define TopBas_Interference HLRAlgo_Interference
 #define TopBas_Interference_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 
-#include <TopBas_Interference.lxx>
+#include <ModelingAlgorithms/TopBas/TopBas_Interference.lxx>
 
 #undef TheSubShape
 #undef TheSubShape_hxx

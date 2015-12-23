@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopBas_TestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/TopBas_TestInterference.hxx>
 
  
 
@@ -12,6 +12,6 @@
 #define TheShape Standard_Integer
 #define TheShape_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TopBas_Interference TopBas_TestInterference
-#define TopBas_Interference_hxx <TopBas_TestInterference.hxx>
-#include <TopBas_Interference.gxx>
+#define TopBas_Interference_hxx <ModelingAlgorithms/TopBas/TopBas_TestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/TopBas_Interference.gxx>
 

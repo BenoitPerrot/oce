@@ -15,5 +15,5 @@
 #define TheShape_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Coincidence.hxx>
 #define TopBas_Interference HLRAlgo_Interference
 #define TopBas_Interference_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
-#include <TopBas_Interference.gxx>
+#include <ModelingAlgorithms/TopBas/TopBas_Interference.gxx>
 

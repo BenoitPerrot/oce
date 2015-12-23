@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopBas_ListNodeOfListOfTestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/TopBas_ListNodeOfListOfTestInterference.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopBas_TestInterference.hxx>
-#include <TopBas_ListOfTestInterference.hxx>
-#include <TopBas_ListIteratorOfListOfTestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/TopBas_TestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/TopBas_ListOfTestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/TopBas_ListIteratorOfListOfTestInterference.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(TopBas_ListNodeOfListOfTestInterference)
 
 
 #define Item TopBas_TestInterference
-#define Item_hxx <TopBas_TestInterference.hxx>
+#define Item_hxx <ModelingAlgorithms/TopBas/TopBas_TestInterference.hxx>
 #define TCollection_ListNode TopBas_ListNodeOfListOfTestInterference
-#define TCollection_ListNode_hxx <TopBas_ListNodeOfListOfTestInterference.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/TopBas/TopBas_ListNodeOfListOfTestInterference.hxx>
 #define TCollection_ListIterator TopBas_ListIteratorOfListOfTestInterference
-#define TCollection_ListIterator_hxx <TopBas_ListIteratorOfListOfTestInterference.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/TopBas/TopBas_ListIteratorOfListOfTestInterference.hxx>
 #define Handle_TCollection_ListNode Handle_TopBas_ListNodeOfListOfTestInterference
 #define TCollection_ListNode_Type_() TopBas_ListNodeOfListOfTestInterference_Type_()
 #define TCollection_List TopBas_ListOfTestInterference
-#define TCollection_List_hxx <TopBas_ListOfTestInterference.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/TopBas/TopBas_ListOfTestInterference.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 
