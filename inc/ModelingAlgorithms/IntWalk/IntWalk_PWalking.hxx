@@ -18,9 +18,9 @@
 #include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <IntWalk_TheInt2S.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_TheInt2S.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
-#include <IntWalk_StatusDeflection.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_StatusDeflection.hxx>
 class IntSurf_LineOn2S;
 class Standard_OutOfRange;
 class StdFail_NotDone;
@@ -192,7 +192,7 @@ private:
 };
 
 
-#include <IntWalk_PWalking.lxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_PWalking.lxx>
 
 
 

@@ -20,9 +20,9 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <IntWalk_PWalking.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_PWalking.hxx>
 
-#include <IntWalk_StatusDeflection.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_StatusDeflection.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

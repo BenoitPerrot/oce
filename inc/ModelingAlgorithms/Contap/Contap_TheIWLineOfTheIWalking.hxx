@@ -126,7 +126,7 @@ private:
 #define Handle_IntWalk_IWLine Handle_Contap_TheIWLineOfTheIWalking
 #define IntWalk_IWLine_Type_() Contap_TheIWLineOfTheIWalking_Type_()
 
-#include <IntWalk_IWLine.lxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWLine.lxx>
 
 #undef TheStartPoint
 #undef TheStartPoint_hxx

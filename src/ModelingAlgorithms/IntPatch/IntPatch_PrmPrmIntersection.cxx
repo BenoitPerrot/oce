@@ -29,7 +29,7 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_PrmPrmIntersection.hxx>
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_InterferencePolyhedron.hxx>
-#include <IntWalk_PWalking.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_PWalking.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_RstInt.hxx>
 

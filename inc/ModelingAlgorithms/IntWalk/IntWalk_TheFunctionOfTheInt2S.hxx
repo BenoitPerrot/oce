@@ -115,7 +115,7 @@ private:
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define IntImp_ZerParFunc IntWalk_TheFunctionOfTheInt2S
-#define IntImp_ZerParFunc_hxx <IntWalk_TheFunctionOfTheInt2S.hxx>
+#define IntImp_ZerParFunc_hxx <ModelingAlgorithms/IntWalk/IntWalk_TheFunctionOfTheInt2S.hxx>
 
 #include <ModelingAlgorithms/IntImp/IntImp_ZerParFunc.lxx>
 

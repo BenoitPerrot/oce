@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <IntWalk_TheFunctionOfTheInt2S.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_TheFunctionOfTheInt2S.hxx>
 
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -18,6 +18,6 @@
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define IntImp_ZerParFunc IntWalk_TheFunctionOfTheInt2S
-#define IntImp_ZerParFunc_hxx <IntWalk_TheFunctionOfTheInt2S.hxx>
+#define IntImp_ZerParFunc_hxx <ModelingAlgorithms/IntWalk/IntWalk_TheFunctionOfTheInt2S.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ZerParFunc.gxx>
 

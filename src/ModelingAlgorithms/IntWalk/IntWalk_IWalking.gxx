@@ -12,15 +12,15 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <IntWalk_StatusDeflection.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_StatusDeflection.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <IntWalk_IWalking_1.gxx>
-#include <IntWalk_IWalking_2.gxx>
-#include <IntWalk_IWalking_3.gxx>
-#include <IntWalk_IWalking_4.gxx>
-#include <IntWalk_IWalking_5.gxx>
-#include <IntWalk_IWalking_6.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking_1.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking_2.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking_3.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking_4.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking_5.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking_6.gxx>

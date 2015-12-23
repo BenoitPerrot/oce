@@ -14,8 +14,8 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPathPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <IntWalk_VectorOfWalkingData.hxx>
-#include <IntWalk_VectorOfInteger.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_VectorOfWalkingData.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_VectorOfInteger.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
@@ -25,7 +25,7 @@
 #include <Handle_IntPatch_TheIWLineOfTheIWalking.hxx>
 #include <Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <IntWalk_StatusDeflection.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_StatusDeflection.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class IntSurf_PathPoint;
@@ -165,7 +165,7 @@ private:
 #define IntWalk_IWalking IntPatch_TheIWalking
 #define IntWalk_IWalking_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheIWalking.hxx>
 
-#include <IntWalk_IWalking.lxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking.lxx>
 
 #undef ThePointOfPath
 #undef ThePointOfPath_hxx

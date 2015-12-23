@@ -57,5 +57,5 @@
 #define IntWalk_SequenceNodeOfSequenceOfIWLine_Type_() Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking_Type_()
 #define IntWalk_IWalking Contap_TheIWalking
 #define IntWalk_IWalking_hxx <ModelingAlgorithms/Contap/Contap_TheIWalking.hxx>
-#include <IntWalk_IWalking.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking.gxx>
 

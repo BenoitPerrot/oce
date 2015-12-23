@@ -14,7 +14,7 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <IntWalk_TheFunctionOfTheInt2S.hxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_TheFunctionOfTheInt2S.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
@@ -109,9 +109,9 @@ private:
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define IntImp_TheFunction IntWalk_TheFunctionOfTheInt2S
-#define IntImp_TheFunction_hxx <IntWalk_TheFunctionOfTheInt2S.hxx>
+#define IntImp_TheFunction_hxx <ModelingAlgorithms/IntWalk/IntWalk_TheFunctionOfTheInt2S.hxx>
 #define IntImp_Int2S IntWalk_TheInt2S
-#define IntImp_Int2S_hxx <IntWalk_TheInt2S.hxx>
+#define IntImp_Int2S_hxx <ModelingAlgorithms/IntWalk/IntWalk_TheInt2S.hxx>
 
 #include <ModelingAlgorithms/IntImp/IntImp_Int2S.lxx>
 

@@ -36,5 +36,5 @@ IMPLEMENT_STANDARD_RTTI(Contap_TheIWLineOfTheIWalking)
 #define IntWalk_IWLine_hxx <ModelingAlgorithms/Contap/Contap_TheIWLineOfTheIWalking.hxx>
 #define Handle_IntWalk_IWLine Handle_Contap_TheIWLineOfTheIWalking
 #define IntWalk_IWLine_Type_() Contap_TheIWLineOfTheIWalking_Type_()
-#include <IntWalk_IWLine.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWLine.gxx>
 

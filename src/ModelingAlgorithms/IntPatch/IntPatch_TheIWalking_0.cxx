@@ -57,5 +57,5 @@
 #define IntWalk_SequenceNodeOfSequenceOfIWLine_Type_() IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking_Type_()
 #define IntWalk_IWalking IntPatch_TheIWalking
 #define IntWalk_IWalking_hxx <ModelingAlgorithms/IntPatch/IntPatch_TheIWalking.hxx>
-#include <IntWalk_IWalking.gxx>
+#include <ModelingAlgorithms/IntWalk/IntWalk_IWalking.gxx>
 
