@@ -22,7 +22,7 @@
 #include <OCAF/TDF/TDF_LabelMap.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>

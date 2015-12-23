@@ -31,7 +31,7 @@
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ViewerTest.hxx>
 
-#include <DDF_Browser.hxx>
+#include <Viewer/DDF/DDF_Browser.hxx>
 #include <DDocStd.hxx>
 #include <DDocStd_DrawDocument.hxx>
 

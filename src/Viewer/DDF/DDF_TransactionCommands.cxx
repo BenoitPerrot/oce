@@ -20,10 +20,10 @@
 
 
 
-#include <DDF.hxx>
-#include <DDF_Data.hxx>
-#include <DDF_Transaction.hxx>
-#include <DDF_TransactionStack.hxx>
+#include <Viewer/DDF/DDF.hxx>
+#include <Viewer/DDF/DDF_Data.hxx>
+#include <Viewer/DDF/DDF_Transaction.hxx>
+#include <Viewer/DDF/DDF_TransactionStack.hxx>
 
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>

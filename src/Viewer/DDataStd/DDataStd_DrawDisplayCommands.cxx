@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/DDataStd/DDataStd.hxx>
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <Draw.hxx>
 #include <Draw_Drawable3D.hxx>
 #include <Draw_Appli.hxx>

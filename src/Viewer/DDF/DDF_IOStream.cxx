@@ -21,7 +21,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 
-#include <DDF_IOStream.hxx>
+#include <Viewer/DDF/DDF_IOStream.hxx>
 
 // This file has been written using FSD_File.cxx as template.
 // This is a specific adaptation for Draw use (save & restore commands).

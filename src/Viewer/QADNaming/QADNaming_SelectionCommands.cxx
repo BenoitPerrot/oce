@@ -16,7 +16,7 @@
 
 #include <QADNaming.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>

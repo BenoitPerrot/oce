@@ -48,15 +48,15 @@ private:
 };
 
 #define Item Handle(DDF_Transaction)
-#define Item_hxx <DDF_Transaction.hxx>
+#define Item_hxx <Viewer/DDF/DDF_Transaction.hxx>
 #define TCollection_ListNode DDF_ListNodeOfTransactionStack
-#define TCollection_ListNode_hxx <DDF_ListNodeOfTransactionStack.hxx>
+#define TCollection_ListNode_hxx <Viewer/DDF/DDF_ListNodeOfTransactionStack.hxx>
 #define TCollection_ListIterator DDF_ListIteratorOfTransactionStack
-#define TCollection_ListIterator_hxx <DDF_ListIteratorOfTransactionStack.hxx>
+#define TCollection_ListIterator_hxx <Viewer/DDF/DDF_ListIteratorOfTransactionStack.hxx>
 #define Handle_TCollection_ListNode Handle_DDF_ListNodeOfTransactionStack
 #define TCollection_ListNode_Type_() DDF_ListNodeOfTransactionStack_Type_()
 #define TCollection_List DDF_TransactionStack
-#define TCollection_List_hxx <DDF_TransactionStack.hxx>
+#define TCollection_List_hxx <Viewer/DDF/DDF_TransactionStack.hxx>
 
 #include <Foundation/TCollection/TCollection_ListNode.lxx>
 

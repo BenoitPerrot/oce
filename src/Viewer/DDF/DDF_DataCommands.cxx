@@ -25,8 +25,8 @@
 #include <OCAF/TDF/TDF_ClosureTool.hxx>
 #include <OCAF/TDF/TDF_CopyTool.hxx>
 
-#include <DDF.hxx>
-#include <DDF_Data.hxx>
+#include <Viewer/DDF/DDF.hxx>
+#include <Viewer/DDF/DDF_Data.hxx>
 
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>

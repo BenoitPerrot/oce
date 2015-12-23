@@ -843,7 +843,7 @@ static Standard_Integer OCC1919_set (Draw_Interpretor& di, Standard_Integer argc
   setlocale(LC_NUMERIC, aNumLocale.ToCString()) ;
   return 0;
 }
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataStd/TDataStd_Real.hxx>
 #include <Foundation/NCollection/NCollection_BaseMap.hxx>

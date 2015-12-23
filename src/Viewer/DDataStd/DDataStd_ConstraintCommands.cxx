@@ -16,7 +16,7 @@
 
 #include <Viewer/DDataStd/DDataStd.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 

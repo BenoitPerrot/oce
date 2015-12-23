@@ -32,7 +32,7 @@
 #include <DDocStd.hxx>
 #include <OCAF/TDocStd/TDocStd_Owner.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISViewer.hxx>
 #include <OCAF/TPrsStd/TPrsStd_AISPresentation.hxx>
 

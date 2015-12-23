@@ -23,7 +23,7 @@
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Data.hxx> 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <DDocStd.hxx>
 #include <ViewerTest.hxx>
 

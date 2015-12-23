@@ -23,7 +23,7 @@
 
 #include <DDocStd.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Geometry.hxx>

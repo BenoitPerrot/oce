@@ -1357,7 +1357,7 @@ static Standard_Integer BUC60874(Draw_Interpretor& /*di*/, Standard_Integer /*ar
 
 #include<DDocStd.hxx>
 
-#include<DDF.hxx>
+#include<Viewer/DDF/DDF.hxx>
 
 #include<OCAF/TDocStd/TDocStd_Modified.hxx>
 #include<OCAF/TDF/TDF_ListIteratorOfDeltaList.hxx>

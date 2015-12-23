@@ -21,7 +21,7 @@
 
 #include <Viewer/DBRep/DBRep.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>

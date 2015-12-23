@@ -26,7 +26,7 @@
 #include <OCAF/TDF/TDF_Data.hxx> 
 #include <OCAF/TDF/TDF_Tool.hxx> 
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <DDocStd.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>

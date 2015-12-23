@@ -23,7 +23,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <QADNaming.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <Draw.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

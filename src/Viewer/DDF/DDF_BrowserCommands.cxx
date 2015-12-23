@@ -15,9 +15,9 @@
 
 #include <stdio.h>
 
-#include <DDF.hxx>
-#include <DDF_Browser.hxx>
-#include <DDF_Data.hxx>
+#include <Viewer/DDF/DDF.hxx>
+#include <Viewer/DDF/DDF_Browser.hxx>
+#include <Viewer/DDF/DDF_Data.hxx>
 
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>

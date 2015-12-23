@@ -11,7 +11,7 @@
 #include <Handle_DDocStd_DrawDocument.hxx>
 
 #include <Handle_TDocStd_Document.hxx>
-#include <DDF_Data.hxx>
+#include <Viewer/DDF/DDF_Data.hxx>
 #include <Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Draw_Interpretor.hxx>

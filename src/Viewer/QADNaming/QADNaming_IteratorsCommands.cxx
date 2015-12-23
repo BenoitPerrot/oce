@@ -28,7 +28,7 @@
 #include <OCAF/TNaming/TNaming.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

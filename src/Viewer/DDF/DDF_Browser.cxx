@@ -25,7 +25,7 @@
 #include <Draw_Drawable3D.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <DDF_Browser.hxx>
+#include <Viewer/DDF/DDF_Browser.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDF_Browser)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_TYPE_END(DDF_Browser)
 IMPLEMENT_DOWNCAST(DDF_Browser,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DDF_Browser)
 
-#include <DDF_AttributeBrowser.hxx>
+#include <Viewer/DDF/DDF_AttributeBrowser.hxx>
 
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>

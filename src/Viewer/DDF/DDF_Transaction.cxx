@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Delta.hxx>
-#include <DDF_Transaction.hxx>
+#include <Viewer/DDF/DDF_Transaction.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDF_Transaction)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

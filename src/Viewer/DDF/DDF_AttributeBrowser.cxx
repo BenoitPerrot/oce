@@ -21,7 +21,7 @@
 
 
 
-#include <DDF_AttributeBrowser.hxx>
+#include <Viewer/DDF/DDF_AttributeBrowser.hxx>
 
 static DDF_AttributeBrowser* DDF_FirstBrowser = NULL;
 

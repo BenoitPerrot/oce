@@ -36,7 +36,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <DDocStd.hxx>
 #include <OCAF/TDF/TDF_TagSource.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

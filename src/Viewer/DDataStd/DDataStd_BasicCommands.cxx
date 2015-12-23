@@ -18,12 +18,12 @@
 
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
 #include <DrawTrSurf.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TDF/TDF_Data.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

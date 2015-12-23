@@ -32,8 +32,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DNaming.hxx>
 
-#include <DDF.hxx>
-#include <DDF_Data.hxx>
+#include <Viewer/DDF/DDF.hxx>
+#include <Viewer/DDF/DDF_Data.hxx>
 #include <Draw.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

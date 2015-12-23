@@ -25,9 +25,9 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
-#include <DDF_Data.hxx>
+#include <Viewer/DDF/DDF_Data.hxx>
 
 #include <Draw.hxx>
 

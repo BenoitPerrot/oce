@@ -18,7 +18,7 @@
 
 #include <QANewDBRepNaming.hxx>
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TDF/TDF_Data.hxx>
 

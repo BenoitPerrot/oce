@@ -20,14 +20,14 @@
 //		0.0	Feb 10 1997	Creation
 
 
-#include <DDF.hxx>
+#include <Viewer/DDF/DDF.hxx>
 
 #include <OCAF/TDF/TDF_ComparisonTool.hxx>
 #include <OCAF/TDF/TDF_CopyTool.hxx>
 #include <OCAF/TDF/TDF_ClosureMode.hxx>
 #include <OCAF/TDF/TDF_ClosureTool.hxx>
 
-#include <DDF_Data.hxx>
+#include <Viewer/DDF/DDF_Data.hxx>
 
 #include <Draw.hxx>
 #include <Draw_Appli.hxx>
@@ -55,7 +55,7 @@
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 
-#include <DDF_IOStream.hxx>
+#include <Viewer/DDF/DDF_IOStream.hxx>
 
 
 //=======================================================================
