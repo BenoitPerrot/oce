@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_SOPtr.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

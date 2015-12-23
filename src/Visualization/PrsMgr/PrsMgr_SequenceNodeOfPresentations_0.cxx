@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <PrsMgr_SequenceNodeOfPresentations.hxx>
+#include <Visualization/PrsMgr/PrsMgr_SequenceNodeOfPresentations.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <PrsMgr_ModedPresentation.hxx>
-#include <PrsMgr_Presentations.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_SequenceNodeOfPresentations)
 
 
 #define SeqItem PrsMgr_ModedPresentation
-#define SeqItem_hxx <PrsMgr_ModedPresentation.hxx>
+#define SeqItem_hxx <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #define TCollection_SequenceNode PrsMgr_SequenceNodeOfPresentations
-#define TCollection_SequenceNode_hxx <PrsMgr_SequenceNodeOfPresentations.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/PrsMgr/PrsMgr_SequenceNodeOfPresentations.hxx>
 #define Handle_TCollection_SequenceNode Handle_PrsMgr_SequenceNodeOfPresentations
 #define TCollection_SequenceNode_Type_() PrsMgr_SequenceNodeOfPresentations_Type_()
 #define TCollection_Sequence PrsMgr_Presentations
-#define TCollection_Sequence_hxx <PrsMgr_Presentations.hxx>
+#define TCollection_Sequence_hxx <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

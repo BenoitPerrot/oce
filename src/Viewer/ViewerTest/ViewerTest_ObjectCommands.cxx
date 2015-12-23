@@ -2417,7 +2417,7 @@ static int VCircleBuilder(Draw_Interpretor& /*di*/, Standard_Integer argc, const
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <SelectMgr_SelectableObject.hxx>
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

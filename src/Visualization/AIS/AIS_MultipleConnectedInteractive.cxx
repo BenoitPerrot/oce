@@ -39,8 +39,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_MultipleConnectedInteractive)
 #include <Visualization/AIS/AIS_ConnectedInteractive.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 
-#include <PrsMgr_ModedPresentation.hxx>
-#include <PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

@@ -24,8 +24,8 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
-#include <PrsMgr_Presentations.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 #include <Select3D_SensitiveBox.hxx>
 #include <SelectMgr_EntityOwner.hxx>
 #include <SelectMgr_Selection.hxx>

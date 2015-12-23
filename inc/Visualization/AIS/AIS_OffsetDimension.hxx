@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Visualization/AIS/AIS_Relation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>

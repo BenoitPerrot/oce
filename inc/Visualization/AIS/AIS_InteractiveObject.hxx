@@ -22,7 +22,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <SelectMgr_SelectableObject.hxx>
-#include <PrsMgr_TypeOfPresentation3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_AIS_InteractiveContext.hxx>

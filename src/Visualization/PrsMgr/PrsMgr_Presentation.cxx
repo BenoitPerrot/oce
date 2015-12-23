@@ -12,16 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PrsMgr_PresentationManager.hxx>
-#include <PrsMgr_Prs.hxx>
-#include <PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Prs.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
-#include <PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_Presentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,9 +31,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PrsMgr_Presentation)
 IMPLEMENT_DOWNCAST(PrsMgr_Presentation,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PrsMgr_Presentation)
-#include <PrsMgr_PresentationManager.hxx>
-#include <PrsMgr_Prs.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Prs.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visual3d_View.hxx>

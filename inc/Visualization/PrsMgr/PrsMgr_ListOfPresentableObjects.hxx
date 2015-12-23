@@ -16,7 +16,7 @@
 #ifndef _PrsMgr_ListOfPresentableObjects_HeaderFile
 #define _PrsMgr_ListOfPresentableObjects_HeaderFile
 
-#include <PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 
 typedef NCollection_List<Handle(PrsMgr_PresentableObject)> PrsMgr_ListOfPresentableObjects;

@@ -26,11 +26,11 @@
 #include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
 #include <Precision.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <StdPrs_ShadedShape.hxx>
 #include <StdPrs_ToolShadedShape.hxx>

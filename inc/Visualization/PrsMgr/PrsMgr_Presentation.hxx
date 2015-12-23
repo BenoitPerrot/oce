@@ -12,7 +12,7 @@
 
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Handle_PrsMgr_Prs.hxx>
-#include <PrsMgr_PresentableObjectPointer.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObjectPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
@@ -145,7 +145,7 @@ private:
 };
 
 
-#include <PrsMgr_Presentation.lxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.lxx>
 
 
 

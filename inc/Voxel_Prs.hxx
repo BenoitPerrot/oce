@@ -17,7 +17,7 @@
 #include <Handle_Quantity_HArray1OfColor.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

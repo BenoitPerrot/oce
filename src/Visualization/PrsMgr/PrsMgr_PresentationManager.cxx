@@ -15,12 +15,12 @@
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <V3d_View.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
-#include <PrsMgr_Presentation.hxx>
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_PresentationManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -33,10 +33,10 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentationManager)
 
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
 #include <Visualization/Prs3d/Prs3d_PresentationShadow.hxx>
-#include <PrsMgr_PresentableObject.hxx>
-#include <PrsMgr_Presentation.hxx>
-#include <PrsMgr_Presentations.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <V3d_View.hxx>
 #include <Visual3d_View.hxx>

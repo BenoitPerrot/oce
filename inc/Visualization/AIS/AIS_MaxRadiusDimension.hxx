@@ -14,7 +14,7 @@
 #include <Visualization/AIS/AIS_EllipseRadiusDimension.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>

@@ -15,7 +15,7 @@
 #include <Handle_MeshVS_DataSource.hxx>
 #include <Handle_MeshVS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_MeshVS_Mesh.hxx>
 #include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>

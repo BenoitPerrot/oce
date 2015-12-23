@@ -15,7 +15,7 @@
 #include <Visualization/AIS/AIS_Relation.hxx>
 #include <Handle_Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>

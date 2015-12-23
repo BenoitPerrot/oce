@@ -85,7 +85,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfILC.hxx>
 #include <Visualization/AIS/AIS_GlobalStatus.hxx>
 #include <Visualization/AIS/AIS_MapIteratorOfMapOfInteractive.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visual3d_ViewManager.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
@@ -94,7 +94,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_DatumAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_PlaneAspect.hxx>
-#include <PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Atomic.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI.hxx>
 

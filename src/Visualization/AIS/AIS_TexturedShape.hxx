@@ -25,7 +25,7 @@
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 
 class Graphic3d_AspectFillArea3d;
 class Graphic3d_Texture2Dmanual;

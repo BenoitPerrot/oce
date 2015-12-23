@@ -21,7 +21,7 @@
 #include <SelectMgr_Selection.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <SelectMgr_SelectableObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_SelectableObject)
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectableObject)
 #include <Select3D_SensitiveEntity.hxx>
 #include <SelectBasics_EntityOwner.hxx>
 #include <SelectMgr_EntityOwner.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

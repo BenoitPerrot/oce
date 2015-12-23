@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PrsMgr_SequenceNodeOfPresentations.hxx>
 
-#include <PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class PrsMgr_ModedPresentation;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem PrsMgr_ModedPresentation
-#define SeqItem_hxx <PrsMgr_ModedPresentation.hxx>
+#define SeqItem_hxx <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #define TCollection_SequenceNode PrsMgr_SequenceNodeOfPresentations
-#define TCollection_SequenceNode_hxx <PrsMgr_SequenceNodeOfPresentations.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/PrsMgr/PrsMgr_SequenceNodeOfPresentations.hxx>
 #define Handle_TCollection_SequenceNode Handle_PrsMgr_SequenceNodeOfPresentations
 #define TCollection_SequenceNode_Type_() PrsMgr_SequenceNodeOfPresentations_Type_()
 #define TCollection_Sequence PrsMgr_Presentations
-#define TCollection_Sequence_hxx <PrsMgr_Presentations.hxx>
+#define TCollection_Sequence_hxx <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

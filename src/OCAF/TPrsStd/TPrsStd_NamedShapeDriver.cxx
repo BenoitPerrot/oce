@@ -38,9 +38,9 @@ IMPLEMENT_STANDARD_RTTI(TPrsStd_NamedShapeDriver)
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 
 #undef OPTIM_UPDATE  // If this variable is defined there will be done

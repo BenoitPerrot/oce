@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <SelectMgr_SelectableObject.hxx>
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Visualization/AIS/AIS_DimensionOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_DimensionOwner)

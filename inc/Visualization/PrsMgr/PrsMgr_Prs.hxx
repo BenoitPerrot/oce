@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PrsMgr_Prs.hxx>
 
-#include <PrsMgr_PresentationPointer.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationPointer.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Handle_Graphic3d_StructureManager.hxx>
-#include <PrsMgr_TypeOfPresentation3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
 class Graphic3d_StructureManager;

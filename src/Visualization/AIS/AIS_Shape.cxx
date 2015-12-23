@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <StdPrs_HLRShape.hxx>
 #include <StdPrs_HLRPolyShape.hxx>
 
-#include <PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 
 #include <Select3D_SensitiveEntity.hxx>
 #include <StdSelect.hxx>

@@ -12,7 +12,7 @@
 
 #include <Visualization/AIS/AIS_DataMapOfIOStatus.hxx>
 #include <Handle_SelectMgr_SelectionManager.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Handle_V3d_Viewer.hxx>
 #include <Handle_StdSelect_ViewerSelector3d.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

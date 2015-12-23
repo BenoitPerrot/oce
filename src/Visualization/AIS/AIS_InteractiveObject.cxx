@@ -57,8 +57,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveObject)
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Visualization/AIS/AIS_GraphicTool.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectFillArea3d.hxx>

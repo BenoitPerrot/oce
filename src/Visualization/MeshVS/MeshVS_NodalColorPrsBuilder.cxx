@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_NodalColorPrsBuilder)
 #include <Visualization/Graphic3d/Graphic3d_Texture2D.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTextureMode.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Array1OfColor.hxx>
 #include <Visualization/Aspect/Aspect_SequenceOfColor.hxx>

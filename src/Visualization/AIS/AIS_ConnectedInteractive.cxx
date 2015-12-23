@@ -41,8 +41,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 #include <Select3D_SensitiveEntity.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 
-#include <PrsMgr_ModedPresentation.hxx>
-#include <PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
 
 #include <StdSelect_BRepOwner.hxx>
 

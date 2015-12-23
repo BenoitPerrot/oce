@@ -41,7 +41,7 @@
 #include <Visualization/Graphic3d/Graphic3d_AspectText3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/NCollection/NCollection_UtfString.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/Prs3d/Prs3d_Arrow.hxx>
 #include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>

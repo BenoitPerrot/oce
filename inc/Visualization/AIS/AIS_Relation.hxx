@@ -23,7 +23,7 @@
 #include <Visualization/AIS/AIS_KindOfSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <PrsMgr_TypeOfPresentation3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Visualization/AIS/AIS_KindOfDimension.hxx>

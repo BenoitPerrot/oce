@@ -12,7 +12,7 @@
 
 #include <Handle_Graphic3d_StructureManager.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PrsMgr_ListOfPresentations.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ListOfPresentations.hxx>
 #include <Handle_V3d_View.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
@@ -175,7 +175,7 @@ private:
 };
 
 
-#include <PrsMgr_PresentationManager.lxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.lxx>
 
 
 

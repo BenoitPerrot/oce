@@ -14,10 +14,10 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
-#include <PrsMgr_PresentableObject.hxx>
-#include <PrsMgr_TypeOfPresentation3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>

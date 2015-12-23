@@ -6,7 +6,7 @@
 #ifndef _PrsMgr_PresentationManager3d_HeaderFile
 #define _PrsMgr_PresentationManager3d_HeaderFile
 
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 
 typedef PrsMgr_PresentationManager PrsMgr_PresentationManager3d;
 typedef Handle_PrsMgr_PresentationManager Handle_PrsMgr_PresentationManager3d;

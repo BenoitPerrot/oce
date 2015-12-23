@@ -11,10 +11,10 @@
 #include <Handle_QABugs_PresentableObject.hxx>
 
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <PrsMgr_TypeOfPresentation3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 class SelectMgr_Selection;
 class Prs3d_Presentation;

@@ -67,7 +67,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ClipPlane.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>

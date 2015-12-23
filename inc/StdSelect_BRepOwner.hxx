@@ -17,7 +17,7 @@
 #include <SelectMgr_EntityOwner.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class StdSelect_Shape;
 class TopoDS_Shape;

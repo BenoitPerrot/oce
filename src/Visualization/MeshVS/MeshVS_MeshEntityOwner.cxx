@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Visualization/MeshVS/MeshVS_MeshEntityOwner.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_MeshEntityOwner)
@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshEntityOwner)
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <SelectMgr_SelectableObject.hxx>
-#include <PrsMgr_PresentationManager.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 
 

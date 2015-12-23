@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_SelectionManager.hxx>
 #include <Handle_StdSelect_ViewerSelector3d.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/AIS/AIS_DataMapOfSelStat.hxx>
 #include <Handle_SelectMgr_OrFilter.hxx>

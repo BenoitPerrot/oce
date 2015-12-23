@@ -15,18 +15,18 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <PrsMgr_Presentation.hxx>
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
-#include <PrsMgr_Presentations.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_PresentableObject)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,9 +36,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PrsMgr_PresentableObject)
 IMPLEMENT_DOWNCAST(PrsMgr_PresentableObject,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PrsMgr_PresentableObject)
-#include <PrsMgr_Presentation.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
-#include <PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfStructure.hxx>

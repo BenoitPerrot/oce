@@ -30,7 +30,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <StdPrs_ShadedShape.hxx>
 #include <StdPrs_ToolShadedShape.hxx>

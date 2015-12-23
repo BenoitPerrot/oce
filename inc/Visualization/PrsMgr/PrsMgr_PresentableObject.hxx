@@ -10,20 +10,20 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_PrsMgr_PresentableObject.hxx>
 
-#include <PrsMgr_Presentations.hxx>
-#include <PrsMgr_TypeOfPresentation3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
+#include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CTransPersStruct.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PrsMgr_PresentableObjectPointer.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObjectPointer.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <PrsMgr_ListOfPresentableObjects.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ListOfPresentableObjects.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Graphic3d_Structure.hxx>
 #include <Handle_Graphic3d_DataStructureManager.hxx>
-#include <PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
 #include <Handle_Geom_Transformation.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Prs3d_Projector.hxx>
@@ -287,7 +287,7 @@ private:
 };
 
 
-#include <PrsMgr_PresentableObject.lxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentableObject.lxx>
 
 
 

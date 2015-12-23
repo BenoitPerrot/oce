@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <PrsMgr_ModedPresentation.hxx>
-#include <PrsMgr_PresentationManager3d.hxx>
+#include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 
 #include <SelectBasics_SensitiveEntity.hxx>
 #include <SelectMgr_SequenceOfOwner.hxx>

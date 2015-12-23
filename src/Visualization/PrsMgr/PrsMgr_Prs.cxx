@@ -16,7 +16,7 @@
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <PrsMgr_Prs.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Prs.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PrsMgr_Prs)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(PrsMgr_Prs)
 IMPLEMENT_DOWNCAST(PrsMgr_Prs,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PrsMgr_Prs)
-#include <PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
