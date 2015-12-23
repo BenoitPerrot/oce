@@ -6,7 +6,7 @@
 #include <Visualization/MeshVS/MeshVS_DataMapIteratorOfDataMapOfIntegerOwner.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerOwner.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapNodeOfDataMapOfIntegerOwner.hxx>
@@ -15,7 +15,7 @@
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(SelectMgr_EntityOwner)
-#define TheItem_hxx <SelectMgr_EntityOwner.hxx>
+#define TheItem_hxx <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerOwner

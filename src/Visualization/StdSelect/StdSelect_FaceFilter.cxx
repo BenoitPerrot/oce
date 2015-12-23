@@ -17,7 +17,7 @@
 #define BUC60576	//GG_5/10/99 Adds Cone to enum TypeOfFace
 
 
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <StdSelect_FaceFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_FaceFilter)

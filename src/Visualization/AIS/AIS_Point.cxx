@@ -21,7 +21,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Visualization/AIS/AIS_Point.hxx>
@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Point)
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPoints.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
 #include <StdPrs_Point.hxx>

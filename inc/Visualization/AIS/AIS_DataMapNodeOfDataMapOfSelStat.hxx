@@ -54,7 +54,7 @@ private:
 };
 
 #define TheKey Handle(SelectMgr_SelectableObject)
-#define TheKey_hxx <SelectMgr_SelectableObject.hxx>
+#define TheKey_hxx <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #define TheItem Handle(AIS_LocalStatus)
 #define TheItem_hxx <Visualization/AIS/AIS_LocalStatus.hxx>
 #define Hasher TColStd_MapTransientHasher

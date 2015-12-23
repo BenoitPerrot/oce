@@ -19,7 +19,7 @@
 
 #include <StdSelect_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <StdSelect_BRepOwner.hxx>

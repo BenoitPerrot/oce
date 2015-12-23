@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/AIS/AIS_AttributeFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_AttributeFilter)

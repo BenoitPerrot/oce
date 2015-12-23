@@ -102,13 +102,13 @@ private:
 };
 
 #define SeqItem Handle(SelectMgr_ViewerSelector)
-#define SeqItem_hxx <SelectMgr_ViewerSelector.hxx>
+#define SeqItem_hxx <Visualization/SelectMgr/SelectMgr_ViewerSelector.hxx>
 #define TCollection_SequenceNode SelectMgr_SequenceNodeOfSequenceOfSelector
-#define TCollection_SequenceNode_hxx <SelectMgr_SequenceNodeOfSequenceOfSelector.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/SelectMgr/SelectMgr_SequenceNodeOfSequenceOfSelector.hxx>
 #define Handle_TCollection_SequenceNode Handle_SelectMgr_SequenceNodeOfSequenceOfSelector
 #define TCollection_SequenceNode_Type_() SelectMgr_SequenceNodeOfSequenceOfSelector_Type_()
 #define TCollection_Sequence SelectMgr_SequenceOfSelector
-#define TCollection_Sequence_hxx <SelectMgr_SequenceOfSelector.hxx>
+#define TCollection_Sequence_hxx <Visualization/SelectMgr/SelectMgr_SequenceOfSelector.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

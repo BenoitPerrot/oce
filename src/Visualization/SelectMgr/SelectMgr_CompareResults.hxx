@@ -13,8 +13,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
-#include <SelectMgr_SortCriterion.hxx>
+#include <Visualization/SelectMgr/SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SortCriterion.hxx>
 #include <Foundation/TCollection/TCollection_CompareOfInteger.hxx>
 
 // Purpose: Redefine CompareOfInteger from TCollection, to be used

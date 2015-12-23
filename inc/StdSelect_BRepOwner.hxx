@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>

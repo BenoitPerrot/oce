@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_MeshEntityOwner)
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>

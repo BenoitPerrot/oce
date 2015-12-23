@@ -55,7 +55,7 @@ private:
 #define TheKey Standard_Integer
 #define TheKey_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define TheItem Handle(SelectMgr_EntityOwner)
-#define TheItem_hxx <SelectMgr_EntityOwner.hxx>
+#define TheItem_hxx <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode MeshVS_DataMapNodeOfDataMapOfIntegerOwner

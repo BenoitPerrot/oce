@@ -17,7 +17,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/Quantity/Quantity_HArray1OfColor.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Voxel_Prs.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Voxel_Prs)

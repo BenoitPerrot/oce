@@ -55,15 +55,15 @@ private:
 };
 
 #define TheKey Handle(SelectMgr_EntityOwner)
-#define TheKey_hxx <SelectMgr_EntityOwner.hxx>
+#define TheKey_hxx <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedMapNode SelectMgr_IndexedMapNodeOfIndexedMapOfOwner
-#define TCollection_IndexedMapNode_hxx <SelectMgr_IndexedMapNodeOfIndexedMapOfOwner.hxx>
+#define TCollection_IndexedMapNode_hxx <Visualization/SelectMgr/SelectMgr_IndexedMapNodeOfIndexedMapOfOwner.hxx>
 #define Handle_TCollection_IndexedMapNode Handle_SelectMgr_IndexedMapNodeOfIndexedMapOfOwner
 #define TCollection_IndexedMapNode_Type_() SelectMgr_IndexedMapNodeOfIndexedMapOfOwner_Type_()
 #define TCollection_IndexedMap SelectMgr_IndexedMapOfOwner
-#define TCollection_IndexedMap_hxx <SelectMgr_IndexedMapOfOwner.hxx>
+#define TCollection_IndexedMap_hxx <Visualization/SelectMgr/SelectMgr_IndexedMapOfOwner.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedMapNode.lxx>
 

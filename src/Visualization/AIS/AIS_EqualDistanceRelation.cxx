@@ -21,7 +21,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <Visualization/AIS/AIS_LengthDimension.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Visualization/DsgPrs/DsgPrs_EqualDistancePresentation.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>

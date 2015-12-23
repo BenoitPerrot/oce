@@ -38,7 +38,7 @@
 #include <V3d_View.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <SelectMgr_SelectionManager.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>

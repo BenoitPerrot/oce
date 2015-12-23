@@ -22,7 +22,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/AIS/AIS_MultipleConnectedInteractive.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_MultipleConnectedInteractive)
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MultipleConnectedInteractive)
 
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

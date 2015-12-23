@@ -8,14 +8,14 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Visualization/AIS/AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
  
 
 #define TheKey Handle(SelectMgr_EntityOwner)
-#define TheKey_hxx <SelectMgr_EntityOwner.hxx>
+#define TheKey_hxx <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #define TheItem Handle(Prs3d_Presentation)
 #define TheItem_hxx <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #define Hasher TColStd_MapTransientHasher

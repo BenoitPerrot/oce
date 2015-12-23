@@ -53,19 +53,19 @@ private:
 };
 
 #define TheKey Handle(SelectMgr_Selection)
-#define TheKey_hxx <SelectMgr_Selection.hxx>
+#define TheKey_hxx <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #define TheItem Standard_Integer
 #define TheItem_hxx <Foundation/Standard/Standard_Integer.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfSelectionActivation
-#define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/SelectMgr/SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation
-#define TCollection_DataMapIterator_hxx <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 #define Handle_TCollection_DataMapNode Handle_SelectMgr_DataMapNodeOfDataMapOfSelectionActivation
 #define TCollection_DataMapNode_Type_() SelectMgr_DataMapNodeOfDataMapOfSelectionActivation_Type_()
 #define TCollection_DataMap SelectMgr_DataMapOfSelectionActivation
-#define TCollection_DataMap_hxx <SelectMgr_DataMapOfSelectionActivation.hxx>
+#define TCollection_DataMap_hxx <Visualization/SelectMgr/SelectMgr_DataMapOfSelectionActivation.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

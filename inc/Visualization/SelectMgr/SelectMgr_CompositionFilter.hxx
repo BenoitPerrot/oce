@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_CompositionFilter.hxx>
 
-#include <SelectMgr_ListOfFilter.hxx>
-#include <SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
@@ -67,7 +67,7 @@ private:
 };
 
 
-#include <SelectMgr_CompositionFilter.lxx>
+#include <Visualization/SelectMgr/SelectMgr_CompositionFilter.lxx>
 
 
 

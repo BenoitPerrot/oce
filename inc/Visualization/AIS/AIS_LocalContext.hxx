@@ -20,7 +20,7 @@
 #include <Handle_SelectMgr_OrFilter.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Handle_SelectMgr_Filter.hxx>
-#include <SelectMgr_IndexedMapOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_IndexedMapOfOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Visualization/AIS/AIS_SequenceOfInteractive.hxx>

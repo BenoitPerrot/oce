@@ -12,7 +12,7 @@
 
 #include <Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <SelectMgr_SortCriterion.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SortCriterion.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 class SelectBasics_EntityOwner;
@@ -62,15 +62,15 @@ private:
 #define TheKey Handle(SelectBasics_EntityOwner)
 #define TheKey_hxx <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #define TheItem SelectMgr_SortCriterion
-#define TheItem_hxx <SelectMgr_SortCriterion.hxx>
+#define TheItem_hxx <Visualization/SelectMgr/SelectMgr_SortCriterion.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_IndexedDataMapNode SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion
-#define TCollection_IndexedDataMapNode_hxx <SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion.hxx>
+#define TCollection_IndexedDataMapNode_hxx <Visualization/SelectMgr/SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion.hxx>
 #define Handle_TCollection_IndexedDataMapNode Handle_SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion
 #define TCollection_IndexedDataMapNode_Type_() SelectMgr_IndexedDataMapNodeOfIndexedDataMapOfOwnerCriterion_Type_()
 #define TCollection_IndexedDataMap SelectMgr_IndexedDataMapOfOwnerCriterion
-#define TCollection_IndexedDataMap_hxx <SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
+#define TCollection_IndexedDataMap_hxx <Visualization/SelectMgr/SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
 
 #include <Foundation/TCollection/TCollection_IndexedDataMapNode.lxx>
 

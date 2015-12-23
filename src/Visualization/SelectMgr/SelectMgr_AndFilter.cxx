@@ -12,8 +12,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_AndFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_AndFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_AndFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,8 +26,8 @@ IMPLEMENT_STANDARD_TYPE_END(SelectMgr_AndFilter)
 IMPLEMENT_DOWNCAST(SelectMgr_AndFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_AndFilter)
 
-#include <SelectMgr_Filter.hxx>
-#include <SelectMgr_ListIteratorOfListOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListIteratorOfListOfFilter.hxx>
 
 SelectMgr_AndFilter::SelectMgr_AndFilter()
 {

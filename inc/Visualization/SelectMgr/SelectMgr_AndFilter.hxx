@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_AndFilter.hxx>
 
-#include <SelectMgr_CompositionFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_CompositionFilter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;

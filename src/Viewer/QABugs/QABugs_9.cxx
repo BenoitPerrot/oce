@@ -68,7 +68,7 @@ static Standard_Integer BUC60857 (Draw_Interpretor& di, Standard_Integer /*argc*
 
 #include <ViewerTest_DoubleMapOfInteractiveAndName.hxx>
 #include <ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #if ! defined(WNT)

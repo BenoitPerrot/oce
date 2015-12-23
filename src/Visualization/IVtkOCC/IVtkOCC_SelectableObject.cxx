@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_SelectableObject.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <StdSelect_BRepSelectionTool.hxx>

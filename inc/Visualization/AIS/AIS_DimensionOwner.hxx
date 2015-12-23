@@ -11,7 +11,7 @@
 #include <Handle_AIS_DimensionOwner.hxx>
 
 #include <Visualization/AIS/AIS_DimensionSelectionMode.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>

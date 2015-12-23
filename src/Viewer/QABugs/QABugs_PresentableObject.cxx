@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <QABugs_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

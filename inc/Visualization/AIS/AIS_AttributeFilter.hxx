@@ -13,7 +13,7 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;
 

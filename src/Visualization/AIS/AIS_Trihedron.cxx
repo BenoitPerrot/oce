@@ -28,7 +28,7 @@
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Visualization/AIS/AIS_Trihedron.hxx>
@@ -46,7 +46,7 @@ IMPLEMENT_DOWNCAST(AIS_Trihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Trihedron)
 #include <Visualization/DsgPrs/DsgPrs_DatumPrs.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveFace.hxx>
 #include <Visualization/Select3D/Select3D_SensitivePoint.hxx>

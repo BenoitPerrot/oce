@@ -17,10 +17,10 @@
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Visualization/MeshVS/MeshVS_Drawer.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <SelectMgr_Selection.hxx>
-#include <SelectMgr_SequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerOwner.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -43,7 +43,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
 #include <Visualization/Select3D/Select3D_SensitivePoint.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 
 #include <Visualization/Aspect/Aspect_InteriorStyle.hxx>
 
@@ -55,7 +55,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_Mesh)
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
-#include <SelectMgr_SequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveGroup.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 

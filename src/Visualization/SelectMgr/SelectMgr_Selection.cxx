@@ -16,7 +16,7 @@
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_Selection)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

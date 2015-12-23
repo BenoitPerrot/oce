@@ -98,15 +98,15 @@ private:
 };
 
 #define Item Handle(SelectMgr_Filter)
-#define Item_hxx <SelectMgr_Filter.hxx>
+#define Item_hxx <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #define TCollection_ListNode SelectMgr_ListNodeOfListOfFilter
-#define TCollection_ListNode_hxx <SelectMgr_ListNodeOfListOfFilter.hxx>
+#define TCollection_ListNode_hxx <Visualization/SelectMgr/SelectMgr_ListNodeOfListOfFilter.hxx>
 #define TCollection_ListIterator SelectMgr_ListIteratorOfListOfFilter
-#define TCollection_ListIterator_hxx <SelectMgr_ListIteratorOfListOfFilter.hxx>
+#define TCollection_ListIterator_hxx <Visualization/SelectMgr/SelectMgr_ListIteratorOfListOfFilter.hxx>
 #define Handle_TCollection_ListNode Handle_SelectMgr_ListNodeOfListOfFilter
 #define TCollection_ListNode_Type_() SelectMgr_ListNodeOfListOfFilter_Type_()
 #define TCollection_List SelectMgr_ListOfFilter
-#define TCollection_List_hxx <SelectMgr_ListOfFilter.hxx>
+#define TCollection_List_hxx <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 
 #include <Foundation/TCollection/TCollection_List.lxx>
 

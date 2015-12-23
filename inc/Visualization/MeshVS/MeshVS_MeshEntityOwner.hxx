@@ -14,8 +14,8 @@
 #include <Visualization/MeshVS/MeshVS_EntityType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_SOPtr.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SOPtr.hxx>
 #include <Handle_PrsMgr_PresentationManager.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>

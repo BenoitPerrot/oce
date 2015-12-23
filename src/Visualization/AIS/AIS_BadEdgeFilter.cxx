@@ -17,7 +17,7 @@
 //		<g_design>
 
 
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Visualization/AIS/AIS_BadEdgeFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

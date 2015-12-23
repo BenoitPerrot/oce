@@ -16,7 +16,7 @@
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <QABugs_MyText.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(QABugs_MyText)
@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_RTTI(QABugs_MyText)
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_TextAspect.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/Font/Font_NameOfFont.hxx>
 
 /*************************************************************************

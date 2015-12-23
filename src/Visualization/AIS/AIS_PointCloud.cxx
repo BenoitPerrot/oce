@@ -27,8 +27,8 @@
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <StdPrs_WFDeflectionRestrictedFace.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_PointCloud, AIS_InteractiveObject)

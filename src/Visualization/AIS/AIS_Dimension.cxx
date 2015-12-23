@@ -50,9 +50,9 @@
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_Selection.hxx>
-#include <SelectMgr_SequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
 #include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitive.hxx>
 #include <Visualization/Select3D/Select3D_ListOfSensitive.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>

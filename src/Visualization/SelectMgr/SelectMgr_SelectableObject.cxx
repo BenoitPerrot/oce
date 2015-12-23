@@ -18,11 +18,11 @@
 
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <SelectMgr_Selection.hxx>
-#include <SelectMgr_SequenceOfOwner.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_SelectableObject)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_TYPE_END(SelectMgr_SelectableObject)
 IMPLEMENT_DOWNCAST(SelectMgr_SelectableObject,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectableObject)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>

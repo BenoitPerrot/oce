@@ -18,7 +18,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
 

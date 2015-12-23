@@ -19,18 +19,18 @@
 //              AGV OCT/23/03 : Optimize the method SortResult() (OCC4201)
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <SelectMgr_SelectionManager.hxx>
-#include <SelectMgr_Selection.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
-#include <SelectMgr_DataMapOfIntegerSensitive.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapOfIntegerSensitive.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <SelectMgr_ViewerSelector.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ViewerSelector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_ViewerSelector)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(SelectMgr_ViewerSelector)
 IMPLEMENT_DOWNCAST(SelectMgr_ViewerSelector,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
-#include <SelectMgr_CompareResults.hxx>
+#include <Visualization/SelectMgr/SelectMgr_CompareResults.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -55,9 +55,9 @@ IMPLEMENT_STANDARD_RTTI(SelectMgr_ViewerSelector)
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
-#include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
-#include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
-#include <SelectMgr_SortCriterion.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SortCriterion.hxx>
 #include <Foundation/SortTools/SortTools_QuickSortOfInteger.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 

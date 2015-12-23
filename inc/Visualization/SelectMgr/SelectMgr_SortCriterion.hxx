@@ -86,7 +86,7 @@ private:
 };
 
 
-#include <SelectMgr_SortCriterion.lxx>
+#include <Visualization/SelectMgr/SelectMgr_SortCriterion.lxx>
 
 
 

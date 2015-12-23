@@ -13,7 +13,7 @@
 #include <Visualization/SelectBasics/SelectBasics_ListOfSensitive.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfSensitive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <SelectMgr_TypeOfUpdate.hxx>
+#include <Visualization/SelectMgr/SelectMgr_TypeOfUpdate.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectBasics_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -132,7 +132,7 @@ private:
 };
 
 
-#include <SelectMgr_Selection.lxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.lxx>
 
 
 

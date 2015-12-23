@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 
-#include <SelectMgr_SOPtr.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SOPtr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -138,7 +138,7 @@ private:
 };
 
 
-#include <SelectMgr_EntityOwner.lxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.lxx>
 
 
 

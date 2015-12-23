@@ -71,23 +71,23 @@
 #define OCC9026		//AEL Performance optimization of the FindSelectedOwnerFromShape() method.
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <SelectMgr_SelectionManager.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
-#include <SelectMgr_OrFilter.hxx>
-#include <SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <SelectMgr_ListOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
@@ -107,10 +107,10 @@
 #include <Foundation/NCollection/NCollection_Map.hxx>
 
 #ifdef OCC9026
-#include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
 #endif
-#include <SelectMgr_Selection.hxx>
-#include <SelectMgr_SequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
 #include <Geometry/Geom/Geom_Transformation.hxx>

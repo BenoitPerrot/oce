@@ -23,7 +23,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/AIS/AIS_ParallelRelation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_ParallelRelation)
@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ParallelRelation)
 #include <Visualization/AIS/AIS.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 

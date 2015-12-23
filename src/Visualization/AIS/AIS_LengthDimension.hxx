@@ -26,7 +26,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>

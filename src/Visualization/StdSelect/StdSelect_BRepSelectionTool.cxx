@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

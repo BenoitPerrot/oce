@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectMgr_SequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
  
 
 #define SeqItem Handle(SelectMgr_EntityOwner)
-#define SeqItem_hxx <SelectMgr_EntityOwner.hxx>
+#define SeqItem_hxx <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #define TCollection_SequenceNode SelectMgr_SequenceNodeOfSequenceOfOwner
-#define TCollection_SequenceNode_hxx <SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/SelectMgr/SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
 #define Handle_TCollection_SequenceNode Handle_SelectMgr_SequenceNodeOfSequenceOfOwner
 #define TCollection_SequenceNode_Type_() SelectMgr_SequenceNodeOfSequenceOfOwner_Type_()
 #define TCollection_Sequence SelectMgr_SequenceOfOwner
-#define TCollection_Sequence_hxx <SelectMgr_SequenceOfOwner.hxx>
+#define TCollection_Sequence_hxx <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -59,13 +59,13 @@ private:
 #define Hasher TColStd_MapIntegerHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive
-#define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/SelectMgr/SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive
-#define TCollection_DataMapIterator_hxx <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
 #define Handle_TCollection_DataMapNode Handle_SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive
 #define TCollection_DataMapNode_Type_() SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive_Type_()
 #define TCollection_DataMap SelectMgr_DataMapOfIntegerSensitive
-#define TCollection_DataMap_hxx <SelectMgr_DataMapOfIntegerSensitive.hxx>
+#define TCollection_DataMap_hxx <Visualization/SelectMgr/SelectMgr_DataMapOfIntegerSensitive.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

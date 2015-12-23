@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Visualization/AIS/AIS_ExclusionFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

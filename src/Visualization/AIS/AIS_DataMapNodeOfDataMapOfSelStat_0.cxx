@@ -7,7 +7,7 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #include <Visualization/AIS/AIS_DataMapOfSelStat.hxx>
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_DataMapNodeOfDataMapOfSelStat)
 
 
 #define TheKey Handle(SelectMgr_SelectableObject)
-#define TheKey_hxx <SelectMgr_SelectableObject.hxx>
+#define TheKey_hxx <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #define TheItem Handle(AIS_LocalStatus)
 #define TheItem_hxx <Visualization/AIS/AIS_LocalStatus.hxx>
 #define Hasher TColStd_MapTransientHasher

@@ -11,13 +11,13 @@
 #include <Handle_SelectMgr_SelectionManager.hxx>
 
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
-#include <SelectMgr_DataMapOfObjectSelectors.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapOfObjectSelectors.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_SelectMgr_ViewerSelector.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <SelectMgr_TypeOfUpdate.hxx>
+#include <Visualization/SelectMgr/SelectMgr_TypeOfUpdate.hxx>
 class SelectMgr_ViewerSelector;
 class SelectMgr_SelectableObject;
 class TCollection_AsciiString;

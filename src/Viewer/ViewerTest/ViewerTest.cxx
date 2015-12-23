@@ -60,7 +60,7 @@
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveWire.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <StdSelect_BRepOwner.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>

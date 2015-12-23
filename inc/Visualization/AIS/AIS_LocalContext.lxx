@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_AndFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_AndFilter.hxx>
 
-#include <SelectMgr_OrFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
 
 inline const TCollection_AsciiString& AIS_LocalContext::
 SelectionName() const 

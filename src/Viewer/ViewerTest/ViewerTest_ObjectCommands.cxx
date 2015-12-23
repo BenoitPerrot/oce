@@ -107,8 +107,8 @@
 #include <Geometry/GC/GC_MakeCircle.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <StdPrs_ShadedShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

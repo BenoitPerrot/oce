@@ -18,8 +18,8 @@
 
 #include <Visualization/IVtk/IVtk_IView.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <SelectMgr_Selection.hxx>
-#include <SelectMgr_ViewerSelector.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ViewerSelector.hxx>
 
 // -----------------------------------------------------------------------------
 //! @class IVtkOCC_ViewerSelector

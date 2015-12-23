@@ -24,7 +24,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/AIS/AIS_Plane.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -72,7 +72,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 
 #include <Visualization/Select3D/Select3D_SensitiveTriangulation.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <StdPrs_ShadedShape.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>

@@ -17,11 +17,11 @@
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StdSelect_ViewerSelector3d)
@@ -46,8 +46,8 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
-#include <SelectMgr_SelectableObject.hxx>
-#include <SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfIntegerSensitive.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
 
-#include <SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>

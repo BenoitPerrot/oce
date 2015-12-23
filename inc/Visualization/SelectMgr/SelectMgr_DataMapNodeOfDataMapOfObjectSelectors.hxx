@@ -11,7 +11,7 @@
 #include <Handle_SelectMgr_DataMapNodeOfDataMapOfObjectSelectors.hxx>
 
 #include <Handle_SelectMgr_SelectableObject.hxx>
-#include <SelectMgr_SequenceOfSelector.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfSelector.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_SelectableObject;
@@ -54,19 +54,19 @@ private:
 };
 
 #define TheKey Handle(SelectMgr_SelectableObject)
-#define TheKey_hxx <SelectMgr_SelectableObject.hxx>
+#define TheKey_hxx <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #define TheItem SelectMgr_SequenceOfSelector
-#define TheItem_hxx <SelectMgr_SequenceOfSelector.hxx>
+#define TheItem_hxx <Visualization/SelectMgr/SelectMgr_SequenceOfSelector.hxx>
 #define Hasher TColStd_MapTransientHasher
 #define Hasher_hxx <Foundation/TColStd/TColStd_MapTransientHasher.hxx>
 #define TCollection_DataMapNode SelectMgr_DataMapNodeOfDataMapOfObjectSelectors
-#define TCollection_DataMapNode_hxx <SelectMgr_DataMapNodeOfDataMapOfObjectSelectors.hxx>
+#define TCollection_DataMapNode_hxx <Visualization/SelectMgr/SelectMgr_DataMapNodeOfDataMapOfObjectSelectors.hxx>
 #define TCollection_DataMapIterator SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors
-#define TCollection_DataMapIterator_hxx <SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
+#define TCollection_DataMapIterator_hxx <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
 #define Handle_TCollection_DataMapNode Handle_SelectMgr_DataMapNodeOfDataMapOfObjectSelectors
 #define TCollection_DataMapNode_Type_() SelectMgr_DataMapNodeOfDataMapOfObjectSelectors_Type_()
 #define TCollection_DataMap SelectMgr_DataMapOfObjectSelectors
-#define TCollection_DataMap_hxx <SelectMgr_DataMapOfObjectSelectors.hxx>
+#define TCollection_DataMap_hxx <Visualization/SelectMgr/SelectMgr_DataMapOfObjectSelectors.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

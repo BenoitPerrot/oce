@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_Filter.hxx>
-#include <SelectMgr_ListOfFilter.hxx>
-#include <SelectMgr_CompositionFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_CompositionFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_CompositionFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(SelectMgr_CompositionFilter)
 IMPLEMENT_DOWNCAST(SelectMgr_CompositionFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_CompositionFilter)
-#include <SelectMgr_ListIteratorOfListOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListIteratorOfListOfFilter.hxx>
 
 void SelectMgr_CompositionFilter::Add(const Handle(SelectMgr_Filter)& afilter)
 {

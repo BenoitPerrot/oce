@@ -60,7 +60,7 @@ private:
 };
 
 #define TheKey Handle(SelectMgr_EntityOwner)
-#define TheKey_hxx <SelectMgr_EntityOwner.hxx>
+#define TheKey_hxx <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #define TheItem Handle(Prs3d_Presentation)
 #define TheItem_hxx <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #define Hasher TColStd_MapTransientHasher

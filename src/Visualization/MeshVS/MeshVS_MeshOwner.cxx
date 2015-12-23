@@ -30,7 +30,7 @@ IMPLEMENT_DOWNCAST(MeshVS_MeshOwner,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_MeshOwner)
 
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Visualization/MeshVS/MeshVS_Mesh.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfPackedMapOfInteger.hxx>

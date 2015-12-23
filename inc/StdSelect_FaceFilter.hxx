@@ -11,7 +11,7 @@
 #include <Handle_StdSelect_FaceFilter.hxx>
 
 #include <StdSelect_TypeOfFace.hxx>
-#include <SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

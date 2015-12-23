@@ -25,11 +25,11 @@
 
 #define OCC9657
 
-#include <SelectMgr_SelectionManager.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
 #include <V3d_Viewer.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <SelectMgr_OrFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <V3d_View.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
@@ -42,15 +42,15 @@
 #include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_IndexedMapOfOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_IndexedMapOfOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <SelectMgr_Filter.hxx>
-#include <SelectMgr_ListOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>
 #include <Visualization/AIS/AIS_StatusOfDetection.hxx>
 #include <Visualization/AIS/AIS_StatusOfPick.hxx>
@@ -69,7 +69,7 @@
 #include <V3d_AmbientLight.hxx>
 
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/SelectBasics/SelectBasics_SensitiveEntity.hxx>
 
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>

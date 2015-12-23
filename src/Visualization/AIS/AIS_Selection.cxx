@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Selection)
 //to certain owners in <myresult> list
 
 #ifdef BUC60953
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #endif
 
 #ifdef OCC138      //VTN Avoding infinit loop in AddOrRemoveSelected and AddOrRemoveCurrentObject methods.

@@ -19,8 +19,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/IVtkOCC/IVtkOCC_Shape.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <SelectMgr_SelectableObject.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 
 // -----------------------------------------------------------------------------
 //! @class IVtkOCC_SelectableObject

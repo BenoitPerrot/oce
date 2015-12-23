@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <SelectMgr_ViewerSelector.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ViewerSelector.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <SelectMgr_SelectionManager.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_SelectionManager)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,15 +27,15 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(SelectMgr_SelectionManager)
 IMPLEMENT_DOWNCAST(SelectMgr_SelectionManager,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_SelectionManager)
-#include <SelectMgr_ViewerSelector.hxx>
-#include <SelectMgr_Selection.hxx>
-#include <SelectMgr_SequenceOfSelector.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ViewerSelector.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfSelector.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
+#include <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfObjectSelectors.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 
 

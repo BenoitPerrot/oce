@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_SelectMgr_SelectableObject.hxx>
 
-#include <SelectMgr_SequenceOfSelection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfSelection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Prs3d_Presentation.hxx>
@@ -163,7 +163,7 @@ private:
 };
 
 
-#include <SelectMgr_SelectableObject.lxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.lxx>
 
 
 

@@ -31,23 +31,23 @@
 //		give to accelerate the resolution of this problem.
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
-#include <SelectMgr_SelectionManager.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectionManager.hxx>
 #include <StdSelect_ViewerSelector3d.hxx>
-#include <SelectMgr_OrFilter.hxx>
-#include <SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <SelectMgr_ListOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(AIS_LocalContext)
@@ -58,8 +58,8 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(AIS_LocalContext)
 IMPLEMENT_DOWNCAST(AIS_LocalContext,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_LocalContext)
-#include <SelectMgr_OrFilter.hxx>
-#include <SelectMgr_CompositionFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_OrFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_CompositionFilter.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
 #include <Visualization/AIS/AIS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

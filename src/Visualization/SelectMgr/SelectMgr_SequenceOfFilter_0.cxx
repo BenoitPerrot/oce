@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <SelectMgr_SequenceOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceOfFilter.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <SelectMgr_Filter.hxx>
-#include <SelectMgr_SequenceNodeOfSequenceOfFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SequenceNodeOfSequenceOfFilter.hxx>
  
 
 #define SeqItem Handle(SelectMgr_Filter)
-#define SeqItem_hxx <SelectMgr_Filter.hxx>
+#define SeqItem_hxx <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #define TCollection_SequenceNode SelectMgr_SequenceNodeOfSequenceOfFilter
-#define TCollection_SequenceNode_hxx <SelectMgr_SequenceNodeOfSequenceOfFilter.hxx>
+#define TCollection_SequenceNode_hxx <Visualization/SelectMgr/SelectMgr_SequenceNodeOfSequenceOfFilter.hxx>
 #define Handle_TCollection_SequenceNode Handle_SelectMgr_SequenceNodeOfSequenceOfFilter
 #define TCollection_SequenceNode_Type_() SelectMgr_SequenceNodeOfSequenceOfFilter_Type_()
 #define TCollection_Sequence SelectMgr_SequenceOfFilter
-#define TCollection_Sequence_hxx <SelectMgr_SequenceOfFilter.hxx>
+#define TCollection_Sequence_hxx <Visualization/SelectMgr/SelectMgr_SequenceOfFilter.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
-#include <SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_SelectMgr_EntityOwner.hxx>

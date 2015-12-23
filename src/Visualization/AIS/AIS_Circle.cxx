@@ -20,7 +20,7 @@
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Projector.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/AIS/AIS_Circle.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Circle)
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
 #include <StdPrs_DeflectionCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

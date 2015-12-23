@@ -38,8 +38,8 @@
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>
-#include <SelectMgr_EntityOwner.hxx>
-#include <SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>

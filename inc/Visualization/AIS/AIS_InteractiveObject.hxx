@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfFacingModel.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/SelectMgr_SelectableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
