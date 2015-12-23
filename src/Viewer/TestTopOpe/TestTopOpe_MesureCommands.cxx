@@ -24,8 +24,8 @@
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableMesure.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
 
-#include <TestTopOpeTools_Mesure.hxx>
-#include <TestTopOpeTools_HArray1OfMesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_HArray1OfMesure.hxx>
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableMesure.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>

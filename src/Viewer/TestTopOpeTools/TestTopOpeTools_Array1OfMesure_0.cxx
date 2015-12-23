@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TestTopOpeTools_Array1OfMesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Array1OfMesure.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TestTopOpeTools_Mesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
  
 
 #define Array1Item TestTopOpeTools_Mesure
-#define Array1Item_hxx <TestTopOpeTools_Mesure.hxx>
+#define Array1Item_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
 #define TCollection_Array1 TestTopOpeTools_Array1OfMesure
-#define TCollection_Array1_hxx <TestTopOpeTools_Array1OfMesure.hxx>
+#define TCollection_Array1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Array1OfMesure.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

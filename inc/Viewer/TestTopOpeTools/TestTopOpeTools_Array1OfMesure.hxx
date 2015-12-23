@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item TestTopOpeTools_Mesure
-#define Array1Item_hxx <TestTopOpeTools_Mesure.hxx>
+#define Array1Item_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
 #define TCollection_Array1 TestTopOpeTools_Array1OfMesure
-#define TCollection_Array1_hxx <TestTopOpeTools_Array1OfMesure.hxx>
+#define TCollection_Array1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Array1OfMesure.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

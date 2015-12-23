@@ -98,7 +98,7 @@
 #include <Precision.hxx>
 
 #ifdef DRAW
-#include <TestTopOpeTools.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools.hxx>
 #include <Viewer/TestTopOpe/TestTopOpe.hxx>
 #endif
 #ifdef OCCT_DEBUG

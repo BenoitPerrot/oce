@@ -62,7 +62,7 @@ class TestTopOpeTools_HArray1OfMesure;
 //! It it possible to add your own "Traced" portions of code in your code.
 //! In your test program, simply add :
 //!
-//! #include <TestTopOpeTools_AddTrace.hxx>
+//! #include <Viewer/TestTopOpeTools/TestTopOpeTools_AddTrace.hxx>
 //!
 //! and see the file TestTopOpeTools_Trace.hxx for explanations.
 class TestTopOpeTools 

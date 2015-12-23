@@ -31,7 +31,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <TestTopOpeTools_Mesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
 
 // pour sauver un DrawableSHA
 

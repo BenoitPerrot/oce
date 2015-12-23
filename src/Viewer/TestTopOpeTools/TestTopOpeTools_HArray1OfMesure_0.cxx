@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TestTopOpeTools_HArray1OfMesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_HArray1OfMesure.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TestTopOpeTools_Mesure.hxx>
-#include <TestTopOpeTools_Array1OfMesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Array1OfMesure.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(TestTopOpeTools_HArray1OfMesure)
 
 
 #define ItemHArray1 TestTopOpeTools_Mesure
-#define ItemHArray1_hxx <TestTopOpeTools_Mesure.hxx>
+#define ItemHArray1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
 #define TheArray1 TestTopOpeTools_Array1OfMesure
-#define TheArray1_hxx <TestTopOpeTools_Array1OfMesure.hxx>
+#define TheArray1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Array1OfMesure.hxx>
 #define TCollection_HArray1 TestTopOpeTools_HArray1OfMesure
-#define TCollection_HArray1_hxx <TestTopOpeTools_HArray1OfMesure.hxx>
+#define TCollection_HArray1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_HArray1OfMesure.hxx>
 #define Handle_TCollection_HArray1 Handle_TestTopOpeTools_HArray1OfMesure
 #define TCollection_HArray1_Type_() TestTopOpeTools_HArray1OfMesure_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

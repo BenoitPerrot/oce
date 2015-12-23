@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeTools_Trace.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Trace.hxx>
 
 // for intptr_t
 #if defined(_MSC_VER)

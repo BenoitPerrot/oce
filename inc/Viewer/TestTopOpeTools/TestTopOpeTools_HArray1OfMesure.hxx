@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TestTopOpeTools_HArray1OfMesure.hxx>
 
-#include <TestTopOpeTools_Array1OfMesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Array1OfMesure.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 TestTopOpeTools_Mesure
-#define ItemHArray1_hxx <TestTopOpeTools_Mesure.hxx>
+#define ItemHArray1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
 #define TheArray1 TestTopOpeTools_Array1OfMesure
-#define TheArray1_hxx <TestTopOpeTools_Array1OfMesure.hxx>
+#define TheArray1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_Array1OfMesure.hxx>
 #define TCollection_HArray1 TestTopOpeTools_HArray1OfMesure
-#define TCollection_HArray1_hxx <TestTopOpeTools_HArray1OfMesure.hxx>
+#define TCollection_HArray1_hxx <Viewer/TestTopOpeTools/TestTopOpeTools_HArray1OfMesure.hxx>
 #define Handle_TCollection_HArray1 Handle_TestTopOpeTools_HArray1OfMesure
 #define TCollection_HArray1_Type_() TestTopOpeTools_HArray1OfMesure_Type_()
 

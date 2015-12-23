@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TestTopOpeTools.hxx>
-#include <TestTopOpeTools_Trace.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Trace.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <TopOpeBRepTool_define.hxx>

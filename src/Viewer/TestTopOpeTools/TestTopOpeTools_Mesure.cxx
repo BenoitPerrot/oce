@@ -18,8 +18,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TestTopOpeTools_Mesure.hxx>
-#include <TestTopOpeTools_Mesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
+#include <Viewer/TestTopOpeTools/TestTopOpeTools_Mesure.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
