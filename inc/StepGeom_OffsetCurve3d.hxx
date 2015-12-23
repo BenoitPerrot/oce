@@ -12,7 +12,7 @@
 
 #include <Handle_StepGeom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Handle_StepGeom_Direction.hxx>
 #include <StepGeom_Curve.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>

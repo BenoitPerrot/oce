@@ -12,13 +12,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_SelectMember.hxx>
-#include <StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <StepData_SelectMember.hxx>
-#include <StepData_SelectInt.hxx>
-#include <StepData_SelectReal.hxx>
-#include <StepData_SelectNamed.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectInt.hxx>
+#include <DataExchange/StepData/StepData_SelectReal.hxx>
+#include <DataExchange/StepData/StepData_SelectNamed.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

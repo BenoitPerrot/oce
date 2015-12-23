@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_Simple.hxx>
 
-#include <StepData_FieldListN.hxx>
-#include <StepData_Described.hxx>
+#include <DataExchange/StepData/StepData_FieldListN.hxx>
+#include <DataExchange/StepData/StepData_Described.hxx>
 #include <Handle_StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

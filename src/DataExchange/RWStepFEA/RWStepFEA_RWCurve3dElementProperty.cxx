@@ -15,10 +15,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.2
 
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepFEA_Curve3dElementProperty.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepFEA/RWStepFEA_RWCurve3dElementProperty.hxx>
 #include <StepFEA_HArray1OfCurveElementInterval.hxx>

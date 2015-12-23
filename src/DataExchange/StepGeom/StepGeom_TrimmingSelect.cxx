@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_TrimmingSelect.hxx>
 #include <StepGeom_TrimmingMember.hxx>

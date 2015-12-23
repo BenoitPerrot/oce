@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <StepData_EnumTool.hxx>
+#include <DataExchange/StepData/StepData_EnumTool.hxx>
 
 static TCollection_AsciiString nulstr("");
 

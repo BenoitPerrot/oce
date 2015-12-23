@@ -12,8 +12,8 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <StepData_Field.hxx>
-#include <StepData_FieldListN.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_FieldListN.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 

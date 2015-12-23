@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepData_FileProtocol.hxx>
+#include <DataExchange/StepData/StepData_FileProtocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_FileProtocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

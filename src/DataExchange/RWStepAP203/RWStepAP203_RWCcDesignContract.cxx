@@ -16,10 +16,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.0
 
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/StepAP203/StepAP203_CcDesignContract.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP203/RWStepAP203_RWCcDesignContract.hxx>
 #include <DataExchange/StepAP203/StepAP203_HArray1OfContractedItem.hxx>

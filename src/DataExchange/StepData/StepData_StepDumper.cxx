@@ -11,14 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
-#include <StepData_Protocol.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_StepDumper.hxx>
-#include <StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_StepDumper.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <DataExchange/Interface/Interface_GeneralModule.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>

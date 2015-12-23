@@ -11,11 +11,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_HArray1OfField.hxx>
-#include <StepData_FreeFormEntity.hxx>
+#include <DataExchange/StepData/StepData_HArray1OfField.hxx>
+#include <DataExchange/StepData/StepData_FreeFormEntity.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <StepData_Field.hxx>
-#include <StepData_FreeFormEntity.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_FreeFormEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_FreeFormEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

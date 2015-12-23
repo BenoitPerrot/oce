@@ -11,7 +11,7 @@
 #include <Handle_StepData_DescrGeneral.hxx>
 
 #include <Handle_StepData_Protocol.hxx>
-#include <StepData_GeneralModule.hxx>
+#include <DataExchange/StepData/StepData_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Handle_Interface_Check.hxx>

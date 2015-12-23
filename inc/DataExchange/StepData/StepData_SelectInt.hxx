@@ -11,7 +11,7 @@
 #include <Handle_StepData_SelectInt.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
 
 
 //! A SelectInt is a SelectMember specialised for a basic integer

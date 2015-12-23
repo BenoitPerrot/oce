@@ -26,7 +26,7 @@
 #include <Handle_StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Standard_Transient.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class StepData_StepModel;

@@ -14,7 +14,7 @@
 #include <Handle_TColStd_HArray1OfTransient.hxx>
 #include <Handle_Dico_DictionaryOfInteger.hxx>
 #include <Handle_StepData_ESDescr.hxx>
-#include <StepData_EDescr.hxx>
+#include <DataExchange/StepData/StepData_EDescr.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepData_PDescr.hxx>

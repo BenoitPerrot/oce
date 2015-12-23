@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_RTTI(STEPEdit_EditSDR)
 #include <DataExchange/Interface/Interface_TypedValue.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
 

@@ -11,7 +11,7 @@
 #include <Handle_StepData_ECDescr.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <StepData_EDescr.hxx>
+#include <DataExchange/StepData/StepData_EDescr.hxx>
 #include <Handle_StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_TColStd_HSequenceOfAsciiString.hxx>

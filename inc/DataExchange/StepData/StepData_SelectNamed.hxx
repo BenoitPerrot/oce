@@ -11,8 +11,8 @@
 #include <Handle_StepData_SelectNamed.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <StepData_Field.hxx>
-#include <StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

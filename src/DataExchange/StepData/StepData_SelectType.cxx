@@ -14,13 +14,13 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <StepData_PDescr.hxx>
-#include <StepData_SelectMember.hxx>
-#include <StepData_SelectType.hxx>
+#include <DataExchange/StepData/StepData_PDescr.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <StepData_SelectNamed.hxx>
-#include <StepData_SelectReal.hxx>
-#include <StepData_SelectInt.hxx>
+#include <DataExchange/StepData/StepData_SelectNamed.hxx>
+#include <DataExchange/StepData/StepData_SelectReal.hxx>
+#include <DataExchange/StepData/StepData_SelectInt.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 

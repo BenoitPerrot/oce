@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Field.hxx>
-#include <StepData_SelectNamed.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_SelectNamed.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_SelectNamed)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

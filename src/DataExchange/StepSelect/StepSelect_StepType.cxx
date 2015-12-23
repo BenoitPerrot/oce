@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(StepSelect_StepType)
 IMPLEMENT_DOWNCAST(StepSelect_StepType,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepSelect_StepType)
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <StepData_ReadWriteModule.hxx>
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 #include <DataExchange/Interface/Interface_InterfaceError.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

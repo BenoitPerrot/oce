@@ -17,9 +17,9 @@
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_StepReaderData.hxx>
-#include <StepData_StepWriter.hxx>
-#include <StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_ReadWriteModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_ReadWriteModule)
 IMPLEMENT_DOWNCAST(StepData_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_ReadWriteModule)
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 

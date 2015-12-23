@@ -15,10 +15,10 @@
 
 // Generator:	ExpToCas (EXPRESS -> CASCADE/XSTEP Translator) V1.1
 
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedGroupAssignment.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedGroupAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfGroupItem.hxx>

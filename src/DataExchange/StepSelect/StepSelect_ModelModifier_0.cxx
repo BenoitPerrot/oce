@@ -7,8 +7,8 @@
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <StepData_StepModel.hxx>
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <DataExchange/IFSelect/IFSelect_ContextModif.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
@@ -34,10 +34,10 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_ModelModifier)
 
 #define Handle_Model Handle_StepData_StepModel
 #define Model StepData_StepModel
-#define Model_hxx <StepData_StepModel.hxx>
+#define Model_hxx <DataExchange/StepData/StepData_StepModel.hxx>
 #define Handle_Proto Handle_StepData_Protocol
 #define Proto StepData_Protocol
-#define Proto_hxx <StepData_Protocol.hxx>
+#define Proto_hxx <DataExchange/StepData/StepData_Protocol.hxx>
 #define IFSelect_ModelModifier StepSelect_ModelModifier
 #define IFSelect_ModelModifier_hxx <StepSelect_ModelModifier.hxx>
 #define Handle_IFSelect_ModelModifier Handle_StepSelect_ModelModifier

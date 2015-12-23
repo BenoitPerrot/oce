@@ -18,14 +18,14 @@
 // abv 18.11.99 renamed from StepPDR_ContextTool
 #include <DataExchange/StepBasic/StepBasic_ApplicationProtocolDefinition.hxx>
 #include <StepGeom_Axis2Placement3d.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Part.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Assembly.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_ContextTool.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

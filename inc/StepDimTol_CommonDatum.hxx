@@ -14,7 +14,7 @@
 #include <StepRepr_CompositeShapeAspect.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepRepr_ProductDefinitionShape.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 class StepDimTol_Datum;
 class TCollection_HAsciiString;
 class StepRepr_ProductDefinitionShape;

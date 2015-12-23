@@ -11,7 +11,7 @@
 #include <Handle_StepElement_SurfaceElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <StepData_SelectNamed.hxx>
+#include <DataExchange/StepData/StepData_SelectNamed.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 

@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 //create  s4134 from CC2 to DIS
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/StepAP214/StepAP214_AppliedDateAndTimeAssignment.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_RWAppliedDateAndTimeAssignment.hxx>
 #include <DataExchange/StepAP214/StepAP214_HArray1OfDateAndTimeItem.hxx>

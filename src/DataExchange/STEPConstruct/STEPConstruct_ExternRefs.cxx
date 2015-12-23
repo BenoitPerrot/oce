@@ -27,7 +27,7 @@
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 
-#include <StepData_SelectNamed.hxx>
+#include <DataExchange/StepData/StepData_SelectNamed.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_RoleAssociation.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentRepresentationType.hxx>

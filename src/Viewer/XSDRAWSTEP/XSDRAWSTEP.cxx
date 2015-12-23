@@ -41,7 +41,7 @@
 
 #include <XSControl_Controller.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 

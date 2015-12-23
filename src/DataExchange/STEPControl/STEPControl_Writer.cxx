@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <XSControl_WorkSession.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/STEPControl/STEPControl_Writer.hxx>
 #include <DataExchange/STEPControl/STEPControl_Controller.hxx>

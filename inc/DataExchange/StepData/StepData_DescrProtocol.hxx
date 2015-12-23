@@ -11,7 +11,7 @@
 #include <Handle_StepData_DescrProtocol.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <StepData_FileProtocol.hxx>
+#include <DataExchange/StepData/StepData_FileProtocol.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 
 

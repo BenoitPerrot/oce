@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_SizeSelect.hxx>
 #include <DataExchange/StepBasic/StepBasic_SizeMember.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>

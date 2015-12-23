@@ -11,7 +11,7 @@
 #include <Handle_StepBasic_MeasureValueMember.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <StepData_SelectReal.hxx>
+#include <DataExchange/StepData/StepData_SelectReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 

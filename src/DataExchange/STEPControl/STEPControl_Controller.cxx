@@ -37,9 +37,9 @@ IMPLEMENT_STANDARD_RTTI(STEPControl_Controller)
 #include <DataExchange/RWStepAP214/RWStepAP214.hxx>
 
 #include <Foundation/Standard/Standard_Version.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/APIHeaderSection/APIHeaderSection_MakeHeader.hxx>
-#include <StepData_FileProtocol.hxx>
+#include <DataExchange/StepData/StepData_FileProtocol.hxx>
 #include <DataExchange/HeaderSection/HeaderSection.hxx>
 #include <DataExchange/RWHeaderSection/RWHeaderSection.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignCounter.hxx>

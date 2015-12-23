@@ -11,7 +11,7 @@
 #include <Handle_StepData_SelectReal.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 
 

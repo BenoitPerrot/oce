@@ -16,7 +16,7 @@
 //  the content of a Step File
 
 #include <StepFile_Read.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Transfer_TransferOutput.hxx>
 //#include <Transfer_PersistentProcess.hxx>
 //#include <Transfer_IteratorOfPersistentProcess.hxx>

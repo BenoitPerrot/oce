@@ -21,7 +21,7 @@
 #include <DataExchange/RWStepAP214/RWStepAP214_GeneralModule.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/Interface/Interface_ReaderLib.hxx>
-#include <StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
 
 
 static int init = 0;

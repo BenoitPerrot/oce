@@ -30,7 +30,7 @@
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <StepGeom_OffsetSurface.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <UnitsMethods.hxx>
 
 //=============================================================================

@@ -13,13 +13,13 @@
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/Interface/Interface_UndefinedContent.hxx>
-#include <StepData_UndefinedEntity.hxx>
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_UndefinedEntity)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -11,7 +11,7 @@
 #include <Handle_StepSelect_StepType.hxx>
 
 #include <Handle_StepData_Protocol.hxx>
-#include <StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Handle_Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

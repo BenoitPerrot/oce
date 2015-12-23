@@ -11,19 +11,19 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_FileRecognizer.hxx>
-#include <StepData_StepReaderData.hxx>
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_FileRecognizer.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <StepData_StepReaderTool.hxx>
+#include <DataExchange/StepData/StepData_StepReaderTool.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_ReadWriteModule.hxx>
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message.hxx>

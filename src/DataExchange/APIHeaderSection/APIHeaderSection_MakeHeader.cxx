@@ -21,7 +21,7 @@
 #include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
@@ -33,7 +33,7 @@
 #include <DataExchange/HeaderSection/HeaderSection_FileName.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
 

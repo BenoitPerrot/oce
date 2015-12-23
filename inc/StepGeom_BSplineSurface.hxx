@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepGeom_HArray2OfCartesianPoint.hxx>
 #include <StepGeom_BSplineSurfaceForm.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <StepGeom_BoundedSurface.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_CartesianPoint.hxx>

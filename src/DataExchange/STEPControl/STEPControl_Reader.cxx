@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <XSControl_WorkSession.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
@@ -69,7 +69,7 @@
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndPlaneAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndSolidAngleUnit.hxx>
 #include <XSControl_WorkSession.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <StepRepr_RepresentationContext.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>

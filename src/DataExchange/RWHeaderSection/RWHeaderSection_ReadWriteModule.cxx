@@ -13,10 +13,10 @@
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWHeaderSection/RWHeaderSection_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWHeaderSection_ReadWriteModule)
@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_TYPE_END(RWHeaderSection_ReadWriteModule)
 IMPLEMENT_DOWNCAST(RWHeaderSection_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(RWHeaderSection_ReadWriteModule)
 #include <DataExchange/Interface/Interface_ReaderLib.hxx>
-#include <StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_Protocol.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>
@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_ReadWriteModule)
 #include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 
 
 #include <DataExchange/RWHeaderSection/RWHeaderSection_RWFileName.hxx>

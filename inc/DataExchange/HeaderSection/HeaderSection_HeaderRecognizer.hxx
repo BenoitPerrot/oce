@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HeaderSection_HeaderRecognizer.hxx>
 
-#include <StepData_FileRecognizer.hxx>
+#include <DataExchange/StepData/StepData_FileRecognizer.hxx>
 class TCollection_AsciiString;
 
 

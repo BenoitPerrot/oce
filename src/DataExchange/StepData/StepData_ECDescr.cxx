@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
-#include <StepData_Described.hxx>
-#include <StepData_ECDescr.hxx>
+#include <DataExchange/StepData/StepData_Described.hxx>
+#include <DataExchange/StepData/StepData_ECDescr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_ECDescr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_ECDescr)
 IMPLEMENT_DOWNCAST(StepData_ECDescr,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_ECDescr)
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <StepData_Plex.hxx>
+#include <DataExchange/StepData/StepData_Plex.hxx>
 
 StepData_ECDescr::StepData_ECDescr  ()    {  }
 

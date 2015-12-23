@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_RTTI(HeaderSection_Protocol)
 #include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 
 static Standard_CString schemaName = "header_section";
 

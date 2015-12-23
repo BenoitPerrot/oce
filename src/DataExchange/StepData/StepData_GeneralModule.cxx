@@ -16,7 +16,7 @@
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_CopyTool.hxx>
-#include <StepData_GeneralModule.hxx>
+#include <DataExchange/StepData/StepData_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_GeneralModule)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

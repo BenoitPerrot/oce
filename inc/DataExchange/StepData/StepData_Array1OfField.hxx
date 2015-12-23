@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item StepData_Field
-#define Array1Item_hxx <StepData_Field.hxx>
+#define Array1Item_hxx <DataExchange/StepData/StepData_Field.hxx>
 #define TCollection_Array1 StepData_Array1OfField
-#define TCollection_Array1_hxx <StepData_Array1OfField.hxx>
+#define TCollection_Array1_hxx <DataExchange/StepData/StepData_Array1OfField.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

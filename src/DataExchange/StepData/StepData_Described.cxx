@@ -11,13 +11,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_EDescr.hxx>
+#include <DataExchange/StepData/StepData_EDescr.hxx>
 #include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
-#include <StepData_Simple.hxx>
-#include <StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_Simple.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepData_Described.hxx>
+#include <DataExchange/StepData/StepData_Described.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Described)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

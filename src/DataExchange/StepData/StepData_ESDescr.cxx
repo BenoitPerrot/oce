@@ -13,11 +13,11 @@
 
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Dico/Dico_DictionaryOfInteger.hxx>
-#include <StepData_ESDescr.hxx>
-#include <StepData_PDescr.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_PDescr.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <StepData_Described.hxx>
-#include <StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_Described.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_ESDescr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_ESDescr)
 IMPLEMENT_DOWNCAST(StepData_ESDescr,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_ESDescr)
-#include <StepData_Simple.hxx>
+#include <DataExchange/StepData/StepData_Simple.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 

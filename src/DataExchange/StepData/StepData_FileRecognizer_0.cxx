@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_FileRecognizer.hxx>
+#include <DataExchange/StepData/StepData_FileRecognizer.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_FileRecognizer.hxx>
+#include <DataExchange/StepData/StepData_FileRecognizer.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(StepData_FileRecognizer)
 #define TheResul Standard_Transient
 #define TheResul_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Interface_Recognizer StepData_FileRecognizer
-#define Interface_Recognizer_hxx <StepData_FileRecognizer.hxx>
+#define Interface_Recognizer_hxx <DataExchange/StepData/StepData_FileRecognizer.hxx>
 #define Handle_Interface_Recognizer Handle_StepData_FileRecognizer
 #define Interface_Recognizer_Type_() StepData_FileRecognizer_Type_()
 #include <DataExchange/Interface/Interface_Recognizer.gxx>

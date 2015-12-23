@@ -11,7 +11,7 @@
 #include <Handle_StepData_FileProtocol.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_Interface_Protocol.hxx>

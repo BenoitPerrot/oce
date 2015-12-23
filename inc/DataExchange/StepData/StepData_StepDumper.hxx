@@ -12,8 +12,8 @@
 
 #include <Handle_StepData_StepModel.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
-#include <StepData_WriterLib.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

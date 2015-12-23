@@ -14,31 +14,31 @@
 // List of changes:
 //skl 29.01.2003 - deleted one space symbol at the begining
 //                 of strings from Header Section
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
 #include <DataExchange/Interface/Interface_FloatWriter.hxx>
-#include <StepData_Protocol.hxx>
-#include <StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepData_Field.hxx>
-#include <StepData_PDescr.hxx>
-#include <StepData_SelectMember.hxx>
-#include <StepData_FieldList.hxx>
-#include <StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_PDescr.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_FieldList.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
-#include <StepData_StepWriter.hxx>
-#include <StepData_WriterLib.hxx>
-#include <StepData_ReadWriteModule.hxx>
-#include <StepData_Protocol.hxx>
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepData_SelectMember.hxx>
-#include <StepData_SelectArrReal.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectArrReal.hxx>
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ReportEntity.hxx>

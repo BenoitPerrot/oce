@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
-#include <StepData_SelectArrReal.hxx>
+#include <DataExchange/StepData/StepData_SelectArrReal.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_SelectArrReal)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

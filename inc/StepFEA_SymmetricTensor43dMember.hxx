@@ -11,7 +11,7 @@
 #include <Handle_StepFEA_SymmetricTensor43dMember.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <StepData_SelectArrReal.hxx>
+#include <DataExchange/StepData/StepData_SelectArrReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 

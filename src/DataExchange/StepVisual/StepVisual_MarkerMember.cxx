@@ -23,7 +23,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepVisual_MarkerMember)
 IMPLEMENT_DOWNCAST(StepVisual_MarkerMember,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepVisual_MarkerMember)
-#include <StepData_EnumTool.hxx>
+#include <DataExchange/StepData/StepData_EnumTool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 static StepData_EnumTool tool

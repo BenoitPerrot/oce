@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepGeom_HArray2OfCartesianPoint.hxx>
 #include <StepGeom_BSplineSurfaceForm.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_UniformSurface;

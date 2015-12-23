@@ -17,7 +17,7 @@
 #include <Handle_StepData_PDescr.hxx>
 #include <Handle_StepData_SelectMember.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_Transient;
 class Standard_TypeMismatch;

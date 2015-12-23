@@ -16,17 +16,17 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <StepData_PDescr.hxx>
+#include <DataExchange/StepData/StepData_PDescr.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_SelectMember.hxx>
-#include <StepData_Field.hxx>
-#include <StepData_ESDescr.hxx>
-#include <StepData_FieldList.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_FieldList.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <StepData_SelectType.hxx>
+#include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepData_EnumTool.hxx>
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_EnumTool.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_StepReaderData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_StepReaderData)
 IMPLEMENT_DOWNCAST(StepData_StepReaderData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_StepReaderData)
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/Interface/Interface_FileParameter.hxx>
 #include <DataExchange/Interface/Interface_ParamList.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
@@ -54,12 +54,12 @@ IMPLEMENT_STANDARD_RTTI(StepData_StepReaderData)
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <DataExchange/Interface/Interface_HArray1OfHAsciiString.hxx>
-#include <StepData_SelectMember.hxx>
-#include <StepData_SelectNamed.hxx>
-#include <StepData_SelectReal.hxx>
-#include <StepData_SelectInt.hxx>
+#include <DataExchange/StepData/StepData_SelectMember.hxx>
+#include <DataExchange/StepData/StepData_SelectNamed.hxx>
+#include <DataExchange/StepData/StepData_SelectReal.hxx>
+#include <DataExchange/StepData/StepData_SelectInt.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
-#include <StepData_SelectArrReal.hxx>
+#include <DataExchange/StepData/StepData_SelectArrReal.hxx>
 
 #include <stdio.h>
 

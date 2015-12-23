@@ -11,7 +11,7 @@
 #include <Handle_StepData_Plex.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
-#include <StepData_Described.hxx>
+#include <DataExchange/StepData/StepData_Described.hxx>
 #include <Handle_StepData_ECDescr.hxx>
 #include <Handle_StepData_Simple.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

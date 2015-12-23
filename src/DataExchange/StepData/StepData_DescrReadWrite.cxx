@@ -11,14 +11,14 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_StepWriter.hxx>
-#include <StepData_DescrReadWrite.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_DescrReadWrite.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_DescrReadWrite)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,12 +30,12 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_DescrReadWrite)
 IMPLEMENT_DOWNCAST(StepData_DescrReadWrite,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_DescrReadWrite)
-#include <StepData_EDescr.hxx>
-#include <StepData_ECDescr.hxx>
-#include <StepData_ESDescr.hxx>
-#include <StepData_Simple.hxx>
-#include <StepData_Plex.hxx>
-#include <StepData_FieldListN.hxx>
+#include <DataExchange/StepData/StepData_EDescr.hxx>
+#include <DataExchange/StepData/StepData_ECDescr.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_Simple.hxx>
+#include <DataExchange/StepData/StepData_Plex.hxx>
+#include <DataExchange/StepData/StepData_FieldListN.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 

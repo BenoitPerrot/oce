@@ -11,12 +11,12 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_PDescr.hxx>
+#include <DataExchange/StepData/StepData_PDescr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
-#include <StepData_EDescr.hxx>
-#include <StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_EDescr.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
-#include <StepData_PDescr.hxx>
+#include <DataExchange/StepData/StepData_PDescr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_PDescr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

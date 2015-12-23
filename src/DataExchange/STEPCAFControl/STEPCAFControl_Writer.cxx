@@ -91,7 +91,7 @@
 #include <StepVisual_Invisibility.hxx>
 #include <StepVisual_HArray1OfInvisibleItem.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <XSControl_WorkSession.hxx>
@@ -139,7 +139,7 @@
 //#include <StepRepr_CompoundItemDefinition.hxx>
 //#include <StepRepr_CompoundItemDefinitionMember.hxx>
 #include <StepRepr_ValueRange.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <StepDimTol_DatumFeature.hxx>
 #include <StepDimTol_Datum.hxx>
 #include <StepDimTol_DatumReference.hxx>

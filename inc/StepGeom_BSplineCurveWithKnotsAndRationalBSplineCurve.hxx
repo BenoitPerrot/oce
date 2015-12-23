@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepGeom_BSplineCurveForm.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_TColStd_HArray1OfReal.hxx>
 #include <StepGeom_KnotType.hxx>

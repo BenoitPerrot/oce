@@ -11,7 +11,7 @@
 #include <Handle_StepData_DescrReadWrite.hxx>
 
 #include <Handle_StepData_Protocol.hxx>
-#include <StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_StepReaderData.hxx>

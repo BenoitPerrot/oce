@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_SelectInt.hxx>
+#include <DataExchange/StepData/StepData_SelectInt.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_SelectInt)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

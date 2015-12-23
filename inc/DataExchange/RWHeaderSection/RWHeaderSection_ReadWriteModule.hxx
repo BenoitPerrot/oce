@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_RWHeaderSection_ReadWriteModule.hxx>
 
-#include <StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_StepData_StepReaderData.hxx>

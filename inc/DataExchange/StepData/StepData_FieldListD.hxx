@@ -3,16 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _StepData_FieldListN_HeaderFile
-#define _StepData_FieldListN_HeaderFile
+#ifndef _StepData_FieldListD_HeaderFile
+#define _StepData_FieldListD_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <StepData_Array1OfField.hxx>
-#include <StepData_FieldList.hxx>
+#include <Handle_StepData_HArray1OfField.hxx>
+#include <DataExchange/StepData/StepData_FieldList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
+class StepData_HArray1OfField;
 class Standard_OutOfRange;
 class StepData_Field;
 
@@ -20,15 +21,18 @@ class StepData_Field;
 //! Describes a list of fields, in a general way
 //! This basic class is for a null size list
 //! Subclasses are for 1, N (fixed) or Dynamic sizes
-class StepData_FieldListN  : public StepData_FieldList
+class StepData_FieldListD  : public StepData_FieldList
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  //! Creates a FieldListN of <nb> Fields
-  Standard_EXPORT StepData_FieldListN(const Standard_Integer nb);
+  //! Creates a FieldListD of <nb> Fields
+  Standard_EXPORT StepData_FieldListD(const Standard_Integer nb);
+  
+  //! Sets a new count of Fields. Former contents are lost
+  Standard_EXPORT   void SetNb (const Standard_Integer nb) ;
   
   //! Returns the count of fields. Here, returns starting <nb>
   Standard_EXPORT virtual   Standard_Integer NbFields()  const;
@@ -41,7 +45,7 @@ public:
   Standard_EXPORT virtual   StepData_Field& CField (const Standard_Integer num) ;
   
   Standard_EXPORT virtual   void Destroy() ;
-Standard_EXPORT virtual ~StepData_FieldListN() { Destroy(); }
+Standard_EXPORT virtual ~StepData_FieldListD() { Destroy(); }
 
 
 
@@ -56,7 +60,7 @@ private:
 
 
 
-  StepData_Array1OfField thefields;
+  Handle(StepData_HArray1OfField) thefields;
 
 
 };
@@ -67,4 +71,4 @@ private:
 
 
 
-#endif // _StepData_FieldListN_HeaderFile
+#endif // _StepData_FieldListD_HeaderFile

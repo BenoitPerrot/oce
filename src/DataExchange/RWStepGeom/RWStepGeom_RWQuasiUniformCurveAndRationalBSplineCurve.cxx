@@ -11,10 +11,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_QuasiUniformCurveAndRationalBSplineCurve.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWQuasiUniformCurveAndRationalBSplineCurve.hxx>
 #include <StepGeom_QuasiUniformCurve.hxx>
@@ -22,7 +22,7 @@
 #include <StepGeom_HArray1OfCartesianPoint.hxx>
 #include <StepGeom_CartesianPoint.hxx>
 #include <StepGeom_BSplineCurveForm.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 
 

@@ -11,7 +11,7 @@
 #include <Handle_StepGeom_CompositeCurve.hxx>
 
 #include <Handle_StepGeom_HArray1OfCompositeCurveSegment.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <StepGeom_BoundedCurve.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 #include <Handle_StepGeom_CompositeCurveSegment.hxx>

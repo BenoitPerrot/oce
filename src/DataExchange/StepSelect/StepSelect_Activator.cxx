@@ -29,9 +29,9 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_Activator)
 
 #include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
-#include <StepData_UndefinedEntity.hxx>
-#include <StepData_Simple.hxx>
-#include <StepData_Plex.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_Simple.hxx>
+#include <DataExchange/StepData/StepData_Plex.hxx>
 
 #include <StepSelect_FloatFormat.hxx>
 

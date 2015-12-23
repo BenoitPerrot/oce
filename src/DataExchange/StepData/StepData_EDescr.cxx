@@ -11,8 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <StepData_Described.hxx>
-#include <StepData_EDescr.hxx>
+#include <DataExchange/StepData/StepData_Described.hxx>
+#include <DataExchange/StepData/StepData_EDescr.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_EDescr)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

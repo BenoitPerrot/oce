@@ -12,10 +12,10 @@
 // commercial license or contractual agreement.
 
 //gka 05.03.99 S4134 upgrade from CD to DIS
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/StepBasic/StepBasic_OrganizationalAddress.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWOrganizationalAddress.hxx>
 #include <DataExchange/StepBasic/StepBasic_HArray1OfOrganization.hxx>

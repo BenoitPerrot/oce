@@ -16,12 +16,12 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <StepData_EDescr.hxx>
-#include <StepData_ESDescr.hxx>
-#include <StepData_ECDescr.hxx>
+#include <DataExchange/StepData/StepData_EDescr.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_ECDescr.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <StepData_PDescr.hxx>
-#include <StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_PDescr.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Protocol)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_Protocol)
 IMPLEMENT_DOWNCAST(StepData_Protocol,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_Protocol)
-#include <StepData_StepModel.hxx>
-#include <StepData_UndefinedEntity.hxx>
-#include <StepData_Described.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_Described.hxx>
 #include <DataExchange/Interface/Interface_DataMapIteratorOfDataMapOfTransientInteger.hxx>
 #include <stdio.h>
 

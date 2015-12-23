@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 
 

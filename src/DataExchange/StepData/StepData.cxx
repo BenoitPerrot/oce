@@ -13,11 +13,11 @@
 
 //    abv 09.04.99 S4136: eliminate parameter step.readaccept.void
 //    svv #2    23.02.00: porting on SIL
-#include <StepData_Protocol.hxx>
-#include <StepData.hxx>
-# include <StepData_Protocol.hxx>
-# include <StepData_DefaultGeneral.hxx>
-# include <StepData_FileProtocol.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData.hxx>
+# include <DataExchange/StepData/StepData_Protocol.hxx>
+# include <DataExchange/StepData/StepData_DefaultGeneral.hxx>
+# include <DataExchange/StepData/StepData_FileProtocol.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 
 #include <DataExchange/Interface/Interface_Statics.hxx>

@@ -17,10 +17,10 @@
 // sln 03.10.2001. BUC61003. Correction of alphabetic order of complex entity's items 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepAP214/RWStepAP214_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(RWStepAP214_ReadWriteModule)
@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(RWStepAP214_ReadWriteModule)
 IMPLEMENT_DOWNCAST(RWStepAP214_ReadWriteModule,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(RWStepAP214_ReadWriteModule)
 #include <DataExchange/Interface/Interface_ReaderLib.hxx>
-#include <StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
 #include <DataExchange/StepAP214/StepAP214_Protocol.hxx>
 //#include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>

@@ -25,7 +25,7 @@
 #include <StepFEA_Curve3dElementRepresentation.hxx>
 #include <StepFEA_ElementRepresentation.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepAP209/StepAP209_Construct.hxx>
 
@@ -100,7 +100,7 @@
 
 #include <StepShape_ShapeDefinitionRepresentation.hxx>
 
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 
 #include <StepElement_AnalysisItemWithinRepresentation.hxx>
 

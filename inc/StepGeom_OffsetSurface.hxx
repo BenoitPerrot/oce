@@ -12,7 +12,7 @@
 
 #include <Handle_StepGeom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <StepData_Logical.hxx>
+#include <DataExchange/StepData/StepData_Logical.hxx>
 #include <StepGeom_Surface.hxx>
 #include <Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Surface;

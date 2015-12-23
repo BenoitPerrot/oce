@@ -14,7 +14,7 @@
 #include <DataExchange/RWHeaderSection/RWHeaderSection.hxx>
 /// #include <EuclidStandard.hxx>
 
-#include <StepData.hxx>
+#include <DataExchange/StepData/StepData.hxx>
 
 #include <DataExchange/HeaderSection/HeaderSection_Protocol.hxx>
 

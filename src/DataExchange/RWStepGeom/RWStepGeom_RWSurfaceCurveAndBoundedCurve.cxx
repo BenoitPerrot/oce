@@ -18,16 +18,16 @@
 //       which is necessary for reading curve_bounded_surfaces
 //       This class is based on RWSurfaceCurve
 
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_SurfaceCurveAndBoundedCurve.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceCurveAndBoundedCurve.hxx>
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepGeom_SurfaceCurve.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/RWStepGeom/RWStepGeom_RWSurfaceCurve.hxx>
 #include <StepGeom_Curve.hxx>

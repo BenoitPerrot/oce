@@ -28,9 +28,9 @@
 #define StepFile_Read_HeaderFile
 
 //# include <stepread.h>  : sauf recfile_modeprint, declare ici
-# include <StepData_StepModel.hxx>
-# include <StepData_FileRecognizer.hxx>
-# include <StepData_Protocol.hxx>
+# include <DataExchange/StepData/StepData_StepModel.hxx>
+# include <DataExchange/StepData/StepData_FileRecognizer.hxx>
+# include <DataExchange/StepData/StepData_Protocol.hxx>
 
 
 Standard_EXPORT void StepFile_ReadTrace (const Standard_Integer mode);

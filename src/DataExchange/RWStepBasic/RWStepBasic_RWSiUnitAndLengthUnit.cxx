@@ -13,10 +13,10 @@
 
 // pdn 24.12.98 t3d_opt.stp: treatment of unsorted uncertanties
 
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitAndLengthUnit.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/RWStepBasic/RWStepBasic_RWSiUnitAndLengthUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_LengthUnit.hxx>

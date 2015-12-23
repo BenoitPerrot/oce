@@ -20,7 +20,7 @@
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_StepModel)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,10 +32,10 @@ IMPLEMENT_STANDARD_TYPE_END(StepData_StepModel)
 IMPLEMENT_DOWNCAST(StepData_StepModel,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_StepModel)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <StepData_Protocol.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 
-#include <StepData.hxx>
+#include <DataExchange/StepData/StepData.hxx>
 #include <DataExchange/Interface/Interface_CopyTool.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>

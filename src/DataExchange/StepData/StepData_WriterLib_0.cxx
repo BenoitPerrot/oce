@@ -3,33 +3,33 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <StepData_WriterLib.hxx>
+#include <DataExchange/StepData/StepData_WriterLib.hxx>
 
-#include <StepData_NodeOfWriterLib.hxx>
+#include <DataExchange/StepData/StepData_NodeOfWriterLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <StepData_ReadWriteModule.hxx>
-#include <StepData_Protocol.hxx>
-#include <StepData_GlobalNodeOfWriterLib.hxx>
+#include <DataExchange/StepData/StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_GlobalNodeOfWriterLib.hxx>
  
 
 #define TheObject Handle(Standard_Transient)
 #define TheObject_hxx <Foundation/Standard/Standard_Transient.hxx>
 #define Handle_TheModule Handle_StepData_ReadWriteModule
 #define TheModule StepData_ReadWriteModule
-#define TheModule_hxx <StepData_ReadWriteModule.hxx>
+#define TheModule_hxx <DataExchange/StepData/StepData_ReadWriteModule.hxx>
 #define Handle_TheProtocol Handle_StepData_Protocol
 #define TheProtocol StepData_Protocol
-#define TheProtocol_hxx <StepData_Protocol.hxx>
+#define TheProtocol_hxx <DataExchange/StepData/StepData_Protocol.hxx>
 #define LibCtl_GlobalNode StepData_GlobalNodeOfWriterLib
-#define LibCtl_GlobalNode_hxx <StepData_GlobalNodeOfWriterLib.hxx>
+#define LibCtl_GlobalNode_hxx <DataExchange/StepData/StepData_GlobalNodeOfWriterLib.hxx>
 #define LibCtl_Node StepData_NodeOfWriterLib
-#define LibCtl_Node_hxx <StepData_NodeOfWriterLib.hxx>
+#define LibCtl_Node_hxx <DataExchange/StepData/StepData_NodeOfWriterLib.hxx>
 #define Handle_LibCtl_GlobalNode Handle_StepData_GlobalNodeOfWriterLib
 #define LibCtl_GlobalNode_Type_() StepData_GlobalNodeOfWriterLib_Type_()
 #define Handle_LibCtl_Node Handle_StepData_NodeOfWriterLib
 #define LibCtl_Node_Type_() StepData_NodeOfWriterLib_Type_()
 #define LibCtl_Library StepData_WriterLib
-#define LibCtl_Library_hxx <StepData_WriterLib.hxx>
+#define LibCtl_Library_hxx <DataExchange/StepData/StepData_WriterLib.hxx>
 #include <DataExchange/LibCtl/LibCtl_Library.gxx>
 

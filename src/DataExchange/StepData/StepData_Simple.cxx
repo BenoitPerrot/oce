@@ -12,12 +12,12 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
-#include <StepData_ESDescr.hxx>
-#include <StepData_Field.hxx>
-#include <StepData_FieldListN.hxx>
+#include <DataExchange/StepData/StepData_ESDescr.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_FieldListN.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepData_Simple.hxx>
+#include <DataExchange/StepData/StepData_Simple.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Simple)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

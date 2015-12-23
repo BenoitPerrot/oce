@@ -32,16 +32,16 @@ IMPLEMENT_STANDARD_RTTI(StepSelect_WorkLibrary)
 #include <sys/stat.h>
 #include <errno.h>
 
-#include <StepData_Protocol.hxx>
-#include <StepData_StepModel.hxx>
+#include <DataExchange/StepData/StepData_Protocol.hxx>
+#include <DataExchange/StepData/StepData_StepModel.hxx>
 #include <StepFile_Read.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 
 #include <StepSelect_FileModifier.hxx>
 
-#include <StepData_UndefinedEntity.hxx>
-#include <StepData_StepDumper.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_StepDumper.hxx>
 
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>

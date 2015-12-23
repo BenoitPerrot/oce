@@ -11,7 +11,7 @@
 #include <Handle_StepData_SelectArrReal.hxx>
 
 #include <Handle_TColStd_HArray1OfReal.hxx>
-#include <StepData_SelectNamed.hxx>
+#include <DataExchange/StepData/StepData_SelectNamed.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfReal;
 

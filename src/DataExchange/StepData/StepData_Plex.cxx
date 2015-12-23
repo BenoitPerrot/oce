@@ -12,13 +12,13 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/Interface/Interface_InterfaceMismatch.hxx>
-#include <StepData_ECDescr.hxx>
-#include <StepData_Simple.hxx>
-#include <StepData_Field.hxx>
+#include <DataExchange/StepData/StepData_ECDescr.hxx>
+#include <DataExchange/StepData/StepData_Simple.hxx>
+#include <DataExchange/StepData/StepData_Field.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfAsciiString.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
-#include <StepData_Plex.hxx>
+#include <DataExchange/StepData/StepData_Plex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_Plex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

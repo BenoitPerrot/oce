@@ -13,10 +13,10 @@
 
 //:k4 abv 30.11.98: TR9: warnings for BWV
 
-#include <StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/StepData_StepReaderData.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <StepShape_BrepWithVoids.hxx>
-#include <StepData_StepWriter.hxx>
+#include <DataExchange/StepData/StepData_StepWriter.hxx>
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/RWStepShape/RWStepShape_RWBrepWithVoids.hxx>

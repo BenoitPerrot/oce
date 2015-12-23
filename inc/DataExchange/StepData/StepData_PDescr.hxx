@@ -13,7 +13,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Handle_StepData_PDescr.hxx>
-#include <StepData_EnumTool.hxx>
+#include <DataExchange/StepData/StepData_EnumTool.hxx>
 #include <Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

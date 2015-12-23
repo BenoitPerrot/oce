@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepData_HArray1OfField.hxx>
 
-#include <StepData_Array1OfField.hxx>
+#include <DataExchange/StepData/StepData_Array1OfField.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 StepData_Field
-#define ItemHArray1_hxx <StepData_Field.hxx>
+#define ItemHArray1_hxx <DataExchange/StepData/StepData_Field.hxx>
 #define TheArray1 StepData_Array1OfField
-#define TheArray1_hxx <StepData_Array1OfField.hxx>
+#define TheArray1_hxx <DataExchange/StepData/StepData_Array1OfField.hxx>
 #define TCollection_HArray1 StepData_HArray1OfField
-#define TCollection_HArray1_hxx <StepData_HArray1OfField.hxx>
+#define TCollection_HArray1_hxx <DataExchange/StepData/StepData_HArray1OfField.hxx>
 #define Handle_TCollection_HArray1 Handle_StepData_HArray1OfField
 #define TCollection_HArray1_Type_() StepData_HArray1OfField_Type_()
 

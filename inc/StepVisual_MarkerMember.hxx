@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_StepVisual_MarkerMember.hxx>
 
-#include <StepData_SelectInt.hxx>
+#include <DataExchange/StepData/StepData_SelectInt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

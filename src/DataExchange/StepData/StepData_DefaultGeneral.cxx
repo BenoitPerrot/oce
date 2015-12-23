@@ -16,7 +16,7 @@
 #include <DataExchange/Interface/Interface_ShareTool.hxx>
 #include <DataExchange/Interface/Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_CopyTool.hxx>
-#include <StepData_DefaultGeneral.hxx>
+#include <DataExchange/StepData/StepData_DefaultGeneral.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(StepData_DefaultGeneral)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -28,9 +28,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StepData_DefaultGeneral)
 IMPLEMENT_DOWNCAST(StepData_DefaultGeneral,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StepData_DefaultGeneral)
-#include <StepData.hxx>
+#include <DataExchange/StepData/StepData.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 #include <DataExchange/Interface/Interface_UndefinedContent.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>

@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(RWHeaderSection_GeneralModule)
 #include <DataExchange/HeaderSection/HeaderSection_FileDescription.hxx>
 #include <DataExchange/HeaderSection/HeaderSection_FileSchema.hxx>
 
-#include <StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/StepData_UndefinedEntity.hxx>
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
 
