@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDataStd.hxx>
+#include <Viewer/DDataStd/DDataStd.hxx>
 #include <DDF.hxx>
 #include <Draw.hxx>
 #include <Draw_Drawable3D.hxx>
@@ -49,8 +49,8 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 
-#include <DDataStd_DrawPresentation.hxx>
-#include <DDataStd_DrawDriver.hxx>
+#include <Viewer/DDataStd/DDataStd_DrawPresentation.hxx>
+#include <Viewer/DDataStd/DDataStd_DrawDriver.hxx>
 
 #ifndef WNT
 extern Draw_Viewer dout;

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
-#include <DDataStd.hxx>
+#include <Viewer/DDataStd/DDataStd.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>

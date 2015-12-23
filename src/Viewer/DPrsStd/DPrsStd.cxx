@@ -20,7 +20,7 @@
 
 #include <Draw_PluginMacro.hxx>
 #include <DNaming.hxx>
-#include <DDataStd.hxx> 
+#include <Viewer/DDataStd/DDataStd.hxx> 
 #include <DDF.hxx> 
 #include <DDocStd.hxx>
 //#include <OCAF/AppStdL/AppStdL_Application.hxx>

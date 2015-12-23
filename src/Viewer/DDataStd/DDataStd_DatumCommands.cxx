@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <DDataStd.hxx>
+#include <Viewer/DDataStd/DDataStd.hxx>
 #include <DDF.hxx>
 #include <Draw_Interpretor.hxx>
 #include <Draw_Appli.hxx>
@@ -50,7 +50,7 @@
 
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 
-#include <DDataStd_DrawPresentation.hxx>
+#include <Viewer/DDataStd/DDataStd_DrawPresentation.hxx>
 
 //=======================================================================
 //function : DDataStd_SetPoint

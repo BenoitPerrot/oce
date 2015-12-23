@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
-#include <DDataStd.hxx>
+#include <Viewer/DDataStd/DDataStd.hxx>
 #include <DDF.hxx>
 
 #include <Draw.hxx>
@@ -28,7 +28,7 @@
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 
-#include <DDataStd_TreeBrowser.hxx>
+#include <Viewer/DDataStd/DDataStd_TreeBrowser.hxx>
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_ChildNodeIterator.hxx>
 

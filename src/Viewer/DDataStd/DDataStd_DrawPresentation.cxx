@@ -20,7 +20,7 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_AttributeDelta.hxx>
-#include <DDataStd_DrawPresentation.hxx>
+#include <Viewer/DDataStd/DDataStd_DrawPresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDataStd_DrawPresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawPresentation)
 #include <OCAF/TDF/TDF_DefaultDeltaOnRemoval.hxx>
 #include <OCAF/TDF/TDF_DeltaOnAddition.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <DDataStd_DrawDriver.hxx>
+#include <Viewer/DDataStd/DDataStd_DrawDriver.hxx>
 
 #ifndef WNT
 extern Draw_Viewer dout;

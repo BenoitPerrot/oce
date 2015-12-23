@@ -1622,7 +1622,7 @@ static Standard_Integer OCC738_Assembly (Draw_Interpretor& di, Standard_Integer 
 }
 
 #if defined(DDataStd_def01)
-#include <DDataStd_DrawPresentation.hxx>
+#include <Viewer/DDataStd/DDataStd_DrawPresentation.hxx>
 //=======================================================================
 //function :  OCC739_DrawPresentation
 //purpose  : 

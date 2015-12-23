@@ -18,7 +18,7 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <DDataStd_DrawDriver.hxx>
+#include <Viewer/DDataStd/DDataStd_DrawDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(DDataStd_DrawDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(DDataStd_DrawDriver)
 
 #include <Draw.hxx>
 #include <Draw_Drawable3D.hxx>
-#include <DDataStd.hxx>
+#include <Viewer/DDataStd/DDataStd.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <OCAF/TNaming/TNaming_Tool.hxx>
