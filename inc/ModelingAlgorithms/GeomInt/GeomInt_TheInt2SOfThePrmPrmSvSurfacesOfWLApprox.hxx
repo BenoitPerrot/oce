@@ -14,7 +14,7 @@
 #include <IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Adaptor3d_HSurface.hxx>
 #include <IntImp_ConstIsoparametric.hxx>
@@ -109,9 +109,9 @@ private:
 #define ThePSurfaceTool Adaptor3d_HSurfaceTool
 #define ThePSurfaceTool_hxx <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #define IntImp_TheFunction GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox
-#define IntImp_TheFunction_hxx <GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#define IntImp_TheFunction_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #define IntImp_Int2S GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox
-#define IntImp_Int2S_hxx <GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#define IntImp_Int2S_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 
 #include <IntImp_Int2S.lxx>
 

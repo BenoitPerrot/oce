@@ -79,7 +79,7 @@
 #include <IntTools_Tools.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <GeomInt.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 static 
   Standard_Boolean CheckEdgeLength (const TopoDS_Edge& );

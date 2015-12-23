@@ -19,11 +19,11 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <IntPatch_Line.hxx>
-#include <GeomInt_LineConstructor.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_LineConstructor.hxx>
 
-#include <GeomInt_LineTool.hxx>
-#include <GeomInt_SequenceOfParameterAndOrientation.hxx>
-#include <GeomInt_ParameterAndOrientation.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_LineTool.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_SequenceOfParameterAndOrientation.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_ParameterAndOrientation.hxx>
 
 #include <IntPatch_Point.hxx>
 #include <IntPatch_GLine.hxx>
@@ -44,7 +44,7 @@
 #include <GeomAbs_SurfaceType.hxx>
 
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
-#include <GeomInt.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 
 static

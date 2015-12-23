@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <GeomInt_TheMultiLineOfWLApprox.hxx>
-#include <GeomInt_TheMultiLineToolOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineToolOfWLApprox.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
@@ -21,10 +21,10 @@
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox
-#define MultiLine_hxx <GeomInt_TheMultiLineOfWLApprox.hxx>
+#define MultiLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 #define ToolLine GeomInt_TheMultiLineToolOfWLApprox
-#define ToolLine_hxx <GeomInt_TheMultiLineToolOfWLApprox.hxx>
+#define ToolLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineToolOfWLApprox.hxx>
 #define AppParCurves_LeastSquare GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox
-#define AppParCurves_LeastSquare_hxx <GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#define AppParCurves_LeastSquare_hxx <ModelingAlgorithms/GeomInt/GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <Geometry/AppParCurves/AppParCurves_LeastSquare.gxx>
 

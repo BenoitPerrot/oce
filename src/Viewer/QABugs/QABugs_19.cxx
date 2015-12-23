@@ -444,7 +444,7 @@ static Standard_Integer OCC23952sweep (Draw_Interpretor& di, Standard_Integer ar
 	return 0;
 }
 
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 static void GeomIntSSTest (Draw_Interpretor& di, Standard_Integer theNbSol, Standard_CString theFileName1, Standard_CString theFileName2)
 {
 	Handle(Geom_Surface) aSurf1 = DrawTrSurf::GetSurface(theFileName1);
@@ -1578,7 +1578,7 @@ static Standard_Integer OCC24271 (Draw_Interpretor& di,
   di << "Checking " #val1 " == Standard_True" << \
         ((val1) == Standard_True ? ": OK\n" : ": Error\n")
 
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <Geometry/Geom/Geom_ConicalSurface.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 //=======================================================================

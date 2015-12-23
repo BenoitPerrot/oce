@@ -84,7 +84,7 @@ private:
 };
 
 
-#include <GeomInt_LineConstructor.lxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_LineConstructor.lxx>
 
 
 

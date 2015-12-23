@@ -3,43 +3,46 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#ifndef _GeomInt_ParFunctionOfMyGradientOfTheComputeLineBezierOfWLApprox_HeaderFile
-#define _GeomInt_ParFunctionOfMyGradientOfTheComputeLineBezierOfWLApprox_HeaderFile
+#ifndef _GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox_HeaderFile
+#define _GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox_HeaderFile
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomInt_TheMultiLineOfWLApprox.hxx>
-#include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
+#include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
+#include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 class TColStd_HArray1OfInteger;
 class AppParCurves_HArray1OfConstraintCouple;
 class GeomInt_TheMultiLineOfWLApprox;
 class GeomInt_TheMultiLineToolOfWLApprox;
-class GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox;
-class GeomInt_ResConstraintOfMyGradientOfTheComputeLineBezierOfWLApprox;
-class AppParCurves_MultiCurve;
+class GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox;
+class TColStd_Array1OfReal;
+class TColStd_Array1OfInteger;
+class AppParCurves_MultiBSpCurve;
+class math_Matrix;
 
 
 
-class GeomInt_ParFunctionOfMyGradientOfTheComputeLineBezierOfWLApprox  : public math_MultipleVarFunctionWithGradient
+class GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox  : public math_MultipleVarFunctionWithGradient
 {
 public:
 
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT GeomInt_ParFunctionOfMyGradientOfTheComputeLineBezierOfWLApprox(const GeomInt_TheMultiLineOfWLApprox& SSP, const Standard_Integer FirstPoint, const Standard_Integer LastPoint, const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const math_Vector& Parameters, const Standard_Integer Deg);
+  Standard_EXPORT GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox(const GeomInt_TheMultiLineOfWLApprox& SSP, const Standard_Integer FirstPoint, const Standard_Integer LastPoint, const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const math_Vector& Parameters, const TColStd_Array1OfReal& Knots, const TColStd_Array1OfInteger& Mults, const Standard_Integer NbPol);
   
   Standard_EXPORT   Standard_Integer NbVariables()  const;
   
@@ -51,17 +54,27 @@ public:
   
   Standard_EXPORT  const  math_Vector& NewParameters()  const;
   
-  Standard_EXPORT  const  AppParCurves_MultiCurve& CurveValue() ;
+  Standard_EXPORT   AppParCurves_MultiBSpCurve CurveValue() ;
   
-  Standard_EXPORT   Standard_Real Error (const Standard_Integer IPoint, const Standard_Integer CurveIndex)  const;
+  Standard_EXPORT   Standard_Real Error (const Standard_Integer IPoint, const Standard_Integer CurveIndex) ;
   
   Standard_EXPORT   Standard_Real MaxError3d()  const;
   
   Standard_EXPORT   Standard_Real MaxError2d()  const;
   
+  Standard_EXPORT  const  math_Matrix& FunctionMatrix()  const;
+  
+  Standard_EXPORT  const  math_Matrix& DerivativeFunctionMatrix()  const;
+  
+  Standard_EXPORT  const  math_IntegerVector& Index()  const;
+  
   Standard_EXPORT   AppParCurves_Constraint FirstConstraint (const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const Standard_Integer FirstPoint)  const;
   
   Standard_EXPORT   AppParCurves_Constraint LastConstraint (const Handle(AppParCurves_HArray1OfConstraintCouple)& TheConstraints, const Standard_Integer LastPoint)  const;
+  
+  Standard_EXPORT   void SetFirstLambda (const Standard_Real l1) ;
+  
+  Standard_EXPORT   void SetLastLambda (const Standard_Real l2) ;
 
 
 
@@ -80,8 +93,8 @@ private:
 
   Standard_Boolean Done;
   GeomInt_TheMultiLineOfWLApprox MyMultiLine;
-  AppParCurves_MultiCurve MyMultiCurve;
-  Standard_Integer Degre;
+  AppParCurves_MultiBSpCurve MyMultiBSpCurve;
+  Standard_Integer nbpoles;
   math_Vector myParameters;
   Standard_Real FVal;
   math_Vector ValGrad_F;
@@ -91,7 +104,7 @@ private:
   math_Matrix PTLZ;
   math_Matrix A;
   math_Matrix DA;
-  GeomInt_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfWLApprox MyLeastSquare;
+  GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox MyLeastSquare;
   Standard_Boolean Contraintes;
   Standard_Integer NbP;
   Standard_Integer NbCu;
@@ -103,6 +116,8 @@ private:
   Standard_Integer FirstP;
   Standard_Integer LastP;
   Handle(AppParCurves_HArray1OfConstraintCouple) myConstraints;
+  Standard_Real mylambda1;
+  Standard_Real mylambda2;
 
 
 };
@@ -113,4 +128,4 @@ private:
 
 
 
-#endif // _GeomInt_ParFunctionOfMyGradientOfTheComputeLineBezierOfWLApprox_HeaderFile
+#endif // _GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox_HeaderFile

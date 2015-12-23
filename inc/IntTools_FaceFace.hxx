@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <IntPatch_Intersection.hxx>
-#include <GeomInt_LineConstructor.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_LineConstructor.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

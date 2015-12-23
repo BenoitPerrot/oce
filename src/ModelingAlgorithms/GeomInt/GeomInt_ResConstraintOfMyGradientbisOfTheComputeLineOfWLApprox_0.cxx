@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GeomInt_TheMultiLineOfWLApprox.hxx>
-#include <GeomInt_TheMultiLineToolOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineToolOfWLApprox.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox
-#define MultiLine_hxx <GeomInt_TheMultiLineOfWLApprox.hxx>
+#define MultiLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 #define ToolLine GeomInt_TheMultiLineToolOfWLApprox
-#define ToolLine_hxx <GeomInt_TheMultiLineToolOfWLApprox.hxx>
+#define ToolLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineToolOfWLApprox.hxx>
 #define AppParCurves_ResolConstraint GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox
-#define AppParCurves_ResolConstraint_hxx <GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
+#define AppParCurves_ResolConstraint_hxx <ModelingAlgorithms/GeomInt/GeomInt_ResConstraintOfMyGradientbisOfTheComputeLineOfWLApprox.hxx>
 #include <Geometry/AppParCurves/AppParCurves_ResolConstraint.gxx>
 

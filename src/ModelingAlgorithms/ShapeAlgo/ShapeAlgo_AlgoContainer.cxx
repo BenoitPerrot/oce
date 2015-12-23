@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeAlgo_AlgoContainer)
 IMPLEMENT_DOWNCAST(ShapeAlgo_AlgoContainer,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 
-#include <GeomInt_WLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_WLApprox.hxx>
 #include <IntSurf_LineOn2S.hxx>
 #include <IntSurf_PntOn2S.hxx>
 #include <IntPatch_WLine.hxx>

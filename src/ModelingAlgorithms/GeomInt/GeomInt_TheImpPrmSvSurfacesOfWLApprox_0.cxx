@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_TheImpPrmSvSurfacesOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheImpPrmSvSurfacesOfWLApprox.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <IntSurf_Quadric.hxx>
 #include <IntSurf_QuadricTool.hxx>
 #include <IntPatch_WLine.hxx>
-#include <GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
@@ -28,8 +28,8 @@
 #define TheLine IntPatch_WLine
 #define TheLine_hxx <IntPatch_WLine.hxx>
 #define ApproxInt_TheZerImpFunc GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox
-#define ApproxInt_TheZerImpFunc_hxx <GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
+#define ApproxInt_TheZerImpFunc_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #define ApproxInt_ImpPrmSvSurfaces GeomInt_TheImpPrmSvSurfacesOfWLApprox
-#define ApproxInt_ImpPrmSvSurfaces_hxx <GeomInt_TheImpPrmSvSurfacesOfWLApprox.hxx>
+#define ApproxInt_ImpPrmSvSurfaces_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheImpPrmSvSurfacesOfWLApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_ImpPrmSvSurfaces.gxx>
 

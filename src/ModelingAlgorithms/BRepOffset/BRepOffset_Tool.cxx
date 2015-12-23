@@ -112,7 +112,7 @@
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/ProjLib/ProjLib_HProjectedCurve.hxx>
 

@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_ThePrmPrmSvSurfacesOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_ThePrmPrmSvSurfacesOfWLApprox.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 #include <IntPatch_WLine.hxx>
-#include <GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
-#include <GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
@@ -23,12 +23,12 @@
 #define TheLine IntPatch_WLine
 #define TheLine_hxx <IntPatch_WLine.hxx>
 #define ApproxInt_TheInt2S GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox
-#define ApproxInt_TheInt2S_hxx <GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#define ApproxInt_TheInt2S_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #define ApproxInt_TheFunctionOfTheInt2S GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox
-#define ApproxInt_TheFunctionOfTheInt2S_hxx <GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#define ApproxInt_TheFunctionOfTheInt2S_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #define ApproxInt_TheFunctionOfTheInt2S GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox
-#define ApproxInt_TheFunctionOfTheInt2S_hxx <GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
+#define ApproxInt_TheFunctionOfTheInt2S_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #define ApproxInt_PrmPrmSvSurfaces GeomInt_ThePrmPrmSvSurfacesOfWLApprox
-#define ApproxInt_PrmPrmSvSurfaces_hxx <GeomInt_ThePrmPrmSvSurfacesOfWLApprox.hxx>
+#define ApproxInt_PrmPrmSvSurfaces_hxx <ModelingAlgorithms/GeomInt/GeomInt_ThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_PrmPrmSvSurfaces.gxx>
 

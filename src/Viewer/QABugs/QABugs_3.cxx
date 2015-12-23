@@ -22,7 +22,7 @@
 #include <DBRep.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Graphic3d_ClipPlane.hxx>

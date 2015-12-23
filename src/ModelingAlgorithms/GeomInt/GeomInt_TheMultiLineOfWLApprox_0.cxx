@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_TheMultiLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 
 #include <IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
@@ -19,6 +19,6 @@
 #define TheSvSurfaces ApproxInt_SvSurfaces
 #define TheSvSurfaces_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLine GeomInt_TheMultiLineOfWLApprox
-#define ApproxInt_MultiLine_hxx <GeomInt_TheMultiLineOfWLApprox.hxx>
+#define ApproxInt_MultiLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_MultiLine.gxx>
 

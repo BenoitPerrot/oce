@@ -22,7 +22,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

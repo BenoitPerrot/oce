@@ -47,7 +47,7 @@
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec2d.hxx>
 #include <IntTools_Tools.hxx>
-#include <GeomInt.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 //=======================================================================
 //function : IntTools_FClass2d:IntTools:_FClass2d

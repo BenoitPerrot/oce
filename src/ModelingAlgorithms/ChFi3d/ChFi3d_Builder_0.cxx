@@ -122,8 +122,8 @@
 #include <IntWalk_PWalking.hxx>
 #include <IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
-#include <GeomInt_WLApprox.hxx>
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_WLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Geometry/Approx/Approx_SameParameter.hxx>
 

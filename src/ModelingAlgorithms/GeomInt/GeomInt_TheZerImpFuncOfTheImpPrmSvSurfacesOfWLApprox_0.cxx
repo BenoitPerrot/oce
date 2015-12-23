@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
@@ -25,6 +25,6 @@
 #define TheISurfaceTool IntSurf_QuadricTool
 #define TheISurfaceTool_hxx <IntSurf_QuadricTool.hxx>
 #define IntImp_ZerImpFunc GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox
-#define IntImp_ZerImpFunc_hxx <GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
+#define IntImp_ZerImpFunc_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #include <IntImp_ZerImpFunc.gxx>
 

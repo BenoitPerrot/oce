@@ -3,15 +3,15 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GeomInt_TheMultiLineOfWLApprox.hxx>
-#include <GeomInt_TheMultiLineToolOfWLApprox.hxx>
-#include <GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
-#include <GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
-#include <GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineToolOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <Geometry/AppParCurves/AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -19,16 +19,16 @@
  
 
 #define MultiLine GeomInt_TheMultiLineOfWLApprox
-#define MultiLine_hxx <GeomInt_TheMultiLineOfWLApprox.hxx>
+#define MultiLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 #define ToolLine GeomInt_TheMultiLineToolOfWLApprox
-#define ToolLine_hxx <GeomInt_TheMultiLineToolOfWLApprox.hxx>
+#define ToolLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineToolOfWLApprox.hxx>
 #define AppParCurves_BSpParLeastSquare GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox
-#define AppParCurves_BSpParLeastSquare_hxx <GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#define AppParCurves_BSpParLeastSquare_hxx <ModelingAlgorithms/GeomInt/GeomInt_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #define AppParCurves_BSpParFunction GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox
-#define AppParCurves_BSpParFunction_hxx <GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#define AppParCurves_BSpParFunction_hxx <ModelingAlgorithms/GeomInt/GeomInt_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #define AppParCurves_BSpGradient_BFGS GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox
-#define AppParCurves_BSpGradient_BFGS_hxx <GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#define AppParCurves_BSpGradient_BFGS_hxx <ModelingAlgorithms/GeomInt/GeomInt_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #define AppParCurves_BSpGradient GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox
-#define AppParCurves_BSpGradient_hxx <GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox.hxx>
+#define AppParCurves_BSpGradient_hxx <ModelingAlgorithms/GeomInt/GeomInt_MyBSplGradientOfTheComputeLineOfWLApprox.hxx>
 #include <Geometry/AppParCurves/AppParCurves_BSpGradient.gxx>
 

@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <GeomInt_TheComputeLineOfWLApprox.hxx>
-#include <GeomInt_TheComputeLineBezierOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheComputeLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheComputeLineBezierOfWLApprox.hxx>
 #include <Geometry/Approx/Approx_MCurvesToBSpCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

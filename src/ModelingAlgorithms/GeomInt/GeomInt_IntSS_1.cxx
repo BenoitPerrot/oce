@@ -22,7 +22,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 
 #include <Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -80,7 +80,7 @@
 
 #include <ElSLib.hxx>
 
-#include <GeomInt_WLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_WLApprox.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 
 static

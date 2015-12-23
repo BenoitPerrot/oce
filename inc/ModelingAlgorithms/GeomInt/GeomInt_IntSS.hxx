@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <IntPatch_Intersection.hxx>
-#include <GeomInt_LineConstructor.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_LineConstructor.hxx>
 #include <Handle_GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
@@ -124,7 +124,7 @@ private:
 };
 
 
-#include <GeomInt_IntSS.lxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.lxx>
 
 
 

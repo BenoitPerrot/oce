@@ -16,7 +16,7 @@
 
 #include <IntPatch_Line.hxx>
 #include <IntPatch_Point.hxx>
-#include <GeomInt_LineTool.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_LineTool.hxx>
 
 #include <IntPatch_WLine.hxx>
 #include <IntPatch_RLine.hxx>

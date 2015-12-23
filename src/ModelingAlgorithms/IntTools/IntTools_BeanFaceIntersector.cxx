@@ -71,7 +71,7 @@
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <ElCLib.hxx>
 #include <ElSLib.hxx>
-#include <GeomInt.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 static Standard_Boolean SetEmptyResultRange(const Standard_Real      theParameter, 
                                             IntTools_MarkedRangeSet& theMarkedRange);

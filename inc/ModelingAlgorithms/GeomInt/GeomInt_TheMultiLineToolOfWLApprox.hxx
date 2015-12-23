@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomInt_TheMultiLineOfWLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 #include <Geometry/Approx/Approx_Status.hxx>
 class GeomInt_TheMultiLineOfWLApprox;
 class ApproxInt_SvSurfaces;
@@ -78,11 +78,11 @@ private:
 };
 
 #define TheMultiLine GeomInt_TheMultiLineOfWLApprox
-#define TheMultiLine_hxx <GeomInt_TheMultiLineOfWLApprox.hxx>
+#define TheMultiLine_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineOfWLApprox.hxx>
 #define TheMultiMPoint ApproxInt_SvSurfaces
 #define TheMultiMPoint_hxx <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
 #define ApproxInt_MultiLineTool GeomInt_TheMultiLineToolOfWLApprox
-#define ApproxInt_MultiLineTool_hxx <GeomInt_TheMultiLineToolOfWLApprox.hxx>
+#define ApproxInt_MultiLineTool_hxx <ModelingAlgorithms/GeomInt/GeomInt_TheMultiLineToolOfWLApprox.hxx>
 
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_MultiLineTool.lxx>
 

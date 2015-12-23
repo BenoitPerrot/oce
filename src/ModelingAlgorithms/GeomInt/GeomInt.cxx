@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomInt.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 
 //=======================================================================

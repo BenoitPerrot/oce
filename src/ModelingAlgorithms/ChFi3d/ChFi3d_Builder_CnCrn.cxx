@@ -100,7 +100,7 @@
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>

@@ -72,7 +72,7 @@
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>

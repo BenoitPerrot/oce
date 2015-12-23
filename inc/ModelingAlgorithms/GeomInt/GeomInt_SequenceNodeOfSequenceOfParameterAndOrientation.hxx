@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
 
-#include <GeomInt_ParameterAndOrientation.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_ParameterAndOrientation.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class GeomInt_ParameterAndOrientation;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem GeomInt_ParameterAndOrientation
-#define SeqItem_hxx <GeomInt_ParameterAndOrientation.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/GeomInt/GeomInt_ParameterAndOrientation.hxx>
 #define TCollection_SequenceNode GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation
-#define TCollection_SequenceNode_hxx <GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomInt/GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation
 #define TCollection_SequenceNode_Type_() GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation_Type_()
 #define TCollection_Sequence GeomInt_SequenceOfParameterAndOrientation
-#define TCollection_Sequence_hxx <GeomInt_SequenceOfParameterAndOrientation.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomInt/GeomInt_SequenceOfParameterAndOrientation.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

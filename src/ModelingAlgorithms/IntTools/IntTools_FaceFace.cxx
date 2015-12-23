@@ -101,7 +101,7 @@
 #include <Geometry/GeomLib/GeomLib_CheckBSplineCurve.hxx>
 #include <Geometry/GeomLib/GeomLib_Check2dBSplineCurve.hxx>
 
-#include <GeomInt_WLApprox.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_WLApprox.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
@@ -121,7 +121,7 @@
 #include <IntTools_PntOn2Faces.hxx>
 #include <IntTools_Context.hxx>
 #include <IntSurf_ListIteratorOfListOfPntOn2S.hxx>
-#include <GeomInt.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 static
   void RefineVector(gp_Vec2d& aV2D);

@@ -98,7 +98,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <GeomInt_IntSS.hxx>
+#include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
