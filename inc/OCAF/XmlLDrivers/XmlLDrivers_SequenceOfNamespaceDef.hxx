@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem XmlLDrivers_NamespaceDef
-#define SeqItem_hxx <XmlLDrivers_NamespaceDef.hxx>
+#define SeqItem_hxx <OCAF/XmlLDrivers/XmlLDrivers_NamespaceDef.hxx>
 #define TCollection_SequenceNode XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef
-#define TCollection_SequenceNode_hxx <XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
+#define TCollection_SequenceNode_hxx <OCAF/XmlLDrivers/XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
 #define Handle_TCollection_SequenceNode Handle_XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef
 #define TCollection_SequenceNode_Type_() XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef_Type_()
 #define TCollection_Sequence XmlLDrivers_SequenceOfNamespaceDef
-#define TCollection_Sequence_hxx <XmlLDrivers_SequenceOfNamespaceDef.hxx>
+#define TCollection_Sequence_hxx <OCAF/XmlLDrivers/XmlLDrivers_SequenceOfNamespaceDef.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

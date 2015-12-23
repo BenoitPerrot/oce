@@ -18,7 +18,7 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_DocumentStorageDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlLDrivers_DocumentStorageDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,8 +30,8 @@ IMPLEMENT_STANDARD_TYPE_END(XmlLDrivers_DocumentStorageDriver)
 IMPLEMENT_DOWNCAST(XmlLDrivers_DocumentStorageDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentStorageDriver)
 
-#include <XmlLDrivers.hxx>
-#include <XmlLDrivers_NamespaceDef.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_NamespaceDef.hxx>
 #include <XmlMDF.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 

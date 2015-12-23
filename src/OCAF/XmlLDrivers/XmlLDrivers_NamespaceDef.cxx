@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <XmlLDrivers_NamespaceDef.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_NamespaceDef.hxx>
 
 //=======================================================================
 //function : XmlLDrivers_NamespaceDef

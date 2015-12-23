@@ -18,10 +18,10 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
-#include <XmlLDrivers.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
 
-#include <XmlLDrivers_DocumentStorageDriver.hxx>
-#include <XmlLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_DocumentRetrievalDriver.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <XmlMDF.hxx>
 #include <XmlMDataStd.hxx>

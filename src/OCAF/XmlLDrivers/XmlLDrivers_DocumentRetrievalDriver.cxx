@@ -20,7 +20,7 @@
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <XmlMDF_ADriver.hxx>
-#include <XmlLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_DocumentRetrievalDriver.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XmlLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_TYPE_END(XmlLDrivers_DocumentRetrievalDriver)
 IMPLEMENT_DOWNCAST(XmlLDrivers_DocumentRetrievalDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(XmlLDrivers_DocumentRetrievalDriver)
 
-#include <XmlLDrivers.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
 #include <XmlMDF.hxx>
 #include <XmlObjMgt_RRelocationTable.hxx>
 #include <XmlObjMgt_Document.hxx>

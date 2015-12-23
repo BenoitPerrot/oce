@@ -19,7 +19,7 @@
 #define XmlTObjDrivers_DocumentStorageDriver_HeaderFile
 
 #include <OCAF/TObj/TObj_Common.hxx>
-#include <XmlLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_DocumentStorageDriver.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 
 class Handle(CDM_MessageDriver);

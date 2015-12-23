@@ -11,7 +11,7 @@
 #include <Handle_XmlLDrivers_DocumentStorageDriver.hxx>
 
 #include <Handle_XmlMDF_ADriverTable.hxx>
-#include <XmlLDrivers_SequenceOfNamespaceDef.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_SequenceOfNamespaceDef.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <XmlObjMgt_SRelocationTable.hxx>
 #include <OCAF/PCDM/PCDM_StorageDriver.hxx>

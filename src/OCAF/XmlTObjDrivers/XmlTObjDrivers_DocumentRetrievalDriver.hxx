@@ -19,7 +19,7 @@
 #define XmlTObjDrivers_DocumentRetrievalDriver_HeaderFile
 
 #include <OCAF/TObj/TObj_Common.hxx>
-#include <XmlLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers_DocumentRetrievalDriver.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 
 class Handle(CDM_MessageDriver);

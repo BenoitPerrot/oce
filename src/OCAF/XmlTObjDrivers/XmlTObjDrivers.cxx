@@ -15,7 +15,7 @@
 
 // The original implementation Copyright: (C) RINA S.p.A
 
-#include <XmlLDrivers.hxx>
+#include <OCAF/XmlLDrivers/XmlLDrivers.hxx>
 #include <XmlTObjDrivers.hxx>
 #include <XmlMDF_ADriverTable.hxx>
 #include <XmlTObjDrivers_DocumentStorageDriver.hxx>
