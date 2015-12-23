@@ -13,7 +13,7 @@
 
 #include <Handle_PGeom_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class PGeom_Curve;
 class PTopLoc_Location;

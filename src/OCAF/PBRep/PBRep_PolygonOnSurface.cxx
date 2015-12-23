@@ -15,7 +15,7 @@
 #include <PGeom_Surface.hxx>
 #include <PPoly_Polygon2D.hxx>
 #include <PTopLoc_Location.hxx>
-#include <PBRep_PolygonOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_PolygonOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

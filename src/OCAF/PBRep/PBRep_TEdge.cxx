@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_CurveRepresentation.hxx>
-#include <PBRep_TEdge.hxx>
+#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_TEdge.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_TEdge)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

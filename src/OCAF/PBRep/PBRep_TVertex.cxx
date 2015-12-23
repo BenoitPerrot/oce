@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <PBRep_TVertex.hxx>
+#include <OCAF/PBRep/PBRep_TVertex.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_TVertex)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -2,7 +2,7 @@
 #include <ShapeSchema_PBRep_TVertex1.hxx>
 #endif
 #ifndef _PBRep_TVertex1_HeaderFile
-#include <PBRep_TVertex1.hxx>
+#include <OCAF/PBRep/PBRep_TVertex1.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfShape1_HeaderFile
 #include <ShapeSchema_PTopoDS_HArray1OfShape1.hxx>

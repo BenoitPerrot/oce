@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PPoly_PolygonOnTriangulation.hxx>
 #include <Handle_PPoly_Triangulation.hxx>
-#include <PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PPoly_PolygonOnTriangulation;
 class PPoly_Triangulation;
 class PTopLoc_Location;

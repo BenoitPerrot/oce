@@ -15,7 +15,7 @@
 #include <PTopLoc_Location.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PGeom_Surface;
 class Standard_NullObject;
 class PTopLoc_Location;

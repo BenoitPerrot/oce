@@ -13,7 +13,7 @@
 
 #include <Handle_PGeom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PBRep_PointsOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_PointsOnSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_PGeom_Surface.hxx>
 class PGeom2d_Curve;

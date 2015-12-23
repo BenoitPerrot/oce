@@ -15,7 +15,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <PBRep_CurveOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_CurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_PGeom_Surface.hxx>
 class PGeom2d_Curve;

@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
 #include <PTopLoc_Location.hxx>
-#include <PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_PointRepresentation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

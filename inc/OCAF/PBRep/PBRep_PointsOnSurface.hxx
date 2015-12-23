@@ -12,7 +12,7 @@
 #include <Handle_PBRep_PointsOnSurface.hxx>
 
 #include <Handle_PGeom_Surface.hxx>
-#include <PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class PGeom_Surface;
 class PTopLoc_Location;

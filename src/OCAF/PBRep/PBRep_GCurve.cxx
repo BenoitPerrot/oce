@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <PTopLoc_Location.hxx>
-#include <PBRep_GCurve.hxx>
+#include <OCAF/PBRep/PBRep_GCurve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_GCurve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

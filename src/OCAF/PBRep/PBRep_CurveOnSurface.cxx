@@ -18,7 +18,7 @@
 #include <PGeom2d_Curve.hxx>
 #include <PTopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <PBRep_CurveOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_CurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_CurveOnSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

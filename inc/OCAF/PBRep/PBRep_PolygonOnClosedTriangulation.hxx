@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PPoly_PolygonOnTriangulation.hxx>
-#include <PBRep_PolygonOnTriangulation.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnTriangulation.hxx>
 #include <Handle_PPoly_Triangulation.hxx>
 class PPoly_PolygonOnTriangulation;
 class PPoly_Triangulation;

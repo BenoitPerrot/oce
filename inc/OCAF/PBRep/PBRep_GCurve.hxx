@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PTopLoc_Location;
 
 

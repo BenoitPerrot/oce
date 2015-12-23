@@ -70,23 +70,23 @@ IMPLEMENT_STANDARD_RTTI(MgtBRep_TranslateTool)
 #include <PTopoDS_TCompSolid.hxx>
 #include <PTopoDS_TCompound.hxx>
 
-#include <PBRep_TVertex.hxx>
-#include <PBRep_TEdge.hxx>
-#include <PBRep_TFace.hxx>
+#include <OCAF/PBRep/PBRep_TVertex.hxx>
+#include <OCAF/PBRep/PBRep_TEdge.hxx>
+#include <OCAF/PBRep/PBRep_TFace.hxx>
 
-#include <PBRep_Curve3D.hxx>
-#include <PBRep_CurveOnSurface.hxx>
-#include <PBRep_CurveOnClosedSurface.hxx>
-#include <PBRep_CurveOn2Surfaces.hxx>
+#include <OCAF/PBRep/PBRep_Curve3D.hxx>
+#include <OCAF/PBRep/PBRep_CurveOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_CurveOnClosedSurface.hxx>
+#include <OCAF/PBRep/PBRep_CurveOn2Surfaces.hxx>
 
-#include <PBRep_PointOnCurve.hxx>
-#include <PBRep_PointOnCurveOnSurface.hxx>
-#include <PBRep_PointOnSurface.hxx>
-#include <PBRep_Polygon3D.hxx>
-#include <PBRep_PolygonOnSurface.hxx>
-#include <PBRep_PolygonOnClosedSurface.hxx>
-#include <PBRep_PolygonOnTriangulation.hxx>
-#include <PBRep_PolygonOnClosedTriangulation.hxx>
+#include <OCAF/PBRep/PBRep_PointOnCurve.hxx>
+#include <OCAF/PBRep/PBRep_PointOnCurveOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_PointOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_Polygon3D.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnClosedSurface.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnTriangulation.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnClosedTriangulation.hxx>
 
 #include <Foundation/Standard/Standard_NullObject.hxx>
 

@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PPoly_Polygon2D.hxx>
-#include <PBRep_PolygonOnSurface.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnSurface.hxx>
 #include <Handle_PGeom_Surface.hxx>
 class PPoly_Polygon2D;
 class PGeom_Surface;

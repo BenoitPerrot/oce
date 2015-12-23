@@ -15,7 +15,7 @@
 #include <PPoly_Polygon2D.hxx>
 #include <PGeom_Surface.hxx>
 #include <PTopLoc_Location.hxx>
-#include <PBRep_PolygonOnClosedSurface.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnClosedSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_PolygonOnClosedSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

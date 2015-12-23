@@ -2,7 +2,7 @@
 #include <ShapeSchema_PBRep_PolygonOnClosedSurface.hxx>
 #endif
 #ifndef _PBRep_PolygonOnClosedSurface_HeaderFile
-#include <PBRep_PolygonOnClosedSurface.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnClosedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
 #include <ShapeSchema_PTopLoc_Location.hxx>

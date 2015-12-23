@@ -2,7 +2,7 @@
 #include <ShapeSchema_PBRep_Polygon3D.hxx>
 #endif
 #ifndef _PBRep_Polygon3D_HeaderFile
-#include <PBRep_Polygon3D.hxx>
+#include <OCAF/PBRep/PBRep_Polygon3D.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
 #include <ShapeSchema_PTopLoc_Location.hxx>

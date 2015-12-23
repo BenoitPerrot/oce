@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PGeom_Surface.hxx>
 #include <Handle_PPoly_Polygon2D.hxx>
-#include <PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PGeom_Surface;
 class PPoly_Polygon2D;
 class PTopLoc_Location;

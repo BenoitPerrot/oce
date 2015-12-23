@@ -15,7 +15,7 @@
 #include <PPoly_PolygonOnTriangulation.hxx>
 #include <PPoly_Triangulation.hxx>
 #include <PTopLoc_Location.hxx>
-#include <PBRep_PolygonOnClosedTriangulation.hxx>
+#include <OCAF/PBRep/PBRep_PolygonOnClosedTriangulation.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_PolygonOnClosedTriangulation)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

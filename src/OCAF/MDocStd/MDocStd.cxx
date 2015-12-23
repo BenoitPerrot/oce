@@ -44,11 +44,11 @@ static Standard_GUID StandardRetrievalDriver ("ad696001-5b34-11d1-b5ba-00a0c9064
 //#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //#include <PTopoDS_TShape1.hxx>
 //#include <PTopoDS_HArray1OfShape1.hxx>
-//#include <PBRep_TVertex1.hxx>
-//#include <PBRep_PointRepresentation.hxx>
-//#include <PBRep_TEdge1.hxx>
-//#include <PBRep_CurveRepresentation.hxx>
-//#include <PBRep_TFace1.hxx>
+//#include <OCAF/PBRep/PBRep_TVertex1.hxx>
+//#include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
+//#include <OCAF/PBRep/PBRep_TEdge1.hxx>
+//#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
+//#include <OCAF/PBRep/PBRep_TFace1.hxx>
 //#include <PGeom_Surface.hxx>
 //#include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
 //=======================================================================

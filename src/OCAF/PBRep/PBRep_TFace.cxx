@@ -17,7 +17,7 @@
 #include <PGeom_Surface.hxx>
 #include <PPoly_Triangulation.hxx>
 #include <PTopLoc_Location.hxx>
-#include <PBRep_TFace.hxx>
+#include <OCAF/PBRep/PBRep_TFace.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(PBRep_TFace)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

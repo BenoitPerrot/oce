@@ -2,7 +2,7 @@
 #include <ShapeSchema_PBRep_CurveRepresentation.hxx>
 #endif
 #ifndef _PBRep_CurveRepresentation_HeaderFile
-#include <PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
 #include <ShapeSchema_PTopLoc_Location.hxx>

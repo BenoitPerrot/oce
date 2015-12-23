@@ -13,7 +13,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_PPoly_Polygon3D.hxx>
-#include <PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PPoly_Polygon3D;
 class PTopLoc_Location;
 

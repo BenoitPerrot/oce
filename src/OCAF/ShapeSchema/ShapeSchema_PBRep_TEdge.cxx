@@ -2,7 +2,7 @@
 #include <ShapeSchema_PBRep_TEdge.hxx>
 #endif
 #ifndef _PBRep_TEdge_HeaderFile
-#include <PBRep_TEdge.hxx>
+#include <OCAF/PBRep/PBRep_TEdge.hxx>
 #endif
 #ifndef _ShapeSchema_PTopoDS_HArray1OfHShape_HeaderFile
 #include <ShapeSchema_PTopoDS_HArray1OfHShape.hxx>

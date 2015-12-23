@@ -2,7 +2,7 @@
 #include <ShapeSchema_PBRep_CurveOnClosedSurface.hxx>
 #endif
 #ifndef _PBRep_CurveOnClosedSurface_HeaderFile
-#include <PBRep_CurveOnClosedSurface.hxx>
+#include <OCAF/PBRep/PBRep_CurveOnClosedSurface.hxx>
 #endif
 #ifndef _ShapeSchema_PTopLoc_Location_HeaderFile
 #include <ShapeSchema_PTopLoc_Location.hxx>
