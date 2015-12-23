@@ -84,7 +84,7 @@
 #include <GeomToIGES_GeomCurve.hxx>
 #include <GeomToIGES_GeomSurface.hxx>
 
-#include <Geom2dToIGES_Geom2dCurve.hxx>
+#include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
 
 #include <IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>

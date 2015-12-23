@@ -61,7 +61,7 @@
 #include <GeomToIGES_GeomPoint.hxx>
 #include <GeomToIGES_GeomCurve.hxx>
 
-#include <Geom2dToIGES_Geom2dCurve.hxx>
+#include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
 
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESData_IGESEntity.hxx>

@@ -18,11 +18,11 @@
 
 
 #include <IGESData_IGESModel.hxx>
-#include <Geom2dToIGES_Geom2dEntity.hxx>
+#include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dEntity.hxx>
 
-#include <Geom2dToIGES_Geom2dCurve.hxx>
-#include <Geom2dToIGES_Geom2dPoint.hxx>
-#include <Geom2dToIGES_Geom2dVector.hxx>
+#include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dCurve.hxx>
+#include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dPoint.hxx>
+#include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dVector.hxx>
 
 #include <IGESData_IGESModel.hxx>
 

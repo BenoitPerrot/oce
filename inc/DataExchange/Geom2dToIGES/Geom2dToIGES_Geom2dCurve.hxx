@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Geom2dToIGES_Geom2dEntity.hxx>
+#include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dEntity.hxx>
 #include <Handle_IGESData_IGESEntity.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
