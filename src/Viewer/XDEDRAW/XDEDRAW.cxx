@@ -71,7 +71,7 @@
 #include <XCAFDoc_DimTol.hxx>
 #include <XCAFDoc_Material.hxx>
 #include <XCAFPrs_Driver.hxx>
-#include <XCAFApp_Application.hxx>
+#include <DataExchange/XCAFApp/XCAFApp_Application.hxx>
 
 #include <Viewer/XDEDRAW/XDEDRAW_Shapes.hxx>
 #include <Viewer/XDEDRAW/XDEDRAW_Colors.hxx>

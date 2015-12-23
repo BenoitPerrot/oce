@@ -15,7 +15,7 @@
 
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
-#include <XCAFApp_Application.hxx>
+#include <DataExchange/XCAFApp/XCAFApp_Application.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(XCAFApp_Application)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

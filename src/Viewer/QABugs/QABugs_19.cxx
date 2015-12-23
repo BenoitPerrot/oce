@@ -221,7 +221,7 @@ static Standard_Integer OCC22980 (Draw_Interpretor& di, Standard_Integer /*argc*
 #endif /* HAVE_TBB */
 
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
-#include <XCAFApp_Application.hxx>
+#include <DataExchange/XCAFApp/XCAFApp_Application.hxx>
 #include <OCAF/TDocStd/TDocStd_Document.hxx>
 #include <XCAFDoc_ShapeTool.hxx>
 #include <XCAFDoc_DocumentTool.hxx>
