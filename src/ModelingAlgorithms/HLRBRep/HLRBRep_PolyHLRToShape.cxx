@@ -26,8 +26,8 @@
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <HLRBRep_BiPnt2D.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPnt2D.hxx>
-#include <HLRAlgo_EdgeStatus.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 
 #define PntX1 ((Standard_Real*)Coordinates)[0]
 #define PntY1 ((Standard_Real*)Coordinates)[1]

@@ -12,7 +12,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Prs3d_Projector.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Prs3d_Projector)

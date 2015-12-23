@@ -19,8 +19,8 @@
 #endif
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
-#include <HLRAlgo_EdgeStatus.hxx>
-#include <HLRAlgo_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyAlgo.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyAlgo)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,10 +30,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyAlgo)
 IMPLEMENT_DOWNCAST(HLRAlgo_PolyAlgo,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyAlgo)
-#include <HLRAlgo_PolyShellData.hxx>
-#include <HLRAlgo_PolyData.hxx>
-#include <HLRAlgo_ListOfBPoint.hxx>
-#include <HLRAlgo_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyShellData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_BiPoint.hxx>
 #include <Precision.hxx>
 
 #define EMskGrALin1  0x008u

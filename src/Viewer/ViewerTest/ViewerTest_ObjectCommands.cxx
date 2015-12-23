@@ -80,7 +80,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <HLRBRep_PolyAlgo.hxx>
 #include <HLRBRep_PolyHLRToShape.hxx>
 #include <Aspect_Window.hxx>

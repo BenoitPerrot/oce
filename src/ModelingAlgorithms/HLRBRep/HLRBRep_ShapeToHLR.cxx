@@ -19,7 +19,7 @@
 #endif
 #include <HLRBRep_Data.hxx>
 #include <HLRTopoBRep_OutLiner.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

@@ -20,7 +20,7 @@
 #include <Draw_Color.hxx>
 #include <DBRep_HideData.hxx>
 #include <HLRBRep_PolyAlgo.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <HLRBRep_BiPoint.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
 

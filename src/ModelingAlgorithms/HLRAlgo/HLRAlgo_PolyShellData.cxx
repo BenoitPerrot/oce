@@ -19,8 +19,8 @@
 #endif
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
-#include <HLRAlgo_ListOfBPoint.hxx>
-#include <HLRAlgo_PolyShellData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyShellData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyShellData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -30,9 +30,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyShellData)
 IMPLEMENT_DOWNCAST(HLRAlgo_PolyShellData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyShellData)
-#include <HLRAlgo_ListIteratorOfListOfBPoint.hxx>
-#include <HLRAlgo_BiPoint.hxx>
-#include <HLRAlgo_PolyData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyData.hxx>
 
 #define PntX1  ((Standard_Real*)Coordinates)[ 0]
 #define PntY1  ((Standard_Real*)Coordinates)[ 1]

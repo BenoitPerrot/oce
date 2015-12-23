@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <HLRBRep_VertexList.hxx>
-#include <HLRAlgo_Intersection.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <HLRBRep_EdgeBuilder.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>

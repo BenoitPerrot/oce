@@ -15,13 +15,13 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <HLRAlgo_HArray1OfTData.hxx>
-#include <HLRAlgo_HArray1OfPISeg.hxx>
-#include <HLRAlgo_HArray1OfPINod.hxx>
-#include <HLRAlgo_Array1OfTData.hxx>
-#include <HLRAlgo_Array1OfPISeg.hxx>
-#include <HLRAlgo_Array1OfPINod.hxx>
-#include <HLRAlgo_PolyInternalData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_HArray1OfTData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_HArray1OfPISeg.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_HArray1OfPINod.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfTData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPISeg.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPINod.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyInternalData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyInternalData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(HLRAlgo_PolyInternalData)
 IMPLEMENT_DOWNCAST(HLRAlgo_PolyInternalData,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyInternalData)
-#include <HLRAlgo_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_BiPoint.hxx>
 
 #define Tri1Node1 ((Standard_Integer*)Tri1Indices)[0]
 #define Tri1Node2 ((Standard_Integer*)Tri1Indices)[1]

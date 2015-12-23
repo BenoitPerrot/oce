@@ -3,17 +3,17 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRAlgo_Interference.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 
-#include <HLRAlgo_Intersection.hxx>
-#include <HLRAlgo_Coincidence.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Coincidence.hxx>
  
 
 #define TheSubShape HLRAlgo_Intersection
-#define TheSubShape_hxx <HLRAlgo_Intersection.hxx>
+#define TheSubShape_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #define TheShape HLRAlgo_Coincidence
-#define TheShape_hxx <HLRAlgo_Coincidence.hxx>
+#define TheShape_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Coincidence.hxx>
 #define TopBas_Interference HLRAlgo_Interference
-#define TopBas_Interference_hxx <HLRAlgo_Interference.hxx>
+#define TopBas_Interference_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <TopBas_Interference.gxx>
 

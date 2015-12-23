@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep_EdgeData.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

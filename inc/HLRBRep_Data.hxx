@@ -16,7 +16,7 @@
 #include <HLRBRep_Array1OfFData.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <HLRBRep_CLProps.hxx>
 #include <HLRBRep_SLProps.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -28,7 +28,7 @@
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <HLRBRep_Intersector.hxx>
 #include <Handle_BRepTopAdaptor_TopolTool.hxx>
-#include <HLRAlgo_Interference.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepTopAdaptor_TopolTool;

@@ -18,19 +18,19 @@
 // Modified by cma, Tue Apr  1 11:40:30 1997
 
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <HLRAlgo_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyAlgo.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <HLRAlgo_ListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <HLRAlgo_PolyInternalData.hxx>
-#include <HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyInternalData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
 #include <HLRBRep_PolyAlgo.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_PolyAlgo)
@@ -49,10 +49,10 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <CSLib_NormalStatus.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <HLRAlgo_ListIteratorOfListOfBPoint.hxx>
-#include <HLRAlgo_PolyShellData.hxx>
-#include <HLRAlgo_PolyData.hxx>
-#include <HLRAlgo_BiPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyShellData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_BiPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

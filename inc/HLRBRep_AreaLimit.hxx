@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_HLRBRep_AreaLimit.hxx>
 
-#include <HLRAlgo_Intersection.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Handle_HLRBRep_AreaLimit.hxx>

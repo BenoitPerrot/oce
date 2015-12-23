@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRAlgo_PolyInternalNode.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyInternalNode.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyInternalNode)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

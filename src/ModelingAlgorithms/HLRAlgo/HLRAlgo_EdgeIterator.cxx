@@ -17,8 +17,8 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRAlgo_EdgeStatus.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 
 //=======================================================================
 //function : EdgeIterator

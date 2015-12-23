@@ -17,7 +17,7 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRAlgo_EdgesBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgesBlock.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_EdgesBlock)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -18,9 +18,9 @@
 #define No_Exception
 #endif
 #include <HLRBRep_Data.hxx>
-#include <HLRAlgo_Intersection.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <HLRAlgo_Interference.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <HLRBRep_EdgeInterferenceTool.hxx>
 
 //=======================================================================

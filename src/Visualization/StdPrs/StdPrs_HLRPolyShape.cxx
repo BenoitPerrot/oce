@@ -30,8 +30,8 @@
 #include <HLRBRep_PolyAlgo.hxx>
 #include <HLRBRep_ListOfBPoint.hxx>
 #include <HLRBRep_BiPoint.hxx>
-#include <HLRAlgo_EdgeStatus.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 

@@ -41,8 +41,8 @@
 #include <Precision.hxx>
 #include <Geometry/ProjLib/ProjLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <HLRAlgo.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <HLRBRep_CLProps.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

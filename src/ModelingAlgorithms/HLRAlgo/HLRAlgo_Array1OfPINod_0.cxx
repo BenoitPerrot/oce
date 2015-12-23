@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRAlgo_Array1OfPINod.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPINod.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <HLRAlgo_PolyInternalNode.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyInternalNode.hxx>
  
 
 #define Array1Item Handle(HLRAlgo_PolyInternalNode)
-#define Array1Item_hxx <HLRAlgo_PolyInternalNode.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyInternalNode.hxx>
 #define TCollection_Array1 HLRAlgo_Array1OfPINod
-#define TCollection_Array1_hxx <HLRAlgo_Array1OfPINod.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPINod.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

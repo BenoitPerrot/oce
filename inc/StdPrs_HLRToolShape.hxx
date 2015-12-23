@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_HLRBRep_Data.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

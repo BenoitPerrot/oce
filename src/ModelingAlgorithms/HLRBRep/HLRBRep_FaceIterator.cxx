@@ -17,8 +17,8 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRAlgo_WiresBlock.hxx>
-#include <HLRAlgo_EdgesBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_WiresBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgesBlock.hxx>
 #include <HLRBRep_FaceData.hxx>
 #include <HLRBRep_FaceIterator.hxx>
 

@@ -18,8 +18,8 @@
 #define No_Exception
 #endif
 #include <HLRBRep_EdgeInterferenceTool.hxx>
-#include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
-#include <HLRAlgo_Intersection.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <HLRBRep_VertexList.hxx>
 
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>

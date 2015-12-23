@@ -18,13 +18,13 @@
 //#define No_Exception
 #endif
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
-#include <HLRAlgo_HArray1OfTData.hxx>
-#include <HLRAlgo_HArray1OfPHDat.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_HArray1OfTData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_HArray1OfPHDat.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
-#include <HLRAlgo_Array1OfTData.hxx>
-#include <HLRAlgo_Array1OfPHDat.hxx>
-#include <HLRAlgo_EdgeStatus.hxx>
-#include <HLRAlgo_PolyData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfTData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPHDat.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyData.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRAlgo_PolyData)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

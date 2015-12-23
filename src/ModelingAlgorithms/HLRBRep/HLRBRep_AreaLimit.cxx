@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <HLRBRep_AreaLimit.hxx>
-#include <HLRAlgo_Intersection.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <HLRBRep_AreaLimit.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(HLRBRep_AreaLimit)

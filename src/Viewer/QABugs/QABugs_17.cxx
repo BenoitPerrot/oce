@@ -70,7 +70,7 @@
 #include <StdSelect_ShapeTypeFilter.hxx>
 #include <QABugs_MyText.hxx>
 #include <Prs3d_Projector.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Font_NameOfFont.hxx>
 

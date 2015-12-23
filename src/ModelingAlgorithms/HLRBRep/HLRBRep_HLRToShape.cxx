@@ -26,7 +26,7 @@
 #include <HLRBRep.hxx>
 #include <HLRBRep_Data.hxx>
 #include <HLRBRep_ShapeBounds.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 
 //=======================================================================
 //function : HLRBRep_HLRToShape

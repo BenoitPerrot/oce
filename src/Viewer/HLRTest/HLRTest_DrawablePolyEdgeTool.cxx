@@ -31,8 +31,8 @@ IMPLEMENT_DOWNCAST(HLRTest_DrawablePolyEdgeTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRTest_DrawablePolyEdgeTool)
 #include <HLRBRep_BiPoint.hxx>
 #include <HLRBRep_ListIteratorOfListOfBPoint.hxx>
-#include <HLRAlgo_EdgeStatus.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeStatus.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <Draw_Color.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 

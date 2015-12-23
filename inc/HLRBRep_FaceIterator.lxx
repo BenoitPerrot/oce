@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <HLRAlgo_WiresBlock.hxx>
-#include <HLRAlgo_EdgesBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_WiresBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgesBlock.hxx>
 
 //=======================================================================
 //function : MoreEdge

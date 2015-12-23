@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_VrmlConverter_Projector.hxx>
 
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Vrml_PerspectiveCamera.hxx>
 #include <Vrml_OrthographicCamera.hxx>
 #include <Vrml_DirectionalLight.hxx>

@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <HLRAlgo_HArray1OfPHDat.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_HArray1OfPHDat.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <HLRAlgo_PolyHidingData.hxx>
-#include <HLRAlgo_Array1OfPHDat.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyHidingData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPHDat.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(HLRAlgo_HArray1OfPHDat)
 
 
 #define ItemHArray1 HLRAlgo_PolyHidingData
-#define ItemHArray1_hxx <HLRAlgo_PolyHidingData.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyHidingData.hxx>
 #define TheArray1 HLRAlgo_Array1OfPHDat
-#define TheArray1_hxx <HLRAlgo_Array1OfPHDat.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPHDat.hxx>
 #define TCollection_HArray1 HLRAlgo_HArray1OfPHDat
-#define TCollection_HArray1_hxx <HLRAlgo_HArray1OfPHDat.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_HArray1OfPHDat.hxx>
 #define Handle_TCollection_HArray1 Handle_HLRAlgo_HArray1OfPHDat
 #define TCollection_HArray1_Type_() HLRAlgo_HArray1OfPHDat_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

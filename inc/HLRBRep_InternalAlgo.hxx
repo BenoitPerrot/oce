@@ -11,7 +11,7 @@
 #include <Handle_HLRBRep_InternalAlgo.hxx>
 
 #include <Handle_HLRBRep_Data.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <HLRBRep_SeqOfShapeBounds.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

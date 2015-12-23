@@ -17,13 +17,13 @@
 #ifndef No_Exception
 #define No_Exception
 #endif
-#include <HLRAlgo_InterferenceList.hxx>
-#include <HLRAlgo_Interference.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_InterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <HLRBRep_EdgeInterferenceTool.hxx>
 #include <HLRBRep_EdgeIList.hxx>
 
 #include <TopCnx_EdgeFaceTransition.hxx>
-#include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
 
 //=======================================================================
 //function : AddInterference

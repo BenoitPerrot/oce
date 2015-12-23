@@ -31,7 +31,7 @@ IMPLEMENT_DOWNCAST(HLRTest_DrawableEdgeTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRTest_DrawableEdgeTool)
 #include <HLRTest_ShapeData.hxx>
 #include <HLRBRep_Data.hxx>
-#include <HLRAlgo_EdgeIterator.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_EdgeIterator.hxx>
 #include <HLRBRep_ShapeBounds.hxx>
 
 //=======================================================================

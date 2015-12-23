@@ -22,13 +22,13 @@
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
 #include <HLRBRep_Array1OfEData.hxx>
 #include <HLRBRep_Array1OfFData.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
-#include <HLRAlgo_Interference.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <HLRBRep_EdgeData.hxx>
-#include <HLRAlgo_InterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_InterferenceList.hxx>
 #include <HLRBRep_FaceData.hxx>
 #include <IntRes2d_IntersectionPoint.hxx>
 #include <HLRBRep_Data.hxx>
@@ -51,8 +51,8 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <IntCurveSurface_IntersectionPoint.hxx>
 #include <IntCurveSurface_TransitionOnCurve.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
-#include <HLRAlgo.hxx>
-#include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <HLRBRep_EdgeFaceTool.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>

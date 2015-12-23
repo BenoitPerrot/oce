@@ -20,11 +20,11 @@
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <HLRBRep_Hider.hxx>
 
-#include <HLRAlgo_Coincidence.hxx>
-#include <HLRAlgo_Interference.hxx>
-#include <HLRAlgo_InterferenceList.hxx>
-#include <HLRAlgo_ListIteratorOfInterferenceList.hxx>
-#include <HLRAlgo_Intersection.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Coincidence.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_InterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <HLRBRep_EdgeIList.hxx>
 #include <HLRBRep_EdgeBuilder.hxx>
 #include <HLRBRep_VertexList.hxx>

@@ -29,7 +29,7 @@
 #include <Geometry/GProp/GProp_PEquation.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
-#include <HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
