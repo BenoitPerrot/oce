@@ -27,7 +27,7 @@
 #include <GccInt_Bisec.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecAna)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Bisector_BisecPC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecPC.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecPC)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Bisector_BisecPC)
 IMPLEMENT_DOWNCAST(Bisector_BisecPC,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
-#include <Bisector.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Bisector_Curve.hxx>
-#include <Bisector_FunctionInter.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_FunctionInter.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Bisector_BisecCC.hxx>
-#include <Bisector_BisecPC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecPC.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>

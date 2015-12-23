@@ -29,7 +29,7 @@
 #include <BRepFill_DataMapOfOrientedShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
-#include <Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <BRepFill_TrimEdgeTool.hxx>
 #include <BRepFill_OffsetWire.hxx>
 

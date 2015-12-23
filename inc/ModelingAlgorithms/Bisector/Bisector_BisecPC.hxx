@@ -16,7 +16,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 #include <GeomAbs_Shape.hxx>
 class Geom2d_Curve;

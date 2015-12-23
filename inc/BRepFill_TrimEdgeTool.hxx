@@ -14,7 +14,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Handle_Geom2d_Geometry.hxx>
 class Geom2d_Curve;

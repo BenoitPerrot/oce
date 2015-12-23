@@ -92,8 +92,8 @@
 #include <MAT_Side.hxx>
 #include <MAT_Arc.hxx>
 #include <MAT_Node.hxx>
-#include <Bisector_Bisec.hxx>
-#include <Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

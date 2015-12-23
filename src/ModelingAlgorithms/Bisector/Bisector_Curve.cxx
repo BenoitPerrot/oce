@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_Curve)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

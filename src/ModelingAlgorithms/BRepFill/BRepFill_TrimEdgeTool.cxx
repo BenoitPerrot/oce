@@ -15,14 +15,14 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <BRepFill_TrimEdgeTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_CartesianPoint.hxx>

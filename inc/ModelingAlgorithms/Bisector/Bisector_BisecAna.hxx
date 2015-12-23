@@ -11,7 +11,7 @@
 #include <Handle_Bisector_BisecAna.hxx>
 
 #include <Handle_Geom2d_TrimmedCurve.hxx>
-#include <Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

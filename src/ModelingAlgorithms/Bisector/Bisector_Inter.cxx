@@ -17,18 +17,18 @@
 //  Modified by skv - Mon May  5 15:06:39 2003 OCC616
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <Bisector_BisecCC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Bisector_Inter.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Inter.hxx>
 #include <IntRes2d_Intersection.hxx>
-#include <Bisector_Curve.hxx>
-#include <Bisector_BisecAna.hxx>
-#include <Bisector_BisecCC.hxx>
-#include <Bisector_BisecPC.hxx>
-#include <Bisector_FunctionInter.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecPC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_FunctionInter.hxx>
 #include <Geom2dInt_GInter.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

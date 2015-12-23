@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Bisector_PointOnBis.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_PointOnBis.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <Bisector_PolyBis.hxx>
-#include <Bisector_PointOnBis.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_PolyBis.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_PointOnBis.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>

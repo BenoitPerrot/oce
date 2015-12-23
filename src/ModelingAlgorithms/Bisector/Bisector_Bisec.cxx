@@ -19,8 +19,8 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
-#include <Bisector_Bisec.hxx>
-#include <Bisector.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Point.hxx>
@@ -32,10 +32,10 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Precision.hxx>
-#include <Bisector_Curve.hxx>
-#include <Bisector_BisecAna.hxx>
-#include <Bisector_BisecPC.hxx>
-#include <Bisector_BisecCC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecPC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
 
 /*
 #include <DrawTrSurf.hxx>

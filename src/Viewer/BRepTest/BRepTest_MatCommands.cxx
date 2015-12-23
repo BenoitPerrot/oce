@@ -35,9 +35,9 @@
 #include <MAT_Node.hxx>
 #include <MAT_Side.hxx>
 
-#include <Bisector_Bisec.hxx>
-#include <Bisector_BisecAna.hxx>
-#include <Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <Precision.hxx>
 
 #include <BRepMAT2d_Explorer.hxx>

@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Bisector_PointOnBis.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_PointOnBis.hxx>
 
 
 //=============================================================================

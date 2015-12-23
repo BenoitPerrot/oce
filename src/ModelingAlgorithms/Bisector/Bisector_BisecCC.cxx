@@ -21,9 +21,9 @@
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Bisector_PolyBis.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_PolyBis.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Bisector_BisecCC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(Bisector_BisecCC)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -36,11 +36,11 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Bisector_BisecCC)
 IMPLEMENT_DOWNCAST(Bisector_BisecCC,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Bisector_BisecCC)
-#include <Bisector_BisecPC.hxx>
-#include <Bisector.hxx>
-#include <Bisector_Curve.hxx>
-#include <Bisector_FunctionH.hxx>
-#include <Bisector_PointOnBis.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecPC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_FunctionH.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_PointOnBis.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2dLProp/Geom2dLProp_CLProps2d.hxx>

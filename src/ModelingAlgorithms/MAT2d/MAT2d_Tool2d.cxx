@@ -31,7 +31,7 @@
 
 #include <MAT2d_Circuit.hxx>
 #include <MAT_Bisector.hxx>
-#include <Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
@@ -40,11 +40,11 @@
 #include <MAT2d_Connexion.hxx>
 #include <MAT2d_SequenceOfSequenceOfGeometry.hxx>
 #include <MAT_Edge.hxx>
-#include <Bisector_Curve.hxx>
-#include <Bisector_BisecAna.hxx>
-#include <Bisector_BisecCC.hxx>
-#include <Bisector_Bisec.hxx>
-#include <Bisector_Inter.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_BisecCC.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
+#include <ModelingAlgorithms/Bisector/Bisector_Inter.hxx>
 #include <IntRes2d_Domain.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Geom2dInt_GInter.hxx>
