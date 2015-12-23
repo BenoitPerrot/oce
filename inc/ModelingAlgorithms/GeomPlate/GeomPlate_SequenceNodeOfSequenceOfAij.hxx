@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 
-#include <GeomPlate_Aij.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Aij.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class GeomPlate_Aij;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem GeomPlate_Aij
-#define SeqItem_hxx <GeomPlate_Aij.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Aij.hxx>
 #define TCollection_SequenceNode GeomPlate_SequenceNodeOfSequenceOfAij
-#define TCollection_SequenceNode_hxx <GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomPlate_SequenceNodeOfSequenceOfAij
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfAij_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfAij
-#define TCollection_Sequence_hxx <GeomPlate_SequenceOfAij.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfAij.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_HArray1OfHCurveOnSurface.hxx>
 
-#include <GeomPlate_Array1OfHCurveOnSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -72,9 +72,9 @@ private:
 #define ItemHArray1 Handle(Adaptor3d_HCurveOnSurface)
 #define ItemHArray1_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define TheArray1 GeomPlate_Array1OfHCurveOnSurface
-#define TheArray1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 #define TCollection_HArray1 GeomPlate_HArray1OfHCurveOnSurface
-#define TCollection_HArray1_hxx <GeomPlate_HArray1OfHCurveOnSurface.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfHCurveOnSurface.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomPlate_HArray1OfHCurveOnSurface
 #define TCollection_HArray1_Type_() GeomPlate_HArray1OfHCurveOnSurface_Type_()
 

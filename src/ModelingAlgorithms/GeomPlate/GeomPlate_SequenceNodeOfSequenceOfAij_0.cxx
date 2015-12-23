@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <GeomPlate_Aij.hxx>
-#include <GeomPlate_SequenceOfAij.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Aij.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfAij.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_SequenceNodeOfSequenceOfAij)
 
 
 #define SeqItem GeomPlate_Aij
-#define SeqItem_hxx <GeomPlate_Aij.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Aij.hxx>
 #define TCollection_SequenceNode GeomPlate_SequenceNodeOfSequenceOfAij
-#define TCollection_SequenceNode_hxx <GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomPlate_SequenceNodeOfSequenceOfAij
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfAij_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfAij
-#define TCollection_Sequence_hxx <GeomPlate_SequenceOfAij.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfAij.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

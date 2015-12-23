@@ -95,7 +95,7 @@ private:
 #define Array1Item Handle(Adaptor3d_HCurveOnSurface)
 #define Array1Item_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfHCurveOnSurface
-#define TCollection_Array1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

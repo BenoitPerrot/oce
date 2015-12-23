@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_HSequenceOfPointConstraint.hxx>
 
-#include <GeomPlate_SequenceOfPointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfPointConstraint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_GeomPlate_PointConstraint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(GeomPlate_PointConstraint)
-#define Item_hxx <GeomPlate_PointConstraint.hxx>
+#define Item_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
 #define TheSequence GeomPlate_SequenceOfPointConstraint
-#define TheSequence_hxx <GeomPlate_SequenceOfPointConstraint.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfPointConstraint.hxx>
 #define TCollection_HSequence GeomPlate_HSequenceOfPointConstraint
-#define TCollection_HSequence_hxx <GeomPlate_HSequenceOfPointConstraint.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_HSequenceOfPointConstraint.hxx>
 #define Handle_TCollection_HSequence Handle_GeomPlate_HSequenceOfPointConstraint
 #define TCollection_HSequence_Type_() GeomPlate_HSequenceOfPointConstraint_Type_()
 

@@ -40,9 +40,9 @@
 // modified by NIZHNY-MKK  Wed Oct 22 12:25:45 2003
 #include <ModelingAlgorithms/BRepFill/BRepFill_TrimShellCorner.hxx>
 
-//#include <GeomPlate_BuildPlateSurface.hxx>
-//#include <GeomPlate_Surface.hxx>
-//#include <GeomPlate_PointConstraint.hxx>
+//#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildPlateSurface.hxx>
+//#include <ModelingAlgorithms/GeomPlate/GeomPlate_Surface.hxx>
+//#include <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

@@ -51,17 +51,17 @@
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
-#include <GeomPlate_BuildPlateSurface.hxx>
-#include <GeomPlate_BuildAveragePlane.hxx>
-#include <GeomPlate_Surface.hxx>
-#include <GeomPlate_BuildAveragePlane.hxx>
-#include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildPlateSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildAveragePlane.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Surface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildAveragePlane.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfHCurveOnSurface.hxx>
 
-#include <GeomPlate_MakeApprox.hxx>
-#include <GeomPlate_PlateG0Criterion.hxx>
-#include <GeomPlate_PlateG1Criterion.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_MakeApprox.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PlateG0Criterion.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PlateG1Criterion.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_CurveConstraint.hxx>
-#include <GeomPlate_PointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 

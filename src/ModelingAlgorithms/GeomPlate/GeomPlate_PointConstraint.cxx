@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
-#include <GeomPlate_PointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomPlate_PointConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -36,7 +36,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
-#include <GeomPlate_Surface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Surface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomPlate_Surface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

@@ -25,7 +25,7 @@
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Patch.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>
-#include <GeomPlate_PlateG0Criterion.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PlateG0Criterion.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Criterion.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>

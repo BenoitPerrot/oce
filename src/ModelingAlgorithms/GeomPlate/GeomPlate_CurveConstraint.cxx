@@ -28,7 +28,7 @@
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(GeomPlate_CurveConstraint)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

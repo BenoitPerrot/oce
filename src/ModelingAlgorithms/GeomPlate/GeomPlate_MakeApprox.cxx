@@ -14,13 +14,13 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomPlate_Surface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Surface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Criterion.hxx>
-#include <GeomPlate_MakeApprox.hxx>
-#include <GeomPlate_Surface.hxx>
-#include <GeomPlate_PlateG0Criterion.hxx>
-#include <GeomPlate_PlateG1Criterion.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_MakeApprox.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Surface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PlateG0Criterion.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PlateG1Criterion.hxx>
 
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

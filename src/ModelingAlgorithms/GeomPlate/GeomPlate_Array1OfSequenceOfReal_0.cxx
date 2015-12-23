@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_Array1OfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfSequenceOfReal.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item TColStd_SequenceOfReal
 #define Array1Item_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfSequenceOfReal
-#define TCollection_Array1_hxx <GeomPlate_Array1OfSequenceOfReal.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfSequenceOfReal.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_HSequenceOfCurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HSequenceOfCurveConstraint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GeomPlate_CurveConstraint.hxx>
-#include <GeomPlate_SequenceOfCurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfCurveConstraint.hxx>
 
  
 
@@ -29,11 +29,11 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_HSequenceOfCurveConstraint)
 
 
 #define Item Handle(GeomPlate_CurveConstraint)
-#define Item_hxx <GeomPlate_CurveConstraint.hxx>
+#define Item_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
 #define TheSequence GeomPlate_SequenceOfCurveConstraint
-#define TheSequence_hxx <GeomPlate_SequenceOfCurveConstraint.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfCurveConstraint.hxx>
 #define TCollection_HSequence GeomPlate_HSequenceOfCurveConstraint
-#define TCollection_HSequence_hxx <GeomPlate_HSequenceOfCurveConstraint.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_HSequenceOfCurveConstraint.hxx>
 #define Handle_TCollection_HSequence Handle_GeomPlate_HSequenceOfCurveConstraint
 #define TCollection_HSequence_Type_() GeomPlate_HSequenceOfCurveConstraint_Type_()
 #include <Foundation/TCollection/TCollection_HSequence.gxx>

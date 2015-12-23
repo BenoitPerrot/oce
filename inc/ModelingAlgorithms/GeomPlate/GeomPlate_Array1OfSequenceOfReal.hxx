@@ -94,7 +94,7 @@ private:
 #define Array1Item TColStd_SequenceOfReal
 #define Array1Item_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfSequenceOfReal
-#define TCollection_Array1_hxx <GeomPlate_Array1OfSequenceOfReal.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfSequenceOfReal.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

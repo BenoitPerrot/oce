@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_Array1OfHCurveOnSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
@@ -15,6 +15,6 @@
 #define Array1Item Handle(Adaptor3d_HCurveOnSurface)
 #define Array1Item_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define TCollection_Array1 GeomPlate_Array1OfHCurveOnSurface
-#define TCollection_Array1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

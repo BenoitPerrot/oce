@@ -22,17 +22,17 @@
 
 #include <stdio.h>
 
-#include <GeomPlate_HSequenceOfCurveConstraint.hxx>
-#include <GeomPlate_HArray1OfSequenceOfReal.hxx>
-#include <GeomPlate_HSequenceOfPointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HSequenceOfCurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HSequenceOfPointConstraint.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomPlate_Surface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Surface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
-#include <GeomPlate_CurveConstraint.hxx>
-#include <GeomPlate_PointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfHCurveOnSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_HArray1OfCurve.hxx>
@@ -42,7 +42,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <GeomPlate_BuildPlateSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildPlateSurface.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
@@ -66,8 +66,8 @@
 
 #include <Precision.hxx>
 
-#include <GeomPlate_BuildAveragePlane.hxx>
-#include <GeomPlate_HArray1OfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildAveragePlane.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfSequenceOfReal.hxx>
 // pour la verif G2
 #include <LocalAnalysis_SurfaceContinuity.hxx>
 
@@ -93,8 +93,8 @@
 #include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <GeomPlate_SequenceOfAij.hxx>
-#include <GeomPlate_MakeApprox.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfAij.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_MakeApprox.hxx>
 
 #ifdef DRAW
 #include <DrawTrSurf.hxx>

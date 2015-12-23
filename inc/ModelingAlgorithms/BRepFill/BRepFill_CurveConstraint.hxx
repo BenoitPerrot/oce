@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BRepFill_CurveConstraint.hxx>
 
-#include <GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
 #include <Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

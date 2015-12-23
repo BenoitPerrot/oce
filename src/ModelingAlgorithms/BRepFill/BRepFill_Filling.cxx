@@ -37,9 +37,9 @@
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 
-#include <GeomPlate_MakeApprox.hxx>
-#include <GeomPlate_CurveConstraint.hxx>
-#include <GeomPlate_PointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_MakeApprox.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge2d.hxx>
@@ -73,7 +73,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
-#include <GeomPlate_PlateG0Criterion.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PlateG0Criterion.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 
 static gp_Vec MakeFinVec( const TopoDS_Wire aWire, const TopoDS_Vertex aVertex )

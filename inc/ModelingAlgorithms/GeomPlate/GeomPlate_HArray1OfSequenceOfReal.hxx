@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_HArray1OfSequenceOfReal.hxx>
 
-#include <GeomPlate_Array1OfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfSequenceOfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -71,9 +71,9 @@ private:
 #define ItemHArray1 TColStd_SequenceOfReal
 #define ItemHArray1_hxx <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #define TheArray1 GeomPlate_Array1OfSequenceOfReal
-#define TheArray1_hxx <GeomPlate_Array1OfSequenceOfReal.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfSequenceOfReal.hxx>
 #define TCollection_HArray1 GeomPlate_HArray1OfSequenceOfReal
-#define TCollection_HArray1_hxx <GeomPlate_HArray1OfSequenceOfReal.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfSequenceOfReal.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomPlate_HArray1OfSequenceOfReal
 #define TCollection_HArray1_Type_() GeomPlate_HArray1OfSequenceOfReal_Type_()
 

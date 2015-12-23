@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_HSequenceOfCurveConstraint.hxx>
 
-#include <GeomPlate_SequenceOfCurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfCurveConstraint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_GeomPlate_CurveConstraint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -93,11 +93,11 @@ private:
 };
 
 #define Item Handle(GeomPlate_CurveConstraint)
-#define Item_hxx <GeomPlate_CurveConstraint.hxx>
+#define Item_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
 #define TheSequence GeomPlate_SequenceOfCurveConstraint
-#define TheSequence_hxx <GeomPlate_SequenceOfCurveConstraint.hxx>
+#define TheSequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfCurveConstraint.hxx>
 #define TCollection_HSequence GeomPlate_HSequenceOfCurveConstraint
-#define TCollection_HSequence_hxx <GeomPlate_HSequenceOfCurveConstraint.hxx>
+#define TCollection_HSequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_HSequenceOfCurveConstraint.hxx>
 #define Handle_TCollection_HSequence Handle_GeomPlate_HSequenceOfCurveConstraint
 #define TCollection_HSequence_Type_() GeomPlate_HSequenceOfCurveConstraint_Type_()
 

@@ -101,13 +101,13 @@ private:
 };
 
 #define SeqItem GeomPlate_Aij
-#define SeqItem_hxx <GeomPlate_Aij.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Aij.hxx>
 #define TCollection_SequenceNode GeomPlate_SequenceNodeOfSequenceOfAij
-#define TCollection_SequenceNode_hxx <GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomPlate_SequenceNodeOfSequenceOfAij
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfAij_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfAij
-#define TCollection_Sequence_hxx <GeomPlate_SequenceOfAij.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfAij.hxx>
 
 #include <Foundation/TCollection/TCollection_Sequence.lxx>
 

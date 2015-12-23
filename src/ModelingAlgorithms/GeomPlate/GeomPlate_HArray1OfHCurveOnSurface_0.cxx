@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_HArray1OfHCurveOnSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfHCurveOnSurface.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -12,7 +12,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
-#include <GeomPlate_Array1OfHCurveOnSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 
  
 
@@ -33,9 +33,9 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_HArray1OfHCurveOnSurface)
 #define ItemHArray1 Handle(Adaptor3d_HCurveOnSurface)
 #define ItemHArray1_hxx <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #define TheArray1 GeomPlate_Array1OfHCurveOnSurface
-#define TheArray1_hxx <GeomPlate_Array1OfHCurveOnSurface.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 #define TCollection_HArray1 GeomPlate_HArray1OfHCurveOnSurface
-#define TCollection_HArray1_hxx <GeomPlate_HArray1OfHCurveOnSurface.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfHCurveOnSurface.hxx>
 #define Handle_TCollection_HArray1 Handle_GeomPlate_HArray1OfHCurveOnSurface
 #define TCollection_HArray1_Type_() GeomPlate_HArray1OfHCurveOnSurface_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

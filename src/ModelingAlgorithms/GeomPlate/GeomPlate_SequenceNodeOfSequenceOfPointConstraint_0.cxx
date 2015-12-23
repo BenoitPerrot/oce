@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <GeomPlate_PointConstraint.hxx>
-#include <GeomPlate_SequenceOfPointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfPointConstraint.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(GeomPlate_SequenceNodeOfSequenceOfPointConstraint)
 
 
 #define SeqItem Handle(GeomPlate_PointConstraint)
-#define SeqItem_hxx <GeomPlate_PointConstraint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_PointConstraint.hxx>
 #define TCollection_SequenceNode GeomPlate_SequenceNodeOfSequenceOfPointConstraint
-#define TCollection_SequenceNode_hxx <GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomPlate_SequenceNodeOfSequenceOfPointConstraint
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfPointConstraint_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfPointConstraint
-#define TCollection_Sequence_hxx <GeomPlate_SequenceOfPointConstraint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfPointConstraint.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

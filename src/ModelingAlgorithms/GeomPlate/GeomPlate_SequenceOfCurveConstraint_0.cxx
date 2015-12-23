@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <GeomPlate_SequenceOfCurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfCurveConstraint.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <GeomPlate_CurveConstraint.hxx>
-#include <GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
  
 
 #define SeqItem Handle(GeomPlate_CurveConstraint)
-#define SeqItem_hxx <GeomPlate_CurveConstraint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
 #define TCollection_SequenceNode GeomPlate_SequenceNodeOfSequenceOfCurveConstraint
-#define TCollection_SequenceNode_hxx <GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
 #define Handle_TCollection_SequenceNode Handle_GeomPlate_SequenceNodeOfSequenceOfCurveConstraint
 #define TCollection_SequenceNode_Type_() GeomPlate_SequenceNodeOfSequenceOfCurveConstraint_Type_()
 #define TCollection_Sequence GeomPlate_SequenceOfCurveConstraint
-#define TCollection_Sequence_hxx <GeomPlate_SequenceOfCurveConstraint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfCurveConstraint.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

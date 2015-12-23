@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <GeomPlate_BuildPlateSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildPlateSurface.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfEdgeFaceAndOrder.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfFaceAndOrder.hxx>
-#include <GeomPlate_SequenceOfPointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfPointConstraint.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

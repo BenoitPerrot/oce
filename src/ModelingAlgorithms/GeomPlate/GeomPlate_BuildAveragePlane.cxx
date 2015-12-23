@@ -29,8 +29,8 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfVec.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomPlate_SequenceOfAij.hxx>
-#include <GeomPlate_BuildAveragePlane.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_SequenceOfAij.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildAveragePlane.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -49,7 +49,7 @@
 #include <ElCLib.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
-#include <GeomPlate_Aij.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_Aij.hxx>
 
 
 //=======================================================================

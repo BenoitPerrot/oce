@@ -1408,7 +1408,7 @@ static Standard_Integer OCC524 (Draw_Interpretor& di, Standard_Integer argc, con
   return 0;
 }
 
-#include <GeomPlate_BuildPlateSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildPlateSurface.hxx>
 //=======================================================================
 //function : OCC525
 //purpose  :
