@@ -16,7 +16,7 @@
 #import <Cocoa/Cocoa.h>
 
 #include <Draw_Window.hxx>
-#include <Cocoa_LocalPool.hxx>
+#include <Visualization/Cocoa/Cocoa_LocalPool.hxx>
 
 @interface Draw_CocoaView : NSView
 {

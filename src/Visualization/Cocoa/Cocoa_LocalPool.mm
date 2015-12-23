@@ -13,7 +13,7 @@
 
 #if (defined(__APPLE__))
 
-#include <Cocoa_LocalPool.hxx>
+#include <Visualization/Cocoa/Cocoa_LocalPool.hxx>
 
 #import <Cocoa/Cocoa.h>
 

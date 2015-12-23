@@ -15,9 +15,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-#include <Cocoa_Window.hxx>
+#include <Visualization/Cocoa/Cocoa_Window.hxx>
 
-#include <Cocoa_LocalPool.hxx>
+#include <Visualization/Cocoa/Cocoa_LocalPool.hxx>
 
 #include <Image_AlienPixMap.hxx>
 #include <Visualization/Aspect/Aspect_Convert.hxx>

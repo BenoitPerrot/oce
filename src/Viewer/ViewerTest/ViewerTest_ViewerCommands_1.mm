@@ -19,7 +19,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-#include <Cocoa_Window.hxx>
+#include <Visualization/Cocoa/Cocoa_Window.hxx>
 #include <ViewerTest.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>

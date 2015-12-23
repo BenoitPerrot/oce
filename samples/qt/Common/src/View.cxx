@@ -25,7 +25,7 @@
 #if defined(_WIN32) || defined(__WIN32__)
 #include <WNT_Window.hxx>
 #elif defined(__APPLE__) && !defined(MACOSX_USE_GLX)
-#include <Cocoa_Window.hxx>
+#include <Visualization/Cocoa/Cocoa_Window.hxx>
 #else
 #include <QX11Info>
 #include <GL/glx.h>

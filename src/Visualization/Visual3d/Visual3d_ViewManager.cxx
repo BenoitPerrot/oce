@@ -90,7 +90,7 @@ IMPLEMENT_STANDARD_RTTI(Visual3d_ViewManager)
 #if defined (_WIN32) || defined(__WIN32__)
 # include <WNT_Window.hxx>
 #elif defined(__APPLE__) && !defined(MACOSX_USE_GLX)
-# include <Cocoa_Window.hxx>
+# include <Visualization/Cocoa/Cocoa_Window.hxx>
 #else
 # include <Xw_Window.hxx>
 #endif
