@@ -18,7 +18,7 @@
 #include <IntTools_Context.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BuilderArea.hxx>
 
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
 

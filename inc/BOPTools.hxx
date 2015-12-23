@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BOPCol_MapOfShape.hxx>
-#include <BOPCol_IndexedMapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 class TopoDS_Shape;
 class BOPTools_ShapeSet;
 class BOPTools_EdgeSet;

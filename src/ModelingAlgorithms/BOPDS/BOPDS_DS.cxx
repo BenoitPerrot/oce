@@ -38,9 +38,9 @@
 //
 #include <BRepBndLib.hxx>
 //
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_ListOfInteger.hxx>
-#include <BOPCol_DataMapOfShapeInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
 //
 #include <BOPDS_IndexRange.hxx>
 #include <BOPDS_ShapeInfo.hxx>

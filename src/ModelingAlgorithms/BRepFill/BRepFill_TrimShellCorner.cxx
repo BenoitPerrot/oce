@@ -69,8 +69,8 @@
 #include <BOPDS_DS.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 
-#include <BOPCol_DataMapOfShapeListOfShape.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 static Standard_Boolean FindCommonVertex(const BOPDS_PDS&         theDS,
                                          const Standard_Integer   theEIndex1,

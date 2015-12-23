@@ -54,16 +54,16 @@
 #include <BRepBndLib.hxx>
 #include <BRepClass3d_SolidClassifier.hxx>
 //
-#include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_MapOfOrientedShape.hxx>
-#include <BOPCol_DataMapOfShapeShape.hxx>
-#include <BOPCol_DataMapOfShapeListOfShape.hxx>
-#include <BOPCol_MapOfShape.hxx>
-#include <BOPCol_BoxBndTree.hxx>
-#include <BOPCol_ListOfInteger.hxx>
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfOrientedShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BoxBndTree.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
 #include <BOPTools.hxx>
 #include <BOPTools_CoupleOfShape.hxx>

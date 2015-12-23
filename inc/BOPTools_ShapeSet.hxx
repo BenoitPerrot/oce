@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <BOPCol_MapOfOrientedShape.hxx>
-#include <BOPCol_BaseAllocator.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfOrientedShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Shape;

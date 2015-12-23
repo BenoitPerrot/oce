@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
-#include <BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 class BOPAlgo_PaveFiller;
 class TopTools_ListOfShape;
 class TopoDS_Shape;

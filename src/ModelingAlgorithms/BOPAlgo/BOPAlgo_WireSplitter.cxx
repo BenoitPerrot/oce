@@ -27,12 +27,12 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_IndexedMapOfShape.hxx>
-#include <BOPCol_MapOfShape.hxx>
-#include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BOPCol_TBB.hxx>
-#include <BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
 
 #include <BOPTools.hxx>
 

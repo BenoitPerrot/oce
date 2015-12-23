@@ -40,9 +40,9 @@
 
 #include <BRepExtrema_DistShapeShape.hxx>
 //
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_SequenceOfShape.hxx>
-#include <BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_SequenceOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
 #include <IntTools_Range.hxx>
 #include <IntTools_EdgeEdge.hxx>

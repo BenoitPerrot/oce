@@ -34,9 +34,9 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <BRepBndLib.hxx>
 
-#include <BOPCol_DataMapOfIntegerListOfInteger.hxx>
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 #include <BOPDS_DS.hxx>
 #include <BOPDS_Iterator.hxx>

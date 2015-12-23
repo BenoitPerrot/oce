@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_MakerVolume.hxx>
 #include <BOPDS_DS.hxx>
 #include <BOPTest_DrawableShape.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <IntTools_FaceFace.hxx>

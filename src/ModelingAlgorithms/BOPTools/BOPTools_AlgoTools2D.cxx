@@ -73,7 +73,7 @@
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
-#include <BOPCol_IndexedMapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
 
 #include <BOPTools.hxx>
 #include <IntTools_Tools.hxx>

@@ -3011,8 +3011,8 @@ static Standard_Integer OCC25413 (Draw_Interpretor& di, Standard_Integer narg , 
 //
 #include <BOPTools.hxx>
 //
-#include <BOPCol_MapOfShape.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 //=======================================================================
 //function : OCC25446
 //purpose  :

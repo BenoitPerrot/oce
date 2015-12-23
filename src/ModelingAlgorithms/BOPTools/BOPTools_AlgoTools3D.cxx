@@ -75,8 +75,8 @@
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <BRepGProp.hxx>
 
-#include <BOPCol_IndexedMapOfShape.hxx>
-#include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
 
 #include <IntTools_Tools.hxx>
 #include <IntTools_Context.hxx>

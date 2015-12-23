@@ -15,7 +15,7 @@
 #ifndef BOPDS_VectorOfListOfPaveBlock_HeaderFile
 #define BOPDS_VectorOfListOfPaveBlock_HeaderFile
 
-#include <BOPCol_Array1.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_Array1.hxx>
 #include <BOPDS_PaveBlock.hxx>
 #include <BOPDS_ListOfPaveBlock.hxx>
 

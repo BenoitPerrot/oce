@@ -16,7 +16,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BOPCol_Box2DBndTree.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_Box2DBndTree.hxx>
 
 //=======================================================================
 //function : 

@@ -43,7 +43,7 @@
 
 #include <IntTools_CommonPrt.hxx>
 
-#include <BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 
 static 
   void BndBuildBox(const BRepAdaptor_Curve& theBAC,

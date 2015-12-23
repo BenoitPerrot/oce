@@ -13,10 +13,10 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
-#include <BOPCol_BaseAllocator.hxx>
-#include <BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 class TopoDS_Solid;
 class BOPAlgo_PaveFiller;
 

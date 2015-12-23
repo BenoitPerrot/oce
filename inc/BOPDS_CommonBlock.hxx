@@ -11,9 +11,9 @@
 #include <Handle_BOPDS_CommonBlock.hxx>
 
 #include <BOPDS_ListOfPaveBlock.hxx>
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -24,7 +24,7 @@
 #include <BRepBuilderAPI_Copy.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 
-#include <BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
 #include <BOPDS_DS.hxx>
 #include <BOPDS_IteratorSI.hxx>

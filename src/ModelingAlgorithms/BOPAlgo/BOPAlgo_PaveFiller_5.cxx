@@ -45,9 +45,9 @@
 #include <IntTools_SequenceOfCommonPrts.hxx>
 #include <IntTools_CommonPrt.hxx>
 //
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
 #include <IntTools_Context.hxx>
 #include <IntTools_Tools.hxx>

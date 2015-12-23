@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPDS_Iterator.hxx>
-#include <BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 
 

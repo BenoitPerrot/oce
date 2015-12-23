@@ -50,13 +50,13 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_SequenceOfShape.hxx>
-#include <BOPCol_SequenceOfPnt2d.hxx>
-#include <BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BOPCol_SequenceOfReal.hxx>
-#include <BOPCol_DataMapOfShapeInteger.hxx>
-#include <BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_SequenceOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_SequenceOfPnt2d.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_SequenceOfReal.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
 #include <BOPTools_AlgoTools2D.hxx>
 

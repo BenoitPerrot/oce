@@ -24,11 +24,11 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //
-#include <BOPCol_IndexedDataMapOfShapeBox.hxx>
-#include <BOPCol_DataMapOfIntegerInteger.hxx>
-#include <BOPCol_DataMapOfIntegerMapOfInteger.hxx>
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_BoxBndTree.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerMapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BoxBndTree.hxx>
 //
 #include <BOPDS_IndexRange.hxx>
 #include <BOPDS_PassKeyBoolean.hxx>

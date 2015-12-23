@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 
-#include <BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPDS_Pave.hxx>
 #include <BOPDS_ListOfPave.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <BOPDS_ListOfPaveBlock.hxx>

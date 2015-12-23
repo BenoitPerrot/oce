@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <BOPDS_PDS.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PBuilder.hxx>
 class BOPAlgo_PaveFiller;
 class BOPAlgo_Builder;

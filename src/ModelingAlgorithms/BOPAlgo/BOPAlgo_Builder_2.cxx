@@ -34,13 +34,13 @@
 //
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 //
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_ListOfInteger.hxx>
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_DataMapOfIntegerListOfShape.hxx>
-#include <BOPCol_DataMapOfShapeShape.hxx>
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
 #include <IntTools_Context.hxx>
 //

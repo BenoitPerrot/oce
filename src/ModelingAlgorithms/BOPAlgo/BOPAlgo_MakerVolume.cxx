@@ -26,8 +26,8 @@
 
 #include <BRepPrimAPI_MakeBox.hxx>
 
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_DataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
 
 #include <BOPDS_DS.hxx>
 

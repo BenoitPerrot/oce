@@ -15,7 +15,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <BOPTools.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 //=======================================================================
 //function : MapShapes

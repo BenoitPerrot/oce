@@ -18,7 +18,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 #include <Foundation/NCollection/NCollection_IndexedDataMap.hxx>
 

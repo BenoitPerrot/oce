@@ -49,7 +49,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 
 #include <BOPDS_ShapeInfo.hxx>
 #include <BOPDS_DS.hxx>

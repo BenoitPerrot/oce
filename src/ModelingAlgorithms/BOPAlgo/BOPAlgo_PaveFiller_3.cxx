@@ -50,13 +50,13 @@
 //
 #include <BOPTools_AlgoTools.hxx>
 //
-#include <BOPCol_DataMapOfShapeInteger.hxx>
-#include <BOPCol_DataMapOfShapeListOfShape.hxx>
-#include <BOPCol_DataMapOfIntegerShape.hxx>
-#include <BOPCol_IndexedDataMapOfShapeBox.hxx>
-#include <BOPCol_BoxBndTree.hxx>
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BoxBndTree.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
 #include <IntTools_Context.hxx>
 #include <IntTools_ShrunkRange.hxx>

@@ -15,6 +15,6 @@
 #ifndef BOPCol_PListOfInteger_HeaderFile
 #define BOPCol_PListOfInteger_HeaderFile
 
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 
 #endif

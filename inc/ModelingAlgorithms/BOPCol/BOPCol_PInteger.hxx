@@ -16,7 +16,7 @@
 #define BOPCol_PInteger_HeaderFile
 
 #include <Foundation/Standard/Standard_TypeDef.hxx>
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 
 typedef Standard_Integer* BOPCol_PInteger;
 

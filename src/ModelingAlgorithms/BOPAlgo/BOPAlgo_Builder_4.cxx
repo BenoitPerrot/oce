@@ -23,8 +23,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
 #include <BOPDS_DS.hxx>
 

@@ -25,9 +25,9 @@
 //
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 //
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_TBB.hxx>
-#include <BOPCol_BoxBndTree.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BoxBndTree.hxx>
 //
 #include <BOPDS_IndexRange.hxx>
 #include <BOPDS_PassKeyBoolean.hxx>

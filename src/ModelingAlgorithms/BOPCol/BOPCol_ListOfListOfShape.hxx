@@ -17,7 +17,7 @@
 
 
 #include <Foundation/NCollection/NCollection_List.hxx>   
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 typedef NCollection_List<BOPCol_ListOfShape> BOPCol_ListOfListOfShape; 
 typedef BOPCol_ListOfListOfShape::Iterator BOPCol_ListIteratorOfListOfListOfShape;  

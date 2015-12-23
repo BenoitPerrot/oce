@@ -17,7 +17,7 @@
 #include <BOPDS_ShapeInfo.hxx>
 
 #include <stdio.h>
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 
 static 
   void DumpType(const TopAbs_ShapeEnum aTS);

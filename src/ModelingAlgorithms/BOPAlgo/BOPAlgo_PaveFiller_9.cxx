@@ -28,9 +28,9 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 
 #include <BOPDS_ShapeInfo.hxx>
 #include <BOPDS_PaveBlock.hxx>

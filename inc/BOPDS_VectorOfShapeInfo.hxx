@@ -15,7 +15,7 @@
 #ifndef BOPDS_VectorOfShapeInfo_HeaderFile
 #define BOPDS_VectorOfShapeInfo_HeaderFile
 
-#include <BOPCol_Array1.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_Array1.hxx>
 #include <BOPDS_ShapeInfo.hxx>
 
 #define BOPCol_Array1_Use_Allocator

@@ -33,7 +33,7 @@
 #include <DBRep.hxx>
 #include <Draw.hxx>
 
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 #include <BOPDS_DS.hxx>
 #include <BOPDS_MapOfPassKey.hxx>

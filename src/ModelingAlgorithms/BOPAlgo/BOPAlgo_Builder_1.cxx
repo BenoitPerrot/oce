@@ -27,9 +27,9 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
 
-#include <BOPCol_DataMapOfIntegerInteger.hxx>
-#include <BOPCol_ListOfShape.hxx>
-#include <BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
 #include <BOPDS_DS.hxx>
 #include <BOPDS_VectorOfListOfPaveBlock.hxx>

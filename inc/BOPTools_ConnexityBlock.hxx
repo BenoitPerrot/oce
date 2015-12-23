@@ -16,7 +16,7 @@
 #define BOPTools_ConnexityBlock_HeaderFile
 
 #include <Foundation/NCollection/NCollection_BaseAllocator.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 
 //=======================================================================
 //class : ConnexityBlock

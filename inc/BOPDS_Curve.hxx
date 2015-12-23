@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 #include <IntTools_Curve.hxx>
 #include <BOPDS_ListOfPaveBlock.hxx>
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

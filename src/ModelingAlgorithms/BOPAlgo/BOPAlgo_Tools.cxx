@@ -19,7 +19,7 @@
 #include <BOPDS_IndexedMapOfPaveBlock.hxx>
 #include <BOPDS_CommonBlock.hxx>
 #include <BOPDS_DataMapOfPaveBlockListOfPaveBlock.hxx>
-#include <BOPCol_IndexedMapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfInteger.hxx>
 
 //=======================================================================
 //function : MakeBlocksCnx

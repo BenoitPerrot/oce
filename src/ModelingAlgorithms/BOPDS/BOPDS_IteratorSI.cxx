@@ -26,21 +26,21 @@
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 
-#include <BOPCol_BoxBndTree.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BoxBndTree.hxx>
 #include <BOPDS_IndexRange.hxx>
 #include <BOPDS_PassKeyBoolean.hxx>
 #include <BOPDS_MapOfPassKeyBoolean.hxx>
 #include <BOPDS_DS.hxx>
 
-#include <BOPCol_IndexedDataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedDataMapOfShapeBox.hxx>
 #include <BOPDS_Tools.hxx>
-#include <BOPCol_DataMapOfShapeInteger.hxx>
-#include <BOPCol_DataMapOfIntegerInteger.hxx>
-#include <BOPCol_DataMapOfIntegerListOfInteger.hxx>
-#include <BOPCol_IndexedMapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfInteger.hxx>
 #include <BOPDS_ShapeInfo.hxx>
-#include <BOPCol_ListOfInteger.hxx>
-#include <BOPCol_IndexedMapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_IndexedMapOfInteger.hxx>
 
 //=======================================================================
 //function : 

@@ -53,7 +53,7 @@
 #include <BOPTools_AlgoTools3D.hxx>
 #include <BOPTools_MapOfSet.hxx>
 
-#include <BOPCol_DataMapOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
 
 //=======================================================================
 //function : 

@@ -21,7 +21,7 @@
 
 #include <Foundation/NCollection/NCollection_UBTree.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 /**
  * The instantiation of the algorithm of unbalanced binary tree 
  * of overlapped bounding boxes 2D.

@@ -16,7 +16,7 @@
 #define  BOPTest_Chronometer_HeaderFile
 //
 #ifdef HAVE_TBB
-#include <BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //=======================================================================
 //class : BOPTime_Chronometer
 //purpose  : 

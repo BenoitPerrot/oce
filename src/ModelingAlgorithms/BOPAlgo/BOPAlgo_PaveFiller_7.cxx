@@ -49,9 +49,9 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_TBB.hxx>
-#include <BOPCol_MapOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 
 #include <BOPDS_VectorOfListOfPaveBlock.hxx>
 #include <BOPDS_ListOfPaveBlock.hxx>

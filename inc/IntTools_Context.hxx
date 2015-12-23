@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_IntTools_Context.hxx>
 
-#include <BOPCol_BaseAllocator.hxx>
-#include <BOPCol_DataMapOfShapeAddress.hxx>
-#include <BOPCol_DataMapOfTransientAddress.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeAddress.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfTransientAddress.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Curve.hxx>

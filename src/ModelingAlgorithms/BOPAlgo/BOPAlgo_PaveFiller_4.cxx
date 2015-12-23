@@ -34,9 +34,9 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <BRepBndLib.hxx>
 //
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_NCVector.hxx>
-#include <BOPCol_TBB.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_NCVector.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_TBB.hxx>
 //
 #include <IntTools_Context.hxx>
 //

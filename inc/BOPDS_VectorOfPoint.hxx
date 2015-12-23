@@ -15,7 +15,7 @@
 #ifndef BOPDS_VectorOfPnt_HeaderFile
 #define BOPDS_VectorOfPnt_HeaderFile
 
-#include <BOPCol_Array1.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_Array1.hxx>
 #include <BOPDS_Point.hxx>
 
 #define BOPCol_Array1_Use_Allocator

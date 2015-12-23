@@ -15,7 +15,7 @@
 #ifndef BOPDS_VectorOfFaceInfo_HeaderFile
 #define BOPDS_VectorOfFaceInfo_HeaderFile
 
-#include <BOPCol_Array1.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_Array1.hxx>
 #include <BOPDS_FaceInfo.hxx>
 
 #define BOPCol_Array1_Use_Allocator

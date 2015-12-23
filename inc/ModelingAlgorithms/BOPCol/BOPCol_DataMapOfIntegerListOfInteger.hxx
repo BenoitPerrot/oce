@@ -12,16 +12,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#ifndef BOPCol_DataMapOfShapeListOfShape_HeaderFile
-#define BOPCol_DataMapOfShapeListOfShape_HeaderFile
+#ifndef BOPCol_DataMapOfIntegerListOfInteger_HeaderFile
+#define BOPCol_DataMapOfIntegerListOfInteger_HeaderFile
 
-#include <ModelingData/TopoDS/TopoDS_Shape.hxx>  
-#include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <BOPCol_ListOfShape.hxx>
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 
-typedef NCollection_DataMap<TopoDS_Shape, BOPCol_ListOfShape, TopTools_ShapeMapHasher> BOPCol_DataMapOfShapeListOfShape; 
-typedef BOPCol_DataMapOfShapeListOfShape::Iterator BOPCol_DataMapIteratorOfDataMapOfShapeListOfShape; 
+#include <Foundation/TColStd/TColStd_MapIntegerHasher.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
+
+typedef NCollection_DataMap<Standard_Integer, BOPCol_ListOfInteger, TColStd_MapIntegerHasher> BOPCol_DataMapOfIntegerListOfInteger; 
+typedef BOPCol_DataMapOfIntegerListOfInteger::Iterator BOPCol_DataMapIteratorOfDataMapOfIntegerListOfInteger;
  
 #endif

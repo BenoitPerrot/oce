@@ -10,16 +10,16 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <BOPCol_BaseAllocator.hxx>
-#include <BOPCol_ListOfShape.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <BOPDS_VectorOfIndexRange.hxx>
 #include <BOPDS_VectorOfShapeInfo.hxx>
-#include <BOPCol_DataMapOfShapeInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeInteger.hxx>
 #include <BOPDS_VectorOfListOfPaveBlock.hxx>
 #include <BOPDS_DataMapOfPaveBlockCommonBlock.hxx>
 #include <BOPDS_VectorOfFaceInfo.hxx>
-#include <BOPCol_DataMapOfIntegerInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfIntegerInteger.hxx>
 #include <BOPDS_MapOfPassKey.hxx>
 #include <BOPDS_VectorOfInterfVV.hxx>
 #include <BOPDS_VectorOfInterfVE.hxx>
@@ -36,8 +36,8 @@
 #include <Handle_BOPDS_PaveBlock.hxx>
 #include <Handle_BOPDS_CommonBlock.hxx>
 #include <BOPDS_IndexedMapOfPaveBlock.hxx>
-#include <BOPCol_MapOfInteger.hxx>
-#include <BOPCol_ListOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
+#include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <BOPDS_ListOfPave.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BOPDS_IndexRange;
