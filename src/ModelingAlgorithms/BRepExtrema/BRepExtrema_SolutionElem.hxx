@@ -20,7 +20,7 @@
 #define _BRepExtrema_SolutionElem_HeaderFile
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <BRepExtrema_SupportType.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SupportType.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

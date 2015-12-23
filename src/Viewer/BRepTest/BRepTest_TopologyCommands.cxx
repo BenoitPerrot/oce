@@ -30,7 +30,7 @@
 #include <BRepFilletAPI_MakeFillet.hxx>
 #include <BRepPrimAPI_MakeHalfSpace.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_FaceRestrictor.hxx>
-#include <BRepExtrema_ExtPF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 #include <ModelingData/BRepLProp/BRepLProp_SLProps.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

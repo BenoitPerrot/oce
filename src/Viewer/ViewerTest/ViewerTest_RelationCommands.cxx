@@ -955,7 +955,7 @@ static int VConcentricBuilder(Draw_Interpretor& di, Standard_Integer argc, const
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
 #include <AIS_EqualDistanceRelation.hxx>
-#include <BRepExtrema_ExtCC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 
 
@@ -1401,13 +1401,13 @@ static int VIdenticRelation(Draw_Interpretor& di, Standard_Integer argc, const c
 //Draw arg : vdiameterdim Name DiameterValue
 //==============================================================================
 #include <AIS_LengthDimension.hxx>
-#include <BRepExtrema_ExtCC.hxx>
-#include <BRepExtrema_ExtPC.hxx>
-#include <BRepExtrema_ExtCF.hxx>
-#include <BRepExtrema_ExtPF.hxx>
-#include <BRepExtrema_ExtFF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtFF.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <BRepLib_MakeVertex.hxx>
@@ -1804,7 +1804,7 @@ static int VRadiusDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 //==============================================================================
 #include <AIS_OffsetDimension.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <BRepExtrema_ExtFF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtFF.hxx>
 
 
 static int VOffsetDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const char** argv) 
@@ -1897,8 +1897,8 @@ static int VOffsetDimBuilder(Draw_Interpretor& di, Standard_Integer argc, const 
 //==============================================================================
 #include <AIS_ParallelRelation.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <BRepExtrema_ExtFF.hxx>
-#include <BRepExtrema_ExtCC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtFF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

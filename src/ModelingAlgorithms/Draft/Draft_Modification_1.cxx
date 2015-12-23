@@ -84,8 +84,8 @@
 #include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
-#include <BRepExtrema_ExtPC.hxx>
-#include <BRepExtrema_ExtCF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCF.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

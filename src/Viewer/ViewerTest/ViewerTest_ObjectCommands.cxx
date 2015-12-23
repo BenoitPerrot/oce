@@ -125,8 +125,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <StdPrs_Curve.hxx>
 
-#include <BRepExtrema_ExtPC.hxx>
-#include <BRepExtrema_ExtPF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 
 #include <Prs3d_VertexDrawMode.hxx>
 #include <Prs3d_LineAspect.hxx>

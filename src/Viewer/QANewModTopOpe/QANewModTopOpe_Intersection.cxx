@@ -21,8 +21,8 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BRepExtrema_SupportType.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SupportType.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

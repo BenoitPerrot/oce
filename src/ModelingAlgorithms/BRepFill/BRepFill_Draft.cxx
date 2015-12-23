@@ -84,7 +84,7 @@
 
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 
 #include <Precision.hxx> 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

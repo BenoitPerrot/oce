@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <BRepExtrema_ExtCC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>

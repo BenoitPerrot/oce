@@ -28,8 +28,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCompCurve.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
-#include <BRepExtrema_SupportType.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SupportType.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>

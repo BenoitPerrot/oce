@@ -121,8 +121,8 @@
 //modified by NIZNHY-PKV Fri Mar 22 16:56:17 2002 t
 
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
-#include <BRepExtrema_ExtPC.hxx>
-#include <BRepExtrema_ExtCF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCF.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>

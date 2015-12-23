@@ -111,7 +111,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_NormalProjection.hxx>
-#include <BRepExtrema_ExtCC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

@@ -18,8 +18,8 @@
 
 #include <DBRep.hxx>
 #include <BRepTest.hxx>
-#include <BRepExtrema_Poly.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_Poly.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <Draw.hxx>

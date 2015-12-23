@@ -17,9 +17,9 @@
 // modified by mps (juillet 96 ): on utilise BRepAdaptor a la place de 
 // GeomAdaptor dans Initialize et Perform.
 
-#include <BRepExtrema_ExtFF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtFF.hxx>
 
-#include <BRepExtrema_ExtCF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCF.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>

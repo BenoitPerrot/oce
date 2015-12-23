@@ -16,14 +16,14 @@
 
 // Modified: Mps(10-04-97) portage WNT
 
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <BRepExtrema_DistanceSS.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistanceSS.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
@@ -32,7 +32,7 @@
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
-#include <BRepExtrema_UnCompatibleShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_UnCompatibleShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
 #include <Foundation/NCollection/NCollection_Comparator.hxx>

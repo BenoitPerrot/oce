@@ -40,7 +40,7 @@
 #include <DBRep_DrawableShape.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <Draw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <BRepLib_MakeVertex.hxx>

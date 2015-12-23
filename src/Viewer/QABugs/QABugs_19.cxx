@@ -296,7 +296,7 @@ Standard_Integer OCC22595 (Draw_Interpretor& di, Standard_Integer /*argc*/, cons
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Transform.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 static Standard_Boolean OCC23774Test(const TopoDS_Face& grossPlateFace, const TopoDS_Shape& originalWire, Draw_Interpretor& di)

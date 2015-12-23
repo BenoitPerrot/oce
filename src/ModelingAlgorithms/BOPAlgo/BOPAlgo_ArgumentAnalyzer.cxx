@@ -38,7 +38,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 //
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_SequenceOfShape.hxx>

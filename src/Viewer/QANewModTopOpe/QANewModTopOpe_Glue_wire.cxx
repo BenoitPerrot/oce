@@ -38,7 +38,7 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 //#include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_EdgeConnector.hxx>
 #include <BRepLib_MakeWire.hxx>

@@ -76,7 +76,7 @@
 
 #include <IntCurveSurface_HInter.hxx>
 #include <IntCurveSurface_IntersectionPoint.hxx>
-#include <BRepExtrema_DistShapeShape.hxx> 
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx> 
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Precision.hxx>

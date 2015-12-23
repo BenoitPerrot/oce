@@ -20,7 +20,7 @@
 #define _BRepExtrema_SeqOfSolution_HeaderFile
 
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
-#include <BRepExtrema_SolutionElem.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SolutionElem.hxx>
 
 typedef NCollection_Sequence<BRepExtrema_SolutionElem> BRepExtrema_SeqOfSolution;
 

@@ -104,9 +104,9 @@
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 //modified by NIZNHY-PKV Fri Mar 22 16:51:35 2002 t
 
-#include <BRepExtrema_ExtPC.hxx>
-#include <BRepExtrema_ExtPF.hxx>
-#include <BRepExtrema_ExtCF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCF.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>

@@ -15,9 +15,9 @@
 #define _BRepExtrema_DistShapeShape_HeaderFile
 
 #include <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
-#include <BRepExtrema_SeqOfSolution.hxx>
-#include <BRepExtrema_SolutionElem.hxx>
-#include <BRepExtrema_SupportType.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SeqOfSolution.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SolutionElem.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SupportType.hxx>
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

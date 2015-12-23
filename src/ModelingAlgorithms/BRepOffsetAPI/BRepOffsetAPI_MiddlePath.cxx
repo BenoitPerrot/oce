@@ -42,7 +42,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeLine.hxx>

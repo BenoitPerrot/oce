@@ -30,7 +30,7 @@
 #include <BRepLib_MakeWire.hxx>
 #include <BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Wire.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

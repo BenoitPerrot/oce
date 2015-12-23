@@ -30,7 +30,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
-#include <BRepExtrema_DistShapeShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
 //=======================================================================

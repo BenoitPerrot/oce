@@ -16,28 +16,28 @@
 
 // Modified: Sergey ZERCHANINOV
 
-#include <BRepExtrema_DistanceSS.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistanceSS.hxx>
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <BRepExtrema_SupportType.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SupportType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <BRepExtrema_SolutionElem.hxx>
-#include <BRepExtrema_SeqOfSolution.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SolutionElem.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_SeqOfSolution.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx> 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <BRepExtrema_ExtPC.hxx>
-#include <BRepExtrema_ExtPF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
-#include <BRepExtrema_ExtCC.hxx>
-#include <BRepExtrema_ExtCF.hxx>
-#include <BRepExtrema_ExtFF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCC.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtCF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtFF.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

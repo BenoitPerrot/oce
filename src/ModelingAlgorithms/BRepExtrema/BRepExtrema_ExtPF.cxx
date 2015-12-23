@@ -17,7 +17,7 @@
 // modified by MPS (june 96) : on utilise BRepClass_FaceClassifier seulement 
 //  si IsDone de Extrema est vrai  
 
-#include <BRepExtrema_ExtPF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

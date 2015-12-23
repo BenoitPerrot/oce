@@ -18,7 +18,7 @@
 #include <HLRBRep_EdgeFaceTool.hxx>
 #include <HLRBRep_Curve.hxx>
 #include <HLRBRep_Surface.hxx>
-#include <BRepExtrema_ExtPF.hxx>
+#include <ModelingAlgorithms/BRepExtrema/BRepExtrema_ExtPF.hxx>
 #include <BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
