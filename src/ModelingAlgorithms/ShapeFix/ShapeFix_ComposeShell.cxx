@@ -25,13 +25,13 @@
 #pragma option -x-
 #endif
 
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_TransferParameters.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeFix_SequenceOfWireSegment.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ShapeFix_WireSegment.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
@@ -88,8 +88,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 
-#include <ShapeExtend.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Vertex.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>

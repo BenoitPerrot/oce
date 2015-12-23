@@ -20,7 +20,7 @@
 #include <Handle_ShapeAnalysis_TransferParameters.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ShapeFix_Root.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <Handle_Geom_Surface.hxx>
 class ShapeExtend_CompositeSurface;

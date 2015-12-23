@@ -19,7 +19,7 @@
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeExtend_WireData;
 class ShapeAnalysis_Surface;
 class TopoDS_Wire;

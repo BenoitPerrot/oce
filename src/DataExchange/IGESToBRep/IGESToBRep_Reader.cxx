@@ -57,7 +57,7 @@
 #include <IGESToBRep_CurveAndSurface.hxx>
 
 //#include <ModelingAlgorithms/ShapeCustom/ShapeCustom.hxx>
-#include <ShapeExtend_Explorer.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 
 #include <Transfer_TransferOutput.hxx>

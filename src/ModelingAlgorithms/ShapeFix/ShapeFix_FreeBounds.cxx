@@ -30,7 +30,7 @@
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 
-#include <ShapeExtend_Explorer.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_FreeBounds.hxx>
 
 //=======================================================================

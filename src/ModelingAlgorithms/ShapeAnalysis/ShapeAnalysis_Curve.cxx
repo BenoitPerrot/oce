@@ -50,7 +50,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
-#include <ShapeExtend_ComplexCurve.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_ComplexCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>

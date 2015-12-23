@@ -32,11 +32,11 @@
 #include <ShapeFix_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ShapeFix_DataMapOfShapeBox2d.hxx>
 #include <ShapeFix_Face.hxx>
@@ -82,7 +82,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 
 #include <Foundation/Message/Message_Msg.hxx>  
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <ShapeFix_Edge.hxx>
@@ -95,7 +95,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Face)
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>

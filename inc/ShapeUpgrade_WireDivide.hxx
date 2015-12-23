@@ -21,7 +21,7 @@
 #include <ShapeUpgrade_Tool.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeUpgrade_SplitCurve3d;
 class ShapeUpgrade_SplitCurve2d;
 class ShapeUpgrade_EdgeDivide;

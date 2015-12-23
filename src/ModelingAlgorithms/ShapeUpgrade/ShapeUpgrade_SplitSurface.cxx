@@ -18,7 +18,7 @@
 
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_SplitSurface)
@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurface)
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 

@@ -18,7 +18,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Handle_Geom_Surface.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 #include <Handle_Geom_Curve.hxx>
 #include <Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>

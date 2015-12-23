@@ -90,7 +90,7 @@
 #include <stdio.h>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>//rln
 
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Message/Message_Msg.hxx>

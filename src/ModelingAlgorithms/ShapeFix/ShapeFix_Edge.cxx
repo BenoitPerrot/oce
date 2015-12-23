@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Edge)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>

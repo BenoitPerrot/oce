@@ -16,7 +16,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ShapeFix_Solid.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Solid)
@@ -39,11 +39,11 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Solid)
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx> 
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

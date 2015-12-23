@@ -15,7 +15,7 @@
 
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo_ToolContainer.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
@@ -70,8 +70,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeAlgo_AlgoContainer)
 #include <ShapeFix_Edge.hxx>
 #include <ShapeUpgrade.hxx>
 #include <ShapeUpgrade_ShapeDivideContinuity.hxx>
-#include <ShapeExtend_WireData.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Precision.hxx>

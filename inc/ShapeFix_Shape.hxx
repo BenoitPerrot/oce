@@ -21,7 +21,7 @@
 #include <Handle_ShapeFix_Face.hxx>
 #include <Handle_ShapeFix_Wire.hxx>
 #include <Handle_ShapeFix_Edge.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class ShapeFix_Solid;

@@ -27,7 +27,7 @@
 
 #include <IGESToBRep_CurveAndSurface.hxx>
 #include <IGESData_IGESEntity.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <IGESData_HArray1OfIGESEntity.hxx>
 #include <IGESControl_IGESBoundary.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

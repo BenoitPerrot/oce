@@ -29,7 +29,7 @@
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 
-#include <ShapeExtend_MsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_MsgRegistrator.hxx>
 #include <ShapeProcess.hxx>
 #include <ShapeProcess_UOperator.hxx>
 #include <ShapeProcess_ShapeContext.hxx>
@@ -43,7 +43,7 @@
 #include <ModelingAlgorithms/ShapeCustom/ShapeCustom_SweptToElementary.hxx>
 #include <ModelingAlgorithms/ShapeCustom/ShapeCustom_ConvertToBSpline.hxx>
 
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ShapeUpgrade_ShapeDivideAngle.hxx>
 #include <ShapeUpgrade_ShapeConvertToBezier.hxx>

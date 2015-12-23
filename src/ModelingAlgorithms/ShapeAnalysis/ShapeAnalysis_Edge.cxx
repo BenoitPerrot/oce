@@ -52,7 +52,7 @@
 
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>

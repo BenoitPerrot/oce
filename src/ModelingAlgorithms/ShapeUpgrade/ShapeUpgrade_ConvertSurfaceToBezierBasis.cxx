@@ -16,7 +16,7 @@
 
 //   svv  10.01.00 porting on DEC
 
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeUpgrade_ConvertSurfaceToBezierBasis)
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertSurfaceToBezierBasis)
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/GeomConvert/GeomConvert_BSplineSurfaceToBezierSurface.hxx>
 #include <Geometry/TColGeom/TColGeom_Array2OfBezierSurface.hxx>

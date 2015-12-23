@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_ShapeExtend_MsgRegistrator.hxx>
 
-#include <ShapeExtend_DataMapOfTransientListOfMsg.hxx>
-#include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
-#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapOfTransientListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Handle_Standard_Transient.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 class Standard_Transient;
@@ -75,7 +75,7 @@ private:
 };
 
 
-#include <ShapeExtend_MsgRegistrator.lxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_MsgRegistrator.lxx>
 
 
 

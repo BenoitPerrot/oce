@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve2d)
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>

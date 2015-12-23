@@ -3,14 +3,14 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
-#include <ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
  
 
 #define TheKey TopoDS_Shape
@@ -20,12 +20,12 @@
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg
-#define TCollection_DataMapNode_hxx <ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 #define TCollection_DataMapIterator ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg
-#define TCollection_DataMapIterator_hxx <ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
 #define Handle_TCollection_DataMapNode Handle_ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg
 #define TCollection_DataMapNode_Type_() ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg_Type_()
 #define TCollection_DataMap ShapeExtend_DataMapOfShapeListOfMsg
-#define TCollection_DataMap_hxx <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 #include <Foundation/TCollection/TCollection_DataMapIterator.gxx>
 

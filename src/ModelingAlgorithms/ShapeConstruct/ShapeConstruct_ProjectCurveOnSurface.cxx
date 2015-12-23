@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeConstruct_ProjectCurveOnSurface)
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
 #include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>

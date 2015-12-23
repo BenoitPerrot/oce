@@ -81,7 +81,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_UnifySameDomain)
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ShapeFix_Face.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <ShapeFix_SequenceOfWireSegment.hxx>
 #include <ShapeFix_WireSegment.hxx>

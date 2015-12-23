@@ -54,7 +54,7 @@
 #include <ShapeUpgrade_ShapeDivideArea.hxx>
 
 #include <stdio.h> 
-//#include <ShapeExtend_WireData.hxx>
+//#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 //#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Shell.hxx>
 //#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 //#include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
@@ -65,7 +65,7 @@
 #include <ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>

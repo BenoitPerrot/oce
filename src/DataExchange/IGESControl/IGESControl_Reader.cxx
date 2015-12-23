@@ -46,7 +46,7 @@
 #include <Foundation/TColStd/TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Transfer_TransferOutput.hxx>
-#include <ShapeExtend_Explorer.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Transfer_ActorOfTransientProcess.hxx>
 #include <IGESToBRep_Actor.hxx>

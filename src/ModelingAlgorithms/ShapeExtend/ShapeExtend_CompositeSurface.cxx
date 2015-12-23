@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeExtend_CompositeSurface)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

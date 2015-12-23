@@ -18,7 +18,7 @@
 #include <DBRep.hxx>
 #include <SWDRAW.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
-#include <ShapeExtend_Explorer.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
 

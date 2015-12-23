@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Handle_ShapeExtend_WireData.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeAnalysis_Surface;
 class ShapeFix_Wire;
 class TopoDS_Face;

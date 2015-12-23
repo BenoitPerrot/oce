@@ -12,7 +12,7 @@
 // commercial license or contractual agreement.
 
 //szv#4 S4163
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

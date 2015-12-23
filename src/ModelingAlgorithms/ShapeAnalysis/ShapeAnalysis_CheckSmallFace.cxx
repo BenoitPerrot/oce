@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>  
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
@@ -72,7 +72,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingData/TopTools/TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx> 

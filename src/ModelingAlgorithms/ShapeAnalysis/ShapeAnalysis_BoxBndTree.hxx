@@ -22,8 +22,8 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingData/TopTools/TopTools_HArray1OfShape.hxx>
 
-#include <ShapeExtend.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

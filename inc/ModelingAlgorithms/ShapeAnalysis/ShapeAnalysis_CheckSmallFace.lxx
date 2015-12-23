@@ -11,7 +11,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 inline  Standard_Boolean ShapeAnalysis_CheckSmallFace::Status(const ShapeExtend_Status status) const
 {
    return ShapeExtend::DecodeStatus ( myStatus, status );

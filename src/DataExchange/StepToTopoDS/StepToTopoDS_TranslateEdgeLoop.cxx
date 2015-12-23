@@ -88,7 +88,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ShapeFix_EdgeProjAux.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>

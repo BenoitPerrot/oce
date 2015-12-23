@@ -19,7 +19,7 @@
 #include <Handle_ShapeExtend_WireData.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeFix_Edge;
 class ShapeAnalysis_Wire;
 class TopoDS_Wire;

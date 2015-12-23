@@ -21,7 +21,7 @@
 #include <Foundation/Message/Message_ProgressIndicator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
 #include <ShapeFix_Shell.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeFix_Shell)
@@ -59,7 +59,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Shell.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx> 
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/Message/Message_ProgressSentry.hxx>

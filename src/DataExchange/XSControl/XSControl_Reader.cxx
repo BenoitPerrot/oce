@@ -25,7 +25,7 @@
 #include <Interface_ShareFlags.hxx>
 #include <IFSelect_Functions.hxx>
 
-#include <ShapeExtend_Explorer.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Transfer_IteratorOfProcessForTransient.hxx>

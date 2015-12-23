@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve3d)
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <Precision.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>

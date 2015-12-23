@@ -59,7 +59,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 
 #include <IFSelect_CheckCounter.hxx>
-#include <ShapeExtend_Explorer.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Explorer.hxx>
 #include <Interface_Macros.hxx>
 #include <stdio.h>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

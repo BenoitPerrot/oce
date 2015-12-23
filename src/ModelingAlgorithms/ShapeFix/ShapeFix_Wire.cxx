@@ -47,7 +47,7 @@
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
@@ -113,7 +113,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_Wire)
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Foundation/Message/Message_Msg.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Vertex.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <ShapeExtend_MsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(ShapeProcess_ShapeContext)
 #include <Foundation/Message/Message_Messenger.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>
 #include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
-#include <ShapeExtend_MsgRegistrator.hxx>
-#include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_MsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 
 //=======================================================================
 //function : ShapeProcess_ShapeContext

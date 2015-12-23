@@ -146,7 +146,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>//#16
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis.hxx>
 //S4054
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>

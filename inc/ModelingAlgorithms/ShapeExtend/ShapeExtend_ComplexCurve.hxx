@@ -111,7 +111,7 @@ private:
 };
 
 
-#include <ShapeExtend_ComplexCurve.lxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_ComplexCurve.lxx>
 
 
 

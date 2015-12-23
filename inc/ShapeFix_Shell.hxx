@@ -17,7 +17,7 @@
 #include <ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_Message_ProgressIndicator.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 #include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class ShapeFix_Face;

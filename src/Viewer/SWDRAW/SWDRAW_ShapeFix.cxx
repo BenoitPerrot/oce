@@ -39,7 +39,7 @@
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireVertex.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ShapeFix.hxx>
 #include <ShapeFix_ShapeTolerance.hxx>
 #include <ShapeFix_Wire.hxx>
@@ -48,9 +48,9 @@
 #include <ShapeFix_Face.hxx>
 #include <ShapeFix_Shape.hxx>
 #include <Precision.hxx>
-#include <ShapeExtend_DataMapOfShapeListOfMsg.hxx>
-#include <ShapeExtend_MsgRegistrator.hxx>
-#include <ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_MsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>
 #include <Foundation/Message/Message_ListIteratorOfListOfMsg.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
@@ -71,7 +71,7 @@
 #include <strings.h>
 #endif
 #include <stdio.h>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 
 //=======================================================================
 //function : edgesameparam

@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ShapeFix_Root.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class TopoDS_Shape;
 class TopTools_MapOfShape;
 class TopTools_DataMapOfShapeListOfShape;

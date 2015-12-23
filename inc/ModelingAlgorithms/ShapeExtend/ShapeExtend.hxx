@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class ShapeExtend_ComplexCurve;
 class ShapeExtend_CompositeSurface;

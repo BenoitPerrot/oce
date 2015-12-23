@@ -18,7 +18,7 @@
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ShapeUpgrade_Tool.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class TopoDS_Shape;
 class TopTools_SequenceOfShape;
 

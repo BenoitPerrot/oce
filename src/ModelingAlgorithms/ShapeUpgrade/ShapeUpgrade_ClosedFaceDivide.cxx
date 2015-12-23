@@ -28,11 +28,11 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ClosedFaceDivide)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ClosedFaceDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <Precision.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Edge.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ShapeUpgrade_SplitSurface.hxx>
-#include <ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_CompositeSurface.hxx>
 #include <ShapeFix_ComposeShell.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>

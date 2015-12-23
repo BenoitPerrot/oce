@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Message/Message_Msg.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(ShapeExtend_BasicMsgRegistrator)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()

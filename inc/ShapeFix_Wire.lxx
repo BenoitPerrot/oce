@@ -15,8 +15,8 @@
 
 // pdn 05.01.98: renaming method ...Little to ...Small
 
-#include <ShapeExtend.hxx>
-#include <ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Wire.hxx>
 
 //=======================================================================

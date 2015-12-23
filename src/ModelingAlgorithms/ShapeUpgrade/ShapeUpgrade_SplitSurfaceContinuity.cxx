@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 //======================================================================
 //function : ShapeUpgrade_SplitSurface
 //purpose  : 

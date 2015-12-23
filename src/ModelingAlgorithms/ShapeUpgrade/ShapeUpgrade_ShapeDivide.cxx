@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ShapeUpgrade_ShapeDivide.hxx>
 #include <Precision.hxx>
-#include <ShapeExtend.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

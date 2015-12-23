@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_Geom2d_Curve.hxx>
-#include <ShapeExtend_Status.hxx>
+#include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class TopoDS_Edge;
 class Geom_Curve;
 class TopoDS_Face;
