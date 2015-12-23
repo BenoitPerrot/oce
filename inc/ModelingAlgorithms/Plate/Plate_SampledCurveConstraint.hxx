@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Plate_LinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DimensionMismatch;
 class Plate_SequenceOfPinpointConstraint;
@@ -48,7 +48,7 @@ private:
 };
 
 
-#include <Plate_SampledCurveConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_SampledCurveConstraint.lxx>
 
 
 

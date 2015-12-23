@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Plate_HArray1OfPinpointConstraint.hxx>
 
-#include <Plate_Array1OfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Array1OfPinpointConstraint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
@@ -69,11 +69,11 @@ private:
 };
 
 #define ItemHArray1 Plate_PinpointConstraint
-#define ItemHArray1_hxx <Plate_PinpointConstraint.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 #define TheArray1 Plate_Array1OfPinpointConstraint
-#define TheArray1_hxx <Plate_Array1OfPinpointConstraint.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/Plate/Plate_Array1OfPinpointConstraint.hxx>
 #define TCollection_HArray1 Plate_HArray1OfPinpointConstraint
-#define TCollection_HArray1_hxx <Plate_HArray1OfPinpointConstraint.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/Plate/Plate_HArray1OfPinpointConstraint.hxx>
 #define Handle_TCollection_HArray1 Handle_Plate_HArray1OfPinpointConstraint
 #define TCollection_HArray1_Type_() Plate_HArray1OfPinpointConstraint_Type_()
 

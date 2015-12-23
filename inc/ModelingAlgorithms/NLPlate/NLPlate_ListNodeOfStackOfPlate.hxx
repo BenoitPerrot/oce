@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_NLPlate_ListNodeOfStackOfPlate.hxx>
 
-#include <Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Plate_Plate;
@@ -48,7 +48,7 @@ private:
 };
 
 #define Item Plate_Plate
-#define Item_hxx <Plate_Plate.hxx>
+#define Item_hxx <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #define TCollection_ListNode NLPlate_ListNodeOfStackOfPlate
 #define TCollection_ListNode_hxx <ModelingAlgorithms/NLPlate/NLPlate_ListNodeOfStackOfPlate.hxx>
 #define TCollection_ListIterator NLPlate_ListIteratorOfStackOfPlate

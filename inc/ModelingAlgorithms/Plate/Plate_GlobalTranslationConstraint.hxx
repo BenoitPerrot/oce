@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Plate_LinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
 class TColgp_SequenceOfXY;
 class Plate_LinearXYZConstraint;
 
@@ -46,7 +46,7 @@ private:
 };
 
 
-#include <Plate_GlobalTranslationConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_GlobalTranslationConstraint.lxx>
 
 
 

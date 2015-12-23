@@ -59,7 +59,7 @@ private:
 };
 
 
-#include <Plate_PinpointConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.lxx>
 
 
 

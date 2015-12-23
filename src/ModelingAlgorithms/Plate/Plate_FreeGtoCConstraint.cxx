@@ -19,12 +19,12 @@
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Plate_D1.hxx>
-#include <Plate_D2.hxx>
-#include <Plate_D3.hxx>
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_LinearScalarConstraint.hxx>
-#include <Plate_FreeGtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D2.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D3.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

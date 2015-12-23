@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
 
-#include <Plate_LinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Plate_LinearXYZConstraint;
@@ -47,13 +47,13 @@ private:
 };
 
 #define SeqItem Plate_LinearXYZConstraint
-#define SeqItem_hxx <Plate_LinearXYZConstraint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
 #define TCollection_SequenceNode Plate_SequenceNodeOfSequenceOfLinearXYZConstraint
-#define TCollection_SequenceNode_hxx <Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Plate/Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
 #define Handle_TCollection_SequenceNode Handle_Plate_SequenceNodeOfSequenceOfLinearXYZConstraint
 #define TCollection_SequenceNode_Type_() Plate_SequenceNodeOfSequenceOfLinearXYZConstraint_Type_()
 #define TCollection_Sequence Plate_SequenceOfLinearXYZConstraint
-#define TCollection_Sequence_hxx <Plate_SequenceOfLinearXYZConstraint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Plate/Plate_SequenceOfLinearXYZConstraint.hxx>
 
 #include <Foundation/TCollection/TCollection_SequenceNode.lxx>
 

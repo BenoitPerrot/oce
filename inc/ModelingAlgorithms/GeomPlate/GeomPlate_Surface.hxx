@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_GeomPlate_Surface.hxx>
 
-#include <Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

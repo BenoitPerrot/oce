@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Plate_GtoCConstraint.hxx>
-#include <Plate_FreeGtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_GtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Plate_D2.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D2.hxx>
 
 Plate_D2::Plate_D2(const gp_XYZ& duu, const gp_XYZ& duv, const gp_XYZ& dvv)
 :Duu(duu),Duv(duv),Dvv(dvv)

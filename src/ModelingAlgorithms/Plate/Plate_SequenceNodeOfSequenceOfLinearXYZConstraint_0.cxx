@@ -3,12 +3,12 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <Plate_LinearXYZConstraint.hxx>
-#include <Plate_SequenceOfLinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceOfLinearXYZConstraint.hxx>
 
  
 
@@ -28,12 +28,12 @@ IMPLEMENT_STANDARD_RTTI(Plate_SequenceNodeOfSequenceOfLinearXYZConstraint)
 
 
 #define SeqItem Plate_LinearXYZConstraint
-#define SeqItem_hxx <Plate_LinearXYZConstraint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
 #define TCollection_SequenceNode Plate_SequenceNodeOfSequenceOfLinearXYZConstraint
-#define TCollection_SequenceNode_hxx <Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Plate/Plate_SequenceNodeOfSequenceOfLinearXYZConstraint.hxx>
 #define Handle_TCollection_SequenceNode Handle_Plate_SequenceNodeOfSequenceOfLinearXYZConstraint
 #define TCollection_SequenceNode_Type_() Plate_SequenceNodeOfSequenceOfLinearXYZConstraint_Type_()
 #define TCollection_Sequence Plate_SequenceOfLinearXYZConstraint
-#define TCollection_Sequence_hxx <Plate_SequenceOfLinearXYZConstraint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Plate/Plate_SequenceOfLinearXYZConstraint.hxx>
 #include <Foundation/TCollection/TCollection_SequenceNode.gxx>
 

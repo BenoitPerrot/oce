@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class gp_XY;
@@ -72,7 +72,7 @@ private:
 };
 
 
-#include <Plate_GtoCConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_GtoCConstraint.lxx>
 
 
 

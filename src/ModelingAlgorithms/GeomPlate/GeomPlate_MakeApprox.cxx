@@ -42,7 +42,7 @@
 #include <Geometry/AdvApprox/AdvApprox_Cutting.hxx>
 #include <Geometry/AdvApprox/AdvApprox_DichoCutting.hxx>
 
-#include <Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 
 class GeomPlate_MakeApprox_Eval : public AdvApp2Var_EvaluatorFunc2Var
 {

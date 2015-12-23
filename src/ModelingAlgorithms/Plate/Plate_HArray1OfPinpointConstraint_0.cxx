@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Plate_HArray1OfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_HArray1OfPinpointConstraint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_Array1OfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Array1OfPinpointConstraint.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(Plate_HArray1OfPinpointConstraint)
 
 
 #define ItemHArray1 Plate_PinpointConstraint
-#define ItemHArray1_hxx <Plate_PinpointConstraint.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 #define TheArray1 Plate_Array1OfPinpointConstraint
-#define TheArray1_hxx <Plate_Array1OfPinpointConstraint.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/Plate/Plate_Array1OfPinpointConstraint.hxx>
 #define TCollection_HArray1 Plate_HArray1OfPinpointConstraint
-#define TCollection_HArray1_hxx <Plate_HArray1OfPinpointConstraint.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/Plate/Plate_HArray1OfPinpointConstraint.hxx>
 #define Handle_TCollection_HArray1 Handle_Plate_HArray1OfPinpointConstraint
 #define TCollection_HArray1_Type_() Plate_HArray1OfPinpointConstraint_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

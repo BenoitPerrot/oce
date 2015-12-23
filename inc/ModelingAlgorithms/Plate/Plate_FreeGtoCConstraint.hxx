@@ -12,8 +12,8 @@
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class gp_XY;
 class Plate_D1;
@@ -69,7 +69,7 @@ private:
 };
 
 
-#include <Plate_FreeGtoCConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.lxx>
 
 
 

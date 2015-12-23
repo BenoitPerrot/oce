@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <Plate_SequenceOfLinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceOfLinearScalarConstraint.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Plate_LinearScalarConstraint.hxx>
-#include <Plate_SequenceNodeOfSequenceOfLinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceNodeOfSequenceOfLinearScalarConstraint.hxx>
  
 
 #define SeqItem Plate_LinearScalarConstraint
-#define SeqItem_hxx <Plate_LinearScalarConstraint.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
 #define TCollection_SequenceNode Plate_SequenceNodeOfSequenceOfLinearScalarConstraint
-#define TCollection_SequenceNode_hxx <Plate_SequenceNodeOfSequenceOfLinearScalarConstraint.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/Plate/Plate_SequenceNodeOfSequenceOfLinearScalarConstraint.hxx>
 #define Handle_TCollection_SequenceNode Handle_Plate_SequenceNodeOfSequenceOfLinearScalarConstraint
 #define TCollection_SequenceNode_Type_() Plate_SequenceNodeOfSequenceOfLinearScalarConstraint_Type_()
 #define TCollection_Sequence Plate_SequenceOfLinearScalarConstraint
-#define TCollection_Sequence_hxx <Plate_SequenceOfLinearScalarConstraint.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/Plate/Plate_SequenceOfLinearScalarConstraint.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

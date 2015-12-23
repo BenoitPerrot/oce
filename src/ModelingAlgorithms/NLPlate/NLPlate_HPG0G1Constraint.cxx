@@ -14,11 +14,11 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_HPG0G1Constraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(NLPlate_HPG0G1Constraint)

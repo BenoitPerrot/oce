@@ -28,7 +28,7 @@
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
 #include <Geometry/Geom/Geom_UndefinedValue.hxx>
-#include <Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

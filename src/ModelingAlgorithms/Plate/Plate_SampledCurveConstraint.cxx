@@ -15,11 +15,11 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
-#include <Plate_SequenceOfPinpointConstraint.hxx>
-#include <Plate_LinearXYZConstraint.hxx>
-#include <Plate_SampledCurveConstraint.hxx>
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_SequenceOfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceOfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SampledCurveConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceOfPinpointConstraint.hxx>
 
 static inline Standard_Real B0( Standard_Real t)
 {

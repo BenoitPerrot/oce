@@ -77,7 +77,7 @@ private:
 };
 
 
-#include <Plate_LinearScalarConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.lxx>
 
 
 

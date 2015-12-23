@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item Plate_PinpointConstraint
-#define Array1Item_hxx <Plate_PinpointConstraint.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 #define TCollection_Array1 Plate_Array1OfPinpointConstraint
-#define TCollection_Array1_hxx <Plate_Array1OfPinpointConstraint.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/Plate/Plate_Array1OfPinpointConstraint.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

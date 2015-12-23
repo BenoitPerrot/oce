@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_NLPlate_HPG0G1Constraint.hxx>
 
-#include <Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_HPG0Constraint.hxx>
 class gp_XY;

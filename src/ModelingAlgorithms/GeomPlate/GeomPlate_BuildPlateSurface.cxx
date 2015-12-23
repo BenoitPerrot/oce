@@ -57,12 +57,12 @@
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <ModelingAlgorithms/Law/Law_Interpol.hxx>
 
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_Plate.hxx>
-#include <Plate_GtoCConstraint.hxx>
-#include <Plate_D1.hxx>
-#include <Plate_D2.hxx>
-#include <Plate_FreeGtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_GtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D2.hxx>
+#include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.hxx>
 
 #include <Precision.hxx>
 

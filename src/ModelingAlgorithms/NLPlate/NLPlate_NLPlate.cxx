@@ -20,12 +20,12 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <Plate_D1.hxx>
-#include <Plate_D2.hxx>
-#include <Plate_D3.hxx>
-#include <Plate_Plate.hxx>
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_FreeGtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D2.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D3.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.hxx>
 
 #include <ModelingAlgorithms/NLPlate/NLPlate_ListIteratorOfStackOfPlate.hxx>
 

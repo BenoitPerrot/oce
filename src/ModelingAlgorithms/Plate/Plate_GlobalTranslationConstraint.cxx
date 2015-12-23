@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
-#include <Plate_LinearXYZConstraint.hxx>
-#include <Plate_GlobalTranslationConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_GlobalTranslationConstraint.hxx>
 
 Plate_GlobalTranslationConstraint::Plate_GlobalTranslationConstraint(const TColgp_SequenceOfXY& SOfXY)
 :myLXYZC(SOfXY.Length()-1,SOfXY.Length() )

@@ -13,9 +13,9 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Plate_SequenceOfPinpointConstraint.hxx>
-#include <Plate_SequenceOfLinearXYZConstraint.hxx>
-#include <Plate_SequenceOfLinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceOfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceOfLinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SequenceOfLinearScalarConstraint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Handle_TColgp_HArray2OfXYZ.hxx>
 class Plate_PinpointConstraint;
@@ -159,7 +159,7 @@ private:
 };
 
 
-#include <Plate_Plate.lxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.lxx>
 
 
 

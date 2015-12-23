@@ -16,7 +16,7 @@
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 
 Plate_PinpointConstraint::Plate_PinpointConstraint()
 {

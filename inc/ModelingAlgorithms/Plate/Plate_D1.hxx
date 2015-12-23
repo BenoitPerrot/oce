@@ -55,7 +55,7 @@ private:
 };
 
 
-#include <Plate_D1.lxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.lxx>
 
 
 

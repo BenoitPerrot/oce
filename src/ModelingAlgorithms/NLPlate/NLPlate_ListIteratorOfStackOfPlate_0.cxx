@@ -8,12 +8,12 @@
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_StackOfPlate.hxx>
-#include <Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_ListNodeOfStackOfPlate.hxx>
  
 
 #define Item Plate_Plate
-#define Item_hxx <Plate_Plate.hxx>
+#define Item_hxx <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #define TCollection_ListNode NLPlate_ListNodeOfStackOfPlate
 #define TCollection_ListNode_hxx <ModelingAlgorithms/NLPlate/NLPlate_ListNodeOfStackOfPlate.hxx>
 #define TCollection_ListIterator NLPlate_ListIteratorOfStackOfPlate

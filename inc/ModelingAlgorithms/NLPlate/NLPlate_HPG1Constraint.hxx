@@ -11,7 +11,7 @@
 #include <Handle_NLPlate_HPG1Constraint.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_HGPPConstraint.hxx>
 class gp_XY;

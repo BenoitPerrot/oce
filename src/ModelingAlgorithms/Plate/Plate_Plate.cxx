@@ -29,21 +29,21 @@
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
-#include <Plate_PinpointConstraint.hxx>
-#include <Plate_LinearXYZConstraint.hxx>
-#include <Plate_LinearScalarConstraint.hxx>
-#include <Plate_GlobalTranslationConstraint.hxx>
-#include <Plate_LineConstraint.hxx>
-#include <Plate_PlaneConstraint.hxx>
-#include <Plate_SampledCurveConstraint.hxx>
-#include <Plate_GtoCConstraint.hxx>
-#include <Plate_FreeGtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_GlobalTranslationConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LineConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PlaneConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_SampledCurveConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_GtoCConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 
 
 //=======================================================================

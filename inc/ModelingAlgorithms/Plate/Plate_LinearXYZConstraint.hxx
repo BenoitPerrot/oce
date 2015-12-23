@@ -76,7 +76,7 @@ private:
 };
 
 
-#include <Plate_LinearXYZConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearXYZConstraint.lxx>
 
 
 

@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Plate_D1.hxx>
-#include <Plate_D2.hxx>
-#include <Plate_D3.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D1.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D2.hxx>
+#include <ModelingAlgorithms/Plate/Plate_D3.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_HPG3Constraint.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(NLPlate_HPG3Constraint)

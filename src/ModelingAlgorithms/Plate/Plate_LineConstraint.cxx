@@ -16,8 +16,8 @@
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Plate_LinearScalarConstraint.hxx>
-#include <Plate_LineConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LineConstraint.hxx>
 
 Plate_LineConstraint::Plate_LineConstraint(const gp_XY& point2d,
 					     const gp_Lin& lin,

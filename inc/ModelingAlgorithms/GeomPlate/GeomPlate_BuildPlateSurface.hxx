@@ -15,7 +15,7 @@
 #include <Handle_GeomPlate_HSequenceOfPointConstraint.hxx>
 #include <Handle_Geom_Surface.hxx>
 #include <Handle_GeomPlate_Surface.hxx>
-#include <Plate_Plate.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

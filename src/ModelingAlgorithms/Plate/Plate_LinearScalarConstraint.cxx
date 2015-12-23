@@ -14,16 +14,16 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Plate_HArray1OfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_HArray1OfPinpointConstraint.hxx>
 #include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Plate_Array1OfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Array1OfPinpointConstraint.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfXYZ.hxx>
-#include <Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 
 

@@ -16,9 +16,9 @@
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Plate_LinearScalarConstraint.hxx>
-#include <Plate_PlaneConstraint.hxx>
-#include <Plate_PinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PlaneConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 
 
 Plate_PlaneConstraint::Plate_PlaneConstraint(const gp_XY& point2d,

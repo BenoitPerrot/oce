@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Plate_LinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class gp_XY;
 class gp_Pln;
@@ -48,7 +48,7 @@ private:
 };
 
 
-#include <Plate_PlaneConstraint.lxx>
+#include <ModelingAlgorithms/Plate/Plate_PlaneConstraint.lxx>
 
 
 
