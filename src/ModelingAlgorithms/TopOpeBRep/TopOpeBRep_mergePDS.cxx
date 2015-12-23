@@ -23,7 +23,7 @@
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS.hxx>
 
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 
 Standard_Integer BREP_findPDSamongIDMOVP(const TopOpeBRepDS_Point& PDS,const TopOpeBRepDS_IndexedDataMapOfVertexPoint& IDMOVP)

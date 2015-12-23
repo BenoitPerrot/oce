@@ -21,11 +21,11 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
-#include <TopOpeBRep_FFTransitionTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -38,7 +38,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepDS_GettraceDSFK(); 

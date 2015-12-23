@@ -17,12 +17,12 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRep_ShapeIntersector.hxx>
-#include <TopOpeBRep_ShapeIntersector2d.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
-#include <TopOpeBRep_EdgesFiller.hxx>
-#include <TopOpeBRep_FaceEdgeFiller.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
@@ -40,7 +40,7 @@
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <Precision.hxx>
 
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 #include <TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
 #include <TopOpeBRepDS_ShapeWithState.hxx>
@@ -76,7 +76,7 @@ static void FUN_RESET_KRO_DSFILLER()
   KRO_DSFILLER_INTFE.Reset();
 }
 
-#include <TopOpeBRep_traceSIFF.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_traceSIFF.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 extern TopOpeBRep_traceSIFF SIFF;

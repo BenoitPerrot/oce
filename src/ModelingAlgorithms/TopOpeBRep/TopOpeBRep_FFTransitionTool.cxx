@@ -22,10 +22,10 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Situation.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_FFTransitionTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

@@ -71,11 +71,11 @@
 #include <TopOpeBRepBuild_Builder.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_CurveExplorer.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
-#include <TopOpeBRep_ShapeIntersector.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
-#include <TopOpeBRep_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_GeomTool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>

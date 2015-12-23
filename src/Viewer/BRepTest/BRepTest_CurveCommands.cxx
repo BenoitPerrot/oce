@@ -64,8 +64,8 @@
 #include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
-#include <TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 
 #include <stdio.h>

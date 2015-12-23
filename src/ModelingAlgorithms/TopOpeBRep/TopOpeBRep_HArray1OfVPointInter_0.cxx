@@ -3,7 +3,7 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_HArray1OfVPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_HArray1OfVPointInter.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_Array1OfVPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Array1OfVPointInter.hxx>
 
  
 
@@ -31,11 +31,11 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_HArray1OfVPointInter)
 
 
 #define ItemHArray1 TopOpeBRep_VPointInter
-#define ItemHArray1_hxx <TopOpeBRep_VPointInter.hxx>
+#define ItemHArray1_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
 #define TheArray1 TopOpeBRep_Array1OfVPointInter
-#define TheArray1_hxx <TopOpeBRep_Array1OfVPointInter.hxx>
+#define TheArray1_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Array1OfVPointInter.hxx>
 #define TCollection_HArray1 TopOpeBRep_HArray1OfVPointInter
-#define TCollection_HArray1_hxx <TopOpeBRep_HArray1OfVPointInter.hxx>
+#define TCollection_HArray1_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_HArray1OfVPointInter.hxx>
 #define Handle_TCollection_HArray1 Handle_TopOpeBRep_HArray1OfVPointInter
 #define TCollection_HArray1_Type_() TopOpeBRep_HArray1OfVPointInter_Type_()
 #include <Foundation/TCollection/TCollection_HArray1.gxx>

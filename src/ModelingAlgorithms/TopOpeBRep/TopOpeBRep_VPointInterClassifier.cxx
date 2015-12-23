@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_PointClassifier.hxx>
-#include <TopOpeBRep_VPointInterClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterClassifier.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Precision.hxx>

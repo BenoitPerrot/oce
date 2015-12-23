@@ -14,9 +14,9 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_LineInter.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_VPointInterIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 
 //=======================================================================

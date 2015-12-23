@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopOpeBRep_PThePointOfIntersection.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PThePointOfIntersection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -203,7 +203,7 @@ private:
 };
 
 
-#include <TopOpeBRep_VPointInter.lxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.lxx>
 
 
 

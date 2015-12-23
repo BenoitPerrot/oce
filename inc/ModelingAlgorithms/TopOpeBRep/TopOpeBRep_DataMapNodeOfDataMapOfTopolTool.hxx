@@ -60,13 +60,13 @@ private:
 #define Hasher TopTools_ShapeMapHasher
 #define Hasher_hxx <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
 #define TCollection_DataMapNode TopOpeBRep_DataMapNodeOfDataMapOfTopolTool
-#define TCollection_DataMapNode_hxx <TopOpeBRep_DataMapNodeOfDataMapOfTopolTool.hxx>
+#define TCollection_DataMapNode_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DataMapNodeOfDataMapOfTopolTool.hxx>
 #define TCollection_DataMapIterator TopOpeBRep_DataMapIteratorOfDataMapOfTopolTool
-#define TCollection_DataMapIterator_hxx <TopOpeBRep_DataMapIteratorOfDataMapOfTopolTool.hxx>
+#define TCollection_DataMapIterator_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DataMapIteratorOfDataMapOfTopolTool.hxx>
 #define Handle_TCollection_DataMapNode Handle_TopOpeBRep_DataMapNodeOfDataMapOfTopolTool
 #define TCollection_DataMapNode_Type_() TopOpeBRep_DataMapNodeOfDataMapOfTopolTool_Type_()
 #define TCollection_DataMap TopOpeBRep_DataMapOfTopolTool
-#define TCollection_DataMap_hxx <TopOpeBRep_DataMapOfTopolTool.hxx>
+#define TCollection_DataMap_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DataMapOfTopolTool.hxx>
 
 #include <Foundation/TCollection/TCollection_DataMapNode.lxx>
 

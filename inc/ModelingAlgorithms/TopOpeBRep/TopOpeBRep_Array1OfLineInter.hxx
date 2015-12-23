@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item TopOpeBRep_LineInter
-#define Array1Item_hxx <TopOpeBRep_LineInter.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
 #define TCollection_Array1 TopOpeBRep_Array1OfLineInter
-#define TCollection_Array1_hxx <TopOpeBRep_Array1OfLineInter.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Array1OfLineInter.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Handle_TopOpeBRep_FFDumper.hxx>
 
-#include <TopOpeBRep_PFacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PFacesFiller.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

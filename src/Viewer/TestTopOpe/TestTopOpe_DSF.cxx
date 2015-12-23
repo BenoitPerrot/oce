@@ -18,8 +18,8 @@
 
 #include <TopOpeBRepTool.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 Standard_Integer TestTopOpe_BOOP::DSF_SetInterTolerances(TopOpeBRep_DSFiller& DSF)
 {

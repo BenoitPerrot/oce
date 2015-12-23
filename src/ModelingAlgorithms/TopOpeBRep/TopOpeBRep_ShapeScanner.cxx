@@ -17,7 +17,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
 #include <TopOpeBRepTool_BoxSort.hxx>
-#include <TopOpeBRep_ShapeScanner.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeScanner.hxx>
 #include <TopOpeBRepTool_define.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 

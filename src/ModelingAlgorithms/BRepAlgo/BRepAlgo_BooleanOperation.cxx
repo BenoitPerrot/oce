@@ -21,7 +21,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperation.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopOpeBRepTool_OutCurveType.hxx>

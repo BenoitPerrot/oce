@@ -16,7 +16,7 @@
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopOpeBRep_P2Dstatus.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_P2Dstatus.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepDS_Config.hxx>
@@ -154,7 +154,7 @@ private:
 };
 
 
-#include <TopOpeBRep_Point2d.lxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.lxx>
 
 
 

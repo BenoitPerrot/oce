@@ -16,7 +16,7 @@
 
 #ifdef OCCT_DEBUG
 
-#include <TopOpeBRep_traceSIFF.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_traceSIFF.hxx>
 #include <stdio.h>
 TopOpeBRep_traceSIFF::TopOpeBRep_traceSIFF()
 { 

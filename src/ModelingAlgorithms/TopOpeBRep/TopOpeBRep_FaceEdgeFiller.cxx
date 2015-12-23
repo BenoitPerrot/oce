@@ -15,16 +15,16 @@
 // commercial license or contractual agreement.
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_FaceEdgeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeIntersector.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
-#include <TopOpeBRep_FaceEdgeFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeFiller.hxx>
 
-#include <TopOpeBRep_PointGeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointGeomTool.hxx>
 #include <TopOpeBRepDS_InterferenceTool.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS_Point.hxx>

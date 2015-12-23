@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopOpeBRep_ShapeIntersector.hxx>
-#include <TopOpeBRep_ShapeIntersector2d.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
-#include <TopOpeBRep_EdgesFiller.hxx>
-#include <TopOpeBRep_FaceEdgeFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeFiller.hxx>
 #include <TopOpeBRepTool_PShapeClassifier.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

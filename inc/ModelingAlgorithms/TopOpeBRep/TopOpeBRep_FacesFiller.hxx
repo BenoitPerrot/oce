@@ -12,17 +12,17 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <TopOpeBRep_PFacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PFacesIntersector.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_PDataStructure.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopOpeBRep_PLineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PLineInter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopOpeBRep_PointClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointClassifier.hxx>
 #include <TopOpeBRepTool_PShapeClassifier.hxx>
 #include <Handle_TopOpeBRep_FFDumper.hxx>
 #include <TopOpeBRepDS_Kind.hxx>

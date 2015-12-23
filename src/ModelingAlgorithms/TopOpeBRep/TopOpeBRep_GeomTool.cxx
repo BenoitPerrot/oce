@@ -14,23 +14,23 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <TopOpeBRep_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_GeomTool.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <TopOpeBRep_TypeLineCurve.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_TypeLineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <TopOpeBRep_WPointInter.hxx>
-#include <TopOpeBRep_WPointInterIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInterIterator.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 

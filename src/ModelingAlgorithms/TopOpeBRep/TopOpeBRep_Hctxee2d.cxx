@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
-#include <TopOpeBRep_Hctxee2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Hctxee2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRep_Hctxee2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TopOpeBRep_Hctxee2d)
 IMPLEMENT_DOWNCAST(TopOpeBRep_Hctxee2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxee2d)
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_CurveTool.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepTool_2d.hxx>

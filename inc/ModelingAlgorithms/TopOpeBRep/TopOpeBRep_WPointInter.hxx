@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopOpeBRep_PPntOn2S.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PPntOn2S.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class IntSurf_PntOn2S;
 class gp_Pnt2d;

@@ -16,8 +16,8 @@
 
 #include <TopOpeBRepTool_HBoxTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
-#include <TopOpeBRep_ShapeIntersector2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector2d.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

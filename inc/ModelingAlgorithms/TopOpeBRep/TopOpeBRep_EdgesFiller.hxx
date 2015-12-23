@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <TopOpeBRepDS_PDataStructure.hxx>
-#include <TopOpeBRep_PEdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PEdgesIntersector.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

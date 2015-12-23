@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopOpeBRep_FaceEdgeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeIntersector.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>

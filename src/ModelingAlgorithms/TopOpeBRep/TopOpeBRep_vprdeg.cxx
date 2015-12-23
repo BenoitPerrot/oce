@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRep_FFDumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_FacesIntersector.hxx>
-#include <TopOpeBRep_PointClassifier.hxx>
-#include <TopOpeBRep_LineInter.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_VPointInterClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterClassifier.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TopOpeBRep_VPointInterIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
@@ -31,7 +31,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 
 #ifdef DRAW
 #include <TopOpeBRepDS_DRAW.hxx>
@@ -53,8 +53,8 @@
 #include <Precision.hxx>
 
 #include <TopOpeBRepDS_EXPORT.hxx>
-#include <TopOpeBRep.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <Handle_BRepAlgo_EdgeConnector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

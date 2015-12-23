@@ -12,13 +12,13 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <TopOpeBRep_TypeLineCurve.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_TypeLineCurve.hxx>
 #include <Handle_IntPatch_Line.hxx>
 #include <Handle_IntPatch_ALine.hxx>
 #include <Handle_IntPatch_RLine.hxx>
 #include <Handle_IntPatch_WLine.hxx>
 #include <Handle_IntPatch_GLine.hxx>
-#include <TopOpeBRep_WPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInter.hxx>
 #include <Handle_TopOpeBRep_HArray1OfVPointInter.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
@@ -191,7 +191,7 @@ private:
 };
 
 
-#include <TopOpeBRep_LineInter.lxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.lxx>
 
 
 

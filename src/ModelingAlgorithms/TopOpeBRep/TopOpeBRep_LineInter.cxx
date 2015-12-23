@@ -19,22 +19,22 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
-#include <TopOpeBRep_HArray1OfVPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_HArray1OfVPointInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_WPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInter.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopOpeBRep_Bipoint.hxx>
-#include <TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Bipoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
 
-#include <TopOpeBRep.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_VPointInterIterator.hxx>
-#include <TopOpeBRep_FFTransitionTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_IType.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

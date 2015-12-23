@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopOpeBRep_WPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_WPointInter.hxx>
 
 //=======================================================================
 //function : WPointInter

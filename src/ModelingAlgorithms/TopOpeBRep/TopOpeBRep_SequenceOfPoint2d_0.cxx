@@ -3,21 +3,21 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_SequenceOfPoint2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_SequenceOfPoint2d.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <TopOpeBRep_Point2d.hxx>
-#include <TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
  
 
 #define SeqItem TopOpeBRep_Point2d
-#define SeqItem_hxx <TopOpeBRep_Point2d.hxx>
+#define SeqItem_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 #define TCollection_SequenceNode TopOpeBRep_SequenceNodeOfSequenceOfPoint2d
-#define TCollection_SequenceNode_hxx <TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
+#define TCollection_SequenceNode_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
 #define Handle_TCollection_SequenceNode Handle_TopOpeBRep_SequenceNodeOfSequenceOfPoint2d
 #define TCollection_SequenceNode_Type_() TopOpeBRep_SequenceNodeOfSequenceOfPoint2d_Type_()
 #define TCollection_Sequence TopOpeBRep_SequenceOfPoint2d
-#define TCollection_Sequence_hxx <TopOpeBRep_SequenceOfPoint2d.hxx>
+#define TCollection_Sequence_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_SequenceOfPoint2d.hxx>
 #include <Foundation/TCollection/TCollection_Sequence.gxx>
 

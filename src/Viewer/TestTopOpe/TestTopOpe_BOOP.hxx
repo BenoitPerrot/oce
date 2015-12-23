@@ -18,10 +18,10 @@
 #define _TestTopOpe_BOOP_HeaderFile
 
 #include <Viewer/TestTopOpe/TestTopOpe_VarsTopo.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <TopOpeBRepBuild_define.hxx>
 
 #define TESTTOPOPE_NKEYS 8

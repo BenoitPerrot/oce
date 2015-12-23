@@ -18,16 +18,16 @@
 #include <TopOpeBRepTool_DRAW.hxx>
 #endif
 
-#include <TopOpeBRep_Hctxff2d.hxx>
-#include <TopOpeBRep_Hctxee2d.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Hctxff2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Hctxee2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <TopOpeBRep_Point2d.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 

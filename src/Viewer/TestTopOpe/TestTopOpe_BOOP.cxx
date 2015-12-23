@@ -29,11 +29,11 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_Point.hxx>
 #include <TopOpeBRepDS.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
-#include <TopOpeBRep_FacesIntersector.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
-#include <TopOpeBRep_ShapeIntersector.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>

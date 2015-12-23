@@ -14,10 +14,10 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_LineInter.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_FFDumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRep_FFDumper)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -29,21 +29,21 @@ IMPLEMENT_DOWNCAST(TopOpeBRep_FFDumper,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRep_FFDumper)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
-#include <TopOpeBRep_FacesIntersector.hxx>
-#include <TopOpeBRep_VPointInterIterator.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <TopOpeBRep_FFTransitionTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
 
 #ifdef OCCT_DEBUG

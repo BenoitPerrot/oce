@@ -16,7 +16,7 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <TopOpeBRep_Hctxff2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Hctxff2d.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(TopOpeBRep_Hctxff2d)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(TopOpeBRep_Hctxff2d)
 IMPLEMENT_DOWNCAST(TopOpeBRep_Hctxff2d,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(TopOpeBRep_Hctxff2d)
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_ShapeTool.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>

@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_Point.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_Point2d.hxx>
-#include <TopOpeBRep_FaceEdgeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeIntersector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_PointGeomTool.hxx>
-#include <TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointGeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

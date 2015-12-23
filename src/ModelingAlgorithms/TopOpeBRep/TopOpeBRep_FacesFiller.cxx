@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRep_FFDumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_FacesIntersector.hxx>
-#include <TopOpeBRep_PointClassifier.hxx>
-#include <TopOpeBRep_LineInter.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_VPointInterClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterClassifier.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TopOpeBRep_VPointInterIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
@@ -31,12 +31,12 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 //#include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
-#include <TopOpeBRep_FFTransitionTool.hxx>
-#include <TopOpeBRep.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep.hxx>
 #include <Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -48,7 +48,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_2d.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 #include <TopOpeBRepTool_defineG.hxx>
 #include <TopOpeBRepTool_SC.hxx>
 

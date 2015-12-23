@@ -25,13 +25,13 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopOpeBRep_SequenceOfPoint2d.hxx>
-#include <TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_SequenceOfPoint2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
@@ -57,8 +57,8 @@
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
 #include <TopOpeBRepTool_tol.hxx>
-#include <TopOpeBRep_Point2d.hxx>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 #ifdef OCCT_DEBUG
 extern Standard_Boolean TopOpeBRepTool_GettraceNYI();

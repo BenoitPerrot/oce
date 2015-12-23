@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <TopOpeBRep_TypeLineCurve.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_TypeLineCurve.hxx>
 class TopOpeBRep_VPointInter;
 class TopOpeBRep_Array1OfVPointInter;
 class TopOpeBRep_HArray1OfVPointInter;

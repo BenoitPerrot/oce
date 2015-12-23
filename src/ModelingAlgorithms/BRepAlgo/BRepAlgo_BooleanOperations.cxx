@@ -20,7 +20,7 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DSAccess.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_BooleanOperations.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 #include <TopOpeBRepDS_BuildTool.hxx>
 #include <TopOpeBRepTool_GeomTool.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

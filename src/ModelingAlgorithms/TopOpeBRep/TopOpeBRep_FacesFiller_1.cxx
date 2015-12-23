@@ -15,15 +15,15 @@
 // commercial license or contractual agreement.
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
-#include <TopOpeBRep_FFDumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_FacesIntersector.hxx>
-#include <TopOpeBRep_PointClassifier.hxx>
-#include <TopOpeBRep_LineInter.hxx>
-#include <TopOpeBRep_VPointInter.hxx>
-#include <TopOpeBRep_VPointInterClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointClassifier.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterClassifier.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <TopOpeBRep_VPointInterIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
@@ -31,7 +31,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
-#include <TopOpeBRep_FacesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesFiller.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -42,7 +42,7 @@
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 
-#include <TopOpeBRep_FFDumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>
 #include <TopOpeBRepTool_TOOL.hxx>
 #include <TopOpeBRepTool_defineG.hxx>
 #include <TopOpeBRepTool_EXPORT.hxx>
@@ -53,19 +53,19 @@
 #include <TopOpeBRepDS_Curve.hxx>
 #include <TopOpeBRepDS_ProcessInterferencesTool.hxx>
 
-#include <TopOpeBRep.hxx>
-#include <TopOpeBRep_FFTransitionTool.hxx>
-#include <TopOpeBRep_GeomTool.hxx>
-#include <TopOpeBRep_PointGeomTool.hxx>
-#include <TopOpeBRep_FFDumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFTransitionTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_GeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointGeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FFDumper.hxx>
 
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
 #ifdef DRAW
-#include <TopOpeBRep_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DRAW.hxx>
 #endif
 
 #ifdef OCCT_DEBUG

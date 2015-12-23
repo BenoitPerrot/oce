@@ -16,16 +16,16 @@
 
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
 #include <TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
-#include <TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_Interference.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <TopOpeBRepDS_ListOfInterference.hxx>
-#include <TopOpeBRep_EdgesFiller.hxx>
-#include <TopOpeBRep_PointGeomTool.hxx>
-#include <TopOpeBRep_Point2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointGeomTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 
 #include <TopOpeBRepDS_Transition.hxx>
 #include <TopOpeBRepDS_Config.hxx>
@@ -38,7 +38,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 #ifdef OCCT_DEBUG
 #include <TopOpeBRepDS_reDEB.hxx>

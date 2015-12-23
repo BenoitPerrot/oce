@@ -13,8 +13,8 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Handle_TopOpeBRepTool_HBoxTool.hxx>
 #include <TopOpeBRepTool_ShapeExplorer.hxx>
-#include <TopOpeBRep_ShapeScanner.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeScanner.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepTool_HBoxTool;

@@ -3,18 +3,18 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_Array1OfLineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Array1OfLineInter.hxx>
 
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_DimensionMismatch.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_OutOfMemory.hxx>
-#include <TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
  
 
 #define Array1Item TopOpeBRep_LineInter
-#define Array1Item_hxx <TopOpeBRep_LineInter.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
 #define TCollection_Array1 TopOpeBRep_Array1OfLineInter
-#define TCollection_Array1_hxx <TopOpeBRep_Array1OfLineInter.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Array1OfLineInter.hxx>
 #include <Foundation/TCollection/TCollection_Array1.gxx>
 

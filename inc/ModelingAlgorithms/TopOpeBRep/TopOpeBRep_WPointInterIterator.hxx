@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <TopOpeBRep_PLineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PLineInter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRep_LineInter;

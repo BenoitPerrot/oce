@@ -92,9 +92,9 @@ private:
 };
 
 #define Array1Item TopOpeBRep_VPointInter
-#define Array1Item_hxx <TopOpeBRep_VPointInter.hxx>
+#define Array1Item_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInter.hxx>
 #define TCollection_Array1 TopOpeBRep_Array1OfVPointInter
-#define TCollection_Array1_hxx <TopOpeBRep_Array1OfVPointInter.hxx>
+#define TCollection_Array1_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Array1OfVPointInter.hxx>
 
 #include <Foundation/TCollection/TCollection_Array1.lxx>
 

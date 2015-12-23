@@ -3,13 +3,13 @@
 // The copyright and license terms as defined for the original file apply to 
 // this header file considered to be the "object code" form of the original source.
 
-#include <TopOpeBRep_ListNodeOfListOfBipoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ListNodeOfListOfBipoint.hxx>
 
 #include <Foundation/Standard/Standard_Type.hxx>
 
-#include <TopOpeBRep_Bipoint.hxx>
-#include <TopOpeBRep_ListOfBipoint.hxx>
-#include <TopOpeBRep_ListIteratorOfListOfBipoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Bipoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ListOfBipoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ListIteratorOfListOfBipoint.hxx>
 
  
 
@@ -29,14 +29,14 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRep_ListNodeOfListOfBipoint)
 
 
 #define Item TopOpeBRep_Bipoint
-#define Item_hxx <TopOpeBRep_Bipoint.hxx>
+#define Item_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Bipoint.hxx>
 #define TCollection_ListNode TopOpeBRep_ListNodeOfListOfBipoint
-#define TCollection_ListNode_hxx <TopOpeBRep_ListNodeOfListOfBipoint.hxx>
+#define TCollection_ListNode_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ListNodeOfListOfBipoint.hxx>
 #define TCollection_ListIterator TopOpeBRep_ListIteratorOfListOfBipoint
-#define TCollection_ListIterator_hxx <TopOpeBRep_ListIteratorOfListOfBipoint.hxx>
+#define TCollection_ListIterator_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ListIteratorOfListOfBipoint.hxx>
 #define Handle_TCollection_ListNode Handle_TopOpeBRep_ListNodeOfListOfBipoint
 #define TCollection_ListNode_Type_() TopOpeBRep_ListNodeOfListOfBipoint_Type_()
 #define TCollection_List TopOpeBRep_ListOfBipoint
-#define TCollection_List_hxx <TopOpeBRep_ListOfBipoint.hxx>
+#define TCollection_List_hxx <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ListOfBipoint.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 

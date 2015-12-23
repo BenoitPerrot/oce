@@ -56,7 +56,7 @@
 #include <TopOpeBRepBuild_HBuilder.hxx>
 #include <TopOpeBRepBuild_WireEdgeSet.hxx>
 #include <TopOpeBRepBuild_FaceBuilder.hxx>
-#include <TopOpeBRep_DSFiller.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
 
 #ifdef DRAW
 //#include <Viewer/TestTopOpe/TestTopOpe.hxx>

@@ -17,7 +17,7 @@
 #ifdef OCCT_DEBUG
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <TopOpeBRep_FaceEdgeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FaceEdgeIntersector.hxx>
 #include <TopOpeBRepDS_DataStructure.hxx>
 #include <TopOpeBRepDS.hxx>
 #include <TopOpeBRepDS_Transition.hxx>

@@ -23,8 +23,8 @@
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_SequenceOfIntersectionSegment.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <TopOpeBRep_SequenceOfPoint2d.hxx>
-#include <TopOpeBRep_P2Dstatus.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_SequenceOfPoint2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_P2Dstatus.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <TopOpeBRepDS_Config.hxx>
 class BRepAdaptor_HSurface;

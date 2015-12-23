@@ -14,21 +14,21 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <TopOpeBRep_HArray1OfLineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_HArray1OfLineInter.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <TopOpeBRep_LineInter.hxx>
-#include <TopOpeBRep_FacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
 
 #ifdef DRAW
-#include <TopOpeBRep_DRAW.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DRAW.hxx>
 #endif
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_LineConstructor.hxx>
-#include <TopOpeBRep_TypeLineCurve.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_TypeLineCurve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

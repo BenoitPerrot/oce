@@ -15,9 +15,9 @@
 // commercial license or contractual agreement.
 
 #include <Viewer/TestTopOpe/TestTopOpe_BOOP.hxx>
-#include <TopOpeBRep_FacesIntersector.hxx>
-#include <TopOpeBRep_EdgesIntersector.hxx>
-#include <TopOpeBRep_ShapeIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_FacesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ShapeIntersector.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 

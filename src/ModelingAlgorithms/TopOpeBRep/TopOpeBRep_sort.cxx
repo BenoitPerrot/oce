@@ -17,7 +17,7 @@
 #include <TopOpeBRepDS_TKI.hxx>
 #include <TopOpeBRepDS_HDataStructure.hxx>
 #include <stdlib.h>
-#include <TopOpeBRep_define.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 typedef TopOpeBRepDS_ListOfInterference* BOA_t;
 
