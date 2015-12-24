@@ -43,7 +43,7 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_EdgesIntersector.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfShapeSequenceOfReal.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceOfSequenceOfReal.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_SequenceOfSequenceOfShape.hxx>

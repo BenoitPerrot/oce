@@ -47,7 +47,7 @@
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wireframe.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Face.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapOfShapeListOfMsg.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_DataMapIteratorOfDataMapOfShapeListOfMsg.hxx>

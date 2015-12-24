@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : Reject

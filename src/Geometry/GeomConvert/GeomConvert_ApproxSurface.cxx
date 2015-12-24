@@ -18,7 +18,7 @@
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_ApproxAFunc2Var.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>

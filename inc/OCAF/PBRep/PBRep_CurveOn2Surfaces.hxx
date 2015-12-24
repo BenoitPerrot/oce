@@ -13,7 +13,7 @@
 
 #include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PGeom_Surface;

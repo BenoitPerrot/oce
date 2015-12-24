@@ -21,7 +21,7 @@
 #include <Geometry/GC/GC_MakeArcOfEllipse.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 GC_MakeArcOfEllipse::GC_MakeArcOfEllipse(const gp_Elips& Elips   ,
 					   const gp_Pnt&    P1   ,

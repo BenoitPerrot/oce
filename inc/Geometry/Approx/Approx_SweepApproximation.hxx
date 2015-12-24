@@ -25,7 +25,7 @@
 #include <Mathematics/Collections/Handle_TColgp_HArray1OfVec.hxx>
 #include <Mathematics/Collections/Handle_TColgp_HArray1OfVec2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/AdvApprox/AdvApprox_EvaluatorFunction.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Approx_SweepFunction;

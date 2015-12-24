@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <OCAF/LDOM/Handle_LDOM_MemManager.hxx>
-#include <LDOMString.hxx>
+#include <OCAF/LDOM/LDOMString.hxx>
 
 class LDOM_BasicNode;
 

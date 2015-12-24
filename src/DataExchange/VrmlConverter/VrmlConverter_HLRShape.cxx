@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <DataExchange/VrmlConverter/VrmlConverter_DeflectionCurve.hxx>
 #include <DataExchange/VrmlConverter/VrmlConverter_LineAspect.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <DataExchange/Vrml/Vrml_Separator.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>
 

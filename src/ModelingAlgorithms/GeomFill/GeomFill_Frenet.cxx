@@ -32,9 +32,9 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_Frenet)
 IMPLEMENT_DOWNCAST(GeomFill_Frenet,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_Frenet)
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SnglrFunc.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>

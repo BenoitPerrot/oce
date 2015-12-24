@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class GeomFill_Frenet;
 class Standard_OutOfRange;
 class Standard_ConstructionError;

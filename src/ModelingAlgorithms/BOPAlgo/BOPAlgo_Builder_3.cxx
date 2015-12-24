@@ -17,7 +17,7 @@
 //
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 //
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 //
 #include <Foundation/NCollection/NCollection_IncAllocator.hxx>
 #include <Foundation/NCollection/NCollection_UBTreeFiller.hxx>

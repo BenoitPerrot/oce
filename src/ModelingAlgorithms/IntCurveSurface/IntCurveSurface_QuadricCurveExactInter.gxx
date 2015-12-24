@@ -20,7 +20,7 @@
 #include <Mathematics/Optimization/math_FunctionAllRoots.hxx>
 #include <Mathematics/Optimization/math_FunctionSample.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 
 
 #define EPSX    0.00000000000001

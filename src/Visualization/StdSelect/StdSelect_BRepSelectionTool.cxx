@@ -33,7 +33,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -56,7 +56,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Visualization/Select3D/Select3D_TypeOfSensitivity.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

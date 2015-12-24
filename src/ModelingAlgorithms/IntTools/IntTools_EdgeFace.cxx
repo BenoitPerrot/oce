@@ -49,7 +49,7 @@
 
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>

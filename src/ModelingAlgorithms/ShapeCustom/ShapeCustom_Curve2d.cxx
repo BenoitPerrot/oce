@@ -26,8 +26,8 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 

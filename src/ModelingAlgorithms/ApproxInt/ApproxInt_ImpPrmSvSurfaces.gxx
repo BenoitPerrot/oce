@@ -17,8 +17,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <GeomAbs_SurfaceType.hxx>
-#include <Precision.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #define       ComputeParametersOnImplicitSurface(MyISurf,P,u,v)  MyISurf.Parameters(P,u,v)
 

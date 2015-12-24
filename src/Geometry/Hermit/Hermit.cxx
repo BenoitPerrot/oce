@@ -32,7 +32,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TCollection/TCollection_CompareOfReal.hxx>
 #include <Foundation/SortTools/SortTools_QuickSortOfReal.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : HermiteCoeff

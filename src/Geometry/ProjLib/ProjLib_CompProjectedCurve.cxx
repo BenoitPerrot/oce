@@ -32,14 +32,14 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Mat2d.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Extrema/Extrema_ExtCS.hxx>
 #include <Mathematics/Collections/TColgp_HSequenceOfPnt.hxx>
 #include <Geometry/Extrema/Extrema_GenLocateExtPS.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/ProjLib/ProjLib_PrjResolve.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
 #define FuncTol 1.e-10

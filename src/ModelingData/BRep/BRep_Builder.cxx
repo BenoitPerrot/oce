@@ -47,7 +47,7 @@
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_LockedShape.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingData/BRep/BRep_Polygon3D.hxx>
 #include <ModelingData/BRep/BRep_PolygonOnSurface.hxx>

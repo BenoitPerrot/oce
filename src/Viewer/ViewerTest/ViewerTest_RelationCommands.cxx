@@ -38,7 +38,7 @@
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Window.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx>
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -51,7 +51,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/IntAna/IntAna_IntConicQuad.hxx>
 #include <Geometry/IntAna/IntAna_Quadric.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Visualization/StdSelect/StdSelect.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

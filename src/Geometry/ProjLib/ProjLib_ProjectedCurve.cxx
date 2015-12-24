@@ -16,7 +16,7 @@
 
 //  Modified by skv - Wed Aug 11 15:45:58 2004 OCC6272
 
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>
@@ -33,7 +33,7 @@
 #include <Geometry/ProjLib/ProjLib_Cone.hxx>
 #include <Geometry/ProjLib/ProjLib_Sphere.hxx>
 #include <Geometry/ProjLib/ProjLib_Torus.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
@@ -48,10 +48,10 @@
 #include <Mathematics/Collections/TColgp_HArray1OfVec2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
 //=======================================================================

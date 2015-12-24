@@ -51,7 +51,7 @@
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -66,7 +66,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

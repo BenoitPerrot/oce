@@ -43,8 +43,8 @@ IMPLEMENT_STANDARD_RTTI(ChFiDS_Spine)
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : ChFiDS_Spine

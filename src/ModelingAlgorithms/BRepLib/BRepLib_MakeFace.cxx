@@ -35,7 +35,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 
@@ -49,8 +49,8 @@
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>

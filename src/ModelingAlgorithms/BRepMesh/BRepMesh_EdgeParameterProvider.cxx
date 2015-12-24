@@ -20,7 +20,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : Constructor

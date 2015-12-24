@@ -24,8 +24,8 @@ IMPLEMENT_STANDARD_TYPE_END(Adaptor3d_HVertex)
 IMPLEMENT_DOWNCAST(Adaptor3d_HVertex,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Adaptor3d_HVertex)
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
 

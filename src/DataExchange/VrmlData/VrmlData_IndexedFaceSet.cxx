@@ -23,7 +23,7 @@
 #include <DataExchange/VrmlData/VrmlData_Normal.hxx>
 #include <DataExchange/VrmlData/VrmlData_TextureCoordinate.hxx>
 #include <DataExchange/VrmlData/VrmlData_Scene.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/NCollection/NCollection_Vector.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>

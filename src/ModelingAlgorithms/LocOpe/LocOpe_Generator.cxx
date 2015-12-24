@@ -64,8 +64,8 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 static Standard_Boolean ToFuse(const TopoDS_Face& ,
 			       const TopoDS_Face&);

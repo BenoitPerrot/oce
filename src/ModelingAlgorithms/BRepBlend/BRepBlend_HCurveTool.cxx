@@ -25,8 +25,8 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_HCurveTool.hxx>
 
-#include <GeomAbs_CurveType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 

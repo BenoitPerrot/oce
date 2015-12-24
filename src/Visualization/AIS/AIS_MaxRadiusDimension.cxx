@@ -56,8 +56,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
@@ -83,7 +83,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_MaxRadiusDimension)
 #include <Visualization/AIS/AIS.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/DsgPrs/DsgPrs_EllipseRadiusPresentation.hxx>
 
 //=======================================================================

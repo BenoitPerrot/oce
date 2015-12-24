@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <CSLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
@@ -89,9 +89,9 @@ IMPLEMENT_STANDARD_RTTI(Geom_OffsetSurface)
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfInteger.hxx>
-#include <GeomAbs_IsoType.hxx>
-#include <GeomAbs_Shape.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 
 typedef Handle(Geom_OffsetCurve)   Handle(OffsetCurve);
 typedef Geom_OffsetCurve           OffsetCurve;

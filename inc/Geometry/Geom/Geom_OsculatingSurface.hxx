@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 class Geom_Surface;
 class Geom_HSequenceOfBSplineSurface;
 class TColStd_HSequenceOfInteger;

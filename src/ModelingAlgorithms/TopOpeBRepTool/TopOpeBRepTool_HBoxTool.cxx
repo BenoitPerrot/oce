@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepTool_HBoxTool)
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #ifdef OCCT_DEBUG
 #define TBOX TopOpeBRepTool_GettraceBOX()

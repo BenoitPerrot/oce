@@ -37,7 +37,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
 #ifdef OCCT_DEBUG

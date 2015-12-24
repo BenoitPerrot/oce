@@ -47,7 +47,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConcentricRelation)
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

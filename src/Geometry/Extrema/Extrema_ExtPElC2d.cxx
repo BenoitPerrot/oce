@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
@@ -28,7 +28,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 //=============================================================================

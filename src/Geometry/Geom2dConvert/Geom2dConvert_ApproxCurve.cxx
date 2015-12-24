@@ -25,7 +25,7 @@
 #include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
 #include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //class : Geom2dConvert_ApproxCurve_Eval

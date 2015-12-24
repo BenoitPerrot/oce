@@ -18,7 +18,7 @@
 #include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class Geom_BSplineSurface;
 class Standard_OutOfRange;

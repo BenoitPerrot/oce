@@ -26,8 +26,8 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <ElSLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 

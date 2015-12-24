@@ -25,7 +25,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_CompBezierCurves2dToBSplineCurve2d.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

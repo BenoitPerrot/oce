@@ -25,7 +25,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TrimSurfaceTool.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
@@ -34,7 +34,7 @@
 #include <ModelingAlgorithms/BRepIntCurveSurface/BRepIntCurveSurface_Inter.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_ApproxSeewing.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
@@ -56,7 +56,7 @@
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

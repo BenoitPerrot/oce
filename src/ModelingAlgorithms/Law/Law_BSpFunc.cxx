@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(Law_BSpFunc,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Law_BSpFunc)
 
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/Law/Law_BSplineKnotSplitting.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 

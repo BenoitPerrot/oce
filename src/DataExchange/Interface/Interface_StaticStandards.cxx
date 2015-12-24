@@ -18,7 +18,7 @@
 #include <Foundation/Message/Message_MsgFile.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 //tatouage de la librairie
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <stdio.h>
 
 

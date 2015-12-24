@@ -16,7 +16,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/AdvApprox/AdvApprox_PrefCutting.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 AdvApprox_PrefCutting::AdvApprox_PrefCutting(const TColStd_Array1OfReal& CutPnts):
   myPntOfCutting(1, CutPnts.Length()) 

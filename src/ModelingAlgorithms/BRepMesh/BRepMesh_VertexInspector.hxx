@@ -16,7 +16,7 @@
 #ifndef _BRepMesh_VertexInspector_HeaderFile
 #define _BRepMesh_VertexInspector_HeaderFile
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>

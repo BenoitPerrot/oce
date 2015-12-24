@@ -35,7 +35,7 @@
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : BRepAlgo_FaceRestrictor

@@ -66,9 +66,9 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

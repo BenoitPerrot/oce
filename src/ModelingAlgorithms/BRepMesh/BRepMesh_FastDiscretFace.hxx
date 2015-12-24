@@ -27,7 +27,7 @@
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Delaun.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Triangle.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Classifier.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 class BRepMesh_DataStructureOfDelaun;
 class BRepMesh_FaceAttribute;

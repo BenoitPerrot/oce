@@ -17,7 +17,7 @@
 #include <Visualization/NIS/NIS_TriangulatedDrawer.hxx>
 #include <Visualization/NIS/NIS_InteractiveContext.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (NIS_Triangulated, NIS_InteractiveObject)
 IMPLEMENT_STANDARD_RTTIEXT (NIS_Triangulated, NIS_InteractiveObject)

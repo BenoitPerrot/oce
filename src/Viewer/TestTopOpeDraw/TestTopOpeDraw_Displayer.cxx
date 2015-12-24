@@ -24,7 +24,7 @@
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableSUR.hxx>
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_TTOT.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>

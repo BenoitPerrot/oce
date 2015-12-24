@@ -22,7 +22,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #ifndef OCE_DISABLE_TKSERVICE_FONT
 #include <Visualization/Font/Font_BRepFont.hxx>
 #endif // OCE_DISABLE_TKSERVICE_FONT

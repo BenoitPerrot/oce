@@ -35,7 +35,7 @@
 #include <Mathematics/Optimization/math_PSO.hxx>
 #include <Mathematics/Optimization/math_PSOParticlesPool.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
 const Standard_Real aMaxParamVal = 1.0e+10;

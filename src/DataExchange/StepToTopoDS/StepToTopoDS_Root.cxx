@@ -18,7 +18,7 @@
 
 
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : StepToTopoDS_Root

@@ -43,7 +43,7 @@
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 
 BRepAdaptor_CompCurve::BRepAdaptor_CompCurve()

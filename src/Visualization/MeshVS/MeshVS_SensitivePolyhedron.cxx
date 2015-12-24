@@ -40,8 +40,8 @@ IMPLEMENT_DOWNCAST(MeshVS_SensitivePolyhedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MeshVS_SensitivePolyhedron)
 
 #include <Visualization/MeshVS/MeshVS_Tool.hxx>
-#include <CSLib_Class2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //================================================================
 // Function : Constructor MeshVS_SensitivePolyhedron

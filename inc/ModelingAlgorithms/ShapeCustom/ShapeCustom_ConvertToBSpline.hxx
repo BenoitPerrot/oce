@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class TopoDS_Face;
 class Geom_Surface;
 class TopLoc_Location;

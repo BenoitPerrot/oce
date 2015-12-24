@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_EvolvedSection)
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 #ifdef DRAW

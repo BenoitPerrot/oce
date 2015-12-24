@@ -25,7 +25,7 @@
 #include <ModelingAlgorithms/Sweep/Sweep_NumShape.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 //=======================================================================
 //function : BRepSweep_Prism
 //purpose  : 

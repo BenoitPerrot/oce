@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Distance)
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 

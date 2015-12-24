@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 
@@ -50,7 +50,7 @@
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 void DsgPrs_OffsetPresentation::Add (const Handle(Prs3d_Presentation)& aPresentation,

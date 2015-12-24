@@ -25,7 +25,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 static const Standard_Real ExtPElS_MyEps = Epsilon(2. * M_PI);
 //=============================================================================
 

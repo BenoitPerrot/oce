@@ -32,7 +32,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2d2TanOn.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
@@ -46,7 +46,7 @@
 #include <ModelingAlgorithms/GccAna/GccAna_CircPnt2dBisec.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 GccAna_Circ2d2TanOn::
    GccAna_Circ2d2TanOn (const GccEnt_QualifiedCirc& Qualified1 ,
                         const gp_Pnt2d&             Point2     ,

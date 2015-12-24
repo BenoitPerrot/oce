@@ -41,7 +41,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Foundation/NCollection/NCollection_LocalArray.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 typedef gp_Pnt Pnt;

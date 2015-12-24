@@ -33,8 +33,8 @@
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math_SVD.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=======================================================================

@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 //#include <Mathematics/Primitives/gp_Trsf2d.hxx>
 //#include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronPlan)
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #if DRAW
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>

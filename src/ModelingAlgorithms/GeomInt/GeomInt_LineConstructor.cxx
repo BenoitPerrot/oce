@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
@@ -40,8 +40,8 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
-#include <ElCLib.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt.hxx>

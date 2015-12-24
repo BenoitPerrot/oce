@@ -28,7 +28,7 @@
 #include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 

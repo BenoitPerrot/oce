@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_Fixed)
 IMPLEMENT_DOWNCAST(GeomFill_Fixed,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_Fixed)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 GeomFill_Fixed::GeomFill_Fixed(const gp_Vec& Tangent,
 			       const gp_Vec& Normal)

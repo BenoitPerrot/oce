@@ -26,8 +26,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <Precision.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 
 Extrema_FuncExtPS::Extrema_FuncExtPS ()
 {

@@ -16,7 +16,7 @@
 #include <Geometry/AppParCurves/Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/AppDef/Handle_AppDef_SmoothCriterion.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>

@@ -14,7 +14,7 @@
 #include <Geometry/AdvApp2Var/AdvApp2Var_SequenceOfStrip.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class Standard_NoSuchObject;

@@ -36,13 +36,13 @@
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

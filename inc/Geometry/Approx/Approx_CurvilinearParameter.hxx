@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

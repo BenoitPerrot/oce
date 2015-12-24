@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2dTanOnRadGeo.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_NegativeValue.hxx>

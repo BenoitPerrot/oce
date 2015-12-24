@@ -12,7 +12,7 @@
 #include <OCAF/PBRep/Handle_PBRep_CurveOnClosedSurface.hxx>
 
 #include <OCAF/PGeom2d/Handle_PGeom2d_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <OCAF/PBRep/PBRep_CurveOnSurface.hxx>

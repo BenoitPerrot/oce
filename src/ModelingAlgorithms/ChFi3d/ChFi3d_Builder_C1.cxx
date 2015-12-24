@@ -56,7 +56,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -73,8 +73,8 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -92,7 +92,7 @@
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ExtremaCurveCurve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

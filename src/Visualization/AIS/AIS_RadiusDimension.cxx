@@ -18,7 +18,7 @@
 
 #include <Visualization/AIS/AIS.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (AIS_RadiusDimension, AIS_Dimension)

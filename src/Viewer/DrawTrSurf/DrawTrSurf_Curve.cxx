@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Curve)
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomTools/GeomTools_CurveSet.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

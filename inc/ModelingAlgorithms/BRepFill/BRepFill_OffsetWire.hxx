@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>

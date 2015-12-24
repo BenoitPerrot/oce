@@ -23,7 +23,7 @@
 #include <Visualization/DsgPrs/DsgPrs_AnglePresentation.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfPolylines.hxx>
@@ -35,7 +35,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
@@ -45,7 +45,7 @@
 #include <Visualization/Aspect/Aspect_AspectMarker.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/DsgPrs/DsgPrs.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

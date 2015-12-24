@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTopAdaptor_TopolTool)
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceClassifier.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceExplorer.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_FClass2d.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

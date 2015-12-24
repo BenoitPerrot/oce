@@ -52,8 +52,8 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecPC)
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>  
 #include <Mathematics/Primitives/gp.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 
 #include <Foundation/Standard/Standard_DivideByZero.hxx>

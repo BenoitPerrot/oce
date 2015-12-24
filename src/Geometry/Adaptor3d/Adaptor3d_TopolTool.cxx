@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Adaptor3d_TopolTool)
 IMPLEMENT_DOWNCAST(Adaptor3d_TopolTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Adaptor3d_TopolTool)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

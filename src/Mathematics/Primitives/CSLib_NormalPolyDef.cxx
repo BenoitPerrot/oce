@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <CSLib_NormalPolyDef.hxx>
+#include <Mathematics/Primitives/CSLib_NormalPolyDef.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 
 //=============================================================================

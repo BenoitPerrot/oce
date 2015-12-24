@@ -22,9 +22,9 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_FaceIterator.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Intersector.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_TopolTool.hxx>

@@ -43,7 +43,7 @@
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_PolynomialConvertor.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_QuasiAngularConvertor.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

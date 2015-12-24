@@ -43,7 +43,7 @@
 #include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #include <ModelingAlgorithms/HatchGen/HatchGen_PointOnHatching.hxx>
 #include <ModelingAlgorithms/HatchGen/HatchGen_PointOnElement.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 const Standard_Real IntersectorConfusion = 1.e-10;
 const Standard_Real IntersectorTangency  = 1.e-10;

@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Adaptor3d_HCurve;
 class Adaptor2d_HCurve2d;

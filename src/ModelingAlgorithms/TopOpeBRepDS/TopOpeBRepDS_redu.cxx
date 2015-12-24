@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ProcessInterferencesTool.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
 #define M_FORWARD(st)  (st == TopAbs_FORWARD)

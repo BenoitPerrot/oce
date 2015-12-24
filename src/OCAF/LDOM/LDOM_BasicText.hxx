@@ -17,7 +17,7 @@
 #define LDOM_BasicText_HeaderFile
 
 #include <OCAF/LDOM/LDOM_BasicNode.hxx>
-#include <LDOMBasicString.hxx>
+#include <OCAF/LDOM/LDOMBasicString.hxx>
 
 class LDOM_Node;
 class LDOM_CharacterData;

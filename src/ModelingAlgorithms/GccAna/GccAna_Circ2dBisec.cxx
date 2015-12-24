@@ -40,7 +40,7 @@
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 //=========================================================================
 
 GccAna_Circ2dBisec::

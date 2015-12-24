@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class ShapeExtend_MsgRegistrator;
 class TopoDS_Shape;
 class TopTools_DataMapOfShapeShape;

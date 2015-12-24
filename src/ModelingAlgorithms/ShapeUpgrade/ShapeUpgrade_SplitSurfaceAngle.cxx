@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceAngle)
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_SplitSurfaceAngle

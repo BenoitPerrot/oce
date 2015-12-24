@@ -19,7 +19,7 @@
 
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>
 
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

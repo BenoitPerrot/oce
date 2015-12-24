@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_PlanarDiameter)
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

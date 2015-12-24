@@ -25,8 +25,8 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <ElSLib.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
@@ -42,7 +42,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

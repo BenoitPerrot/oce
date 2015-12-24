@@ -28,12 +28,12 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_GWedge.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

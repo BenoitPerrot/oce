@@ -38,7 +38,7 @@
 #include <Geometry/ProjLib/ProjLib_Sphere.hxx>
 #include <Geometry/ProjLib/ProjLib_Torus.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 //=======================================================================
 //function : Project

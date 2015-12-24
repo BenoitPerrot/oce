@@ -16,7 +16,7 @@
 
 #include <Geometry/GCPnts/GCPnts_DeflectionType.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

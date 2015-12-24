@@ -78,7 +78,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 

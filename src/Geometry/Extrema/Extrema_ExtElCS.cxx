@@ -37,9 +37,9 @@
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
-#include <Precision.hxx>
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Geometry/IntAna/IntAna_IntConicQuad.hxx>

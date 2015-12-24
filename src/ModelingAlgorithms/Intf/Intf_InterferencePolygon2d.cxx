@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/Intf/Intf_SeqOfSectionPoint.hxx>
 #include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #include <ModelingAlgorithms/Intf/Intf_SeqOfTangentZone.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 
 // Angular precision (sinus) below that value two right segments

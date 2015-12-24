@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ConvertCurve3dToBezier)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ConvertCurve3dToBezier,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ConvertCurve3dToBezier)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>

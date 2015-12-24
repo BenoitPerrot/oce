@@ -44,7 +44,7 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill_Edge3DLaw.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_Sweep.hxx>
 
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -56,7 +56,7 @@
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

@@ -19,7 +19,7 @@
 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #define Debug(expr)  cout<<" expr :"<<expr;
 #define MySurf1 MyIntersectionOn2S.Function().AuxillarSurface1()

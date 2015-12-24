@@ -26,7 +26,7 @@
 #include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
 #include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //class : Approx_Curve3d_Eval

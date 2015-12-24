@@ -32,8 +32,8 @@
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>

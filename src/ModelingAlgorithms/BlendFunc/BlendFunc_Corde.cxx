@@ -25,7 +25,7 @@
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>

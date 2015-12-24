@@ -33,7 +33,7 @@
 #include <ModelingAlgorithms/FairCurve/FairCurve_EnergyOfMVC.hxx>
 #include <ModelingAlgorithms/FairCurve/FairCurve_Newton.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

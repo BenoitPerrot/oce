@@ -113,7 +113,7 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 

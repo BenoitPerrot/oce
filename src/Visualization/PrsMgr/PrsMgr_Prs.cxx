@@ -29,7 +29,7 @@ IMPLEMENT_STANDARD_TYPE_END(PrsMgr_Prs)
 IMPLEMENT_DOWNCAST(PrsMgr_Prs,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(PrsMgr_Prs)
 #include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geometry/Geom/Geom_Transformation.hxx>
 

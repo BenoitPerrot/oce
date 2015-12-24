@@ -67,10 +67,10 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>

@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt2d.hxx>

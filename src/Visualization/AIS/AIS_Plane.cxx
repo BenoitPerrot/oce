@@ -43,9 +43,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_Plane)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfQuadrangles.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>

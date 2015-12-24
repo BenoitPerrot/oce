@@ -27,8 +27,8 @@
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Geometry/ProjLib/ProjLib_Sphere.hxx>
 
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>

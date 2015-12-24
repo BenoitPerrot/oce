@@ -21,7 +21,7 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Visualization/DsgPrs/DsgPrs_MidPointPresentation.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
@@ -33,7 +33,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>

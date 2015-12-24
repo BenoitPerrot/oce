@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Parab.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 inline void IntPatch_GLine::SetFirstPoint (const Standard_Integer IndFirst)

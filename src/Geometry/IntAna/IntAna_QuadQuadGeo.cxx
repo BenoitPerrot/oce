@@ -49,8 +49,8 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

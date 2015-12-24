@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Geom_Curve;
 class Geom_BSplineCurve;
 class Standard_OutOfRange;

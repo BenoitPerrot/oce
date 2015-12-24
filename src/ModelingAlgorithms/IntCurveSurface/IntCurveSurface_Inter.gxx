@@ -29,7 +29,7 @@
 #define NBSAMPLESONPARAB   16
 #define NBSAMPLESONHYPR    32
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
 #include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #include <ModelingAlgorithms/Intf/Intf_Tool.hxx>
@@ -40,11 +40,11 @@
 #include <Geometry/IntAna/IntAna_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/IntAna/IntAna_IntLinTorus.hxx>
 
-#include <GeomAbs_Shape.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -73,7 +73,7 @@
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 //#define ICS_DEB
 static 
   void EstLimForInfExtr(const gp_Lin&   Line,

@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class TColgp_HArray1OfPnt;
 class TColStd_HArray1OfReal;

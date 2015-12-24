@@ -22,7 +22,7 @@
 #include <Geometry/GC/GC_MakeLine.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 GC_MakeSegment::GC_MakeSegment(const gp_Pnt& P1 ,
 				 const gp_Pnt& P2 ) 

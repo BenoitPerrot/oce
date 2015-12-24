@@ -35,7 +35,7 @@ IMPLEMENT_DOWNCAST(GeomFill_DiscreteTrihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_DiscreteTrihedron)
 #include <ModelingAlgorithms/GeomFill/GeomFill_DiscreteTrihedron.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Frenet.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>

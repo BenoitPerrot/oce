@@ -29,7 +29,7 @@
 #include <Mathematics/Optimization/math_Matrix.hxx> 
 #include <Mathematics/Optimization/math_Gauss.hxx> 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math.hxx>

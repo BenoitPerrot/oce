@@ -42,10 +42,10 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
@@ -57,7 +57,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/gce/gce_MakeLin2d.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/gce/gce_MakeCirc.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 //#include <Geometry/Approx/Approx.hxx>

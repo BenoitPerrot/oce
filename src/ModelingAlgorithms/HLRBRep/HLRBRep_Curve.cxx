@@ -38,7 +38,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/ProjLib/ProjLib.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>

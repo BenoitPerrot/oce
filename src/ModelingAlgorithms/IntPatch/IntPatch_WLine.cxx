@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(IntPatch_WLine)
 #define DEBUGV 0
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <stdio.h>
 
 

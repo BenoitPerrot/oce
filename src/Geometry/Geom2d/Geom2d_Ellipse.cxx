@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(Geom2d_Ellipse)
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

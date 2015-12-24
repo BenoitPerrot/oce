@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/SelectMgr/SelectMgr_SortCriterion.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : SelectMgr_SortCriterion

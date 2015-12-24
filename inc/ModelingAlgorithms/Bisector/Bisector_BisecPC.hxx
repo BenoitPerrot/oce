@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Geom2d_Curve;
 class Standard_DomainError;
 class Standard_RangeError;

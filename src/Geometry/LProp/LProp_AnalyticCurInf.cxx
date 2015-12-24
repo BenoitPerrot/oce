@@ -16,7 +16,7 @@
 
 #include <Geometry/LProp/LProp_CurAndInf.hxx>
 #include <Geometry/LProp/LProp_AnalyticCurInf.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //=======================================================================
 //function : LProp_AnalyticCurInf

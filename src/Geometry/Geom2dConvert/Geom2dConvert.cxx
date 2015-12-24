@@ -59,11 +59,11 @@
 #include <Geometry/Geom2dConvert/Geom2dConvert_CompCurveToBSplineCurve.hxx>            
 #include <Geometry/Geom2dConvert/Geom2dConvert_ApproxCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_OffsetCurve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 #include <Geometry/Hermit/Hermit.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Polynomial/PLib.hxx>
 

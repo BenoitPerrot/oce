@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(AppDef_LinearCriteria)
 #include <Mathematics/Polynomial/PLib_Base.hxx>
 #include <Mathematics/Polynomial/PLib_JacobiPolynomial.hxx>
 #include <Mathematics/Polynomial/PLib_HermitJacobi.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Geometry/FEmTool/FEmTool_LinearTension.hxx>
 #include <Geometry/FEmTool/FEmTool_LinearFlexion.hxx>

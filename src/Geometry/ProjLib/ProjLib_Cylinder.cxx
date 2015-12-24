@@ -25,7 +25,7 @@
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Geometry/ProjLib/ProjLib_Cylinder.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

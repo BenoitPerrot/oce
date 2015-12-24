@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 #include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 

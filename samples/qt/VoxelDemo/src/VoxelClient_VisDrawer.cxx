@@ -15,7 +15,7 @@
 
 #include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/gce/gce_MakePln.hxx>

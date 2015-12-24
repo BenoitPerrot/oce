@@ -36,8 +36,8 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <GeomAbs_Shape.hxx>
-#include <Precision.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>

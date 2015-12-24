@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_LocalOperation.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

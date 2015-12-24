@@ -27,7 +27,7 @@
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>

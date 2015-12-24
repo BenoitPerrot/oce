@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_VectorPrsBuilder)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_HPackedMapOfInteger.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 

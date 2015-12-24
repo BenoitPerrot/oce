@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Geometry/LProp/LProp_CurAndInf.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //=======================================================================
 //function : LProp_CurAndInf

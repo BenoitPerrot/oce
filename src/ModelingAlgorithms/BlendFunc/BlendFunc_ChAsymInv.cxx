@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/BlendFunc/BlendFunc_ChAsymInv.hxx>
 
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : BlendFunc_ChAsymInv

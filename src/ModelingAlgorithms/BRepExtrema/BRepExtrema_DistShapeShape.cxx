@@ -30,7 +30,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_SeqOfBox.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_UnCompatibleShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

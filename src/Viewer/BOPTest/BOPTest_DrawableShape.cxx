@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(BOPTest_DrawableShape)
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>

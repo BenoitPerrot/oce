@@ -44,7 +44,7 @@
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -35,7 +35,7 @@
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 static Standard_Boolean LocAfter (const LocOpe_SequenceOfPntFace&,
 				  const Standard_Real,

@@ -4702,7 +4702,7 @@ void ViewerTest::Commands(Draw_Interpretor& theCommands)
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Visualization/AIS/AIS_KindOfSurface.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_DraftAngle.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 #include <Foundation/OSD/OSD_Environment.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>

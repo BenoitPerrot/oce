@@ -20,7 +20,7 @@
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Trihedron.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Adaptor3d_HCurve;
 class Geom_Surface;
 class GeomFill_LocationLaw;

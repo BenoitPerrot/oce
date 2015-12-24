@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveBox)
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 
 

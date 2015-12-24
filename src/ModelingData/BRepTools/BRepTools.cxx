@@ -50,7 +50,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
@@ -58,7 +58,7 @@
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>

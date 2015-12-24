@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class TColGeom_HArray2OfSurface;
 class TColStd_HArray1OfReal;
 class TColStd_Array1OfReal;

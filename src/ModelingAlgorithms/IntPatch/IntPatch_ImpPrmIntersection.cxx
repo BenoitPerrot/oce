@@ -60,7 +60,7 @@
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfInteriorPoint.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_QuadricTool.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 
 static Standard_Boolean DecomposeResult(const Handle(IntPatch_Line)&   Line,
   const Standard_Boolean         IsReversed,

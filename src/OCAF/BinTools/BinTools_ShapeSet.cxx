@@ -17,7 +17,7 @@
 #include <OCAF/BinTools/BinTools_LocationSet.hxx>
 #include <OCAF/BinTools/BinTools_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

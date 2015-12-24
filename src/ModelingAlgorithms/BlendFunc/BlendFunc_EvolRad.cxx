@@ -41,11 +41,11 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
-#include <CSLib.hxx>
-#include <CSLib_NormalStatus.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
 
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #define Eps 1.e-15
 

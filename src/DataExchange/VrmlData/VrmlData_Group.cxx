@@ -20,7 +20,7 @@
 #include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
 #include <DataExchange/VrmlData/VrmlData_ListOfNode.hxx>
 #include <DataExchange/VrmlData/VrmlData_UnknownNode.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 
 #ifdef _MSC_VER

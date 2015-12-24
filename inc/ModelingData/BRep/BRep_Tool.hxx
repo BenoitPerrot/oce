@@ -20,7 +20,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
 #include <Mathematics/Polyhedral/Handle_Poly_PolygonOnTriangulation.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Standard_NullObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;

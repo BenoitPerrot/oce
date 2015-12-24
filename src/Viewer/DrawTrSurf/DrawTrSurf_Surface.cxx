@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_RTTI(DrawTrSurf_Surface)
 #include <Geometry/GeomTools/GeomTools_SurfaceSet.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 Standard_Real DrawTrSurf_SurfaceLimit = 400;
 

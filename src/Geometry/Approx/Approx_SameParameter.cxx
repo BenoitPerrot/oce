@@ -39,7 +39,7 @@
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/GeomLib/GeomLib_MakeCurvefromApprox.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 
 #ifdef OCCT_DEBUG

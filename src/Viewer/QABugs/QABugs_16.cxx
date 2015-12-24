@@ -51,7 +51,7 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/GProp/GProp_PrincipalProps.hxx>
 

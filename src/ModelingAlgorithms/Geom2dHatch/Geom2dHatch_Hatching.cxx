@@ -26,7 +26,7 @@
 
 #define RAISE_IF_NOSUCHOBJECT 0
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 //=======================================================================
 // Function : Geom2dHatch_Hatching
 // Purpose  : Constructor.

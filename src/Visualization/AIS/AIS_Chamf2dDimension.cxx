@@ -66,9 +66,9 @@ IMPLEMENT_STANDARD_RTTI(AIS_Chamf2dDimension)
 
 #include <Geometry/Geom/Geom_Line.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

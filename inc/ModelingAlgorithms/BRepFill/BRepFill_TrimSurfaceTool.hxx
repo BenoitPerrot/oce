@@ -16,7 +16,7 @@
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Geom2d_Curve;
 class Standard_NoSuchObject;
 class TopoDS_Face;

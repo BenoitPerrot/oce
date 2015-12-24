@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(PrsMgr_Presentation)
 
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Visual3d/Visual3d_View.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 namespace
 {

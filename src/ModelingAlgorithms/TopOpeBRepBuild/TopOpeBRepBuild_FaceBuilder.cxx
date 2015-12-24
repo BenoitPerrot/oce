@@ -46,7 +46,7 @@
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_BlockBuilder.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_LoopSet.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeInteger.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>

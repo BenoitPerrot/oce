@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/IntPatch/Handle_IntPatch_Line.hxx>
 class StdFail_NotDone;

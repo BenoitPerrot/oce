@@ -42,12 +42,12 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveCircle)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveCircle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCircle)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Visualization/Select3D/Select3D_Pnt.hxx>
 #include <Visualization/Select3D/Select3D_Pnt2d.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>

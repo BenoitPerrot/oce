@@ -29,11 +29,11 @@
 #include <Geometry/Adaptor3d/Adaptor3d_OffsetCurve.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HOffsetCurve.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Primitives/gp_VectorWithNullMagnitude.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>

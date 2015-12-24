@@ -24,7 +24,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2d2TanOn.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_LinPnt2dBisec.hxx>
@@ -36,7 +36,7 @@
 #include <ModelingAlgorithms/GccInt/GccInt_BLine.hxx>
 #include <Geometry/IntAna2d/IntAna2d_Conic.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 //=========================================================================
 //   Creation of a circle Tangent to : 1 straight line L1.                +
 //                        Passing by : 1 point Point2.                    +

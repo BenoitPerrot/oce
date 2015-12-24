@@ -27,7 +27,7 @@
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBisector.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/MAT2d/MAT2d_Tool2d.hxx>
 
 //========================================================================

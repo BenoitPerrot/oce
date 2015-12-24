@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveGroup)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveGroup,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveGroup)
 #include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitive.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : Creation

@@ -32,14 +32,14 @@
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_Tool.hxx>
 #include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 #include <ModelingAlgorithms/IntCurve/IntCurve_IntConicConic_1.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_TypeTrans.hxx>
 
 Standard_Boolean Affichage=Standard_False;

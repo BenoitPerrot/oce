@@ -43,7 +43,7 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #define NbControl 23
 

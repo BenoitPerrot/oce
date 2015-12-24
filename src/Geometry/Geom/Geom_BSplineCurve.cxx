@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_BSplineCurve)
 IMPLEMENT_DOWNCAST(Geom_BSplineCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_BSplineCurve)
 #include <Mathematics/Primitives/gp.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>

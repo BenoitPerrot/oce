@@ -21,7 +21,7 @@
 #include <Geometry/Geom2dLProp/Geom2dLProp_Curve2dTool.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=============================================================================
 //function :

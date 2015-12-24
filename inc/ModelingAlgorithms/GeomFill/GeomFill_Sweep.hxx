@@ -18,7 +18,7 @@
 #include <Geometry/TColGeom2d/Handle_TColGeom2d_HArray1OfCurve.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_ApproxStyle.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 class GeomFill_LocationLaw;

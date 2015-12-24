@@ -14,7 +14,7 @@
 #include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Geom_BSplineCurve;

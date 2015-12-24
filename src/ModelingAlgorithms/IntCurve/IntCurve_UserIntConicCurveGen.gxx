@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
-#include <Precision.hxx>	
+#include <Mathematics/Precision/Precision.hxx>	
 
 
 

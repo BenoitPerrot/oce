@@ -40,7 +40,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_BadQualifier.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_CurveTool.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_FunctionTanCuCuOnCu.hxx>

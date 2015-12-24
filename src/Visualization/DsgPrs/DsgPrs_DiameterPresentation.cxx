@@ -38,7 +38,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>

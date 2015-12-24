@@ -317,7 +317,7 @@ private:
 };
 
 
-#include <ElSLib.lxx>
+#include <Mathematics/Primitives/ElSLib.lxx>
 
 
 

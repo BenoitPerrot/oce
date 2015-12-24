@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CurveTool.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 void  GeomLProp_CurveTool::Value(const Handle(Geom_Curve)& C, 
 	    const Standard_Real U, gp_Pnt& P)

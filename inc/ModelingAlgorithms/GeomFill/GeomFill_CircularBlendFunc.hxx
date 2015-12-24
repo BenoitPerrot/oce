@@ -17,7 +17,7 @@
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Approx/Approx_SweepFunction.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Adaptor3d_HCurve;
 class Standard_OutOfRange;
 class TColgp_Array1OfPnt;

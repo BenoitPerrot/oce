@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_C0RegularityFilter)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Visualization/StdSelect/StdSelect_BRepOwner.hxx>
 

@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 class TopoDS_Shape;
 class BRepOffset_MakeOffset;
 class TopTools_ListOfShape;

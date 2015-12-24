@@ -20,7 +20,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeShell.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>

@@ -38,9 +38,9 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_CylindricalSurface.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 

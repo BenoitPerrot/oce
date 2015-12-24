@@ -37,7 +37,7 @@
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>

@@ -65,7 +65,7 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_ListIteratorOfListOfBipoint.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterIterator.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_GeomTool.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_define.hxx>

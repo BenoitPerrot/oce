@@ -20,7 +20,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/StdPrs/StdPrs_ToolRFace.hxx>
 #include <DataExchange/VrmlConverter/VrmlConverter_Curve.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>

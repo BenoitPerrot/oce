@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(DNaming_FilletDriver)
 IMPLEMENT_DOWNCAST(DNaming_FilletDriver,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

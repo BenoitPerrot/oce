@@ -3,7 +3,7 @@
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeEvolved.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_MakeOffsetShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <gtest/gtest.h>
 

@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Trihedron.hxx>
 class GeomFill_Frenet;
 class Law_Function;

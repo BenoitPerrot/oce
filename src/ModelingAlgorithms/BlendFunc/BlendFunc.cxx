@@ -35,10 +35,10 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <CSLib.hxx>
-#include <CSLib_NormalStatus.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
 
 
 //=======================================================================

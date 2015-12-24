@@ -131,12 +131,12 @@
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
-#include <CSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
 
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 

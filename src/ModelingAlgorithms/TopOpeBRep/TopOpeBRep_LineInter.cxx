@@ -45,7 +45,7 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
-#include <GeomAbs_SurfaceType.hxx> 
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx> 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>

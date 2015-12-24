@@ -33,7 +33,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Section.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 
 #include <stdio.h>

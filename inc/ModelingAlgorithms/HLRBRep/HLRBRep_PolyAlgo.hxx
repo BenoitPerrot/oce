@@ -24,7 +24,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_PolyInternalData.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class HLRAlgo_PolyAlgo;
 class Geom_Surface;
 class Standard_OutOfRange;

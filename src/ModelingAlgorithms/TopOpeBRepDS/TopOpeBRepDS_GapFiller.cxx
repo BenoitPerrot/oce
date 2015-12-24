@@ -30,7 +30,7 @@
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_connex.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>

@@ -72,7 +72,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
@@ -88,7 +88,7 @@
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Geometry/GC/GC_MakePlane.hxx> 
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
 
 #include <Foundation/Standard/Standard_ProgramError.hxx>

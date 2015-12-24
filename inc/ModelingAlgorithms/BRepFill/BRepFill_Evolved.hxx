@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
 class Standard_ConstructionError;
 class Standard_NoSuchObject;

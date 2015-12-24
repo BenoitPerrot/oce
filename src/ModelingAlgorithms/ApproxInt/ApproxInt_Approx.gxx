@@ -15,12 +15,12 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 const Standard_Integer LimRajout = 5;
 const Standard_Integer NbPntMaxDecoupage = 30 ;

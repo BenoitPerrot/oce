@@ -25,18 +25,18 @@
 #include <stdio.h>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
 #include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>

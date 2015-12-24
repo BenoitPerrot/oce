@@ -20,7 +20,7 @@
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class GeomFill_HSequenceOfAx2;
 class TColStd_HSequenceOfReal;
 class GeomFill_Frenet;

@@ -44,8 +44,8 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedLin.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>
@@ -81,7 +81,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_PointAspect.hxx>
 #include <Visualization/StdPrs/StdPrs_Point.hxx>

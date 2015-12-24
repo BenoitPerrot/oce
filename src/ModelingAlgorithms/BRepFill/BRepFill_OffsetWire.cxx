@@ -74,7 +74,7 @@
 #include <ModelingAlgorithms/MAT/MAT_Node.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Graph.hxx>
 #include <ModelingAlgorithms/MAT2d/MAT2d_CutCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 

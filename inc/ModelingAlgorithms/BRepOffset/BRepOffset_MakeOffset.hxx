@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Mode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Analyse.hxx>

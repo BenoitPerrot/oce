@@ -104,11 +104,11 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
-#include <CSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_Builder.hxx>

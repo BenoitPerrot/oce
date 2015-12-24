@@ -40,9 +40,9 @@
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

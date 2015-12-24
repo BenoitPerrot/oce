@@ -37,7 +37,7 @@
 
 #include <Geometry/ProjLib/ProjLib.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 // Compute the flag: CW || CCW
 static Standard_Boolean isCW(const BRepAdaptor_Curve& AC)

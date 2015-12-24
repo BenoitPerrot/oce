@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_RTTI(HLRAlgo_PolyAlgo)
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_PolyData.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_BiPoint.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #define EMskGrALin1  0x008u
 #define EMskGrALin2  0x010u

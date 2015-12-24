@@ -44,7 +44,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -65,7 +65,7 @@
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve2d.hxx>
 #include <DataExchange/StepRepr/StepRepr_DefinitionalRepresentation.hxx>

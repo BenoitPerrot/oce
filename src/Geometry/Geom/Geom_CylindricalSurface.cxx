@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_CylindricalSurface)
 IMPLEMENT_DOWNCAST(Geom_CylindricalSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_CylindricalSurface)
 
-#include <Precision.hxx>
-#include <GeomAbs_UVSense.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Geometry/GeomAbs/GeomAbs_UVSense.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_CylindricalSurface)
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 typedef Geom_CylindricalSurface         CylindricalSurface;
 typedef Handle(Geom_CylindricalSurface) Handle(CylindricalSurface);

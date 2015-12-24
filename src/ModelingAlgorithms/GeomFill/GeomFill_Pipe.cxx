@@ -69,7 +69,7 @@
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
@@ -80,8 +80,8 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/GeomLib/GeomLib.hxx>
 

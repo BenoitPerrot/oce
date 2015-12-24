@@ -36,8 +36,8 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
 
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 

@@ -22,7 +22,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateCurveBoundedSurface.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <DataExchange/StepToGeom/StepToGeom_MakeSurface.hxx>

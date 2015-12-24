@@ -19,9 +19,9 @@
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
 class ProjLib_HSequenceOfHSequenceOfPnt;

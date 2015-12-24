@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_InteractiveContext)
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfTransient.hxx>
 #include <Visualization/AIS/AIS_LocalContext.hxx>
 #include <Visualization/AIS/AIS_LocalStatus.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/AIS/AIS_Selection.hxx>
 #include <Visualization/AIS/AIS_DataMapIteratorOfDataMapOfIOStatus.hxx>
 #include <Visualization/AIS/AIS_ConnectedInteractive.hxx>

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <DataExchange/VrmlData/VrmlData_Appearance.hxx>
 #include <DataExchange/VrmlData/VrmlData_ImageTexture.hxx>
 #include <DataExchange/VrmlData/VrmlData_Material.hxx>

@@ -14,7 +14,7 @@
 #ifndef _XmlObjMgt_DOMString_HeaderFile
 #define _XmlObjMgt_DOMString_HeaderFile
 
-#include <LDOMString.hxx>
+#include <OCAF/LDOM/LDOMString.hxx>
 
 typedef LDOMString XmlObjMgt_DOMString;
 

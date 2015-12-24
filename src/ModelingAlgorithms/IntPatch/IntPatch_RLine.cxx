@@ -33,7 +33,7 @@ IMPLEMENT_DOWNCAST(IntPatch_RLine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IntPatch_RLine)
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 IntPatch_RLine::IntPatch_RLine (const Standard_Boolean Tang,
 				const IntSurf_TypeTrans Trans1,

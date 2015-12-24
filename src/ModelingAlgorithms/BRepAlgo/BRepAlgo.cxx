@@ -27,7 +27,7 @@
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/GeomLProp/GeomLProp.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/TColGeom/TColGeom_Array1OfBSplineCurve.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray1OfBSplineCurve.hxx>
@@ -42,9 +42,9 @@
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>

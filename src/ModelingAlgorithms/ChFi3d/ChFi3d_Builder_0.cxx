@@ -19,7 +19,7 @@
 //  Modified by skv - Mon Jun 16 15:50:44 2003 OCC615
 
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
@@ -31,8 +31,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
@@ -103,7 +103,7 @@
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 
 
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 
 //#include <Mathematics/Optimization/math_FunctionSample.hxx>

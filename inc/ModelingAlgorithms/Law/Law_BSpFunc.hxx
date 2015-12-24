@@ -13,7 +13,7 @@
 #include <ModelingAlgorithms/Law/Handle_Law_BSpline.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/Law/Law_Function.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 class Law_BSpline;

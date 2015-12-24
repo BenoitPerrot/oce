@@ -24,7 +24,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_IntSS.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -54,8 +54,8 @@
 
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -78,7 +78,7 @@
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <ModelingAlgorithms/GeomInt/GeomInt_WLApprox.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>

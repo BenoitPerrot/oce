@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideArea.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivideArea.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_ShapeDivideArea

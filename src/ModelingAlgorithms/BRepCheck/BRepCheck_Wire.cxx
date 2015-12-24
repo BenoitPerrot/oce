@@ -77,7 +77,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfOrientedShape.hxx>
 
 //Patch
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox2d.hxx>
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 
@@ -88,7 +88,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Wire)
 //#endif
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 
 static void Propagate(const TopTools_IndexedDataMapOfShapeListOfShape&,

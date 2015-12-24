@@ -31,7 +31,7 @@ IMPLEMENT_STANDARD_TYPE_END(StlMesh_MeshDomain)
 IMPLEMENT_DOWNCAST(StlMesh_MeshDomain,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StlMesh_MeshDomain)
 #include <DataExchange/StlMesh/StlMesh_MeshTriangle.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 //=======================================================================

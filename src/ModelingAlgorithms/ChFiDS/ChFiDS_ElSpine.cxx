@@ -32,8 +32,8 @@
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ElSpine.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

@@ -13,7 +13,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <LDOMBasicString.hxx>
+#include <OCAF/LDOM/LDOMBasicString.hxx>
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

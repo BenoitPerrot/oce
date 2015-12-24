@@ -36,7 +36,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Visualization/Prs3d/Prs3d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 
 

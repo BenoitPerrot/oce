@@ -48,7 +48,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 

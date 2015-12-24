@@ -63,7 +63,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/Hermit/Hermit.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -145,13 +145,13 @@
 #include <Mathematics/Primitives/gp_GTrsf2d.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/GeomConvert/GeomConvert_CompCurveToBSplineCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
-#include <CSLib.hxx>
-#include <CSLib_NormalStatus.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
 
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

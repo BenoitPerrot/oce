@@ -42,7 +42,7 @@
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FacePassiveClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
@@ -54,10 +54,10 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_DataMapIteratorOfMapOfInter.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 //OCC454(apo)->
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx> 

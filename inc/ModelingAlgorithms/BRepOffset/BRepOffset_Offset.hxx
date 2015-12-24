@@ -16,8 +16,8 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_JoinType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class TopoDS_Face;
 class TopTools_DataMapOfShapeShape;
 class TopoDS_Edge;

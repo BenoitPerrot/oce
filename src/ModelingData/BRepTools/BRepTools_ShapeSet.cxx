@@ -17,7 +17,7 @@
 // Modifed:     Portage NT 7-5-97 DPF (strcasecmp)
 
 #include <Foundation/Standard/Standard_Stream.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>

@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_TransferParametersProj)
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_Edge.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>

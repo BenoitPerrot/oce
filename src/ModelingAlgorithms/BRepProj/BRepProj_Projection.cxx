@@ -23,7 +23,7 @@
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Section.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/BRepTools/BRepTools_TrsfModification.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>

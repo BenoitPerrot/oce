@@ -23,7 +23,7 @@
 #include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 GCE2d_MakeSegment::GCE2d_MakeSegment(const gp_Pnt2d& P1 ,
 				     const gp_Dir2d& V  ,

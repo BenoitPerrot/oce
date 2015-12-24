@@ -23,7 +23,7 @@
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : GeomAPI_ProjectPointOnSurf

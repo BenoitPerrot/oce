@@ -24,7 +24,7 @@
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

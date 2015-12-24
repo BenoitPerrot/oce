@@ -56,8 +56,8 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -77,7 +77,7 @@
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC2d.hxx>
 
 

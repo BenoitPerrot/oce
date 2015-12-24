@@ -58,7 +58,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_HDataStructure.hxx>
 
@@ -69,7 +69,7 @@
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
@@ -79,7 +79,7 @@
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx> 
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 static Standard_Boolean isinlist(const TopoDS_Shape&         E,
 				 const TopTools_ListOfShape& L){

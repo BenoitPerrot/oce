@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Revolution.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 
 //=======================================================================

@@ -35,7 +35,7 @@ et F2 sont egales a:
 
 ----------------------------------------------------------------------------*/
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 static const Standard_Real MinTol    = 1.e-20;

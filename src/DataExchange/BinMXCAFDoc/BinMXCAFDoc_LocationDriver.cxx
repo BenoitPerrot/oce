@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(BinMXCAFDoc_LocationDriver)
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-//#include <Precision.hxx>
+//#include <Mathematics/Precision/Precision.hxx>
 #include <OCAF/BinMDataStd/BinMDataStd.hxx>
 #include <OCAF/BinTools/BinTools_LocationSet.hxx>
 

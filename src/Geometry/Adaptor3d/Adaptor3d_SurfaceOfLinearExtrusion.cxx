@@ -33,7 +33,7 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 //=======================================================================

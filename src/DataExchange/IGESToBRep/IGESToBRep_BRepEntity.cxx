@@ -67,7 +67,7 @@
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 

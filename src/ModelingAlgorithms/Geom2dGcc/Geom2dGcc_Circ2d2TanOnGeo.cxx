@@ -34,7 +34,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_Circ2d2TanOnGeo.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Circ2dBisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_CircLin2dBisec.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Lin2dBisec.hxx>

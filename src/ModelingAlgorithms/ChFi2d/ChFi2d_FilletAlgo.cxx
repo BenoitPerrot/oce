@@ -15,9 +15,9 @@
 
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <Precision.hxx>
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <ModelingAlgorithms/Geom2dAPI/Geom2dAPI_ProjectPointOnCurve.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>

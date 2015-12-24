@@ -808,7 +808,7 @@ static Standard_Integer OCC544 (Draw_Interpretor& di, Standard_Integer argc, con
 //////////#include <ModelingAlgorithms/BRepAlgoAPI/BRepAlgoAPI_Common.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Cut.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Common.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 static Standard_Integer OCC817 (Draw_Interpretor& di, Standard_Integer argc, const char** argv)
 {

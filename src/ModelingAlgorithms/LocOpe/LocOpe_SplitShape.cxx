@@ -57,7 +57,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/LocOpe/LocOpe.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

@@ -24,7 +24,7 @@
 #include <Visualization/MeshVS/MeshVS_Tool.hxx>
 
 #include <Visualization/MeshVS/MeshVS_DrawerAttribute.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Font/Font_NameOfFont.hxx>
 
 //================================================================

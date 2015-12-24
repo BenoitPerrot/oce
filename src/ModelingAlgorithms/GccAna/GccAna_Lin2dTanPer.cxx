@@ -27,7 +27,7 @@
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>
 #include <ModelingAlgorithms/GccAna/GccAna_Lin2dTanPer.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

@@ -14,8 +14,8 @@
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_IsoType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Context.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Network.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Framework.hxx>

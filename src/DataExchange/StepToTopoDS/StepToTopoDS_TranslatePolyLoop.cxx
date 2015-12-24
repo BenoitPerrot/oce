@@ -31,7 +31,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 //#include <BRepAPI.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Surface.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -48,7 +48,7 @@
 
 #include <DataExchange/StepGeom/StepGeom_HArray1OfCartesianPoint.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 // ============================================================================
 // Method  :

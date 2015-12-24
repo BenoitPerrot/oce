@@ -19,7 +19,7 @@
 
 #include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 class HMath_Vector{
   math_Vector *pvec;

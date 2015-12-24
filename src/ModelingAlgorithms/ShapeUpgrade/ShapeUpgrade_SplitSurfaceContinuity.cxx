@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitSurfaceContinuity)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitSurfaceContinuity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitSurfaceContinuity)
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray2OfSurface.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>

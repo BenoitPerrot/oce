@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerConnexion.hxx>
 #include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfBiIntSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -16,7 +16,7 @@
 #ifndef _NCollection_Comparator_HeaderFile
 #define _NCollection_Comparator_HeaderFile
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 /**
  * Class to define basic compare operations.

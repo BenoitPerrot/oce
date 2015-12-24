@@ -16,8 +16,8 @@
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 
-#include <GeomAbs_CurveType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>

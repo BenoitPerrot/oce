@@ -24,7 +24,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <DataExchange/StlMesh/StlMesh_MeshExplorer.hxx>
 #include <Foundation/OSD/OSD.hxx>
 #include <Foundation/OSD/OSD_Host.hxx>

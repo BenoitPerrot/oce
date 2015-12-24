@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 class StdFail_NotDone;

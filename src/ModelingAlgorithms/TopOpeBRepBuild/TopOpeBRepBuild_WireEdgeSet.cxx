@@ -35,7 +35,7 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
@@ -43,9 +43,9 @@ static TCollection_AsciiString PRODINS("dins ");
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_define.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_2d.hxx>

@@ -38,7 +38,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 

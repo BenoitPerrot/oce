@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Map.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>

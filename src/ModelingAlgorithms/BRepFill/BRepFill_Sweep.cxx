@@ -115,7 +115,7 @@
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeWire.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>

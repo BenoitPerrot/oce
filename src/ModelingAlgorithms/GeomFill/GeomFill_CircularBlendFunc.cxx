@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CircularBlendFunc)
 #include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>

@@ -37,9 +37,9 @@ IMPLEMENT_STANDARD_TYPE_END(Geom2d_Parabola)
 IMPLEMENT_DOWNCAST(Geom2d_Parabola,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_Parabola)
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>

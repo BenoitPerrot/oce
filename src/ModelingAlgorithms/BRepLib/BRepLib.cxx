@@ -52,7 +52,7 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRep/BRep_GCurve.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRep/BRep_TFace.hxx>
@@ -78,7 +78,7 @@
 #include <Geometry/Geom2dConvert/Geom2dConvert.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurface.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Geometry/ProjLib/ProjLib_ProjectedCurve.hxx>

@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

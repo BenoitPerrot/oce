@@ -25,8 +25,8 @@
 #include <ModelingAlgorithms/Contap/Contap_SurfFunction.hxx>
 #include <ModelingAlgorithms/Contap/Contap_Contour.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 

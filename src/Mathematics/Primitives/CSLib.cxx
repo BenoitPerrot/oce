@@ -17,17 +17,17 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
-#include <CSLib.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Mathematics/Optimization/math_FunctionRoots.hxx>
-#include <CSLib_NormalPolyDef.hxx>
+#include <Mathematics/Primitives/CSLib_NormalPolyDef.hxx>
 
 
 #define D1uD1vRatioIsNull   CSLib_D1uD1vRatioIsNull 

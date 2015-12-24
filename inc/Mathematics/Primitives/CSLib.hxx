@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <CSLib_DerivativeStatus.hxx>
+#include <Mathematics/Primitives/CSLib_DerivativeStatus.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <CSLib_NormalStatus.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class gp_Vec;
 class gp_Dir;

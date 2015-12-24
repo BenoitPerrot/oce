@@ -48,7 +48,7 @@
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>  
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=============================================================================
 // Creation d' une Surface de Geom a partir d' une Surface de Step

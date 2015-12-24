@@ -20,7 +20,7 @@
 #include <Mathematics/Polyhedral/Handle_Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
 #include <Mathematics/Polyhedral/Handle_Poly_PolygonOnTriangulation.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Standard_DomainError;
 class TopLoc_Location;
 class Geom_Surface;

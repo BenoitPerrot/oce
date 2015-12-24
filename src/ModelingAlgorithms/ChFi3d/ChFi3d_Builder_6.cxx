@@ -60,7 +60,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

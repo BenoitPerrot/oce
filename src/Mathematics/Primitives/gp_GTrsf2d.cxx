@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(gp_GTrsf2d)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 void gp_GTrsf2d::SetAffinity (const gp_Ax2d& A,
 			      const Standard_Real Ratio)

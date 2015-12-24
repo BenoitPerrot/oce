@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(BRep_CurveOnSurface)
 IMPLEMENT_DOWNCAST(BRep_CurveOnSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(BRep_CurveOnSurface)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

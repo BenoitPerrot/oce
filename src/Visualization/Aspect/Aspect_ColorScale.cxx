@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(Aspect_ColorScale)
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfExtendedString.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <stdio.h>
 

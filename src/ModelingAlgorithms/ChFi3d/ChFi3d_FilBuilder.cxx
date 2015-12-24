@@ -68,10 +68,10 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>

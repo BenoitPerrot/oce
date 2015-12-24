@@ -32,7 +32,7 @@
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingAlgorithms/TopTrans/TopTrans_CurveTransition.hxx>
 

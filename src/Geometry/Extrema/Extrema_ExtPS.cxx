@@ -26,11 +26,11 @@
 #include <Geometry/Extrema/Extrema_GenExtPS.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfRevolution.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
@@ -40,7 +40,7 @@
 #include <Geometry/Extrema/Extrema_ExtPExtS.hxx>
 #include <Geometry/Extrema/Extrema_ExtPRevS.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 
 //=======================================================================
 //function : IsoIsDeg

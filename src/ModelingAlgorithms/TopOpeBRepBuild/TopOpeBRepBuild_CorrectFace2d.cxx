@@ -58,7 +58,7 @@
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 
 

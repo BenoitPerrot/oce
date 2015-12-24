@@ -82,7 +82,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

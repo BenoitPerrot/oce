@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_Edge.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FaceExplorer.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

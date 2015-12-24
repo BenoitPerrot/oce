@@ -3,7 +3,7 @@
 #include <ModelingAlgorithms/BRepGProp/BRepGProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 #include <gtest/gtest.h>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 TEST(BRepGPropTestSuite, testComputeBoxVolume)
 {

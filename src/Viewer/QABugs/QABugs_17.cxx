@@ -39,7 +39,7 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <ModelingAlgorithms/Geom2dGcc/Geom2dGcc_QCurve.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_QualifiedCirc.hxx>

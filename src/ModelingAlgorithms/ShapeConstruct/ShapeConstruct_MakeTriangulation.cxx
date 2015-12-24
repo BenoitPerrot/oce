@@ -16,7 +16,7 @@
 #include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_MakeTriangulation.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

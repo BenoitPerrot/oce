@@ -26,7 +26,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(MAT_Bisector)
 IMPLEMENT_DOWNCAST(MAT_Bisector,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MAT_Bisector)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 MAT_Bisector::MAT_Bisector()

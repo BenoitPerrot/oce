@@ -50,8 +50,8 @@ IMPLEMENT_STANDARD_RTTI(Geom_TrimmedCurve)
 #include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 
 typedef Handle(Geom_TrimmedCurve) Handle(TrimmedCurve);

@@ -27,9 +27,9 @@
 #include <Geometry/Extrema/Extrema_ExtElC2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
@@ -40,7 +40,7 @@
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 #include <Geometry/Extrema/Extrema_SequenceOfPOnCurv2d.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geometry/Extrema/Extrema_Curve2dTool.hxx>

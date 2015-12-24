@@ -24,7 +24,7 @@
 #include <Viewer/Draw/Draw.hxx>
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Viewer/Draw/Draw_Marker3D.hxx>
 #include <Viewer/Draw/Draw_Marker2D.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

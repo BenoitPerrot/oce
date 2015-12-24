@@ -292,7 +292,7 @@
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>

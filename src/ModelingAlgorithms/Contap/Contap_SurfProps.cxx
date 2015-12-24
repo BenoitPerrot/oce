@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/Contap/Contap_SurfProps.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 
 //=======================================================================

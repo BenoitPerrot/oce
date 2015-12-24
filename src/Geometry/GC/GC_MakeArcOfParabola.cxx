@@ -21,7 +21,7 @@
 #include <Geometry/GC/GC_MakeArcOfParabola.hxx>
 #include <Geometry/Geom/Geom_Parabola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 GC_MakeArcOfParabola::GC_MakeArcOfParabola(const gp_Parab& Parab ,
 					     const gp_Pnt&   P1    ,

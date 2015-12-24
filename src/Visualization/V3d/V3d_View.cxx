@@ -163,7 +163,7 @@ IMPLEMENT_STANDARD_RTTI(V3d_View)
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MapIteratorOfMapOfStructure.hxx>

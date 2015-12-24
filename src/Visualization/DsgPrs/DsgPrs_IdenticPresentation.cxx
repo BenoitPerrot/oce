@@ -38,9 +38,9 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Elips.hxx>
 
 void DsgPrs_IdenticPresentation::Add( const Handle(Prs3d_Presentation)& aPresentation,

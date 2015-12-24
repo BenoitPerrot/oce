@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 
 #include <Visualization/DsgPrs/DsgPrs_PerpenPresentation.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_PerpendicularRelation)
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>

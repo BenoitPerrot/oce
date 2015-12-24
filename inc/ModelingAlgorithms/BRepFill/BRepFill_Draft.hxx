@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TransitionStyle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Geom/Handle_Geom_Surface.hxx>

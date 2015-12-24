@@ -31,8 +31,8 @@ IMPLEMENT_STANDARD_TYPE_END(GeomFill_DraftTrihedron)
 IMPLEMENT_DOWNCAST(GeomFill_DraftTrihedron,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_DraftTrihedron)
 
-#include <Precision.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 
 //=======================================================================

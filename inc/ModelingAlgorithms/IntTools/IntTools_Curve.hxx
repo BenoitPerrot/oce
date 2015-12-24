@@ -14,7 +14,7 @@
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 class Geom_Curve;
 class Geom2d_Curve;
 class gp_Pnt;

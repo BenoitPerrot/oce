@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_Circle)
 IMPLEMENT_DOWNCAST(Geom_Circle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Circle)
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx> 
 

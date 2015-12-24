@@ -22,7 +22,7 @@
 #include <Visualization/DsgPrs/DsgPrs_LengthPresentation.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ArrayOfSegments.hxx>
@@ -35,7 +35,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectMarker3d.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>

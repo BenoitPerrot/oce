@@ -44,7 +44,7 @@
 #include <DataExchange/IGESToBRep/IGESToBRep.hxx>
 #include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
@@ -89,7 +89,7 @@
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
-#include <Precision.hxx>  
+#include <Mathematics/Precision/Precision.hxx>  
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>

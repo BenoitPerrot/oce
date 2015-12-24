@@ -35,7 +35,7 @@
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_SectionLine.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_MaillageAffinage.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 

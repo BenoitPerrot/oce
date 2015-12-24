@@ -22,7 +22,7 @@
 
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Geometry/Extrema/Extrema_LocECC.hxx>

@@ -29,7 +29,7 @@
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <GeomAbs_BSplKnotDistribution.hxx>
+#include <Geometry/GeomAbs/GeomAbs_BSplKnotDistribution.hxx>
 #include <DataExchange/StepGeom/StepGeom_KnotType.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>
 

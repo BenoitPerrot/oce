@@ -38,13 +38,13 @@
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #define Eps 1.e-15
 

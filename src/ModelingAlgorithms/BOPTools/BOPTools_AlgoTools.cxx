@@ -30,7 +30,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools.hxx>
 //
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 //
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

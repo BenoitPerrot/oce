@@ -15,7 +15,7 @@
 // commercial license or contractual agreement.
 
 #include <Geometry/AdvApprox/AdvApprox_DichoCutting.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 AdvApprox_DichoCutting::AdvApprox_DichoCutting()
 {

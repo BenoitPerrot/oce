@@ -23,7 +23,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_TopolTool.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_FaceFace.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
@@ -61,8 +61,8 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALineToWLine.hxx>
 
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
@@ -71,8 +71,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HLine2d.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

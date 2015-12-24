@@ -41,8 +41,8 @@
 #include <Visualization/Aspect/Aspect_AspectMarker.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>

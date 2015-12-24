@@ -49,7 +49,7 @@
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_Assert.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
@@ -57,11 +57,11 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_InterFunc.hxx>
 #include <Mathematics/Optimization/math_FunctionRoots.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 static gp_Pnt to3d(const gp_Pln& Pl, const gp_Pnt2d& P)
 {

@@ -23,7 +23,7 @@
 #include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class ShapeAlgo_ToolContainer;
 class ShapeAnalysis_Wire;

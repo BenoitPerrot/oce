@@ -13,7 +13,7 @@
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_NoSuchObject;

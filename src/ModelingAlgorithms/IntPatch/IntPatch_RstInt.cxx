@@ -38,7 +38,7 @@
 #include <ModelingAlgorithms/Intf/Intf_SectionPoint.hxx>
 #include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>

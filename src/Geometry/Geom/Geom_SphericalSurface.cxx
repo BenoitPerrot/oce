@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_SphericalSurface)
 
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

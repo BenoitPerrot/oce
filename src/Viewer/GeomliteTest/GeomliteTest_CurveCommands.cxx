@@ -74,10 +74,10 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <stdio.h>
 
@@ -94,7 +94,7 @@
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 
 #include <Mathematics/Polynomial/PLib.hxx> 
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>

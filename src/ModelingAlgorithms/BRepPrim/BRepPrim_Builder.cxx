@@ -28,7 +28,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Builder.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
 #include <Geometry/Geom/Geom_Plane.hxx>

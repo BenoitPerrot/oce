@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfRevolution)
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #define  POLES    (poles->Array2())
 #define  WEIGHTS  (weights->Array2())
 #define  UKNOTS   (uknots->Array1())

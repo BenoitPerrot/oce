@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class GeomFill_DraftTrihedron;
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;

@@ -16,7 +16,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class GeomFill_HArray1OfSectionLaw;
 class GeomFill_SectionLaw;

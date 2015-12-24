@@ -33,7 +33,7 @@
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>

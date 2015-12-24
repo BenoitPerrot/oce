@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_TYPE_END(Geom2d_Hyperbola)
 IMPLEMENT_DOWNCAST(Geom2d_Hyperbola,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_Hyperbola)
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp.hxx>

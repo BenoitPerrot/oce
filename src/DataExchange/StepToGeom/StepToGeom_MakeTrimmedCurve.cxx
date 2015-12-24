@@ -41,10 +41,10 @@
 #include <DataExchange/StepToGeom/StepToGeom_MakeCurve.hxx>
 //#include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 //#include <BRepAPI.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <DataExchange/UnitsMethods/UnitsMethods.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
 

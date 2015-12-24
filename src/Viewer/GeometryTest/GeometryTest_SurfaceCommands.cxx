@@ -26,9 +26,9 @@
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
-#include <GeomAbs_IsoType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
@@ -48,7 +48,7 @@
 #include <Foundation/TColStd/TColStd_HArray2OfReal.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingAlgorithms/GeomFill/GeomFill.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_BSplineCurves.hxx>

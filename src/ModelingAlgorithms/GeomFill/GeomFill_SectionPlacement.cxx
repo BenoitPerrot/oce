@@ -27,7 +27,7 @@
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
-#include <GeomAbs_CurveType.hxx> 
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx> 
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
@@ -39,7 +39,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Geometry/Extrema/Extrema_ExtCC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>

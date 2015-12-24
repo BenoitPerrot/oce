@@ -58,7 +58,7 @@
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Tool.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Loop.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
@@ -95,7 +95,7 @@
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Convert/Convert_CompBezierCurvesToBSplineCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -103,7 +103,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

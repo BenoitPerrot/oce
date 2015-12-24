@@ -16,9 +16,9 @@
 #include <Geometry/LProp/LProp_NotDefined.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <CSLib.hxx>
-#include <CSLib_DerivativeStatus.hxx>
-#include <CSLib_NormalStatus.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_DerivativeStatus.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 

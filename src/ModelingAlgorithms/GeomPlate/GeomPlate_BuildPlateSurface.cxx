@@ -64,7 +64,7 @@
 #include <ModelingAlgorithms/Plate/Plate_D2.hxx>
 #include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_BuildAveragePlane.hxx>
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_HArray1OfSequenceOfReal.hxx>

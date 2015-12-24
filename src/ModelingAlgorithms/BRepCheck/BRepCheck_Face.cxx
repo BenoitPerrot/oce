@@ -58,7 +58,7 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Face)
 
 
 #include <ModelingAlgorithms/BRepCheck/BRepCheck.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 

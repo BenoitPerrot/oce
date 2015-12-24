@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_SectionLaw)
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

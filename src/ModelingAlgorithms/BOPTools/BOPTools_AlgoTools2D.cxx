@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/BOPTools/BOPTools_AlgoTools2D.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>

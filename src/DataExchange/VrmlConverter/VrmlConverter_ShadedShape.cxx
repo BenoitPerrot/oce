@@ -38,12 +38,12 @@
 #include <Mathematics/Optimization/math.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <CSLib_DerivativeStatus.hxx>
-#include <CSLib_NormalStatus.hxx>
-#include <CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_DerivativeStatus.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <DataExchange/VrmlConverter/VrmlConverter_ShadingAspect.hxx>
 #include <DataExchange/Vrml/Vrml_ShapeHints.hxx>

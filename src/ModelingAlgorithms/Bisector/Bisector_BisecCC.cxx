@@ -56,7 +56,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecCC)
 #include <Mathematics/Primitives/gp_Vec2d.hxx>  
 #include <Mathematics/Primitives/gp.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Optimization/math_FunctionRoot.hxx>
 #include <Mathematics/Optimization/math_FunctionRoots.hxx>
 #include <Mathematics/Optimization/math_BissecNewton.hxx>

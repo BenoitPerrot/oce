@@ -18,7 +18,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Geometry/AdvApprox/AdvApprox_PrefAndRec.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 

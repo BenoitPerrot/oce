@@ -24,8 +24,8 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_CurveTool.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Curve.hxx>
-#include <GeomAbs_CurveType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>

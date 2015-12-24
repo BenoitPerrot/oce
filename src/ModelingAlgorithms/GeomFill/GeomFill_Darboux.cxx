@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_Darboux)
 #include <Geometry/Adaptor3d/Adaptor3d_HCurveOnSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurveOnSurfacePtr.hxx>
-#include <CSLib.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Geometry/Geom/Geom_UndefinedValue.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>

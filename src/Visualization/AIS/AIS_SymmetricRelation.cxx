@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_SymmetricRelation)
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>

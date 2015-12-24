@@ -28,13 +28,13 @@ IMPLEMENT_DOWNCAST(IntTools_TopolTool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IntTools_TopolTool)
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array2OfPnt.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 

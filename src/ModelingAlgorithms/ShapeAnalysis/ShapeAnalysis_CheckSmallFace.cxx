@@ -56,12 +56,12 @@
 #include <Mathematics/Collections/TColgp_SequenceOfXYZ.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 //#include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingData/TopoDS/TopoDS_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>

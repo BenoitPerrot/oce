@@ -18,7 +18,7 @@
 #include <Visualization/Voxel/Voxel_FloatDS.hxx>
 #include <Visualization/Voxel/Voxel_DS.hxx>
 #include <Visualization/Voxel/Voxel_BooleanOperation.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 Voxel_BooleanOperation::Voxel_BooleanOperation()
 {

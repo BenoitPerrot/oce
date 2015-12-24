@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SnglrFunc.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 GeomFill_SnglrFunc::GeomFill_SnglrFunc(const Handle(Adaptor3d_HCurve)& HC) : 
        myHCurve(HC), ratio(1)

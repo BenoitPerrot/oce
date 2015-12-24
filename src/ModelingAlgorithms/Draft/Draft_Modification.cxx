@@ -74,7 +74,7 @@ IMPLEMENT_STANDARD_RTTI(Draft_Modification)
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <Geometry/GeomProjLib/GeomProjLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>

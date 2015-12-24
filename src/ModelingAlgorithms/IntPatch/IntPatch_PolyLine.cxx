@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_PolyLine.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #define INITDEFLE Precision::PConfusion()*100.
 

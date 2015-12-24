@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopTools_HArray2OfShape;
 class Geom_BSplineSurface;

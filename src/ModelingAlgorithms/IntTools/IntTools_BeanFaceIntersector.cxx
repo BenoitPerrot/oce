@@ -28,7 +28,7 @@
 #include <ModelingAlgorithms/IntTools/IntTools_BeanFaceIntersector.hxx>
 
 #include <ModelingAlgorithms/IntTools/IntTools_Root.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
@@ -69,8 +69,8 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt.hxx>
 
 static Standard_Boolean SetEmptyResultRange(const Standard_Real      theParameter, 

@@ -86,7 +86,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepExtrema/BRepExtrema_DistShapeShape.hxx>
 
-#include <Precision.hxx> 
+#include <Mathematics/Precision/Precision.hxx> 
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>

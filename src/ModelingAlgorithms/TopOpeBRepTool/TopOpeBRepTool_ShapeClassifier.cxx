@@ -29,7 +29,7 @@
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <ModelingAlgorithms/BRepClass/BRepClass_FacePassiveClassifier.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidExplorer.hxx>

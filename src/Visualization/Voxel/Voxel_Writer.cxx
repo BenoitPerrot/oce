@@ -20,7 +20,7 @@
 #include <Visualization/Voxel/Voxel_Writer.hxx>
 #include <Visualization/Voxel/Voxel_TypeDef.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_OpenFile.hxx>
 

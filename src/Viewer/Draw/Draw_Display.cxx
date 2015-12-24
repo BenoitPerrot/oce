@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 extern Standard_Boolean Draw_Bounds;
 

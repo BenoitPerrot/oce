@@ -30,7 +30,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Select3D_SensitiveEntity)
 IMPLEMENT_DOWNCAST(Select3D_SensitiveEntity,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveEntity)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_Macro.hxx>
 

@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_RLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_ALine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_GLine.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

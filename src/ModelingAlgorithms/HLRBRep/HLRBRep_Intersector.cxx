@@ -31,7 +31,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ThePolygonOfInterCSurf.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <ModelingAlgorithms/IntImpParGen/IntImpParGen.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Position.hxx>

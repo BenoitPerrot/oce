@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/ShapeCustom/Handle_ShapeCustom_RestrictionParameters.hxx>
 class TopoDS_Shape;

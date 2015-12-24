@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>
-#include <GeomAbs_BSplKnotDistribution.hxx>
+#include <Geometry/GeomAbs/GeomAbs_BSplKnotDistribution.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_EvaluatorFunction.hxx>

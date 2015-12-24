@@ -23,7 +23,7 @@
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //Standard_IMPORT extern IntImp_ConstIsoparametric   *ChoixRef;

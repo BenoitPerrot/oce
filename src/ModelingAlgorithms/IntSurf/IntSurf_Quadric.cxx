@@ -22,8 +22,8 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 

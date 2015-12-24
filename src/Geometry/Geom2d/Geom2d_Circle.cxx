@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom2d_Circle)
 IMPLEMENT_DOWNCAST(Geom2d_Circle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_Circle)
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx> 

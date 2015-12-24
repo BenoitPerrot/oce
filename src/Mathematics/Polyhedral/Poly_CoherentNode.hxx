@@ -18,7 +18,7 @@
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Polyhedral/Poly_CoherentTriPtr.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 class NCollection_BaseAllocator;
 

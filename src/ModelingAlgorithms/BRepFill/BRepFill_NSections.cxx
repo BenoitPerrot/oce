@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_NSections)
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #ifdef OCCT_DEBUG
 static Standard_Boolean Affich = 0;

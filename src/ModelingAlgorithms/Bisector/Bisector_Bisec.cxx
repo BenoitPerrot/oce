@@ -31,7 +31,7 @@
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecPC.hxx>

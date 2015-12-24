@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_TYPE_END(Geom2d_Line)
 IMPLEMENT_DOWNCAST(Geom2d_Line,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom2d_Line)
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 

@@ -43,12 +43,12 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveTriangle)
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 
 static Standard_Boolean S3D_Str_NearSegment (const gp_XY& p0, const gp_XY& p1, const gp_XY& TheP,
                                              const Standard_Real aTol, Standard_Real& aDMin)

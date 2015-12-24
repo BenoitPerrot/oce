@@ -56,7 +56,7 @@
 #include <Geometry/Geom/Geom_BoundedSurface.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 //#include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
@@ -78,7 +78,7 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>//rln 28/01/98
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <DataExchange/Transfer/Transfer_TransientProcess.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //  Provisoire, pour VertexLoop
 #include <Geometry/Geom/Geom_SphericalSurface.hxx>

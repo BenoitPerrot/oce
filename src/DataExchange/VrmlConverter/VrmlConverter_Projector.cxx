@@ -33,7 +33,7 @@ IMPLEMENT_STANDARD_RTTI(VrmlConverter_Projector)
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfVec.hxx>
 #include <DataExchange/Vrml/Vrml_SFRotation.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <DataExchange/Vrml/Vrml_MatrixTransform.hxx>
 #include <DataExchange/Vrml/Vrml_TransformSeparator.hxx>
 #include <DataExchange/Vrml/Vrml_Instancing.hxx>

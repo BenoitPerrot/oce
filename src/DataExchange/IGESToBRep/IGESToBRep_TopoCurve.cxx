@@ -85,7 +85,7 @@
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 
-#include <Precision.hxx>  
+#include <Mathematics/Precision/Precision.hxx>  
 
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>

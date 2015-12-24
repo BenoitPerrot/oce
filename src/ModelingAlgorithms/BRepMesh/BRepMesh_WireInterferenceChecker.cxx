@@ -15,7 +15,7 @@
 
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_WireInterferenceChecker.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_GeomTool.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 // TODO: remove this variable after implementation of LoopChecker2d.
 static const Standard_Real MIN_LOOP_S = 2 * M_PI * 2.E-5;

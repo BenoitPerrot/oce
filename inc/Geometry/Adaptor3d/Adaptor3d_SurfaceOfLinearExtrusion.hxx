@@ -14,11 +14,11 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Geometry/Geom/Handle_Geom_BezierSurface.hxx>
 #include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 class Adaptor3d_HCurve;

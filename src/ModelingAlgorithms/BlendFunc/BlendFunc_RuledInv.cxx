@@ -20,7 +20,7 @@
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc_RuledInv.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 BlendFunc_RuledInv::BlendFunc_RuledInv(const Handle(Adaptor3d_HSurface)& S1,
                                        const Handle(Adaptor3d_HSurface)& S2,

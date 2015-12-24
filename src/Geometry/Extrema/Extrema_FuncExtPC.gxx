@@ -13,7 +13,7 @@
 // commercial license or contractual agreement.
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 static const Standard_Real TolFactor = 1.e-12;
 static const Standard_Real MinTol    = 1.e-20;
 static const Standard_Real MinStep   = 1e-7;

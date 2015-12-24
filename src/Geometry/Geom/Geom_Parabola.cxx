@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_Parabola)
 IMPLEMENT_DOWNCAST(Geom_Parabola,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Parabola)
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>

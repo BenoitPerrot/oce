@@ -16,7 +16,7 @@
 
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_Triangle.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
-//#include <Precision.hxx>
+//#include <Mathematics/Precision/Precision.hxx>
 #include <stdio.h>
 
 #define MyConfusionPrecision 10.0e-12

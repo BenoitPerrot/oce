@@ -36,7 +36,7 @@ IMPLEMENT_STANDARD_RTTI(BRepFill_CurveConstraint)
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

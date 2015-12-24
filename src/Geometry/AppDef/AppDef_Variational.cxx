@@ -67,7 +67,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/AppDef/AppDef_MyLineTool.hxx>
 
 #include <Foundation/SortTools/SortTools_StraightInsertionSortOfReal.hxx>

@@ -57,13 +57,13 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BooleanOperationDriver)
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_ListIteratorOfListOfStatus.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 
 static Standard_Boolean FixSameParameter(const TopoDS_Shape&    theShape,
 					     BRepCheck_Analyzer&    theAnalyzer,

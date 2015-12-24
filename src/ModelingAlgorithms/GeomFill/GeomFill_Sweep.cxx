@@ -50,7 +50,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
@@ -76,9 +76,9 @@
 #include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxSurface.hxx>
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 //=======================================================================
 //class : GeomFill_Sweep_Eval

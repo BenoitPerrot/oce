@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(MAT_Graph)
 # include <ModelingAlgorithms/MAT/MAT_SequenceOfArc.hxx>
 # include <ModelingAlgorithms/MAT/MAT_Bisector.hxx>
 # include <ModelingAlgorithms/MAT/MAT_Edge.hxx>
-# include <Precision.hxx>
+# include <Mathematics/Precision/Precision.hxx>
 
 //------------------
 // functions static.

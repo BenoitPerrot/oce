@@ -21,7 +21,7 @@
 #include <Viewer/Draw/Draw_Appli.hxx>
 #include <Viewer/Draw/Draw_Display.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 
 #ifdef WNT

@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <DataExchange/VrmlData/VrmlData_Material.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <DataExchange/VrmlData/VrmlData_InBuffer.hxx>
 #include <DataExchange/VrmlData/VrmlData_Scene.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

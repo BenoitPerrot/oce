@@ -27,12 +27,12 @@
 
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Extrema/Extrema_ExtPElC2d.hxx>
 
 //=============================================================================

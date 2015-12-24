@@ -26,7 +26,7 @@
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //=======================================================================
 //function : GC_MakeArcOfCircle

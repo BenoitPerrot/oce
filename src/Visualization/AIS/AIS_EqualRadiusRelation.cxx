@@ -46,11 +46,11 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualRadiusRelation)
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <Visualization/Prs3d/Prs3d_DimensionAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_ArrowAspect.hxx>

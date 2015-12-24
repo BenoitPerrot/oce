@@ -25,7 +25,7 @@
 #include <ModelingAlgorithms/BlendFunc/BlendFunc_SectionShape.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Function.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
 class Law_Function;

@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_BSplineSurface)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : CheckSurfaceData

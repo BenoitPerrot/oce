@@ -38,9 +38,9 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_Hyperbola)
 IMPLEMENT_DOWNCAST(Geom_Hyperbola,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Hyperbola)
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 

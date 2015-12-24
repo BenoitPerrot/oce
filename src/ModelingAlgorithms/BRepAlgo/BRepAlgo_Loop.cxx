@@ -39,7 +39,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRep/BRep_TVertex.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

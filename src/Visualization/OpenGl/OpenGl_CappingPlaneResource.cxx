@@ -16,7 +16,7 @@
 #include <Visualization/OpenGl/OpenGl_CappingPlaneResource.hxx>
 #include <Visualization/OpenGl/OpenGl_Context.hxx>
 #include <Visualization/OpenGl/OpenGl_Vec.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 IMPLEMENT_STANDARD_HANDLE (OpenGl_CappingPlaneResource, OpenGl_Resource)
 IMPLEMENT_STANDARD_RTTIEXT(OpenGl_CappingPlaneResource, OpenGl_Resource)

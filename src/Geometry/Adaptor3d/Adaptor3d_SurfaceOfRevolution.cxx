@@ -35,8 +35,8 @@
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfRevolution.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceOfRevolution.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 
 //=======================================================================

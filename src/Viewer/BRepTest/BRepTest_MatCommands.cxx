@@ -38,7 +38,7 @@
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_BisecAna.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_Explorer.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>

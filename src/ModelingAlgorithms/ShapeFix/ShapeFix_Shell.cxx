@@ -34,7 +34,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_Shell)
 IMPLEMENT_DOWNCAST(ShapeFix_Shell,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_Shell)
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

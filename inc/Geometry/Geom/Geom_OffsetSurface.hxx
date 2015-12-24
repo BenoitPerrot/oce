@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Geom_OsculatingSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>

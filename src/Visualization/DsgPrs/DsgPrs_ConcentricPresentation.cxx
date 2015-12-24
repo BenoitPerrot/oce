@@ -31,7 +31,7 @@
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 void DsgPrs_ConcentricPresentation::Add(
 			   const Handle(Prs3d_Presentation)& aPresentation,

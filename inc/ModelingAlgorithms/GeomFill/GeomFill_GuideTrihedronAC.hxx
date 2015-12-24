@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Approx_CurvlinFunc;
 class Adaptor3d_HCurve;
 class Standard_OutOfRange;

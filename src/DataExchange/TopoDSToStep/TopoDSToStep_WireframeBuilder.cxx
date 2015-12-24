@@ -37,7 +37,7 @@
 #include <DataExchange/TransferBRep/TransferBRep_ShapeMapper.hxx>
 #include <DataExchange/Transfer/Transfer_FinderProcess.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

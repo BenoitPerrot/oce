@@ -32,7 +32,7 @@
 
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>

@@ -25,7 +25,7 @@
 #include <Geometry/GeomTools/GeomTools.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : TopTools_LocationSet

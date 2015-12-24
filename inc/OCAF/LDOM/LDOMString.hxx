@@ -16,7 +16,7 @@
 #ifndef LDOMString_HeaderFile
 #define LDOMString_HeaderFile
 
-#include <LDOMBasicString.hxx>
+#include <OCAF/LDOM/LDOMBasicString.hxx>
 #include <OCAF/LDOM/Handle_LDOM_MemManager.hxx>
 
 //  Class LDOMString

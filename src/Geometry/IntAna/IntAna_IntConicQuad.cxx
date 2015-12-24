@@ -50,7 +50,7 @@
 
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
 #include <Mathematics/Optimization/math_TrigonometricFunctionRoots.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 
 static Standard_Real PIpPI = M_PI + M_PI;

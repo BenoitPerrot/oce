@@ -37,7 +37,7 @@
 //--       pas etre mene a bien.  
 //----------------------------------------------------------------------
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
@@ -48,7 +48,7 @@
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Optimization/math_DirectPolynomialRoots.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 //=======================================================================

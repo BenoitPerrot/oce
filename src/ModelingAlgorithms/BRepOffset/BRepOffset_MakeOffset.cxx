@@ -75,7 +75,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
@@ -84,8 +84,8 @@
 #include <ModelingData/BRep/BRep_TEdge.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <Mathematics/Primitives/gp_Cone.hxx>
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeLine.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>

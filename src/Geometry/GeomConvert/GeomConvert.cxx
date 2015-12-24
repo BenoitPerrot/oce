@@ -76,14 +76,14 @@
 
 #include <Mathematics/Polynomial/PLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Geometry/Geom/Geom_OffsetCurve.hxx>
 #include <Geometry/GeomConvert/GeomConvert_ApproxCurve.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //=======================================================================
 //function : BSplineCurveBuilder

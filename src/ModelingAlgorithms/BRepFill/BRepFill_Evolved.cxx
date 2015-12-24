@@ -132,7 +132,7 @@
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfReal.hxx>       
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeSequenceOfPnt.hxx>       
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapIteratorOfDataMapOfShapeDataMapOfShapeListOfShape.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

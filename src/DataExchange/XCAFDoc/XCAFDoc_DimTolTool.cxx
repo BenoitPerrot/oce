@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(XCAFDoc_DimTolTool)
 #include <OCAF/TDataStd/TDataStd_TreeNode.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 #include <OCAF/TDF/TDF_ChildIDIterator.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

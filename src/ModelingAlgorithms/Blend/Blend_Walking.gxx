@@ -19,9 +19,9 @@
 
 #include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>
-#include <CSLib.hxx>
-#include <CSLib_NormalStatus.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #ifdef OCCT_DEBUG
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>

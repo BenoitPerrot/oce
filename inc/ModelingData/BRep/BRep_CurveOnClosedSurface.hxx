@@ -11,7 +11,7 @@
 #include <ModelingData/BRep/Handle_BRep_CurveOnClosedSurface.hxx>
 
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/BRep/BRep_CurveOnSurface.hxx>
 #include <Geometry/Geom/Handle_Geom_Surface.hxx>

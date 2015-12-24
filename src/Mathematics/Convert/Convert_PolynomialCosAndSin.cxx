@@ -23,7 +23,7 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 

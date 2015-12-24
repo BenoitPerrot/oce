@@ -19,7 +19,7 @@
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfArray1OfPnt2d.hxx>
 #include <Geometry/Approx/Approx_ParametrizationType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingAlgorithms/AppBlend/AppBlend_Approx.hxx>
 #include <ModelingAlgorithms/GeomFill/Handle_GeomFill_Line.hxx>
 class TColgp_HArray2OfPnt;

@@ -18,7 +18,7 @@
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FaceDivide.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_ShapeDivideContinuity.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve2dContinuity.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3dContinuity.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurfaceContinuity.hxx>

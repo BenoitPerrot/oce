@@ -38,7 +38,7 @@ IMPLEMENT_DOWNCAST(AIS_Line,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(AIS_Line)
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>
 #include <Visualization/Graphic3d/Graphic3d_AspectLine3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>

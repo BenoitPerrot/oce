@@ -63,12 +63,12 @@
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Geometry/GProp/GProp.hxx>
 #include <Geometry/GProp/GProp_GProps.hxx>
 
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -105,7 +105,7 @@
 
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
@@ -157,7 +157,7 @@
 #include <DataExchange/IGESData/IGESData_IGESModel.hxx>
 
 #include <DataExchange/IGESGeom/IGESGeom_CircularArc.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeOffset.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

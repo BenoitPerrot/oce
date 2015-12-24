@@ -35,7 +35,7 @@ IMPLEMENT_STANDARD_RTTI(MeshVS_SensitiveFace)
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 
 //=======================================================================

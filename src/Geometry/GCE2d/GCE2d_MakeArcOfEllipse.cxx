@@ -20,7 +20,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Geometry/GCE2d/GCE2d_MakeArcOfEllipse.hxx>
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 
 GCE2d_MakeArcOfEllipse::GCE2d_MakeArcOfEllipse(const gp_Elips2d&      Elips ,

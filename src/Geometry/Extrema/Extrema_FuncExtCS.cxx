@@ -23,7 +23,7 @@
 #include <Geometry/Extrema/Extrema_FuncExtCS.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 /*-----------------------------------------------------------------------------
  Fonction permettant de rechercher une distance extremale entre une courbe C 

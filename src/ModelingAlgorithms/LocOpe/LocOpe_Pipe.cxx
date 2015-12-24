@@ -55,7 +55,7 @@
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 
 #include <Geometry/GeomConvert/GeomConvert.hxx>

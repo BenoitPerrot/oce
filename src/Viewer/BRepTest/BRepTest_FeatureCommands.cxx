@@ -65,7 +65,7 @@
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_MakeFillet.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #ifdef _WIN32
 //#define strcasecmp _stricmp Already defined

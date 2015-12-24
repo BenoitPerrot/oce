@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/Law/Law_Laws.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/Law/Law_Function.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Law_Function;
 class Standard_OutOfRange;

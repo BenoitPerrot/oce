@@ -14,7 +14,7 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(Geom_SurfaceOfLinearExtrusion)
 IMPLEMENT_DOWNCAST(Geom_SurfaceOfLinearExtrusion,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_SurfaceOfLinearExtrusion)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

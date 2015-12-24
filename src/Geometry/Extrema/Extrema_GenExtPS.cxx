@@ -36,13 +36,13 @@
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_NewtonFunctionSetRoot.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Sphere.hxx>
 #include <Geometry/Extrema/Extrema_HUBTreeOfSphere.hxx>
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfSphere.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfSphere.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>

@@ -35,8 +35,8 @@ IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
 
@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EllipseRadiusDimension)
 
 #include <Visualization/AIS/AIS.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 

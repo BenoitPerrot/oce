@@ -40,13 +40,13 @@ IMPLEMENT_STANDARD_RTTI(AIS_MidPointRelation)
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Visualization/AIS/AIS.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 
 #include <Geometry/gce/gce_MakeLin.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

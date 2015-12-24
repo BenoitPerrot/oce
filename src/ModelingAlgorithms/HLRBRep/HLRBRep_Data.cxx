@@ -43,7 +43,7 @@ IMPLEMENT_DOWNCAST(HLRBRep_Data,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 
 #include <Foundation/StdFail/StdFail_UndefinedDerivative.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_Data)
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfInterferenceList.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_EdgeFaceTool.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <stdio.h>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_Tool.hxx>

@@ -25,7 +25,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_Tool)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_Tool,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_Tool)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : ShapeUpgrade_Tool

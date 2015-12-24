@@ -35,7 +35,7 @@
 #include <Visualization/Prs3d/Prs3d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>
 #include <Geometry/GCPnts/GCPnts_TangentialDeflection.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>

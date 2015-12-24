@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Visualization/DsgPrs/DsgPrs_SymmetricPresentation.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
@@ -36,7 +36,7 @@
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Geometry/gce/gce_MakeLin.hxx>
 #include <Geometry/gce/gce_MakeDir.hxx>

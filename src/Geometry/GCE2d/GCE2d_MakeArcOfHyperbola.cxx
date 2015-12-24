@@ -21,7 +21,7 @@
 #include <Geometry/GCE2d/GCE2d_MakeArcOfHyperbola.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Geom2d/Geom2d_Hyperbola.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 GCE2d_MakeArcOfHyperbola::GCE2d_MakeArcOfHyperbola(const gp_Hypr2d&     Hypr ,
 						 const gp_Pnt2d&        P1   ,

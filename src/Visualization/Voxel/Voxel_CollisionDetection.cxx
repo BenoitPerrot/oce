@@ -19,7 +19,7 @@
 #include <Visualization/Voxel/Voxel_CollisionDetection.hxx>
 #include <Visualization/Voxel/Voxel_FastConverter.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 

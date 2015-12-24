@@ -28,7 +28,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_SplitCurve)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_SplitCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_SplitCurve)
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfReal.hxx>
 #include <Geometry/TColGeom/TColGeom_HArray1OfCurve.hxx>

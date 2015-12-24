@@ -23,7 +23,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/GCPnts/GCPnts_UniformAbscissa.hxx>
 #include <Geometry/GC/GC_MakeArcOfCircle.hxx>
 #include <Geometry/gce/gce_MakeLin2d.hxx>

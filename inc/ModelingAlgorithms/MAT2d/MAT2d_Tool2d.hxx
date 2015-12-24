@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/MAT2d/Handle_MAT2d_Circuit.hxx>
 #include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfIntegerBisec.hxx>

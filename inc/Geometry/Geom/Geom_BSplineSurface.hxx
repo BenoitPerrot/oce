@@ -11,8 +11,8 @@
 #include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <GeomAbs_BSplKnotDistribution.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_BSplKnotDistribution.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>

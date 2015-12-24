@@ -206,7 +206,7 @@ static Standard_Integer isPeriodic(Draw_Interpretor& di, Standard_Integer argc, 
   return 0;
 }
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 //=======================================================================

@@ -22,7 +22,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ComputeTangence.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 IntImp_IntCS::IntImp_IntCS(const Standard_Real U,
 			   const Standard_Real V,

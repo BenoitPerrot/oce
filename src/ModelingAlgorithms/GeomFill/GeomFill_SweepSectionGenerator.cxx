@@ -38,8 +38,8 @@
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Geometry/GeomConvert/GeomConvert.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/GCPnts/GCPnts_QuasiUniformDeflection.hxx>

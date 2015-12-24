@@ -40,7 +40,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeShape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
@@ -60,7 +60,7 @@
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo.hxx>
 //modified by NIZNHY-PKV Thu Mar 21 17:30:25 2002 f

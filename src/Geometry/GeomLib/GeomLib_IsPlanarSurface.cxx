@@ -20,8 +20,8 @@
 #include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
 
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <GeomAbs_CurveType.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>

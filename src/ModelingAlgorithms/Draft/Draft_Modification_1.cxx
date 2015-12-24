@@ -95,9 +95,9 @@
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>

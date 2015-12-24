@@ -23,7 +23,7 @@
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_HElSpine.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 class TColStd_HArray1OfReal;
 class TopoDS_Edge;
 class ChFiDS_HElSpine;

@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireOrder.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_TypeMismatch.hxx>
 

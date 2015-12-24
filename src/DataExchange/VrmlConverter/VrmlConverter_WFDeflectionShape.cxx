@@ -31,7 +31,7 @@
 #include <DataExchange/Vrml/Vrml_Coordinate3.hxx>
 #include <DataExchange/Vrml/Vrml_Material.hxx>
 #include <DataExchange/Vrml/Vrml_PointSet.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=========================================================================

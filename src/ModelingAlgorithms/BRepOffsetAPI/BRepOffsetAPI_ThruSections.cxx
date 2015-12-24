@@ -51,7 +51,7 @@
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <ModelingAlgorithms/BRepOffsetAPI/BRepOffsetAPI_ThruSections.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
@@ -59,7 +59,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BSplineSurface.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>

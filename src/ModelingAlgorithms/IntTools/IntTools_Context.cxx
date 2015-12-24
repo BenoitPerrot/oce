@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_TYPE_END(IntTools_Context)
 IMPLEMENT_DOWNCAST(IntTools_Context,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(IntTools_Context)
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>

@@ -32,7 +32,7 @@
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

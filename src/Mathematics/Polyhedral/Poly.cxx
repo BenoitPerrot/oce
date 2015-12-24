@@ -31,7 +31,7 @@
 
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon2D.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TShort/TShort_Array1OfShortReal.hxx>
 #include <Foundation/TShort/TShort_HArray1OfShortReal.hxx>
 

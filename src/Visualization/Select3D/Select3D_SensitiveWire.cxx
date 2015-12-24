@@ -39,10 +39,10 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveWire)
 #include <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //static Standard_Boolean debugmode=Standard_False;
 

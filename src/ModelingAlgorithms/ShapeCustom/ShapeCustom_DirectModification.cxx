@@ -42,7 +42,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeCustom_DirectModification)
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_TYPE_END(ShapeFix_ComposeShell)
 IMPLEMENT_DOWNCAST(ShapeFix_ComposeShell,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeFix_ComposeShell)
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>

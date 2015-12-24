@@ -39,7 +39,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_GuideTrihedronAC)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 
 #include <Geometry/Approx/Approx_CurvlinFunc.hxx>

@@ -30,7 +30,7 @@
 #include <Geometry/gce/gce_MakeDir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Visualization/Prs3d/Prs3d_Text.hxx>
 

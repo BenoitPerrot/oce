@@ -24,7 +24,7 @@
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/gce/gce_MakeCirc2d.hxx>
 #include <Geometry/gce/gce_MakeLin2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 

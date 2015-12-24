@@ -33,8 +33,8 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <GeomAbs_SurfaceType.hxx>
-#include <ElCLib.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_TheProjPCurOfGInter.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>

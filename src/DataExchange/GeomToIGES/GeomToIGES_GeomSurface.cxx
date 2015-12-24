@@ -105,7 +105,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

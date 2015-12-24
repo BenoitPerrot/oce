@@ -52,7 +52,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_ConnectedInteractive)
 
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

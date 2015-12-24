@@ -35,7 +35,7 @@
 #include <DataExchange/StepShape/StepShape_Vertex.hxx>
 
 #include <Geometry/Geom/Geom_CartesianPoint.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 // For I-DEAS-like processing (ssv; 15.11.2010)
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

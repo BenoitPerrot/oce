@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_ConstantBiNormal)
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : FDeriv

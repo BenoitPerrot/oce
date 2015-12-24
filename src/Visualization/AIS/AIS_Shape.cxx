@@ -89,7 +89,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_Shape)
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

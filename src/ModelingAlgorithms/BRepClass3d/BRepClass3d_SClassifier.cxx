@@ -30,8 +30,8 @@
 
 #include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 // modified by NIZHNY-MKK  Mon Jun 21 15:13:40 2004
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <Mathematics/Optimization/math_RealRandom.hxx>

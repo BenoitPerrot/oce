@@ -20,7 +20,7 @@
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_VPointInterClassifier.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>

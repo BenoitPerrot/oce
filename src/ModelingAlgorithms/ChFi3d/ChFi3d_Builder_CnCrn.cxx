@@ -153,7 +153,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <ModelingData/TopTools/TopTools_Array2OfShape.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx> 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 // performances 
 #ifdef OCCT_DEBUG
 #include <Foundation/OSD/OSD_Chronometer.hxx>

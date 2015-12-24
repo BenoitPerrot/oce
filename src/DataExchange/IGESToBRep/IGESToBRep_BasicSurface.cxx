@@ -71,7 +71,7 @@
 //:36
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //S3767
 #include <Foundation/Message/Message_Msg.hxx>
@@ -80,7 +80,7 @@
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Point.hxx>
 #include <DataExchange/IGESGeom/IGESGeom_Direction.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
 #include <ModelingAlgorithms/ShapeAlgo/ShapeAlgo.hxx>

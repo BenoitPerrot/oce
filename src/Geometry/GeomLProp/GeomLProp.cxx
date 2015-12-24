@@ -16,13 +16,13 @@
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/GeomLProp/GeomLProp.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Geometry/GeomLProp/GeomLProp_CLProps.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 Standard_Integer GeomAbsToInteger(const GeomAbs_Shape  gcont) 
 {

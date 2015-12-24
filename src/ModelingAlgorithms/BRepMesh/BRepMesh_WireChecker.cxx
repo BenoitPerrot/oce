@@ -16,7 +16,7 @@
 
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_WireChecker.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>

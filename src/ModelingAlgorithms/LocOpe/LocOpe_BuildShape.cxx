@@ -45,7 +45,7 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 static void Add(const Standard_Integer,

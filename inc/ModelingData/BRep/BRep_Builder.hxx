@@ -20,7 +20,7 @@
 #include <Mathematics/Polyhedral/Handle_Poly_PolygonOnTriangulation.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Standard_NullObject;
 class Standard_DomainError;
 class TopoDS_Face;

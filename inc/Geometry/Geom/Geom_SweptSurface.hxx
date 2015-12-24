@@ -12,7 +12,7 @@
 
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 class Geom_Curve;
 class gp_Dir;

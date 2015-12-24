@@ -32,7 +32,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeExtend_ComplexCurve)
 IMPLEMENT_DOWNCAST(ShapeExtend_ComplexCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeExtend_ComplexCurve)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : ShapeExtend_ComplexCurve

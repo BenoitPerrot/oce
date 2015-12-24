@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/Bisector/Bisector_PolyBis.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_PointOnBis.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

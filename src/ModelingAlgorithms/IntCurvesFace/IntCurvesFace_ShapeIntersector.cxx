@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/IntCurvesFace/IntCurvesFace_Intersector.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_HArray1OfBox.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 

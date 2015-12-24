@@ -32,7 +32,7 @@
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurfaceTool.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

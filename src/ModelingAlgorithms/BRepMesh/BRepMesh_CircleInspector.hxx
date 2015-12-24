@@ -18,7 +18,7 @@
 
 #include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Circle.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/NCollection/NCollection_CellFilter.hxx>

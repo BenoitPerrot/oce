@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //=======================================================================
 //function : Perform

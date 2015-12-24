@@ -36,9 +36,9 @@
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Transition.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Optimization/math_BissecNewton.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #ifdef DRAW
 #include <Viewer/Draw/Draw_Appli.hxx>

@@ -25,8 +25,8 @@
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_HCurve2dTool.hxx>
 
-#include <GeomAbs_CurveType.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom2d/Geom2d_BezierCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_BSplineCurve.hxx>
 

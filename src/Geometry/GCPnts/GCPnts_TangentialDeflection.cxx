@@ -25,7 +25,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 inline static void D0 (const Adaptor3d_Curve& C, const Standard_Real U, gp_Pnt& P)
 {

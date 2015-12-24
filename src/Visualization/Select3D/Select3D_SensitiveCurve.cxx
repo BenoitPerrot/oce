@@ -41,9 +41,9 @@ IMPLEMENT_DOWNCAST(Select3D_SensitiveCurve,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveCurve)
 #include <Visualization/SelectBasics/SelectBasics_BasicTool.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 
 //==================================================

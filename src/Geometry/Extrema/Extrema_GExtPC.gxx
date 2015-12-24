@@ -24,9 +24,9 @@
 #include TheExtPElC_hxx
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <GeomAbs_CurveType.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 

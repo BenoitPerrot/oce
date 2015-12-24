@@ -90,17 +90,17 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_HCurve.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 
 #include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #include <Geometry/ProjLib/ProjLib_HCompProjectedCurve.hxx>
 #include <Geometry/Approx/Approx_CurveOnSurface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor.hxx>
 
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>

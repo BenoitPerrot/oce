@@ -29,7 +29,7 @@
 #include <Mathematics/Collections/TColgp_Array2OfVec.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/Convert/Convert_GridPolynomialToPoles.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 
 //=======================================================================

@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(Approx_CurvlinFunc)
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Geometry/GCPnts/GCPnts_AbscissaPoint.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #ifdef OCCT_DEBUG_CHRONO
 #include <Foundation/OSD/OSD_Timer.hxx>

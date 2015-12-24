@@ -52,7 +52,7 @@
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/BetaSpline/BSplSLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>

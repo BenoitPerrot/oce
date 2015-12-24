@@ -34,8 +34,8 @@
 #include <ModelingAlgorithms/BlendFunc/BlendFunc_Chamfer.hxx>
 
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 
 //=======================================================================

@@ -25,7 +25,7 @@
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Geometry/Geom2d/Geom2d_Line.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Geom2d/Geom2d_Circle.hxx>
 #include <Geometry/Geom2d/Geom2d_Ellipse.hxx>
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>

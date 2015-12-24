@@ -37,7 +37,7 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_Ellipse)
 IMPLEMENT_DOWNCAST(Geom_Ellipse,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Ellipse)
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 

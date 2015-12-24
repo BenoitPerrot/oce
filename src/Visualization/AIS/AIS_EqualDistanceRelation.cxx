@@ -50,7 +50,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <Visualization/Select3D/Select3D_SensitiveSegment.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeVertex.hxx>
@@ -64,7 +64,7 @@ IMPLEMENT_STANDARD_RTTI(AIS_EqualDistanceRelation)
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Visualization/AIS/AIS_Drawer.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 //=======================================================================
 //function : AIS_EqualDistanceRelation
 //purpose  : 

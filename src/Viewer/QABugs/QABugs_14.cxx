@@ -47,7 +47,7 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_Interpolate.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>

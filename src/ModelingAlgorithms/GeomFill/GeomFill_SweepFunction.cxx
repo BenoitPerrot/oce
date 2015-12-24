@@ -45,7 +45,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_SweepFunction)
 
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

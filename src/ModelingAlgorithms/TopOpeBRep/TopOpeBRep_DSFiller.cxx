@@ -38,7 +38,7 @@
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SC.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_EXPORT.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_define.hxx>
 

@@ -18,7 +18,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ShrunkRange.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
@@ -31,7 +31,7 @@
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 //=======================================================================
 //function : 

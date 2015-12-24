@@ -17,9 +17,9 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Geom/Handle_Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 class BRepAdaptor_HArray1OfCurve;

@@ -24,7 +24,7 @@
 #include <Geometry/Extrema/Extrema_EPCOfExtPC2d.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 
 #include <Geometry/Geom/Geom_BezierSurface.hxx>

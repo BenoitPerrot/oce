@@ -38,7 +38,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_CurveAndTrihedron)
 #include <Geometry/GeomLib/GeomLib.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx> 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //==================================================================
 //Function: Create

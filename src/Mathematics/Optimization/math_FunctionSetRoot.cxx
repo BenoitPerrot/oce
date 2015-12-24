@@ -39,7 +39,7 @@
 #include <Mathematics/Optimization/math_Function.hxx>
 #include <Mathematics/Optimization/math_BrentMinimum.hxx>
 #include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //===========================================================================

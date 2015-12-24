@@ -33,7 +33,7 @@
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Geometry/ProjLib/ProjLib_Projector.hxx>
 
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 
 //=======================================================================

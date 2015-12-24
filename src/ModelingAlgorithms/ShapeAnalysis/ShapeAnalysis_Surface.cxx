@@ -56,9 +56,9 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_ToroidalSurface.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_Curve.hxx>
 
@@ -71,7 +71,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeAnalysis_Surface)
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 
-#include <GeomAbs_SurfaceForm.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceForm.hxx>
 #include <Geometry/BndLib/BndLib_Add3dCurve.hxx>
 
 

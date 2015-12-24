@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/GeomFill/GeomFill_PipeError.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
 #include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
 class GeomFill_TrihedronWithGuide;

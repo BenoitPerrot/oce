@@ -41,15 +41,15 @@ IMPLEMENT_STANDARD_RTTI(Geom_ConicalSurface)
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <ElSLib.hxx>
-#include <GeomAbs_UVSense.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Geometry/GeomAbs/GeomAbs_UVSense.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 

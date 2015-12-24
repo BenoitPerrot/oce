@@ -22,7 +22,7 @@
 #include <ModelingAlgorithms/GeomFill/GeomFill_FunctionDraft.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HSurface.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_HCurve.hxx>
-//#include <Precision.hxx>
+//#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 
 

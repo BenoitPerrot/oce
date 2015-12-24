@@ -63,8 +63,8 @@ IMPLEMENT_STANDARD_RTTI(Geom_RectangularTrimmedSurface)
 #include <Geometry/Geom/Geom_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Geom/Geom_OffsetSurface.hxx>
 
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 typedef Handle(Geom_Surface)           Handle(Surface);
 typedef Handle(Geom_Geometry)          Handle(Geometry);

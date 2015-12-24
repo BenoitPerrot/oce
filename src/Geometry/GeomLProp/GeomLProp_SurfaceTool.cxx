@@ -19,7 +19,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/GeomLProp/GeomLProp_SurfaceTool.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 
 
 void  GeomLProp_SurfaceTool::Value(const Handle(Geom_Surface)& S,

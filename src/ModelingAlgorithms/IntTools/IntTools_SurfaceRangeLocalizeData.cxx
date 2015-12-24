@@ -23,7 +23,7 @@
 #include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfBox.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 IntTools_SurfaceRangeLocalizeData::IntTools_SurfaceRangeLocalizeData()
 {

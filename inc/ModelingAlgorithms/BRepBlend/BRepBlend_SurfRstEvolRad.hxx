@@ -26,7 +26,7 @@
 #include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <ModelingAlgorithms/Blend/Blend_SurfRstFunction.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Adaptor3d_HSurface;
 class Adaptor2d_HCurve2d;
 class Adaptor3d_HCurve;

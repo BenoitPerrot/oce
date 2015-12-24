@@ -24,7 +24,7 @@
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 //#include <Geometry/Extrema/Extrema_POnCurv.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnCurve.hxx>
 
 //=======================================================================

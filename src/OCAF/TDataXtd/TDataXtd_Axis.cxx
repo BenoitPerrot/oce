@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(TDataXtd_Axis)
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 
 #define OCC2932
 

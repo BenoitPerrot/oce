@@ -55,7 +55,7 @@
 
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-// #include <Precision.hxx>
+// #include <Mathematics/Precision/Precision.hxx>
 #define Bnd_Precision_Infinite 1e+100
 
 //=======================================================================

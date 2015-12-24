@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>

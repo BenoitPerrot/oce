@@ -46,7 +46,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>

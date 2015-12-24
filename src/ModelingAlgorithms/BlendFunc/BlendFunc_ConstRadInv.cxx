@@ -20,7 +20,7 @@
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc_ConstRadInv.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BlendFunc/BlendFunc.hxx>
 
 #define Eps 1.e-15

@@ -11,7 +11,7 @@
 #include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_OutOfRange;

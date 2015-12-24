@@ -21,7 +21,7 @@
 #include <Foundation/Standard/Standard_DomainError.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 const Standard_Real infVal = Precision::Infinite();
 

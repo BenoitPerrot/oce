@@ -14,7 +14,7 @@
 // commercial license or contractual agreement.
 
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
-#include <LDOMBasicString.hxx>
+#include <OCAF/LDOM/LDOMBasicString.hxx>
 
 IMPLEMENT_STANDARD_HANDLE  (LDOM_MemManager, MMgt_TShared)
 IMPLEMENT_STANDARD_RTTIEXT (LDOM_MemManager, MMgt_TShared)

@@ -45,7 +45,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #ifdef OCCT_DEBUG
 static Standard_Boolean myDebug = Standard_False;

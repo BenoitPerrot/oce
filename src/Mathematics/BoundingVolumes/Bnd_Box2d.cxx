@@ -21,7 +21,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Stream.hxx>
 #include <Mathematics/Primitives/gp.hxx>
-//-- #include <Precision.hxx> Precision::Infinite() -> 1e+100
+//-- #include <Mathematics/Precision/Precision.hxx> Precision::Infinite() -> 1e+100
 
 //=======================================================================
 //function : Update

@@ -16,7 +16,7 @@
 #include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfBiIntInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Side.hxx>
-#include <GeomAbs_JoinType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 #include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
 #include <ModelingAlgorithms/MAT/Handle_MAT_Node.hxx>

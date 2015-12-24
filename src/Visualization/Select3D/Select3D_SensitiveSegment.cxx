@@ -42,14 +42,14 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveSegment)
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
 
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 
 //=====================================================
 // Function : Create

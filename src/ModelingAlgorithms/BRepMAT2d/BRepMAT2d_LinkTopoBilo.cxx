@@ -40,7 +40,7 @@
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Foundation/TColStd/TColStd_DataMapIteratorOfDataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 
 

@@ -35,7 +35,7 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Geometry/TColGeom/TColGeom_Array2OfBezierSurface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 // ============================================================================
 GeomConvert_CompBezierSurfacesToBSplineSurface::

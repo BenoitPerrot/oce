@@ -42,7 +42,7 @@
 # include <Geometry/Geom2d/Geom2d_Curve.hxx>
 # include <Mathematics/Primitives/gp_Pnt2d.hxx>
 # include <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>
-# include <Precision.hxx>
+# include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 

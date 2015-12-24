@@ -26,7 +26,7 @@
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 
 #include <Viewer/Draw/Draw_Axis3D.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/OSD/OSD_Chronometer.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>

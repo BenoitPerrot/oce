@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Extrema/Extrema_LocEPCOfLocateExtPC2d.hxx>
 #include <Geometry/Extrema/Extrema_ELPCOfLocateExtPC2d.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class StdFail_NotDone;

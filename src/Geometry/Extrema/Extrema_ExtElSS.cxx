@@ -28,7 +28,7 @@
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 Extrema_ExtElSS::Extrema_ExtElSS()

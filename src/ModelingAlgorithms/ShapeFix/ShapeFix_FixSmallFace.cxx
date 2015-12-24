@@ -58,12 +58,12 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <ModelingAlgorithms/ShapeBuild/ShapeBuild_ReShape.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Edge.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Wire.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingData/TopoDS/TopoDS_Builder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(ShapeFix_FixSmallFace)
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Shape.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_DataMapOfShapeListOfReal.hxx>

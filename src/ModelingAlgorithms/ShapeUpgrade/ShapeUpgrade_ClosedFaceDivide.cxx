@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(ShapeUpgrade_ClosedFaceDivide)
 IMPLEMENT_DOWNCAST(ShapeUpgrade_ClosedFaceDivide,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ShapeUpgrade_ClosedFaceDivide)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopoDS/TopoDS_Iterator.hxx>

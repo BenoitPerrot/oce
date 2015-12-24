@@ -49,8 +49,8 @@ IMPLEMENT_STANDARD_RTTI(Geom2d_TrimmedCurve)
 #include <Geometry/Geom2d/Geom2d_Parabola.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <ElCLib.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 typedef Handle(Geom2d_TrimmedCurve) Handle(TrimmedCurve);

@@ -27,7 +27,7 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(StlMesh_MeshTriangle)
 IMPLEMENT_DOWNCAST(StlMesh_MeshTriangle,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(StlMesh_MeshTriangle)
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 
 //=======================================================================

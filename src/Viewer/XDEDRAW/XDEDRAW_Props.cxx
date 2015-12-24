@@ -40,7 +40,7 @@
 #include <DataExchange/XCAFDoc/XCAFDoc_Centroid.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_MaterialTool.hxx>
 #include <DataExchange/XCAFDoc/XCAFDoc_Location.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <OCAF/TNaming/TNaming_NamedShape.hxx>
 
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>

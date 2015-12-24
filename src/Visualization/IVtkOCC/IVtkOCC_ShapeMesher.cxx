@@ -34,7 +34,7 @@
 #include <Mathematics/Polyhedral/Poly_Polygon3D.hxx>
 #include <Mathematics/Polyhedral/Poly_PolygonOnTriangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_Triangulation.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Prs3d/Prs3d.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>

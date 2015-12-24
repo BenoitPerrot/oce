@@ -24,13 +24,13 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
 #include <Foundation/StdFail/StdFail_InfiniteSolutions.hxx>
-#include <Precision.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 
 #include <Geometry/Extrema/Extrema_GenExtSS.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 Extrema_ExtSS::Extrema_ExtSS() 
 {

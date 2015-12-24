@@ -38,7 +38,7 @@
 #include <Geometry/BndLib/BndLib_Add2dCurve.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : UIntegrationOrder

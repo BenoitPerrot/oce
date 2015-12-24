@@ -60,7 +60,7 @@ IMPLEMENT_STANDARD_RTTI(Geom_BezierCurve)
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=======================================================================
 //function : Rational

@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

@@ -39,10 +39,10 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(GeomFill_CorrectedFrenet)
 IMPLEMENT_DOWNCAST(GeomFill_CorrectedFrenet,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(GeomFill_CorrectedFrenet)
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>
 #include <ModelingAlgorithms/Law/Law_Interpolate.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>

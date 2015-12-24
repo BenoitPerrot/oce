@@ -49,12 +49,12 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveTriangulation)
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Polyhedral/Poly.hxx>
 #include <Mathematics/Polyhedral/Poly_Connect.hxx>
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 
 
 static Standard_Integer S3D_NumberOfFreeEdges(const Handle(Poly_Triangulation)& Trg)

@@ -40,8 +40,8 @@ IMPLEMENT_STANDARD_RTTI(Extrema_ExtPRevS)
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Precision.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Precision/Precision.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 static gp_Ax2 GetPosition (const Adaptor3d_SurfaceOfRevolution& S)//const Handle(Adaptor_HCurve)& C)
 {

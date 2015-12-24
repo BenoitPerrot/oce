@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceCurveInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Dumper.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 //=======================================================================

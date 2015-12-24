@@ -57,7 +57,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <ModelingAlgorithms/GccAna/GccAna_LinPnt2dBisec.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/IntAna2d/IntAna2d_AnaIntersection.hxx>
 #include <Geometry/IntAna2d/IntAna2d_IntPoint.hxx>
@@ -66,7 +66,7 @@ IMPLEMENT_STANDARD_RTTI(Bisector_BisecAna)
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionSegment.hxx>
 #include <ModelingAlgorithms/Geom2dInt/Geom2dInt_GInter.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 static Standard_Boolean Degenerate(Handle(GccInt_Bisec)& aBisector,
 				   const Standard_Real   Tolerance);

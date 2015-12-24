@@ -60,7 +60,7 @@
 #include <Geometry/Extrema/Extrema_LocateExtCC.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>

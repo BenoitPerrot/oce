@@ -35,7 +35,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_ShapeTool.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

@@ -13,7 +13,7 @@
 
 #include <ModelingAlgorithms/ChFi2d/ChFi2d_ChamferAPI.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/GC/GC_MakeLine.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>

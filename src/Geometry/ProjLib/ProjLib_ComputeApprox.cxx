@@ -18,18 +18,18 @@
 
 #include <Geometry/ProjLib/ProjLib_ComputeApprox.hxx>
 
-#include <GeomAbs_SurfaceType.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/AppCont/AppCont_Function2d.hxx>
 #include <Mathematics/Convert/Convert_CompBezierCurves2dToBSplineCurve2d.hxx>
-#include <ElSLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geometry/Geom/Geom_UndefinedDerivative.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Approx/Approx_FitAndDivide2d.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

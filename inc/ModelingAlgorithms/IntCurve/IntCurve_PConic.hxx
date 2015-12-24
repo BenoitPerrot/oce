@@ -13,7 +13,7 @@
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 class gp_Elips2d;
 class gp_Circ2d;
 class gp_Parab2d;

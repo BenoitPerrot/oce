@@ -39,16 +39,16 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_Plane)
 IMPLEMENT_DOWNCAST(Geom_Plane,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_Plane)
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Geometry/Geom/Geom_Line.hxx>
-#include <GeomAbs_UVSense.hxx>
+#include <Geometry/GeomAbs/GeomAbs_UVSense.hxx>
 
 typedef Geom_Plane         Plane;
 typedef Handle(Geom_Plane) Handle(Plane);

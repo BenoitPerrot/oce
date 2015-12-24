@@ -60,7 +60,7 @@
 #include <Viewer/DrawTrSurf/DrawTrSurf_Point.hxx>
 
 #include <Mathematics/Primitives/gp.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>

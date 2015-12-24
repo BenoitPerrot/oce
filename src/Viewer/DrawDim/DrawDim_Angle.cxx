@@ -32,8 +32,8 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
@@ -41,7 +41,7 @@ IMPLEMENT_STANDARD_RTTI(DrawDim_Angle)
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx> 
 #include <Geometry/IntAna/IntAna_QuadQuadGeo.hxx>

@@ -36,7 +36,7 @@
 #include <ModelingAlgorithms/FairCurve/FairCurve_EnergyOfBatten.hxx>
 #include <ModelingAlgorithms/FairCurve/FairCurve_Newton.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_NegativeValue.hxx>
 #include <Foundation/Standard/Standard_NullValue.hxx>

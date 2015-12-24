@@ -48,7 +48,7 @@
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Geometry/Geom/Geom_Plane.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -76,8 +76,8 @@
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math.hxx>
 
-#include <CSLib_DerivativeStatus.hxx>
-#include <CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_DerivativeStatus.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <ModelingAlgorithms/BRepBndLib/BRepBndLib.hxx>

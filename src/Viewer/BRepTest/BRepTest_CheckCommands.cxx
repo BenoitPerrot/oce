@@ -36,7 +36,7 @@
 #include <Viewer/DBRep/DBRep.hxx>
 #include <Viewer/BRepTest/BRepTest.hxx>
 #include <Viewer/GeometryTest/GeometryTest.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis.hxx>
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_SurfaceContinuity.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
@@ -44,7 +44,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>

@@ -54,7 +54,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_Gauss.hxx>
 #include <Mathematics/Optimization/math_FunctionSetRoot.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Geom/Geom_SurfaceOfRevolution.hxx>
 #include <Geometry/Geom/Geom_BSplineCurve.hxx>
@@ -83,7 +83,7 @@ IMPLEMENT_STANDARD_RTTI(GeomFill_LocationGuide)
 #include <ModelingAlgorithms/GeomFill/GeomFill_SectionPlacement.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfReal.hxx>

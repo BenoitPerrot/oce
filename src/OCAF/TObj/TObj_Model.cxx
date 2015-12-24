@@ -18,7 +18,7 @@
 #include <OCAF/TObj/TObj_Model.hxx>
 
 #include <Foundation/OSD/OSD_File.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_HAsciiString.hxx>

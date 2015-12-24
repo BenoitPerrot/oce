@@ -82,7 +82,7 @@
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfShapeOn1State.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>

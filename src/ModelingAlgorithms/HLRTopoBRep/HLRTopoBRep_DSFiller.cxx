@@ -55,7 +55,7 @@
 #include <ModelingAlgorithms/Contap/Contap_Line.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_ApproxLine.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_Approx.hxx>
 #include <ModelingData/BRep/BRep_TEdge.hxx>

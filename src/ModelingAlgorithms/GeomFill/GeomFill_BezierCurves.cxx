@@ -24,7 +24,7 @@
 #include <ModelingAlgorithms/GeomFill/GeomFill_Coons.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Curved.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/Geom/Geom_BezierCurve.hxx>
 #include <Geometry/Geom/Geom_BezierSurface.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>

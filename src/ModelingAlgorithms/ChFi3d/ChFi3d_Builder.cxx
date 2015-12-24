@@ -95,7 +95,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #ifdef DRAW
 #include <Viewer/TestTopOpeTools/TestTopOpeTools.hxx>

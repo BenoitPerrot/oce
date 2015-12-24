@@ -24,7 +24,7 @@
 #include <Geometry/AppParCurves/AppParCurves_MultiCurve.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <Geometry/Extrema/Extrema_POnSurf.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/BetaSpline/BSplCLib.hxx>
 #include <Mathematics/Polynomial/PLib.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

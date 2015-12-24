@@ -32,12 +32,12 @@ IMPLEMENT_STANDARD_TYPE_END(ChFiDS_FilSpine)
 IMPLEMENT_DOWNCAST(ChFiDS_FilSpine,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(ChFiDS_FilSpine)
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ListIteratorOfListOfHElSpine.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfBoolean.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <ModelingAlgorithms/Law/Law_ListIteratorOfLaws.hxx>
 #include <ModelingAlgorithms/Law/Law_Constant.hxx>
 #include <ModelingAlgorithms/Law/Law_S.hxx>

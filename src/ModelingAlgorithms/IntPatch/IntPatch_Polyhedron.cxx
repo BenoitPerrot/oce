@@ -30,7 +30,7 @@
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <stdio.h>
 
 #define MSG_DEBUG                   0

@@ -29,7 +29,7 @@ IMPLEMENT_DOWNCAST(MAT_Node,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(MAT_Node)
 #include <ModelingAlgorithms/MAT/MAT_BasicElt.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Arc.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 //=============================================================================
 //function : 

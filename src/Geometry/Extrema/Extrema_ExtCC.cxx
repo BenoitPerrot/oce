@@ -32,7 +32,7 @@
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Extrema/Extrema_ExtElC.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <Geometry/Geom/Geom_Ellipse.hxx>
@@ -45,9 +45,9 @@
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfTransient.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <ElCLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
 #include <Geometry/Extrema/Extrema_ExtPElC.hxx>
 #include <Foundation/Standard/Standard_NullObject.hxx>
 

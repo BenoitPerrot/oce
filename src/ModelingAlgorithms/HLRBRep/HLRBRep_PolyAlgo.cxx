@@ -44,9 +44,9 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <Foundation/Standard/Standard_ErrorHandler.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_HArray1OfInteger.hxx>
-#include <CSLib.hxx>
-#include <CSLib_DerivativeStatus.hxx>
-#include <CSLib_NormalStatus.hxx>
+#include <Mathematics/Primitives/CSLib.hxx>
+#include <Mathematics/Primitives/CSLib_DerivativeStatus.hxx>
+#include <Mathematics/Primitives/CSLib_NormalStatus.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfListOfBPoint.hxx>
@@ -65,7 +65,7 @@ IMPLEMENT_STANDARD_RTTI(HLRBRep_PolyAlgo)
 #include <ModelingData/BRep/BRep_Builder.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeEdge.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 
 #define EMskOutLin1  0x0001u

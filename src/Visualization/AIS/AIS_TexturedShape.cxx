@@ -24,7 +24,7 @@
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Texture2Dmanual.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Visualization/Prs3d/Prs3d_Root.hxx>

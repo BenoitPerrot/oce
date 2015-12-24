@@ -20,7 +20,7 @@
 #include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <GeomAbs_Shape.hxx>
+#include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 class Adaptor3d_HCurve;
 class TColgp_HArray2OfPnt2d;
 class GeomFill_Frenet;

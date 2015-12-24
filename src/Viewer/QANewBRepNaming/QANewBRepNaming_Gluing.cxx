@@ -40,7 +40,7 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfLabelMap.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>

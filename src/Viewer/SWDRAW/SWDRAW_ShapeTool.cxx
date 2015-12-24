@@ -58,7 +58,7 @@
 // + fillface
 #include <Geometry/Geom/Geom_TrimmedCurve.hxx>
 #include <stdio.h>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 #include <Geometry/GeomLib/GeomLib.hxx>
 

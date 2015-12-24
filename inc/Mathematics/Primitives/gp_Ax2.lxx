@@ -14,7 +14,7 @@
 
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 inline gp_Ax2::gp_Ax2() : vydir(0.,1.,0.), vxdir(1.,0.,0.)
 { }

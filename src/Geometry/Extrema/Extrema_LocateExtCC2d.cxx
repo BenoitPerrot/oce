@@ -16,10 +16,10 @@
 
 #include <Geometry/Extrema/Extrema_LocateExtCC2d.hxx>
 
-#include <GeomAbs_CurveType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_CurveType.hxx>
 #include <Foundation/StdFail/StdFail_NotDone.hxx>
 #include <Geometry/Extrema/Extrema_POnCurv2d.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <Geometry/Extrema/Extrema_Curve2dTool.hxx>

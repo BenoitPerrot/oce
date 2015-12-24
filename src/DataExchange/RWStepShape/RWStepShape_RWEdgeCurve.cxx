@@ -29,7 +29,7 @@
 #include <DataExchange/StepShape/StepShape_EdgeCurve.hxx>
 #include <DataExchange/StepShape/StepShape_EdgeLoop.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 
 RWStepShape_RWEdgeCurve::RWStepShape_RWEdgeCurve () {}

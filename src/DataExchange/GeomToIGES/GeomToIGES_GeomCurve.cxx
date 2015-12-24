@@ -90,7 +90,7 @@
 #include <DataExchange/Interface/Interface_Macros.hxx>
 #include <DataExchange/Interface/Interface_Static.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/Collections/TColgp_HArray1OfXYZ.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>

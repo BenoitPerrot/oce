@@ -39,13 +39,13 @@ IMPLEMENT_STANDARD_TYPE_END(Geom_ToroidalSurface)
 IMPLEMENT_DOWNCAST(Geom_ToroidalSurface,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(Geom_ToroidalSurface)
 
-#include <GeomAbs_UVSense.hxx>
+#include <Geometry/GeomAbs/GeomAbs_UVSense.hxx>
 #include <Geometry/Geom/Geom_Circle.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Circ.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>

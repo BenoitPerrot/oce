@@ -31,7 +31,7 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <GeomAbs_SurfaceType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_SurfaceType.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_box.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_define.hxx>

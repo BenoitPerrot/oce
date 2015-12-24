@@ -29,7 +29,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Visualization/Prs3d/Prs3d_ShadingAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 
 //=======================================================================

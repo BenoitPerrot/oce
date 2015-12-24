@@ -34,7 +34,7 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_Builder_0.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <Foundation/Standard/Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_NotImplemented.hxx>
@@ -49,8 +49,8 @@
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <ElCLib.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 

@@ -48,7 +48,7 @@ IMPLEMENT_STANDARD_RTTI(BRepTools_TrsfModification)
 #include <ModelingData/TopExp/TopExp.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 
 //=======================================================================

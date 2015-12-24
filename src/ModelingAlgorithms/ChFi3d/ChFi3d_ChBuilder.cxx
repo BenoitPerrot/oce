@@ -65,7 +65,7 @@
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs.hxx>
 
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 
 #include <Foundation/Standard/Standard_NotImplemented.hxx>

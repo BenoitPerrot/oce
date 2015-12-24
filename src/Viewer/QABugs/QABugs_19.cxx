@@ -32,7 +32,7 @@
 #include <Geometry/Geom2d/Geom2d_TrimmedCurve.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf.hxx>
 
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 
 #include <OCAF/PCollection/PCollection_HAsciiString.hxx>
 
@@ -573,7 +573,7 @@ static int test_offset(Draw_Interpretor& di, Standard_Integer argc, const char**
 
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <ModelingAlgorithms/ShapeConstruct/ShapeConstruct_ProjectCurveOnSurface.hxx>
 //=======================================================================
 //function : OCC24008
@@ -1385,7 +1385,7 @@ static Standard_Integer OCC24086 (Draw_Interpretor& di, Standard_Integer argc, c
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Mathematics/Primitives/gp_Cylinder.hxx>
-#include <ElSLib.hxx>
+#include <Mathematics/Primitives/ElSLib.hxx>
 static Standard_Integer OCC24945 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if (argc != 1) {

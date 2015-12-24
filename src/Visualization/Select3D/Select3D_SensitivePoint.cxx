@@ -38,8 +38,8 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitivePoint)
 
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <ElCLib.hxx>
-#include <CSLib_Class2d.hxx>
+#include <Mathematics/Primitives/ElCLib.hxx>
+#include <Mathematics/Primitives/CSLib_Class2d.hxx>
 
 //==================================================
 // Function: Creation

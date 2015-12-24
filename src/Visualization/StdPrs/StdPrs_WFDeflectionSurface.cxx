@@ -19,11 +19,11 @@
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
 #include <Visualization/StdPrs/StdPrs_WFDeflectionSurface.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Group.hxx>
-#include <GeomAbs_IsoType.hxx>
+#include <Geometry/GeomAbs/GeomAbs_IsoType.hxx>
 #include <Visualization/Prs3d/Prs3d_IsoAspect.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Geometry/BndLib/BndLib_AddSurface.hxx>
-#include <Precision.hxx>
+#include <Mathematics/Precision/Precision.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_IsoCurve.hxx>
 #include <Visualization/StdPrs/StdPrs_DeflectionCurve.hxx>
