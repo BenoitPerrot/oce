@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Transfer_HSequenceOfFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_HSequenceOfFinder.hxx>
 #include <DataExchange/Transfer/Transfer_TransferIterator.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Transfer_ProcessForFinder.hxx>
-#include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
-#include <Handle_Transfer_ActorOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForFinder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
 class Transfer_HSequenceOfFinder;
 class Standard_NoSuchObject;
 class Transfer_Finder;

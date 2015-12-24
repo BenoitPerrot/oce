@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_TopoDS_LockedShape.hxx>
+#include <ModelingData/TopoDS/Handle_TopoDS_LockedShape.hxx>
 
 #if !defined No_Exception && !defined No_TopoDS_LockedShape
   #define TopoDS_LockedShape_Raise_if(CONDITION, MESSAGE) \

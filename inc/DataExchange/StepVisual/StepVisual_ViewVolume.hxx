@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_ViewVolume.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_ViewVolume.hxx>
 
 #include <DataExchange/StepVisual/StepVisual_CentralOrParallel.hxx>
-#include <Handle_StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PlanarBox.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepGeom_CartesianPoint;
 class StepVisual_PlanarBox;

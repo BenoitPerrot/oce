@@ -8,26 +8,26 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_ViewManager.hxx>
 
 #include <Visualization/Visual3d/Visual3d_SequenceOfView.hxx>
-#include <Handle_Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_Layer.hxx>
 #include <Visualization/Aspect/Aspect_GenId.hxx>
-#include <Handle_Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_GraphicDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Visualization/Visual3d/Visual3d_MapOfZLayerSettings.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructureManager.hxx>
-#include <Handle_Visual3d_HSequenceOfView.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_HSequenceOfView.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Visual3d_View.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_View.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>
-#include <Handle_Aspect_Window.hxx>
+#include <Visualization/Aspect/Handle_Aspect_Window.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CView.hxx>
-#include <Handle_Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_DataStructureManager.hxx>
 class Visual3d_Layer;
 class Graphic3d_GraphicDriver;
 class Visual3d_View;

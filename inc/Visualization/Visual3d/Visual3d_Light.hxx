@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_Light.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_CLight.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

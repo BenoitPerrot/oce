@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_AttributeDef.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColStd_HArray1OfTransient.hxx>
-#include <Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfTransient.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESGraph_TextDisplayTemplate.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextDisplayTemplate.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 class TCollection_HAsciiString;
 class TColStd_HArray1OfInteger;
 class TColStd_HArray1OfTransient;

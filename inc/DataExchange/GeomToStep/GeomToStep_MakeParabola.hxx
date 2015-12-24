@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Parabola.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Parabola.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom2d_Parabola.hxx>
-#include <Handle_Geom_Parabola.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Parabola.hxx>
+#include <Geometry/Geom/Handle_Geom_Parabola.hxx>
 class StepGeom_Parabola;
 class StdFail_NotDone;
 class Geom2d_Parabola;

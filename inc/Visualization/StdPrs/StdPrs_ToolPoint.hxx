@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_Point.hxx>
+#include <Geometry/Geom/Handle_Geom_Point.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 class Geom_Point;
 

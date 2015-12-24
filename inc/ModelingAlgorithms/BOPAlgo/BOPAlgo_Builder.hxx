@@ -14,7 +14,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfShape.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PPaveFiller.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PDS.hxx>
-#include <Handle_IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeShape.hxx>

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HeaderSection_HeaderRecognizer.hxx>
+#include <DataExchange/HeaderSection/Handle_HeaderSection_HeaderRecognizer.hxx>
 
 #include <DataExchange/StepData/StepData_FileRecognizer.hxx>
 class TCollection_AsciiString;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_Vector.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Vector.hxx>
 
 #include <Mathematics/Primitives/gp_Vec2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>

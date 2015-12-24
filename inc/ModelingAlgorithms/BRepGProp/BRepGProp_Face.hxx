@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_IsoType.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class TopoDS_Face;
 class TColStd_Array1OfReal;
 class gp_Pnt;

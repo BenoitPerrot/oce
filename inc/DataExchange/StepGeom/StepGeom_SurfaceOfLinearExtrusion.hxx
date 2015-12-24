@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceOfLinearExtrusion.hxx>
 
-#include <Handle_StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Vector.hxx>
 #include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepGeom_Curve.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
 class StepGeom_Vector;
 class TCollection_HAsciiString;
 class StepGeom_Curve;

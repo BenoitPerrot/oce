@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Point.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

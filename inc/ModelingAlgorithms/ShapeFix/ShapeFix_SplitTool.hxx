@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopoDS_Face;

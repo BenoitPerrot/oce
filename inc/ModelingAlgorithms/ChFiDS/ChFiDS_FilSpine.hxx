@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_FilSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_FilSpine.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfXY.hxx>
 #include <ModelingAlgorithms/Law/Law_Laws.hxx>
@@ -16,9 +16,9 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Law_Function.hxx>
-#include <Handle_Law_Composite.hxx>
-#include <Handle_ChFiDS_HElSpine.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Composite.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_HElSpine.hxx>
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class gp_XY;

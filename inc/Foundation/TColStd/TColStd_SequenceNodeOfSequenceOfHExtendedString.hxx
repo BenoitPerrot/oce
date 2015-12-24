@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_SequenceNodeOfSequenceOfHExtendedString.hxx>
 
-#include <Handle_TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HExtendedString.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TCollection_HExtendedString;

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

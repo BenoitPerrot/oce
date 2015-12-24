@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Handle_ChFiKPart_DataMapNodeOfRstMap.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
+#include <ModelingAlgorithms/ChFiKPart/Handle_ChFiKPart_DataMapNodeOfRstMap.hxx>
 class Standard_NoSuchObject;
 class Adaptor2d_HCurve2d;
 class TColStd_MapIntegerHasher;

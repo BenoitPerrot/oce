@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MMgt_TShared.hxx>
+#include <Foundation/MMgt/Handle_MMgt_TShared.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 class Standard_OutOfMemory;

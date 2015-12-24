@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_PolyShellData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_PolyShellData.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
-#include <Handle_TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfTransient.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

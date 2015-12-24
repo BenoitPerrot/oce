@@ -14,7 +14,7 @@
 #include <DataExchange/StepToTopoDS/StepToTopoDS_DataMapOfRINames.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
 class StepToTopoDS_DataMapOfRI;
 class StepToTopoDS_DataMapOfRINames;
 class StepRepr_RepresentationItem;

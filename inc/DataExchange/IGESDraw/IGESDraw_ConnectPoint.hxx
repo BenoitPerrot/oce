@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_ConnectPoint.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IGESGraph_TextDisplayTemplate.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextDisplayTemplate.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;

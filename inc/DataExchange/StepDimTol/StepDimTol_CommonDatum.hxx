@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepDimTol_CommonDatum.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_CommonDatum.hxx>
 
-#include <Handle_StepDimTol_Datum.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_Datum.hxx>
 #include <DataExchange/StepRepr/StepRepr_CompositeShapeAspect.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepRepr_ProductDefinitionShape.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ProductDefinitionShape.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 class StepDimTol_Datum;
 class TCollection_HAsciiString;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_StepElement_ElementMaterial.hxx>
-#include <Handle_StepElement_SequenceNodeOfSequenceOfElementMaterial.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_ElementMaterial.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SequenceNodeOfSequenceOfElementMaterial.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

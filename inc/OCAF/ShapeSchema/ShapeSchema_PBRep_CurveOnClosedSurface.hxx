@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_CurveOnClosedSurface_HeaderFile
-#include <Handle_PBRep_CurveOnClosedSurface.hxx>
+#include <OCAF/PBRep/Handle_PBRep_CurveOnClosedSurface.hxx>
 #endif
 
 #ifndef _ShapeSchema_PBRep_CurveOnSurface_HeaderFile

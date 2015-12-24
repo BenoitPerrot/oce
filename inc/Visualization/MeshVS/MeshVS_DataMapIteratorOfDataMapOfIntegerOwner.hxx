@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerOwner.hxx>
 class Standard_NoSuchObject;
 class SelectMgr_EntityOwner;
 class TColStd_MapIntegerHasher;

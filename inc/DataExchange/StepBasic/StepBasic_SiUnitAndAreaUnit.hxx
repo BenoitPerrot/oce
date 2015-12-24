@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_SiUnitAndAreaUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SiUnitAndAreaUnit.hxx>
 
-#include <Handle_StepBasic_AreaUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_AreaUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
-#include <Handle_StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DimensionalExponents.hxx>
 class StepBasic_AreaUnit;
 class StepBasic_DimensionalExponents;
 

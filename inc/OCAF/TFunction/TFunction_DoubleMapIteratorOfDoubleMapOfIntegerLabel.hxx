@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 class Standard_NoSuchObject;
 class TDF_Label;
 class TColStd_MapIntegerHasher;

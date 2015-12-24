@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepCheck_Edge.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_Edge.hxx>
 
-#include <Handle_BRep_CurveRepresentation.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <ModelingData/BRep/Handle_BRep_CurveRepresentation.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

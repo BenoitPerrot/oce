@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PlanarBox.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 #include <DataExchange/StepVisual/StepVisual_PlanarExtent.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TCollection_HAsciiString;
 class StepGeom_Axis2Placement;

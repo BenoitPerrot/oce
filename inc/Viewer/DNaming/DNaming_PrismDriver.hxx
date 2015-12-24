@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DNaming_PrismDriver.hxx>
+#include <Viewer/DNaming/Handle_DNaming_PrismDriver.hxx>
 
 #include <OCAF/TFunction/TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -9,12 +9,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PNaming_Name_2.hxx>
+#include <OCAF/PNaming/Handle_PNaming_Name_2.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PNaming_HArray1OfNamedShape.hxx>
-#include <Handle_PNaming_NamedShape.hxx>
-#include <Handle_PCollection_HAsciiString.hxx>
+#include <OCAF/PNaming/Handle_PNaming_HArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/Handle_PNaming_NamedShape.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class PNaming_HArray1OfNamedShape;
 class PNaming_NamedShape;

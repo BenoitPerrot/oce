@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_DataMapNodeOfDataMapOfIntegerBisec.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Bisec.hxx>

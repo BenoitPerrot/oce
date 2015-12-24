@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/OSD/OSD_Signal.hxx>
-#include <Handle_OSD_SIGILL.hxx>
+#include <Foundation/OSD/Handle_OSD_SIGILL.hxx>
 
 #if !defined No_Exception && !defined No_OSD_SIGILL
   #define OSD_SIGILL_Raise_if(CONDITION, MESSAGE) \

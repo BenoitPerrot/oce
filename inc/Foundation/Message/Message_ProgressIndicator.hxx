@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Message/Message_SequenceOfProgressScale.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;

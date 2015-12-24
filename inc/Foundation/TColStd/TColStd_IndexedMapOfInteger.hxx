@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_IndexedMapNodeOfIndexedMapOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_IndexedMapNodeOfIndexedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;

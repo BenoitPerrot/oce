@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PCDM_ReferenceIterator.hxx>
+#include <OCAF/PCDM/Handle_PCDM_ReferenceIterator.hxx>
 
 #include <OCAF/PCDM/PCDM_SequenceOfReference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_MetaData.hxx>
-#include <Handle_CDM_Application.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_Application.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class CDM_MessageDriver;
 class CDM_Document;

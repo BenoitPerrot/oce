@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/XSControl/XSControl_Reader.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepData_StepModel.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationContext.hxx>
 class XSControl_WorkSession;
 class StepData_StepModel;
 class TColStd_SequenceOfAsciiString;

@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_EllipseRadiusDimension.hxx>
+#include <Visualization/AIS/Handle_AIS_EllipseRadiusDimension.hxx>
 
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_OffsetCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_OffsetCurve.hxx>
 #include <Visualization/AIS/AIS_Relation.hxx>
 #include <Visualization/AIS/AIS_KindOfDimension.hxx>
 #include <Visualization/AIS/AIS_KindOfSurface.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class Geom_OffsetCurve;
 class TopoDS_Shape;
 class TCollection_ExtendedString;

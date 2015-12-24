@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
+#include <Viewer/ViewerTest/Handle_ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

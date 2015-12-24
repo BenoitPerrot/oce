@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_DispPerSignature.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_DispPerSignature.hxx>
 
-#include <Handle_IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SignCounter.hxx>
 #include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

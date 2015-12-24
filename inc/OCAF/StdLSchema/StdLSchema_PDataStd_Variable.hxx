@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDataStd_Variable_HeaderFile
-#include <Handle_PDataStd_Variable.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_Variable.hxx>
 #endif
 
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile

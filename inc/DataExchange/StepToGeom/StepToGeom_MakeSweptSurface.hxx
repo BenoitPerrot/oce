@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_SweptSurface.hxx>
-#include <Handle_Geom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SweptSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_SweptSurface.hxx>
 class StepGeom_SweptSurface;
 class Geom_SweptSurface;
 

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_FaceBasedSurfaceModel.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_FaceBasedSurfaceModel.hxx>
 
-#include <Handle_StepShape_HArray1OfConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfConnectedFaceSet.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepShape_HArray1OfConnectedFaceSet;
 class TCollection_HAsciiString;
 

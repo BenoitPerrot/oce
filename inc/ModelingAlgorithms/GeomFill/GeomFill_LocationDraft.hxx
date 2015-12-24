@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_LocationDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationDraft.hxx>
 
 #include <Mathematics/Primitives/gp_Mat.hxx>
-#include <Handle_GeomFill_DraftTrihedron.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_DraftTrihedron.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
-#include <Handle_GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
 #include <GeomAbs_Shape.hxx>
 class GeomFill_DraftTrihedron;
 class Adaptor3d_HSurface;

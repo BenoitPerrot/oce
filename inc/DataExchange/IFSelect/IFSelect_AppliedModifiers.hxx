@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_AppliedModifiers.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_AppliedModifiers.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SequenceOfGeneralModifier.hxx>
 #include <DataExchange/Interface/Interface_IntList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IFSelect_GeneralModifier.hxx>
-#include <Handle_TColStd_HSequenceOfInteger.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_GeneralModifier.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfInteger.hxx>
 class IFSelect_GeneralModifier;
 class TColStd_HSequenceOfInteger;
 

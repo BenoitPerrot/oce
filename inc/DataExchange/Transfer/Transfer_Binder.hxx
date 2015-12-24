@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
 
 #include <DataExchange/Transfer/Transfer_StatusResult.hxx>
 #include <DataExchange/Transfer/Transfer_StatusExec.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Transfer_Binder.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Interface_Check;
 class Transfer_TransferFailure;

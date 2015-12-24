@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Mesh.hxx>
 
 #include <Visualization/MeshVS/MeshVS_SequenceOfPrsBuilder.hxx>
-#include <Handle_MeshVS_PrsBuilder.hxx>
-#include <Handle_TColStd_HPackedMapOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_PrsBuilder.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HPackedMapOfInteger.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerOwner.hxx>
-#include <Handle_MeshVS_DataSource.hxx>
-#include <Handle_MeshVS_Drawer.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Drawer.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
 #include <Visualization/MeshVS/MeshVS_MeshSelectionMethod.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class MeshVS_PrsBuilder;

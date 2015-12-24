@@ -13,8 +13,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IGESData/IGESData_DefType.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 class Interface_Check;
 class IGESData_IGESEntity;
 

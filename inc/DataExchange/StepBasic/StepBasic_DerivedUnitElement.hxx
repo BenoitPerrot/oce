@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DerivedUnitElement.hxx>
 
-#include <Handle_StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_NamedUnit.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_NamedUnit;

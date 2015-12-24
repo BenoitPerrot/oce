@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
 
 #include <DataExchange/StepVisual/StepVisual_Array1OfTextOrCharacter.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_CurveOn2Surfaces_HeaderFile
-#include <Handle_PBRep_CurveOn2Surfaces.hxx>
+#include <OCAF/PBRep/Handle_PBRep_CurveOn2Surfaces.hxx>
 #endif
 
 #ifndef _ShapeSchema_PBRep_CurveRepresentation_HeaderFile

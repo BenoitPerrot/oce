@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BinMNaming_NamedShapeDriver.hxx>
+#include <OCAF/BinMNaming/Handle_BinMNaming_NamedShapeDriver.hxx>
 
 #include <OCAF/BinTools/BinTools_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/BinMDF/BinMDF_ADriver.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <DataExchange/Interface/Interface_InterfaceError.hxx>
-#include <Handle_Interface_CheckFailure.hxx>
+#include <DataExchange/Interface/Handle_Interface_CheckFailure.hxx>
 
 #if !defined No_Exception && !defined No_Interface_CheckFailure
   #define Interface_CheckFailure_Raise_if(CONDITION, MESSAGE) \

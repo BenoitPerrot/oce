@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_DispPerSingleView.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_DispPerSingleView.hxx>
 
-#include <Handle_IGESSelect_ViewSorter.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_ViewSorter.hxx>
 #include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESSelect_ViewSorter;

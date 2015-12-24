@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_TypeMismatch;

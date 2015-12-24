@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Standard_Persistent.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_PTColStd_DataMapNodeOfPersistentTransientMap.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <OCAF/PTColStd/Handle_PTColStd_DataMapNodeOfPersistentTransientMap.hxx>
 class Standard_NoSuchObject;
 class Standard_Persistent;
 class Standard_Transient;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_SequenceNodeOfSequenceOfCurve.hxx>
 
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Geom_Curve;

@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Direction.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_Direction.hxx>
-#include <Handle_Geom2d_Direction.hxx>
+#include <Geometry/Geom/Handle_Geom_Direction.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Direction.hxx>
 class StepGeom_Direction;
 class StdFail_NotDone;
 class gp_Dir;

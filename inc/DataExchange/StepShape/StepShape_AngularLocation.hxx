@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_AngularLocation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_AngularLocation.hxx>
 
 #include <DataExchange/StepShape/StepShape_AngleRelator.hxx>
 #include <DataExchange/StepShape/StepShape_DimensionalLocation.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ShapeAspect.hxx>
 class TCollection_HAsciiString;
 class StepRepr_ShapeAspect;
 

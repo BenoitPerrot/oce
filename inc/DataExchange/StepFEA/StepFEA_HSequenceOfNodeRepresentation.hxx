@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_HSequenceOfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HSequenceOfNodeRepresentation.hxx>
 
 #include <DataExchange/StepFEA/StepFEA_SequenceOfNodeRepresentation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepFEA_NodeRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_NodeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

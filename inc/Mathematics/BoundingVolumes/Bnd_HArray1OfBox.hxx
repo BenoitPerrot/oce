@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Bnd_HArray1OfBox.hxx>
+#include <Mathematics/BoundingVolumes/Handle_Bnd_HArray1OfBox.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Array1OfBox.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

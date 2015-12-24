@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_HSequenceOfBSplineSurface.hxx>
-#include <Handle_TColStd_HSequenceOfInteger.hxx>
+#include <Geometry/Geom/Handle_Geom_HSequenceOfBSplineSurface.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_IsoType.hxx>
 class Geom_Surface;

@@ -12,16 +12,16 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_Approval.hxx>
-#include <Handle_StepRepr_DescriptiveRepresentationItem.hxx>
-#include <Handle_StepRepr_MaterialDesignation.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
-#include <Handle_StepBasic_ProductDefinitionRelationship.hxx>
-#include <Handle_StepRepr_PropertyDefinition.hxx>
-#include <Handle_StepRepr_Representation.hxx>
-#include <Handle_StepRepr_ShapeAspect.hxx>
-#include <Handle_StepRepr_ShapeAspectRelationship.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Approval.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_DescriptiveRepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ShapeAspectRelationship.hxx>
 class Standard_Transient;
 class StepBasic_Approval;
 class StepRepr_DescriptiveRepresentationItem;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepCheck_Vertex.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_Vertex.hxx>
 
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

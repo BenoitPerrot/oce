@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_HArray1OfShell.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_HArray1OfShell.hxx>
 
 #include <DataExchange/IGESSolid/IGESSolid_Array1OfShell.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Shell.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Axis1Placement.hxx>
-#include <Handle_Geom_Axis1Placement.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis1Placement.hxx>
+#include <Geometry/Geom/Handle_Geom_Axis1Placement.hxx>
 class StepGeom_Axis1Placement;
 class Geom_Axis1Placement;
 

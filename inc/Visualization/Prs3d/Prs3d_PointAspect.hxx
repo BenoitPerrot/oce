@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_PointAspect.hxx>
 
-#include <Handle_Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Visualization/Prs3d/Prs3d_BasicAspect.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfByte.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfByte.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MarkerImage_Handle.hxx>
 class Graphic3d_AspectMarker3d;
 class Quantity_Color;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DimensionError.hxx>
-#include <Handle_math_NotSquare.hxx>
+#include <Mathematics/Optimization/Handle_math_NotSquare.hxx>
 
 #if !defined No_Exception && !defined No_math_NotSquare
   #define math_NotSquare_Raise_if(CONDITION, MESSAGE) \

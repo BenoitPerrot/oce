@@ -13,11 +13,11 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PDS.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PIterator.hxx>
-#include <Handle_IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
-#include <Handle_BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_PaveBlock.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_IndexedDataMapOfShapeCoupleOfPaveBlocks.hxx>

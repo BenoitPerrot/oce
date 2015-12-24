@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepDimTol_GeometricToleranceRelationship.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_GeometricToleranceRelationship.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepDimTol_GeometricTolerance.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_GeometricTolerance.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepDimTol_GeometricTolerance;

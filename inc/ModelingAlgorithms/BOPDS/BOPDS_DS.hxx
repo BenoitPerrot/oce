@@ -33,8 +33,8 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_VectorOfInterfZZ.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
-#include <Handle_BOPDS_PaveBlock.hxx>
-#include <Handle_BOPDS_CommonBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_CommonBlock.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_IndexedMapOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_MapOfInteger.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PTopoDS_TVertex_HeaderFile
-#include <Handle_PTopoDS_TVertex.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_TVertex.hxx>
 #endif
 
 #ifndef _ShapeSchema_PTopoDS_TShape_HeaderFile

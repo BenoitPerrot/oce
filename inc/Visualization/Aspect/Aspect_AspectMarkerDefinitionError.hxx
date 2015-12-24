@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_Aspect_AspectMarkerDefinitionError.hxx>
+#include <Visualization/Aspect/Handle_Aspect_AspectMarkerDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Aspect_AspectMarkerDefinitionError
   #define Aspect_AspectMarkerDefinitionError_Raise_if(CONDITION, MESSAGE) \

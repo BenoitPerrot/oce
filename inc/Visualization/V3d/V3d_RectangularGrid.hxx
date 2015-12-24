@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_V3d_RectangularGrid.hxx>
+#include <Visualization/V3d/Handle_V3d_RectangularGrid.hxx>
 
-#include <Handle_Graphic3d_Structure.hxx>
-#include <Handle_Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Visualization/V3d/V3d_ViewerPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

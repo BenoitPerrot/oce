@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_GlobalNodeOfReaderLib.hxx>
+#include <DataExchange/Interface/Handle_Interface_GlobalNodeOfReaderLib.hxx>
 
-#include <Handle_Interface_ReaderModule.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_GlobalNodeOfReaderLib.hxx>
+#include <DataExchange/Interface/Handle_Interface_ReaderModule.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_GlobalNodeOfReaderLib.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_NodeOfReaderLib.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_NodeOfReaderLib.hxx>
 class Interface_ReaderModule;
 class Interface_Protocol;
 class Standard_Transient;

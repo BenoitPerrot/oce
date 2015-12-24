@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESControl_ActorWrite.hxx>
+#include <DataExchange/IGESControl/Handle_IGESControl_ActorWrite.hxx>
 
 #include <DataExchange/Transfer/Transfer_ActorOfFinderProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 class Transfer_Finder;
 class Transfer_Binder;
 class Transfer_FinderProcess;

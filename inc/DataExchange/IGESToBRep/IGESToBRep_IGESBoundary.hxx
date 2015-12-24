@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESToBRep_IGESBoundary.hxx>
+#include <DataExchange/IGESToBRep/Handle_IGESToBRep_IGESBoundary.hxx>
 
 #include <DataExchange/IGESToBRep/IGESToBRep_CurveAndSurface.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 class IGESData_IGESEntity;
 class ShapeExtend_WireData;
 class IGESToBRep_CurveAndSurface;

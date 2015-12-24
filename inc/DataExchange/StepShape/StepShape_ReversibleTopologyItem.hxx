@@ -12,13 +12,13 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepShape_Edge.hxx>
-#include <Handle_StepShape_Path.hxx>
-#include <Handle_StepShape_Face.hxx>
-#include <Handle_StepShape_FaceBound.hxx>
-#include <Handle_StepShape_ClosedShell.hxx>
-#include <Handle_StepShape_OpenShell.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Edge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Path.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Face.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_FaceBound.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_OpenShell.hxx>
 class Standard_Transient;
 class StepShape_Edge;
 class StepShape_Path;

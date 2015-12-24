@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataXtd_Shape.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_Shape.hxx>
 
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
-#include <Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_DataSet.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class TopoDS_Shape;

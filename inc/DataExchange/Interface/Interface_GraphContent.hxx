@@ -12,7 +12,7 @@
 
 #include <DataExchange/Interface/Interface_EntityIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Interface_Graph;
 class Standard_Transient;
 class Interface_EntityIterator;

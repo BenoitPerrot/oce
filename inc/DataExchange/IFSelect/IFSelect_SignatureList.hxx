@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SignatureList.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SignatureList.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <Handle_Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_PrintCount.hxx>
 class TCollection_HAsciiString;
 class Dico_DictionaryOfInteger;

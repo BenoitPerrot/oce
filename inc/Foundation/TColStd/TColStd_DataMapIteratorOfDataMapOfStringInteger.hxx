@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_DataMapNodeOfDataMapOfStringInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_DataMapNodeOfDataMapOfStringInteger.hxx>
 class Standard_NoSuchObject;
 class TCollection_ExtendedString;
 class TColStd_DataMapOfStringInteger;

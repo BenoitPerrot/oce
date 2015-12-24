@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IncrementalMesh.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 

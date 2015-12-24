@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Point.hxx>
+#include <Visualization/AIS/Handle_AIS_Point.hxx>
 
-#include <Handle_Geom_Point.hxx>
+#include <Geometry/Geom/Handle_Geom_Point.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Prs3d_Projector.hxx>
-#include <Handle_Geom_Transformation.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Geom_Point;
 class Prs3d_Presentation;

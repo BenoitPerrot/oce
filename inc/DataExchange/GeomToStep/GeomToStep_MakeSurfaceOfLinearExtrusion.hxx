@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_SurfaceOfLinearExtrusion.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceOfLinearExtrusion.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_SurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Geom/Handle_Geom_SurfaceOfLinearExtrusion.hxx>
 class StepGeom_SurfaceOfLinearExtrusion;
 class StdFail_NotDone;
 class Geom_SurfaceOfLinearExtrusion;

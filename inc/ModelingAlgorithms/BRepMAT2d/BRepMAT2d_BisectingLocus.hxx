@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Graph.hxx>
 #include <ModelingAlgorithms/MAT2d/MAT2d_Tool2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/MAT2d/MAT2d_DataMapOfBiIntInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 #include <GeomAbs_JoinType.hxx>
-#include <Handle_MAT_BasicElt.hxx>
-#include <Handle_Geom2d_Geometry.hxx>
-#include <Handle_MAT_Node.hxx>
-#include <Handle_MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Arc.hxx>
 class MAT_Graph;
 class BRepMAT2d_Explorer;
 class MAT_BasicElt;

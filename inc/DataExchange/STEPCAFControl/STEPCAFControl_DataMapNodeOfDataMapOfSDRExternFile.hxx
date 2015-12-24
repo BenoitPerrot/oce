@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile.hxx>
 
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class StepShape_ShapeDefinitionRepresentation;

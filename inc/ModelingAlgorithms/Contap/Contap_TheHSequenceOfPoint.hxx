@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Contap_TheHSequenceOfPoint.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_TheHSequenceOfPoint.hxx>
 
 #include <ModelingAlgorithms/Contap/Contap_TheSequenceOfPoint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

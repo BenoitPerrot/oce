@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class Geom_Surface;
 class Geom_Curve;
 class Standard_DomainError;

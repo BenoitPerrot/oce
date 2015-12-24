@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_TDF_AttributeDelta.hxx>
-#include <Handle_TDF_ListNodeOfAttributeDeltaList.hxx>
+#include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/Handle_TDF_ListNodeOfAttributeDeltaList.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

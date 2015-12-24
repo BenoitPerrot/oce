@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectText3d.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>

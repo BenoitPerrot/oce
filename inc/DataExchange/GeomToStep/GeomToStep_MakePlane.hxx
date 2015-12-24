@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Plane.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Plane.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_Plane.hxx>
+#include <Geometry/Geom/Handle_Geom_Plane.hxx>
 class StepGeom_Plane;
 class StdFail_NotDone;
 class gp_Pln;

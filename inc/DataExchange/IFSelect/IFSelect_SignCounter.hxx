@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SignCounter.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
-#include <Handle_IFSelect_Signature.hxx>
-#include <Handle_IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IFSelect/IFSelect_SignatureList.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class IFSelect_Signature;
 class IFSelect_Selection;

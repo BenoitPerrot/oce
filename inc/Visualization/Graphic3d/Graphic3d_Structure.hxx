@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_CStructure_Handle.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAddress.hxx>
@@ -18,18 +18,18 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfStructure.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_StructureManager.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
-#include <Handle_Graphic3d_AspectLine3d.hxx>
-#include <Handle_Graphic3d_AspectFillArea3d.hxx>
-#include <Handle_Graphic3d_AspectText3d.hxx>
-#include <Handle_Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_DataStructureManager.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfGroup.hxx>
-#include <Handle_Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfConnection.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfComposition.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TransModeFlags.hxx>

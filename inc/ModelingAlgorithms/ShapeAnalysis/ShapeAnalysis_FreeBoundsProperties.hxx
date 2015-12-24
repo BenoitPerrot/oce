@@ -13,9 +13,9 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ShapeAnalysis_HSequenceOfFreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_HSequenceOfFreeBounds.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_ShapeAnalysis_FreeBoundData.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_FreeBoundData.hxx>
 class ShapeAnalysis_HSequenceOfFreeBounds;
 class TopoDS_Shape;
 class ShapeAnalysis_FreeBoundData;

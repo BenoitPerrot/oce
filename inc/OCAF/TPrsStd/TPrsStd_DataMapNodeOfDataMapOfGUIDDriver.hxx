@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TPrsStd_DataMapNodeOfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TPrsStd/Handle_TPrsStd_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <Handle_TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/Handle_TPrsStd_Driver.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TPrsStd_Driver;

@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <OCAF/TDF/TDF_LabelNodePtr.hxx>
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_DomainError;
 class Standard_OutOfRange;

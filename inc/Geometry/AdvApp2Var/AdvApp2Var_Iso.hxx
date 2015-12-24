@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_EvaluatorFunc2Var.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray2OfReal;

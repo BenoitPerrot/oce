@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

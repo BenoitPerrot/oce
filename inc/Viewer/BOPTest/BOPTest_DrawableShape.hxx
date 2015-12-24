@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BOPTest_DrawableShape.hxx>
+#include <Viewer/BOPTest/Handle_BOPTest_DrawableShape.hxx>
 
-#include <Handle_Draw_Text3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Text3D.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/DBRep/DBRep_DrawableShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

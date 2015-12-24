@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_PlusMinusTolerance.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_PlusMinusTolerance.hxx>
 
 #include <DataExchange/StepShape/StepShape_ToleranceMethodDefinition.hxx>
 #include <DataExchange/StepShape/StepShape_DimensionalCharacteristic.hxx>

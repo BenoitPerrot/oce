@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRep_HArray1OfVPointInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_HArray1OfVPointInter.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Array1OfVPointInter.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

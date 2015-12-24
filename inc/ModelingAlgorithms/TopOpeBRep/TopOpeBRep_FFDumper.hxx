@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRep_FFDumper.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_FFDumper.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PFacesFiller.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>

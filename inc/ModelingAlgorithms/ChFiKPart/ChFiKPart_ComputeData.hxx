@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ChFiDS_SurfData.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SurfData.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <Handle_ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Spine.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopOpeBRepDS_DataStructure;

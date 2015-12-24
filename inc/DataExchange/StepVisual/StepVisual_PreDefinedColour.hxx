@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_PreDefinedColour.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PreDefinedColour.hxx>
 
-#include <Handle_StepVisual_PreDefinedItem.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PreDefinedItem.hxx>
 #include <DataExchange/StepVisual/StepVisual_Colour.hxx>
 class StepVisual_PreDefinedItem;
 

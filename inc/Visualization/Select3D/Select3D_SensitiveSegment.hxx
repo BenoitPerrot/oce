@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Select3D_SensitiveSegment.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveSegment.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Select3D/Select3D_Pnt.hxx>
 #include <Visualization/Select3D/Select3D_Pnt2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
-#include <Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Handle_Select3D_Projector.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

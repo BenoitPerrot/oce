@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeCustom_BSplineRestriction.hxx>
+#include <ModelingAlgorithms/ShapeCustom/Handle_ShapeCustom_BSplineRestriction.hxx>
 
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ShapeCustom_RestrictionParameters.hxx>
+#include <ModelingAlgorithms/ShapeCustom/Handle_ShapeCustom_RestrictionParameters.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 class ShapeCustom_RestrictionParameters;
 class TopoDS_Face;
 class Geom_Surface;

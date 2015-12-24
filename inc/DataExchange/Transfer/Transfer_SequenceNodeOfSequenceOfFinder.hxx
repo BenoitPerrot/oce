@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_SequenceNodeOfSequenceOfFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_SequenceNodeOfSequenceOfFinder.hxx>
 
-#include <Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Transfer_Finder;

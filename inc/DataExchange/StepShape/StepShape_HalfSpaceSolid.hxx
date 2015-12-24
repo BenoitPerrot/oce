@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_HalfSpaceSolid.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HalfSpaceSolid.hxx>
 
-#include <Handle_StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Surface;
 class TCollection_HAsciiString;
 

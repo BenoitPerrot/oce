@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_MarkerMember.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_MarkerMember.hxx>
 
 #include <DataExchange/StepData/StepData_SelectInt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

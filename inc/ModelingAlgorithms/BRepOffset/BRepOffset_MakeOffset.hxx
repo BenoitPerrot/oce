@@ -20,7 +20,7 @@
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Analyse.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_Image.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <Handle_BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Error.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeLoops.hxx>
 class BRepAlgo_AsDes;

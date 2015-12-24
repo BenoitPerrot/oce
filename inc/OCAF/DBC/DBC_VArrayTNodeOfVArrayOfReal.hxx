@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_DBC_VArrayNodeOfVArrayOfReal.hxx>
+#include <OCAF/DBC/Handle_DBC_VArrayNodeOfVArrayOfReal.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class DBC_VArrayOfReal;
 class DBC_VArrayNodeOfVArrayOfReal;

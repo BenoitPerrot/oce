@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_HSequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHExtendedString.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfHExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Message_Algorithm.hxx>
+#include <Foundation/Message/Handle_Message_Algorithm.hxx>
 
 #include <Foundation/Message/Message_ExecStatus.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_TColStd_HArray1OfTransient.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Message/Message_HArrayOfMsg.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Message/Message_Status.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_TCollection_HExtendedString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HExtendedString.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
-#include <Handle_TColStd_HPackedMapOfInteger.hxx>
-#include <Handle_TColStd_HSequenceOfHExtendedString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHExtendedString.hxx>
 class Message_Messenger;
 class TColStd_HArray1OfTransient;
 class TCollection_AsciiString;

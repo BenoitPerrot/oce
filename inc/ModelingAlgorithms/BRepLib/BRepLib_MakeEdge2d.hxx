@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 class StdFail_NotDone;
 class TopoDS_Vertex;
 class gp_Pnt2d;

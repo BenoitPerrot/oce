@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Visualization/MeshVS/MeshVS_TwoNodes.hxx>
-#include <Handle_MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class MeshVS_TwoNodesHasher;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_HAttributeArray1.hxx>
+#include <OCAF/TDF/Handle_TDF_HAttributeArray1.hxx>
 
 #include <OCAF/TDF/TDF_AttributeArray1.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SequenceNodeOfTSeqOfDispatch.hxx>
 
-#include <Handle_IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Dispatch.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IFSelect_Dispatch;

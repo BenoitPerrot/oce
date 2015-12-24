@@ -22,12 +22,12 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_IndexedDataMapOfShapeWithState.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Config.hxx>
-#include <Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 class Geom_Surface;
 class TopOpeBRepDS_SurfaceExplorer;
 class TopOpeBRepDS_CurveExplorer;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_HLRTopoBRep_DataMapNodeOfDataMapOfShapeFaceData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_DataMapNodeOfDataMapOfShapeFaceData.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class HLRTopoBRep_FaceData;

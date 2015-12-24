@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DDF_ListNodeOfTransactionStack.hxx>
+#include <Viewer/DDF/Handle_DDF_ListNodeOfTransactionStack.hxx>
 
-#include <Handle_DDF_Transaction.hxx>
+#include <Viewer/DDF/Handle_DDF_Transaction.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class DDF_Transaction;

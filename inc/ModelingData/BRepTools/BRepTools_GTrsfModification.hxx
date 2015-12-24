@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepTools_GTrsfModification.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_GTrsfModification.hxx>
 
 #include <Mathematics/Primitives/gp_GTrsf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 class gp_GTrsf;
 class TopoDS_Face;

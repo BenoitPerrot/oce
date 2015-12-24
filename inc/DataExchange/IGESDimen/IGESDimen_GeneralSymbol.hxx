@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_GeneralSymbol.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralSymbol.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LeaderArrow.hxx>
 class IGESDimen_GeneralNote;
 class IGESData_HArray1OfIGESEntity;
 class IGESDimen_HArray1OfLeaderArrow;

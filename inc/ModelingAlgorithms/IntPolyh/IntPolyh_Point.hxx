@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 class Adaptor3d_HSurface;
 
 

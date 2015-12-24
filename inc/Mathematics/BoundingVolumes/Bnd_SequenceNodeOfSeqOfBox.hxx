@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Bnd_SequenceNodeOfSeqOfBox.hxx>
+#include <Mathematics/BoundingVolumes/Handle_Bnd_SequenceNodeOfSeqOfBox.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

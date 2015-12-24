@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopLoc_SListNodeOfItemLocation.hxx>
+#include <Mathematics/TopLoc/Handle_TopLoc_SListNodeOfItemLocation.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_SListOfItemLocation.hxx>
 #include <Mathematics/TopLoc/TopLoc_ItemLocation.hxx>

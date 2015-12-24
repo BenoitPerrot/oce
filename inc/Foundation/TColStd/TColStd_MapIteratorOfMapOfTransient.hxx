@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TColStd_StdMapNodeOfMapOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_StdMapNodeOfMapOfTransient.hxx>
 class Standard_NoSuchObject;
 class Standard_Transient;
 class TColStd_MapTransientHasher;

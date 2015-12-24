@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_AIS_LocalContext.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapOfILC.hxx>
+#include <Visualization/AIS/Handle_AIS_LocalContext.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapOfILC.hxx>
 class Standard_NoSuchObject;
 class AIS_LocalContext;
 class TColStd_MapIntegerHasher;

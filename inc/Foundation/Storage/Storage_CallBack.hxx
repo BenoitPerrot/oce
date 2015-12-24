@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_CallBack.hxx>
+#include <Foundation/Storage/Handle_Storage_CallBack.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Standard_Persistent.hxx>
-#include <Handle_Storage_Schema.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
+#include <Foundation/Storage/Handle_Storage_Schema.hxx>
 class Standard_Persistent;
 class Storage_Schema;
 class Storage_BaseDriver;

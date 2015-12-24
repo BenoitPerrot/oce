@@ -8,20 +8,20 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_GTool.hxx>
+#include <DataExchange/Interface/Handle_Interface_GTool.hxx>
 
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_SignType.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_SignType.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/Interface/Interface_DataMapOfTransientInteger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Handle_Interface_GeneralModule.hxx>
 class Interface_Protocol;
 class Interface_SignType;
 class Standard_Transient;

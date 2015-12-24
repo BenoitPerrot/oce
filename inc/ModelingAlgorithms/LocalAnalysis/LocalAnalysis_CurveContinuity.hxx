@@ -14,7 +14,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_StatusErrorType.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class StdFail_NotDone;
 class Geom_Curve;
 class GeomLProp_CLProps;

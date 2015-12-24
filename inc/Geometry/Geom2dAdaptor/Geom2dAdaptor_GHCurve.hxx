@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2dAdaptor_GHCurve.hxx>
+#include <Geometry/Geom2dAdaptor/Handle_Geom2dAdaptor_GHCurve.hxx>
 
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>

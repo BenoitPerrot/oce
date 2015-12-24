@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerSequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_DataMapNodeOfDataMapOfIntegerSequenceOfConnexion.hxx>
 class Standard_NoSuchObject;
 class MAT2d_SequenceOfConnexion;
 class TColStd_MapIntegerHasher;

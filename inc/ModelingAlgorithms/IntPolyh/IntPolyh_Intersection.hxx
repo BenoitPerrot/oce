@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfSectionLines.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfTangentZones.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_PMaillageAffinage.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfCouples.hxx>

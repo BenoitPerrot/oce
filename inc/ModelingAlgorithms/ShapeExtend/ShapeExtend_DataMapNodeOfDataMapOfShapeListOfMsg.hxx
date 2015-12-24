@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Message/Message_ListOfMsg.hxx>

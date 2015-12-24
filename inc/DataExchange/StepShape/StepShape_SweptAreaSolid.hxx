@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_SweptAreaSolid.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_SweptAreaSolid.hxx>
 
-#include <Handle_StepGeom_CurveBoundedSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CurveBoundedSurface.hxx>
 #include <DataExchange/StepShape/StepShape_SolidModel.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_CurveBoundedSurface;
 class TCollection_HAsciiString;
 

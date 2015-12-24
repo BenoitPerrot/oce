@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralRelation.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
-#include <Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
 class Standard_OutOfRange;
 class Standard_NumericError;
 class Expr_GeneralExpression;

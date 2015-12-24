@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_AutoDesignApprovalAssignment.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AutoDesignApprovalAssignment.hxx>
 
-#include <Handle_StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_HArray1OfAutoDesignGeneralOrgItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApprovalAssignment.hxx>
-#include <Handle_StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Approval.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignGeneralOrgItem;
 class StepBasic_Approval;

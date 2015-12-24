@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Handle_TColgp_HArray1OfVec2d.hxx>
-#include <Handle_TColStd_HArray1OfBoolean.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfVec2d.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfBoolean.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class TColgp_HArray1OfPnt2d;
 class Geom2d_BSplineCurve;
 class TColgp_HArray1OfVec2d;

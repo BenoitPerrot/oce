@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_PacketList.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <DataExchange/Interface/Interface_IntList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -18,8 +18,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 class Interface_InterfaceModel;
 class Interface_InterfaceError;
 class Standard_Transient;

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <Handle_LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_WiresOnShape.hxx>
 class StdFail_NotDone;
 class TopTools_ListOfShape;
 class LocOpe_WiresOnShape;

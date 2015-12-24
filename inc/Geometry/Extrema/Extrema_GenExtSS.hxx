@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt.hxx>
 #include <Geometry/Extrema/Extrema_FuncExtSS.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 class TColgp_HArray2OfPnt;

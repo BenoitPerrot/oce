@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/Handle_ShapeAlgo_AlgoContainer.hxx>
 
-#include <Handle_ShapeAlgo_ToolContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/Handle_ShapeAlgo_ToolContainer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ShapeAnalysis_Wire.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
-#include <Handle_TColGeom2d_HSequenceOfBoundedCurve.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class ShapeAlgo_ToolContainer;

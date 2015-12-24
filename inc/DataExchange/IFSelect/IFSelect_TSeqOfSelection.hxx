@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_IFSelect_Selection.hxx>
-#include <Handle_IFSelect_SequenceNodeOfTSeqOfSelection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SequenceNodeOfTSeqOfSelection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

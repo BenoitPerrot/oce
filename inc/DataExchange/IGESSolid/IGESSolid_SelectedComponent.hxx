@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_SelectedComponent.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_SelectedComponent.hxx>
 
-#include <Handle_IGESSolid_BooleanTree.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_BooleanTree.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class IGESSolid_BooleanTree;

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ApprovalRelationship.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApprovalRelationship.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_Approval.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Approval.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepBasic_Approval;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_ChFiDS_SurfData.hxx>
-#include <Handle_ChFiDS_SequenceNodeOfSequenceOfSurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SequenceNodeOfSequenceOfSurfData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

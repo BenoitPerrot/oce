@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_Tool.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_Tool.hxx>
 
-#include <Handle_ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class ShapeBuild_ReShape;

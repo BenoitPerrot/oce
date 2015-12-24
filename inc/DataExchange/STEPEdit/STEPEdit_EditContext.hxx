@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPEdit_EditContext.hxx>
+#include <DataExchange/STEPEdit/Handle_STEPEdit_EditContext.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Editor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IFSelect_EditForm.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_EditForm.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class TCollection_AsciiString;
 class IFSelect_EditForm;
 class TCollection_HAsciiString;

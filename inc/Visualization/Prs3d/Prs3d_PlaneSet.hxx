@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_PlaneSet.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_PlaneSet.hxx>
 
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_DataMapNodeOfAttributeDataMap.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_DataMapNodeOfAttributeDataMap.hxx>
 class Standard_NoSuchObject;
 class TDF_Attribute;
 class TColStd_MapTransientHasher;

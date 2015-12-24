@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_QualifiedRepresentationItem.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_QualifiedRepresentationItem.hxx>
 
-#include <Handle_StepShape_HArray1OfValueQualifier.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfValueQualifier.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfValueQualifier;
 class TCollection_HAsciiString;

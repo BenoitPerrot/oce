@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRepDS_Check.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Check.hxx>
 
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfCheckStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

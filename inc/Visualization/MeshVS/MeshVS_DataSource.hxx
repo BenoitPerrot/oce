@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/MeshVS/MeshVS_EntityType.hxx>
-#include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_MeshVS_Mesh.hxx>
-#include <Handle_TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Mesh.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HPackedMapOfInteger.hxx>
 class TColStd_Array1OfReal;
 class MeshVS_HArray1OfSequenceOfInteger;
 class TColStd_Array1OfInteger;

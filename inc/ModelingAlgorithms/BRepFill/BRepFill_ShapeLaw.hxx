@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_ShapeLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_ShapeLaw.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_TopTools_HArray1OfShape.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray1OfShape.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
-#include <Handle_GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_PolyAlgo.hxx>
 
-#include <Handle_TColStd_HArray1OfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfTransient.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfListOfBPoint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

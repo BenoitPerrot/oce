@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_FileProtocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_FileProtocol.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <DataExchange/StepData/StepData_Protocol.hxx>
-#include <Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class StepData_Protocol;
 class Interface_Protocol;

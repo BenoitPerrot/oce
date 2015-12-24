@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepDimTol_HArray1OfDatumReference.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_HArray1OfDatumReference.hxx>
 
 #include <DataExchange/StepDimTol/StepDimTol_Array1OfDatumReference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepDimTol_DatumReference.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_DatumReference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

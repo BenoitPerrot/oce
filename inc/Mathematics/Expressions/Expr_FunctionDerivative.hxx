@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_FunctionDerivative.hxx>
+#include <Mathematics/Expressions/Handle_Expr_FunctionDerivative.hxx>
 
-#include <Handle_Expr_GeneralFunction.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
-#include <Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Expressions/Expr_GeneralFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

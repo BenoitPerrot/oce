@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/TDF/TDF_ChildIterator.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TDF_Attribute;
 class TDF_Label;

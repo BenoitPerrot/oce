@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_LinearDimension.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LinearDimension.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Handle_IGESDimen_LeaderArrow.hxx>
-#include <Handle_IGESDimen_WitnessLine.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_WitnessLine.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

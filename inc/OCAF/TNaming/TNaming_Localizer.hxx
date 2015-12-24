@@ -11,13 +11,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TNaming_UsedShapes.hxx>
+#include <OCAF/TNaming/Handle_TNaming_UsedShapes.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <OCAF/TNaming/TNaming_ListOfMapOfShape.hxx>
 #include <OCAF/TNaming/TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TNaming_UsedShapes;
 class TopTools_MapOfShape;

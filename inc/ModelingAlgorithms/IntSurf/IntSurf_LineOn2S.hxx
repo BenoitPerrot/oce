@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_LineOn2S.hxx>
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfPntOn2S.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

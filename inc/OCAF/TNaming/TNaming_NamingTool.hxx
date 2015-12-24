@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 class TDF_LabelMap;
 class TNaming_NamedShape;
 class TopTools_MapOfShape;

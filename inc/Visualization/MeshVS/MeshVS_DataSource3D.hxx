@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_DataSource3D.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource3D.hxx>
 
 #include <Visualization/MeshVS/MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
-#include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class MeshVS_HArray1OfSequenceOfInteger;
 

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_ListNodeOfListOfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_ListNodeOfListOfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

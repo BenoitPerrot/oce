@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectBase.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectBase.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 class IFSelect_SelectionIterator;

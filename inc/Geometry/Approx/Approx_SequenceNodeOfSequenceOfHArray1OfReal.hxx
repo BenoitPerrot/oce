@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
+#include <Geometry/Approx/Handle_Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
 
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColStd_HArray1OfReal;

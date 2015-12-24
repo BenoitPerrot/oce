@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
+#include <Visualization/Select3D/Handle_Select3D_ListNodeOfListOfSensitiveTriangle.hxx>
 
-#include <Handle_Select3D_SensitiveTriangle.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveTriangle.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Select3D_SensitiveTriangle;

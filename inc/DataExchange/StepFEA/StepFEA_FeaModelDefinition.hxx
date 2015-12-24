@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_FeaModelDefinition.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaModelDefinition.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 

@@ -13,9 +13,9 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TFunction/TFunction_ExecutionStatus.hxx>
-#include <Handle_TFunction_Driver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TFunction_GraphNode.hxx>
+#include <OCAF/TFunction/Handle_TFunction_GraphNode.hxx>
 class TDF_Label;
 class Standard_GUID;
 class TDF_LabelList;

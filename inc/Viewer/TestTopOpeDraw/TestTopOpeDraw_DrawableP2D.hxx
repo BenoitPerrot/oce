@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TestTopOpeDraw_DrawableP2D.hxx>
+#include <Viewer/TestTopOpeDraw/Handle_TestTopOpeDraw_DrawableP2D.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Draw_Text2D.hxx>
+#include <Viewer/Draw/Handle_Draw_Text2D.hxx>
 #include <Viewer/Draw/Draw_Marker2D.hxx>
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

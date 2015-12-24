@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_Parabola.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Parabola.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom2d/Geom2d_Conic.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
 class Standard_ConstructionError;
 class Standard_RangeError;
 class gp_Parab2d;

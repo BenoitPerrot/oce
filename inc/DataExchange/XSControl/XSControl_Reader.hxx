@@ -10,15 +10,15 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IFSelect/IFSelect_PrintCount.hxx>
 class XSControl_WorkSession;

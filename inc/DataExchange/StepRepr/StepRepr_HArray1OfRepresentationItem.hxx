@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_HArray1OfRepresentationItem.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_Array1OfRepresentationItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

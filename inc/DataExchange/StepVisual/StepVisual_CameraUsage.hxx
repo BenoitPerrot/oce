@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_CameraUsage.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CameraUsage.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_RepresentationMap.hxx>
 

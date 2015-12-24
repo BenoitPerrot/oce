@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_NodeGroup.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_NodeGroup.hxx>
 
-#include <Handle_StepFEA_HArray1OfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HArray1OfNodeRepresentation.hxx>
 #include <DataExchange/StepFEA/StepFEA_FeaGroup.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepFEA_FeaModel.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaModel.hxx>
 class StepFEA_HArray1OfNodeRepresentation;
 class TCollection_HAsciiString;
 class StepFEA_FeaModel;

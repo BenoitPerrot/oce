@@ -12,17 +12,17 @@
 
 #include <ModelingAlgorithms/IntPatch/IntPatch_Intersection.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_LineConstructor.hxx>
-#include <Handle_GeomAdaptor_HSurface.hxx>
+#include <Geometry/GeomAdaptor/Handle_GeomAdaptor_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
 class GeomAdaptor_HSurface;
 class StdFail_NotDone;
 class Standard_OutOfRange;

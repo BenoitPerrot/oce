@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PTopoDS_HShape.hxx>
-#include <Handle_MgtTopoDS_TranslateTool.hxx>
-#include <Handle_MgtTopoDS_TranslateTool1.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HShape.hxx>
+#include <OCAF/MgtTopoDS/Handle_MgtTopoDS_TranslateTool.hxx>
+#include <OCAF/MgtTopoDS/Handle_MgtTopoDS_TranslateTool1.hxx>
 class PTopoDS_HShape;
 class TopoDS_Shape;
 class MgtTopoDS_TranslateTool;

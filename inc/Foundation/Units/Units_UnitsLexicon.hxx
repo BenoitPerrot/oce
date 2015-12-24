@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Units_UnitsLexicon.hxx>
+#include <Foundation/Units/Handle_Units_UnitsLexicon.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Time.hxx>
 #include <Foundation/Units/Units_Lexicon.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

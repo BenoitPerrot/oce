@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_TDocStd_ApplicationDelta.hxx>
-#include <Handle_TDocStd_SequenceNodeOfSequenceOfApplicationDelta.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_ApplicationDelta.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_SequenceNodeOfSequenceOfApplicationDelta.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

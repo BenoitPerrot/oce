@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_BuilderError.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateShellError.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateFaceError.hxx>

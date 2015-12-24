@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Extrema_ExtPRevS.hxx>
+#include <Geometry/Extrema/Handle_Extrema_ExtPRevS.hxx>
 
-#include <Handle_Adaptor3d_HSurfaceOfRevolution.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurfaceOfRevolution.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geometry/Extrema/Extrema_GenExtPS.hxx>

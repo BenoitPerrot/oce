@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_MaterialDesignation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MaterialDesignation.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/StepRepr/StepRepr_CharacterizedDefinition.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;

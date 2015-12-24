@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfPnt.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_Pnt;
 class PColgp_FieldOfHArray1OfPnt;

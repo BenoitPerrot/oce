@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_OffsetCurve.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_OffsetCurve.hxx>
 
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataStd_TreeNode.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_TreeNode.hxx>
 
-#include <Handle_PDataStd_TreeNode.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_TreeNode.hxx>
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 class Standard_GUID;

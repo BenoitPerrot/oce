@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
+#include <ModelingAlgorithms/GeomInt/Handle_GeomInt_SequenceNodeOfSequenceOfParameterAndOrientation.hxx>
 
 #include <ModelingAlgorithms/GeomInt/GeomInt_ParameterAndOrientation.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

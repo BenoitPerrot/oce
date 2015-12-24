@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ProductDefinitionEffectivity.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionEffectivity.hxx>
 
-#include <Handle_StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionRelationship.hxx>
 #include <DataExchange/StepBasic/StepBasic_Effectivity.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepBasic_ProductDefinitionRelationship;
 class TCollection_HAsciiString;
 

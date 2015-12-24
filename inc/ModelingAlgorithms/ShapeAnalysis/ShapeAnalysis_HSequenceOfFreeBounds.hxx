@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeAnalysis_HSequenceOfFreeBounds.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_HSequenceOfFreeBounds.hxx>
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_SequenceOfFreeBounds.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_ShapeAnalysis_FreeBoundData.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_FreeBoundData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

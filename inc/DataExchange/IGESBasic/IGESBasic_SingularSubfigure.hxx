@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_SingularSubfigure.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_SingularSubfigure.hxx>
 
-#include <Handle_IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_SubfigureDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

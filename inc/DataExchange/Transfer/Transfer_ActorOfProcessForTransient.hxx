@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ActorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForTransient.hxx>
 
-#include <Handle_Transfer_ActorOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForTransient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Transfer_ProcessForTransient.hxx>
-#include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_SimpleBinderOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_SimpleBinderOfTransient.hxx>
 class Standard_DomainError;
 class Standard_Transient;
 class TColStd_MapTransientHasher;

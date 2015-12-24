@@ -7,7 +7,7 @@
 #define _StdLSchema_PDataStd_FieldOfHArray1OfHArray1OfReal_HeaderFile
 
 #ifndef _Handle_Storage_Schema_HeaderFile
-#include <Handle_Storage_Schema.hxx>
+#include <Foundation/Storage/Handle_Storage_Schema.hxx>
 #endif
 #ifndef _Storage_BaseDriver_HeaderFile
 #include <Foundation/Storage/Storage_BaseDriver.hxx>

@@ -8,20 +8,20 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_Schema.hxx>
+#include <Foundation/Storage/Handle_Storage_Schema.hxx>
 
 #include <Foundation/Storage/Storage_MapOfCallBack.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Storage_CallBack.hxx>
+#include <Foundation/Storage/Handle_Storage_CallBack.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Storage_HArrayOfSchema.hxx>
+#include <Foundation/Storage/Handle_Storage_HArrayOfSchema.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Storage_Data.hxx>
-#include <Handle_Storage_HeaderData.hxx>
-#include <Handle_Storage_TypeData.hxx>
-#include <Handle_Storage_RootData.hxx>
-#include <Handle_TColStd_HSequenceOfAsciiString.hxx>
-#include <Handle_Standard_Persistent.hxx>
+#include <Foundation/Storage/Handle_Storage_Data.hxx>
+#include <Foundation/Storage/Handle_Storage_HeaderData.hxx>
+#include <Foundation/Storage/Handle_Storage_TypeData.hxx>
+#include <Foundation/Storage/Handle_Storage_RootData.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
 #include <Foundation/Storage/Storage_SolveMode.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Storage_CallBack;

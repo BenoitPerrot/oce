@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_LocOpe_HBuilder.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_HBuilder.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

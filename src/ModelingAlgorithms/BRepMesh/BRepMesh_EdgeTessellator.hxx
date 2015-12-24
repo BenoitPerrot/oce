@@ -22,9 +22,9 @@
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_IEdgeTool.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_GeomTool.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 
 class Geom_Surface;

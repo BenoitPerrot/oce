@@ -12,8 +12,8 @@
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_MultiLine.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 class Geom_Curve;
 class Geom2d_Curve;
 class StdFail_NotDone;

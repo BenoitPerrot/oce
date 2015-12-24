@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Drawer.hxx>
 class Prs3d_Presentation;
 class Adaptor3d_HSurface;
 class Prs3d_Drawer;

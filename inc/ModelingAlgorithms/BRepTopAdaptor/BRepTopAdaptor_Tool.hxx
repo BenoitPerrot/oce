@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRepTopAdaptor_TopolTool.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BRepTopAdaptor_TopolTool;
 class Adaptor3d_HSurface;

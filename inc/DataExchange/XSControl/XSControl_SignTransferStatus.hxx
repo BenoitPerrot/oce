@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSControl_SignTransferStatus.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_SignTransferStatus.hxx>
 
-#include <Handle_XSControl_TransferReader.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_TransferReader.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class XSControl_TransferReader;
 class Transfer_TransientProcess;
 class Standard_Transient;

@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor2d_HLine2d.hxx>
-#include <Handle_Adaptor3d_HVertex.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HLine2d.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

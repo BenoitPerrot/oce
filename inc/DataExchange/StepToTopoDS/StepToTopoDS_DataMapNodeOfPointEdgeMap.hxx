@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
 
 #include <DataExchange/StepToTopoDS/StepToTopoDS_PointPair.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>

@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class TColStd_HArray1OfReal;
 class Standard_OutOfRange;
 class gp_Lin;

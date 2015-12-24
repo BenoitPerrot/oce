@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_SetGlobalParameter.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_SetGlobalParameter.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 class TCollection_HAsciiString;
 class IFSelect_ContextModif;
 class IGESData_IGESModel;

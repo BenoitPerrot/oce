@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_Hierarchy.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_Hierarchy.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>

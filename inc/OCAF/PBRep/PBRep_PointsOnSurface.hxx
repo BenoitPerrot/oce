@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_PointsOnSurface.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PointsOnSurface.hxx>
 
-#include <Handle_PGeom_Surface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
 #include <OCAF/PBRep/PBRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class PGeom_Surface;

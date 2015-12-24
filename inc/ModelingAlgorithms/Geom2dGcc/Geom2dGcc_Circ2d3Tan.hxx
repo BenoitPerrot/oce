@@ -17,7 +17,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Handle_Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Point.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/GccEnt/GccEnt_Position.hxx>
 class StdFail_NotDone;

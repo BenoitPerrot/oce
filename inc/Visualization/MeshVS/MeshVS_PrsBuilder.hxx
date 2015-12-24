@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_PrsBuilder.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_PrsBuilder.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/MeshVS/MeshVS_MeshPtr.hxx>
-#include <Handle_MeshVS_DataSource.hxx>
-#include <Handle_MeshVS_Drawer.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Mesh.hxx>
 #include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
 #include <Visualization/MeshVS/MeshVS_BuilderPriority.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
-#include <Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 class MeshVS_DataSource;
 class MeshVS_Drawer;
 class MeshVS_Mesh;

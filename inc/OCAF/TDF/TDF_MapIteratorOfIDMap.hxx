@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TDF_StdMapNodeOfIDMap.hxx>
+#include <OCAF/TDF/Handle_TDF_StdMapNodeOfIDMap.hxx>
 class Standard_NoSuchObject;
 class Standard_GUID;
 class TDF_IDMap;

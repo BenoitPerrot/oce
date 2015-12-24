@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_MDF_ASDriverHSequence.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriverHSequence.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverHSequence.hxx>
 class MDF_ASDriverHSequence;
 class CDM_MessageDriver;
 class MDF_ARDriverHSequence;

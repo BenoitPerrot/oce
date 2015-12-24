@@ -11,13 +11,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_PErrorHandler.hxx>
-#include <Handle_Standard_Failure.hxx>
+#include <Foundation/Standard/Handle_Standard_Failure.hxx>
 #include <Foundation/Standard/Standard_JmpBuf.hxx>
 #include <Foundation/Standard/Standard_HandlerStatus.hxx>
 #include <Foundation/Standard/Standard_ThreadId.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class Standard_Failure;
 class Standard_ErrorHandlerCallback;
 class Standard_Type;

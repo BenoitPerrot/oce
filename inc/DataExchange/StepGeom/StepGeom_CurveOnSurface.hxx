@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepGeom_Pcurve.hxx>
-#include <Handle_StepGeom_SurfaceCurve.hxx>
-#include <Handle_StepGeom_CompositeCurveOnSurface.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CompositeCurveOnSurface.hxx>
 class Standard_Transient;
 class StepGeom_Pcurve;
 class StepGeom_SurfaceCurve;

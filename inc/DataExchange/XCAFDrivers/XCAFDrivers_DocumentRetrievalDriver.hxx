@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDrivers_DocumentRetrievalDriver.hxx>
+#include <DataExchange/XCAFDrivers/Handle_XCAFDrivers_DocumentRetrievalDriver.hxx>
 
 #include <OCAF/MDocStd/MDocStd_DocumentRetrievalDriver.hxx>
-#include <Handle_MDF_ARDriverTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 class MDF_ARDriverTable;
 class CDM_MessageDriver;
 

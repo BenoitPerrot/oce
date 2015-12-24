@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfPointEdgeMap.hxx>
 class Standard_NoSuchObject;
 class StepToTopoDS_PointPair;
 class TopoDS_Edge;

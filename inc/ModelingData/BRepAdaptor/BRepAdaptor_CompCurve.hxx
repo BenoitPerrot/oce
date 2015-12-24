@@ -12,16 +12,16 @@
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_BRepAdaptor_HArray1OfCurve.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HArray1OfCurve.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Handle_Geom_BezierCurve.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 class BRepAdaptor_HArray1OfCurve;
 class TColStd_HArray1OfReal;
 class Standard_NullObject;

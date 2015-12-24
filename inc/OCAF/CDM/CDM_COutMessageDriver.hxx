@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDM_COutMessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_COutMessageDriver.hxx>
 
 #include <OCAF/CDM/CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>

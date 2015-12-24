@@ -17,7 +17,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <Handle_Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_PolygonOnTriangulation.hxx>
 
 class Poly_PolygonOnTriangulation;
 

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_PresentationLayerUsage.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationLayerUsage.hxx>
 
-#include <Handle_StepVisual_PresentationLayerAssignment.hxx>
-#include <Handle_StepVisual_PresentationRepresentation.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationLayerAssignment.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationRepresentation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_PresentationLayerAssignment;
 class StepVisual_PresentationRepresentation;

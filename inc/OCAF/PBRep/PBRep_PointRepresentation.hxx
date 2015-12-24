@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PointRepresentation.hxx>
 
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class PTopLoc_Location;

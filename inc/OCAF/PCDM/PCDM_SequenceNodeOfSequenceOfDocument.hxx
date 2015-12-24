@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PCDM_SequenceNodeOfSequenceOfDocument.hxx>
+#include <OCAF/PCDM/Handle_PCDM_SequenceNodeOfSequenceOfDocument.hxx>
 
-#include <Handle_PCDM_Document.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Document.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class PCDM_Document;

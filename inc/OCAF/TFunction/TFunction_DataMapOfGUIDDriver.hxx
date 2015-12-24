@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_TFunction_Driver.hxx>
-#include <Handle_TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Driver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

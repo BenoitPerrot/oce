@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Select3D_Projector.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Mat4d.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_V3d_View.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
 class Standard_NoSuchObject;
 class V3d_View;
 class gp_Ax2;

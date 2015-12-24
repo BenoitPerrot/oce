@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_FileProtocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_FileProtocol.hxx>
 
-#include <Handle_IGESData_Protocol.hxx>
-#include <Handle_IGESData_FileProtocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_FileProtocol.hxx>
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 class IGESData_Protocol;
 class Interface_Protocol;
 

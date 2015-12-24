@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;
 class AppDef_MultiLine;

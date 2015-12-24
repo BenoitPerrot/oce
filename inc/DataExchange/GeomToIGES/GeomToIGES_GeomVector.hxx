@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/GeomToIGES/GeomToIGES_GeomEntity.hxx>
-#include <Handle_IGESGeom_Direction.hxx>
-#include <Handle_Geom_Vector.hxx>
-#include <Handle_Geom_VectorWithMagnitude.hxx>
-#include <Handle_Geom_Direction.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Direction.hxx>
+#include <Geometry/Geom/Handle_Geom_Vector.hxx>
+#include <Geometry/Geom/Handle_Geom_VectorWithMagnitude.hxx>
+#include <Geometry/Geom/Handle_Geom_Direction.hxx>
 class GeomToIGES_GeomEntity;
 class IGESGeom_Direction;
 class Geom_Vector;

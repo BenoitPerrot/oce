@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
 
 #include <DataExchange/Interface/Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Interface_Protocol;
 class Standard_Type;
 class Interface_InterfaceModel;

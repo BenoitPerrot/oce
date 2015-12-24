@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDocStd_DocumentRetrievalDriver.hxx>
+#include <OCAF/MDocStd/Handle_MDocStd_DocumentRetrievalDriver.hxx>
 
-#include <Handle_MDF_ARDriverTable.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverTable.hxx>
 #include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
-#include <Handle_PDocStd_Document.hxx>
-#include <Handle_TDocStd_Document.hxx>
-#include <Handle_MDF_RRelocationTable.hxx>
-#include <Handle_PCDM_Document.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/PDocStd/Handle_PDocStd_Document.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
+#include <OCAF/MDF/Handle_MDF_RRelocationTable.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 class MDF_ARDriverTable;
 class PDocStd_Document;
 class TDocStd_Document;

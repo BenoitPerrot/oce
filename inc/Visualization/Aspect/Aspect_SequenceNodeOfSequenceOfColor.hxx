@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Aspect_SequenceNodeOfSequenceOfColor.hxx>
+#include <Visualization/Aspect/Handle_Aspect_SequenceNodeOfSequenceOfColor.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

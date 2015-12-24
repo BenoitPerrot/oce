@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_RealList.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_RealList.hxx>
 
 #include <Foundation/TColStd/TColStd_ListOfReal.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_GUID;
 class TDF_Label;

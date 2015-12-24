@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGraph_UniformRectGrid.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_UniformRectGrid.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

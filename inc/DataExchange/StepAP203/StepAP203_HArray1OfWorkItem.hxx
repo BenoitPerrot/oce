@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_HArray1OfWorkItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfWorkItem.hxx>
 
 #include <DataExchange/StepAP203/StepAP203_Array1OfWorkItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DDF_Data.hxx>
+#include <Viewer/DDF/Handle_DDF_Data.hxx>
 
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDF_Data;

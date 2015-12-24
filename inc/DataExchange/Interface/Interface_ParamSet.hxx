@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Handle_Interface_ParamSet.hxx>
 
 #include <Foundation/Standard/Standard_PCharacter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_ParamList.hxx>
-#include <Handle_Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Handle_Interface_ParamList.hxx>
+#include <DataExchange/Interface/Handle_Interface_ParamSet.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>

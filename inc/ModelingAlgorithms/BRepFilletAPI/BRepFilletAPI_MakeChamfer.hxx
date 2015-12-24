@@ -16,8 +16,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
-#include <Handle_ChFiDS_SecHArray1.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SecHArray1.hxx>
 class StdFail_NotDone;
 class TopoDS_Shape;
 class TopoDS_Edge;

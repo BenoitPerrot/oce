@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TNaming/TNaming_PtrRefShape.hxx>

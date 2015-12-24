@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Vrml_SFImage.hxx>
+#include <DataExchange/Vrml/Handle_Vrml_SFImage.hxx>
 #include <DataExchange/Vrml/Vrml_Texture2Wrap.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Vrml_SFImage;

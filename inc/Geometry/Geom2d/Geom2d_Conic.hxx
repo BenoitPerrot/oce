@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_Conic.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Conic.hxx>
 
 #include <Mathematics/Primitives/gp_Ax22d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Hatch_SequenceNodeOfSequenceOfLine.hxx>
+#include <ModelingAlgorithms/Hatch/Handle_Hatch_SequenceNodeOfSequenceOfLine.hxx>
 
 #include <ModelingAlgorithms/Hatch/Hatch_Line.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

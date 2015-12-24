@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfacePatch.hxx>
 
-#include <Handle_StepGeom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BoundedSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_TransitionCode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

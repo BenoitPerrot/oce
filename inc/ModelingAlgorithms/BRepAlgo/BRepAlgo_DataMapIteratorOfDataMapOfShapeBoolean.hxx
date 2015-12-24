@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;

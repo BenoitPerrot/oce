@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_PolygonOnClosedTriangulation_HeaderFile
-#include <Handle_PBRep_PolygonOnClosedTriangulation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PolygonOnClosedTriangulation.hxx>
 #endif
 
 #ifndef _ShapeSchema_PBRep_PolygonOnTriangulation_HeaderFile

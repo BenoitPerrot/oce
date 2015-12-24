@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_StepData_StepModel.hxx>
-#include <Handle_IFSelect_Signature.hxx>
-#include <Handle_IFSelect_SelectSignature.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectSignature.hxx>
 class Interface_Protocol;
 class StepData_StepModel;
 class IFSelect_Signature;

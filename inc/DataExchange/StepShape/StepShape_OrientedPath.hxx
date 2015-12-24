@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_OrientedPath.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_OrientedPath.hxx>
 
-#include <Handle_StepShape_EdgeLoop.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_EdgeLoop.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepShape/StepShape_Path.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_HArray1OfOrientedEdge.hxx>
-#include <Handle_StepShape_OrientedEdge.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfOrientedEdge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_OrientedEdge.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_EdgeLoop;
 class TCollection_HAsciiString;

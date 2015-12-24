@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_MoniTool_Timer.hxx>
-#include <Handle_MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Timer.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

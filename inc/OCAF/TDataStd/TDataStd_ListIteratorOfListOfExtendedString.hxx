@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_TDataStd_ListNodeOfListOfExtendedString.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_ListNodeOfListOfExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

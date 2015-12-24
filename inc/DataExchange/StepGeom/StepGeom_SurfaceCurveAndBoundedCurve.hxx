@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_SurfaceCurveAndBoundedCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceCurveAndBoundedCurve.hxx>
 
-#include <Handle_StepGeom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BoundedCurve.hxx>
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 class StepGeom_BoundedCurve;
 

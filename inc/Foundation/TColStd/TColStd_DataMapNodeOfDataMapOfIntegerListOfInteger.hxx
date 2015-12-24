@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_DataMapNodeOfDataMapOfIntegerListOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_DataMapNodeOfDataMapOfIntegerListOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

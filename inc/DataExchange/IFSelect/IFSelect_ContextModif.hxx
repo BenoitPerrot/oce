@@ -11,17 +11,17 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/Interface/Interface_Graph.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_CopyControl.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_IFSelect_GeneralModifier.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_GeneralModifier.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class Interface_Protocol;
 class Interface_CopyControl;
 class Standard_NoSuchObject;

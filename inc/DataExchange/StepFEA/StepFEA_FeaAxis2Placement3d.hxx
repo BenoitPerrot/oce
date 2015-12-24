@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_FeaAxis2Placement3d.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaAxis2Placement3d.hxx>
 
 #include <DataExchange/StepFEA/StepFEA_CoordinateSystemType.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement3d.hxx>
-#include <Handle_StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianPoint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Direction.hxx>
 class TCollection_HAsciiString;
 class StepGeom_CartesianPoint;
 class StepGeom_Direction;

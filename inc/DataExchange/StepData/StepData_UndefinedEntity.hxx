@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/Handle_StepData_UndefinedEntity.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_Interface_UndefinedContent.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_UndefinedContent.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepData_UndefinedEntity.hxx>
+#include <DataExchange/StepData/Handle_StepData_UndefinedEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepReaderData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class TCollection_HAsciiString;
 class Interface_UndefinedContent;
 class StepData_StepReaderData;

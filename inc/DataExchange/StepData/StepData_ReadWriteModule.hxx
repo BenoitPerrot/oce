@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/Handle_StepData_ReadWriteModule.hxx>
 
 #include <DataExchange/Interface/Interface_ReaderModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Handle_Interface_FileReaderData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepData_StepReaderData.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepReaderData.hxx>
 class Standard_DomainError;
 class Interface_FileReaderData;
 class TCollection_AsciiString;

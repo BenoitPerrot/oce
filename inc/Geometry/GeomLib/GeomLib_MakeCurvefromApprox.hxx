@@ -13,8 +13,8 @@
 #include <Geometry/AdvApprox/AdvApprox_ApproxAFunction.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class AdvApprox_ApproxAFunction;

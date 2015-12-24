@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntTools_SequenceNodeOfSequenceOfCommonPrts.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_SequenceNodeOfSequenceOfCommonPrts.hxx>
 
 #include <ModelingAlgorithms/IntTools/IntTools_CommonPrt.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

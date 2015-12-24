@@ -13,7 +13,7 @@
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerBoolean.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerBoolean.hxx>
 class Standard_NoSuchObject;
 class TColStd_MapIntegerHasher;
 class MeshVS_DataMapOfIntegerBoolean;

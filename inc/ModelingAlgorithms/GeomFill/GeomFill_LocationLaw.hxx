@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

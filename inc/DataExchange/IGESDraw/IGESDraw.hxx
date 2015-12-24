@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESDraw_Protocol.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_Protocol.hxx>
 class IGESDraw_Protocol;
 class IGESDraw_ConnectPoint;
 class IGESDraw_NetworkSubfigureDef;

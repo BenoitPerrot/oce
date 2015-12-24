@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_FEmTool_ProfileMatrix.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_ProfileMatrix.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/FEmTool/FEmTool_SparseMatrix.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

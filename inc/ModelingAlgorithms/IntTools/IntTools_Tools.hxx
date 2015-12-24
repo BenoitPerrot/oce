@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class TopoDS_Vertex;
 class TopoDS_Wire;
 class TopoDS_Face;

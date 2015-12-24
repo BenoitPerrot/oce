@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_TrihedronWithGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronWithGuide.hxx>
 
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

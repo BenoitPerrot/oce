@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_HArray1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_HArray1OfCurveOnSurface.hxx>
 
 #include <DataExchange/IGESGeom/IGESGeom_Array1OfCurveOnSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_CurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

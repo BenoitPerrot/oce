@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepVisual_SurfaceStyleFillArea.hxx>
-#include <Handle_StepVisual_SurfaceStyleBoundary.hxx>
-#include <Handle_StepVisual_SurfaceStyleParameterLine.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceStyleFillArea.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceStyleBoundary.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceStyleParameterLine.hxx>
 class Standard_Transient;
 class StepVisual_SurfaceStyleFillArea;
 class StepVisual_SurfaceStyleBoundary;

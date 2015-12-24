@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_Dumper.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_Dumper.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SessionDumper.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class IFSelect_SessionFile;
 class Standard_Transient;
 class TCollection_AsciiString;

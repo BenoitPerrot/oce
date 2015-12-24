@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_ListNodeOfListOfOffsetWire.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_ListNodeOfListOfOffsetWire.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_OffsetWire.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

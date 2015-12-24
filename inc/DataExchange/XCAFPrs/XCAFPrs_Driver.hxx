@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFPrs_Driver.hxx>
+#include <DataExchange/XCAFPrs/Handle_XCAFPrs_Driver.hxx>
 
 #include <OCAF/TPrsStd/TPrsStd_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
 class TDF_Label;
 class AIS_InteractiveObject;
 class Standard_GUID;

@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_BoundedSurface.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_BoundedSurface.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class Geom_Curve;
 class gp_Ax2;
 class Geom2d_Curve;

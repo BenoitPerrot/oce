@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_ShapeProcess_DictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_DictionaryOfOperator.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ShapeProcess_Operator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_Operator.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class ShapeProcess_DictionaryOfOperator;
 class ShapeProcess_StackItemOfDictionaryOfOperator;

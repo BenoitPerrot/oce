@@ -18,7 +18,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_Interference;
 class TopOpeBRepDS_Curve;

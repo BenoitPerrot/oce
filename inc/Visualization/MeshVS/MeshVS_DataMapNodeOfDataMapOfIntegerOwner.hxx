@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerOwner.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerOwner.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_EntityOwner;

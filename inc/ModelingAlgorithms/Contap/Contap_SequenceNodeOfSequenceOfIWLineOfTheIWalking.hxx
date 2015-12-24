@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 
-#include <Handle_Contap_TheIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_TheIWLineOfTheIWalking.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Contap_TheIWLineOfTheIWalking;

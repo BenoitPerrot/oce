@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PrsMgr_SequenceNodeOfPresentations.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_SequenceNodeOfPresentations.hxx>
 
 #include <Visualization/PrsMgr/PrsMgr_ModedPresentation.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

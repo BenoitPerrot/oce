@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSDRAWSTLVRML_DataSource.hxx>
+#include <Viewer/XSDRAWSTLVRML/Handle_XSDRAWSTLVRML_DataSource.hxx>
 
-#include <Handle_StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_Mesh.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
-#include <Handle_TColStd_HArray2OfInteger.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

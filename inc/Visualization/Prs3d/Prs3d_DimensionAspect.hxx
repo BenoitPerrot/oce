@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_DimensionAspect.hxx>
 
-#include <Handle_Prs3d_LineAspect.hxx>
-#include <Handle_Prs3d_TextAspect.hxx>
-#include <Handle_Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_ArrowAspect.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Prs3d/Prs3d_DimensionArrowOrientation.hxx>
 #include <Visualization/Prs3d/Prs3d_DimensionTextHorizontalPosition.hxx>

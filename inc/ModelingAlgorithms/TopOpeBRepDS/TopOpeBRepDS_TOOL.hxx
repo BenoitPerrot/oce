@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopoDS_Edge;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESGraph_HArray1OfTextDisplayTemplate;
 

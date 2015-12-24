@@ -12,11 +12,11 @@
 
 #include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_ApprovalPersonOrganization.hxx>
-#include <Handle_StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
-#include <Handle_StepAP214_AppliedOrganizationAssignment.hxx>
-#include <Handle_StepBasic_Effectivity.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AppliedPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AppliedOrganizationAssignment.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Effectivity.hxx>
 class Standard_Transient;
 class StepBasic_ApprovalPersonOrganization;
 class StepAP214_AppliedPersonAndOrganizationAssignment;

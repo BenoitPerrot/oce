@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_PolyAlgo.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_ListOfBPnt2D.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

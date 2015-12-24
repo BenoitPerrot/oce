@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_GuideTrihedronPlan.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_GuideTrihedronPlan.hxx>
 
-#include <Handle_Adaptor3d_HCurve.hxx>
-#include <Handle_TColgp_HArray2OfPnt2d.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt2d.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Handle_GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_Frenet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_PipeError.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronWithGuide.hxx>
-#include <Handle_GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>

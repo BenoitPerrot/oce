@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/PPoly/Handle_PPoly_HArray1OfTriangle.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/PPoly/PPoly_Triangle.hxx>
 #include <OCAF/PPoly/PPoly_FieldOfHArray1OfTriangle.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
+#include <OCAF/PPoly/Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
 class PPoly_Triangle;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_GlobalStatus.hxx>
+#include <Visualization/AIS/Handle_AIS_GlobalStatus.hxx>
 
 #include <Visualization/AIS/AIS_DisplayStatus.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

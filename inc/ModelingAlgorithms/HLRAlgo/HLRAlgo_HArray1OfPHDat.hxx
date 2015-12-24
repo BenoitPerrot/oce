@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_HArray1OfPHDat.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_HArray1OfPHDat.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Array1OfPHDat.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

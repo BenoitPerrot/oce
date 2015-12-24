@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PColgp_HSequenceOfDir_HeaderFile
-#include <Handle_PColgp_HSequenceOfDir.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HSequenceOfDir.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

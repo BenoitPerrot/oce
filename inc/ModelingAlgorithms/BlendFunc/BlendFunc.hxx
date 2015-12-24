@@ -16,7 +16,7 @@
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 class TColStd_Array1OfReal;
 class TColStd_Array1OfInteger;
 class Adaptor3d_HSurface;

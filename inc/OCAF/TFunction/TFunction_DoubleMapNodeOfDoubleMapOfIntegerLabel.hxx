@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
+#include <OCAF/TFunction/Handle_TFunction_DoubleMapNodeOfDoubleMapOfIntegerLabel.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

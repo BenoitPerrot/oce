@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_SequenceNodeOfSequenceOfCurveConstraint.hxx>
 
-#include <Handle_GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_CurveConstraint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class GeomPlate_CurveConstraint;

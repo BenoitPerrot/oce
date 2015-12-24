@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_StdMapNodeOfMapOfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_StdMapNodeOfMapOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_MapRealHasher;

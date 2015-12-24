@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Ellipse.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Ellipse.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_Ellipse.hxx>
-#include <Handle_Geom2d_Ellipse.hxx>
+#include <Geometry/Geom/Handle_Geom_Ellipse.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Ellipse.hxx>
 class StepGeom_Ellipse;
 class StdFail_NotDone;
 class gp_Elips;

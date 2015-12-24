@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_BSplineCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BSplineCurve.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepGeom_HArray1OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray1OfCartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineCurveForm.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepGeom_CartesianPoint.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianPoint.hxx>
 class StepGeom_HArray1OfCartesianPoint;
 class TCollection_HAsciiString;
 class StepGeom_CartesianPoint;

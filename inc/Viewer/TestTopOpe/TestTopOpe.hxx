@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 class TopOpeBRepBuild_HBuilder;
 class TopOpeBRepDS_HDataStructure;
 class TopoDS_Shape;

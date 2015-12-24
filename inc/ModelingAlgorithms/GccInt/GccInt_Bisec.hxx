@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/Handle_GccInt_Bisec.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingAlgorithms/GccInt/GccInt_IType.hxx>

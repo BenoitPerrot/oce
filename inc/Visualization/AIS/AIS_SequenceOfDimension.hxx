@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_AIS_Relation.hxx>
-#include <Handle_AIS_SequenceNodeOfSequenceOfDimension.hxx>
+#include <Visualization/AIS/Handle_AIS_Relation.hxx>
+#include <Visualization/AIS/Handle_AIS_SequenceNodeOfSequenceOfDimension.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

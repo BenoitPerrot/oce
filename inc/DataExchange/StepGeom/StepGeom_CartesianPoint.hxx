@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianPoint.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepGeom/StepGeom_Point.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class TCollection_HAsciiString;
 class TColStd_HArray1OfReal;
 

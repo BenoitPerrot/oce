@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
 
 #include <DataExchange/IGESDraw/IGESDraw_Array1OfViewKindEntity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ViewKindEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Mathematics/Expressions/Expr_ExprFailure.hxx>
-#include <Handle_Expr_InvalidFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_InvalidFunction.hxx>
 
 #if !defined No_Exception && !defined No_Expr_InvalidFunction
   #define Expr_InvalidFunction_Raise_if(CONDITION, MESSAGE) \

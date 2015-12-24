@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESSolid_Protocol.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Protocol.hxx>
 class IGESSolid_Protocol;
 class IGESSolid_Block;
 class IGESSolid_RightAngularWedge;

@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_XmlMDF_ADriver.hxx>
-#include <Handle_XmlMDF_DataMapNodeOfTypeADriverMap.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_DataMapNodeOfTypeADriverMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

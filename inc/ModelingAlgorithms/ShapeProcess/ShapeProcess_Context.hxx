@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_Context.hxx>
 
-#include <Handle_Resource_Manager.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Resource/Handle_Resource_Manager.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

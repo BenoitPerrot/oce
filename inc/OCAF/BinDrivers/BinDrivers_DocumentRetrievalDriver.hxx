@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BinDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/BinDrivers/Handle_BinDrivers_DocumentRetrievalDriver.hxx>
 
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentRetrievalDriver.hxx>
-#include <Handle_BinMDF_ADriverTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_ADriverTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Storage/Storage_Position.hxx>

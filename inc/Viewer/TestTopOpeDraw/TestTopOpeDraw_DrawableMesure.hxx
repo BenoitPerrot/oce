@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TestTopOpeDraw_DrawableMesure.hxx>
+#include <Viewer/TestTopOpeDraw/Handle_TestTopOpeDraw_DrawableMesure.hxx>
 
-#include <Handle_TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
-#include <Handle_TestTopOpeDraw_DrawableC3D.hxx>
-#include <Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/Handle_TestTopOpeDraw_DrawableC3D.hxx>
+#include <Viewer/TestTopOpeDraw/Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_DrawableC3D.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>

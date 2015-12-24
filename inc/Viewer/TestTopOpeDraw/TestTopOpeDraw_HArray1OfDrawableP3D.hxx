@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/Handle_TestTopOpeDraw_HArray1OfDrawableP3D.hxx>
 
 #include <Viewer/TestTopOpeDraw/TestTopOpeDraw_Array1OfDrawableP3D.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TestTopOpeDraw_DrawableP3D.hxx>
+#include <Viewer/TestTopOpeDraw/Handle_TestTopOpeDraw_DrawableP3D.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

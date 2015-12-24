@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGraph_HighLight.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_HighLight.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>

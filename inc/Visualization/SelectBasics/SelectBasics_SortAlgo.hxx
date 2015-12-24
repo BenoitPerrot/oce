@@ -15,7 +15,7 @@
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox2d.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
-#include <Handle_Bnd_HArray1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Handle_Bnd_HArray1OfBox2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Bnd_Box2d;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeAnalysis_FreeBoundData.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_FreeBoundData.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

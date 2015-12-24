@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_TransitionMode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class StdFail_NotDone;
 class Standard_NoSuchObject;
 class TopoDS_Shape;

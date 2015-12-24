@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentableObject.hxx>
 
 #include <Visualization/PrsMgr/PrsMgr_Presentations.hxx>
 #include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
@@ -19,16 +19,16 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Visualization/PrsMgr/PrsMgr_ListOfPresentableObjects.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
-#include <Handle_Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_DataStructureManager.hxx>
 #include <Visualization/PrsMgr/PrsMgr_Presentation.hxx>
-#include <Handle_Geom_Transformation.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Prs3d_Projector.hxx>
-#include <Handle_PrsMgr_PresentationManager.hxx>
-#include <Handle_PrsMgr_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_Presentation.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TransModeFlags.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ClipPlane_Handle.hxx>
 class Standard_NotImplemented;

@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepAP214/StepAP214_AutoDesignGeneralOrgItem.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_Document.hxx>
-#include <Handle_StepBasic_PhysicallyModeledProductDefinition.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_PhysicallyModeledProductDefinition.hxx>
 class Standard_Transient;
 class StepBasic_Document;
 class StepBasic_PhysicallyModeledProductDefinition;

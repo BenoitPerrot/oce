@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Circle.hxx>
-#include <Handle_Geom2d_Circle.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Circle.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Circle.hxx>
 class StepGeom_Circle;
 class Geom2d_Circle;
 

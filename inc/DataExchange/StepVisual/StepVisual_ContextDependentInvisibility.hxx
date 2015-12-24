@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_ContextDependentInvisibility.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_ContextDependentInvisibility.hxx>
 
 #include <DataExchange/StepVisual/StepVisual_InvisibilityContext.hxx>
 #include <DataExchange/StepVisual/StepVisual_Invisibility.hxx>
-#include <Handle_StepVisual_HArray1OfInvisibleItem.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfInvisibleItem.hxx>
 class StepVisual_HArray1OfInvisibleItem;
 class StepVisual_InvisibilityContext;
 

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SequenceNodeOfSequenceOfInterfaceModel.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SequenceNodeOfSequenceOfInterfaceModel.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Interface_InterfaceModel;

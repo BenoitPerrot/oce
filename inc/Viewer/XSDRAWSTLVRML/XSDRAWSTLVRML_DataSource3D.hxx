@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSDRAWSTLVRML_DataSource3D.hxx>
+#include <Viewer/XSDRAWSTLVRML/Handle_XSDRAWSTLVRML_DataSource3D.hxx>
 
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Handle_TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfInteger.hxx>
 #include <Visualization/MeshVS/MeshVS_DataSource.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/MeshVS/MeshVS_EntityType.hxx>
-#include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray1OfInteger;

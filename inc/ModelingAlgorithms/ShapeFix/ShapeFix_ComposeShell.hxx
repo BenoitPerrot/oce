@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_ComposeShell.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_ComposeShell.hxx>
 
-#include <Handle_ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_CompositeSurface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_ShapeAnalysis_TransferParameters.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_TransferParameters.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class ShapeExtend_CompositeSurface;
 class ShapeAnalysis_TransferParameters;
 class TopLoc_Location;

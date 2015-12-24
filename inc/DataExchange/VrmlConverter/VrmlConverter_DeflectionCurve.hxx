@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_Curve;
 class VrmlConverter_Drawer;

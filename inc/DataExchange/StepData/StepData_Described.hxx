@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_Described.hxx>
+#include <DataExchange/StepData/Handle_StepData_Described.hxx>
 
-#include <Handle_StepData_EDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_EDescr.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_StepData_Simple.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/StepData/Handle_StepData_Simple.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class StepData_EDescr;
 class Interface_InterfaceMismatch;
 class StepData_Simple;

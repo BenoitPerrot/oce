@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_SequenceNodeOfSequenceOfPntFace.hxx>
 
 #include <ModelingAlgorithms/LocOpe/LocOpe_PntFace.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

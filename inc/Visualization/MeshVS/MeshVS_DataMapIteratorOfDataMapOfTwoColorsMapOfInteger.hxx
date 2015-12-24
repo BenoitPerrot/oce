@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Visualization/MeshVS/MeshVS_TwoColors.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfTwoColorsMapOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfTwoColorsMapOfInteger.hxx>
 class Standard_NoSuchObject;
 class TColStd_MapOfInteger;
 class MeshVS_TwoColorsHasher;

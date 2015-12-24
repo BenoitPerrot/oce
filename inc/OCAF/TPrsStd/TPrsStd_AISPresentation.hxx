@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TPrsStd_AISPresentation.hxx>
+#include <OCAF/TPrsStd/Handle_TPrsStd_AISPresentation.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -16,11 +16,11 @@
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
-#include <Handle_TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
 class AIS_InteractiveObject;
 class Standard_GUID;
 class TDF_Label;

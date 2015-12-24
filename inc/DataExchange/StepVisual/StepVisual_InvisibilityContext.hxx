@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepVisual_PresentationRepresentation.hxx>
-#include <Handle_StepVisual_PresentationSet.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationRepresentation.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationSet.hxx>
 class Standard_Transient;
 class StepVisual_PresentationRepresentation;
 class StepVisual_PresentationSet;

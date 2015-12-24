@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_TrimmedCurve.hxx>
 
-#include <Handle_StepGeom_Curve.hxx>
-#include <Handle_StepGeom_HArray1OfTrimmingSelect.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray1OfTrimmingSelect.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepGeom/StepGeom_TrimmingPreference.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_Curve;
 class StepGeom_HArray1OfTrimmingSelect;

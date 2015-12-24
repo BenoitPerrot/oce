@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFApp_Application.hxx>
+#include <DataExchange/XCAFApp/Handle_XCAFApp_Application.hxx>
 
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TDocStd_Document.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
 class TColStd_SequenceOfExtendedString;
 class TDocStd_Document;
 

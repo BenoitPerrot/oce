@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepDimTol_GeometricTolerance.hxx>
-#include <Handle_StepShape_PlusMinusTolerance.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_GeometricTolerance.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_PlusMinusTolerance.hxx>
 class Standard_Transient;
 class StepDimTol_GeometricTolerance;
 class StepShape_PlusMinusTolerance;

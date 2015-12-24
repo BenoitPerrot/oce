@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Intrv_SequenceNodeOfSequenceOfInterval.hxx>
+#include <ModelingAlgorithms/Intrv/Handle_Intrv_SequenceNodeOfSequenceOfInterval.hxx>
 
 #include <ModelingAlgorithms/Intrv/Intrv_Interval.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_TopOpeBRep_ListNodeOfListOfBipoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_ListNodeOfListOfBipoint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

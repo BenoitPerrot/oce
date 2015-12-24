@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_HArray2OfHArray1OfReal.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_HArray2OfHArray1OfReal.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_Array2OfHArray1OfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

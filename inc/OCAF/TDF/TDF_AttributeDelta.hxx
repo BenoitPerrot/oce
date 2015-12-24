@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
 
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

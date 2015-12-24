@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_ListNodeOfListOfByte.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_ListNodeOfListOfByte.hxx>
 
 #include <Foundation/Standard/Standard_Byte.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

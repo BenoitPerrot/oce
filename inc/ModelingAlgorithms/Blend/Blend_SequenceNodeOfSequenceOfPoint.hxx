@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Blend_SequenceNodeOfSequenceOfPoint.hxx>
+#include <ModelingAlgorithms/Blend/Handle_Blend_SequenceNodeOfSequenceOfPoint.hxx>
 
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

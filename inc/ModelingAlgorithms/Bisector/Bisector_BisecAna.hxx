@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Bisector_BisecAna.hxx>
+#include <ModelingAlgorithms/Bisector/Handle_Bisector_BisecAna.hxx>
 
-#include <Handle_Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_TrimmedCurve.hxx>
 #include <ModelingAlgorithms/Bisector/Bisector_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom2d_Point.hxx>
-#include <Handle_GccInt_Bisec.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Point.hxx>
+#include <ModelingAlgorithms/GccInt/Handle_GccInt_Bisec.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
 #include <GeomAbs_Shape.hxx>
 class Geom2d_TrimmedCurve;
 class Standard_DomainError;

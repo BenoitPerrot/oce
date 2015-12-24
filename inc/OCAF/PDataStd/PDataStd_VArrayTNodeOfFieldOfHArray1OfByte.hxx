@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Byte.hxx>
-#include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PDataStd_FieldOfHArray1OfByte;
 class PDataStd_VArrayNodeOfFieldOfHArray1OfByte;

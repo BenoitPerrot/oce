@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/BiTgte/Handle_BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

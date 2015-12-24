@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Element.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class MoniTool_Element;
 

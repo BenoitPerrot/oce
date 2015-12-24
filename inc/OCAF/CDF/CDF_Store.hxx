@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_CDF_StoreList.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDF/Handle_CDF_StoreList.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCDM/PCDM_StoreStatus.hxx>

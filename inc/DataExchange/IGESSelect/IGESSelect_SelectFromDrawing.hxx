@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_SelectFromDrawing.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_SelectFromDrawing.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
 class Interface_InterfaceError;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_SequenceNodeOfSequenceOfBinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_SequenceNodeOfSequenceOfBinder.hxx>
 
-#include <Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Transfer_Binder;

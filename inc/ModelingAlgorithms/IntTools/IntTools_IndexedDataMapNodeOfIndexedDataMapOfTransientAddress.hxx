@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_IndexedDataMapNodeOfIndexedDataMapOfTransientAddress.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>

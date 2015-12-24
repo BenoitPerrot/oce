@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColgp_HArray1OfPnt.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Mutex.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class TColgp_HArray1OfPnt;
 class TColStd_HArray1OfReal;
 class TColStd_HArray1OfInteger;

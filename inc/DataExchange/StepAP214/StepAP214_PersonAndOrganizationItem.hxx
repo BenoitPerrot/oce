@@ -12,8 +12,8 @@
 
 #include <DataExchange/StepAP214/StepAP214_ApprovalItem.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepAP214_AppliedOrganizationAssignment.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AppliedOrganizationAssignment.hxx>
 class Standard_Transient;
 class StepAP214_AppliedOrganizationAssignment;
 

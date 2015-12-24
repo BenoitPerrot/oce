@@ -19,7 +19,7 @@
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_TopologicalRepresentationItem.hxx>
 class MoniTool_DataMapOfShapeTransient;
 class TopoDS_Shape;
 class StepShape_TopologicalRepresentationItem;

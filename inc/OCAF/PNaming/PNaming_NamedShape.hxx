@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/Handle_PNaming_NamedShape.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HArray1OfShape1.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 class PTopoDS_HArray1OfShape1;
 

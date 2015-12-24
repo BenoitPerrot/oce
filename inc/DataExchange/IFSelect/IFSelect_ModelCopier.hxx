@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_ModelCopier.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_ModelCopier.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SequenceOfInterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_SequenceOfAppliedModifiers.hxx>
-#include <Handle_IFSelect_ShareOut.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_ShareOut.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IFSelect_AppliedModifiers.hxx>
-#include <Handle_IFSelect_WorkLibrary.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_AppliedModifiers.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_WorkLibrary.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class IFSelect_ShareOut;
 class TColStd_HArray1OfInteger;

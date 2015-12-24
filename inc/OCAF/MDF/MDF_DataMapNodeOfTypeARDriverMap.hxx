@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_DataMapNodeOfTypeARDriverMap.hxx>
+#include <OCAF/MDF/Handle_MDF_DataMapNodeOfTypeARDriverMap.hxx>
 
-#include <Handle_Standard_Type.hxx>
-#include <Handle_MDF_ARDriver.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriver.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Type;

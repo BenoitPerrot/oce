@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TColStd_HSequenceOfHAsciiString;
 class Interface_InterfaceError;
 class Message_Messenger;

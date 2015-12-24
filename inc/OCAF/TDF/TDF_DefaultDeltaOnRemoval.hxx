@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_DefaultDeltaOnRemoval.hxx>
+#include <OCAF/TDF/Handle_TDF_DefaultDeltaOnRemoval.hxx>
 
 #include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 class TDF_Attribute;
 
 

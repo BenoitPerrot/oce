@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draft_DataMapNodeOfDataMapOfFaceFaceInfo.hxx>
+#include <ModelingAlgorithms/Draft/Handle_Draft_DataMapNodeOfDataMapOfFaceFaceInfo.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingAlgorithms/Draft/Draft_FaceInfo.hxx>

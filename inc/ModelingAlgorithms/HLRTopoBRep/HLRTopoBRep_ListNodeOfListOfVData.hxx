@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRTopoBRep_ListNodeOfListOfVData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_ListNodeOfListOfVData.hxx>
 
 #include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_VData.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

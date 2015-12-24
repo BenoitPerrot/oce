@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StdSelect_Prs.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_Prs.hxx>
 
-#include <Handle_Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_StructureManager.hxx>
 #include <Visualization/Prs3d/Prs3d_Presentation.hxx>
 class Graphic3d_StructureManager;
 

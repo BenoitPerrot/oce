@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSControl_Vars.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_Vars.hxx>
 
-#include <Handle_Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Geom_Geometry.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Dico_DictionaryOfTransient;
 class Standard_Transient;

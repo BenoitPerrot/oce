@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDocStd_XLink.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_XLink.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDocStd/TDocStd_XLinkPtr.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <Handle_TDF_Reference.hxx>
+#include <OCAF/TDF/Handle_TDF_Reference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_AttributeDelta.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TDocStd_XLinkRoot;
 class TDocStd_XLinkIterator;

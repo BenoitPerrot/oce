@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESAppli_Protocol.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_Protocol.hxx>
 class IGESAppli_Protocol;
 class IGESAppli_Node;
 class IGESAppli_FiniteElement;

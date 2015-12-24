@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepRepr_RepresentationItem.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ContextDependentShapeRepresentation.hxx>
 class StepRepr_RepresentationItem;
 class Transfer_FinderProcess;
 class TopoDS_Shape;

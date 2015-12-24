@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 
-#include <Handle_IntPatch_TheIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_TheIWLineOfTheIWalking.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntPatch_TheIWLineOfTheIWalking;

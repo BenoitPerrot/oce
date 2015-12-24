@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_Root.hxx>
+#include <Foundation/Storage/Handle_Storage_Root.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Standard_Persistent.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_Persistent;

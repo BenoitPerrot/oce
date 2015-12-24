@@ -54,7 +54,7 @@ public:
   Standard_EXPORT         Standard_Boolean            IsInstance(const Handle_Standard_Type&)const;  
 };
 
-#include <Handle_Standard_Persistent.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
 
 #endif
 

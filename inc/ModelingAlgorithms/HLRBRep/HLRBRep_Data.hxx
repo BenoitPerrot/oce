@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_Data.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
@@ -27,7 +27,7 @@
 #include <GeomAbs_CurveType.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Intersector.hxx>
-#include <Handle_BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

@@ -13,8 +13,8 @@
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslatePolyLoopError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
-#include <Handle_StepShape_PolyLoop.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_PolyLoop.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class StdFail_NotDone;
 class StepShape_PolyLoop;
 class StepToTopoDS_Tool;

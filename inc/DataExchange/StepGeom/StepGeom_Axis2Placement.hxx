@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepGeom_Axis2Placement2d.hxx>
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement2d.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
 class Standard_Transient;
 class StepGeom_Axis2Placement2d;
 class StepGeom_Axis2Placement3d;

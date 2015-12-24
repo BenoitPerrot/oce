@@ -13,9 +13,9 @@
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateEdgeLoopError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
-#include <Handle_StepShape_FaceBound.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_StepGeom_Surface.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_FaceBound.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class StepShape_FaceBound;

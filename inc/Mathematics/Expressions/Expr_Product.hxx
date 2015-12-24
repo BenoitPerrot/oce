@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_Product.hxx>
+#include <Mathematics/Expressions/Handle_Expr_Product.hxx>
 
 #include <Mathematics/Expressions/Expr_PolyExpression.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_NumericError;
 class Expr_NotEvaluable;

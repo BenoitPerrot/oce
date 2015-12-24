@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom_CartesianPoint_HeaderFile
-#include <Handle_PGeom_CartesianPoint.hxx>
+#include <OCAF/PGeom/Handle_PGeom_CartesianPoint.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom_Point_HeaderFile

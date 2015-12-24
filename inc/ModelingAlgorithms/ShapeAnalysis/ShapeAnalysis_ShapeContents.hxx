@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 class TopTools_HSequenceOfShape;
 class TopoDS_Shape;
 

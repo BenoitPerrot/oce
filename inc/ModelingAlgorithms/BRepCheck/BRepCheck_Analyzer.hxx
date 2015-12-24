@@ -13,7 +13,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_DataMapOfShapeResult.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_Result.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_NullObject;
 class Standard_NoSuchObject;

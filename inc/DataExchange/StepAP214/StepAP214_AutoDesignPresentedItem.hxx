@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_AutoDesignPresentedItem.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AutoDesignPresentedItem.hxx>
 
-#include <Handle_StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_HArray1OfAutoDesignPresentedItemSelect.hxx>
 #include <DataExchange/StepVisual/StepVisual_PresentedItem.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignPresentedItemSelect;

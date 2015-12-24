@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
 class Standard_NoSuchObject;
 class IntTools_SurfaceRangeSample;
 class Bnd_Box;

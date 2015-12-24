@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentationManager.hxx>
 
-#include <Handle_Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_StructureManager.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/PrsMgr/PrsMgr_ListOfPresentations.hxx>
-#include <Handle_V3d_View.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_PrsMgr_PresentableObject.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentableObject.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Handle_Geom_Transformation.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
-#include <Handle_Prs3d_ShadingAspect.hxx>
-#include <Handle_PrsMgr_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_ShadingAspect.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_Presentation.hxx>
 class Graphic3d_StructureManager;
 class V3d_View;
 class Standard_NoSuchObject;

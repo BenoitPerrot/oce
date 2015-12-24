@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PCDMShape_Document_HeaderFile
-#include <Handle_PCDMShape_Document.hxx>
+#include <OCAF/PCDMShape/Handle_PCDMShape_Document.hxx>
 #endif
 
 #ifndef _ShapeSchema_PCDM_Document_HeaderFile

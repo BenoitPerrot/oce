@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_SequenceNodeOfSequenceOfPoint2d.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Point2d.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

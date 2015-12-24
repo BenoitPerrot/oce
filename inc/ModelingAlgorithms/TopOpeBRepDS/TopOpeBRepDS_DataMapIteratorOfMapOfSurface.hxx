@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
 class Standard_NoSuchObject;
 class TopOpeBRepDS_SurfaceData;
 class TColStd_MapIntegerHasher;

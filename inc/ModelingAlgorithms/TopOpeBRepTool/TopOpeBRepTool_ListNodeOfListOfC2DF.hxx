@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRepTool_ListNodeOfListOfC2DF.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/Handle_TopOpeBRepTool_ListNodeOfListOfC2DF.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_C2DF.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

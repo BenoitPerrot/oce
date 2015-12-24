@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfInteger.hxx>
-#include <Handle_FEmTool_HAssemblyTable.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_HAssemblyTable.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_FEmTool_ProfileMatrix.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_ProfileMatrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Geometry/FEmTool/FEmTool_SeqOfLinConstr.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>

@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomTools_UndefinedTypeHandler.hxx>
+#include <Geometry/GeomTools/Handle_GeomTools_UndefinedTypeHandler.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class Geom_Curve;
 class Geom2d_Curve;
 class Geom_Surface;

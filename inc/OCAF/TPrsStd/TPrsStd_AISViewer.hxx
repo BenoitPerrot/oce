@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TPrsStd_AISViewer.hxx>
+#include <OCAF/TPrsStd/Handle_TPrsStd_AISViewer.hxx>
 
-#include <Handle_AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveContext.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_V3d_Viewer.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <Visualization/V3d/Handle_V3d_Viewer.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 class AIS_InteractiveContext;
 class Standard_GUID;
 class TDF_Label;

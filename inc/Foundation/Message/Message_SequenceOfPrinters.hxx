@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_Message_Printer.hxx>
-#include <Handle_Message_SequenceNodeOfSequenceOfPrinters.hxx>
+#include <Foundation/Message/Handle_Message_Printer.hxx>
+#include <Foundation/Message/Handle_Message_SequenceNodeOfSequenceOfPrinters.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

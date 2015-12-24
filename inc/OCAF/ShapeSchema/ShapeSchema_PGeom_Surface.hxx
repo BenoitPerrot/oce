@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom_Surface_HeaderFile
-#include <Handle_PGeom_Surface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom_Geometry_HeaderFile

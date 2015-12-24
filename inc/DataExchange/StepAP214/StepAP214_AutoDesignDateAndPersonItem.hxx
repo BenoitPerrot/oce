@@ -12,16 +12,16 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepAP214_AutoDesignOrganizationAssignment.hxx>
-#include <Handle_StepBasic_Product.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
-#include <Handle_StepBasic_ProductDefinitionFormation.hxx>
-#include <Handle_StepRepr_Representation.hxx>
-#include <Handle_StepAP214_AutoDesignDocumentReference.hxx>
-#include <Handle_StepRepr_ExternallyDefinedRepresentation.hxx>
-#include <Handle_StepBasic_ProductDefinitionRelationship.hxx>
-#include <Handle_StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AutoDesignOrganizationAssignment.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_Representation.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AutoDesignDocumentReference.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ExternallyDefinedRepresentation.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 class Standard_Transient;
 class StepAP214_AutoDesignOrganizationAssignment;
 class StepBasic_Product;

@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_SectionedArea.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_SectionedArea.hxx>
 
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;

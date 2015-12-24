@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
-#include <Handle_SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SequenceNodeOfSequenceOfOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

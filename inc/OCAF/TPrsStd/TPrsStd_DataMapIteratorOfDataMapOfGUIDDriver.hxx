@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TPrsStd_Driver.hxx>
-#include <Handle_TPrsStd_DataMapNodeOfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TPrsStd/Handle_TPrsStd_Driver.hxx>
+#include <OCAF/TPrsStd/Handle_TPrsStd_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 class Standard_NoSuchObject;
 class Standard_GUID;
 class TPrsStd_Driver;

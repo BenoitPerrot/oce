@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_STEPSelections_AssemblyLink.hxx>
-#include <Handle_STEPSelections_SequenceNodeOfSequenceOfAssemblyLink.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_AssemblyLink.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_SequenceNodeOfSequenceOfAssemblyLink.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

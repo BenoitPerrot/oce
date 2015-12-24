@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPSelections_SelectDerived.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_SelectDerived.hxx>
 
 #include <DataExchange/StepSelect/StepSelect_StepType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class Standard_Transient;
 class Interface_InterfaceModel;
 class TCollection_AsciiString;

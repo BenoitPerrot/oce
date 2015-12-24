@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_Storage_StreamModeError.hxx>
+#include <Foundation/Storage/Handle_Storage_StreamModeError.hxx>
 
 #if !defined No_Exception && !defined No_Storage_StreamModeError
   #define Storage_StreamModeError_Raise_if(CONDITION, MESSAGE) \

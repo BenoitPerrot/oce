@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_TrimmedCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_TrimmedCurve.hxx>
 class Standard_OutOfRange;
 class Geom2d_Curve;
 class Geom2d_TrimmedCurve;

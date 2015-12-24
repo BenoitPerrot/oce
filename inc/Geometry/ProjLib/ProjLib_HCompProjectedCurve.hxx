@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ProjLib_HCompProjectedCurve.hxx>
+#include <Geometry/ProjLib/Handle_ProjLib_HCompProjectedCurve.hxx>
 
 #include <Geometry/ProjLib/ProjLib_CompProjectedCurve.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>

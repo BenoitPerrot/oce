@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

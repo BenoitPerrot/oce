@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepData_HArray1OfField.hxx>
+#include <DataExchange/StepData/Handle_StepData_HArray1OfField.hxx>
 #include <DataExchange/StepData/StepData_FieldList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepData_HArray1OfField;

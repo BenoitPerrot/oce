@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StdSelect_BRepOwner.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_BRepOwner.hxx>
 
-#include <Handle_StdSelect_Shape.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Handle_PrsMgr_PresentationManager.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentationManager.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class StdSelect_Shape;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_CcDesignContract.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_CcDesignContract.hxx>
 
-#include <Handle_StepAP203_HArray1OfContractedItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfContractedItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ContractAssignment.hxx>
-#include <Handle_StepBasic_Contract.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Contract.hxx>
 class StepAP203_HArray1OfContractedItem;
 class StepBasic_Contract;
 

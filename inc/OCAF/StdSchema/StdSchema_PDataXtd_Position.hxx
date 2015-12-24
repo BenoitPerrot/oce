@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDataXtd_Position_HeaderFile
-#include <Handle_PDataXtd_Position.hxx>
+#include <OCAF/PDataXtd/Handle_PDataXtd_Position.hxx>
 #endif
 
 #ifndef _StdSchema_PDF_Attribute_HeaderFile

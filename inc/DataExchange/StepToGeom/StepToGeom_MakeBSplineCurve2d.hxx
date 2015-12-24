@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_BSplineCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 class StepGeom_BSplineCurve;
 class Geom2d_BSplineCurve;
 

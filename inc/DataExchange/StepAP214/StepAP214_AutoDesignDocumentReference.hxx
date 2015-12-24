@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_AutoDesignDocumentReference.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AutoDesignDocumentReference.hxx>
 
-#include <Handle_StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_HArray1OfAutoDesignReferencingItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentReference.hxx>
-#include <Handle_StepBasic_Document.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Document.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfAutoDesignReferencingItem;
 class StepBasic_Document;

@@ -11,13 +11,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepGeom_SurfaceCurve.hxx>
-#include <Handle_StepGeom_Surface.hxx>
-#include <Handle_StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Surface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Pcurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepShape_Edge.hxx>
-#include <Handle_StepShape_EdgeLoop.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Edge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_EdgeLoop.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_SurfaceCurve;
 class StepGeom_Surface;

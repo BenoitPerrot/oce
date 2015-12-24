@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDataXtd_Constraint.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_Constraint.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class TDataXtd_Constraint;
 class AIS_InteractiveObject;
 class TCollection_ExtendedString;

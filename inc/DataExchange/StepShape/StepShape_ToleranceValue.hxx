@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_ToleranceValue.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ToleranceValue.hxx>
 
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_MeasureWithUnit;
 

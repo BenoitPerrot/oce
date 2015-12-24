@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PTopoDS_TShape_HeaderFile
-#include <Handle_PTopoDS_TShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_TShape.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

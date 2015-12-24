@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_Change.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_Change.hxx>
 
-#include <Handle_StepAP203_HArray1OfWorkItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfWorkItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ActionAssignment.hxx>
-#include <Handle_StepBasic_Action.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Action.hxx>
 class StepAP203_HArray1OfWorkItem;
 class StepBasic_Action;
 

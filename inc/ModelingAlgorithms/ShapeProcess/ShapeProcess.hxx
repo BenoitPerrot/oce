@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_ShapeProcess_Operator.hxx>
-#include <Handle_ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_Operator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_Context.hxx>
 class ShapeProcess_Operator;
 class ShapeProcess_Context;
 class ShapeProcess_Context;

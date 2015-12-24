@@ -12,12 +12,12 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT_ListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_ListOfEdge.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBisector.hxx>
-#include <Handle_MAT_ListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_ListOfBisector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Bisector.hxx>
 class MAT_ListOfEdge;
 class MAT_ListOfBisector;
 class MAT2d_Tool2d;

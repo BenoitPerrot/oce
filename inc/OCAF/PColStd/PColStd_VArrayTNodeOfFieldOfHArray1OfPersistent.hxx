@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Standard_Persistent.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfPersistent.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray1OfPersistent.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_Persistent;
 class PColStd_FieldOfHArray1OfPersistent;

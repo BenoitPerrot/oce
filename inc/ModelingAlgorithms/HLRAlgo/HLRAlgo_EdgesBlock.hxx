@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_EdgesBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_EdgesBlock.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfBoolean.hxx>

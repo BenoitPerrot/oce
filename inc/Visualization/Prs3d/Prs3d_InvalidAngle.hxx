@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Handle_Prs3d_InvalidAngle.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_InvalidAngle.hxx>
 
 #if !defined No_Exception && !defined No_Prs3d_InvalidAngle
   #define Prs3d_InvalidAngle_Raise_if(CONDITION, MESSAGE) \

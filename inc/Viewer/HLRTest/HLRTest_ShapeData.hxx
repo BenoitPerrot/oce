@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRTest_ShapeData.hxx>
+#include <Viewer/HLRTest/Handle_HLRTest_ShapeData.hxx>
 
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

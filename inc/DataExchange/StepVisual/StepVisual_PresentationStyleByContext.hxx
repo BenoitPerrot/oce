@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_PresentationStyleByContext.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationStyleByContext.hxx>
 
 #include <DataExchange/StepVisual/StepVisual_StyleContextSelect.hxx>
 #include <DataExchange/StepVisual/StepVisual_PresentationStyleAssignment.hxx>
-#include <Handle_StepVisual_HArray1OfPresentationStyleSelect.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfPresentationStyleSelect.hxx>
 class StepVisual_HArray1OfPresentationStyleSelect;
 class StepVisual_StyleContextSelect;
 

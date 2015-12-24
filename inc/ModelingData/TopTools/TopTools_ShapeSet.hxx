@@ -13,7 +13,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_LocationSet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

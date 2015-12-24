@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_FileRecognizer.hxx>
+#include <DataExchange/StepData/Handle_StepData_FileRecognizer.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepData_FileRecognizer.hxx>
+#include <DataExchange/StepData/Handle_StepData_FileRecognizer.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 class Standard_Transient;
 class Standard_NoSuchObject;

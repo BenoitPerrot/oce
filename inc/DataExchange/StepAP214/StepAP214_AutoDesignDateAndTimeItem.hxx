@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_ApprovalPersonOrganization.hxx>
-#include <Handle_StepAP214_AutoDesignDateAndPersonAssignment.hxx>
-#include <Handle_StepBasic_ProductDefinitionEffectivity.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AutoDesignDateAndPersonAssignment.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionEffectivity.hxx>
 class Standard_Transient;
 class StepBasic_ApprovalPersonOrganization;
 class StepAP214_AutoDesignDateAndPersonAssignment;

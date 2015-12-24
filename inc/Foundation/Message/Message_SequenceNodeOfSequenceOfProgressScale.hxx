@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Message_SequenceNodeOfSequenceOfProgressScale.hxx>
+#include <Foundation/Message/Handle_Message_SequenceNodeOfSequenceOfProgressScale.hxx>
 
 #include <Foundation/Message/Message_ProgressScale.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

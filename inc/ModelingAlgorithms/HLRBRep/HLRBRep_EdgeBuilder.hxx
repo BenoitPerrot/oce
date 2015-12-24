@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <Handle_HLRBRep_AreaLimit.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_AreaLimit.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

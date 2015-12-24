@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectMarker3d.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_MarkerImage_Handle.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram_Handle.hxx>
@@ -16,7 +16,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfByte.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfByte.hxx>
 #include <Visualization/Image/Image_PixMap_Handle.hxx>
 class Quantity_Color;
 class TColStd_HArray1OfByte;

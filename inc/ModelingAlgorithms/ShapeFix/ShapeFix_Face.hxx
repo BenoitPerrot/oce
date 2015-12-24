@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Face.hxx>
 
-#include <Handle_ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeAnalysis_Surface;
 class ShapeFix_Wire;

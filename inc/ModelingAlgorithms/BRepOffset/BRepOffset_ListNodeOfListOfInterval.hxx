@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepOffset_ListNodeOfListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/Handle_BRepOffset_ListNodeOfListOfInterval.hxx>
 
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_PointsOnSurface_HeaderFile
-#include <Handle_PBRep_PointsOnSurface.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PointsOnSurface.hxx>
 #endif
 
 #ifndef _ShapeSchema_PBRep_PointRepresentation_HeaderFile

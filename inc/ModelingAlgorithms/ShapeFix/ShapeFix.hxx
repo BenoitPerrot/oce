@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
-#include <Handle_ShapeBuild_ReShape.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
+#include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 class TopoDS_Shape;
 class Message_ProgressIndicator;
 class ShapeBuild_ReShape;

@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MapOfSurfaceSample.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_DataMapOfSurfaceSampleBox.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColgp_HArray2OfPnt.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HArray1OfReal;
 class TColgp_HArray2OfPnt;

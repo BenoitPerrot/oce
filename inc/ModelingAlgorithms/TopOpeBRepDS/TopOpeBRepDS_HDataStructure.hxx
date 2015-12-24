@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataStructure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -19,7 +19,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Config.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_DataStructure;
 class TopOpeBRepDS_Surface;

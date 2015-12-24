@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataStd_ReferenceArray.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_ReferenceArray.hxx>
 
-#include <Handle_PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HExtendedString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PColStd_HArray1OfExtendedString.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfExtendedString.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 class PCollection_HExtendedString;
 class PColStd_HArray1OfExtendedString;

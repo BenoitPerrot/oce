@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_LProp_BadContinuity.hxx>
+#include <Geometry/LProp/Handle_LProp_BadContinuity.hxx>
 
 #if !defined No_Exception && !defined No_LProp_BadContinuity
   #define LProp_BadContinuity_Raise_if(CONDITION, MESSAGE) \

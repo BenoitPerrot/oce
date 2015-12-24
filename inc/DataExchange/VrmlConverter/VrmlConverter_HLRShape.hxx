@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_VrmlConverter_Drawer.hxx>
-#include <Handle_VrmlConverter_Projector.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Projector.hxx>
 class TopoDS_Shape;
 class VrmlConverter_Drawer;
 class VrmlConverter_Projector;

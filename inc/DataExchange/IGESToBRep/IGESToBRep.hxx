@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESToBRep_AlgoContainer.hxx>
+#include <DataExchange/IGESToBRep/Handle_IGESToBRep_AlgoContainer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 class IGESToBRep_AlgoContainer;
 class IGESData_IGESEntity;
 class TopoDS_Shape;

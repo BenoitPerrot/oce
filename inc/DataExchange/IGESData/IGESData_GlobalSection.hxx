@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Character.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_ParamSet.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_ParamSet.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class TCollection_HAsciiString;
 class Interface_ParamSet;
 class Interface_Check;

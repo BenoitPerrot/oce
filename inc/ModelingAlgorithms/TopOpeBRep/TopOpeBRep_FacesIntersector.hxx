@@ -13,13 +13,13 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TopOpeBRep_HArray1OfLineInter.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_HArray1OfLineInter.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_LineInter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Handle_BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/GeomLib/GeomLib_InterpolationErrors.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

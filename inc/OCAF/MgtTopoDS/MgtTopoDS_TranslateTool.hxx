@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MgtTopoDS_TranslateTool.hxx>
+#include <OCAF/MgtTopoDS/Handle_MgtTopoDS_TranslateTool.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HShape.hxx>
 class Standard_TypeMismatch;
 class TopoDS_Shape;
 class PTopoDS_HShape;

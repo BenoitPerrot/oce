@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AppDef_LinearCriteria.hxx>
+#include <Geometry/AppDef/Handle_AppDef_LinearCriteria.hxx>
 
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_FEmTool_ElementaryCriterion.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_ElementaryCriterion.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
-#include <Handle_FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/AppDef/AppDef_SmoothCriterion.hxx>
-#include <Handle_FEmTool_HAssemblyTable.hxx>
-#include <Handle_TColStd_HArray2OfInteger.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_HAssemblyTable.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfInteger.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray1OfReal;
 class FEmTool_ElementaryCriterion;

@@ -14,7 +14,7 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_StatusError.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_Form.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

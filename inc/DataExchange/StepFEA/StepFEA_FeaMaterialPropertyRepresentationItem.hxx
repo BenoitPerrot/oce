@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_FeaMaterialPropertyRepresentationItem.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaMaterialPropertyRepresentationItem.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 

@@ -13,8 +13,8 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
-#include <Handle_BRepFill_LocationLaw.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_LocationLaw.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeHArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

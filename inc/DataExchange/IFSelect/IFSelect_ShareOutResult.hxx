@@ -10,15 +10,15 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IFSelect_ShareOut.hxx>
-#include <Handle_IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_ShareOut.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <DataExchange/IFGraph/IFGraph_SubPartsIterator.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_IFSelect_PacketList.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_PacketList.hxx>
 class IFSelect_ShareOut;
 class IFSelect_Dispatch;
 class Standard_NoSuchObject;

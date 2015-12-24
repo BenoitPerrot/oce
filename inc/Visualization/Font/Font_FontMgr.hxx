@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Font_FontMgr.hxx>
+#include <Visualization/Font/Handle_Font_FontMgr.hxx>
 
 #include <Visualization/Font/Font_NListOfSystemFont.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Font_SystemFont.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Visualization/Font/Handle_Font_SystemFont.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Visualization/Font/Font_FontAspect.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_OrientedEdge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_OrientedEdge.hxx>
 
-#include <Handle_StepShape_Edge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Edge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepShape/StepShape_Edge.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_Vertex.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Vertex.hxx>
 class StepShape_Edge;
 class TCollection_HAsciiString;
 class StepShape_Vertex;

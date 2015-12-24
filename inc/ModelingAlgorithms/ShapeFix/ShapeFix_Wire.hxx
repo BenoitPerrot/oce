@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Wire.hxx>
 
-#include <Handle_ShapeFix_Edge.hxx>
-#include <Handle_ShapeAnalysis_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeFix_Edge;

@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDraw_View.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_View.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESGeom_Plane.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Plane.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_ViewKindEntity.hxx>
-#include <Handle_IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_TransfEntity.hxx>
 class IGESGeom_Plane;
 class Standard_OutOfRange;
 class IGESData_ViewKindEntity;

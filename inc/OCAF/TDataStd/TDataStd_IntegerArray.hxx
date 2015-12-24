@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_IntegerArray.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_IntegerArray.hxx>
 
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/Handle_TDF_DeltaOnModification.hxx>
 class TColStd_HArray1OfInteger;
 class TDataStd_DeltaOnModificationOfIntArray;
 class Standard_GUID;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

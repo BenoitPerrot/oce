@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_CurveOnSurface.hxx>
+#include <OCAF/PBRep/Handle_PBRep_CurveOnSurface.hxx>
 
-#include <Handle_PGeom_Surface.hxx>
-#include <Handle_PGeom2d_Curve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <OCAF/PBRep/PBRep_GCurve.hxx>

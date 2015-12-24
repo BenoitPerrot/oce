@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DBRep_Edge.hxx>
+#include <Viewer/DBRep/Handle_DBRep_Edge.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>

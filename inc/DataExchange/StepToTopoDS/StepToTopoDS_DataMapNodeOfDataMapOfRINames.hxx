@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

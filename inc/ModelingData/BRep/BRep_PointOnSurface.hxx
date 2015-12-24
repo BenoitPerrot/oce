@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_PointOnSurface.hxx>
+#include <ModelingData/BRep/Handle_BRep_PointOnSurface.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/BRep/BRep_PointsOnSurface.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom_Surface;
 class TopLoc_Location;

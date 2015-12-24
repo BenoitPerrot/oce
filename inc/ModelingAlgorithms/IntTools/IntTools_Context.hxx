@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeAddress.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfTransientAddress.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Handle_AIS_LocalStatus.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapOfSelStat.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/AIS/Handle_AIS_LocalStatus.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

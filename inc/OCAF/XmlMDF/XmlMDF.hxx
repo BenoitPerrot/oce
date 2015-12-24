@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>
-#include <Handle_XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriverTable.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 class TDF_Data;
 class XmlMDF_ADriverTable;
 class TDF_Label;

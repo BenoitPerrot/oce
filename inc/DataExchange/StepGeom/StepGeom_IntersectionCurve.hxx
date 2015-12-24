@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_IntersectionCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_IntersectionCurve.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_SurfaceCurve.hxx>
 

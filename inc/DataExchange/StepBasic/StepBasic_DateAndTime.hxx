@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DateAndTime.hxx>
 
-#include <Handle_StepBasic_Date.hxx>
-#include <Handle_StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Date.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_LocalTime.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Date;
 class StepBasic_LocalTime;

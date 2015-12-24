@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Standard_RangeError.hxx>
+#include <Foundation/Standard/Handle_Standard_RangeError.hxx>
 
 #if !defined No_Exception && !defined No_Standard_RangeError
   #define Standard_RangeError_Raise_if(CONDITION, MESSAGE) \

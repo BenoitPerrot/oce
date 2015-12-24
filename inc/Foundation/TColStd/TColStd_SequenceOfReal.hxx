@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_SequenceNodeOfSequenceOfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_SequenceNodeOfSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

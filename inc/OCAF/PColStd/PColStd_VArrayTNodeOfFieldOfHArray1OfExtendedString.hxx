@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PCollection_HExtendedString.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HExtendedString.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PCollection_HExtendedString;
 class PColStd_FieldOfHArray1OfExtendedString;

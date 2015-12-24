@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/Handle_MDF_RRelocationTable.hxx>
 
 #include <OCAF/PTColStd/PTColStd_PersistentTransientMap.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_PDF_Attribute.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_Standard_Persistent.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <OCAF/PDF/Handle_PDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class PDF_Attribute;
 class TDF_Attribute;
 class Standard_Persistent;

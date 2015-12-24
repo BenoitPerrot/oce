@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataXtd_Geometry.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_Geometry.hxx>
 
 #include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class TNaming_NamedShape;

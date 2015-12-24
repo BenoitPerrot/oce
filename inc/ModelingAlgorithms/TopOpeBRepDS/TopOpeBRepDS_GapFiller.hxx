@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <Handle_TopOpeBRepDS_GapTool.hxx>
-#include <Handle_TopOpeBRepDS_Association.hxx>
-#include <Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_GapTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Association.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepDS_GapTool;

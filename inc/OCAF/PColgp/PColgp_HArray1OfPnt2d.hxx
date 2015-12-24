@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray1OfPnt2d.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <OCAF/PColgp/PColgp_FieldOfHArray1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfPnt2d.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray1OfPnt2d.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
 class gp_Pnt2d;

@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/Plate/Plate_SequenceOfLinearXYZConstraint.hxx>
 #include <ModelingAlgorithms/Plate/Plate_SequenceOfLinearScalarConstraint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColgp_HArray2OfXYZ.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfXYZ.hxx>
 class Plate_PinpointConstraint;
 class Plate_LinearXYZConstraint;
 class Plate_LinearScalarConstraint;

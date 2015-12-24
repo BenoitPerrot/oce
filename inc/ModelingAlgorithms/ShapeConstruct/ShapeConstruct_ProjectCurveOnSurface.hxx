@@ -8,23 +8,23 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeConstruct_ProjectCurveOnSurface.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/Handle_ShapeConstruct_ProjectCurveOnSurface.hxx>
 
-#include <Handle_ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Handle_TColgp_HArray1OfPnt2d.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
 class ShapeAnalysis_Surface;
 class Geom_Surface;
 class Geom_Curve;

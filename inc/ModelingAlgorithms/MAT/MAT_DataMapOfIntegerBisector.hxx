@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT_Bisector.hxx>
-#include <Handle_MAT_DataMapNodeOfDataMapOfIntegerBisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_DataMapNodeOfDataMapOfIntegerBisector.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

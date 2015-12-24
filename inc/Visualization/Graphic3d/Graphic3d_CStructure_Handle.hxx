@@ -15,7 +15,7 @@
 #define _Graphic3d_CStructure_Handle_H__
 
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 
 class Graphic3d_CStructure;
 DEFINE_STANDARD_HANDLE(Graphic3d_CStructure, Standard_Transient)

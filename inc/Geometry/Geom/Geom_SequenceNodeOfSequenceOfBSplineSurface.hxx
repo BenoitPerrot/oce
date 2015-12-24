@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_SequenceNodeOfSequenceOfBSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_SequenceNodeOfSequenceOfBSplineSurface.hxx>
 
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Geom_BSplineSurface;

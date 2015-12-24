@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_HeaderSection_Protocol.hxx>
+#include <DataExchange/HeaderSection/Handle_HeaderSection_Protocol.hxx>
 class HeaderSection_Protocol;
 class HeaderSection_Protocol;
 class HeaderSection_FileName;

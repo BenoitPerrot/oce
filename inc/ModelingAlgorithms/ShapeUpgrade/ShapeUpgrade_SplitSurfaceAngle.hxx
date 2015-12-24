@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_SplitSurfaceAngle.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_SplitSurfaceAngle.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>

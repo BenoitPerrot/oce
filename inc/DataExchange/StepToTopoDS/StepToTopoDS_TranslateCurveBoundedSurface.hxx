@@ -12,8 +12,8 @@
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
-#include <Handle_StepGeom_CurveBoundedSurface.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CurveBoundedSurface.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StepGeom_CurveBoundedSurface;
 class Transfer_TransientProcess;

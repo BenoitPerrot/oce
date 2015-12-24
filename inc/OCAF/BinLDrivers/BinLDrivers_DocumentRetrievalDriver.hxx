@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BinLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/BinLDrivers/Handle_BinLDrivers_DocumentRetrievalDriver.hxx>
 
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
-#include <Handle_BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_ADriverTable.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_RRelocationTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_VectorOfDocumentSection.hxx>
 #include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
-#include <Handle_PCDM_Document.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_Application.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Application.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/Storage/Storage_Position.hxx>
-#include <Handle_Storage_HeaderData.hxx>
+#include <Foundation/Storage/Handle_Storage_HeaderData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;

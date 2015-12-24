@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_BoundedSurface.hxx>
-#include <Handle_Geom_BoundedSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BoundedSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BoundedSurface.hxx>
 class StepGeom_BoundedSurface;
 class Geom_BoundedSurface;
 

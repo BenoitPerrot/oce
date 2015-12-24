@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_ConstructionError.hxx>
-#include <Handle_WNT_ClassDefinitionError.hxx>
+#include <Visualization/WNT/Handle_WNT_ClassDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_WNT_ClassDefinitionError
   #define WNT_ClassDefinitionError_Raise_if(CONDITION, MESSAGE) \

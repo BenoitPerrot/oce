@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_SiUnitAndLengthUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SiUnitAndLengthUnit.hxx>
 
-#include <Handle_StepBasic_LengthUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_LengthUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
-#include <Handle_StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DimensionalExponents.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiPrefix.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnitName.hxx>

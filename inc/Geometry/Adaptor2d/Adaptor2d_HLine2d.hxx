@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Adaptor2d_HLine2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HLine2d.hxx>
 
 #include <Geometry/Adaptor2d/Adaptor2d_Line2d.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_HCurve2d.hxx>

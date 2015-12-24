@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_SecurityClassificationAssignment.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SecurityClassificationAssignment.hxx>
 
-#include <Handle_StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SecurityClassification.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_SecurityClassification;
 

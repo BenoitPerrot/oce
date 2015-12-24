@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Shell.hxx>
 
-#include <Handle_IGESSolid_HArray1OfFace.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_HArray1OfFace.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Face.hxx>
 class IGESSolid_HArray1OfFace;
 class TColStd_HArray1OfInteger;
 class Standard_DimensionMismatch;

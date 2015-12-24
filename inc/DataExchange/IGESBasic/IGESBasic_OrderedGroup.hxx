@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_OrderedGroup.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_OrderedGroup.hxx>
 
 #include <DataExchange/IGESBasic/IGESBasic_Group.hxx>
 class Standard_OutOfRange;

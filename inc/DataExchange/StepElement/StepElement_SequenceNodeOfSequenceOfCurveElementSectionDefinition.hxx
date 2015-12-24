@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SequenceNodeOfSequenceOfCurveElementSectionDefinition.hxx>
 
-#include <Handle_StepElement_CurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_CurveElementSectionDefinition.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepElement_CurveElementSectionDefinition;

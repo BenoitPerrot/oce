@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_HArray1OfBoundaryCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray1OfBoundaryCurve.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_Array1OfBoundaryCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepGeom_BoundaryCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BoundaryCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

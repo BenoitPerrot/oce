@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DDataStd_DrawPresentation.hxx>
+#include <Viewer/DDataStd/Handle_DDataStd_DrawPresentation.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
-#include <Handle_TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
 class Draw_Drawable3D;
 class TDF_Label;
 class Standard_GUID;

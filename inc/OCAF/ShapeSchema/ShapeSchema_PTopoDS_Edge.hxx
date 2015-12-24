@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PTopoDS_Edge_HeaderFile
-#include <Handle_PTopoDS_Edge.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_Edge.hxx>
 #endif
 
 #ifndef _ShapeSchema_PTopoDS_HShape_HeaderFile

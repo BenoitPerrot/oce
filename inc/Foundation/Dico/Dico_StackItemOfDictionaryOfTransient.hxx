@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
 
-#include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Dico_DictionaryOfTransient;
 class Standard_Transient;
 class Dico_IteratorOfDictionaryOfTransient;

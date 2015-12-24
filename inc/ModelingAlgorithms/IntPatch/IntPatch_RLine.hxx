@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_RLine.hxx>
 
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_LineOn2S.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPoint.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Line.hxx>

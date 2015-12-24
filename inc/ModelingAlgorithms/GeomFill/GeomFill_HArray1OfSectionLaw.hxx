@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_HArray1OfSectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_HArray1OfSectionLaw.hxx>
 
 #include <ModelingAlgorithms/GeomFill/GeomFill_Array1OfSectionLaw.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

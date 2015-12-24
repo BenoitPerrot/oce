@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PCDM_StorageDriver.hxx>
+#include <OCAF/PCDM/Handle_PCDM_StorageDriver.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 #include <OCAF/PCDM/PCDM_Writer.hxx>
-#include <Handle_PCDM_Document.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_Storage_Schema.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <Foundation/Storage/Handle_Storage_Schema.hxx>
 class Standard_NoSuchObject;
 class PCDM_DriverError;
 class PCDM_Document;

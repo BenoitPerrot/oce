@@ -9,13 +9,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_PointOnCurveOnSurface.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PointOnCurveOnSurface.hxx>
 
-#include <Handle_PGeom2d_Curve.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/PBRep/PBRep_PointsOnSurface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_PGeom_Surface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
 class PGeom2d_Curve;
 class PGeom_Surface;
 class PTopLoc_Location;

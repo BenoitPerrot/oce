@@ -17,7 +17,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 #include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

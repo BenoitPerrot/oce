@@ -12,7 +12,7 @@
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 class TDF_Label;
 class TopoDS_Shape;
 class TNaming_NamedShape;

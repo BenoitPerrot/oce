@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_SequenceNodeOfSequenceOfSurface.hxx>
 
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Geom_Surface;

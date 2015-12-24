@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
-#include <Handle_AIS_GlobalStatus.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapOfIOStatus.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_GlobalStatus.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapOfIOStatus.hxx>
 class Standard_NoSuchObject;
 class AIS_InteractiveObject;
 class AIS_GlobalStatus;

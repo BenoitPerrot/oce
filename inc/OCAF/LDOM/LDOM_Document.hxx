@@ -17,7 +17,7 @@
 #define LDOM_Document_HeaderFile
 
 #include <OCAF/LDOM/LDOM_Element.hxx>
-#include <Handle_LDOM_MemManager.hxx>
+#include <OCAF/LDOM/Handle_LDOM_MemManager.hxx>
 #include <OCAF/LDOM/LDOM_Text.hxx>
 #include <OCAF/LDOM/LDOM_CDATASection.hxx>
 #include <OCAF/LDOM/LDOM_Comment.hxx>

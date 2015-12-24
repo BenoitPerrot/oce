@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_SweptSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_SweptSurface.hxx>
 
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

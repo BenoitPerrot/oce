@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepShape_SolidModel.hxx>
-#include <Handle_StepShape_HalfSpaceSolid.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_SolidModel.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HalfSpaceSolid.hxx>
 #include <DataExchange/StepShape/StepShape_CsgPrimitive.hxx>
-#include <Handle_StepShape_BooleanResult.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_BooleanResult.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_SolidModel;
 class StepShape_HalfSpaceSolid;

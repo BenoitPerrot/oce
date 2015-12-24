@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Law_BSpFunc.hxx>
-#include <Handle_Law_Linear.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_BSpFunc.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Linear.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_BSpline.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Law_BSpFunc;
 class Law_Linear;

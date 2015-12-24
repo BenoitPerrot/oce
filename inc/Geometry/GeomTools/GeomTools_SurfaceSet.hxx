@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

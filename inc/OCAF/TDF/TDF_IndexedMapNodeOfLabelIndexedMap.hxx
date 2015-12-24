@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_IndexedMapNodeOfLabelIndexedMap.hxx>
+#include <OCAF/TDF/Handle_TDF_IndexedMapNodeOfLabelIndexedMap.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

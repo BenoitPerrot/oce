@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
-#include <Handle_TColgp_HSequenceOfXY.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HSequenceOfXY.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColgp_HSequenceOfXY;

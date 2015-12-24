@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_SequenceNodeOfSequenceOfGeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_SequenceNodeOfSequenceOfGeneralExpression.hxx>
 
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Expr_GeneralExpression;

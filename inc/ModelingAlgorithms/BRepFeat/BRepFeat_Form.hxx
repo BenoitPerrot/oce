@@ -19,8 +19,8 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_StatusError.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopTools_ListOfShape;
 class TopoDS_Shape;

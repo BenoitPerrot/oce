@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_TransientListBinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientListBinder.hxx>
 
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HSequenceOfTransient;
 class Standard_TypeMismatch;

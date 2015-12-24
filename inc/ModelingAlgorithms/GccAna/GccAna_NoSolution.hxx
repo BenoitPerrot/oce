@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_GccAna_NoSolution.hxx>
+#include <ModelingAlgorithms/GccAna/Handle_GccAna_NoSolution.hxx>
 
 #if !defined No_Exception && !defined No_GccAna_NoSolution
   #define GccAna_NoSolution_Raise_if(CONDITION, MESSAGE) \

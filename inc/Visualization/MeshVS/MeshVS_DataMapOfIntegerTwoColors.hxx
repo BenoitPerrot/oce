@@ -13,7 +13,7 @@
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/MeshVS/MeshVS_TwoColors.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerTwoColors.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PTopLoc_ItemLocation_HeaderFile
-#include <Handle_PTopLoc_ItemLocation.hxx>
+#include <OCAF/PTopLoc/Handle_PTopLoc_ItemLocation.hxx>
 #endif
 
 #ifndef _XCAFSchema_Standard_Persistent_HeaderFile

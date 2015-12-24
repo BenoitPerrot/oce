@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDocStd_Document_HeaderFile
-#include <Handle_PDocStd_Document.hxx>
+#include <OCAF/PDocStd/Handle_PDocStd_Document.hxx>
 #endif
 
 #ifndef _StdLSchema_PCDM_Document_HeaderFile

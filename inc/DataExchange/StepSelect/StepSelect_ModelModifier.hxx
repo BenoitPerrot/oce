@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepSelect_ModelModifier.hxx>
+#include <DataExchange/StepSelect/Handle_StepSelect_ModelModifier.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
-#include <Handle_StepData_StepModel.hxx>
-#include <Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 class StepData_StepModel;
 class StepData_Protocol;
 class IFSelect_ContextModif;

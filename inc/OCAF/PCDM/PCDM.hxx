@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_PCDM_StorageDriver.hxx>
-#include <Handle_Storage_Schema.hxx>
-#include <Handle_CDM_Application.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/PCDM/Handle_PCDM_StorageDriver.hxx>
+#include <Foundation/Storage/Handle_Storage_Schema.hxx>
+#include <OCAF/CDM/Handle_CDM_Application.hxx>
 #include <OCAF/PCDM/PCDM_TypeOfFileDriver.hxx>
 #include <OCAF/PCDM/PCDM_BaseDriverPointer.hxx>
 class CDM_Document;

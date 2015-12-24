@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_UndefinedContent.hxx>
+#include <DataExchange/Interface/Handle_Interface_UndefinedContent.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/Interface/Interface_EntityList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TColStd_HArray1OfInteger;
 class Interface_HArray1OfHAsciiString;
 class Standard_OutOfRange;

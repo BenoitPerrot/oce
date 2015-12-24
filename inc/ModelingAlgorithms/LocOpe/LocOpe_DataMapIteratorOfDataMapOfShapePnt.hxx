@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_LocOpe_DataMapNodeOfDataMapOfShapePnt.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_DataMapNodeOfDataMapOfShapePnt.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class gp_Pnt;

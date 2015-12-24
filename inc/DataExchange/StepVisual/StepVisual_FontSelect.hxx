@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepVisual_PreDefinedTextFont.hxx>
-#include <Handle_StepVisual_ExternallyDefinedTextFont.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PreDefinedTextFont.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_ExternallyDefinedTextFont.hxx>
 class Standard_Transient;
 class StepVisual_PreDefinedTextFont;
 class StepVisual_ExternallyDefinedTextFont;

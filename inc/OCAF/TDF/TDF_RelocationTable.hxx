@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TDF/TDF_LabelDataMap.hxx>
 #include <OCAF/TDF/TDF_AttributeDataMap.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TDF_Label;
 class TDF_Attribute;

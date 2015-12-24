@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_GCurve.hxx>
+#include <ModelingData/BRep/Handle_BRep_GCurve.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>

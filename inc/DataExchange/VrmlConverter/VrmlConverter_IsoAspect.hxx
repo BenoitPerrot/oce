@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_VrmlConverter_IsoAspect.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_IsoAspect.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/VrmlConverter/VrmlConverter_LineAspect.hxx>
-#include <Handle_Vrml_Material.hxx>
+#include <DataExchange/Vrml/Handle_Vrml_Material.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Vrml_Material;
 

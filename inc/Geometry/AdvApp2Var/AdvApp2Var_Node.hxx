@@ -12,8 +12,8 @@
 
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColgp_HArray2OfPnt.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TColgp_HArray2OfPnt;
 class TColStd_HArray2OfReal;

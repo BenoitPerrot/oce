@@ -8,24 +8,24 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForFinder.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_ActorOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForFinder.hxx>
 #include <DataExchange/Transfer/Transfer_TransferMapOfProcessForFinder.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Transfer_HSequenceOfFinder.hxx>
-#include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_HSequenceOfFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class Message_Messenger;
 class Transfer_Finder;
 class Transfer_Binder;

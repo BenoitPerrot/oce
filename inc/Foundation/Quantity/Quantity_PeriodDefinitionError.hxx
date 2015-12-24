@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Quantity_PeriodDefinitionError.hxx>
+#include <Foundation/Quantity/Handle_Quantity_PeriodDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Quantity_PeriodDefinitionError
   #define Quantity_PeriodDefinitionError_Raise_if(CONDITION, MESSAGE) \

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Law_Composite.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Composite.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <ModelingAlgorithms/Law/Law_Laws.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/Law/Law_Function.hxx>

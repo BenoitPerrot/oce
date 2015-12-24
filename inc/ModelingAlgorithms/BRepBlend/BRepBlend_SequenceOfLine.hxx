@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_BRepBlend_Line.hxx>
-#include <Handle_BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

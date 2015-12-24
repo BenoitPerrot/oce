@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntPatch_SequenceNodeOfSequenceOfLine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_SequenceNodeOfSequenceOfLine.hxx>
 
-#include <Handle_IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_Line.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IntPatch_Line;

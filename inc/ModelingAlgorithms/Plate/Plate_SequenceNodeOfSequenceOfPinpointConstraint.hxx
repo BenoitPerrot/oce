@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Plate_SequenceNodeOfSequenceOfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Handle_Plate_SequenceNodeOfSequenceOfPinpointConstraint.hxx>
 
 #include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

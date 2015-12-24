@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectExplore.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectExplore.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Interface_EntityIterator;
 class Interface_Graph;
 class Standard_Transient;

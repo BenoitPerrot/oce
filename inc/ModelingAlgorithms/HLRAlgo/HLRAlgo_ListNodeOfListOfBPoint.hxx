@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_ListNodeOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_ListNodeOfListOfBPoint.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_BiPoint.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

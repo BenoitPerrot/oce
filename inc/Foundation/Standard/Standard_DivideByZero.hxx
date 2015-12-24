@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NumericError.hxx>
-#include <Handle_Standard_DivideByZero.hxx>
+#include <Foundation/Standard/Handle_Standard_DivideByZero.hxx>
 
 #if !defined No_Exception && !defined No_Standard_DivideByZero
   #define Standard_DivideByZero_Raise_if(CONDITION, MESSAGE) \

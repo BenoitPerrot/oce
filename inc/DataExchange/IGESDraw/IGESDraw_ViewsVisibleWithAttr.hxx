@@ -8,20 +8,20 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDraw_ViewsVisibleWithAttr.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_ViewsVisibleWithAttr.hxx>
 
-#include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_IGESBasic_HArray1OfLineFontEntity.hxx>
-#include <Handle_IGESGraph_HArray1OfColor.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_HArray1OfLineFontEntity.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_HArray1OfColor.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_ViewKindEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_ViewKindEntity.hxx>
-#include <Handle_IGESData_LineFontEntity.hxx>
-#include <Handle_IGESGraph_Color.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_Color.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 class IGESDraw_HArray1OfViewKindEntity;
 class TColStd_HArray1OfInteger;
 class IGESBasic_HArray1OfLineFontEntity;

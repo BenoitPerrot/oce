@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_SolidAssembly.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_SolidAssembly.hxx>
 
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <Handle_IGESGeom_HArray1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_HArray1OfTransformationMatrix.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_TransformationMatrix.hxx>
 class IGESData_HArray1OfIGESEntity;
 class IGESGeom_HArray1OfTransformationMatrix;
 class Standard_DimensionMismatch;

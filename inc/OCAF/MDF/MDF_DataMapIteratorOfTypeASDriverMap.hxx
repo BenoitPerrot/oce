@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_MDF_ASDriver.hxx>
-#include <Handle_MDF_DataMapNodeOfTypeASDriverMap.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_DataMapNodeOfTypeASDriverMap.hxx>
 class Standard_NoSuchObject;
 class Standard_Type;
 class MDF_ASDriver;

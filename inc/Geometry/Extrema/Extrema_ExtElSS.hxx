@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_Extrema_HArray1OfPOnSurf.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/Extrema/Handle_Extrema_HArray1OfPOnSurf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TColStd_HArray1OfReal;
 class Extrema_HArray1OfPOnSurf;

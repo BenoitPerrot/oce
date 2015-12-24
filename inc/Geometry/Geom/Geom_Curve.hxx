@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 
 #include <Geometry/Geom/Geom_Geometry.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

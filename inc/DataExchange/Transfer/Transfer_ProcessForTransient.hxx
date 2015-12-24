@@ -8,23 +8,23 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForTransient.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfInteger.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_ActorOfProcessForTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForTransient.hxx>
 #include <DataExchange/Transfer/Transfer_TransferMapOfProcessForTransient.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class Message_Messenger;
 class Standard_Transient;
 class Transfer_Binder;

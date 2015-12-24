@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelShape.hxx>
 class Standard_NoSuchObject;
 class TDF_Label;
 class TopoDS_Shape;

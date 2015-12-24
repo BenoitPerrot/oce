@@ -13,7 +13,7 @@
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

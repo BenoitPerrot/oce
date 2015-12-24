@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_HArray1OfVertexList.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_HArray1OfVertexList.hxx>
 
 #include <DataExchange/IGESSolid/IGESSolid_Array1OfVertexList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_VertexList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

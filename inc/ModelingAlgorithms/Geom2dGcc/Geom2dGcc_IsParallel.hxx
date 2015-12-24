@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Geom2dGcc_IsParallel.hxx>
+#include <ModelingAlgorithms/Geom2dGcc/Handle_Geom2dGcc_IsParallel.hxx>
 
 #if !defined No_Exception && !defined No_Geom2dGcc_IsParallel
   #define Geom2dGcc_IsParallel_Raise_if(CONDITION, MESSAGE) \

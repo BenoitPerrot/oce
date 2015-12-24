@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TopOpeBRepDS_Interference.hxx>
-#include <Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeInterference.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopOpeBRepDS_Interference;

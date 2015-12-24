@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_ListNodeOfListOfDocument.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_ListNodeOfListOfDocument.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

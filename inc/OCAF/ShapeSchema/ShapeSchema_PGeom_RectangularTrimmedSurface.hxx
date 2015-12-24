@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom_RectangularTrimmedSurface_HeaderFile
-#include <Handle_PGeom_RectangularTrimmedSurface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_RectangularTrimmedSurface.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom_BoundedSurface_HeaderFile

@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TColgp_HSequenceOfXYZ.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HSequenceOfXYZ.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESGeom_CopiousData.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_CopiousData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_TransformationMatrix.hxx>
 class TColgp_HSequenceOfXYZ;
 class Standard_DomainError;
 class gp_XY;

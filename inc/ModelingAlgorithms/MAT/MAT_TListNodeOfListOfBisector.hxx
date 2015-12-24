@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_TListNodeOfListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_TListNodeOfListOfBisector.hxx>
 
-#include <Handle_MAT_TListNodeOfListOfBisector.hxx>
-#include <Handle_MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_TListNodeOfListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Bisector.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MAT_ListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_ListOfBisector.hxx>
 class MAT_Bisector;
 class MAT_ListOfBisector;
 

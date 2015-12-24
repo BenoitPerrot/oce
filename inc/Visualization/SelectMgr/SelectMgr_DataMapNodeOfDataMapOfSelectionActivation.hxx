@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
 
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>

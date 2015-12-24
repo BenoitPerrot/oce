@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_ShareOut.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_ShareOut.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_TSeqOfDispatch.hxx>
 #include <DataExchange/IFSelect/IFSelect_SequenceOfGeneralModifier.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_IFSelect_Dispatch.hxx>
-#include <Handle_IFSelect_GeneralModifier.hxx>
-#include <Handle_IFSelect_Modifier.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Modifier.hxx>
 class TCollection_HAsciiString;
 class Interface_InterfaceError;
 class Standard_OutOfRange;

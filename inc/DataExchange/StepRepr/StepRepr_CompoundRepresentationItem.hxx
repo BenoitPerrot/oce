@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_CompoundRepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_CompoundRepresentationItem.hxx>
 
-#include <Handle_StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_HArray1OfRepresentationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
 class StepRepr_HArray1OfRepresentationItem;
 class TCollection_HAsciiString;
 class StepRepr_RepresentationItem;

@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom_OffsetSurface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_OffsetSurface.hxx>
 
-#include <Handle_PGeom_Surface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <OCAF/PGeom/PGeom_Surface.hxx>
 class PGeom_Surface;

@@ -22,10 +22,10 @@
 #include <ModelingAlgorithms/BRepFeat/BRepFeat_StatusError.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Plane.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Plane.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
 class TopoDS_Shape;
 class TopTools_ListOfShape;
 class gp_Pnt;

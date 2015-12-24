@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_SignLabel.hxx>
+#include <DataExchange/Interface/Handle_Interface_SignLabel.hxx>
 
 #include <DataExchange/MoniTool/MoniTool_SignText.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class TCollection_AsciiString;
 class Standard_Transient;
 

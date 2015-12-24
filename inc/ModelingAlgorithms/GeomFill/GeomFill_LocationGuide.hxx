@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_LocationGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationGuide.hxx>
 
-#include <Handle_GeomFill_TrihedronWithGuide.hxx>
-#include <Handle_GeomFill_SectionLaw.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
-#include <Handle_TColgp_HArray2OfPnt2d.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronWithGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -21,10 +21,10 @@
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_PipeError.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
-#include <Handle_GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_TColgp_HArray1OfPnt2d.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
 class GeomFill_TrihedronWithGuide;
 class GeomFill_SectionLaw;
 class Adaptor3d_HCurve;

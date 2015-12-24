@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <OCAF/DBC/DBC_BaseArray.hxx>
-#include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NegativeValue;

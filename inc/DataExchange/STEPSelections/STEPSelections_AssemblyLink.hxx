@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPSelections_AssemblyLink.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_AssemblyLink.hxx>
 
-#include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_STEPSelections_AssemblyComponent.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_AssemblyComponent.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_NextAssemblyUsageOccurrence;
 class Standard_Transient;

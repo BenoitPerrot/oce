@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <DataExchange/Transfer/Transfer_TransferFailure.hxx>
-#include <Handle_Transfer_TransferDeadLoop.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransferDeadLoop.hxx>
 
 #if !defined No_Exception && !defined No_Transfer_TransferDeadLoop
   #define Transfer_TransferDeadLoop_Raise_if(CONDITION, MESSAGE) \

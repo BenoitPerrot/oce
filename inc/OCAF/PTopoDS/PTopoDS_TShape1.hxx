@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_TShape1.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_TShape1.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PTopoDS_HArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HArray1OfShape1.hxx>
 #include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>

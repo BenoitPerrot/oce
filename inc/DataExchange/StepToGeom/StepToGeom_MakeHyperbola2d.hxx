@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Hyperbola.hxx>
-#include <Handle_Geom2d_Hyperbola.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Hyperbola.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Hyperbola.hxx>
 class StepGeom_Hyperbola;
 class Geom2d_Hyperbola;
 

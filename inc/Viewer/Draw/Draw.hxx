@@ -13,10 +13,10 @@
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Draw_ProgressIndicator.hxx>
+#include <Viewer/Draw/Handle_Draw_ProgressIndicator.hxx>
 class TCollection_AsciiString;
 class Draw_Drawable3D;
 class Draw_ProgressIndicator;

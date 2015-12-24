@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralRelation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Expr_GeneralExpression;
 class Expr_GeneralRelation;

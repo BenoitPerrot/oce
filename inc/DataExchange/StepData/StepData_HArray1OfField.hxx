@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_HArray1OfField.hxx>
+#include <DataExchange/StepData/Handle_StepData_HArray1OfField.hxx>
 
 #include <DataExchange/StepData/StepData_Array1OfField.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

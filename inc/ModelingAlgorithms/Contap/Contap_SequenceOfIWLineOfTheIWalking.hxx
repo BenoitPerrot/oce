@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_Contap_TheIWLineOfTheIWalking.hxx>
-#include <Handle_Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_TheIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

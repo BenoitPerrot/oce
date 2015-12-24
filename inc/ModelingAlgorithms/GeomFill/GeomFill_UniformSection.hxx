@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_UniformSection.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_UniformSection.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 class Geom_Curve;

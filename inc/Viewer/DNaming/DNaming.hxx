@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDataStd_Real.hxx>
-#include <Handle_TFunction_Function.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_Real.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Function.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TDataStd_Integer.hxx>
-#include <Handle_TDataStd_Name.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_Integer.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_Name.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
-#include <Handle_TDataStd_UAttribute.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_UAttribute.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDataStd_Real;
 class TFunction_Function;

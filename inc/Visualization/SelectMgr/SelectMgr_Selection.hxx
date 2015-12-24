@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 
 #include <Visualization/SelectBasics/SelectBasics_ListOfSensitive.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfSensitive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/SelectMgr/SelectMgr_TypeOfUpdate.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NullObject;
 class SelectBasics_SensitiveEntity;

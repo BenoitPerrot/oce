@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianPoint.hxx>
 class StepGeom_CartesianPoint;
 class StepToTopoDS_PointPairHasher;
 

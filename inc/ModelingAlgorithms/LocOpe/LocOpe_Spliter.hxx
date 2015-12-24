@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <Handle_LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_WiresOnShape.hxx>
 class StdFail_NotDone;
 class Standard_NullObject;
 class Standard_NoSuchObject;

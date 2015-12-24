@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Relation.hxx>
+#include <Visualization/AIS/Handle_AIS_Relation.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_Geom_Plane.hxx>
+#include <Geometry/Geom/Handle_Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
@@ -19,7 +19,7 @@
 #include <Visualization/DsgPrs/DsgPrs_ArrowSide.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Pln.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Visualization/AIS/AIS_KindOfSurface.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
@@ -27,8 +27,8 @@
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Visualization/AIS/AIS_KindOfDimension.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfMarker.hxx>
 class Geom_Plane;

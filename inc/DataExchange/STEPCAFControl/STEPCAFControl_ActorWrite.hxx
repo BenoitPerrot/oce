@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPCAFControl_ActorWrite.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ActorWrite.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>

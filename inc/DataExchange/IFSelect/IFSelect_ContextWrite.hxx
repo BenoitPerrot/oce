@@ -10,18 +10,18 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_IFSelect_AppliedModifiers.hxx>
-#include <Handle_Interface_HGraph.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_AppliedModifiers.hxx>
+#include <DataExchange/Interface/Handle_Interface_HGraph.hxx>
 #include <DataExchange/Interface/Interface_CheckIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_GeneralModifier.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class Interface_InterfaceModel;
 class Interface_Protocol;
 class IFSelect_AppliedModifiers;

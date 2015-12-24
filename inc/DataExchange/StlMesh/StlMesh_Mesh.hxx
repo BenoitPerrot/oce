@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_Mesh.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/StlMesh/StlMesh_SequenceOfMeshDomain.hxx>

@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRBRep_InternalAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_InternalAlgo.hxx>
 
-#include <Handle_HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_Data.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_SeqOfShapeBounds.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/BRepTopAdaptor_MapOfShapeTool.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_HLRTopoBRep_OutLiner.hxx>
-#include <Handle_MMgt_TShared.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_OutLiner.hxx>
+#include <Foundation/MMgt/Handle_MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class HLRBRep_Data;
 class Standard_OutOfRange;

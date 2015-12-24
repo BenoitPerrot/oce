@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_SurfaceSection.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SurfaceSection.hxx>
 
 #include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

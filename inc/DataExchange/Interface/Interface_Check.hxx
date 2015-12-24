@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/Interface/Interface_CheckStatus.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 class TColStd_HSequenceOfHAsciiString;
 class Standard_Transient;
 class Standard_OutOfRange;

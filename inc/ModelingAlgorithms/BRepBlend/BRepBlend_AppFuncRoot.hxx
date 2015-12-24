@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepBlend_AppFuncRoot.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_AppFuncRoot.hxx>
 
-#include <Handle_BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_Line.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>

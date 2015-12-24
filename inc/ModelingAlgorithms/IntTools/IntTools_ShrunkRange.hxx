@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Handle_IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IntTools_Context;
 class TopoDS_Edge;

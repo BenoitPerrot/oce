@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <Handle_TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_Constraint.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TDataXtd_Constraint;
 class DDataStd_DrawPresentation;

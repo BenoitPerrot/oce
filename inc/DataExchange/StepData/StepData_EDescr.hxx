@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_EDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_EDescr.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_StepData_Described.hxx>
+#include <DataExchange/StepData/Handle_StepData_Described.hxx>
 class StepData_Described;
 
 

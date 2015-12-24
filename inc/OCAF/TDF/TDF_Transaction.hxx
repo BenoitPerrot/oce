@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_TDF_Delta.hxx>
+#include <OCAF/TDF/Handle_TDF_Delta.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TDF_Data;
 class Standard_DomainError;

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_SplitCurve2d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_SplitCurve2d.hxx>
 
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_TColGeom2d_HArray1OfCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_HArray1OfCurve.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

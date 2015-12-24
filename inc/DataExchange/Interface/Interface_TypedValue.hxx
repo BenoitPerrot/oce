@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Handle_Interface_TypedValue.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_TColStd_HArray1OfAsciiString.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfAsciiString.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <DataExchange/MoniTool/MoniTool_TypedValue.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>

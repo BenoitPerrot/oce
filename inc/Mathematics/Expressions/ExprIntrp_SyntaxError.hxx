@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_ExprIntrp_SyntaxError.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_SyntaxError.hxx>
 
 #if !defined No_Exception && !defined No_ExprIntrp_SyntaxError
   #define ExprIntrp_SyntaxError_Raise_if(CONDITION, MESSAGE) \

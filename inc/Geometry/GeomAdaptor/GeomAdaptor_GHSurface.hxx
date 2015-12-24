@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomAdaptor_GHSurface.hxx>
+#include <Geometry/GeomAdaptor/Handle_GeomAdaptor_GHSurface.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>

@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
+#include <Viewer/XSDRAWSTLVRML/Handle_XSDRAWSTLVRML_DataMapNodeOfCoordsMap.hxx>
 class Standard_NoSuchObject;
 class TColStd_DataMapOfIntegerReal;
 class TColStd_MapIntegerHasher;

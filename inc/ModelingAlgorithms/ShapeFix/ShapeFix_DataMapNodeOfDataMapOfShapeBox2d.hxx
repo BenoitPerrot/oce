@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

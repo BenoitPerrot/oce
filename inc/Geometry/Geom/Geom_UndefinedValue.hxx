@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Geom_UndefinedValue.hxx>
+#include <Geometry/Geom/Handle_Geom_UndefinedValue.hxx>
 
 #if !defined No_Exception && !defined No_Geom_UndefinedValue
   #define Geom_UndefinedValue_Raise_if(CONDITION, MESSAGE) \

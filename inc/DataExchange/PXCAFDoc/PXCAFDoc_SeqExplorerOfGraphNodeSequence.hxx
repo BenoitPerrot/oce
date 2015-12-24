@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/Handle_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PXCAFDoc_GraphNodeSequence.hxx>
-#include <Handle_PXCAFDoc_GraphNode.hxx>
+#include <DataExchange/PXCAFDoc/Handle_PXCAFDoc_GraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/Handle_PXCAFDoc_GraphNode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class PXCAFDoc_SeqNodeOfGraphNodeSequence;
 class PXCAFDoc_GraphNodeSequence;

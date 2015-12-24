@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawTrSurf_BSplineCurve2d.hxx>
+#include <Viewer/DrawTrSurf/Handle_DrawTrSurf_BSplineCurve2d.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_MarkerShape.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 class Geom2d_BSplineCurve;
 class Draw_Color;
 class Draw_Display;

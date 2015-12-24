@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_FreeFormatEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_FreeFormatEntity.hxx>
 
-#include <Handle_TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_UndefinedEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 class TColStd_HSequenceOfInteger;
 class Standard_OutOfRange;
 class Interface_InterfaceError;

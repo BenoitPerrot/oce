@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PColStd_HArray2OfReal_HeaderFile
-#include <Handle_PColStd_HArray2OfReal.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray2OfReal.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

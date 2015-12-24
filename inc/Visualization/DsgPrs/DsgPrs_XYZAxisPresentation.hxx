@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_LineAspect.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Prs3d_ArrowAspect.hxx>
-#include <Handle_Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_TextAspect.hxx>
 class Prs3d_Presentation;
 class Prs3d_LineAspect;
 class gp_Dir;

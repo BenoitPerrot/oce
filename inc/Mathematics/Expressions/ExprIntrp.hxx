@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ExprIntrp_Generator.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_Generator.hxx>
 class ExprIntrp_Generator;
 class TCollection_AsciiString;
 class ExprIntrp_Generator;

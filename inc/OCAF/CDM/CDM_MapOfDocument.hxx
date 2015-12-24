@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_StdMapNodeOfMapOfDocument.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_StdMapNodeOfMapOfDocument.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class CDM_Document;

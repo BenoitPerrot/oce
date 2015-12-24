@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_HSeqOfRoot.hxx>
+#include <Foundation/Storage/Handle_Storage_HSeqOfRoot.hxx>
 
 #include <Foundation/Storage/Storage_SeqOfRoot.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Storage_Root.hxx>
+#include <Foundation/Storage/Handle_Storage_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

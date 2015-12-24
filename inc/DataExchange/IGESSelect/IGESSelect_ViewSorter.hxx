@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_ViewSorter.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_ViewSorter.hxx>
 
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IFSelect_PacketList.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_PacketList.hxx>
 class IGESData_IGESModel;
 class Standard_Transient;
 class IGESData_IGESEntity;

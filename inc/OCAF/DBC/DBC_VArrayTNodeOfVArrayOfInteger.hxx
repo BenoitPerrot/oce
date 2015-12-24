@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_DBC_VArrayNodeOfVArrayOfInteger.hxx>
+#include <OCAF/DBC/Handle_DBC_VArrayNodeOfVArrayOfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class DBC_VArrayOfInteger;
 class DBC_VArrayNodeOfVArrayOfInteger;

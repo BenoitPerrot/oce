@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class STEPCAFControl_DictionaryOfExternFile;
 class STEPCAFControl_StackItemOfDictionaryOfExternFile;

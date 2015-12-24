@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ColorEntity.hxx>
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 

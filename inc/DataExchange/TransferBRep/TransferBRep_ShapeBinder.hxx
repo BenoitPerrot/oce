@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TransferBRep_ShapeBinder.hxx>
+#include <DataExchange/TransferBRep/Handle_TransferBRep_ShapeBinder.hxx>
 
 #include <DataExchange/TransferBRep/TransferBRep_BinderOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

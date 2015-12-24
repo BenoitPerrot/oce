@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
 class Standard_NoSuchObject;
 class TCollection_ExtendedString;
 class TDataStd_DataMapOfStringReal;

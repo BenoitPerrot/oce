@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Vrml_AsciiText.hxx>
+#include <DataExchange/Vrml/Handle_Vrml_AsciiText.hxx>
 
-#include <Handle_TColStd_HArray1OfAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/Vrml/Vrml_AsciiTextJustification.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

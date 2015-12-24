@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Interface_NodeOfReaderLib.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_ReaderModule.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_GlobalNodeOfReaderLib.hxx>
+#include <DataExchange/Interface/Handle_Interface_NodeOfReaderLib.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_ReaderModule.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_GlobalNodeOfReaderLib.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_NodeOfReaderLib;

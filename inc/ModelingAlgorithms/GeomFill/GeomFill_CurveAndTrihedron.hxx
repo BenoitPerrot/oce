@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_CurveAndTrihedron.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_CurveAndTrihedron.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_GeomFill_TrihedronLaw.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronLaw.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_LocationLaw.hxx>
-#include <Handle_GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>

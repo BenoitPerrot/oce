@@ -12,10 +12,10 @@
 
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepReaderData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepData_Protocol.hxx>
-#include <Handle_StepData_FileProtocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_FileProtocol.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class StepData_StepReaderData;
 class TColStd_SequenceOfAsciiString;

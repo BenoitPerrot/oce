@@ -12,7 +12,7 @@
 
 #include <OCAF/TNaming/TNaming_PtrNode.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
 class Standard_NoMoreObject;

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_RadiusDimension.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_RadiusDimension.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Handle_IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LeaderArrow.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

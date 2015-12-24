@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_GccEnt_BadQualifier.hxx>
+#include <ModelingAlgorithms/GccEnt/Handle_GccEnt_BadQualifier.hxx>
 
 #if !defined No_Exception && !defined No_GccEnt_BadQualifier
   #define GccEnt_BadQualifier_Raise_if(CONDITION, MESSAGE) \

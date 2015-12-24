@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PCDM_Reader.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Reader.hxx>
 
 #include <OCAF/PCDM/PCDM_ReaderStatus.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_Application.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Application.hxx>
 class PCDM_DriverError;
 class CDM_Document;
 class TCollection_ExtendedString;

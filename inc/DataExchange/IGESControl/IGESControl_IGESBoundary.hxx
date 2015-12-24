@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESControl_IGESBoundary.hxx>
+#include <DataExchange/IGESControl/Handle_IGESControl_IGESBoundary.hxx>
 
 #include <DataExchange/IGESToBRep/IGESToBRep_IGESBoundary.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESToBRep_CurveAndSurface;
 class IGESData_IGESEntity;

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGraph_LineFontDefTemplate.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_LineFontDefTemplate.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_SubfigureDef.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 class IGESBasic_SubfigureDef;

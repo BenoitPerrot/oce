@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_ExclusionFilter.hxx>
+#include <Visualization/AIS/Handle_AIS_ExclusionFilter.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerListOfInteger.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;
 class TColStd_ListOfInteger;
 

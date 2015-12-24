@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_BRepFill_PipeShell.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_PipeShell.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeSweep.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TypeOfContact.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_PipeError.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

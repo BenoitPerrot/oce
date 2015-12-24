@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Dico_DictionaryOfTransient;

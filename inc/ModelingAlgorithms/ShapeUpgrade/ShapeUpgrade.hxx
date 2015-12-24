@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
-#include <Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Handle_TColGeom2d_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_HSequenceOfBoundedCurve.hxx>
 class Geom_BSplineCurve;
 class TColGeom_HSequenceOfBoundedCurve;
 class Geom2d_BSplineCurve;

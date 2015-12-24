@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
@@ -24,11 +24,11 @@
 #include <Mathematics/Primitives/gp_Cone.hxx>
 #include <Mathematics/Primitives/gp_Torus.hxx>
 #include <Mathematics/Primitives/gp_Sphere.hxx>
-#include <Handle_Geom_BezierSurface.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class TColStd_Array1OfReal;

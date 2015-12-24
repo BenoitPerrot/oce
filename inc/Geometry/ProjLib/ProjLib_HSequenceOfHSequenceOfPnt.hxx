@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ProjLib_HSequenceOfHSequenceOfPnt.hxx>
+#include <Geometry/ProjLib/Handle_ProjLib_HSequenceOfHSequenceOfPnt.hxx>
 
 #include <Geometry/ProjLib/ProjLib_SequenceOfHSequenceOfPnt.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TColgp_HSequenceOfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HSequenceOfPnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

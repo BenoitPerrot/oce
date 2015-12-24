@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_MoniTool_Profile.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Profile.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_Transient;
 class MoniTool_Profile;

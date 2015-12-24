@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TestTopOpeDraw_DrawableC2D.hxx>
+#include <Viewer/TestTopOpeDraw/Handle_TestTopOpeDraw_DrawableC2D.hxx>
 
-#include <Handle_Draw_Text2D.hxx>
+#include <Viewer/Draw/Handle_Draw_Text2D.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve2d.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

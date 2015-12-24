@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
+#include <OCAF/TNaming/Handle_TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TNaming_ShapesSet;

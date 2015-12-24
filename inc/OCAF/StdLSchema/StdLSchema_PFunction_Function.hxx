@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PFunction_Function_HeaderFile
-#include <Handle_PFunction_Function.hxx>
+#include <OCAF/PFunction/Handle_PFunction_Function.hxx>
 #endif
 
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile

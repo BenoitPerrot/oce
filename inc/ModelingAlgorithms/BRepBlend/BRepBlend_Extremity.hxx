@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HVertex.hxx>
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_SequenceOfPointOnRst.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Adaptor3d_HVertex;
 class Standard_DomainError;

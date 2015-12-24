@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Geom2d_BSplineCurve;
 class Standard_DimensionError;

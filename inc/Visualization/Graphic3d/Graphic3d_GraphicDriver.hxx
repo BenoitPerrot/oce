@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_GraphicDriver.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection_Handle.hxx>
@@ -17,7 +17,7 @@
 #include <Visualization/Graphic3d/Graphic3d_CView.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CStructure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CStructure_Handle.hxx>
-#include <Handle_Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_StructureManager.hxx>
 #include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Visualization/Aspect/Aspect_FillMethod.hxx>

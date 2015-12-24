@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/IGESControl/IGESControl_Writer.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
-#include <Handle_TDocStd_Document.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class XSControl_WorkSession;
 class TDocStd_Document;

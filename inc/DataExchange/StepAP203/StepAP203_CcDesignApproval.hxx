@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_CcDesignApproval.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_CcDesignApproval.hxx>
 
-#include <Handle_StepAP203_HArray1OfApprovedItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfApprovedItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApprovalAssignment.hxx>
-#include <Handle_StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Approval.hxx>
 class StepAP203_HArray1OfApprovedItem;
 class StepBasic_Approval;
 

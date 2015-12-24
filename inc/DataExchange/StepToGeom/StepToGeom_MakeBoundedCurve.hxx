@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_BoundedCurve.hxx>
-#include <Handle_Geom_BoundedCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BoundedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BoundedCurve.hxx>
 class StepGeom_BoundedCurve;
 class Geom_BoundedCurve;
 

@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_BitMap.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Interface_GTool.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <DataExchange/Interface/Handle_Interface_GTool.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_InterfaceModel;
 class TColStd_HSequenceOfTransient;

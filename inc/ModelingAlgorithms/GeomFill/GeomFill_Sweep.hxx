@@ -12,15 +12,15 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_GeomFill_LocationLaw.hxx>
-#include <Handle_GeomFill_SectionLaw.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_TColGeom2d_HArray1OfCurve.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_HArray1OfCurve.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_ApproxStyle.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 class GeomFill_LocationLaw;
 class GeomFill_SectionLaw;
 class Geom_Surface;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntTools_ListNodeOfListOfBox.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_ListNodeOfListOfBox.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

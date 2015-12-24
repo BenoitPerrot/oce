@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_TransferBRep_TransferResultInfo.hxx>
-#include <Handle_TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/Handle_TransferBRep_TransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/Handle_TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

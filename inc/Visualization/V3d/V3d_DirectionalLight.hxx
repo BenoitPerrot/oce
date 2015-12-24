@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_V3d_DirectionalLight.hxx>
+#include <Visualization/V3d/Handle_V3d_DirectionalLight.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
 #include <Visualization/V3d/V3d_PositionLight.hxx>
-#include <Handle_V3d_Viewer.hxx>
+#include <Visualization/V3d/Handle_V3d_Viewer.hxx>
 #include <Visualization/V3d/V3d_TypeOfOrientation.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/V3d/V3d_Coordinate.hxx>
 #include <Foundation/Quantity/Quantity_Parameter.hxx>
-#include <Handle_V3d_View.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
 #include <Visualization/V3d/V3d_TypeOfRepresentation.hxx>
-#include <Handle_Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
 class V3d_BadValue;
 class V3d_Viewer;
 class V3d_View;

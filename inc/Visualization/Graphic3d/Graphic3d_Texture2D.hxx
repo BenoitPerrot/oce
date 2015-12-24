@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_Texture2D.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Texture2D.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_NameOfTexture2D.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TextureMap.hxx>

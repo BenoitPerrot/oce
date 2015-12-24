@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TFunction_Driver.hxx>
-#include <Handle_TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Driver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 class Standard_NoSuchObject;
 class Standard_GUID;
 class TFunction_Driver;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draw_Text2D.hxx>
+#include <Viewer/Draw/Handle_Draw_Text2D.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>

@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#include <Handle_Bnd_HArray1OfBox2d.hxx>
+#include <Mathematics/BoundingVolumes/Handle_Bnd_HArray1OfBox2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfListOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfListOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 class Bnd_HArray1OfBox2d;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_CDM_MetaData.hxx>
-#include <Handle_CDM_DataMapNodeOfMetaDataLookUpTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_DataMapNodeOfMetaDataLookUpTable.hxx>
 class Standard_NoSuchObject;
 class TCollection_ExtendedString;
 class CDM_MetaData;

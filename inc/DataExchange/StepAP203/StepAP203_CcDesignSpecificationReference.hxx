@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_CcDesignSpecificationReference.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_CcDesignSpecificationReference.hxx>
 
-#include <Handle_StepAP203_HArray1OfSpecifiedItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfSpecifiedItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_DocumentReference.hxx>
-#include <Handle_StepBasic_Document.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Document.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepAP203_HArray1OfSpecifiedItem;
 class StepBasic_Document;
 class TCollection_HAsciiString;

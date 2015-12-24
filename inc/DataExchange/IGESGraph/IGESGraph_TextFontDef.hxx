@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextFontDef.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IGESGraph_TextFontDef.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextFontDef.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TCollection_HAsciiString;

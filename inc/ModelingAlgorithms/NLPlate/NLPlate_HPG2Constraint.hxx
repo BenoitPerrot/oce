@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_NLPlate_HPG2Constraint.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_HPG2Constraint.hxx>
 
 #include <ModelingAlgorithms/Plate/Plate_D2.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_HPG1Constraint.hxx>

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_HSeqOfSelection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_HSeqOfSelection.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_TSeqOfSelection.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

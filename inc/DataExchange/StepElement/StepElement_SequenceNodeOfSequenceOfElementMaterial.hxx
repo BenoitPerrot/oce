@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_SequenceNodeOfSequenceOfElementMaterial.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SequenceNodeOfSequenceOfElementMaterial.hxx>
 
-#include <Handle_StepElement_ElementMaterial.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_ElementMaterial.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepElement_ElementMaterial;

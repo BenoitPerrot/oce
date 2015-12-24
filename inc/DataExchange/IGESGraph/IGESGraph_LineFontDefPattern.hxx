@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGraph_LineFontDefPattern.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_LineFontDefPattern.hxx>
 
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_LineFontEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_Interference;
 class TopOpeBRepDS_ListIteratorOfListOfInterference;

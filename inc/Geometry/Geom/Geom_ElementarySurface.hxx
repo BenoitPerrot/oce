@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_ElementarySurface.hxx>
+#include <Geometry/Geom/Handle_Geom_ElementarySurface.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>

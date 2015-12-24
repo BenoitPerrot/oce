@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
+#include <ModelingAlgorithms/BRepClass3d/Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;

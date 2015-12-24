@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepAdaptor_HCompCurve.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HCompCurve.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_CompCurve.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

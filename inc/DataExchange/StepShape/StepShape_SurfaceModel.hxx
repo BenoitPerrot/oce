@@ -12,8 +12,8 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepShape_ShellBasedSurfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShellBasedSurfaceModel.hxx>
 class Standard_Transient;
 class StepShape_ShellBasedSurfaceModel;
 

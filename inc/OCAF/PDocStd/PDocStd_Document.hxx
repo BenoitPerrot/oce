@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDocStd_Document.hxx>
+#include <OCAF/PDocStd/Handle_PDocStd_Document.hxx>
 
-#include <Handle_PDF_Data.hxx>
+#include <OCAF/PDF/Handle_PDF_Data.hxx>
 #include <OCAF/PCDM/PCDM_Document.hxx>
 class PDF_Data;
 

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
-#include <Handle_TopTools_HArray1OfShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray1OfShape.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
 #include <OCAF/TNaming/TNaming_NameType.hxx>

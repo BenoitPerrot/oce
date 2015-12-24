@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/AIS/Handle_AIS_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

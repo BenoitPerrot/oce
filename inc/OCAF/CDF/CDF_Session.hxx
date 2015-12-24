@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDF_Session.hxx>
+#include <OCAF/CDF/Handle_CDF_Session.hxx>
 
-#include <Handle_CDF_Directory.hxx>
-#include <Handle_CDF_Application.hxx>
+#include <OCAF/CDF/Handle_CDF_Directory.hxx>
+#include <OCAF/CDF/Handle_CDF_Application.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/Handle_CDF_MetaDataDriver.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 class CDF_Directory;
 class CDF_Application;

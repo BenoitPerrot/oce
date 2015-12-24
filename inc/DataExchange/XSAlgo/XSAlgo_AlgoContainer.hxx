@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/Handle_XSAlgo_AlgoContainer.hxx>
 
-#include <Handle_XSAlgo_ToolContainer.hxx>
+#include <DataExchange/XSAlgo/Handle_XSAlgo_ToolContainer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 class XSAlgo_ToolContainer;
 class TopoDS_Shape;
 class Standard_Transient;

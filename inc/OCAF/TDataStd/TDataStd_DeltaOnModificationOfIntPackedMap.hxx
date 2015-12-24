@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_DeltaOnModificationOfIntPackedMap.hxx>
 
-#include <Handle_TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HPackedMapOfInteger.hxx>
 #include <OCAF/TDF/TDF_DeltaOnModification.hxx>
-#include <Handle_TDataStd_IntPackedMap.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_IntPackedMap.hxx>
 class TColStd_HPackedMapOfInteger;
 class TDataStd_IntPackedMap;
 

@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_Layer.hxx>
 
-#include <Handle_Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_GraphicDriver.hxx>
 #include <Visualization/Aspect/Aspect_CLayer2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visualization/Visual3d/Visual3d_NListOfLayerItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_ViewManager.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLayer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -25,7 +25,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfDisplayText.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Visual3d_LayerItem.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_LayerItem.hxx>
 class Graphic3d_GraphicDriver;
 class Visual3d_LayerDefinitionError;
 class Visual3d_ViewManager;

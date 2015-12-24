@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/BRepLib/BRepLib_FaceError.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeShape.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;

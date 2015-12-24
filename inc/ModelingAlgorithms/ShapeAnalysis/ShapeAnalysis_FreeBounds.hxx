@@ -13,7 +13,7 @@
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 class TopoDS_Shape;
 class TopoDS_Compound;
 class TopTools_HSequenceOfShape;

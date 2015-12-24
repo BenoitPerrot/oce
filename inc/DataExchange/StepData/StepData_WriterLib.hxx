@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepData_NodeOfWriterLib.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepData_ReadWriteModule.hxx>
-#include <Handle_StepData_Protocol.hxx>
-#include <Handle_StepData_GlobalNodeOfWriterLib.hxx>
+#include <DataExchange/StepData/Handle_StepData_NodeOfWriterLib.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepData/Handle_StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_GlobalNodeOfWriterLib.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepData_NodeOfWriterLib;

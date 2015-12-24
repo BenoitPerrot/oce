@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_IndexedDataMapNodeOfIndexedDataMapOfOwnerPrs.hxx>
 
-#include <Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StdSelect_Prs.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_Prs.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 class SelectBasics_EntityOwner;

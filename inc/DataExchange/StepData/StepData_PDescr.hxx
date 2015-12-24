@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_PDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_PDescr.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepData_PDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_PDescr.hxx>
 #include <DataExchange/StepData/StepData_EnumTool.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_StepData_EDescr.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/StepData/Handle_StepData_EDescr.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class Standard_Type;
 class StepData_EDescr;
 class StepData_Field;

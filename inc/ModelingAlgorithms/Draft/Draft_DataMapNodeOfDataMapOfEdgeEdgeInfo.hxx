@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo.hxx>
+#include <ModelingAlgorithms/Draft/Handle_Draft_DataMapNodeOfDataMapOfEdgeEdgeInfo.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingAlgorithms/Draft/Draft_EdgeInfo.hxx>

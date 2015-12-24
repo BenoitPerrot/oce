@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -23,8 +23,8 @@
 #include <Mathematics/Primitives/gp_Elips2d.hxx>
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <Mathematics/Primitives/gp_Parab2d.hxx>
-#include <Handle_Geom2d_BezierCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class Standard_DomainError;

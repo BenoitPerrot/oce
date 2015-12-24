@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_SequenceNodeOfSequenceOfSelection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SequenceNodeOfSequenceOfSelection.hxx>
 
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class SelectMgr_Selection;

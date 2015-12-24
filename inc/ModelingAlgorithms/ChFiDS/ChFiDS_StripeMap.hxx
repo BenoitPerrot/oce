@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_IndexedDataMapOfVertexListOfStripe.hxx>
-#include <Handle_ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Stripe.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Vertex;
 class ChFiDS_Stripe;

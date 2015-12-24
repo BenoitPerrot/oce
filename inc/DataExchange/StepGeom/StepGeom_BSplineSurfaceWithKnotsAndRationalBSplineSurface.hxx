@@ -8,20 +8,20 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 
-#include <Handle_StepGeom_BSplineSurfaceWithKnots.hxx>
-#include <Handle_StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BSplineSurfaceWithKnots.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_RationalBSplineSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineSurface.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray2OfCartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineSurfaceForm.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <DataExchange/StepGeom/StepGeom_KnotType.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_BSplineSurfaceWithKnots;
 class StepGeom_RationalBSplineSurface;

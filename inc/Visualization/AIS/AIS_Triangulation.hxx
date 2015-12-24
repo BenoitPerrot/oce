@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Triangulation.hxx>
+#include <Visualization/AIS/Handle_AIS_Triangulation.hxx>
 
-#include <Handle_Poly_Triangulation.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Poly_Triangulation;
 class TColStd_HArray1OfInteger;

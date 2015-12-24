@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectControl.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectControl.hxx>
 
-#include <Handle_IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
 #include <DataExchange/IFSelect/IFSelect_Selection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IFSelect_Selection;

@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_SelectionManager.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectionManager.hxx>
 
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Visualization/SelectMgr/SelectMgr_DataMapOfObjectSelectors.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_SelectMgr_ViewerSelector.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_ViewerSelector.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/SelectMgr/SelectMgr_TypeOfUpdate.hxx>
 class SelectMgr_ViewerSelector;

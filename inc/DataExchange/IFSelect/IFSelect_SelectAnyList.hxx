@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectAnyList.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectAnyList.hxx>
 
-#include <Handle_IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_IntParam.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IFSelect_IntParam;
 class Standard_OutOfRange;

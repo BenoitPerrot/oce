@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BinLDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinLDrivers/Handle_BinLDrivers_DocumentStorageDriver.hxx>
 
 #include <OCAF/BinObjMgt/BinObjMgt_Persistent.hxx>
-#include <Handle_BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_ADriverTable.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_SRelocationTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <OCAF/TDF/TDF_LabelList.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <OCAF/BinLDrivers/BinLDrivers_VectorOfDocumentSection.hxx>
 #include <OCAF/PCDM/PCDM_StorageDriver.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;
 class TCollection_ExtendedString;

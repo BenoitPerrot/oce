@@ -12,13 +12,13 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepShape_Sphere.hxx>
-#include <Handle_StepShape_Block.hxx>
-#include <Handle_StepShape_RightAngularWedge.hxx>
-#include <Handle_StepShape_Torus.hxx>
-#include <Handle_StepShape_RightCircularCone.hxx>
-#include <Handle_StepShape_RightCircularCylinder.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Sphere.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Block.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_RightAngularWedge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Torus.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_RightCircularCone.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_RightCircularCylinder.hxx>
 class Standard_Transient;
 class StepShape_Sphere;
 class StepShape_Block;

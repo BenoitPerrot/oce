@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ApprovalDateTime.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApprovalDateTime.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_DateTimeSelect.hxx>
-#include <Handle_StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Approval.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Approval;
 class StepBasic_DateTimeSelect;

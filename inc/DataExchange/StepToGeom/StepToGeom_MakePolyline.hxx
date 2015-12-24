@@ -12,8 +12,8 @@
 
 #include <DataExchange/StepToGeom/StepToGeom_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Polyline.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Polyline.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 class StepGeom_Polyline;
 class Geom_BSplineCurve;
 

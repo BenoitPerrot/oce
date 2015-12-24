@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_DataMapNodeOfDataMapOfShapeLabel.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>

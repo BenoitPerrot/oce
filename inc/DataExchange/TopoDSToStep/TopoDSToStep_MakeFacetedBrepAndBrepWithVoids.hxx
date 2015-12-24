@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepShape_FacetedBrepAndBrepWithVoids.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_FacetedBrepAndBrepWithVoids.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 class StepShape_FacetedBrepAndBrepWithVoids;
 class StdFail_NotDone;
 class TopoDS_Solid;

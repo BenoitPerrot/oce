@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_TVertex_HeaderFile
-#include <Handle_PBRep_TVertex.hxx>
+#include <OCAF/PBRep/Handle_PBRep_TVertex.hxx>
 #endif
 
 #ifndef _ShapeSchema_PTopoDS_TVertex_HeaderFile

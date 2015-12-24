@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepReaderData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_StepFEA_AlignedSurface3dElementCoordinateSystem.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_AlignedSurface3dElementCoordinateSystem.hxx>
 class StepData_StepReaderData;
 class Interface_Check;
 class StepFEA_AlignedSurface3dElementCoordinateSystem;

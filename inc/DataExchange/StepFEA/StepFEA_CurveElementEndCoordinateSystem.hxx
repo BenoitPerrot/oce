@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepFEA_FeaAxis2Placement3d.hxx>
-#include <Handle_StepFEA_AlignedCurve3dElementCoordinateSystem.hxx>
-#include <Handle_StepFEA_ParametricCurve3dElementCoordinateSystem.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaAxis2Placement3d.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_AlignedCurve3dElementCoordinateSystem.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ParametricCurve3dElementCoordinateSystem.hxx>
 class Standard_Transient;
 class StepFEA_FeaAxis2Placement3d;
 class StepFEA_AlignedCurve3dElementCoordinateSystem;

@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SignMultiple.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SignMultiple.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class IFSelect_Signature;
 class Standard_Transient;
 class Interface_InterfaceModel;

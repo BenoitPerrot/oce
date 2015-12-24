@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
-#include <Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class AIS_InteractiveObject;

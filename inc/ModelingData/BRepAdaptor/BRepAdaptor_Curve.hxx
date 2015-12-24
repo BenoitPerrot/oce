@@ -12,17 +12,17 @@
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Curve.hxx>
-#include <Handle_Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Handle_Geom_BezierCurve.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 class Adaptor3d_HCurveOnSurface;
 class Standard_NullObject;
 class Standard_DomainError;

@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DSFiller.hxx>
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
-#include <Handle_BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_EdgeConnector.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>

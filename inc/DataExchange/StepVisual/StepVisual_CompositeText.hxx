@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_CompositeText.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CompositeText.hxx>
 
-#include <Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfTextOrCharacter;
 class TCollection_HAsciiString;

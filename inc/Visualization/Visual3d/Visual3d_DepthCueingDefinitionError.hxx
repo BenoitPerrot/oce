@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_Visual3d_DepthCueingDefinitionError.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_DepthCueingDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Visual3d_DepthCueingDefinitionError
   #define Visual3d_DepthCueingDefinitionError_Raise_if(CONDITION, MESSAGE) \

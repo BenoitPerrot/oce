@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDefs_ReadWriteModule.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_ReadWriteModule.hxx>
 
 #include <DataExchange/IGESData/IGESData_ReadWriteModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESReaderData.hxx>
 class Standard_DomainError;
 class IGESData_IGESEntity;
 class IGESData_IGESReaderData;

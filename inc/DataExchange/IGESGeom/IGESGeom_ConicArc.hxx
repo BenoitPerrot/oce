@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_ConicArc.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_ConicArc.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_Surface.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_BezierSurface.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 class Geom_Surface;
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

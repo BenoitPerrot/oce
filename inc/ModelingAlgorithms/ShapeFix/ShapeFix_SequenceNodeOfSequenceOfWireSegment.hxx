@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_SequenceNodeOfSequenceOfWireSegment.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_SequenceNodeOfSequenceOfWireSegment.hxx>
 
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_WireSegment.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

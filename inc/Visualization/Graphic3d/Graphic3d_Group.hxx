@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_CBitFields4.hxx>
 #include <Visualization/Graphic3d/Graphic3d_StructurePtr.hxx>
@@ -19,11 +19,11 @@
 #include <Visualization/Graphic3d/Graphic3d_CAspectMarker.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CAspectText.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
-#include <Handle_Graphic3d_AspectLine3d.hxx>
-#include <Handle_Graphic3d_AspectFillArea3d.hxx>
-#include <Handle_Graphic3d_AspectText3d.hxx>
-#include <Handle_Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectMarker3d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vertex.hxx>
@@ -35,7 +35,7 @@
 #include <Visualization/Graphic3d/Graphic3d_IndexBuffer_Handle.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Buffer_Handle.hxx>
 #include <Visualization/Graphic3d/Graphic3d_BoundBuffer_Handle.hxx>
-#include <Handle_Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ArrayOfPrimitives.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visualization/Graphic3d/Graphic3d_GroupAspect.hxx>
 class Graphic3d_GroupDefinitionError;

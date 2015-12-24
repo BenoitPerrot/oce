@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_SurfaceOfRevolution.hxx>
 
-#include <Handle_IGESGeom_Line.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Line.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class IGESGeom_Line;

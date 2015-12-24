@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_Graphic3d_AspectTextDefinitionError.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectTextDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Graphic3d_AspectTextDefinitionError
   #define Graphic3d_AspectTextDefinitionError_Raise_if(CONDITION, MESSAGE) \

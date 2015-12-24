@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_ACRLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_ACRLaw.hxx>
 
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>
-#include <Handle_GeomFill_LocationGuide.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationGuide.hxx>
 class TColStd_HArray1OfReal;
 class TopoDS_Wire;
 class GeomFill_LocationGuide;

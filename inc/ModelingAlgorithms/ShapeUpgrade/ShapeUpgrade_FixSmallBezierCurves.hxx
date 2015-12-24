@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_FixSmallBezierCurves.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_FixSmallBezierCurves.hxx>
 
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_FixSmallCurves.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Curve;
 class Geom2d_Curve;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopBas_ListNodeOfListOfTestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/Handle_TopBas_ListNodeOfListOfTestInterference.hxx>
 
 #include <ModelingAlgorithms/TopBas/TopBas_TestInterference.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

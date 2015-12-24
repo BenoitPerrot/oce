@@ -12,9 +12,9 @@
 
 #include <Mathematics/Expressions/Expr_Array1OfSingleRelation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralRelation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Expr_SingleRelation.hxx>
+#include <Mathematics/Expressions/Handle_Expr_SingleRelation.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;
 class Expr_GeneralRelation;

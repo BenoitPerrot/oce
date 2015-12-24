@@ -10,16 +10,16 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDF_Data.hxx>
-#include <Handle_PDF_Data.hxx>
-#include <Handle_MDF_ASDriverTable.hxx>
-#include <Handle_MDF_SRelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
+#include <OCAF/PDF/Handle_PDF_Data.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriverTable.hxx>
+#include <OCAF/MDF/Handle_MDF_SRelocationTable.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MDF_ARDriverTable.hxx>
-#include <Handle_MDF_RRelocationTable.hxx>
-#include <Handle_MDF_ASDriverHSequence.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverTable.hxx>
+#include <OCAF/MDF/Handle_MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriverHSequence.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverHSequence.hxx>
 class TDF_Data;
 class PDF_Data;
 class MDF_ASDriverTable;

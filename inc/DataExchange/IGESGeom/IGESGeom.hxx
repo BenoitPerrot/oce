@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESGeom_Protocol.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Protocol.hxx>
 class IGESGeom_Protocol;
 class IGESGeom_CircularArc;
 class IGESGeom_CompositeCurve;

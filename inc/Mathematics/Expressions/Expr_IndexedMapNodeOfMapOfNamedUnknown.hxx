@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
 
-#include <Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

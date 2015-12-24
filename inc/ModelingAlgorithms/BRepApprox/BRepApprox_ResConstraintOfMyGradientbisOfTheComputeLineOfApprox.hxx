@@ -16,7 +16,7 @@
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
-#include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 class Standard_OutOfRange;
 class BRepApprox_TheMultiLineOfApprox;
 class BRepApprox_TheMultiLineToolOfApprox;

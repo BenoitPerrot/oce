@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
 
-#include <Handle_ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Spine.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class ChFiDS_Spine;

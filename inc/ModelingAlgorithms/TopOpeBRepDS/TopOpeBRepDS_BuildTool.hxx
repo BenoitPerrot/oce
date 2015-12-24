@@ -14,13 +14,13 @@
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_CurveTool.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_OutCurveType.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class TopOpeBRepTool_GeomTool;
 class TopoDS_Shape;
 class TopOpeBRepDS_Point;

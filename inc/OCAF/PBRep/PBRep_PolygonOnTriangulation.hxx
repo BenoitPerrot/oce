@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_PolygonOnTriangulation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PolygonOnTriangulation.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PPoly_PolygonOnTriangulation.hxx>
-#include <Handle_PPoly_Triangulation.hxx>
+#include <OCAF/PPoly/Handle_PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Triangulation.hxx>
 #include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PPoly_PolygonOnTriangulation;
 class PPoly_Triangulation;

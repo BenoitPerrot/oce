@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_GlobalUncertaintyAssignedContext.hxx>
 
-#include <Handle_StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_HArray1OfUncertaintyMeasureWithUnit.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_UncertaintyMeasureWithUnit.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_UncertaintyMeasureWithUnit.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfUncertaintyMeasureWithUnit;
 class TCollection_HAsciiString;

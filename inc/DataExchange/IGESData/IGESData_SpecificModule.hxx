@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_SpecificModule.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_SpecificModule.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;
 class IGESData_IGESDumper;

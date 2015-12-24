@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Domain.hxx>

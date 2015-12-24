@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_SphericalSurface.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_SphericalSurface.hxx>
 
-#include <Handle_IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Point.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESGeom_Direction.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Direction.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESGeom_Point;

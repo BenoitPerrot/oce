@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_HSequenceOfElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HSequenceOfElementGeometricRelationship.hxx>
 
 #include <DataExchange/StepFEA/StepFEA_SequenceOfElementGeometricRelationship.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepFEA_ElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ElementGeometricRelationship.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

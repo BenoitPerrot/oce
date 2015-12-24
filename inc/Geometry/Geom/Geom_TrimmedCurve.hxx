@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_TrimmedCurve.hxx>
 
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class Geom_Curve;
 class Standard_ConstructionError;
 class Standard_RangeError;

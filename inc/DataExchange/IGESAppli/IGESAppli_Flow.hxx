@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_Flow.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_Flow.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <Handle_IGESDraw_HArray1OfConnectPoint.hxx>
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_HArray1OfConnectPoint.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_HArray1OfTextDisplayTemplate.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESDraw_ConnectPoint.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_ConnectPoint.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextDisplayTemplate.hxx>
 class IGESData_HArray1OfIGESEntity;
 class IGESDraw_HArray1OfConnectPoint;
 class Interface_HArray1OfHAsciiString;

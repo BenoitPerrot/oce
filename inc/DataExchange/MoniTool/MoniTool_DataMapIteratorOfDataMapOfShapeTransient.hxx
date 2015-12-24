@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_DataMapNodeOfDataMapOfShapeTransient.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class Standard_Transient;

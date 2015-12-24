@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_PointDimension.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_PointDimension.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Handle_IGESDimen_LeaderArrow.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESGeom_CircularArc.hxx>
-#include <Handle_IGESGeom_CompositeCurve.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_CircularArc.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_CompositeCurve.hxx>
 class IGESDimen_GeneralNote;
 class IGESDimen_LeaderArrow;
 class IGESData_IGESEntity;

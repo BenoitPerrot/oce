@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
-#include <Handle_Geom2d_BoundedCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Geom2d_BSplineCurve;
 class Geom2d_BoundedCurve;

@@ -11,17 +11,17 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Geometry/ProjLib/ProjLib_Projector.hxx>
 #include <Geometry/Adaptor2d/Adaptor2d_Curve2d.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_CurveType.hxx>
-#include <Handle_Geom2d_BezierCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BezierCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HCurve;
 class Standard_OutOfRange;

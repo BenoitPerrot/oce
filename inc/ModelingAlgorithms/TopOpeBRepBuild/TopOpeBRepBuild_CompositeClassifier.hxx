@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_LoopClassifier.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <Handle_TopOpeBRepBuild_Loop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_Loop.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepBuild_BlockBuilder;
 class TopOpeBRepBuild_Loop;

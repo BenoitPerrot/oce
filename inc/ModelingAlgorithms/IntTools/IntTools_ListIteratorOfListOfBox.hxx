@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_IntTools_ListNodeOfListOfBox.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_ListNodeOfListOfBox.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

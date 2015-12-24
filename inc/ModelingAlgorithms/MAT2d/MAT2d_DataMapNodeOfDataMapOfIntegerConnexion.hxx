@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_DataMapNodeOfDataMapOfIntegerConnexion.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_Connexion.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MAT2d_Connexion;

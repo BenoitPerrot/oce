@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_SymmetricTensor23dMember.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_SymmetricTensor23dMember.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/StepData/StepData_SelectArrReal.hxx>

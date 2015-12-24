@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_DegeneratePcurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_DegeneratePcurve.hxx>
 
-#include <Handle_StepGeom_Surface.hxx>
-#include <Handle_StepRepr_DefinitionalRepresentation.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Surface.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_DefinitionalRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_Point.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Surface;
 class StepRepr_DefinitionalRepresentation;
 class TCollection_HAsciiString;

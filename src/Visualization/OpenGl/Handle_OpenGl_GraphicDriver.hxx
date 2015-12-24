@@ -17,7 +17,7 @@
 #define _Handle_OpenGl_GraphicDriver_Header
 
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_GraphicDriver.hxx>
 
 class OpenGl_GraphicDriver;
 

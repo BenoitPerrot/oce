@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
+#include <DataExchange/XCAFPrs/Handle_XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/XCAFPrs/XCAFPrs_Style.hxx>

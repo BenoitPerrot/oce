@@ -39,7 +39,7 @@
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_PairOfIndex.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Circle.hxx>
 #include <ModelingData/TopTools/TopTools_ShapeMapHasher.hxx>
-#include <Handle_Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 

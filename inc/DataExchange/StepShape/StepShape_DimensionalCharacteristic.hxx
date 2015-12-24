@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepShape_DimensionalLocation.hxx>
-#include <Handle_StepShape_DimensionalSize.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_DimensionalLocation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_DimensionalSize.hxx>
 class Standard_Transient;
 class StepShape_DimensionalLocation;
 class StepShape_DimensionalSize;

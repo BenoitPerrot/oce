@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_TrimmingMember.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_TrimmingMember.hxx>
 
 #include <DataExchange/StepData/StepData_SelectReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

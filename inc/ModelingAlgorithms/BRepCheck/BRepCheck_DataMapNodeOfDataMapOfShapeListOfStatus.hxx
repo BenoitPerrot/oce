@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>

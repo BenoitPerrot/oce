@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDocStd_Document.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDF/TDF_Transaction.hxx>
 #include <OCAF/TDF/TDF_DeltaList.hxx>
-#include <Handle_TDF_Delta.hxx>
+#include <OCAF/TDF/Handle_TDF_Delta.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_TDocStd_CompoundDelta.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_CompoundDelta.hxx>
 class TDF_Data;
 class TDF_Delta;
 class TDF_Label;

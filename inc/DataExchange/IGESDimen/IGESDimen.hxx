@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESDimen_Protocol.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_Protocol.hxx>
 class IGESDimen_Protocol;
 class IGESDimen_CenterLine;
 class IGESDimen_Section;

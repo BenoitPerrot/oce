@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Polyline.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Polyline.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
 class StepGeom_Polyline;
 class StdFail_NotDone;

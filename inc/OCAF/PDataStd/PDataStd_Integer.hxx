@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataStd_Integer.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_Integer.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>

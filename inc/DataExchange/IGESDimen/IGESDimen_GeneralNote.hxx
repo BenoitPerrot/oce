@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
 
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_IGESGraph_HArray1OfTextFontDef.hxx>
-#include <Handle_TColgp_HArray1OfXYZ.hxx>
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_HArray1OfTextFontDef.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfXYZ.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESGraph_TextFontDef.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextFontDef.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TColStd_HArray1OfInteger;
 class TColStd_HArray1OfReal;
 class IGESGraph_HArray1OfTextFontDef;

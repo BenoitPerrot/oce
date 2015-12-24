@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PCDM_SequenceNodeOfSequenceOfReference.hxx>
+#include <OCAF/PCDM/Handle_PCDM_SequenceNodeOfSequenceOfReference.hxx>
 
 #include <OCAF/PCDM/PCDM_Reference.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

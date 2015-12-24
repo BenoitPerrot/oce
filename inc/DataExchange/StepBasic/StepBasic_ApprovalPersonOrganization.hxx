@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApprovalPersonOrganization.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_PersonOrganizationSelect.hxx>
-#include <Handle_StepBasic_Approval.hxx>
-#include <Handle_StepBasic_ApprovalRole.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApprovalRole.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Approval;
 class StepBasic_ApprovalRole;

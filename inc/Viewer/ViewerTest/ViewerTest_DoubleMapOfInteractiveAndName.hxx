@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Viewer/ViewerTest/Handle_ViewerTest_DoubleMapNodeOfDoubleMapOfInteractiveAndName.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;

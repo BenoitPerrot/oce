@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Visual3d_SequenceNodeOfSequenceOfView.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_SequenceNodeOfSequenceOfView.hxx>
 
-#include <Handle_Visual3d_View.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_View.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Visual3d_View;

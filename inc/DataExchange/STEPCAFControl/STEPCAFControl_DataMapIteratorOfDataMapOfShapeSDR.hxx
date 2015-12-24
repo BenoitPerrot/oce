@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DataMapNodeOfDataMapOfShapeSDR.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class StepShape_ShapeDefinitionRepresentation;

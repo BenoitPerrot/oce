@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_TgtField.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TgtField.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Law_BSpline.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_BSpline.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Law_BSpline;
 class gp_Vec;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Approx_HArray1OfAdHSurface.hxx>
+#include <Geometry/Approx/Handle_Approx_HArray1OfAdHSurface.hxx>
 
 #include <Geometry/Approx/Approx_Array1OfAdHSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

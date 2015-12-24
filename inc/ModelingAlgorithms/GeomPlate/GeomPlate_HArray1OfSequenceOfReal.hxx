@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomPlate_HArray1OfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_HArray1OfSequenceOfReal.hxx>
 
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfSequenceOfReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

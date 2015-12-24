@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_SListOfItemLocation.hxx>
-#include <Handle_TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/Handle_TopLoc_Datum3D.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

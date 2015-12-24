@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
-#include <Handle_Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SequenceNodeOfSensitiveEntitySequence.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

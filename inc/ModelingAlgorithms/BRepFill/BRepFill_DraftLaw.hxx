@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_DraftLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_DraftLaw.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_Edge3DLaw.hxx>
-#include <Handle_GeomFill_LocationDraft.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationDraft.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Wire;
 class GeomFill_LocationDraft;

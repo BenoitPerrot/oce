@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TNaming_TranslateTool.hxx>
+#include <OCAF/TNaming/Handle_TNaming_TranslateTool.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_TypeMismatch;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_StepShape_TopologicalRepresentationItem.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
 class Standard_NoSuchObject;
 class StepShape_TopologicalRepresentationItem;
 class TopoDS_Shape;

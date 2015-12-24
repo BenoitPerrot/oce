@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESControl_ToolContainer.hxx>
+#include <DataExchange/IGESControl/Handle_IGESControl_ToolContainer.hxx>
 
 #include <DataExchange/IGESToBRep/IGESToBRep_ToolContainer.hxx>
-#include <Handle_IGESToBRep_IGESBoundary.hxx>
+#include <DataExchange/IGESToBRep/Handle_IGESToBRep_IGESBoundary.hxx>
 class IGESToBRep_IGESBoundary;
 
 

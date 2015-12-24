@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_Law_Function.hxx>
-#include <Handle_Law_ListNodeOfLaws.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_ListNodeOfLaws.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

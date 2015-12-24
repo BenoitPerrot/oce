@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SessionPilot.hxx>
 
-#include <Handle_IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_WorkSession.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_Activator.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_IFSelect_WorkLibrary.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_WorkLibrary.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
-#include <Handle_IFSelect_SignCounter.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SignCounter.hxx>
 #include <DataExchange/IFSelect/IFSelect_PrintCount.hxx>
 class IFSelect_WorkSession;
 class Standard_Transient;

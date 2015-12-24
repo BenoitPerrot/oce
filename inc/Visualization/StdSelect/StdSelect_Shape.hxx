@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StdSelect_Shape.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_Shape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Prs3d_Projector.hxx>
-#include <Handle_Geom_Transformation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
 class TopoDS_Shape;
 class Prs3d_Presentation;
 class Prs3d_Projector;

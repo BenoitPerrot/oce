@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_FEmTool_SequenceNodeOfSeqOfLinConstr.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_SequenceNodeOfSeqOfLinConstr.hxx>
 
 #include <Geometry/FEmTool/FEmTool_ListOfVectors.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

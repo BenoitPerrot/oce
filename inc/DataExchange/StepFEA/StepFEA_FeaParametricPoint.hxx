@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_FeaParametricPoint.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaParametricPoint.hxx>
 
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <DataExchange/StepGeom/StepGeom_Point.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TColStd_HArray1OfReal;
 class TCollection_HAsciiString;
 

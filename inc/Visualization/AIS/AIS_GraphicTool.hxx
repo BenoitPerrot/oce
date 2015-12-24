@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Handle_Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Drawer.hxx>
 #include <Visualization/AIS/AIS_TypeOfAttribute.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>

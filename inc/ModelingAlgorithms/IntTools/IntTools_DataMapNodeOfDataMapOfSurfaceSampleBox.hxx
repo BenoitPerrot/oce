@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_DataMapNodeOfDataMapOfSurfaceSampleBox.hxx>
 
 #include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>

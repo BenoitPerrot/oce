@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_GuideTrihedronAC.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_GuideTrihedronAC.hxx>
 
-#include <Handle_Approx_CurvlinFunc.hxx>
+#include <Geometry/Approx/Handle_Approx_CurvlinFunc.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronWithGuide.hxx>
-#include <Handle_GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomAdaptor_HCurve.hxx>
+#include <Geometry/GeomAdaptor/Handle_GeomAdaptor_HCurve.hxx>
 
 #include <Geometry/GeomAdaptor/GeomAdaptor_GHCurve.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Standard_ConstructionError;
 class GeomAdaptor_Curve;

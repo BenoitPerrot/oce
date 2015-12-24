@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_RemoveLocations.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_RemoveLocations.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

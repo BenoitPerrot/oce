@@ -9,13 +9,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColgp_HSequenceOfPnt.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HSequenceOfPnt.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Handle_PColgp_HSequenceOfPnt.hxx>
-#include <Handle_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HSequenceOfPnt.hxx>
+#include <OCAF/PColgp/Handle_PColgp_SeqNodeOfHSequenceOfPnt.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class PColgp_SeqNodeOfHSequenceOfPnt;
 class Standard_NoSuchObject;

@@ -13,8 +13,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_IntTools_Context.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 class TopoDS_Edge;
 class TopoDS_Face;
 class gp_Dir;

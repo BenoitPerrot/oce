@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_DispPerFiles.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_DispPerFiles.hxx>
 
-#include <Handle_IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_IntParam.hxx>
 #include <DataExchange/IFSelect/IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

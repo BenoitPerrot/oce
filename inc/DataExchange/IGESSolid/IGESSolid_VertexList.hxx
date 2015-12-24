@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_VertexList.hxx>
 
-#include <Handle_TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfXYZ.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColgp_HArray1OfXYZ;

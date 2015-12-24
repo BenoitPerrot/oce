@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_Graph.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Graph.hxx>
 
 #include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerArc.hxx>
 #include <ModelingAlgorithms/MAT/MAT_DataMapOfIntegerBasicElt.hxx>
@@ -16,10 +16,10 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_MAT_ListOfBisector.hxx>
-#include <Handle_MAT_Arc.hxx>
-#include <Handle_MAT_BasicElt.hxx>
-#include <Handle_MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_ListOfBisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Node.hxx>
 class MAT_ListOfBisector;
 class MAT_Arc;
 class MAT_BasicElt;

@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Select3D_SensitiveBox.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveBox.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
-#include <Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Select3D_Projector.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

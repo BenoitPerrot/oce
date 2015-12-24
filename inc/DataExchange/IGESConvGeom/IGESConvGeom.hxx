@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESGeom_SplineCurve.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_SplineCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Handle_IGESGeom_SplineSurface.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_SplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 class IGESGeom_SplineCurve;
 class Geom_BSplineCurve;
 class Geom2d_BSplineCurve;

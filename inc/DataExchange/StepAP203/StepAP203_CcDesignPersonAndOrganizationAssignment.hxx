@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_CcDesignPersonAndOrganizationAssignment.hxx>
 
-#include <Handle_StepAP203_HArray1OfPersonOrganizationItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfPersonOrganizationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_PersonAndOrganizationAssignment.hxx>
-#include <Handle_StepBasic_PersonAndOrganization.hxx>
-#include <Handle_StepBasic_PersonAndOrganizationRole.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_PersonAndOrganizationRole.hxx>
 class StepAP203_HArray1OfPersonOrganizationItem;
 class StepBasic_PersonAndOrganization;
 class StepBasic_PersonAndOrganizationRole;

@@ -11,15 +11,15 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_Line.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Point.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HVertex.hxx>
 #include <ModelingAlgorithms/Blend/Blend_Status.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepBlend_Line;

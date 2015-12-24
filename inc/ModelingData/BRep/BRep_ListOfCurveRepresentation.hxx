@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_BRep_CurveRepresentation.hxx>
-#include <Handle_BRep_ListNodeOfListOfCurveRepresentation.hxx>
+#include <ModelingData/BRep/Handle_BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/Handle_BRep_ListNodeOfListOfCurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

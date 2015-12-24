@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDataXtd_AxisRetrievalDriver.hxx>
+#include <OCAF/MDataXtd/Handle_MDataXtd_AxisRetrievalDriver.hxx>
 
 #include <OCAF/MDF/MDF_ARDriver.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_PDF_Attribute.hxx>
-#include <Handle_MDF_RRelocationTable.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/PDF/Handle_PDF_Attribute.hxx>
+#include <OCAF/MDF/Handle_MDF_RRelocationTable.hxx>
 class CDM_MessageDriver;
 class Standard_Type;
 class TDF_Attribute;

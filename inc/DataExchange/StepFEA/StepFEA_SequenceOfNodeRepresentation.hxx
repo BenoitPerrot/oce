@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_StepFEA_NodeRepresentation.hxx>
-#include <Handle_StepFEA_SequenceNodeOfSequenceOfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_NodeRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_SequenceNodeOfSequenceOfNodeRepresentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
-#include <Handle_BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopTools_HArray2OfShape;

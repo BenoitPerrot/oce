@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_PolygonOnClosedSurface.hxx>
+#include <ModelingData/BRep/Handle_BRep_PolygonOnClosedSurface.hxx>
 
-#include <Handle_Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
 #include <ModelingData/BRep/BRep_PolygonOnSurface.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/Handle_BRep_CurveRepresentation.hxx>
 class Poly_Polygon2D;
 class Geom_Surface;
 class TopLoc_Location;

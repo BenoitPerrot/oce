@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_ParametricCurve3dElementCoordinateSystem.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ParametricCurve3dElementCoordinateSystem.hxx>
 
-#include <Handle_StepFEA_ParametricCurve3dElementCoordinateDirection.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ParametricCurve3dElementCoordinateDirection.hxx>
 #include <DataExchange/StepFEA/StepFEA_FeaRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepFEA_ParametricCurve3dElementCoordinateDirection;
 class TCollection_HAsciiString;
 

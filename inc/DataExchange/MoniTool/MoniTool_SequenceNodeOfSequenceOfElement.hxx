@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MoniTool_SequenceNodeOfSequenceOfElement.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_SequenceNodeOfSequenceOfElement.hxx>
 
-#include <Handle_MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Element.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MoniTool_Element;

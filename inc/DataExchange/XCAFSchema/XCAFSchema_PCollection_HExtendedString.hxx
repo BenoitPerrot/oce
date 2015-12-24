@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PCollection_HExtendedString_HeaderFile
-#include <Handle_PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HExtendedString.hxx>
 #endif
 
 #ifndef _XCAFSchema_Standard_Persistent_HeaderFile

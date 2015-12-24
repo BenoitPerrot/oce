@@ -12,9 +12,9 @@
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_BRepFill_DraftLaw.hxx>
-#include <Handle_BRepFill_SectionLaw.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_DraftLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_SectionLaw.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
@@ -22,7 +22,7 @@
 #include <GeomAbs_Shape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TransitionStyle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class BRepFill_DraftLaw;
 class BRepFill_SectionLaw;
 class TopTools_HArray2OfShape;

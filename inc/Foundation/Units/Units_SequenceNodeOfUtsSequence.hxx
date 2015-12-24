@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Units_SequenceNodeOfUtsSequence.hxx>
+#include <Foundation/Units/Handle_Units_SequenceNodeOfUtsSequence.hxx>
 
-#include <Handle_Units_Unit.hxx>
+#include <Foundation/Units/Handle_Units_Unit.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Units_Unit;

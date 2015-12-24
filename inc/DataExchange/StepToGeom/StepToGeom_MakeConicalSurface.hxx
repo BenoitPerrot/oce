@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_ConicalSurface.hxx>
-#include <Handle_Geom_ConicalSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_ConicalSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_ConicalSurface.hxx>
 class StepGeom_ConicalSurface;
 class Geom_ConicalSurface;
 

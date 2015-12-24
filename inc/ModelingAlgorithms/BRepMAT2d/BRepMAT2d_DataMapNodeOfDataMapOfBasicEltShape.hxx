@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/Handle_BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
 
-#include <Handle_MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlMNaming_NamedShapeDriver.hxx>
+#include <OCAF/XmlMNaming/Handle_XmlMNaming_NamedShapeDriver.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_ShapeSet.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>

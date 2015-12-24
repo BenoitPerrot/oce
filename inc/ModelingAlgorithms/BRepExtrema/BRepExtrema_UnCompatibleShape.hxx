@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_BRepExtrema_UnCompatibleShape.hxx>
+#include <ModelingAlgorithms/BRepExtrema/Handle_BRepExtrema_UnCompatibleShape.hxx>
 
 #if !defined No_Exception && !defined No_BRepExtrema_UnCompatibleShape
   #define BRepExtrema_UnCompatibleShape_Raise_if(CONDITION, MESSAGE) \

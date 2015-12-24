@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

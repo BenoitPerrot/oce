@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_GeneralLabel.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralLabel.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LeaderArrow.hxx>
 class IGESDimen_GeneralNote;
 class IGESDimen_HArray1OfLeaderArrow;
 class Standard_OutOfRange;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
+#include <ModelingAlgorithms/Draft/Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <ModelingAlgorithms/Draft/Draft_VertexInfo.hxx>

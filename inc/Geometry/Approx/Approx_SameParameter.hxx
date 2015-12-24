@@ -12,13 +12,13 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class Geom2d_BSplineCurve;
 class Adaptor2d_HCurve2d;
 class Adaptor3d_HCurve;

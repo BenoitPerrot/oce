@@ -8,25 +8,25 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Axis.hxx>
+#include <Visualization/AIS/Handle_AIS_Axis.hxx>
 
-#include <Handle_Geom_Line.hxx>
-#include <Handle_Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Handle_Geom_Line.hxx>
+#include <Geometry/Geom/Handle_Geom_Axis2Placement.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/AIS/AIS_TypeOfAxis.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_LineAspect.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <Handle_Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Handle_Geom_Axis1Placement.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Prs3d_Projector.hxx>
-#include <Handle_Geom_Transformation.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class Geom_Line;

@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_CorrectedFrenet.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_CorrectedFrenet.hxx>
 
-#include <Handle_GeomFill_Frenet.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_Frenet.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColgp_HArray1OfVec.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfVec.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
-#include <Handle_GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Trihedron.hxx>

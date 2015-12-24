@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_SurfaceStyleUsage.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceStyleUsage.hxx>
 
 #include <DataExchange/StepVisual/StepVisual_SurfaceSide.hxx>
-#include <Handle_StepVisual_SurfaceSideStyle.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceSideStyle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_SurfaceSideStyle;
 

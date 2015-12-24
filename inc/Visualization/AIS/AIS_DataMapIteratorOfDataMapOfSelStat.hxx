@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Handle_AIS_LocalStatus.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapOfSelStat.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/AIS/Handle_AIS_LocalStatus.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 class Standard_NoSuchObject;
 class SelectMgr_SelectableObject;
 class AIS_LocalStatus;

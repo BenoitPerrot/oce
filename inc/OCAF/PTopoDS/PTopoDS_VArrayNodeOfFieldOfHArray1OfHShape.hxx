@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HShape.hxx>
 #include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PTopoDS_HShape;
 class PTopoDS_FieldOfHArray1OfHShape;

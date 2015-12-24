@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DataMapNodeOfDataMapOfPDExternFile.hxx>
 
-#include <Handle_StepBasic_ProductDefinition.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class StepBasic_ProductDefinition;

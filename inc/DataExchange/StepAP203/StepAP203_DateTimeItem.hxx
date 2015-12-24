@@ -12,16 +12,16 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
-#include <Handle_StepAP203_ChangeRequest.hxx>
-#include <Handle_StepAP203_StartRequest.hxx>
-#include <Handle_StepAP203_Change.hxx>
-#include <Handle_StepAP203_StartWork.hxx>
-#include <Handle_StepBasic_ApprovalPersonOrganization.hxx>
-#include <Handle_StepBasic_Contract.hxx>
-#include <Handle_StepBasic_SecurityClassification.hxx>
-#include <Handle_StepBasic_Certification.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_ChangeRequest.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_StartRequest.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_Change.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_StartWork.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApprovalPersonOrganization.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Contract.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Certification.hxx>
 class Standard_Transient;
 class StepBasic_ProductDefinition;
 class StepAP203_ChangeRequest;

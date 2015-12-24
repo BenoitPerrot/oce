@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawTrSurf_BezierCurve.hxx>
+#include <Viewer/DrawTrSurf/Handle_DrawTrSurf_BezierCurve.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_Curve.hxx>
-#include <Handle_Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 class Geom_BezierCurve;
 class Draw_Color;
 class Draw_Display;

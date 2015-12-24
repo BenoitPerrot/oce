@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_ToolLocation.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ToolLocation.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESData_Protocol.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESModel;
 class Standard_DomainError;

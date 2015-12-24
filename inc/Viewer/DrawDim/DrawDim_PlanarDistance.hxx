@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawDim_PlanarDistance.hxx>
+#include <Viewer/DrawDim/Handle_DrawDim_PlanarDistance.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DrawDim/DrawDim_PlanarDimension.hxx>

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PMMgt_PManaged_HeaderFile
-#include <Handle_PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/Handle_PMMgt_PManaged.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

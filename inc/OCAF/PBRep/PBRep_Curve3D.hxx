@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_Curve3D.hxx>
+#include <OCAF/PBRep/Handle_PBRep_Curve3D.hxx>
 
-#include <Handle_PGeom_Curve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/PBRep/PBRep_GCurve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

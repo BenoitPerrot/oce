@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESGraph_Protocol.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_Protocol.hxx>
 class IGESGraph_Protocol;
 class IGESGraph_LineFontDefTemplate;
 class IGESGraph_LineFontDefPattern;

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_CompositeTextWithExtent.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CompositeTextWithExtent.hxx>
 
-#include <Handle_StepVisual_PlanarExtent.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PlanarExtent.hxx>
 #include <DataExchange/StepVisual/StepVisual_CompositeText.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfTextOrCharacter.hxx>
 class StepVisual_PlanarExtent;
 class TCollection_HAsciiString;
 class StepVisual_HArray1OfTextOrCharacter;

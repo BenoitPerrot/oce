@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IFSelect_WorkSession.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_WorkSession.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class IFSelect_WorkSession;
 class IFSelect_Signature;

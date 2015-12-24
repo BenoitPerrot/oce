@@ -13,7 +13,7 @@
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_DataMapNodeOfDataMapOfIntegerReal.hxx>
 class Standard_NoSuchObject;
 class TColStd_MapIntegerHasher;
 class TColStd_DataMapOfIntegerReal;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_MDF_ARDriver.hxx>
-#include <Handle_MDF_SequenceNodeOfARDriverSequence.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_SequenceNodeOfARDriverSequence.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

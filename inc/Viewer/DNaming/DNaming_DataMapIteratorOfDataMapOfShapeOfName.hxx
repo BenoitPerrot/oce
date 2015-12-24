@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/Handle_DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TCollection_AsciiString;

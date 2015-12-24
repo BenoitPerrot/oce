@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
+#include <OCAF/TNaming/Handle_TNaming_DataMapNodeOfDataMapOfShapeShapesSet.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TNaming/TNaming_ShapesSet.hxx>

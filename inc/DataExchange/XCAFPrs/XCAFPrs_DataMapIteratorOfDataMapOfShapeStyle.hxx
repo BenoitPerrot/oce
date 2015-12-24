@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
+#include <DataExchange/XCAFPrs/Handle_XCAFPrs_DataMapNodeOfDataMapOfShapeStyle.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class XCAFPrs_Style;

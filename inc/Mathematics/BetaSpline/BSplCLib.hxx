@@ -16,8 +16,8 @@
 #include <Mathematics/BetaSpline/BSplCLib_KnotDistribution.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_MultDistribution.hxx>
 #include <GeomAbs_BSplKnotDistribution.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/BetaSpline/BSplCLib_EvaluatorFunction.hxx>
 class TColStd_Array1OfReal;
 class TColStd_Array1OfInteger;

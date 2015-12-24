@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/CDM/CDM_DocumentPointer.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_CDM_Application.hxx>
+#include <OCAF/CDM/Handle_CDM_Application.hxx>
 class Standard_NoSuchObject;
 class CDM_Reference;
 class CDM_Document;

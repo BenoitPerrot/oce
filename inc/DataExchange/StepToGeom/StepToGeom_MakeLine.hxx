@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Line.hxx>
-#include <Handle_Geom_Line.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Line.hxx>
+#include <Geometry/Geom/Handle_Geom_Line.hxx>
 class StepGeom_Line;
 class Geom_Line;
 

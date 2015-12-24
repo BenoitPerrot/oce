@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Aspect_BadAccess.hxx>
+#include <Visualization/Aspect/Handle_Aspect_BadAccess.hxx>
 
 #if !defined No_Exception && !defined No_Aspect_BadAccess
   #define Aspect_BadAccess_Raise_if(CONDITION, MESSAGE) \

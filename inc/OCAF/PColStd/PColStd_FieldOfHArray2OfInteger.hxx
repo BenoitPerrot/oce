@@ -12,7 +12,7 @@
 
 #include <OCAF/DBC/DBC_BaseArray.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NegativeValue;
 class Standard_OutOfRange;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Selection.hxx>
+#include <Visualization/AIS/Handle_AIS_Selection.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/AIS/AIS_NListTransient.hxx>
@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/AIS/AIS_SelectStatus.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Standard_NoSuchObject;
 class Standard_MultiplyDefined;
 class Standard_TypeMismatch;

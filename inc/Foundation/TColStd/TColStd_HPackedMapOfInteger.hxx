@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_HPackedMapOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HPackedMapOfInteger.hxx>
 
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

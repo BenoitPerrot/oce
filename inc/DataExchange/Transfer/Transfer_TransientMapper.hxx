@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_TransientMapper.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientMapper.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <DataExchange/Transfer/Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Standard_Transient;
 class TColStd_MapTransientHasher;

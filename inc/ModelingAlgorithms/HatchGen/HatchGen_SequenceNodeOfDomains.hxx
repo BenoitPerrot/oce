@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HatchGen_SequenceNodeOfDomains.hxx>
+#include <ModelingAlgorithms/HatchGen/Handle_HatchGen_SequenceNodeOfDomains.hxx>
 
 #include <ModelingAlgorithms/HatchGen/HatchGen_Domain.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

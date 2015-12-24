@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Aspect_Window.hxx>
+#include <Visualization/Aspect/Handle_Aspect_Window.hxx>
 
 #include <Visualization/Aspect/Aspect_Background.hxx>
 #include <Visualization/Aspect/Aspect_GradientBackground.hxx>

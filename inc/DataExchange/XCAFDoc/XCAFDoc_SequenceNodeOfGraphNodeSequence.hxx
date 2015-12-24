@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_SequenceNodeOfGraphNodeSequence.hxx>
 
-#include <Handle_XCAFDoc_GraphNode.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_GraphNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class XCAFDoc_GraphNode;

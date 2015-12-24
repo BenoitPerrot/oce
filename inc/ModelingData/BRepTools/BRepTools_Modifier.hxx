@@ -13,8 +13,8 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRepTools_Modification.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_Modification.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 class Standard_NullObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;

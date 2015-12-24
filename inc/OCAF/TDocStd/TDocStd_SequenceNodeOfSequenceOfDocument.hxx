@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDocStd_SequenceNodeOfSequenceOfDocument.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_SequenceNodeOfSequenceOfDocument.hxx>
 
-#include <Handle_TDocStd_Document.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TDocStd_Document;

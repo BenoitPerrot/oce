@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_LevelToPWBLayerMap.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_LevelToPWBLayerMap.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TColStd_HArray1OfInteger;
 class Interface_HArray1OfHAsciiString;
 class Standard_DimensionMismatch;

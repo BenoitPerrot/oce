@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Plate_HArray1OfPinpointConstraint.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <ModelingAlgorithms/Plate/Handle_Plate_HArray1OfPinpointConstraint.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Plate_HArray1OfPinpointConstraint;

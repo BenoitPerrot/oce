@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
+#include <OCAF/ObjMgt/Handle_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_ObjMgt_PSeqOfExtRef.hxx>
-#include <Handle_ObjMgt_ExternRef.hxx>
+#include <OCAF/ObjMgt/Handle_ObjMgt_PSeqOfExtRef.hxx>
+#include <OCAF/ObjMgt/Handle_ObjMgt_ExternRef.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class ObjMgt_SeqNodeOfPSeqOfExtRef;
 class ObjMgt_PSeqOfExtRef;

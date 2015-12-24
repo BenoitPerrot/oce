@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeAlgo_ToolContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/Handle_ShapeAlgo_ToolContainer.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_ShapeFix_Shape.hxx>
-#include <Handle_ShapeFix_EdgeProjAux.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_EdgeProjAux.hxx>
 class ShapeFix_Shape;
 class ShapeFix_EdgeProjAux;
 

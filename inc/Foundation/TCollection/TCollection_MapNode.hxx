@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TCollection_MapNode.hxx>
+#include <Foundation/TCollection/Handle_TCollection_MapNode.hxx>
 
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

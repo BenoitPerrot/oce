@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ConversionBasedUnitAndSolidAngleUnit.hxx>
 
-#include <Handle_StepBasic_SolidAngleUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SolidAngleUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
-#include <Handle_StepBasic_DimensionalExponents.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DimensionalExponents.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 class StepBasic_SolidAngleUnit;
 class StepBasic_DimensionalExponents;
 class TCollection_HAsciiString;

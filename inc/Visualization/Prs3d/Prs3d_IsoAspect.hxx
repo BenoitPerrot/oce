@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_IsoAspect.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Prs3d/Prs3d_LineAspect.hxx>

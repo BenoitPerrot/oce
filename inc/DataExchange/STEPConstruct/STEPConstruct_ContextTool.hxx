@@ -11,14 +11,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
-#include <Handle_StepBasic_ApplicationProtocolDefinition.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApplicationProtocolDefinition.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_AP203Context.hxx>
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
-#include <Handle_StepData_StepModel.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 class StepBasic_ApplicationProtocolDefinition;
 class StepGeom_Axis2Placement3d;
 class StepData_StepModel;

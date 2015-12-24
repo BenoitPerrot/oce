@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class Interface_InterfaceError;
 class Standard_Transient;
 class Standard_Type;

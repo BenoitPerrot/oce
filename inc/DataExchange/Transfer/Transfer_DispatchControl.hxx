@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_DispatchControl.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_DispatchControl.hxx>
 
-#include <Handle_Transfer_TransientProcess.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <DataExchange/Interface/Interface_CopyControl.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Transfer_TransientProcess;
 class Interface_InterfaceModel;

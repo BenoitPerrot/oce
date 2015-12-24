@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TShort_HArray2OfShortReal.hxx>
+#include <Foundation/TShort/Handle_TShort_HArray2OfShortReal.hxx>
 
 #include <Foundation/TShort/TShort_Array2OfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_SectionLaw.hxx>
 
-#include <Handle_GeomFill_HArray1OfSectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_HArray1OfSectionLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/BRepTools/BRepTools_WireExplorer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class GeomFill_HArray1OfSectionLaw;

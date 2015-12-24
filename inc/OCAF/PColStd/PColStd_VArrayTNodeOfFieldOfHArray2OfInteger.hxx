@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PColStd_FieldOfHArray2OfInteger;
 class PColStd_VArrayNodeOfFieldOfHArray2OfInteger;

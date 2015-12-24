@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_Visual3d_View.hxx>
-#include <Handle_Visual3d_SequenceNodeOfSequenceOfView.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_View.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_SequenceNodeOfSequenceOfView.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

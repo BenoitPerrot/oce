@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomPlate_CurveConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_CurveConstraint.hxx>
 
-#include <Handle_Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Handle_Law_Function.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/GeomLProp/GeomLProp_SLProps.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

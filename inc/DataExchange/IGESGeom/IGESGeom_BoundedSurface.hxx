@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_BoundedSurface.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_BoundedSurface.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESGeom_HArray1OfBoundary.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_HArray1OfBoundary.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_IGESGeom_Boundary.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Boundary.hxx>
 class IGESData_IGESEntity;
 class IGESGeom_HArray1OfBoundary;
 class Standard_OutOfRange;

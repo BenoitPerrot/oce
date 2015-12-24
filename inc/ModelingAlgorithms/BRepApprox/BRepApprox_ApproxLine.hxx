@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepApprox_ApproxLine.hxx>
+#include <ModelingAlgorithms/BRepApprox/Handle_BRepApprox_ApproxLine.hxx>
 
-#include <Handle_Geom_BSplineCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
-#include <Handle_IntSurf_LineOn2S.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_LineOn2S.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

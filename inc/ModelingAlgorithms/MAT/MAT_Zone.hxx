@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_Zone.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Zone.hxx>
 
 #include <ModelingAlgorithms/MAT/MAT_SequenceOfArc.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT_Arc.hxx>
-#include <Handle_MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Node.hxx>
 #include <ModelingAlgorithms/MAT/MAT_Side.hxx>
 class MAT_BasicElt;
 class MAT_Arc;

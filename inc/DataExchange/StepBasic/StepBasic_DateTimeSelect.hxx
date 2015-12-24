@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_Date.hxx>
-#include <Handle_StepBasic_LocalTime.hxx>
-#include <Handle_StepBasic_DateAndTime.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Date.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DateAndTime.hxx>
 class Standard_Transient;
 class StepBasic_Date;
 class StepBasic_LocalTime;

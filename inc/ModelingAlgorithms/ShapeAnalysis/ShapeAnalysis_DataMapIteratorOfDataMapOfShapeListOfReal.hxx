@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_DataMapNodeOfDataMapOfShapeListOfReal.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TColStd_ListOfReal;

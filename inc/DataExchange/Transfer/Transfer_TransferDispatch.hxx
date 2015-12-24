@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/Interface/Interface_CopyTool.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Interface_InterfaceError;
 class Interface_InterfaceModel;
 class Interface_GeneralLib;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepAlgo_EdgeConnector.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_EdgeConnector.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DataMapOfShapeBoolean.hxx>

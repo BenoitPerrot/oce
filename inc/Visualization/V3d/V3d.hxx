@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Visualization/V3d/V3d_TypeOfOrientation.hxx>
-#include <Handle_Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
 #include <Visualization/V3d/V3d_Coordinate.hxx>
 #include <Visualization/V3d/V3d_Parameter.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
-#include <Handle_V3d_View.hxx>
-#include <Handle_V3d_Viewer.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
+#include <Visualization/V3d/Handle_V3d_Viewer.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 class Graphic3d_Vector;
 class Graphic3d_Group;

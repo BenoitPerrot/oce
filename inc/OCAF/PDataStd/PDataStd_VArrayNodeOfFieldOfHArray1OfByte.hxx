@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>

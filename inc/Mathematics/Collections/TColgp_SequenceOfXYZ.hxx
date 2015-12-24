@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_TColgp_SequenceNodeOfSequenceOfXYZ.hxx>
+#include <Mathematics/Collections/Handle_TColgp_SequenceNodeOfSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

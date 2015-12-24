@@ -12,11 +12,11 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_DocumentFile.hxx>
-#include <Handle_StepAP214_ExternallyDefinedClass.hxx>
-#include <Handle_StepAP214_ExternallyDefinedGeneralProperty.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DocumentFile.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_ExternallyDefinedClass.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_ExternallyDefinedGeneralProperty.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
 class Standard_Transient;
 class StepBasic_DocumentFile;
 class StepAP214_ExternallyDefinedClass;

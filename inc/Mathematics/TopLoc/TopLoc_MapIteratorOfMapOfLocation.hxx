@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TopLoc_StdMapNodeOfMapOfLocation.hxx>
+#include <Mathematics/TopLoc/Handle_TopLoc_StdMapNodeOfMapOfLocation.hxx>
 class Standard_NoSuchObject;
 class TopLoc_Location;
 class TopLoc_MapLocationHasher;

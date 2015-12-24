@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_V3d_LayerMgr.hxx>
+#include <Visualization/V3d/Handle_V3d_LayerMgr.hxx>
 
 #include <Visualization/V3d/V3d_ViewPointer.hxx>
-#include <Handle_Visual3d_Layer.hxx>
-#include <Handle_V3d_ColorScale.hxx>
-#include <Handle_V3d_ColorScaleLayerItem.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_Layer.hxx>
+#include <Visualization/V3d/Handle_V3d_ColorScale.hxx>
+#include <Visualization/V3d/Handle_V3d_ColorScaleLayerItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_V3d_View.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Aspect_ColorScale.hxx>
+#include <Visualization/Aspect/Handle_Aspect_ColorScale.hxx>
 class Visual3d_Layer;
 class V3d_ColorScale;
 class V3d_ColorScaleLayerItem;

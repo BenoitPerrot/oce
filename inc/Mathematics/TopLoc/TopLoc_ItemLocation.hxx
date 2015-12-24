@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/Handle_TopLoc_Datum3D.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/TopLoc/TopLoc_TrsfPtr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

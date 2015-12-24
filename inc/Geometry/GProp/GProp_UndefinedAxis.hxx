@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_GProp_UndefinedAxis.hxx>
+#include <Geometry/GProp/Handle_GProp_UndefinedAxis.hxx>
 
 #if !defined No_Exception && !defined No_GProp_UndefinedAxis
   #define GProp_UndefinedAxis_Raise_if(CONDITION, MESSAGE) \

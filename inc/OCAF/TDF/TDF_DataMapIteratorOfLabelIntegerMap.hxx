@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TDF_DataMapNodeOfLabelIntegerMap.hxx>
+#include <OCAF/TDF/Handle_TDF_DataMapNodeOfLabelIntegerMap.hxx>
 class Standard_NoSuchObject;
 class TDF_Label;
 class TDF_LabelMapHasher;

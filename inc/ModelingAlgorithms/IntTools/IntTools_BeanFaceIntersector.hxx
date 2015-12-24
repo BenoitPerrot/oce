@@ -12,12 +12,12 @@
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Extrema/Extrema_ExtCS.hxx>
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MarkedRangeSet.hxx>
-#include <Handle_IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

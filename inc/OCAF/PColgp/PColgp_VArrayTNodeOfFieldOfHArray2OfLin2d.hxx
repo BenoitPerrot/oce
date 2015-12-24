@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray2OfLin2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_Lin2d;
 class PColgp_FieldOfHArray2OfLin2d;

@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Units_ShiftedToken.hxx>
+#include <Foundation/Units/Handle_Units_ShiftedToken.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Units/Units_Token.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Units_Dimensions.hxx>
-#include <Handle_Units_Token.hxx>
+#include <Foundation/Units/Handle_Units_Dimensions.hxx>
+#include <Foundation/Units/Handle_Units_Token.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Units_Dimensions;
 class Units_Token;

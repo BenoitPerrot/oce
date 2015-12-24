@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_Protocol.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_Protocol.hxx>
 
 #include <DataExchange/StepData/StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 class Standard_Type;
 class Interface_Protocol;
 

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_Expr_NamedUnknown.hxx>
-#include <Handle_Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_IndexedMapNodeOfMapOfNamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TDataStd_DataMapNodeOfDataMapOfStringString.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_DataMapNodeOfDataMapOfStringString.hxx>
 class Standard_NoSuchObject;
 class TCollection_ExtendedString;
 class TDataStd_DataMapOfStringString;

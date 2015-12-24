@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_RectangularCompositeSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_RectangularCompositeSurface.hxx>
 
-#include <Handle_StepGeom_HArray2OfSurfacePatch.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray2OfSurfacePatch.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundedSurface.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepGeom_SurfacePatch.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfacePatch.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_HArray2OfSurfacePatch;
 class TCollection_HAsciiString;

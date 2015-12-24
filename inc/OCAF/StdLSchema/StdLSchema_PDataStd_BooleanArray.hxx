@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDataStd_BooleanArray_HeaderFile
-#include <Handle_PDataStd_BooleanArray.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_BooleanArray.hxx>
 #endif
 
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile

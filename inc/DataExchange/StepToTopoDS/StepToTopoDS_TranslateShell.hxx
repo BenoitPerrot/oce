@@ -13,7 +13,7 @@
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateShellError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
-#include <Handle_StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ConnectedFaceSet.hxx>
 class StdFail_NotDone;
 class StepShape_ConnectedFaceSet;
 class StepToTopoDS_Tool;

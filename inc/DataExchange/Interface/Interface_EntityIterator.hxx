@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Interface_IntVal.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_IntVal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_IntVal;

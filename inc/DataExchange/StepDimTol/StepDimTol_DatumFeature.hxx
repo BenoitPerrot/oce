@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepDimTol_DatumFeature.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_DatumFeature.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 

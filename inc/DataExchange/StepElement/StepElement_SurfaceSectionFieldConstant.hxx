@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_SurfaceSectionFieldConstant.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SurfaceSectionFieldConstant.hxx>
 
-#include <Handle_StepElement_SurfaceSection.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SurfaceSection.hxx>
 #include <DataExchange/StepElement/StepElement_SurfaceSectionField.hxx>
 class StepElement_SurfaceSection;
 

@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom2d_Transformation.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Transformation.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>

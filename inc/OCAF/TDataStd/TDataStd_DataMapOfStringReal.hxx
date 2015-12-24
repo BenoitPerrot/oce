@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_DataMapNodeOfDataMapOfStringReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

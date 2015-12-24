@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_ListNodeOfStackOfGeneralFunction.hxx>
 
-#include <Handle_Expr_GeneralFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralFunction.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Expr_GeneralFunction;

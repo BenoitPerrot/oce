@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_ModifEditForm.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_ModifEditForm.hxx>
 
-#include <Handle_IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_EditForm.hxx>
 #include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 class IFSelect_EditForm;
 class IFSelect_ContextModif;
 class Interface_InterfaceModel;

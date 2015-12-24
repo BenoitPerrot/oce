@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PCDMShape_Document.hxx>
+#include <OCAF/PCDMShape/Handle_PCDMShape_Document.hxx>
 
 #include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
 #include <OCAF/PCDM/PCDM_Document.hxx>

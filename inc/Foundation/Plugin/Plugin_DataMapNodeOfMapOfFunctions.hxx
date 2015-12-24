@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
+#include <Foundation/Plugin/Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/OSD/OSD_Function.hxx>

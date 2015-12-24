@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_CcDesignCertification.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_CcDesignCertification.hxx>
 
-#include <Handle_StepAP203_HArray1OfCertifiedItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfCertifiedItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_CertificationAssignment.hxx>
-#include <Handle_StepBasic_Certification.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Certification.hxx>
 class StepAP203_HArray1OfCertifiedItem;
 class StepBasic_Certification;
 

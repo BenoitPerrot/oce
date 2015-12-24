@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 class TopTools_HArray2OfShape;

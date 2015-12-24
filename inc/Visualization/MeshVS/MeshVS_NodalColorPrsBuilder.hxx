@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_NodalColorPrsBuilder.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_NodalColorPrsBuilder.hxx>
 
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerColor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -16,17 +16,17 @@
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerReal.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
-#include <Handle_MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Mesh.hxx>
 #include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
-#include <Handle_MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/MeshVS/MeshVS_BuilderPriority.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Graphic3d_Texture2D.hxx>
-#include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <Handle_Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Texture2D.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ArrayOfPrimitives.hxx>
 class MeshVS_Mesh;
 class MeshVS_DataSource;
 class Prs3d_Presentation;

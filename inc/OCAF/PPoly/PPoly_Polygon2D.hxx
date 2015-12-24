@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PPoly_Polygon2D.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Polygon2D.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class PColgp_HArray1OfPnt2d;
 

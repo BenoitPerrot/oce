@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriver.hxx>
 
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>

@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepReaderData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_StepElement_SurfaceSection.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SurfaceSection.hxx>
 class StepData_StepReaderData;
 class Interface_Check;
 class StepElement_SurfaceSection;

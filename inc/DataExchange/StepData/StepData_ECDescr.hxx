@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_ECDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_ECDescr.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <DataExchange/StepData/StepData_EDescr.hxx>
-#include <Handle_StepData_ESDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_StepData_Described.hxx>
+#include <DataExchange/StepData/Handle_StepData_Described.hxx>
 class StepData_ESDescr;
 class TColStd_HSequenceOfAsciiString;
 class StepData_Described;

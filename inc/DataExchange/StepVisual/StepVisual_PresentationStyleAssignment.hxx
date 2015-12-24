@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_PresentationStyleAssignment.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationStyleAssignment.hxx>
 
-#include <Handle_StepVisual_HArray1OfPresentationStyleSelect.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfPresentationStyleSelect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfPresentationStyleSelect;

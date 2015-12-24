@@ -19,7 +19,7 @@
 #include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeShape.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 class TopoDS_Face;
 class TopTools_IndexedMapOfOrientedShape;
 class TopTools_IndexedDataMapOfShapeShape;

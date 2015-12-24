@@ -8,25 +8,25 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_Static.hxx>
+#include <DataExchange/Interface/Handle_Interface_Static.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_Interface_Static.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_Static.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_HArray1OfAsciiString.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfAsciiString.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
 #include <DataExchange/Interface/Interface_StaticSatisfies.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <DataExchange/Interface/Interface_TypedValue.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
 class Standard_Type;
 class TColStd_HArray1OfAsciiString;
 class Dico_DictionaryOfInteger;

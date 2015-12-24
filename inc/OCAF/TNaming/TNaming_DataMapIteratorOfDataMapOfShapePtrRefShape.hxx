@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <OCAF/TNaming/TNaming_PtrRefShape.hxx>
-#include <Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_DataMapNodeOfDataMapOfShapePtrRefShape.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;

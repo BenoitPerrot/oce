@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Element.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/MoniTool/MoniTool_AttrList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Standard_Type;
 class MoniTool_AttrList;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>
-#include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PTopoDS_Shape1;
 class PTopoDS_FieldOfHArray1OfShape1;

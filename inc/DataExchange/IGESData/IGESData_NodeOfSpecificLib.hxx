@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_NodeOfSpecificLib.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_NodeOfSpecificLib.hxx>
 
-#include <Handle_IGESData_GlobalNodeOfSpecificLib.hxx>
-#include <Handle_IGESData_NodeOfSpecificLib.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_GlobalNodeOfSpecificLib.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_NodeOfSpecificLib.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESData_SpecificModule.hxx>
-#include <Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_SpecificModule.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
 class IGESData_GlobalNodeOfSpecificLib;
 class IGESData_IGESEntity;
 class IGESData_SpecificModule;

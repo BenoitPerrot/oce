@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ReprItemAndLengthMeasureWithUnit.hxx>
 
-#include <Handle_StepBasic_LengthMeasureWithUnit.hxx>
-#include <Handle_StepRepr_MeasureRepresentationItem.hxx>
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_LengthMeasureWithUnit.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
 class StepBasic_LengthMeasureWithUnit;
 class StepRepr_MeasureRepresentationItem;
 class StepBasic_MeasureWithUnit;

@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Voxel_Prs.hxx>
+#include <Visualization/Voxel/Handle_Voxel_Prs.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visualization/AIS/AIS_InteractiveObject.hxx>
-#include <Handle_Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 #include <Visualization/Voxel/Voxel_VoxelDisplayMode.hxx>
-#include <Handle_Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Handle_Quantity_HArray1OfColor.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
 class Poly_Triangulation;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedExpression.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedExpression.hxx>
 
-#include <Handle_Expr_NamedExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedExpression.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Expr_NamedExpression;

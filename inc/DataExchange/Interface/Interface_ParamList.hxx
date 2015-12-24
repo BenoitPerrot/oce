@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_ParamList.hxx>
+#include <DataExchange/Interface/Handle_Interface_ParamList.hxx>
 
 #include <DataExchange/Interface/Interface_VectorOfFileParameter.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

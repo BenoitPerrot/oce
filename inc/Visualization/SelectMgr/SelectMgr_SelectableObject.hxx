@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
 
 #include <Visualization/SelectMgr/SelectMgr_SequenceOfSelection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentableObject.hxx>
 #include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
-#include <Handle_PrsMgr_PresentationManager.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentationManager.hxx>
 class Prs3d_Presentation;
 class Standard_NotImplemented;
 class SelectMgr_Selection;

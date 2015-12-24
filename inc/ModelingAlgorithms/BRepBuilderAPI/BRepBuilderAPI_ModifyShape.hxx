@@ -12,7 +12,7 @@
 
 #include <ModelingData/BRepTools/BRepTools_Modifier.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_BRepTools_Modification.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_Modification.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 class BRepTools_Modification;
 class Standard_NullObject;

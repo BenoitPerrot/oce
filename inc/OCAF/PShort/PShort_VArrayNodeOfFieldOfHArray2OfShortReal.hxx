@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
+#include <OCAF/PShort/Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>

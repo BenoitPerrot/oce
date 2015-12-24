@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PColStd_HArray1OfInteger.hxx>
-#include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PColStd_HArray1OfInteger;
 class PDataStd_FieldOfHArray1OfHArray1OfInteger;

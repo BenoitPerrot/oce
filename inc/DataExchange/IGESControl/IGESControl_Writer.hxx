@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Transfer_FinderProcess.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 #include <DataExchange/IGESData/IGESData_BasicEditor.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Transfer_FinderProcess;
 class IGESData_IGESModel;

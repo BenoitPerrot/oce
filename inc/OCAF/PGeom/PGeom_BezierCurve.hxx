@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom_BezierCurve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_BezierCurve.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PColgp_HArray1OfPnt.hxx>
-#include <Handle_PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray1OfPnt.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfReal.hxx>
 #include <OCAF/PGeom/PGeom_BoundedCurve.hxx>
 class PColgp_HArray1OfPnt;
 class PColStd_HArray1OfReal;

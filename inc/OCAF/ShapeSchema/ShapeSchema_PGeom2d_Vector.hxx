@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom2d_Vector_HeaderFile
-#include <Handle_PGeom2d_Vector.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Vector.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom2d_Geometry_HeaderFile

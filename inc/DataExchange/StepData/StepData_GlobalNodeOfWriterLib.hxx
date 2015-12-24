@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_GlobalNodeOfWriterLib.hxx>
+#include <DataExchange/StepData/Handle_StepData_GlobalNodeOfWriterLib.hxx>
 
-#include <Handle_StepData_ReadWriteModule.hxx>
-#include <Handle_StepData_Protocol.hxx>
-#include <Handle_StepData_GlobalNodeOfWriterLib.hxx>
+#include <DataExchange/StepData/Handle_StepData_ReadWriteModule.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_GlobalNodeOfWriterLib.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepData_NodeOfWriterLib.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepData/Handle_StepData_NodeOfWriterLib.hxx>
 class StepData_ReadWriteModule;
 class StepData_Protocol;
 class Standard_Transient;

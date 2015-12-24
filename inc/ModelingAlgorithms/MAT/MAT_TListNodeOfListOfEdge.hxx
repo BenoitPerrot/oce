@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_TListNodeOfListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_TListNodeOfListOfEdge.hxx>
 
-#include <Handle_MAT_TListNodeOfListOfEdge.hxx>
-#include <Handle_MAT_Edge.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_TListNodeOfListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Edge.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MAT_ListOfEdge.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_ListOfEdge.hxx>
 class MAT_Edge;
 class MAT_ListOfEdge;
 

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_FeaShellMembraneStiffness.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaShellMembraneStiffness.hxx>
 
 #include <DataExchange/StepFEA/StepFEA_SymmetricTensor42d.hxx>
 #include <DataExchange/StepFEA/StepFEA_FeaMaterialPropertyRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;
 class StepFEA_SymmetricTensor42d;
 

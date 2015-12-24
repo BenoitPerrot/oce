@@ -14,8 +14,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_BRepAlgo_AsDes.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopoDS_Face;

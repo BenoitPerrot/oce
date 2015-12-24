@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_Block.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Block.hxx>
 
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Axis2Placement3d;
 class TCollection_HAsciiString;
 

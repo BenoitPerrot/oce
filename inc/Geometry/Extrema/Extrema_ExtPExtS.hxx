@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Extrema_ExtPExtS.hxx>
+#include <Geometry/Extrema/Handle_Extrema_ExtPExtS.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Extrema/Extrema_FuncExtPS.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
-#include <Handle_Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Geometry/Extrema/Extrema_GenExtPS.hxx>

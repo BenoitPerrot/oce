@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GccInt_BHyper.hxx>
+#include <ModelingAlgorithms/GccInt/Handle_GccInt_BHyper.hxx>
 
 #include <Mathematics/Primitives/gp_Hypr2d.hxx>
 #include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>

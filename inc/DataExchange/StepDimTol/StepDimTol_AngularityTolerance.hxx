@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepDimTol_AngularityTolerance.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_AngularityTolerance.hxx>
 
 #include <DataExchange/StepDimTol/StepDimTol_GeometricToleranceWithDatumReference.hxx>
 

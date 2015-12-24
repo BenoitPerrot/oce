@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepTopAdaptor_HVertex.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_HVertex.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
-#include <Handle_BRepAdaptor_HCurve2d.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HCurve2d.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HVertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HVertex.hxx>
 class BRepAdaptor_HCurve2d;
 class TopoDS_Vertex;
 class gp_Pnt2d;

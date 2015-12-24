@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TNaming_DeltaOnRemoval.hxx>
+#include <OCAF/TNaming/Handle_TNaming_DeltaOnRemoval.hxx>
 
-#include <Handle_TNaming_DeltaOnModification.hxx>
+#include <OCAF/TNaming/Handle_TNaming_DeltaOnModification.hxx>
 #include <OCAF/TDF/TDF_DeltaOnRemoval.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 class TNaming_DeltaOnModification;
 class TNaming_NamedShape;
 

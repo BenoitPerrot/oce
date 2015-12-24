@@ -15,7 +15,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
 class Standard_ConstructionError;
 class BRepMAT2d_Explorer;
 class BRepMAT2d_BisectingLocus;

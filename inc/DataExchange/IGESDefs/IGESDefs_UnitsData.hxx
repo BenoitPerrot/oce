@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDefs_UnitsData.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_UnitsData.hxx>
 
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Interface_HArray1OfHAsciiString;
 class TColStd_HArray1OfReal;

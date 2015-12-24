@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntCurveSurface_SequenceNodeOfSequenceOfSeg.hxx>
+#include <ModelingAlgorithms/IntCurveSurface/Handle_IntCurveSurface_SequenceNodeOfSequenceOfSeg.hxx>
 
 #include <ModelingAlgorithms/IntCurveSurface/IntCurveSurface_IntersectionSegment.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

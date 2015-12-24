@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDocStd_Application.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Application.hxx>
 
-#include <Handle_Resource_Manager.hxx>
+#include <Foundation/Resource/Handle_Resource_Manager.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/CDF/CDF_Application.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TDocStd_Document.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
 #include <OCAF/PCDM/PCDM_ReaderStatus.hxx>
 #include <OCAF/PCDM/PCDM_StoreStatus.hxx>
 class Resource_Manager;

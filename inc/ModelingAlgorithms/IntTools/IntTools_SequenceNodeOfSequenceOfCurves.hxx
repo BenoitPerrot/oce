@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntTools_SequenceNodeOfSequenceOfCurves.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_SequenceNodeOfSequenceOfCurves.hxx>
 
 #include <ModelingAlgorithms/IntTools/IntTools_Curve.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

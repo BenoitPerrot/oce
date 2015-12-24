@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_OrientedOpenShell.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_OrientedOpenShell.hxx>
 
-#include <Handle_StepShape_OpenShell.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_OpenShell.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepShape/StepShape_OpenShell.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_HArray1OfFace.hxx>
-#include <Handle_StepShape_Face.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfFace.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Face.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_OpenShell;
 class TCollection_HAsciiString;

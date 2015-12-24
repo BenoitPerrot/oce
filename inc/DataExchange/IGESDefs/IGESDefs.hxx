@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESDefs_Protocol.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_Protocol.hxx>
 class IGESDefs_Protocol;
 class IGESDefs_AssociativityDef;
 class IGESDefs_MacroDef;

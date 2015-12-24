@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_DeltaOnModificationOfExtStringArray.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_DeltaOnModificationOfExtStringArray.hxx>
 
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColStd_HArray1OfExtendedString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfExtendedString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDF/TDF_DeltaOnModification.hxx>
-#include <Handle_TDataStd_ExtStringArray.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_ExtStringArray.hxx>
 class TColStd_HArray1OfInteger;
 class TColStd_HArray1OfExtendedString;
 class TDataStd_ExtStringArray;

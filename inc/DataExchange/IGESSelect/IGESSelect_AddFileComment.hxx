@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_AddFileComment.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_AddFileComment.hxx>
 
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_FileModifier.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

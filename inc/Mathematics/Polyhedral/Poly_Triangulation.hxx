@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
-#include <Handle_TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Mathematics/Polyhedral/Poly_Array1OfTriangle.hxx>
-#include <Handle_TShort_HArray1OfShortReal.hxx>
+#include <Foundation/TShort/Handle_TShort_HArray1OfShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColgp_HArray1OfPnt2d;

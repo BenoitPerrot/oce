@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_NewDimensionedGeometry.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_NewDimensionedGeometry.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColgp_HArray1OfXYZ.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfXYZ.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class IGESData_IGESEntity;
 class IGESData_HArray1OfIGESEntity;

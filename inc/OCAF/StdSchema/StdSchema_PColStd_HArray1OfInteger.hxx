@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PColStd_HArray1OfInteger_HeaderFile
-#include <Handle_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfInteger.hxx>
 #endif
 
 #ifndef _StdSchema_Standard_Persistent_HeaderFile

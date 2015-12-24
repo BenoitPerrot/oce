@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectEntityNumber.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectEntityNumber.hxx>
 
-#include <Handle_IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_IntParam.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectBase.hxx>
 class IFSelect_IntParam;
 class Interface_EntityIterator;

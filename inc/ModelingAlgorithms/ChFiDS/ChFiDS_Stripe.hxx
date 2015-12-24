@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Stripe.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_ChFiDS_Spine.hxx>
-#include <Handle_ChFiDS_HData.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_HData.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

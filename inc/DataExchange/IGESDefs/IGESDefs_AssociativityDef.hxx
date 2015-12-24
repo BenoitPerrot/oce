@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDefs_AssociativityDef.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_AssociativityDef.hxx>
 
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

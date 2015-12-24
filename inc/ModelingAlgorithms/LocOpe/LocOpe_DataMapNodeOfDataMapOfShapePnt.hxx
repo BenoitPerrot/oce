@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_LocOpe_DataMapNodeOfDataMapOfShapePnt.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_DataMapNodeOfDataMapOfShapePnt.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom_SurfaceOfRevolution.hxx>
+#include <OCAF/PGeom/Handle_PGeom_SurfaceOfRevolution.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <OCAF/PGeom/PGeom_SweptSurface.hxx>
-#include <Handle_PGeom_Curve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Curve.hxx>
 class PGeom_Curve;
 class gp_Dir;
 class gp_Pnt;

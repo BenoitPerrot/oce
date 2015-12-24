@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_PolygonOnSurface.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PolygonOnSurface.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PGeom_Surface.hxx>
-#include <Handle_PPoly_Polygon2D.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Polygon2D.hxx>
 #include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PGeom_Surface;
 class PPoly_Polygon2D;

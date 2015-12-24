@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/Handle_TransferBRep_SequenceNodeOfSequenceOfTransferResultInfo.hxx>
 
-#include <Handle_TransferBRep_TransferResultInfo.hxx>
+#include <DataExchange/TransferBRep/Handle_TransferBRep_TransferResultInfo.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TransferBRep_TransferResultInfo;

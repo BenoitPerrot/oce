@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Vector.hxx>
-#include <Handle_Geom2d_VectorWithMagnitude.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Vector.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_VectorWithMagnitude.hxx>
 class StepGeom_Vector;
 class Geom2d_VectorWithMagnitude;
 

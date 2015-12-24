@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntTools_SequenceNodeOfSequenceOfPntOn2Faces.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_SequenceNodeOfSequenceOfPntOn2Faces.hxx>
 
 #include <ModelingAlgorithms/IntTools/IntTools_PntOn2Faces.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

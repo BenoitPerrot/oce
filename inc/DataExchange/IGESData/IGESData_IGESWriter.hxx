@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESData_IGESModel.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <DataExchange/IGESData/IGESData_Array1OfDirPart.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
@@ -20,9 +20,9 @@
 #include <DataExchange/Interface/Interface_LineBuffer.hxx>
 #include <DataExchange/Interface/Interface_FloatWriter.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_IGESData_Protocol.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

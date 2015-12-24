@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
-#include <Handle_SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

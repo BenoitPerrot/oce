@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_SecHArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SecHArray1.hxx>
 
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_SecArray1.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

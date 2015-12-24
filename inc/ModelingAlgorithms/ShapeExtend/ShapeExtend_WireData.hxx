@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
 
-#include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <Handle_TColStd_HSequenceOfInteger.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_XmlMDF_ADriver.hxx>
-#include <Handle_XmlMDF_DataMapNodeOfMapOfDriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_DataMapNodeOfMapOfDriver.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 class XmlMDF_ADriver;

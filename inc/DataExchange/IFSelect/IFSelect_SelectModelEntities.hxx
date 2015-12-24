@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectModelEntities.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectModelEntities.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SelectBase.hxx>
 class Interface_EntityIterator;

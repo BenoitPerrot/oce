@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_TFace1.hxx>
+#include <OCAF/PBRep/Handle_PBRep_TFace1.hxx>
 
-#include <Handle_PGeom_Surface.hxx>
-#include <Handle_PPoly_Triangulation.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Triangulation.hxx>
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

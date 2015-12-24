@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_ChangeLevelNumber.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_ChangeLevelNumber.hxx>
 
-#include <Handle_IFSelect_IntParam.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_IntParam.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 class IFSelect_IntParam;
 class IFSelect_ContextModif;
 class IGESData_IGESModel;

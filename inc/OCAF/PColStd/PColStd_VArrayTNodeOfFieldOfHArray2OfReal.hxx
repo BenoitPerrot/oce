@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PColStd_FieldOfHArray2OfReal;
 class PColStd_VArrayNodeOfFieldOfHArray2OfReal;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_Storage_StreamWriteError.hxx>
+#include <Foundation/Storage/Handle_Storage_StreamWriteError.hxx>
 
 #if !defined No_Exception && !defined No_Storage_StreamWriteError
   #define Storage_StreamWriteError_Raise_if(CONDITION, MESSAGE) \

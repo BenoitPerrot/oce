@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSDRAWSTLVRML_DrawableMesh.hxx>
+#include <Viewer/XSDRAWSTLVRML/Handle_XSDRAWSTLVRML_DrawableMesh.hxx>
 
-#include <Handle_MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Mesh.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
 class MeshVS_Mesh;
 class Draw_Display;

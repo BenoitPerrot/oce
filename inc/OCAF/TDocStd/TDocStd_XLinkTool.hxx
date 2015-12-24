@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_DataSet.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 class TDF_DataSet;
 class TDF_RelocationTable;
 class TDF_Label;

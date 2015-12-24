@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepAP214_Protocol.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_Protocol.hxx>
 class StepAP214_Protocol;
 class StepAP214_AutoDesignDateAndPersonItem;
 class StepAP214_AutoDesignDateAndTimeItem;

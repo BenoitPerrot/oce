@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDF_FWOSDriver.hxx>
+#include <OCAF/CDF/Handle_CDF_FWOSDriver.hxx>
 
 #include <OCAF/CDF/CDF_MetaDataDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_CDM_MetaData.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 class TCollection_ExtendedString;
 class CDM_MetaData;
 class CDM_Document;

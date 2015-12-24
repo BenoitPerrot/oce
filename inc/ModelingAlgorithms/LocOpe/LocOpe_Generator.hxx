@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_LocOpe_GeneratedShape.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_GeneratedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 class LocOpe_GeneratedShape;

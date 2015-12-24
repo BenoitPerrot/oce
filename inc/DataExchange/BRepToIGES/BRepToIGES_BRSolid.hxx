@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 class BRepToIGES_BREntity;
 class IGESData_IGESEntity;
 class TopoDS_Shape;

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDataStd_ExtStringArray_HeaderFile
-#include <Handle_PDataStd_ExtStringArray.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_ExtStringArray.hxx>
 #endif
 
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile

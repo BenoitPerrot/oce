@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_HDataMapOfStringString.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HDataMapOfStringString.hxx>
 
 #include <OCAF/TDataStd/TDataStd_DataMapOfStringString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

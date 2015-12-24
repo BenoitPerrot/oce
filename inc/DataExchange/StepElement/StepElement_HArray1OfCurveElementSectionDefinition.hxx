@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_HArray1OfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_HArray1OfCurveElementSectionDefinition.hxx>
 
 #include <DataExchange/StepElement/StepElement_Array1OfCurveElementSectionDefinition.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepElement_CurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_CurveElementSectionDefinition.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

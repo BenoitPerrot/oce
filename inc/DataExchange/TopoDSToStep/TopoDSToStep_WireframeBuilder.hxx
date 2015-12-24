@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_BuilderError.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HSequenceOfTransient;
 class StdFail_NotDone;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_HArray1OfHArray1OfIGESEntity.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESData_HArray1OfIGESEntity;
 

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
 
-#include <Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

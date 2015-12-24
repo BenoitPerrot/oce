@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_NodeOfGeneralLib.hxx>
+#include <DataExchange/Interface/Handle_Interface_NodeOfGeneralLib.hxx>
 
-#include <Handle_Interface_GlobalNodeOfGeneralLib.hxx>
-#include <Handle_Interface_NodeOfGeneralLib.hxx>
+#include <DataExchange/Interface/Handle_Interface_GlobalNodeOfGeneralLib.hxx>
+#include <DataExchange/Interface/Handle_Interface_NodeOfGeneralLib.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_GeneralModule.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 class Interface_GlobalNodeOfGeneralLib;
 class Standard_Transient;
 class Interface_GeneralModule;

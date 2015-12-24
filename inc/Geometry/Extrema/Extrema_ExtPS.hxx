@@ -19,8 +19,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <GeomAbs_SurfaceType.hxx>
-#include <Handle_Extrema_ExtPExtS.hxx>
-#include <Handle_Extrema_ExtPRevS.hxx>
+#include <Geometry/Extrema/Handle_Extrema_ExtPExtS.hxx>
+#include <Geometry/Extrema/Handle_Extrema_ExtPRevS.hxx>
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColgp_SequenceNodeOfSequenceOfArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_SequenceNodeOfSequenceOfArray1OfPnt2d.hxx>
 
-#include <Handle_TColgp_HArray1OfPnt2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColgp_HArray1OfPnt2d;

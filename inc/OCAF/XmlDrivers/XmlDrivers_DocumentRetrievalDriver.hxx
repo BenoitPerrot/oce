@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlDrivers/Handle_XmlDrivers_DocumentRetrievalDriver.hxx>
 
 #include <OCAF/XmlLDrivers/XmlLDrivers_DocumentRetrievalDriver.hxx>
-#include <Handle_XmlMDF_ADriverTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriverTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriver.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class XmlMDF_ADriverTable;

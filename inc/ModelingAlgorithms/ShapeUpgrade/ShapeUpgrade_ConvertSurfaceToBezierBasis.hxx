@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_ConvertSurfaceToBezierBasis.hxx>
 
-#include <Handle_ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_CompositeSurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitSurface.hxx>
 class ShapeExtend_CompositeSurface;

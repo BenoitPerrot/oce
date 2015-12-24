@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Intf_SequenceNodeOfSeqOfSectionLine.hxx>
+#include <ModelingAlgorithms/Intf/Handle_Intf_SequenceNodeOfSeqOfSectionLine.hxx>
 
 #include <ModelingAlgorithms/Intf/Intf_SectionLine.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

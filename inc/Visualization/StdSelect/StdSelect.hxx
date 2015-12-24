@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Select3D_Projector.hxx>
-#include <Handle_V3d_View.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
-#include <Handle_Prs3d_Drawer.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Drawer.hxx>
 class Select3D_Projector;
 class V3d_View;
 class SelectMgr_Selection;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <Handle_Standard_NotImplemented.hxx>
+#include <Foundation/Standard/Handle_Standard_NotImplemented.hxx>
 
 #if !defined No_Exception && !defined No_Standard_NotImplemented
   #define Standard_NotImplemented_Raise_if(CONDITION, MESSAGE) \

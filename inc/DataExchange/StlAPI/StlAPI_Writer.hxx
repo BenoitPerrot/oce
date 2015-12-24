@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_Mesh.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class StlMesh_Mesh;
 class TopoDS_Shape;

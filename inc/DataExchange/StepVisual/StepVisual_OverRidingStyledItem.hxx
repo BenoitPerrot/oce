@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_OverRidingStyledItem.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_OverRidingStyledItem.hxx>
 
-#include <Handle_StepVisual_StyledItem.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_StyledItem.hxx>
 #include <DataExchange/StepVisual/StepVisual_StyledItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepVisual_HArray1OfPresentationStyleAssignment.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfPresentationStyleAssignment.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
 class StepVisual_StyledItem;
 class TCollection_HAsciiString;
 class StepVisual_HArray1OfPresentationStyleAssignment;

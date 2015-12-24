@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TopTools_DataMapNodeOfDataMapOfShapeReal.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_DataMapNodeOfDataMapOfShapeReal.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;

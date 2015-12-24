@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_IdenticRelation.hxx>
+#include <Visualization/AIS/Handle_AIS_IdenticRelation.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/AIS/AIS_Relation.hxx>
-#include <Handle_Geom_Plane.hxx>
+#include <Geometry/Geom/Handle_Geom_Plane.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Prs3d_Projector.hxx>
-#include <Handle_Geom_Transformation.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
-#include <Handle_Geom_Line.hxx>
-#include <Handle_Geom_Circle.hxx>
-#include <Handle_Geom_Ellipse.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
+#include <Geometry/Geom/Handle_Geom_Line.hxx>
+#include <Geometry/Geom/Handle_Geom_Circle.hxx>
+#include <Geometry/Geom/Handle_Geom_Ellipse.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
 class Geom_Plane;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_V3d_ColorScaleLayerItem.hxx>
+#include <Visualization/V3d/Handle_V3d_ColorScaleLayerItem.hxx>
 
-#include <Handle_V3d_ColorScale.hxx>
+#include <Visualization/V3d/Handle_V3d_ColorScale.hxx>
 #include <Visualization/Visual3d/Visual3d_LayerItem.hxx>
 class V3d_ColorScale;
 

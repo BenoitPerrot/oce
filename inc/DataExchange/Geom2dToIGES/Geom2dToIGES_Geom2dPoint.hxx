@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/Geom2dToIGES/Geom2dToIGES_Geom2dEntity.hxx>
-#include <Handle_IGESGeom_Point.hxx>
-#include <Handle_Geom2d_Point.hxx>
-#include <Handle_Geom2d_CartesianPoint.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Point.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Point.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_CartesianPoint.hxx>
 class Geom2dToIGES_Geom2dEntity;
 class IGESGeom_Point;
 class Geom2d_Point;

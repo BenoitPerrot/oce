@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_DataMapNodeOfDataMapOfShapeBoolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

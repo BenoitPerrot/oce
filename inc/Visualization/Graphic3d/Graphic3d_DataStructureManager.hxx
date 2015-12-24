@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_DataStructureManager.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 

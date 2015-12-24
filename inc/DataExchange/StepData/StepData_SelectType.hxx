@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_StepData_PDescr.hxx>
-#include <Handle_StepData_SelectMember.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <DataExchange/StepData/Handle_StepData_PDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_SelectMember.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

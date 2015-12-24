@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_ClosedEdgeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_ClosedEdgeDivide.hxx>
 
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_EdgeDivide.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

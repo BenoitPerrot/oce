@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_HLRBRep_ListNodeOfListOfBPoint.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_ListNodeOfListOfBPoint.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

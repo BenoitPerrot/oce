@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
+#include <Foundation/Resource/Handle_Resource_DataMapNodeOfDataMapOfAsciiStringAsciiString.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 class Resource_DataMapOfAsciiStringAsciiString;

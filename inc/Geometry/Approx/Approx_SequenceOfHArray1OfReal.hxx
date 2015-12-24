@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/Approx/Handle_Approx_SequenceNodeOfSequenceOfHArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

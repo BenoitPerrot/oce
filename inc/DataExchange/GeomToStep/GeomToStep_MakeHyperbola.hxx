@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Hyperbola.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom2d_Hyperbola.hxx>
-#include <Handle_Geom_Hyperbola.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Hyperbola.hxx>
+#include <Geometry/Geom/Handle_Geom_Hyperbola.hxx>
 class StepGeom_Hyperbola;
 class StdFail_NotDone;
 class Geom2d_Hyperbola;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDefs_HArray1OfTabularData.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_HArray1OfTabularData.hxx>
 
 #include <DataExchange/IGESDefs/IGESDefs_Array1OfTabularData.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_TabularData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

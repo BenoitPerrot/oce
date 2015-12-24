@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawFairCurve_Batten.hxx>
+#include <Viewer/DrawFairCurve/Handle_DrawFairCurve_Batten.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Viewer/DrawTrSurf/DrawTrSurf_BSplineCurve2d.hxx>

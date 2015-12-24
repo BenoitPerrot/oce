@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PMMgt_PManaged.hxx>
+#include <OCAF/PMMgt/Handle_PMMgt_PManaged.hxx>
 
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class Standard_OutOfMemory;

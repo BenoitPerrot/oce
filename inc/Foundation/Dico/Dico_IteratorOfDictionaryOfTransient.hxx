@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_StackItemOfDictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Dico_DictionaryOfTransient;
 class Dico_StackItemOfDictionaryOfTransient;

@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Graphic3d_Group.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 class Graphic3d_Group;
 class Prs3d_Presentation;
 

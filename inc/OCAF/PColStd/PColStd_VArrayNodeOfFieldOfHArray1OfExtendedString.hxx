@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_PCollection_HExtendedString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HExtendedString.hxx>
 #include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PCollection_HExtendedString;
 class PColStd_FieldOfHArray1OfExtendedString;

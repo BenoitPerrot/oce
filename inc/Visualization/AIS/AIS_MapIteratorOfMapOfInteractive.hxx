@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
-#include <Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
 class Standard_NoSuchObject;
 class AIS_InteractiveObject;
 class TColStd_MapTransientHasher;

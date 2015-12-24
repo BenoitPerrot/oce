@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #endif
 #ifndef _Handle_MMgt_TShared_HeaderFile
-#include <Handle_MMgt_TShared.hxx>
+#include <Foundation/MMgt/Handle_MMgt_TShared.hxx>
 #endif
 
 #include <Foundation/NCollection/NCollection_DataMap.hxx>

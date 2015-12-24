@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_CurveElementIntervalLinearlyVarying.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_CurveElementIntervalLinearlyVarying.hxx>
 
-#include <Handle_StepElement_HArray1OfCurveElementSectionDefinition.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_HArray1OfCurveElementSectionDefinition.hxx>
 #include <DataExchange/StepFEA/StepFEA_CurveElementInterval.hxx>
-#include <Handle_StepFEA_CurveElementLocation.hxx>
-#include <Handle_StepBasic_EulerAngles.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_CurveElementLocation.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_EulerAngles.hxx>
 class StepElement_HArray1OfCurveElementSectionDefinition;
 class StepFEA_CurveElementLocation;
 class StepBasic_EulerAngles;

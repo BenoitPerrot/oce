@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_MAT2d_Connexion.hxx>
-#include <Handle_MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

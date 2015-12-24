@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_ExtrudedFaceSolid.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ExtrudedFaceSolid.hxx>
 
-#include <Handle_StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Direction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepShape/StepShape_SweptFaceSolid.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_FaceSurface.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_FaceSurface.hxx>
 class StepGeom_Direction;
 class TCollection_HAsciiString;
 class StepShape_FaceSurface;

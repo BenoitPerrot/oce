@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_Darboux.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_Darboux.hxx>
 
 #include <ModelingAlgorithms/GeomFill/GeomFill_TrihedronLaw.hxx>
-#include <Handle_GeomFill_TrihedronLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TrihedronLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

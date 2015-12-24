@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListOfVData.hxx>

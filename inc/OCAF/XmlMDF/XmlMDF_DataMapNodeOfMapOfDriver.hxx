@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlMDF_DataMapNodeOfMapOfDriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_DataMapNodeOfMapOfDriver.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriver.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class XmlMDF_ADriver;

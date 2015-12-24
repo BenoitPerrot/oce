@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class STEPCAFControl_ExternFile;

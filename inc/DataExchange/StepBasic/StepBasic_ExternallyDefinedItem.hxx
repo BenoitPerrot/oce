@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ExternallyDefinedItem.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ExternallyDefinedItem.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_SourceItem.hxx>
-#include <Handle_StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ExternalSource.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_ExternalSource;
 class StepBasic_SourceItem;

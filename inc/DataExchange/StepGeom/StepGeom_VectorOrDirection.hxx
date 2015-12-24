@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepGeom_Vector.hxx>
-#include <Handle_StepGeom_Direction.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Vector.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Direction.hxx>
 class Standard_Transient;
 class StepGeom_Vector;
 class StepGeom_Direction;

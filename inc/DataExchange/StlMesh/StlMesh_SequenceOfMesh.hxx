@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_StlMesh_Mesh.hxx>
-#include <Handle_StlMesh_SequenceNodeOfSequenceOfMesh.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_Mesh.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_SequenceNodeOfSequenceOfMesh.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

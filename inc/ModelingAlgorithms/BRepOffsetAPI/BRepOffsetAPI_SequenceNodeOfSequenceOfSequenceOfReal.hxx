@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
+#include <ModelingAlgorithms/BRepOffsetAPI/Handle_BRepOffsetAPI_SequenceNodeOfSequenceOfSequenceOfReal.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

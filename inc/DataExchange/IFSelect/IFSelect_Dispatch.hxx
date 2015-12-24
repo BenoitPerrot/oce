@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_Dispatch.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Dispatch.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IFSelect_Selection.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

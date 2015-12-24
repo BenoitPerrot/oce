@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draw_Chronometer.hxx>
+#include <Viewer/Draw/Handle_Draw_Chronometer.hxx>
 
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class OSD_Timer;

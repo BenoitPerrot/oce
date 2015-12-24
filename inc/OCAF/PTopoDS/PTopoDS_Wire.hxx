@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_Wire.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_Wire.hxx>
 
 #include <OCAF/PTopoDS/PTopoDS_HShape.hxx>
 

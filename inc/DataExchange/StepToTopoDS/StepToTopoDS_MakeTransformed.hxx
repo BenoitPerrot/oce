@@ -13,10 +13,10 @@
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
-#include <Handle_StepGeom_CartesianTransformationOperator3d.hxx>
-#include <Handle_StepRepr_MappedItem.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MappedItem.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 class StepGeom_Axis2Placement3d;
 class StepGeom_CartesianTransformationOperator3d;
 class gp_Trsf;

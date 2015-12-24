@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
 class Standard_NoSuchObject;
 class AIS_ListOfInteractive;
 class TColStd_MapIntegerHasher;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>

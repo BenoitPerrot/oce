@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_SequenceNodeOfSequenceOfSelector.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SequenceNodeOfSequenceOfSelector.hxx>
 
-#include <Handle_SelectMgr_ViewerSelector.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_ViewerSelector.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class SelectMgr_ViewerSelector;

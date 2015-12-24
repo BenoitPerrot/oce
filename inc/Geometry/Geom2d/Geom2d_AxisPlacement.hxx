@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_AxisPlacement.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_AxisPlacement.hxx>
 
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Geometry.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
 class gp_Ax2d;
 class gp_Pnt2d;
 class gp_Dir2d;

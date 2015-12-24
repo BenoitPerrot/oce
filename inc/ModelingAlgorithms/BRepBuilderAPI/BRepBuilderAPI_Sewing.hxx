@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepBuilderAPI_Sewing.hxx>
+#include <ModelingAlgorithms/BRepBuilderAPI/Handle_BRepBuilderAPI_Sewing.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -19,13 +19,13 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
-#include <Handle_BRepTools_ReShape.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_ReShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class BRepTools_ReShape;
 class Standard_OutOfRange;
 class Standard_NoSuchObject;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Quantity_ColorDefinitionError.hxx>
+#include <Foundation/Quantity/Handle_Quantity_ColorDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Quantity_ColorDefinitionError
   #define Quantity_ColorDefinitionError_Raise_if(CONDITION, MESSAGE) \

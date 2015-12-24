@@ -13,11 +13,11 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfSegmentOfTheSOnBounds.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPathPointOfTheSOnBounds.hxx>
-#include <Handle_Adaptor3d_HVertex.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
-#include <Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
-#include <Handle_IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_SequenceNodeOfSequenceOfPathPointOfTheSOnBounds.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_SequenceNodeOfSequenceOfSegmentOfTheSOnBounds.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StdFail_NotDone;

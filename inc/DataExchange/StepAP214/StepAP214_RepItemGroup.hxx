@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_RepItemGroup.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_RepItemGroup.hxx>
 
-#include <Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_Group.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StepRepr_RepresentationItem;
 class TCollection_HAsciiString;

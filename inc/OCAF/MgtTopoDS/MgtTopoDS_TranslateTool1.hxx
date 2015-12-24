@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MgtTopoDS_TranslateTool1.hxx>
+#include <OCAF/MgtTopoDS/Handle_MgtTopoDS_TranslateTool1.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_TypeMismatch;

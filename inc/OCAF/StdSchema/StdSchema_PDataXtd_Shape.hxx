@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDataXtd_Shape_HeaderFile
-#include <Handle_PDataXtd_Shape.hxx>
+#include <OCAF/PDataXtd/Handle_PDataXtd_Shape.hxx>
 #endif
 
 #ifndef _StdSchema_PDF_Attribute_HeaderFile

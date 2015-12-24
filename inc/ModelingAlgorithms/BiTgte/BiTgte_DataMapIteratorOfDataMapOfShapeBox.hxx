@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
+#include <ModelingAlgorithms/BiTgte/Handle_BiTgte_DataMapNodeOfDataMapOfShapeBox.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class Bnd_Box;

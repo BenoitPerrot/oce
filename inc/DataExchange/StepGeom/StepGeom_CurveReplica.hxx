@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_CurveReplica.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CurveReplica.hxx>
 
-#include <Handle_StepGeom_Curve.hxx>
-#include <Handle_StepGeom_CartesianTransformationOperator.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianTransformationOperator.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Curve;
 class StepGeom_CartesianTransformationOperator;
 class TCollection_HAsciiString;

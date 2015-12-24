@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_BezierSurface.hxx>
-#include <Handle_Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierCurve.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_FillingStyle.hxx>
 class Geom_BezierSurface;
 class Standard_ConstructionError;

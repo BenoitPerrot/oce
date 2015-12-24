@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
-#include <Handle_ExprIntrp_ListNodeOfStackOfGeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_ListNodeOfStackOfGeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

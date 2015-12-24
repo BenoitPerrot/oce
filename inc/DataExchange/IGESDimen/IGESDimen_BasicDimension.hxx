@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_BasicDimension.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_BasicDimension.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>

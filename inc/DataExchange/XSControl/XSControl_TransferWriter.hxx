@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSControl_TransferWriter.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_TransferWriter.hxx>
 
-#include <Handle_XSControl_Controller.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_Controller.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class XSControl_Controller;
 class Transfer_FinderProcess;
 class Standard_Transient;

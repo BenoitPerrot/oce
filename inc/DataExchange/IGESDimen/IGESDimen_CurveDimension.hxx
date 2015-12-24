@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_CurveDimension.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_CurveDimension.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESDimen_LeaderArrow.hxx>
-#include <Handle_IGESDimen_WitnessLine.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_WitnessLine.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESDimen_GeneralNote;

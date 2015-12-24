@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PTopoDS_HShape.hxx>
-#include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PTopoDS_HShape;
 class PTopoDS_FieldOfHArray1OfHShape;

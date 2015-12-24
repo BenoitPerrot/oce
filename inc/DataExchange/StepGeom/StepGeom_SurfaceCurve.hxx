@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_SurfaceCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceCurve.hxx>
 
-#include <Handle_StepGeom_Curve.hxx>
-#include <Handle_StepGeom_HArray1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray1OfPcurveOrSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_PreferredSurfaceCurveRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_Curve;
 class StepGeom_HArray1OfPcurveOrSurface;

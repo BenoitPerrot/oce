@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_ExternalRefFileIndex.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_ExternalRefFileIndex.hxx>
 
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 class Interface_HArray1OfHAsciiString;
 class IGESData_HArray1OfIGESEntity;
 class Standard_DimensionMismatch;

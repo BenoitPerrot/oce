@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <Handle_Graphic3d_ListNodeOfListOfShortReal.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ListNodeOfListOfShortReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

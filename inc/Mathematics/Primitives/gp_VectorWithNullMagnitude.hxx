@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_gp_VectorWithNullMagnitude.hxx>
+#include <Mathematics/Primitives/Handle_gp_VectorWithNullMagnitude.hxx>
 
 #if !defined No_Exception && !defined No_gp_VectorWithNullMagnitude
   #define gp_VectorWithNullMagnitude_Raise_if(CONDITION, MESSAGE) \

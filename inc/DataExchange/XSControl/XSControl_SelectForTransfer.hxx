@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSControl_SelectForTransfer.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_SelectForTransfer.hxx>
 
-#include <Handle_XSControl_TransferReader.hxx>
-#include <Handle_Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_TransferReader.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfTransientProcess.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectExtract.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class XSControl_TransferReader;
 class Transfer_ActorOfTransientProcess;
 class Standard_Transient;

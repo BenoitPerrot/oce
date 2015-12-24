@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SweptSurface.hxx>
 
-#include <Handle_StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
 #include <DataExchange/StepGeom/StepGeom_Surface.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Curve;
 class TCollection_HAsciiString;
 

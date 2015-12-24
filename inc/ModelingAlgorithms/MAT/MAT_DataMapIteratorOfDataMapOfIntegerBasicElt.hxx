@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT_BasicElt.hxx>
-#include <Handle_MAT_DataMapNodeOfDataMapOfIntegerBasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_DataMapNodeOfDataMapOfIntegerBasicElt.hxx>
 class Standard_NoSuchObject;
 class MAT_BasicElt;
 class TColStd_MapIntegerHasher;

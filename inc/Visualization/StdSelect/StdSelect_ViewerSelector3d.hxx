@@ -8,20 +8,20 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StdSelect_ViewerSelector3d.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_ViewerSelector3d.hxx>
 
-#include <Handle_Select3D_Projector.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/StdSelect/StdSelect_SensitivityMode.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Graphic3d_Group.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfHClipPlane.hxx>
 #include <Visualization/SelectMgr/SelectMgr_ViewerSelector.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
-#include <Handle_V3d_View.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
 class Select3D_Projector;
 class Graphic3d_Group;
 class Graphic3d_Structure;

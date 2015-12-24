@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_CurveRepresentation_HeaderFile
-#include <Handle_PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_CurveRepresentation.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

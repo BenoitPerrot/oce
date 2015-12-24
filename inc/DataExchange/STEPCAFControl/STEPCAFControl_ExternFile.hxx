@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
 
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class XSControl_WorkSession;

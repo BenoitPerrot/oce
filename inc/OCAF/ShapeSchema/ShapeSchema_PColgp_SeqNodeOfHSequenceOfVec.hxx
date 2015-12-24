@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PColgp_SeqNodeOfHSequenceOfVec_HeaderFile
-#include <Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/PColgp/Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #endif
 
 #ifndef _ShapeSchema_PMMgt_PManaged_HeaderFile

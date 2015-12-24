@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopLoc_ItemLocation.hxx>
+#include <OCAF/PTopLoc/Handle_PTopLoc_ItemLocation.hxx>
 
-#include <Handle_PTopLoc_Datum3D.hxx>
+#include <OCAF/PTopLoc/Handle_PTopLoc_Datum3D.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>

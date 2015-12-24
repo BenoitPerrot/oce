@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_SelectReal.hxx>
+#include <DataExchange/StepData/Handle_StepData_SelectReal.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepData/StepData_SelectMember.hxx>

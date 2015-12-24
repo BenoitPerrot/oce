@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

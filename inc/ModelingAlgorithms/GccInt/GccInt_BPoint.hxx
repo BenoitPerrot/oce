@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GccInt_BPoint.hxx>
+#include <ModelingAlgorithms/GccInt/Handle_GccInt_BPoint.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/GccInt/GccInt_Bisec.hxx>

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColgp_SequenceNodeOfSequenceOfDir.hxx>
+#include <Mathematics/Collections/Handle_TColgp_SequenceNodeOfSequenceOfDir.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

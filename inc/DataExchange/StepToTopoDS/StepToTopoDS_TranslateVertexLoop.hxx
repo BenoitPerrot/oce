@@ -13,7 +13,7 @@
 #include <DataExchange/StepToTopoDS/StepToTopoDS_TranslateVertexLoopError.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
-#include <Handle_StepShape_VertexLoop.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_VertexLoop.hxx>
 class StdFail_NotDone;
 class StepShape_VertexLoop;
 class StepToTopoDS_Tool;

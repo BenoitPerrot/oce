@@ -15,7 +15,7 @@
 #include <Mathematics/Primitives/gp_Circ2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/Handle_GccInt_Bisec.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;
 class gp_Circ2d;

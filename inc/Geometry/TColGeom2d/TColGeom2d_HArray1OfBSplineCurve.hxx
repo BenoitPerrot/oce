@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColGeom2d_HArray1OfBSplineCurve.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_HArray1OfBSplineCurve.hxx>
 
 #include <Geometry/TColGeom2d/TColGeom2d_Array1OfBSplineCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

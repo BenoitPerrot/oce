@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_FloatFormat.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_FloatFormat.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

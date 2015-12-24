@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Storage/Storage_StreamReadError.hxx>
-#include <Handle_Storage_StreamUnknownTypeError.hxx>
+#include <Foundation/Storage/Handle_Storage_StreamUnknownTypeError.hxx>
 
 #if !defined No_Exception && !defined No_Storage_StreamUnknownTypeError
   #define Storage_StreamUnknownTypeError_Raise_if(CONDITION, MESSAGE) \

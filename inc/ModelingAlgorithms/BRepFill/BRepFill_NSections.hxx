@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_NSections.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_NSections.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_SequenceOfTrsf.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopTools_HArray2OfShape;

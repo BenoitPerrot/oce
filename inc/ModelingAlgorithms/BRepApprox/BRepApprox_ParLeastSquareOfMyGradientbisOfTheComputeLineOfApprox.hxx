@@ -12,8 +12,8 @@
 
 #include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 #include <Mathematics/Optimization/math_IntegerVector.hxx>

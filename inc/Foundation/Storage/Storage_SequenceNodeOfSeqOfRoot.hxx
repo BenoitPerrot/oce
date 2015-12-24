@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_SequenceNodeOfSeqOfRoot.hxx>
+#include <Foundation/Storage/Handle_Storage_SequenceNodeOfSeqOfRoot.hxx>
 
-#include <Handle_Storage_Root.hxx>
+#include <Foundation/Storage/Handle_Storage_Root.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Storage_Root;

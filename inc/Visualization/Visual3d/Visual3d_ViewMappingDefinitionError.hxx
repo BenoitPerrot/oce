@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_Visual3d_ViewMappingDefinitionError.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_ViewMappingDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Visual3d_ViewMappingDefinitionError
   #define Visual3d_ViewMappingDefinitionError_Raise_if(CONDITION, MESSAGE) \

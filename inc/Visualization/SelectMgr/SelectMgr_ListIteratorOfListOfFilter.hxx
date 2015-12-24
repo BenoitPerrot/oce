@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_SelectMgr_Filter.hxx>
-#include <Handle_SelectMgr_ListNodeOfListOfFilter.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_ListNodeOfListOfFilter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

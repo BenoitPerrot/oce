@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_ReportEntity.hxx>
+#include <DataExchange/Interface/Handle_Interface_ReportEntity.hxx>
 
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_Check;

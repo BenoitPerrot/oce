@@ -11,13 +11,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepRepr_GlobalUnitAssignedContext.hxx>
-#include <Handle_StepBasic_NamedUnit.hxx>
-#include <Handle_StepRepr_GlobalUncertaintyAssignedContext.hxx>
-#include <Handle_StepBasic_SiUnit.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_GlobalUncertaintyAssignedContext.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SiUnit.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiPrefix.hxx>
 class StepGeom_GeomRepContextAndGlobUnitAssCtxAndGlobUncertaintyAssCtx;

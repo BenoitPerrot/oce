@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_GeneralModule.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_GeneralModule.hxx>
 
 #include <DataExchange/Interface/Interface_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class Standard_Transient;
 class Interface_EntityIterator;
 class IGESData_IGESEntity;

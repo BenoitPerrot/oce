@@ -18,7 +18,7 @@
 
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Visualization/OpenGl/OpenGl_Vec.hxx>
 
 //! Class provides specific information for redrawing view to offscreen buffer

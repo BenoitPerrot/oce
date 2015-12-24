@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Drawer.hxx>
+#include <Visualization/AIS/Handle_AIS_Drawer.hxx>
 
-#include <Handle_Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Drawer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/Prs3d/Prs3d_Drawer.hxx>
@@ -18,16 +18,16 @@
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Visualization/Prs3d/Prs3d_TypeOfHLR.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Prs3d_IsoAspect.hxx>
-#include <Handle_Prs3d_LineAspect.hxx>
-#include <Handle_Prs3d_TextAspect.hxx>
-#include <Handle_Prs3d_ArrowAspect.hxx>
-#include <Handle_Prs3d_PointAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_IsoAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_ArrowAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_PointAspect.hxx>
 #include <Visualization/Prs3d/Prs3d_VertexDrawMode.hxx>
-#include <Handle_Prs3d_ShadingAspect.hxx>
-#include <Handle_Prs3d_PlaneAspect.hxx>
-#include <Handle_Prs3d_DatumAspect.hxx>
-#include <Handle_Prs3d_DimensionAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_ShadingAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_PlaneAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_DatumAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_DimensionAspect.hxx>
 class Prs3d_Drawer;
 class Prs3d_IsoAspect;
 class Prs3d_LineAspect;

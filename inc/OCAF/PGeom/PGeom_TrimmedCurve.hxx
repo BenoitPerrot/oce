@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom_TrimmedCurve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_TrimmedCurve.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_PGeom_Curve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Curve.hxx>
 #include <OCAF/PGeom/PGeom_BoundedCurve.hxx>
 class PGeom_Curve;
 

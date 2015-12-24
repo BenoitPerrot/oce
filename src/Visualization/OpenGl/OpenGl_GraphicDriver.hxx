@@ -23,8 +23,8 @@
 
 #include <Foundation/Standard/Standard_CString.hxx>
 
-#include <Handle_TColStd_HArray1OfByte.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfByte.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Handle_OpenGl_View.hxx>

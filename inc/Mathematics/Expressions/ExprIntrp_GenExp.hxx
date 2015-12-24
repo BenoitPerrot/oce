@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ExprIntrp_GenExp.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_GenExp.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Mathematics/Expressions/ExprIntrp_Generator.hxx>
 class Expr_GeneralExpression;
 class Standard_NoSuchObject;

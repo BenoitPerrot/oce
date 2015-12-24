@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_Axis1Placement.hxx>
+#include <Geometry/Geom/Handle_Geom_Axis1Placement.hxx>
 
 #include <Geometry/Geom/Geom_AxisPlacement.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class gp_Ax1;
 class gp_Pnt;
 class gp_Dir;

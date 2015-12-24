@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 
-#include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
-#include <Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_StackItemOfDictionaryOfExternFile.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
 class STEPCAFControl_DictionaryOfExternFile;
 class STEPCAFControl_ExternFile;
 class STEPCAFControl_IteratorOfDictionaryOfExternFile;

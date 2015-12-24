@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class Bnd_Box2d;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_PCDM_Document.hxx>
-#include <Handle_PCDM_SequenceNodeOfSequenceOfDocument.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Document.hxx>
+#include <OCAF/PCDM/Handle_PCDM_SequenceNodeOfSequenceOfDocument.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PPoly_Triangulation.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Triangulation.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PColgp_HArray1OfPnt.hxx>
-#include <Handle_PColgp_HArray1OfPnt2d.hxx>
-#include <Handle_PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray1OfPnt.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray1OfPnt2d.hxx>
+#include <OCAF/PPoly/Handle_PPoly_HArray1OfTriangle.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class PColgp_HArray1OfPnt;
 class PColgp_HArray1OfPnt2d;

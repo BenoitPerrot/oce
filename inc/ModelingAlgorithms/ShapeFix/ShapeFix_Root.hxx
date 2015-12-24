@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_Root.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Root.hxx>
 
-#include <Handle_ShapeBuild_ReShape.hxx>
-#include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

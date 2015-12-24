@@ -13,7 +13,7 @@
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 class Message_ProgressIndicator;
 
 

@@ -403,6 +403,6 @@ protected:
 DEFINE_STANDARD_RTTI (NIS_InteractiveObject)
 };
 
-#include <Handle_NIS_InteractiveObject.hxx>
+#include <Visualization/NIS/Handle_NIS_InteractiveObject.hxx>
 
 #endif

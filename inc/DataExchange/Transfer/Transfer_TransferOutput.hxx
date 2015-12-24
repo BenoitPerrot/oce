@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Transfer_TransientProcess.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Transfer_ActorOfTransientProcess.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfTransientProcess.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Transfer_TransientProcess;
 class Interface_InterfaceModel;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_EdgeOnSurfLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_EdgeOnSurfLaw.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_LocationLaw.hxx>

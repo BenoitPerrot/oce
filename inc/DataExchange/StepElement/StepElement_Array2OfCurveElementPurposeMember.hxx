@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_StepElement_CurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_CurveElementPurposeMember.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class Standard_OutOfMemory;

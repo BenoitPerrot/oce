@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_SequenceNodeOfSequenceOfBasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_SequenceNodeOfSequenceOfBasicElt.hxx>
 
-#include <Handle_MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MAT_BasicElt;

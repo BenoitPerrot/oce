@@ -23,7 +23,7 @@
 #include <Visualization/Graphic3d/Graphic3d_TypeOfComposition.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Vec3.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_GraphicDriver.hxx>
 
 class Handle(Graphic3d_StructureManager);
 

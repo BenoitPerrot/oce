@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_TFace1_HeaderFile
-#include <Handle_PBRep_TFace1.hxx>
+#include <OCAF/PBRep/Handle_PBRep_TFace1.hxx>
 #endif
 
 #ifndef _ShapeSchema_PTopoDS_TFace1_HeaderFile

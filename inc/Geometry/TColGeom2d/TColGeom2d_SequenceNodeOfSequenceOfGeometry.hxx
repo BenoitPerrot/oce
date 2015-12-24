@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_SequenceNodeOfSequenceOfGeometry.hxx>
 
-#include <Handle_Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Geom2d_Geometry;

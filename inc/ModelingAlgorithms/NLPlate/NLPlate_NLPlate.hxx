@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_SequenceOfHGPPConstraint.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_StackOfPlate.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_NLPlate_HGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_HGPPConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Surface;

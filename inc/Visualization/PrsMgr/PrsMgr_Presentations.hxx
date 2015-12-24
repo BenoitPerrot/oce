@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_PrsMgr_SequenceNodeOfPresentations.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_SequenceNodeOfPresentations.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

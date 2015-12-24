@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_DataMapNodeOfDataMapOfAsciiStringInteger.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

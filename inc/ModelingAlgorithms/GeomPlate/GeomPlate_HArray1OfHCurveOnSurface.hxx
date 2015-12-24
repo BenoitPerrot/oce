@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomPlate_HArray1OfHCurveOnSurface.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_HArray1OfHCurveOnSurface.hxx>
 
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_Array1OfHCurveOnSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

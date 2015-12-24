@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_UniformSurfaceAndRationalBSplineSurface.hxx>
 
-#include <Handle_StepGeom_UniformSurface.hxx>
-#include <Handle_StepGeom_RationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_UniformSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_RationalBSplineSurface.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineSurface.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepGeom_HArray2OfCartesianPoint.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray2OfCartesianPoint.hxx>
 #include <DataExchange/StepGeom/StepGeom_BSplineSurfaceForm.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_UniformSurface;
 class StepGeom_RationalBSplineSurface;

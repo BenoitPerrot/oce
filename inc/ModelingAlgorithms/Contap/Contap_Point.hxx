@@ -13,9 +13,9 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_Transition.hxx>
-#include <Handle_Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HVertex.hxx>
 class Adaptor2d_HCurve2d;
 class Adaptor3d_HVertex;
 class Standard_DomainError;

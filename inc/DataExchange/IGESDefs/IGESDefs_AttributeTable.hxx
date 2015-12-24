@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDefs_AttributeTable.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_AttributeTable.hxx>
 
-#include <Handle_TColStd_HArray2OfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfTransient.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_IGESDefs_AttributeDef.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_AttributeDef.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HArray2OfTransient;
 class Standard_OutOfRange;

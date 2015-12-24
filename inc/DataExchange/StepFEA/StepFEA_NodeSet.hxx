@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_NodeSet.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_NodeSet.hxx>
 
-#include <Handle_StepFEA_HArray1OfNodeRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HArray1OfNodeRepresentation.hxx>
 #include <DataExchange/StepGeom/StepGeom_GeometricRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepFEA_HArray1OfNodeRepresentation;
 class TCollection_HAsciiString;
 

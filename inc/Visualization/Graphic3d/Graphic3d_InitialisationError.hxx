@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_Graphic3d_InitialisationError.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_InitialisationError.hxx>
 
 #if !defined No_Exception && !defined No_Graphic3d_InitialisationError
   #define Graphic3d_InitialisationError_Raise_if(CONDITION, MESSAGE) \

@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_DBC_VArrayNodeOfVArrayOfCharacter.hxx>
+#include <OCAF/DBC/Handle_DBC_VArrayNodeOfVArrayOfCharacter.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>

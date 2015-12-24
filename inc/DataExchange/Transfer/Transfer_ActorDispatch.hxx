@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ActorDispatch.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorDispatch.hxx>
 
 #include <DataExchange/Transfer/Transfer_TransferDispatch.hxx>
 #include <DataExchange/Transfer/Transfer_ActorOfTransientProcess.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Transfer_ActorOfTransientProcess.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 class Interface_InterfaceError;
 class Interface_InterfaceModel;
 class Interface_GeneralLib;

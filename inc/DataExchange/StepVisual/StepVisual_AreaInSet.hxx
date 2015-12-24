@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_AreaInSet.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_AreaInSet.hxx>
 
-#include <Handle_StepVisual_PresentationArea.hxx>
-#include <Handle_StepVisual_PresentationSet.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationArea.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PresentationSet.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_PresentationArea;
 class StepVisual_PresentationSet;

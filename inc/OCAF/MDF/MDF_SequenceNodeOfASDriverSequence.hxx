@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_SequenceNodeOfASDriverSequence.hxx>
+#include <OCAF/MDF/Handle_MDF_SequenceNodeOfASDriverSequence.hxx>
 
-#include <Handle_MDF_ASDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriver.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MDF_ASDriver;

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PXCAFDoc_SeqNodeOfGraphNodeSequence_HeaderFile
-#include <Handle_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
+#include <DataExchange/PXCAFDoc/Handle_PXCAFDoc_SeqNodeOfGraphNodeSequence.hxx>
 #endif
 
 #ifndef _XCAFSchema_PMMgt_PManaged_HeaderFile

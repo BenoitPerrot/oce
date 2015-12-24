@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_MeasureRepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MeasureRepresentationItem.hxx>
 
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_MeasureValueMember.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureValueMember.hxx>
 class StepBasic_MeasureWithUnit;
 class TCollection_HAsciiString;
 class StepBasic_MeasureValueMember;

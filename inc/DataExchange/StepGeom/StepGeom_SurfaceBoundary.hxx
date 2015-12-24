@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepGeom_BoundaryCurve.hxx>
-#include <Handle_StepGeom_DegeneratePcurve.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BoundaryCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_DegeneratePcurve.hxx>
 class Standard_Transient;
 class StepGeom_BoundaryCurve;
 class StepGeom_DegeneratePcurve;

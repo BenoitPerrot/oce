@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfInteger;
 class Standard_DimensionError;

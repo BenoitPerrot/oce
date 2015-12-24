@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeExtend_ComplexCurve.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_ComplexCurve.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Geom/Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 class Geom_Curve;

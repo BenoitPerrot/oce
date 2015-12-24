@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>
-#include <Handle_IntSurf_LineOn2S.hxx>
-#include <Handle_Contap_TheHSequenceOfPoint.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_TheHSequenceOfPoint.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 #include <ModelingAlgorithms/Contap/Contap_IType.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>

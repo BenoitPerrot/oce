@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_ConfigurationDesign.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ConfigurationDesign.hxx>
 
-#include <Handle_StepRepr_ConfigurationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ConfigurationItem.hxx>
 #include <DataExchange/StepRepr/StepRepr_ConfigurationDesignItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_ConfigurationItem;

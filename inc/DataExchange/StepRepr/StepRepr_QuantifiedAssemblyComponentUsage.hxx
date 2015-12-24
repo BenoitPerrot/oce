@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_QuantifiedAssemblyComponentUsage.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_QuantifiedAssemblyComponentUsage.hxx>
 
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepRepr/StepRepr_AssemblyComponentUsage.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
 class StepBasic_MeasureWithUnit;
 class TCollection_HAsciiString;
 class StepBasic_ProductDefinition;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Handle_Quantity_HArray1OfColor.hxx>
 
 #include <Foundation/Quantity/Quantity_Array1OfColor.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

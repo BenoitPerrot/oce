@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESData_NodeOfWriterLib.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESData_ReadWriteModule.hxx>
-#include <Handle_IGESData_Protocol.hxx>
-#include <Handle_IGESData_GlobalNodeOfWriterLib.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_NodeOfWriterLib.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ReadWriteModule.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_GlobalNodeOfWriterLib.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESData_NodeOfWriterLib;

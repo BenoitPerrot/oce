@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <GeomAbs_Shape.hxx>

@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
 class Standard_NoSuchObject;
 class MAT2d_BiInt;
 class MAT2d_MapBiIntHasher;

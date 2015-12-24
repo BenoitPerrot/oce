@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Shape.hxx>
+#include <Visualization/AIS/Handle_AIS_Shape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
@@ -19,14 +19,14 @@
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Visualization/Prs3d/Prs3d_TypeOfHLR.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Prs3d_Projector.hxx>
-#include <Handle_Geom_Transformation.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <Handle_AIS_Drawer.hxx>
+#include <Visualization/AIS/Handle_AIS_Drawer.hxx>
 class TopoDS_Shape;
 class Prs3d_Presentation;
 class Prs3d_Projector;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SequenceNodeOfSequenceOfGeneralModifier.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SequenceNodeOfSequenceOfGeneralModifier.hxx>
 
-#include <Handle_IFSelect_GeneralModifier.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_GeneralModifier.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class IFSelect_GeneralModifier;

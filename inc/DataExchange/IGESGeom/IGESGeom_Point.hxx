@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_Point.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Point.hxx>
 
 #include <Mathematics/Primitives/gp_XYZ.hxx>
-#include <Handle_IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_SubfigureDef.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESBasic_SubfigureDef;

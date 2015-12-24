@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_SelectArrReal.hxx>
+#include <DataExchange/StepData/Handle_StepData_SelectArrReal.hxx>
 
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <DataExchange/StepData/StepData_SelectNamed.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfReal;

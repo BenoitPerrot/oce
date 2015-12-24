@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Select3D_SensitiveTriangulation.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveTriangulation.hxx>
 
-#include <Handle_Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
-#include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Handle_Select3D_Projector.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

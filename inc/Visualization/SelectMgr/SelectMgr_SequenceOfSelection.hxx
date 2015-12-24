@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
-#include <Handle_SelectMgr_SequenceNodeOfSequenceOfSelection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SequenceNodeOfSequenceOfSelection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

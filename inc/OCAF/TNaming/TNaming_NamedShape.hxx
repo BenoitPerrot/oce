@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 
 #include <OCAF/TNaming/TNaming_PtrNode.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_DeltaOnModification.hxx>
-#include <Handle_TDF_DeltaOnRemoval.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
-#include <Handle_TDF_DataSet.hxx>
-#include <Handle_TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_DeltaOnModification.hxx>
+#include <OCAF/TDF/Handle_TDF_DeltaOnRemoval.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TNaming_Builder;
 class TNaming_Iterator;

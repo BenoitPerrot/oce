@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_ASDriverHSequence.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriverHSequence.hxx>
 
 #include <OCAF/MDF/MDF_ASDriverSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MDF_ASDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Aspect_AspectLine.hxx>
+#include <Visualization/Aspect/Handle_Aspect_AspectLine.hxx>
 
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>

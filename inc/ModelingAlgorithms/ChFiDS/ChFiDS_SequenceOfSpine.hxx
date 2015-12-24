@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_ChFiDS_Spine.hxx>
-#include <Handle_ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SequenceNodeOfSequenceOfSpine.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

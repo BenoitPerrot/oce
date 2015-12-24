@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom_BSplineSurface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_BSplineSurface.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PColgp_HArray2OfPnt.hxx>
-#include <Handle_PColStd_HArray2OfReal.hxx>
-#include <Handle_PColStd_HArray1OfReal.hxx>
-#include <Handle_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray2OfPnt.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray2OfReal.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfReal.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfInteger.hxx>
 #include <OCAF/PGeom/PGeom_BoundedSurface.hxx>
 class PColgp_HArray2OfPnt;
 class PColStd_HArray2OfReal;

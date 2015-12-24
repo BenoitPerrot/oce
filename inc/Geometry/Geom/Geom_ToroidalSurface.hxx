@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_ToroidalSurface.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Geom_ElementarySurface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class Standard_ConstructionError;
 class Standard_DimensionError;
 class Standard_RangeError;

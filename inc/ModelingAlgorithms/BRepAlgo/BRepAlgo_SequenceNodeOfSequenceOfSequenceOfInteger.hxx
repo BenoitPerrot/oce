@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_SequenceNodeOfSequenceOfSequenceOfInteger.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

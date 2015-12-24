@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_SequenceNodeOfSequenceOfLine.hxx>
 
-#include <Handle_BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_Line.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class BRepBlend_Line;

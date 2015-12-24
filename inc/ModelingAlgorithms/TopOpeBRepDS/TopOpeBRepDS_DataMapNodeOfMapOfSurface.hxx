@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_DataMapNodeOfMapOfSurface.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_SurfaceData.hxx>

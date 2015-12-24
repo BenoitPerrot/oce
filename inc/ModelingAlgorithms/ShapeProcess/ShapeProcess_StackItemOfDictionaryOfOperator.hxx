@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 
-#include <Handle_ShapeProcess_DictionaryOfOperator.hxx>
-#include <Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_DictionaryOfOperator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_StackItemOfDictionaryOfOperator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_ShapeProcess_Operator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_Operator.hxx>
 class ShapeProcess_DictionaryOfOperator;
 class ShapeProcess_Operator;
 class ShapeProcess_IteratorOfDictionaryOfOperator;

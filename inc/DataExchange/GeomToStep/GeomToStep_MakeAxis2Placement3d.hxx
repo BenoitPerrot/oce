@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Handle_Geom_Axis2Placement.hxx>
 class StepGeom_Axis2Placement3d;
 class StdFail_NotDone;
 class gp_Ax2;

@@ -20,8 +20,8 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Config.hxx>
-#include <Handle_TopOpeBRep_Hctxff2d.hxx>
-#include <Handle_TopOpeBRep_Hctxee2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_Hctxff2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_Hctxee2d.hxx>
 class TopOpeBRep_Hctxff2d;
 class TopOpeBRep_Hctxee2d;
 class TopOpeBRep_EdgesIntersector;

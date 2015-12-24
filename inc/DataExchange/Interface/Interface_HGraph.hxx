@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_HGraph.hxx>
+#include <DataExchange/Interface/Handle_Interface_HGraph.hxx>
 
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_GTool.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_GTool.hxx>
 class Standard_DomainError;
 class Interface_Graph;
 class Interface_InterfaceModel;

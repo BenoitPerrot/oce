@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_Curve.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PLib_Base.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Mathematics/Polynomial/Handle_PLib_Base.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

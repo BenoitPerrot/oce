@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ContextDependentShapeRepresentation.hxx>
 
-#include <Handle_StepRepr_ShapeRepresentationRelationship.hxx>
-#include <Handle_StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ShapeRepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ProductDefinitionShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_ShapeRepresentationRelationship;
 class StepRepr_ProductDefinitionShape;

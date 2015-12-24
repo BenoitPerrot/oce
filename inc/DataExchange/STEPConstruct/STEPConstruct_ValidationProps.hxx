@@ -11,16 +11,16 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_Tool.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationContext.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
-#include <Handle_StepRepr_PropertyDefinition.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_PropertyDefinition.hxx>
 class StepBasic_ProductDefinition;
 class XSControl_WorkSession;
 class TopoDS_Shape;

@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_IFSelect_WorkSession.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_WorkSession.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_IFSelect_Dispatch.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Dispatch.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_Transient;
 class IFSelect_WorkSession;

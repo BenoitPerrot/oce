@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Extrema_HArray1OfPOnSurf.hxx>
+#include <Geometry/Extrema/Handle_Extrema_HArray1OfPOnSurf.hxx>
 
 #include <Geometry/Extrema/Extrema_Array1OfPOnSurf.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

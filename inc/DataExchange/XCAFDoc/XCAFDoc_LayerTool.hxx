@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_LayerTool.hxx>
 
-#include <Handle_XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HSequenceOfExtendedString.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfExtendedString.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 class XCAFDoc_ShapeTool;
 class TDF_Label;
 class Standard_GUID;

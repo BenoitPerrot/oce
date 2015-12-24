@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_TVertex1.hxx>
+#include <OCAF/PBRep/Handle_PBRep_TVertex1.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Handle_PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PointRepresentation.hxx>
 #include <OCAF/PTopoDS/PTopoDS_TVertex1.hxx>
 class PBRep_PointRepresentation;
 class gp_Pnt;

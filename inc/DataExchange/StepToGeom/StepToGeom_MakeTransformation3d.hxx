@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianTransformationOperator3d.hxx>
 class StepGeom_CartesianTransformationOperator3d;
 class gp_Trsf;
 

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 
 #include <OCAF/TFunction/TFunction_Array1OfDataMapOfGUIDDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

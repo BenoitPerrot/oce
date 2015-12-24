@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
-#include <Handle_VrmlConverter_Drawer.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Drawer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

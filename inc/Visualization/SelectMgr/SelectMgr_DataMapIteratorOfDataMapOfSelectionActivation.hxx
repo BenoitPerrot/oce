@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_DataMapNodeOfDataMapOfSelectionActivation.hxx>
 class Standard_NoSuchObject;
 class SelectMgr_Selection;
 class TColStd_MapTransientHasher;

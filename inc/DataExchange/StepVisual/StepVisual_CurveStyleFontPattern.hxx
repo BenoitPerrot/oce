@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_CurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CurveStyleFontPattern.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

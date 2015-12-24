@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BOPDS_CommonBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_CommonBlock.hxx>
 
 #include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
-#include <Handle_BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_PaveBlock.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class BOPDS_PaveBlock;

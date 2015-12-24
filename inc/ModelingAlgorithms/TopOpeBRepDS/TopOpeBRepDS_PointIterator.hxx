@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceIterator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>

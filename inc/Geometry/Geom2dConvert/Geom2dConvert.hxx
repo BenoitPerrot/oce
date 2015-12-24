@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
-#include <Handle_TColGeom2d_HArray1OfBSplineCurve.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_HArray1OfBSplineCurve.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 class Geom2d_BSplineCurve;
 class Geom2d_Curve;
 class TColGeom2d_Array1OfBSplineCurve;

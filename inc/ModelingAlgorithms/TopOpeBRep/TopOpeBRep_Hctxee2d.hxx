@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRep_Hctxee2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_Hctxee2d.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <Geometry/Geom2dAdaptor/Geom2dAdaptor_Curve.hxx>

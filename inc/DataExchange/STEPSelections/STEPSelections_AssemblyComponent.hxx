@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPSelections_AssemblyComponent.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_AssemblyComponent.hxx>
 
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_STEPSelections_HSequenceOfAssemblyLink.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_HSequenceOfAssemblyLink.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepShape_ShapeDefinitionRepresentation;
 class STEPSelections_HSequenceOfAssemblyLink;

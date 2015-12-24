@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianTransformationOperator3d.hxx>
 
-#include <Handle_StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Direction.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepGeom/StepGeom_CartesianTransformationOperator.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepGeom_CartesianPoint.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class StepGeom_Direction;
 class TCollection_HAsciiString;

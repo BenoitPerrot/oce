@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
-#include <Handle_BRepCheck_ListNodeOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_ListNodeOfListOfStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

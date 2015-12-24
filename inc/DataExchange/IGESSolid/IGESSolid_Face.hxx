@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Face.hxx>
 
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESSolid_HArray1OfLoop.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_HArray1OfLoop.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Loop.hxx>
 class IGESData_IGESEntity;
 class IGESSolid_HArray1OfLoop;
 class Standard_OutOfRange;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Handle_Standard_NullValue.hxx>
+#include <Foundation/Standard/Handle_Standard_NullValue.hxx>
 
 #if !defined No_Exception && !defined No_Standard_NullValue
   #define Standard_NullValue_Raise_if(CONDITION, MESSAGE) \

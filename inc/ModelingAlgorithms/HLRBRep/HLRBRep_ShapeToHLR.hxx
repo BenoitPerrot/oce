@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_HLRBRep_Data.hxx>
-#include <Handle_HLRTopoBRep_OutLiner.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_OutLiner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class HLRBRep_Data;

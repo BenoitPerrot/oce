@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
 class StepData_Protocol;
 class StepData_StepModel;
 class StepData_UndefinedEntity;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_ChFiDS_ListNodeOfRegularities.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_ListNodeOfRegularities.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

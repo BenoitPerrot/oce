@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_StdFail_Undefined.hxx>
+#include <Foundation/StdFail/Handle_StdFail_Undefined.hxx>
 
 #if !defined No_Exception && !defined No_StdFail_Undefined
   #define StdFail_Undefined_Raise_if(CONDITION, MESSAGE) \

@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
-#include <Handle_AIS_GlobalStatus.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapOfIOStatus.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_GlobalStatus.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapOfIOStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

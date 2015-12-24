@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PPrsStd_AISPresentation_HeaderFile
-#include <Handle_PPrsStd_AISPresentation.hxx>
+#include <OCAF/PPrsStd/Handle_PPrsStd_AISPresentation.hxx>
 #endif
 
 #ifndef _StdSchema_PDF_Attribute_HeaderFile

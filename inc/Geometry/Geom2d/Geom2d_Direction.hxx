@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_Direction.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Direction.hxx>
 
 #include <Geometry/Geom2d/Geom2d_Vector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom2d_Vector.hxx>
-#include <Handle_Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Vector.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
 class Standard_ConstructionError;
 class gp_Dir2d;
 class Geom2d_Vector;

@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_HArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HArray1OfHShape.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HShape.hxx>
 #include <OCAF/PTopoDS/PTopoDS_FieldOfHArray1OfHShape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfHShape.hxx>
 class PTopoDS_HShape;
 class Standard_OutOfRange;
 class Standard_RangeError;

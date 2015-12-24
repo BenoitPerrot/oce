@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Resource_Manager.hxx>
+#include <Foundation/Resource/Handle_Resource_Manager.hxx>
 class Standard_Transient;
 class Standard_GUID;
 class Resource_Manager;

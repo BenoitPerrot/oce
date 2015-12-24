@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ProductRelatedProductCategory.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductRelatedProductCategory.hxx>
 
-#include <Handle_StepBasic_HArray1OfProduct.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_HArray1OfProduct.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductCategory.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepBasic_Product.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Product.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfProduct;
 class TCollection_HAsciiString;

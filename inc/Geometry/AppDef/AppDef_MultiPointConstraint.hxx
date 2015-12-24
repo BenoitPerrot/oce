@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_MMgt_TShared.hxx>
+#include <Foundation/MMgt/Handle_MMgt_TShared.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiPoint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_Invisibility.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_Invisibility.hxx>
 
-#include <Handle_StepVisual_HArray1OfInvisibleItem.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfInvisibleItem.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfInvisibleItem;

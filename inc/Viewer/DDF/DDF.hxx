@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TDF_Data.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDF_Data;
 class TDF_Label;

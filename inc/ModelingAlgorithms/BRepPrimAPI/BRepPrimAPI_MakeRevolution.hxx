@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/BRepPrim/BRepPrim_Revolution.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeOneAxis.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

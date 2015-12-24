@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeProcess_ShapeContext.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_ShapeContext.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <Handle_ShapeExtend_MsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_MsgRegistrator.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingAlgorithms/ShapeProcess/ShapeProcess_Context.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>

@@ -19,7 +19,7 @@
 #include <Visualization/OpenGl/OpenGl_Resource.hxx>
 #include <Handle_OpenGl_Texture.hxx>
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTexture.hxx>
-#include <Handle_Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_TextureParams.hxx>
 
 class Handle(OpenGl_Context);
 class OpenGl_Context;

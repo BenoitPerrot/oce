@@ -12,9 +12,9 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfReal.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
-#include <Handle_GeomAdaptor_HSurface.hxx>
-#include <Handle_IntPatch_Line.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
+#include <Geometry/GeomAdaptor/Handle_GeomAdaptor_HSurface.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_Line.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_TopolTool;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Curve.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class StepGeom_Curve;
 class Geom_Curve;
 

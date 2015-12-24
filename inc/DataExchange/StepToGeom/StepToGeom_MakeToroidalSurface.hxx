@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_ToroidalSurface.hxx>
-#include <Handle_Geom_ToroidalSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_ToroidalSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_ToroidalSurface.hxx>
 class StepGeom_ToroidalSurface;
 class Geom_ToroidalSurface;
 

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_CompositeShapeAspect.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_CompositeShapeAspect.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_ShapeAspect.hxx>
 

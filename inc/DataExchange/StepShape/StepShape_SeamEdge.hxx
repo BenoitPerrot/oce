@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_SeamEdge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_SeamEdge.hxx>
 
-#include <Handle_StepGeom_Pcurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Pcurve.hxx>
 #include <DataExchange/StepShape/StepShape_OrientedEdge.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_Edge.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Edge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StepGeom_Pcurve;
 class TCollection_HAsciiString;

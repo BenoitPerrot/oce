@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_CoonsAlgPatch.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_CoonsAlgPatch.hxx>
 
-#include <Handle_GeomFill_Boundary.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_Boundary.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

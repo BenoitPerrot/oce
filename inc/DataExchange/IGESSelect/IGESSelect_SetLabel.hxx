@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_SetLabel.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_SetLabel.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/IGESSelect/IGESSelect_ModelModifier.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 class IFSelect_ContextModif;
 class IGESData_IGESModel;
 class Interface_CopyTool;

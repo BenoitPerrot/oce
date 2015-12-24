@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopLoc_Datum3D.hxx>
+#include <OCAF/PTopLoc/Handle_PTopLoc_Datum3D.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>

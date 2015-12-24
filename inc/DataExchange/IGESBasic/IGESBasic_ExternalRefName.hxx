@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_ExternalRefName.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_ExternalRefName.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class TCollection_HAsciiString;
 

@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_StepShape_ShapeRepresentation.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
-#include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeRepresentation.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_StepShape_ContextDependentShapeRepresentation.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ContextDependentShapeRepresentation.hxx>
 class StepShape_ShapeDefinitionRepresentation;
 class StepShape_ShapeRepresentation;
 class Standard_Transient;

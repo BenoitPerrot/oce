@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TNaming_TranslateTool.hxx>
+#include <OCAF/TNaming/Handle_TNaming_TranslateTool.hxx>
 class TopoDS_Shape;
 class TColStd_IndexedDataMapOfTransientTransient;
 class TNaming_TranslateTool;

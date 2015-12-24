@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_DimTolTool.hxx>
 
-#include <Handle_XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_ShapeTool.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 class XCAFDoc_ShapeTool;
 class TDF_Label;
 class Standard_GUID;

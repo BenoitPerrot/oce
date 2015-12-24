@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_PipeShell.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_PipeShell.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -17,10 +17,10 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Law_Function.hxx>
-#include <Handle_BRepFill_LocationLaw.hxx>
-#include <Handle_BRepFill_SectionLaw.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_SectionLaw.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Trihedron.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_TransitionStyle.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_PipeError.hxx>

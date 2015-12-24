@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_BRepTopAdaptor_TopolTool.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_DataMapOfTopolTool.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

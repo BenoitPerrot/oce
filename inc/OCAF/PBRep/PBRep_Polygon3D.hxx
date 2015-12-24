@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_Polygon3D.hxx>
+#include <OCAF/PBRep/Handle_PBRep_Polygon3D.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PPoly_Polygon3D.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Polygon3D.hxx>
 #include <OCAF/PBRep/PBRep_CurveRepresentation.hxx>
 class PPoly_Polygon3D;
 class PTopLoc_Location;

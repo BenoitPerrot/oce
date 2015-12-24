@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_MAT_Node.hxx>
-#include <Handle_BRepFill_DataMapNodeOfDataMapOfNodeShape.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Node.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_DataMapNodeOfDataMapOfNodeShape.hxx>
 class Standard_NoSuchObject;
 class MAT_Node;
 class TopoDS_Shape;

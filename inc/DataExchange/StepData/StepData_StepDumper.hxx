@@ -10,15 +10,15 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepData_StepModel.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/StepData/StepData_WriterLib.hxx>
 #include <DataExchange/StepData/StepData_StepWriter.hxx>
-#include <Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class StepData_StepModel;
 class Interface_InterfaceMismatch;
 class StepData_Protocol;

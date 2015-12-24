@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PCDM_RetrievalDriver.hxx>
+#include <OCAF/PCDM/Handle_PCDM_RetrievalDriver.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCDM/PCDM_Reader.hxx>
-#include <Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
 #include <OCAF/PCDM/PCDM_ReferenceIterator.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_Application.hxx>
-#include <Handle_PCDM_Document.hxx>
-#include <Handle_Storage_Schema.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Application.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Document.hxx>
+#include <Foundation/Storage/Handle_Storage_Schema.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class PCDM_DriverError;

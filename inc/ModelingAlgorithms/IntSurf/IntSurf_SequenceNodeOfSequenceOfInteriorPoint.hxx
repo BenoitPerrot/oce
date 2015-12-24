@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntSurf_SequenceNodeOfSequenceOfInteriorPoint.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_SequenceNodeOfSequenceOfInteriorPoint.hxx>
 
 #include <ModelingAlgorithms/IntSurf/IntSurf_InteriorPoint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

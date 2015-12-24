@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_HArray1OfFlow.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_HArray1OfFlow.hxx>
 
 #include <DataExchange/IGESAppli/IGESAppli_Array1OfFlow.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESAppli_Flow.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_Flow.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

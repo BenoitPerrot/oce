@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom_Hyperbola_HeaderFile
-#include <Handle_PGeom_Hyperbola.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Hyperbola.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom_Conic_HeaderFile

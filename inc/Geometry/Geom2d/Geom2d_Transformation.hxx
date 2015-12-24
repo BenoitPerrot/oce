@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_Transformation.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Transformation.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

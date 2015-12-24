@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_StartRequest.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_StartRequest.hxx>
 
-#include <Handle_StepAP203_HArray1OfStartRequestItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfStartRequestItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_ActionRequestAssignment.hxx>
-#include <Handle_StepBasic_VersionedActionRequest.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_VersionedActionRequest.hxx>
 class StepAP203_HArray1OfStartRequestItem;
 class StepBasic_VersionedActionRequest;
 

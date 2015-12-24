@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_DataMapNodeOfDataMapOfShapeListOfMsg.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class Message_ListOfMsg;

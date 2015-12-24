@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
-#include <Handle_TDataStd_ListNodeOfListOfByte.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_ListNodeOfListOfByte.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

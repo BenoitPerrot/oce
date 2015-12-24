@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Law_Interpol.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Interpol.hxx>
 
 #include <ModelingAlgorithms/Law/Law_BSpFunc.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

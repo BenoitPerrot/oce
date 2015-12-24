@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>
+#include <Mathematics/TopLoc/Handle_TopLoc_IndexedMapNodeOfIndexedMapOfLocation.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

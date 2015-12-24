@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_EdgeList.hxx>
 
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <Handle_IGESSolid_HArray1OfVertexList.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_HArray1OfVertexList.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_VertexList.hxx>
 class IGESData_HArray1OfIGESEntity;
 class IGESSolid_HArray1OfVertexList;
 class TColStd_HArray1OfInteger;

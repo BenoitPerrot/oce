@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_CurveConstraint.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_CurveConstraint.hxx>
 
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_CurveConstraint.hxx>
-#include <Handle_Adaptor3d_HCurveOnSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurveOnSurface.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor3d_HCurve.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
 class Standard_ConstructionError;
 class Adaptor3d_HCurveOnSurface;
 class Adaptor3d_HCurve;

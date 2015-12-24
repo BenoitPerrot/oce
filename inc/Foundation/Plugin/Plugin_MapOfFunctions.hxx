@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/OSD/OSD_Function.hxx>
-#include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
+#include <Foundation/Plugin/Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

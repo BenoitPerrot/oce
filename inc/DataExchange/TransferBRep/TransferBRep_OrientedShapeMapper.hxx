@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TransferBRep_OrientedShapeMapper.hxx>
+#include <DataExchange/TransferBRep/Handle_TransferBRep_OrientedShapeMapper.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Transfer/Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class TopoDS_Shape;
 class TopTools_OrientedShapeMapHasher;

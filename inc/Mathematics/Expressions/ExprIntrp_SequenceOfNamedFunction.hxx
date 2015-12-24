@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_Expr_NamedFunction.hxx>
-#include <Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedFunction.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_SequenceNodeOfSequenceOfNamedFunction.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

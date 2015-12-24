@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_Surface.hxx>
 
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_GeomAdaptor_HSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/GeomAdaptor/Handle_GeomAdaptor_HSurface.hxx>
 #include <Geometry/Extrema/Extrema_ExtPS.hxx>
 #include <Geometry/GeomAdaptor/GeomAdaptor_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Geom_Surface;

@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_PCDM_ReadWriter.hxx>
+#include <OCAF/PCDM/Handle_PCDM_ReadWriter.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_Storage_Data.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <Foundation/Storage/Handle_Storage_Data.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Storage/Storage_OpenMode.hxx>
 class TCollection_AsciiString;
 class Storage_Data;

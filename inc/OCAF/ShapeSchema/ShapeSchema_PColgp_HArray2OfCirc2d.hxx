@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PColgp_HArray2OfCirc2d_HeaderFile
-#include <Handle_PColgp_HArray2OfCirc2d.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray2OfCirc2d.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

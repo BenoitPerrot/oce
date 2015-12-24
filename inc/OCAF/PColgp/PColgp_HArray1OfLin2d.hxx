@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColgp_HArray1OfLin2d.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray1OfLin2d.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
 #include <OCAF/PColgp/PColgp_FieldOfHArray1OfLin2d.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfLin2d.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray1OfLin2d.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
 class gp_Lin2d;

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PTopoDS_TFace_HeaderFile
-#include <Handle_PTopoDS_TFace.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_TFace.hxx>
 #endif
 
 #ifndef _ShapeSchema_PTopoDS_TShape_HeaderFile

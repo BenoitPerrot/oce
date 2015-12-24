@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectLine3d.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_ShaderProgram_Handle.hxx>
 #include <Visualization/Aspect/Aspect_AspectLine.hxx>

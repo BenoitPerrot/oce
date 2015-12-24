@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_GeneralModule.hxx>
+#include <DataExchange/StepData/Handle_StepData_GeneralModule.hxx>
 
 #include <DataExchange/Interface/Interface_GeneralModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class Standard_Transient;
 class Interface_EntityIterator;
 class Interface_ShareTool;

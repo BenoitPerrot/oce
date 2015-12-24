@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ConversionBasedUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ConversionBasedUnit.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
-#include <Handle_StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DimensionalExponents.hxx>
 class TCollection_HAsciiString;
 class StepBasic_MeasureWithUnit;
 class StepBasic_DimensionalExponents;

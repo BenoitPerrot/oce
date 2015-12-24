@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Graphic3d_AspectFillArea3d.hxx>
-#include <Handle_MeshVS_Drawer.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Graphic3d_AspectLine3d.hxx>
-#include <Handle_Graphic3d_AspectMarker3d.hxx>
-#include <Handle_Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectText3d.hxx>
 class Graphic3d_AspectFillArea3d;
 class MeshVS_Drawer;
 class Graphic3d_MaterialAspect;

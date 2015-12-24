@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray1OfShape.hxx>
 
 #include <ModelingData/TopTools/TopTools_Array1OfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

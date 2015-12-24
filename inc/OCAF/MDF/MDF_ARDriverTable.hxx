@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_ARDriverTable.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverTable.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/MDF/MDF_TypeARDriverMap.hxx>
 #include <OCAF/MDF/MDF_TypeDriverListMapOfARDriverTable.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MDF_ARDriver.hxx>
-#include <Handle_MDF_ARDriverHSequence.hxx>
-#include <Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>
-#include <Handle_MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverHSequence.hxx>
+#include <OCAF/MDF/Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>
+#include <OCAF/MDF/Handle_MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class MDF_ARDriver;
 class MDF_ARDriverHSequence;
 class MDF_TypeARDriverMap;

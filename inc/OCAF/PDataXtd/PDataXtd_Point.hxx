@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataXtd_Point.hxx>
+#include <OCAF/PDataXtd/Handle_PDataXtd_Point.hxx>
 
 #include <OCAF/PDF/PDF_Attribute.hxx>
 

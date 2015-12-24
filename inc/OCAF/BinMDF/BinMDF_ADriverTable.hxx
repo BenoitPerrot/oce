@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BinMDF_ADriverTable.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_ADriverTable.hxx>
 
 #include <OCAF/BinMDF/BinMDF_TypeADriverMap.hxx>
 #include <OCAF/BinMDF/BinMDF_TypeIdMap.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_BinMDF_ADriver.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_ADriver.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class BinMDF_ADriver;
 class Standard_Type;

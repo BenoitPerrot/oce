@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_RootData.hxx>
+#include <Foundation/Storage/Handle_Storage_RootData.hxx>
 
 #include <Foundation/Storage/Storage_MapOfPers.hxx>
 #include <Foundation/Storage/Storage_Error.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Storage_Root.hxx>
-#include <Handle_Storage_HSeqOfRoot.hxx>
+#include <Foundation/Storage/Handle_Storage_Root.hxx>
+#include <Foundation/Storage/Handle_Storage_HSeqOfRoot.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Persistent.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
 class Standard_NoSuchObject;
 class Storage_Schema;
 class Storage_Root;

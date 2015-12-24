@@ -14,7 +14,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TNaming/TNaming_NameType.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 #include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TNaming_NamedShape;

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_Curve3dElementDescriptor.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_Curve3dElementDescriptor.hxx>
 
-#include <Handle_StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_HArray1OfHSequenceOfCurveElementPurposeMember.hxx>
 #include <DataExchange/StepElement/StepElement_ElementDescriptor.hxx>
 #include <DataExchange/StepElement/StepElement_ElementOrder.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepElement_HArray1OfHSequenceOfCurveElementPurposeMember;
 class TCollection_HAsciiString;
 

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_HArrayOfSchema.hxx>
+#include <Foundation/Storage/Handle_Storage_HArrayOfSchema.hxx>
 
 #include <Foundation/Storage/Storage_ArrayOfSchema.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Storage_Schema.hxx>
+#include <Foundation/Storage/Handle_Storage_Schema.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

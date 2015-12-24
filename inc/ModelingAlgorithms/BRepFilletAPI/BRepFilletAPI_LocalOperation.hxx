@@ -14,7 +14,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ChFiDS_SecHArray1.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SecHArray1.hxx>
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class ChFiDS_SecHArray1;

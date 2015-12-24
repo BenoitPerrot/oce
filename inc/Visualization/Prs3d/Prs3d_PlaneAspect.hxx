@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_PlaneAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_PlaneAspect.hxx>
 
-#include <Handle_Prs3d_LineAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_LineAspect.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

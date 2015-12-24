@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_Algo.hxx>
 
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_InternalAlgo.hxx>
-#include <Handle_MMgt_TShared.hxx>
+#include <Foundation/MMgt/Handle_MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Shape;
 class MMgt_TShared;

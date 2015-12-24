@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_DataMapNodeOfDataMapOfShapeHArray2OfShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopTools_HArray2OfShape;

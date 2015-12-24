@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TopLoc_SListNodeOfItemLocation.hxx>
+#include <Mathematics/TopLoc/Handle_TopLoc_SListNodeOfItemLocation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopLoc_SListNodeOfItemLocation;
 class Standard_NoSuchObject;

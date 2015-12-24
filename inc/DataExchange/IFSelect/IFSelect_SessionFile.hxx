@@ -11,15 +11,15 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IFSelect_WorkSession.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_WorkSession.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class IFSelect_WorkSession;
 class TColStd_HArray1OfInteger;
 class Dico_DictionaryOfInteger;

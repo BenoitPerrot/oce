@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_VrmlConverter_Projector.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Projector.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <DataExchange/Vrml/Vrml_PerspectiveCamera.hxx>

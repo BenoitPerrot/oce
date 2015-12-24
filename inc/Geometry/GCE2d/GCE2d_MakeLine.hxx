@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Line.hxx>
 #include <Geometry/GCE2d/GCE2d_Root.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom2d_Line;

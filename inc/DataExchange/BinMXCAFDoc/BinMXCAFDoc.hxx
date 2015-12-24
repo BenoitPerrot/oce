@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_BinMDF_ADriverTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_ADriverTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;
 class BinMXCAFDoc_AreaDriver;

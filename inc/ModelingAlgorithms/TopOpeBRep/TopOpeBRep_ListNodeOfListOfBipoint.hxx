@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRep_ListNodeOfListOfBipoint.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_ListNodeOfListOfBipoint.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_Bipoint.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

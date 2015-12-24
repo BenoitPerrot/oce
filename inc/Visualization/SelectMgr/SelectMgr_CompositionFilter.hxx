@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_CompositionFilter.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_CompositionFilter.hxx>
 
 #include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
-#include <Handle_SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class SelectMgr_Filter;

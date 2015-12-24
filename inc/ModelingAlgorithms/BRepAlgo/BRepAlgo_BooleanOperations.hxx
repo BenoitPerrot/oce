@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_HDataStructure;
 class TopTools_ListOfShape;

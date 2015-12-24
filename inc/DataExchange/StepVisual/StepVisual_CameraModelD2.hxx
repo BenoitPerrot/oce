@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_CameraModelD2.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CameraModelD2.hxx>
 
-#include <Handle_StepVisual_PlanarBox.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PlanarBox.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepVisual/StepVisual_CameraModel.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepVisual_PlanarBox;
 class TCollection_HAsciiString;
 

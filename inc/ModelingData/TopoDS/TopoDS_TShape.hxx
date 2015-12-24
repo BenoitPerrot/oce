@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/Handle_TopoDS_TShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

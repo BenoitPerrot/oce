@@ -11,10 +11,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDocStd_Application.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Application.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TDocStd_Document.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class TDocStd_Application;
 class TDocStd_Document;

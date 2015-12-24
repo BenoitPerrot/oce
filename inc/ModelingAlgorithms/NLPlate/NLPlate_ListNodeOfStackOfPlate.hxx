@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_NLPlate_ListNodeOfStackOfPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_ListNodeOfStackOfPlate.hxx>
 
 #include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

@@ -15,7 +15,7 @@
 #ifndef _Standard_Transient_HeaderFile
 #define _Standard_Transient_HeaderFile
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 #include <Foundation/Standard/Standard_Transient_proto.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>

@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
-#include <Handle_Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
+#include <ModelingAlgorithms/Geom2dInt/Handle_Geom2dInt_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfGInter.hxx>
 class Standard_OutOfRange;
 class Standard_TypeMismatch;
 class Adaptor2d_Curve2d;

@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_Transformation.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
 class Geom_Transformation;
 class gp_Vec;
 class gp_Pnt;

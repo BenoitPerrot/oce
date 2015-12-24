@@ -17,8 +17,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheZerImpFuncOfTheImpPrmSvSurfacesOfWLApprox.hxx>
 #include <ModelingAlgorithms/ApproxInt/ApproxInt_SvSurfaces.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_IntPatch_WLine.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_WLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Adaptor3d_HSurface;
 class Adaptor3d_HSurfaceTool;

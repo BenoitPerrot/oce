@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureValueMember.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/StepData/StepData_SelectReal.hxx>

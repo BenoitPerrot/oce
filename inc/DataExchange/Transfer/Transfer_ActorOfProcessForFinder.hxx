@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ActorOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForFinder.hxx>
 
-#include <Handle_Transfer_ActorOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForFinder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Transfer_HSequenceOfFinder.hxx>
-#include <Handle_Transfer_ProcessForFinder.hxx>
-#include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_SimpleBinderOfTransient.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_HSequenceOfFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_SimpleBinderOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Standard_DomainError;
 class Transfer_Finder;
 class Transfer_FindHasher;

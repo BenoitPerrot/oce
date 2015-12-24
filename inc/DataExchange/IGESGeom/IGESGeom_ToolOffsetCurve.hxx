@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESGeom_OffsetCurve.hxx>
-#include <Handle_IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_OffsetCurve.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESReaderData.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_DomainError;
 class IGESGeom_OffsetCurve;

@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Select3D_SensitiveCircle.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveCircle.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Select3D/Select3D_Pnt2d.hxx>
 #include <Visualization/Select3D/Select3D_Pnt.hxx>
-#include <Handle_Geom_Circle.hxx>
+#include <Geometry/Geom/Handle_Geom_Circle.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/Select3D/Select3D_SensitivePoly.hxx>
-#include <Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
-#include <Handle_Select3D_Projector.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
 class Geom_Circle;
 class Standard_ConstructionError;
 class Standard_OutOfRange;

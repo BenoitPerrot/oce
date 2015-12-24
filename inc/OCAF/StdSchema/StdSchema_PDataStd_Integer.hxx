@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDataStd_Integer_HeaderFile
-#include <Handle_PDataStd_Integer.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_Integer.hxx>
 #endif
 
 #ifndef _StdSchema_PDF_Attribute_HeaderFile

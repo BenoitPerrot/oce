@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_FeaGroup.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaGroup.hxx>
 
-#include <Handle_StepFEA_FeaModel.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaModel.hxx>
 #include <DataExchange/StepBasic/StepBasic_Group.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepFEA_FeaModel;
 class TCollection_HAsciiString;
 

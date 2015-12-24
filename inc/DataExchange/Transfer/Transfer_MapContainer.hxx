@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_MapContainer.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_MapContainer.hxx>
 
 #include <Foundation/TColStd/TColStd_DataMapOfTransientTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

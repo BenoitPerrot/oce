@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_NLPlate_SequenceNodeOfSequenceOfHGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_SequenceNodeOfSequenceOfHGPPConstraint.hxx>
 
-#include <Handle_NLPlate_HGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_HGPPConstraint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class NLPlate_HGPPConstraint;

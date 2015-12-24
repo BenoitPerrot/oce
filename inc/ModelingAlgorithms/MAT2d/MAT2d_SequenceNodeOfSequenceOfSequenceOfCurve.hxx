@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_SequenceNodeOfSequenceOfSequenceOfCurve.hxx>
 
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfCurve.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

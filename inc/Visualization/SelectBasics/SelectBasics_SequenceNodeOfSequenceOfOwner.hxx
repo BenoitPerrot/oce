@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectBasics_SequenceNodeOfSequenceOfOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SequenceNodeOfSequenceOfOwner.hxx>
 
-#include <Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class SelectBasics_EntityOwner;

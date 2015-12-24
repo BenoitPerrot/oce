@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_Axis2Placement.hxx>
+#include <Geometry/Geom/Handle_Geom_Axis2Placement.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <Geometry/Geom/Geom_AxisPlacement.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class Standard_ConstructionError;
 class gp_Ax2;
 class gp_Pnt;

@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_XmlMDF_ADriverTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriverTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 class Standard_Transient;
 class Standard_GUID;
 class XmlMDF_ADriverTable;

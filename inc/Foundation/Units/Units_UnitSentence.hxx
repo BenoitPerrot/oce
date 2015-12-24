@@ -12,7 +12,7 @@
 
 #include <Foundation/Units/Units_Sentence.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Handle_Units_QuantitiesSequence.hxx>
 class Units_QuantitiesSequence;
 
 

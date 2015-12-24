@@ -10,15 +10,15 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_FileReaderData.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HArray1OfTransient.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfTransient.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Interface_Protocol;
 class Interface_FileReaderData;
 class Interface_InterfaceModel;

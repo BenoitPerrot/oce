@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_DataMapNodeOfDataMapOfBiIntInteger.hxx>
 
 #include <ModelingAlgorithms/MAT2d/MAT2d_BiInt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

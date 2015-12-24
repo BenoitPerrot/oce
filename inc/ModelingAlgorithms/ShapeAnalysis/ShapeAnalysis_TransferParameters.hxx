@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeAnalysis_TransferParameters.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_TransferParameters.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TColStd_HSequenceOfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopoDS_Edge;
 class TopoDS_Face;

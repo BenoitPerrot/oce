@@ -12,8 +12,8 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_ProductDefinitionFormation.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionFormation.hxx>
 class Standard_Transient;
 class StepBasic_ProductDefinitionFormation;
 

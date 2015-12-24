@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDF_MetaDataDriverFactory.hxx>
+#include <OCAF/CDF/Handle_CDF_MetaDataDriverFactory.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/Handle_CDF_MetaDataDriver.hxx>
 class CDF_MetaDataDriver;
 
 

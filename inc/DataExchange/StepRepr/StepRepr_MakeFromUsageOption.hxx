@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_MakeFromUsageOption.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MakeFromUsageOption.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 #include <DataExchange/StepRepr/StepRepr_ProductDefinitionUsage.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
 class TCollection_HAsciiString;
 class StepBasic_MeasureWithUnit;
 class StepBasic_ProductDefinition;

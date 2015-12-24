@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PLib_Base.hxx>
+#include <Mathematics/Polynomial/Handle_PLib_Base.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_FunctionSet.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

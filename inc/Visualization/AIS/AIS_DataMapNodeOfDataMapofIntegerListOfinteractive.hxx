@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>

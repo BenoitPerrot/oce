@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_Line.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class IntPatch_Line;
 class IntPatch_Point;

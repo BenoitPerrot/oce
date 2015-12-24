@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TFunction_DriverTable.hxx>
+#include <OCAF/TFunction/Handle_TFunction_DriverTable.hxx>
 
 #include <OCAF/TFunction/TFunction_DataMapOfGUIDDriver.hxx>
-#include <Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_HArray1OfDataMapOfGUIDDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TFunction_Driver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TFunction_HArray1OfDataMapOfGUIDDriver;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape.hxx>
+#include <ModelingAlgorithms/BRepOffset/Handle_BRepOffset_DataMapNodeOfDataMapOfShapeMapOfShape.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopTools_MapOfShape;

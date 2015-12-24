@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepData_FileRecognizer.hxx>
+#include <DataExchange/StepData/Handle_StepData_FileRecognizer.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <DataExchange/Interface/Interface_ReaderLib.hxx>
 #include <DataExchange/Interface/Interface_FileReaderTool.hxx>
-#include <Handle_StepData_StepReaderData.hxx>
-#include <Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class StepData_FileRecognizer;
 class StepData_StepReaderData;
 class StepData_Protocol;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <OCAF/DBC/DBC_BaseArray.hxx>
-#include <Handle_PCollection_HExtendedString.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HExtendedString.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray1OfExtendedString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NegativeValue;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_IndexedMapNodeOfIndexedMapOfReal.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

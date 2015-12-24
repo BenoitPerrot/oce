@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_LocOpe_GeneratedShape.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_GeneratedShape.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

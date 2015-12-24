@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
-#include <Handle_Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_SequenceNodeOfSequenceOfStructure.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

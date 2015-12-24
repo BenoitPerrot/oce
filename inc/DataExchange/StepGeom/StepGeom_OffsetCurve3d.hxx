@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_OffsetCurve3d.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_OffsetCurve3d.hxx>
 
-#include <Handle_StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
-#include <Handle_StepGeom_Direction.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Direction.hxx>
 #include <DataExchange/StepGeom/StepGeom_Curve.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Curve;
 class StepGeom_Direction;
 class TCollection_HAsciiString;

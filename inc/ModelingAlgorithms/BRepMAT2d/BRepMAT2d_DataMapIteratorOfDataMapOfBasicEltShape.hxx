@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_MAT_BasicElt.hxx>
-#include <Handle_BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_BasicElt.hxx>
+#include <ModelingAlgorithms/BRepMAT2d/Handle_BRepMAT2d_DataMapNodeOfDataMapOfBasicEltShape.hxx>
 class Standard_NoSuchObject;
 class MAT_BasicElt;
 class TopoDS_Shape;

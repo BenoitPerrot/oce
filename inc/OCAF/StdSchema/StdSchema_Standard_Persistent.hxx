@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_Standard_Persistent_HeaderFile
-#include <Handle_Standard_Persistent.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
 #endif
 
 #ifndef _StdSchema_Standard_Storable_HeaderFile

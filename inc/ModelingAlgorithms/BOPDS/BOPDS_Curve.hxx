@@ -15,7 +15,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_ListOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfInteger.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box.hxx>
-#include <Handle_BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_PaveBlock.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PaveBlock.hxx>
 class IntTools_Curve;

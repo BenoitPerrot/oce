@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_SimpleBound.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SimpleBound.hxx>
 
-#include <Handle_Adaptor3d_HCurve.hxx>
-#include <Handle_Law_Function.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HCurve.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_Boundary.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

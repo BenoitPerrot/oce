@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_TrimmedCurve.hxx>
-#include <Handle_Geom_TrimmedCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_TrimmedCurve.hxx>
 class StepGeom_TrimmedCurve;
 class Geom_TrimmedCurve;
 

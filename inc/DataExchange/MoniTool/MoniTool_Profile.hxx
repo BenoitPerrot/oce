@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MoniTool_Profile.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Profile.hxx>
 
-#include <Handle_Dico_DictionaryOfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MoniTool_Option.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Option.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Dico_DictionaryOfTransient;
 class MoniTool_Option;
 class TColStd_HSequenceOfAsciiString;

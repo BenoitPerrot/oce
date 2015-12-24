@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_Person.hxx>
-#include <Handle_StepBasic_Organization.hxx>
-#include <Handle_StepBasic_PersonAndOrganization.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Person.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_PersonAndOrganization.hxx>
 class Standard_Transient;
 class StepBasic_Person;
 class StepBasic_Organization;

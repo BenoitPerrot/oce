@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_RectangularTrimmedSurface.hxx>
-#include <Handle_Geom_RectangularTrimmedSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_RectangularTrimmedSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_RectangularTrimmedSurface.hxx>
 class StepGeom_RectangularTrimmedSurface;
 class Geom_RectangularTrimmedSurface;
 

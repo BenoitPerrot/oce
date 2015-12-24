@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_MeshOwner.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_MeshOwner.hxx>
 
-#include <Handle_MeshVS_DataSource.hxx>
-#include <Handle_TColStd_HPackedMapOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HPackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SOPtr.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Handle_PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentationManager.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class MeshVS_DataSource;
 class TColStd_HPackedMapOfInteger;

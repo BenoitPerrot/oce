@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>

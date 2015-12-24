@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Handle_Units_NoSuchType.hxx>
+#include <Foundation/Units/Handle_Units_NoSuchType.hxx>
 
 #if !defined No_Exception && !defined No_Units_NoSuchType
   #define Units_NoSuchType_Raise_if(CONDITION, MESSAGE) \

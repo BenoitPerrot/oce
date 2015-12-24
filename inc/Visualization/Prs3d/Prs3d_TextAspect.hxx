@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_TextAspect.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_TextAspect.hxx>
 
-#include <Handle_Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectText3d.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/Graphic3d/Graphic3d_HorizontalTextAlignment.hxx>

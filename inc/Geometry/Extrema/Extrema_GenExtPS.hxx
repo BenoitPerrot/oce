@@ -13,14 +13,14 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Extrema_HArray2OfPOnSurfParams.hxx>
+#include <Geometry/Extrema/Handle_Extrema_HArray2OfPOnSurfParams.hxx>
 #include <Geometry/Extrema/Extrema_HUBTreeOfSphere.hxx>
-#include <Handle_Bnd_HArray1OfSphere.hxx>
+#include <Mathematics/BoundingVolumes/Handle_Bnd_HArray1OfSphere.hxx>
 #include <Geometry/Extrema/Extrema_FuncExtPS.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
 #include <Geometry/Extrema/Extrema_ExtFlag.hxx>
 #include <Geometry/Extrema/Extrema_ExtAlgo.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class Extrema_HArray2OfPOnSurfParams;
 class Bnd_HArray1OfSphere;
 class TColStd_HArray1OfReal;

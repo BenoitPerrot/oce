@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_XCAFPrs_DataMapNodeOfDataMapOfStyleTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/XCAFPrs/Handle_XCAFPrs_DataMapNodeOfDataMapOfStyleTransient.hxx>
 class Standard_NoSuchObject;
 class XCAFPrs_Style;
 class Standard_Transient;

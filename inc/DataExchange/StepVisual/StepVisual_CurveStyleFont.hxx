@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_CurveStyleFont.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CurveStyleFont.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepVisual_HArray1OfCurveStyleFontPattern.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfCurveStyleFontPattern.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepVisual_CurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CurveStyleFontPattern.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;
 class StepVisual_HArray1OfCurveStyleFontPattern;

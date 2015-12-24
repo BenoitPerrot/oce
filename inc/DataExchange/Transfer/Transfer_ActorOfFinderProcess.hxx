@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ActorOfFinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfFinderProcess.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/Transfer/Transfer_ActorOfProcessForFinder.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Transfer_ProcessForFinder.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForFinder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Transfer_Binder;
 class Transfer_Finder;
 class Transfer_ProcessForFinder;

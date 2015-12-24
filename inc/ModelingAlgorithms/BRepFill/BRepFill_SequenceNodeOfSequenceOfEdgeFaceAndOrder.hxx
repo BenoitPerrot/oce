@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_SequenceNodeOfSequenceOfEdgeFaceAndOrder.hxx>
 
 #include <ModelingAlgorithms/BRepFill/BRepFill_EdgeFaceAndOrder.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

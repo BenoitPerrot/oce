@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_HLabelArray1.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HLabelArray1.hxx>
 
 #include <OCAF/TDataStd/TDataStd_LabelArray1.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

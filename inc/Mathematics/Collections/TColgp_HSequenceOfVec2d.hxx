@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColgp_HSequenceOfVec2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HSequenceOfVec2d.hxx>
 
 #include <Mathematics/Collections/TColgp_SequenceOfVec2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

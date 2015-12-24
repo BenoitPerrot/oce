@@ -10,13 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDF_Data.hxx>
-#include <Handle_PDF_Data.hxx>
-#include <Handle_MDF_SRelocationTable.hxx>
-#include <Handle_PColStd_HArray1OfInteger.hxx>
-#include <Handle_PDF_HAttributeArray1.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
+#include <OCAF/PDF/Handle_PDF_Data.hxx>
+#include <OCAF/MDF/Handle_MDF_SRelocationTable.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PDF/Handle_PDF_HAttributeArray1.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MDF_RRelocationTable.hxx>
+#include <OCAF/MDF/Handle_MDF_RRelocationTable.hxx>
 class TDF_Data;
 class PDF_Data;
 class MDF_TypeASDriverMap;

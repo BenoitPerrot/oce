@@ -22,8 +22,8 @@
 #include <Mathematics/Primitives/gp_Elips.hxx>
 #include <Mathematics/Primitives/gp_Hypr.hxx>
 #include <Mathematics/Primitives/gp_Parab.hxx>
-#include <Handle_Geom_BezierCurve.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 class Adaptor3d_Curve;
 class TColStd_Array1OfReal;
 class gp_Pnt;

@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Plate_HArray1OfPinpointConstraint.hxx>
-#include <Handle_TColgp_HArray2OfXYZ.hxx>
+#include <ModelingAlgorithms/Plate/Handle_Plate_HArray1OfPinpointConstraint.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Plate_HArray1OfPinpointConstraint;
 class TColgp_HArray2OfXYZ;

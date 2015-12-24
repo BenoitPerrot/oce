@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_TextureRoot.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_TextureRoot.hxx>
 
-#include <Handle_Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_TextureParams.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Image/Image_PixMap_Handle.hxx>
 #include <Foundation/OSD/OSD_Path.hxx>

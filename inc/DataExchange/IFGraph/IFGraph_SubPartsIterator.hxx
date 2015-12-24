@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/Interface/Interface_Graph.hxx>
-#include <Handle_TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class TColStd_HSequenceOfInteger;
 class Standard_OutOfRange;
 class Standard_NoSuchObject;

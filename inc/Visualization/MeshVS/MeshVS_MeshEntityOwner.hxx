@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_MeshEntityOwner.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_MeshEntityOwner.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Visualization/MeshVS/MeshVS_EntityType.hxx>
@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SOPtr.hxx>
-#include <Handle_PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentationManager.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 class PrsMgr_PresentationManager;

@@ -12,9 +12,9 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_MapOfTransient.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepShape_ConnectedFaceSet.hxx>
-#include <Handle_StepGeom_CompositeCurve.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CompositeCurve.hxx>
 class Interface_Graph;
 class Standard_Transient;
 class StepShape_ConnectedFaceSet;

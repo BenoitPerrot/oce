@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_StepRepr_MaterialPropertyRepresentation.hxx>
-#include <Handle_StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

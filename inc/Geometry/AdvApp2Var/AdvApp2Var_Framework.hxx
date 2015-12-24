@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class Standard_NoSuchObject;
 class AdvApp2Var_SequenceOfNode;
 class AdvApp2Var_SequenceOfStrip;

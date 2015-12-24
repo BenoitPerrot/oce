@@ -16,7 +16,7 @@
 #ifndef NIS_View_HeaderFile
 #define NIS_View_HeaderFile
 
-#include <Handle_NIS_InteractiveObject.hxx>
+#include <Visualization/NIS/Handle_NIS_InteractiveObject.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
@@ -301,6 +301,6 @@ DEFINE_STANDARD_RTTI (NIS_View)
 // Definition of HANDLE object using Standard_DefineHandle.hxx
 //DEFINE_STANDARD_HANDLE (NIS_View, V3d_OrthographicView)
 
-#include <Handle_NIS_View.hxx>
+#include <Visualization/NIS/Handle_NIS_View.hxx>
 
 #endif

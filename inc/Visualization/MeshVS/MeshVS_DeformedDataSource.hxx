@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_DeformedDataSource.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DeformedDataSource.hxx>
 
-#include <Handle_MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Visualization/MeshVS/MeshVS_DataMapOfIntegerVector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -18,7 +18,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/MeshVS/MeshVS_EntityType.hxx>
-#include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class MeshVS_DataSource;
 class TColStd_Array1OfReal;

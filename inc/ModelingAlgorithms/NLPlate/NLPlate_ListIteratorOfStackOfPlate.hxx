@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_NLPlate_ListNodeOfStackOfPlate.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_ListNodeOfStackOfPlate.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

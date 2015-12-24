@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapOfSelStat.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapOfSelStat.hxx>
 
-#include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Handle_AIS_LocalStatus.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/AIS/Handle_AIS_LocalStatus.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_SelectableObject;

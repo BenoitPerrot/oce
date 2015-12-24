@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_Location.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_Location.hxx>
 
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TopLoc_Location;

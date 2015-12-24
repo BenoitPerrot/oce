@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
-#include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DataMapNodeOfDataMapOfSDRExternFile.hxx>
 class Standard_NoSuchObject;
 class StepShape_ShapeDefinitionRepresentation;
 class STEPCAFControl_ExternFile;

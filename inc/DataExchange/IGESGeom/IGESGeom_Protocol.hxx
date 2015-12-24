@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_Protocol.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_Protocol.hxx>
 
 #include <DataExchange/IGESData/IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class Interface_Protocol;
 class Standard_Type;
 

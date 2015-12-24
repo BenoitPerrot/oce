@@ -9,12 +9,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/PColgp/Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
+#include <OCAF/PColgp/Handle_PColgp_SeqNodeOfHSequenceOfVec.hxx>
 #include <OCAF/PMMgt/PMMgt_PManaged.hxx>
-#include <Handle_PColgp_HSequenceOfVec.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HSequenceOfVec.hxx>
 class PColgp_HSequenceOfVec;
 class PColgp_SeqExplorerOfHSequenceOfVec;
 class gp_Vec;

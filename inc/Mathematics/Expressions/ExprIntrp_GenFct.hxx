@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ExprIntrp_GenFct.hxx>
+#include <Mathematics/Expressions/Handle_ExprIntrp_GenFct.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Expressions/ExprIntrp_Generator.hxx>

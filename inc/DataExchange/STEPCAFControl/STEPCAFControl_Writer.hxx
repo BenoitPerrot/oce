@@ -11,17 +11,17 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/STEPControl/STEPControl_Writer.hxx>
-#include <Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DictionaryOfExternFile.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelShape.hxx>
 #include <DataExchange/STEPCAFControl/STEPCAFControl_DataMapOfLabelExternFile.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/MoniTool/MoniTool_DataMapOfShapeTransient.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TDocStd_Document.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
 #include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
 class STEPCAFControl_DictionaryOfExternFile;
 class XSControl_WorkSession;
 class TDocStd_Document;

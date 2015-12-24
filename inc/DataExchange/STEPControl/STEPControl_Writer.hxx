@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_StepData_StepModel.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

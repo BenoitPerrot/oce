@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_SequenceNodeOfSequenceOfAij.hxx>
 
 #include <ModelingAlgorithms/GeomPlate/GeomPlate_Aij.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

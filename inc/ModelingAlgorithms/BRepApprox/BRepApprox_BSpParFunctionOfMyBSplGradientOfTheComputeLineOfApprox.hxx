@@ -18,8 +18,8 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <ModelingAlgorithms/BRepApprox/BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Geometry/AppParCurves/Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 #include <Mathematics/Optimization/math_MultipleVarFunctionWithGradient.hxx>
 #include <Mathematics/Optimization/math_IntegerVector.hxx>
 #include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>

@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
-#include <Handle_Geom2d_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BSplineCurve.hxx>
 class StepGeom_BSplineCurveWithKnotsAndRationalBSplineCurve;
 class StdFail_NotDone;
 class Geom_BSplineCurve;

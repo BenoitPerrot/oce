@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_OffsetSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_OffsetSurface.hxx>
 
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Geom_OsculatingSurface.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class Geom_Surface;
 class Standard_ConstructionError;
 class Standard_RangeError;

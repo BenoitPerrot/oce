@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Line.hxx>
 
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <Geometry/Geom2d/Geom2d_Curve.hxx>
@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
 class Standard_RangeError;
 class gp_Ax2d;
 class gp_Lin2d;

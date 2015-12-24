@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_DataMapNodeOfDataMapOfIntegerBisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_DataMapNodeOfDataMapOfIntegerBisector.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Bisector.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MAT_Bisector;

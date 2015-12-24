@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Prs3d_Drawer.hxx>
-#include <Handle_Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
 class Prs3d_Presentation;
 class TopoDS_Shape;
 class Prs3d_Drawer;

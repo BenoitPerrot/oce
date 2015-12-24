@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_ListNodeOfListOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_ListNodeOfListOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TColStd_ListIteratorOfListOfInteger;

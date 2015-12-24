@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Approx_HArray1OfGTrsf2d.hxx>
+#include <Geometry/Approx/Handle_Approx_HArray1OfGTrsf2d.hxx>
 
 #include <Geometry/Approx/Approx_Array1OfGTrsf2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

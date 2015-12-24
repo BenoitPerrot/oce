@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfDataMapOfRINames.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 class TopoDS_Shape;

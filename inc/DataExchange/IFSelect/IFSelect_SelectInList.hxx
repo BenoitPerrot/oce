@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectInList.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectInList.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SelectAnyList.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_OutOfRange;
 class Standard_Transient;

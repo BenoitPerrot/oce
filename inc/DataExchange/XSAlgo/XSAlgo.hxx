@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_XSAlgo_AlgoContainer.hxx>
+#include <DataExchange/XSAlgo/Handle_XSAlgo_AlgoContainer.hxx>
 class XSAlgo_AlgoContainer;
 class XSAlgo_ToolContainer;
 class XSAlgo_AlgoContainer;

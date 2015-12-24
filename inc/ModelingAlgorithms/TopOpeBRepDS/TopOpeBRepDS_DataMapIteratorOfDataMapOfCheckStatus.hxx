@@ -13,7 +13,7 @@
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CheckStatus.hxx>
-#include <Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus.hxx>
 class Standard_NoSuchObject;
 class TColStd_MapIntegerHasher;
 class TopOpeBRepDS_DataMapOfCheckStatus;

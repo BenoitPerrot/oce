@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Transfer_Finder;
 

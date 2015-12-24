@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_DocumentTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_DocumentTool.hxx>
 
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDocStd_Document.hxx>
-#include <Handle_XCAFDoc_ShapeTool.hxx>
-#include <Handle_XCAFDoc_ColorTool.hxx>
-#include <Handle_XCAFDoc_LayerTool.hxx>
-#include <Handle_XCAFDoc_DimTolTool.hxx>
-#include <Handle_XCAFDoc_MaterialTool.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_ColorTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_LayerTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_DimTolTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_MaterialTool.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TDocStd_Document;

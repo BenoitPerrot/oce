@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TColStd_StdMapNodeOfMapOfAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_StdMapNodeOfMapOfAsciiString.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 class TColStd_MapOfAsciiString;

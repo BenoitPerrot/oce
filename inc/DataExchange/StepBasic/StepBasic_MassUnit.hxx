@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_MassUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MassUnit.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_NamedUnit.hxx>
 

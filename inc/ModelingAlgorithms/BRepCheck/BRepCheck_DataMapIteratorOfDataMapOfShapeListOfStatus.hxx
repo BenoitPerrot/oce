@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class BRepCheck_ListOfStatus;

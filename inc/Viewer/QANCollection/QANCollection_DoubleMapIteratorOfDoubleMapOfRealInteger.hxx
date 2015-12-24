@@ -13,7 +13,7 @@
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
+#include <Viewer/QANCollection/Handle_QANCollection_DoubleMapNodeOfDoubleMapOfRealInteger.hxx>
 class Standard_NoSuchObject;
 class TColStd_MapRealHasher;
 class TColStd_MapIntegerHasher;

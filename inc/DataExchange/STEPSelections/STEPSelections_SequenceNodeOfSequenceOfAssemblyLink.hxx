@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPSelections_SequenceNodeOfSequenceOfAssemblyLink.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_SequenceNodeOfSequenceOfAssemblyLink.hxx>
 
-#include <Handle_STEPSelections_AssemblyLink.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_AssemblyLink.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class STEPSelections_AssemblyLink;

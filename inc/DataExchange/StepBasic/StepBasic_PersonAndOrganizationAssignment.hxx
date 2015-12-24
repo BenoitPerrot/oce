@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_PersonAndOrganizationAssignment.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_PersonAndOrganizationAssignment.hxx>
 
-#include <Handle_StepBasic_PersonAndOrganization.hxx>
-#include <Handle_StepBasic_PersonAndOrganizationRole.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_PersonAndOrganization.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_PersonAndOrganizationRole.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_PersonAndOrganization;
 class StepBasic_PersonAndOrganizationRole;

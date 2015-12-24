@@ -21,9 +21,9 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfIWLineOfTheIWalking.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_IntPatch_TheIWLineOfTheIWalking.hxx>
-#include <Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_TheIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_SequenceNodeOfSequenceOfIWLineOfTheIWalking.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/IntWalk/IntWalk_StatusDeflection.hxx>
 class StdFail_NotDone;

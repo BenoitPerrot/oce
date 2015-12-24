@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_NodalConstraint.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_NodalConstraint.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESAppli_Node.hxx>
-#include <Handle_IGESDefs_HArray1OfTabularData.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_Node.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_HArray1OfTabularData.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_IGESDefs_TabularData.hxx>
+#include <DataExchange/IGESDefs/Handle_IGESDefs_TabularData.hxx>
 class IGESAppli_Node;
 class IGESDefs_HArray1OfTabularData;
 class Standard_OutOfRange;

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_Curve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_Curve3dElementProperty.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepFEA_HArray1OfCurveElementInterval.hxx>
-#include <Handle_StepFEA_HArray1OfCurveElementEndOffset.hxx>
-#include <Handle_StepFEA_HArray1OfCurveElementEndRelease.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HArray1OfCurveElementInterval.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HArray1OfCurveElementEndOffset.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HArray1OfCurveElementEndRelease.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepFEA_HArray1OfCurveElementInterval;

@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/Handle_QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

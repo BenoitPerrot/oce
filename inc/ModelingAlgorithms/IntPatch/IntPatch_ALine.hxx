@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_ALine.hxx>
 
 #include <Geometry/IntAna/IntAna_Curve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

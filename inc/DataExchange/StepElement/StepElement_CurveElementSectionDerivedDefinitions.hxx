@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_CurveElementSectionDerivedDefinitions.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_CurveElementSectionDerivedDefinitions.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_HArray1OfMeasureOrUnspecifiedValue.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>
 #include <DataExchange/StepElement/StepElement_CurveElementSectionDefinition.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepElement_HArray1OfMeasureOrUnspecifiedValue;
 class TColStd_HArray1OfReal;
 class TCollection_HAsciiString;

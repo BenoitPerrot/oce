@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_StdMapNodeOfMapOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_StdMapNodeOfMapOfInteger.hxx>
 class Standard_NoSuchObject;
 class TColStd_MapIntegerHasher;
 class TColStd_MapOfInteger;

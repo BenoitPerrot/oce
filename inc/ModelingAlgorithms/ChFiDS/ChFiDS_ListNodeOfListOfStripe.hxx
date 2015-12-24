@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_ListNodeOfListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_ListNodeOfListOfStripe.hxx>
 
-#include <Handle_ChFiDS_Stripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Stripe.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class ChFiDS_Stripe;

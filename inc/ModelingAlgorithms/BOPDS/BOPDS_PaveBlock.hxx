@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_PaveBlock.hxx>
 
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

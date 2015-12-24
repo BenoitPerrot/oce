@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepTools_DataMapNodeOfMapOfVertexPnt2d.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_DataMapNodeOfMapOfVertexPnt2d.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt2d.hxx>

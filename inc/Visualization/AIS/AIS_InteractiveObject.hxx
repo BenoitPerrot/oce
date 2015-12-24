@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
 
 #include <Visualization/AIS/AIS_PToContext.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/TColStd/TColStd_ListOfTransient.hxx>
-#include <Handle_AIS_Drawer.hxx>
+#include <Visualization/AIS/Handle_AIS_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>
 #include <Visualization/Graphic3d/Graphic3d_NameOfMaterial.hxx>
@@ -25,9 +25,9 @@
 #include <Visualization/PrsMgr/PrsMgr_TypeOfPresentation3d.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Handle_AIS_InteractiveContext.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_Prs3d_BasicAspect.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveContext.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_BasicAspect.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 class Standard_Transient;
 class AIS_Drawer;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_Hyperbola.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Hyperbola.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepGeom/StepGeom_Conic.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;
 class StepGeom_Axis2Placement;
 

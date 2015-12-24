@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Units_Quantity.hxx>
+#include <Foundation/Units/Handle_Units_Quantity.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_Units_Dimensions.hxx>
-#include <Handle_Units_UnitsSequence.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/Units/Handle_Units_Dimensions.hxx>
+#include <Foundation/Units/Handle_Units_UnitsSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

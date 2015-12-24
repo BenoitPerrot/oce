@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
+#include <OCAF/PColgp/Handle_PColgp_SeqNodeOfHSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PColgp_HSequenceOfXYZ.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HSequenceOfXYZ.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class PColgp_SeqNodeOfHSequenceOfXYZ;
 class PColgp_HSequenceOfXYZ;

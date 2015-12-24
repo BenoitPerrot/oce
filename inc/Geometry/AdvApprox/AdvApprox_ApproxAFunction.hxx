@@ -11,14 +11,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Handle_TColgp_HArray2OfPnt2d.hxx>
-#include <Handle_TColgp_HArray2OfPnt.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Geometry/AdvApprox/AdvApprox_EvaluatorFunction.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PPoly_HArray1OfTriangle_HeaderFile
-#include <Handle_PPoly_HArray1OfTriangle.hxx>
+#include <OCAF/PPoly/Handle_PPoly_HArray1OfTriangle.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

@@ -12,13 +12,13 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepBasic_ProductDefinitionRelationship.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
-#include <Handle_StepRepr_ProductDefinitionShape.hxx>
-#include <Handle_StepRepr_RepresentationRelationship.hxx>
-#include <Handle_StepRepr_ShapeAspect.hxx>
-#include <Handle_StepBasic_DocumentRelationship.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionRelationship.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ProductDefinitionShape.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationRelationship.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ShapeAspect.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DocumentRelationship.hxx>
 class Standard_Transient;
 class StepBasic_ProductDefinitionRelationship;
 class StepBasic_ProductDefinition;

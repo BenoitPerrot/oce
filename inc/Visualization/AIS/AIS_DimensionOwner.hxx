@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_DimensionOwner.hxx>
+#include <Visualization/AIS/Handle_AIS_DimensionOwner.hxx>
 
 #include <Visualization/AIS/AIS_DimensionSelectionMode.hxx>
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PrsMgr_PresentationManager.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_PresentationManager.hxx>
 class SelectMgr_SelectableObject;
 class PrsMgr_PresentationManager;
 

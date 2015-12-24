@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_GlobalNodeOfWriterLib.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_GlobalNodeOfWriterLib.hxx>
 
-#include <Handle_IGESData_ReadWriteModule.hxx>
-#include <Handle_IGESData_Protocol.hxx>
-#include <Handle_IGESData_GlobalNodeOfWriterLib.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ReadWriteModule.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_GlobalNodeOfWriterLib.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESData_NodeOfWriterLib.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_NodeOfWriterLib.hxx>
 class IGESData_ReadWriteModule;
 class IGESData_Protocol;
 class IGESData_IGESEntity;

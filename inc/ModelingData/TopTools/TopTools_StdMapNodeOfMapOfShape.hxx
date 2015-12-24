@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopTools_StdMapNodeOfMapOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_StdMapNodeOfMapOfShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

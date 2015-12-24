@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_UndefinedEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_UndefinedEntity.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_UndefinedContent.hxx>
+#include <DataExchange/Interface/Handle_Interface_UndefinedContent.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/IGESData/IGESData_DefType.hxx>
 #include <DataExchange/IGESData/IGESData_DefList.hxx>
-#include <Handle_IGESData_IGESReaderData.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESReaderData.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class Interface_UndefinedContent;
 class IGESData_IGESReaderData;
 class IGESData_DirPart;

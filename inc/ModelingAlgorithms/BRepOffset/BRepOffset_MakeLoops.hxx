@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <Handle_BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopTools_ListOfShape;
 class BRepAlgo_AsDes;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRepDS_EdgeVertexInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_EdgeVertexInterference.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ShapeShapeInterference.hxx>

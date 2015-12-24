@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Handle_SelectMgr_DataMapNodeOfDataMapOfObjectSelectors.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_DataMapNodeOfDataMapOfObjectSelectors.hxx>
 class Standard_NoSuchObject;
 class SelectMgr_SelectableObject;
 class SelectMgr_SequenceOfSelector;

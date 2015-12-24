@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_Projector.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

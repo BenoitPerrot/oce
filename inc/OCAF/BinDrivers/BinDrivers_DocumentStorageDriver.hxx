@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BinDrivers_DocumentStorageDriver.hxx>
+#include <OCAF/BinDrivers/Handle_BinDrivers_DocumentStorageDriver.hxx>
 
 #include <OCAF/BinLDrivers/BinLDrivers_DocumentStorageDriver.hxx>
-#include <Handle_BinMDF_ADriverTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_ADriverTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class BinMDF_ADriverTable;
 class CDM_MessageDriver;

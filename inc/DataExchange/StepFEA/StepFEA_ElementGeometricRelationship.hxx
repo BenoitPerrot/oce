@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_ElementGeometricRelationship.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ElementGeometricRelationship.hxx>
 
 #include <DataExchange/StepFEA/StepFEA_ElementOrElementGroup.hxx>
-#include <Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
 #include <DataExchange/StepElement/StepElement_ElementAspect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepElement_AnalysisItemWithinRepresentation;

@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerAsciiString.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 class TColStd_MapIntegerHasher;

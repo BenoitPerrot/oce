@@ -12,7 +12,7 @@
 
 #include <OCAF/DBC/DBC_BaseArray.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
+#include <OCAF/PShort/Handle_PShort_VArrayNodeOfFieldOfHArray2OfShortReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_PrimitiveTypes.hxx>
 class Standard_NegativeValue;

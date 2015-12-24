@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_Chamf3dDimension.hxx>
+#include <Visualization/AIS/Handle_AIS_Chamf3dDimension.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
@@ -18,11 +18,11 @@
 #include <Visualization/AIS/AIS_KindOfDimension.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/PrsMgr/PrsMgr_PresentationManager3d.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Prs3d_Projector.hxx>
-#include <Handle_Geom_Transformation.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Projector.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 class TopoDS_Shape;
 class TCollection_ExtendedString;
 class gp_Pnt;

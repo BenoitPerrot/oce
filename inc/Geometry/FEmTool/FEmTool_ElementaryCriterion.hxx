@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_FEmTool_ElementaryCriterion.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_ElementaryCriterion.hxx>
 
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class TColStd_HArray2OfReal;

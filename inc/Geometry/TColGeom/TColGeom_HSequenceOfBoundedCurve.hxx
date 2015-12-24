@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_HSequenceOfBoundedCurve.hxx>
 
 #include <Geometry/TColGeom/TColGeom_SequenceOfBoundedCurve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Geom_BoundedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

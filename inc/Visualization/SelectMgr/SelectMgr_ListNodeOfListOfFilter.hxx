@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_ListNodeOfListOfFilter.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_ListNodeOfListOfFilter.hxx>
 
-#include <Handle_SelectMgr_Filter.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Filter.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectMgr_Filter;

@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_Volume3dElementRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_Volume3dElementRepresentation.hxx>
 
-#include <Handle_StepFEA_FeaModel3d.hxx>
-#include <Handle_StepElement_Volume3dElementDescriptor.hxx>
-#include <Handle_StepElement_ElementMaterial.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaModel3d.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_Volume3dElementDescriptor.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_ElementMaterial.hxx>
 #include <DataExchange/StepFEA/StepFEA_ElementRepresentation.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepRepr_HArray1OfRepresentationItem.hxx>
-#include <Handle_StepRepr_RepresentationContext.hxx>
-#include <Handle_StepFEA_HArray1OfNodeRepresentation.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_HArray1OfRepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationContext.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HArray1OfNodeRepresentation.hxx>
 class StepFEA_FeaModel3d;
 class StepElement_Volume3dElementDescriptor;
 class StepElement_ElementMaterial;

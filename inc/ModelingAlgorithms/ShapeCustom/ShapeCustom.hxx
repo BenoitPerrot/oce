@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_BRepTools_Modification.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
-#include <Handle_ShapeBuild_ReShape.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_Modification.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
+#include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ShapeCustom_RestrictionParameters.hxx>
+#include <ModelingAlgorithms/ShapeCustom/Handle_ShapeCustom_RestrictionParameters.hxx>
 class TopoDS_Shape;
 class BRepTools_Modification;
 class TopTools_DataMapOfShapeShape;

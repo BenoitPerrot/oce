@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Vec.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfVec.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray1OfVec.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_Vec;
 class PColgp_FieldOfHArray1OfVec;

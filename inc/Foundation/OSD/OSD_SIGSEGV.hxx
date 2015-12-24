@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/OSD/OSD_Signal.hxx>
-#include <Handle_OSD_SIGSEGV.hxx>
+#include <Foundation/OSD/Handle_OSD_SIGSEGV.hxx>
 
 #if !defined No_Exception && !defined No_OSD_SIGSEGV
   #define OSD_SIGSEGV_Raise_if(CONDITION, MESSAGE) \

@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_StructureManager.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfUpdate.hxx>
-#include <Handle_Graphic3d_AspectLine3d.hxx>
-#include <Handle_Graphic3d_AspectText3d.hxx>
-#include <Handle_Graphic3d_AspectMarker3d.hxx>
-#include <Handle_Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectText3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectMarker3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectFillArea3d.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MapOfStructure.hxx>
 #include <Visualization/Aspect/Aspect_GenId.hxx>
-#include <Handle_Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_GraphicDriver.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_DataStructureManager.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>
 class Graphic3d_AspectLine3d;
 class Graphic3d_AspectText3d;

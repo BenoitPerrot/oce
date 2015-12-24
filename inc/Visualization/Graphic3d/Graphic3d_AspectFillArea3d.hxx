@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectFillArea3d.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Graphic3d_TextureMap.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_TextureMap.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>

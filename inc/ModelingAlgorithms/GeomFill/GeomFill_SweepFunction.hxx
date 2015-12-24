@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_SweepFunction.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SweepFunction.hxx>
 
-#include <Handle_GeomFill_LocationLaw.hxx>
-#include <Handle_GeomFill_SectionLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SectionLaw.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Mat.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>

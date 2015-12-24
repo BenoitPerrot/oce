@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_ObjMgt_SeqNodeOfPSeqOfExtRef_HeaderFile
-#include <Handle_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
+#include <OCAF/ObjMgt/Handle_ObjMgt_SeqNodeOfPSeqOfExtRef.hxx>
 #endif
 
 #ifndef _ShapeSchema_PMMgt_PManaged_HeaderFile

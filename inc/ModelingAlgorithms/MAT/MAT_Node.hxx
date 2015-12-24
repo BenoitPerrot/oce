@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Node.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MAT_Arc.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Arc.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class MAT_Arc;
 class MAT_SequenceOfArc;

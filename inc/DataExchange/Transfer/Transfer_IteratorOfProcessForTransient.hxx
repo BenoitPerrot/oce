@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 #include <DataExchange/Transfer/Transfer_TransferIterator.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Transfer_ProcessForTransient.hxx>
-#include <Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
-#include <Handle_Transfer_ActorOfProcessForTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_IndexedDataMapNodeOfTransferMapOfProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfProcessForTransient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
 class TColStd_HSequenceOfTransient;
 class Standard_NoSuchObject;
 class Standard_Transient;

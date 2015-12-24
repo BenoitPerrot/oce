@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_DataMapNodeOfDataMapOfShapeBox2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

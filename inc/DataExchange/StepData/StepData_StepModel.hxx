@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_StepModel.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
 
 #include <DataExchange/Interface/Interface_EntityList.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/Interface/Interface_InterfaceModel.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TColStd_HArray1OfInteger;
 class Standard_NoSuchObject;
 class Standard_Transient;

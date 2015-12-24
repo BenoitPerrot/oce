@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Handle_StdSelect_BRepOwner.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/StdSelect/Handle_StdSelect_BRepOwner.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 class SelectMgr_Selection;
 class TopoDS_Shape;
 class SelectMgr_SelectableObject;

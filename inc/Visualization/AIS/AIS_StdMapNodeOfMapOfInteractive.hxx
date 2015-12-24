@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
+#include <Visualization/AIS/Handle_AIS_StdMapNodeOfMapOfInteractive.hxx>
 
-#include <Handle_AIS_InteractiveObject.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class AIS_InteractiveObject;

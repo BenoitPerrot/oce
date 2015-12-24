@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_WorkLibrary.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_WorkLibrary.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_IGESData_Protocol.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 class Interface_InterfaceModel;
 class Interface_Protocol;
 class IFSelect_ContextWrite;

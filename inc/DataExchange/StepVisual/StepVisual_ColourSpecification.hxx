@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_ColourSpecification.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_ColourSpecification.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/StepVisual/StepVisual_Colour.hxx>
 class TCollection_HAsciiString;
 

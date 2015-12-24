@@ -13,8 +13,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_CSFunction.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
 class StdFail_NotDone;
 class Standard_DomainError;
 class Adaptor3d_HSurface;

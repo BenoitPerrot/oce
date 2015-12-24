@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_DataMapNodeOfDataMapOfGUIDDriver.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
-#include <Handle_TFunction_Driver.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Driver.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TFunction_Driver;

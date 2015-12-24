@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESSolid_ManifoldSolid.hxx>
-#include <Handle_IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Shell.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <Handle_IGESSolid_Face.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESSolid_Loop.hxx>
-#include <Handle_IGESSolid_EdgeList.hxx>
-#include <Handle_IGESSolid_VertexList.hxx>
-#include <Handle_TColgp_HSequenceOfXYZ.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfInteger.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Face.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_VertexList.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HSequenceOfXYZ.hxx>
 class IGESSolid_ManifoldSolid;
 class IGESSolid_Shell;
 class TColStd_HSequenceOfTransient;

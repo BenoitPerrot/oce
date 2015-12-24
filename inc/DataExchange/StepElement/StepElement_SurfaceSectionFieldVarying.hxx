@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_SurfaceSectionFieldVarying.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_SurfaceSectionFieldVarying.hxx>
 
-#include <Handle_StepElement_HArray1OfSurfaceSection.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_HArray1OfSurfaceSection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepElement/StepElement_SurfaceSectionField.hxx>
 class StepElement_HArray1OfSurfaceSection;

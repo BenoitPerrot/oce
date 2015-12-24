@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_CurveElementLocation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_CurveElementLocation.hxx>
 
-#include <Handle_StepFEA_FeaParametricPoint.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FeaParametricPoint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepFEA_FeaParametricPoint;
 

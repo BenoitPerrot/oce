@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
+#include <OCAF/BinMDF/Handle_BinMDF_DoubleMapNodeOfTypeIdMap.hxx>
 class Standard_NoSuchObject;
 class Standard_Type;
 class TColStd_MapTransientHasher;

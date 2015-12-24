@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDF_Data_HeaderFile
-#include <Handle_PDF_Data.hxx>
+#include <OCAF/PDF/Handle_PDF_Data.hxx>
 #endif
 
 #ifndef _StdLSchema_Standard_Persistent_HeaderFile

@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_EditForm.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_EditForm.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
-#include <Handle_IFSelect_Editor.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Editor.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_IFSelect_ListEditor.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_ListEditor.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 class IFSelect_Editor;
 class Standard_Transient;
 class Interface_InterfaceModel;

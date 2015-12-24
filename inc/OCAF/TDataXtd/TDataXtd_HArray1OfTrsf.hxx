@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataXtd_HArray1OfTrsf.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_HArray1OfTrsf.hxx>
 
 #include <OCAF/TDataXtd/TDataXtd_Array1OfTrsf.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

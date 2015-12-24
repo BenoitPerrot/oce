@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_BRepApprox_ApproxLine.hxx>
+#include <ModelingAlgorithms/BRepApprox/Handle_BRepApprox_ApproxLine.hxx>
 #include <Geometry/Approx/Approx_ParametrizationType.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;

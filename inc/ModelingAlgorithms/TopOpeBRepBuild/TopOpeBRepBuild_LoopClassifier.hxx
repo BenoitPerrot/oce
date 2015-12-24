@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <Handle_TopOpeBRepBuild_Loop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_Loop.hxx>
 class TopOpeBRepBuild_Loop;
 
 

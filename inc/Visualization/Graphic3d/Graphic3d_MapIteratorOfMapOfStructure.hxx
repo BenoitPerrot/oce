@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
-#include <Handle_Graphic3d_StdMapNodeOfMapOfStructure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_StdMapNodeOfMapOfStructure.hxx>
 class Standard_NoSuchObject;
 class Graphic3d_Structure;
 class TColStd_MapTransientHasher;

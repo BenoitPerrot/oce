@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_Equal.hxx>
+#include <Mathematics/Expressions/Handle_Expr_Equal.hxx>
 
 #include <Mathematics/Expressions/Expr_SingleRelation.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Expr_GeneralRelation.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralRelation.hxx>
 class Standard_NumericError;
 class Expr_GeneralExpression;
 class Expr_GeneralRelation;

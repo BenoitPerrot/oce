@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
+#include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

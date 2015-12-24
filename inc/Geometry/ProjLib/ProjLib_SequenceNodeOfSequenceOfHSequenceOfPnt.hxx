@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt.hxx>
+#include <Geometry/ProjLib/Handle_ProjLib_SequenceNodeOfSequenceOfHSequenceOfPnt.hxx>
 
-#include <Handle_TColgp_HSequenceOfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HSequenceOfPnt.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class TColgp_HSequenceOfPnt;

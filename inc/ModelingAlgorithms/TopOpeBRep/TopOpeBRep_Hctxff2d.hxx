@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRep_Hctxff2d.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_Hctxff2d.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 #include <GeomAbs_SurfaceType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

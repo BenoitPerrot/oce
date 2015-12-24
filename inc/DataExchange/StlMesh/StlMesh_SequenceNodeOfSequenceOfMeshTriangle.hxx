@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StlMesh_SequenceNodeOfSequenceOfMeshTriangle.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_SequenceNodeOfSequenceOfMeshTriangle.hxx>
 
-#include <Handle_StlMesh_MeshTriangle.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_MeshTriangle.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StlMesh_MeshTriangle;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_NLPlate_HGPPConstraint.hxx>
-#include <Handle_NLPlate_SequenceNodeOfSequenceOfHGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_HGPPConstraint.hxx>
+#include <ModelingAlgorithms/NLPlate/Handle_NLPlate_SequenceNodeOfSequenceOfHGPPConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

@@ -23,7 +23,7 @@
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Size.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class Storage_StreamTypeMismatchError;
 class Storage_StreamFormatError;
 class Storage_StreamWriteError;

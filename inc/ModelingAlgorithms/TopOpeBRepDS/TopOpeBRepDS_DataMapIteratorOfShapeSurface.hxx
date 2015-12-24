@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_DataMapNodeOfShapeSurface.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class Geom_Surface;

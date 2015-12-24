@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom2d_Transformation.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Transformation.hxx>
 class Geom2d_Transformation;
 class gp_Pnt2d;
 class gp_Ax2d;

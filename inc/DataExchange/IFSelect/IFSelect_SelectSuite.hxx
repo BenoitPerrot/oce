@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectSuite.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectSuite.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IFSelect_Selection.hxx>
-#include <Handle_IFSelect_SelectDeduct.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectDeduct.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Interface_InterfaceError;

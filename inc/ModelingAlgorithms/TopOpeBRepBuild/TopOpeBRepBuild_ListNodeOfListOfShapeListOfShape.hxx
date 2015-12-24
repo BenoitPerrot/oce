@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>
 
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

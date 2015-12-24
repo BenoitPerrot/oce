@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDF_Directory.hxx>
+#include <OCAF/CDF/Handle_CDF_Directory.hxx>
 
 #include <OCAF/CDM/CDM_ListOfDocument.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

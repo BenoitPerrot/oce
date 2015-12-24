@@ -12,8 +12,8 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/XSControl/XSControl_Reader.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IFSelect/IFSelect_PrintFail.hxx>
 #include <DataExchange/IFSelect/IFSelect_PrintCount.hxx>

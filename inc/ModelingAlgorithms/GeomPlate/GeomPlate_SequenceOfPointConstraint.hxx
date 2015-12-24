@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_GeomPlate_PointConstraint.hxx>
-#include <Handle_GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_PointConstraint.hxx>
+#include <ModelingAlgorithms/GeomPlate/Handle_GeomPlate_SequenceNodeOfSequenceOfPointConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

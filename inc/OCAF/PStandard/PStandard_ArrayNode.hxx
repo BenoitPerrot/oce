@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PStandard_ArrayNode.hxx>
+#include <OCAF/PStandard/Handle_PStandard_ArrayNode.hxx>
 
 #include <Foundation/Standard/Standard_Persistent.hxx>
 

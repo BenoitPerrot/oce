@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_STEPCAFControl_ExternFile.hxx>
-#include <Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_ExternFile.hxx>
+#include <DataExchange/STEPCAFControl/Handle_STEPCAFControl_DataMapNodeOfDataMapOfLabelExternFile.hxx>
 class Standard_NoSuchObject;
 class TDF_Label;
 class STEPCAFControl_ExternFile;

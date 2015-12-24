@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ArrayOfPrimitives.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_IndexBuffer_Handle.hxx>
 #include <Visualization/Graphic3d/Graphic3d_Buffer_Handle.hxx>

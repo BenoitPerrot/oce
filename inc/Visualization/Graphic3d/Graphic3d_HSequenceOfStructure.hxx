@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_HSequenceOfStructure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_HSequenceOfStructure.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfStructure.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT2d_DataMapNodeOfDataMapOfIntegerPnt2d.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_DataMapNodeOfDataMapOfIntegerPnt2d.hxx>
 class Standard_NoSuchObject;
 class gp_Pnt2d;
 class TColStd_MapIntegerHasher;

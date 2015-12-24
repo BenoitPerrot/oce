@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_CartesianPoint.hxx>
+#include <Geometry/Geom/Handle_Geom_CartesianPoint.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Geometry/Geom/Geom_Point.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class gp_Pnt;
 class gp_Trsf;
 class Geom_Geometry;

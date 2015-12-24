@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_ConvertCurve3dToBezier.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_ConvertCurve3dToBezier.hxx>
 
-#include <Handle_TColGeom_HSequenceOfCurve.hxx>
-#include <Handle_TColStd_HSequenceOfReal.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_HSequenceOfCurve.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_SplitCurve3d.hxx>
 class TColGeom_HSequenceOfCurve;

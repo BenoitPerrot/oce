@@ -8,24 +8,24 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerTransient.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_Interface_GTool.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_GTool.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/Interface/Interface_DataState.hxx>
-#include <Handle_Interface_ReportEntity.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_ReportEntity.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
 class Interface_Check;
 class TCollection_HAsciiString;
 class Interface_GTool;

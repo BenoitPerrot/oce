@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Geometry/AppParCurves/Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
 
 #include <Geometry/AppParCurves/AppParCurves_Array1OfConstraintCouple.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

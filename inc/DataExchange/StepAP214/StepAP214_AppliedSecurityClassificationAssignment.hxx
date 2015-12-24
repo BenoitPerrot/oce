@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_AppliedSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AppliedSecurityClassificationAssignment.hxx>
 
-#include <Handle_StepAP214_HArray1OfSecurityClassificationItem.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_HArray1OfSecurityClassificationItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassificationAssignment.hxx>
-#include <Handle_StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SecurityClassification.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepAP214_HArray1OfSecurityClassificationItem;
 class StepBasic_SecurityClassification;

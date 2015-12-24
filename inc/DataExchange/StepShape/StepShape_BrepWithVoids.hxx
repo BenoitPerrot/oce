@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_BrepWithVoids.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_BrepWithVoids.hxx>
 
-#include <Handle_StepShape_HArray1OfOrientedClosedShell.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfOrientedClosedShell.hxx>
 #include <DataExchange/StepShape/StepShape_ManifoldSolidBrep.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_ClosedShell.hxx>
-#include <Handle_StepShape_OrientedClosedShell.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ClosedShell.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_OrientedClosedShell.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_HArray1OfOrientedClosedShell;
 class TCollection_HAsciiString;

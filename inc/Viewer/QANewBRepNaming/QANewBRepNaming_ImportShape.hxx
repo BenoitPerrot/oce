@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Viewer/QANewBRepNaming/QANewBRepNaming_TopNaming.hxx>
-#include <Handle_TDF_TagSource.hxx>
+#include <OCAF/TDF/Handle_TDF_TagSource.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TDF_Label;
 class TopoDS_Shape;

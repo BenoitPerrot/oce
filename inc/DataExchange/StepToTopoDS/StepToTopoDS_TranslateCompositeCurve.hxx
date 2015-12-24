@@ -13,10 +13,10 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_Root.hxx>
-#include <Handle_StepGeom_CompositeCurve.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
-#include <Handle_StepGeom_Surface.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CompositeCurve.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class StepGeom_CompositeCurve;
 class Transfer_TransientProcess;
 class StepGeom_Surface;

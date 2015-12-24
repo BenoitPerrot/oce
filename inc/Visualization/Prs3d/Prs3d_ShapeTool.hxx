@@ -16,10 +16,10 @@
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
-#include <Handle_Poly_Triangulation.hxx>
-#include <Handle_Poly_PolygonOnTriangulation.hxx>
-#include <Handle_Poly_Polygon3D.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon3D.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;
 class Bnd_Box;

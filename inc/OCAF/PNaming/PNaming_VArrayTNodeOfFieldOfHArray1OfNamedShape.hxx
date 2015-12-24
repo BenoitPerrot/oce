@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PNaming_NamedShape.hxx>
-#include <Handle_PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/Handle_PNaming_NamedShape.hxx>
+#include <OCAF/PNaming/Handle_PNaming_VArrayNodeOfFieldOfHArray1OfNamedShape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PNaming_NamedShape;
 class PNaming_FieldOfHArray1OfNamedShape;

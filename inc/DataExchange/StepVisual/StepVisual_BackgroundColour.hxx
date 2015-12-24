@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_BackgroundColour.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_BackgroundColour.hxx>
 
 #include <DataExchange/StepVisual/StepVisual_AreaOrView.hxx>
 #include <DataExchange/StepVisual/StepVisual_Colour.hxx>

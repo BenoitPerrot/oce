@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PCollection_HAsciiString_HeaderFile
-#include <Handle_PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HAsciiString.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
-#include <Handle_SelectBasics_ListNodeOfListOfSensitive.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_ListNodeOfListOfSensitive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

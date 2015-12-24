@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DBRep_DrawableShape.hxx>
+#include <Viewer/DBRep/Handle_DBRep_DrawableShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DBRep/DBRep_ListOfEdge.hxx>
@@ -19,8 +19,8 @@
 #include <Viewer/Draw/Draw_Color.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <Handle_Poly_Triangulation.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class Standard_DomainError;

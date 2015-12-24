@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_TopologicalRepresentationItem.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_MakeVertexError.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_Root.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 class StepShape_TopologicalRepresentationItem;
 class StdFail_NotDone;
 class TopoDS_Vertex;

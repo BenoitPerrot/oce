@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepSelect_StepType.hxx>
+#include <DataExchange/StepSelect/Handle_StepSelect_StepType.hxx>
 
-#include <Handle_StepData_Protocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_Protocol.hxx>
 #include <DataExchange/StepData/StepData_WriterLib.hxx>
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class StepData_Protocol;
 class Interface_InterfaceError;
 class Interface_Protocol;

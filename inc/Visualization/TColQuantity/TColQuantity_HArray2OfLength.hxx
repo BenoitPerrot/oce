@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColQuantity_HArray2OfLength.hxx>
+#include <Visualization/TColQuantity/Handle_TColQuantity_HArray2OfLength.hxx>
 
 #include <Visualization/TColQuantity/TColQuantity_Array2OfLength.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -19,7 +19,7 @@
 #include <Geometry/TColGeom/TColGeom_SequenceOfCurve.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class Standard_NoSuchObject;
 class Standard_DomainError;
 class StdFail_NotDone;

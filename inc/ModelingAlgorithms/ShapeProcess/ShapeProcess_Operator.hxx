@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeProcess_Operator.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_Operator.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_ShapeProcess_Context.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_Context.hxx>
 class ShapeProcess_Context;
 
 

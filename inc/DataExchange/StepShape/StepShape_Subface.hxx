@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_Subface.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Subface.hxx>
 
-#include <Handle_StepShape_Face.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_Face.hxx>
 #include <DataExchange/StepShape/StepShape_Face.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_HArray1OfFaceBound.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfFaceBound.hxx>
 class StepShape_Face;
 class TCollection_HAsciiString;
 class StepShape_HArray1OfFaceBound;

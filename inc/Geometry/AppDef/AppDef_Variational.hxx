@@ -12,18 +12,18 @@
 
 #include <Geometry/AppDef/AppDef_MultiLine.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/AppParCurves/Handle_AppParCurves_HArray1OfConstraintCouple.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_AppDef_SmoothCriterion.hxx>
+#include <Geometry/AppDef/Handle_AppDef_SmoothCriterion.hxx>
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_FEmTool_Curve.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_Curve.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
-#include <Handle_PLib_Base.hxx>
+#include <Mathematics/Polynomial/Handle_PLib_Base.hxx>
 #include <Geometry/AppParCurves/AppParCurves_Constraint.hxx>
 class TColStd_HArray1OfReal;
 class AppParCurves_HArray1OfConstraintCouple;

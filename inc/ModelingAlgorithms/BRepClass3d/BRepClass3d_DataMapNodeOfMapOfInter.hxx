@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
+#include <ModelingAlgorithms/BRepClass3d/Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Storage/Storage_StreamReadError.hxx>
-#include <Handle_Storage_StreamExtCharParityError.hxx>
+#include <Foundation/Storage/Handle_Storage_StreamExtCharParityError.hxx>
 
 #if !defined No_Exception && !defined No_Storage_StreamExtCharParityError
   #define Storage_StreamExtCharParityError_Raise_if(CONDITION, MESSAGE) \

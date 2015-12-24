@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_Delta.hxx>
+#include <OCAF/TDF/Handle_TDF_Delta.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDF/TDF_AttributeDeltaList.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TDF_AttributeDelta.hxx>
+#include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_OutOfRange;

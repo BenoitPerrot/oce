@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfTransientProcess.hxx>
 
 #include <DataExchange/Transfer/Transfer_ActorOfProcessForTransient.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Transfer_ProcessForTransient.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ProcessForTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 class Transfer_Binder;
 class Standard_Transient;
 class Transfer_ProcessForTransient;

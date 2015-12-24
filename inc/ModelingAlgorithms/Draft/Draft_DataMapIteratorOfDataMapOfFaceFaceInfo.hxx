@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Draft_DataMapNodeOfDataMapOfFaceFaceInfo.hxx>
+#include <ModelingAlgorithms/Draft/Handle_Draft_DataMapNodeOfDataMapOfFaceFaceInfo.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Face;
 class Draft_FaceInfo;

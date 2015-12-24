@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Standard_NoMoreObject.hxx>
+#include <Foundation/Standard/Handle_Standard_NoMoreObject.hxx>
 
 #if !defined No_Exception && !defined No_Standard_NoMoreObject
   #define Standard_NoMoreObject_Raise_if(CONDITION, MESSAGE) \

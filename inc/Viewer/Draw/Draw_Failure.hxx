@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_Draw_Failure.hxx>
+#include <Viewer/Draw/Handle_Draw_Failure.hxx>
 
 #if !defined No_Exception && !defined No_Draw_Failure
   #define Draw_Failure_Raise_if(CONDITION, MESSAGE) \

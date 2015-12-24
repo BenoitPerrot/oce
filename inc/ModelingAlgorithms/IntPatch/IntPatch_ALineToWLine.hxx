@@ -13,8 +13,8 @@
 #include <ModelingAlgorithms/IntSurf/IntSurf_Quadric.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IntPatch_WLine.hxx>
-#include <Handle_IntPatch_ALine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_ALine.hxx>
 class IntSurf_Quadric;
 class IntPatch_WLine;
 class IntPatch_ALine;

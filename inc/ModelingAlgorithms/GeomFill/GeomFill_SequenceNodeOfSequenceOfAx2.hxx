@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SequenceNodeOfSequenceOfAx2.hxx>
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

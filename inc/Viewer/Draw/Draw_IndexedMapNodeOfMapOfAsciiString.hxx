@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draw_IndexedMapNodeOfMapOfAsciiString.hxx>
+#include <Viewer/Draw/Handle_Draw_IndexedMapNodeOfMapOfAsciiString.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

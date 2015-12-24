@@ -9,12 +9,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataXtd_Constraint.hxx>
+#include <OCAF/PDataXtd/Handle_PDataXtd_Constraint.hxx>
 
-#include <Handle_PDataStd_Real.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PDF_HAttributeArray1.hxx>
-#include <Handle_PNaming_NamedShape.hxx>
+#include <OCAF/PDF/Handle_PDF_HAttributeArray1.hxx>
+#include <OCAF/PNaming/Handle_PNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 class PDataStd_Real;

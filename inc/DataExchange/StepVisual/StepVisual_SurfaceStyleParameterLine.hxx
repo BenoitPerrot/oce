@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_SurfaceStyleParameterLine.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceStyleParameterLine.hxx>
 
-#include <Handle_StepVisual_CurveStyle.hxx>
-#include <Handle_StepVisual_HArray1OfDirectionCountSelect.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CurveStyle.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfDirectionCountSelect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_CurveStyle;

@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MoniTool_TransientElem.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_TransientElem.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <DataExchange/MoniTool/MoniTool_Element.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_MoniTool_Element.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Element.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Standard_Transient;
 class MoniTool_Element;

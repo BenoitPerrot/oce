@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeAddress.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_DomainError;

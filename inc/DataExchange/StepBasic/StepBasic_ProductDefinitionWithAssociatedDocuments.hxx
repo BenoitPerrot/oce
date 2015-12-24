@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionWithAssociatedDocuments.hxx>
 
-#include <Handle_StepBasic_HArray1OfDocument.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_HArray1OfDocument.hxx>
 #include <DataExchange/StepBasic/StepBasic_ProductDefinition.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_ProductDefinitionFormation.hxx>
-#include <Handle_StepBasic_ProductDefinitionContext.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionFormation.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinitionContext.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepBasic_Document.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Document.hxx>
 class StepBasic_HArray1OfDocument;
 class TCollection_HAsciiString;
 class StepBasic_ProductDefinitionFormation;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Message_Printer.hxx>
+#include <Foundation/Message/Handle_Message_Printer.hxx>
 
 #include <Foundation/Message/Message_Gravity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

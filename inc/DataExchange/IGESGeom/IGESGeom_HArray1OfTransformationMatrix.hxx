@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_HArray1OfTransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_HArray1OfTransformationMatrix.hxx>
 
 #include <DataExchange/IGESGeom/IGESGeom_Array1OfTransformationMatrix.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESGeom_TransformationMatrix.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_TransformationMatrix.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

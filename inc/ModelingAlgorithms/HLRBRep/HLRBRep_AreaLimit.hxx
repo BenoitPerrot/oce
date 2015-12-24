@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRBRep_AreaLimit.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_AreaLimit.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Intersection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
-#include <Handle_HLRBRep_AreaLimit.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_AreaLimit.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class HLRAlgo_Intersection;
 

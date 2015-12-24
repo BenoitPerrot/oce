@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
+#include <OCAF/XmlLDrivers/Handle_XmlLDrivers_SequenceNodeOfSequenceOfNamespaceDef.hxx>
 
 #include <OCAF/XmlLDrivers/XmlLDrivers_NamespaceDef.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

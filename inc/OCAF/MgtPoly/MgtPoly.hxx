@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Poly_Triangulation.hxx>
-#include <Handle_PPoly_Triangulation.hxx>
-#include <Handle_Poly_Polygon3D.hxx>
-#include <Handle_PPoly_Polygon3D.hxx>
-#include <Handle_Poly_Polygon2D.hxx>
-#include <Handle_PPoly_Polygon2D.hxx>
-#include <Handle_Poly_PolygonOnTriangulation.hxx>
-#include <Handle_PPoly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon3D.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
+#include <OCAF/PPoly/Handle_PPoly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_PolygonOnTriangulation.hxx>
+#include <OCAF/PPoly/Handle_PPoly_PolygonOnTriangulation.hxx>
 class Poly_Triangle;
 class PPoly_Triangle;
 class Poly_Triangulation;

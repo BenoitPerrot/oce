@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>
+#include <OCAF/MDF/Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>
 
-#include <Handle_MDF_ARDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriver.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MDF_ARDriver;

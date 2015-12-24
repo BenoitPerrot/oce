@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
-#include <Handle_SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
 class Standard_NoSuchObject;
 class SelectBasics_SensitiveEntity;
 class TColStd_MapIntegerHasher;

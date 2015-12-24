@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfDataMapOfRI.hxx>
 class Standard_NoSuchObject;
 class StepRepr_RepresentationItem;
 class TopoDS_Shape;

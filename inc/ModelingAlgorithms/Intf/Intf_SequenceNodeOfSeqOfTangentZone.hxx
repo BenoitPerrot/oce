@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Intf_SequenceNodeOfSeqOfTangentZone.hxx>
+#include <ModelingAlgorithms/Intf/Handle_Intf_SequenceNodeOfSeqOfTangentZone.hxx>
 
 #include <ModelingAlgorithms/Intf/Intf_TangentZone.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

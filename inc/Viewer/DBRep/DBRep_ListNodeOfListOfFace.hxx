@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DBRep_ListNodeOfListOfFace.hxx>
+#include <Viewer/DBRep/Handle_DBRep_ListNodeOfListOfFace.hxx>
 
-#include <Handle_DBRep_Face.hxx>
+#include <Viewer/DBRep/Handle_DBRep_Face.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class DBRep_Face;

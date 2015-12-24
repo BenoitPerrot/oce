@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
-#include <Handle_StepShape_TopologicalRepresentationItem.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

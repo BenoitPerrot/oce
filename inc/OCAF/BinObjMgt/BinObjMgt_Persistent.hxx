@@ -25,7 +25,7 @@
 #include <OCAF/BinObjMgt/BinObjMgt_PInteger.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_PReal.hxx>
 #include <OCAF/BinObjMgt/BinObjMgt_PShortReal.hxx>
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfPoints.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfTriangles.hxx>
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_ArrayOfEdges.hxx>

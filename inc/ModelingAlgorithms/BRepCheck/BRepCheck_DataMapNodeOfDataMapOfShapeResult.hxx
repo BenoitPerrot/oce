@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepCheck_DataMapNodeOfDataMapOfShapeResult.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_DataMapNodeOfDataMapOfShapeResult.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_BRepCheck_Result.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_Result.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class BRepCheck_Result;

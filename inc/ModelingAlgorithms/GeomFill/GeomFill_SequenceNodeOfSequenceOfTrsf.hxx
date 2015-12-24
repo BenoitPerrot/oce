@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_SequenceNodeOfSequenceOfTrsf.hxx>
 
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

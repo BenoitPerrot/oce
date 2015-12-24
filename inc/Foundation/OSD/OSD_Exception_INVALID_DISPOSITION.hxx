@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/OSD/OSD_Exception.hxx>
-#include <Handle_OSD_Exception_INVALID_DISPOSITION.hxx>
+#include <Foundation/OSD/Handle_OSD_Exception_INVALID_DISPOSITION.hxx>
 
 #if !defined No_Exception && !defined No_OSD_Exception_INVALID_DISPOSITION
   #define OSD_Exception_INVALID_DISPOSITION_Raise_if(CONDITION, MESSAGE) \

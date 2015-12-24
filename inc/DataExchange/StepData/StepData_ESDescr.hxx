@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_ESDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_ESDescr.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_TColStd_HArray1OfTransient.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <Handle_StepData_ESDescr.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfTransient.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
+#include <DataExchange/StepData/Handle_StepData_ESDescr.hxx>
 #include <DataExchange/StepData/StepData_EDescr.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepData_PDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_PDescr.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepData_Described.hxx>
+#include <DataExchange/StepData/Handle_StepData_Described.hxx>
 class TColStd_HArray1OfTransient;
 class Dico_DictionaryOfInteger;
 class StepData_PDescr;

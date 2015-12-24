@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/OSD/OSD_Exception.hxx>
-#include <Handle_OSD_Exception_FLT_STACK_CHECK.hxx>
+#include <Foundation/OSD/Handle_OSD_Exception_FLT_STACK_CHECK.hxx>
 
 #if !defined No_Exception && !defined No_OSD_Exception_FLT_STACK_CHECK
   #define OSD_Exception_FLT_STACK_CHECK_Raise_if(CONDITION, MESSAGE) \

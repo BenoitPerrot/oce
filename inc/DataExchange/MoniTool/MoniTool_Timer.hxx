@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MoniTool_Timer.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Timer.hxx>
 
 #include <Foundation/OSD/OSD_Timer.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_MoniTool_Timer.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Timer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

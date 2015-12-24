@@ -8,24 +8,24 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_MeshPrsBuilder.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_MeshPrsBuilder.hxx>
 
 #include <Visualization/MeshVS/MeshVS_PrsBuilder.hxx>
-#include <Handle_MeshVS_Mesh.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_Mesh.hxx>
 #include <Visualization/MeshVS/MeshVS_DisplayModeFlags.hxx>
-#include <Handle_MeshVS_DataSource.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataSource.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/MeshVS/MeshVS_BuilderPriority.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 #include <Foundation/TColStd/TColStd_PackedMapOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Graphic3d_ArrayOfSegments.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ArrayOfSegments.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Graphic3d_ArrayOfTriangles.hxx>
-#include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
-#include <Handle_Graphic3d_ArrayOfPrimitives.hxx>
-#include <Handle_Graphic3d_AspectFillArea3d.hxx>
-#include <Handle_Graphic3d_AspectLine3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ArrayOfTriangles.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ArrayOfPrimitives.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectFillArea3d.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_AspectLine3d.hxx>
 class MeshVS_Mesh;
 class MeshVS_DataSource;
 class Prs3d_Presentation;

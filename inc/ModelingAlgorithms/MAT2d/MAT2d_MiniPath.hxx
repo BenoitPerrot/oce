@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_Connexion.hxx>
 class MAT2d_SequenceOfSequenceOfGeometry;
 class MAT2d_SequenceOfConnexion;
 class MAT2d_Connexion;

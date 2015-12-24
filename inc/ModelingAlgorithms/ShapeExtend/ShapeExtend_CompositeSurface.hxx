@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeExtend_CompositeSurface.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_CompositeSurface.hxx>
 
-#include <Handle_TColGeom_HArray2OfSurface.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_HArray2OfSurface.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Parametrisation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Geometry.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 class TColGeom_HArray2OfSurface;
 class TColStd_HArray1OfReal;

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_Polygon3D.hxx>
+#include <ModelingData/BRep/Handle_BRep_Polygon3D.hxx>
 
-#include <Handle_Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon3D.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/Handle_BRep_CurveRepresentation.hxx>
 class Poly_Polygon3D;
 class Standard_DomainError;
 class TopLoc_Location;

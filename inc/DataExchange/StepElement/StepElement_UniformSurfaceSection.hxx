@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_UniformSurfaceSection.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_UniformSurfaceSection.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepElement/StepElement_MeasureOrUnspecifiedValue.hxx>

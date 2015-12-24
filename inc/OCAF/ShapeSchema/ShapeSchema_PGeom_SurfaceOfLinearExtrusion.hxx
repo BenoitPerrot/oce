@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom_SurfaceOfLinearExtrusion_HeaderFile
-#include <Handle_PGeom_SurfaceOfLinearExtrusion.hxx>
+#include <OCAF/PGeom/Handle_PGeom_SurfaceOfLinearExtrusion.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom_SweptSurface_HeaderFile

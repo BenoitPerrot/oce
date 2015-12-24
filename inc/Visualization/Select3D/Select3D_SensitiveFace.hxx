@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Select3D_SensitiveFace.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveFace.hxx>
 
 #include <Visualization/Select3D/Select3D_TypeOfSensitivity.hxx>
 #include <Visualization/Select3D/Select3D_SensitivePoly.hxx>
-#include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Handle_TColgp_HArray1OfPnt.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 class Standard_ConstructionError;
 class Standard_OutOfRange;
 class SelectBasics_EntityOwner;

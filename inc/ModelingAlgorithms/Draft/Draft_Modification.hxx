@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draft_Modification.hxx>
+#include <ModelingAlgorithms/Draft/Handle_Draft_Modification.hxx>
 
 #include <ModelingAlgorithms/Draft/Draft_DataMapOfFaceFaceInfo.hxx>
 #include <ModelingAlgorithms/Draft/Draft_DataMapOfEdgeEdgeInfo.hxx>
@@ -21,9 +21,9 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/BRepTools/BRepTools_Modification.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class StdFail_NotDone;

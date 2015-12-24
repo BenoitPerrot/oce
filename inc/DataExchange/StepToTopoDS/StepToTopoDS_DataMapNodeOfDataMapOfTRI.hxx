@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfDataMapOfTRI.hxx>
 
-#include <Handle_StepShape_TopologicalRepresentationItem.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_TopologicalRepresentationItem.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>

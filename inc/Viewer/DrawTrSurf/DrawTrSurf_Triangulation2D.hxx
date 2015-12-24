@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawTrSurf_Triangulation2D.hxx>
+#include <Viewer/DrawTrSurf/Handle_DrawTrSurf_Triangulation2D.hxx>
 
-#include <Handle_Poly_Triangulation.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Viewer/Draw/Draw_Drawable2D.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
 class Poly_Triangulation;

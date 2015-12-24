@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_VolumeElementPurposeMember.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_VolumeElementPurposeMember.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/StepData/StepData_SelectNamed.hxx>

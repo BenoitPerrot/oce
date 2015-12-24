@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_WNT_WClass.hxx>
+#include <Visualization/WNT/Handle_WNT_WClass.hxx>
 
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Visualization/Aspect/Aspect_Handle.hxx>

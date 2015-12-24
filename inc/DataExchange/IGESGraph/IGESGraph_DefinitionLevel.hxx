@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGraph_DefinitionLevel.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_DefinitionLevel.hxx>
 
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_LevelListEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TColStd_HArray1OfInteger;

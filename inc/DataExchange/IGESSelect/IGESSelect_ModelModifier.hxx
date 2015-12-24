@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_ModelModifier.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_ModelModifier.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Modifier.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
-#include <Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 class IGESData_IGESModel;
 class IGESData_Protocol;
 class IFSelect_ContextModif;

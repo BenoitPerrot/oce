@@ -11,15 +11,15 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Poly_Triangulation.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Poly_Polygon3D.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon3D.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Poly_Polygon2D.hxx>
-#include <Handle_Poly_PolygonOnTriangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_PolygonOnTriangulation.hxx>
 #include <GeomAbs_Shape.hxx>
 class Standard_NullObject;
 class Standard_NoSuchObject;

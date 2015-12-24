@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_CDF_MetaDataDriverError.hxx>
+#include <OCAF/CDF/Handle_CDF_MetaDataDriverError.hxx>
 
 #if !defined No_Exception && !defined No_CDF_MetaDataDriverError
   #define CDF_MetaDataDriverError_Raise_if(CONDITION, MESSAGE) \

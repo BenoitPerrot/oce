@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColgp_HArray1OfXYZ.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfXYZ.hxx>
 
 #include <Mathematics/Collections/TColgp_Array1OfXYZ.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

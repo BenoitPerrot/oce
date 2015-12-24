@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Handle_Units_UnitsDictionary.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Units_Quantity.hxx>
-#include <Handle_Units_Lexicon.hxx>
-#include <Handle_Units_Dimensions.hxx>
+#include <Foundation/Units/Handle_Units_Quantity.hxx>
+#include <Foundation/Units/Handle_Units_Lexicon.hxx>
+#include <Foundation/Units/Handle_Units_Dimensions.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Units_UnitsDictionary;
 class Units_Quantity;

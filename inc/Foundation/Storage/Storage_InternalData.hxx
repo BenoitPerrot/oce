@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_InternalData.hxx>
+#include <Foundation/Storage/Handle_Storage_InternalData.hxx>
 
 #include <Foundation/Storage/Storage_BucketOfPersistent.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Storage_HPArray.hxx>
+#include <Foundation/Storage/Handle_Storage_HPArray.hxx>
 #include <Foundation/Storage/Storage_MapOfCallBack.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Storage_HPArray;

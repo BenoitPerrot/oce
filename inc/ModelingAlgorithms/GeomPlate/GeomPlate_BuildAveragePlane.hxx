@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_Plane.hxx>
-#include <Handle_Geom_Line.hxx>
+#include <Geometry/Geom/Handle_Geom_Plane.hxx>
+#include <Geometry/Geom/Handle_Geom_Line.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

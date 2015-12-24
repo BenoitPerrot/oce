@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPControl_ActorWrite.hxx>
+#include <DataExchange/STEPControl/Handle_STEPControl_ActorWrite.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/STEPConstruct/STEPConstruct_ContextTool.hxx>
 #include <DataExchange/Transfer/Transfer_ActorOfFinderProcess.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 #include <DataExchange/STEPControl/STEPControl_StepModelType.hxx>
-#include <Handle_StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_NonManifoldSurfaceShapeRepresentation.hxx>
 class Transfer_Finder;
 class Transfer_Binder;
 class Transfer_FinderProcess;

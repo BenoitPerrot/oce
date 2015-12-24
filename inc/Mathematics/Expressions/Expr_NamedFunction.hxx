@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_NamedFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedFunction.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Mathematics/Expressions/Expr_Array1OfNamedUnknown.hxx>
 #include <Mathematics/Expressions/Expr_GeneralFunction.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Expr_GeneralFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralFunction.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Expr_GeneralExpression;
 class Standard_OutOfRange;

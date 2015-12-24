@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopoDS_TCompSolid.hxx>
+#include <ModelingData/TopoDS/Handle_TopoDS_TCompSolid.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_TShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <Handle_TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/Handle_TopoDS_TShape.hxx>
 class TopoDS_TShape;
 
 

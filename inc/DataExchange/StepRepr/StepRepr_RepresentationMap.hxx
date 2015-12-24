@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_RepresentationMap.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationMap.hxx>
 
-#include <Handle_StepRepr_RepresentationItem.hxx>
-#include <Handle_StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_Representation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepRepr_RepresentationItem;
 class StepRepr_Representation;

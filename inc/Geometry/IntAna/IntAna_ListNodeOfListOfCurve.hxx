@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntAna_ListNodeOfListOfCurve.hxx>
+#include <Geometry/IntAna/Handle_IntAna_ListNodeOfListOfCurve.hxx>
 
 #include <Geometry/IntAna/IntAna_Curve.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

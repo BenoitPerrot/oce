@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
-#include <Handle_Resource_NoSuchResource.hxx>
+#include <Foundation/Resource/Handle_Resource_NoSuchResource.hxx>
 
 #if !defined No_Exception && !defined No_Resource_NoSuchResource
   #define Resource_NoSuchResource_Raise_if(CONDITION, MESSAGE) \

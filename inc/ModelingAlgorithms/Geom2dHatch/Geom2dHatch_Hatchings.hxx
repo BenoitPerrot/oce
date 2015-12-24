@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2dHatch_DataMapNodeOfHatchings.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Handle_Geom2dHatch_DataMapNodeOfHatchings.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;

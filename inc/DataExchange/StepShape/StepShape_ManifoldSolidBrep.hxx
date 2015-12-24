@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_ManifoldSolidBrep.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ManifoldSolidBrep.hxx>
 
-#include <Handle_StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ConnectedFaceSet.hxx>
 #include <DataExchange/StepShape/StepShape_SolidModel.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepShape_ClosedShell.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ClosedShell.hxx>
 class StepShape_ConnectedFaceSet;
 class TCollection_HAsciiString;
 class StepShape_ClosedShell;

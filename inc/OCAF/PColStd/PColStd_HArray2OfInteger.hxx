@@ -9,13 +9,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColStd_HArray2OfInteger.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray2OfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/PColStd/PColStd_FieldOfHArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
+#include <OCAF/PColStd/Handle_PColStd_VArrayNodeOfFieldOfHArray2OfInteger.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class PColStd_FieldOfHArray2OfInteger;

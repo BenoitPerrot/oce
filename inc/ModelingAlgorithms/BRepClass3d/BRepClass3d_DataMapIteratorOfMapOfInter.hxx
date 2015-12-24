@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
+#include <ModelingAlgorithms/BRepClass3d/Handle_BRepClass3d_DataMapNodeOfMapOfInter.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopTools_ShapeMapHasher;

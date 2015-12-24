@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_DomainError.hxx>
-#include <Handle_Geom2d_UndefinedDerivative.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_UndefinedDerivative.hxx>
 
 #if !defined No_Exception && !defined No_Geom2d_UndefinedDerivative
   #define Geom2d_UndefinedDerivative_Raise_if(CONDITION, MESSAGE) \

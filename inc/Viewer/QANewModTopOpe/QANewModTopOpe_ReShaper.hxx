@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_QANewModTopOpe_ReShaper.hxx>
+#include <Viewer/QANewModTopOpe/Handle_QANewModTopOpe_ReShaper.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 class TopoDS_Shape;
 class TopTools_MapOfShape;
 class TopTools_HSequenceOfShape;

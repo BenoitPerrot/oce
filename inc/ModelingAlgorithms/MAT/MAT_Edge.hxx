@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_Edge.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Edge.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT_Bisector.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Bisector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class MAT_Bisector;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/LocOpe/LocOpe_Spliter.hxx>
-#include <Handle_LocOpe_WiresOnShape.hxx>
+#include <ModelingAlgorithms/LocOpe/Handle_LocOpe_WiresOnShape.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class LocOpe_WiresOnShape;

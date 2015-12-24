@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_StepFEA_Curve3dElementProperty.hxx>
-#include <Handle_StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_Curve3dElementProperty.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_SequenceNodeOfSequenceOfCurve3dElementProperty.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

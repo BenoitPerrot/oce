@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PXCAFDoc_DimTolTool_HeaderFile
-#include <Handle_PXCAFDoc_DimTolTool.hxx>
+#include <DataExchange/PXCAFDoc/Handle_PXCAFDoc_DimTolTool.hxx>
 #endif
 
 #ifndef _XCAFSchema_PDF_Attribute_HeaderFile

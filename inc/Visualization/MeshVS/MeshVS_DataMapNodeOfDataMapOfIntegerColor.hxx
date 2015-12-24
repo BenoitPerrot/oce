@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Quantity/Quantity_Color.hxx>

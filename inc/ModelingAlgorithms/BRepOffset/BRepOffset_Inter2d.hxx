@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_BRepAlgo_AsDes.hxx>
+#include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class BRepAlgo_AsDes;
 class TopoDS_Face;

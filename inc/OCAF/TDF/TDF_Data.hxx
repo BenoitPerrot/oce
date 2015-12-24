@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_Data.hxx>
+#include <OCAF/TDF/Handle_TDF_Data.hxx>
 
 #include <OCAF/TDF/TDF_LabelNodePtr.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -17,7 +17,7 @@
 #include <OCAF/TDF/TDF_HAllocator.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <Handle_TDF_Delta.hxx>
+#include <OCAF/TDF/Handle_TDF_Delta.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_NoMoreObject;
 class TDF_Transaction;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
 class Standard_NoSuchObject;
 class TDF_Label;
 class TDF_IDMap;

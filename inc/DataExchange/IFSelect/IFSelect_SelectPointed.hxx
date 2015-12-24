@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectPointed.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectPointed.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectBase.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_CopyControl.hxx>
-#include <Handle_IFSelect_Transformer.hxx>
+#include <DataExchange/Interface/Handle_Interface_CopyControl.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Transformer.hxx>
 class Interface_InterfaceError;
 class Standard_Transient;
 class TColStd_HSequenceOfTransient;

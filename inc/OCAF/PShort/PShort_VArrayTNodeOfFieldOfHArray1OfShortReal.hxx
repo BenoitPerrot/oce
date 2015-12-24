@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_ShortReal.hxx>
-#include <Handle_PShort_VArrayNodeOfFieldOfHArray1OfShortReal.hxx>
+#include <OCAF/PShort/Handle_PShort_VArrayNodeOfFieldOfHArray1OfShortReal.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PShort_FieldOfHArray1OfShortReal;
 class PShort_VArrayNodeOfFieldOfHArray1OfShortReal;

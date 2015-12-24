@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_OrganizationalAddress.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_OrganizationalAddress.hxx>
 
-#include <Handle_StepBasic_HArray1OfOrganization.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_HArray1OfOrganization.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepBasic_Organization.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Organization.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfOrganization;
 class TCollection_HAsciiString;

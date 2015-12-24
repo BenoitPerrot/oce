@@ -14,8 +14,8 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/LocalAnalysis/LocalAnalysis_StatusErrorType.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 class StdFail_NotDone;
 class Geom_Surface;
 class Geom2d_Curve;

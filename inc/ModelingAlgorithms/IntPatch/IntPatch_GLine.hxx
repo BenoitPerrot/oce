@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntPatch_GLine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_GLine.hxx>
 
 #include <Mathematics/Primitives/gp_Ax2.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

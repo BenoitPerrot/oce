@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_SurfaceOfRevolution.hxx>
-#include <Handle_Geom_SurfaceOfRevolution.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceOfRevolution.hxx>
+#include <Geometry/Geom/Handle_Geom_SurfaceOfRevolution.hxx>
 class StepGeom_SurfaceOfRevolution;
 class Geom_SurfaceOfRevolution;
 

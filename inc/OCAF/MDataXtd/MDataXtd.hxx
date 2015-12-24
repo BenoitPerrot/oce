@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_MDF_ASDriverHSequence.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_MDF_ARDriverHSequence.hxx>
-#include <Handle_PGeom_Geometry.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <OCAF/MDF/Handle_MDF_ASDriverHSequence.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/MDF/Handle_MDF_ARDriverHSequence.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
 #include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>

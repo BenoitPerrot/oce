@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draw_Printer.hxx>
+#include <Viewer/Draw/Handle_Draw_Printer.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Message/Message_Printer.hxx>

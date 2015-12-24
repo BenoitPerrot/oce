@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_NumericValue.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NumericValue.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
 class Standard_OutOfRange;
 class Expr_GeneralExpression;
 class Expr_NamedUnknown;

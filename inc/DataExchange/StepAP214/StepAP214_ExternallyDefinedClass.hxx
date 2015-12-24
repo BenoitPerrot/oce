@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_ExternallyDefinedClass.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_ExternallyDefinedClass.hxx>
 
-#include <Handle_StepBasic_ExternallyDefinedItem.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ExternallyDefinedItem.hxx>
 #include <DataExchange/StepAP214/StepAP214_Class.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ExternalSource.hxx>
 class StepBasic_ExternallyDefinedItem;
 class TCollection_HAsciiString;
 class StepBasic_SourceItem;

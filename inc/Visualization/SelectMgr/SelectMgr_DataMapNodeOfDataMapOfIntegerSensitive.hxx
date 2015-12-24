@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_DataMapNodeOfDataMapOfIntegerSensitive.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class SelectBasics_SensitiveEntity;

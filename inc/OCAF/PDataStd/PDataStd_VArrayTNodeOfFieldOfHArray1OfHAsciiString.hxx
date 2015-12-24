@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PCollection_HAsciiString.hxx>
-#include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HAsciiString.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PCollection_HAsciiString;
 class PDataStd_FieldOfHArray1OfHAsciiString;

@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_XSControl_WorkSession.hxx>
-#include <Handle_IFSelect_SessionPilot.hxx>
-#include <Handle_XSControl_Vars.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SessionPilot.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_Vars.hxx>
 class XSControl_WorkSession;
 class IFSelect_SessionPilot;
 class XSControl_Vars;

@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepData_SelectMember.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepData/Handle_StepData_SelectMember.hxx>
 #include <DataExchange/StepElement/StepElement_EnumeratedCurveElementPurpose.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class Standard_Transient;
 class StepData_SelectMember;
 class TCollection_HAsciiString;

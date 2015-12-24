@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <DataExchange/VrmlAPI/VrmlAPI_RepresentationOfShape.hxx>
-#include <Handle_VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Drawer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_VrmlConverter_Projector.hxx>
-#include <Handle_Vrml_Material.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Projector.hxx>
+#include <DataExchange/Vrml/Handle_Vrml_Material.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Handle_Quantity_HArray1OfColor.hxx>
+#include <Foundation/Quantity/Handle_Quantity_HArray1OfColor.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class VrmlConverter_Drawer;
 class VrmlConverter_Projector;

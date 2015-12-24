@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfHArray1OfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_PColStd_HArray1OfInteger.hxx>
+#include <OCAF/PColStd/Handle_PColStd_HArray1OfInteger.hxx>
 #include <OCAF/PStandard/PStandard_ArrayNode.hxx>
 class PColStd_HArray1OfInteger;
 class PDataStd_FieldOfHArray1OfHArray1OfInteger;

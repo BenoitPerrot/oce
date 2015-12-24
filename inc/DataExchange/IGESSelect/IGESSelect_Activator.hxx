@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_Activator.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_Activator.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Activator.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SessionPilot.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class IFSelect_SessionPilot;
 

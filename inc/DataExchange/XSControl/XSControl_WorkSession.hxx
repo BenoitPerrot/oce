@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 
-#include <Handle_XSControl_Controller.hxx>
-#include <Handle_XSControl_TransferReader.hxx>
-#include <Handle_XSControl_TransferWriter.hxx>
-#include <Handle_Dico_DictionaryOfTransient.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_Controller.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_TransferWriter.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_XSControl_Vars.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_Vars.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkSession.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 class XSControl_Controller;
 class XSControl_TransferReader;

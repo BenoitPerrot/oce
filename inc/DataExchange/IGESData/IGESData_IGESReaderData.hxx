@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_IGESReaderData.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESReaderData.hxx>
 
 #include <DataExchange/IGESData/IGESData_IGESType.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Handle_Interface_ParamSet.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_ParamSet.hxx>
 #include <DataExchange/IGESData/IGESData_GlobalSection.hxx>
 #include <DataExchange/IGESData/IGESData_Array1OfDirPart.hxx>
 #include <DataExchange/IGESData/IGESData_ReadStage.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_FileReaderData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>

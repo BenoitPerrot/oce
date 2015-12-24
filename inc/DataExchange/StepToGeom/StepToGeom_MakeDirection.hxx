@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Direction.hxx>
-#include <Handle_Geom_Direction.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Direction.hxx>
+#include <Geometry/Geom/Handle_Geom_Direction.hxx>
 class StepGeom_Direction;
 class Geom_Direction;
 

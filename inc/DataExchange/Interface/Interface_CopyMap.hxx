@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Interface_CopyMap.hxx>
+#include <DataExchange/Interface/Handle_Interface_CopyMap.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <DataExchange/Interface/Interface_CopyControl.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_InterfaceModel;
 class Interface_InterfaceError;

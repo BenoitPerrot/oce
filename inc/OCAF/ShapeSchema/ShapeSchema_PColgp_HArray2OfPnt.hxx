@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PColgp_HArray2OfPnt_HeaderFile
-#include <Handle_PColgp_HArray2OfPnt.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray2OfPnt.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

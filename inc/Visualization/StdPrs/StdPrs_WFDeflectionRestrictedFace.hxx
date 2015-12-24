@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Visualization/Prs3d/Prs3d_Root.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
-#include <Handle_Prs3d_Drawer.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Drawer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

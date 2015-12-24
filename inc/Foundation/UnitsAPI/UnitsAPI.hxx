@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Units_Dimensions.hxx>
+#include <Foundation/Units/Handle_Units_Dimensions.hxx>
 #include <Foundation/UnitsAPI/UnitsAPI_SystemUnits.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Units_Dimensions;

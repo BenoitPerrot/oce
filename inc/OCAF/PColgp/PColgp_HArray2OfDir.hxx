@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColgp_HArray2OfDir.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray2OfDir.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Dir.hxx>
 #include <OCAF/PColgp/PColgp_FieldOfHArray2OfDir.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;
 class gp_Dir;

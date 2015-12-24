@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_ShapeMapTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_ShapeMapTool.hxx>
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TopoDS_Shape;

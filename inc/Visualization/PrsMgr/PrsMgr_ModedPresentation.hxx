@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PrsMgr_Presentation.hxx>
+#include <Visualization/PrsMgr/Handle_PrsMgr_Presentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class PrsMgr_Presentation;
 

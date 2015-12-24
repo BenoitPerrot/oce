@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_Shape.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Shape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_ShapeFix_Solid.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Solid.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
-#include <Handle_ShapeFix_Shell.hxx>
-#include <Handle_ShapeFix_Face.hxx>
-#include <Handle_ShapeFix_Wire.hxx>
-#include <Handle_ShapeFix_Edge.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Shell.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Wire.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Edge.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
-#include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class ShapeFix_Solid;
 class TopoDS_Shape;

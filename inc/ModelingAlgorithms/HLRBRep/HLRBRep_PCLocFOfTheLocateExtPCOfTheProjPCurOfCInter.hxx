@@ -19,7 +19,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_FunctionWithDerivative.hxx>
-#include <Handle_HLRBRep_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter.hxx>
 class Standard_OutOfRange;
 class Standard_TypeMismatch;
 class HLRBRep_CurveTool;

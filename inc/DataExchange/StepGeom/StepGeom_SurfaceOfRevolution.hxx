@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_SurfaceOfRevolution.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfaceOfRevolution.hxx>
 
-#include <Handle_StepGeom_Axis1Placement.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis1Placement.hxx>
 #include <DataExchange/StepGeom/StepGeom_SweptSurface.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepGeom_Curve.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
 class StepGeom_Axis1Placement;
 class TCollection_HAsciiString;
 class StepGeom_Curve;

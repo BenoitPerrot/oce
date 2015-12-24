@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Graphic3d_ListNodeOfListOfShortReal.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_ListNodeOfListOfShortReal.hxx>
 
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

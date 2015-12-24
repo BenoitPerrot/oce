@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_NodeWithSolutionCoordinateSystem.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_NodeWithSolutionCoordinateSystem.hxx>
 
 #include <DataExchange/StepFEA/StepFEA_Node.hxx>
 

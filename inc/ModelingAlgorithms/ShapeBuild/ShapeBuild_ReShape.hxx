@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeBuild_ReShape.hxx>
+#include <ModelingAlgorithms/ShapeBuild/Handle_ShapeBuild_ReShape.hxx>
 
 #include <ModelingData/BRepTools/BRepTools_ReShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>

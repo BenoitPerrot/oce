@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_SurfData.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SurfData.hxx>
 
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_CommonPoint.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_FaceInterference.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_MMgt_TShared.hxx>
+#include <Foundation/MMgt/Handle_MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Draw_Axis3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Axis3D.hxx>
 
 #include <Mathematics/Primitives/gp_Ax3.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PNaming_HArray1OfNamedShape_HeaderFile
-#include <Handle_PNaming_HArray1OfNamedShape.hxx>
+#include <OCAF/PNaming/Handle_PNaming_HArray1OfNamedShape.hxx>
 #endif
 
 #ifndef _StdSchema_Standard_Persistent_HeaderFile

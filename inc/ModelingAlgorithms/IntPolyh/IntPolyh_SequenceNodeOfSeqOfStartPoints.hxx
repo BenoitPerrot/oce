@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
+#include <ModelingAlgorithms/IntPolyh/Handle_IntPolyh_SequenceNodeOfSeqOfStartPoints.hxx>
 
 #include <ModelingAlgorithms/IntPolyh/IntPolyh_StartPoint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

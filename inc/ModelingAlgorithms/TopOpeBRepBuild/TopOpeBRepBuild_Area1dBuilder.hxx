@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_AreaBuilder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopOpeBRepBuild_Loop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_Loop.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class TopOpeBRepBuild_PaveSet;
 class TopOpeBRepBuild_PaveClassifier;

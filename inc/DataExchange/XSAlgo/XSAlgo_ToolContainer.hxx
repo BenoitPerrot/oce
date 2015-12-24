@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSAlgo_ToolContainer.hxx>
+#include <DataExchange/XSAlgo/Handle_XSAlgo_ToolContainer.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 

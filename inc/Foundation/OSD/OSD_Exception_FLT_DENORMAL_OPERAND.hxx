@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/OSD/OSD_Exception.hxx>
-#include <Handle_OSD_Exception_FLT_DENORMAL_OPERAND.hxx>
+#include <Foundation/OSD/Handle_OSD_Exception_FLT_DENORMAL_OPERAND.hxx>
 
 #if !defined No_Exception && !defined No_OSD_Exception_FLT_DENORMAL_OPERAND
   #define OSD_Exception_FLT_DENORMAL_OPERAND_Raise_if(CONDITION, MESSAGE) \

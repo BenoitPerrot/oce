@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDF_MetaDataDriver.hxx>
+#include <OCAF/CDF/Handle_CDF_MetaDataDriver.hxx>
 
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_PCDM_ReferenceIterator.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/PCDM/Handle_PCDM_ReferenceIterator.hxx>
 class Standard_NotImplemented;
 class CDM_MetaData;
 class TCollection_ExtendedString;

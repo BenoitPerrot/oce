@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PXCAFDoc_Material.hxx>
+#include <DataExchange/PXCAFDoc/Handle_PXCAFDoc_Material.hxx>
 
-#include <Handle_PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 class PCollection_HAsciiString;

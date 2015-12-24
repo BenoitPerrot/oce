@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDF_TagSource_HeaderFile
-#include <Handle_PDF_TagSource.hxx>
+#include <OCAF/PDF/Handle_PDF_TagSource.hxx>
 #endif
 
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile

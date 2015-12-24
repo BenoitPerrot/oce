@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Visual3d_View.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_View.hxx>
 
 #include <Visualization/Visual3d/Visual3d_ViewManagerPtr.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CView.hxx>
 #include <Visualization/Visual3d/Visual3d_ContextView.hxx>
-#include <Handle_Aspect_Window.hxx>
+#include <Visualization/Aspect/Handle_Aspect_Window.hxx>
 #include <Visualization/Graphic3d/Graphic3d_SequenceOfStructure.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Graphic3d_GraphicDriver.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_GraphicDriver.hxx>
 #include <Visualization/Aspect/Aspect_Background.hxx>
 #include <Visualization/Aspect/Aspect_GradientBackground.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MapOfStructure.hxx>
@@ -24,9 +24,9 @@
 #include <Visualization/Graphic3d/Graphic3d_Camera_Handle.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/Graphic3d/Graphic3d_DataStructureManager.hxx>
-#include <Handle_Visual3d_ViewManager.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_ViewManager.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Visual3d_Layer.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_Layer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Visualization/Aspect/Aspect_FillMethod.hxx>
 #include <Visualization/Aspect/Aspect_GradientFillMethod.hxx>
@@ -40,7 +40,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfTriedronEcho.hxx>
 #include <Visualization/Font/Font_FontAspect.hxx>
 #include <Visualization/Visual3d/Visual3d_TypeOfAnswer.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
 #include <Visualization/Graphic3d/Graphic3d_ZLayerSettings.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfHighlightMethod.hxx>
 #include <Visualization/Aspect/Aspect_Handle.hxx>

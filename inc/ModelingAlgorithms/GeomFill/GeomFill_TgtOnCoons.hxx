@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_GeomFill_TgtOnCoons.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_TgtOnCoons.hxx>
 
-#include <Handle_GeomFill_CoonsAlgPatch.hxx>
+#include <ModelingAlgorithms/GeomFill/Handle_GeomFill_CoonsAlgPatch.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_TgtField.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

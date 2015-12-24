@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_ReadWriteModule.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ReadWriteModule.hxx>
 
 #include <DataExchange/Interface/Interface_ReaderModule.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_FileReaderData.hxx>
-#include <Handle_Interface_Check.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_IGESData_IGESReaderData.hxx>
+#include <DataExchange/Interface/Handle_Interface_FileReaderData.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESReaderData.hxx>
 class Standard_DomainError;
 class Interface_FileReaderData;
 class Interface_Check;

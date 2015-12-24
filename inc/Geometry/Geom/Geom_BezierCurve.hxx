@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom_BezierCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BezierCurve.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColgp_HArray1OfPnt.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom/Geom_BoundedCurve.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
 class TColgp_HArray1OfPnt;
 class TColStd_HArray1OfReal;
 class Standard_ConstructionError;

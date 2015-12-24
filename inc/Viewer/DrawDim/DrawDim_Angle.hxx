@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawDim_Angle.hxx>
+#include <Viewer/DrawDim/Handle_DrawDim_Angle.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Viewer/DrawDim/DrawDim_Dimension.hxx>

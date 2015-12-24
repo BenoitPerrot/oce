@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ProductConceptContext.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductConceptContext.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/StepBasic/StepBasic_ApplicationContextElement.hxx>
-#include <Handle_StepBasic_ApplicationContext.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ApplicationContext.hxx>
 class TCollection_HAsciiString;
 class StepBasic_ApplicationContext;
 

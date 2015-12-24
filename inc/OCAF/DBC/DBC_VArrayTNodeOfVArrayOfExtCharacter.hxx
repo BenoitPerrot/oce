@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_ExtCharacter.hxx>
-#include <Handle_DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
+#include <OCAF/DBC/Handle_DBC_VArrayNodeOfVArrayOfExtCharacter.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class DBC_VArrayOfExtCharacter;
 class DBC_VArrayNodeOfVArrayOfExtCharacter;

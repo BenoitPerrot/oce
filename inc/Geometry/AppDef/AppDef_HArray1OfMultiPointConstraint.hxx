@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AppDef_HArray1OfMultiPointConstraint.hxx>
+#include <Geometry/AppDef/Handle_AppDef_HArray1OfMultiPointConstraint.hxx>
 
 #include <Geometry/AppDef/AppDef_Array1OfMultiPointConstraint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

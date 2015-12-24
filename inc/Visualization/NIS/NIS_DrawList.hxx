@@ -16,8 +16,8 @@
 #ifndef NIS_DrawList_HeaderFile
 #define NIS_DrawList_HeaderFile
 
-#include <Handle_NIS_View.hxx>
-#include <Handle_NIS_InteractiveObject.hxx>
+#include <Visualization/NIS/Handle_NIS_View.hxx>
+#include <Visualization/NIS/Handle_NIS_InteractiveObject.hxx>
 #include <Foundation/NCollection/NCollection_List.hxx>
 
 class NIS_InteractiveContext;

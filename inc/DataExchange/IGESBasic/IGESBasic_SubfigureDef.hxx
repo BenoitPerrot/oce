@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESBasic_SubfigureDef.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_SubfigureDef.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class TCollection_HAsciiString;
 class IGESData_HArray1OfIGESEntity;
 class Standard_OutOfRange;

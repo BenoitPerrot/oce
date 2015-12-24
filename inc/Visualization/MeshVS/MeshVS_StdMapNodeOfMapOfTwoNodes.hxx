@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_StdMapNodeOfMapOfTwoNodes.hxx>
 
 #include <Visualization/MeshVS/MeshVS_TwoNodes.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

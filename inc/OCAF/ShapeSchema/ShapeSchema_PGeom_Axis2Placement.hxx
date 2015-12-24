@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom_Axis2Placement_HeaderFile
-#include <Handle_PGeom_Axis2Placement.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Axis2Placement.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom_AxisPlacement_HeaderFile

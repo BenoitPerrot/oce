@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_Standard_DomainError.hxx>
+#include <Foundation/Standard/Handle_Standard_DomainError.hxx>
 
 #if !defined No_Exception && !defined No_Standard_DomainError
   #define Standard_DomainError_Raise_if(CONDITION, MESSAGE) \

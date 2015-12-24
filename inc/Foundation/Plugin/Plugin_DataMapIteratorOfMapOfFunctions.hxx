@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/OSD/OSD_Function.hxx>
-#include <Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
+#include <Foundation/Plugin/Handle_Plugin_DataMapNodeOfMapOfFunctions.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 class Plugin_MapOfFunctions;

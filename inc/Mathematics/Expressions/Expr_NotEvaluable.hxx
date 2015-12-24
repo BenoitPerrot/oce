@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Mathematics/Expressions/Expr_ExprFailure.hxx>
-#include <Handle_Expr_NotEvaluable.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NotEvaluable.hxx>
 
 #if !defined No_Exception && !defined No_Expr_NotEvaluable
   #define Expr_NotEvaluable_Raise_if(CONDITION, MESSAGE) \

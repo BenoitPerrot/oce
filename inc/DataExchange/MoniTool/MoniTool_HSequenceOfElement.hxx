@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MoniTool_HSequenceOfElement.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_HSequenceOfElement.hxx>
 
 #include <DataExchange/MoniTool/MoniTool_SequenceOfElement.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_MoniTool_Element.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Element.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

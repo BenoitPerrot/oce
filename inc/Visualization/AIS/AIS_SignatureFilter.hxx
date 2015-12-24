@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_SignatureFilter.hxx>
+#include <Visualization/AIS/Handle_AIS_SignatureFilter.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/AIS/AIS_TypeFilter.hxx>
 #include <Visualization/AIS/AIS_KindOfInteractive.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
 class SelectMgr_EntityOwner;
 
 

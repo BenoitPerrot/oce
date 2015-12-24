@@ -16,8 +16,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_IntPatch_WLine.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_WLine.hxx>
 #include <Geometry/Approx/Approx_ParametrizationType.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;

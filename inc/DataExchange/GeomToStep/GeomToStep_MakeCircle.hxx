@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Circle.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Circle.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_Circle.hxx>
-#include <Handle_Geom2d_Circle.hxx>
+#include <Geometry/Geom/Handle_Geom_Circle.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Circle.hxx>
 class StepGeom_Circle;
 class StdFail_NotDone;
 class gp_Circ;

@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
 
 #include <Foundation/Standard/Standard_Character.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Size.hxx>

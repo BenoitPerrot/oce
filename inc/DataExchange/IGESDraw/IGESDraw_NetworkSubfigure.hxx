@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDraw_NetworkSubfigure.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_NetworkSubfigure.hxx>
 
-#include <Handle_IGESDraw_NetworkSubfigureDef.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_NetworkSubfigureDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IGESGraph_TextDisplayTemplate.hxx>
-#include <Handle_IGESDraw_HArray1OfConnectPoint.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_HArray1OfConnectPoint.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESDraw_ConnectPoint.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_ConnectPoint.hxx>
 class IGESDraw_NetworkSubfigureDef;
 class TCollection_HAsciiString;
 class IGESGraph_TextDisplayTemplate;

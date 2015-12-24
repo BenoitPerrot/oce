@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_HArray2OfCharacter.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfCharacter.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfCharacter.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

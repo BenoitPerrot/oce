@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepSelect_WorkLibrary.hxx>
+#include <DataExchange/StepSelect/Handle_StepSelect_WorkLibrary.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IFSelect/IFSelect_WorkLibrary.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 class Interface_InterfaceModel;
 class Interface_Protocol;
 class IFSelect_ContextWrite;

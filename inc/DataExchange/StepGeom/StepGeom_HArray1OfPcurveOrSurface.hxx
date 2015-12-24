@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_HArray1OfPcurveOrSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray1OfPcurveOrSurface.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_Array1OfPcurveOrSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

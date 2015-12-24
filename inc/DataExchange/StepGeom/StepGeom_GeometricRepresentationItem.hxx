@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_GeometricRepresentationItem.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_GeometricRepresentationItem.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_RepresentationItem.hxx>
 

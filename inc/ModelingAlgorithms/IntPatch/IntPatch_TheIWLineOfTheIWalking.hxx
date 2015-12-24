@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntPatch_TheIWLineOfTheIWalking.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_TheIWLineOfTheIWalking.hxx>
 
-#include <Handle_IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_LineOn2S.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_SequenceOfCouple.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

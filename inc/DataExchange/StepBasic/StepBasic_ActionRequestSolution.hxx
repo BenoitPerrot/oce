@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ActionRequestSolution.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ActionRequestSolution.hxx>
 
-#include <Handle_StepBasic_ActionMethod.hxx>
-#include <Handle_StepBasic_VersionedActionRequest.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ActionMethod.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_VersionedActionRequest.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_ActionMethod;
 class StepBasic_VersionedActionRequest;

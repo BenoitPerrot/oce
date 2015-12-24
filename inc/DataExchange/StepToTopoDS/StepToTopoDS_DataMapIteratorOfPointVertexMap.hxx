@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_StepGeom_CartesianPoint.hxx>
-#include <Handle_StepToTopoDS_DataMapNodeOfPointVertexMap.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianPoint.hxx>
+#include <DataExchange/StepToTopoDS/Handle_StepToTopoDS_DataMapNodeOfPointVertexMap.hxx>
 class Standard_NoSuchObject;
 class StepGeom_CartesianPoint;
 class TopoDS_Vertex;

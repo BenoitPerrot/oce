@@ -8,25 +8,25 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_Editor.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Editor.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Interface_TypedValue.hxx>
+#include <DataExchange/Interface/Handle_Interface_TypedValue.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/IFSelect/IFSelect_EditValue.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Message_Messenger.hxx>
-#include <Handle_IFSelect_EditForm.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_IFSelect_ListEditor.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_EditForm.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_ListEditor.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class Dico_DictionaryOfInteger;
 class Standard_OutOfRange;
 class Interface_TypedValue;

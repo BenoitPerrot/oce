@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TColStd_DataMapNodeOfDataMapOfIntegerTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_DataMapNodeOfDataMapOfIntegerTransient.hxx>
 class Standard_NoSuchObject;
 class Standard_Transient;
 class TColStd_MapIntegerHasher;

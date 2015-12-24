@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_HArray1OfLeaderArrow.hxx>
 
 #include <DataExchange/IGESDimen/IGESDimen_Array1OfLeaderArrow.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_IGESDimen_LeaderArrow.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_LeaderArrow.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

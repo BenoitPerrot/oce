@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_ShapeAlgo_AlgoContainer.hxx>
+#include <ModelingAlgorithms/ShapeAlgo/Handle_ShapeAlgo_AlgoContainer.hxx>
 class ShapeAlgo_AlgoContainer;
 class ShapeAlgo_ToolContainer;
 class ShapeAlgo_AlgoContainer;

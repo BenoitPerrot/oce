@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_Line.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Line.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_Line.hxx>
-#include <Handle_Geom2d_Line.hxx>
+#include <Geometry/Geom/Handle_Geom_Line.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Line.hxx>
 class StepGeom_Line;
 class StdFail_NotDone;
 class gp_Lin;

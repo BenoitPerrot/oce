@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <DataExchange/Transfer/Transfer_ProcessForFinder.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Transfer_TransientMapper.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Transfer_Finder.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientMapper.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Finder.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 class Interface_InterfaceModel;
 class Transfer_TransientMapper;
 class Standard_Transient;

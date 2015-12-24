@@ -10,14 +10,14 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_BuilderError.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_MakeFaceError.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_MakeWireError.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_MakeEdgeError.hxx>
 #include <DataExchange/TopoDSToStep/TopoDSToStep_MakeVertexError.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class TCollection_HAsciiString;
 class Transfer_FinderProcess;
 class TopoDS_Shape;

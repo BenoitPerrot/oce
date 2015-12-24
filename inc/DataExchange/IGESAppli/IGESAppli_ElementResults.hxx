@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_ElementResults.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_ElementResults.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_IGESAppli_HArray1OfFiniteElement.hxx>
-#include <Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
-#include <Handle_IGESBasic_HArray1OfHArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_HArray1OfFiniteElement.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_HArray1OfHArray1OfInteger.hxx>
+#include <DataExchange/IGESBasic/Handle_IGESBasic_HArray1OfHArray1OfReal.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_IGESAppli_FiniteElement.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_FiniteElement.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 class IGESDimen_GeneralNote;
 class TColStd_HArray1OfInteger;
 class IGESAppli_HArray1OfFiniteElement;

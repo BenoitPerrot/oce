@@ -13,11 +13,11 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/Contap/Contap_SequenceOfSegmentOfTheSearch.hxx>
 #include <ModelingAlgorithms/Contap/Contap_SequenceOfPathPointOfTheSearch.hxx>
-#include <Handle_Adaptor3d_HVertex.hxx>
-#include <Handle_Adaptor2d_HCurve2d.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
-#include <Handle_Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
-#include <Handle_Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HVertex.hxx>
+#include <Geometry/Adaptor2d/Handle_Adaptor2d_HCurve2d.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_SequenceNodeOfSequenceOfSegmentOfTheSearch.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StdFail_NotDone;

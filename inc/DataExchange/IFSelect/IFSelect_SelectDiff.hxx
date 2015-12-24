@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectDiff.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectDiff.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_SelectControl.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

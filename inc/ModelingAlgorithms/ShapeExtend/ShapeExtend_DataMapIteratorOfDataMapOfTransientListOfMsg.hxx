@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_DataMapNodeOfDataMapOfTransientListOfMsg.hxx>
 class Standard_NoSuchObject;
 class Standard_Transient;
 class Message_ListOfMsg;

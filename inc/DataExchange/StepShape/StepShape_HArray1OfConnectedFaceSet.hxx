@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_HArray1OfConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfConnectedFaceSet.hxx>
 
 #include <DataExchange/StepShape/StepShape_Array1OfConnectedFaceSet.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepShape_ConnectedFaceSet.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ConnectedFaceSet.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

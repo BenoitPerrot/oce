@@ -8,21 +8,21 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_Data.hxx>
+#include <Foundation/Storage/Handle_Storage_Data.hxx>
 
-#include <Handle_Storage_HeaderData.hxx>
-#include <Handle_Storage_RootData.hxx>
-#include <Handle_Storage_TypeData.hxx>
-#include <Handle_Storage_InternalData.hxx>
+#include <Foundation/Storage/Handle_Storage_HeaderData.hxx>
+#include <Foundation/Storage/Handle_Storage_RootData.hxx>
+#include <Foundation/Storage/Handle_Storage_TypeData.hxx>
+#include <Foundation/Storage/Handle_Storage_InternalData.hxx>
 #include <Foundation/Storage/Storage_Error.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Persistent.hxx>
-#include <Handle_Storage_HSeqOfRoot.hxx>
-#include <Handle_Storage_Root.hxx>
+#include <Foundation/Standard/Handle_Standard_Persistent.hxx>
+#include <Foundation/Storage/Handle_Storage_HSeqOfRoot.hxx>
+#include <Foundation/Storage/Handle_Storage_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfAsciiString.hxx>
 class Storage_HeaderData;
 class Storage_RootData;
 class Storage_TypeData;

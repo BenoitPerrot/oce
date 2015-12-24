@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ResultFromTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ResultFromTransient.hxx>
 
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Transfer_Binder.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_CheckStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 class Standard_Transient;
 class Transfer_Binder;
 class TColStd_HSequenceOfTransient;

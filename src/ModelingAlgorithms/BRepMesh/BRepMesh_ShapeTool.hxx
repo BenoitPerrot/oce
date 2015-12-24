@@ -18,10 +18,10 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_FaceAttribute.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
-#include <Handle_Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 
 class TopoDS_Face;
 class TopoDS_Edge;

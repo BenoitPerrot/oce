@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_LocationLaw.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Trsf.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

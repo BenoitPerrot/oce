@@ -18,7 +18,7 @@
 #include <Geometry/Extrema/Extrema_SeqPOnCOfCCLocFOfLocECC2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Optimization/math_FunctionSetWithDerivatives.hxx>
-#include <Handle_Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d.hxx>
+#include <Geometry/Extrema/Handle_Extrema_SequenceNodeOfSeqPOnCOfCCLocFOfLocECC2d.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_OutOfRange;

@@ -8,25 +8,25 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_StepReaderData.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepReaderData.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <DataExchange/Interface/Interface_IndexedMapOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 #include <DataExchange/Interface/Interface_FileReaderData.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/Interface/Interface_ParamType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepData_PDescr.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepData_SelectMember.hxx>
-#include <Handle_StepData_ESDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_PDescr.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepData/Handle_StepData_SelectMember.hxx>
+#include <DataExchange/StepData/Handle_StepData_ESDescr.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class Interface_Check;
 class TCollection_AsciiString;
 class TColStd_SequenceOfAsciiString;

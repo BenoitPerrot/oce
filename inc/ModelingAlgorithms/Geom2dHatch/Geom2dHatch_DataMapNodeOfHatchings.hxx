@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Geom2dHatch_DataMapNodeOfHatchings.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Handle_Geom2dHatch_DataMapNodeOfHatchings.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatching.hxx>

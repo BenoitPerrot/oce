@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_TransformStandard.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_TransformStandard.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
 #include <DataExchange/IFSelect/IFSelect_SequenceOfGeneralModifier.hxx>
-#include <Handle_Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Handle_Interface_CopyControl.hxx>
 #include <DataExchange/IFSelect/IFSelect_Transformer.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IFSelect_Modifier.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Modifier.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class IFSelect_Selection;
 class Interface_CopyControl;
 class IFSelect_Modifier;

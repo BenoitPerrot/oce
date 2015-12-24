@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDF_ListNodeOfIDList.hxx>
+#include <OCAF/TDF/Handle_TDF_ListNodeOfIDList.hxx>
 
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

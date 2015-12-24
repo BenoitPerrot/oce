@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_PolygonOnSurface.hxx>
+#include <ModelingData/BRep/Handle_BRep_PolygonOnSurface.hxx>
 
-#include <Handle_Poly_Polygon2D.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/Handle_BRep_CurveRepresentation.hxx>
 class Poly_Polygon2D;
 class Geom_Surface;
 class Standard_DomainError;

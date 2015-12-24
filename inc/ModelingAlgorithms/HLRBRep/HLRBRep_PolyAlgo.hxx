@@ -8,22 +8,22 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRBRep_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_PolyAlgo.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
-#include <Handle_HLRAlgo_PolyAlgo.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_PolyAlgo.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_HLRAlgo_PolyInternalData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_PolyInternalData.hxx>
 #include <GeomAbs_Shape.hxx>
 class HLRAlgo_PolyAlgo;
 class Geom_Surface;

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_SurfaceSideStyle.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceSideStyle.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfSurfaceStyleElementSelect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;

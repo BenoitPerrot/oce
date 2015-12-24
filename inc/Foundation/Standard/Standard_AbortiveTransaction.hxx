@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_Standard_AbortiveTransaction.hxx>
+#include <Foundation/Standard/Handle_Standard_AbortiveTransaction.hxx>
 
 #if !defined No_Exception && !defined No_Standard_AbortiveTransaction
   #define Standard_AbortiveTransaction_Raise_if(CONDITION, MESSAGE) \

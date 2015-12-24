@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRTest_DrawableEdgeTool.hxx>
+#include <Viewer/HLRTest/Handle_HLRTest_DrawableEdgeTool.hxx>
 
-#include <Handle_HLRBRep_Algo.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_Algo.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <Handle_HLRBRep_Data.hxx>
+#include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_Data.hxx>
 class HLRBRep_Algo;
 class Draw_Display;
 class HLRBRep_Data;

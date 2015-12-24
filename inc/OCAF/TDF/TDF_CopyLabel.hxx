@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_IDFilter.hxx>
 #include <OCAF/TDF/TDF_AttributeMap.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/Handle_TDF_DataSet.hxx>
 class TDF_RelocationTable;
 class TDF_Label;
 class TDF_IDFilter;

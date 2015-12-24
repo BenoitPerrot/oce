@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColgp_SequenceNodeOfSequenceOfPnt2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_SequenceNodeOfSequenceOfPnt2d.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

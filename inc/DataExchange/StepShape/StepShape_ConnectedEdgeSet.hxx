@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_ConnectedEdgeSet.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ConnectedEdgeSet.hxx>
 
-#include <Handle_StepShape_HArray1OfEdge.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_HArray1OfEdge.hxx>
 #include <DataExchange/StepShape/StepShape_TopologicalRepresentationItem.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepShape_HArray1OfEdge;
 class TCollection_HAsciiString;
 

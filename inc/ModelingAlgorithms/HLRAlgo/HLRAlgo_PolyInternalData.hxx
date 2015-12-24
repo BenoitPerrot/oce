@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_PolyInternalData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_PolyInternalData.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_HLRAlgo_HArray1OfTData.hxx>
-#include <Handle_HLRAlgo_HArray1OfPISeg.hxx>
-#include <Handle_HLRAlgo_HArray1OfPINod.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_HArray1OfTData.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_HArray1OfPISeg.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_HArray1OfPINod.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

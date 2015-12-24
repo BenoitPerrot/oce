@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IntRes2d_SequenceNodeOfSequenceOfIntersectionPoint.hxx>
+#include <ModelingAlgorithms/IntRes2d/Handle_IntRes2d_SequenceNodeOfSequenceOfIntersectionPoint.hxx>
 
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_IntersectionPoint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

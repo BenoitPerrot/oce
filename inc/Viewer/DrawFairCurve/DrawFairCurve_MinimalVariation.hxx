@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DrawFairCurve_MinimalVariation.hxx>
+#include <Viewer/DrawFairCurve/Handle_DrawFairCurve_MinimalVariation.hxx>
 
 #include <Viewer/DrawFairCurve/DrawFairCurve_Batten.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>

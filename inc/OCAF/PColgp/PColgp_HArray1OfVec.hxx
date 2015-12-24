@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PColgp_HArray1OfVec.hxx>
+#include <OCAF/PColgp/Handle_PColgp_HArray1OfVec.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <OCAF/PColgp/PColgp_FieldOfHArray1OfVec.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray1OfVec.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray1OfVec.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
 class gp_Vec;

@@ -12,9 +12,9 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepFEA_ElementRepresentation.hxx>
-#include <Handle_StepFEA_ElementGroup.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ElementRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ElementGroup.hxx>
 class Standard_Transient;
 class StepFEA_ElementRepresentation;
 class StepFEA_ElementGroup;

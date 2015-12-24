@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Plate_HArray1OfPinpointConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Handle_Plate_HArray1OfPinpointConstraint.hxx>
 
 #include <ModelingAlgorithms/Plate/Plate_Array1OfPinpointConstraint.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_SurfaceStyleSegmentationCurve.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceStyleSegmentationCurve.hxx>
 
-#include <Handle_StepVisual_CurveStyle.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CurveStyle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_CurveStyle;
 

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_IntSurf_ListNodeOfListOfPntOn2S.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_ListNodeOfListOfPntOn2S.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

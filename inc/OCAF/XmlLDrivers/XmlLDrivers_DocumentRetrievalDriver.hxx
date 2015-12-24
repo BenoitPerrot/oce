@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlLDrivers_DocumentRetrievalDriver.hxx>
+#include <OCAF/XmlLDrivers/Handle_XmlLDrivers_DocumentRetrievalDriver.hxx>
 
-#include <Handle_XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriverTable.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCDM/PCDM_RetrievalDriver.hxx>
-#include <Handle_PCDM_Document.hxx>
-#include <Handle_CDM_Document.hxx>
-#include <Handle_CDM_Application.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Application.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_Element.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_XmlMDF_ADriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class XmlMDF_ADriverTable;
 class TCollection_ExtendedString;

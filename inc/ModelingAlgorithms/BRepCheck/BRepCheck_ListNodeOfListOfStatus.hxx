@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepCheck_ListNodeOfListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_ListNodeOfListOfStatus.hxx>
 
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

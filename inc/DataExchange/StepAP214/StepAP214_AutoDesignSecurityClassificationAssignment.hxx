@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AutoDesignSecurityClassificationAssignment.hxx>
 
-#include <Handle_StepBasic_HArray1OfApproval.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_HArray1OfApproval.hxx>
 #include <DataExchange/StepBasic/StepBasic_SecurityClassificationAssignment.hxx>
-#include <Handle_StepBasic_SecurityClassification.hxx>
-#include <Handle_StepBasic_Approval.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SecurityClassification.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Approval.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepBasic_HArray1OfApproval;
 class StepBasic_SecurityClassification;

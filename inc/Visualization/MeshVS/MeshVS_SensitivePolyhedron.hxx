@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_SensitivePolyhedron.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_SensitivePolyhedron.hxx>
 
-#include <Handle_TColgp_HArray1OfPnt.hxx>
-#include <Handle_TColgp_HArray1OfPnt2d.hxx>
-#include <Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt2d.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_HArray1OfSequenceOfInteger.hxx>
 #include <Mathematics/Primitives/gp_XY.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
-#include <Handle_SelectBasics_EntityOwner.hxx>
-#include <Handle_Select3D_Projector.hxx>
-#include <Handle_Select3D_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
+#include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
+#include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

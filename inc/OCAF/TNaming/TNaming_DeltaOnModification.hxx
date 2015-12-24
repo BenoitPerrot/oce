@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TNaming_DeltaOnModification.hxx>
+#include <OCAF/TNaming/Handle_TNaming_DeltaOnModification.hxx>
 
-#include <Handle_TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray1OfShape.hxx>
 #include <OCAF/TDF/TDF_DeltaOnModification.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 class TopTools_HArray1OfShape;
 class TNaming_NamedShape;
 

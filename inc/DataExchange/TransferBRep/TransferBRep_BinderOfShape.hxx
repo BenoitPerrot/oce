@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TransferBRep_BinderOfShape.hxx>
+#include <DataExchange/TransferBRep/Handle_TransferBRep_BinderOfShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class Transfer_TransferFailure;
 class TopoDS_Shape;

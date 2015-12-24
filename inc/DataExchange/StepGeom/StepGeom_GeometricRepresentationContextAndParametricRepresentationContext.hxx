@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_GeometricRepresentationContextAndParametricRepresentationContext.hxx>
 
-#include <Handle_StepGeom_GeometricRepresentationContext.hxx>
-#include <Handle_StepRepr_ParametricRepresentationContext.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ParametricRepresentationContext.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_GeometricRepresentationContext;
 class StepRepr_ParametricRepresentationContext;

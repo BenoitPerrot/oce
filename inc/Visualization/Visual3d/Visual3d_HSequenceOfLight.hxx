@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Visual3d_HSequenceOfLight.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_HSequenceOfLight.hxx>
 
 #include <Visualization/Visual3d/Visual3d_SequenceOfLight.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Visual3d_Light.hxx>
+#include <Visualization/Visual3d/Handle_Visual3d_Light.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

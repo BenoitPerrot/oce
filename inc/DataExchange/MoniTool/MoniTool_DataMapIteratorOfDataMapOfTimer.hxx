@@ -12,8 +12,8 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_MoniTool_Timer.hxx>
-#include <Handle_MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Timer.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_DataMapNodeOfDataMapOfTimer.hxx>
 class Standard_NoSuchObject;
 class MoniTool_Timer;
 class MoniTool_MTHasher;

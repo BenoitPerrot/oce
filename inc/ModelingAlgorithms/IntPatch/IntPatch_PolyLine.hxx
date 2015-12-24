@@ -13,8 +13,8 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_IType.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IntPatch_WLine.hxx>
-#include <Handle_IntPatch_RLine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_WLine.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_RLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Polygo.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

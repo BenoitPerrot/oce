@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_SequenceNodeOfSequenceOfMaterialPropertyRepresentation.hxx>
 
-#include <Handle_StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MaterialPropertyRepresentation.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepRepr_MaterialPropertyRepresentation;

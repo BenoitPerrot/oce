@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGraph_TextDisplayTemplate.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextDisplayTemplate.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESGraph_TextFontDef.hxx>
+#include <DataExchange/IGESGraph/Handle_IGESGraph_TextFontDef.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

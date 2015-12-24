@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_Class.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_Class.hxx>
 
 #include <DataExchange/StepBasic/StepBasic_Group.hxx>
 

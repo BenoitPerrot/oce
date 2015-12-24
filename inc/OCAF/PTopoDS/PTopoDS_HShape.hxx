@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HShape.hxx>
 
-#include <Handle_PTopoDS_TShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_TShape.hxx>
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <OCAF/ObjMgt/ObjMgt_ExternShareable.hxx>

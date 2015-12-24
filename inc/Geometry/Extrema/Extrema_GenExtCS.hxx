@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/Extrema/Extrema_FuncExtCS.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_SurfacePtr.hxx>
-#include <Handle_TColgp_HArray2OfPnt.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfPnt.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_CurvePtr.hxx>
 class TColgp_HArray2OfPnt;
 class StdFail_NotDone;

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_DerivedUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DerivedUnit.hxx>
 
-#include <Handle_StepBasic_HArray1OfDerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_HArray1OfDerivedUnitElement.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepBasic_DerivedUnitElement.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DerivedUnitElement.hxx>
 class StepBasic_HArray1OfDerivedUnitElement;
 class StepBasic_DerivedUnitElement;
 

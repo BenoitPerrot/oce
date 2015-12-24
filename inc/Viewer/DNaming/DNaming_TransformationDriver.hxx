@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DNaming_TransformationDriver.hxx>
+#include <Viewer/DNaming/Handle_DNaming_TransformationDriver.hxx>
 
 #include <OCAF/TFunction/TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 class TFunction_Logbook;
 class TDF_Label;
 class TNaming_NamedShape;

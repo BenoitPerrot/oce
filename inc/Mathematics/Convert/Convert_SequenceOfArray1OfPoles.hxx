@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_TColgp_HArray1OfPnt.hxx>
-#include <Handle_Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
+#include <Mathematics/Convert/Handle_Convert_SequenceNodeOfSequenceOfArray1OfPoles.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

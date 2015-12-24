@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlMXCAFDoc_LocationDriver.hxx>
+#include <DataExchange/XmlMXCAFDoc/Handle_XmlMXCAFDoc_LocationDriver.hxx>
 
 #include <ModelingData/TopTools/TopTools_LocationSetPtr.hxx>
 #include <OCAF/XmlMDF/XmlMDF_ADriver.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_RRelocationTable.hxx>
 #include <OCAF/XmlObjMgt/XmlObjMgt_SRelocationTable.hxx>

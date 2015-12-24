@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDocStd_MultiTransactionManager.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_MultiTransactionManager.hxx>
 
 #include <OCAF/TDocStd/TDocStd_SequenceOfDocument.hxx>
 #include <OCAF/TDocStd/TDocStd_SequenceOfApplicationDelta.hxx>
@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_TDocStd_Document.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_Document.hxx>
 class TDocStd_SequenceOfApplicationDelta;
 class TCollection_ExtendedString;
 class TDocStd_Document;

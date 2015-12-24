@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_IsoType.hxx>
 #include <GeomAbs_Shape.hxx>
@@ -20,9 +20,9 @@
 #include <Geometry/AdvApp2Var/AdvApp2Var_Network.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_Framework.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColGeom_HArray1OfSurface.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_HArray1OfSurface.hxx>
 #include <Geometry/AdvApp2Var/AdvApp2Var_EvaluatorFunc2Var.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TColStd_HArray1OfReal;
 class TColStd_HArray2OfReal;

@@ -8,19 +8,19 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_ResultFromModel.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ResultFromModel.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Transfer_ResultFromTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ResultFromTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/Interface/Interface_CheckStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
 class Interface_InterfaceModel;
 class Transfer_ResultFromTransient;
 class Transfer_TransientProcess;

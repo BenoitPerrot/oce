@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_FreedomsList.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_FreedomsList.hxx>
 
-#include <Handle_StepFEA_HArray1OfDegreeOfFreedom.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_HArray1OfDegreeOfFreedom.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepFEA_HArray1OfDegreeOfFreedom;
 

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StlMesh_SequenceNodeOfSequenceOfMeshDomain.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_SequenceNodeOfSequenceOfMeshDomain.hxx>
 
-#include <Handle_StlMesh_MeshDomain.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_MeshDomain.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StlMesh_MeshDomain;

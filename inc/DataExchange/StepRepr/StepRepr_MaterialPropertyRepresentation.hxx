@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_MaterialPropertyRepresentation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_MaterialPropertyRepresentation.hxx>
 
-#include <Handle_StepRepr_DataEnvironment.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_DataEnvironment.hxx>
 #include <DataExchange/StepRepr/StepRepr_PropertyDefinitionRepresentation.hxx>
-#include <Handle_StepRepr_Representation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_Representation.hxx>
 class StepRepr_DataEnvironment;
 class StepRepr_RepresentedDefinition;
 class StepRepr_Representation;

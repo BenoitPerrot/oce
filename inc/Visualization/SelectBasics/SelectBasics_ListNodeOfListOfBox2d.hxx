@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectBasics_ListNodeOfListOfBox2d.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_ListNodeOfListOfBox2d.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

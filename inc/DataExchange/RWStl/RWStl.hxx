@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StlMesh_Mesh.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <DataExchange/StlMesh/Handle_StlMesh_Mesh.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 class StlMesh_Mesh;
 class OSD_Path;
 class Message_ProgressIndicator;

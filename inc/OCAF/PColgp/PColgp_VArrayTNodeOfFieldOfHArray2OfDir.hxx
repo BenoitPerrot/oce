@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_Dir.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray2OfDir.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_Dir;
 class PColgp_FieldOfHArray2OfDir;

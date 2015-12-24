@@ -13,10 +13,10 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_IGESData_IGESModel.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 class Geom_Surface;
 class IGESData_IGESModel;
 class Transfer_TransientProcess;

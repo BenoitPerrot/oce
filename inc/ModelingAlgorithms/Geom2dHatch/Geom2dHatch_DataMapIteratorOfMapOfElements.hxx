@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2dHatch_DataMapNodeOfMapOfElements.hxx>
+#include <ModelingAlgorithms/Geom2dHatch/Handle_Geom2dHatch_DataMapNodeOfMapOfElements.hxx>
 class Standard_NoSuchObject;
 class Geom2dHatch_Element;
 class TColStd_MapIntegerHasher;

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepRepr_RepresentationRelationshipWithTransformation.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationRelationshipWithTransformation.hxx>
 
 #include <DataExchange/StepRepr/StepRepr_Transformation.hxx>
 #include <DataExchange/StepRepr/StepRepr_ShapeRepresentationRelationship.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepRepr_Representation.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_Representation.hxx>
 class TCollection_HAsciiString;
 class StepRepr_Representation;
 class StepRepr_Transformation;

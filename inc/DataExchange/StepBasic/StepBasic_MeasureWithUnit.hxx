@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
 
-#include <Handle_StepBasic_MeasureValueMember.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureValueMember.hxx>
 #include <DataExchange/StepBasic/StepBasic_Unit.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>

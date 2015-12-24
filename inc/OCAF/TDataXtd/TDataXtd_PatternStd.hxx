@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataXtd_PatternStd.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_PatternStd.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
-#include <Handle_TDataStd_Real.hxx>
-#include <Handle_TDataStd_Integer.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_Real.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_Integer.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Pattern.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
-#include <Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_DataSet.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TNaming_NamedShape;
 class TDataStd_Real;

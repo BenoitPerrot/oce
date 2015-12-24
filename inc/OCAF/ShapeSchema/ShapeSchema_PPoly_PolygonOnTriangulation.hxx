@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PPoly_PolygonOnTriangulation_HeaderFile
-#include <Handle_PPoly_PolygonOnTriangulation.hxx>
+#include <OCAF/PPoly/Handle_PPoly_PolygonOnTriangulation.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

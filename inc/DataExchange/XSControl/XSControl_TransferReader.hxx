@@ -8,25 +8,25 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSControl_TransferReader.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_TransferReader.hxx>
 
-#include <Handle_XSControl_Controller.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_Controller.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_HGraph.hxx>
-#include <Handle_Dico_DictionaryOfTransient.hxx>
-#include <Handle_Transfer_ActorOfTransientProcess.hxx>
-#include <Handle_Transfer_TransientProcess.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_HGraph.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_TransientProcess.hxx>
 #include <Foundation/TColStd/TColStd_DataMapOfIntegerTransient.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HSequenceOfTransient.hxx>
-#include <Handle_Transfer_ResultFromModel.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ResultFromModel.hxx>
 #include <DataExchange/Interface/Interface_CheckStatus.hxx>
 class XSControl_Controller;
 class Interface_InterfaceModel;

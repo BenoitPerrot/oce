@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/Handle_TDF_DataSet.hxx>
 class TDF_DataSet;
 class TDF_IDFilter;
 class TDF_ClosureMode;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESToBRep_AlgoContainer.hxx>
+#include <DataExchange/IGESToBRep/Handle_IGESToBRep_AlgoContainer.hxx>
 
-#include <Handle_IGESToBRep_ToolContainer.hxx>
+#include <DataExchange/IGESToBRep/Handle_IGESToBRep_ToolContainer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class IGESToBRep_ToolContainer;
 

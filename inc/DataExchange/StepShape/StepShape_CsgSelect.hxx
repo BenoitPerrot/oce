@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepShape_BooleanResult.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_BooleanResult.hxx>
 #include <DataExchange/StepShape/StepShape_CsgPrimitive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepShape_BooleanResult;

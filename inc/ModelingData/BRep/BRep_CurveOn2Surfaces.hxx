@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_CurveOn2Surfaces.hxx>
+#include <ModelingData/BRep/Handle_BRep_CurveOn2Surfaces.hxx>
 
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <ModelingData/BRep/BRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_BRep_CurveRepresentation.hxx>
+#include <ModelingData/BRep/Handle_BRep_CurveRepresentation.hxx>
 class Geom_Surface;
 class Standard_NullObject;
 class TopLoc_Location;

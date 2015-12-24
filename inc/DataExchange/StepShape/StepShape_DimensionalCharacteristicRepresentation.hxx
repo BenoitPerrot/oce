@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_DimensionalCharacteristicRepresentation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_DimensionalCharacteristicRepresentation.hxx>
 
 #include <DataExchange/StepShape/StepShape_DimensionalCharacteristic.hxx>
-#include <Handle_StepShape_ShapeDimensionRepresentation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDimensionRepresentation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepShape_ShapeDimensionRepresentation;
 class StepShape_DimensionalCharacteristic;

@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDF_Application.hxx>
+#include <OCAF/CDF/Handle_CDF_Application.hxx>
 
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <OCAF/PCDM/PCDM_ReaderStatus.hxx>
 #include <OCAF/CDM/CDM_Application.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <OCAF/CDM/CDM_CanCloseStatus.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/CDF/CDF_TypeOfActivation.hxx>
-#include <Handle_PCDM_Reader.hxx>
+#include <OCAF/PCDM/Handle_PCDM_Reader.hxx>
 #include <Foundation/Standard/Standard_ExtString.hxx>
-#include <Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class CDF_Session;

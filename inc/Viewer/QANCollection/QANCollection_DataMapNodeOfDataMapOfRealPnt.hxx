@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/Handle_QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>

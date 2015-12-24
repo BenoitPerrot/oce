@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_TrimmedSurface.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_TrimmedSurface.hxx>
 
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESGeom_CurveOnSurface.hxx>
-#include <Handle_IGESGeom_HArray1OfCurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_CurveOnSurface.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_HArray1OfCurveOnSurface.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IGESData_IGESEntity;

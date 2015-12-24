@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_ObjMgt_ExternRef_HeaderFile
-#include <Handle_ObjMgt_ExternRef.hxx>
+#include <OCAF/ObjMgt/Handle_ObjMgt_ExternRef.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DNaming_BooleanOperationDriver.hxx>
+#include <Viewer/DNaming/Handle_DNaming_BooleanOperationDriver.hxx>
 
 #include <OCAF/TFunction/TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TFunction_Function.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Function.hxx>
 class TFunction_Logbook;
 class TDF_Label;
 class BRepAlgoAPI_BooleanOperation;

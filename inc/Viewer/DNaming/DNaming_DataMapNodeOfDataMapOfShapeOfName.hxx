@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
+#include <Viewer/DNaming/Handle_DNaming_DataMapNodeOfDataMapOfShapeOfName.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>

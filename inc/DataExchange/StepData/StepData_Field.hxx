@@ -12,11 +12,11 @@
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_StepData_SelectMember.hxx>
+#include <DataExchange/StepData/Handle_StepData_SelectMember.hxx>
 class Standard_Transient;
 class StepData_SelectMember;
 

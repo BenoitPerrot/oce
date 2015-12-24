@@ -15,7 +15,7 @@
 #include <Foundation/Standard/Standard_Character.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class Standard_OutOfRange;
 class TCollection_AsciiString;
 class TCollection_HAsciiString;

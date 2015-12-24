@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_Plane.hxx>
+#include <Geometry/Geom/Handle_Geom_Plane.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Plane;
 class BRepBuilderAPI_Command;

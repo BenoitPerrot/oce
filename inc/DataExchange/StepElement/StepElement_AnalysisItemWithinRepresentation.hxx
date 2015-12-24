@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_AnalysisItemWithinRepresentation.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepRepr_RepresentationItem.hxx>
-#include <Handle_StepRepr_Representation.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_RepresentationItem.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_Representation.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepRepr_RepresentationItem;

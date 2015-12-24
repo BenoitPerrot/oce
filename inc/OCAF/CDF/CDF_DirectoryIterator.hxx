@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <OCAF/CDM/CDM_ListIteratorOfListOfDocument.hxx>
-#include <Handle_CDF_Directory.hxx>
+#include <OCAF/CDF/Handle_CDF_Directory.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 class Standard_NoSuchObject;
 class CDF_Directory;
 class CDM_Document;

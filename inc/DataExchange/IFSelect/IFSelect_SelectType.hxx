@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectType.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectType.hxx>
 
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectAnyType.hxx>
 class Standard_Type;
 class TCollection_AsciiString;

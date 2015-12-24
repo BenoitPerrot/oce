@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_V3d_BadValue.hxx>
+#include <Visualization/V3d/Handle_V3d_BadValue.hxx>
 
 #if !defined No_Exception && !defined No_V3d_BadValue
   #define V3d_BadValue_Raise_if(CONDITION, MESSAGE) \

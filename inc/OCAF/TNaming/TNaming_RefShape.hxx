@@ -12,7 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <OCAF/TNaming/TNaming_PtrNode.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 class TopoDS_Shape;
 class TDF_Label;
 class TNaming_NamedShape;

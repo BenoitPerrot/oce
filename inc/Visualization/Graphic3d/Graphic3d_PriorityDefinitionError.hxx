@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_Graphic3d_PriorityDefinitionError.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_PriorityDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Graphic3d_PriorityDefinitionError
   #define Graphic3d_PriorityDefinitionError_Raise_if(CONDITION, MESSAGE) \

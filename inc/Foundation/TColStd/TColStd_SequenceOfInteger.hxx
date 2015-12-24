@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_SequenceNodeOfSequenceOfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_SequenceNodeOfSequenceOfInteger.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;
 class TColStd_SequenceNodeOfSequenceOfInteger;

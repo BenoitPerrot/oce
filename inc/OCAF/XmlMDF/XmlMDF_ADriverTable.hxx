@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlMDF_ADriverTable.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriverTable.hxx>
 
 #include <OCAF/XmlMDF/XmlMDF_TypeADriverMap.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_XmlMDF_ADriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriver.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class XmlMDF_ADriver;
 class XmlMDF_TypeADriverMap;
 class Standard_Type;

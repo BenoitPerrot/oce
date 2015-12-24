@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PBRep_PointRepresentation_HeaderFile
-#include <Handle_PBRep_PointRepresentation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_PointRepresentation.hxx>
 #endif
 
 #ifndef _ShapeSchema_Standard_Persistent_HeaderFile

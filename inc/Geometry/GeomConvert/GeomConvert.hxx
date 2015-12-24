@@ -10,16 +10,16 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
-#include <Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Mathematics/Convert/Convert_ParameterisationType.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_TColGeom_HArray1OfBSplineCurve.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/TColGeom/Handle_TColGeom_HArray1OfBSplineCurve.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 class Geom_BSplineCurve;
 class Geom_BSplineSurface;
 class Geom_Curve;

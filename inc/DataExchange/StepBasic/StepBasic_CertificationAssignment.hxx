@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_CertificationAssignment.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_CertificationAssignment.hxx>
 
-#include <Handle_StepBasic_Certification.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Certification.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_Certification;
 

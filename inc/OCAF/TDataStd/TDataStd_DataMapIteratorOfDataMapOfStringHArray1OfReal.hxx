@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_DataMapNodeOfDataMapOfStringHArray1OfReal.hxx>
 class Standard_NoSuchObject;
 class TCollection_ExtendedString;
 class TColStd_HArray1OfReal;

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_SiUnitAndVolumeUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_SiUnitAndVolumeUnit.hxx>
 
-#include <Handle_StepBasic_VolumeUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_VolumeUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_SiUnit.hxx>
-#include <Handle_StepBasic_DimensionalExponents.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DimensionalExponents.hxx>
 class StepBasic_VolumeUnit;
 class StepBasic_DimensionalExponents;
 

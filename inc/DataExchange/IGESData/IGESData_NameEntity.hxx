@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_NameEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_NameEntity.hxx>
 
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class TCollection_HAsciiString;
 
 

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_HLRAlgo_WiresBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_WiresBlock.hxx>
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>

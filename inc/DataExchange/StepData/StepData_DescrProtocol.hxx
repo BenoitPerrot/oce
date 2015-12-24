@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_DescrProtocol.hxx>
+#include <DataExchange/StepData/Handle_StepData_DescrProtocol.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/StepData/StepData_FileProtocol.hxx>

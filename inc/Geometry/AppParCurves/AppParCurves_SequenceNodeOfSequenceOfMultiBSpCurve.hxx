@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
+#include <Geometry/AppParCurves/Handle_AppParCurves_SequenceNodeOfSequenceOfMultiBSpCurve.hxx>
 
 #include <Geometry/AppParCurves/AppParCurves_MultiBSpCurve.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

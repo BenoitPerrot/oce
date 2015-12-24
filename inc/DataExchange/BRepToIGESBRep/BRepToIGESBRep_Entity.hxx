@@ -12,16 +12,16 @@
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/TColStd/TColStd_IndexedMapOfTransient.hxx>
-#include <Handle_IGESSolid_EdgeList.hxx>
-#include <Handle_IGESSolid_VertexList.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_EdgeList.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_VertexList.hxx>
 #include <DataExchange/BRepToIGES/BRepToIGES_BREntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_IGESSolid_Loop.hxx>
-#include <Handle_IGESSolid_Face.hxx>
-#include <Handle_IGESSolid_Shell.hxx>
-#include <Handle_IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Loop.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Face.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_ManifoldSolid.hxx>
 class IGESSolid_EdgeList;
 class IGESSolid_VertexList;
 class TopoDS_Vertex;

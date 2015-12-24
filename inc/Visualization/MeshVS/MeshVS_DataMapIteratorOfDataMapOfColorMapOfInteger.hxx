@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfColorMapOfInteger.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfColorMapOfInteger.hxx>
 class Standard_NoSuchObject;
 class Quantity_Color;
 class TColStd_MapOfInteger;

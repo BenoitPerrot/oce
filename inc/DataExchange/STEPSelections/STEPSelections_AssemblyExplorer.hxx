@@ -14,11 +14,11 @@
 #include <DataExchange/Interface/Interface_Graph.hxx>
 #include <Foundation/TColStd/TColStd_IndexedDataMapOfTransientTransient.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_StepShape_ShapeDefinitionRepresentation.hxx>
-#include <Handle_StepBasic_ProductDefinition.hxx>
-#include <Handle_STEPSelections_AssemblyComponent.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDefinitionRepresentation.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ProductDefinition.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_AssemblyComponent.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_NextAssemblyUsageOccurrence.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Interface_Graph;
 class StepShape_ShapeDefinitionRepresentation;

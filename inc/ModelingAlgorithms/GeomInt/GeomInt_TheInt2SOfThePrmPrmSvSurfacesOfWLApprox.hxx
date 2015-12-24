@@ -16,7 +16,7 @@
 #include <Mathematics/Primitives/gp_Dir2d.hxx>
 #include <ModelingAlgorithms/GeomInt/GeomInt_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfWLApprox.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
 #include <ModelingAlgorithms/IntImp/IntImp_ConstIsoparametric.hxx>
 class StdFail_NotDone;
 class Standard_DomainError;

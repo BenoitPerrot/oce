@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_SurfaceStyleFillArea.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_SurfaceStyleFillArea.hxx>
 
-#include <Handle_StepVisual_FillAreaStyle.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_FillAreaStyle.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepVisual_FillAreaStyle;
 

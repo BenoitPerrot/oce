@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Aspect_CircularGrid.hxx>
+#include <Visualization/Aspect/Handle_Aspect_CircularGrid.hxx>
 
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>

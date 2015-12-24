@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Handle_Units_QuantitiesSequence.hxx>
 
 #include <Foundation/Units/Units_QtsSequence.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Units_Quantity.hxx>
+#include <Foundation/Units/Handle_Units_Quantity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

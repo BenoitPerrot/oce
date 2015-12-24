@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_TopBas_ListNodeOfListOfTestInterference.hxx>
+#include <ModelingAlgorithms/TopBas/Handle_TopBas_ListNodeOfListOfTestInterference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoMoreObject;
 class Standard_NoSuchObject;

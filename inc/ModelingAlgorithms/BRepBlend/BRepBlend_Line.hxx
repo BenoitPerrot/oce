@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_Line.hxx>
 
 #include <ModelingAlgorithms/Blend/Blend_SequenceOfPoint.hxx>
 #include <ModelingAlgorithms/IntSurf/IntSurf_TypeTrans.hxx>

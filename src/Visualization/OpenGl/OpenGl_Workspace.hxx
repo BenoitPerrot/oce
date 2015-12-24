@@ -29,7 +29,7 @@
 #include <Visualization/Graphic3d/Graphic3d_TypeOfTexture.hxx>
 #include <Visualization/Graphic3d/Graphic3d_PtrFrameBuffer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_BufferType.hxx>
-#include <Handle_Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_TextureParams.hxx>
 
 #include <Visualization/Aspect/Aspect_CLayer2d.hxx>
 #include <Visualization/Aspect/Aspect_Handle.hxx>

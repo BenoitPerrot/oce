@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDataStd_HArray1OfByte.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_HArray1OfByte.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
 #include <OCAF/PDataStd/PDataStd_FieldOfHArray1OfByte.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_VArrayNodeOfFieldOfHArray1OfByte.hxx>
 class Standard_OutOfRange;
 class Standard_RangeError;
 class PDataStd_FieldOfHArray1OfByte;

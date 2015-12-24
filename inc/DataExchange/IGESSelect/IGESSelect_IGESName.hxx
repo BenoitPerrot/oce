@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_IGESName.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_IGESName.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_Signature.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
 class Standard_Transient;
 class Interface_InterfaceModel;
 

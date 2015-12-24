@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepSelect_FileModifier.hxx>
+#include <DataExchange/StepSelect/Handle_StepSelect_FileModifier.hxx>
 
 #include <DataExchange/IFSelect/IFSelect_GeneralModifier.hxx>
 class StepData_StepWriter;

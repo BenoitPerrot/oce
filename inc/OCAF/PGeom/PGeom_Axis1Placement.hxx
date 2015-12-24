@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom_Axis1Placement.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Axis1Placement.hxx>
 
 #include <OCAF/PGeom/PGeom_AxisPlacement.hxx>
 class gp_Ax1;

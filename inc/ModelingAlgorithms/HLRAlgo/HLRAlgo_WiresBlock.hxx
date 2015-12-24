@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_WiresBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_WiresBlock.hxx>
 
 #include <Foundation/TColStd/TColStd_Array1OfTransient.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_HLRAlgo_EdgesBlock.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_EdgesBlock.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class HLRAlgo_EdgesBlock;
 

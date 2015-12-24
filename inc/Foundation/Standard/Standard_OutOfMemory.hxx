@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_ProgramError.hxx>
-#include <Handle_Standard_OutOfMemory.hxx>
+#include <Foundation/Standard/Handle_Standard_OutOfMemory.hxx>
 
 #if !defined No_Exception && !defined No_Standard_OutOfMemory
   #define Standard_OutOfMemory_Raise_if(CONDITION, MESSAGE) \

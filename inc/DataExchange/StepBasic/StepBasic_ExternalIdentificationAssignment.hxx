@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ExternalIdentificationAssignment.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ExternalIdentificationAssignment.hxx>
 
-#include <Handle_StepBasic_ExternalSource.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ExternalSource.hxx>
 #include <DataExchange/StepBasic/StepBasic_IdentificationAssignment.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_IdentificationRole.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_IdentificationRole.hxx>
 class StepBasic_ExternalSource;
 class TCollection_HAsciiString;
 class StepBasic_IdentificationRole;

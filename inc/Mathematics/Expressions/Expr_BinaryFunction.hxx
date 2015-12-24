@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_BinaryFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_BinaryFunction.hxx>
 
-#include <Handle_Expr_GeneralFunction.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralFunction.hxx>
 #include <Mathematics/Expressions/Expr_BinaryExpression.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Expr_NamedUnknown.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedUnknown.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Expr_GeneralFunction;
 class Expr_InvalidFunction;

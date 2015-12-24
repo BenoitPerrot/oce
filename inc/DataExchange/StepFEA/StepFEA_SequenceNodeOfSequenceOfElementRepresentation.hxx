@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepFEA_SequenceNodeOfSequenceOfElementRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_SequenceNodeOfSequenceOfElementRepresentation.hxx>
 
-#include <Handle_StepFEA_ElementRepresentation.hxx>
+#include <DataExchange/StepFEA/Handle_StepFEA_ElementRepresentation.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class StepFEA_ElementRepresentation;

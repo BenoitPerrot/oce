@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PNaming_Naming_1_HeaderFile
-#include <Handle_PNaming_Naming_1.hxx>
+#include <OCAF/PNaming/Handle_PNaming_Naming_1.hxx>
 #endif
 
 #ifndef _StdSchema_PDF_Attribute_HeaderFile

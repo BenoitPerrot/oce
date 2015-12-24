@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_CameraModelD3.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CameraModelD3.hxx>
 
-#include <Handle_StepGeom_Axis2Placement3d.hxx>
-#include <Handle_StepVisual_ViewVolume.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Axis2Placement3d.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_ViewVolume.hxx>
 #include <DataExchange/StepVisual/StepVisual_CameraModel.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepGeom_Axis2Placement3d;
 class StepVisual_ViewVolume;
 class TCollection_HAsciiString;

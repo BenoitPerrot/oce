@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_HArray1OfCurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfCurveStyleFontPattern.hxx>
 
 #include <DataExchange/StepVisual/StepVisual_Array1OfCurveStyleFontPattern.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepVisual_CurveStyleFontPattern.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CurveStyleFontPattern.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_DimensionMismatch;

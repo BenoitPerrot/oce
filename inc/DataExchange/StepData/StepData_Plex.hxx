@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepData_Plex.hxx>
+#include <DataExchange/StepData/Handle_StepData_Plex.hxx>
 
 #include <Foundation/TColStd/TColStd_SequenceOfTransient.hxx>
 #include <DataExchange/StepData/StepData_Described.hxx>
-#include <Handle_StepData_ECDescr.hxx>
-#include <Handle_StepData_Simple.hxx>
+#include <DataExchange/StepData/Handle_StepData_ECDescr.hxx>
+#include <DataExchange/StepData/Handle_StepData_Simple.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TColStd_HSequenceOfAsciiString.hxx>
-#include <Handle_Interface_Check.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_Check.hxx>
 class Interface_InterfaceMismatch;
 class StepData_ECDescr;
 class StepData_Simple;

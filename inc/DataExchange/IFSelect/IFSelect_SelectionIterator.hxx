@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IFSelect_HSeqOfSelection.hxx>
-#include <Handle_IFSelect_Selection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_HSeqOfSelection.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Selection.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IFSelect_HSeqOfSelection;
 class Standard_NoSuchObject;

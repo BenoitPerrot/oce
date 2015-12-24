@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_LocalTime.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_LocalTime.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_StepBasic_CoordinatedUniversalTimeOffset.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_CoordinatedUniversalTimeOffset.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepBasic_CoordinatedUniversalTimeOffset;

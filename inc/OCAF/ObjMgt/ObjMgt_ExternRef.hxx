@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_ObjMgt_ExternRef.hxx>
+#include <OCAF/ObjMgt/Handle_ObjMgt_ExternRef.hxx>
 
-#include <Handle_PCollection_HAsciiString.hxx>
+#include <OCAF/PCollection/Handle_PCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
 class PCollection_HAsciiString;

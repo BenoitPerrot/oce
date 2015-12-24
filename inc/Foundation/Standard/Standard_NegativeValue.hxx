@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_RangeError.hxx>
-#include <Handle_Standard_NegativeValue.hxx>
+#include <Foundation/Standard/Handle_Standard_NegativeValue.hxx>
 
 #if !defined No_Exception && !defined No_Standard_NegativeValue
   #define Standard_NegativeValue_Raise_if(CONDITION, MESSAGE) \

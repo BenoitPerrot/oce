@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_SequenceNodeOfSequenceOfConnexion.hxx>
 
-#include <Handle_MAT2d_Connexion.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_Connexion.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class MAT2d_Connexion;

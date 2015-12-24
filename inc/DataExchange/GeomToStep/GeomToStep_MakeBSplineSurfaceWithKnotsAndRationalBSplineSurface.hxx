@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 class StepGeom_BSplineSurfaceWithKnotsAndRationalBSplineSurface;
 class StdFail_NotDone;
 class Geom_BSplineSurface;

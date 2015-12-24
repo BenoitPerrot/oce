@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Prs3d_Presentation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_Presentation.hxx>
 
 #include <Visualization/Graphic3d/Graphic3d_Structure.hxx>
-#include <Handle_Graphic3d_StructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_StructureManager.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Graphic3d_Structure.hxx>
-#include <Handle_Graphic3d_DataStructureManager.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Structure.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_DataStructureManager.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Handle_Prs3d_ShadingAspect.hxx>
-#include <Handle_Geom_Transformation.hxx>
+#include <Visualization/Prs3d/Handle_Prs3d_ShadingAspect.hxx>
+#include <Geometry/Geom/Handle_Geom_Transformation.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
-#include <Handle_Graphic3d_Group.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_Group.hxx>
 class Prs3d_Root;
 class Graphic3d_StructureManager;
 class Graphic3d_Structure;

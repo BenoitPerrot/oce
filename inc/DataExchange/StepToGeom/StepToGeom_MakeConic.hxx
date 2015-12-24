@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Conic.hxx>
-#include <Handle_Geom_Conic.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Conic.hxx>
+#include <Geometry/Geom/Handle_Geom_Conic.hxx>
 class StepGeom_Conic;
 class Geom_Conic;
 

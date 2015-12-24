@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_VrmlConverter_Drawer.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_Drawer.hxx>
 
-#include <Handle_VrmlConverter_IsoAspect.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_IsoAspect.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_VrmlConverter_LineAspect.hxx>
-#include <Handle_VrmlConverter_ShadingAspect.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_LineAspect.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_ShadingAspect.hxx>
 #include <Foundation/Quantity/Quantity_Length.hxx>
 #include <Visualization/Aspect/Aspect_TypeOfDeflection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_VrmlConverter_PointAspect.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_PointAspect.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class VrmlConverter_IsoAspect;
 class VrmlConverter_LineAspect;

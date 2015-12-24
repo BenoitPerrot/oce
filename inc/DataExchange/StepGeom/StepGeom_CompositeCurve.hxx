@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_CompositeCurve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CompositeCurve.hxx>
 
-#include <Handle_StepGeom_HArray1OfCompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray1OfCompositeCurveSegment.hxx>
 #include <DataExchange/StepData/StepData_Logical.hxx>
 #include <DataExchange/StepGeom/StepGeom_BoundedCurve.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepGeom_CompositeCurveSegment.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CompositeCurveSegment.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepGeom_HArray1OfCompositeCurveSegment;
 class TCollection_HAsciiString;

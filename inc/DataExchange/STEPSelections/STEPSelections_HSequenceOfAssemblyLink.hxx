@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPSelections_HSequenceOfAssemblyLink.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_HSequenceOfAssemblyLink.hxx>
 
 #include <DataExchange/STEPSelections/STEPSelections_SequenceOfAssemblyLink.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_STEPSelections_AssemblyLink.hxx>
+#include <DataExchange/STEPSelections/Handle_STEPSelections_AssemblyLink.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

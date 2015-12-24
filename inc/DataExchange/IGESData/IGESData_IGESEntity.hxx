@@ -8,27 +8,27 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_DefSwitch.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Character.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/Interface/Interface_EntityList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/IGESData/IGESData_DefType.hxx>
-#include <Handle_IGESData_LineFontEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_LineFontEntity.hxx>
 #include <DataExchange/IGESData/IGESData_DefList.hxx>
-#include <Handle_IGESData_LevelListEntity.hxx>
-#include <Handle_IGESData_ViewKindEntity.hxx>
-#include <Handle_IGESData_TransfEntity.hxx>
-#include <Handle_IGESData_LabelDisplayEntity.hxx>
-#include <Handle_IGESData_ColorEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_LevelListEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_TransfEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_LabelDisplayEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ColorEntity.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 class TCollection_HAsciiString;
 class Interface_InterfaceError;
 class IGESData_ReadWriteModule;

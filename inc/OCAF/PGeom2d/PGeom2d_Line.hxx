@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PGeom2d_Line.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Line.hxx>
 
 #include <Mathematics/Primitives/gp_Ax2d.hxx>
 #include <OCAF/PGeom2d/PGeom2d_Curve.hxx>

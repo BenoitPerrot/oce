@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PTopLoc_Datum3D_HeaderFile
-#include <Handle_PTopLoc_Datum3D.hxx>
+#include <OCAF/PTopLoc/Handle_PTopLoc_Datum3D.hxx>
 #endif
 
 #ifndef _StdSchema_Standard_Persistent_HeaderFile

@@ -14,9 +14,9 @@
 #include <Mathematics/BoundingVolumes/Bnd_BoundSortBox.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfInteger.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_TopOpeBRepTool_HBoxTool.hxx>
-#include <Handle_Bnd_HArray1OfBox.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <ModelingAlgorithms/TopOpeBRepTool/Handle_TopOpeBRepTool_HBoxTool.hxx>
+#include <Mathematics/BoundingVolumes/Handle_Bnd_HArray1OfBox.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopOpeBRepTool_HBoxTool;

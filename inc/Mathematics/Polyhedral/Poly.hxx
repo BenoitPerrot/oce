@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Poly_Triangulation.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 #include <Mathematics/Polyhedral/Poly_ListOfTriangulation.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Poly_Polygon3D.hxx>
-#include <Handle_Poly_Polygon2D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon3D.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Polygon2D.hxx>
 #include <Foundation/Standard/Standard_IStream.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Poly_Triangulation;

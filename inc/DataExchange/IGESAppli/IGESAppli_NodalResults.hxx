@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_NodalResults.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_NodalResults.hxx>
 
-#include <Handle_IGESDimen_GeneralNote.hxx>
+#include <DataExchange/IGESDimen/Handle_IGESDimen_GeneralNote.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_IGESAppli_HArray1OfNode.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_HArray1OfNode.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_Node.hxx>
 class IGESDimen_GeneralNote;
 class TColStd_HArray1OfInteger;
 class IGESAppli_HArray1OfNode;

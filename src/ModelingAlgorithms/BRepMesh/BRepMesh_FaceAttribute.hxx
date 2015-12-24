@@ -21,7 +21,7 @@
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_Status.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh.hxx>
 #include <ModelingAlgorithms/BRepMesh/BRepMesh_DataStructureOfDelaun.hxx>
-#include <Handle_BRepAdaptor_HSurface.hxx>
+#include <ModelingData/BRepAdaptor/Handle_BRepAdaptor_HSurface.hxx>
 
 class BRepAdaptor_HSurface;
 

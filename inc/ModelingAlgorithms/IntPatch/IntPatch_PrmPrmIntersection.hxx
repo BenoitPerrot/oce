@@ -12,12 +12,12 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfLine.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IntPatch_Line.hxx>
-#include <Handle_IntSurf_LineOn2S.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_LineOn2S.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_Polyhedron.hxx>
 class Standard_OutOfRange;
 class StdFail_NotDone;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_RegionRestriction.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_RegionRestriction.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>

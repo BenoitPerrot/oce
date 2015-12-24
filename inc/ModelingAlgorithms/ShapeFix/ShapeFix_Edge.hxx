@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_Edge.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Edge.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_ShapeConstruct_ProjectCurveOnSurface.hxx>
+#include <ModelingAlgorithms/ShapeConstruct/Handle_ShapeConstruct_ProjectCurveOnSurface.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_ShapeAnalysis_Surface.hxx>
+#include <ModelingAlgorithms/ShapeAnalysis/Handle_ShapeAnalysis_Surface.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
 class ShapeConstruct_ProjectCurveOnSurface;
 class TopoDS_Edge;

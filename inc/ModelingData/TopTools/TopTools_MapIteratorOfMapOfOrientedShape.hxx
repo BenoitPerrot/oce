@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_TopTools_StdMapNodeOfMapOfOrientedShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_StdMapNodeOfMapOfOrientedShape.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopTools_OrientedShapeMapHasher;

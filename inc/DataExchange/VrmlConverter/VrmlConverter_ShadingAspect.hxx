@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_VrmlConverter_ShadingAspect.hxx>
+#include <DataExchange/VrmlConverter/Handle_VrmlConverter_ShadingAspect.hxx>
 
-#include <Handle_Vrml_Material.hxx>
+#include <DataExchange/Vrml/Handle_Vrml_Material.hxx>
 #include <DataExchange/Vrml/Vrml_ShapeHints.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>

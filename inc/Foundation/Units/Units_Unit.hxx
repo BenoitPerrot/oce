@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Units_Unit.hxx>
+#include <Foundation/Units/Handle_Units_Unit.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_TColStd_HSequenceOfHAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfHAsciiString.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_Units_Quantity.hxx>
+#include <Foundation/Units/Handle_Units_Quantity.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_Units_Token.hxx>
+#include <Foundation/Units/Handle_Units_Token.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TCollection_HAsciiString;

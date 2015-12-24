@@ -10,17 +10,17 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Interface_CopyControl.hxx>
-#include <Handle_Interface_CopyMap.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Interface/Handle_Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Handle_Interface_CopyMap.hxx>
 #include <DataExchange/Interface/Interface_BitMap.hxx>
 #include <DataExchange/Interface/Interface_GeneralLib.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Interface_GeneralModule.hxx>
-#include <Handle_Interface_Protocol.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_GeneralModule.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
 class Interface_InterfaceModel;
 class Interface_CopyControl;
 class Interface_CopyMap;

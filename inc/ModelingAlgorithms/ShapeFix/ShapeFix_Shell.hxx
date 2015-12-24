@@ -8,17 +8,17 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeFix_Shell.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Shell.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_ShapeFix_Face.hxx>
+#include <ModelingAlgorithms/ShapeFix/Handle_ShapeFix_Face.hxx>
 #include <ModelingAlgorithms/ShapeFix/ShapeFix_Root.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Message_ProgressIndicator.hxx>
+#include <Foundation/Message/Handle_Message_ProgressIndicator.hxx>
 #include <ModelingAlgorithms/ShapeExtend/ShapeExtend_Status.hxx>
-#include <Handle_ShapeExtend_BasicMsgRegistrator.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_BasicMsgRegistrator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class ShapeFix_Face;
 class TopoDS_Shell;

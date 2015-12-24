@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_Spine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_Spine.hxx>
 
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_State.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfHElSpine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -22,7 +22,7 @@
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_ChFiDS_HElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_HElSpine.hxx>
 #include <GeomAbs_CurveType.hxx>
 class TColStd_HArray1OfReal;
 class TopoDS_Edge;

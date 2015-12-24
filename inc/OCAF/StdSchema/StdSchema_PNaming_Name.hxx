@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PNaming_Name_HeaderFile
-#include <Handle_PNaming_Name.hxx>
+#include <OCAF/PNaming/Handle_PNaming_Name.hxx>
 #endif
 
 #ifndef _StdSchema_Standard_Persistent_HeaderFile

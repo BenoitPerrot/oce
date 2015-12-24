@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Units_TokensSequence.hxx>
-#include <Handle_Units_Lexicon.hxx>
+#include <Foundation/Units/Handle_Units_TokensSequence.hxx>
+#include <Foundation/Units/Handle_Units_Lexicon.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Units_Token.hxx>
+#include <Foundation/Units/Handle_Units_Token.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Units_TokensSequence;
 class Units_Lexicon;

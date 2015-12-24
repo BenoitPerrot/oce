@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_BRepTopAdaptor_TopolTool.hxx>
-#include <Handle_TopOpeBRep_DataMapNodeOfDataMapOfTopolTool.hxx>
+#include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_TopolTool.hxx>
+#include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_DataMapNodeOfDataMapOfTopolTool.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class BRepTopAdaptor_TopolTool;

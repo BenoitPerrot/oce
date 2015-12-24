@@ -9,11 +9,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_TEdge1.hxx>
+#include <OCAF/PBRep/Handle_PBRep_TEdge1.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_PBRep_CurveRepresentation.hxx>
+#include <OCAF/PBRep/Handle_PBRep_CurveRepresentation.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/PTopoDS/PTopoDS_TEdge1.hxx>
 class PBRep_CurveRepresentation;

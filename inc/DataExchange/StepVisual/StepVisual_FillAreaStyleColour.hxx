@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_FillAreaStyleColour.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_FillAreaStyleColour.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepVisual_Colour.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_Colour.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TCollection_HAsciiString;
 class StepVisual_Colour;

@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurfaceOfLinearExtrusion.hxx>
 
 #include <Geometry/Adaptor3d/Adaptor3d_SurfaceOfLinearExtrusion.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HSurface.hxx>

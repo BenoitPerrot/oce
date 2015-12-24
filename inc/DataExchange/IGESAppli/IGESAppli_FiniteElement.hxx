@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_FiniteElement.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_FiniteElement.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESAppli_HArray1OfNode.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_HArray1OfNode.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
-#include <Handle_IGESAppli_Node.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_Node.hxx>
 class IGESAppli_HArray1OfNode;
 class TCollection_HAsciiString;
 class Standard_OutOfRange;

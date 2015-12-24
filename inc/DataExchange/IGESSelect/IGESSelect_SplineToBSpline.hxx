@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSelect_SplineToBSpline.hxx>
+#include <DataExchange/IGESSelect/Handle_IGESSelect_SplineToBSpline.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Interface_CopyControl.hxx>
+#include <DataExchange/Interface/Handle_Interface_CopyControl.hxx>
 #include <DataExchange/IFSelect/IFSelect_Transformer.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class Interface_CopyControl;
 class Interface_Graph;
 class Interface_Protocol;

@@ -8,23 +8,23 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataStd_NamedData.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_NamedData.hxx>
 
-#include <Handle_TDataStd_HDataMapOfStringInteger.hxx>
-#include <Handle_TDataStd_HDataMapOfStringReal.hxx>
-#include <Handle_TDataStd_HDataMapOfStringString.hxx>
-#include <Handle_TDataStd_HDataMapOfStringByte.hxx>
-#include <Handle_TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
-#include <Handle_TDataStd_HDataMapOfStringHArray1OfReal.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HDataMapOfStringInteger.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HDataMapOfStringReal.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HDataMapOfStringString.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HDataMapOfStringByte.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HDataMapOfStringHArray1OfInteger.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_HDataMapOfStringHArray1OfReal.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Byte.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TDataStd_HDataMapOfStringInteger;
 class TDataStd_HDataMapOfStringReal;

@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BaseSequence.hxx>
-#include <Handle_Geom2d_BoundedCurve.hxx>
-#include <Handle_TColGeom2d_SequenceNodeOfSequenceOfBoundedCurve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_BoundedCurve.hxx>
+#include <Geometry/TColGeom2d/Handle_TColGeom2d_SequenceNodeOfSequenceOfBoundedCurve.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class Standard_OutOfRange;

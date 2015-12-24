@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_ManifoldSolid.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_ManifoldSolid.hxx>
 
-#include <Handle_IGESSolid_Shell.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_Shell.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESSolid_HArray1OfShell.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_HArray1OfShell.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESSolid_Shell;

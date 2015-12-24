@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PDF_Attribute.hxx>
-#include <Handle_PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
+#include <OCAF/PDF/Handle_PDF_Attribute.hxx>
+#include <OCAF/PDF/Handle_PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PDF_Attribute;
 class PDF_FieldOfHAttributeArray1;

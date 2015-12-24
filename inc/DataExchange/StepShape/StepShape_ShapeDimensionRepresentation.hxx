@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_ShapeDimensionRepresentation.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_ShapeDimensionRepresentation.hxx>
 
 #include <DataExchange/StepShape/StepShape_ShapeRepresentation.hxx>
 

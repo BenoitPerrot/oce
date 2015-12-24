@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
-#include <Handle_TopTools_HSequenceOfShape.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class XSControl_WorkSession;

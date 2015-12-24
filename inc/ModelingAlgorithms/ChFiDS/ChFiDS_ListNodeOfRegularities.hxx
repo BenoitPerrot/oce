@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_ListNodeOfRegularities.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_ListNodeOfRegularities.hxx>
 
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_Regul.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

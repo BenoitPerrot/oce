@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PShort_SeqNodeOfHSequenceOfShortReal.hxx>
+#include <OCAF/PShort/Handle_PShort_SeqNodeOfHSequenceOfShortReal.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PShort_HSequenceOfShortReal.hxx>
+#include <OCAF/PShort/Handle_PShort_HSequenceOfShortReal.hxx>
 #include <Foundation/Standard/Standard_ShortReal.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class PShort_SeqNodeOfHSequenceOfShortReal;

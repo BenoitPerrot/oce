@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Expr_NamedExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_NamedExpression.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Mathematics/Expressions/Expr_GeneralExpression.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Expr_GeneralExpression.hxx>
+#include <Mathematics/Expressions/Handle_Expr_GeneralExpression.hxx>
 class TCollection_AsciiString;
 class Expr_GeneralExpression;
 

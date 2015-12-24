@@ -15,7 +15,7 @@
 #include <Foundation/TColStd/TColStd_Array1OfInteger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/Geom2dHatch/Geom2dHatch_Hatcher.hxx>
-#include <Handle_DBRep_Face.hxx>
+#include <Viewer/DBRep/Handle_DBRep_Face.hxx>
 class TopoDS_Face;
 class DBRep_Face;
 

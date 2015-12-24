@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESSolid_BooleanTree.hxx>
+#include <DataExchange/IGESSolid/Handle_IGESSolid_BooleanTree.hxx>
 
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 class IGESData_HArray1OfIGESEntity;
 class TColStd_HArray1OfInteger;
 class Standard_OutOfRange;

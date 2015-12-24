@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PTopoDS_HShape.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_HShape.hxx>
 #include <OCAF/MgtBRep/MgtBRep_TriangleMode.hxx>
 class PTopoDS_HShape;
 class TopoDS_Shape;

@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
 
-#include <Handle_Dico_DictionaryOfInteger.hxx>
-#include <Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_DictionaryOfInteger.hxx>
+#include <Foundation/Dico/Handle_Dico_StackItemOfDictionaryOfInteger.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Dico_DictionaryOfInteger;

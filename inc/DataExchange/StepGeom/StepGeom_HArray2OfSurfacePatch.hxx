@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_HArray2OfSurfacePatch.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_HArray2OfSurfacePatch.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_Array2OfSurfacePatch.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepGeom_SurfacePatch.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SurfacePatch.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_RangeError;
 class Standard_OutOfRange;

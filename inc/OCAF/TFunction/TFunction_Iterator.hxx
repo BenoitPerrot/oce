@@ -13,7 +13,7 @@
 #include <OCAF/TDF/TDF_LabelList.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TDF/TDF_LabelMap.hxx>
-#include <Handle_TFunction_Scope.hxx>
+#include <OCAF/TFunction/Handle_TFunction_Scope.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TFunction/TFunction_ExecutionStatus.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>

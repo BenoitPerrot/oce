@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_DataMapNodeOfDataMapOfIntegerNode.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MAT_Node.hxx>
+#include <ModelingAlgorithms/MAT/Handle_MAT_Node.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class MAT_Node;

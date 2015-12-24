@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_SimpleBinderOfTransient.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_SimpleBinderOfTransient.hxx>
 
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <DataExchange/Transfer/Transfer_Binder.hxx>
-#include <Handle_Standard_Type.hxx>
+#include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Transfer_Binder.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_Binder.hxx>
 class Standard_Transient;
 class Transfer_TransferFailure;
 class Standard_Type;

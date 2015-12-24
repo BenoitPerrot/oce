@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDocStd_XLink_HeaderFile
-#include <Handle_PDocStd_XLink.hxx>
+#include <OCAF/PDocStd/Handle_PDocStd_XLink.hxx>
 #endif
 
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile

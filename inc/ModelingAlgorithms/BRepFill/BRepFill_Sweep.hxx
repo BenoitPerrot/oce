@@ -16,9 +16,9 @@
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_BRepFill_LocationLaw.hxx>
-#include <Handle_BRepFill_SectionLaw.hxx>
-#include <Handle_TopTools_HArray2OfShape.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_LocationLaw.hxx>
+#include <ModelingAlgorithms/BRepFill/Handle_BRepFill_SectionLaw.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>

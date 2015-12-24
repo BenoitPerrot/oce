@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_DataMapNodeOfLabelIDMapDataMap.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TDF/TDF_IDMap.hxx>

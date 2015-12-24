@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PDataStd_TreeNode_HeaderFile
-#include <Handle_PDataStd_TreeNode.hxx>
+#include <OCAF/PDataStd/Handle_PDataStd_TreeNode.hxx>
 #endif
 
 #ifndef _StdLSchema_PDF_Attribute_HeaderFile

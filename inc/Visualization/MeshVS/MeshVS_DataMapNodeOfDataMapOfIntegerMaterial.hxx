@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerMaterial.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Graphic3d/Graphic3d_MaterialAspect.hxx>

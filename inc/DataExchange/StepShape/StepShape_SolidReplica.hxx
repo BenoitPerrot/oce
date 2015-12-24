@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepShape_SolidReplica.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_SolidReplica.hxx>
 
-#include <Handle_StepShape_SolidModel.hxx>
-#include <Handle_StepGeom_CartesianTransformationOperator3d.hxx>
+#include <DataExchange/StepShape/Handle_StepShape_SolidModel.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CartesianTransformationOperator3d.hxx>
 #include <DataExchange/StepShape/StepShape_SolidModel.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class StepShape_SolidModel;
 class StepGeom_CartesianTransformationOperator3d;
 class TCollection_HAsciiString;

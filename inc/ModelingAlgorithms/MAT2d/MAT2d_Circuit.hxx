@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MAT2d_Circuit.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_Circuit.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/TColGeom2d/TColGeom2d_SequenceOfGeometry.hxx>
@@ -19,8 +19,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom2d_Geometry.hxx>
-#include <Handle_MAT2d_Connexion.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Geometry.hxx>
+#include <ModelingAlgorithms/MAT2d/Handle_MAT2d_Connexion.hxx>
 class MAT2d_SequenceOfSequenceOfGeometry;
 class TColStd_SequenceOfBoolean;
 class Geom2d_Geometry;

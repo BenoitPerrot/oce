@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Aspect_ColorScale.hxx>
+#include <Visualization/Aspect/Handle_Aspect_ColorScale.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

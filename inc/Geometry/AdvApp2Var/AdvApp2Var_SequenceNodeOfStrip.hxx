@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AdvApp2Var_SequenceNodeOfStrip.hxx>
+#include <Geometry/AdvApp2Var/Handle_AdvApp2Var_SequenceNodeOfStrip.hxx>
 
 #include <Geometry/AdvApp2Var/AdvApp2Var_Iso.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

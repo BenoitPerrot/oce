@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom2d_Circle_HeaderFile
-#include <Handle_PGeom2d_Circle.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Circle.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom2d_Conic_HeaderFile

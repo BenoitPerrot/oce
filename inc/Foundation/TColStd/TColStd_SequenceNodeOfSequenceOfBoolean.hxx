@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
+#include <Foundation/TColStd/Handle_TColStd_SequenceNodeOfSequenceOfBoolean.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

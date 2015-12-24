@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_Act.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Act.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ActFunc.hxx>
@@ -16,7 +16,7 @@
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SessionPilot.hxx>
 class Standard_DomainError;
 class IFSelect_SessionPilot;
 

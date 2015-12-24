@@ -9,14 +9,14 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PDF_HAttributeArray1.hxx>
+#include <OCAF/PDF/Handle_PDF_HAttributeArray1.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_PDF_Attribute.hxx>
+#include <OCAF/PDF/Handle_PDF_Attribute.hxx>
 #include <OCAF/PDF/PDF_FieldOfHAttributeArray1.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Persistent.hxx>
-#include <Handle_PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
+#include <OCAF/PDF/Handle_PDF_VArrayNodeOfFieldOfHAttributeArray1.hxx>
 class PDF_Attribute;
 class Standard_OutOfRange;
 class Standard_RangeError;

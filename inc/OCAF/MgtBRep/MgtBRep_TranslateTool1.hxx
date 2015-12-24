@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_MgtBRep_TranslateTool1.hxx>
+#include <OCAF/MgtBRep/Handle_MgtBRep_TranslateTool1.hxx>
 
 #include <OCAF/MgtBRep/MgtBRep_TriangleMode.hxx>
 #include <OCAF/MgtTopoDS/MgtTopoDS_TranslateTool1.hxx>
-#include <Handle_PGeom_Curve.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_PGeom2d_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_PGeom_Surface.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 class Standard_TypeMismatch;
 class PGeom_Curve;
 class Geom_Curve;

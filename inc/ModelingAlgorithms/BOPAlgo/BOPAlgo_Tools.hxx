@@ -17,7 +17,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_DataMapOfIntegerListOfPaveBlock.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PDS.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_BOPDS_PaveBlock.hxx>
+#include <ModelingAlgorithms/BOPDS/Handle_BOPDS_PaveBlock.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_IndexedDataMapOfPaveBlockListOfInteger.hxx>
 class BOPDS_PaveBlock;
 

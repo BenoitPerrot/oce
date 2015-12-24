@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPConstruct_DataMapNodeOfDataMapOfPointTransient.hxx>
+#include <DataExchange/STEPConstruct/Handle_STEPConstruct_DataMapNodeOfDataMapOfPointTransient.hxx>
 
 #include <Mathematics/Primitives/gp_Pnt.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Transient;

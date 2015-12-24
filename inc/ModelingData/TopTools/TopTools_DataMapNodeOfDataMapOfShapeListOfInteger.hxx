@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfInteger.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>

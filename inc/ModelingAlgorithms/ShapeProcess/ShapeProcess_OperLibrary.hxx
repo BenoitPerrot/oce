@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_ShapeProcess_ShapeContext.hxx>
-#include <Handle_BRepTools_Modification.hxx>
+#include <ModelingAlgorithms/ShapeProcess/Handle_ShapeProcess_ShapeContext.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_Modification.hxx>
 class TopoDS_Shape;
 class ShapeProcess_ShapeContext;
 class BRepTools_Modification;

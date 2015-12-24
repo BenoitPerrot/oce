@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_PointsOnSurface.hxx>
+#include <ModelingData/BRep/Handle_BRep_PointsOnSurface.hxx>
 
-#include <Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingData/BRep/BRep_PointRepresentation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class Geom_Surface;

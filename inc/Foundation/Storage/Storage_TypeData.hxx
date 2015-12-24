@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Storage_TypeData.hxx>
+#include <Foundation/Storage/Handle_Storage_TypeData.hxx>
 
 #include <Foundation/Storage/Storage_PType.hxx>
 #include <Foundation/Storage/Storage_Error.hxx>
@@ -16,7 +16,7 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfAsciiString.hxx>
 class Standard_NoSuchObject;
 class Storage_Schema;
 class TCollection_AsciiString;

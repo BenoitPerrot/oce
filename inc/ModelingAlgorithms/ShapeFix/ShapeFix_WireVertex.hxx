@@ -12,7 +12,7 @@
 
 #include <ModelingAlgorithms/ShapeAnalysis/ShapeAnalysis_WireVertex.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_ShapeExtend_WireData.hxx>
+#include <ModelingAlgorithms/ShapeExtend/Handle_ShapeExtend_WireData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Wire;
 class ShapeExtend_WireData;

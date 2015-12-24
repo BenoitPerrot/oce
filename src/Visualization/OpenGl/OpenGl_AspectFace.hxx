@@ -21,7 +21,7 @@
 #include <Visualization/Aspect/Aspect_PolygonOffsetMode.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
-#include <Handle_Graphic3d_TextureParams.hxx>
+#include <Visualization/Graphic3d/Handle_Graphic3d_TextureParams.hxx>
 #include <Handle_OpenGl_ShaderProgram.hxx>
 #include <Handle_OpenGl_Texture.hxx>
 #include <Visualization/OpenGl/OpenGl_AspectLine.hxx>

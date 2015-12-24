@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Units_QuantitiesSequence.hxx>
-#include <Handle_Units_UnitsSequence.hxx>
-#include <Handle_TColStd_HSequenceOfInteger.hxx>
-#include <Handle_Units_UnitsSystem.hxx>
-#include <Handle_Units_UnitsDictionary.hxx>
+#include <Foundation/Units/Handle_Units_QuantitiesSequence.hxx>
+#include <Foundation/Units/Handle_Units_UnitsSequence.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfInteger.hxx>
+#include <Foundation/Units/Handle_Units_UnitsSystem.hxx>
+#include <Foundation/Units/Handle_Units_UnitsDictionary.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Units_QuantitiesSequence;

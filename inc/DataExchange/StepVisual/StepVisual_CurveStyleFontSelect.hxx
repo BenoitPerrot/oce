@@ -12,10 +12,10 @@
 
 #include <DataExchange/StepData/StepData_SelectType.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_StepVisual_CurveStyleFont.hxx>
-#include <Handle_StepVisual_PreDefinedCurveFont.hxx>
-#include <Handle_StepVisual_ExternallyDefinedCurveFont.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_CurveStyleFont.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_PreDefinedCurveFont.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_ExternallyDefinedCurveFont.hxx>
 class Standard_Transient;
 class StepVisual_CurveStyleFont;
 class StepVisual_PreDefinedCurveFont;

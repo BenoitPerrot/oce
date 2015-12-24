@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_SelectMgr_ViewerSelector.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_ViewerSelector.hxx>
 
 #include <Visualization/SelectMgr/SelectMgr_DataMapOfIntegerSensitive.hxx>
 #include <Visualization/SelectMgr/SelectMgr_DataMapOfSelectionActivation.hxx>
@@ -18,16 +18,16 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/SelectMgr/SelectMgr_IndexedDataMapOfOwnerCriterion.hxx>
-#include <Handle_TColStd_HArray1OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfInteger.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_SelectMgr_Selection.hxx>
-#include <Handle_SelectMgr_SelectableObject.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_SelectableObject.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_StateOfSelection.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_SelectBasics_SensitiveEntity.hxx>
+#include <Visualization/SelectBasics/Handle_SelectBasics_SensitiveEntity.hxx>
 class TColStd_HArray1OfInteger;
 class SelectMgr_SelectionManager;
 class SelectMgr_Selection;

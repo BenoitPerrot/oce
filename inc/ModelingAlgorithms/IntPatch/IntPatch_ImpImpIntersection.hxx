@@ -14,11 +14,11 @@
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPoint.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfLine.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_TheSOnBounds.hxx>
-#include <Handle_Adaptor3d_HSurface.hxx>
-#include <Handle_Adaptor3d_TopolTool.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_HSurface.hxx>
+#include <Geometry/Adaptor3d/Handle_Adaptor3d_TopolTool.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IntPatch_Line.hxx>
+#include <ModelingAlgorithms/IntPatch/Handle_IntPatch_Line.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class Standard_DomainError;

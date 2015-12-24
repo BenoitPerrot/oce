@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
+#include <Visualization/MeshVS/Handle_MeshVS_DataMapNodeOfDataMapOfIntegerColor.hxx>
 class Standard_NoSuchObject;
 class Quantity_Color;
 class TColStd_MapIntegerHasher;

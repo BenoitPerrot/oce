@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_OutOfRange.hxx>
-#include <Handle_Aspect_IdentDefinitionError.hxx>
+#include <Visualization/Aspect/Handle_Aspect_IdentDefinitionError.hxx>
 
 #if !defined No_Exception && !defined No_Aspect_IdentDefinitionError
   #define Aspect_IdentDefinitionError_Raise_if(CONDITION, MESSAGE) \

@@ -15,11 +15,11 @@
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_ErrorTypeStatus.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusType.hxx>
-#include <Handle_Geom_TrimmedCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_TrimmedCurve.hxx>
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class TopoDS_Shape;

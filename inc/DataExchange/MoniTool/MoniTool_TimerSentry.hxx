@@ -10,7 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_MoniTool_Timer.hxx>
+#include <DataExchange/MoniTool/Handle_MoniTool_Timer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class MoniTool_Timer;
 

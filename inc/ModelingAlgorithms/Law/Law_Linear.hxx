@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Law_Linear.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Linear.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/Law/Law_Function.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 class Standard_OutOfRange;
 class TColStd_Array1OfReal;
 class Law_Function;

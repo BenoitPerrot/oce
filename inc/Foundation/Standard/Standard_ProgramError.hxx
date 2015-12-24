@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_Standard_ProgramError.hxx>
+#include <Foundation/Standard/Handle_Standard_ProgramError.hxx>
 
 #if !defined No_Exception && !defined No_Standard_ProgramError
   #define Standard_ProgramError_Raise_if(CONDITION, MESSAGE) \

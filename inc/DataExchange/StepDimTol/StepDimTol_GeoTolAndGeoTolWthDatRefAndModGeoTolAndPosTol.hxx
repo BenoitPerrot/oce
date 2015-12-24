@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx>
 
-#include <Handle_StepDimTol_GeometricToleranceWithDatumReference.hxx>
-#include <Handle_StepDimTol_ModifiedGeometricTolerance.hxx>
-#include <Handle_StepDimTol_PositionTolerance.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_GeometricToleranceWithDatumReference.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_ModifiedGeometricTolerance.hxx>
+#include <DataExchange/StepDimTol/Handle_StepDimTol_PositionTolerance.hxx>
 #include <DataExchange/StepDimTol/StepDimTol_GeometricTolerance.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepBasic_MeasureWithUnit.hxx>
-#include <Handle_StepRepr_ShapeAspect.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_MeasureWithUnit.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_ShapeAspect.hxx>
 class StepDimTol_GeometricToleranceWithDatumReference;
 class StepDimTol_ModifiedGeometricTolerance;
 class StepDimTol_PositionTolerance;

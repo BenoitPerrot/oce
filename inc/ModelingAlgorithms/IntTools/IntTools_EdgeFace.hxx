@@ -17,7 +17,7 @@
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_FClass2d.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_CArray1OfReal.hxx>

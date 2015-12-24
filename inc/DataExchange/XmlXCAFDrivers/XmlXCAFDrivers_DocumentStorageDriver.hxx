@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XmlXCAFDrivers_DocumentStorageDriver.hxx>
+#include <DataExchange/XmlXCAFDrivers/Handle_XmlXCAFDrivers_DocumentStorageDriver.hxx>
 
 #include <OCAF/XmlDrivers/XmlDrivers_DocumentStorageDriver.hxx>
-#include <Handle_XmlMDF_ADriverTable.hxx>
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/XmlMDF/Handle_XmlMDF_ADriverTable.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 class TCollection_ExtendedString;
 class XmlMDF_ADriverTable;
 class CDM_MessageDriver;

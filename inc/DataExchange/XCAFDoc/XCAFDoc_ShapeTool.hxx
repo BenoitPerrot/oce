@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XCAFDoc_ShapeTool.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_ShapeTool.hxx>
 
 #include <DataExchange/XCAFDoc/XCAFDoc_DataMapOfShapeLabel.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_TDF_Attribute.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
-#include <Handle_XCAFDoc_GraphNode.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
+#include <DataExchange/XCAFDoc/Handle_XCAFDoc_GraphNode.hxx>
 class Standard_GUID;
 class TDF_Label;
 class TopoDS_Shape;

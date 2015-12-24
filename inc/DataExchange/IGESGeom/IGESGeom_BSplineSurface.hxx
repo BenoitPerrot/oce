@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESGeom_BSplineSurface.hxx>
+#include <DataExchange/IGESGeom/Handle_IGESGeom_BSplineSurface.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HArray1OfReal.hxx>
-#include <Handle_TColStd_HArray2OfReal.hxx>
-#include <Handle_TColgp_HArray2OfXYZ.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfReal.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray2OfXYZ.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 class TColStd_HArray1OfReal;

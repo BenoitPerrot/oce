@@ -12,11 +12,11 @@
 
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Handle_TopOpeBRepDS_HDataStructure.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_BuildTool.hxx>
-#include <Handle_TopTools_HArray1OfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray1OfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
-#include <Handle_TopTools_HArray1OfListOfShape.hxx>
+#include <ModelingData/TopTools/Handle_TopTools_HArray1OfListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>

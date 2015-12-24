@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_SelectSignedSharing.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SelectSignedSharing.hxx>
 
-#include <Handle_IFSelect_Signature.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Signature.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <DataExchange/IFSelect/IFSelect_SelectExplore.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_Standard_Transient.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
 class IFSelect_Signature;
 class TCollection_AsciiString;
 class Standard_Transient;

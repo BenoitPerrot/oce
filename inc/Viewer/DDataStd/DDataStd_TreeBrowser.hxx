@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DDataStd_TreeBrowser.hxx>
+#include <Viewer/DDataStd/Handle_DDataStd_TreeBrowser.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Viewer/Draw/Draw_Drawable3D.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-#include <Handle_TDataStd_TreeNode.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_TreeNode.hxx>
 class TDF_Label;
 class Draw_Display;
 class Draw_Drawable3D;

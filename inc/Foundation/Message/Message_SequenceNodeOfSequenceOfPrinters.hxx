@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Message_SequenceNodeOfSequenceOfPrinters.hxx>
+#include <Foundation/Message/Handle_Message_SequenceNodeOfSequenceOfPrinters.hxx>
 
-#include <Handle_Message_Printer.hxx>
+#include <Foundation/Message/Handle_Message_Printer.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>
 #include <Foundation/TCollection/TCollection_SeqNodePtr.hxx>
 class Message_Printer;

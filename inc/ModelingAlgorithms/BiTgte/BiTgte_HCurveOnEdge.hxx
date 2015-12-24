@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BiTgte_HCurveOnEdge.hxx>
+#include <ModelingAlgorithms/BiTgte/Handle_BiTgte_HCurveOnEdge.hxx>
 
 #include <ModelingAlgorithms/BiTgte/BiTgte_CurveOnEdge.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

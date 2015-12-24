@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ChFiDS_HElSpine.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_HElSpine.hxx>
 
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ElSpine.hxx>
 #include <Geometry/Adaptor3d/Adaptor3d_HCurve.hxx>

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/Standard/Standard_Failure.hxx>
-#include <Handle_PCDM_DriverError.hxx>
+#include <OCAF/PCDM/Handle_PCDM_DriverError.hxx>
 
 #if !defined No_Exception && !defined No_PCDM_DriverError
   #define PCDM_DriverError_Raise_if(CONDITION, MESSAGE) \

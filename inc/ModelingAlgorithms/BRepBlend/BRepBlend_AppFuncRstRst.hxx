@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRepBlend_AppFuncRstRst.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_AppFuncRstRst.hxx>
 
 #include <ModelingAlgorithms/BRepBlend/BRepBlend_AppFuncRoot.hxx>
-#include <Handle_BRepBlend_Line.hxx>
+#include <ModelingAlgorithms/BRepBlend/Handle_BRepBlend_Line.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_OutOfRange;

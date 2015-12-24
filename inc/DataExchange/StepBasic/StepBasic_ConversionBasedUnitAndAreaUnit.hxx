@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepBasic_ConversionBasedUnitAndAreaUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_ConversionBasedUnitAndAreaUnit.hxx>
 
-#include <Handle_StepBasic_AreaUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_AreaUnit.hxx>
 #include <DataExchange/StepBasic/StepBasic_ConversionBasedUnit.hxx>
 class StepBasic_AreaUnit;
 

@@ -2185,7 +2185,7 @@ static Standard_Integer OCC24565 (Draw_Interpretor& di, Standard_Integer argc, c
   return 0;
 }
 
-#include <Handle_BRepTools_NurbsConvertModification.hxx>
+#include <ModelingData/BRepTools/Handle_BRepTools_NurbsConvertModification.hxx>
 #include <ModelingAlgorithms/BRepPrimAPI/BRepPrimAPI_MakeCylinder.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_Copy.hxx>
 #include <ModelingData/BRepTools/BRepTools_NurbsConvertModification.hxx>

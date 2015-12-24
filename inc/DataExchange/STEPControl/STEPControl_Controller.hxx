@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_STEPControl_Controller.hxx>
+#include <DataExchange/STEPControl/Handle_STEPControl_Controller.hxx>
 
 #include <DataExchange/XSControl/XSControl_Controller.hxx>
-#include <Handle_Interface_InterfaceModel.hxx>
-#include <Handle_Transfer_ActorOfTransientProcess.hxx>
-#include <Handle_XSControl_WorkSession.hxx>
+#include <DataExchange/Interface/Handle_Interface_InterfaceModel.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_ActorOfTransientProcess.hxx>
+#include <DataExchange/XSControl/Handle_XSControl_WorkSession.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
-#include <Handle_Transfer_FinderProcess.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_FinderProcess.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Interface_InterfaceModel;

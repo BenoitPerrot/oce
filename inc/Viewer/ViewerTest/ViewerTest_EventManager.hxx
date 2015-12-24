@@ -8,10 +8,10 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ViewerTest_EventManager.hxx>
+#include <Viewer/ViewerTest/Handle_ViewerTest_EventManager.hxx>
 
-#include <Handle_AIS_InteractiveContext.hxx>
-#include <Handle_V3d_View.hxx>
+#include <Visualization/AIS/Handle_AIS_InteractiveContext.hxx>
+#include <Visualization/V3d/Handle_V3d_View.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class AIS_InteractiveContext;

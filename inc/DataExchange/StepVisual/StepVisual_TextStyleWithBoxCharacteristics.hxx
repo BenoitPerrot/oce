@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_TextStyleWithBoxCharacteristics.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_TextStyleWithBoxCharacteristics.hxx>
 
-#include <Handle_StepVisual_HArray1OfBoxCharacteristicSelect.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_HArray1OfBoxCharacteristicSelect.hxx>
 #include <DataExchange/StepVisual/StepVisual_TextStyle.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_StepVisual_TextStyleForDefinedFont.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_TextStyleForDefinedFont.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class StepVisual_HArray1OfBoxCharacteristicSelect;
 class TCollection_HAsciiString;

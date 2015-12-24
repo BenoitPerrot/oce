@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Vrml_TextureCoordinate2.hxx>
+#include <DataExchange/Vrml/Handle_Vrml_TextureCoordinate2.hxx>
 
-#include <Handle_TColgp_HArray1OfVec2d.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfVec2d.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TColgp_HArray1OfVec2d;

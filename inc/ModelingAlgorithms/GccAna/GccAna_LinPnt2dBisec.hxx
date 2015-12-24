@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_GccInt_Bisec.hxx>
+#include <ModelingAlgorithms/GccInt/Handle_GccInt_Bisec.hxx>
 class GccInt_Bisec;
 class Standard_ConstructionError;
 class StdFail_NotDone;

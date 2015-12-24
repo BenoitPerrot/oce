@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepElement_HSequenceOfElementMaterial.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_HSequenceOfElementMaterial.hxx>
 
 #include <DataExchange/StepElement/StepElement_SequenceOfElementMaterial.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_StepElement_ElementMaterial.hxx>
+#include <DataExchange/StepElement/Handle_StepElement_ElementMaterial.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;

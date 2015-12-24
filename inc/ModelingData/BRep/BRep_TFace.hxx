@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_TFace.hxx>
+#include <ModelingData/BRep/Handle_BRep_TFace.hxx>
 
-#include <Handle_Geom_Surface.hxx>
-#include <Handle_Poly_Triangulation.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <Mathematics/Polyhedral/Handle_Poly_Triangulation.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_TFace.hxx>
-#include <Handle_TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/Handle_TopoDS_TShape.hxx>
 class Geom_Surface;
 class Poly_Triangulation;
 class TopLoc_Location;

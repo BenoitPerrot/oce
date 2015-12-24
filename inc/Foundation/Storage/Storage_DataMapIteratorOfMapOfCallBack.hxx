@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Storage_TypedCallBack.hxx>
-#include <Handle_Storage_DataMapNodeOfMapOfCallBack.hxx>
+#include <Foundation/Storage/Handle_Storage_TypedCallBack.hxx>
+#include <Foundation/Storage/Handle_Storage_DataMapNodeOfMapOfCallBack.hxx>
 class Standard_NoSuchObject;
 class TCollection_AsciiString;
 class Storage_TypedCallBack;

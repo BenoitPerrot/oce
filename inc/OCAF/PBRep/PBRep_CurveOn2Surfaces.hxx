@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PBRep_CurveOn2Surfaces.hxx>
+#include <OCAF/PBRep/Handle_PBRep_CurveOn2Surfaces.hxx>
 
-#include <Handle_PGeom_Surface.hxx>
+#include <OCAF/PGeom/Handle_PGeom_Surface.hxx>
 #include <OCAF/PTopLoc/PTopLoc_Location.hxx>
 #include <GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>

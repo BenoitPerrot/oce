@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
+#include <ModelingAlgorithms/Contap/Handle_Contap_SequenceNodeOfSequenceOfPathPointOfTheSearch.hxx>
 
 #include <ModelingAlgorithms/Contap/Contap_ThePathPointOfTheSearch.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

@@ -10,11 +10,11 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_IGESData_IGESModel.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESModel.hxx>
 #include <DataExchange/IGESData/IGESData_SpecificLib.hxx>
-#include <Handle_IGESData_Protocol.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
-#include <Handle_Message_Messenger.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_Protocol.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
+#include <Foundation/Message/Handle_Message_Messenger.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class IGESData_IGESModel;
 class Interface_InterfaceError;

@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <OCAF/PPoly/PPoly_Triangle.hxx>
-#include <Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
+#include <OCAF/PPoly/Handle_PPoly_VArrayNodeOfFieldOfHArray1OfTriangle.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class PPoly_Triangle;
 class PPoly_FieldOfHArray1OfTriangle;

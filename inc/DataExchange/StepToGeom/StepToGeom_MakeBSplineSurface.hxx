@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_BSplineSurface.hxx>
-#include <Handle_Geom_BSplineSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
 class StepGeom_BSplineSurface;
 class Geom_BSplineSurface;
 

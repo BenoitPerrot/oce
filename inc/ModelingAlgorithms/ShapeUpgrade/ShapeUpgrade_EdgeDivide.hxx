@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_ShapeUpgrade_EdgeDivide.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_EdgeDivide.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HSequenceOfReal.hxx>
-#include <Handle_ShapeUpgrade_SplitCurve3d.hxx>
-#include <Handle_ShapeUpgrade_SplitCurve2d.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfReal.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_SplitCurve3d.hxx>
+#include <ModelingAlgorithms/ShapeUpgrade/Handle_ShapeUpgrade_SplitCurve2d.hxx>
 #include <ModelingAlgorithms/ShapeUpgrade/ShapeUpgrade_Tool.hxx>
 class TColStd_HSequenceOfReal;
 class ShapeUpgrade_SplitCurve3d;

@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom_BezierCurve_HeaderFile
-#include <Handle_PGeom_BezierCurve.hxx>
+#include <OCAF/PGeom/Handle_PGeom_BezierCurve.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom_BoundedCurve_HeaderFile

@@ -10,9 +10,9 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_StepGeom_SweptSurface.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_SweptSurface.hxx>
 #include <DataExchange/GeomToStep/GeomToStep_Root.hxx>
-#include <Handle_Geom_SweptSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_SweptSurface.hxx>
 class StepGeom_SweptSurface;
 class StdFail_NotDone;
 class Geom_SweptSurface;

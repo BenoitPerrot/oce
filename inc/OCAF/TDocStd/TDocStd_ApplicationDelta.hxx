@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDocStd_ApplicationDelta.hxx>
+#include <OCAF/TDocStd/Handle_TDocStd_ApplicationDelta.hxx>
 
 #include <OCAF/TDocStd/TDocStd_SequenceOfDocument.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>

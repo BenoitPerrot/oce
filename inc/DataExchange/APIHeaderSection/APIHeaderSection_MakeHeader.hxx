@@ -11,15 +11,15 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_HeaderSection_FileName.hxx>
-#include <Handle_HeaderSection_FileSchema.hxx>
-#include <Handle_HeaderSection_FileDescription.hxx>
+#include <DataExchange/HeaderSection/Handle_HeaderSection_FileName.hxx>
+#include <DataExchange/HeaderSection/Handle_HeaderSection_FileSchema.hxx>
+#include <DataExchange/HeaderSection/Handle_HeaderSection_FileDescription.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepData_StepModel.hxx>
+#include <DataExchange/StepData/Handle_StepData_StepModel.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Interface_Protocol.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_Protocol.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
 class HeaderSection_FileName;
 class HeaderSection_FileSchema;
 class HeaderSection_FileDescription;

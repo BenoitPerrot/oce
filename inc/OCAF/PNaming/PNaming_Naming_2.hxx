@@ -9,9 +9,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PNaming_Naming_2.hxx>
+#include <OCAF/PNaming/Handle_PNaming_Naming_2.hxx>
 
-#include <Handle_PNaming_Name_2.hxx>
+#include <OCAF/PNaming/Handle_PNaming_Name_2.hxx>
 #include <OCAF/PDF/PDF_Attribute.hxx>
 class PNaming_Name_2;
 

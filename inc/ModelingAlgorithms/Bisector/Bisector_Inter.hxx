@@ -13,9 +13,9 @@
 #include <ModelingAlgorithms/IntRes2d/IntRes2d_Intersection.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_Bisector_BisecCC.hxx>
-#include <Handle_Geom2d_Line.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <ModelingAlgorithms/Bisector/Handle_Bisector_BisecCC.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Line.hxx>
 class Standard_ConstructionError;
 class Bisector_Bisec;
 class IntRes2d_Domain;

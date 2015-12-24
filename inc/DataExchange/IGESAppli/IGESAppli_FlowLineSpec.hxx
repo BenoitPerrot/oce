@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESAppli_FlowLineSpec.hxx>
+#include <DataExchange/IGESAppli/Handle_IGESAppli_FlowLineSpec.hxx>
 
-#include <Handle_Interface_HArray1OfHAsciiString.hxx>
+#include <DataExchange/Interface/Handle_Interface_HArray1OfHAsciiString.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 class Interface_HArray1OfHAsciiString;
 class Standard_OutOfRange;
 class TCollection_HAsciiString;

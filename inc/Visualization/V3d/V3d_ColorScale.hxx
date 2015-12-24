@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_V3d_ColorScale.hxx>
+#include <Visualization/V3d/Handle_V3d_ColorScale.hxx>
 
 #include <Visualization/V3d/V3d_LayerMgrPointer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/Aspect/Aspect_ColorScale.hxx>
-#include <Handle_V3d_LayerMgr.hxx>
+#include <Visualization/V3d/Handle_V3d_LayerMgr.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class V3d_LayerMgr;
 class Quantity_Color;

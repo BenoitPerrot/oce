@@ -12,7 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-#include <Handle_QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
+#include <Viewer/QANCollection/Handle_QANCollection_DataMapNodeOfDataMapOfRealPnt.hxx>
 class Standard_NoSuchObject;
 class gp_Pnt;
 class TColStd_MapRealHasher;

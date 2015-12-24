@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IFSelect_Activator.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_Activator.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TColStd_HSequenceOfAsciiString.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HSequenceOfAsciiString.hxx>
 #include <DataExchange/IFSelect/IFSelect_ReturnStatus.hxx>
-#include <Handle_IFSelect_SessionPilot.hxx>
+#include <DataExchange/IFSelect/Handle_IFSelect_SessionPilot.hxx>
 class Standard_DomainError;
 class TCollection_AsciiString;
 class TColStd_HSequenceOfAsciiString;

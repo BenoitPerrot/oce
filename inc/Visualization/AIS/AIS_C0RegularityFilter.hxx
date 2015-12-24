@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AIS_C0RegularityFilter.hxx>
+#include <Visualization/AIS/Handle_AIS_C0RegularityFilter.hxx>
 
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
-#include <Handle_SelectMgr_EntityOwner.hxx>
+#include <Visualization/SelectMgr/Handle_SelectMgr_EntityOwner.hxx>
 class TopoDS_Shape;
 class SelectMgr_EntityOwner;
 

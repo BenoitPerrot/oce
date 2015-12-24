@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_IGESDraw_Drawing.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_Drawing.hxx>
 
-#include <Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
-#include <Handle_TColgp_HArray1OfXY.hxx>
-#include <Handle_IGESData_HArray1OfIGESEntity.hxx>
+#include <DataExchange/IGESDraw/Handle_IGESDraw_HArray1OfViewKindEntity.hxx>
+#include <Mathematics/Collections/Handle_TColgp_HArray1OfXY.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_HArray1OfIGESEntity.hxx>
 #include <DataExchange/IGESData/IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_IGESData_ViewKindEntity.hxx>
-#include <Handle_IGESData_IGESEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_ViewKindEntity.hxx>
+#include <DataExchange/IGESData/Handle_IGESData_IGESEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class IGESDraw_HArray1OfViewKindEntity;

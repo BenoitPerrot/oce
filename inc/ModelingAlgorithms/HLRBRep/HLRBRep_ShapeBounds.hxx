@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_HLRTopoBRep_OutLiner.hxx>
-#include <Handle_MMgt_TShared.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_OutLiner.hxx>
+#include <Foundation/MMgt/Handle_MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class HLRTopoBRep_OutLiner;

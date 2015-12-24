@@ -8,13 +8,13 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_FEmTool_LinearFlexion.hxx>
+#include <Geometry/FEmTool/Handle_FEmTool_LinearFlexion.hxx>
 
 #include <Mathematics/Optimization/math_Matrix.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Geometry/FEmTool/FEmTool_ElementaryCriterion.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Handle_TColStd_HArray2OfInteger.hxx>
+#include <Foundation/TColStd/Handle_TColStd_HArray2OfInteger.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Mathematics/Optimization/math_Vector.hxx>
 class Standard_NotImplemented;

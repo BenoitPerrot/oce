@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_GeometricRepresentationContextAndGlobalUnitAssignedContext.hxx>
 
-#include <Handle_StepGeom_GeometricRepresentationContext.hxx>
-#include <Handle_StepRepr_GlobalUnitAssignedContext.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_GeometricRepresentationContext.hxx>
+#include <DataExchange/StepRepr/Handle_StepRepr_GlobalUnitAssignedContext.hxx>
 #include <DataExchange/StepRepr/StepRepr_RepresentationContext.hxx>
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_StepBasic_HArray1OfNamedUnit.hxx>
-#include <Handle_StepBasic_NamedUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_HArray1OfNamedUnit.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_NamedUnit.hxx>
 class StepGeom_GeometricRepresentationContext;
 class StepRepr_GlobalUnitAssignedContext;
 class TCollection_HAsciiString;

@@ -8,18 +8,18 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_TDataXtd_Constraint.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_Constraint.hxx>
 
 #include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
-#include <Handle_TDataStd_Real.hxx>
-#include <Handle_TDF_Attribute.hxx>
+#include <OCAF/TDataStd/Handle_TDataStd_Real.hxx>
+#include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/TDF/TDF_Attribute.hxx>
-#include <Handle_TNaming_NamedShape.hxx>
+#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <Handle_TDF_RelocationTable.hxx>
+#include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
-#include <Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/Handle_TDF_DataSet.hxx>
 class TDataStd_Real;
 class TDF_Attribute;
 class Standard_GUID;

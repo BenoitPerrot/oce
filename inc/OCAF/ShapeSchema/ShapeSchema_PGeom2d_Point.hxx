@@ -16,7 +16,7 @@
 #include <Foundation/Storage/Storage_BaseDriver.hxx>
 #endif
 #ifndef _Handle_PGeom2d_Point_HeaderFile
-#include <Handle_PGeom2d_Point.hxx>
+#include <OCAF/PGeom2d/Handle_PGeom2d_Point.hxx>
 #endif
 
 #ifndef _ShapeSchema_PGeom2d_Geometry_HeaderFile

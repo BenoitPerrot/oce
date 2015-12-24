@@ -8,12 +8,12 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP203_CcDesignDateAndTimeAssignment.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_CcDesignDateAndTimeAssignment.hxx>
 
-#include <Handle_StepAP203_HArray1OfDateTimeItem.hxx>
+#include <DataExchange/StepAP203/Handle_StepAP203_HArray1OfDateTimeItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_DateAndTimeAssignment.hxx>
-#include <Handle_StepBasic_DateAndTime.hxx>
-#include <Handle_StepBasic_DateTimeRole.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DateAndTime.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_DateTimeRole.hxx>
 class StepAP203_HArray1OfDateTimeItem;
 class StepBasic_DateAndTime;
 class StepBasic_DateTimeRole;

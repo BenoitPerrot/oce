@@ -16,12 +16,12 @@
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <GeomAbs_Shape.hxx>
-#include <Handle_Law_Function.hxx>
+#include <ModelingAlgorithms/Law/Handle_Law_Function.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopOpeBRepBuild_HBuilder.hxx>
-#include <Handle_ChFiDS_SecHArray1.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
+#include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_SecHArray1.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <ModelingAlgorithms/ChFiDS/ChFiDS_ErrorStatus.hxx>
 class StdFail_NotDone;
 class Standard_NoSuchObject;

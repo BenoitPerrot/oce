@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepAP214_AppliedGroupAssignment.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_AppliedGroupAssignment.hxx>
 
-#include <Handle_StepAP214_HArray1OfGroupItem.hxx>
+#include <DataExchange/StepAP214/Handle_StepAP214_HArray1OfGroupItem.hxx>
 #include <DataExchange/StepBasic/StepBasic_GroupAssignment.hxx>
-#include <Handle_StepBasic_Group.hxx>
+#include <DataExchange/StepBasic/Handle_StepBasic_Group.hxx>
 class StepAP214_HArray1OfGroupItem;
 class StepBasic_Group;
 

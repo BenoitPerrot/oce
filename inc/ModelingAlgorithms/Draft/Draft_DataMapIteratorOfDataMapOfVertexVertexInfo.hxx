@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
-#include <Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
+#include <ModelingAlgorithms/Draft/Handle_Draft_DataMapNodeOfDataMapOfVertexVertexInfo.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Vertex;
 class Draft_VertexInfo;

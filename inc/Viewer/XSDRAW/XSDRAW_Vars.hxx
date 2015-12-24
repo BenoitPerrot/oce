@@ -8,15 +8,15 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_XSDRAW_Vars.hxx>
+#include <Viewer/XSDRAW/Handle_XSDRAW_Vars.hxx>
 
 #include <DataExchange/XSControl/XSControl_Vars.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
-#include <Handle_Standard_Transient.hxx>
-#include <Handle_Geom_Geometry.hxx>
-#include <Handle_Geom2d_Curve.hxx>
-#include <Handle_Geom_Curve.hxx>
-#include <Handle_Geom_Surface.hxx>
+#include <Foundation/Standard/Handle_Standard_Transient.hxx>
+#include <Geometry/Geom/Handle_Geom_Geometry.hxx>
+#include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Curve.hxx>
+#include <Geometry/Geom/Handle_Geom_Surface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_Transient;
 class Geom_Geometry;

@@ -8,14 +8,14 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_BRep_TEdge.hxx>
+#include <ModelingData/BRep/Handle_BRep_TEdge.hxx>
 
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/BRep/BRep_ListOfCurveRepresentation.hxx>
 #include <ModelingData/TopoDS/TopoDS_TEdge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_TopoDS_TShape.hxx>
+#include <ModelingData/TopoDS/Handle_TopoDS_TShape.hxx>
 class BRep_ListOfCurveRepresentation;
 class TopoDS_TShape;
 

@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_DDataStd_DrawDriver.hxx>
+#include <Viewer/DDataStd/Handle_DDataStd_DrawDriver.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-#include <Handle_Draw_Drawable3D.hxx>
-#include <Handle_TDataXtd_Constraint.hxx>
+#include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
+#include <OCAF/TDataXtd/Handle_TDataXtd_Constraint.hxx>
 #include <Viewer/Draw/Draw_ColorKind.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Draw_Drawable3D;

@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepVisual_TextLiteral.hxx>
+#include <DataExchange/StepVisual/Handle_StepVisual_TextLiteral.hxx>
 
-#include <Handle_TCollection_HAsciiString.hxx>
+#include <Foundation/TCollection/Handle_TCollection_HAsciiString.hxx>
 #include <DataExchange/StepGeom/StepGeom_Axis2Placement.hxx>
 #include <DataExchange/StepVisual/StepVisual_TextPath.hxx>
 #include <DataExchange/StepVisual/StepVisual_FontSelect.hxx>

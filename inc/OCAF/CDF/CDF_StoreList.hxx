@@ -8,16 +8,16 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_CDF_StoreList.hxx>
+#include <OCAF/CDF/Handle_CDF_StoreList.hxx>
 
 #include <OCAF/CDM/CDM_MapOfDocument.hxx>
 #include <OCAF/CDM/CDM_ListOfDocument.hxx>
 #include <OCAF/CDM/CDM_MapIteratorOfMapOfDocument.hxx>
-#include <Handle_CDM_Document.hxx>
+#include <OCAF/CDM/Handle_CDM_Document.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <OCAF/PCDM/PCDM_StoreStatus.hxx>
-#include <Handle_CDM_MetaData.hxx>
+#include <OCAF/CDM/Handle_CDM_MetaData.hxx>
 class CDM_Document;
 class Standard_NoSuchObject;
 class CDM_MetaData;

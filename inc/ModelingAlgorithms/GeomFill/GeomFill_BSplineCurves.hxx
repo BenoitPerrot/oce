@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_Geom_BSplineSurface.hxx>
-#include <Handle_Geom_BSplineCurve.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineSurface.hxx>
+#include <Geometry/Geom/Handle_Geom_BSplineCurve.hxx>
 #include <ModelingAlgorithms/GeomFill/GeomFill_FillingStyle.hxx>
 class Geom_BSplineSurface;
 class Standard_ConstructionError;

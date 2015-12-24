@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_HLRAlgo_ListNodeOfInterferenceList.hxx>
+#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_ListNodeOfInterferenceList.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>

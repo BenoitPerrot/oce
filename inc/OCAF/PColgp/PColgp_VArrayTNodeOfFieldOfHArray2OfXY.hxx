@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Primitives/gp_XY.hxx>
-#include <Handle_PColgp_VArrayNodeOfFieldOfHArray2OfXY.hxx>
+#include <OCAF/PColgp/Handle_PColgp_VArrayNodeOfFieldOfHArray2OfXY.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class gp_XY;
 class PColgp_FieldOfHArray2OfXY;

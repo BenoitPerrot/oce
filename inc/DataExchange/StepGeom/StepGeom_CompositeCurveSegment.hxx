@@ -8,11 +8,11 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_StepGeom_CompositeCurveSegment.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_CompositeCurveSegment.hxx>
 
 #include <DataExchange/StepGeom/StepGeom_TransitionCode.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-#include <Handle_StepGeom_Curve.hxx>
+#include <DataExchange/StepGeom/Handle_StepGeom_Curve.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class StepGeom_Curve;
 

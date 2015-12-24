@@ -11,8 +11,8 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
-#include <Handle_DBRep_Edge.hxx>
-#include <Handle_DBRep_ListNodeOfListOfEdge.hxx>
+#include <Viewer/DBRep/Handle_DBRep_Edge.hxx>
+#include <Viewer/DBRep/Handle_DBRep_ListNodeOfListOfEdge.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;

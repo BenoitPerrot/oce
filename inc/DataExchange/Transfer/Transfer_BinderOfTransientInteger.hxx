@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Transfer_BinderOfTransientInteger.hxx>
+#include <DataExchange/Transfer/Handle_Transfer_BinderOfTransientInteger.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <DataExchange/Transfer/Transfer_SimpleBinderOfTransient.hxx>

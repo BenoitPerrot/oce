@@ -8,9 +8,9 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_AppStdL_Application.hxx>
+#include <OCAF/AppStdL/Handle_AppStdL_Application.hxx>
 
-#include <Handle_CDM_MessageDriver.hxx>
+#include <OCAF/CDM/Handle_CDM_MessageDriver.hxx>
 #include <OCAF/TDocStd/TDocStd_Application.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 class CDM_MessageDriver;

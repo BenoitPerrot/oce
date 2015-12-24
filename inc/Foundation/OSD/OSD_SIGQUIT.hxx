@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_DefineException.hxx>
 #include <Foundation/Standard/Standard_SStream.hxx>
 #include <Foundation/OSD/OSD_Signal.hxx>
-#include <Handle_OSD_SIGQUIT.hxx>
+#include <Foundation/OSD/Handle_OSD_SIGQUIT.hxx>
 
 #if !defined No_Exception && !defined No_OSD_SIGQUIT
   #define OSD_SIGQUIT_Raise_if(CONDITION, MESSAGE) \

@@ -9,7 +9,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Foundation/Standard/Standard.hxx>
-#include <Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
+#include <OCAF/PTopoDS/Handle_PTopoDS_VArrayNodeOfFieldOfHArray1OfShape1.hxx>
 
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <OCAF/PTopoDS/PTopoDS_Shape1.hxx>

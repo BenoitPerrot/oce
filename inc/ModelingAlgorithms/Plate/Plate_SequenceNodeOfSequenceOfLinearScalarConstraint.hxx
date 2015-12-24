@@ -8,7 +8,7 @@
 
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
-#include <Handle_Plate_SequenceNodeOfSequenceOfLinearScalarConstraint.hxx>
+#include <ModelingAlgorithms/Plate/Handle_Plate_SequenceNodeOfSequenceOfLinearScalarConstraint.hxx>
 
 #include <ModelingAlgorithms/Plate/Plate_LinearScalarConstraint.hxx>
 #include <Foundation/TCollection/TCollection_SeqNode.hxx>

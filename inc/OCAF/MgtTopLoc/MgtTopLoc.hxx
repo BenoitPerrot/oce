@@ -10,8 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Handle_PTopLoc_Datum3D.hxx>
-#include <Handle_TopLoc_Datum3D.hxx>
+#include <OCAF/PTopLoc/Handle_PTopLoc_Datum3D.hxx>
+#include <Mathematics/TopLoc/Handle_TopLoc_Datum3D.hxx>
 class PTopLoc_Datum3D;
 class TopLoc_Datum3D;
 class PTColStd_TransientPersistentMap;
