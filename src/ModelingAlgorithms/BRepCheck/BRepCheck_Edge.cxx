@@ -134,7 +134,6 @@ void BRepCheck_Edge::Minimum()
 
     // Existence et unicite d`une representation 3D
     Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&myShape.TShape());
-    BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
     Standard_Boolean exist = Standard_False;
     Standard_Boolean unique = Standard_True;
     // Search for a 3D reference. If no existent one, creates it with the 
@@ -148,8 +147,7 @@ void BRepCheck_Edge::Minimum()
     }
 //    Handle(Geom_Curve) C3d;
 
-    while (itcr.More()) {
-      const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+    for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
       if (cr->IsCurve3D()) {
 	if (!exist) {
 	  exist = Standard_True;
@@ -161,7 +159,6 @@ void BRepCheck_Edge::Minimum()
 	  myCref = cr;
 	}
       }
-      itcr.Next();
     }
 
     if (!exist) {
@@ -173,14 +170,11 @@ void BRepCheck_Edge::Minimum()
     }
 
     if (myCref.IsNull() && !Degenerated) {
-      itcr.Initialize(TE->Curves());
-      while (itcr.More()) {
-	const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+      for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
 	if (cr->IsCurveOnSurface()) {
 	  myCref = cr;
 	  break;
 	}
-	itcr.Next();
       }
     }
     else if (!myCref.IsNull() && Degenerated){
@@ -290,9 +284,7 @@ void BRepCheck_Edge::InContext(const TopoDS_Shape& S)
       TopLoc_Location L = (Floc * TFloc).Predivided(myShape.Location());
       Standard_Boolean pcurvefound = Standard_False;
 
-      BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-      while (itcr.More()) {
-	const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+      for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
 	if (cr != myCref && cr->IsCurveOnSurface(Su,L)) {
 	  pcurvefound = Standard_True;
 	  const Handle(BRep_GCurve)& GC = *((Handle(BRep_GCurve)*)&cr);
@@ -351,7 +343,6 @@ void BRepCheck_Edge::InContext(const TopoDS_Shape& S)
 	    }
 	  }
 	}
-	itcr.Next();
       }
 
       if (!pcurvefound) {
@@ -495,7 +486,7 @@ void BRepCheck_Edge::SetStatus(const BRepCheck_Status theStatus)
 Standard_Real BRepCheck_Edge::Tolerance()
 {
   Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&myShape.TShape());
-  Standard_Integer it, iRep=1, nbRep=(TE->Curves()).Extent();
+  Standard_Integer it, iRep=1, nbRep=(TE->Curves()).size();
   if (nbRep<=1) {
     return Precision::Confusion();
   }
@@ -509,9 +500,7 @@ Standard_Real BRepCheck_Edge::Tolerance()
     BRep_Tool::Range(TopoDS::Edge(myShape), First, Last);
   }
 
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-  for (; itcr.More(); itcr.Next()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
     if (cr->IsCurve3D() && !TE->Degenerated()) {
       //// modified by jgv, 20.03.03 ////
       TopLoc_Location Loc = myShape.Location() * cr->Location();
@@ -592,7 +581,6 @@ BRepCheck_Status BRepCheck_Edge::
 {
   BRep_ListOfCurveRepresentation& aListOfCR = 
           (*((Handle(BRep_TEdge)*) &theEdge.TShape()))->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation anITCR(aListOfCR);
 
   BRepAdaptor_Curve aBC;
   aBC.Initialize(theEdge);
@@ -600,15 +588,13 @@ BRepCheck_Status BRepCheck_Edge::
   if(!aBC.Is3DCurve())
     return BRepCheck_NoError;
 
-  while (anITCR.More())
-  {
-    if(!anITCR.Value()->IsPolygonOnTriangulation())
+#warning "const Handle&" could be used instead
+  for (const Handle(BRep_CurveRepresentation) aCR : aListOfCR) {
+    if(!aCR->IsPolygonOnTriangulation())
     {
-      anITCR.Next();
       continue;
     }
 
-    const Handle(BRep_CurveRepresentation) aCR = anITCR.Value();
     const Handle(BRep_PolygonOnTriangulation)& aPT = 
               Handle(BRep_PolygonOnTriangulation)::DownCast(aCR);
 
@@ -683,8 +669,6 @@ BRepCheck_Status BRepCheck_Edge::
         return BRepCheck_InvalidPolygonOnTriangulation;
       }
     }
-
-    anITCR.Next();
   }
 
   return BRepCheck_NoError;

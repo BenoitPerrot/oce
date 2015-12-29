@@ -162,10 +162,7 @@ void BRepTools_ShapeSet::AddGeometry(const TopoDS_Shape& S)
 
     // Add the curve geometry
     Handle(BRep_TEdge) TE = Handle(BRep_TEdge)::DownCast(S.TShape());
-    BRep_ListIteratorOfListOfCurveRepresentation itrc(TE->Curves());
-
-    while (itrc.More()) {
-      const Handle(BRep_CurveRepresentation)& CR = itrc.Value();
+    for (const Handle(BRep_CurveRepresentation)& CR : TE->Curves()) {
       if (CR->IsCurve3D()) {
         if (!CR->Curve3D().IsNull()) {
           myCurves.Add(CR->Curve3D());
@@ -207,7 +204,6 @@ void BRepTools_ShapeSet::AddGeometry(const TopoDS_Shape& S)
           myPolygons2D.Add(CR->Polygon2());
         }
       }
-      itrc.Next();
     }
   }
 
@@ -477,11 +473,9 @@ void  BRepTools_ShapeSet::DumpGeometry(const TopoDS_Shape& S,
     if (TE->Degenerated())   OS << "     degenerated\n";
     
     Standard_Real first, last;
-    BRep_ListIteratorOfListOfCurveRepresentation itrc = TE->Curves();
-    while (itrc.More()) {
-      const Handle(BRep_CurveRepresentation)& CR = itrc.Value();
+    for (const Handle(BRep_CurveRepresentation)& CR : TE->Curves()) {
       if (CR->IsCurve3D()) {
-        Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itrc.Value());
+        Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
         GC->Range(first, last);
         if (!CR->Curve3D().IsNull()) {
           OS << "    - Curve 3D : "<<myCurves.Index(CR->Curve3D());
@@ -491,7 +485,7 @@ void  BRepTools_ShapeSet::DumpGeometry(const TopoDS_Shape& S,
         }
       }
       else if (CR->IsCurveOnSurface()) {
-        Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itrc.Value());
+        Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
         GC->Range(first, last);
         OS <<"    - PCurve : "<<myCurves2d.Index(CR->PCurve());
         if (CR->IsCurveOnClosedSurface()) {
@@ -530,7 +524,7 @@ void  BRepTools_ShapeSet::DumpGeometry(const TopoDS_Shape& S,
         OS << "\n";
       }
       else if (CR->IsPolygon3D()) {
-        Handle(BRep_Polygon3D) GC = Handle(BRep_Polygon3D)::DownCast(itrc.Value());
+        Handle(BRep_Polygon3D) GC = Handle(BRep_Polygon3D)::DownCast(CR);
         if (!GC->Polygon3D().IsNull()) {
           OS << "    - Polygon 3D : "<<myPolygons3D.FindIndex(CR->Polygon3D());
           if (!CR->Location().IsIdentity())
@@ -547,7 +541,6 @@ void  BRepTools_ShapeSet::DumpGeometry(const TopoDS_Shape& S,
           OS << " location "<<Locations().Index(CR->Location());
         OS << endl;
       }
-      itrc.Next();
     }
   }
 
@@ -640,12 +633,10 @@ void  BRepTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
     OS << ((TE->Degenerated())   ? 1 : 0) << "\n";
     
     Standard_Real first, last;
-    BRep_ListIteratorOfListOfCurveRepresentation itrc = TE->Curves();
-    while (itrc.More()) {
-      const Handle(BRep_CurveRepresentation)& CR = itrc.Value();
+    for (const Handle(BRep_CurveRepresentation)& CR : TE->Curves()) {
       if (CR->IsCurve3D()) {
         if (!CR->Curve3D().IsNull()) {
-          Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itrc.Value());
+          Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
           GC->Range(first, last);
           OS << "1 ";                               // -1- Curve 3D
           OS << " "<<myCurves.Index(CR->Curve3D());
@@ -655,7 +646,7 @@ void  BRepTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
         }
       }
       else if (CR->IsCurveOnSurface()) {
-        Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itrc.Value());
+        Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
         GC->Range(first, last);
         if (!CR->IsCurveOnClosedSurface())
           OS << "2 ";                             // -2- Curve on surf
@@ -700,7 +691,7 @@ void  BRepTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
 
       else if (myWithTriangles) { // for XML Persistence
         if (CR->IsPolygon3D()) {
-          Handle(BRep_Polygon3D) GC = Handle(BRep_Polygon3D)::DownCast(itrc.Value());
+          Handle(BRep_Polygon3D) GC = Handle(BRep_Polygon3D)::DownCast(CR);
           if (!GC->Polygon3D().IsNull()) {
             OS << "5 ";                            // -5- Polygon3D
             OS << " "<<myPolygons3D.FindIndex(CR->Polygon3D());
@@ -710,7 +701,7 @@ void  BRepTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
         }
         else if (CR->IsPolygonOnTriangulation()) {
           Handle(BRep_PolygonOnTriangulation) PT = 
-            Handle(BRep_PolygonOnTriangulation)::DownCast(itrc.Value());
+            Handle(BRep_PolygonOnTriangulation)::DownCast(CR);
           if (!CR->IsPolygonOnClosedTriangulation())
             OS << "6 ";                            // -6- Polygon on triangulation
           else
@@ -724,8 +715,6 @@ void  BRepTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
           OS << "\n";
         }
       }
-      
-      itrc.Next();
     }
     OS << "0\n"; // end of the list of representations
   }

@@ -197,9 +197,8 @@ void ShapeBuild_Edge::CopyRanges (const TopoDS_Edge& toedge,
   B.Range ( toedge, GC->Surface(), fromedge.Location().Multiplied (GC->Location()), first, last);
   }
   */
-  for (BRep_ListIteratorOfListOfCurveRepresentation fromitcr
-    ((*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()); fromitcr.More(); fromitcr.Next()) {
-      Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromitcr.Value());
+  for (auto fromCR : (*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()) {
+      Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromCR);
       if ( fromGC.IsNull() ) continue;
       Standard_Boolean isC3d = fromGC->IsCurve3D();
       if(isC3d) {
@@ -216,10 +215,8 @@ void ShapeBuild_Edge::CopyRanges (const TopoDS_Edge& toedge,
         L = fromGC->Location();
       } 
 
-      BRep_ListOfCurveRepresentation& tolist = (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves();
-      Handle(BRep_GCurve) toGC;
-      for (BRep_ListIteratorOfListOfCurveRepresentation toitcr (tolist); toitcr.More(); toitcr.Next()) {
-        toGC = Handle(BRep_GCurve)::DownCast(toitcr.Value());
+      for (auto toCR : (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves()) {
+        Handle(BRep_GCurve) toGC = Handle(BRep_GCurve)::DownCast(toCR);
         if ( toGC.IsNull() ) continue;
         if ( isC3d ) {
           if ( ! toGC->IsCurve3D() ) continue;
@@ -280,9 +277,8 @@ void ShapeBuild_Edge::SetRange3d (const TopoDS_Edge& edge,
   const Standard_Real last) const
 {
 
-  for (BRep_ListIteratorOfListOfCurveRepresentation itcr
-    ((*((Handle(BRep_TEdge)*)&edge.TShape()))->ChangeCurves()); itcr.More(); itcr.Next()) {
-      Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  for (auto cr : (*((Handle(BRep_TEdge)*)&edge.TShape()))->ChangeCurves()) {
+      Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
       if ( GC.IsNull() || !GC->IsCurve3D() ) continue;
       GC->SetRange ( first, last );
       break;
@@ -298,18 +294,17 @@ void ShapeBuild_Edge::CopyPCurves (const TopoDS_Edge& toedge, const TopoDS_Edge&
 {
   TopLoc_Location fromLoc = fromedge.Location();
   TopLoc_Location toLoc = toedge.Location();
-  for (BRep_ListIteratorOfListOfCurveRepresentation fromitcr
-    ((*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()); fromitcr.More(); fromitcr.Next()) {
-      Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromitcr.Value());
+  for (auto fromCR : (*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()) {
+      Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromCR);
       if ( fromGC.IsNull() ) continue;
       if ( fromGC->IsCurveOnSurface() ) {
         Handle(Geom_Surface) surface = fromGC->Surface();
         TopLoc_Location L = fromGC->Location();
         Standard_Boolean found = Standard_False;
-        BRep_ListOfCurveRepresentation& tolist = (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves();
-        Handle(BRep_GCurve) toGC;
-        for (BRep_ListIteratorOfListOfCurveRepresentation toitcr (tolist); toitcr.More() && !found; toitcr.Next()) {
-          toGC = Handle(BRep_GCurve)::DownCast(toitcr.Value());
+	BRep_ListOfCurveRepresentation& tolist = (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves();
+	Handle(BRep_GCurve) toGC;
+        for (auto toCR : tolist) {
+          toGC = Handle(BRep_GCurve)::DownCast(toCR);
           if ( toGC.IsNull() || !toGC->IsCurveOnSurface() || 
             surface != toGC->Surface() || L != toGC->Location() ) continue;
           found = Standard_True;
@@ -317,7 +312,7 @@ void ShapeBuild_Edge::CopyPCurves (const TopoDS_Edge& toedge, const TopoDS_Edge&
         }
         if (!found) {
           toGC = Handle(BRep_GCurve)::DownCast(fromGC->Copy());
-          tolist.Append (toGC);
+          tolist.push_back(toGC);
         }
         Handle(Geom2d_Curve) pcurve = fromGC->PCurve();
         toGC->PCurve(Handle(Geom2d_Curve)::DownCast(pcurve->Copy()));
@@ -435,11 +430,10 @@ static Standard_Integer CountPCurves (const TopoDS_Edge &edge,
   Handle(Geom_Surface) S = BRep_Tool::Surface ( face, L );
   TopLoc_Location l = L.Predivided(edge.Location());
 
-  for (BRep_ListIteratorOfListOfCurveRepresentation itcr
-    ((*((Handle(BRep_TEdge)*)&edge.TShape()))->ChangeCurves()); itcr.More(); itcr.Next()) {
-      Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
-      if ( ! GC.IsNull() && GC->IsCurveOnSurface ( S, l ) ) 
-        return ( GC->IsCurveOnClosedSurface() ? 2 : 1 );
+  for (auto cr : (*((Handle(BRep_TEdge)*)&edge.TShape()))->ChangeCurves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
+    if ( ! GC.IsNull() && GC->IsCurveOnSurface ( S, l ) ) 
+      return ( GC->IsCurveOnClosedSurface() ? 2 : 1 );
   }
   return 0;
 }

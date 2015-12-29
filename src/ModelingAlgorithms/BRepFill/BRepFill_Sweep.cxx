@@ -200,11 +200,7 @@ static Standard_Boolean HasPCurves(const TopoDS_Edge& E)
 {
   Standard_Boolean haspcurves = Standard_False;
 
-  BRep_ListIteratorOfListOfCurveRepresentation itcr
-    ((*((Handle(BRep_TEdge)*)&E.TShape()))->Curves());
-  for (; itcr.More(); itcr.Next())
-    {
-      const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : (*((Handle(BRep_TEdge)*)&E.TShape()))->Curves()) {
       if (cr->IsCurveOnSurface())
 	{
 	  haspcurves = Standard_True;
@@ -264,11 +260,7 @@ static Handle(Geom2d_Curve) Couture(const TopoDS_Edge& E,
   Standard_Boolean Eisreversed = (E.Orientation() == TopAbs_REVERSED);
 
   // find the representation
-  BRep_ListIteratorOfListOfCurveRepresentation itcr
-    ((*((Handle(BRep_TEdge)*)&E.TShape()))->ChangeCurves());
-
-  while (itcr.More()) {
-    Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (Handle(BRep_CurveRepresentation)& cr : (*((Handle(BRep_TEdge)*)&E.TShape()))->ChangeCurves()) {
     if (cr->IsCurveOnSurface(S,l)) {
       Handle(BRep_GCurve)& GC = *((Handle(BRep_GCurve)*)&cr);
       if (GC->IsCurveOnClosedSurface() && Eisreversed) 
@@ -276,7 +268,6 @@ static Handle(Geom2d_Curve) Couture(const TopoDS_Edge& E,
       else
 	return GC->PCurve();
     }
-    itcr.Next();
   }
   Handle(Geom2d_Curve) pc;
   pc.Nullify();
@@ -3364,11 +3355,7 @@ void BRepFill_Sweep::RebuildTopOrBottomEdge(const TopoDS_Edge& aNewEdge,
   BB.Range(anEdge, fpar, lpar);
   BB.UpdateEdge(anEdge, aNewCurve, Precision::Confusion());
   const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &aNewEdge.TShape());
-  const BRep_ListOfCurveRepresentation& lcr = TE->Curves();
-  BRep_ListIteratorOfListOfCurveRepresentation itrep(lcr);
-  for (; itrep.More(); itrep.Next())
-  {
-    const Handle(BRep_CurveRepresentation)& CurveRep = itrep.Value();
+  for (const Handle(BRep_CurveRepresentation)& CurveRep : TE->Curves()) {
     if (CurveRep->IsCurveOnSurface())
     {
       const Handle(BRep_GCurve)& GC = *((Handle(BRep_GCurve)*)&CurveRep);

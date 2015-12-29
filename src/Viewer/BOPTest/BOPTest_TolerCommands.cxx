@@ -218,7 +218,6 @@ void ProcessEdge(const TopoDS_Edge& aE, const Standard_Real aTolTreshold)
   gp_Pnt2d aPC2D;
 
   //TopTools_ListIteratorOfListOfShape anIt;// Wng in Gcc 3.0
-  BRep_ListIteratorOfListOfCurveRepresentation itcr;
   //
   Handle(Geom_Curve) aC3D=BRep_Tool::Curve(aE, aT1, aT2);
   if (aC3D.IsNull()) {
@@ -231,11 +230,8 @@ void ProcessEdge(const TopoDS_Edge& aE, const Standard_Real aTolTreshold)
   const TopLoc_Location& Eloc = aE.Location();
   //
   aTolMax2=-1.e6;
-  const BRep_ListOfCurveRepresentation& aLCR=TE->Curves();
   //
-  itcr.Initialize(aLCR);
-  for (; itcr.More(); itcr.Next()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
     const TopLoc_Location& loc = cr->Location();
     TopLoc_Location L = (Eloc * loc);//.Predivided(aV.Location());
     //
@@ -337,10 +333,7 @@ void ProcessVertex(const TopoDS_Vertex& aV,
 	continue;
       }
       //
-      const BRep_ListOfCurveRepresentation& aLCR=TE->Curves();
-      itcr.Initialize(aLCR);
-      for (; itcr.More(); itcr.Next()) {
-	const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+      for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
 	const TopLoc_Location& loc = cr->Location();
 	TopLoc_Location L = (Eloc * loc).Predivided(aV.Location());
 	//
@@ -530,11 +523,7 @@ void PreparePCurves(const TopoDS_Shape& aShape, Draw_Interpretor& di)
       // Map of surfaces on which the edge lays .
       TColStd_IndexedMapOfTransient aSCRMap;
       Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&aE.TShape());
-      const BRep_ListOfCurveRepresentation& aLCR=TE->Curves();
-      BRep_ListIteratorOfListOfCurveRepresentation itcr;
-      itcr.Initialize(aLCR);
-      for (; itcr.More(); itcr.Next()) {
-	const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+      for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
 	//
 	if (cr->IsCurveOnSurface()) {
 	  const Handle(Geom_Surface)& aSCR=cr->Surface();

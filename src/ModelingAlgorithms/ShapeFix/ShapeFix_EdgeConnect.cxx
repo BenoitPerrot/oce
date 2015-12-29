@@ -149,8 +149,7 @@ void ShapeFix_EdgeConnect::Add (const TopoDS_Shape& aShape)
 void ShapeFix_EdgeConnect::Build ()
 {
   TopTools_ListIteratorOfListOfShape theLIterator;
-  BRep_ListIteratorOfListOfCurveRepresentation theCIterator;
-
+  
   TColgp_SequenceOfXYZ thePositions;
   gp_XYZ thePosition;
   Standard_Real theMaxDev;
@@ -181,9 +180,8 @@ void ShapeFix_EdgeConnect::Build ()
       Standard_Boolean use_end   = ( theVertex.IsSame( theEnd ) );
       
       // Iterate on edge curves, accumulating positions
-      for (theCIterator.Initialize((*((Handle(BRep_TEdge)*)&theEdge.TShape()))->ChangeCurves());
-	   theCIterator.More(); theCIterator.Next()) {
-	Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(theCIterator.Value());
+      for (auto cr : (*((Handle(BRep_TEdge)*)&theEdge.TShape()))->ChangeCurves()) {
+	Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
 	if ( GC.IsNull() ) continue;
 	// Calculate vertex position for this curve
 	Standard_Real theFParam, theLParam;

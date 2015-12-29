@@ -2341,7 +2341,7 @@ Standard_Boolean IsSmallClosedEdge(const TopoDS_Edge& anEdge,
 
   Handle(Geom2d_Curve) PCurve;
   Handle( BRep_CurveRepresentation ) CurveRep =
-    ((Handle(BRep_TEdge)::DownCast(anEdge.TShape()))->Curves()).First();
+    ((Handle(BRep_TEdge)::DownCast(anEdge.TShape()))->Curves()).front();
   PCurve = CurveRep->PCurve();
 
   Standard_Real fpar = (Handle(BRep_GCurve)::DownCast(CurveRep))->First();

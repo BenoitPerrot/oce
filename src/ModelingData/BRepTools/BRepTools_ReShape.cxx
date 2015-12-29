@@ -66,9 +66,8 @@ static void CopyRanges (const TopoDS_Edge& toedge,
       B.Range ( toedge, GC->Surface(), fromedge.Location().Multiplied (GC->Location()), first, last);
   }
 */
-  for (BRep_ListIteratorOfListOfCurveRepresentation fromitcr
-       ((*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()); fromitcr.More(); fromitcr.Next()) {
-    Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromitcr.Value());
+  for (auto fromCR : (*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()) {
+    Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromCR);
     if ( fromGC.IsNull() ) continue;
     Standard_Boolean isC3d = fromGC->IsCurve3D();
     if(isC3d) {
@@ -85,10 +84,8 @@ static void CopyRanges (const TopoDS_Edge& toedge,
       L = fromGC->Location();
     } 
 
-    BRep_ListOfCurveRepresentation& tolist = (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves();
-    Handle(BRep_GCurve) toGC;
-    for (BRep_ListIteratorOfListOfCurveRepresentation toitcr (tolist); toitcr.More(); toitcr.Next()) {
-      toGC = Handle(BRep_GCurve)::DownCast(toitcr.Value());
+    for (auto toCR : (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves()) {
+      Handle(BRep_GCurve) toGC = Handle(BRep_GCurve)::DownCast(toCR);
       if ( toGC.IsNull() ) continue;
       if ( isC3d ) {
 	if ( ! toGC->IsCurve3D() ) continue;

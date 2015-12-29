@@ -327,10 +327,8 @@ void ShapeAnalysis_TransferParametersProj::TransferRange(TopoDS_Edge& newEdge,
   ShapeAnalysis_Curve sac;
   gp_Pnt pproj;
   Standard_Real ppar1,ppar2;
-  BRep_ListOfCurveRepresentation& tolist = (*((Handle(BRep_TEdge)*)&newEdge.TShape()))->ChangeCurves();
-  Handle(BRep_GCurve) toGC;
-  for (BRep_ListIteratorOfListOfCurveRepresentation toitcr (tolist); toitcr.More(); toitcr.Next()) {
-    toGC = Handle(BRep_GCurve)::DownCast(toitcr.Value());
+  for (auto toCR : (*((Handle(BRep_TEdge)*)&newEdge.TShape()))->ChangeCurves()) {
+    Handle(BRep_GCurve) toGC = Handle(BRep_GCurve)::DownCast(toCR);
     if ( toGC.IsNull() ) continue;
     TopLoc_Location loc = ( EdgeLoc * toGC->Location() ).Inverted();
     if ( toGC->IsCurve3D() ) {
@@ -528,11 +526,8 @@ TopoDS_Vertex ShapeAnalysis_TransferParametersProj::CopyNMVertex (const TopoDS_V
     }
     else if(pr->IsPointOnCurveOnSurface()) {
       Standard_Boolean found = Standard_False;
-      BRep_ListIteratorOfListOfCurveRepresentation fromitcr
-	((*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves());
-      
-      for( ;fromitcr.More() && !found; fromitcr.Next()) {
-	Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromitcr.Value());
+      for (auto fromCR : (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves()) {
+	Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromCR);
 	if ( fromGC.IsNull() || !fromGC->IsCurveOnSurface()) continue;
 	
 	TopLoc_Location aL = fromGC->Location();
@@ -574,18 +569,15 @@ TopoDS_Vertex ShapeAnalysis_TransferParametersProj::CopyNMVertex (const TopoDS_V
   Standard_Boolean needUpdate = Standard_False;
   gp_Pnt aPV = (*((Handle(BRep_TVertex)*)&anewV.TShape()))->Pnt();
   TopLoc_Location toLoc = toedge.Location();
-  BRep_ListIteratorOfListOfCurveRepresentation toitcr
-	((*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves());
-      
-  for( ;toitcr.More() ; toitcr.Next()) {
-	Handle(BRep_GCurve) toGC = Handle(BRep_GCurve)::DownCast(toitcr.Value());
-	if ( toGC.IsNull() || !toGC->IsCurveOnSurface()) continue;
+  for (auto toCR : (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves()) {
+    Handle(BRep_GCurve) toGC = Handle(BRep_GCurve)::DownCast(toCR);
+    if ( toGC.IsNull() || !toGC->IsCurveOnSurface()) continue;
 	
-	TopLoc_Location aL = (toLoc*toGC->Location()).Predivided(theV.Location());
-	//aL.Predivided(theV.Location());
-	Handle(Geom_Surface) surface1 = toGC->Surface();
-	Handle(Geom2d_Curve) ac2d1 = toGC->PCurve();
-	gp_Pnt2d aP2d = ac2d1->Value(apar);
+    TopLoc_Location aL = (toLoc*toGC->Location()).Predivided(theV.Location());
+    //aL.Predivided(theV.Location());
+    Handle(Geom_Surface) surface1 = toGC->Surface();
+    Handle(Geom2d_Curve) ac2d1 = toGC->PCurve();
+    gp_Pnt2d aP2d = ac2d1->Value(apar);
     gp_Pnt aP3d = surface1->Value(aP2d.X(),aP2d.Y());
     aP3d.Transform(aL.Transformation());
     Standard_Real adist = aPV.Distance(aP3d);

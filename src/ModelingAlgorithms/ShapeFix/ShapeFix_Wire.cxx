@@ -1718,14 +1718,9 @@ static Standard_Boolean TryNewPCurve (const TopoDS_Edge &E, const TopoDS_Face &f
 static Standard_Integer howMuchPCurves (const TopoDS_Edge &E)
 {
   Standard_Integer count = 0;
-  BRep_ListIteratorOfListOfCurveRepresentation itcr
-    ((*((Handle(BRep_TEdge)*)&E.TShape()))->ChangeCurves());
-
-  while (itcr.More()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : (*((Handle(BRep_TEdge)*)&E.TShape()))->ChangeCurves()) {
     if ( cr->IsCurveOnSurface() )
       count++;
-    itcr.Next();
   }
     
   return count;
@@ -3096,9 +3091,8 @@ static void CopyReversePcurves(const TopoDS_Edge& toedge,
 {
   TopLoc_Location fromLoc = fromedge.Location();
   TopLoc_Location toLoc = toedge.Location();
-  for (BRep_ListIteratorOfListOfCurveRepresentation fromitcr
-       ((*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()); fromitcr.More(); fromitcr.Next()) {
-    Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromitcr.Value());
+  for (auto fromCR : (*((Handle(BRep_TEdge)*)&fromedge.TShape()))->ChangeCurves()) {
+    Handle(BRep_GCurve) fromGC = Handle(BRep_GCurve)::DownCast(fromCR);
     if ( fromGC.IsNull() ) continue;
     if ( fromGC->IsCurveOnSurface() ) {
       Handle(Geom_Surface) surface = fromGC->Surface();
@@ -3106,8 +3100,8 @@ static void CopyReversePcurves(const TopoDS_Edge& toedge,
       Standard_Boolean found = Standard_False;
       BRep_ListOfCurveRepresentation& tolist = (*((Handle(BRep_TEdge)*)&toedge.TShape()))->ChangeCurves();
       Handle(BRep_GCurve) toGC;
-      for (BRep_ListIteratorOfListOfCurveRepresentation toitcr (tolist); toitcr.More() && !found; toitcr.Next()) {
-	toGC = Handle(BRep_GCurve)::DownCast(toitcr.Value());
+      for (auto toCR : tolist) {
+	toGC = Handle(BRep_GCurve)::DownCast(toCR);
 	if ( toGC.IsNull() || !toGC->IsCurveOnSurface() || 
 	    surface != toGC->Surface() || L != toGC->Location() ) continue;
 	found = Standard_True;
@@ -3117,7 +3111,7 @@ static void CopyReversePcurves(const TopoDS_Edge& toedge,
 	Standard_Real fp = fromGC->First();
 	Standard_Real lp = fromGC->Last();
 	toGC = Handle(BRep_GCurve)::DownCast(fromGC->Copy());
-	tolist.Append (toGC);
+	tolist.push_back(toGC);
 	Handle(Geom2d_Curve) pcurve = Handle(Geom2d_Curve)::DownCast( fromGC->PCurve()->Copy() );
 	if (reverse) {
 	  fp = pcurve->ReversedParameter(fp);

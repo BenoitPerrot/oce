@@ -168,9 +168,8 @@ Standard_Boolean ShapeCustom_ConvertToBSpline::NewCurve (const TopoDS_Edge& E,
   Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&E.TShape());
 
   // iterate on pcurves
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-  for ( ; itcr.More(); itcr.Next() ) {
-    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  for (auto cr : TE->Curves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
     if ( GC.IsNull() || ! GC->IsCurveOnSurface() ) continue;
     Handle(Geom_Surface) S = GC->Surface();
     Handle(Geom_Surface) ES;

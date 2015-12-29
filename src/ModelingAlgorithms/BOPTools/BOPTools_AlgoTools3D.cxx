@@ -655,10 +655,8 @@ Standard_Boolean HasGeometry(const TopoDS_Shape& aS)
   //
   else if (aType == TopAbs_EDGE) {
     Handle(BRep_TEdge) TE = Handle(BRep_TEdge)::DownCast(aS.TShape());
-    BRep_ListIteratorOfListOfCurveRepresentation itrc(TE->Curves());
 
-    while (itrc.More()) {
-      const Handle(BRep_CurveRepresentation)& CR = itrc.Value();
+    for (const Handle(BRep_CurveRepresentation)& CR : TE->Curves()) {
       if (CR->IsCurve3D()) {
         if (!CR->Curve3D().IsNull()) {
           return bHasGeometry;
@@ -679,7 +677,6 @@ Standard_Boolean HasGeometry(const TopoDS_Shape& aS)
       else if (CR->IsPolygonOnSurface()) {
         return bHasGeometry;
       }
-      itrc.Next();
     }
   }
   //

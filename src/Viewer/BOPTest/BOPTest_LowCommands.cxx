@@ -249,11 +249,7 @@ Handle(Geom2d_Curve) CurveOnSurface(const TopoDS_Edge& E,
   Standard_Boolean Eisreversed = (E.Orientation() == TopAbs_REVERSED);
 
   // find the representation
-  BRep_ListIteratorOfListOfCurveRepresentation itcr
-    ((*((Handle(BRep_TEdge)*)&E.TShape()))->ChangeCurves());
-
-  while (itcr.More()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : ((*((Handle(BRep_TEdge)*)&E.TShape()))->ChangeCurves())) {
     if (cr->IsCurveOnSurface(S,l)) {
       const Handle(BRep_GCurve)& GC = *((Handle(BRep_GCurve)*)&cr);
       GC->Range(First,Last);
@@ -262,7 +258,6 @@ Handle(Geom2d_Curve) CurveOnSurface(const TopoDS_Edge& E,
       else
         return GC->PCurve();
     }
-    itcr.Next();
   }
   return nullPCurve;
 }

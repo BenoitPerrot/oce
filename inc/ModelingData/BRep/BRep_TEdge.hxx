@@ -16,7 +16,6 @@
 #include <ModelingData/TopoDS/TopoDS_TEdge.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/Handle_TopoDS_TShape.hxx>
-class BRep_ListOfCurveRepresentation;
 class TopoDS_TShape;
 
 

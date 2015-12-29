@@ -261,19 +261,16 @@ void TNaming_TranslateTool::UpdateEdge
   TTE2->Degenerated(TTE1->Degenerated());
   
   // Representations
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TTE1->Curves());
   BRep_ListOfCurveRepresentation& lcr = TTE2->ChangeCurves();
-  lcr.Clear();
+  lcr.clear();
   Handle(BRep_CurveRepresentation) CR;
 
-  Handle(BRep_GCurve) GC;
   Standard_Real f, l;
-  while (itcr.More()) {
 
-    const Handle(BRep_CurveRepresentation)& CR = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& CR : TTE1->Curves()) {
     Handle(BRep_CurveRepresentation) CR2;
 
-    GC = Handle(BRep_GCurve)::DownCast(CR);
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
     if (!GC.IsNull()) { // (1)
       GC->Range(f, l);      
       // CurveRepresentation is Curve3D - (1a)
@@ -353,7 +350,6 @@ void TNaming_TranslateTool::UpdateEdge
 //    }
     else {
       // jumps the curve representation
-      itcr.Next();
       continue;
     }
     
@@ -363,8 +359,7 @@ void TNaming_TranslateTool::UpdateEdge
     Standard_NullObject_Raise_if (CR2.IsNull(), "Null CurveRepresentation");
     
 //    lcr.Prepend(CR2); // add
-    lcr.Append(CR2);
-    itcr.Next(); 
+    lcr.push_back(CR2);
   }
   
   UpdateShape(S1,S2);

@@ -373,11 +373,8 @@ static TopoDS_Edge GlueEdgesWithPCurves(const TopTools_SequenceOfShape& aChain,
   //TColGeom2d_SequenceOfCurve PCurveSeq;
   TColGeom_SequenceOfSurface SurfSeq;
   //TopTools_SequenceOfShape LocSeq;
-  
-  BRep_ListIteratorOfListOfCurveRepresentation itr( (Handle(BRep_TEdge)::DownCast(FirstEdge.TShape()))->Curves() );
-  for (; itr.More(); itr.Next())
-  {
-    Handle(BRep_CurveRepresentation) CurveRep = itr.Value();
+
+  for (Handle(BRep_CurveRepresentation) CurveRep : (Handle(BRep_TEdge)::DownCast(FirstEdge.TShape()))->Curves()) {
     if (CurveRep->IsCurveOnSurface())
     {
       //PCurveSeq.Append(CurveRep->PCurve());

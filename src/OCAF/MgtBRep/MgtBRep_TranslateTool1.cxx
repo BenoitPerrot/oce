@@ -625,17 +625,11 @@ void MgtBRep_TranslateTool1::UpdateEdge
   PTE->Degenerated(TTE->Degenerated());
   
   // Representations
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TTE->Curves());
-
   Handle(PBRep_CurveRepresentation) PCR, CPCR;
-  Handle(BRep_GCurve) GC;
   Standard_Real f, l;
 
-  while (itcr.More()) {
-
-    const Handle(BRep_CurveRepresentation)& CR = itcr.Value();
-    
-    GC = Handle(BRep_GCurve)::DownCast(CR);
+  for (const Handle(BRep_CurveRepresentation)& CR : TTE->Curves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
     if (!GC.IsNull()) {
       GC->Range(f, l);
 
@@ -768,7 +762,6 @@ void MgtBRep_TranslateTool1::UpdateEdge
     }
     else {
       // jumps the curve representation
-      itcr.Next();
       continue;
     }
     
@@ -776,7 +769,6 @@ void MgtBRep_TranslateTool1::UpdateEdge
     
     CPCR->Next(PCR);
     PCR = CPCR;
-    itcr.Next();
   }
   
   // set
@@ -815,7 +807,7 @@ void MgtBRep_TranslateTool1::UpdateEdge
   Handle(PBRep_CurveRepresentation) PCR = PTE->Curves();
   BRep_ListOfCurveRepresentation& lcr = TTE->ChangeCurves();
 
-  lcr.Clear();
+  lcr.clear();
   Handle(BRep_CurveRepresentation) CR;
 
   while (!PCR.IsNull()) {
@@ -952,7 +944,7 @@ void MgtBRep_TranslateTool1::UpdateEdge
     
     Standard_NullObject_Raise_if (CR.IsNull(), "Persistant CurveRep is Null");
     
-    lcr.Prepend(CR); 
+    lcr.push_front(CR); 
     PCR = PCR->Next();
   }
   

@@ -197,13 +197,9 @@ static void Range3d (const TopoDS_Edge&  E,
 {
   //  set the range to all the representations
   const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &E.TShape());
-  
-  BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_GCurve) GC;
-  
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+
+  for (auto cr : TE->ChangeCurves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
     if (!GC.IsNull()) {
       if (GC->IsCurve3D()) {
 	GC->SetRange(First,Last);
@@ -216,7 +212,6 @@ static void Range3d (const TopoDS_Edge&  E,
 	}
       }
     }
-    itcr.Next();
   }
 
   TE->Modified(Standard_True);

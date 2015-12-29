@@ -1052,11 +1052,7 @@ static void ReconstructPCurves(const TopoDS_Edge& anEdge)
   Standard_Real f, l;
   Handle(Geom_Curve) C3d = BRep_Tool::Curve(anEdge, f, l);
 
-  BRep_ListIteratorOfListOfCurveRepresentation
-    itcr( (Handle(BRep_TEdge)::DownCast(anEdge.TShape()))->ChangeCurves() );
-  for (; itcr.More(); itcr.Next())
-    {
-      Handle( BRep_CurveRepresentation ) CurveRep = itcr.Value();
+  for (Handle( BRep_CurveRepresentation ) CurveRep : (Handle(BRep_TEdge)::DownCast(anEdge.TShape()))->ChangeCurves()) {
       if (CurveRep->IsCurveOnSurface())
 	{
 	  Handle(Geom_Surface) theSurf  = CurveRep->Surface();

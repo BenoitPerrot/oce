@@ -160,13 +160,11 @@ void BRepCheck_Vertex::InContext(const TopoDS_Shape& S)
       Tol *= Tol;
 
       Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&E.TShape());
-      BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
       const TopLoc_Location& Eloc = E.Location();
 
       BRep_ListIteratorOfListOfPointRepresentation itpr;
-      while (itcr.More()) {
+      for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
 	// For each CurveRepresentation, the provided parameter is checked
-	const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
 	const TopLoc_Location& loc = cr->Location();
 	TopLoc_Location L = (Eloc * loc).Predivided(myShape.Location());
 
@@ -235,7 +233,6 @@ void BRepCheck_Vertex::InContext(const TopoDS_Shape& S)
 	    itpr.Next();
 	  }
 	}
-	itcr.Next();
       }
       if (myMap(S).IsEmpty()) {
 	myMap(S).Append(BRepCheck_NoError);

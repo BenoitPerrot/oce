@@ -158,7 +158,6 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
   myCref.Nullify();
 
   Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&myShape.TShape());
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
   Standard_Boolean Degenerated, SameParameter, SameRange;
 
   Standard_Integer unique = 0;
@@ -171,15 +170,13 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
     return;
   }
 
-  while (itcr.More()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
     if (cr->IsCurve3D()) {
       unique++;
       if (myCref.IsNull() && !cr->Curve3D().IsNull()) {
         myCref = cr;
       }
     }
-    itcr.Next();
   }
   
   if (unique==0) {
@@ -190,14 +187,11 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
   }
 
   if (myCref.IsNull() && !Degenerated) {
-    itcr.Initialize(TE->Curves());
-    while (itcr.More()) {
-      const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+    for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
       if (cr->IsCurveOnSurface()) {
         myCref = cr;
         break;
       }
-      itcr.Next();
     }
   }
   
@@ -253,9 +247,7 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
     TopLoc_Location L = (Floc * TFloc).Predivided(myShape.Location());
     Standard_Boolean pcurvefound = Standard_False;
 
-    itcr.Initialize(TE->Curves());
-    while (itcr.More()) {
-      const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+    for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
       if (cr != myCref && cr->IsCurveOnSurface(Su,L)) {
         pcurvefound = Standard_True;
         const Handle(BRep_GCurve)& GC = *((Handle(BRep_GCurve)*)&cr);
@@ -289,7 +281,6 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
           }
         }
       }
-      itcr.Next();
     }
     
     if (!pcurvefound) {
@@ -478,9 +469,7 @@ void CheckEdge (const TopoDS_Edge& Ed, const Standard_Real aMaxTol)
     BRep_ListIteratorOfListOfPointRepresentation itpr;
     
     Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&E.TShape());
-    BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-    while (itcr.More()) {
-      const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+    for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
       const TopLoc_Location& loc = cr->Location();
       TopLoc_Location L = (Eloc * loc).Predivided(aVertex.Location());
       
@@ -523,7 +512,6 @@ void CheckEdge (const TopoDS_Edge& Ed, const Standard_Real aMaxTol)
           }
         }
       }
-      itcr.Next();
     }
   }
 }

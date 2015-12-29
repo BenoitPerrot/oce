@@ -133,15 +133,13 @@ Handle(TopoDS_TShape) BRep_TEdge::EmptyCopy() const
   TE->Tolerance(myTolerance);
   // copy the curves representations
   BRep_ListOfCurveRepresentation& l = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itr(myCurves);
-  
-  while (itr.More()) {
+
+  for (auto cr : myCurves) {
     // on ne recopie PAS les polygones
-    if ( itr.Value()->IsKind(STANDARD_TYPE(BRep_GCurve)) ||
-         itr.Value()->IsKind(STANDARD_TYPE(BRep_CurveOn2Surfaces)) ) {
-      l.Append(itr.Value()->Copy());
+    if (cr->IsKind(STANDARD_TYPE(BRep_GCurve)) ||
+	cr->IsKind(STANDARD_TYPE(BRep_CurveOn2Surfaces)) ) {
+      l.push_back(cr->Copy());
     }
-    itr.Next();
   }
 
   TE->Degenerated(Degenerated());

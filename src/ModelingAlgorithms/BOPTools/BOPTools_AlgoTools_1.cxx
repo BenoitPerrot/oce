@@ -561,7 +561,6 @@ void CheckEdge (const TopoDS_Edge& Ed,
   //
   TopAbs_Orientation aOrV;
   BRep_ListIteratorOfListOfPointRepresentation aItPR;
-  BRep_ListIteratorOfListOfCurveRepresentation aItCR;
   //
   aE=Ed;
   aE.Orientation(TopAbs_FORWARD);
@@ -583,9 +582,7 @@ void CheckEdge (const TopoDS_Edge& Ed,
     //
     const TopLoc_Location& Eloc = aE.Location();
     //
-    aItCR.Initialize(TE->Curves());
-    while (aItCR.More()) {
-      const Handle(BRep_CurveRepresentation)& aCR = aItCR.Value();
+    for (const Handle(BRep_CurveRepresentation)& aCR : TE->Curves()) {
       const TopLoc_Location& loc = aCR->Location();
       L = (Eloc * loc).Predivided(aV.Location());
       //
@@ -629,8 +626,7 @@ void CheckEdge (const TopoDS_Edge& Ed,
           }
         }
       }
-      aItCR.Next();
-    }//  while (itcr.More()) {  
+    }
   } // for (; aVExp.More(); aVExp.Next()) {
 }
 //=======================================================================
@@ -785,7 +781,6 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
   myCref.Nullify();
 
   Handle(BRep_TEdge)& TEx = *((Handle(BRep_TEdge)*)&myShape.TShape());
-  BRep_ListIteratorOfListOfCurveRepresentation itcrx(TEx->Curves());
   Standard_Boolean Degenerated, SameParameterx, SameRangex;
 
   Standard_Integer unique = 0;
@@ -799,15 +794,13 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
   }
 
   Handle(Geom_Curve) C3d;
-  while (itcrx.More()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcrx.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : TEx->Curves()) {
     if (cr->IsCurve3D()) {
       unique++;
       if (myCref.IsNull() && !cr->Curve3D().IsNull()) {
         myCref = cr;
       }
     }
-    itcrx.Next();
   }
   
   if (unique==0) {
@@ -818,14 +811,11 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
   }
 
   if (myCref.IsNull() && !Degenerated) {
-    itcrx.Initialize(TEx->Curves());
-    while (itcrx.More()) {
-      const Handle(BRep_CurveRepresentation)& cr = itcrx.Value();
+    for (const Handle(BRep_CurveRepresentation)& cr : TEx->Curves()) {
       if (cr->IsCurveOnSurface()) {
         myCref = cr;
         break;
       }
-      itcrx.Next();
     }
   }
   
@@ -890,9 +880,7 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
     TopLoc_Location L = (Floc * TFloc).Predivided(myShape.Location());
     Standard_Boolean pcurvefound = Standard_False;
 
-    BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-    while (itcr.More()) {
-      const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+    for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
       if (cr != myCref && cr->IsCurveOnSurface(Su,L)) {
         pcurvefound = Standard_True;
         const Handle(BRep_GCurve)& GC = *((Handle(BRep_GCurve)*)&cr);
@@ -935,7 +923,6 @@ void CorrectEdgeTolerance (const TopoDS_Edge& myShape,
           }
         }
       }
-      itcr.Next();
     }
     
     if (!pcurvefound) {
@@ -1315,9 +1302,7 @@ Standard_Boolean BOPTools_AlgoTools::ComputeTolerance
     DownCast(aSurfF->Copy()->Transformed(aLocS.Transformation()));
   //
   Standard_Boolean isPCurveFound = Standard_False;
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(aTE->Curves());
-  for (; itcr.More(); itcr.Next()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : aTE->Curves()) {
     if (!(cr->IsCurveOnSurface(aSurfF, aLocS.Predivided(theEdge.Location())))) {
       continue;
     }

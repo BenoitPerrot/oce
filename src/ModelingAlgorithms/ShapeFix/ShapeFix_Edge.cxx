@@ -342,12 +342,8 @@ static void Range3d (const TopoDS_Edge& E,
   //  set the range to all the representations
   const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &E.TShape());
   
-  BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_GCurve) GC;
-  
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  for (auto cr : TE->ChangeCurves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
     if (!GC.IsNull()) {
       if (GC->IsCurve3D()) {
 	GC->SetRange(First,Last);
@@ -359,7 +355,6 @@ static void Range3d (const TopoDS_Edge& E,
 	}
       }
     }
-    itcr.Next();
   }
 
   TE->Modified(Standard_True);
@@ -377,9 +372,6 @@ static void Range3d (const TopoDS_Edge& E,
  static void TempSameRange(const TopoDS_Edge& AnEdge,
 			   const Standard_Real Tolerance) 
 {
-  BRep_ListIteratorOfListOfCurveRepresentation an_Iterator
-    ((*((Handle(BRep_TEdge)*)&AnEdge.TShape()))->ChangeCurves());
-  
   Handle(Geom2d_Curve) Curve2dPtr, NewCurve2dPtr;
   Handle(Geom2d_Curve) Curve2dPtr2, NewCurve2dPtr2;
   TopLoc_Location LocalLoc ;
@@ -393,9 +385,8 @@ static void Range3d (const TopoDS_Edge& E,
 						current_first, current_last);
   if (!C.IsNull()) first_time_in = Standard_False;
   
-  while (an_Iterator.More()) {
-    geometric_representation_ptr =
-      Handle(BRep_GCurve)::DownCast(an_Iterator.Value());
+  for (auto cr : (*((Handle(BRep_TEdge)*)&AnEdge.TShape()))->ChangeCurves()) {
+    geometric_representation_ptr = Handle(BRep_GCurve)::DownCast(cr);
     if (! geometric_representation_ptr.IsNull()) {
       has_closed_curve = has_curve = Standard_False;
       first = geometric_representation_ptr->First();
@@ -474,7 +465,6 @@ static void Range3d (const TopoDS_Edge& E,
 	}
       }
     }
-    an_Iterator.Next();
   }
   BRep_Builder B;
   B.Range(TopoDS::Edge(AnEdge), current_first, current_last);

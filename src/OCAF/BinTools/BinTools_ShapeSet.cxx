@@ -228,10 +228,7 @@ void BinTools_ShapeSet::AddGeometry(const TopoDS_Shape& S)
 
     // Add the curve geometry
     Handle(BRep_TEdge) TE = Handle(BRep_TEdge)::DownCast(S.TShape());
-    BRep_ListIteratorOfListOfCurveRepresentation itrc(TE->Curves());
-
-    while (itrc.More()) {
-      const Handle(BRep_CurveRepresentation)& CR = itrc.Value();
+    for (const Handle(BRep_CurveRepresentation)& CR : TE->Curves()) {
       if (CR->IsCurve3D()) {
         if (!CR->Curve3D().IsNull()) {
           myCurves.Add(CR->Curve3D());
@@ -273,7 +270,6 @@ void BinTools_ShapeSet::AddGeometry(const TopoDS_Shape& S)
           myPolygons2D.Add(CR->Polygon2());
         }
       }
-      itrc.Next();
     }
   }
 
@@ -619,12 +615,10 @@ void  BinTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
       BinTools::PutBool(OS, aVal);
       
       Standard_Real first, last;
-      BRep_ListIteratorOfListOfCurveRepresentation itrc = TE->Curves();
-      while (itrc.More()) {
-	const Handle(BRep_CurveRepresentation)& CR = itrc.Value();
+      for (const Handle(BRep_CurveRepresentation)& CR : TE->Curves()) {
 	if (CR->IsCurve3D()) {
 	  if (!CR->Curve3D().IsNull()) {
-	    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itrc.Value());
+	    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
 	    GC->Range(first, last);
 	    OS << (Standard_Byte)1;//CURVE_3D;
 	    BinTools::PutInteger(OS, myCurves.Index(CR->Curve3D()));
@@ -634,7 +628,7 @@ void  BinTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
 	  }
 	}
 	else if (CR->IsCurveOnSurface()) {
-	  Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itrc.Value());
+	  Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
 	  GC->Range(first, last);
 	  if (!CR->IsCurveOnClosedSurface())
 // -2- Curve on surf
@@ -685,7 +679,7 @@ void  BinTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
 
 	else if (myWithTriangles) { 
 	  if (CR->IsPolygon3D()) {
-	    Handle(BRep_Polygon3D) GC = Handle(BRep_Polygon3D)::DownCast(itrc.Value());
+	    Handle(BRep_Polygon3D) GC = Handle(BRep_Polygon3D)::DownCast(CR);
 	    if (!GC->Polygon3D().IsNull()) {
 // -5- Polygon3D
 	      OS << (Standard_Byte)5;
@@ -695,7 +689,7 @@ void  BinTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
 	  }
 	  else if (CR->IsPolygonOnTriangulation()) {
 	    Handle(BRep_PolygonOnTriangulation) PT = 
-	      Handle(BRep_PolygonOnTriangulation)::DownCast(itrc.Value());
+	      Handle(BRep_PolygonOnTriangulation)::DownCast(CR);
 	    if (!CR->IsPolygonOnClosedTriangulation())
 // -6- Polygon on triangulation
 	      OS << (Standard_Byte)6;
@@ -711,8 +705,6 @@ void  BinTools_ShapeSet::WriteGeometry(const TopoDS_Shape& S,
 	    BinTools::PutInteger(OS, Locations().Index(CR->Location()));
 	  }
 	}
-	
-	itrc.Next();
       }
 //   OS << "0\n"; // end of the list of representations
 

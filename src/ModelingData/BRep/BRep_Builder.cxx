@@ -72,33 +72,28 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
                          const Handle(Geom_Curve)&       C,
                          const TopLoc_Location&          L)
 {
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
   Handle(BRep_GCurve) GC;
   Standard_Real f = 0.,l = 0.;
 
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  for (auto cr : lcr) {
+    GC = Handle(BRep_GCurve)::DownCast(cr);
     if (!GC.IsNull()) {
       GC->Range(f, l);
-      if (GC->IsCurve3D()) break;
-
+      if (GC->IsCurve3D()) {
+	cr->Curve3D(C);
+	cr->Location(L);
+	return;
+      }
     }
-    itcr.Next();
   }
 
-  if (itcr.More()) {
-    itcr.Value()->Curve3D(C);
-    itcr.Value()->Location(L);
+#warning Range may not be set
+  Handle(BRep_Curve3D) C3d = new BRep_Curve3D(C,L);
+  // test if there is already a range
+  if (!GC.IsNull()) {
+    C3d->SetRange(f,l);
   }
-  else {
-    Handle(BRep_Curve3D) C3d = new BRep_Curve3D(C,L);
-    // test if there is already a range
-    if (!GC.IsNull()) {
-      C3d->SetRange(f,l);
-    }
-    lcr.Append(C3d);
-  }
-  
+  lcr.push_back(C3d);
 }
 
 //=======================================================================
@@ -113,17 +108,16 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
                          const Handle(Geom_Surface)& S,
                          const TopLoc_Location& L)
 {
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
   Handle(BRep_CurveRepresentation) cr;
-  Handle(BRep_GCurve) GC;
   Standard_Real f = 0.,l = 0.;
   Standard_Boolean rangeFound = Standard_False;
 
   // search the range of the 3d curve
   // and remove any existing representation
 
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
+  while (itcr != end(lcr)) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(*itcr);
     if (!GC.IsNull()) {
       if (GC->IsCurve3D()) {
 //      if (!C.IsNull()) { //xpu031198, edge degeneree
@@ -141,18 +135,19 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
         }
       }
       if (GC->IsCurveOnSurface(S,L)) {
+#warning Unsafe assumption
         // remove existing curve on surface
         // cr is used to keep a reference on the curve representation
         // this avoid deleting it as its content may be referenced by C or S
-        cr = itcr.Value();
-        lcr.Remove(itcr);
+        cr = *itcr;
+        itcr = lcr.erase(itcr);
       }
       else {
-        itcr.Next();
+        ++itcr;
       }
     }
     else {
-      itcr.Next();
+      ++itcr;
     }
   }
 
@@ -162,7 +157,7 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
     if (rangeFound) {
       COS->SetRange(f,l);
     }
-    lcr.Append(COS);
+    lcr.push_back(COS);
   }
 }
 
@@ -179,17 +174,16 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
                          const gp_Pnt2d& Pf,
                          const gp_Pnt2d& Pl)
 {
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
   Handle(BRep_CurveRepresentation) cr;
-  Handle(BRep_GCurve) GC;
   Standard_Real f = 0.,l = 0.;
   Standard_Boolean rangeFound = Standard_False;
 
   // search the range of the 3d curve
   // and remove any existing representation
-
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+#warning very similar to block at line 119
+  while (itcr != end(lcr)) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(*itcr);
     if (!GC.IsNull()) {
       if (GC->IsCurve3D()) {
 //      if (!C.IsNull()) { //xpu031198, edge degeneree
@@ -207,18 +201,19 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
         }
       }
       if (GC->IsCurveOnSurface(S,L)) {
+#warning Unsafe assumption
         // remove existing curve on surface
         // cr is used to keep a reference on the curve representation
         // this avoid deleting it as its content may be referenced by C or S
-        cr = itcr.Value();
-        lcr.Remove(itcr);
+        cr = *itcr;
+        itcr = lcr.erase(itcr);
       }
       else {
-        itcr.Next();
+        ++itcr;
       }
     }
     else {
-      itcr.Next();
+      ++itcr;
     }
   }
 
@@ -229,7 +224,7 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
       COS->SetRange(f,l);
     }
     COS->SetUVPoints(Pf,Pl);
-    lcr.Append(COS);
+    lcr.push_back(COS);
   }
 }
 
@@ -246,26 +241,27 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
                          const Handle(Geom_Surface)& S,
                          const TopLoc_Location& L)
 {
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_CurveRepresentation) cr;
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
   Handle(BRep_GCurve) GC;
+  Handle(BRep_CurveRepresentation) cr;
   Standard_Real f = 0.,l = 0.;
 
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  while (itcr != end(lcr)) {
+    GC = Handle(BRep_GCurve)::DownCast(*itcr);
     if ( !GC.IsNull() ) {
       GC->Range(f,l);
       Standard_Boolean iscos = GC->IsCurveOnSurface(S,L);
       if (iscos) break;
     }
-    itcr.Next();
+    ++itcr;
   }
 
-  if (itcr.More())  {
+  if (itcr != end(lcr))  {
+#warning Unsafe assumption
     // cr is used to keep a reference on the curve representation
     // this avoid deleting it as its content may be referenced by C or S
-    cr = itcr.Value();
-    lcr.Remove(itcr);
+    cr = *itcr;
+    itcr = lcr.erase(itcr);
   }
 
   if ( !C1.IsNull() && !C2.IsNull() ) {
@@ -275,7 +271,7 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
     if (!GC.IsNull()) {
       COS->SetRange(f,l);
     }
-    lcr.Append(COS);
+    lcr.push_back(COS);
   }
 }
 
@@ -293,26 +289,27 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
                          const gp_Pnt2d& Pf,
                          const gp_Pnt2d& Pl)
 {
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_CurveRepresentation) cr;
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
   Handle(BRep_GCurve) GC;
+  Handle(BRep_CurveRepresentation) cr;
   Standard_Real f = 0.,l = 0.;
 
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  while (itcr != end(lcr)) {
+    GC = Handle(BRep_GCurve)::DownCast(*itcr);
     if ( !GC.IsNull() ) {
       GC->Range(f,l);
       Standard_Boolean iscos = GC->IsCurveOnSurface(S,L);
       if (iscos) break;
     }
-    itcr.Next();
+    ++itcr;
   }
 
-  if (itcr.More())  {
+  if (itcr != end(lcr))  {
+#warning Unsafe assumption
     // cr is used to keep a reference on the curve representation
     // this avoid deleting it as its content may be referenced by C or S
-    cr = itcr.Value();
-    lcr.Remove(itcr);
+    cr = *itcr;
+    itcr = lcr.erase(itcr);
   }
 
   if ( !C1.IsNull() && !C2.IsNull() ) {
@@ -323,7 +320,7 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
       COS->SetRange(f,l);
     }
     COS->SetUVPoints2(Pf,Pl);
-    lcr.Append(COS);
+    lcr.push_back(COS);
   }
 }
 
@@ -335,22 +332,23 @@ static void UpdateCurves(BRep_ListOfCurveRepresentation& lcr,
                          const TopLoc_Location& L2,
                          const GeomAbs_Shape C)
 {
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  while (itcr.More()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
+  while (itcr != end(lcr)) {
+    const Handle(BRep_CurveRepresentation)& cr = *itcr;
     Standard_Boolean isregu = cr->IsRegularity(S1,S2,L1,L2);
     if (isregu) break;
-    itcr.Next();
+#warning Control flow can be simplified
+    ++itcr;
   }
   
-  if (itcr.More()) {
-    Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  if (itcr != end(lcr)) {
+    Handle(BRep_CurveRepresentation)& cr = *itcr;
     cr->Continuity(C);
   }
   else {
     Handle(BRep_CurveOn2Surfaces) COS = new BRep_CurveOn2Surfaces
       (S1,S2,L1,L2,C);
-    lcr.Append(COS);
+    lcr.push_back(COS);
   }
 }
 
@@ -733,25 +731,25 @@ void  BRep_Builder::UpdateEdge(const TopoDS_Edge& E,
     TopoDS_LockedShape::Raise("BRep_Builder::UpdateEdge");
   }
   BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
 
-  while (itcr.More())
+  while (itcr != end(lcr))
   {
-    if (itcr.Value()->IsPolygon3D())
+    if ((*itcr)->IsPolygon3D())
     {
       if (P.IsNull())
-        lcr.Remove(itcr);
+        itcr = lcr.erase(itcr);
       else
-        itcr.Value()->Polygon3D(P);
+        (*itcr)->Polygon3D(P);
       TE->Modified(Standard_True);
       return;
     }
-    itcr.Next();
+    ++itcr;
   }
 
   const TopLoc_Location l = L.Predivided(E.Location());
   Handle(BRep_Polygon3D) P3d = new BRep_Polygon3D(P,l);
-  lcr.Append(P3d);
+  lcr.push_back(P3d);
 
   TE->Modified(Standard_True);
 }
@@ -777,28 +775,30 @@ void  BRep_Builder::UpdateEdge(const TopoDS_Edge& E,
   Standard_Boolean isModified = Standard_False;
 
   BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
   Handle(BRep_CurveRepresentation) cr;
 
-  while (itcr.More())
+  while (itcr != end(lcr))
   {
-    if (itcr.Value()->IsPolygonOnTriangulation(T,l))
+    if ((*itcr)->IsPolygonOnTriangulation(T,l))
 	{
+#warning Unsafe assumption
       // cr is used to keep a reference on the curve representation
       // this avoid deleting it as its content may be referenced by T
-      cr = itcr.Value();
-      lcr.Remove(itcr);
+      cr = *itcr;
+      itcr = lcr.erase(itcr);
       isModified = Standard_True;
+#warning Control flow can be simplified
       break;
 	}
-    itcr.Next();
+    ++itcr;
   }
 
   if (!P.IsNull())
   {
     Handle(BRep_PolygonOnTriangulation) PT =
       new BRep_PolygonOnTriangulation(P,T,l);
-    lcr.Append(PT);
+    lcr.push_back(PT);
     isModified = Standard_True;
   }
   
@@ -828,28 +828,29 @@ void  BRep_Builder::UpdateEdge(const TopoDS_Edge& E,
   Standard_Boolean isModified = Standard_False;
 
   BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
   Handle(BRep_CurveRepresentation) cr;
 
-  while (itcr.More())
+  while (itcr != end(lcr))
   {
-    if (itcr.Value()->IsPolygonOnTriangulation(T,l)) //szv:was L
+    if ((*itcr)->IsPolygonOnTriangulation(T,l)) //szv:was L
     {
+#warning Unsafe assumption
       // cr is used to keep a reference on the curve representation
       // this avoid deleting it as its content may be referenced by T
-      cr = itcr.Value();
-      lcr.Remove(itcr);
+      cr = *itcr;
+      itcr = lcr.erase(itcr);
       isModified = Standard_True;
       break;
     }
-    itcr.Next();
+    ++itcr;
   }
 
   if (!P1.IsNull() && !P2.IsNull())
   {
     Handle(BRep_PolygonOnClosedTriangulation) PT =
       new BRep_PolygonOnClosedTriangulation(P1,P2,T,l);
-    lcr.Append(PT);
+    lcr.push_back(PT);
     isModified = Standard_True;
   }
 
@@ -891,23 +892,24 @@ void  BRep_Builder::UpdateEdge(const TopoDS_Edge&            E,
   BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
   Handle(BRep_CurveRepresentation) cr;
 
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  while (itcr.More()) {
-    if (itcr.Value()->IsPolygonOnSurface(S, l)) break;
-    itcr.Next();
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
+  while (itcr != end(lcr)) {
+    if ((*itcr)->IsPolygonOnSurface(S, l)) break;
+    ++itcr;
   }
 
-  if (itcr.More()) {
+  if (itcr != end(lcr)) {
+#warning Unsafe assumption
     // cr is used to keep a reference on the curve representation
     // this avoid deleting it as its content may be referenced by T
-    cr = itcr.Value();
-    lcr.Remove(itcr);
+    cr = *itcr;
+    itcr = lcr.erase(itcr);
   }
 
   if (!P.IsNull()) {
     Handle(BRep_PolygonOnSurface) PS =
       new BRep_PolygonOnSurface(P, S, l);
-    lcr.Append(PS);
+    lcr.push_back(PS);
   }
 
   TE->Modified(Standard_True);
@@ -949,23 +951,24 @@ void  BRep_Builder::UpdateEdge(const TopoDS_Edge&            E,
   BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
   Handle(BRep_CurveRepresentation) cr;
 
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  while (itcr.More()) {
-    if (itcr.Value()->IsPolygonOnSurface(S, l)) break;
-    itcr.Next();
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
+  while (itcr != end(lcr)) {
+    if ((*itcr)->IsPolygonOnSurface(S, l)) break;
+    ++itcr;
   }
 
-  if (itcr.More()) {
+  if (itcr != end(lcr)) {
+#warning Unsafe assumption
     // cr is used to keep a reference on the curve representation
     // this avoid deleting it as its content may be referenced by T
-    cr = itcr.Value();
-    lcr.Remove(itcr);
+    cr = *itcr;
+    itcr = lcr.erase(itcr);
   }
 
   if (!P1.IsNull() && !P2.IsNull()) {
     Handle(BRep_PolygonOnClosedSurface) PS =
       new BRep_PolygonOnClosedSurface(P1, P2, S, TopLoc_Location());
-    lcr.Append(PS);
+    lcr.push_back(PS);
   }
   
   TE->Modified(Standard_True);
@@ -1102,12 +1105,9 @@ void  BRep_Builder::Range(const TopoDS_Edge&  E,
   {
     TopoDS_LockedShape::Raise("BRep_Builder::Range");
   }
-  BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_GCurve) GC;
-  
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+
+  for (auto CR : TE->ChangeCurves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
     if (!GC.IsNull()) {
       if (!Only3d || GC->IsCurve3D())
 	GC->SetRange(First,Last);
@@ -1125,7 +1125,6 @@ void  BRep_Builder::Range(const TopoDS_Edge&  E,
         }
       }
     }
-    itcr.Next();
   }
   
   TE->Modified(Standard_True);
@@ -1149,13 +1148,12 @@ void  BRep_Builder::Range(const TopoDS_Edge& E,
     TopoDS_LockedShape::Raise("BRep_Builder::Range");
   }
   const TopLoc_Location l = L.Predivided(E.Location());
-
+#warning Control flow can be simplified
   BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_GCurve) GC;
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
 
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  while (itcr != end(lcr)) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(*itcr);
     if (!GC.IsNull()) {
       if (GC->IsCurveOnSurface(S,l)) {
         GC->SetRange(First,Last);
@@ -1171,10 +1169,10 @@ void  BRep_Builder::Range(const TopoDS_Edge& E,
         break;
       }
     }
-    itcr.Next();
+    ++itcr;
   }
   
-  if (!itcr.More())
+  if (itcr == end(lcr))
     Standard_DomainError::Raise("BRep_Builder::Range, no pcurve");
   
   TE->Modified(Standard_True);
@@ -1196,13 +1194,8 @@ void  BRep_Builder::Transfert(const TopoDS_Edge& Ein,
   }
   const Standard_Real tol = TE->Tolerance();
 
-  BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  
-  while (itcr.More()) {
-    
-    const Handle(BRep_CurveRepresentation)& CR = itcr.Value();
-    
+  for (const Handle(BRep_CurveRepresentation)& CR : TE->ChangeCurves()) {
+   
     if (CR->IsCurveOnSurface()) {
       UpdateEdge(Eout,
                  CR->PCurve(),
@@ -1226,8 +1219,6 @@ void  BRep_Builder::Transfert(const TopoDS_Edge& Ein,
                  Ein.Location() * CR->Location2(),
                  CR->Continuity());
     }
-    
-    itcr.Next();
   }
 }
 
@@ -1297,12 +1288,8 @@ void  BRep_Builder::UpdateVertex(const TopoDS_Vertex& V,
     itv.Next();
   }
 
-  BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_GCurve) GC;
-
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  for (auto CR : TE->ChangeCurves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(CR);
     if (!GC.IsNull()) {
       if (ori == TopAbs_FORWARD) 
         GC->First(Par);
@@ -1323,7 +1310,6 @@ void  BRep_Builder::UpdateVertex(const TopoDS_Vertex& V,
         }
       }
     }
-    itcr.Next();
   }
 
   if ((ori != TopAbs_FORWARD) && (ori != TopAbs_REVERSED))
@@ -1381,12 +1367,12 @@ void  BRep_Builder::UpdateVertex(const TopoDS_Vertex& V,
     itv.Next();
   }
 
+#warning Control can be simplified
   BRep_ListOfCurveRepresentation& lcr = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
-  Handle(BRep_GCurve) GC;
+  BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
 
-  while (itcr.More()) {
-    GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  while (itcr != end(lcr)) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(*itcr);
     if (!GC.IsNull()) {
 //      if (GC->IsCurveOnSurface(S,l)) {
       if (GC->IsCurveOnSurface(S,L)) { //xpu020198 : BUC60407
@@ -1403,10 +1389,10 @@ void  BRep_Builder::UpdateVertex(const TopoDS_Vertex& V,
         break;
       }
     }
-    itcr.Next();
+    ++itcr;
   }
   
-  if (!itcr.More())
+  if (itcr == end(lcr))
     Standard_DomainError::Raise("BRep_Builder:: no pcurve");
   
   TV->UpdateTolerance(Tol);

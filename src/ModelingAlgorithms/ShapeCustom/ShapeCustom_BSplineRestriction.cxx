@@ -790,9 +790,8 @@ Standard_Boolean ShapeCustom_BSplineRestriction::NewCurve(const TopoDS_Edge& E,
   Standard_Boolean IsConvert = Standard_False;
   Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&E.TShape());
   // iterate on pcurves
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-  for ( ; itcr.More(); itcr.Next() ) {
-    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  for (auto cr : TE->Curves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
     if ( GC.IsNull() || ! GC->IsCurveOnSurface() ) continue;
     Handle(Geom_Surface) aSurface = GC->Surface();
     Handle(Geom2d_Curve) aCurve2d = GC->PCurve();
@@ -1094,9 +1093,8 @@ Standard_Boolean ShapeCustom_BSplineRestriction::NewCurve2d(const TopoDS_Edge& E
   if(!IsConvert) {
     Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&E.TShape());
     // iterate on pcurves
-    BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-    for ( ; itcr.More(); itcr.Next() ) {
-      Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+    for (auto cr : TE->Curves()) {
+      Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
       if ( GC.IsNull() || ! GC->IsCurveOnSurface() ) continue;
       Handle(Geom_Surface) aSurf = GC->Surface();
       Handle(Geom2d_Curve) aCur2d = GC->PCurve();

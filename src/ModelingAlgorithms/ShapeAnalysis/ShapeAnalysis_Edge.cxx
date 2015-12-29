@@ -634,8 +634,8 @@ static Standard_Integer CheckVertexTolerance(const TopoDS_Edge& edge,
 
   if ( checkAll ) {
     Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&edge.TShape());
-    for (BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves()); itcr.More(); itcr.Next() ) {
-      Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+    for (auto cr : TE->Curves()) {
+      Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
       if (GC.IsNull() || !GC->IsCurveOnSurface()) continue;
       Handle(Geom2d_Curve) pcurve;
       Handle(Geom_Surface) S = GC->Surface();
@@ -798,9 +798,9 @@ Standard_Boolean ShapeAnalysis_Edge::CheckSameParameter (const TopoDS_Edge& edge
   GeomAdaptor_Curve AC3d;
 
   // find 3d curve
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
-  for ( ; itcr.More(); itcr.Next() ) {
-    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  Standard_Boolean found = Standard_False;
+  for (auto cr : TE->Curves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
     if ( GC.IsNull() || ! GC->IsCurve3D() ) continue;
     Handle(Geom_Curve) C3d = GC->Curve3D();
     if ( C3d.IsNull() ) continue; //:s1 abv 22 Apr 99: PRO7226 #489490
@@ -811,18 +811,18 @@ Standard_Boolean ShapeAnalysis_Edge::CheckSameParameter (const TopoDS_Edge& edge
     Standard_Real First, Last;
     GC->Range ( First, Last );
     AC3d.Load ( C3d, First, Last );
+    found = Standard_True;
     break;
   }
 
-  if ( ! itcr.More() ) {
+  if (!found) {
     myStatus |= ShapeExtend::EncodeStatus ( ShapeExtend_FAIL1 );
     return Standard_False;
   }
 
   // iterate on pcurves
-  itcr.Initialize ( TE->Curves() );
-  for ( ; itcr.More(); itcr.Next() ) {
-    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
+  for (auto cr : TE->Curves()) {
+    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(cr);
     if ( GC.IsNull() || ! GC->IsCurveOnSurface() ) continue;
 
     Standard_Real f, l;

@@ -954,10 +954,7 @@ static void ExtentEdge(const TopoDS_Edge& E,TopoDS_Edge& NE, const Standard_Real
   Handle(Geom_Surface) MinSurf;
   TopLoc_Location      MinLoc;
 
-  BRep_ListIteratorOfListOfCurveRepresentation itr( (Handle(BRep_TEdge)::DownCast(NE.TShape()))->ChangeCurves() );
-  for (; itr.More(); itr.Next())
-    {
-      Handle( BRep_CurveRepresentation ) CurveRep = itr.Value();
+  for (Handle( BRep_CurveRepresentation ) CurveRep : (Handle(BRep_TEdge)::DownCast(NE.TShape()))->ChangeCurves()) {
       Standard_Real FirstPar, LastPar;
       if (CurveRep->IsCurveOnSurface())
 	{
@@ -1225,11 +1222,7 @@ static void ExtentEdge(const TopoDS_Edge& E,TopoDS_Edge& NE, const Standard_Real
 	  Standard_Boolean ProjectionSuccess = Standard_True;
 	  if (NbPCurves > 1)
 	    //BRepLib::SameParameter( NE, Precision::Confusion(), Standard_True );
-	    for (itr.Initialize((Handle(BRep_TEdge)::DownCast(NE.TShape()))->ChangeCurves());
-		 itr.More();
-		 itr.Next())
-	      {
-		Handle( BRep_CurveRepresentation ) CurveRep = itr.Value();
+	    for (Handle( BRep_CurveRepresentation ) CurveRep : (Handle(BRep_TEdge)::DownCast(NE.TShape()))->ChangeCurves()) {
 		Standard_Real FirstPar, LastPar;
 		if (CurveRep->IsCurveOnSurface())
 		  {

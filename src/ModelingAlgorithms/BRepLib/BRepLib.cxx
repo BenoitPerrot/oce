@@ -145,16 +145,12 @@ Standard_Boolean  BRepLib::CheckSameRange(const TopoDS_Edge& AnEdge,
   Standard_Boolean  IsSameRange = Standard_True,
     first_time_in = Standard_True ;
 
-  BRep_ListIteratorOfListOfCurveRepresentation an_Iterator
-    ((*((Handle(BRep_TEdge)*)&AnEdge.TShape()))->ChangeCurves());
-
   Standard_Real first, last;
   Standard_Real current_first =0., current_last =0. ;
   Handle(BRep_GCurve) geometric_representation_ptr ;
 
-  while (IsSameRange && an_Iterator.More()) {
-    geometric_representation_ptr =
-      Handle(BRep_GCurve)::DownCast(an_Iterator.Value());
+  for (auto cr : (*((Handle(BRep_TEdge)*)&AnEdge.TShape()))->ChangeCurves()) {
+    geometric_representation_ptr = Handle(BRep_GCurve)::DownCast(cr);
     if (!geometric_representation_ptr.IsNull()) {
 
       first = geometric_representation_ptr->First();
@@ -167,9 +163,10 @@ Standard_Boolean  BRepLib::CheckSameRange(const TopoDS_Edge& AnEdge,
       else {
         IsSameRange = (Abs(current_first - first) <= Tolerance) 
           && (Abs(current_last -last) <= Tolerance ) ;
+	if (!IsSameRange)
+	  break;
       }
     }
-    an_Iterator.Next() ;
   }
   return IsSameRange ;
 }
@@ -182,9 +179,6 @@ Standard_Boolean  BRepLib::CheckSameRange(const TopoDS_Edge& AnEdge,
 void BRepLib::SameRange(const TopoDS_Edge& AnEdge,
   const Standard_Real Tolerance) 
 {
-  BRep_ListIteratorOfListOfCurveRepresentation an_Iterator
-    ((*((Handle(BRep_TEdge)*)&AnEdge.TShape()))->ChangeCurves());
-
   Handle(Geom2d_Curve) Curve2dPtr, Curve2dPtr2, NewCurve2dPtr, NewCurve2dPtr2;
   TopLoc_Location LocalLoc ;
 
@@ -205,9 +199,8 @@ void BRepLib::SameRange(const TopoDS_Edge& AnEdge,
     first_time_in = Standard_False ;
   }
 
-  while (an_Iterator.More()) {
-    geometric_representation_ptr =
-      Handle(BRep_GCurve)::DownCast(an_Iterator.Value());
+  for (auto cr : (*((Handle(BRep_TEdge)*)&AnEdge.TShape()))->ChangeCurves()) {
+    geometric_representation_ptr = Handle(BRep_GCurve)::DownCast(cr);
     if (! geometric_representation_ptr.IsNull()) {
       has_closed_curve =
         has_curve = Standard_False ;
@@ -256,7 +249,6 @@ void BRepLib::SameRange(const TopoDS_Edge& AnEdge,
         }
       }
     }
-    an_Iterator.Next() ;
   }
   BRep_Builder B;
   B.Range(TopoDS::Edge(AnEdge),
@@ -538,8 +530,8 @@ Standard_Boolean  BRepLib::UpdateEdgeTol(const TopoDS_Edge& AnEdge,
 
   const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&AnEdge.TShape());
   BRep_ListOfCurveRepresentation& list_curve_rep = TE->ChangeCurves() ;
-  BRep_ListIteratorOfListOfCurveRepresentation an_iterator(list_curve_rep),
-    second_iterator(list_curve_rep) ;
+  BRep_ListIteratorOfListOfCurveRepresentation an_iterator(begin(list_curve_rep)),
+    second_iterator(begin(list_curve_rep)) ;
   Handle(Geom2d_Curve) curve2d_ptr, new_curve2d_ptr;
   Handle(Geom_Surface) surface_ptr ;
   TopLoc_Location local_location ;
@@ -567,9 +559,9 @@ Standard_Boolean  BRepLib::UpdateEdgeTol(const TopoDS_Edge& AnEdge,
     not_done = 1 ;
     curve_on_surface_index = 0 ;  
 
-    while (not_done && an_iterator.More()) {
+    while (not_done && an_iterator != end(list_curve_rep)) {
       geometric_representation_ptr =
-        Handle(BRep_GCurve)::DownCast(second_iterator.Value());
+        Handle(BRep_GCurve)::DownCast(*second_iterator);
       if (!geometric_representation_ptr.IsNull() 
         && geometric_representation_ptr->IsCurveOnSurface()) {
           curve2d_ptr = geometric_representation_ptr->PCurve() ;
@@ -632,9 +624,9 @@ Standard_Boolean  BRepLib::UpdateEdgeTol(const TopoDS_Edge& AnEdge,
 
   curve_index = 0 ;
 
-  while (second_iterator.More()) {
+  while (second_iterator != end(list_curve_rep)) {
     geometric_representation_ptr =
-      Handle(BRep_GCurve)::DownCast(second_iterator.Value());
+      Handle(BRep_GCurve)::DownCast(*second_iterator);
     if (! geometric_representation_ptr.IsNull() && 
       curve_index != curve_on_surface_index) {
         has_closed_curve =
@@ -701,7 +693,7 @@ Standard_Boolean  BRepLib::UpdateEdgeTol(const TopoDS_Edge& AnEdge,
 
     }
     curve_index += 1 ;
-    second_iterator.Next() ; 
+    ++second_iterator; 
   }
 
   TE->Tolerance(edge_tolerance);
@@ -751,12 +743,8 @@ static void SetEdgeTol(const TopoDS_Edge& E,
   TopLoc_Location l = L.Predivided(E.Location());
 
   const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&E.TShape());
-  BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->ChangeCurves());
-
-  while (itcr.More()) {
-    const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
+  for (const Handle(BRep_CurveRepresentation)& cr : TE->ChangeCurves()) {
     if(cr->IsCurveOnSurface(S,l)) return;
-    itcr.Next();
   }
 
   Handle(Geom_Plane) GP;
@@ -958,21 +946,15 @@ void BRepLib::SameParameter(const TopoDS_Edge&  AnEdge,
   Handle(Geom_Curve) C3d;
 
   const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &AnEdge.TShape());
-  BRep_ListOfCurveRepresentation& CList = TE->ChangeCurves();
-  BRep_ListIteratorOfListOfCurveRepresentation It(CList);
-
-  Standard_Boolean NotDone = Standard_True;
-
-  while (NotDone && It.More()) {
-    Handle(BRep_GCurve) GCurve = Handle(BRep_GCurve)::DownCast(It.Value());
+  for (auto cr : TE->ChangeCurves()) {
+    Handle(BRep_GCurve) GCurve = Handle(BRep_GCurve)::DownCast(cr);
     if (!GCurve.IsNull() && GCurve->IsCurve3D()) {
       C3d = GCurve->Curve3D() ;
       f3d = GCurve->First();
       l3d = GCurve->Last();
       L3d = GCurve->Location() ;
-      NotDone = Standard_False;
+      break;
     } 
-    It.Next() ;
   }
 
   if(C3d.IsNull()) return;
@@ -1014,12 +996,11 @@ void BRepLib::SameParameter(const TopoDS_Edge&  AnEdge,
   //  Modified by skv - Thu Jun  3 12:39:20 2004 OCC5898 End
   Standard_Boolean SameRange = BRep_Tool::SameRange(AnEdge);
   Standard_Boolean YaPCu = Standard_False;
-  It.Initialize(CList);
 
-  while (It.More()) {
+  for (auto cr : TE->ChangeCurves()) {
     Standard_Boolean isANA = Standard_False;
     Standard_Boolean isBSP = Standard_False;
-    Handle(BRep_GCurve) GCurve = Handle(BRep_GCurve)::DownCast(It.Value());
+    Handle(BRep_GCurve) GCurve = Handle(BRep_GCurve)::DownCast(cr);
     Handle(Geom2d_Curve) PC[2];
     Handle(Geom_Surface) S;
     if (!GCurve.IsNull() && GCurve->IsCurveOnSurface()) {
@@ -1277,7 +1258,6 @@ void BRepLib::SameParameter(const TopoDS_Edge&  AnEdge,
         //  Modified by skv - Thu Jun  3 12:39:20 2004 OCC5898 End
       }
     }
-    It.Next() ;
   }
   B.Range(AnEdge,f3d,l3d);
   B.SameRange(AnEdge,Standard_True);
@@ -1402,11 +1382,9 @@ void  BRepLib::UpdateTolerances(const TopoDS_Shape& aShape,
       if(!BRep_Tool::SameRange(E)) continue;
       Standard_Real par = BRep_Tool::Parameter(V,E);
       Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*)&E.TShape());
-      BRep_ListIteratorOfListOfCurveRepresentation itcr(TE->Curves());
       const TopLoc_Location& Eloc = E.Location();
-      while (itcr.More()) {
+      for (const Handle(BRep_CurveRepresentation)& cr : TE->Curves()) {
         // For each CurveRepresentation, check the provided parameter
-        const Handle(BRep_CurveRepresentation)& cr = itcr.Value();
         const TopLoc_Location& loc = cr->Location();
         TopLoc_Location L = (Eloc * loc);
         if (cr->IsCurve3D()) {
@@ -1435,7 +1413,6 @@ void  BRepLib::UpdateTolerances(const TopoDS_Shape& aShape,
             box.Add(p3d);
           }
         }
-        itcr.Next();
       }
     }
     Standard_Real aXmin, aYmin, aZmin, aXmax, aYmax, aZmax;

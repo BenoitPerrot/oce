@@ -840,22 +840,19 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 	      if (translate)
 		{
 		  const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &anEdge.TShape());
-		  BRep_ListIteratorOfListOfCurveRepresentation itcr( TE->ChangeCurves() );
-		  Handle(BRep_GCurve) GC;
-		  
-		  for (; itcr.More(); itcr.Next())
-		    {
-		      GC = Handle(BRep_GCurve)::DownCast(itcr.Value());
-		      if (!GC.IsNull() && GC->IsCurveOnSurface( theSurf, L ))
-			{
-			  Handle(Geom2d_Curve) PC = GC->PCurve();
-			  PC = Handle(Geom2d_Curve)::DownCast( PC->Translated( offset ) );
-			  GC->PCurve( PC );
-			  TE->ChangeCurves().Remove( itcr );
-			  TE->ChangeCurves().Append( GC );
-			  break;
-			}
-		    }
+		  auto curves = TE->ChangeCurves();
+		  for (BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(curves)); itcr != end(curves); ++itcr) {
+		    Handle(BRep_GCurve) GC = Handle(BRep_GCurve)::DownCast(*itcr);
+		    if (!GC.IsNull() && GC->IsCurveOnSurface( theSurf, L ))
+		      {
+			Handle(Geom2d_Curve) PC = GC->PCurve();
+			PC = Handle(Geom2d_Curve)::DownCast( PC->Translated( offset ) );
+			GC->PCurve( PC );
+			curves.erase( itcr );
+			curves.push_back( GC );
+			break;
+		      }
+		  }
 		}
 	    }
 	  ///////////////////

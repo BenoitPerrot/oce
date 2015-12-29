@@ -701,18 +701,18 @@ void BRepTools::Clean(const TopoDS_Shape& S)
 //      B.UpdateEdge(E, PolyNULL, T, L);
 //    } while(!Poly.IsNull());
 //
-      Handle(BRep_CurveRepresentation) cr;
       const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &E.TShape());
       BRep_ListOfCurveRepresentation& lcr = TE -> ChangeCurves();
-      BRep_ListIteratorOfListOfCurveRepresentation itcr(lcr);
+      BRep_ListIteratorOfListOfCurveRepresentation itcr(begin(lcr));
 
       // find and remove all representations
-      while (itcr.More()) {
-        cr = itcr.Value();
+      while (itcr != end(lcr)) {
+        Handle(BRep_CurveRepresentation) cr = *itcr;
         if (cr->IsPolygonOnTriangulation())
-          lcr.Remove(itcr);
+#warning Assess erase and continue iteration
+          itcr = lcr.erase(itcr);
         else
-          itcr.Next();
+          ++itcr;
       }
       TE->Modified(Standard_True);
 // agv : fin
@@ -746,12 +746,12 @@ void BRepTools::RemoveUnusedPCurves(const TopoDS_Shape& S)
   {
     const Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &Emap(i).TShape());
     BRep_ListOfCurveRepresentation& lcr = TE -> ChangeCurves();
-    BRep_ListIteratorOfListOfCurveRepresentation itrep(lcr );
-    while (itrep.More())
+    BRep_ListIteratorOfListOfCurveRepresentation itrep(begin(lcr));
+    while (itrep != end(lcr))
     {
       Standard_Boolean ToRemove = Standard_False;
       
-      Handle(BRep_CurveRepresentation) CurveRep = itrep.Value();
+      Handle(BRep_CurveRepresentation) CurveRep = *itrep;
       if (CurveRep->IsCurveOnSurface())
       {
         Handle(Geom_Surface) aSurface = CurveRep->Surface();
@@ -766,9 +766,10 @@ void BRepTools::RemoveUnusedPCurves(const TopoDS_Shape& S)
       }
       
       if (ToRemove)
-        lcr.Remove(itrep);
+#warning Assess erase and continue iteration
+        itrep = lcr.erase(itrep);
       else
-        itrep.Next();
+        ++itrep;
     }
   }
 }
