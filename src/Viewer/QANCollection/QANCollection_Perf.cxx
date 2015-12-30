@@ -28,7 +28,6 @@
 #include <Viewer/QANCollection/QANCollection_DataMapOfRealPnt.hxx>
 #include <Viewer/QANCollection/QANCollection_DoubleMapOfRealInteger.hxx>
 #include <Viewer/QANCollection/QANCollection_IndexedDataMapOfRealPnt.hxx>
-#include <Viewer/QANCollection/QANCollection_ListOfPnt.hxx>
 
 #include <Foundation/NCollection/NCollection_SparseArray.hxx>
 #include <Foundation/NCollection/NCollection_SparseArrayBase.hxx>
@@ -301,31 +300,6 @@ static void CompList (const Standard_Integer theRep,
       a2.Clear();
       ////////////////////////////////aNClea.Stop();
       PERF_STOP_METER("NCollection_List clearing")
-    }
-
-  for (i=0; i<theRep; i++)
-    {
-      QANCollection_ListOfPnt a1, a2;
-      ////////////////////////////////aTAppe.Start();
-      PERF_START_METER("TCollection_List appending")
-      for (j=1; j<=theSize; j++)
-        {
-          ItemType anItem;
-          Random(anItem);
-          a1.Append(anItem);
-        }
-      ////////////////////////////////aTAppe.Stop();
-      PERF_STOP_METER("TCollection_List appending")
-      ////////////////////////////////aTOper.Start();
-      PERF_START_METER("TCollection_List operator=")
-      a2 = a1;
-      ////////////////////////////////aTOper.Stop();
-      PERF_STOP_METER("TCollection_List operator=")
-      ////////////////////////////////aTClea.Start();
-      PERF_START_METER("TCollection_List clearing")
-      a2.Clear();
-      ////////////////////////////////aTClea.Stop();
-      PERF_STOP_METER("TCollection_List clearing")
     }
   PERF_PRINT_ALL
 }

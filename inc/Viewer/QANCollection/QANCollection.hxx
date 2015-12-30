@@ -11,12 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-class QANCollection_ListOfPnt;
 class QANCollection_DataMapOfRealPnt;
 class QANCollection_IndexedDataMapOfRealPnt;
 class QANCollection_DoubleMapOfRealInteger;
-class QANCollection_ListNodeOfListOfPnt;
-class QANCollection_ListIteratorOfListOfPnt;
 class QANCollection_DataMapNodeOfDataMapOfRealPnt;
 class QANCollection_DataMapIteratorOfDataMapOfRealPnt;
 class QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt;
@@ -58,12 +55,9 @@ private:
 
 
 
-friend class QANCollection_ListOfPnt;
 friend class QANCollection_DataMapOfRealPnt;
 friend class QANCollection_IndexedDataMapOfRealPnt;
 friend class QANCollection_DoubleMapOfRealInteger;
-friend class QANCollection_ListNodeOfListOfPnt;
-friend class QANCollection_ListIteratorOfListOfPnt;
 friend class QANCollection_DataMapNodeOfDataMapOfRealPnt;
 friend class QANCollection_DataMapIteratorOfDataMapOfRealPnt;
 friend class QANCollection_IndexedDataMapNodeOfIndexedDataMapOfRealPnt;
