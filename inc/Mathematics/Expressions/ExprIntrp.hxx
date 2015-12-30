@@ -21,11 +21,8 @@ class ExprIntrp_GenRel;
 class ExprIntrp_Analysis;
 class ExprIntrp_SequenceOfNamedFunction;
 class ExprIntrp_SequenceOfNamedExpression;
-class ExprIntrp_StackOfGeneralRelation;
 class ExprIntrp_SequenceNodeOfSequenceOfNamedFunction;
 class ExprIntrp_SequenceNodeOfSequenceOfNamedExpression;
-class ExprIntrp_ListNodeOfStackOfGeneralRelation;
-class ExprIntrp_ListIteratorOfStackOfGeneralRelation;
 
 
 //! Describes an interpreter for GeneralExpressions,
@@ -61,11 +58,8 @@ friend class ExprIntrp_GenRel;
 friend class ExprIntrp_Analysis;
 friend class ExprIntrp_SequenceOfNamedFunction;
 friend class ExprIntrp_SequenceOfNamedExpression;
-friend class ExprIntrp_StackOfGeneralRelation;
 friend class ExprIntrp_SequenceNodeOfSequenceOfNamedFunction;
 friend class ExprIntrp_SequenceNodeOfSequenceOfNamedExpression;
-friend class ExprIntrp_ListNodeOfStackOfGeneralRelation;
-friend class ExprIntrp_ListIteratorOfStackOfGeneralRelation;
 
 };
 

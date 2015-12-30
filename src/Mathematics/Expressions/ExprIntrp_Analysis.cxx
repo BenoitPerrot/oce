@@ -36,7 +36,7 @@ void ExprIntrp_Analysis::Push(const Handle(Expr_GeneralExpression)& exp)
 
 void ExprIntrp_Analysis::PushRelation(const Handle(Expr_GeneralRelation)& rel) 
 {
-  myGRStack.Prepend(rel);
+  myGRStack.push_front(rel);
 }
 
 void ExprIntrp_Analysis::PushFunction(const Handle(Expr_GeneralFunction)& func)
@@ -67,9 +67,9 @@ Handle(Expr_GeneralExpression) ExprIntrp_Analysis::Pop()
 Handle(Expr_GeneralRelation) ExprIntrp_Analysis::PopRelation()
 {
   Handle(Expr_GeneralRelation) res;
-  if (!myGRStack.IsEmpty()) {
-    res = myGRStack.First();
-    myGRStack.RemoveFirst();
+  if (!myGRStack.empty()) {
+    res = myGRStack.front();
+    myGRStack.pop_front();
   }
   return res;
 }
@@ -111,13 +111,13 @@ Standard_Boolean ExprIntrp_Analysis::IsExpStackEmpty() const
 
 Standard_Boolean ExprIntrp_Analysis::IsRelStackEmpty() const
 {
-  return myGRStack.IsEmpty();
+  return myGRStack.empty();
 }
 
 void ExprIntrp_Analysis::ResetAll()
 {
   myGEStack.clear();
-  myGRStack.Clear();
+  myGRStack.clear();
   myGFStack.clear();
   myNameStack.Clear();
   myValueStack.Clear();
