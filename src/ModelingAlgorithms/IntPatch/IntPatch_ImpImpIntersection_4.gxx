@@ -14,8 +14,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
-#include <Geometry/IntAna/IntAna_ListOfCurve.hxx>
-#include <Geometry/IntAna/IntAna_ListIteratorOfListOfCurve.hxx>
+#include <list>
+#include <Geometry/IntAna/IntAna_Curve.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_WLine.hxx>
 
 //
@@ -24,7 +24,7 @@ static
 				const gp_Cone& aCo,
 				IntAna_Curve& aC,
 				const Standard_Real aTol,
-				IntAna_ListOfCurve& aLC);
+				std::list<IntAna_Curve>& aLC);
 static
   Standard_Boolean IsToReverse(const gp_Cylinder& Cy1,
 			       const gp_Cylinder& Cy2,
@@ -2636,8 +2636,7 @@ Standard_Boolean IntCyCo(const IntSurf_Quadric& Quad1,
       //
       //IntAna_Curve curvsol;
       IntAna_Curve aC;
-      IntAna_ListOfCurve aLC;
-      IntAna_ListIteratorOfListOfCurve aIt;
+      std::list<IntAna_Curve> aLC;
       
       //
       NbSol = anaint.NbCurve();
@@ -2645,12 +2644,10 @@ Standard_Boolean IntCyCo(const IntSurf_Quadric& Quad1,
 	kept = Standard_False;
 	//curvsol = anaint.Curve(i);
 	aC=anaint.Curve(i);
-	aLC.Clear();
+	aLC.clear();
 	ExploreCurve(Cy, Co, aC, 10.*Tol, aLC);
 	//
-	aIt.Initialize(aLC);
-	for (; aIt.More(); aIt.Next()) {
-	  IntAna_Curve& curvsol=aIt.Value();
+	for (IntAna_Curve& curvsol : aLC) {
 	  //
 	  curvsol.Domain(first, last);
 	  firstp = !curvsol.IsFirstOpen();
@@ -2725,7 +2722,7 @@ Standard_Boolean ExploreCurve(const gp_Cylinder& ,//aCy,
 			      const gp_Cone& aCo,
 			      IntAna_Curve& aC,
 			      const Standard_Real aTol,
-			      IntAna_ListOfCurve& aLC)
+			      std::list<IntAna_Curve>& aLC)
 			      
 {
   Standard_Boolean bFind=Standard_False;
@@ -2734,8 +2731,9 @@ Standard_Boolean ExploreCurve(const gp_Cylinder& ,//aCy,
   //
   //aC.Dump();
   //
-  aLC.Clear();
-  aLC.Append(aC);
+#warning a list seems overkill and semantically poor as a result
+  aLC.clear();
+  aLC.push_back(aC);
   //
   aPapx=aCo.Apex();
   //
@@ -2771,9 +2769,9 @@ Standard_Boolean ExploreCurve(const gp_Cylinder& ,//aCy,
   aC2=aC;
   aC2.SetDomain(aTheta, aT2);
   //
-  aLC.Clear();
-  aLC.Append(aC1);
-  aLC.Append(aC2);
+  aLC.clear();
+  aLC.push_back(aC1);
+  aLC.push_back(aC2);
   //
   return bFind;
 }
