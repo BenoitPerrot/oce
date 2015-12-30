@@ -41,7 +41,7 @@ void ExprIntrp_Analysis::PushRelation(const Handle(Expr_GeneralRelation)& rel)
 
 void ExprIntrp_Analysis::PushFunction(const Handle(Expr_GeneralFunction)& func)
 {
-  myGFStack.Prepend(func);
+  myGFStack.push_front(func);
 }
 
 void ExprIntrp_Analysis::PushName(const TCollection_AsciiString& name) 
@@ -77,9 +77,9 @@ Handle(Expr_GeneralRelation) ExprIntrp_Analysis::PopRelation()
 Handle(Expr_GeneralFunction) ExprIntrp_Analysis::PopFunction()
 {
   Handle(Expr_GeneralFunction) res;
-  if (!myGFStack.IsEmpty()) {
-    res = myGFStack.First();
-    myGFStack.RemoveFirst();
+  if (!myGFStack.empty()) {
+    res = myGFStack.front();
+    myGFStack.pop_front();
   }
   return res;
 }
@@ -118,7 +118,7 @@ void ExprIntrp_Analysis::ResetAll()
 {
   myGEStack.clear();
   myGRStack.Clear();
-  myGFStack.Clear();
+  myGFStack.clear();
   myNameStack.Clear();
   myValueStack.Clear();
   myFunctions.Clear();

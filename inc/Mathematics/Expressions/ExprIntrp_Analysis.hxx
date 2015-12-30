@@ -13,7 +13,6 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Mathematics/Expressions/ExprIntrp_StackOfGeneralRelation.hxx>
-#include <Mathematics/Expressions/ExprIntrp_StackOfGeneralFunction.hxx>
 #include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Mathematics/Expressions/ExprIntrp_SequenceOfNamedFunction.hxx>
@@ -96,7 +95,7 @@ private:
 
   std::list<Handle(Expr_GeneralExpression)> myGEStack;
   ExprIntrp_StackOfGeneralRelation myGRStack;
-  ExprIntrp_StackOfGeneralFunction myGFStack;
+  std::list<Handle(Expr_GeneralFunction)> myGFStack;
   TColStd_ListOfAsciiString myNameStack;
   TColStd_ListOfInteger myValueStack;
   ExprIntrp_SequenceOfNamedFunction myFunctions;
