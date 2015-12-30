@@ -6,11 +6,12 @@
 #ifndef _ExprIntrp_Analysis_HeaderFile
 #define _ExprIntrp_Analysis_HeaderFile
 
+#include <list>
+
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-#include <Mathematics/Expressions/ExprIntrp_StackOfGeneralExpression.hxx>
 #include <Mathematics/Expressions/ExprIntrp_StackOfGeneralRelation.hxx>
 #include <Mathematics/Expressions/ExprIntrp_StackOfGeneralFunction.hxx>
 #include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
@@ -93,7 +94,7 @@ private:
 
 
 
-  ExprIntrp_StackOfGeneralExpression myGEStack;
+  std::list<Handle(Expr_GeneralExpression)> myGEStack;
   ExprIntrp_StackOfGeneralRelation myGRStack;
   ExprIntrp_StackOfGeneralFunction myGFStack;
   TColStd_ListOfAsciiString myNameStack;
