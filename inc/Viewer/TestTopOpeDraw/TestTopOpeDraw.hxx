@@ -11,7 +11,6 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Viewer/Draw/Draw_Interpretor.hxx>
-class TestTopOpeDraw_ListOfPnt2d;
 class TestTopOpeDraw_DrawableSHA;
 class TestTopOpeDraw_DrawableSUR;
 class TestTopOpeDraw_DrawableC3D;
@@ -23,8 +22,6 @@ class TestTopOpeDraw_DrawableP2D;
 class TestTopOpeDraw_DrawableMesure;
 class TestTopOpeDraw_Array1OfDrawableMesure;
 class TestTopOpeDraw_HArray1OfDrawableMesure;
-class TestTopOpeDraw_ListNodeOfListOfPnt2d;
-class TestTopOpeDraw_ListIteratorOfListOfPnt2d;
 
 
 
@@ -53,7 +50,6 @@ private:
 
 
 
-friend class TestTopOpeDraw_ListOfPnt2d;
 friend class TestTopOpeDraw_DrawableSHA;
 friend class TestTopOpeDraw_DrawableSUR;
 friend class TestTopOpeDraw_DrawableC3D;
@@ -65,8 +61,6 @@ friend class TestTopOpeDraw_DrawableP2D;
 friend class TestTopOpeDraw_DrawableMesure;
 friend class TestTopOpeDraw_Array1OfDrawableMesure;
 friend class TestTopOpeDraw_HArray1OfDrawableMesure;
-friend class TestTopOpeDraw_ListNodeOfListOfPnt2d;
-friend class TestTopOpeDraw_ListIteratorOfListOfPnt2d;
 
 };
 

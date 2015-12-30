@@ -244,7 +244,6 @@ Standard_IMPORT Draw_Color DBRep_ColorOrientation (const TopAbs_Orientation Or);
 #include <ModelingData/TopoDS/TopoDS_Vertex.hxx>
 #include <Foundation/TColStd/TColStd_ListIteratorOfListOfAsciiString.hxx>
 #include <Foundation/TColStd/TColStd_ListOfAsciiString.hxx>
-#include <Viewer/TestTopOpeDraw/TestTopOpeDraw_ListOfPnt2d.hxx>
 
 class cvx2d {
   
