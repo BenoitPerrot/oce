@@ -15,16 +15,16 @@
 inline Standard_Integer SelectMgr_Selection::Mode() const {return myMode;}
 
 inline void SelectMgr_Selection::Init ()  
-{myit.Initialize(myentities);}
+{myit = myentities.begin();}
 
 inline Standard_Boolean SelectMgr_Selection::More() const
-{return myit.More();}
+{return myit != myentities.end();}
 
 inline void SelectMgr_Selection::Next() 
-{myit.Next();}
+{++myit;}
 
 inline const Handle (SelectBasics_SensitiveEntity)& SelectMgr_Selection::Sensitive () const
-{return myit.Value();}
+{return (*myit);}
 
 inline void SelectMgr_Selection::UpdateStatus(const SelectMgr_TypeOfUpdate TheStat)
 {myUpdateStatus = TheStat;}

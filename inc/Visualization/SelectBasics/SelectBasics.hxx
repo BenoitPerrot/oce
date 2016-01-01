@@ -17,12 +17,9 @@ class SelectBasics_BasicTool;
 class SelectBasics_ListOfBox2d;
 class SelectBasics_SequenceOfOwner;
 class SelectBasics_SensitiveEntity;
-class SelectBasics_ListOfSensitive;
 class SelectBasics_ListNodeOfListOfBox2d;
 class SelectBasics_ListIteratorOfListOfBox2d;
 class SelectBasics_SequenceNodeOfSequenceOfOwner;
-class SelectBasics_ListNodeOfListOfSensitive;
-class SelectBasics_ListIteratorOfListOfSensitive;
 
 
 //! kernel of dynamic selection:
@@ -64,12 +61,9 @@ friend class SelectBasics_BasicTool;
 friend class SelectBasics_ListOfBox2d;
 friend class SelectBasics_SequenceOfOwner;
 friend class SelectBasics_SensitiveEntity;
-friend class SelectBasics_ListOfSensitive;
 friend class SelectBasics_ListNodeOfListOfBox2d;
 friend class SelectBasics_ListIteratorOfListOfBox2d;
 friend class SelectBasics_SequenceNodeOfSequenceOfOwner;
-friend class SelectBasics_ListNodeOfListOfSensitive;
-friend class SelectBasics_ListIteratorOfListOfSensitive;
 
 };
 

@@ -6,12 +6,12 @@
 #ifndef _SelectMgr_Selection_HeaderFile
 #define _SelectMgr_Selection_HeaderFile
 
+#include <list>
+
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Visualization/SelectMgr/Handle_SelectMgr_Selection.hxx>
 
-#include <Visualization/SelectBasics/SelectBasics_ListOfSensitive.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfSensitive.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/SelectMgr/SelectMgr_TypeOfUpdate.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
@@ -123,8 +123,8 @@ protected:
 private: 
 
 
-  SelectBasics_ListOfSensitive myentities;
-  SelectBasics_ListIteratorOfListOfSensitive myit;
+  std::list<Handle(SelectBasics_SensitiveEntity)> myentities;
+  std::list<Handle(SelectBasics_SensitiveEntity)>::iterator myit;
   Standard_Integer myMode;
   SelectMgr_TypeOfUpdate myUpdateStatus;
 

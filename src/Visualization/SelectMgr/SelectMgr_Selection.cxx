@@ -43,9 +43,9 @@ myMode(IdMode)
 //==================================================
 void SelectMgr_Selection::Destroy()
 {
-  for (SelectBasics_ListIteratorOfListOfSensitive anIt(myentities); anIt.More(); anIt.Next())
+  for (auto sensitive : myentities)
   {
-    anIt.Value()->Set (NULL);
+    sensitive->Set (NULL);
   }
 }
 
@@ -62,7 +62,7 @@ void SelectMgr_Selection
     (aprimitive.IsNull(), "Null sensitive entity is added to the selection");
   // in release mode do not add
   if (!aprimitive.IsNull())
-    myentities.Append(aprimitive);
+    myentities.push_back(aprimitive);
 }	
 
 //==================================================
@@ -70,7 +70,7 @@ void SelectMgr_Selection
 // Purpose :
 //==================================================
 void SelectMgr_Selection
-::Clear () {myentities.Clear();}
+::Clear () {myentities.clear();}
 
 //==================================================
 // Function: IsEmpty 
@@ -79,7 +79,7 @@ void SelectMgr_Selection
 Standard_Boolean SelectMgr_Selection
 ::IsEmpty() const
 {
-  return myentities.IsEmpty();
+  return myentities.empty();
 }
 
 
