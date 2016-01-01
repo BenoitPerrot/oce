@@ -22,9 +22,6 @@ class TDF_Attribute;
 class DDF_Data;
 class DDF_Browser;
 class DDF_Transaction;
-class DDF_TransactionStack;
-class DDF_ListNodeOfTransactionStack;
-class DDF_ListIteratorOfTransactionStack;
 
 
 //! Provides facilities to manipulate data framework
@@ -91,9 +88,6 @@ private:
 friend class DDF_Data;
 friend class DDF_Browser;
 friend class DDF_Transaction;
-friend class DDF_TransactionStack;
-friend class DDF_ListNodeOfTransactionStack;
-friend class DDF_ListIteratorOfTransactionStack;
 
 };
 
