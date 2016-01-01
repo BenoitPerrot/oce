@@ -18,6 +18,7 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/AIS/AIS_DataMapOfSelStat.hxx>
 #include <Visualization/SelectMgr/Handle_SelectMgr_OrFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
 #include <Visualization/SelectMgr/Handle_SelectMgr_Filter.hxx>
 #include <Visualization/SelectMgr/SelectMgr_IndexedMapOfOwner.hxx>
@@ -49,7 +50,6 @@ class AIS_InteractiveObject;
 class TCollection_AsciiString;
 class Select3D_Projector;
 class TColStd_ListOfInteger;
-class SelectMgr_ListOfFilter;
 class V3d_View;
 class TColgp_Array1OfPnt2d;
 class TopoDS_Shape;

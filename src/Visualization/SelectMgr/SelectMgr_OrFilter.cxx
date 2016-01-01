@@ -27,7 +27,7 @@ IMPLEMENT_DOWNCAST(SelectMgr_OrFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_OrFilter)
 
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
-#include <Visualization/SelectMgr/SelectMgr_ListIteratorOfListOfFilter.hxx>
+
 SelectMgr_OrFilter::SelectMgr_OrFilter()
 {
 }
@@ -36,11 +36,10 @@ SelectMgr_OrFilter::SelectMgr_OrFilter()
 Standard_Boolean SelectMgr_OrFilter::IsOk(const Handle(SelectMgr_EntityOwner)& anobj) const 
 {
 
-  if(myFilters.IsEmpty())
+  if(myFilters.empty())
     return Standard_True;
-  SelectMgr_ListIteratorOfListOfFilter it(myFilters);
-  for ( ; it.More();it.Next())
-    if(it.Value()->IsOk(anobj))
+  for (auto filter : myFilters)
+    if(filter->IsOk(anobj))
       return Standard_True;
   return Standard_False;
 }

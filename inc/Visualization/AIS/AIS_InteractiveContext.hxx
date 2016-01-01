@@ -19,6 +19,7 @@
 #include <Visualization/AIS/Handle_AIS_InteractiveObject.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectMgr/Handle_SelectMgr_OrFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <Visualization/Prs3d/Handle_Prs3d_Drawer.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -68,7 +69,6 @@ class SelectMgr_EntityOwner;
 class SelectMgr_IndexedMapOfOwner;
 class Standard_Transient;
 class SelectMgr_Filter;
-class SelectMgr_ListOfFilter;
 class AIS_ListOfInteractive;
 class TCollection_AsciiString;
 

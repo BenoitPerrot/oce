@@ -58,7 +58,6 @@
 #include <Visualization/SelectMgr/SelectMgr_IndexedMapOfOwner.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
-#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/AIS/AIS_InteractiveContext.hxx>

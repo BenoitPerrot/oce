@@ -6,86 +6,8 @@
 #ifndef _SelectMgr_ListIteratorOfListOfFilter_HeaderFile
 #define _SelectMgr_ListIteratorOfListOfFilter_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <Visualization/SelectMgr/Handle_SelectMgr_Filter.hxx>
-#include <Visualization/SelectMgr/Handle_SelectMgr_ListNodeOfListOfFilter.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class SelectMgr_ListOfFilter;
-class SelectMgr_Filter;
-class SelectMgr_ListNodeOfListOfFilter;
-
-
-
-class SelectMgr_ListIteratorOfListOfFilter 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT SelectMgr_ListIteratorOfListOfFilter();
-  
-  Standard_EXPORT SelectMgr_ListIteratorOfListOfFilter(const SelectMgr_ListOfFilter& L);
-  
-  Standard_EXPORT   void Initialize (const SelectMgr_ListOfFilter& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   Handle(SelectMgr_Filter)& Value()  const;
-
-
-friend class SelectMgr_ListOfFilter;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item Handle(SelectMgr_Filter)
-#define Item_hxx <Visualization/SelectMgr/SelectMgr_Filter.hxx>
-#define TCollection_ListNode SelectMgr_ListNodeOfListOfFilter
-#define TCollection_ListNode_hxx <Visualization/SelectMgr/SelectMgr_ListNodeOfListOfFilter.hxx>
-#define TCollection_ListIterator SelectMgr_ListIteratorOfListOfFilter
-#define TCollection_ListIterator_hxx <Visualization/SelectMgr/SelectMgr_ListIteratorOfListOfFilter.hxx>
-#define Handle_TCollection_ListNode Handle_SelectMgr_ListNodeOfListOfFilter
-#define TCollection_ListNode_Type_() SelectMgr_ListNodeOfListOfFilter_Type_()
-#define TCollection_List SelectMgr_ListOfFilter
-#define TCollection_List_hxx <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef SelectMgr_ListOfFilter::iterator SelectMgr_ListIteratorOfListOfFilter;
 
 #endif // _SelectMgr_ListIteratorOfListOfFilter_HeaderFile

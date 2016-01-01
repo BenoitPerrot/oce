@@ -79,7 +79,6 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
 #include <Foundation/TColStd/TColStd_ListOfInteger.hxx>
-#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <Visualization/V3d/V3d_View.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>

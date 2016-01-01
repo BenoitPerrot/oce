@@ -16,7 +16,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class SelectMgr_Filter;
-class SelectMgr_ListOfFilter;
 
 
 //! A framework to define a compound filter composed of

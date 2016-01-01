@@ -15,8 +15,8 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/SelectMgr/SelectMgr_Filter.hxx>
-#include <Visualization/SelectMgr/SelectMgr_ListOfFilter.hxx>
 #include <Visualization/SelectMgr/SelectMgr_CompositionFilter.hxx>
+#include <Visualization/SelectMgr/SelectMgr_ListIteratorOfListOfFilter.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(SelectMgr_CompositionFilter)
 IMPLEMENT_STANDARD_SUPERTYPE_ARRAY()
@@ -27,19 +27,19 @@ IMPLEMENT_STANDARD_SUPERTYPE_ARRAY_END()
 IMPLEMENT_STANDARD_TYPE_END(SelectMgr_CompositionFilter)
 IMPLEMENT_DOWNCAST(SelectMgr_CompositionFilter,Standard_Transient)
 IMPLEMENT_STANDARD_RTTI(SelectMgr_CompositionFilter)
-#include <Visualization/SelectMgr/SelectMgr_ListIteratorOfListOfFilter.hxx>
+
+#warning myFilters: seeing how it is used, a set seems more appropriate than a list
 
 void SelectMgr_CompositionFilter::Add(const Handle(SelectMgr_Filter)& afilter)
 {
-  myFilters.Append(afilter);
+  myFilters.push_back(afilter);
 }
 
 void SelectMgr_CompositionFilter::Remove(const Handle(SelectMgr_Filter)& afilter)
 {
-  SelectMgr_ListIteratorOfListOfFilter It(myFilters);
-  for(;It.More();It.Next()){
-    if (afilter==It.Value()){ 
-      myFilters.Remove(It);
+  for (SelectMgr_ListIteratorOfListOfFilter It(myFilters.begin()); It != myFilters.end(); ++It) {
+    if (afilter==(*It)){
+      myFilters.erase(It);
       return;
     }
   }
@@ -48,14 +48,13 @@ void SelectMgr_CompositionFilter::Remove(const Handle(SelectMgr_Filter)& afilter
 
 Standard_Boolean SelectMgr_CompositionFilter::IsEmpty() const
 {
-  return myFilters.IsEmpty();
+  return myFilters.empty();
 }
 
 Standard_Boolean SelectMgr_CompositionFilter::IsIn(const Handle(SelectMgr_Filter)& afilter) const
 {
-  SelectMgr_ListIteratorOfListOfFilter It(myFilters);
-  for(;It.More();It.Next())
-    if (afilter==It.Value()) 
+  for (auto filter : myFilters)
+    if (afilter==filter)
       return Standard_True;
   return Standard_False;
 
@@ -63,15 +62,14 @@ Standard_Boolean SelectMgr_CompositionFilter::IsIn(const Handle(SelectMgr_Filter
 
 void  SelectMgr_CompositionFilter::Clear()
 {
-  myFilters.Clear();
+  myFilters.clear();
 }
 
 
 Standard_Boolean SelectMgr_CompositionFilter::ActsOn(const TopAbs_ShapeEnum aStandardMode) const
 {
-  SelectMgr_ListIteratorOfListOfFilter It(myFilters);
-  for(;It.More();It.Next()){
-    if (It.Value()->ActsOn(aStandardMode))
+  for (auto filter : myFilters) {
+    if (filter->ActsOn(aStandardMode))
       return Standard_True;
   }
   
