@@ -134,11 +134,9 @@ void XmlMDataStd_ExtStringListDriver::Paste(const Handle(TDF_Attribute)& theSour
   anElement.setAttribute(::LastIndexString(), anU);
   
   XmlObjMgt_Document aDoc = anElement.getOwnerDocument().Doc();
-  
-  TDataStd_ListIteratorOfListOfExtendedString itr(anExtStringList->List());
-  for (; itr.More(); itr.Next())
+
+  for (const TCollection_ExtendedString& aValueStr : anExtStringList->List())
   {
-    const TCollection_ExtendedString& aValueStr = itr.Value();
     XmlObjMgt_Element aCurTarget = aDoc.createElement( ::ExtString() );
     XmlObjMgt::SetExtendedString( aCurTarget, aValueStr );
     anElement.appendChild( aCurTarget );

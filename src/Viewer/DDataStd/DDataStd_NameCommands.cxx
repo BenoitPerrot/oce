@@ -35,7 +35,6 @@
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <OCAF/TDataStd/TDataStd_ListOfExtendedString.hxx>
 
 
 

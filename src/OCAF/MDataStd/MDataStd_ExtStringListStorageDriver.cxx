@@ -89,10 +89,8 @@ void MDataStd_ExtStringListStorageDriver::Paste(const Handle(TDF_Attribute)& Sou
   if (upper >= lower)
   {
     T->Init(lower, upper);
-    TDataStd_ListIteratorOfListOfExtendedString itr(S->List());
-    for (; itr.More(); itr.Next(), i++) 
+    for (const TCollection_ExtendedString& tvalue : S->List())
     {
-      const TCollection_ExtendedString& tvalue = itr.Value();
       Handle(PCollection_HExtendedString) pvalue = new PCollection_HExtendedString(tvalue);
       T->SetValue(i, pvalue);
     }

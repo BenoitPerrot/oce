@@ -91,9 +91,9 @@ void BinMDataStd_ExtStringListDriver::Paste(const Handle(TDF_Attribute)& theSour
   const Standard_Integer aFirstInd = 1;
   const Standard_Integer aLastInd  = anAtt->Extent();
   theTarget << aFirstInd << aLastInd;
-  TDataStd_ListIteratorOfListOfExtendedString itr(anAtt->List());
-  for (; itr.More(); itr.Next())
+
+  for (const TCollection_ExtendedString &s : anAtt->List())
   {
-    theTarget << itr.Value();
+    theTarget << s;
   }
 }

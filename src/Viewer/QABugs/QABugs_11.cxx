@@ -3390,13 +3390,11 @@ int TestSetGet(const Handle(TDocStd_Document)& doc)
     return 2;
   if (getstrlist->Last() != "Hello")
     return 3;
-  const TDataStd_ListOfExtendedString& strlist = getstrlist->List();
-  TDataStd_ListIteratorOfListOfExtendedString itr_strlist(strlist);
-  for (; itr_strlist.More(); itr_strlist.Next())
+  for (const TCollection_ExtendedString &s : getstrlist->List())
   {
-    if (itr_strlist.Value() != "Guten Tag" &&
-	itr_strlist.Value() != "Bonjour" &&
-	itr_strlist.Value() != "Hello")
+    if (s != "Guten Tag" &&
+	s != "Bonjour" &&
+	s != "Hello")
     {
       return 4;
     }

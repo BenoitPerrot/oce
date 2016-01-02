@@ -72,7 +72,7 @@ Handle(TDataStd_ExtStringList) TDataStd_ExtStringList::Set(const TDF_Label& labe
 //=======================================================================
 Standard_Boolean TDataStd_ExtStringList::IsEmpty() const
 {
-  return myList.IsEmpty();
+  return myList.empty();
 }
 
 //=======================================================================
@@ -81,7 +81,7 @@ Standard_Boolean TDataStd_ExtStringList::IsEmpty() const
 //=======================================================================
 Standard_Integer TDataStd_ExtStringList::Extent() const
 {
-  return myList.Extent();
+  return myList.size();
 }
 
 //=======================================================================
@@ -91,7 +91,7 @@ Standard_Integer TDataStd_ExtStringList::Extent() const
 void TDataStd_ExtStringList::Prepend(const TCollection_ExtendedString& value)
 {
   Backup();
-  myList.Prepend(value);
+  myList.push_front(value);
 }
 
 //=======================================================================
@@ -101,7 +101,7 @@ void TDataStd_ExtStringList::Prepend(const TCollection_ExtendedString& value)
 void TDataStd_ExtStringList::Append(const TCollection_ExtendedString& value)
 {
   Backup();
-  myList.Append(value);
+  myList.push_back(value);
 }
 
 //=======================================================================
@@ -111,13 +111,12 @@ void TDataStd_ExtStringList::Append(const TCollection_ExtendedString& value)
 Standard_Boolean TDataStd_ExtStringList::InsertBefore(const TCollection_ExtendedString& value,
 						      const TCollection_ExtendedString& before_value)
 {
-  TDataStd_ListIteratorOfListOfExtendedString itr(myList);
-  for (; itr.More(); itr.Next())
+  for (TDataStd_ListIteratorOfListOfExtendedString itr(myList.begin()); itr != myList.end(); ++itr)
   {
-    if (itr.Value() == before_value)
+    if ((*itr) == before_value)
     {
       Backup();
-      myList.InsertBefore(value, itr);
+      myList.insert(itr, value);
       return Standard_True;
     }
   }
@@ -131,13 +130,12 @@ Standard_Boolean TDataStd_ExtStringList::InsertBefore(const TCollection_Extended
 Standard_Boolean TDataStd_ExtStringList::InsertAfter(const TCollection_ExtendedString& value,
 						     const TCollection_ExtendedString& after_value)
 {
-  TDataStd_ListIteratorOfListOfExtendedString itr(myList);
-  for (; itr.More(); itr.Next())
+  for (TDataStd_ListIteratorOfListOfExtendedString itr(myList.begin()); itr != myList.end(); ++itr)
   {
-    if (itr.Value() == after_value)
+    if ((*itr) == after_value)
     {
       Backup();
-      myList.InsertAfter(value, itr);
+      myList.insert(++itr, value);
       return Standard_True;
     }
   }
@@ -150,13 +148,12 @@ Standard_Boolean TDataStd_ExtStringList::InsertAfter(const TCollection_ExtendedS
 //=======================================================================
 Standard_Boolean TDataStd_ExtStringList::Remove(const TCollection_ExtendedString& value)
 {
-  TDataStd_ListIteratorOfListOfExtendedString itr(myList);
-  for (; itr.More(); itr.Next())
+  for (TDataStd_ListIteratorOfListOfExtendedString itr(myList.begin()); itr != myList.end(); ++itr)
   {
-    if (itr.Value() == value)
+    if ((*itr) == value)
     {
       Backup();
-      myList.Remove(itr);
+      myList.erase(itr);
       return Standard_True;
     }
   }
@@ -170,7 +167,7 @@ Standard_Boolean TDataStd_ExtStringList::Remove(const TCollection_ExtendedString
 void TDataStd_ExtStringList::Clear()
 {
   Backup();
-  myList.Clear();
+  myList.clear();
 }
 
 //=======================================================================
@@ -179,7 +176,7 @@ void TDataStd_ExtStringList::Clear()
 //=======================================================================
 const TCollection_ExtendedString& TDataStd_ExtStringList::First() const
 {
-  return myList.First();
+  return myList.front();
 }
 
 //=======================================================================
@@ -188,7 +185,7 @@ const TCollection_ExtendedString& TDataStd_ExtStringList::First() const
 //=======================================================================
 const TCollection_ExtendedString& TDataStd_ExtStringList::Last() const
 {
-  return myList.Last();
+  return myList.back();
 }
 
 //=======================================================================
@@ -224,13 +221,10 @@ Handle(TDF_Attribute) TDataStd_ExtStringList::NewEmpty () const
 //=======================================================================
 void TDataStd_ExtStringList::Restore(const Handle(TDF_Attribute)& With) 
 {
-  myList.Clear();
+  myList.clear();
   Handle(TDataStd_ExtStringList) aList = Handle(TDataStd_ExtStringList)::DownCast(With);
-  TDataStd_ListIteratorOfListOfExtendedString itr(aList->List());
-  for (; itr.More(); itr.Next())
-  {
-    myList.Append(itr.Value());
-  }
+
+  myList.insert(myList.begin(), aList->List().begin(), aList->List().end());
 }
 
 //=======================================================================
@@ -242,10 +236,10 @@ void TDataStd_ExtStringList::Paste (const Handle(TDF_Attribute)& Into,
 {
   Handle(TDataStd_ExtStringList) aList = Handle(TDataStd_ExtStringList)::DownCast(Into);
   aList->Clear();
-  TDataStd_ListIteratorOfListOfExtendedString itr(myList);
-  for (; itr.More(); itr.Next())
+
+  for (TDataStd_ListOfExtendedString::const_iterator itr(myList.begin()); itr != myList.end(); ++itr)
   {
-    aList->Append(itr.Value());
+    aList->Append((*itr));
   }
 }
 
