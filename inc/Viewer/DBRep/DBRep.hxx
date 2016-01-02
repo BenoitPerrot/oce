@@ -20,14 +20,11 @@ class TopoDS_Shape;
 class DBRep_Edge;
 class DBRep_ListOfEdge;
 class DBRep_Face;
-class DBRep_ListOfFace;
 class DBRep_HideData;
 class DBRep_DrawableShape;
 class DBRep_IsoBuilder;
 class DBRep_ListNodeOfListOfEdge;
 class DBRep_ListIteratorOfListOfEdge;
-class DBRep_ListNodeOfListOfFace;
-class DBRep_ListIteratorOfListOfFace;
 
 
 //! Used to display BRep objects  using the DrawTrSurf
@@ -98,14 +95,11 @@ private:
 friend class DBRep_Edge;
 friend class DBRep_ListOfEdge;
 friend class DBRep_Face;
-friend class DBRep_ListOfFace;
 friend class DBRep_HideData;
 friend class DBRep_DrawableShape;
 friend class DBRep_IsoBuilder;
 friend class DBRep_ListNodeOfListOfEdge;
 friend class DBRep_ListIteratorOfListOfEdge;
-friend class DBRep_ListNodeOfListOfFace;
-friend class DBRep_ListIteratorOfListOfFace;
 
 };
 

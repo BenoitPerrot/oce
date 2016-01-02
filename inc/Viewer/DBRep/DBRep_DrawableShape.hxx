@@ -14,7 +14,6 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DBRep/DBRep_ListOfEdge.hxx>
-#include <Viewer/DBRep/DBRep_ListOfFace.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
@@ -24,6 +23,7 @@
 #include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/DBRep/DBRep_Face.hxx>
 #include <Viewer/DBRep/DBRep_HideData.hxx>
 class Standard_DomainError;
 class TopoDS_Shape;
@@ -116,7 +116,7 @@ private:
 
   TopoDS_Shape myShape;
   DBRep_ListOfEdge myEdges;
-  DBRep_ListOfFace myFaces;
+  std::vector<Handle(DBRep_Face)> myFaces;
   std::vector<DBRep_HideData> myHidData;
   Standard_Real mySize;
   Standard_Integer myDiscret;

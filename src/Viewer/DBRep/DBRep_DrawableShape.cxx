@@ -39,7 +39,6 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <Viewer/DBRep/DBRep_Face.hxx>
 #include <Viewer/DBRep/DBRep_Edge.hxx>
 #include <Viewer/DBRep/DBRep_IsoBuilder.hxx>
-#include <Viewer/DBRep/DBRep_ListIteratorOfListOfFace.hxx>
 #include <Viewer/DBRep/DBRep_ListIteratorOfListOfEdge.hxx>
 #include <Viewer/DBRep/DBRep_HideData.hxx>
 
@@ -137,7 +136,7 @@ void  DBRep_DrawableShape::Set(const TopoDS_Shape& aShape)
 {
   myShape = aShape;
   
-  myFaces.Clear();
+  myFaces.clear();
   myEdges.Clear();
   
   if (myShape.IsNull())
@@ -160,14 +159,14 @@ void  DBRep_DrawableShape::Set(const TopoDS_Shape& aShape)
       if (!S.IsNull()) {
 	TopologicalFace.Orientation (TopAbs_FORWARD) ;
 	DBRep_IsoBuilder IsoBuild (TopologicalFace, mySize, myNbIsos) ;
-	myFaces.Append(new DBRep_Face (TopologicalFace,
+	myFaces.push_back(new DBRep_Face (TopologicalFace,
 				       IsoBuild.NbDomains(),
 				       myIsosCol)) ;
-	IsoBuild.LoadIsos (myFaces.Last()) ;
+	IsoBuild.LoadIsos (myFaces.back()) ;
       }
-      else myFaces.Append(new DBRep_Face(TopologicalFace,0, myEdgeCol));
+      else myFaces.push_back(new DBRep_Face(TopologicalFace,0, myEdgeCol));
     }
-    else myFaces.Append(new DBRep_Face(TopologicalFace,0, myEdgeCol));
+    else myFaces.push_back(new DBRep_Face(TopologicalFace,0, myEdgeCol));
   }
   
   //==============================================================
@@ -216,7 +215,7 @@ void  DBRep_DrawableShape::Set(const TopoDS_Shape& aShape)
 
 void  DBRep_DrawableShape::ChangeNbIsos (const Standard_Integer NbIsos)
 {
-  myFaces.Clear();
+  myFaces.clear();
   myNbIsos = NbIsos ;
   TopExp_Explorer ExpFace;
   TopLoc_Location l;
@@ -231,14 +230,14 @@ void  DBRep_DrawableShape::ChangeNbIsos (const Standard_Integer NbIsos)
       if (!S.IsNull()) {
 	TopologicalFace.Orientation (TopAbs_FORWARD) ;
 	DBRep_IsoBuilder IsoBuild (TopologicalFace, mySize, myNbIsos) ;
-	myFaces.Append
+	myFaces.push_back
 	  (new DBRep_Face 
 	   (TopologicalFace, IsoBuild.NbDomains(), myIsosCol)) ;
-	IsoBuild.LoadIsos (myFaces.Last()) ;
+	IsoBuild.LoadIsos (myFaces.back()) ;
       }
-      else myFaces.Append(new DBRep_Face(TopologicalFace,0, myEdgeCol));
+      else myFaces.push_back(new DBRep_Face(TopologicalFace,0, myEdgeCol));
     }
-    else  myFaces.Append(new DBRep_Face(TopologicalFace,0, myEdgeCol));
+    else  myFaces.push_back(new DBRep_Face(TopologicalFace,0, myEdgeCol));
   }
 }
 
@@ -398,11 +397,10 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
   TopLoc_Location l;
   TopLoc_Location loc;
 
-  DBRep_ListIteratorOfListOfFace itf(myFaces);
+  for (const Handle(DBRep_Face)& F : myFaces) {
+    if (halt)
+      break;
 
-  while (itf.More() && !halt) {
-
-    const Handle(DBRep_Face)& F = itf.Value();
     dis.SetColor(F->Color());
 
     const Handle(Geom_Surface)& S = BRep_Tool::Surface(F->Face(),l);
@@ -633,7 +631,6 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	Display(Tr, loc.Transformation(), dis);
       }
     }
-    itf.Next();
   }
 
 
