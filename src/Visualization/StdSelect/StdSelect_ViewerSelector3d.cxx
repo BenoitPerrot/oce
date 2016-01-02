@@ -61,9 +61,7 @@ IMPLEMENT_STANDARD_RTTI(StdSelect_ViewerSelector3d)
 #include <Visualization/Select3D/Select3D_SensitiveTriangle.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveWire.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
-#include <Visualization/Select3D/Select3D_ListOfSensitiveTriangle.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveBox.hxx>
-#include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitiveTriangle.hxx>
 
 #include <Visualization/SelectMgr/SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation.hxx>
 #include <Visualization/Aspect/Aspect_Grid.hxx>

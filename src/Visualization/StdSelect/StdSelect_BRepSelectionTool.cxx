@@ -49,7 +49,6 @@
 #include <Visualization/Select3D/Select3D_SensitiveGroup.hxx>
 
 #include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitive.hxx>
-#include <Visualization/Select3D/Select3D_ListOfSensitiveTriangle.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_SequenceOfPnt.hxx>
 #include <Foundation/TColStd/TColStd_Array1OfReal.hxx>
