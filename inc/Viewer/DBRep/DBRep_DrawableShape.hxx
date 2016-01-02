@@ -6,6 +6,8 @@
 #ifndef _DBRep_DrawableShape_HeaderFile
 #define _DBRep_DrawableShape_HeaderFile
 
+#include <vector>
+
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Viewer/DBRep/Handle_DBRep_DrawableShape.hxx>
@@ -13,7 +15,6 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Viewer/DBRep/DBRep_ListOfEdge.hxx>
 #include <Viewer/DBRep/DBRep_ListOfFace.hxx>
-#include <Viewer/DBRep/DBRep_ListOfHideData.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
@@ -23,6 +24,7 @@
 #include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/DBRep/DBRep_HideData.hxx>
 class Standard_DomainError;
 class TopoDS_Shape;
 class Draw_Color;
@@ -115,7 +117,7 @@ private:
   TopoDS_Shape myShape;
   DBRep_ListOfEdge myEdges;
   DBRep_ListOfFace myFaces;
-  DBRep_ListOfHideData myHidData;
+  std::vector<DBRep_HideData> myHidData;
   Standard_Real mySize;
   Standard_Integer myDiscret;
   Draw_Color myFreeCol;

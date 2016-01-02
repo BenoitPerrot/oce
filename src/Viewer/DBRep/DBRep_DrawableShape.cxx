@@ -41,7 +41,6 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <Viewer/DBRep/DBRep_IsoBuilder.hxx>
 #include <Viewer/DBRep/DBRep_ListIteratorOfListOfFace.hxx>
 #include <Viewer/DBRep/DBRep_ListIteratorOfListOfEdge.hxx>
-#include <Viewer/DBRep/DBRep_ListIteratorOfListOfHideData.hxx>
 #include <Viewer/DBRep/DBRep_HideData.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -862,38 +861,38 @@ void DBRep_DrawableShape::DisplayHiddenLines(Draw_Display& dis)
   BRepMesh_IncrementalMesh MESH(myShape, Def, Standard_True, Ang);
   Standard_Boolean recompute = Standard_True;
   // find if the view must be recomputed
-  DBRep_ListIteratorOfListOfHideData it(myHidData);
+  std::vector<DBRep_HideData>::iterator it(myHidData.begin());
   
-  while (it.More()) {
-    if (it.Value().ViewId() == id) {
+  while (it != myHidData.end()) {
+    if ((*it).ViewId() == id) {
       // we have the view
       // but did we rotate it
-      Standard_Real ang = it.Value().Angle();
-      recompute = !it.Value().IsSame(T,focal) || myAng != ang;
+      Standard_Real ang = (*it).Angle();
+      recompute = !(*it).IsSame(T,focal) || myAng != ang;
       if (recompute) 
-	myHidData.Remove(it);
+	myHidData.erase(it);
       else {
-	it.Value().DrawOn(dis,myRg1,myRgN,myHid,
+	(*it).DrawOn(dis,myRg1,myRgN,myHid,
 			  myConnCol,myIsosCol);
 	if (dis.HasPicked()) {
-	  pickshape = it.Value().LastPick();
+	  pickshape = (*it).LastPick();
 	  upick = 0;
 	  vpick = 0;
 	}
       }
       break;
     }
-    it.Next();
+    ++it;
   }
   // recompute the hidden lines and display them
   if (recompute) {
     DBRep_HideData theData;
-    myHidData.Append(theData);
-    myHidData.Last().Set(id,T,focal,myShape,myAng);
-    myHidData.Last().DrawOn(dis,myRg1,myRgN,myHid,
+    myHidData.push_back(theData);
+    myHidData.back().Set(id,T,focal,myShape,myAng);
+    myHidData.back().DrawOn(dis,myRg1,myRgN,myHid,
 			    myConnCol,myIsosCol);
     if (dis.HasPicked()) {
-      pickshape = myHidData.Last().LastPick();
+      pickshape = myHidData.back().LastPick();
       upick = 0;
       vpick = 0;
     }
