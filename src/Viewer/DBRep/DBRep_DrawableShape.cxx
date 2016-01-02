@@ -39,7 +39,6 @@ IMPLEMENT_STANDARD_RTTI(DBRep_DrawableShape)
 #include <Viewer/DBRep/DBRep_Face.hxx>
 #include <Viewer/DBRep/DBRep_Edge.hxx>
 #include <Viewer/DBRep/DBRep_IsoBuilder.hxx>
-#include <Viewer/DBRep/DBRep_ListIteratorOfListOfEdge.hxx>
 #include <Viewer/DBRep/DBRep_HideData.hxx>
 
 #include <ModelingData/TopoDS/TopoDS.hxx>
@@ -137,7 +136,7 @@ void  DBRep_DrawableShape::Set(const TopoDS_Shape& aShape)
   myShape = aShape;
   
   myFaces.clear();
-  myEdges.Clear();
+  myEdges.clear();
   
   if (myShape.IsNull())
     return;
@@ -203,7 +202,7 @@ void  DBRep_DrawableShape::Set(const TopoDS_Shape& aShape)
 	EdgeColor = myConnCol;    // edge shared by at least two faces
     }
     
-    myEdges.Append(new DBRep_Edge (theEdge,EdgeColor));
+    myEdges.push_back(new DBRep_Edge (theEdge,EdgeColor));
   }
 }
 
@@ -635,10 +634,9 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 
 
   // Edges
-  DBRep_ListIteratorOfListOfEdge ite(myEdges);
-  while (ite.More() && !halt) {
-
-    const Handle(DBRep_Edge)& E = ite.Value();
+  for (const Handle(DBRep_Edge)& E : myEdges) {
+    if (halt)
+      break;
     
     if(myDispOr)
       dis.SetColor(DBRep_ColorOrientation(E->Edge().Orientation()));
@@ -656,12 +654,10 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	// bad orientation
 	cout << "DBRep_DrawableShape : Bad parameters on edge."<<endl;
 	BRepTools::Dump(E->Edge(),cout);
-	ite.Next();
 	continue;
       }
 
       if (BRep_Tool::Degenerated(E->Edge())) {
-	ite.Next();
  	continue;
       }
 	
@@ -808,8 +804,6 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	}
       }
     }
-
-    ite.Next();
   }
     
   

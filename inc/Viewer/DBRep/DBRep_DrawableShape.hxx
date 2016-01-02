@@ -13,7 +13,6 @@
 #include <Viewer/DBRep/Handle_DBRep_DrawableShape.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-#include <Viewer/DBRep/DBRep_ListOfEdge.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Viewer/Draw/Draw_Color.hxx>
@@ -23,6 +22,7 @@
 #include <Viewer/Draw/Handle_Draw_Drawable3D.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <Viewer/DBRep/DBRep_Edge.hxx>
 #include <Viewer/DBRep/DBRep_Face.hxx>
 #include <Viewer/DBRep/DBRep_HideData.hxx>
 class Standard_DomainError;
@@ -115,7 +115,7 @@ private:
   Standard_EXPORT   void Display (const Handle(Poly_Triangulation)& T, const gp_Trsf& tr, Draw_Display& dis)  const;
 
   TopoDS_Shape myShape;
-  DBRep_ListOfEdge myEdges;
+  std::vector<Handle(DBRep_Edge)> myEdges;
   std::vector<Handle(DBRep_Face)> myFaces;
   std::vector<DBRep_HideData> myHidData;
   Standard_Real mySize;
