@@ -26,7 +26,6 @@
 #include <OCAF/TNaming/TNaming_Localizer.hxx>
 #include <OCAF/TNaming/TNaming_Identifier.hxx>
 #include <OCAF/TNaming/TNaming_ShapesSet.hxx>
-#include <OCAF/TNaming/TNaming_ListIteratorOfListOfMapOfShape.hxx>
 #include <OCAF/TNaming/TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 #include <OCAF/TNaming/TNaming_DataMapOfShapeShapesSet.hxx>
 #include <OCAF/TNaming/TNaming_IteratorOnShapesSet.hxx>
@@ -170,11 +169,11 @@ const TopTools_MapOfShape& TNaming_Localizer::SubShapes (const TopoDS_Shape&    
 {
 
   TopTools_ListIteratorOfListOfShape     itS(myShapeWithSubShapes) ;
-  TNaming_ListIteratorOfListOfMapOfShape itSS(mySubShapes);
+  std::list<TopTools_MapOfShape>::iterator itSS(mySubShapes.begin());
 //  Standard_Boolean Found = Standard_False;
-  for (; itS.More(); itS.Next(),itSS.Next()) {
+  for (; itS.More(); itS.Next(),++itSS) {
     if (In.IsSame(itS.Value())) {
-      TopTools_MapOfShape& SubShapes = itSS.Value();
+      TopTools_MapOfShape& SubShapes = (*itSS);
       for (TopExp_Explorer exp(In,TS); exp.More(); exp.Next()) {
 	const TopoDS_Shape& SS = exp.Current();
 	if (SubShapes.Contains(SS)) {
@@ -187,10 +186,10 @@ const TopTools_MapOfShape& TNaming_Localizer::SubShapes (const TopoDS_Shape&    
   }
 
   TopTools_MapOfShape emptyMap;
-  mySubShapes.Prepend(emptyMap);
+  mySubShapes.push_front(emptyMap);
   myShapeWithSubShapes.Prepend(In);
   
-  TopTools_MapOfShape& SubShapes = mySubShapes.First();
+  TopTools_MapOfShape& SubShapes = mySubShapes.front();
   for (TopExp_Explorer exp(In,TS); exp.More(); exp.Next()) {
     const TopoDS_Shape& SS = exp.Current();
     if (SubShapes.Contains(SS)) {

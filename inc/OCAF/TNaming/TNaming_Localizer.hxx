@@ -6,14 +6,16 @@
 #ifndef _TNaming_Localizer_HeaderFile
 #define _TNaming_Localizer_HeaderFile
 
+#include <list>
+
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TNaming/Handle_TNaming_UsedShapes.hxx>
+#include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <OCAF/TNaming/TNaming_ListOfMapOfShape.hxx>
 #include <OCAF/TNaming/TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
@@ -77,7 +79,7 @@ private:
   Standard_Integer myCurTrans;
   Handle(TNaming_UsedShapes) myUS;
   TopTools_ListOfShape myShapeWithSubShapes;
-  TNaming_ListOfMapOfShape mySubShapes;
+  std::list<TopTools_MapOfShape> mySubShapes;
   TopTools_ListOfShape myShapeWithAncestors;
   TNaming_ListOfIndexedDataMapOfShapeListOfShape myAncestors;
 
