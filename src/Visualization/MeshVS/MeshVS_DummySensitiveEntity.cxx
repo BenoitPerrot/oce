@@ -14,7 +14,6 @@
 // commercial license or contractual agreement.
 
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Visualization/MeshVS/MeshVS_DummySensitiveEntity.hxx>

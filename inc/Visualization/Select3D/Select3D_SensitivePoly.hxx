@@ -17,13 +17,13 @@
 #include <Mathematics/Collections/Handle_TColgp_HArray1OfPnt.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 class Standard_ConstructionError;
 class Standard_OutOfRange;
 class SelectBasics_EntityOwner;
 class TColgp_Array1OfPnt;
 class TColgp_HArray1OfPnt;
 class Select3D_Projector;
-class SelectBasics_ListOfBox2d;
 class TColgp_Array1OfPnt2d;
 
 

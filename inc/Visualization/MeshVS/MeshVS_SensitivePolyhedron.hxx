@@ -20,6 +20,7 @@
 #include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TColgp_HArray1OfPnt;
 class TColgp_HArray1OfPnt2d;
@@ -33,7 +34,6 @@ class TColgp_Array1OfPnt2d;
 class Bnd_Box2d;
 class TColStd_SequenceOfInteger;
 class gp_Lin;
-class SelectBasics_ListOfBox2d;
 
 
 

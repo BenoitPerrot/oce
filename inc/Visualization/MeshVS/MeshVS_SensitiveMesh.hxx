@@ -20,13 +20,13 @@
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 class SelectBasics_EntityOwner;
 class Select3D_SensitiveEntity;
 class TopLoc_Location;
 class TColgp_Array1OfPnt2d;
 class Bnd_Box2d;
 class Select3D_Projector;
-class SelectBasics_ListOfBox2d;
 
 
 //! This class provides custom mesh sensitive entity used in advanced mesh selection.

@@ -279,7 +279,6 @@ void SelectMgr_ViewerSelector::UpdateSort()
     Standard_Integer boxindex=0;
 
     SelectMgr_DataMapIteratorOfDataMapOfSelectionActivation It;
-    SelectBasics_ListIteratorOfListOfBox2d LIt;
     Handle(SelectMgr_Selection) curEntity;
     Standard_Real ScaleFactor;
     for(It.Initialize(myselections);It.More();It.Next()){
@@ -287,16 +286,17 @@ void SelectMgr_ViewerSelector::UpdateSort()
       { curEntity = It.Key();
       for(curEntity->Init();curEntity->More();curEntity->Next())
       {
+	#warning why is this static?!
         static SelectBasics_ListOfBox2d BoxList;
-        BoxList.Clear();
+        BoxList.clear();
         curEntity->Sensitive()->Areas(BoxList);
         ScaleFactor = curEntity->Sensitive()->SensitivityFactor();
 
 
-        for(LIt.Initialize(BoxList);LIt.More();LIt.Next()){
+        for (Bnd_Box2d &bb : BoxList) {
           boxindex++;
 
-          tab.SetValue(boxindex,LIt.Value());
+          tab.SetValue(boxindex, bb);
 
           tab(boxindex).SetGap(mytolerance*ScaleFactor);
           myentities.Bind(boxindex,curEntity->Sensitive());

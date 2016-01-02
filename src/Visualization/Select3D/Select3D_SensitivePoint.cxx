@@ -17,7 +17,6 @@
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -84,7 +83,7 @@ void Select3D_SensitivePoint
 {
   Bnd_Box2d abox;
   abox.Set(myprojpt);
-  boxes.Append(abox);
+  boxes.push_back(abox);
 }
 
 //==================================================

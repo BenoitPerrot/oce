@@ -27,7 +27,6 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
@@ -255,7 +254,7 @@ void Select3D_SensitiveTriangulation::Project(const Handle(Select3D_Projector)& 
 
 void Select3D_SensitiveTriangulation::Areas(SelectBasics_ListOfBox2d& boxes)
 {
-  boxes.Append(mybox2d);
+  boxes.push_back(mybox2d);
 }
 
 //=======================================================================

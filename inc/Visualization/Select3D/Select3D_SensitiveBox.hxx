@@ -19,11 +19,11 @@
 #include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class SelectBasics_EntityOwner;
 class Bnd_Box;
 class Select3D_Projector;
-class SelectBasics_ListOfBox2d;
 class Select3D_SensitiveEntity;
 class TopLoc_Location;
 class TColgp_Array1OfPnt2d;

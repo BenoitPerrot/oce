@@ -18,7 +18,6 @@
 #include <Visualization/Select3D/Select3D_ListOfSensitive.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>

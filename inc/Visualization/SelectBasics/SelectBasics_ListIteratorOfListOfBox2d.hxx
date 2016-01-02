@@ -6,85 +6,8 @@
 #ifndef _SelectBasics_ListIteratorOfListOfBox2d_HeaderFile
 #define _SelectBasics_ListIteratorOfListOfBox2d_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <Visualization/SelectBasics/Handle_SelectBasics_ListNodeOfListOfBox2d.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class SelectBasics_ListOfBox2d;
-class Bnd_Box2d;
-class SelectBasics_ListNodeOfListOfBox2d;
-
-
-
-class SelectBasics_ListIteratorOfListOfBox2d 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT SelectBasics_ListIteratorOfListOfBox2d();
-  
-  Standard_EXPORT SelectBasics_ListIteratorOfListOfBox2d(const SelectBasics_ListOfBox2d& L);
-  
-  Standard_EXPORT   void Initialize (const SelectBasics_ListOfBox2d& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   Bnd_Box2d& Value()  const;
-
-
-friend class SelectBasics_ListOfBox2d;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item Bnd_Box2d
-#define Item_hxx <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
-#define TCollection_ListNode SelectBasics_ListNodeOfListOfBox2d
-#define TCollection_ListNode_hxx <Visualization/SelectBasics/SelectBasics_ListNodeOfListOfBox2d.hxx>
-#define TCollection_ListIterator SelectBasics_ListIteratorOfListOfBox2d
-#define TCollection_ListIterator_hxx <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
-#define Handle_TCollection_ListNode Handle_SelectBasics_ListNodeOfListOfBox2d
-#define TCollection_ListNode_Type_() SelectBasics_ListNodeOfListOfBox2d_Type_()
-#define TCollection_List SelectBasics_ListOfBox2d
-#define TCollection_List_hxx <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef SelectBasics_ListOfBox2d::iterator SelectBasics_ListIteratorOfListOfBox2d;
 
 #endif // _SelectBasics_ListIteratorOfListOfBox2d_HeaderFile

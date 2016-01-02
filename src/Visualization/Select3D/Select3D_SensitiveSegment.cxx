@@ -17,7 +17,6 @@
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -109,7 +108,7 @@ void Select3D_SensitiveSegment
   {
       Bnd_Box2d curbox;
       curbox.Set(myprojstart);
-      theareas.Append(curbox);
+      theareas.push_back(curbox);
   }
   else
   {
@@ -132,7 +131,7 @@ void Select3D_SensitiveSegment
           Bnd_Box2d curbox;
           curbox.Set(BoxPoint(i-1));
           curbox.Add(BoxPoint(i));
-          theareas.Append(curbox);
+          theareas.push_back(curbox);
         }
       }
     else
@@ -140,7 +139,7 @@ void Select3D_SensitiveSegment
         Bnd_Box2d curbox;
         curbox.Set(myprojstart);
         curbox.Add(myprojend);
-        theareas.Append(curbox);
+        theareas.push_back(curbox);
       }
   }
 }

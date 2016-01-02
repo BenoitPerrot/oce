@@ -14,11 +14,8 @@
 class SelectBasics_EntityOwner;
 class SelectBasics_SortAlgo;
 class SelectBasics_BasicTool;
-class SelectBasics_ListOfBox2d;
 class SelectBasics_SequenceOfOwner;
 class SelectBasics_SensitiveEntity;
-class SelectBasics_ListNodeOfListOfBox2d;
-class SelectBasics_ListIteratorOfListOfBox2d;
 class SelectBasics_SequenceNodeOfSequenceOfOwner;
 
 
@@ -58,11 +55,8 @@ private:
 friend class SelectBasics_EntityOwner;
 friend class SelectBasics_SortAlgo;
 friend class SelectBasics_BasicTool;
-friend class SelectBasics_ListOfBox2d;
 friend class SelectBasics_SequenceOfOwner;
 friend class SelectBasics_SensitiveEntity;
-friend class SelectBasics_ListNodeOfListOfBox2d;
-friend class SelectBasics_ListIteratorOfListOfBox2d;
 friend class SelectBasics_SequenceNodeOfSequenceOfOwner;
 
 };

@@ -14,10 +14,10 @@
 #include <Visualization/SelectBasics/Handle_SelectBasics_EntityOwner.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class SelectBasics_EntityOwner;
-class SelectBasics_ListOfBox2d;
 class TColgp_Array1OfPnt2d;
 class Bnd_Box2d;
 

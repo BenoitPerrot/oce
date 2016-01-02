@@ -25,6 +25,7 @@
 #include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
 #include <Visualization/Select3D/Handle_Select3D_SensitiveEntity.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Poly_Triangulation;
@@ -33,7 +34,6 @@ class SelectBasics_EntityOwner;
 class TopLoc_Location;
 class gp_Pnt;
 class Select3D_Projector;
-class SelectBasics_ListOfBox2d;
 class Select3D_SensitiveEntity;
 class TColgp_Array1OfPnt2d;
 class Bnd_Box2d;

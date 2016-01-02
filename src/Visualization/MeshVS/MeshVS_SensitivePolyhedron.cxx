@@ -25,7 +25,6 @@
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Foundation/TColStd/TColStd_SequenceOfInteger.hxx>
 #include <Mathematics/Primitives/gp_Lin.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/MeshVS/MeshVS_SensitivePolyhedron.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitivePolyhedron)
@@ -287,7 +286,7 @@ void MeshVS_SensitivePolyhedron::Areas( SelectBasics_ListOfBox2d& aResult )
 {
   Bnd_Box2d aBox;
   GetBox2d( aBox );
-  aResult.Append( aBox );
+  aResult.push_back( aBox );
 }
 
 //================================================================

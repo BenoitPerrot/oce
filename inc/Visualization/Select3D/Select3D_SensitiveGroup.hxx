@@ -18,12 +18,12 @@
 #include <Visualization/Select3D/Handle_Select3D_Projector.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/SelectBasics/SelectBasics_PickArgs.hxx>
+#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class SelectBasics_EntityOwner;
 class Select3D_ListOfSensitive;
 class Select3D_SensitiveEntity;
 class Select3D_Projector;
-class SelectBasics_ListOfBox2d;
 class TopLoc_Location;
 class TColgp_Array1OfPnt2d;
 class Bnd_Box2d;

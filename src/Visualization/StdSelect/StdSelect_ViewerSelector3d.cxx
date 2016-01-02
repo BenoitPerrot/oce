@@ -344,9 +344,9 @@ void StdSelect_ViewerSelector3d::DisplayAreas (const Handle(V3d_View)& theView)
   {
     anIt.Value()->Areas (aBoxList);
 
-    for (SelectBasics_ListIteratorOfListOfBox2d aBoxIt (aBoxList); aBoxIt.More(); aBoxIt.Next())
+    for (Bnd_Box2d &aBox : aBoxList)
     {
-      aBoxIt.Value().Get (aXmin, aYmin, aXmax, aYmax);
+      aBox.Get (aXmin, aYmin, aXmax, aYmax);
 
       aPbid.SetCoord (aXmin - mytolerance, aYmin - mytolerance, 0.0);
       aProjector->Transform (aPbid, aProjector->InvertedTransformation());
@@ -1059,9 +1059,9 @@ void StdSelect_ViewerSelector3d::ComputeAreasPrs (const Handle(SelectMgr_Selecti
   for (theSel->Init(); theSel->More(); theSel->Next())
   {
     theSel->Sensitive()->Areas (aBoxList);
-    for (SelectBasics_ListIteratorOfListOfBox2d aBoxIt (aBoxList); aBoxIt.More(); aBoxIt.Next())
+    for (Bnd_Box2d &aBox : aBoxList)
     {
-      aBoxIt.Value().Get (aXmin, aYmin, aXmax, aYmax);
+      aBox.Get (aXmin, aYmin, aXmax, aYmax);
 
       aPbid.SetCoord (aXmin - mytolerance, aYmin - mytolerance, 0.0);
       myProjector->Transform (aPbid, myProjector->InvertedTransformation());

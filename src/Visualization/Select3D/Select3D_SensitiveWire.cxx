@@ -17,7 +17,6 @@
 #include <Visualization/SelectBasics/SelectBasics_EntityOwner.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
@@ -38,7 +37,6 @@ IMPLEMENT_STANDARD_RTTI(Select3D_SensitiveWire)
 #include <Visualization/Select3D/Select3D_SensitiveEntity.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveEntitySequence.hxx>
 #include <Visualization/SelectBasics/SelectBasics_ListIteratorOfListOfBox2d.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/Precision/Precision.hxx>
 
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
@@ -140,10 +138,11 @@ void Select3D_SensitiveWire
   for (i=1; i<=mysensitive.Length(); i++)
     mysensitive.Value(i)->Areas(BidL);
 
-  for(SelectBasics_ListIteratorOfListOfBox2d it(BidL);it.More();it.Next())
-    BB.Add(it.Value());
+#warning following could be a method of Bnd_Box2d:
+  for (Bnd_Box2d &v : BidL)
+    BB.Add(v);
 
-  theareas.Append(BB);
+  theareas.push_back(BB);
 }
 
 //=====================================================

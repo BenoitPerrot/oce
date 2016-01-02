@@ -17,7 +17,6 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt.hxx>
 #include <Mathematics/Collections/TColgp_HArray1OfPnt.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Visualization/Select3D/Select3D_SensitivePoly.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
@@ -117,6 +116,6 @@ void Select3D_SensitivePoly::Project(const Handle(Select3D_Projector)& aProj)
 void Select3D_SensitivePoly
 ::Areas(SelectBasics_ListOfBox2d& aSeq)
 {
-  aSeq.Append(mybox2d);
+  aSeq.push_back(mybox2d);
 }
 

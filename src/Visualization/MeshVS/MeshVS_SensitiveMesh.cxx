@@ -19,7 +19,6 @@
 #include <Mathematics/Collections/TColgp_Array1OfPnt2d.hxx>
 #include <Mathematics/BoundingVolumes/Bnd_Box2d.hxx>
 #include <Visualization/Select3D/Select3D_Projector.hxx>
-#include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Visualization/MeshVS/MeshVS_SensitiveMesh.hxx>
 #include <Foundation/Standard/Standard_Type.hxx>
 IMPLEMENT_STANDARD_TYPE(MeshVS_SensitiveMesh)
@@ -218,5 +217,5 @@ void MeshVS_SensitiveMesh::Project(const Handle(Select3D_Projector)& aProj)
 //==================================================
 void MeshVS_SensitiveMesh::Areas( SelectBasics_ListOfBox2d& aSeq )
 {
-  aSeq.Append(mybox2d);
+  aSeq.push_back(mybox2d);
 }
