@@ -334,14 +334,13 @@ void BinMNaming_NamingDriver::Paste (const Handle(TDF_Attribute)&  theSource,
 
 //3. Keep Args
   Standard_Integer anIndx;
-  Standard_Integer aNbArgs = aName.Arguments().Extent();
+  Standard_Integer aNbArgs = aName.Arguments().size();
   theTarget << aNbArgs; // keep Number
   if (aNbArgs > 0) {
     Standard_Integer i=0;
     TColStd_Array1OfInteger anArray(1, aNbArgs);
     //fill array
-    for (TNaming_ListIteratorOfListOfNamedShape it (aName.Arguments()); it.More(); it.Next()) {
-      Handle(TNaming_NamedShape) anArg = it.Value();
+    for (Handle(TNaming_NamedShape) anArg : aName.Arguments()) {
       anIndx = 0; i++;
       if (!anArg.IsNull()) {
         anIndx = theRelocTable.FindIndex(anArg);

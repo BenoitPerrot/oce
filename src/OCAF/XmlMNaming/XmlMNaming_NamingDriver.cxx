@@ -273,13 +273,12 @@ void XmlMNaming_NamingDriver::Paste
   Standard_Integer aNb;
 
   // arguments
-  Standard_Integer NbArgs = aNgName.Arguments().Extent();
+  Standard_Integer NbArgs = aNgName.Arguments().size();
   if (NbArgs > 0)
   {
     TCollection_AsciiString anArgsStr;
-    for (TNaming_ListIteratorOfListOfNamedShape it (aNgName.Arguments()); it.More(); it.Next())
+    for (Handle(TNaming_NamedShape) anArg : aNgName.Arguments())
     {
-      Handle(TNaming_NamedShape) anArg = it.Value();
       aNb = 0;
       if (!anArg.IsNull())
       {

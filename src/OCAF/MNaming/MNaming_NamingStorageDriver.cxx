@@ -162,15 +162,15 @@ static void  TNamingToPNaming  (const TNaming_Name&   TN,
   PN->ShapeType(ShapeEnumToInteger(TN.ShapeType()));
   
   Handle (PNaming_NamedShape) PNS;
-  Standard_Integer NbArgs = TN.Arguments().Extent();
+  Standard_Integer NbArgs = TN.Arguments().size();
   
   if (NbArgs > 0) {
     Handle(PNaming_HArray1OfNamedShape) TabArgs = new PNaming_HArray1OfNamedShape(1,NbArgs);
     PN->Arguments(TabArgs);
     
     Standard_Integer i = 1;
-    for (TNaming_ListIteratorOfListOfNamedShape it (TN.Arguments()); it.More(); it.Next()) {
-      RelocTable->HasRelocation(it.Value(),PNS);
+    for (const Handle(TNaming_NamedShape) & v : TN.Arguments()) {
+      RelocTable->HasRelocation(v,PNS);
       TabArgs->SetValue(i++,PNS);
     }
   }

@@ -174,7 +174,7 @@ Standard_Boolean TNaming_Identifier::IsFeature()
 
 Handle(TNaming_NamedShape) TNaming_Identifier::Feature() const
 { 
-  return myPrimitiveArgs.First();
+  return myPrimitiveArgs.front();
 }
 
 
@@ -195,7 +195,7 @@ void TNaming_Identifier::InitArgs()
 
 Standard_Boolean TNaming_Identifier::MoreArgs() const
 {
-  return (!myPrimitiveArgs.IsEmpty() || !myShapeArgs.IsEmpty());
+  return (!myPrimitiveArgs.empty() || !myShapeArgs.IsEmpty());
 }
 
 //=======================================================================
@@ -205,7 +205,7 @@ Standard_Boolean TNaming_Identifier::MoreArgs() const
 
 Standard_Boolean TNaming_Identifier::ArgIsFeature() const
 {
-  return (!myPrimitiveArgs.IsEmpty());
+  return (!myPrimitiveArgs.empty());
 }
 
 //=======================================================================
@@ -215,7 +215,7 @@ Standard_Boolean TNaming_Identifier::ArgIsFeature() const
 
 void TNaming_Identifier::NextArg() 
 {
-  if      (!myPrimitiveArgs.IsEmpty()) myPrimitiveArgs.RemoveFirst();
+  if      (!myPrimitiveArgs.empty()) myPrimitiveArgs.pop_front();
   else if (!myShapeArgs    .IsEmpty()) myShapeArgs    .RemoveFirst();
 }
 
@@ -226,7 +226,7 @@ void TNaming_Identifier::NextArg()
 
 Handle(TNaming_NamedShape) TNaming_Identifier::FeatureArg() 
 {
-  return myPrimitiveArgs.First();
+  return myPrimitiveArgs.front();
 }
 
 
@@ -323,7 +323,7 @@ Standard_Boolean IsImported(const Handle(TNaming_NamedShape)& NS)
 void TNaming_Identifier::PrimitiveIdentification (TNaming_Localizer& /*L*/,
 						  const Handle(TNaming_NamedShape)& NS)
 {
-  myPrimitiveArgs.Append(NS);
+  myPrimitiveArgs.push_back(NS);
   myIsFeature = Standard_True;
   myType      = TNaming_MODIFUNTIL;
   //Reconnaissance Shape Mort.
@@ -374,15 +374,15 @@ void TNaming_Identifier::Identification(TNaming_Localizer&          Localizer,
   }
   myType = TNaming_INTERSECTION;
   TNaming_MapIteratorOfMapOfNamedShape itP(Primitives);
-  for (; itP.More(); itP.Next()) myPrimitiveArgs.Append(itP.Key());
+  for (; itP.More(); itP.Next()) myPrimitiveArgs.push_back(itP.Key());
   TopTools_MapIteratorOfMapOfShape itS(Shapes);
   for (; itS.More(); itS.Next()) myShapeArgs.Append(itS.Key());
   
-  if (myPrimitiveArgs.Extent() == 1 && myShapeArgs.IsEmpty()) {
+  if (myPrimitiveArgs.size() == 1 && myShapeArgs.IsEmpty()) {
     myType      = TNaming_MODIFUNTIL;
     myIsFeature = Standard_True;  
     //Reconnaissance Shape Mort.
-    if (IsImported(myPrimitiveArgs.First())) {
+    if (IsImported(myPrimitiveArgs.front())) {
       myType = TNaming_CONSTSHAPE;
       myIsFeature = Standard_False;  
     }

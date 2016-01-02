@@ -614,7 +614,7 @@ void TNaming_Tool::FindShape(const TDF_LabelMap&               Valid,
       const Handle(TNaming_NamedShape)& anExtArg = Handle(TNaming_NamedShape)::DownCast(itr.Key());
       const Handle(TNaming_NamedShape)& aCurrentExtArg = TNaming_Tool::CurrentNamedShape(anExtArg);
       if (!aCurrentExtArg.IsNull() && !aCurrentExtArg->IsEmpty())
-	extArgs.Append(aCurrentExtArg);
+	extArgs.push_back(aCurrentExtArg);
 #ifdef OCCT_DEBUG
 //      if (extArgs.Extent() - 1 == nbExtArgs) {
 //	cout<<"TNaming_Tool::FindShape(): An external reference has been found at ";
@@ -625,9 +625,7 @@ void TNaming_Tool::FindShape(const TDF_LabelMap&               Valid,
   }
 
   // The iterator on external arguments:
-  TNaming_ListIteratorOfListOfNamedShape extArgsIterator (extArgs);
-  for(; extArgsIterator.More(); extArgsIterator.Next()) {
-    Handle(TNaming_NamedShape) anExtArg = extArgsIterator.Value();
+  for (Handle(TNaming_NamedShape) anExtArg : extArgs) {
 
     // Looking for context:
     Handle(TNaming_NamedShape) aContextNS;

@@ -6,86 +6,8 @@
 #ifndef _TNaming_ListIteratorOfListOfNamedShape_HeaderFile
 #define _TNaming_ListIteratorOfListOfNamedShape_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
-#include <OCAF/TNaming/Handle_TNaming_ListNodeOfListOfNamedShape.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class TNaming_ListOfNamedShape;
-class TNaming_NamedShape;
-class TNaming_ListNodeOfListOfNamedShape;
-
-
-
-class TNaming_ListIteratorOfListOfNamedShape 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT TNaming_ListIteratorOfListOfNamedShape();
-  
-  Standard_EXPORT TNaming_ListIteratorOfListOfNamedShape(const TNaming_ListOfNamedShape& L);
-  
-  Standard_EXPORT   void Initialize (const TNaming_ListOfNamedShape& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   Handle(TNaming_NamedShape)& Value()  const;
-
-
-friend class TNaming_ListOfNamedShape;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item Handle(TNaming_NamedShape)
-#define Item_hxx <OCAF/TNaming/TNaming_NamedShape.hxx>
-#define TCollection_ListNode TNaming_ListNodeOfListOfNamedShape
-#define TCollection_ListNode_hxx <OCAF/TNaming/TNaming_ListNodeOfListOfNamedShape.hxx>
-#define TCollection_ListIterator TNaming_ListIteratorOfListOfNamedShape
-#define TCollection_ListIterator_hxx <OCAF/TNaming/TNaming_ListIteratorOfListOfNamedShape.hxx>
-#define Handle_TCollection_ListNode Handle_TNaming_ListNodeOfListOfNamedShape
-#define TCollection_ListNode_Type_() TNaming_ListNodeOfListOfNamedShape_Type_()
-#define TCollection_List TNaming_ListOfNamedShape
-#define TCollection_List_hxx <OCAF/TNaming/TNaming_ListOfNamedShape.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef TNaming_ListOfNamedShape::iterator TNaming_ListIteratorOfListOfNamedShape;
 
 #endif // _TNaming_ListIteratorOfListOfNamedShape_HeaderFile

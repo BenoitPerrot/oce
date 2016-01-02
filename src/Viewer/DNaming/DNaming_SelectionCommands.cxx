@@ -92,9 +92,8 @@ static void DumpNaming (const Handle(TNaming_Naming)& naming, Draw_Interpretor& 
   Standard_SStream aStream2;
   TopAbs::Print(AName.ShapeType(),aStream2);
   di << aStream2;
-  const TNaming_ListOfNamedShape& NSS = AName.Arguments();
-  for (TNaming_ListIteratorOfListOfNamedShape it(NSS); it.More(); it.Next()) {
-    TDF_Tool::Entry(it.Value()->Label(),Entry); 
+  for (const Handle(TNaming_NamedShape) & v : AName.Arguments()) {
+    TDF_Tool::Entry(v->Label(),Entry); 
     di << " " << Entry.ToCString();
   }
   if(!AName.StopNamedShape().IsNull()) {
@@ -312,16 +311,14 @@ static void CollectAttachment (const TDF_Label& root,
 			       TNaming_MapOfNamedShape& attachment)
 {
   TNaming_ListIteratorOfListOfNamedShape itarg;
-  const TNaming_ListOfNamedShape& args = naming->GetName().Arguments();
-  for (itarg.Initialize(args);itarg.More();itarg.Next()) {
-    if (!itarg.Value()->Label().IsDescendant(root)) attachment.Add(itarg.Value());
+  for (const Handle(TNaming_NamedShape) & v : naming->GetName().Arguments()) {
+    if (!v->Label().IsDescendant(root)) attachment.Add(v);
   }  
   Handle(TNaming_Naming) subnaming; 
   for (TDF_ChildIterator it(naming->Label(),Standard_True);it.More();it.Next()) {
     if (it.Value().FindAttribute(TNaming_Naming::GetID(),subnaming)) {   
-      const TNaming_ListOfNamedShape& subargs = subnaming->GetName().Arguments();
-      for (itarg.Initialize(subargs);itarg.More();itarg.Next()) {
-	if (!itarg.Value()->Label().IsDescendant(root)) attachment.Add(itarg.Value());
+      for (const Handle(TNaming_NamedShape) & v : subnaming->GetName().Arguments()) {
+	if (!v->Label().IsDescendant(root)) attachment.Add(v);
       }
     }
   }

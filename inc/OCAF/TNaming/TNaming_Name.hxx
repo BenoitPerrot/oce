@@ -23,7 +23,6 @@
 class TNaming_NamedShape;
 class TopoDS_Shape;
 class TDF_Label;
-class TNaming_ListOfNamedShape;
 class TDF_LabelMap;
 class TDF_RelocationTable;
 

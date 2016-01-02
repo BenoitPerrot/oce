@@ -329,7 +329,7 @@ void TNaming_Localizer::GoBack (const TopoDS_Shape&         S,
       for ( ; itF.More(); itF.Next()) {
         const TopoDS_Shape& AncOfS = itF.Key();
         LBS  .Append(AncOfS);
-        LBNS.Append(TNaming_Tool::NamedShape(AncOfS,Lab));
+        LBNS.push_back(TNaming_Tool::NamedShape(AncOfS,Lab));
       }
     }
   } 
@@ -340,7 +340,7 @@ void TNaming_Localizer::GoBack (const TopoDS_Shape&         S,
         Handle(TNaming_NamedShape) NS = TNaming_Tool::NamedShape(it.Shape(),Lab);
         if (!NS.IsNull()) {
           LBS.Append  (it.Shape());
-          LBNS.Append (TNaming_Tool::NamedShape(it.Shape(),Lab));
+          LBNS.push_back (TNaming_Tool::NamedShape(it.Shape(),Lab));
         }
         else {
 #ifdef OCCT_DEBUG
@@ -465,14 +465,14 @@ void TNaming_Localizer::Backward (const Handle(TNaming_NamedShape)& NS,
   
 
   TopTools_ListIteratorOfListOfShape     itLBS  (LBS);
-  TNaming_ListIteratorOfListOfNamedShape itLBNS (LBNS);
+  TNaming_ListIteratorOfListOfNamedShape itLBNS (LBNS.begin());
 
   if (LBS.IsEmpty()) {
     Primitives.Add(NS);
   }
-  for ( ; itLBS.More(); itLBS.Next(), itLBNS.Next()) {
+  for ( ; itLBS.More(); itLBS.Next(), ++itLBNS) {
     const TopoDS_Shape&        OS  = itLBS.Value();
-    Handle(TNaming_NamedShape) NOS = itLBNS.Value();
+    Handle(TNaming_NamedShape) NOS = (*itLBNS);
     Evol = NOS->Evolution();
     if (Evol == TNaming_PRIMITIVE) {    
       Primitives.Add(NOS);

@@ -753,7 +753,7 @@ static Standard_Boolean Filter (const TDF_Label&                  F,
   if(!aFNaming.IsNull()) {
     const TNaming_Name& aName = aFNaming->GetName();
     if (aName.Type() == TNaming_FILTERBYNEIGHBOURGS) {
-      aFatherCandSh = aName.Arguments().First()->Get();
+      aFatherCandSh = aName.Arguments().front()->Get();
     }
   } 
   if(S.ShapeType() == TopAbs_EDGE && aFatherCandSh.IsNull()) {
@@ -766,9 +766,9 @@ static Standard_Boolean Filter (const TDF_Label&                  F,
 	  TNaming_Name& aName = aFNaming->ChangeName();
 	  if (aName.Type() == TNaming_INTERSECTION) {
 	    Standard_Integer ij(1);
-	    TNaming_ListIteratorOfListOfNamedShape itA(aName.Arguments()); 
-	    for (; itA.More(); itA.Next(), ij++) {
-	      const TopoDS_Shape& aFace = TNaming_Tool::CurrentShape(itA.Value());
+	    for (const Handle(TNaming_NamedShape) &v : aName.Arguments()) {
+	      ij++;
+	      const TopoDS_Shape& aFace = TNaming_Tool::CurrentShape(v);
 #ifdef OCCT_DEBUG_MOD
 	      Write(aFace, "First_Face.brep");
 	      cout <<"Selection TS = " << S.TShape()->This() <<endl;
@@ -1123,14 +1123,14 @@ static Handle(TNaming_NamedShape) BuildName (const TDF_Label&                  F
 	  Filter (F,MDF,Selection,NewContext,Localizer,NS,0);
 	}
       } else if (Ident.Type() == TNaming_MODIFUNTIL ||
-		 (Ident.Type() == TNaming_INTERSECTION && Naming->ChangeName().Arguments().Extent() == 1)) {
+		 (Ident.Type() == TNaming_INTERSECTION && Naming->ChangeName().Arguments().size() == 1)) {
 #ifdef OCCT_DEBUG_MOD
 	cout <<"BuildName(CompareInModification): NameType = " <<Ident.Type() << " NS ";
 	Print_Entry(Ident.Type() == TNaming_MODIFUNTIL ? NS->Label() : Naming->ChangeName().Arguments().First()->Label());
 	cout <<"Selection type = " << Selection.ShapeType() << " TS = " << Selection.TShape()->This() << endl;	
 #endif
 	Handle(TNaming_NamedShape) NewNS =
-	  CompareInModification(Ident.Type() == TNaming_MODIFUNTIL ? NS : Naming->ChangeName().Arguments().First(), Selection);
+	  CompareInModification(Ident.Type() == TNaming_MODIFUNTIL ? NS : Naming->ChangeName().Arguments().front(), Selection);
 	if (!NewNS.IsNull()) { // there is need to describe name in detail: modification with type 1:n in the same label
 	  StandardFilter = Standard_False;
 	  if (Ident.IsFeature()) { // for MODIFUNTIL: change it to the GENERATION
@@ -2042,8 +2042,9 @@ void TNaming_Naming::Paste (const Handle(TDF_Attribute)& into,
 void TNaming_Naming::References(const Handle(TDF_DataSet)& DataSet) const
 {
   // Iteration on NamedShape of the name
-  TNaming_ListIteratorOfListOfNamedShape it(myName.Arguments());
-  for (;it.More();it.Next()) DataSet->AddAttribute(it.Value());
+  for (const Handle(TNaming_NamedShape)& v : myName.Arguments())
+    DataSet->AddAttribute(v);
+
   if (!myName.StopNamedShape().IsNull()) DataSet->AddAttribute(myName.StopNamedShape());
 }
 //=======================================================================
