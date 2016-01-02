@@ -53,8 +53,6 @@
 #include <Visualization/SelectMgr/SelectMgr_EntityOwner.hxx>
 #include <Visualization/SelectMgr/SelectMgr_Selection.hxx>
 #include <Visualization/SelectMgr/SelectMgr_SequenceOfOwner.hxx>
-#include <Visualization/Select3D/Select3D_ListIteratorOfListOfSensitive.hxx>
-#include <Visualization/Select3D/Select3D_ListOfSensitive.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCircle.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveGroup.hxx>
 #include <Visualization/Select3D/Select3D_SensitiveCurve.hxx>

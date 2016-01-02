@@ -21,7 +21,6 @@
 #include <Visualization/SelectBasics/SelectBasics_ListOfBox2d.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class SelectBasics_EntityOwner;
-class Select3D_ListOfSensitive;
 class Select3D_SensitiveEntity;
 class Select3D_Projector;
 class TopLoc_Location;

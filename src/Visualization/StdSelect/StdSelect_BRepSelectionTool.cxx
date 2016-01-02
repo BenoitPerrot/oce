@@ -227,10 +227,9 @@ void StdSelect_BRepSelectionTool
       GetSensitiveForFace (aFace, theOwner,
                            aSensitiveList,
                            isAutoTriangulation, theNbPOnEdge, theMaxParam);
-      for (Select3D_ListIteratorOfListOfSensitive aSensIter (aSensitiveList);
-           aSensIter.More(); aSensIter.Next())
+      for (const Handle(SelectBasics_SensitiveEntity)& v : aSensitiveList)
       {
-        theSelection->Add (aSensIter.Value());
+        theSelection->Add (v);
       }
       break;
     }
@@ -594,7 +593,7 @@ Standard_Boolean StdSelect_BRepSelectionTool
   if (!aTriangulation.IsNull())
   {
     Handle(Select3D_SensitiveTriangulation) STG = new Select3D_SensitiveTriangulation (theOwner, aTriangulation, aLoc, theInteriorFlag);
-    theSensitiveList.Append (STG);
+    theSensitiveList.push_back (STG);
     return Standard_True;
   }
 
@@ -624,12 +623,12 @@ Standard_Boolean StdSelect_BRepSelectionTool
     // if the plane is "infinite", it is sensitive only on the border limited by MaxParam
     if (FirstU == -theMaxParam && LastU == theMaxParam && FirstV == -theMaxParam && LastV == theMaxParam)
     {
-      theSensitiveList.Append (new Select3D_SensitiveFace (theOwner, P, Select3D_TOS_BOUNDARY));
+      theSensitiveList.push_back (new Select3D_SensitiveFace (theOwner, P, Select3D_TOS_BOUNDARY));
     }
     else
     {
       Select3D_TypeOfSensitivity TS = theInteriorFlag ? Select3D_TOS_INTERIOR : Select3D_TOS_BOUNDARY;
-      theSensitiveList.Append (new Select3D_SensitiveFace (theOwner, P, TS));
+      theSensitiveList.push_back (new Select3D_SensitiveFace (theOwner, P, TS));
     }
     return Standard_True;
   }
@@ -715,11 +714,11 @@ Standard_Boolean StdSelect_BRepSelectionTool
             {
               if (cu3d.Circle().Radius() <= Precision::Confusion())
               {
-                theSensitiveList.Append (new Select3D_SensitivePoint (theOwner, cu3d.Circle().Location()));
+                theSensitiveList.push_back (new Select3D_SensitivePoint (theOwner, cu3d.Circle().Location()));
               }
               else
               {
-                theSensitiveList.Append (new Select3D_SensitiveCircle (theOwner, new Geom_Circle (cu3d.Circle()), theInteriorFlag, 16));
+                theSensitiveList.push_back (new Select3D_SensitiveCircle (theOwner, new Geom_Circle (cu3d.Circle()), theInteriorFlag, 16));
               }
             }
           }
@@ -777,7 +776,7 @@ Standard_Boolean StdSelect_BRepSelectionTool
   if ((facepoints->Array1()).Length() > 1)
   { //1 if only one circular edge
     Select3D_TypeOfSensitivity TS = theInteriorFlag ? Select3D_TOS_INTERIOR : Select3D_TOS_BOUNDARY;
-    theSensitiveList.Append (new Select3D_SensitiveFace (theOwner, facepoints, TS));
+    theSensitiveList.push_back (new Select3D_SensitiveFace (theOwner, facepoints, TS));
   }
   return Standard_True;
 }
