@@ -55,7 +55,6 @@ class TNaming_Localizer;
 class TNaming_ShapesSet;
 class TNaming_IteratorOnShapesSet;
 class TNaming_DataMapOfShapeShapesSet;
-class TNaming_ListOfIndexedDataMapOfShapeListOfShape;
 class TNaming_NamingTool;
 class TNaming_StdMapNodeOfMapOfNamedShape;
 class TNaming_MapIteratorOfMapOfNamedShape;
@@ -63,8 +62,6 @@ class TNaming_DataMapNodeOfDataMapOfShapePtrRefShape;
 class TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape;
 class TNaming_DataMapNodeOfDataMapOfShapeShapesSet;
 class TNaming_DataMapIteratorOfDataMapOfShapeShapesSet;
-class TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape;
-class TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape;
 
 
 //! A topological attribute can be seen as a hook
@@ -247,7 +244,6 @@ friend class TNaming_Localizer;
 friend class TNaming_ShapesSet;
 friend class TNaming_IteratorOnShapesSet;
 friend class TNaming_DataMapOfShapeShapesSet;
-friend class TNaming_ListOfIndexedDataMapOfShapeListOfShape;
 friend class TNaming_NamingTool;
 friend class TNaming_StdMapNodeOfMapOfNamedShape;
 friend class TNaming_MapIteratorOfMapOfNamedShape;
@@ -255,8 +251,6 @@ friend class TNaming_DataMapNodeOfDataMapOfShapePtrRefShape;
 friend class TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape;
 friend class TNaming_DataMapNodeOfDataMapOfShapeShapesSet;
 friend class TNaming_DataMapIteratorOfDataMapOfShapeShapesSet;
-friend class TNaming_ListNodeOfListOfIndexedDataMapOfShapeListOfShape;
-friend class TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape;
 
 };
 

@@ -33,7 +33,9 @@ public:
 
   
   Standard_EXPORT TopTools_IndexedDataMapOfShapeListOfShape(const Standard_Integer NbBuckets = 1);
-  
+
+  Standard_EXPORT TopTools_IndexedDataMapOfShapeListOfShape(const TopTools_IndexedDataMapOfShapeListOfShape& Other) __attribute__((deprecated("throw when Other is non empty")));
+
   Standard_EXPORT   TopTools_IndexedDataMapOfShapeListOfShape& Assign (const TopTools_IndexedDataMapOfShapeListOfShape& Other) ;
   TopTools_IndexedDataMapOfShapeListOfShape& operator = (const TopTools_IndexedDataMapOfShapeListOfShape& Other) 
 {
@@ -92,7 +94,6 @@ protected:
 private:
 
   
-  Standard_EXPORT TopTools_IndexedDataMapOfShapeListOfShape(const TopTools_IndexedDataMapOfShapeListOfShape& Other);
 
 
 

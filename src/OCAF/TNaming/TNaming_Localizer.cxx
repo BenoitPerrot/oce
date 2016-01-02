@@ -26,7 +26,6 @@
 #include <OCAF/TNaming/TNaming_Localizer.hxx>
 #include <OCAF/TNaming/TNaming_Identifier.hxx>
 #include <OCAF/TNaming/TNaming_ShapesSet.hxx>
-#include <OCAF/TNaming/TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx>
 #include <OCAF/TNaming/TNaming_DataMapOfShapeShapesSet.hxx>
 #include <OCAF/TNaming/TNaming_IteratorOnShapesSet.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
@@ -211,14 +210,14 @@ const TopTools_IndexedDataMapOfShapeListOfShape& TNaming_Localizer::Ancestors
  const TopAbs_ShapeEnum  TS)
 {
   TopTools_ListIteratorOfListOfShape                           itS(myShapeWithAncestors) ;
-  TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape itA(myAncestors);
+  std::list<TopTools_IndexedDataMapOfShapeListOfShape>::iterator itA(myAncestors.begin());
 //  Standard_Boolean Found = Standard_False;
-  for (; itS.More(); itS.Next(),itA.Next()) {
+  for (; itS.More(); itS.Next(),++itA) {
     if (In.IsSame(itS.Value())) {
       //-----------------------
       // Ancetres existent.
       //-----------------------
-      TopTools_IndexedDataMapOfShapeListOfShape& Anc = itA.Value();
+      TopTools_IndexedDataMapOfShapeListOfShape& Anc = (*itA);
 
       TopExp_Explorer exp(In,TS);
 #ifdef OCCT_DEBUG
@@ -253,7 +252,7 @@ const TopTools_IndexedDataMapOfShapeListOfShape& TNaming_Localizer::Ancestors
   //-----------------------------------
   TopTools_IndexedDataMapOfShapeListOfShape emptyAnc;
   myShapeWithAncestors.Prepend(In);
-  myAncestors         .Prepend(emptyAnc);
+  myAncestors         .push_front(emptyAnc);
 
   TopAbs_ShapeEnum TA=TopAbs_COMPOUND;
 
@@ -261,14 +260,14 @@ const TopTools_IndexedDataMapOfShapeListOfShape& TNaming_Localizer::Ancestors
   else if (TS == TopAbs_EDGE)   TA = TopAbs_FACE;
   else if (TS == TopAbs_FACE)   TA = TopAbs_SOLID;
   if ((TS == TopAbs_EDGE || TS == TopAbs_VERTEX || TS == TopAbs_FACE) && TA >= In.ShapeType()) {
-    TopExp::MapShapesAndAncestors(In, TS, TA, myAncestors.First());
+    TopExp::MapShapesAndAncestors(In, TS, TA, myAncestors.front());
   }
   else {
 #ifdef OCCT_DEBUG
     cout <<" TNaming_Localization : Construction ancetres impossible"<<endl;
 #endif
   }
-  return myAncestors.First();
+  return myAncestors.front();
 }
 
 //=======================================================================

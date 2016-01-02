@@ -16,7 +16,7 @@
 #include <OCAF/TNaming/Handle_TNaming_UsedShapes.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <OCAF/TNaming/TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
 #include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
@@ -81,7 +81,7 @@ private:
   TopTools_ListOfShape myShapeWithSubShapes;
   std::list<TopTools_MapOfShape> mySubShapes;
   TopTools_ListOfShape myShapeWithAncestors;
-  TNaming_ListOfIndexedDataMapOfShapeListOfShape myAncestors;
+  std::list<TopTools_IndexedDataMapOfShapeListOfShape> myAncestors;
 
 
 };
