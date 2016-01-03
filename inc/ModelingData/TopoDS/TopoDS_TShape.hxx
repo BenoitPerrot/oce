@@ -18,7 +18,6 @@
 class Standard_ConstructionError;
 class TopoDS_Iterator;
 class TopoDS_Builder;
-class TopoDS_ListOfShape;
 
 
 //! A TShape  is a topological  structure describing a

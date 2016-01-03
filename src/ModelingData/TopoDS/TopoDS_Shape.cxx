@@ -21,6 +21,220 @@
 #include <Mathematics/TopLoc/TopLoc_Location.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 
+
+//=======================================================================
+//function : ShapeType
+//purpose  : 
+//=======================================================================
+
+TopAbs_ShapeEnum TopoDS_Shape::ShapeType() const
+{
+  return myTShape->ShapeType();
+}
+
+//=======================================================================
+//function : Free
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Free () const
+{
+  return myTShape->Free();
+}
+
+//=======================================================================
+//function : Free
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Free (const Standard_Boolean B)
+{
+  myTShape->Free(B);
+}
+
+//=======================================================================
+//function : Locked
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Locked () const
+{
+  return myTShape->Locked();
+}
+
+//=======================================================================
+//function : Locked
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Locked (const Standard_Boolean B)
+{
+  myTShape->Locked(B);
+}
+
+//=======================================================================
+//function : Modified
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Modified () const
+{
+  return myTShape->Modified();
+}
+
+//=======================================================================
+//function : Modified
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Modified (const Standard_Boolean B)
+{
+  myTShape->Modified(B);
+}
+
+//=======================================================================
+//function : Checked
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Checked () const
+{
+  return myTShape->Checked();
+}
+
+//=======================================================================
+//function : Checked
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Checked (const Standard_Boolean B)
+{
+  myTShape->Checked(B);
+}
+
+//=======================================================================
+//function : Orientable
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Orientable () const
+{
+  return myTShape->Orientable();
+}
+
+//=======================================================================
+//function : Orientable
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Orientable (const Standard_Boolean B)
+{
+  myTShape->Orientable(B);
+}
+
+//=======================================================================
+//function : Closed
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Closed () const
+{
+  return myTShape->Closed();
+}
+
+//=======================================================================
+//function : Closed
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Closed (const Standard_Boolean B)
+{
+  myTShape->Closed(B);
+}
+
+//=======================================================================
+//function : Infinite
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Infinite () const
+{
+  return myTShape->Infinite();
+}
+
+//=======================================================================
+//function : Infinite
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Infinite (const Standard_Boolean B)
+{
+  myTShape->Infinite(B);
+}
+
+//=======================================================================
+//function : Convex
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::Convex () const
+{
+  return myTShape->Convex();
+}
+
+//=======================================================================
+//function : Convex
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::Convex (const Standard_Boolean B)
+{
+  myTShape->Convex(B);
+}
+
+//=======================================================================
+//function : IsPartner
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::IsPartner (const TopoDS_Shape& other) const
+{
+  return (myTShape == other.myTShape);
+}
+
+//=======================================================================
+//function : IsSame
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::IsSame (const TopoDS_Shape& other) const
+{
+  return (myTShape == other.myTShape) &&
+         (myLocation == other.myLocation);
+}
+
+//=======================================================================
+//function : IsEqual
+//purpose  : 
+//=======================================================================
+
+Standard_Boolean TopoDS_Shape::IsEqual (const TopoDS_Shape& other) const
+{
+  return (myTShape == other.myTShape) &&
+         (myLocation == other.myLocation) &&
+         (myOrient == other.myOrient);
+}
+
+//=======================================================================
+//function : EmptyCopy
+//purpose  : 
+//=======================================================================
+
+void TopoDS_Shape::EmptyCopy()
+{
+  myTShape = myTShape->EmptyCopy();
+}
+
 //=======================================================================
 //function : HashCode
 //purpose  : 

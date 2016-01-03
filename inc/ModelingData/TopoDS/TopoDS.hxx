@@ -21,7 +21,6 @@ class TopoDS_CompSolid;
 class TopoDS_Compound;
 class TopoDS_Shape;
 class TopoDS_HShape;
-class TopoDS_ListOfShape;
 class TopoDS_TShape;
 class TopoDS_TVertex;
 class TopoDS_Vertex;
@@ -41,8 +40,6 @@ class TopoDS_TCompound;
 class TopoDS_Compound;
 class TopoDS_Builder;
 class TopoDS_Iterator;
-class TopoDS_ListNodeOfListOfShape;
-class TopoDS_ListIteratorOfListOfShape;
 
 
 //! Provides methods to cast objects of class
@@ -122,7 +119,6 @@ private:
 
 friend class TopoDS_Shape;
 friend class TopoDS_HShape;
-friend class TopoDS_ListOfShape;
 friend class TopoDS_TShape;
 friend class TopoDS_TVertex;
 friend class TopoDS_Vertex;
@@ -142,8 +138,6 @@ friend class TopoDS_TCompound;
 friend class TopoDS_Compound;
 friend class TopoDS_Builder;
 friend class TopoDS_Iterator;
-friend class TopoDS_ListNodeOfListOfShape;
-friend class TopoDS_ListIteratorOfListOfShape;
 
 };
 

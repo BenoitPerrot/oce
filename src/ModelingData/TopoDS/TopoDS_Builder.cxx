@@ -101,8 +101,8 @@ void TopoDS_Builder::Add (TopoDS_Shape& aShape,
     //
     if ((aTb[iC] & (1<<iS)) != 0) {
       TopoDS_ListOfShape& L = aShape.TShape()->ChangeShapes();
-      L.Append(aComponent);
-      TopoDS_Shape& S = L.Last();
+      L.push_back(aComponent);
+      TopoDS_Shape& S = L.back();
       //
       // compute the relative Orientation
       if (aShape.Orientation() == TopAbs_REVERSED)
@@ -144,13 +144,13 @@ void TopoDS_Builder::Remove (TopoDS_Shape& aShape,
   S.Location(S.Location().Predivided(aShape.Location()));
 
   TopoDS_ListOfShape& L = aShape.TShape()->ChangeShapes();
-  TopoDS_ListIteratorOfListOfShape It(L);
-  while (It.More()) {
-    if (It.Value() == S) {
-      L.Remove(It);
+  TopoDS_ListIteratorOfListOfShape It(L.begin());
+  while (It != L.end()) {
+    if ((*It) == S) {
+      It = L.erase(It);
       aShape.TShape()->Modified(Standard_True);
       break;
     }
-    It.Next();
+    ++It;
   }
 }

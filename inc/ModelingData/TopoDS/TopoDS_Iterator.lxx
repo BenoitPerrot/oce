@@ -43,7 +43,7 @@ inline TopoDS_Iterator::TopoDS_Iterator(const TopoDS_Shape& S,
 
 inline Standard_Boolean TopoDS_Iterator::More() const
 {
-  return myShapes.More();
+  return myShapes != myEnd;
 }
 
 //=======================================================================

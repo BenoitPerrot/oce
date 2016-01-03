@@ -23,7 +23,6 @@
 #undef Convex
 #endif
 
-class TopoDS_TShape;
 class Standard_NullObject;
 class Standard_DomainError;
 class Standard_TypeMismatch;

@@ -83,7 +83,8 @@ private:
 
 
   TopoDS_Shape myShape;
-  TopoDS_ListIteratorOfListOfShape myShapes;
+  TopoDS_ListOfShape::const_iterator myShapes;
+  TopoDS_ListOfShape::const_iterator myEnd;
   TopAbs_Orientation myOrientation;
   TopLoc_Location myLocation;
 
