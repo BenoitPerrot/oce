@@ -16,16 +16,12 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <OCAF/MDF/Handle_MDF_ARDriver.hxx>
 #include <OCAF/MDF/Handle_MDF_ARDriverHSequence.hxx>
-#include <OCAF/MDF/Handle_MDF_ListNodeOfDriverListOfARDriverTable.hxx>
 #include <OCAF/MDF/Handle_MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Handle_Standard_Type.hxx>
 class MDF_ARDriver;
 class MDF_ARDriverHSequence;
 class MDF_TypeARDriverMap;
-class MDF_DriverListOfARDriverTable;
-class MDF_ListNodeOfDriverListOfARDriverTable;
-class MDF_ListIteratorOfDriverListOfARDriverTable;
 class MDF_TypeDriverListMapOfARDriverTable;
 class MDF_DataMapNodeOfTypeDriverListMapOfARDriverTable;
 class MDF_DataMapIteratorOfTypeDriverListMapOfARDriverTable;

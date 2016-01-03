@@ -13,13 +13,13 @@
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <OCAF/MDF/Handle_MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable.hxx>
+#include <OCAF/MDF/MDF_DriverListOfASDriverTable.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class Standard_Type;
-class MDF_DriverListOfASDriverTable;
 class TColStd_MapTransientHasher;
 class MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable;
 class MDF_DataMapIteratorOfTypeDriverListMapOfASDriverTable;

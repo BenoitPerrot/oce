@@ -6,86 +6,8 @@
 #ifndef _MDF_ListIteratorOfDriverListOfASDriverTable_HeaderFile
 #define _MDF_ListIteratorOfDriverListOfASDriverTable_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <OCAF/MDF/MDF_DriverListOfASDriverTable.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <OCAF/MDF/Handle_MDF_ASDriver.hxx>
-#include <OCAF/MDF/Handle_MDF_ListNodeOfDriverListOfASDriverTable.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class MDF_DriverListOfASDriverTable;
-class MDF_ASDriver;
-class MDF_ListNodeOfDriverListOfASDriverTable;
-
-
-
-class MDF_ListIteratorOfDriverListOfASDriverTable 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT MDF_ListIteratorOfDriverListOfASDriverTable();
-  
-  Standard_EXPORT MDF_ListIteratorOfDriverListOfASDriverTable(const MDF_DriverListOfASDriverTable& L);
-  
-  Standard_EXPORT   void Initialize (const MDF_DriverListOfASDriverTable& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   Handle(MDF_ASDriver)& Value()  const;
-
-
-friend class MDF_DriverListOfASDriverTable;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item Handle(MDF_ASDriver)
-#define Item_hxx <OCAF/MDF/MDF_ASDriver.hxx>
-#define TCollection_ListNode MDF_ListNodeOfDriverListOfASDriverTable
-#define TCollection_ListNode_hxx <OCAF/MDF/MDF_ListNodeOfDriverListOfASDriverTable.hxx>
-#define TCollection_ListIterator MDF_ListIteratorOfDriverListOfASDriverTable
-#define TCollection_ListIterator_hxx <OCAF/MDF/MDF_ListIteratorOfDriverListOfASDriverTable.hxx>
-#define Handle_TCollection_ListNode Handle_MDF_ListNodeOfDriverListOfASDriverTable
-#define TCollection_ListNode_Type_() MDF_ListNodeOfDriverListOfASDriverTable_Type_()
-#define TCollection_List MDF_DriverListOfASDriverTable
-#define TCollection_List_hxx <OCAF/MDF/MDF_DriverListOfASDriverTable.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef MDF_DriverListOfASDriverTable::iterator MDF_ListIteratorOfDriverListOfASDriverTable;
 
 #endif // _MDF_ListIteratorOfDriverListOfASDriverTable_HeaderFile

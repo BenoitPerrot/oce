@@ -47,23 +47,23 @@ void MDF_DriverTable::SetDriver
   const Handle(Standard_Type)& type = anHDriver->SourceType();
   if (myMapOfLst.IsBound(type)) {
     MDF_DriverList& lst = myMapOfLst.ChangeFind(type);
-    if (lst.IsEmpty()) {
-      lst.Append(anHDriver);
+    if (lst.empty()) {
+      lst.push_back(anHDriver);
     }
     else {
       Standard_Integer driverVersion = anHDriver->VersionNumber();
       Standard_Integer currentVersion;
-      for (MDF_ListIteratorOfDriverList itr(lst); itr.More(); itr.Next()) {
-	const Handle(TheHDriver)& driver = itr.Value();
+      for (MDF_ListIteratorOfDriverList itr(lst.begin()); itr != lst.end(); ++itr) {
+	const Handle(TheHDriver)& driver = (*itr);
 	currentVersion = driver->VersionNumber();
 	if (driverVersion == currentVersion) {
-	  lst.Remove(itr);
-	  if (lst.IsEmpty()) lst.Append(anHDriver);
-	  else               lst.InsertBefore(anHDriver,itr);
+	  itr = lst.erase(itr);
+	  if (lst.empty()) lst.push_back(anHDriver);
+	  else               lst.insert(itr,anHDriver);
 	  break;
 	}
 	else if (driverVersion > currentVersion) {
-	  lst.InsertAfter(anHDriver,itr);
+	  lst.insert(++itr,anHDriver);
 	  break;
 	}
       }
@@ -71,7 +71,7 @@ void MDF_DriverTable::SetDriver
   }
   else {
     MDF_DriverList lst;
-    lst.Append(anHDriver);
+    lst.push_back(anHDriver);
     myMapOfLst.Bind(type,lst);
   }
   myMap.Clear();
@@ -127,13 +127,12 @@ Standard_Boolean MDF_DriverTable::GetDriver
   Standard_Boolean found = Standard_False;
   if (myMapOfLst.IsBound(aType)) {
     const MDF_DriverList& lst = myMapOfLst.Find(aType);
-    if ( (aVersion == 0) && !lst.IsEmpty() ) {
+    if ( (aVersion == 0) && !lst.empty() ) {
       found = Standard_True;
-      anHDriver = lst.First();
+      anHDriver = lst.front();
     }
     else {
-      for (MDF_ListIteratorOfDriverList itr(lst); itr.More(); itr.Next()) {
-	const Handle(TheHDriver)& driver = itr.Value();
+      for (const Handle(TheHDriver)& driver : lst) {
 	if (driver->VersionNumber() >= aVersion) {
 	  found = Standard_True;
 	  anHDriver = driver;

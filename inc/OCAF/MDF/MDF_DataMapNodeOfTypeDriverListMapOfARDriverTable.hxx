@@ -15,7 +15,6 @@
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class Standard_Type;
-class MDF_DriverListOfARDriverTable;
 class TColStd_MapTransientHasher;
 class MDF_TypeDriverListMapOfARDriverTable;
 class MDF_DataMapIteratorOfTypeDriverListMapOfARDriverTable;

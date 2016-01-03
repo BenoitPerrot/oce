@@ -13,9 +13,9 @@
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Handle_Standard_Type.hxx>
 #include <OCAF/MDF/Handle_MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable.hxx>
+#include <OCAF/MDF/MDF_DriverListOfASDriverTable.hxx>
 class Standard_NoSuchObject;
 class Standard_Type;
-class MDF_DriverListOfASDriverTable;
 class TColStd_MapTransientHasher;
 class MDF_TypeDriverListMapOfASDriverTable;
 class MDF_DataMapNodeOfTypeDriverListMapOfASDriverTable;
