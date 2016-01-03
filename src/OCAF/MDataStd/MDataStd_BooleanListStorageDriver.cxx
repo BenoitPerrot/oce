@@ -88,10 +88,10 @@ void MDataStd_BooleanListStorageDriver::Paste(const Handle(TDF_Attribute)&  Sour
   if (upper >= lower)
   {
     T->Init(lower, upper);
-    TDataStd_ListIteratorOfListOfByte itr(S->List());
-    for (; itr.More(); itr.Next(), i++) 
+    for (Standard_Byte b : S->List())
     {
-      T->SetValue(i, itr.Value());
+      T->SetValue(i, b);
+      ++i;
     }
   }
 }

@@ -3414,12 +3414,10 @@ int TestSetGet(const Handle(TDocStd_Document)& doc)
     return 2;
   if (getboollist->Last() != Standard_True)
     return 3;
-  const TDataStd_ListOfByte& boollist = getboollist->List();
-  TDataStd_ListIteratorOfListOfByte itr_boollist(boollist);
-  for (; itr_boollist.More(); itr_boollist.Next())
+  for (Standard_Byte b : getboollist->List())
   {
-    if (itr_boollist.Value() != Standard_True &&
-	itr_boollist.Value() != Standard_False)
+    if (b != Standard_True &&
+	b != Standard_False)
     {
       return 4;
     }

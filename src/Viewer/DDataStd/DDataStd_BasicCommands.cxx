@@ -1782,11 +1782,9 @@ static Standard_Integer DDataStd_GetBooleanList (Draw_Interpretor& di,
     return 1;
   }
   
-  const TDataStd_ListOfByte& bList = A->List();
-  TDataStd_ListIteratorOfListOfByte itr(bList);
-  for (; itr.More(); itr.Next())
+  for (Standard_Byte b : A->List())
   {
-    di << (Standard_Integer) itr.Value() << " ";
+    di << (Standard_Integer) b << " ";
   }
   di << "\n";
   return 0; 

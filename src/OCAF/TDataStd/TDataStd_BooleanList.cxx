@@ -71,7 +71,7 @@ Handle(TDataStd_BooleanList) TDataStd_BooleanList::Set(const TDF_Label& label)
 //=======================================================================
 Standard_Boolean TDataStd_BooleanList::IsEmpty() const
 {
-  return myList.IsEmpty();
+  return myList.empty();
 }
 
 //=======================================================================
@@ -80,7 +80,7 @@ Standard_Boolean TDataStd_BooleanList::IsEmpty() const
 //=======================================================================
 Standard_Integer TDataStd_BooleanList::Extent() const
 {
-  return myList.Extent();
+  return myList.size();
 }
 
 //=======================================================================
@@ -90,7 +90,7 @@ Standard_Integer TDataStd_BooleanList::Extent() const
 void TDataStd_BooleanList::Prepend(const Standard_Boolean value)
 {
   Backup();
-  myList.Prepend( value ? 1 : 0 );
+  myList.push_front( value ? 1 : 0 );
 }
 
 //=======================================================================
@@ -100,7 +100,7 @@ void TDataStd_BooleanList::Prepend(const Standard_Boolean value)
 void TDataStd_BooleanList::Append(const Standard_Boolean value)
 {
   Backup();
-  myList.Append( value ? 1 : 0 );
+  myList.push_back( value ? 1 : 0 );
 }
 
 //=======================================================================
@@ -110,7 +110,7 @@ void TDataStd_BooleanList::Append(const Standard_Boolean value)
 void TDataStd_BooleanList::Clear()
 {
   Backup();
-  myList.Clear();
+  myList.clear();
 }
 
 //=======================================================================
@@ -119,7 +119,7 @@ void TDataStd_BooleanList::Clear()
 //=======================================================================
 Standard_Boolean TDataStd_BooleanList::First() const
 {
-  return myList.First() == 1;
+  return myList.front() == 1;
 }
 
 //=======================================================================
@@ -128,7 +128,7 @@ Standard_Boolean TDataStd_BooleanList::First() const
 //=======================================================================
 Standard_Boolean TDataStd_BooleanList::Last() const
 {
-  return myList.Last() == 1;
+  return myList.back() == 1;
 }
 
 //=======================================================================
@@ -164,13 +164,9 @@ Handle(TDF_Attribute) TDataStd_BooleanList::NewEmpty () const
 //=======================================================================
 void TDataStd_BooleanList::Restore(const Handle(TDF_Attribute)& With) 
 {
-  myList.Clear();
+  myList.clear();
   Handle(TDataStd_BooleanList) aList = Handle(TDataStd_BooleanList)::DownCast(With);
-  TDataStd_ListIteratorOfListOfByte itr(aList->List());
-  for (; itr.More(); itr.Next())
-  {
-    myList.Append(itr.Value());
-  }
+  myList.insert(myList.begin(), aList->List().begin(), aList->List().end());
 }
 
 //=======================================================================
@@ -182,10 +178,9 @@ void TDataStd_BooleanList::Paste (const Handle(TDF_Attribute)& Into,
 {
   Handle(TDataStd_BooleanList) aList = Handle(TDataStd_BooleanList)::DownCast(Into);
   aList->Clear();
-  TDataStd_ListIteratorOfListOfByte itr(myList);
-  for (; itr.More(); itr.Next())
+  for (Standard_Byte b : myList)
   {
-    aList->Append(0 != itr.Value());
+    aList->Append(0 != b);
   }
 }
 

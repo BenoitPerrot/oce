@@ -142,10 +142,8 @@ void XmlMDataStd_BooleanListDriver::Paste(const Handle(TDF_Attribute)& theSource
     // Allocation of 1 char for each boolean value + a space.
     Standard_Integer iChar = 0;
     NCollection_LocalArray<Standard_Character> str(2 * anU + 1);
-    TDataStd_ListIteratorOfListOfByte itr(aBooleanList->List());
-    for (; itr.More(); itr.Next())
+    for (Standard_Byte byte : aBooleanList->List())
     {
-      const Standard_Byte& byte = itr.Value();
       iChar += Sprintf(&(str[iChar]), "%d ", byte);
     }
     XmlObjMgt::SetStringValue (theTarget, (Standard_Character*)str, Standard_True);

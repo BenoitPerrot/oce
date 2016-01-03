@@ -94,10 +94,11 @@ void BinMDataStd_BooleanListDriver::Paste(const Handle(TDF_Attribute)& theSource
   TColStd_Array1OfByte aSourceArray(aFirstInd, aLastInd);
   if (aLastInd >= 1)
   {
-    TDataStd_ListIteratorOfListOfByte itr(anAtt->List());
-    for (Standard_Integer i = 1; itr.More(); itr.Next(), i++)
+    Standard_Integer i = 1;
+    for (Standard_Byte b : anAtt->List())
     {
-      aSourceArray.SetValue(i, itr.Value());
+      aSourceArray.SetValue(i, b);
+      ++i;
     }
     Standard_Byte *aPtr = (Standard_Byte *) &aSourceArray(aFirstInd);
     theTarget.PutByteArray(aPtr, aLength);
