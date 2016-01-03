@@ -135,9 +135,9 @@ void TDataStd_Expression::Restore(const Handle(TDF_Attribute)& With)
   myExpression = EXPR->GetExpression();
 
   Handle(TDataStd_Variable) V;
-  for (TDF_ListIteratorOfAttributeList it (EXPR->GetVariables()); it.More(); it.Next()) {
-    V = Handle(TDataStd_Variable)::DownCast(it.Value());
-    myVariables.Append(V);
+  for (const Handle(TDF_Attribute) &a : EXPR->GetVariables()) {
+    V = Handle(TDataStd_Variable)::DownCast(a);
+    myVariables.push_back(V);
   }
 }
 
@@ -162,10 +162,10 @@ void TDataStd_Expression::Paste(const Handle(TDF_Attribute)& Into,
   Handle(TDataStd_Expression) EXPR = Handle(TDataStd_Expression)::DownCast (Into); 
   EXPR->SetExpression(myExpression);  
   Handle(TDataStd_Variable) V1,V2;
-  for (TDF_ListIteratorOfAttributeList it (myVariables); it.More(); it.Next()) {
-    V1 = Handle(TDataStd_Variable)::DownCast(it.Value());
+  for (const Handle(TDF_Attribute) &a : myVariables) {
+    V1 = Handle(TDataStd_Variable)::DownCast(a);
     RT->HasRelocation (V1,V2);
-    EXPR->GetVariables().Append(V2);
+    EXPR->GetVariables().push_back(V2);
   }
 }
 

@@ -105,7 +105,7 @@ Standard_Boolean XmlMDataStd_ExpressionDriver::Paste
         aV = new TDataStd_Variable;
         theRelocTable.Bind(aNb, aV);
       }
-      aC->GetVariables().Append(aV);
+      aC->GetVariables().push_back(aV);
 
       // next variable
       if (!XmlObjMgt::GetInteger(aVs, aNb)) aNb = 0;
@@ -130,22 +130,19 @@ void XmlMDataStd_ExpressionDriver::Paste
   XmlObjMgt_Element& anElem = theTarget;
 
   Standard_Integer aNb;
-  Handle(TDF_Attribute) TV;   
 
   // expression
   XmlObjMgt::SetExtendedString (theTarget, aC->Name());
 
   // variables
-  Standard_Integer nbvar = aC->GetVariables().Extent();
+  Standard_Integer nbvar = aC->GetVariables().size();
   if (nbvar >= 1)
   {
     TCollection_AsciiString aGsStr;
-    TDF_ListIteratorOfAttributeList it;
     Standard_Integer index = 0;
-    for (it.Initialize(aC->GetVariables()); it.More(); it.Next())
+    for (Handle(TDF_Attribute) TV : aC->GetVariables())
     {
       index++;
-      TV = it.Value(); 
       if (!TV.IsNull())
       {
         aNb = theRelocTable.FindIndex(TV);

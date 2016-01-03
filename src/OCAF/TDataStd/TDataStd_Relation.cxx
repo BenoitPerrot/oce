@@ -138,10 +138,10 @@ void TDataStd_Relation::Restore(const Handle(TDF_Attribute)& With)
   Handle(TDataStd_Relation) REL = Handle(TDataStd_Relation)::DownCast (With);
   myRelation = REL->GetRelation();
   Handle(TDataStd_Variable) V;
-  myVariables.Clear();
-  for (TDF_ListIteratorOfAttributeList it (REL->GetVariables()); it.More(); it.Next()) {
-    V = Handle(TDataStd_Variable)::DownCast(it.Value());
-    myVariables.Append(V);
+  myVariables.clear();
+  for (const Handle(TDF_Attribute) &a : REL->GetVariables()) {
+    V = Handle(TDataStd_Variable)::DownCast(a);
+    myVariables.push_back(V);
   }
 }
 
@@ -166,10 +166,10 @@ void TDataStd_Relation::Paste(const Handle(TDF_Attribute)& Into,
   Handle(TDataStd_Relation) REL = Handle(TDataStd_Relation)::DownCast (Into); 
   REL->SetRelation(myRelation);  
   Handle(TDataStd_Variable) V1,V2;
-  for (TDF_ListIteratorOfAttributeList it (myVariables); it.More(); it.Next()) {
-    V1 = Handle(TDataStd_Variable)::DownCast(it.Value());
+  for (const Handle(TDF_Attribute) &a : myVariables) {
+    V1 = Handle(TDataStd_Variable)::DownCast(a);
     RT->HasRelocation (V1,V2);
-    REL->GetVariables().Append(V2);
+    REL->GetVariables().push_back(V2);
   }
 }
 

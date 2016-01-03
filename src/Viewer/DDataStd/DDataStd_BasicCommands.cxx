@@ -908,7 +908,7 @@ static Standard_Integer DDataStd_SetRelation (Draw_Interpretor& di,
         di << "No TDataStd_Variable Attribute on label" << "\n";
         return 1;
       }
-      aR->GetVariables().Append(aV);
+      aR->GetVariables().push_back(aV);
     }
     return 0;
   }
@@ -943,13 +943,10 @@ static Standard_Integer DDataStd_DumpRelation (Draw_Interpretor& di,
     di << "Relation: expression = \"" << aR->GetRelation()
        << "\" variables list = (";
 
-    Handle(TDF_Attribute) aV;
     TCollection_AsciiString anEntry;
 
-    TDF_ListIteratorOfAttributeList it;
-    for (it.Initialize(aR->GetVariables()); it.More(); it.Next())
+    for (Handle(TDF_Attribute) aV : aR->GetVariables())
     {
-      aV = it.Value(); 
       if (!aV.IsNull())
       {
         label = aV->Label();

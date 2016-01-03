@@ -685,13 +685,12 @@ void TDocStd_Document::UpdateReferences(const TCollection_AsciiString& aDocEntry
   for (TDocStd_XLinkIterator xItr (this); xItr.More(); xItr.Next()) {
     xRefPtr = xItr.Value();
     if (xRefPtr->DocumentEntry() == aDocEntry) {
-      aRefList.Append(xRefPtr->Update());
+      aRefList.push_back(xRefPtr->Update());
     }
   }
-  TDF_ListIteratorOfAttributeList It(aRefList);
-  for (;It.More();It.Next()) {
+  for (const Handle(TDF_Attribute) &a : aRefList) {
     //     // mise a jour import
-    SetModified(It.Value()->Label());
+    SetModified(a->Label());
   }
 }
 

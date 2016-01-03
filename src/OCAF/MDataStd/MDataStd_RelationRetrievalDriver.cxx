@@ -99,7 +99,7 @@ void MDataStd_RelationRetrievalDriver::Paste(const Handle(PDF_Attribute)& Source
       if (!RelocTable->HasRelocation (PV, TV)) {
 	Standard_NoSuchObject::Raise("MDataStd_ConstraintRetrievalDriver::Paste");
       }
-      T->GetVariables().Append(TV);
+      T->GetVariables().push_back(TV);
     }
   }
 }

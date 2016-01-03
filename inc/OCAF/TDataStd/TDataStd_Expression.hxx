@@ -19,7 +19,6 @@
 class Standard_GUID;
 class TDF_Label;
 class TCollection_ExtendedString;
-class TDF_AttributeList;
 class TDF_Attribute;
 class TDF_RelocationTable;
 

@@ -93,7 +93,7 @@ void MDataStd_ExpressionRetrievalDriver::Paste(const Handle(PDF_Attribute)& Sour
       if (!RelocTable->HasRelocation (PV, TV)) {
 	Standard_NoSuchObject::Raise("MDataStd_ConstraintRetrievalDriver::Paste");
       }
-      T->GetVariables().Append(TV);
+      T->GetVariables().push_back(TV);
     }
   }
 }

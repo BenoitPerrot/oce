@@ -434,32 +434,31 @@ void MDF_Tool::ReadAttributes
   TDF_AttributeList attList;
   for (itr.Initialize(attMap); itr.More(); itr.Next()) {
     SpeedCast(itr.Value(),TDF_Attribute,tAtt);
-    attList.Append(tAtt);
+    attList.push_back(tAtt);
   }
 
-  TDF_ListIteratorOfAttributeList itr2;
   Standard_Boolean noDeadLock = Standard_True;
-  Standard_Integer nbAtt = attList.Extent();
+  Standard_Integer nbAtt = attList.size();
   while (noDeadLock && (nbAtt != 0)) {
-    itr2.Initialize(attList);
-    while (itr2.More()) {
-      if (!itr2.Value()->AfterRetrieval())
-	itr2.Next();
+    TDF_ListIteratorOfAttributeList itr2(attList.begin());
+    while (itr2 != attList.end()) {
+      if (!(*itr2)->AfterRetrieval())
+	++itr2;
       else
-	attList.Remove(itr2);
+	itr2 = attList.erase(itr2);
     }
-    noDeadLock = (nbAtt > attList.Extent());
-    nbAtt = attList.Extent();
+    noDeadLock = (nbAtt > attList.size());
+    nbAtt = attList.size();
   }
 
   if (!noDeadLock) {
 #ifdef OCCT_DEBUG
     cout<<"AfterRetrieval(): dead lock between these attributes:"<<endl;
-    for (itr2.Initialize(attList); itr2.More(); itr2.Next())
-      cout<<"Attribute type = "<<itr2.Value()->DynamicType()->Name()<<endl;;
+    for (const Handle(TDF_Attribute) &a : attList)
+      cout<<"Attribute type = "<< a->DynamicType()->Name()<<endl;;
     Standard_ConstructionError::Raise("AfterRetrieval: dead lock.");
 #endif
-    for (itr2.Initialize(attList); itr2.More(); itr2.Next())
-      itr2.Value()->AfterRetrieval(Standard_True);
+    for (const Handle(TDF_Attribute) &a : attList)
+      a->AfterRetrieval(Standard_True);
   }
 }

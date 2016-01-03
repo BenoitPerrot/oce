@@ -83,16 +83,13 @@ void MDataStd_ExpressionStorageDriver::Paste(const Handle(TDF_Attribute)& Source
   Handle(PCollection_HExtendedString) Expression = new PCollection_HExtendedString (S->Name());
   T->SetName (Expression);
 
-  Handle(TDF_Attribute) TV;   
   Handle(PDF_Attribute) PV;
-  Standard_Integer nbvar = S->GetVariables().Extent();
+  Standard_Integer nbvar = S->GetVariables().size();
   if (nbvar <= 0) return;
   Handle(PDF_HAttributeArray1) PVARS = new PDF_HAttributeArray1 (1, nbvar);
-  TDF_ListIteratorOfAttributeList it;
   Standard_Integer index = 0;
-  for (it.Initialize(S->GetVariables());it.More();it.Next()) {
+  for (Handle(TDF_Attribute) TV : S->GetVariables()) {
     index++;
-    TV = it.Value(); 
     if(!RelocTable->HasRelocation (TV, PV)) {
       Standard_NoSuchObject::Raise("MDataStd_ExpressionStorageDriver::Paste");
     }

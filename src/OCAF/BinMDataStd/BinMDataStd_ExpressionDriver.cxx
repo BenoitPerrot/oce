@@ -82,7 +82,7 @@ Standard_Boolean BinMDataStd_ExpressionDriver::Paste
         theRelocTable.Bind(aNb, aV);
       }
     }
-    aList.Append(aV);
+    aList.push_back(aV);
   }
 
   // expression
@@ -108,12 +108,10 @@ void BinMDataStd_ExpressionDriver::Paste
 
   // variables
   const TDF_AttributeList& aList = aC->GetVariables();
-  Standard_Integer nbvar = aList.Extent();
+  Standard_Integer nbvar = aList.size();
   theTarget << nbvar;
-  TDF_ListIteratorOfAttributeList it;
-  for (it.Initialize(aList); it.More(); it.Next())
+  for (const Handle(TDF_Attribute)& TV : aList)
   {
-    const Handle(TDF_Attribute)& TV = it.Value();
     Standard_Integer aNb;
     if (!TV.IsNull())
       aNb = theRelocTable.Add(TV);
