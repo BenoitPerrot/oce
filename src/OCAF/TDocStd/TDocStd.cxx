@@ -79,5 +79,5 @@
 //=======================================================================
 
 void TDocStd::IDList(TDF_IDList& anIDList)
-{ anIDList.Append(TDocStd_XLink::GetID()); }
+{ anIDList.push_back(TDocStd_XLink::GetID()); }
 

@@ -26,7 +26,6 @@
 #include <OCAF/TDF/TDF_Attribute.hxx>
 #include <OCAF/TDF/TDF_IDFilter.hxx>
 
-#include <OCAF/TDF/TDF_IDList.hxx>
 #include <OCAF/TDF/TDF_ListIteratorOfIDList.hxx>
 #include <OCAF/TDF/TDF_MapIteratorOfIDMap.hxx>
 
@@ -84,15 +83,16 @@ void TDF_IDFilter::Keep(const Standard_GUID& anID)
 
 void TDF_IDFilter::Keep(const TDF_IDList& anIDList) 
 {
-  if (!anIDList.IsEmpty()) {
-    TDF_ListIteratorOfIDList itr(anIDList);
+  if (!anIDList.empty()) {
     if (myIgnore) {
-      Standard_Integer n = anIDList.Extent() + myIDMap.NbBuckets() + 1;
+      Standard_Integer n = anIDList.size() + myIDMap.NbBuckets() + 1;
       myIDMap.ReSize(n);
-      for (; itr.More(); itr.Next()) myIDMap.Add(itr.Value());
+      for (const Standard_GUID& id : anIDList)
+	myIDMap.Add(id);
     }
     else {
-      for (; itr.More(); itr.Next()) myIDMap.Remove(itr.Value());
+      for (const Standard_GUID& id : anIDList)
+	myIDMap.Remove(id);
     }
   }
 }
@@ -117,15 +117,16 @@ void TDF_IDFilter::Ignore(const Standard_GUID& anID)
 
 void TDF_IDFilter::Ignore(const TDF_IDList& anIDList)
 {
-  if (!anIDList.IsEmpty()) {
-    TDF_ListIteratorOfIDList itr(anIDList);
+  if (!anIDList.empty()) {
     if (myIgnore) {
-      for (; itr.More(); itr.Next()) myIDMap.Remove(itr.Value());
+      for (const Standard_GUID& id : anIDList)
+	myIDMap.Remove(id);
     }
     else {
-      Standard_Integer n = anIDList.Extent() + myIDMap.NbBuckets() + 1;
+      Standard_Integer n = anIDList.size() + myIDMap.NbBuckets() + 1;
       myIDMap.ReSize(n);
-      for (; itr.More(); itr.Next()) myIDMap.Add(itr.Value());
+      for (const Standard_GUID& id : anIDList)
+	myIDMap.Add(id);
     }
   }
 }
@@ -138,9 +139,9 @@ void TDF_IDFilter::Ignore(const TDF_IDList& anIDList)
 
 void TDF_IDFilter::IDList(TDF_IDList& anIDList) const
 {
-  anIDList.Clear();
+  anIDList.clear();
   for (TDF_MapIteratorOfIDMap itr(myIDMap); itr.More(); itr.Next())
-    anIDList.Append(itr.Key());
+    anIDList.push_back(itr.Key());
 }
 
 

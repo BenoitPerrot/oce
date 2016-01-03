@@ -13,7 +13,7 @@
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <OCAF/TDataXtd/TDataXtd_GeometryEnum.hxx>
 #include <OCAF/TDataXtd/TDataXtd_ConstraintEnum.hxx>
-class TDF_IDList;
+#include <OCAF/TDF/TDF_IDList.hxx>
 class TDataXtd_Position;
 class TDataXtd_Constraint;
 class TDataXtd_Placement;

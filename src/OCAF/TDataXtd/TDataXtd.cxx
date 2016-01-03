@@ -15,7 +15,6 @@
 
 #include <OCAF/TDF/TDF_IDList.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
-#include <OCAF/TDF/TDF_IDList.hxx>
 #include <OCAF/TDataXtd/TDataXtd.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Axis.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Constraint.hxx>
@@ -26,7 +25,6 @@
 #include <OCAF/TDataXtd/TDataXtd_Plane.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Position.hxx>
 #include <OCAF/TDataXtd/TDataXtd_Shape.hxx>
-#include <OCAF/TDF/TDF_IDList.hxx>
 
 //=======================================================================
 //function : IDList
@@ -35,15 +33,15 @@
 
 void TDataXtd::IDList(TDF_IDList& anIDList)
 {  
-  anIDList.Append(TDataXtd_Axis::GetID());
-  anIDList.Append(TDataXtd_Constraint::GetID());
-  anIDList.Append(TDataXtd_Geometry::GetID());
-  anIDList.Append(TDataXtd_PatternStd::GetID());
-  anIDList.Append(TDataXtd_Placement::GetID());
-  anIDList.Append(TDataXtd_Point::GetID());
-  anIDList.Append(TDataXtd_Plane::GetID());
-  anIDList.Append(TDataXtd_Position::GetID());
-  anIDList.Append(TDataXtd_Shape::GetID());
+  anIDList.push_back(TDataXtd_Axis::GetID());
+  anIDList.push_back(TDataXtd_Constraint::GetID());
+  anIDList.push_back(TDataXtd_Geometry::GetID());
+  anIDList.push_back(TDataXtd_PatternStd::GetID());
+  anIDList.push_back(TDataXtd_Placement::GetID());
+  anIDList.push_back(TDataXtd_Point::GetID());
+  anIDList.push_back(TDataXtd_Plane::GetID());
+  anIDList.push_back(TDataXtd_Position::GetID());
+  anIDList.push_back(TDataXtd_Shape::GetID());
   
 }
 

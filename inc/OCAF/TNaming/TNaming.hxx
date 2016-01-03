@@ -16,6 +16,7 @@
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <OCAF/TNaming/TNaming_Evolution.hxx>
 #include <OCAF/TNaming/TNaming_NameType.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 class TDF_Label;
 class TopTools_DataMapOfShapeShape;
 class TopLoc_Location;
@@ -28,7 +29,6 @@ class TopoDS_Face;
 class TopoDS_Wire;
 class TopoDS_Solid;
 class TopoDS_Shell;
-class TDF_IDList;
 class TNaming_CopyShape;
 class TNaming_TranslateTool;
 class TNaming_Translator;

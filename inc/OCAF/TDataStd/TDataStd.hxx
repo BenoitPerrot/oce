@@ -12,7 +12,7 @@
 
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <OCAF/TDataStd/TDataStd_RealEnum.hxx>
-class TDF_IDList;
+#include <OCAF/TDF/TDF_IDList.hxx>
 class TDataStd_Current;
 class TDataStd_Name;
 class TDataStd_Comment;

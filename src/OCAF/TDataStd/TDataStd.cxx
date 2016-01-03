@@ -46,14 +46,14 @@
 
 void TDataStd::IDList(TDF_IDList& anIDList)
 {  
-  anIDList.Append(TDF_TagSource::GetID());  
-  anIDList.Append(TDF_Reference::GetID());
-  anIDList.Append(TDataStd_Integer::GetID()); 
-  anIDList.Append(TDataStd_Name::GetID());  
-  anIDList.Append(TDataStd_Real::GetID());  
-  anIDList.Append(TDataStd_IntegerArray::GetID());
-  anIDList.Append(TDataStd_RealArray::GetID());
-  anIDList.Append(TDataStd_ExtStringArray::GetID());
+  anIDList.push_back(TDF_TagSource::GetID());  
+  anIDList.push_back(TDF_Reference::GetID());
+  anIDList.push_back(TDataStd_Integer::GetID()); 
+  anIDList.push_back(TDataStd_Name::GetID());  
+  anIDList.push_back(TDataStd_Real::GetID());  
+  anIDList.push_back(TDataStd_IntegerArray::GetID());
+  anIDList.push_back(TDataStd_RealArray::GetID());
+  anIDList.push_back(TDataStd_ExtStringArray::GetID());
   
 }
 

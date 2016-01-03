@@ -14,8 +14,8 @@
 #include <OCAF/TDF/TDF_IDMap.hxx>
 #include <OCAF/TDF/Handle_TDF_Attribute.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
+#include <OCAF/TDF/TDF_IDList.hxx>
 class Standard_GUID;
-class TDF_IDList;
 class TDF_Attribute;
 
 

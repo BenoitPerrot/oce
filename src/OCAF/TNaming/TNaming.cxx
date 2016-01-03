@@ -488,7 +488,7 @@ void TNaming::Transform(const TDF_Label& L,
 //=======================================================================
 
 void TNaming::IDList(TDF_IDList& anIDList)
-{ anIDList.Append(TNaming_NamedShape::GetID()); }
+{ anIDList.push_back(TNaming_NamedShape::GetID()); }
 
 
 //=======================================================================
