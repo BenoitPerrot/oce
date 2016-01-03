@@ -21,7 +21,7 @@
 
 
 inline Standard_Boolean TDF_Delta::IsEmpty() const
-{ return myAttDeltaList.IsEmpty(); }
+{ return myAttDeltaList.empty(); }
 
 inline Standard_Boolean TDF_Delta::IsApplicable
 (const Standard_Integer aCurrentTime) const

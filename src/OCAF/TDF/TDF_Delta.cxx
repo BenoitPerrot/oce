@@ -81,7 +81,7 @@ void TDF_Delta::Validity
 
 void TDF_Delta::AddAttributeDelta
 (const Handle(TDF_AttributeDelta)& anAttributeDelta)
-{ if (!anAttributeDelta.IsNull()) myAttDeltaList.Append(anAttributeDelta); }
+{ if (!anAttributeDelta.IsNull()) myAttDeltaList.push_back(anAttributeDelta); }
 
 
 //=======================================================================
@@ -92,21 +92,20 @@ void TDF_Delta::AddAttributeDelta
 void TDF_Delta::BeforeOrAfterApply(const Standard_Boolean before) const
 {
   TDF_AttributeDeltaList ADlist;
-//  for (TDF_ListIteratorOfAttributeDeltaList itr(myAttDeltaList);
-  TDF_ListIteratorOfAttributeDeltaList itr(myAttDeltaList) ;
-  for ( ; itr.More(); itr.Next()) ADlist.Append(itr.Value());
+  for (const Handle(TDF_AttributeDelta) &ad: myAttDeltaList)
+    ADlist.push_back(ad);
 
   Handle(TDF_AttributeDelta) attDelta;
   Handle(TDF_Attribute) att;
 
   Standard_Boolean noDeadLock = Standard_True;
-  Standard_Integer nbAD = ADlist.Extent();
+  Standard_Integer nbAD = ADlist.size();
   Standard_Boolean next;
   while (noDeadLock && (nbAD != 0)) {
-    itr.Initialize(ADlist);
-    while (itr.More()) {
+    TDF_ListIteratorOfAttributeDeltaList itr(ADlist.begin());
+    while (itr != ADlist.end()) {
       next = Standard_True;
-      attDelta = itr.Value();
+      attDelta = (*itr);
       att = attDelta->Attribute();
       if (before)
 	next = !att->BeforeUndo(attDelta);
@@ -114,12 +113,12 @@ void TDF_Delta::BeforeOrAfterApply(const Standard_Boolean before) const
 	next = !att->AfterUndo(attDelta);
 
       if (next)
-	itr.Next();
+	++itr;
       else
-	ADlist.Remove(itr);
+	itr = ADlist.erase(itr);
     }
-    noDeadLock = (nbAD > ADlist.Extent());
-    nbAD = ADlist.Extent();
+    noDeadLock = (nbAD > ADlist.size());
+    nbAD = ADlist.size();
   }
 
   if (!noDeadLock) {
@@ -135,9 +134,8 @@ void TDF_Delta::BeforeOrAfterApply(const Standard_Boolean before) const
       Standard_ConstructionError::Raise("AfterUndo(): dead lock.");
     }
 #endif
-    for (itr.Initialize(ADlist); itr.More(); itr.Next()) {
-      attDelta = itr.Value();
-      att = attDelta->Attribute();
+    for (const Handle(TDF_AttributeDelta) &ad : ADlist) {
+      att = ad->Attribute();
       if (before)
 	att->BeforeUndo(attDelta,Standard_True);
       else
@@ -154,9 +152,7 @@ void TDF_Delta::BeforeOrAfterApply(const Standard_Boolean before) const
 
 void TDF_Delta::Apply()
 {
-  TDF_ListIteratorOfAttributeDeltaList itr;
-  for (itr.Initialize(myAttDeltaList); itr.More(); itr.Next()) {
-    const Handle(TDF_AttributeDelta)& attDelta = itr.Value();
+  for (const Handle(TDF_AttributeDelta)& attDelta : myAttDeltaList) {
     attDelta->Apply();
   }
 }
@@ -191,11 +187,9 @@ void TDF_Delta::Labels(TDF_LabelList& aLabelList) const
 #ifdef OCCT_DEBUG_DELTA
   if (myAttDeltaList.Extent() > 0) cout<<"New added as modified label(s) ";
 #endif
-  for (TDF_ListIteratorOfAttributeDeltaList it2(myAttDeltaList);
-       it2.More();
-       it2.Next()) {
+  for (const Handle(TDF_AttributeDelta) &ad: myAttDeltaList) {
 #ifdef OCCT_DEBUG_DELTA
-    const TDF_Label& lab1 = it2.Value()->Label();
+    const TDF_Label& lab1 = ad->Label();
     inList = labMap.Add(lab1);
     if (!inList) {
       lab1.EntryDump(cout);cout<<" | ";
@@ -222,13 +216,8 @@ void TDF_Delta::Labels(TDF_LabelList& aLabelList) const
 void TDF_Delta::Dump(Standard_OStream& OS) const
 {
   OS<<"DELTA available from time \t#"<<myBeginTime<<" to time \t#"<<myEndTime<<endl;
-  Standard_Integer n = 0;
-//  for (TDF_ListIteratorOfAttributeDeltaList itr(myAttDeltaList);
-  TDF_ListIteratorOfAttributeDeltaList itr(myAttDeltaList) ;
-  for ( ; itr.More(); itr.Next()) ++n;
-  OS<<"Nb Attribute Delta(s): "<<n<<endl;
-  for (itr.Initialize(myAttDeltaList); itr.More(); itr.Next()) {
-    const Handle(TDF_AttributeDelta)& attDelta = itr.Value();
+  OS<<"Nb Attribute Delta(s): "<<myAttDeltaList.size()<<endl;
+  for (const Handle(TDF_AttributeDelta)& attDelta : myAttDeltaList) {
     OS<<"| "; attDelta->Dump(OS); OS<<endl;
   }
 }

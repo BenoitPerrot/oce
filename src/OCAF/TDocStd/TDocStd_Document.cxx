@@ -759,7 +759,6 @@ Standard_Boolean TDocStd_Document::PerformDeltaCompaction()
   TDF_DeltaList aList; 
   Handle(TDocStd_CompoundDelta) aCompoundDelta = new TDocStd_CompoundDelta; 
   TDF_ListIteratorOfDeltaList anIterator(myUndos); 
-  TDF_ListIteratorOfAttributeDeltaList aDeltasIterator;
   TDocStd_LabelIDMapDataMap aMap; 
   Standard_Boolean isFound = Standard_False, isTimeSet = Standard_False; 
 
@@ -776,16 +775,15 @@ Standard_Boolean TDocStd_Document::PerformDeltaCompaction()
       aCompoundDelta->Validity(anIterator.Value()->BeginTime(), myUndos.Last()->EndTime());
       isTimeSet = Standard_True;
     } 
-    
-    aDeltasIterator.Initialize(anIterator.Value()->AttributeDeltas());
-    for(; aDeltasIterator.More(); aDeltasIterator.Next()) {   
-      if(!aMap.IsBound(aDeltasIterator.Value()->Label())) {
+
+    for (const Handle(TDF_AttributeDelta) &ad : anIterator.Value()->AttributeDeltas()) {
+      if(!aMap.IsBound(ad->Label())) {
 	TDF_IDMap* pIDMap = new TDF_IDMap();
-	aMap.Bind(aDeltasIterator.Value()->Label(), *pIDMap);
+	aMap.Bind(ad->Label(), *pIDMap);
 	delete pIDMap;
 	}
-      if(aMap(aDeltasIterator.Value()->Label()).Add(aDeltasIterator.Value()->ID())) //The attribute is not 
-	aCompoundDelta->AddAttributeDelta(aDeltasIterator.Value());                 //already in the delta
+      if(aMap(ad->Label()).Add(ad->ID())) //The attribute is not 
+	aCompoundDelta->AddAttributeDelta(ad);                 //already in the delta
     }
   } 
 
@@ -870,31 +868,27 @@ void TDocStd_Document::AppendDeltaToTheFirst
 {
   if(theDelta2->IsEmpty()) return;
   TDocStd_LabelIDMapDataMap aMap; 
-    
-  TDF_ListIteratorOfAttributeDeltaList aDeltasIterator1
-    (theDelta1->AttributeDeltas());
-  for(; aDeltasIterator1.More(); aDeltasIterator1.Next()) {   
-    TDF_Label aLabel = aDeltasIterator1.Value()->Label();
+
+  for (const Handle(TDF_AttributeDelta) &ad : theDelta1->AttributeDeltas()) {
+    TDF_Label aLabel = ad->Label();
     if(!aMap.IsBound(aLabel)) {
       TDF_IDMap aTmpIDMap;
       aMap.Bind(aLabel, aTmpIDMap);
     }
-    Standard_GUID anID = aDeltasIterator1.Value()->ID();
+    Standard_GUID anID = ad->ID();
     TDF_IDMap& anIDMap = aMap.ChangeFind(aLabel);
     anIDMap.Add(anID);
   }
   
   theDelta1->Validity(theDelta1->BeginTime(), theDelta2->EndTime());
-  TDF_ListIteratorOfAttributeDeltaList aDeltasIterator2
-    (theDelta2->AttributeDeltas());
-  for(; aDeltasIterator2.More(); aDeltasIterator2.Next()) {   
-    TDF_Label aLabel = aDeltasIterator2.Value()->Label();
-    Standard_GUID anID = aDeltasIterator2.Value()->ID();
+  for (const Handle(TDF_AttributeDelta) &ad : theDelta2->AttributeDeltas()) {
+    TDF_Label aLabel = ad->Label();
+    Standard_GUID anID = ad->ID();
     if(aMap.IsBound(aLabel)) {
       const TDF_IDMap& anIDMap = aMap.Find(aLabel);
       if(anIDMap.Contains(anID)) continue;
     }
-    theDelta1->AddAttributeDelta(aDeltasIterator2.Value());
+    theDelta1->AddAttributeDelta(ad);
   }
 }
 

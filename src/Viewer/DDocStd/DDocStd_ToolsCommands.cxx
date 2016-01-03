@@ -21,8 +21,6 @@
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 #include <OCAF/TDF/TDF_Tool.hxx>
-#include <OCAF/TDF/TDF_ListIteratorOfAttributeDeltaList.hxx>
-#include <OCAF/TDF/TDF_AttributeDelta.hxx>
 #include <OCAF/TDF/TDF_Delta.hxx> 
 #include <OCAF/TDF/TDF_AttributeDelta.hxx> 
 #include <OCAF/TDF/TDF_DeltaOnAddition.hxx> 
@@ -65,20 +63,17 @@ static Standard_Integer DDocStd_DumpCommand (Draw_Interpretor& di,
     if (!DDocStd::GetDocument(arg[1],D)) return 1;
     //
     TDF_AttributeDeltaList added, forgoten, resumed, removed, modified;
-    Handle(TDF_AttributeDelta) AD;
     if (D->GetUndos().IsEmpty()) {   
       di << "no UNDO available" << "\n";
       return 0;
     }
     Handle(TDF_Delta) DELTA = D->GetUndos().Last();
-    TDF_ListIteratorOfAttributeDeltaList it (DELTA->AttributeDeltas());
-    for (;it.More();it.Next()) {
-      AD = it.Value();
-      if      (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnAddition)))     {added.Append(AD);}
-      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnForget)))       {forgoten.Append(AD);}
-      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnResume)))       {resumed.Append(AD);}
-      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnRemoval)))      {removed.Append(AD);}
-      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnModification))) {modified.Append(AD);}
+    for (Handle(TDF_AttributeDelta) AD : DELTA->AttributeDeltas()) {
+      if      (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnAddition)))     {added.push_back(AD);}
+      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnForget)))       {forgoten.push_back(AD);}
+      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnResume)))       {resumed.push_back(AD);}
+      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnRemoval)))      {removed.push_back(AD);}
+      else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnModification))) {modified.push_back(AD);}
       else {
 	Standard_DomainError::Raise("DDocStd_DumpCommand : unknown delta");
       }
@@ -87,62 +82,63 @@ static Standard_Integer DDocStd_DumpCommand (Draw_Interpretor& di,
     TCollection_AsciiString string;   
     //  
     TCollection_AsciiString name; // (D->Name());
-    di << "ADDED    :"; 
-    it.Initialize(added);
-    if (it.More()) di << "\n";
+    di << "ADDED    :";
+#warning if (empty) ... else
+    TDF_ListIteratorOfAttributeDeltaList it(added.begin());
+    if (it != added.end()) di << "\n";
     else di << " empty" << "\n";
-    for (;it.More();it.Next()) {   
-      TDF_Tool::Entry (it.Value()->Label(),string);
+    for (;it != added.end();++it) {   
+      TDF_Tool::Entry ((*it)->Label(),string);
       di << "- " << string.ToCString() << " ";      
-      di <<  it.Value()->Attribute()->DynamicType()->Name();
+      di <<  (*it)->Attribute()->DynamicType()->Name();
       di << "\n";
     }
     //
     // forgoten    
     di << "FORGOTEN :";
-    it.Initialize(forgoten);    
-    if (it.More()) di << "\n";
+    it = forgoten.begin();    
+    if (it != forgoten.end()) di << "\n";
     else di << " empty" << "\n";
-    for (;it.More();it.Next()) {   
-      TDF_Tool::Entry (it.Value()->Label(),string);
+    for (;it != forgoten.end();++it) {   
+      TDF_Tool::Entry ((*it)->Label(),string);
       di << "- " << string.ToCString() << " ";
-      di <<  it.Value()->Attribute()->DynamicType()->Name();
+      di <<  (*it)->Attribute()->DynamicType()->Name();
       di << "\n";
     }
     //
     // resumed
     di << "RESUMED  :"; 
-    it.Initialize(resumed);
-    if (it.More()) di << "\n";
+    it = resumed.begin();
+    if (it != resumed.end()) di << "\n";
     else di << " empty" << "\n";
-    for (;it.More();it.Next()) {   
-      TDF_Tool::Entry (it.Value()->Label(),string);
+    for (;it != resumed.end();++it) {   
+      TDF_Tool::Entry ((*it)->Label(),string);
       di << "- " << string.ToCString() << " ";
-      di <<  it.Value()->Attribute()->DynamicType()->Name();
+      di <<  (*it)->Attribute()->DynamicType()->Name();
       di << "\n";
     }
     //
     // removed  
     di << "REMOVED  :";     
-    it.Initialize(removed);
-    if (it.More()) di << "\n";
+    it = removed.begin();
+    if (it != removed.end()) di << "\n";
     else di << " empty" << "\n";
-    for (;it.More();it.Next()) {   
-      TDF_Tool::Entry (it.Value()->Label(),string);
+    for (;it != removed.end();++it) {   
+      TDF_Tool::Entry ((*it)->Label(),string);
       di << "- " << string.ToCString() << " "; 
-      di <<  it.Value()->Attribute()->DynamicType()->Name();
+      di <<  (*it)->Attribute()->DynamicType()->Name();
       di << "\n";
     }
     //
     // modified  
     di << "MODIFIED :";   
-    it.Initialize(modified);
-    if (it.More()) di << "\n";
+    it = modified.begin();
+    if (it != modified.end()) di << "\n";
     else di << " empty" << "\n";
-    for (;it.More();it.Next()) {   
-      TDF_Tool::Entry (it.Value()->Label(),string);
+    for (;it != modified.end();++it) {   
+      TDF_Tool::Entry ((*it)->Label(),string);
       di << "- " << string.ToCString() << " ";
-      di <<  it.Value()->Attribute()->DynamicType()->Name();
+      di <<  (*it)->Attribute()->DynamicType()->Name();
       di << "\n";
     }
     return 0;
