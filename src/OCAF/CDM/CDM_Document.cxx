@@ -154,11 +154,9 @@ void CDM_Document::Extensions (TColStd_SequenceOfExtendedString& Extensions) con
 Standard_Integer CDM_Document::CreateReference
                                 (const Handle(CDM_Document)& anOtherDocument)
 {
-  CDM_ListIteratorOfListOfReferences it(myToReferences);
-  
-  for(; it.More(); it.Next()) {
-    if(anOtherDocument == it.Value()->Document())
-      return it.Value()->ReferenceIdentifier();
+  for (const Handle(CDM_Reference) &r : myToReferences) {
+    if(anOtherDocument == r->Document())
+      return r->ReferenceIdentifier();
   }
 
   Handle(CDM_Reference) r = new CDM_Reference (this,
@@ -177,12 +175,10 @@ Standard_Integer CDM_Document::CreateReference
 
 void CDM_Document::RemoveAllReferences()
 {
-  CDM_ListIteratorOfListOfReferences it(myToReferences);
-
-  for(; it.More(); it.Next()) {
-    it.Value()->ToDocument()->RemoveFromReference(it.Value()->ReferenceIdentifier());
+  for (const Handle(CDM_Reference) &r : myToReferences) {
+    r->ToDocument()->RemoveFromReference(r->ReferenceIdentifier());
   }
-  myToReferences.Clear();
+  myToReferences.clear();
 }
 
 //=======================================================================
@@ -192,12 +188,10 @@ void CDM_Document::RemoveAllReferences()
 
 void CDM_Document::RemoveReference(const Standard_Integer aReferenceIdentifier)
 {
-  CDM_ListIteratorOfListOfReferences it(myToReferences);
-  
-  for(; it.More(); it.Next()) {
-    if(aReferenceIdentifier == it.Value()->ReferenceIdentifier()) {
-      it.Value()->ToDocument()->RemoveFromReference(aReferenceIdentifier);
-      myToReferences.Remove(it);
+  for (CDM_ListIteratorOfListOfReferences it(myToReferences.begin()); it != myToReferences.end(); ++it) {
+    if(aReferenceIdentifier == (*it)->ReferenceIdentifier()) {
+      (*it)->ToDocument()->RemoveFromReference(aReferenceIdentifier);
+      myToReferences.erase(it);
       return;
     }
   }
@@ -231,17 +225,12 @@ Handle(CDM_Document) CDM_Document::Document
 Handle(CDM_Reference) CDM_Document::Reference
                                 (const Standard_Integer aReferenceIdentifier) const
 {
-  Handle(CDM_Reference) theReference;
-
-  CDM_ListIteratorOfListOfReferences it(myToReferences);
-    
-  Standard_Boolean found = Standard_False;
-    
-  for(; it.More() && !found; it.Next()) {
-    found = aReferenceIdentifier == it.Value()->ReferenceIdentifier();
-    if(found) theReference = it.Value();
+  for (const Handle(CDM_Reference) &r : myToReferences) {
+    if (aReferenceIdentifier == r->ReferenceIdentifier()) {
+      return r;
+    }
   }
-  return theReference;
+  return Handle(CDM_Reference)();
 }
 
 static CDM_ListOfDocument& getListOfDocumentToUpdate() {
@@ -305,10 +294,9 @@ TCollection_ExtendedString CDM_Document::Name
 void CDM_Document::UpdateFromDocuments(const Standard_Address aModifContext) const
 {
   Standard_Boolean StartUpdateCycle=getListOfDocumentToUpdate().IsEmpty();
-  
-  CDM_ListIteratorOfListOfReferences it(myFromReferences);
-  for(; it.More() ; it.Next()) {
-    Handle(CDM_Document) theFromDocument=it.Value()->FromDocument();
+
+  for (const Handle(CDM_Reference) &r : myFromReferences) {
+    Handle(CDM_Document) theFromDocument=r->FromDocument();
     CDM_ListIteratorOfListOfDocument itUpdate;
 
     for(; itUpdate.More(); itUpdate.Next()) {
@@ -320,7 +308,7 @@ void CDM_Document::UpdateFromDocuments(const Standard_Address aModifContext) con
       }
     }
     if(!itUpdate.More()) getListOfDocumentToUpdate().Append(theFromDocument);
-    theFromDocument->Update(this,it.Value()->ReferenceIdentifier(),aModifContext);
+    theFromDocument->Update(this,r->ReferenceIdentifier(),aModifContext);
   }
   
   if(StartUpdateCycle) {
@@ -349,7 +337,7 @@ void CDM_Document::UpdateFromDocuments(const Standard_Address aModifContext) con
 
 Standard_Integer CDM_Document::ToReferencesNumber() const
 {
-  return myToReferences.Extent();
+  return myToReferences.size();
 }
 
 //=======================================================================
@@ -359,7 +347,7 @@ Standard_Integer CDM_Document::ToReferencesNumber() const
 
 Standard_Integer CDM_Document::FromReferencesNumber() const
 {
-  return myFromReferences.Extent();
+  return myFromReferences.size();
 }
 
 //=======================================================================
@@ -370,9 +358,8 @@ Standard_Integer CDM_Document::FromReferencesNumber() const
 Standard_Boolean CDM_Document::ShallowReferences
                                 (const Handle(CDM_Document)& aDocument) const
 {
-  CDM_ListIteratorOfListOfReferences it(myFromReferences);
-  for(; it.More() ; it.Next()) {
-    if(it.Value()->Document() == aDocument) return Standard_True;
+  for (const Handle(CDM_Reference) &r : myFromReferences) {
+    if(r->Document() == aDocument) return Standard_True;
   }
   return Standard_False;
 }
@@ -385,9 +372,8 @@ Standard_Boolean CDM_Document::ShallowReferences
 Standard_Boolean CDM_Document::DeepReferences
                                 (const Handle(CDM_Document)& aDocument) const
 {
-  CDM_ListIteratorOfListOfReferences it(myFromReferences);
-  for(; it.More() ; it.Next()) {
-    Handle(CDM_Document) theToDocument=it.Value()->Document();
+  for (const Handle(CDM_Reference) &r : myFromReferences) {
+    Handle(CDM_Document) theToDocument=r->Document();
     if(!theToDocument.IsNull()) {
       if(theToDocument == aDocument) return Standard_True;
       if(theToDocument->DeepReferences(aDocument)) return Standard_True;
@@ -682,9 +668,8 @@ void CDM_Document::SetMetaData(const Handle(CDM_MetaData)& aMetaData)
     for(;it.More();it.Next()) {
       const Handle(CDM_MetaData)& theMetaData=it.Value();
       if(theMetaData != aMetaData && theMetaData->IsRetrieved()) {
-        CDM_ListIteratorOfListOfReferences rit(theMetaData->Document()->myToReferences);
-        for(;rit.More();rit.Next()) {
-	  rit.Value()->Update(aMetaData);
+        for (const Handle(CDM_Reference) &r : theMetaData->Document()->myToReferences) {
+	  r->Update(aMetaData);
         }
       }
     }
@@ -888,11 +873,9 @@ Standard_Boolean CDM_Document::IsOpened() const
 Standard_Boolean CDM_Document::IsOpened
                                 (const Standard_Integer aReferenceIdentifier) const
 {
-  CDM_ListIteratorOfListOfReferences it(myToReferences);
-  
-  for (; it.More(); it.Next()) {
-    if (aReferenceIdentifier == it.Value()->ReferenceIdentifier())
-      return it.Value()->IsOpened();
+  for (const Handle(CDM_Reference) &r : myToReferences) {
+    if (aReferenceIdentifier == r->ReferenceIdentifier())
+      return r->IsOpened();
   }
   return Standard_False;
 }
@@ -933,9 +916,8 @@ void CDM_Document::Close()
     break;
   }
   if(FromReferencesNumber() != 0) {
-    CDM_ListIteratorOfListOfReferences it(myFromReferences);
-    for(; it.More(); it.Next()) {
-      it.Value()->UnsetToDocument(MetaData(),myApplication);
+    for (const Handle(CDM_Reference) &r : myFromReferences) {
+      r->UnsetToDocument(MetaData(),myApplication);
     }
   }
   RemoveAllReferences();
@@ -959,9 +941,8 @@ CDM_CanCloseStatus CDM_Document::CanClose() const
     if(IsModified()) return CDM_CCS_ModifiedReferenced;
 
 
-    CDM_ListIteratorOfListOfReferences it(myFromReferences);
-    for(; it.More(); it.Next()) {
-      if(!it.Value()->FromDocument()->CanCloseReference(this, it.Value()->ReferenceIdentifier()))
+    for (const Handle(CDM_Reference) &r : myFromReferences) {
+      if(!r->FromDocument()->CanCloseReference(this, r->ReferenceIdentifier()))
 	return CDM_CCS_ReferenceRejection;
     }
   } 
@@ -1067,11 +1048,9 @@ Standard_Integer CDM_Document::CreateReference
                                  const Standard_Integer aDocumentVersion,
                                  const Standard_Boolean UseStorageConfiguration)
 {
-  CDM_ListIteratorOfListOfReferences it(myToReferences);
-
-  for(; it.More(); it.Next()) {
-    if(aMetaData == it.Value()->MetaData())
-      return it.Value()->ReferenceIdentifier();
+  for (const Handle(CDM_Reference) &r : myToReferences) {
+    if(aMetaData == r->MetaData())
+      return r->ReferenceIdentifier();
   }
   Handle(CDM_Reference) r = new CDM_Reference (this,
                                                aMetaData,
@@ -1090,7 +1069,7 @@ Standard_Integer CDM_Document::CreateReference
 
 void CDM_Document::AddToReference(const Handle(CDM_Reference)& aReference)
 {
-  myToReferences.Append(aReference);
+  myToReferences.push_back(aReference);
 }
 
 //=======================================================================
@@ -1100,7 +1079,7 @@ void CDM_Document::AddToReference(const Handle(CDM_Reference)& aReference)
 
 void CDM_Document::AddFromReference(const Handle(CDM_Reference)& aReference)
 {
-  myFromReferences.Append(aReference);
+  myFromReferences.push_back(aReference);
 }
 
 //=======================================================================
@@ -1110,11 +1089,9 @@ void CDM_Document::AddFromReference(const Handle(CDM_Reference)& aReference)
 
 void CDM_Document::RemoveFromReference(const Standard_Integer aReferenceIdentifier)
 {
-  CDM_ListIteratorOfListOfReferences it(myFromReferences);
-  
-  for(; it.More(); it.Next()) {
-    if(aReferenceIdentifier == it.Value()->ReferenceIdentifier()) {
-      myFromReferences.Remove(it);
+  for (CDM_ListIteratorOfListOfReferences it(myFromReferences.begin()); it != myFromReferences.end(); ++it) {
+    if(aReferenceIdentifier == (*it)->ReferenceIdentifier()) {
+      myFromReferences.erase(it);
       return;
     }
   }

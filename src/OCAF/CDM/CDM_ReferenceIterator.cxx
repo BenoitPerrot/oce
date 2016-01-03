@@ -19,25 +19,28 @@
 #include <OCAF/CDM/CDM_Reference.hxx>
 #include <OCAF/CDM/CDM_Document.hxx>
 
-CDM_ReferenceIterator::CDM_ReferenceIterator(const Handle(CDM_Document)& aDocument):myIterator(aDocument->myToReferences){}
+CDM_ReferenceIterator::CDM_ReferenceIterator(const Handle(CDM_Document)& aDocument):
+  myIterator(aDocument->myToReferences.begin()),
+  myEnd(aDocument->myToReferences.end())
+{}
 
 Standard_Boolean CDM_ReferenceIterator::More() const {
-  return myIterator.More();
+  return myIterator != myEnd;
 }
 
 void CDM_ReferenceIterator::Next() {
-  myIterator.Next();
+  ++myIterator;
 }
 
 Standard_Integer CDM_ReferenceIterator::ReferenceIdentifier() const{
-  return myIterator.Value()->ReferenceIdentifier();
+  return (*myIterator)->ReferenceIdentifier();
 }
 
 Handle(CDM_Document) CDM_ReferenceIterator::Document() const {
-  return myIterator.Value()->ToDocument();
+  return (*myIterator)->ToDocument();
 }
 
 
 Standard_Integer CDM_ReferenceIterator::DocumentVersion() const {
-  return myIterator.Value()->DocumentVersion();
+  return (*myIterator)->DocumentVersion();
 }

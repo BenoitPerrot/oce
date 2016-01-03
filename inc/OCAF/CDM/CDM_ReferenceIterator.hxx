@@ -52,6 +52,7 @@ private:
 
 
   CDM_ListIteratorOfListOfReferences myIterator;
+  CDM_ListIteratorOfListOfReferences myEnd;
 
 
 };
