@@ -56,7 +56,8 @@ private:
 
 
 
-  CDM_ListIteratorOfListOfDocument myIterator;
+  CDM_ListOfDocument::const_iterator myIterator;
+  CDM_ListOfDocument::const_iterator myEnd;
 
 
 };

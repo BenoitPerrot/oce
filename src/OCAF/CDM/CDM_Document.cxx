@@ -293,10 +293,12 @@ TCollection_ExtendedString CDM_Document::Name
 
 void CDM_Document::UpdateFromDocuments(const Standard_Address aModifContext) const
 {
-  Standard_Boolean StartUpdateCycle=getListOfDocumentToUpdate().IsEmpty();
+  Standard_Boolean StartUpdateCycle=getListOfDocumentToUpdate().empty();
 
   for (const Handle(CDM_Reference) &r : myFromReferences) {
     Handle(CDM_Document) theFromDocument=r->FromDocument();
+#warning following block is iterating over nothing!
+    /*
     CDM_ListIteratorOfListOfDocument itUpdate;
 
     for(; itUpdate.More(); itUpdate.Next()) {
@@ -307,7 +309,9 @@ void CDM_Document::UpdateFromDocuments(const Standard_Address aModifContext) con
 	break;
       }
     }
-    if(!itUpdate.More()) getListOfDocumentToUpdate().Append(theFromDocument);
+    if(!itUpdate.More())
+    */
+      getListOfDocumentToUpdate().push_back(theFromDocument);
     theFromDocument->Update(this,r->ReferenceIdentifier(),aModifContext);
   }
   
@@ -317,15 +321,15 @@ void CDM_Document::UpdateFromDocuments(const Standard_Address aModifContext) con
     Handle(CDM_Application) theApplication;
     TCollection_ExtendedString ErrorString;
 
-    while(!getListOfDocumentToUpdate().IsEmpty()) {
-      theDocumentToUpdate=getListOfDocumentToUpdate().First();
+    while(!getListOfDocumentToUpdate().empty()) {
+      theDocumentToUpdate=getListOfDocumentToUpdate().front();
       theApplication=theDocumentToUpdate->Application();
       ErrorString.Clear();
       theApplication->BeginOfUpdate(theDocumentToUpdate);
       theApplication->EndOfUpdate (theDocumentToUpdate,
                                    theDocumentToUpdate->Update(ErrorString),
                                    ErrorString);
-      getListOfDocumentToUpdate().RemoveFirst();
+      getListOfDocumentToUpdate().pop_front();
     }
   }
 }

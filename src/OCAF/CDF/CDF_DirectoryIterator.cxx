@@ -19,24 +19,30 @@
 #include <OCAF/CDM/CDM_Document.hxx>
 #include <OCAF/CDF/CDF_DirectoryIterator.hxx>
 #include <OCAF/CDF/CDF_Session.hxx>
-CDF_DirectoryIterator::CDF_DirectoryIterator():myIterator(CDF_Session::CurrentSession()->Directory()->List()) {}
+CDF_DirectoryIterator::CDF_DirectoryIterator():
+  myIterator(CDF_Session::CurrentSession()->Directory()->List().begin()),
+  myEnd(CDF_Session::CurrentSession()->Directory()->List().end())
+{}
 
 
 
-CDF_DirectoryIterator::CDF_DirectoryIterator(const Handle(CDF_Directory)& aDirectory):myIterator(aDirectory->List()) {}
+CDF_DirectoryIterator::CDF_DirectoryIterator(const Handle(CDF_Directory)& aDirectory):
+  myIterator(aDirectory->List().begin()),
+  myEnd(aDirectory->List().end())
+{}
 
 
 
 
 Standard_Boolean CDF_DirectoryIterator::MoreDocument() {
-  return myIterator.More() ;
+  return myIterator != myEnd;
 }
 void CDF_DirectoryIterator::NextDocument() {
-  myIterator.Next();
+  ++myIterator;
 }
 
 Handle(CDM_Document) CDF_DirectoryIterator::Document() {
 
-  return myIterator.Value();
+  return (*myIterator);
 }
 

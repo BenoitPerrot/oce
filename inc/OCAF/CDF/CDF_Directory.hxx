@@ -18,7 +18,6 @@
 class Standard_NoSuchObject;
 class CDF_DirectoryIterator;
 class CDM_Document;
-class CDM_ListOfDocument;
 
 
 //! A directory is a collection of documents. There is only one instance

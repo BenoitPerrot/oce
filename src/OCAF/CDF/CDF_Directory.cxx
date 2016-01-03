@@ -31,38 +31,35 @@ IMPLEMENT_STANDARD_RTTI(CDF_Directory)
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 CDF_Directory::CDF_Directory () {}
 
+#warning myDocuments should be a set
+
 void CDF_Directory::Add(const Handle(CDM_Document)& aDocument) {
-  if(!Contains(aDocument)) myDocuments.Append(aDocument);
+  if(!Contains(aDocument)) myDocuments.push_back(aDocument);
 }
 
 void CDF_Directory::Remove(const Handle(CDM_Document)& aDocument) {
 
-  CDM_ListIteratorOfListOfDocument it(myDocuments);
-  
-  Standard_Boolean found = Standard_False;
-  for (; it.More() && !found;) {
-    found = aDocument == it.Value();
-    if(found) 
-      myDocuments.Remove(it);
-    else
-      it.Next();
+  for (CDM_ListIteratorOfListOfDocument it(myDocuments.begin()); it != myDocuments.end(); ++it) {
+    if(aDocument == (*it)) {
+      it = myDocuments.erase(it);
+      break;
+    }
   }
 }
 
 
 Standard_Boolean CDF_Directory::Contains(const Handle(CDM_Document)& aDocument) const {
 
-  CDM_ListIteratorOfListOfDocument it(myDocuments);
-  Standard_Boolean found = Standard_False;
-  for (; it.More() && !found; it.Next()) {
-    found = aDocument == it.Value();
+  for (const Handle(CDM_Document) &d : myDocuments) {
+    if (aDocument == d)
+      return Standard_True;
   }
-  return found;
+  return Standard_False;
 }
 
 
 Standard_Integer CDF_Directory::Length() const {
-  return myDocuments.Extent();
+  return myDocuments.size();
 }
 
 const CDM_ListOfDocument& CDF_Directory::List() const {
@@ -72,9 +69,9 @@ const CDM_ListOfDocument& CDF_Directory::List() const {
 }
 
 Standard_Boolean CDF_Directory::IsEmpty() const {
-  return myDocuments.IsEmpty();
+  return myDocuments.empty();
 }
 Handle(CDM_Document) CDF_Directory::Last() {
   Standard_NoSuchObject_Raise_if(IsEmpty(),"CDF_Directory::Last: the directory does not contain any document");
-  return myDocuments.Last();
+  return myDocuments.back();
 }

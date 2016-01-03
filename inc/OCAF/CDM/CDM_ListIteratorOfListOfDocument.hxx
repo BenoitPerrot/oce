@@ -6,86 +6,8 @@
 #ifndef _CDM_ListIteratorOfListOfDocument_HeaderFile
 #define _CDM_ListIteratorOfListOfDocument_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <OCAF/CDM/CDM_ListOfDocument.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <OCAF/CDM/Handle_CDM_Document.hxx>
-#include <OCAF/CDM/Handle_CDM_ListNodeOfListOfDocument.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class CDM_ListOfDocument;
-class CDM_Document;
-class CDM_ListNodeOfListOfDocument;
-
-
-
-class CDM_ListIteratorOfListOfDocument 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT CDM_ListIteratorOfListOfDocument();
-  
-  Standard_EXPORT CDM_ListIteratorOfListOfDocument(const CDM_ListOfDocument& L);
-  
-  Standard_EXPORT   void Initialize (const CDM_ListOfDocument& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   Handle(CDM_Document)& Value()  const;
-
-
-friend class CDM_ListOfDocument;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item Handle(CDM_Document)
-#define Item_hxx <OCAF/CDM/CDM_Document.hxx>
-#define TCollection_ListNode CDM_ListNodeOfListOfDocument
-#define TCollection_ListNode_hxx <OCAF/CDM/CDM_ListNodeOfListOfDocument.hxx>
-#define TCollection_ListIterator CDM_ListIteratorOfListOfDocument
-#define TCollection_ListIterator_hxx <OCAF/CDM/CDM_ListIteratorOfListOfDocument.hxx>
-#define Handle_TCollection_ListNode Handle_CDM_ListNodeOfListOfDocument
-#define TCollection_ListNode_Type_() CDM_ListNodeOfListOfDocument_Type_()
-#define TCollection_List CDM_ListOfDocument
-#define TCollection_List_hxx <OCAF/CDM/CDM_ListOfDocument.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef CDM_ListOfDocument::iterator CDM_ListIteratorOfListOfDocument;
 
 #endif // _CDM_ListIteratorOfListOfDocument_HeaderFile
