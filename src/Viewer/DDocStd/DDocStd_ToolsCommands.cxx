@@ -63,11 +63,11 @@ static Standard_Integer DDocStd_DumpCommand (Draw_Interpretor& di,
     if (!DDocStd::GetDocument(arg[1],D)) return 1;
     //
     TDF_AttributeDeltaList added, forgoten, resumed, removed, modified;
-    if (D->GetUndos().IsEmpty()) {   
+    if (D->GetUndos().empty()) {   
       di << "no UNDO available" << "\n";
       return 0;
     }
-    Handle(TDF_Delta) DELTA = D->GetUndos().Last();
+    Handle(TDF_Delta) DELTA = D->GetUndos().back();
     for (Handle(TDF_AttributeDelta) AD : DELTA->AttributeDeltas()) {
       if      (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnAddition)))     {added.push_back(AD);}
       else if (AD->IsKind(STANDARD_TYPE(TDF_DeltaOnForget)))       {forgoten.push_back(AD);}

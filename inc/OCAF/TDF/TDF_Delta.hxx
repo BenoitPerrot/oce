@@ -11,7 +11,6 @@
 #include <OCAF/TDF/Handle_TDF_Delta.hxx>
 
 #include <Foundation/Standard/Standard_Integer.hxx>
-#include <OCAF/TDF/TDF_AttributeDeltaList.hxx>
 #include <Foundation/TCollection/TCollection_ExtendedString.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>

@@ -1473,15 +1473,16 @@ static int BUC60836(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   Us = aDocument->GetUndos();
   Rs = aDocument->GetUndos();
 
-  Standard_Integer i;
+  Standard_Integer i = 0;
   char Names[10][5]={"n1","n2","n3","n4","n5","n6","n7","n8","n9","n10"};  
 
   TDF_ListIteratorOfDeltaList IDL;
-  for(IDL.Initialize(Us),i=1;IDL.More();IDL.Next(),i++){
-    Handle(TDF_Delta) D = IDL.Value();
-    TCollection_ExtendedString S(Names[i-1]);
+  for(Handle(TDF_Delta) D : Us) {
+#warning convoluted bound checking
+    TCollection_ExtendedString S(Names[i]);
     D->SetName(S);
 //    cout<<" U"<<i<<"="<<D->Name()<<endl;
+    ++i;
   }
   
   aDocument->Undo();
@@ -1490,19 +1491,15 @@ static int BUC60836(Draw_Interpretor& di, Standard_Integer argc, const char ** a
   Us = aDocument->GetUndos();
   Rs = aDocument->GetRedos();
 
-  for(IDL.Initialize(Us),i=1;IDL.More();IDL.Next(),i++){
-    Handle(TDF_Delta) D = IDL.Value();
-//    cout<<" U"<<i<<"="<<D->Name()<<endl;
-  }
-
+  i = 1;
   TCollection_ExtendedString n2name ("n2");
-  for(IDL.Initialize(Rs),i=1;IDL.More();IDL.Next(),i++){
-    Handle(TDF_Delta) D = IDL.Value();
+  for(Handle(TDF_Delta) D : Rs) {
     if ( i == 1 && ! D->Name().IsEqual (n2name) ) 
     {
       di << 4;
       return 0;
-   }
+    }
+    ++i;
   }
 
   di<<0;
