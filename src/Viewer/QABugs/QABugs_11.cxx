@@ -3445,13 +3445,11 @@ int TestSetGet(const Handle(TDocStd_Document)& doc)
     return 2;
   if (getreflist->Last() != L1)
     return 3;
-  const TDF_LabelList& reflist = getreflist->List();
-  TDF_ListIteratorOfLabelList itr_reflist(reflist);
-  for (; itr_reflist.More(); itr_reflist.Next())
+  for (const TDF_Label &l : getreflist->List())
   {
-    if (itr_reflist.Value() != L1 &&
-	itr_reflist.Value() != L2 &&
-	itr_reflist.Value() != L3)
+    if (l != L1 &&
+	l != L2 &&
+	l != L3)
     {
       return 4;
     }

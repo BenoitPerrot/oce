@@ -546,7 +546,7 @@ void TDataXtd_Constraint::CollectChildConstraints(const TDF_Label& aLabel,
   Handle(TDataXtd_Constraint) aConstraint;
   for (; it.More(); it.Next()) {
     if (it.Value().FindAttribute(TDataXtd_Constraint::GetID(), aConstraint)) {
-      LL.Append(it.Value());
+      LL.push_back(it.Value());
     }
   }
   

@@ -15,7 +15,6 @@
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TDF_Label;
-class TDF_LabelList;
 class TDF_LabelMapHasher;
 class TFunction_DataMapOfLabelListOfLabel;
 class TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel;

@@ -12,13 +12,13 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <OCAF/TFunction/Handle_TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class TDF_Label;
-class TDF_LabelList;
 class TDF_LabelMapHasher;
 class TFunction_DataMapNodeOfDataMapOfLabelListOfLabel;
 class TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel;

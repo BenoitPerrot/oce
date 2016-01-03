@@ -56,18 +56,14 @@ void TDF_ComparisonTool::Compare
   if (aSourceDataSet->IsEmpty() || aTargetDataSet->IsEmpty()) return;
 
   const TDF_LabelList& srcRoots = aSourceDataSet->Roots();
-  TDF_ListIteratorOfLabelList srcRootItr(srcRoots);
 
   const TDF_LabelList& trgRoots = aTargetDataSet->Roots();
-  TDF_ListIteratorOfLabelList trgRootItr;
 
   TDF_LabelDataMap& the2LabMap  = aRelocationTable->LabelTable();
 
   // Try to match source and target roots by their tag.
-  for (; srcRootItr.More(); srcRootItr.Next()) {
-    const TDF_Label& srcLab = srcRootItr.Value();
-    for (trgRootItr.Initialize(trgRoots);trgRootItr.More();trgRootItr.Next()){
-      const TDF_Label& trgLab = trgRootItr.Value();
+  for (const TDF_Label& srcLab : srcRoots) {
+    for (const TDF_Label& trgLab : trgRoots) {
       if (srcLab.Tag() == trgLab.Tag()) {
 	the2LabMap.Bind(srcLab, trgLab);
 	// Now, compare recursively!

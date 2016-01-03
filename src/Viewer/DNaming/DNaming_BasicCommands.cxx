@@ -244,16 +244,16 @@ static Standard_Integer Initialshape (Draw_Interpretor& di, Standard_Integer n, 
   if (!S.IsNull()) {
     DBRep::Set (a[3], S);
   }
-  TDF_ListIteratorOfLabelList itL(Labels);
+  TDF_ListIteratorOfLabelList itL(Labels.begin());
 
   TCollection_AsciiString entry;
-  if (itL.More()) {
-    TDF_Tool::Entry(itL.Value(),entry);
+  if (itL != Labels.end()) {
+    TDF_Tool::Entry(*itL,entry);
     di << entry.ToCString();
-    itL.Next();
+    ++itL;
   }
-  for (; itL.More(); itL.Next()) {
-    TDF_Tool::Entry(itL.Value(),entry);
+  for (; itL != Labels.end(); ++itL) {
+    TDF_Tool::Entry(*itL,entry);
     di <<" , "<< entry.ToCString();    
   }
   di <<"."<<"\n";

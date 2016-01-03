@@ -91,10 +91,8 @@ void MDataStd_ReferenceListStorageDriver::Paste(const Handle(TDF_Attribute)&  So
   if (upper >= lower)
   {
     T->Init(lower, upper);
-    TDF_ListIteratorOfLabelList itr(S->List());
-    for (; itr.More(); itr.Next(), i++) 
+    for (TDF_Label L : S->List())
     {
-      TDF_Label L = itr.Value();
       if (!L.IsNull())
       {
 	TCollection_AsciiString tvalue;
@@ -102,6 +100,7 @@ void MDataStd_ReferenceListStorageDriver::Paste(const Handle(TDF_Attribute)&  So
 	Handle(PCollection_HExtendedString) pvalue = new PCollection_HExtendedString(tvalue);
 	T->SetValue(i, pvalue);
       }
+      ++i;
     }
   }
 }

@@ -75,14 +75,12 @@ void TDF_ClosureTool::Closure
   TDF_LabelList&    rootLst  = aDataSet->Roots();
 
   // Memorizes the roots for future uses.
-  rootLst.Clear();
+  rootLst.clear();
   TDF_MapIteratorOfLabelMap labMItr(labMap);
-  for (; labMItr.More(); labMItr.Next()) rootLst.Append(labMItr.Key());
+  for (; labMItr.More(); labMItr.Next()) rootLst.push_back(labMItr.Key());
 
   // Iterates on roots.
-  TDF_ListIteratorOfLabelList labLItr(rootLst);
-  for (; labLItr.More(); labLItr.Next()) {
-    const TDF_Label& lab = labLItr.Value();
+  for (const TDF_Label& lab : rootLst) {
     if (lab.HasAttribute())
       TDF_ClosureTool::LabelAttributes(lab,labMap,attMap,aFilter,aMode);
     TDF_ClosureTool::Closure(lab,labMap,attMap,aFilter,aMode); 

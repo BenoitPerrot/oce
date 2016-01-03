@@ -11,12 +11,12 @@
 #include <OCAF/TFunction/Handle_TFunction_Driver.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TDF_Label;
 class TFunction_Logbook;
-class TDF_LabelList;
 
 
 //! This  driver  class provide  services  around function

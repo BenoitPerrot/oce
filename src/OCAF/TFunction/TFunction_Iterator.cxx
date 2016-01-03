@@ -58,7 +58,7 @@ TFunction_Iterator::TFunction_Iterator(const TDF_Label& Access):myUsageOfExecuti
 
 void TFunction_Iterator::Init(const TDF_Label& Access)
 {
-  myCurrent.Clear();
+  myCurrent.clear();
   myPassedFunctions.Clear();
 
   // Get the scope of functions
@@ -82,7 +82,7 @@ void TFunction_Iterator::Init(const TDF_Label& Access)
     if (myUsageOfExecutionStatus && status != TFunction_ES_NotExecuted)
       continue;
 
-    myCurrent.Append(L);
+    myCurrent.push_back(L);
 
     // Register already passed functions
     if (!myUsageOfExecutionStatus)
@@ -122,18 +122,17 @@ Standard_Integer TFunction_Iterator::GetMaxNbThreads() const
   fIterator.myUsageOfExecutionStatus = Standard_False;
 
   // Start iteration from current functions
-  TDF_ListIteratorOfLabelList itrl(myCurrent);
-  for (; itrl.More(); itrl.Next())
+  for (const TDF_Label& l : myCurrent)
   {
-    fIterator.myCurrent.Append(itrl.Value());
+    fIterator.myCurrent.push_back(l);
   }
 
   // Check number of semultenious current functions
-  while (!fIterator.Current().IsEmpty())
+  while (!fIterator.Current().empty())
   {
     const TDF_LabelList& current = fIterator.Current();
-    if (nb_threads < current.Extent())
-      nb_threads = current.Extent();
+    if (nb_threads < current.size())
+      nb_threads = current.size();
     fIterator.Next();
   }
 
@@ -179,10 +178,8 @@ Standard_Boolean TFunction_Iterator::More() const
 void TFunction_Iterator::Next()
 {
   TDF_LabelMap next_current;
-  TDF_ListIteratorOfLabelList itrl(myCurrent);
-  for (; itrl.More(); itrl.Next())
+  for (const TDF_Label& L : myCurrent)
   {
-    const TDF_Label& L = itrl.Value();
     TFunction_IFunction iFunction(L);
 
     Handle(TFunction_GraphNode) graphNode = iFunction.GetGraphNode();
@@ -261,11 +258,11 @@ void TFunction_Iterator::Next()
     }
   }
 
-  myCurrent.Clear();
+  myCurrent.clear();
   TDF_MapIteratorOfLabelMap itrm(next_current);
   for (; itrm.More(); itrm.Next())
   {
-    myCurrent.Append(itrm.Key());
+    myCurrent.push_back(itrm.Key());
   }
 }
 
@@ -300,13 +297,13 @@ Standard_OStream& TFunction_Iterator::Dump (Standard_OStream& anOS) const
 {  
   anOS << "Functions:" << endl ;
 
-  if (myCurrent.IsEmpty())
+  if (myCurrent.empty())
     return anOS;
 
   // Memorize the status of each function
   // in order to recover it after iteration.
   TDF_LabelIntegerMap saved_status;
-  Handle(TFunction_Scope) scope = TFunction_Scope::Set(myCurrent.First());
+  Handle(TFunction_Scope) scope = TFunction_Scope::Set(myCurrent.front());
   TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel itrd(scope->GetFunctions());
   for (; itrd.More(); itrd.Next())
   {
@@ -319,19 +316,16 @@ Standard_OStream& TFunction_Iterator::Dump (Standard_OStream& anOS) const
     }
   }
 
-  TFunction_Iterator fIterator(myCurrent.First());
+  TFunction_Iterator fIterator(myCurrent.front());
   fIterator.myUsageOfExecutionStatus = Standard_True;
 
   while (fIterator.More())
   {
     const TDF_LabelList& current = fIterator.Current();
 
-    TDF_ListIteratorOfLabelList itrl(current);
-    for (; itrl.More(); itrl.Next())
+    for (const TDF_Label& L : current)
     {
-
-      const TDF_Label& L = itrl.Value();
-
+      
       Handle(TDataStd_Name) N;
       if (L.FindAttribute(TDataStd_Name::GetID(), N))
       {

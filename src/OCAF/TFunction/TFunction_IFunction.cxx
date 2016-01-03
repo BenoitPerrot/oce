@@ -165,9 +165,8 @@ Standard_Boolean TFunction_IFunction::UpdateDependencies(const TDF_Label& Access
     
     // Make a map of arguments
     TDF_LabelMap argsMap;
-    TDF_ListIteratorOfLabelList itrl(args);
-    for (; itrl.More(); itrl.Next())
-      argsMap.Add(itrl.Value());
+    for (const TDF_Label &l : args)
+      argsMap.Add(l);
 
     // ID of the function
     const Standard_Integer funcID = itrm.Key1();
@@ -180,9 +179,9 @@ Standard_Boolean TFunction_IFunction::UpdateDependencies(const TDF_Label& Access
 	continue;
       const TDF_LabelList& anotherRes = itrd.Value();
 
-      for (itrl.Initialize(anotherRes); itrl.More(); itrl.Next())
+      for (const TDF_Label &l : anotherRes)
       {
-	if (argsMap.Contains(itrl.Value()))
+	if (argsMap.Contains(l))
 	{
 	  iFunction.GetGraphNode()->AddPrevious(anotherL);
 
@@ -251,14 +250,13 @@ Standard_Boolean TFunction_IFunction::UpdateDependencies() const
 
   // Insert the arguments and results into maps for fast searching.
   TDF_LabelMap argsMap, resMap;
-  TDF_ListIteratorOfLabelList itrl(args);
-  for (; itrl.More(); itrl.Next())
+  for (const TDF_Label &l : args)
   {
-    argsMap.Add(itrl.Value());
+    argsMap.Add(l);
   }
-  for (itrl.Initialize(res); itrl.More(); itrl.Next())
+  for (const TDF_Label &l : res)
   {
-    resMap.Add(itrl.Value());
+    resMap.Add(l);
   }
 
   // Consider all other functions checking their attitude to this function.
@@ -273,13 +271,13 @@ Standard_Boolean TFunction_IFunction::UpdateDependencies() const
     D = iFunc.GetDriver();
 
     // Arguments of another function
-    args.Clear();
+    args.clear();
     D->Arguments(args);
 
     // Check presence of the arguments in results of our function
-    for (itrl.Initialize(args); itrl.More(); itrl.Next())
+    for (const TDF_Label &l : args)
     {
-      if (resMap.Contains(itrl.Value()))
+      if (resMap.Contains(l))
       {
 	// Our function is a previous one for this function.
 	GetGraphNode()->AddNext(scope->GetFunctions().Find2(L));
@@ -288,13 +286,13 @@ Standard_Boolean TFunction_IFunction::UpdateDependencies() const
     }
 
     // Results of another function
-    res.Clear();
+    res.clear();
     D->Results(res);
 
     // Check presence of the results in arguments of our function
-    for (itrl.Initialize(res); itrl.More(); itrl.Next())
+    for (const TDF_Label &l: res)
     {
-      if (argsMap.Contains(itrl.Value()))
+      if (argsMap.Contains(l))
       {
 	// Our function is a next one for this function.
 	GetGraphNode()->AddPrevious(scope->GetFunctions().Find2(L));
@@ -347,7 +345,7 @@ void TFunction_IFunction::GetPrevious(TDF_LabelList& prev) const
     const Standard_Integer funcID = itrm.Key();
     if (scope->GetFunctions().IsBound1(funcID))
     {
-      prev.Append(scope->GetFunctions().Find1(funcID));
+      prev.push_back(scope->GetFunctions().Find1(funcID));
     }
   }
 }
@@ -369,7 +367,7 @@ void TFunction_IFunction::GetNext(TDF_LabelList& next) const
     const Standard_Integer funcID = itrm.Key();
     if (scope->GetFunctions().IsBound1(funcID))
     {
-      next.Append(scope->GetFunctions().Find1(funcID));
+      next.push_back(scope->GetFunctions().Find1(funcID));
     }
   }
 }

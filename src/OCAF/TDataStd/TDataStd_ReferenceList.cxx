@@ -72,7 +72,7 @@ Handle(TDataStd_ReferenceList) TDataStd_ReferenceList::Set(const TDF_Label& labe
 //=======================================================================
 Standard_Boolean TDataStd_ReferenceList::IsEmpty() const
 {
-  return myList.IsEmpty();
+  return myList.empty();
 }
 
 //=======================================================================
@@ -81,7 +81,7 @@ Standard_Boolean TDataStd_ReferenceList::IsEmpty() const
 //=======================================================================
 Standard_Integer TDataStd_ReferenceList::Extent() const
 {
-  return myList.Extent();
+  return myList.size();
 }
 
 //=======================================================================
@@ -91,7 +91,7 @@ Standard_Integer TDataStd_ReferenceList::Extent() const
 void TDataStd_ReferenceList::Prepend(const TDF_Label& value)
 {
   Backup();
-  myList.Prepend(value);
+  myList.push_front(value);
 }
 
 //=======================================================================
@@ -101,7 +101,7 @@ void TDataStd_ReferenceList::Prepend(const TDF_Label& value)
 void TDataStd_ReferenceList::Append(const TDF_Label& value)
 {
   Backup();
-  myList.Append(value);
+  myList.push_back(value);
 }
 
 //=======================================================================
@@ -111,13 +111,12 @@ void TDataStd_ReferenceList::Append(const TDF_Label& value)
 Standard_Boolean TDataStd_ReferenceList::InsertBefore(const TDF_Label& value,
 						      const TDF_Label& before_value)
 {
-  TDF_ListIteratorOfLabelList itr(myList);
-  for (; itr.More(); itr.Next())
+  for (TDF_ListIteratorOfLabelList itr(myList.begin()); itr != myList.end(); ++itr)
   {
-    if (itr.Value() == before_value)
+    if ((*itr) == before_value)
     {
       Backup();
-      myList.InsertBefore(value, itr);
+      myList.insert(itr, value);
       return Standard_True;
     }
   }
@@ -131,13 +130,12 @@ Standard_Boolean TDataStd_ReferenceList::InsertBefore(const TDF_Label& value,
 Standard_Boolean TDataStd_ReferenceList::InsertAfter(const TDF_Label& value,
 						     const TDF_Label& after_value)
 {
-  TDF_ListIteratorOfLabelList itr(myList);
-  for (; itr.More(); itr.Next())
+  for (TDF_ListIteratorOfLabelList itr(myList.begin()); itr != myList.end(); ++itr)
   {
-    if (itr.Value() == after_value)
+    if ((*itr) == after_value)
     {
       Backup();
-      myList.InsertAfter(value, itr);
+      myList.insert(++itr, value);
       return Standard_True;
     }
   }
@@ -150,13 +148,12 @@ Standard_Boolean TDataStd_ReferenceList::InsertAfter(const TDF_Label& value,
 //=======================================================================
 Standard_Boolean TDataStd_ReferenceList::Remove(const TDF_Label& value)
 {
-  TDF_ListIteratorOfLabelList itr(myList);
-  for (; itr.More(); itr.Next())
+  for (TDF_ListIteratorOfLabelList itr(myList.begin()); itr != myList.end(); ++itr)
   {
-    if (itr.Value() == value)
+    if ((*itr) == value)
     {
       Backup();
-      myList.Remove(itr);
+      myList.erase(itr);
       return Standard_True;
     }
   }
@@ -170,7 +167,7 @@ Standard_Boolean TDataStd_ReferenceList::Remove(const TDF_Label& value)
 void TDataStd_ReferenceList::Clear()
 {
   Backup();
-  myList.Clear();
+  myList.clear();
 }
 
 //=======================================================================
@@ -179,7 +176,7 @@ void TDataStd_ReferenceList::Clear()
 //=======================================================================
 const TDF_Label& TDataStd_ReferenceList::First() const
 {
-  return myList.First();
+  return myList.front();
 }
 
 //=======================================================================
@@ -188,7 +185,7 @@ const TDF_Label& TDataStd_ReferenceList::First() const
 //=======================================================================
 const TDF_Label& TDataStd_ReferenceList::Last() const
 {
-  return myList.Last();
+  return myList.back();
 }
 
 //=======================================================================
@@ -224,13 +221,9 @@ Handle(TDF_Attribute) TDataStd_ReferenceList::NewEmpty () const
 //=======================================================================
 void TDataStd_ReferenceList::Restore(const Handle(TDF_Attribute)& With) 
 {
-  myList.Clear();
+  myList.clear();
   Handle(TDataStd_ReferenceList) aList = Handle(TDataStd_ReferenceList)::DownCast(With);
-  TDF_ListIteratorOfLabelList itr(aList->List());
-  for (; itr.More(); itr.Next())
-  {
-    myList.Append(itr.Value());
-  }
+  myList.insert(myList.begin(), aList->List().begin(), aList->List().end());
 }
 
 //=======================================================================
@@ -242,10 +235,9 @@ void TDataStd_ReferenceList::Paste (const Handle(TDF_Attribute)& Into,
 {
   Handle(TDataStd_ReferenceList) aList = Handle(TDataStd_ReferenceList)::DownCast(Into);
   aList->Clear();
-  TDF_ListIteratorOfLabelList itr(myList);
-  for (; itr.More(); itr.Next())
+  for (TDF_Label L : myList)
   {
-    TDF_Label L = itr.Value(), rL;
+    TDF_Label rL;
     if (!L.IsNull())
     {
       if (!RT->HasRelocation(L, rL))
@@ -263,10 +255,9 @@ void TDataStd_ReferenceList::References(const Handle(TDF_DataSet)& aDataSet) con
 {
   if (!Label().IsImported()) 
   {
-    TDF_ListIteratorOfLabelList itr(myList);
-    for (; itr.More(); itr.Next())
+    for (const TDF_Label &l : myList)
     {
-      aDataSet->AddLabel(itr.Value());
+      aDataSet->AddLabel(l);
     }
   }
 }

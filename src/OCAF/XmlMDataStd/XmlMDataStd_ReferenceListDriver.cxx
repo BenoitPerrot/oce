@@ -185,14 +185,13 @@ void XmlMDataStd_ReferenceListDriver::Paste(const Handle(TDF_Attribute)& theSour
   
   XmlObjMgt_Document aDoc = anElement.getOwnerDocument().Doc();
   
-  TDF_ListIteratorOfLabelList itr(aReferenceList->List());
-  for (; itr.More(); itr.Next())
+  for (const TDF_Label &l : aReferenceList->List())
   {
-    if (L.IsDescendant(itr.Value().Root()))
+    if (L.IsDescendant(l.Root()))
     {
       // Internal reference
       TCollection_AsciiString anEntry;
-      TDF_Tool::Entry(itr.Value(), anEntry);
+      TDF_Tool::Entry(l, anEntry);
 
       XmlObjMgt_DOMString aDOMString;
       XmlObjMgt::SetTagEntryString (aDOMString, anEntry);

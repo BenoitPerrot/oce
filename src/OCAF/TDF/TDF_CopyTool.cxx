@@ -117,9 +117,7 @@ void TDF_CopyTool::Copy
   // For it is possible to copy the roots at another place with OTHER TAGS,
   // we first ask <theLabMap> if each source root label is already bound.
 
-  for (TDF_ListIteratorOfLabelList labLItr(rootLst);
-       labLItr.More(); labLItr.Next()) {
-    const TDF_Label& sLab = labLItr.Value();
+  for (const TDF_Label& sLab : rootLst) {
     if (theLabMap.IsBound(sLab)) {
       TDF_Label tIns(theLabMap.Find(sLab));
       TDF_CopyTool::CopyLabels(sLab,tIns,

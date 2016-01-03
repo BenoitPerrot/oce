@@ -20,7 +20,6 @@
 #include <Foundation/Standard/Standard_OStream.hxx>
 class Standard_GUID;
 class TDF_Label;
-class TDF_LabelList;
 class TDF_Attribute;
 class TDF_RelocationTable;
 class TDF_DataSet;

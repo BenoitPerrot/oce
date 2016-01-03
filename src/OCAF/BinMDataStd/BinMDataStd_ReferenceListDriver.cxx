@@ -92,12 +92,9 @@ void BinMDataStd_ReferenceListDriver::Paste(const Handle(TDF_Attribute)& theSour
   Handle(TDataStd_ReferenceList) anAtt = Handle(TDataStd_ReferenceList)::DownCast(theSource);
   if (anAtt->IsEmpty())
     return;
-  Standard_Integer aFirstInd = 1, aLastInd = anAtt->Extent(), i = aFirstInd;
-  theTarget << aFirstInd << aLastInd;
-  TDF_ListIteratorOfLabelList itr(anAtt->List());
-  for (; itr.More(); itr.Next(), i++)
+  theTarget << (Standard_Integer) 1 << (Standard_Integer) anAtt->List().size();
+  for (TDF_Label L : anAtt->List())
   {
-    TDF_Label L = itr.Value();
     if (!L.IsNull())
     {
       TCollection_AsciiString entry;

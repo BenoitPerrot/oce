@@ -15,13 +15,13 @@
 #include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 class TDF_Label;
 class TDF_IDFilter;
 class TDF_AttributeMap;
 class TCollection_AsciiString;
 class TColStd_ListOfInteger;
 class TDF_Data;
-class TDF_LabelList;
 class TDF_LabelIntegerMap;
 
 

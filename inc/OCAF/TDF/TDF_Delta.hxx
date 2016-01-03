@@ -17,10 +17,10 @@
 #include <OCAF/TDF/Handle_TDF_AttributeDelta.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 class Standard_OutOfRange;
 class TDF_Data;
 class TDF_AttributeDelta;
-class TDF_LabelList;
 class TDF_AttributeDeltaList;
 class TCollection_ExtendedString;
 

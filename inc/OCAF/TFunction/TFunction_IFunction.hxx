@@ -16,9 +16,9 @@
 #include <OCAF/TFunction/Handle_TFunction_Driver.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <OCAF/TFunction/Handle_TFunction_GraphNode.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 class TDF_Label;
 class Standard_GUID;
-class TDF_LabelList;
 class TFunction_DoubleMapOfIntegerLabel;
 class TFunction_Logbook;
 class TFunction_Driver;

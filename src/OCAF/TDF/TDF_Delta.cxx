@@ -175,10 +175,8 @@ void TDF_Delta::Labels(TDF_LabelList& aLabelList) const
   Standard_Boolean inList;
   if (aLabelList.Extent() > 0) cout<<"Previously added as modified label(s) ";
 #endif
-  for (TDF_ListIteratorOfLabelList it1(aLabelList);
-       it1.More(); it1.Next()) {
+  for (const TDF_Label& lab1 : aLabelList) {
 #ifdef OCCT_DEBUG_DELTA
-    const TDF_Label& lab1 = it1.Value();
     inList = labMap.Add(lab1);
     if (!inList) {
       lab1.EntryDump(cout);cout<<" | ";
@@ -209,10 +207,10 @@ void TDF_Delta::Labels(TDF_LabelList& aLabelList) const
 #endif
 
   // Now put labels into <aLabelList>.
-  aLabelList.Clear();
+  aLabelList.clear();
   for (TDF_MapIteratorOfLabelMap it3(labMap);
        it3.More(); it3.Next()) {
-    aLabelList.Append(it3.Key());
+    aLabelList.push_back(it3.Key());
   }
 }
 

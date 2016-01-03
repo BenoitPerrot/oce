@@ -56,7 +56,7 @@ inline TDF_AttributeMap& TDF_DataSet::Attributes()
 //=============
 
 inline void TDF_DataSet::AddRoot(const TDF_Label& aLabel)
-{ if (ContainsLabel(aLabel)) myRootLabels.Append(aLabel); }
+{ if (ContainsLabel(aLabel)) myRootLabels.push_back(aLabel); }
 
 inline TDF_LabelList& TDF_DataSet::Roots()
 { return myRootLabels; }

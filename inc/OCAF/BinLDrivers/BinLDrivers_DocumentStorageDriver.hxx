@@ -30,7 +30,6 @@ class CDM_Document;
 class TDF_Label;
 class TCollection_AsciiString;
 class BinLDrivers_DocumentSection;
-class TDF_LabelList;
 class Standard_Type;
 
 

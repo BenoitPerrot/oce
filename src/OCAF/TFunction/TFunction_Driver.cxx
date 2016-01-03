@@ -63,10 +63,9 @@ void TFunction_Driver::Validate(TFunction_Logbook& log) const
 {
   TDF_LabelList res;
   Results(res);
-  TDF_ListIteratorOfLabelList itr(res);
-  for (; itr.More(); itr.Next())
+  for (const TDF_Label &l : res)
   {
-    log.SetValid(itr.Value(), Standard_True);
+    log.SetValid(l, Standard_True);
   }
 }
 
@@ -81,10 +80,9 @@ Standard_Boolean TFunction_Driver::MustExecute(const TFunction_Logbook& log) con
   // Check modification of arguments.
   TDF_LabelList args;
   Arguments(args);
-  TDF_ListIteratorOfLabelList itr(args);
-  for (; itr.More(); itr.Next())
+  for (const TDF_Label &l : args)
   {
-    if (log.IsModified(itr.Value()))
+    if (log.IsModified(l))
       return Standard_True;
   }
   return Standard_False;

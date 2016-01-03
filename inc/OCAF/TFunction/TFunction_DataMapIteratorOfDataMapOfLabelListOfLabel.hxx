@@ -12,9 +12,9 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <OCAF/TFunction/Handle_TFunction_DataMapNodeOfDataMapOfLabelListOfLabel.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 class Standard_NoSuchObject;
 class TDF_Label;
-class TDF_LabelList;
 class TDF_LabelMapHasher;
 class TFunction_DataMapOfLabelListOfLabel;
 class TFunction_DataMapNodeOfDataMapOfLabelListOfLabel;

@@ -525,21 +525,19 @@ void TDF_Tool::CountLabels
 (TDF_LabelList& aLabelList,
  TDF_LabelIntegerMap& aLabelMap)
 {
-  if (aLabelList.IsEmpty()) return;
+  if (aLabelList.empty()) return;
   Standard_Boolean next = Standard_True;
-  TDF_ListIteratorOfLabelList itr(aLabelList);
-  while (itr.More()) {
-    const TDF_Label& lab = itr.Value();
+  TDF_ListIteratorOfLabelList itr(aLabelList.begin());
+  while (itr != aLabelList.end()) {
+    const TDF_Label& lab = (*itr);
     if (aLabelMap.IsBound(lab)) {
       aLabelMap(lab) += 1;
-      aLabelList.Remove(itr);
-      next = Standard_False;
+      itr = aLabelList.erase(itr);
     }
     else {
       aLabelMap.Bind(lab,1);
-      next = itr.More();
+      ++itr;
     }
-    if (next && !aLabelList.IsEmpty()) itr.Next();
   }
 }
 
@@ -553,21 +551,20 @@ void TDF_Tool::DeductLabels
 (TDF_LabelList& aLabelList,
  TDF_LabelIntegerMap& aLabelMap)
 {
-  if (aLabelList.IsEmpty()) return;
+  if (aLabelList.empty()) return;
   Standard_Boolean next = Standard_True;
-  TDF_ListIteratorOfLabelList itr(aLabelList);
-  while (itr.More()) {
-    const TDF_Label& lab = itr.Value();
+  TDF_ListIteratorOfLabelList itr(aLabelList.begin());
+  while (itr != aLabelList.end()) {
+    const TDF_Label& lab = (*itr);
     if (aLabelMap.IsBound(lab)) {
       aLabelMap(lab) -= 1;
       if (aLabelMap(lab) == 0) {
 	aLabelMap.UnBind(lab);
-	aLabelList.Remove(itr);
-	next = Standard_False;
+	itr = aLabelList.erase(itr);
       }
     }
-    else next = itr.More();
-    if (next && !aLabelList.IsEmpty()) itr.Next();
+    else
+      ++itr;
   }
 }
 

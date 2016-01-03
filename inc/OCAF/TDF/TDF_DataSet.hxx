@@ -21,7 +21,6 @@ class TDF_Label;
 class TDF_LabelMap;
 class TDF_Attribute;
 class TDF_AttributeMap;
-class TDF_LabelList;
 
 
 //! This class is a set of TDF informations like

@@ -162,7 +162,7 @@ void BinLDrivers_DocumentStorageDriver::Write
 
 // End of processing: close structures and check the status
       myPAtt.Destroy();   // free buffer
-      myEmptyLabels.Clear();
+      myEmptyLabels.clear();
       myMapUnsupported.Clear();
 
       if (!myRelocTable.Extent()) {
@@ -220,8 +220,8 @@ void BinLDrivers_DocumentStorageDriver::WriteSubTree
                          Standard_OStream&         theOS)
 {
   // Skip empty labels
-  if (!myEmptyLabels.IsEmpty() && myEmptyLabels.First() == theLabel) {
-    myEmptyLabels.RemoveFirst();
+  if (!myEmptyLabels.empty() && myEmptyLabels.front() == theLabel) {
+    myEmptyLabels.pop_front();
     return;
   }
 
@@ -332,7 +332,7 @@ Standard_Boolean BinLDrivers_DocumentStorageDriver::FirstPassSubTree
   for ( ; itChld.More(); itChld.Next())
   {
     if (FirstPassSubTree (itChld.Value(), emptyChildrenList))
-      emptyChildrenList.Append( itChld.Value() );
+      emptyChildrenList.push_back( itChld.Value() );
     else
       hasChildAttr = Standard_True;
   }
@@ -340,7 +340,7 @@ Standard_Boolean BinLDrivers_DocumentStorageDriver::FirstPassSubTree
   Standard_Boolean isEmpty = !(hasAttr || hasChildAttr);
 
   if (!isEmpty)
-    ListOfEmptyL.Append( emptyChildrenList );
+    ListOfEmptyL.insert(ListOfEmptyL.end(), emptyChildrenList.begin(), emptyChildrenList.end());
 
   return isEmpty;
 }
@@ -354,10 +354,10 @@ void BinLDrivers_DocumentStorageDriver::FirstPass
                          (const TDF_Label& theRoot)
 {
   myTypesMap.Clear();
-  myEmptyLabels.Clear();
+  myEmptyLabels.clear();
 
   if (FirstPassSubTree( theRoot, myEmptyLabels))
-    myEmptyLabels.Append( theRoot );
+    myEmptyLabels.push_back( theRoot );
 
   myDrivers->AssignIds (myTypesMap);
 }

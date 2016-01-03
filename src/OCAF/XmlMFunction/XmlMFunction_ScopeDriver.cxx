@@ -183,7 +183,7 @@ Standard_Boolean XmlMFunction_ScopeDriver::Paste(const XmlObjMgt_Persistent&  th
     {
       TDF_Tool::Label(S->Label().Data(), anEntry, tLab, Standard_True);
     }
-    Labels.Append(tLab);
+    Labels.push_back(tLab);
     aCurNode = aCurElement->getNextSibling();
     aCurElement = (LDOM_Element*)&aCurNode;
   }
@@ -210,7 +210,7 @@ Standard_Boolean XmlMFunction_ScopeDriver::Paste(const XmlObjMgt_Persistent&  th
   {
     TDF_Tool::Label(S->Label().Data(), anEntry, tLab, Standard_True);
   }
-  Labels.Append(tLab);
+  Labels.push_back(tLab);
 
   // Check equality of lengths of the list of IDs & Labels.
   if (nbIDs != nbLabels)
@@ -224,13 +224,13 @@ Standard_Boolean XmlMFunction_ScopeDriver::Paste(const XmlObjMgt_Persistent&  th
   // Set IDs & Labels into the Scope attribute
   int freeID = 0;
   TColStd_ListIteratorOfListOfInteger itri(IDs);
-  TDF_ListIteratorOfLabelList         itrl(Labels);
-  for (; itri.More(); itri.Next(), itrl.Next())
+  TDF_ListIteratorOfLabelList         itrl(Labels.begin());
+  for (; itri.More(); itri.Next(), ++itrl)
   {
     int ID = itri.Value();
     if (ID > freeID)
       freeID = ID;
-    S->ChangeFunctions().Bind(ID, itrl.Value());
+    S->ChangeFunctions().Bind(ID, (*itrl));
   }
   freeID++;
   S->SetFreeID(freeID);

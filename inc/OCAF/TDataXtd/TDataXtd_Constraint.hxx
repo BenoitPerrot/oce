@@ -20,12 +20,12 @@
 #include <OCAF/TDF/Handle_TDF_RelocationTable.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <OCAF/TDF/Handle_TDF_DataSet.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 class TDataStd_Real;
 class TDF_Attribute;
 class Standard_GUID;
 class TDF_Label;
 class TNaming_NamedShape;
-class TDF_LabelList;
 class TDF_RelocationTable;
 class TDF_DataSet;
 

@@ -19,7 +19,6 @@
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TFunction_Scope;
 class TDF_Label;
-class TDF_LabelList;
 
 
 //! Iterator of the graph of functions

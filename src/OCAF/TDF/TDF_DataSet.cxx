@@ -58,7 +58,7 @@ TDF_DataSet::TDF_DataSet()
 
 void TDF_DataSet::Clear()
 {
-  myRootLabels.Clear();
+  myRootLabels.clear();
   myLabelMap.Clear();
   myAttributeMap.Clear();
 }
@@ -73,9 +73,8 @@ Standard_OStream& TDF_DataSet::Dump(Standard_OStream& anOS) const
 {
   anOS<<"\t\t=====< TDF_DataSet dump >====="<<endl;
   anOS<<"Root Labels :"<<endl<<"============="<<endl;
-  for (TDF_ListIteratorOfLabelList itr1(myRootLabels);
-       itr1.More(); itr1.Next()) {
-    itr1.Value().EntryDump(anOS);
+  for (const TDF_Label& l : myRootLabels) {
+    l.EntryDump(anOS);
     anOS<<" | ";
   }
   anOS<<endl<<"Labels :"<<endl<<"========"<<endl;

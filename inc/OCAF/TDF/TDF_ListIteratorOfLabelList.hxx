@@ -6,85 +6,8 @@
 #ifndef _TDF_ListIteratorOfLabelList_HeaderFile
 #define _TDF_ListIteratorOfLabelList_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <OCAF/TDF/TDF_LabelList.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <OCAF/TDF/Handle_TDF_ListNodeOfLabelList.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class TDF_LabelList;
-class TDF_Label;
-class TDF_ListNodeOfLabelList;
-
-
-
-class TDF_ListIteratorOfLabelList 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT TDF_ListIteratorOfLabelList();
-  
-  Standard_EXPORT TDF_ListIteratorOfLabelList(const TDF_LabelList& L);
-  
-  Standard_EXPORT   void Initialize (const TDF_LabelList& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   TDF_Label& Value()  const;
-
-
-friend class TDF_LabelList;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item TDF_Label
-#define Item_hxx <OCAF/TDF/TDF_Label.hxx>
-#define TCollection_ListNode TDF_ListNodeOfLabelList
-#define TCollection_ListNode_hxx <OCAF/TDF/TDF_ListNodeOfLabelList.hxx>
-#define TCollection_ListIterator TDF_ListIteratorOfLabelList
-#define TCollection_ListIterator_hxx <OCAF/TDF/TDF_ListIteratorOfLabelList.hxx>
-#define Handle_TCollection_ListNode Handle_TDF_ListNodeOfLabelList
-#define TCollection_ListNode_Type_() TDF_ListNodeOfLabelList_Type_()
-#define TCollection_List TDF_LabelList
-#define TCollection_List_hxx <OCAF/TDF/TDF_LabelList.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef TDF_LabelList::iterator TDF_ListIteratorOfLabelList;
 
 #endif // _TDF_ListIteratorOfLabelList_HeaderFile

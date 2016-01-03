@@ -73,7 +73,7 @@ static void LastModif(      TNaming_NewShapeIterator& it,
       if (!it2.More()) {
 	const TopoDS_Shape& S1   = it.Shape();
 	if (S1.IsNull()) {
-	  Deleted.Append(Lab);
+	  Deleted.push_back(Lab);
 	}
 	else {
 	  MS.Add (S1);  // Modified
@@ -106,7 +106,7 @@ static void LastModif(TNaming_NewShapeIterator& it,
       if (!it2.More()) {
 	const TopoDS_Shape& S1   = it.Shape();
 	if (S1.IsNull()) {
-	  Deleted.Append(Lab);
+	  Deleted.push_back(Lab);
 	}
 	else {
 	  MS.Add (S1);  // Modified
@@ -448,7 +448,7 @@ void TNaming_Tool::FirstOlds (const Handle(TNaming_UsedShapes)& US,
       YaModif = 1;
       TNaming_OldShapeIterator it2(it);
       if (!it2.More()) { 
-	Labels.Append(TNaming_Tool::Label(US,it.Shape(),TransDef));
+	Labels.push_back(TNaming_Tool::Label(US,it.Shape(),TransDef));
 	MS.Add (it.Shape()); 
       }
       else {
