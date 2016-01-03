@@ -64,10 +64,9 @@ static Standard_Integer  OCC172 (Draw_Interpretor& di, Standard_Integer /*argc*/
   
   AIS_ListOfInteractive aListOfIO;
   aContext->DisplayedObjects(aListOfIO);
-  AIS_ListIteratorOfListOfInteractive It;
-  for (It.Initialize(aListOfIO);It.More();It.Next())
+  for (const Handle(AIS_InteractiveObject)& i : aListOfIO)
     {
-      aContext->AddOrRemoveCurrentObject(It.Value());
+      aContext->AddOrRemoveCurrentObject(i);
     }
   
   return 0;	

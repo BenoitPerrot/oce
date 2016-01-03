@@ -889,9 +889,9 @@ static int VHLR (Draw_Interpretor& di, Standard_Integer argc, const char** argv)
       AIS_ListOfInteractive aListOfShapes;
       ViewerTest::GetAISContext()->DisplayedObjects (aListOfShapes);
 
-      for (AIS_ListIteratorOfListOfInteractive anIter(aListOfShapes); anIter.More(); anIter.Next())
+      for (const Handle(AIS_InteractiveObject)& i : aListOfShapes)
       {
-        Handle(AIS_Shape) aShape = Handle(AIS_Shape)::DownCast (anIter.Value());
+        Handle(AIS_Shape) aShape = Handle(AIS_Shape)::DownCast (i);
         if (aShape.IsNull())
         {
           continue;
@@ -933,10 +933,9 @@ static int VHLRType (Draw_Interpretor& di, Standard_Integer argc, const char** a
     AIS_ListOfInteractive aListOfShapes;
     ViewerTest::GetAISContext()->DisplayedObjects (aListOfShapes);
     ViewerTest::GetAISContext()->DefaultDrawer()->SetTypeOfHLR(aTypeOfHLR);
-    for (AIS_ListIteratorOfListOfInteractive anIter(aListOfShapes);
-      anIter.More(); anIter.Next())
+    for (const Handle(AIS_InteractiveObject)& i : aListOfShapes)
     {
-      Handle(AIS_Shape) aShape = Handle(AIS_Shape)::DownCast(anIter.Value());
+      Handle(AIS_Shape) aShape = Handle(AIS_Shape)::DownCast(i);
       if (aShape.IsNull())
         continue;
       if (aShape->TypeOfHLR() != aTypeOfHLR)
@@ -1379,10 +1378,9 @@ void VT_ProcessKeyPress (const char* buf_ret)
     {
       AIS_ListOfInteractive aListOfShapes;
       aContext->DisplayedObjects(aListOfShapes);
-      for (AIS_ListIteratorOfListOfInteractive anIter(aListOfShapes);
-        anIter.More(); anIter.Next())
+      for (const Handle(AIS_InteractiveObject)& i : aListOfShapes)
       {
-        Handle(AIS_Shape) aShape = Handle(AIS_Shape)::DownCast(anIter.Value());
+        Handle(AIS_Shape) aShape = Handle(AIS_Shape)::DownCast(i);
         if (aShape.IsNull())
           continue;
         if (aShape->TypeOfHLR() == Prs3d_TOH_PolyAlgo)

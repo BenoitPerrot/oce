@@ -9,6 +9,7 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <Visualization/AIS/Handle_AIS_InteractiveContext.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 
 #include <Visualization/AIS/AIS_DataMapOfIOStatus.hxx>
 #include <Visualization/SelectMgr/Handle_SelectMgr_SelectionManager.hxx>
@@ -69,7 +70,6 @@ class SelectMgr_EntityOwner;
 class SelectMgr_IndexedMapOfOwner;
 class Standard_Transient;
 class SelectMgr_Filter;
-class AIS_ListOfInteractive;
 class TCollection_AsciiString;
 
 

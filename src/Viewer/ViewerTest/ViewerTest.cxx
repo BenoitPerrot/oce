@@ -3050,13 +3050,12 @@ static int VUpdate (Draw_Interpretor& /*theDi*/, Standard_Integer theArgsNb, con
       return 1;
     }
 
-    aListOfIO.Append (anAISObj);
+    aListOfIO.push_back (anAISObj);
   }
 
-  AIS_ListIteratorOfListOfInteractive anIOIt (aListOfIO);
-  for (; anIOIt.More(); anIOIt.Next())
+  for (const Handle(AIS_InteractiveObject)& i : aListOfIO)
   {
-    aContextAIS->Update (anIOIt.Value(), Standard_False);
+    aContextAIS->Update (i, Standard_False);
   }
 
   aContextAIS->UpdateCurrentViewer();
@@ -3373,7 +3372,7 @@ static int VActivatedMode (Draw_Interpretor& di, Standard_Integer argc, const ch
           TheAISContext()->UnhilightCurrents(Standard_False);
 
           for (TheAISContext()->InitCurrent(); TheAISContext()->MoreCurrent(); TheAISContext()->NextCurrent() ){
-            ListOfIO.Append(TheAISContext()->Current() );
+            ListOfIO.push_back(TheAISContext()->Current() );
 	  }
 	}
 
@@ -3388,11 +3387,9 @@ static int VActivatedMode (Draw_Interpretor& di, Standard_Integer argc, const ch
 	  it.Next();
 	}
 	// traitement des objets qui etaient currents dans le Contexte global
-	if (!ListOfIO.IsEmpty() ) {
+	if (!ListOfIO.empty() ) {
 	  // il y avait des objets currents
-	  AIS_ListIteratorOfListOfInteractive iter;
-	  for (iter.Initialize(ListOfIO); iter.More() ; iter.Next() ) {
-	    Handle(AIS_InteractiveObject) aIO=iter.Value();
+	  for (Handle(AIS_InteractiveObject) aIO : ListOfIO) {
 	    TheAISContext()->Activate(aIO,aMode);
 	    di<<" Mode: "<<cmode<<" ON pour "<<GetMapOfAIS().Find1(aIO).ToCString()  <<"\n";
 	  }
@@ -4256,9 +4253,7 @@ static int VEraseType( Draw_Interpretor& , Standard_Integer argc, const char** a
   }
 
   TheAISContext()->DisplayedObjects(TheType,TheSign,LIO);
-  Handle(AIS_InteractiveObject) curio;
-  for(AIS_ListIteratorOfListOfInteractive it(LIO);it.More();it.Next()){
-    curio  = it.Value();
+  for(Handle(AIS_InteractiveObject) curio : LIO) {
 
     if(dimension_status == -1)
       TheAISContext()->Erase(curio,Standard_False);
@@ -4290,9 +4285,7 @@ static int VDisplayType(Draw_Interpretor& , Standard_Integer argc, const char** 
 
   AIS_ListOfInteractive LIO;
   TheAISContext()->ObjectsInside(LIO,TheType,TheSign);
-  Handle(AIS_InteractiveObject) curio;
-  for(AIS_ListIteratorOfListOfInteractive it(LIO);it.More();it.Next()){
-    curio  = it.Value();
+  for(Handle(AIS_InteractiveObject) curio : LIO) {
     if(dimension_status == -1)
       TheAISContext()->Display(curio,Standard_False);
     else {

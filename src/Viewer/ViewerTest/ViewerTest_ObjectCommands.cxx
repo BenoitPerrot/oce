@@ -4180,7 +4180,7 @@ static Standard_Integer VSetSelectionMode (Draw_Interpretor& /*di*/,
         std::cerr << "vselmode error : object name is used for non AIS viewer" << std::endl;
         return 1;
       }
-      aTargetIOs.Append (anIO);
+      aTargetIOs.push_back (anIO);
     }
   }
 
@@ -4195,9 +4195,8 @@ static Standard_Integer VSetSelectionMode (Draw_Interpretor& /*di*/,
   {
     if (toTurnOn)
     {
-      for (AIS_ListIteratorOfListOfInteractive aTargetIt (aTargetIOs); aTargetIt.More(); aTargetIt.Next())
+      for (const Handle(AIS_InteractiveObject)& anIO : aTargetIOs)
       {
-        const Handle(AIS_InteractiveObject)& anIO = aTargetIt.Value();
         if (!InList (anAISContext, anIO, aSelectionMode))
         {
           anAISContext->Activate (anIO);
@@ -4206,9 +4205,8 @@ static Standard_Integer VSetSelectionMode (Draw_Interpretor& /*di*/,
     }
     else
     {
-      for (AIS_ListIteratorOfListOfInteractive aTargetIt (aTargetIOs); aTargetIt.More(); aTargetIt.Next())
+      for (const Handle(AIS_InteractiveObject)& anIO : aTargetIOs)
       {
-        const Handle(AIS_InteractiveObject)& anIO = aTargetIt.Value();
         if (InList (anAISContext, anIO, aSelectionMode))
         {
           anAISContext->Deactivate (anIO);
@@ -4224,9 +4222,8 @@ static Standard_Integer VSetSelectionMode (Draw_Interpretor& /*di*/,
       anAISContext->OpenLocalContext (Standard_False);
     }
 
-    for (AIS_ListIteratorOfListOfInteractive aTargetIt (aTargetIOs); aTargetIt.More(); aTargetIt.Next())
+    for (const Handle(AIS_InteractiveObject)& anIO : aTargetIOs)
     {
-      const Handle(AIS_InteractiveObject)& anIO = aTargetIt.Value();
       if (!InList (anAISContext, anIO, aSelectionMode))
       {
         anAISContext->Load (anIO, -1, Standard_True);
@@ -4242,9 +4239,8 @@ static Standard_Integer VSetSelectionMode (Draw_Interpretor& /*di*/,
       return 0;
     }
 
-    for (AIS_ListIteratorOfListOfInteractive aTargetIt (aTargetIOs); aTargetIt.More(); aTargetIt.Next())
+    for (const Handle(AIS_InteractiveObject)& anIO : aTargetIOs)
     {
-      const Handle(AIS_InteractiveObject)& anIO = aTargetIt.Value();
       if (InList (anAISContext, anIO, aSelectionMode))
       {
         anAISContext->Deactivate (anIO, aSelectionMode);
@@ -5500,7 +5496,6 @@ static int VVertexMode (Draw_Interpretor& theDI,
       aRedrawNeeded = Standard_True;
     }
 
-    Handle(AIS_InteractiveObject) anObject;
     for (Standard_Integer aCount = 3; aCount < theArgNum; aCount++)
     {
       TCollection_AsciiString aName (theArgs[aCount]);
@@ -5509,13 +5504,12 @@ static int VVertexMode (Draw_Interpretor& theDI,
         theDI << "Warning: wrong object name ignored - " << theArgs[0] << "\n";
         continue;
       }
-      anObject = Handle(AIS_InteractiveObject)::DownCast (GetMapOfAIS().Find2(aName));
-      anObjs.Append (anObject);
+      Handle(AIS_InteractiveObject) anObject = Handle(AIS_InteractiveObject)::DownCast (GetMapOfAIS().Find2(aName));
+      anObjs.push_back (anObject);
     }
 
-    for (AIS_ListIteratorOfListOfInteractive anIt (anObjs); anIt.More(); anIt.Next())
+    for (Handle(AIS_InteractiveObject) anObject : anObjs)
     {
-      anObject = anIt.Value();
       anObject->Attributes()->SetVertexDrawMode (aNewMode);
       aContext->Redisplay (anObject, Standard_False);
       aRedrawNeeded = Standard_True;

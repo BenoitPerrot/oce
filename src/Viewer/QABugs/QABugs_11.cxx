@@ -3128,11 +3128,9 @@ static Standard_Integer OCC7068 (Draw_Interpretor& di, Standard_Integer argc, co
   // ObjectsInside
   AIS_ListOfInteractive ListOfIO_1;
   AISContext->ObjectsInside(ListOfIO_1);
-  di<< "ObjectsInside = " << ListOfIO_1.Extent() <<"\n";
-  if (!ListOfIO_1.IsEmpty() ) {
-    AIS_ListIteratorOfListOfInteractive iter;
-    for (iter.Initialize(ListOfIO_1); iter.More() ; iter.Next() ) {
-      Handle(AIS_InteractiveObject) aIO=iter.Value();
+  di<< "ObjectsInside = " << (Standard_Integer) ListOfIO_1.size() <<"\n";
+  if (!ListOfIO_1.empty() ) {
+    for (Handle(AIS_InteractiveObject) aIO : ListOfIO_1) {
       di<< GetMapOfAIS().Find1(aIO).ToCString() <<"\n";
     }
   }

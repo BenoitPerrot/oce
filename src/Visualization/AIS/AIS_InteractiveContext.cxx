@@ -255,7 +255,7 @@ void AIS_InteractiveContext::DisplayedObjects(AIS_ListOfInteractive& aListOfIO,
   if(!HasOpenedContext() || OnlyFromNeutral){
     for(;It.More();It.Next()){
       if(It.Value()->GraphicStatus()==AIS_DS_Displayed)
-        aListOfIO.Append(It.Key());
+        aListOfIO.push_back(It.Key());
     }
   }
   else{
@@ -281,7 +281,7 @@ void AIS_InteractiveContext::DisplayedObjects(AIS_ListOfInteractive& aListOfIO,
       for(TColStd_MapIteratorOfMapOfTransient it2(theMap);it2.More();it2.Next()){
         Tr = it2.Key();
         curIO = *((Handle(AIS_InteractiveObject)*) &Tr);
-        aListOfIO.Append(curIO);
+        aListOfIO.push_back(curIO);
       }
     }
 }
@@ -331,7 +331,7 @@ void AIS_InteractiveContext::ObjectsByDisplayStatus(const AIS_DisplayStatus theS
   AIS_DataMapIteratorOfDataMapOfIOStatus It(myObjects);
   for(;It.More();It.Next()){
     if(It.Value()->GraphicStatus() == theStatus)
-      theListOfIO.Append(It.Key());
+      theListOfIO.push_back(It.Key());
   }
 }
 
@@ -350,10 +350,10 @@ void AIS_InteractiveContext::ObjectsByDisplayStatus(const AIS_KindOfInteractive 
     if(It.Value()->GraphicStatus()==theStatus){
       if(It.Key()->Type()==TheKind){
         if(TheSign ==-1)
-          theListOfIO.Append(It.Key());
+          theListOfIO.push_back(It.Key());
         else{
           if(It.Key()->Signature()==TheSign)
-            theListOfIO.Append(It.Key());
+            theListOfIO.push_back(It.Key());
         }
       }
     }
@@ -372,17 +372,17 @@ void AIS_InteractiveContext::ObjectsInside(AIS_ListOfInteractive& aListOfIO,
   AIS_DataMapIteratorOfDataMapOfIOStatus It(myObjects);
   if(TheKind==AIS_KOI_None && TheSign ==-1){
     for(;It.More();It.Next()){
-        aListOfIO.Append(It.Key());
+        aListOfIO.push_back(It.Key());
     }
   }
   else{
     for(;It.More();It.Next()){
       if(It.Key()->Type()==TheKind){
         if(TheSign ==-1)
-          aListOfIO.Append(It.Key());
+          aListOfIO.push_back(It.Key());
         else{
           if(It.Key()->Signature()==TheSign)
-            aListOfIO.Append(It.Key());
+            aListOfIO.push_back(It.Key());
         }
       }
     }
@@ -867,9 +867,8 @@ void AIS_InteractiveContext::RemoveAll(const Standard_Boolean updateviewer)
 {
   AIS_ListOfInteractive aList;
   ObjectsInside(aList);
-  AIS_ListIteratorOfListOfInteractive aListIterator;
-  for(aListIterator.Initialize(aList);aListIterator.More();aListIterator.Next()){
-    Remove(aListIterator.Value(), Standard_False);
+  for (const Handle(AIS_InteractiveObject)& i : aList) {
+    Remove(i, Standard_False);
   }
 	
   if(updateviewer)

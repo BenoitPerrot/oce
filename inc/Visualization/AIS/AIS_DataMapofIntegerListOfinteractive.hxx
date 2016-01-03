@@ -13,11 +13,11 @@
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Visualization/AIS/Handle_AIS_DataMapNodeOfDataMapofIntegerListOfinteractive.hxx>
+#include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
-class AIS_ListOfInteractive;
 class TColStd_MapIntegerHasher;
 class AIS_DataMapNodeOfDataMapofIntegerListOfinteractive;
 class AIS_DataMapIteratorOfDataMapofIntegerListOfinteractive;

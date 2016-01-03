@@ -946,33 +946,31 @@ const Handle(AIS_LocalStatus)& AIS_LocalContext::Status(const Handle(AIS_Interac
 
 void AIS_LocalContext::LoadContextObjects()
 {
-  AIS_ListIteratorOfListOfInteractive It;
   if(myLoadDisplayed) {
     AIS_ListOfInteractive LL;
     myCTX->DisplayedObjects(LL,Standard_True);
     Handle(AIS_LocalStatus) Att;
-    for (It.Initialize(LL);It.More();It.Next()){
+    for (Handle(AIS_InteractiveObject) &i : LL) {
       Att= new AIS_LocalStatus();
-      Att->SetDecomposition((It.Value()->AcceptShapeDecomposition() && myAcceptStdMode));
+      Att->SetDecomposition((i->AcceptShapeDecomposition() && myAcceptStdMode));
       Att->SetTemporary(Standard_False);
-      Att->SetHilightMode(It.Value()->HasHilightMode()? It.Value()->HilightMode(): 0);
+      Att->SetHilightMode(i->HasHilightMode()? i->HilightMode(): 0);
       
-      myActiveObjects.Bind(It.Value(),Att);
+      myActiveObjects.Bind(i,Att);
     }
   }
 }
 
 void AIS_LocalContext::UnloadContextObjects()
 {
-  AIS_ListIteratorOfListOfInteractive It;
   if(myLoadDisplayed) 
   {
     AIS_ListOfInteractive LL;
     myCTX->DisplayedObjects(LL,Standard_True);
     
-    for (It.Initialize(LL);It.More();It.Next())
+    for (const Handle(AIS_InteractiveObject)& i : LL)
     {
-      myActiveObjects.UnBind(It.Value());
+      myActiveObjects.UnBind(i);
     }
   }
 }

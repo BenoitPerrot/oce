@@ -14,7 +14,6 @@
 #include <Visualization/AIS/AIS_ListOfInteractive.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
-class AIS_ListOfInteractive;
 class TColStd_MapIntegerHasher;
 class AIS_DataMapofIntegerListOfinteractive;
 class AIS_DataMapIteratorOfDataMapofIntegerListOfinteractive;
