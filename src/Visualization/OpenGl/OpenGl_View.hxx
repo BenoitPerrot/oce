@@ -43,11 +43,11 @@
 #include <Visualization/OpenGl/OpenGl_Light.hxx>
 #include <Visualization/OpenGl/OpenGl_LineAttributes.hxx>
 
-#include <Handle_OpenGl_Context.hxx>
-#include <Handle_OpenGl_GraphicDriver.hxx>
-#include <Handle_OpenGl_Workspace.hxx>
-#include <Handle_OpenGl_View.hxx>
-#include <Handle_OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Context.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_View.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Texture.hxx>
 
 struct OPENGL_BG_TEXTURE
 {

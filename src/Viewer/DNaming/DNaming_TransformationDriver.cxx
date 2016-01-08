@@ -61,7 +61,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_TransformationDriver)
 #include <Mathematics/Primitives/gp_Pln.hxx>
 #include <Geometry/GeomLib/GeomLib_IsPlanarSurface.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 
 #ifdef WNT
 #define EXCEPTION ...

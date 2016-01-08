@@ -28,7 +28,7 @@
 #include <Visualization/OpenGl/OpenGl_Vec.hxx>
 #include <Visualization/OpenGl/OpenGl_Matrix.hxx>
 #include <Visualization/OpenGl/OpenGl_ShaderObject.hxx>
-#include <Handle_OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_ShaderProgram.hxx>
 
 //! The enumeration of OCCT-specific OpenGL/GLSL variables.
 enum OpenGl_StateVariable

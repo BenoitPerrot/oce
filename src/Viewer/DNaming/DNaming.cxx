@@ -77,7 +77,7 @@
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/BRepLib/BRepLib_FindSurface.hxx>
 #include <Geometry/Geom/Geom_RectangularTrimmedSurface.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 
 //=======================================================================
 //function : DNaming_DFandUS

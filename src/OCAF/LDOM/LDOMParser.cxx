@@ -18,7 +18,7 @@
 
 //#define LDOM_PARSER_TRACE
 
-#include <LDOMParser.hxx>
+#include <OCAF/LDOM/LDOMParser.hxx>
 #include <OCAF/LDOM/LDOM_MemManager.hxx>
 #include <OCAF/LDOM/LDOM_XmlReader.hxx>
 #include <OCAF/LDOM/LDOM_BasicText.hxx>

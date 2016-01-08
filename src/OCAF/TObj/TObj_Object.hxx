@@ -21,8 +21,8 @@
 #include <OCAF/TObj/TObj_Common.hxx>
 #include <OCAF/TObj/TObj_DeletingMode.hxx>
 #include <OCAF/TObj/TObj_SequenceOfObject.hxx>
-#include <Handle_TObj_Model.hxx>
-#include <Handle_TObj_Object.hxx>
+#include <OCAF/TObj/Handle_TObj_Model.hxx>
+#include <OCAF/TObj/Handle_TObj_Object.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>

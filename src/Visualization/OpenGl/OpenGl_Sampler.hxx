@@ -17,7 +17,7 @@
 #define OPENGL_SAMPLER_H
 
 #include <Visualization/OpenGl/OpenGl_Context.hxx>
-#include <Handle_OpenGl_Sampler.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Sampler.hxx>
 
 //! Class implements OpenGL sampler object resource that
 //! stores the sampling parameters for a texture access.

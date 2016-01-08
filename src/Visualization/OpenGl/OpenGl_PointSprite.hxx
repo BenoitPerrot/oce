@@ -16,7 +16,7 @@
 #define _OpenGl_PointSprite_H__
 
 #include <Visualization/OpenGl/OpenGl_Texture.hxx>
-#include <Handle_OpenGl_PointSprite.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_PointSprite.hxx>
 
 //! Point sprite resource. On modern hardware it will be texture with extra parameters.
 //! On ancient hardware sprites will be drawn using bitmaps.

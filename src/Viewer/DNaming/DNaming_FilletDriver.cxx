@@ -51,7 +51,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_FilletDriver)
 #include <OCAF/TFunction/TFunction_Function.hxx>
 #include <Viewer/DNaming/DNaming.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 
 
 //=======================================================================

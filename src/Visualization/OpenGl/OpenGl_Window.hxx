@@ -20,9 +20,9 @@
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_Aspect.hxx>
 #include <Visualization/OpenGl/OpenGl_Caps.hxx>
 
-#include <Handle_OpenGl_Context.hxx>
-#include <Handle_OpenGl_Window.hxx>
-#include <Handle_OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Context.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Window.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_GraphicDriver.hxx>
 
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 

@@ -20,10 +20,10 @@
 #include <Visualization/Aspect/Aspect_Drawable.hxx>
 #include <Visualization/Aspect/Aspect_Display.hxx>
 #include <Visualization/Aspect/Aspect_RenderingContext.hxx>
-#include <Handle_OpenGl_Context.hxx>
-#include <Handle_OpenGl_Sampler.hxx>
-#include <Handle_OpenGl_ShaderManager.hxx>
-#include <Handle_OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Context.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Sampler.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_ShaderProgram.hxx>
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Map.hxx>
 #include <Foundation/NCollection/NCollection_Handle.hxx>
@@ -34,7 +34,6 @@
 #include <Visualization/OpenGl/OpenGl_Resource.hxx>
 #include <Foundation/Standard/Standard_Transient.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
-#include <Handle_OpenGl_Context.hxx>
 #include <Visualization/OpenGl/OpenGl_Clipping.hxx>
 #include <Visualization/OpenGl/OpenGl_GlCore11.hxx>
 #include <Visualization/OpenGl/OpenGl_Utils.hxx>

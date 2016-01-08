@@ -22,8 +22,8 @@
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 
 #include <Visualization/Graphic3d/Handle_Graphic3d_TextureParams.hxx>
-#include <Handle_OpenGl_ShaderProgram.hxx>
-#include <Handle_OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Texture.hxx>
 #include <Visualization/OpenGl/OpenGl_AspectLine.hxx>
 #include <Visualization/OpenGl/OpenGl_Element.hxx>
 

@@ -16,7 +16,7 @@
 #ifndef PCDM_DOMHeaderParser_HeaderFile
 #define PCDM_DOMHeaderParser_HeaderFile
 
-#include <LDOMParser.hxx>
+#include <OCAF/LDOM/LDOMParser.hxx>
 
 //  Block of comments describing class PCDM_DOMHeaderParser
 

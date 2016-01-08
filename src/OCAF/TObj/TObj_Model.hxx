@@ -18,7 +18,7 @@
 #ifndef TObj_Model_HeaderFile
 #define TObj_Model_HeaderFile
 
-#include <Handle_TObj_Model.hxx>
+#include <OCAF/TObj/Handle_TObj_Model.hxx>
 
 #include <OCAF/TDF/TDF_Label.hxx>
 #include <OCAF/TObj/TObj_Partition.hxx>

@@ -19,7 +19,7 @@
 #include <map>
 #include <set>
 
-#include <Handle_OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Workspace.hxx>
 #include <Visualization/OpenGl/OpenGl_Window.hxx>
 
 #include <Foundation/TColStd/TColStd_Array2OfReal.hxx>
@@ -52,8 +52,8 @@
 #include <Visualization/OpenGl/OpenGl_Vec.hxx>
 #include <Visualization/OpenGl/OpenGl_LineAttributes.hxx>
 
-#include <Handle_OpenGl_View.hxx>
-#include <Handle_OpenGl_Texture.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_View.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Texture.hxx>
 
 #include <Visualization/OpenGl/OpenGl_ShaderObject.hxx>
 #include <Visualization/OpenGl/OpenGl_ShaderProgram.hxx>

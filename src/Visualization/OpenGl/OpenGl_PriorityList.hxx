@@ -21,7 +21,7 @@
 
 #include <Visualization/InterfaceGraphic/InterfaceGraphic_telem.hxx>
 
-#include <Handle_OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Workspace.hxx>
 #include <Visualization/OpenGl/OpenGl_BVHClipPrimitiveSet.hxx>
 #include <Visualization/OpenGl/OpenGl_BVHTreeSelector.hxx>
 

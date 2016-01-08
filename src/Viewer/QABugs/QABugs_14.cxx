@@ -624,7 +624,7 @@ static Standard_Integer  BUC60920(Draw_Interpretor& di, Standard_Integer /*argc*
   return 0;
 }
 
-#include <LDOMParser.hxx>
+#include <OCAF/LDOM/LDOMParser.hxx>
 static Standard_Integer  OCC983 (Draw_Interpretor& di, Standard_Integer argc, const char ** argv)
 {
   if (argc != 2) {

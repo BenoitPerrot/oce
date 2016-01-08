@@ -22,7 +22,7 @@
 #include <Visualization/Aspect/Aspect_TypeOfLine.hxx>
 #include <Visualization/Graphic3d/Graphic3d_CAspectLine.hxx>
 
-#include <Handle_OpenGl_ShaderProgram.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_ShaderProgram.hxx>
 
 #include <Visualization/OpenGl/OpenGl_Element.hxx>
 

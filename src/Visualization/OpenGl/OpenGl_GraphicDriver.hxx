@@ -17,7 +17,7 @@
 #define _OpenGl_GraphicDriver_HeaderFile
 
 #include <Visualization/Graphic3d/Graphic3d_GraphicDriver.hxx>
-#include <Handle_OpenGl_GraphicDriver.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_GraphicDriver.hxx>
 #include <Visualization/OpenGl/OpenGl_Context.hxx>
 #include <Visualization/OpenGl/OpenGl_PrinterContext.hxx>
 
@@ -27,8 +27,8 @@
 #include <Foundation/TColStd/Handle_TColStd_HArray1OfReal.hxx>
 #include <Foundation/Quantity/Quantity_PlaneAngle.hxx>
 #include <Foundation/Quantity/Quantity_NameOfColor.hxx>
-#include <Handle_OpenGl_View.hxx>
-#include <Handle_OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_View.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Workspace.hxx>
 
 #include <Visualization/Aspect/Aspect_Display.hxx>
 #include <Visualization/Aspect/Aspect_DisplayConnection.hxx>

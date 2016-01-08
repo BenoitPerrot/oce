@@ -62,7 +62,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_Line3DDriver)
 #include <OCAF/TFunction/TFunction_Logbook.hxx>
 #include <OCAF/TFunction/TFunction_Function.hxx>
 #include <Viewer/DNaming/DNaming.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 #include <OCAF/TDataStd/TDataStd_Name.hxx>
 
 //=======================================================================

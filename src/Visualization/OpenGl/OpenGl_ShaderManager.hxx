@@ -21,7 +21,7 @@
 #include <Foundation/NCollection/NCollection_DataMap.hxx>
 #include <Foundation/NCollection/NCollection_Sequence.hxx>
 
-#include <Handle_OpenGl_ShaderManager.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_ShaderManager.hxx>
 #include <Visualization/OpenGl/OpenGl_SetOfShaderPrograms.hxx>
 #include <Visualization/OpenGl/OpenGl_ShaderStates.hxx>
 #include <Visualization/OpenGl/OpenGl_AspectFace.hxx>

@@ -44,7 +44,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PointDriver)
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 
 #include <Viewer/DNaming/DNaming.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 
 //=======================================================================
 //function : DNaming_PointDriver

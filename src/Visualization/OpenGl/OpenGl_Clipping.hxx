@@ -23,7 +23,7 @@
 #include <Foundation/NCollection/NCollection_Handle.hxx>
 #include <Foundation/Standard/Standard_TypeDef.hxx>
 #include <Visualization/OpenGl/OpenGl_Matrix.hxx>
-#include <Handle_OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Workspace.hxx>
 
 //! This class contains logics related to tracking and modification of clipping plane
 //! state for particular OpenGl context. It contains information about enabled

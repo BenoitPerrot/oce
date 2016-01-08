@@ -75,7 +75,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_RevolutionDriver)
 #include <OCAF/TDF/TDF_TagSource.hxx>
 
 #include <Viewer/DNaming/DNaming.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 
 //=======================================================================
 //function : DNaming_RevolutionDriver

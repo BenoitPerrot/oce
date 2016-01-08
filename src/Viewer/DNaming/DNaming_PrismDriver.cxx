@@ -70,7 +70,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_PrismDriver)
 #include <OCAF/TDF/TDF_TagSource.hxx>
 
 #include <Viewer/DNaming/DNaming.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 
 //=======================================================================
 //function : DNaming_PrismDriver

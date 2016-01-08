@@ -40,7 +40,7 @@ IMPLEMENT_STANDARD_RTTI(DNaming_BoxDriver)
 #include <Foundation/Standard/Standard_GUID.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <OCAF/TDF/TDF_Label.hxx>
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 #include <Viewer/DNaming/DNaming.hxx>
 #include <OCAF/TNaming/TNaming_Builder.hxx>
 //=======================================================================

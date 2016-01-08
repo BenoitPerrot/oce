@@ -16,8 +16,8 @@
 #ifndef OpenGl_Element_Header
 #define OpenGl_Element_Header
 
-#include <Handle_OpenGl_Context.hxx>
-#include <Handle_OpenGl_Workspace.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Context.hxx>
+#include <Visualization/OpenGl/Handle_OpenGl_Workspace.hxx>
 #include <Visualization/OpenGl/OpenGl_RenderFilter.hxx>
 
 //! Base interface for drawable elements.

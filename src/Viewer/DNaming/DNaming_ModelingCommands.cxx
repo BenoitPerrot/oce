@@ -76,7 +76,7 @@
 #else
 #define EXCEPTION Standard_Failure
 #endif          
-#include <ModelDefinitions.hxx>
+#include <Viewer/DNaming/ModelDefinitions.hxx>
 //#define DEBUG
 //=======================================================================
 static Handle(TDataStd_UAttribute) AddObject(const Handle(TDocStd_Document)& aDoc)

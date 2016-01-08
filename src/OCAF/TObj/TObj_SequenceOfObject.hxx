@@ -22,7 +22,7 @@
 #include <Foundation/NCollection/NCollection_DefineHSequence.hxx>
 
 #include <OCAF/TObj/TObj_Common.hxx>
-#include <Handle_TObj_Object.hxx>
+#include <OCAF/TObj/Handle_TObj_Object.hxx>
 
 typedef NCollection_Sequence<Handle(TObj_Object)> TObj_SequenceOfObject;
 
