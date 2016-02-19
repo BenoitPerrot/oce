@@ -32,7 +32,9 @@ public:
 
   
   Standard_EXPORT MAT2d_DataMapOfBiIntInteger(const Standard_Integer NbBuckets = 1);
-  
+
+  Standard_EXPORT MAT2d_DataMapOfBiIntInteger(const MAT2d_DataMapOfBiIntInteger& Other);
+
   Standard_EXPORT   MAT2d_DataMapOfBiIntInteger& Assign (const MAT2d_DataMapOfBiIntInteger& Other) ;
   MAT2d_DataMapOfBiIntInteger& operator = (const MAT2d_DataMapOfBiIntInteger& Other) 
 {
@@ -81,7 +83,6 @@ protected:
 private:
 
   
-  Standard_EXPORT MAT2d_DataMapOfBiIntInteger(const MAT2d_DataMapOfBiIntInteger& Other);
 
 
 

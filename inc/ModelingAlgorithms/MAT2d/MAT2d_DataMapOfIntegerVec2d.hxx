@@ -32,7 +32,9 @@ public:
 
   
   Standard_EXPORT MAT2d_DataMapOfIntegerVec2d(const Standard_Integer NbBuckets = 1);
-  
+
+  Standard_EXPORT MAT2d_DataMapOfIntegerVec2d(const MAT2d_DataMapOfIntegerVec2d& Other);
+
   Standard_EXPORT   MAT2d_DataMapOfIntegerVec2d& Assign (const MAT2d_DataMapOfIntegerVec2d& Other) ;
   MAT2d_DataMapOfIntegerVec2d& operator = (const MAT2d_DataMapOfIntegerVec2d& Other) 
 {
@@ -81,7 +83,6 @@ protected:
 private:
 
   
-  Standard_EXPORT MAT2d_DataMapOfIntegerVec2d(const MAT2d_DataMapOfIntegerVec2d& Other);
 
 
 

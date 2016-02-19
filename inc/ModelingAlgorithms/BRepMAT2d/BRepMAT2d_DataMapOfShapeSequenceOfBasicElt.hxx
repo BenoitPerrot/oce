@@ -33,7 +33,9 @@ public:
 
   
   Standard_EXPORT BRepMAT2d_DataMapOfShapeSequenceOfBasicElt(const Standard_Integer NbBuckets = 1);
-  
+
+  Standard_EXPORT BRepMAT2d_DataMapOfShapeSequenceOfBasicElt(const BRepMAT2d_DataMapOfShapeSequenceOfBasicElt& Other);
+
   Standard_EXPORT   BRepMAT2d_DataMapOfShapeSequenceOfBasicElt& Assign (const BRepMAT2d_DataMapOfShapeSequenceOfBasicElt& Other) ;
   BRepMAT2d_DataMapOfShapeSequenceOfBasicElt& operator = (const BRepMAT2d_DataMapOfShapeSequenceOfBasicElt& Other) 
 {
@@ -82,7 +84,6 @@ protected:
 private:
 
   
-  Standard_EXPORT BRepMAT2d_DataMapOfShapeSequenceOfBasicElt(const BRepMAT2d_DataMapOfShapeSequenceOfBasicElt& Other);
 
 
 

@@ -204,7 +204,7 @@ static void BuildDomains(TopoDS_Face&               myFace,
       B.Add(F,itW.Value());
     }
     BRepFill_OffsetWire Algo(F, myJoin, myIsOpenResult);
-    myAlgos.Append(Algo);
+    myAlgos.push_back(Algo);
     return;
   }
 
@@ -257,7 +257,7 @@ static void BuildDomains(TopoDS_Face&               myFace,
   //========================================
   for (itF.Initialize(Faces); itF.More(); itF.Next()) {
     BRepFill_OffsetWire Algo(TopoDS::Face(itF.Value()), myJoin, myIsOpenResult);
-    myAlgos.Append(Algo);
+    myAlgos.push_back(Algo);
   }
 }
 
@@ -283,16 +283,15 @@ void BRepOffsetAPI_MakeOffset::Perform(const Standard_Real Offset,
 
     if( Offset <= 0. )
     {
-      if( myLeft.IsEmpty() )
+      if( myLeft.empty() )
       {
         //  Modified by Sergey KHROMOV - Fri Apr 27 14:35:26 2001 Begin
         BuildDomains(myFace,myWires,myLeft,myJoin,myIsOpenResult, Standard_False);
         //  Modified by Sergey KHROMOV - Fri Apr 27 14:35:26 2001 End
       }
 
-      for (itOW.Initialize(myLeft); itOW.More(); itOW.Next())
+      for (BRepFill_OffsetWire& Algo : myLeft)
       {
-        BRepFill_OffsetWire& Algo = itOW.Value();
         Algo.Perform(Abs(Offset),Alt);
         if (Algo.IsDone() && !Algo.Shape().IsNull())
         {
@@ -306,16 +305,15 @@ void BRepOffsetAPI_MakeOffset::Perform(const Standard_Real Offset,
     }
     else
     {
-      if (myRight.IsEmpty())
+      if (myRight.empty())
       {
         //  Modified by Sergey KHROMOV - Fri Apr 27 14:35:28 2001 Begin
         BuildDomains(myFace,myWires,myRight,myJoin,myIsOpenResult, Standard_True);
         //  Modified by Sergey KHROMOV - Fri Apr 27 14:35:35 2001 End
       }
 
-      for(itOW.Initialize(myRight); itOW.More(); itOW.Next())
+      for(BRepFill_OffsetWire& Algo : myRight)
       {
-        BRepFill_OffsetWire& Algo = itOW.Value();
         Algo.Perform(Offset,Alt);
 
         if (Algo.IsDone() && !Algo.Shape().IsNull())
@@ -370,14 +368,12 @@ const TopTools_ListOfShape& BRepOffsetAPI_MakeOffset::Generated
   (const TopoDS_Shape& S)
 {
   myGenerated.Clear();
-  BRepFill_ListIteratorOfListOfOffsetWire itOW;
   BRepFill_ListOfOffsetWire* Algos;
   Algos= &myLeft;
   if (!myLastIsLeft) {
     Algos = &myRight;
   }
-  for (itOW.Initialize(*Algos); itOW.More(); itOW.Next()) {
-    BRepFill_OffsetWire& OW = itOW.Value();
+  for (BRepFill_OffsetWire &OW : *Algos) {
     TopTools_ListOfShape L;
     L =  OW.GeneratedShapes(S.Oriented(TopAbs_FORWARD));
     myGenerated.Append(L);

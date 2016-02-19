@@ -32,7 +32,9 @@ public:
 
   
   Standard_EXPORT MAT2d_DataMapOfIntegerPnt2d(const Standard_Integer NbBuckets = 1);
-  
+
+  Standard_EXPORT MAT2d_DataMapOfIntegerPnt2d(const MAT2d_DataMapOfIntegerPnt2d& Other);  
+
   Standard_EXPORT   MAT2d_DataMapOfIntegerPnt2d& Assign (const MAT2d_DataMapOfIntegerPnt2d& Other) ;
   MAT2d_DataMapOfIntegerPnt2d& operator = (const MAT2d_DataMapOfIntegerPnt2d& Other) 
 {
@@ -81,7 +83,6 @@ protected:
 private:
 
   
-  Standard_EXPORT MAT2d_DataMapOfIntegerPnt2d(const MAT2d_DataMapOfIntegerPnt2d& Other);
 
 
 

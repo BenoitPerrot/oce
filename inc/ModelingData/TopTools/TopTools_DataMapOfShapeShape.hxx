@@ -32,7 +32,9 @@ public:
 
   
   Standard_EXPORT TopTools_DataMapOfShapeShape(const Standard_Integer NbBuckets = 1);
-  
+
+  Standard_EXPORT TopTools_DataMapOfShapeShape(const TopTools_DataMapOfShapeShape& Other);
+
   Standard_EXPORT   TopTools_DataMapOfShapeShape& Assign (const TopTools_DataMapOfShapeShape& Other) ;
   TopTools_DataMapOfShapeShape& operator = (const TopTools_DataMapOfShapeShape& Other) 
 {
@@ -81,7 +83,6 @@ protected:
 private:
 
   
-  Standard_EXPORT TopTools_DataMapOfShapeShape(const TopTools_DataMapOfShapeShape& Other);
 
 
 

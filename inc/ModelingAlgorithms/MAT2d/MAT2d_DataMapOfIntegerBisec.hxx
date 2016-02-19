@@ -32,7 +32,9 @@ public:
 
   
   Standard_EXPORT MAT2d_DataMapOfIntegerBisec(const Standard_Integer NbBuckets = 1);
-  
+
+  Standard_EXPORT MAT2d_DataMapOfIntegerBisec(const MAT2d_DataMapOfIntegerBisec& Other);
+
   Standard_EXPORT   MAT2d_DataMapOfIntegerBisec& Assign (const MAT2d_DataMapOfIntegerBisec& Other) ;
   MAT2d_DataMapOfIntegerBisec& operator = (const MAT2d_DataMapOfIntegerBisec& Other) 
 {
@@ -81,7 +83,6 @@ protected:
 private:
 
   
-  Standard_EXPORT MAT2d_DataMapOfIntegerBisec(const MAT2d_DataMapOfIntegerBisec& Other);
 
 
 

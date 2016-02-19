@@ -33,7 +33,9 @@ public:
 
   
   Standard_EXPORT BRepFill_IndexedDataMapOfOrientedShapeListOfShape(const Standard_Integer NbBuckets = 1);
-  
+
+    Standard_EXPORT BRepFill_IndexedDataMapOfOrientedShapeListOfShape(const BRepFill_IndexedDataMapOfOrientedShapeListOfShape& Other);
+    
   Standard_EXPORT   BRepFill_IndexedDataMapOfOrientedShapeListOfShape& Assign (const BRepFill_IndexedDataMapOfOrientedShapeListOfShape& Other) ;
   BRepFill_IndexedDataMapOfOrientedShapeListOfShape& operator = (const BRepFill_IndexedDataMapOfOrientedShapeListOfShape& Other) 
 {
@@ -92,7 +94,6 @@ protected:
 private:
 
   
-  Standard_EXPORT BRepFill_IndexedDataMapOfOrientedShapeListOfShape(const BRepFill_IndexedDataMapOfOrientedShapeListOfShape& Other);
 
 
 
