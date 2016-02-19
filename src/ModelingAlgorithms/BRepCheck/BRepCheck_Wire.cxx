@@ -196,8 +196,8 @@ void BRepCheck_Wire::Minimum()
         }
       }
     }
-    if (lst.IsEmpty()) {
-      lst.Append(BRepCheck_NoError);
+    if (lst.empty()) {
+      lst.push_back(BRepCheck_NoError);
     }
     myMapVE.Clear();
     myMin = Standard_True;
@@ -254,8 +254,8 @@ void BRepCheck_Wire::InContext(const TopoDS_Shape& S)
   if (st != BRepCheck_NoError) 
     BRepCheck::Add(lst,st);
       
-  if (lst.IsEmpty()) 
-    lst.Append(BRepCheck_NoError);
+  if (lst.empty()) 
+    lst.push_back(BRepCheck_NoError);
 }
 //=======================================================================
 //function : Blind
@@ -284,9 +284,10 @@ BRepCheck_Status BRepCheck_Wire::Closed(const Standard_Boolean Update)
 
   myCdone = Standard_True;
 
-  BRepCheck_ListIteratorOfListOfStatus itl(myMap(myShape));
-  if (itl.Value() != BRepCheck_NoError) {
-    myCstat = itl.Value();
+  auto l = myMap(myShape);
+  BRepCheck_ListIteratorOfListOfStatus itl(l.begin());
+  if (*itl != BRepCheck_NoError) {
+    myCstat = *itl;
     return myCstat; // already saved 
   }
 

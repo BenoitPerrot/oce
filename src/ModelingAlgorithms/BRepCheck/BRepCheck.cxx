@@ -36,19 +36,19 @@
 
 void BRepCheck::Add(BRepCheck_ListOfStatus& lst, const BRepCheck_Status stat)
 {
-  BRepCheck_ListIteratorOfListOfStatus it(lst);
-  while (it.More()) {
-    if (it.Value() == BRepCheck_NoError && stat != BRepCheck_NoError) {
-      lst.Remove(it);
+  BRepCheck_ListIteratorOfListOfStatus it(lst.begin());
+  while (it != lst.end()) {
+    if (*it == BRepCheck_NoError && stat != BRepCheck_NoError) {
+      it = lst.erase(it);
     }
     else {
-      if (it.Value() == stat) {
-	return;
+      if (*it == stat) {
+        return;
       }
-      it.Next();
+      ++it;
     }
   }
-  lst.Append(stat);
+  lst.push_back(stat);
 }
 
 

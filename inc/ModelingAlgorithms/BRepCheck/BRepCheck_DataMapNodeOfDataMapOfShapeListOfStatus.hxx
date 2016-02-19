@@ -15,7 +15,6 @@
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
-class BRepCheck_ListOfStatus;
 class TopTools_ShapeMapHasher;
 class BRepCheck_DataMapOfShapeListOfStatus;
 class BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus;

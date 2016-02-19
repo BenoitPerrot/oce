@@ -97,12 +97,11 @@ Standard_Boolean QANewModTopOpe::IsValid(const TopoDS_Shape& TheS, const Standar
     aChkSh->Minimum();
     aChkSh->Closed(Standard_True);
     aChkSh->Orientation(Standard_True);
-    BRepCheck_ListIteratorOfListOfStatus anItl(aChkSh->Status());
-    for (;anItl.More(); anItl.Next()) {
-      if((anItl.Value() == BRepCheck_NoError) ||
-	 (anItl.Value() == BRepCheck_InvalidMultiConnexity) ||
-	 (anItl.Value() == BRepCheck_NotClosed) ||
-	 (anItl.Value() == BRepCheck_BadOrientationOfSubshape)) continue;
+    for (auto s : aChkSh->Status()) {
+      if((s == BRepCheck_NoError) ||
+	 (s == BRepCheck_InvalidMultiConnexity) ||
+	 (s == BRepCheck_NotClosed) ||
+	 (s == BRepCheck_BadOrientationOfSubshape)) continue;
       return Standard_False;
     }
 
@@ -131,11 +130,10 @@ Standard_Boolean QANewModTopOpe::IsValid(const TopoDS_Shape& TheS, const Standar
     BRepCheck_Analyzer anAnlz(anExp.Current(), GeomControls);
 
     Handle(BRepCheck_Result) aChkWr = anAnlz.Result(anExp.Current());
-    BRepCheck_ListIteratorOfListOfStatus anItl(aChkWr->Status());
-    for (;anItl.More(); anItl.Next()) {
+    for (auto s : aChkWr->Status()) {
 
-      if(anItl.Value() == BRepCheck_NoError || 
-	 anItl.Value() == BRepCheck_BadOrientationOfSubshape) continue;
+      if(s == BRepCheck_NoError || 
+	 s == BRepCheck_BadOrientationOfSubshape) continue;
 
       return Standard_False;
 

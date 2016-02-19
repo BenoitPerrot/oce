@@ -458,9 +458,8 @@ void TopOpeBRepBuild_Builder::MakeFaces(const TopoDS_Shape& aFace,TopOpeBRepBuil
 	  newWire.Free(Standard_True);
 	  CorrectUnclosedWire(newWire);
 	  const Handle(BRepCheck_Result)& bcr = bca.Result(newWire);
-	  BRepCheck_ListIteratorOfListOfStatus itl(bcr->Status());
-	  for(; itl.More(); itl.Next() ) {
-	    if(itl.Value() == BRepCheck_BadOrientationOfSubshape) {
+	  for (auto s : bcr->Status()) {
+	    if (s == BRepCheck_BadOrientationOfSubshape) {
 	      CorrectEdgeOrientation(newWire);
 	      break;
 	    }

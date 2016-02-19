@@ -143,7 +143,6 @@ static void PrintSub(Standard_OStream& OS,
      
 {
   char* Name;
-  BRepCheck_ListIteratorOfListOfStatus itl;
   TopExp_Explorer exp;
   for (exp.Init(S,Subtype); exp.More(); exp.Next()) {
     const Handle(BRepCheck_Result)& res = Ana.Result(exp.Current());
@@ -154,8 +153,7 @@ static void PrintSub(Standard_OStream& OS,
       if (res->ContextualShape().IsSame(S) && 
 	  !Contains(theMap(sub),S)) {
 	theMap(sub).Append(S);
-	itl.Initialize(res->StatusOnShape());
-	if (itl.Value() != BRepCheck_NoError) {
+	if (res->StatusOnShape().front() != BRepCheck_NoError) {
 	  if (!FindNamed(sub,Name)) {
 	    nbfaulty++;
 	    Name = (char*)malloc(18*sizeof(char));
@@ -172,8 +170,8 @@ static void PrintSub(Standard_OStream& OS,
 	    lfaulty.Append(Draw::Get((Standard_CString&)Name));
 	  }
 	  OS << " on shape " << Name << " :\n";
-	  for (;itl.More(); itl.Next()) {
-	    BRepCheck::Print(itl.Value(),OS);
+          for (auto s : res->StatusOnShape()) {
+            BRepCheck::Print(s,OS);
 	  }
 	}
 	break;
@@ -196,10 +194,8 @@ static void Print(Standard_OStream& OS,
 
   char* Name;
   TopAbs_ShapeEnum styp = S.ShapeType();
-  BRepCheck_ListIteratorOfListOfStatus itl;
   if (!Ana.Result(S).IsNull() && !theMap.IsBound(S)) {
-    itl.Initialize(Ana.Result(S)->Status());
-    if (itl.Value() != BRepCheck_NoError) {
+    if (Ana.Result(S)->Status().front() != BRepCheck_NoError) {
       if (!FindNamed(S,Name)) {
 	nbfaulty++;
 	Name = (char*)malloc(18*sizeof(char));
@@ -209,9 +205,9 @@ static void Print(Standard_OStream& OS,
       }
       OS << "On Shape " << Name << " :\n";
 	
-      for (;itl.More(); itl.Next()) {
-        if (itl.Value() != BRepCheck_NoError)
-	BRepCheck::Print(itl.Value(),OS);
+      for (auto s : Ana.Result(S)->Status()) {
+        if (s != BRepCheck_NoError)
+	BRepCheck::Print(s,OS);
       }
     }
   }
@@ -504,7 +500,6 @@ static void GetProblemSub(const BRepCheck_Analyzer& Ana,
                           Handle(TColStd_HArray1OfInteger)& NbProblems,
                           const TopAbs_ShapeEnum Subtype)
 {
-  BRepCheck_ListIteratorOfListOfStatus itl;
   TopExp_Explorer exp;
   for (exp.Init(Shape,Subtype); exp.More(); exp.Next()) {
     const Handle(BRepCheck_Result)& res = Ana.Result(exp.Current());
@@ -516,9 +511,9 @@ static void GetProblemSub(const BRepCheck_Analyzer& Ana,
       if (res->ContextualShape().IsSame(Shape) && 
 	  !Contains(theMap(sub),Shape)) {
 	theMap(sub).Append(Shape);
-	itl.Initialize(res->StatusOnShape());
 
-	if (itl.Value() != BRepCheck_NoError) {
+        auto s = res->StatusOnShape().front();
+	if (s != BRepCheck_NoError) {
 	  Standard_Integer ii = 0;
 
           for(ii=1; ii<=sl->Length(); ii++)
@@ -526,13 +521,13 @@ static void GetProblemSub(const BRepCheck_Analyzer& Ana,
 
           if(ii>sl->Length()) {
             sl->Append(sub);
-            FillProblems(itl.Value(),NbProblems);
+            FillProblems(s,NbProblems);
           }
           for(ii=1; ii<=sl->Length(); ii++)
             if(sl->Value(ii).IsSame(Shape)) break;
           if(ii>sl->Length()) {
             sl->Append(Shape);
-            FillProblems(itl.Value(),NbProblems);
+            FillProblems(s,NbProblems);
           }
 	}
 	break;
@@ -555,13 +550,12 @@ static void GetProblemShapes(const BRepCheck_Analyzer& Ana,
     GetProblemShapes(Ana,iter.Value(),sl, NbProblems);
   }
   TopAbs_ShapeEnum styp = Shape.ShapeType();
-  BRepCheck_ListIteratorOfListOfStatus itl;
   if (!Ana.Result(Shape).IsNull() && !theMap.IsBound(Shape)) {
-    itl.Initialize(Ana.Result(Shape)->Status());
+    auto s = Ana.Result(Shape)->Status().front();
 
-    if (itl.Value() != BRepCheck_NoError) {
+    if (s != BRepCheck_NoError) {
       sl->Append(Shape);
-      FillProblems(itl.Value(),NbProblems);
+      FillProblems(s,NbProblems);
     }
   }
   if (!theMap.IsBound(Shape)) {

@@ -241,9 +241,9 @@ void BRepCheck_Shell::Minimum()
       }
     }//else if (nbface >= 2)
 
-    if (lst.IsEmpty())
+    if (lst.empty())
     {
-      lst.Append(BRepCheck_NoError);
+      lst.push_back(BRepCheck_NoError);
     }
     
     myMapEF.Clear();
@@ -301,8 +301,8 @@ void BRepCheck_Shell::InContext(const TopoDS_Shape& S)
   }
 
 
-  if (lst.IsEmpty()) {
-    lst.Append(BRepCheck_NoError);
+  if (lst.empty()) {
+    lst.push_back(BRepCheck_NoError);
   }
 }
 
@@ -339,10 +339,10 @@ BRepCheck_Status BRepCheck_Shell::Closed(const Standard_Boolean Update)
 
   myCdone = Standard_True; // it will be done...
 
-  BRepCheck_ListIteratorOfListOfStatus itl(myMap(myShape));
-  if (itl.Value() != BRepCheck_NoError)
+  auto s = myMap(myShape).front();
+  if (s != BRepCheck_NoError)
   {
-    myCstat = itl.Value();
+    myCstat = s;
     return myCstat; // already saved
   }
 
@@ -857,10 +857,8 @@ Standard_Boolean BRepCheck_Shell::IsUnorientable() const
   if (myOdone) {
     return (myOstat != BRepCheck_NoError);
   }
-  for (BRepCheck_ListIteratorOfListOfStatus itl(myMap(myShape));
-       itl.More();
-       itl.Next()) {
-    if (itl.Value() == BRepCheck_UnorientableShape) {
+  for (auto s : myMap(myShape)) {
+    if (s == BRepCheck_UnorientableShape) {
       return Standard_True;
     }
   }

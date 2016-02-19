@@ -11,9 +11,9 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Status.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-class BRepCheck_ListOfStatus;
 class TopoDS_Wire;
 class TopoDS_Face;
 class TopoDS_Edge;
@@ -24,11 +24,8 @@ class BRepCheck_Wire;
 class BRepCheck_Face;
 class BRepCheck_Shell;
 class BRepCheck_Analyzer;
-class BRepCheck_ListOfStatus;
 class BRepCheck_DataMapOfShapeListOfStatus;
 class BRepCheck_DataMapOfShapeResult;
-class BRepCheck_ListNodeOfListOfStatus;
-class BRepCheck_ListIteratorOfListOfStatus;
 class BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus;
 class BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus;
 class BRepCheck_DataMapNodeOfDataMapOfShapeResult;
@@ -71,11 +68,8 @@ friend class BRepCheck_Wire;
 friend class BRepCheck_Face;
 friend class BRepCheck_Shell;
 friend class BRepCheck_Analyzer;
-friend class BRepCheck_ListOfStatus;
 friend class BRepCheck_DataMapOfShapeListOfStatus;
 friend class BRepCheck_DataMapOfShapeResult;
-friend class BRepCheck_ListNodeOfListOfStatus;
-friend class BRepCheck_ListIteratorOfListOfStatus;
 friend class BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus;
 friend class BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus;
 friend class BRepCheck_DataMapNodeOfDataMapOfShapeResult;

@@ -12,13 +12,13 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <ModelingAlgorithms/BRepCheck/Handle_BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus.hxx>
+#include <ModelingAlgorithms/BRepCheck/BRepCheck_ListOfStatus.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class BRepCheck_ListOfStatus;
 class TopTools_ShapeMapHasher;
 class BRepCheck_DataMapNodeOfDataMapOfShapeListOfStatus;
 class BRepCheck_DataMapIteratorOfDataMapOfShapeListOfStatus;

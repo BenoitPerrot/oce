@@ -127,8 +127,8 @@ void BRepCheck_Face::Minimum()
     else {
       // Flag natural restriction???
     }
-    if (lst.IsEmpty()) {
-      lst.Append(BRepCheck_NoError);
+    if (lst.empty()) {
+      lst.push_back(BRepCheck_NoError);
     }
     myMin = Standard_True;
   }
@@ -161,8 +161,8 @@ void BRepCheck_Face::InContext(const TopoDS_Shape& S)
     return;
   }
 
-  if (lst.IsEmpty()) {
-    lst.Append(BRepCheck_NoError);
+  if (lst.empty()) {
+    lst.push_back(BRepCheck_NoError);
   }
 }
 
@@ -526,10 +526,9 @@ Standard_Boolean BRepCheck_Face::IsUnorientable() const
   if (myOridone) {
     return (myOrires != BRepCheck_NoError);
   }
-  for (BRepCheck_ListIteratorOfListOfStatus itl(myMap(myShape));
-       itl.More();
-       itl.Next()) {
-    if (itl.Value() == BRepCheck_UnorientableShape) {
+  
+  for (auto s : myMap(myShape)) {
+    if (s == BRepCheck_UnorientableShape) {
       return Standard_True;
     }
   }

@@ -214,8 +214,8 @@ void BRepCheck_Edge::Minimum()
 	}
       }
     }
-    if (lst.IsEmpty()) {
-      lst.Append(BRepCheck_NoError);
+    if (lst.empty()) {
+      lst.push_back(BRepCheck_NoError);
     }
     myMin = Standard_True;
   }
@@ -425,8 +425,8 @@ void BRepCheck_Edge::InContext(const TopoDS_Shape& S)
   default:
     break;
   }
-  if (myMap(S).IsEmpty()) {
-    myMap(S).Append(BRepCheck_NoError);
+  if (myMap(S).empty()) {
+    myMap(S).push_back(BRepCheck_NoError);
   }
 }
 

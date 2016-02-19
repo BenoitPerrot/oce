@@ -101,25 +101,20 @@ Standard_Boolean BRepAlgo::IsValid(const TopoDS_Shape& S)
       if (!ana.IsValid()) {
 
 // Check if the problem is not just BRepCheck_InvalidSameParameterFlag
-	BRepCheck_ListIteratorOfListOfStatus itl;
-	BRepCheck_Status sta;
 	for (tEx.Init(toCheck, TopAbs_FACE); tEx.More(); tEx.Next()) {
 	  if  (!ana.Result(tEx.Current()).IsNull()) {
-	    for (itl.Initialize(ana.Result(tEx.Current())->Status()); itl.More(); itl.Next()) {
-	      sta=itl.Value();
+            for (auto sta : ana.Result(tEx.Current())->Status()) {
 // If a face is incorrect
 	      if (sta != BRepCheck_NoError) {
-		BRepCheck_ListIteratorOfListOfStatus ilt;
 		TopExp_Explorer exp;
 		for (exp.Init(tEx.Current(), TopAbs_EDGE); exp.More(); exp.Next()) {
 		  const Handle(BRepCheck_Result)& res = ana.Result(exp.Current());
 		  for (res->InitContextIterator(); res->MoreShapeInContext(); res->NextShapeInContext()) {
 		    if (res->ContextualShape().IsSame(tEx.Current())) {
-		      for (ilt.Initialize(res->StatusOnShape()); ilt.More(); ilt.Next()) {
-			sta=ilt.Value();
+                      for (auto sta2 : res->StatusOnShape()) {
 // If an edge is BRepCheck_InvalidSameParameterFlag or BRepCheck_InvalidSameRangeFlag, it is forced
-			if (sta == BRepCheck_InvalidSameParameterFlag ||
-			    sta == BRepCheck_InvalidSameRangeFlag) {
+			if (sta2 == BRepCheck_InvalidSameParameterFlag ||
+			    sta2 == BRepCheck_InvalidSameRangeFlag) {
 			  bB.SameRange(TopoDS::Edge(exp.Current()), Standard_False);
 			  bB.SameParameter(TopoDS::Edge(exp.Current()), Standard_False);
 			  BRepLib::SameParameter(TopoDS::Edge(exp.Current()), 
@@ -146,7 +141,7 @@ Standard_Boolean BRepAlgo::IsValid(const TopoDS_Shape& S)
   for (tEx.Init(theResult, TopAbs_SHELL); tEx.More(); tEx.Next()) {
     if (HR.IsNull()) HR = new BRepCheck_Shell(TopoDS::Shell(tEx.Current()));
     else                             HR->Init(tEx.Current());
-    if (HR->Status().First() != BRepCheck_NoError) return Standard_False;
+    if (HR->Status().front() != BRepCheck_NoError) return Standard_False;
     if (HR->Orientation(Standard_False) != BRepCheck_NoError) return Standard_False;
     if (closedSolid) {
       if (HR->Closed() != BRepCheck_NoError) return Standard_False;

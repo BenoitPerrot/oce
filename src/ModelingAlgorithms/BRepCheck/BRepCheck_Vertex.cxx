@@ -79,7 +79,7 @@ void BRepCheck_Vertex::Minimum()
     // checks the existence of a point 3D
     BRepCheck_ListOfStatus thelist;
     myMap.Bind(myShape, thelist);
-    myMap(myShape).Append(BRepCheck_NoError);
+    myMap(myShape).push_back(BRepCheck_NoError);
     myMin = Standard_True;
   }
 }
@@ -234,8 +234,9 @@ void BRepCheck_Vertex::InContext(const TopoDS_Shape& S)
 	  }
 	}
       }
-      if (myMap(S).IsEmpty()) {
-	myMap(S).Append(BRepCheck_NoError);
+      if (myMap(S).empty()) {
+          // FIXME: don't search for S twice
+	myMap(S).push_back(BRepCheck_NoError);
       }
 
     }
@@ -266,8 +267,9 @@ void BRepCheck_Vertex::InContext(const TopoDS_Shape& S)
 	}
 	itpr.Next();
       }
-      if (myMap(S).IsEmpty()) {
-	myMap(S).Append(BRepCheck_NoError);
+      if (myMap(S).empty()) {
+          // FIXME: don't search for S twice
+	myMap(S).push_back(BRepCheck_NoError);
       }
     }
 

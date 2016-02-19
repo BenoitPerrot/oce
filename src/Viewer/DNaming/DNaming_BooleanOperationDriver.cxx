@@ -458,8 +458,6 @@ Standard_Boolean FixSameParameter(const TopoDS_Shape&    theShape,
 void FindSPErrorEdges(const TopoDS_Shape&         theShape,
 		      const BRepCheck_Analyzer&   theAnalyzer,
 		      TopTools_IndexedMapOfShape& theMap) {
-  BRepCheck_ListIteratorOfListOfStatus itl;
-
   TopoDS_Iterator anIt(theShape);
 
   for (; anIt.More(); anIt.Next()) {
@@ -479,11 +477,9 @@ void FindSPErrorEdges(const TopoDS_Shape&         theShape,
 	   aResult->MoreShapeInContext(); 
 	   aResult->NextShapeInContext()) {
 	if (aResult->ContextualShape().IsSame(theShape)) {
-	  itl.Initialize(aResult->StatusOnShape());
-
-	  for(; itl.More(); itl.Next()) {
-	    if((itl.Value() == BRepCheck_InvalidSameParameterFlag) ||
-	       (itl.Value() == BRepCheck_InvalidCurveOnSurface)) {
+	  for(auto s : aResult->StatusOnShape()) {
+	    if((s == BRepCheck_InvalidSameParameterFlag) ||
+	       (s == BRepCheck_InvalidCurveOnSurface)) {
 	      theMap.Add(anExpE.Current());
 	      break;
 	    }
@@ -494,11 +490,9 @@ void FindSPErrorEdges(const TopoDS_Shape&         theShape,
   }
   else if(theShape.ShapeType() == TopAbs_EDGE) {
     Handle(BRepCheck_Result) aResult = theAnalyzer.Result(theShape);
-    itl.Initialize(aResult->Status());
-    
-    for(; itl.More(); itl.Next()) {
-      if((itl.Value() == BRepCheck_InvalidSameParameterFlag) ||
-	 (itl.Value() == BRepCheck_InvalidCurveOnSurface)) {
+    for (auto s : aResult->Status()) {
+      if((s == BRepCheck_InvalidSameParameterFlag) ||
+	 (s == BRepCheck_InvalidCurveOnSurface)) {
 	theMap.Add(theShape);
 	break;
       }
@@ -515,7 +509,6 @@ Standard_Boolean FindOtherErrors(const TopoDS_Shape&               theShape,
 				 const TopTools_IndexedMapOfShape& theMap) {
 
   Standard_Boolean bOtherFound = Standard_False;
-  BRepCheck_ListIteratorOfListOfStatus itl;
   TopoDS_Iterator anIt(theShape);
   
   for (; anIt.More(); anIt.Next()) {
@@ -526,8 +519,8 @@ Standard_Boolean FindOtherErrors(const TopoDS_Shape&               theShape,
   
   if (!aResult.IsNull()) {
 
-    if(!theMap.Contains(theShape) && !aResult->Status().IsEmpty()) {
-      if(aResult->Status().First() != BRepCheck_NoError) {
+    if(!theMap.Contains(theShape) && !aResult->Status().empty()) {
+      if(aResult->Status().front() != BRepCheck_NoError) {
 	bOtherFound = Standard_True;
 
 	//
@@ -549,18 +542,16 @@ Standard_Boolean FindOtherErrors(const TopoDS_Shape&               theShape,
 
 	      if (aResultE->ContextualShape().IsSame(anExpF.Current()) ||
 		  aResultE->ContextualShape().IsSame(theShape)) {
-		itl.Initialize(aResultE->StatusOnShape());
-
-		if(!itl.More())
+		if(aResultE->StatusOnShape().empty())
 		  continue;
 
-		if(itl.Value() != BRepCheck_NoError) {
+		if(aResultE->StatusOnShape().front() != BRepCheck_NoError) {
 		  if(theMap.Contains(anExpE.Current())) {
-		    for(; itl.More(); itl.Next()) {
+                    for(auto s : aResultE->StatusOnShape()) {
 
-		      if((itl.Value() != BRepCheck_InvalidSameParameterFlag) &&
-			 (itl.Value() != BRepCheck_InvalidCurveOnSurface) &&
-			 (itl.Value() != BRepCheck_NoError)) {
+		      if((s != BRepCheck_InvalidSameParameterFlag) &&
+			 (s != BRepCheck_InvalidCurveOnSurface) &&
+			 (s != BRepCheck_NoError)) {
 			return Standard_True;
 		      }
 		    }
@@ -579,8 +570,8 @@ Standard_Boolean FindOtherErrors(const TopoDS_Shape&               theShape,
 	  for (aResult->InitContextIterator(); 
 	       !bOtherFound && aResult->MoreShapeInContext(); 
 	       aResult->NextShapeInContext()) {
-	    if(!aResult->StatusOnShape().IsEmpty()) {
-	      bOtherFound = (aResult->StatusOnShape().First() != BRepCheck_NoError);
+	    if(!aResult->StatusOnShape().empty()) {
+	      bOtherFound = (aResult->StatusOnShape().front() != BRepCheck_NoError);
 	    }
 	  }
 	}
@@ -596,8 +587,8 @@ Standard_Boolean FindOtherErrors(const TopoDS_Shape&               theShape,
 	  for (aResult->InitContextIterator();
 	       aResult->MoreShapeInContext(); 
 	       aResult->NextShapeInContext()) {
-	    if(!aResult->StatusOnShape().IsEmpty()) {
-	      if(aResult->StatusOnShape().First() != BRepCheck_NoError) {
+	    if(!aResult->StatusOnShape().empty()) {
+	      if(aResult->StatusOnShape().front() != BRepCheck_NoError) {
 		return Standard_True;
 	      }
 	    }
@@ -606,12 +597,10 @@ Standard_Boolean FindOtherErrors(const TopoDS_Shape&               theShape,
       }
     }
     else {
-      itl.Initialize(aResult->Status());
-      
-      for(; itl.More(); itl.Next()) {
-	if((itl.Value() != BRepCheck_InvalidSameParameterFlag) &&
-	   (itl.Value() != BRepCheck_InvalidCurveOnSurface) &&
-	   (itl.Value() != BRepCheck_NoError)) {
+      for (auto s : aResult->Status()) {
+	if((s != BRepCheck_InvalidSameParameterFlag) &&
+	   (s != BRepCheck_InvalidCurveOnSurface) &&
+	   (s != BRepCheck_NoError)) {
 	  return Standard_True;
 	}
       }

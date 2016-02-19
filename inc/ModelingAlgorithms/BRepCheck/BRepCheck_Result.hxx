@@ -17,7 +17,6 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class BRepCheck_ListOfStatus;
 
 
 

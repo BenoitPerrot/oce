@@ -253,10 +253,8 @@ void BRepCheck_Analyzer::Perform(const TopoDS_Shape& S)
                   break;
               }
 
-              BRepCheck_ListIteratorOfListOfStatus itl(res->StatusOnShape());
-              for (; itl.More(); itl.Next())
+              for (auto ste : res->StatusOnShape())
               {
-                BRepCheck_Status ste = itl.Value();
                 if (ste == BRepCheck_NoCurveOnSurface  ||
                     ste == BRepCheck_InvalidCurveOnSurface ||
                     ste == BRepCheck_InvalidRange ||
@@ -310,10 +308,8 @@ void BRepCheck_Analyzer::Perform(const TopoDS_Shape& S)
                 break;
               }
             }
-            BRepCheck_ListIteratorOfListOfStatus itl(res->StatusOnShape());
-            for (; itl.More(); itl.Next())
+            for (auto ste : res->StatusOnShape())
             {
-              BRepCheck_Status ste = itl.Value();
               if (ste != BRepCheck_NoError)
               {
                 orientofwires = Standard_False;
@@ -449,9 +445,7 @@ void BRepCheck_Analyzer::Perform(const TopoDS_Shape& S)
 Standard_Boolean BRepCheck_Analyzer::IsValid(const TopoDS_Shape& S) const
 {
   if (!myMap(S).IsNull()) {
-    BRepCheck_ListIteratorOfListOfStatus itl;
-    itl.Initialize(myMap(S)->Status());
-    if (itl.Value() != BRepCheck_NoError) { // a voir
+    if (myMap(S)->Status().front() != BRepCheck_NoError) { // a voir
       return Standard_False;
     }
   }
@@ -516,8 +510,8 @@ Standard_Boolean BRepCheck_Analyzer::ValidSub
 
     if(!RV->MoreShapeInContext()) break;
 
-    for (itl.Initialize(RV->StatusOnShape()); itl.More(); itl.Next()) {
-      if (itl.Value() != BRepCheck_NoError) {
+    for (auto s : RV->StatusOnShape()) {
+      if (s != BRepCheck_NoError) {
 	return Standard_False;
       }
     }
