@@ -6,85 +6,8 @@
 #ifndef _BRepOffset_ListIteratorOfListOfInterval_HeaderFile
 #define _BRepOffset_ListIteratorOfListOfInterval_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <ModelingAlgorithms/BRepOffset/Handle_BRepOffset_ListNodeOfListOfInterval.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class BRepOffset_ListOfInterval;
-class BRepOffset_Interval;
-class BRepOffset_ListNodeOfListOfInterval;
-
-
-
-class BRepOffset_ListIteratorOfListOfInterval 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT BRepOffset_ListIteratorOfListOfInterval();
-  
-  Standard_EXPORT BRepOffset_ListIteratorOfListOfInterval(const BRepOffset_ListOfInterval& L);
-  
-  Standard_EXPORT   void Initialize (const BRepOffset_ListOfInterval& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   BRepOffset_Interval& Value()  const;
-
-
-friend class BRepOffset_ListOfInterval;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item BRepOffset_Interval
-#define Item_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_Interval.hxx>
-#define TCollection_ListNode BRepOffset_ListNodeOfListOfInterval
-#define TCollection_ListNode_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListNodeOfListOfInterval.hxx>
-#define TCollection_ListIterator BRepOffset_ListIteratorOfListOfInterval
-#define TCollection_ListIterator_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListIteratorOfListOfInterval.hxx>
-#define Handle_TCollection_ListNode Handle_BRepOffset_ListNodeOfListOfInterval
-#define TCollection_ListNode_Type_() BRepOffset_ListNodeOfListOfInterval_Type_()
-#define TCollection_List BRepOffset_ListOfInterval
-#define TCollection_List_hxx <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef BRepOffset_ListOfInterval::iterator BRepOffset_ListIteratorOfListOfInterval;
 
 #endif // _BRepOffset_ListIteratorOfListOfInterval_HeaderFile

@@ -12,9 +12,9 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <ModelingAlgorithms/BRepOffset/Handle_BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class BRepOffset_ListOfInterval;
 class TopTools_ShapeMapHasher;
 class BRepOffset_DataMapOfShapeListOfInterval;
 class BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval;

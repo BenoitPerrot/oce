@@ -17,7 +17,6 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Type.hxx>
 class TopoDS_Shape;
-class BRepOffset_ListOfInterval;
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopTools_ListOfShape;

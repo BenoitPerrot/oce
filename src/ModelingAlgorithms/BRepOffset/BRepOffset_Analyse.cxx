@@ -118,7 +118,7 @@ static void EdgeAnalyse(const TopoDS_Edge&         E,
       BRepOffset_Interval I;
 	I.First(f); I.Last(l);
       I.Type(BRepOffset_Tangent);
-      LI.Append(I);
+      LI.push_back(I);
       return;
     }
   }
@@ -186,7 +186,7 @@ static void EdgeAnalyse(const TopoDS_Edge&         E,
       I.Type(BRepOffset_Concave);
     }
   }
-  LI.Append(I);
+  LI.push_back(I);
 }
 
 //=======================================================================
@@ -271,7 +271,7 @@ void BRepOffset_Analyse::Perform (const TopoDS_Shape& S,
 	if (! BRepTools::IsReallyClosed(E,F)) {
 	  Inter.Type(BRepOffset_FreeBoundary);
 	}
-	mapEdgeType(E).Append(Inter);
+	mapEdgeType(E).push_back(Inter);
       }
       else {  
 #ifdef OCCT_DEBUG
@@ -331,11 +331,11 @@ const
     TopoDS_Vertex V1,V2;
     BRepOffset_Tool::EdgeVertices (E,V1,V2);
     if (V1.IsSame(V)) {
-      if (mapEdgeType(E).Last().Type() == T)
+      if (mapEdgeType(E).back().Type() == T)
 	LE.Append(E);
     }
     if (V2.IsSame(V)) {
-      if (mapEdgeType(E).First().Type() == T)
+      if (mapEdgeType(E).front().Type() == T)
 	LE.Append(E);
     }
   }
@@ -359,9 +359,8 @@ const
     const TopoDS_Edge& E = TopoDS::Edge(exp.Current());
 
     const BRepOffset_ListOfInterval& Lint = Type(E);
-    BRepOffset_ListIteratorOfListOfInterval it(Lint);
-    for ( ;it.More(); it.Next()) {
-      if (it.Value().Type() == T) LE.Append(E);
+    for (auto t : Lint) {
+      if (t.Type() == T) LE.Append(E);
     }
   }
 }
@@ -501,7 +500,7 @@ void BRepOffset_Analyse::AddFaces (const TopoDS_Face&    Face,
   for ( ; exp.More(); exp.Next()) {
     const TopoDS_Edge& E = TopoDS::Edge(exp.Current());
     const BRepOffset_ListOfInterval& LI = Type(E);
-    if (!LI.IsEmpty() && LI.First().Type() == T) {
+    if (!LI.empty() && LI.front().Type() == T) {
       // so <NewFace> is attached to G1 by <Face>
       const TopTools_ListOfShape& L = Ancestors(E);
       if (L.Extent() == 2) {
@@ -532,8 +531,8 @@ void BRepOffset_Analyse::AddFaces (const TopoDS_Face&    Face,
   for ( ; exp.More(); exp.Next()) {
     const TopoDS_Edge& E = TopoDS::Edge(exp.Current());
     const BRepOffset_ListOfInterval& LI = Type(E);
-    if (!LI.IsEmpty() && 
-	(LI.First().Type() == T1 || LI.First().Type() == T2)) {
+    if (!LI.empty() && 
+	(LI.front().Type() == T1 || LI.front().Type() == T2)) {
       // so <NewFace> is attached to G1 by <Face>
       const TopTools_ListOfShape& L = Ancestors(E);
       if (L.Extent() == 2) {

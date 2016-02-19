@@ -429,7 +429,7 @@ static void FillContours(const TopoDS_Shape& aShape,
 	      if (BRep_Tool::Degenerated(anEdge))
 		continue;
 	      const BRepOffset_ListOfInterval& Lint = Analyser.Type(anEdge);
-	      if (!Lint.IsEmpty() && Lint.First().Type() == BRepOffset_FreeBoundary)
+	      if (!Lint.empty() && Lint.front().Type() == BRepOffset_FreeBoundary)
 		{
 		  MapEF.Bind(anEdge, aFace);
 		  Edges.Append(anEdge);
@@ -1456,7 +1456,7 @@ void BRepOffset_MakeOffset::BuildOffsetByArc()
       const TopTools_ListOfShape& Anc = myAnalyse.Ancestors(E);
       if (Anc.Extent() == 2) {
 	const BRepOffset_ListOfInterval& L = myAnalyse.Type(E);
-	if (!L.IsEmpty() && L.First().Type() == OT) {
+	if (!L.empty() && L.front().Type() == OT) {
 	  Standard_Real CurOffset = myOffset;
 	  if ( myFaceOffset.IsBound(Anc.First()))
 	    CurOffset = myFaceOffset(Anc.First());
@@ -1605,7 +1605,7 @@ void BRepOffset_MakeOffset::BuildOffsetByArc()
 	//--------------------------------------------------------------------
 	const TopoDS_Edge& E = TopoDS::Edge(Exp.Current());
 	const BRepOffset_ListOfInterval& L  = myAnalyse.Type(E);
-	if (!L.IsEmpty() && L.First().Type() != RT) {
+	if (!L.empty() && L.front().Type() != RT) {
 	  TopAbs_Orientation OO  = E.Orientation();
 	  TopoDS_Shape aLocalShape = It.Value().Generated(E);
 	  TopoDS_Edge        OE  = TopoDS::Edge(aLocalShape);
@@ -1753,7 +1753,7 @@ void BRepOffset_MakeOffset::ToContext (BRepOffset_DataMapOfShapeOffset& MapSF)
 	OE = BOF.Generated(E);
 	Or = E.Orientation();
 	OE.Orientation(Or);
-	if (!L.IsEmpty() && L.First().Type() != RT) {
+	if (!L.empty() && L.front().Type() != RT) {
 	  if (Created.IsBound(OE)) {
 	    NE = Created(OE); 
 	    if (NE.Orientation() == TopAbs_REVERSED) 
@@ -2867,7 +2867,7 @@ void BRepOffset_MakeOffset::SelectShells ()
     const TopoDS_Edge& E = TopoDS::Edge(exp.Current());
     const TopTools_ListOfShape& LA = myAnalyse.Ancestors(E);
     if (LA.Extent() < 2) {
-      if (myAnalyse.Type(E).First().Type() == BRepOffset_FreeBoundary) {
+      if (myAnalyse.Type(E).front().Type() == BRepOffset_FreeBoundary) {
 	FreeEdges.Add(E);                       
       }
     }  
@@ -3069,8 +3069,8 @@ void BRepOffset_MakeOffset::EncodeRegularity ()
 	const TopoDS_Edge& Ed = TopoDS::Edge(LE.First());
 	if ( myAnalyse.HasAncestor(Ed)) {
 	  const BRepOffset_ListOfInterval& LI = myAnalyse.Type(Ed);
-	  if (LI.Extent()       == 1   && 
-	      LI.First().Type() == BRepOffset_Tangent) {
+	  if (LI.size()       == 1   && 
+	      LI.front().Type() == BRepOffset_Tangent) {
 	    B.Continuity(OE,F1,F2,GeomAbs_G1);
 	  }
 	}

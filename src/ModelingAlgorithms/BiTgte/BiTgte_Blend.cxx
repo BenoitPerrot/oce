@@ -1650,7 +1650,7 @@ void BiTgte_Blend::ComputeCenters()
       const TopTools_ListOfShape& Anc = Map.FindFromKey(E);
       if (Anc.Extent() == 2) {
 	const BRepOffset_ListOfInterval& L = myAnalyse.Type(E);
-	if (!L.IsEmpty() && L.First().Type() == OT) {
+	if (!L.empty() && L.front().Type() == OT) {
 	  TopoDS_Shape aLocalShape = myMapSF(Anc.First()).Generated(E);
 	  TopoDS_Edge EOn1 = TopoDS::Edge(aLocalShape);
 	  aLocalShape = myMapSF(Anc.Last()) .Generated(E);
@@ -1749,7 +1749,7 @@ void BiTgte_Blend::ComputeCenters()
 	// --------------------------------------------------------------
 	const TopoDS_Edge& CurE = TopoDS::Edge(expe.Current());
 	const BRepOffset_ListOfInterval& L = myAnalyse.Type(CurE);
-	if (!L.IsEmpty() && L.First().Type() != OT) {
+	if (!L.empty() && L.front().Type() != OT) {
 	  // a priori doe s not disappear, so it is set
 	  TopoDS_Shape aLocalShape = myMapSF(CurF).Generated(CurE);
 	  const TopoDS_Edge& CurOE = TopoDS::Edge(aLocalShape);

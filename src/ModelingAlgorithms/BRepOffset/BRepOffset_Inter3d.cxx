@@ -353,7 +353,7 @@ void BRepOffset_Inter3d::ConnexIntByArc(const TopTools_ListOfShape& /*SetOfFaces
   for (; Exp.More(); Exp.Next()) {
     const TopoDS_Edge&               E = TopoDS::Edge(Exp.Current());
     const BRepOffset_ListOfInterval& L = Analyse.Type(E);
-    if (!L.IsEmpty() && L.First().Type() == OT) {
+    if (!L.empty() && L.front().Type() == OT) {
       //-----------------------------------------------------------
       // edge is of the proper type , return adjacent faces.
       //-----------------------------------------------------------
@@ -408,8 +408,8 @@ void BRepOffset_Inter3d::ConnexIntByArc(const TopTools_ListOfShape& /*SetOfFaces
 	      const BRepOffset_ListOfInterval& aL = Analyse.Type(E2);
 
 	      isToSkip = (MTEV.Contains(E2) && 
-			  (aL.IsEmpty() ||
-			  (!aL.IsEmpty() && aL.First().Type() != OT)));
+			  (aL.empty() ||
+			  (!aL.empty() && aL.front().Type() != OT)));
 	    }
 
 	    if (E1.IsSame(E2) || isToSkip)
@@ -435,7 +435,7 @@ void BRepOffset_Inter3d::ConnexIntByArc(const TopTools_ListOfShape& /*SetOfFaces
 	      // to the tube or if E2 is not a tangent edge.
 	      //-------------------------------------------------------
 	      const BRepOffset_ListOfInterval& L = Analyse.Type(E2);
- 	      if (!L.IsEmpty() && L.First().Type() == BRepOffset_Tangent) {
+ 	      if (!L.empty() && L.front().Type() == BRepOffset_Tangent) {
 		continue;
 	      }
 	      const TopTools_ListOfShape& AncE2        = Analyse.Ancestors(E2);
@@ -497,8 +497,8 @@ void BRepOffset_Inter3d::ConnexIntByInt
     //const TopoDS_Edge&               E = TopoDS::Edge(Exp.Current());
     const TopoDS_Edge& E = TopoDS::Edge(Emap(i));
     const BRepOffset_ListOfInterval& L = Analyse.Type(E);
-    if (!L.IsEmpty()) {
-      BRepOffset_Type    OT   = L.First().Type();
+    if (!L.empty()) {
+      BRepOffset_Type    OT   = L.front().Type();
       if (OT == BRepOffset_Convex || OT == BRepOffset_Concave) {
 	if (OT == BRepOffset_Concave) CurSide = TopAbs_IN;
 	else                          CurSide = TopAbs_OUT;

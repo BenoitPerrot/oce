@@ -15,10 +15,10 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
+#include <ModelingAlgorithms/BRepOffset/BRepOffset_ListOfInterval.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class BRepOffset_ListOfInterval;
 class TopTools_ShapeMapHasher;
 class BRepOffset_DataMapNodeOfDataMapOfShapeListOfInterval;
 class BRepOffset_DataMapIteratorOfDataMapOfShapeListOfInterval;

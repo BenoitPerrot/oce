@@ -3135,9 +3135,9 @@ void BRepOffset_Tool::CheckBounds(const TopoDS_Face& F,
 	{
 	  const TopoDS_Edge& anEdge = TopoDS::Edge(Explo.Current());
 	  const BRepOffset_ListOfInterval& L = Analyse.Type(anEdge);
-	  if (!L.IsEmpty() || BRep_Tool::Degenerated(anEdge))
+	  if (!L.empty() || BRep_Tool::Degenerated(anEdge))
 	    {
-	      BRepOffset_Type OT = L.First().Type();
+	      BRepOffset_Type OT = L.front().Type();
 	      if (OT == BRepOffset_Tangent || BRep_Tool::Degenerated(anEdge))
 		{
 		  Standard_Real fpar, lpar;
