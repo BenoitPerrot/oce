@@ -192,13 +192,13 @@ void  ChFiDS_FilSpine::SetRadius(const gp_XY&           UandR,
   //si le split est done il faut rejouer la law 
   //correspondant au parametre W 
   if (splitdone) {
-    ChFiDS_ListIteratorOfListOfHElSpine It(elspines);
+    ChFiDS_ListIteratorOfListOfHElSpine It(elspines.begin());
     Law_ListIteratorOfLaws Itl(laws);
-    Handle(ChFiDS_HElSpine) Els = It.Value();
+    Handle(ChFiDS_HElSpine) Els = *It;
     if (Els->IsPeriodic()) Itl.Value() = ComputeLaw(Els);
     else{
-      for (; It.More(); It.Next(), Itl.Next()) {
-	Els = It.Value();
+      for (; It != elspines.end(); ++It, Itl.Next()) {
+	Els = *It;
 	Standard_Real uf = Els->FirstParameter();
 	Standard_Real ul = Els->LastParameter();
 	if(uf <= W && W <= ul) {
@@ -719,10 +719,9 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
 
 Handle(Law_Composite) ChFiDS_FilSpine::Law(const Handle(ChFiDS_HElSpine)& Els) const 
 {
-  ChFiDS_ListIteratorOfListOfHElSpine Itsp(elspines);
   Law_ListIteratorOfLaws Itl(laws);
-  for(; Itsp.More(); Itsp.Next(), Itl.Next()){
-    if(Els == Itsp.Value()){
+  for(ChFiDS_ListOfHElSpine::const_iterator Itsp(elspines.begin()); Itsp != elspines.end(); ++Itsp, Itl.Next()){
+    if(Els == *Itsp){
       return Handle(Law_Composite)::DownCast(Itl.Value());
     }
   }

@@ -84,7 +84,7 @@ ChFiDS_Spine::ChFiDS_Spine(const Standard_Real Tol):
 
 void ChFiDS_Spine::AppendElSpine(const Handle(ChFiDS_HElSpine)& Els)
 {
-  elspines.Append(Els);
+  elspines.push_back(Els);
 }
 
 //=======================================================================
@@ -106,9 +106,7 @@ Handle(ChFiDS_HElSpine) ChFiDS_Spine::ElSpine(const Standard_Integer IE) const
 
 Handle(ChFiDS_HElSpine) ChFiDS_Spine::ElSpine(const Standard_Real W) const 
 {
-  ChFiDS_ListIteratorOfListOfHElSpine It(elspines);
-  for (; It.More(); It.Next()) {
-    Handle(ChFiDS_HElSpine) cur = It.Value();
+  for (Handle(ChFiDS_HElSpine) cur : elspines) {
     Standard_Real uf = cur->FirstParameter();
     Standard_Real ul = cur->LastParameter();
     if(uf <= W && W <= ul) return cur;
@@ -155,7 +153,7 @@ void ChFiDS_Spine::Reset(const Standard_Boolean AllData)
 {
   splitdone = Standard_False;
   //if(AllData && !isconstant.IsNull()) isconstant->ChangeArray1().Init(0);
-  elspines.Clear();
+  elspines.clear();
   if(AllData){
     firstparam = 0.;
     lastparam = abscissa->Value(abscissa->Upper());

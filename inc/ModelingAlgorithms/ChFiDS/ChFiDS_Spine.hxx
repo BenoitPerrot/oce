@@ -27,7 +27,6 @@
 class TColStd_HArray1OfReal;
 class TopoDS_Edge;
 class ChFiDS_HElSpine;
-class ChFiDS_ListOfHElSpine;
 class gp_Pnt;
 class gp_Vec;
 class BRepAdaptor_Curve;

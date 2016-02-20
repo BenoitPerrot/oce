@@ -2499,12 +2499,11 @@ void ChFi3d_Builder::PerformSetOfKPart(Handle(ChFiDS_Stripe)& Stripe,
   }
   
   ChFiDS_ListOfHElSpine& ll = Spine->ChangeElSpines();
-  ChFiDS_ListIteratorOfListOfHElSpine ILES(ll);
-  for ( ; ILES.More(); ILES.Next()) {
+  for (auto v : ll) {
 #ifdef OCCT_DEBUG
     if(ChFi3d_GettraceCHRON()) elspine.Start();
 #endif
-    ChFi3d_PerformElSpine(ILES.Value(),Spine,myConti,tolesp);
+    ChFi3d_PerformElSpine(v,Spine,myConti,tolesp);
 #ifdef OCCT_DEBUG
     if(ChFi3d_GettraceCHRON()) { elspine.Stop(); }
 #endif
@@ -2534,12 +2533,11 @@ void ChFi3d_Builder::PerformSetOfKGen(Handle(ChFiDS_Stripe)& Stripe,
   Handle(BRepTopAdaptor_TopolTool) It2 = new BRepTopAdaptor_TopolTool();
   Handle(ChFiDS_Spine)& Spine = Stripe->ChangeSpine();
   ChFiDS_ListOfHElSpine& ll = Spine->ChangeElSpines();
-  ChFiDS_ListIteratorOfListOfHElSpine ILES(ll);
-  for ( ; ILES.More(); ILES.Next()) {
+  for (auto v : ll) {
 #ifdef OCCT_DEBUG
     if(ChFi3d_GettraceCHRON()) { chemine.Start(); }
 #endif
-    PerformSetOfSurfOnElSpine(ILES.Value(),Stripe,It1,It2,Simul);
+    PerformSetOfSurfOnElSpine(v,Stripe,It1,It2,Simul);
 #ifdef OCCT_DEBUG
     if(ChFi3d_GettraceCHRON()) chemine.Stop();
 #endif
@@ -2869,8 +2867,7 @@ void ChFi3d_Builder::PerformSetOfKGen(Handle(ChFiDS_Stripe)& Stripe,
       curp2.SetTolerance(tol2); nextp2.SetTolerance(tol2); 
     }
     // The connections edge/new faces are updated.
-    for (ILES.Initialize(ll) ; ILES.More(); ILES.Next()) {
-      const Handle(ChFiDS_HElSpine)& curhels = ILES.Value();
+    for (const Handle(ChFiDS_HElSpine)& curhels : ll) {
       const ChFiDS_ElSpine& curels = curhels->ChangeCurve();
       Standard_Real WF = curels.FirstParameter();
       Standard_Real WL = curels.LastParameter();
