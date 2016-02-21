@@ -832,21 +832,21 @@ static void RemoveSurfData (const ChFiDS_StripeMap & myVDataMap,
                             const TopoDS_Edge &edgecouture,
                             const TopoDS_Face & facecouture,
                             const TopoDS_Vertex &V1)
-{ ChFiDS_ListIteratorOfListOfStripe It;
+{
   Standard_Boolean isfirst;
   TopoDS_Edge Ecur,Eadj1,Eadj2;
   TopoDS_Face Fg,Fd,F1,F2;
   TopoDS_Vertex Vbid;
   Standard_Integer nbsurf,nbedge,sense,num;
-  for (It.Initialize(myVDataMap(V1));It.More();It.Next()) {
-    nbsurf= It.Value()->SetOfSurfData()->Length();
-    nbedge = It.Value()->Spine()->NbEdges();
+  for (auto Stripe : myVDataMap(V1)) {
+    nbsurf= Stripe->SetOfSurfData()->Length();
+    nbedge = Stripe->Spine()->NbEdges();
     if  (nbsurf!=1){
-      num=ChFi3d_IndexOfSurfData(V1,It.Value(),sense);
+      num=ChFi3d_IndexOfSurfData(V1,Stripe,sense);
       if (sense==1) 
-	Ecur = It.Value()->Spine()->Edges(1);
+	Ecur = Stripe->Spine()->Edges(1);
       else  
-	Ecur = It.Value()->Spine()->Edges(nbedge);
+	Ecur = Stripe->Spine()->Edges(nbedge);
       ChFi3d_edge_common_faces(myEFMap(Ecur),F1,F2);
       if (F1.IsSame(facecouture)) Eadj1=edgecouture; 
       else ChFi3d_cherche_element(V1,Ecur,F1,Eadj1,Vbid);
@@ -863,10 +863,10 @@ static void RemoveSurfData (const ChFiDS_StripeMap & myVDataMap,
 	// surfdata could have one of commonpoint on Eadj1 and Eadj2
 	// remove surfdata from 1 to ind-1   
 	for (Standard_Integer i=1;i<=nbsurf;i++) {
-	  CpOnEdge (It.Value(),i,isfirst,Eadj1,Eadj2,compoint);
+	  CpOnEdge (Stripe,i,isfirst,Eadj1,Eadj2,compoint);
 	  if (compoint) ind=i;
 	}
-	if (ind>=2) RemoveSD(It.Value(),1,ind-1);
+	if (ind>=2) RemoveSD(Stripe,1,ind-1);
       }
       else {
         ind=num;
@@ -874,10 +874,10 @@ static void RemoveSurfData (const ChFiDS_StripeMap & myVDataMap,
 	// surfdata could have one of commonpoint on Eadj1 and Eadj2
 	// remove surfdata from ind+1 to num   
 	for (Standard_Integer i=num;i>=1;i--) {
-	  CpOnEdge (It.Value(),i,isfirst,Eadj1,Eadj2,compoint);
+	  CpOnEdge (Stripe,i,isfirst,Eadj1,Eadj2,compoint);
 	  if (compoint) ind=i;
 	}
-	if (ind<num) RemoveSD(It.Value(),ind+1,num);
+	if (ind<num) RemoveSD(Stripe,ind+1,num);
       }
     }
   }
@@ -1123,8 +1123,9 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
   TopoDS_Edge Enext;
   TopoDS_Vertex VV;
   TopoDS_Face Fcur,Fnext;
-  for (It.Initialize(myVDataMap(Jndex));It.More()&&!trouve;It.Next()) {
-    cnext=It.Value();
+  auto l = myVDataMap(Jndex);
+  for (It = l.begin();It != l.end()&&!trouve;++It) {
+    cnext=*It;
     CD.SetValue(0,cnext);
     Index.SetValue(0,ChFi3d_IndexOfSurfData(V1,cnext,sense));
     sens.SetValue(0,sense);
@@ -1191,14 +1192,15 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 // it is found if Enext is in the map of stripes 
       TopoDS_Edge EE;
       /*Standard_Boolean */trouve = Standard_False;
-      for (It.Initialize(myVDataMap(Jndex));It.More()&&!trouve;It.Next()) {
-	index = ChFi3d_IndexOfSurfData(V1,It.Value(),sense);
+      auto l = myVDataMap(Jndex);
+      for (It = l.begin();It!=l.end()&&!trouve;++It) {
+	index = ChFi3d_IndexOfSurfData(V1,*It,sense);
 	if (sense==1) 
-	  EE = It.Value()->Spine()->Edges(1);
+	  EE = (*It)->Spine()->Edges(1);
 	else  
-	  EE = It.Value()->Spine()->Edges(It.Value()->Spine()->NbEdges());
+	  EE = (*It)->Spine()->Edges((*It)->Spine()->NbEdges());
 	if (Enext.IsSame(EE)) {
-	  cnext=It.Value();
+	  cnext=*It;
 	  trouve=Standard_True;
 	}
       }

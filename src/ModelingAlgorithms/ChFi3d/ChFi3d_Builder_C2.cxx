@@ -175,12 +175,11 @@ Standard_Boolean ChFi3d_Builder::PerformTwoCornerbyInter(const Standard_Integer 
 
   //Information on fillets is extracted 
   //------------------------------------------------------
-
+#warning no checks on size of myVDataMap(Index)
   //the first
   //----------
-  ChFiDS_ListIteratorOfListOfStripe It;
-  It.Initialize(myVDataMap(Index));
-  Handle(ChFiDS_Stripe)& Corner1 = It.Value(); 
+  ChFiDS_ListOfStripe::const_iterator It(myVDataMap(Index).begin());
+  const Handle(ChFiDS_Stripe)& Corner1 = *It; 
   Standard_Integer Sens1;
   Standard_Integer IFd1 = 
     ChFi3d_IndexOfSurfData(Vtx,Corner1,Sens1);
@@ -190,8 +189,8 @@ Standard_Boolean ChFi3d_Builder::PerformTwoCornerbyInter(const Standard_Integer 
 
   //the second
   //----------
-  It.Next();
-  Handle(ChFiDS_Stripe)& Corner2 = It.Value(); 
+  ++It;
+  const Handle(ChFiDS_Stripe)& Corner2 = *It; 
   Standard_Integer Sens2;
   Standard_Integer IFd2;
   if(Corner2 == Corner1) {

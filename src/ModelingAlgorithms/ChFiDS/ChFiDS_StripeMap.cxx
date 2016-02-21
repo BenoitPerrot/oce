@@ -43,7 +43,7 @@ void  ChFiDS_StripeMap::Add(const TopoDS_Vertex& V,
     ChFiDS_ListOfStripe Empty;
     Index = mymap.Add(V,Empty);
   }
-  mymap(Index).Append(F);
+  mymap(Index).push_back(F);
 }
 
 

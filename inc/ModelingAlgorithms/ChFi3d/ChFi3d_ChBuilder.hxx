@@ -41,7 +41,6 @@ class BRepAdaptor_HCurve2d;
 class ChFiDS_SequenceOfSurfData;
 class TopoDS_Vertex;
 class ChFiDS_Stripe;
-class ChFiDS_ListOfStripe;
 
 
 //! construction tool for 3D chamfers on edges (on a solid).

@@ -196,12 +196,12 @@ void ChFi3d_Builder::ExtentAnalyse ()
 {
   Standard_Integer nbedges, nbs;
   for (Standard_Integer iv = 1; iv <= myVDataMap.Extent(); iv++) {
-    nbs = myVDataMap(iv).Extent();
+    nbs = myVDataMap(iv).size();
     const TopoDS_Vertex& Vtx = myVDataMap.FindKey(iv);
     nbedges = ChFi3d_NumberOfEdges(Vtx, myVEMap); 
     switch (nbs) {
     case 1 :
-      ExtentOneCorner(Vtx, myVDataMap.FindFromIndex(iv).First());
+      ExtentOneCorner(Vtx, myVDataMap.FindFromIndex(iv).front());
       break;
     case 2 :
       if (nbedges <= 3)
@@ -240,7 +240,7 @@ void  ChFi3d_Builder::Compute()
   ChFi3d_InitChron(cl_extent);
 #endif 
   
-  if (myListStripe.IsEmpty())
+  if (myListStripe.empty())
     Standard_Failure::Raise("There are no suitable edges for chamfer or fillet");
   
   Reset();
@@ -255,17 +255,15 @@ void  ChFi3d_Builder::Compute()
 #endif
   
   // filling of myVDatatMap
-  ChFiDS_ListIteratorOfListOfStripe itel;
-  
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next()) {
-    if ((itel.Value()->Spine()->FirstStatus() <= ChFiDS_BreakPoint))
-      myVDataMap.Add(itel.Value()->Spine()->FirstVertex(),itel.Value());
-    else if (itel.Value()->Spine()->FirstStatus() == ChFiDS_FreeBoundary)
-      ExtentOneCorner(itel.Value()->Spine()->FirstVertex(),itel.Value());
-    if ((itel.Value()->Spine()->LastStatus() <= ChFiDS_BreakPoint))
-      myVDataMap.Add(itel.Value()->Spine()->LastVertex() ,itel.Value());
-    else if (itel.Value()->Spine()->LastStatus() == ChFiDS_FreeBoundary)
-      ExtentOneCorner(itel.Value()->Spine()->LastVertex(),itel.Value());
+  for (auto Stripe : myListStripe) {
+    if ((Stripe->Spine()->FirstStatus() <= ChFiDS_BreakPoint))
+      myVDataMap.Add(Stripe->Spine()->FirstVertex(),Stripe);
+    else if (Stripe->Spine()->FirstStatus() == ChFiDS_FreeBoundary)
+      ExtentOneCorner(Stripe->Spine()->FirstVertex(),Stripe);
+    if ((Stripe->Spine()->LastStatus() <= ChFiDS_BreakPoint))
+      myVDataMap.Add(Stripe->Spine()->LastVertex() ,Stripe);
+    else if (Stripe->Spine()->LastStatus() == ChFiDS_FreeBoundary)
+      ExtentOneCorner(Stripe->Spine()->LastVertex(),Stripe);
   }
   // preanalysis to evaluate the extensions.
   ExtentAnalyse();
@@ -277,26 +275,26 @@ void  ChFi3d_Builder::Compute()
 #endif
   
   // Construction of the stripe of fillet on each stripe.
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next()) {
-    itel.Value()->Spine()->SetErrorStatus(ChFiDS_Ok);
+  for (auto Stripe : myListStripe) {
+    Stripe->Spine()->SetErrorStatus(ChFiDS_Ok);
     try {
       OCC_CATCH_SIGNALS
-      PerformSetOfSurf(itel.Value());
+      PerformSetOfSurf(Stripe);
     }
     catch(Standard_Failure) {
       Handle(Standard_Failure) exc = Standard_Failure::Caught();
 #ifdef OCCT_DEBUG
       cout <<"EXCEPTION Stripe compute " << exc << endl;
 #endif
-      badstripes.Append(itel.Value());
+      badstripes.push_back(Stripe);
       done = Standard_True;
-      if (itel.Value()->Spine()->ErrorStatus()==ChFiDS_Ok) 
-      itel.Value()->Spine()->SetErrorStatus(ChFiDS_Error);
+      if (Stripe->Spine()->ErrorStatus()==ChFiDS_Ok) 
+      Stripe->Spine()->SetErrorStatus(ChFiDS_Error);
     }
-    if (!done) badstripes.Append(itel.Value());
+    if (!done) badstripes.push_back(Stripe);
     done = Standard_True;
   }
-  done = (badstripes.IsEmpty());
+  done = (badstripes.empty());
   
 #ifdef OCCT_DEBUG //perf 
   ChFi3d_ResultChron(cl_perfsetofsurf,t_perfsetofsurf);
@@ -349,22 +347,16 @@ void  ChFi3d_Builder::Compute()
     MapIndSo.Add(indcursh);
   }
   if (done) {
-    Standard_Integer i1;
-    for (itel.Initialize(myListStripe), i1=0;
-	 itel.More(); 
-	 itel.Next(), i1++) {
-      const Handle(ChFiDS_Stripe)& st = itel.Value();
+    Standard_Integer i1 = 0;
+    for (const Handle(ChFiDS_Stripe)& st : myListStripe) {
       // 05/02/02 akm vvv : (OCC119) First we'll check ain't there 
       //                    intersections between fillets
       ChFiDS_ListIteratorOfListOfStripe itel1;
-      Standard_Integer i2;
-      for (itel1.Initialize(myListStripe), i2=0;
-	   itel1.More(); 
-	   itel1.Next(), i2++) {
+      Standard_Integer i2 = 0;
+      for (Handle(ChFiDS_Stripe) aCheckStripe : myListStripe) {
 	if (i2 <= i1)
 	  // Do not twice intersect the stripes
 	  continue;
-	Handle(ChFiDS_Stripe) aCheckStripe = itel1.Value();
 	try {
 	  OCC_CATCH_SIGNALS
 	  ChFi3d_StripeEdgeInter (st, aCheckStripe, DStr, tol2d);
@@ -374,16 +366,18 @@ void  ChFi3d_Builder::Compute()
 #ifdef OCCT_DEBUG
 	  cout <<"EXCEPTION Fillets compute " << exc << endl;
 #endif
-	  badstripes.Append(itel.Value());
+	  badstripes.push_back(st);
 	  hasresult=Standard_False;
 	  done = Standard_False;
 	  break;
 	}
+	++i2;
       }
       // 05/02/02 akm ^^^
       Standard_Integer solidindex = st->SolidIndex();
       ChFi3d_FilDS(solidindex,st,DStr,myRegul,tolesp,tol2d);
       if (!done) break;
+      ++i1;
     }
     
 #ifdef OCCT_DEBUG //perf 
@@ -617,16 +611,13 @@ void  ChFi3d_Builder::Compute()
 
 void ChFi3d_Builder::PerformSingularCorner
 (const Standard_Integer Index){
-  ChFiDS_ListIteratorOfListOfStripe It;
-  Handle(ChFiDS_Stripe) stripe;
   TopOpeBRepDS_DataStructure&  DStr = myDS->ChangeDS();
   const TopoDS_Vertex& Vtx = myVDataMap.FindKey(Index);
   
   Handle(ChFiDS_SurfData) Fd;
-  Standard_Integer i, Icurv;
+  Standard_Integer i = 0, Icurv;
   Standard_Integer Ivtx = 0;
-  for (It.Initialize(myVDataMap(Index)), i=0; It.More(); It.Next(),i++){
-    stripe = It.Value(); 
+  for (Handle(ChFiDS_Stripe) stripe : myVDataMap(Index)){
     // SurfData concerned and its CommonPoints,
     Standard_Integer sens = 0;
     Standard_Integer num = ChFi3d_IndexOfSurfData(Vtx,stripe,sens);
@@ -672,6 +663,7 @@ void ChFi3d_Builder::PerformSingularCorner
       stripe->SetIndexPoint(Ivtx, isfirst, 1);
       stripe->SetIndexPoint(Ivtx, isfirst, 2);	  
     }
+    ++i;
   }  
 }
 
@@ -683,18 +675,15 @@ void ChFi3d_Builder::PerformSingularCorner
 void ChFi3d_Builder::PerformFilletOnVertex
 (const Standard_Integer Index){
   
-  ChFiDS_ListIteratorOfListOfStripe It;
-  Handle(ChFiDS_Stripe) stripe;
   Handle(ChFiDS_Spine) sp;
   const TopoDS_Vertex& Vtx = myVDataMap.FindKey(Index);
   
   Handle(ChFiDS_SurfData) Fd;
-  Standard_Integer i;
+  Standard_Integer i = 0;
   Standard_Boolean nondegenere = Standard_True;
   Standard_Boolean toujoursdegenere = Standard_True; 
   Standard_Boolean isfirst = Standard_False;
-  for (It.Initialize(myVDataMap(Index)), i=0; It.More(); It.Next(),i++){
-    stripe = It.Value(); 
+  for (Handle(ChFiDS_Stripe) stripe : myVDataMap(Index)) {
     sp = stripe->Spine();
     // SurfData and its CommonPoints,
     Standard_Integer sens = 0;
@@ -707,6 +696,7 @@ void ChFi3d_Builder::PerformFilletOnVertex
     if ( CV1.Point().IsEqual( CV2.Point(), 0) )  
       nondegenere = Standard_False;
     else  toujoursdegenere = Standard_False;
+    ++i;
   }
   
   // calcul du nombre de faces = nombre d'aretes
@@ -829,16 +819,17 @@ void  ChFi3d_Builder::Reset()
   myVDataMap.Clear();
   myRegul.Clear();
   myEVIMap.Clear();
-  badstripes.Clear();
+  badstripes.clear();
   badvertices.Clear();
 
-  ChFiDS_ListIteratorOfListOfStripe itel;
-  for (itel.Initialize(myListStripe); itel.More(); ){
-    if(!itel.Value()->Spine().IsNull()){
-      itel.Value()->Reset();
-      itel.Next();
+  ChFiDS_ListIteratorOfListOfStripe itel(myListStripe.begin());
+  while (itel != myListStripe.end()) {
+    if(!(*itel)->Spine().IsNull()){
+      (*itel)->Reset();
+      ++itel;
     }
-    else myListStripe.Remove(itel);
+    else
+      itel = myListStripe.erase(itel);
   }
 }
 

@@ -216,7 +216,7 @@ void  ChFi3d_ChBuilder::Add(const TopoDS_Edge& E)
     if(PerformElement(Spine)){
       PerformExtremity(Spine);
       Spine->Load();
-      myListStripe.Append(Stripe);
+      myListStripe.push_back(Stripe);
     }
   }
 }
@@ -262,7 +262,7 @@ void  ChFi3d_ChBuilder::Add(const Standard_Real Dis,
       Spine->SetEdges(E_wnt);
       if(PerformElement(Spine)){
 	Spine->Load();
-	myListStripe.Append(Stripe);
+	myListStripe.push_back(Stripe);
 	
 	Spine->SetDist(Dis);
 
@@ -375,7 +375,7 @@ void  ChFi3d_ChBuilder::Add(const Standard_Real Dis1,
       Spine->SetEdges(E_wnt);
       if(PerformElement(Spine)){
 	Spine->Load();
-	myListStripe.Append(Stripe);
+	myListStripe.push_back(Stripe);
 	
 	Standard_Integer ChoixConge;
 	SearchCommonFaces(myEFMap,Spine->Edges(1),F1,F2);
@@ -517,7 +517,7 @@ void  ChFi3d_ChBuilder::AddDA(const Standard_Real Dis1,
       Spine->SetEdges(E_wnt);
       if(PerformElement(Spine)){
 	Spine->Load();
-	myListStripe.Append(Stripe);
+	myListStripe.push_back(Stripe);
 	
 	Standard_Integer ChoixConge;
 	SearchCommonFaces(myEFMap,Spine->Edges(1),F1,F2);
@@ -663,13 +663,13 @@ void ChFi3d_ChBuilder::Simulate (const Standard_Integer IC)
     simul.Start();
   }
 #endif
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer i = 1;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next(), i++) {
+  for (auto Stripe : myListStripe) {
     if(i == IC){
-      PerformSetOfSurf(itel.Value(), Standard_True);
+      PerformSetOfSurf(Stripe, Standard_True);
       break;
     }
+    ++i;
   }
 #ifdef OCCT_DEBUG
   if(ChFi3d_GettraceCHRON()){
@@ -692,12 +692,12 @@ void ChFi3d_ChBuilder::Simulate (const Standard_Integer IC)
 
 Standard_Integer ChFi3d_ChBuilder::NbSurf (const Standard_Integer IC) const 
 {
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer i = 1;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next(), i++) {
+  for (auto Stripe : myListStripe) {
     if(i == IC){
-      return itel.Value()->SetOfSurfData()->Length();
+      return Stripe->SetOfSurfData()->Length();
     }
+    ++i;
   }
   return 0;
 }
@@ -712,15 +712,15 @@ Standard_Integer ChFi3d_ChBuilder::NbSurf (const Standard_Integer IC) const
 Handle(ChFiDS_SecHArray1) ChFi3d_ChBuilder::Sect (const Standard_Integer IC,
 						  const Standard_Integer IS) const 
 {
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer i = 1;
   Handle(ChFiDS_SecHArray1) res;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next(), i++) {
+  for (auto Stripe : myListStripe) {
     if(i == IC){
-      Handle(MMgt_TShared) bid = itel.Value()->SetOfSurfData()->Value(IS)->Simul();
+      Handle(MMgt_TShared) bid = Stripe->SetOfSurfData()->Value(IS)->Simul();
       res = Handle(ChFiDS_SecHArray1)::DownCast(bid);
       return res;
     }
+    ++i;
   }
   return Handle(ChFiDS_SecHArray1)();
 }
@@ -1912,7 +1912,6 @@ void ChFi3d_ChBuilder::ExtentTwoCorner(const TopoDS_Vertex&        V,
 				       const ChFiDS_ListOfStripe&  LS)
 {
   Standard_Integer Sens = 0;
-  ChFiDS_ListIteratorOfListOfStripe itel(LS);
   Standard_Boolean FF = Standard_True;
   Standard_Boolean isfirst[2];
   Standard_Integer Iedge[2];
@@ -1922,18 +1921,19 @@ void ChFi3d_ChBuilder::ExtentTwoCorner(const TopoDS_Vertex&        V,
   Handle(ChFiDS_Spine) Spine[2];
 
   Standard_Integer i = 0;
-  for (; itel.More(); itel.Next(),i++) {    
-  ChFi3d_IndexOfSurfData(V,itel.Value(),Sens);
+  for (auto S : LS) {    
+  ChFi3d_IndexOfSurfData(V,S,Sens);
     if (!FF)
-      if ( Stripe[1] == itel.Value())
+      if ( Stripe[1] == S)
 	Sens = -Sens; 
     
-    Stripe[i] = itel.Value();
+    Stripe[i] = S;
     isfirst[i] = (Sens == 1);
     Spine[i] = Stripe[i]->Spine();
     if( !isfirst[i] )
       Iedge[i] = Spine[i]->NbEdges();
     FF = Standard_False;
+    ++i;
   }
 
 
@@ -2043,11 +2043,10 @@ void ChFi3d_ChBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
   Handle(ChFiDS_Spine) Spine[3];
 
   Standard_Integer i = 0;
-  for(ChFiDS_ListIteratorOfListOfStripe itel(LS); itel.More(); itel.Next(), i++) {    
-    Handle(ChFiDS_Stripe) Stripe = itel.Value(); 
+  for(Handle(ChFiDS_Stripe) Stripe : LS) {
     ChFi3d_IndexOfSurfData(V,Stripe,Sens);
-    for(ChFiDS_ListIteratorOfListOfStripe ich(check); ich.More(); ich.Next()){
-      if(Stripe == ich.Value()){
+    for(auto S : check){
+      if(Stripe == S){
 	Sens = -Sens;
 	break;
       }
@@ -2058,7 +2057,8 @@ void ChFi3d_ChBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
     if( !isfirst[i] )
       Iedge[i] = Spine[i]->NbEdges();
 
-    check.Append(Stripe);
+    check.push_back(Stripe);
+    ++i;
   }
   
   Standard_Real d[3][2], tmd, tmpangle;

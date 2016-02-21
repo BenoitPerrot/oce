@@ -12,6 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <ModelingAlgorithms/ChFiDS/Handle_ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe.hxx>
+#include <ModelingAlgorithms/ChFiDS/ChFiDS_ListOfStripe.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
@@ -19,7 +20,6 @@ class Standard_DomainError;
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class TopoDS_Vertex;
-class ChFiDS_ListOfStripe;
 class TopTools_ShapeMapHasher;
 class ChFiDS_IndexedDataMapNodeOfIndexedDataMapOfVertexListOfStripe;
 

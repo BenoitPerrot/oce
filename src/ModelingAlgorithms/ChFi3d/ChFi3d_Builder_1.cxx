@@ -261,7 +261,7 @@ TopoDS_Shape ChFi3d_Builder::Shape()const
 
 Standard_Integer ChFi3d_Builder::NbFaultyContours() const
 {
-  return badstripes.Extent();
+  return badstripes.size();
 }
 
 //=======================================================================
@@ -271,21 +271,20 @@ Standard_Integer ChFi3d_Builder::NbFaultyContours() const
 
 Standard_Integer ChFi3d_Builder::FaultyContour(const Standard_Integer I) const
 {
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer k = 0;
   Handle(ChFiDS_Stripe) st;
-  for (itel.Initialize(badstripes);itel.More(); itel.Next()) {
+  for (ChFiDS_ListOfStripe::const_iterator itel(badstripes.begin());itel != badstripes.end(); ++itel) {
     k += 1;
     if(k == I) {
-      st = itel.Value();
+      st = *itel;
       break;
     }
   }
   if(st.IsNull()) return 0;
   k = 0;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next()) {
+  for (auto S : myListStripe) {
     k += 1;
-    if(st == itel.Value()) return k;
+    if(st == S) return k;
   }
   return 0;
 }
@@ -297,13 +296,12 @@ Standard_Integer ChFi3d_Builder::FaultyContour(const Standard_Integer I) const
 
 Standard_Integer ChFi3d_Builder::NbComputedSurfaces(const Standard_Integer IC) const
 {
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer k = 0;
   Handle(ChFiDS_Stripe) st;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next()) {
+  for (ChFiDS_ListOfStripe::const_iterator itel(myListStripe.begin());itel != myListStripe.end(); ++itel) {
     k += 1;
     if(k == IC) {
-      st = itel.Value();
+      st = *itel;
       break;
     }
   }
@@ -322,13 +320,12 @@ Standard_Integer ChFi3d_Builder::NbComputedSurfaces(const Standard_Integer IC) c
 Handle(Geom_Surface) ChFi3d_Builder::ComputedSurface(const Standard_Integer IC,
 						     const Standard_Integer IS) const
 {
- ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer k = 0;
   Handle(ChFiDS_Stripe) st;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next()) {
+  for (ChFiDS_ListOfStripe::const_iterator itel(myListStripe.begin());itel != myListStripe.end(); ++itel) {
     k += 1;
     if(k == IC) {
-      st = itel.Value();
+      st = *itel;
       break;
     }
   }
@@ -395,13 +392,12 @@ TopoDS_Shape ChFi3d_Builder::BadShape()const
 
 ChFiDS_ErrorStatus ChFi3d_Builder::StripeStatus(const Standard_Integer IC)const
 {  
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer k =0;
   Handle(ChFiDS_Stripe) st;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next()) {
+  for (ChFiDS_ListOfStripe::const_iterator itel(myListStripe.begin());itel != myListStripe.end(); ++itel) {
     k += 1;
     if(k == IC) {
-      st = itel.Value();
+      st = *itel;
       break;
     }
   }
@@ -852,13 +848,11 @@ Standard_Boolean ChFi3d_Builder::PerformElement(const Handle(ChFiDS_Spine)& Spin
 
 void  ChFi3d_Builder::Remove(const TopoDS_Edge& E)
 {
-  ChFiDS_ListIteratorOfListOfStripe itel(myListStripe);
-
-  for ( ; itel.More(); itel.Next()) {
-    const Handle(ChFiDS_Spine)& sp = itel.Value()->Spine();
+  for (ChFiDS_ListIteratorOfListOfStripe itel(myListStripe.begin()); itel != myListStripe.end(); ++itel) {
+    const Handle(ChFiDS_Spine)& sp = (*itel)->Spine();
     for (Standard_Integer j = 1; j <= sp->NbEdges(); j++){
       if (E.IsSame(sp->Edges(j))){
-	myListStripe.Remove(itel);
+	myListStripe.erase(itel);
 	return;
       }
     }
@@ -874,9 +868,9 @@ void  ChFi3d_Builder::Remove(const TopoDS_Edge& E)
 Handle(ChFiDS_Spine) ChFi3d_Builder::Value
 (const Standard_Integer I)const 
 {
-  ChFiDS_ListIteratorOfListOfStripe itel(myListStripe);
-  for (Standard_Integer ic = 1; ic < I; ic++) {itel.Next();}
-  return itel.Value()->Spine();
+  ChFiDS_ListOfStripe::const_iterator itel(myListStripe.begin());
+  for (Standard_Integer ic = 1; ic < I; ic++) {++itel;}
+  return (*itel)->Spine();
 }
 
 //=======================================================================
@@ -887,9 +881,8 @@ Handle(ChFiDS_Spine) ChFi3d_Builder::Value
 Standard_Integer ChFi3d_Builder::NbElements()const 
 {
   Standard_Integer i = 0;
-  ChFiDS_ListIteratorOfListOfStripe itel(myListStripe);
-  for ( ;itel.More(); itel.Next()){
-    const Handle(ChFiDS_Spine)& sp = itel.Value()->Spine();
+  for (auto Stripe : myListStripe) {
+    const Handle(ChFiDS_Spine)& sp = Stripe->Spine();
     if(sp.IsNull()) break;
     i++;
   }
@@ -904,13 +897,13 @@ Standard_Integer ChFi3d_Builder::NbElements()const
 Standard_Integer ChFi3d_Builder::Contains(const TopoDS_Edge& E)const
 {
   Standard_Integer i = 1,j;
-  ChFiDS_ListIteratorOfListOfStripe itel(myListStripe);
-  for ( ;itel.More(); itel.Next(), i++){
-    const Handle(ChFiDS_Spine)& sp = itel.Value()->Spine();
+  for (auto Stripe : myListStripe){
+    const Handle(ChFiDS_Spine)& sp = Stripe->Spine();
     if(sp.IsNull()) break;
     for (j = 1; j <= sp->NbEdges(); j++){
       if(E.IsSame(sp->Edges(j))) return i;
     }
+    ++i;
   }
   return 0;
 }
@@ -925,9 +918,8 @@ Standard_Integer ChFi3d_Builder::Contains(const TopoDS_Edge& E,
 {
   Standard_Integer i = 1,j;
   IndexInSpine = 0;
-  ChFiDS_ListIteratorOfListOfStripe itel(myListStripe);
-  for ( ;itel.More(); itel.Next(), i++){
-    const Handle(ChFiDS_Spine)& sp = itel.Value()->Spine();
+  for (auto Stripe : myListStripe){
+    const Handle(ChFiDS_Spine)& sp = Stripe->Spine();
     if(sp.IsNull()) break;
     for (j = 1; j <= sp->NbEdges(); j++){
       if(E.IsSame(sp->Edges(j)))
@@ -936,6 +928,7 @@ Standard_Integer ChFi3d_Builder::Contains(const TopoDS_Edge& E,
 	  return i;
 	}
     }
+    ++i;
   }
   return 0;
 }

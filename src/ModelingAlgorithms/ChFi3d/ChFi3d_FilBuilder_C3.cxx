@@ -245,8 +245,7 @@ void ChFi3d_FilBuilder::PerformThreeCorner(const Standard_Integer Jndex)
   
   TopOpeBRepDS_DataStructure& DStr = myDS->ChangeDS();
   const TopoDS_Vertex& Vtx = myVDataMap.FindKey(Jndex);
-  ChFiDS_ListIteratorOfListOfStripe It;
-  Standard_Integer Index[3],pivot,deb,fin,ii,jj,kk;
+  Standard_Integer Index[3],pivot,deb,fin,jj,kk;
   //Standard_Real R = 0.;
   Standard_Boolean pivdif = Standard_True;
   Standard_Boolean c1pointu = Standard_False;
@@ -262,10 +261,12 @@ void ChFi3d_FilBuilder::PerformThreeCorner(const Standard_Integer Jndex)
   Standard_Real p[3][3];
   
   Standard_Boolean filling = 0;
-  
-  for (It.Initialize(myVDataMap(Jndex)),ii=0;It.More() && ii<3;It.Next(),ii++){
-    Index[ii] = ChFi3d_IndexOfSurfData(Vtx,It.Value(),sens[ii]);
-    CD[ii] = It.Value();
+
+  Standard_Integer ii = 0;
+  auto l = myVDataMap(Jndex);
+  for (ChFiDS_ListIteratorOfListOfStripe It(l.begin());It != l.end() && ii<3;++It,ii++){
+    Index[ii] = ChFi3d_IndexOfSurfData(Vtx,*It,sens[ii]);
+    CD[ii] = *It;
   }
   // It is checked if one of CD is not present twice in which  
   // case it is necessary to modify the return of IndexOfSurfData  
@@ -932,7 +933,7 @@ void ChFi3d_FilBuilder::PerformThreeCorner(const Standard_Integer Jndex)
   }
   myEVIMap.ChangeFind(Vtx).Append(coin->Surf());
   corner->SetSolidIndex(CD[pivot]->SolidIndex());
-  myListStripe.Append(corner);
+  myListStripe.push_back(corner);
   
 #ifdef OCCT_DEBUG
   ChFi3d_ResultChron(ch , t_t3cornerDS);// result perf update DS

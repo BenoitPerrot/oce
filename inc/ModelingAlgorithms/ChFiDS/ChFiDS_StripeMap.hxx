@@ -15,7 +15,6 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 class TopoDS_Vertex;
 class ChFiDS_Stripe;
-class ChFiDS_ListOfStripe;
 
 
 //! encapsulation of IndexedDataMapOfVertexListOfStripe

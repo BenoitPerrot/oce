@@ -16,7 +16,6 @@
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 class TopoDS_Vertex;
-class ChFiDS_ListOfStripe;
 class TopTools_ShapeMapHasher;
 class ChFiDS_IndexedDataMapOfVertexListOfStripe;
 

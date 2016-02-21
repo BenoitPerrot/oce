@@ -70,7 +70,6 @@ class ChFiDS_Stripe;
 class BRepTopAdaptor_TopolTool;
 class ChFiDS_SequenceOfSurfData;
 class gp_Pnt2d;
-class ChFiDS_ListOfStripe;
 class ChFiDS_CommonPoint;
 class TopoDS_Face;
 class AppBlend_Approx;

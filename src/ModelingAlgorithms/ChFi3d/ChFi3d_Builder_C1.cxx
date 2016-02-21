@@ -559,15 +559,17 @@ static void ChFi3d_Recale(BRepAdaptor_Surface&   Bs,
 //purpose  : find stripe with ChFiDS_OnSame state if <thePrepareOnSame> is True
 //=======================================================================
 
-Standard_Boolean ChFi3d_SelectStripe(ChFiDS_ListIteratorOfListOfStripe & It,
-				     const TopoDS_Vertex& Vtx,
-				     const Standard_Boolean thePrepareOnSame)
+#warning should return an iterator to be more C++ish
+static Standard_Boolean ChFi3d_SelectStripe(ChFiDS_ListIteratorOfListOfStripe & It,
+					    const ChFiDS_ListIteratorOfListOfStripe &End,
+					    const TopoDS_Vertex& Vtx,
+					    const Standard_Boolean thePrepareOnSame)
 {
   if (!thePrepareOnSame) return Standard_True;
 
-  for (; It.More(); It.Next()) {
+  for (; It != End; ++It) {
     Standard_Integer sens = 0;
-    Handle(ChFiDS_Stripe) stripe = It.Value();
+    Handle(ChFiDS_Stripe) stripe = *It;
     ChFi3d_IndexOfSurfData(Vtx, stripe, sens);
     ChFiDS_State stat;
     if ( sens == 1 )
@@ -611,10 +613,10 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
   // the top,
   const TopoDS_Vertex& Vtx = myVDataMap.FindKey(Index);
   // The fillet is returned,
-  ChFiDS_ListIteratorOfListOfStripe StrIt;
-  StrIt.Initialize(myVDataMap(Index));
-  if ( ! ChFi3d_SelectStripe (StrIt, Vtx, thePrepareOnSame)) return;
-  Handle(ChFiDS_Stripe) stripe = StrIt.Value();
+  auto l = myVDataMap(Index);
+  ChFiDS_ListIteratorOfListOfStripe StrIt(l.begin());
+  if ( ! ChFi3d_SelectStripe (StrIt, l.end(), Vtx, thePrepareOnSame)) return;
+  Handle(ChFiDS_Stripe) stripe = *StrIt;
   const Handle(ChFiDS_Spine) spine = stripe->Spine();
   ChFiDS_SequenceOfSurfData& SeqFil =
     stripe->ChangeSetOfSurfData()->ChangeSequence();
@@ -1010,10 +1012,8 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
     // Take all the interferences with faces from all the stripes
     // and look if their pcurves intersect our cork pcurve.
     // Unfortunately, by this moment they do not exist in DStr.
-    ChFiDS_ListIteratorOfListOfStripe aStrIt(myListStripe);
-    for (; aStrIt.More(); aStrIt.Next())
+    for (Handle(ChFiDS_Stripe) aCheckStripe : myListStripe)
     {
-      Handle(ChFiDS_Stripe) aCheckStripe = aStrIt.Value();
       Handle(ChFiDS_HData) aSeqData = aCheckStripe->SetOfSurfData();
       // Loop on parts of the stripe
       Standard_Integer iPart;
@@ -1620,9 +1620,7 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
 
   TopOpeBRepDS_DataStructure& DStr= myDS->ChangeDS();
   const Standard_Integer nn=15;
-  ChFiDS_ListIteratorOfListOfStripe It;
-  It.Initialize(myVDataMap(Index));
-  Handle(ChFiDS_Stripe) stripe = It.Value();
+  Handle(ChFiDS_Stripe) stripe = myVDataMap(Index).front();
   const Handle(ChFiDS_Spine) spine = stripe->Spine();
   ChFiDS_SequenceOfSurfData& SeqFil =
     stripe->ChangeSetOfSurfData()->ChangeSequence();
@@ -3008,10 +3006,10 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
   Standard_Real               aTol3d = 1.e-4;
 
 
-  if (aLOfStripe.IsEmpty())
+  if (aLOfStripe.empty())
     return;
 
-  aStripe = aLOfStripe.First();
+  aStripe = aLOfStripe.front();
   aSpine  = aStripe->Spine();
 
   ChFiDS_SequenceOfSurfData &aSeqSurfData =
@@ -3111,9 +3109,9 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
 // determination of neighbor surface
   Standard_Integer indSurface;
   if (is1stCP1OnArc)
-    indSurface = myListStripe.First()->SetOfSurfData()->Value(anInd)->IndexOfS1();
+    indSurface = myListStripe.front()->SetOfSurfData()->Value(anInd)->IndexOfS1();
   else
-    indSurface = myListStripe.First()->SetOfSurfData()->Value(anInd)->IndexOfS2();
+    indSurface = myListStripe.front()->SetOfSurfData()->Value(anInd)->IndexOfS2();
 
   aNeighborFace = TopoDS::Face(myDS->Shape(indSurface));
 
@@ -3705,9 +3703,7 @@ Standard_Boolean ChFi3d_Builder::MoreSurfdata(const Standard_Integer Index) cons
   // - and if the last but one surfdata has one of commonpoints on one of 
   // two arcs, which constitute the intersections of the face at end and of the fillet
 
-  ChFiDS_ListIteratorOfListOfStripe It;
-  It.Initialize(myVDataMap(Index));
-  Handle(ChFiDS_Stripe)& stripe = It.Value();
+  const Handle(ChFiDS_Stripe)& stripe = myVDataMap(Index).front();
   ChFiDS_SequenceOfSurfData& SeqFil =
     stripe->ChangeSetOfSurfData()->ChangeSequence();
   const TopoDS_Vertex& Vtx = myVDataMap.FindKey(Index);
@@ -3791,9 +3787,7 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
   OSD_Chronometer ch;// init perf pour PerformSetOfKPart
 #endif
   // The fillet is returned,
-  ChFiDS_ListIteratorOfListOfStripe StrIt;
-  StrIt.Initialize(myVDataMap(Index));
-  Handle(ChFiDS_Stripe) stripe = StrIt.Value();
+  const Handle(ChFiDS_Stripe)& stripe = myVDataMap(Index).front();
   const Handle(ChFiDS_Spine) spine = stripe->Spine();
   ChFiDS_SequenceOfSurfData& SeqFil =
     stripe->ChangeSetOfSurfData()->ChangeSequence();

@@ -219,7 +219,7 @@ void  ChFi3d_FilBuilder::Add(const TopoDS_Edge& E)
     if(PerformElement(Spine)){
       PerformExtremity(Spine);
       Spine->Load();
-      myListStripe.Append(Stripe);
+      myListStripe.push_back(Stripe);
     }
   }
 }
@@ -461,13 +461,13 @@ void ChFi3d_FilBuilder::Simulate (const Standard_Integer IC)
     simul.Start();
   }
 #endif
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer i = 1;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next(), i++) {
+  for (auto s : myListStripe) {
     if(i == IC){
-      PerformSetOfSurf(itel.Value(), Standard_True);
+      PerformSetOfSurf(s, Standard_True);
       break;
     }
+    ++i;
   }
 #ifdef OCCT_DEBUG
   if(ChFi3d_GettraceCHRON()){
@@ -489,12 +489,12 @@ void ChFi3d_FilBuilder::Simulate (const Standard_Integer IC)
 
 Standard_Integer ChFi3d_FilBuilder::NbSurf (const Standard_Integer IC) const 
 {
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer i = 1;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next(), i++) {
+  for (auto s : myListStripe) {
     if(i == IC){
-      return itel.Value()->SetOfSurfData()->Length();
+      return s->SetOfSurfData()->Length();
     }
+    ++i;
   }
   return 0;
 }
@@ -507,15 +507,15 @@ Standard_Integer ChFi3d_FilBuilder::NbSurf (const Standard_Integer IC) const
 Handle(ChFiDS_SecHArray1) ChFi3d_FilBuilder::Sect (const Standard_Integer IC,
 						   const Standard_Integer IS) const 
 {
-  ChFiDS_ListIteratorOfListOfStripe itel;
   Standard_Integer i = 1;
   Handle(ChFiDS_SecHArray1) res;
-  for (itel.Initialize(myListStripe);itel.More(); itel.Next(), i++) {
+  for (auto s : myListStripe) {
     if(i == IC){
-      Handle(MMgt_TShared) bid = itel.Value()->SetOfSurfData()->Value(IS)->Simul();
+      Handle(MMgt_TShared) bid = s->SetOfSurfData()->Value(IS)->Simul();
       res = Handle(ChFiDS_SecHArray1)::DownCast(bid);
       return res;
     }
+    ++i;
   }
   return Handle(ChFiDS_SecHArray1)();
 }
@@ -1894,14 +1894,13 @@ void ChFi3d_FilBuilder::ExtentTwoCorner(const TopoDS_Vertex& V,
   // to faces and tangents to the guideline.
   Standard_Integer Sens;
   Standard_Real    Coeff = 0.3, Eval=0.0, dU, rad;
-  ChFiDS_ListIteratorOfListOfStripe itel(LS);
   Standard_Boolean FF = Standard_True;
   Handle(ChFiDS_Stripe) Stripe;
   Handle(ChFiDS_Spine)  Spine;
 
   // A value of symetric extension is calculated
-  for ( ; itel.More(); itel.Next()) {    
-   Stripe = itel.Value();
+  for (ChFiDS_ListOfStripe::const_iterator itel(LS.begin()); itel != LS.end(); ++itel) {
+   Stripe = *itel;
    Spine = Stripe->Spine();
    dU = Spine->LastParameter(Spine->NbEdges())*Coeff;
    Handle(ChFiDS_FilSpine) fsp = Handle(ChFiDS_FilSpine)::DownCast(Spine);
@@ -1909,7 +1908,7 @@ void ChFi3d_FilBuilder::ExtentTwoCorner(const TopoDS_Vertex& V,
      rad =  fsp->Radius();
    else
      {
-       TopoDS_Edge E = ChFi3d_EdgeFromV1( V, itel.Value(), Sens);
+       TopoDS_Edge E = ChFi3d_EdgeFromV1( V, *itel, Sens);
        rad = MaxRad( fsp, E );
        /*
        IE = ChFi3d_IndexOfSurfData(V,itel.Value(),Sens);
@@ -1922,10 +1921,10 @@ void ChFi3d_FilBuilder::ExtentTwoCorner(const TopoDS_Vertex& V,
  }
 
   // One applies
-  for (itel.Initialize(LS) ; itel.More(); itel.Next()) {    
-    ChFi3d_IndexOfSurfData(V,itel.Value(),Sens);
-    if (!FF && Stripe == itel.Value()) Sens = -Sens;
-    Stripe = itel.Value();
+  for (ChFiDS_ListOfStripe::const_iterator itel(LS.begin()); itel != LS.end(); ++itel) {
+    ChFi3d_IndexOfSurfData(V,*itel,Sens);
+    if (!FF && Stripe == *itel) Sens = -Sens;
+    Stripe = *itel;
     Spine = Stripe->Spine();
     if (! Spine->IsTangencyExtremity((Sens == 1))) { //No extension on queue
       if (Sens == 1){ 
@@ -1957,11 +1956,10 @@ void ChFi3d_FilBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
   Standard_Real    Coeff = 0.1;
   ChFiDS_ListOfStripe check;
 //  Standard_Boolean FF = Standard_True;
-  for(ChFiDS_ListIteratorOfListOfStripe itel(LS); itel.More(); itel.Next()) {    
-    Handle(ChFiDS_Stripe) Stripe = itel.Value(); 
+  for(Handle(ChFiDS_Stripe) Stripe : LS) {
     ChFi3d_IndexOfSurfData(V,Stripe,Sens);
-    for(ChFiDS_ListIteratorOfListOfStripe ich(check); ich.More(); ich.Next()){
-      if(Stripe == ich.Value()){
+    for(ChFiDS_ListIteratorOfListOfStripe ich(check.begin()); ich != check.end(); ++ich){
+      if(Stripe == *ich){
 	Sens = -Sens;
 	break;
       }
@@ -1977,7 +1975,7 @@ void ChFi3d_FilBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
       Spine->SetLastParameter(dU*(1.+Coeff));
       Spine->SetLastTgt(dU);
     }
-    check.Append(Stripe);
+    check.push_back(Stripe);
   }
 }
 

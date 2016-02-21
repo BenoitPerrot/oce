@@ -262,9 +262,8 @@ void ChFi3d_ChBuilder::PerformThreeCorner(const Standard_Integer Jndex)
 
   TopOpeBRepDS_DataStructure& DStr = myDS->ChangeDS();
   const TopoDS_Vertex& Vtx = myVDataMap.FindKey(Jndex);
-  ChFiDS_ListIteratorOfListOfStripe It;
 //  Standard_Integer Index[3],pivot,deb,fin,ii,jj,kk;
-  Standard_Integer Index[3],pivot=0,deb=0,fin=0,ii;
+  Standard_Integer Index[3],pivot=0,deb=0,fin=0;
   Handle(ChFiDS_Stripe) CD[3];
   TopoDS_Face face[3];
   Standard_Integer jf[3][3];
@@ -275,10 +274,12 @@ void ChFi3d_ChBuilder::PerformThreeCorner(const Standard_Integer Jndex)
   Standard_Real p[3][3];
 
   Standard_Boolean c1triangle = Standard_False;
-  
-  for (It.Initialize(myVDataMap(Jndex)),ii=0;It.More() && ii<3;It.Next(),ii++){
-    Index[ii] = ChFi3d_IndexOfSurfData(Vtx,It.Value(),sens[ii]);
-    CD[ii] = It.Value();
+
+  Standard_Integer ii = 0;
+  auto l = myVDataMap(Jndex);
+  for (ChFiDS_ListOfStripe::const_iterator It(l.begin());It != l.end() && ii<3;++It,ii++){
+    Index[ii] = ChFi3d_IndexOfSurfData(Vtx,*It,sens[ii]);
+    CD[ii] = *It;
   }
   // On verifie que l une des CD ne figure pas deux fois, au quel cas 
   // il faut modifier le retour de IndexOfSurfData qui prend la 
@@ -904,5 +905,5 @@ void ChFi3d_ChBuilder::PerformThreeCorner(const Standard_Integer Jndex)
   }
   myEVIMap.ChangeFind(Vtx).Append(coin->Surf());
   corner->SetSolidIndex(CD[pivot]->SolidIndex());
-  myListStripe.Append(corner);
+  myListStripe.push_back(corner);
 }

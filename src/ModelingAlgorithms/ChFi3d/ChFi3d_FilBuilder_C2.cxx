@@ -185,12 +185,11 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
   OSD_Chronometer ch;
   ChFi3d_InitChron(ch); // init perf initialisation 
 #endif 
-  
+
   done = 0;
   const TopoDS_Vertex& Vtx = myVDataMap.FindKey(Index);
   TopOpeBRepDS_DataStructure& DStr = myDS->ChangeDS();
-  ChFiDS_ListIteratorOfListOfStripe It;
-  It.Initialize(myVDataMap(Index));
+  ChFiDS_ListOfStripe::const_iterator It(myVDataMap(Index).begin());
   Handle(ChFiDS_Stripe)  st1,st2;
   Standard_Integer Sens1,Sens2;
   Standard_Integer Isd1,Isd2,i1,i2;
@@ -211,15 +210,15 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
   
   //the first
   //----------
- 
-  st1 = It.Value(); 
+#warning no check done on number of elements 
+  st1 = *It; 
   Isd1 = ChFi3d_IndexOfSurfData(Vtx,st1,Sens1);
   
   
   //the second
   //----------
-  It.Next();
-  st2 = It.Value();
+  ++It;
+  st2 = *It;
   if(st2 == st1) {
     Sens2 = -1;
     Isd2 = st2->SetOfSurfData()->Length();
@@ -949,7 +948,7 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
       myEVIMap.Bind(Vtx,li);
     }
     myEVIMap.ChangeFind(Vtx).Append(coin->Surf());
-    myListStripe.Append(corner);
+    myListStripe.push_back(corner);
   }
 }  
 

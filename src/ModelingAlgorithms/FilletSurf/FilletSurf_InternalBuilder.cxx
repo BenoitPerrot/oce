@@ -225,7 +225,7 @@ Standard_Integer  FilletSurf_InternalBuilder::Add(const TopTools_ListOfShape& E,
   TopoDS_Edge ed = TopoDS::Edge(E.First());
   ed.Orientation(TopAbs_FORWARD);
   ChFi3d_FilBuilder::Add(R,ed);
-  Handle(ChFiDS_Stripe) st = myListStripe.First();
+  Handle(ChFiDS_Stripe) st = myListStripe.front();
   Handle(ChFiDS_Spine)& sp = st->ChangeSpine();
   Standard_Boolean periodic = sp->IsPeriodic();
   
@@ -299,7 +299,7 @@ void FilletSurf_InternalBuilder::Perform()
 {
   //PerformSetOfSurfOnElSpine is enough.
   
-  Handle(ChFiDS_Stripe) Stripe = myListStripe.First();
+  Handle(ChFiDS_Stripe) Stripe = myListStripe.front();
   Handle(ChFiDS_HData)&  HData  = Stripe->ChangeSetOfSurfData();
   HData =  new ChFiDS_HData();
   Handle(ChFiDS_Spine)& Spine = Stripe->ChangeSpine();
@@ -453,7 +453,7 @@ Standard_Boolean  FilletSurf_InternalBuilder::Done() const
 
 Standard_Integer FilletSurf_InternalBuilder::NbSurface() const 
 {
-  return myListStripe.First()->SetOfSurfData()->Length();
+  return myListStripe.front()->SetOfSurfData()->Length();
 }
 
 //=======================================================================
@@ -463,7 +463,7 @@ Standard_Integer FilletSurf_InternalBuilder::NbSurface() const
 
 const Handle(Geom_Surface)& FilletSurf_InternalBuilder::SurfaceFillet(const Standard_Integer Index) const 
 {
-  Standard_Integer isurf = myListStripe.First()->SetOfSurfData()->Value(Index)->Surf();
+  Standard_Integer isurf = myListStripe.front()->SetOfSurfData()->Value(Index)->Surf();
 
   return myDS->Surface(isurf).Surface();
 }
@@ -475,7 +475,7 @@ const Handle(Geom_Surface)& FilletSurf_InternalBuilder::SurfaceFillet(const Stan
 
 Standard_Real  FilletSurf_InternalBuilder::TolApp3d(const Standard_Integer Index) const 
 {
-  Standard_Integer isurf = myListStripe.First()->SetOfSurfData()->Value(Index)->Surf();
+  Standard_Integer isurf = myListStripe.front()->SetOfSurfData()->Value(Index)->Surf();
 
   return myDS->Surface(isurf).Tolerance();
 }
@@ -486,7 +486,7 @@ Standard_Real  FilletSurf_InternalBuilder::TolApp3d(const Standard_Integer Index
 //=======================================================================
 const TopoDS_Face& FilletSurf_InternalBuilder::SupportFace1(const Standard_Integer Index) const
 {
-  Standard_Integer isurf = myListStripe.First()->SetOfSurfData()->Value(Index)->IndexOfS1();
+  Standard_Integer isurf = myListStripe.front()->SetOfSurfData()->Value(Index)->IndexOfS1();
 
   return TopoDS::Face(myDS->Shape(isurf));
 }
@@ -496,7 +496,7 @@ const TopoDS_Face& FilletSurf_InternalBuilder::SupportFace1(const Standard_Integ
 //=======================================================================
 const TopoDS_Face& FilletSurf_InternalBuilder::SupportFace2(const Standard_Integer Index) const 
 {
-  Standard_Integer isurf = myListStripe.First()->SetOfSurfData()->Value(Index)->IndexOfS2();
+  Standard_Integer isurf = myListStripe.front()->SetOfSurfData()->Value(Index)->IndexOfS2();
 
   return TopoDS::Face(myDS->Shape(isurf));
 }
@@ -507,7 +507,7 @@ const TopoDS_Face& FilletSurf_InternalBuilder::SupportFace2(const Standard_Integ
 
 const Handle(Geom_Curve)& FilletSurf_InternalBuilder::CurveOnFace1(const Standard_Integer Index) const 
 {
-  Standard_Integer icurv = myListStripe.First()->SetOfSurfData()->Value(Index)->
+  Standard_Integer icurv = myListStripe.front()->SetOfSurfData()->Value(Index)->
     InterferenceOnS1().LineIndex();
   return myDS->Curve(icurv).Curve();
 }
@@ -519,7 +519,7 @@ const Handle(Geom_Curve)& FilletSurf_InternalBuilder::CurveOnFace1(const Standar
 
 const Handle(Geom_Curve)& FilletSurf_InternalBuilder::CurveOnFace2(const Standard_Integer Index) const 
 {
-  Standard_Integer icurv=myListStripe.First()->SetOfSurfData()->Value(Index)->
+  Standard_Integer icurv=myListStripe.front()->SetOfSurfData()->Value(Index)->
     InterferenceOnS2().LineIndex();
   return myDS->Curve(icurv).Curve();
 }
@@ -529,7 +529,7 @@ const Handle(Geom_Curve)& FilletSurf_InternalBuilder::CurveOnFace2(const Standar
 //=======================================================================
 const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurveOnFace1(const Standard_Integer Index) const 
 {
-  return myListStripe.First()->SetOfSurfData()->Value(Index)->
+  return myListStripe.front()->SetOfSurfData()->Value(Index)->
     InterferenceOnS1().PCurveOnFace();
 
 }
@@ -540,7 +540,7 @@ const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurveOnFace1(const Stan
 //=======================================================================
 
 const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurve1OnFillet(const Standard_Integer Index) const 
-{return myListStripe.First()->SetOfSurfData()->Value(Index)->
+{return myListStripe.front()->SetOfSurfData()->Value(Index)->
     InterferenceOnS1().PCurveOnSurf();
  
 }
@@ -551,7 +551,7 @@ const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurve1OnFillet(const St
 //=======================================================================
 const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurveOnFace2(const Standard_Integer Index) const 
 {
-  return myListStripe.First()->SetOfSurfData()->Value(Index)->
+  return myListStripe.front()->SetOfSurfData()->Value(Index)->
     InterferenceOnS2().PCurveOnFace();
 }
 
@@ -560,7 +560,7 @@ const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurveOnFace2(const Stan
 //purpose  : gives the PCurve associated to CurveOnFace2(Index) on the Fillet
 //=======================================================================
 const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurve2OnFillet(const Standard_Integer Index) const 
-{return myListStripe.First()->SetOfSurfData()->Value(Index)->
+{return myListStripe.front()->SetOfSurfData()->Value(Index)->
     InterferenceOnS2().PCurveOnSurf();
   
 }
@@ -572,7 +572,7 @@ const Handle(Geom2d_Curve)& FilletSurf_InternalBuilder::PCurve2OnFillet(const St
 
 Standard_Real FilletSurf_InternalBuilder::FirstParameter() const
 {
-  const Handle(ChFiDS_Stripe)& st = myListStripe.First();
+  const Handle(ChFiDS_Stripe)& st = myListStripe.front();
   const Handle(ChFiDS_Spine)& sp = st->Spine();
   const Handle(ChFiDS_SurfData)& sd = st->SetOfSurfData()->Value(1);
   Standard_Real p = sd->FirstSpineParam();
@@ -588,7 +588,7 @@ Standard_Real FilletSurf_InternalBuilder::FirstParameter() const
 //=======================================================================
 Standard_Real FilletSurf_InternalBuilder::LastParameter() const
 {
-  const Handle(ChFiDS_Stripe)& st = myListStripe.First();
+  const Handle(ChFiDS_Stripe)& st = myListStripe.front();
   const Handle(ChFiDS_Spine)& sp = st->Spine();
   const Handle(ChFiDS_SurfData)& sd = st->SetOfSurfData()->Value(NbSurface());
   Standard_Real p = sd->LastSpineParam();
@@ -614,9 +614,9 @@ Standard_Real FilletSurf_InternalBuilder::LastParameter() const
 FilletSurf_StatusType  FilletSurf_InternalBuilder::StartSectionStatus() const 
 { 
  
-   Standard_Boolean isonedge1 = myListStripe.First()->SetOfSurfData()->Value(1)->
+   Standard_Boolean isonedge1 = myListStripe.front()->SetOfSurfData()->Value(1)->
                                 VertexFirstOnS1().IsOnArc();
-   Standard_Boolean isonedge2=  myListStripe.First()->SetOfSurfData()->Value(1)->
+   Standard_Boolean isonedge2=  myListStripe.front()->SetOfSurfData()->Value(1)->
                                 VertexFirstOnS2().IsOnArc();;
 
   if (isonedge1 && isonedge2) 
@@ -638,9 +638,9 @@ FilletSurf_StatusType  FilletSurf_InternalBuilder::StartSectionStatus() const
 //=======================================================================
 FilletSurf_StatusType  FilletSurf_InternalBuilder::EndSectionStatus() const 
 { 
-   Standard_Boolean isonedge1 = myListStripe.First()->SetOfSurfData()->Value(NbSurface())->
+   Standard_Boolean isonedge1 = myListStripe.front()->SetOfSurfData()->Value(NbSurface())->
                                 VertexLastOnS1().IsOnArc();
-   Standard_Boolean isonedge2=  myListStripe.First()->SetOfSurfData()->Value(NbSurface())->
+   Standard_Boolean isonedge2=  myListStripe.front()->SetOfSurfData()->Value(NbSurface())->
                                 VertexLastOnS2().IsOnArc();
 
   if (isonedge1 && isonedge2) 
@@ -659,7 +659,7 @@ FilletSurf_StatusType  FilletSurf_InternalBuilder::EndSectionStatus() const
 void FilletSurf_InternalBuilder::Simulate()
 {
  //ChFi3d_FilBuilder::Simulate(1);
- Handle(ChFiDS_Stripe) Stripe = myListStripe.First();
+ Handle(ChFiDS_Stripe) Stripe = myListStripe.front();
   Handle(ChFiDS_HData)&  HData  = Stripe->ChangeSetOfSurfData();
   HData =  new ChFiDS_HData();
   Handle(ChFiDS_Spine)& Spine = Stripe->ChangeSpine();

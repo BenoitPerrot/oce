@@ -44,7 +44,6 @@ class BRepAdaptor_HCurve2d;
 class ChFiDS_SequenceOfSurfData;
 class BRepBlend_Line;
 class ChFiDS_Stripe;
-class ChFiDS_ListOfStripe;
 
 
 //! Tool  of  construction of  fillets 3d on  edges (on a solid).
