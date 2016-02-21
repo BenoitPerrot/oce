@@ -2138,7 +2138,6 @@ void ChFi3d_ChBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
 void ChFi3d_ChBuilder::SetRegul()
 
 {
-  ChFiDS_ListIteratorOfRegularities it;
   TopTools_ListIteratorOfListOfShape itc;
   TopTools_ListIteratorOfListOfShape its1;
   TopTools_ListIteratorOfListOfShape its2;
@@ -2150,8 +2149,7 @@ void ChFi3d_ChBuilder::SetRegul()
   BRep_Builder B;
   Standard_Real Seuil = M_PI/360.;
   Standard_Real Seuil2 = Seuil * Seuil;
-  for (it.Initialize(myRegul); it.More(); it.Next()){
-    const ChFiDS_Regul& reg = it.Value();
+  for (const ChFiDS_Regul& reg : myRegul) {
     itc.Initialize(myCoup->NewEdges(reg.Curve()));
     if(itc.More()){
       TopoDS_Edge E = TopoDS::Edge(itc.Value());

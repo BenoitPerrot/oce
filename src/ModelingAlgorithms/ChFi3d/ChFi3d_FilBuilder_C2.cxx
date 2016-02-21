@@ -655,7 +655,7 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
 	regdeb.SetCurve(Icf);
 	regdeb.SetS1(coin->Surf(),0);
 	regdeb.SetS2(sd1->Surf(),0);
-	myRegul.Append(regdeb);
+	myRegul.push_back(regdeb);
 	corner->ChangeFirstCurve(Icf);
 	corner->ChangeFirstParameters(P1deb,P2deb);
 	corner->ChangeIndexFirstPointOnS1(If1);
@@ -682,7 +682,7 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
 	regfin.SetCurve(Icl);
 	regfin.SetS1(coin->Surf(),0);
 	regfin.SetS2(sd2->Surf(),0);
-	myRegul.Append(regfin);
+	myRegul.push_back(regfin);
 	corner->ChangeLastCurve(Icl);
 	corner->ChangeLastParameters(P1fin,P2fin);
 	corner->ChangeIndexLastPointOnS1(Il1);
@@ -877,7 +877,7 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
       regdeb.SetCurve(Icf);
       regdeb.SetS1(coin->Surf(),0);
       regdeb.SetS2(IFopsam,1);
-      myRegul.Append(regdeb);
+      myRegul.push_back(regdeb);
       corner->ChangeFirstCurve(Icf);
       corner->ChangeFirstParameters(P1deb,P2deb);
       corner->ChangeIndexFirstPointOnS1(If1);
@@ -900,7 +900,7 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
       regfin.SetCurve(Icl);
       regfin.SetS1(coin->Surf(),0);
       regfin.SetS2(sddif->Surf(),0);
-      myRegul.Append(regfin);
+      myRegul.push_back(regfin);
       corner->ChangeLastCurve(Icl);
       corner->ChangeLastParameters(P1fin,P2fin);
       corner->ChangeIndexLastPointOnS1(Il1);

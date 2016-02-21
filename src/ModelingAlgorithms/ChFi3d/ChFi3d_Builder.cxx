@@ -817,7 +817,7 @@ void  ChFi3d_Builder::Reset()
 {
   done = Standard_False;
   myVDataMap.Clear();
-  myRegul.Clear();
+  myRegul.clear();
   myEVIMap.Clear();
   badstripes.clear();
   badvertices.Clear();

@@ -1988,13 +1988,11 @@ void ChFi3d_FilBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
 void ChFi3d_FilBuilder::SetRegul()
 
 {
-  ChFiDS_ListIteratorOfRegularities it;
   TopTools_ListIteratorOfListOfShape itc;
   TopTools_ListIteratorOfListOfShape its1;
   TopTools_ListIteratorOfListOfShape its2;
   BRep_Builder B;
-  for (it.Initialize(myRegul); it.More(); it.Next()){
-    const ChFiDS_Regul& reg = it.Value();
+  for (const ChFiDS_Regul& reg : myRegul) {
     itc.Initialize(myCoup->NewEdges(reg.Curve()));
     if(itc.More()){
       TopoDS_Edge E = TopoDS::Edge(itc.Value());

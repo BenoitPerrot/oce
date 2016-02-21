@@ -2412,7 +2412,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
         }
         else {
           regfilfil.SetS2(Isurf,Standard_False);
-          reglist.Append(regfilfil);
+          reglist.push_back(regfilfil);
           Standard_Real tolreached;
           ChFi3d_ComputePCurv(TCurv.ChangeCurve(),UV1,UV2,PCurv,
                               DStr.Surface(Fd->Surf()).Surface(),
@@ -2456,7 +2456,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 				       Fi1.Transition()); 
 	  DStr.ChangeShapeInterferences(Ishape1).Append(Interfc1);      
 	}
-	reglist.Append(regon1);
+	reglist.push_back(regon1);
       }
       // Indice and type of the point at End
       Standard_Integer ipoin;
@@ -2538,7 +2538,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 				       Fi2.Transition());
 	  DStr.ChangeShapeInterferences(Ishape2).Append(Interfc2);      
 	}
-	reglist.Append(regon2);
+	reglist.push_back(regon2);
       }
       // Indice and type of the point in End
       Standard_Integer ipoin;
@@ -2600,7 +2600,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	Icurv = CorDat->LastCurve();
 	if(Closed && !Singulier_en_Bout && (Ipoin1!=Ipoin2)) {
 	  regcout.SetS2(Isurf,Standard_False);
-	  reglist.Append(regcout);
+	  reglist.push_back(regcout);
 	}
 	PCurv = CorDat->LastPCurve();
 	ET1 = TopAbs::Compose(ET1,CorDat->LastPCurveOrientation());

@@ -2874,7 +2874,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	regular.SetS1(Isurf,Standard_False);
 	indice=CD.Value(ic)->SetOfSurfData()->Value( i.Value(ic,icmoins))->Surf();
 	regular.SetS2(indice,Standard_False);
-	myRegul.Append(regular);
+	myRegul.push_back(regular);
       }
     }
 
@@ -2920,7 +2920,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	      regular.SetCurve(indcurve3d.Value(n3d));
 	      regular.SetS1(Isurf,Standard_False);
 	      regular.SetS2(numfa.Value(ic,icplus));
-	      myRegul.Append(regular);
+	      myRegul.push_back(regular);
 	    }
 	  }
 	}
@@ -2947,7 +2947,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	      regular.SetCurve(indcurve3d.Value(n3d));
 	      regular.SetS1(Isurf,Standard_False);
 	      regular.SetS2(DStr.AddShape(TopoDS::Face(Fproj.Value(nb))));
-	      myRegul.Append(regular);
+	      myRegul.push_back(regular);
 	    }  
 	  }
 	} 

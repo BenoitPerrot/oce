@@ -764,7 +764,7 @@ void ChFi3d_ChBuilder::PerformThreeCorner(const Standard_Integer Jndex)
     regdeb.SetCurve(Icf);
     regdeb.SetS1(coin->Surf(),0);
     regdeb.SetS2(fddeb->Surf(),0);
-    myRegul.Append(regdeb);
+    myRegul.push_back(regdeb);
     corner->ChangeFirstCurve(Icf);
     corner->ChangeFirstParameters(P1deb,P2deb);
     corner->ChangeIndexFirstPointOnS1(If1);
@@ -792,7 +792,7 @@ void ChFi3d_ChBuilder::PerformThreeCorner(const Standard_Integer Jndex)
     regfin.SetCurve(Icl);
     regfin.SetS1(coin->Surf(),0);
     regfin.SetS2(fdfin->Surf(),0);
-    myRegul.Append(regfin);
+    myRegul.push_back(regfin);
     corner->ChangeLastCurve(Icl);
     corner->ChangeLastParameters(P1fin,P2fin);
     corner->ChangeIndexLastPointOnS1(Il1);
