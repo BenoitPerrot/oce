@@ -145,7 +145,7 @@ private:
   HLRTopoBRep_MapOfShapeListOfVData myEdgesVertices;
   HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData myEIterator;
   HLRTopoBRep_ListIteratorOfListOfVData myVIterator;
-  Standard_Address myVList;
+  HLRTopoBRep_ListOfVData *myVList;
 
 
 };

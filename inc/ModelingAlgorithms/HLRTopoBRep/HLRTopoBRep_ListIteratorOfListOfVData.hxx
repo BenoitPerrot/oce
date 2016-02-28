@@ -6,85 +6,8 @@
 #ifndef _HLRTopoBRep_ListIteratorOfListOfVData_HeaderFile
 #define _HLRTopoBRep_ListIteratorOfListOfVData_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListOfVData.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_ListNodeOfListOfVData.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class HLRTopoBRep_ListOfVData;
-class HLRTopoBRep_VData;
-class HLRTopoBRep_ListNodeOfListOfVData;
-
-
-
-class HLRTopoBRep_ListIteratorOfListOfVData 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT HLRTopoBRep_ListIteratorOfListOfVData();
-  
-  Standard_EXPORT HLRTopoBRep_ListIteratorOfListOfVData(const HLRTopoBRep_ListOfVData& L);
-  
-  Standard_EXPORT   void Initialize (const HLRTopoBRep_ListOfVData& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   HLRTopoBRep_VData& Value()  const;
-
-
-friend class HLRTopoBRep_ListOfVData;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item HLRTopoBRep_VData
-#define Item_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_VData.hxx>
-#define TCollection_ListNode HLRTopoBRep_ListNodeOfListOfVData
-#define TCollection_ListNode_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListNodeOfListOfVData.hxx>
-#define TCollection_ListIterator HLRTopoBRep_ListIteratorOfListOfVData
-#define TCollection_ListIterator_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListIteratorOfListOfVData.hxx>
-#define Handle_TCollection_ListNode Handle_HLRTopoBRep_ListNodeOfListOfVData
-#define TCollection_ListNode_Type_() HLRTopoBRep_ListNodeOfListOfVData_Type_()
-#define TCollection_List HLRTopoBRep_ListOfVData
-#define TCollection_List_hxx <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListOfVData.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef HLRTopoBRep_ListOfVData::iterator HLRTopoBRep_ListIteratorOfListOfVData;
 
 #endif // _HLRTopoBRep_ListIteratorOfListOfVData_HeaderFile

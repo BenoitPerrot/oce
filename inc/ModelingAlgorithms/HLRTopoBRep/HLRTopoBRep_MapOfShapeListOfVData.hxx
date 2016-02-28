@@ -12,13 +12,13 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <ModelingAlgorithms/HLRTopoBRep/Handle_HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData.hxx>
+#include <ModelingAlgorithms/HLRTopoBRep/HLRTopoBRep_ListOfVData.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class HLRTopoBRep_ListOfVData;
 class TopTools_ShapeMapHasher;
 class HLRTopoBRep_DataMapNodeOfMapOfShapeListOfVData;
 class HLRTopoBRep_DataMapIteratorOfMapOfShapeListOfVData;

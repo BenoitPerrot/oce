@@ -134,7 +134,7 @@ inline const TopoDS_Edge & HLRTopoBRep_Data::Edge () const
 
 inline Standard_Boolean HLRTopoBRep_Data::MoreVertex () const 
 {
-  return myVIterator.More();
+  return myVIterator != myVList->end();
 }
 
 //=======================================================================
@@ -144,6 +144,6 @@ inline Standard_Boolean HLRTopoBRep_Data::MoreVertex () const
 
 inline void HLRTopoBRep_Data::NextVertex ()
 {
-  myVIterator.Next();
+  ++myVIterator;
 }
 

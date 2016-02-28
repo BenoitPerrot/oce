@@ -284,7 +284,7 @@ void HLRTopoBRep_Data::InitEdge ()
 {
   myEIterator.Initialize(myEdgesVertices);
 
-  while (myEIterator.More() && myEIterator.Value().IsEmpty())
+  while (myEIterator.More() && myEIterator.Value().empty())
     myEIterator.Next();
 }
 
@@ -297,7 +297,7 @@ void HLRTopoBRep_Data::NextEdge ()
 {
   myEIterator.Next();
 
-  while (myEIterator.More() && myEIterator.Value().IsEmpty())
+  while (myEIterator.More() && myEIterator.Value().empty())
     myEIterator.Next();
 }
 
@@ -312,9 +312,8 @@ void HLRTopoBRep_Data::InitVertex (const TopoDS_Edge& E)
     HLRTopoBRep_ListOfVData empty;
     myEdgesVertices.Bind(E,empty);
   }
-  HLRTopoBRep_ListOfVData& L = myEdgesVertices(E);
-  myVList = &L;
-  myVIterator.Initialize(L);
+  myVList = & myEdgesVertices(E);
+  myVIterator = myVList->begin();
 }
 
 //=======================================================================
@@ -324,7 +323,7 @@ void HLRTopoBRep_Data::InitVertex (const TopoDS_Edge& E)
 
 const TopoDS_Vertex & HLRTopoBRep_Data::Vertex () const 
 {
-  return TopoDS::Vertex(myVIterator.Value().Vertex());
+  return TopoDS::Vertex(myVIterator->Vertex());
 }
 
 //=======================================================================
@@ -334,7 +333,7 @@ const TopoDS_Vertex & HLRTopoBRep_Data::Vertex () const
 
 Standard_Real HLRTopoBRep_Data::Parameter() const 
 {
-  return myVIterator.Value().Parameter();
+  return myVIterator->Parameter();
 }
 
 //=======================================================================
@@ -346,7 +345,7 @@ void HLRTopoBRep_Data::InsertBefore (const TopoDS_Vertex& V,
 				     const Standard_Real P)
 {
   HLRTopoBRep_VData VD(P,V);
-  ((HLRTopoBRep_ListOfVData*)myVList)->InsertBefore(VD,myVIterator);
+  myVList->insert(myVIterator,VD);
 }
 
 //=======================================================================
@@ -358,6 +357,6 @@ void HLRTopoBRep_Data::Append (const TopoDS_Vertex& V,
 			       const Standard_Real P)
 {
   HLRTopoBRep_VData VD(P,V);
-  ((HLRTopoBRep_ListOfVData*)myVList)->Append(VD);
+  myVList->push_back(VD);
 }
 
