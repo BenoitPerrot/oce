@@ -24,7 +24,6 @@ class StdFail_NotDone;
 class Adaptor3d_HSurface;
 class IntPatch_Polyhedron;
 class Adaptor3d_TopolTool;
-class IntSurf_ListOfPntOn2S;
 class IntPatch_Line;
 class IntPatch_PrmPrmIntersection_T3Bits;
 class IntSurf_LineOn2S;

@@ -549,15 +549,12 @@ static Standard_Boolean isTreatAnalityc(const TopoDS_Face& theF1,
     aType1=aBAS2.GetType();
     aType2=aBAS1.GetType();
 
-    if (myListOfPnts.Extent())
+    if (myListOfPnts.size())
     {
       Standard_Real aU1,aV1,aU2,aV2;
-      IntSurf_ListIteratorOfListOfPntOn2S aItP2S;
       //
-      aItP2S.Initialize(myListOfPnts);
-      for (; aItP2S.More(); aItP2S.Next())
+      for (IntSurf_PntOn2S& aP2S : myListOfPnts)
       {
-        IntSurf_PntOn2S& aP2S=aItP2S.Value();
         aP2S.Parameters(aU1,aV1,aU2,aV2);
         aP2S.SetValue(aU2,aV2,aU1,aV1);
       }
@@ -737,7 +734,7 @@ static Standard_Boolean isTreatAnalityc(const TopoDS_Face& theF1,
     if ((aType1 == GeomAbs_Torus) ||
         (aType2 == GeomAbs_Torus))
     {
-      myListOfPnts.Clear();
+      myListOfPnts.clear();
     }
   }
 
@@ -776,7 +773,7 @@ static Standard_Boolean isTreatAnalityc(const TopoDS_Face& theF1,
     }
     //
     if(RestrictLine) {
-      myListOfPnts.Clear(); // to use LineConstructor
+      myListOfPnts.clear(); // to use LineConstructor
     }
     //
     const Standard_Integer aNbLin = myIntersector.NbLines();
@@ -1225,7 +1222,7 @@ static Standard_Boolean isTreatAnalityc(const TopoDS_Face& theF1,
     //DumpWLine(aWLineX);
 
     //
-    if(!myListOfPnts.IsEmpty()) {
+    if(!myListOfPnts.empty()) {
       bAvoidLineConstructor = Standard_True;
     }
 

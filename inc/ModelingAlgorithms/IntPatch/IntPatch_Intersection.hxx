@@ -11,6 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfPoint.hxx>
 #include <ModelingAlgorithms/IntPatch/IntPatch_SequenceOfLine.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -25,7 +26,6 @@ class Standard_DomainError;
 class Standard_ConstructionError;
 class Adaptor3d_HSurface;
 class Adaptor3d_TopolTool;
-class IntSurf_ListOfPntOn2S;
 class IntPatch_Point;
 class IntPatch_Line;
 class IntPatch_SequenceOfLine;

@@ -6,85 +6,8 @@
 #ifndef _IntSurf_ListIteratorOfListOfPntOn2S_HeaderFile
 #define _IntSurf_ListIteratorOfListOfPntOn2S_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <ModelingAlgorithms/IntSurf/Handle_IntSurf_ListNodeOfListOfPntOn2S.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class IntSurf_ListOfPntOn2S;
-class IntSurf_PntOn2S;
-class IntSurf_ListNodeOfListOfPntOn2S;
-
-
-
-class IntSurf_ListIteratorOfListOfPntOn2S 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT IntSurf_ListIteratorOfListOfPntOn2S();
-  
-  Standard_EXPORT IntSurf_ListIteratorOfListOfPntOn2S(const IntSurf_ListOfPntOn2S& L);
-  
-  Standard_EXPORT   void Initialize (const IntSurf_ListOfPntOn2S& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   IntSurf_PntOn2S& Value()  const;
-
-
-friend class IntSurf_ListOfPntOn2S;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item IntSurf_PntOn2S
-#define Item_hxx <ModelingAlgorithms/IntSurf/IntSurf_PntOn2S.hxx>
-#define TCollection_ListNode IntSurf_ListNodeOfListOfPntOn2S
-#define TCollection_ListNode_hxx <ModelingAlgorithms/IntSurf/IntSurf_ListNodeOfListOfPntOn2S.hxx>
-#define TCollection_ListIterator IntSurf_ListIteratorOfListOfPntOn2S
-#define TCollection_ListIterator_hxx <ModelingAlgorithms/IntSurf/IntSurf_ListIteratorOfListOfPntOn2S.hxx>
-#define Handle_TCollection_ListNode Handle_IntSurf_ListNodeOfListOfPntOn2S
-#define TCollection_ListNode_Type_() IntSurf_ListNodeOfListOfPntOn2S_Type_()
-#define TCollection_List IntSurf_ListOfPntOn2S
-#define TCollection_List_hxx <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef IntSurf_ListOfPntOn2S::iterator IntSurf_ListIteratorOfListOfPntOn2S;
 
 #endif // _IntSurf_ListIteratorOfListOfPntOn2S_HeaderFile

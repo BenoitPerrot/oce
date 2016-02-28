@@ -28,7 +28,6 @@ class StdFail_NotDone;
 class TopoDS_Face;
 class IntTools_SequenceOfCurves;
 class IntTools_SequenceOfPntOn2Faces;
-class IntSurf_ListOfPntOn2S;
 class Adaptor3d_TopolTool;
 
 

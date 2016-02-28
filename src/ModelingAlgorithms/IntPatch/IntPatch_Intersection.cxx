@@ -915,7 +915,7 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  theS1,
   {
     const Standard_Boolean RestrictLine = Standard_True;
     IntSurf_ListOfPntOn2S ListOfPnts;
-    ListOfPnts.Clear();
+    ListOfPnts.clear();
     if(isGeomInt)
     {
       if(theD1->DomainIsInfinite() || theD2->DomainIsInfinite())
@@ -947,7 +947,7 @@ void IntPatch_Intersection::Perform(const Handle(Adaptor3d_HSurface)&  theS1,
   {
     const Standard_Boolean RestrictLine = Standard_True;
     IntSurf_ListOfPntOn2S ListOfPnts;
-    ListOfPnts.Clear();
+    ListOfPnts.clear();
 
     ParamParamPerfom(theS1, theD1, theS2, theD2, TolArc,
                         TolTang, ListOfPnts, RestrictLine, typs1, typs2);
@@ -1192,7 +1192,7 @@ void IntPatch_Intersection::ParamParamPerfom(const Handle(Adaptor3d_HSurface)&  
   if(!theD1->DomainIsInfinite() && !theD2->DomainIsInfinite())
   {
     Standard_Boolean ClearFlag = Standard_True;
-    if(!ListOfPnts.IsEmpty())
+    if(!ListOfPnts.empty())
     {
       interpp.Perform(theS1,theD1,theS2,theD2,TolArc,TolTang,myFleche,myUVMaxStep, ListOfPnts, RestrictLine);
       ClearFlag = Standard_False;

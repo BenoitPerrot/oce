@@ -267,7 +267,7 @@ void BOPAlgo_PaveFiller::PerformFF()
     //
     IntSurf_ListOfPntOn2S aListOfPnts;
     GetEFPnts(nF1, nF2, aListOfPnts);
-    aNbLP = aListOfPnts.Extent();
+    aNbLP = aListOfPnts.size();
     if (aNbLP) {
       aFaceFace.SetList(aListOfPnts);
     }
@@ -1425,7 +1425,7 @@ Standard_Boolean BOPAlgo_PaveFiller::ExtendedTolerance
             } else {
               aPnt.SetValue(U1,V1,aP2d.X(),aP2d.Y());
             }
-            aListOfPnts.Append(aPnt);
+            aListOfPnts.push_back(aPnt);
           }
         }
         else {
@@ -1440,7 +1440,7 @@ Standard_Boolean BOPAlgo_PaveFiller::ExtendedTolerance
             } else {
               aPnt.SetValue(U2,V2,U1,V1);
             }
-            aListOfPnts.Append(aPnt);
+            aListOfPnts.push_back(aPnt);
           }
         }
       }

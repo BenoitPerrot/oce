@@ -1297,7 +1297,7 @@ void IntPatch_PrmPrmIntersection::Perform (const Handle(Adaptor3d_HSurface)&    
                                            IntSurf_ListOfPntOn2S& LOfPnts,
                                            const Standard_Boolean RestrictLine)
 {
-  if (LOfPnts.IsEmpty()){
+  if (LOfPnts.empty()){
     done = Standard_True;
     return;
   }
@@ -1324,16 +1324,13 @@ void IntPatch_PrmPrmIntersection::Perform (const Handle(Adaptor3d_HSurface)&    
   Periods[2] = (Surf2->IsUPeriodic())? Surf2->UPeriod() : 0.;
   Periods[3] = (Surf2->IsVPeriodic())? Surf2->VPeriod() : 0.;
 
-  IntSurf_ListIteratorOfListOfPntOn2S IterLOP1(LOfPnts);
   if (Surf1->IsUClosed() || Surf1->IsVClosed() ||
       Surf2->IsUClosed() || Surf2->IsVClosed())
   {
     Standard_Real TolPar = Precision::PConfusion();
     IntSurf_ListOfPntOn2S AdditionalPnts;
     Standard_Real NewU1, NewV1, NewU2, NewV2;
-    for(; IterLOP1.More(); IterLOP1.Next())
-    {
-      IntSurf_PntOn2S Pnt = IterLOP1.Value();
+    for (IntSurf_PntOn2S Pnt : LOfPnts) {
       Pnt.Parameters(U1, V1, U2, V2);
       IntSurf_PntOn2S NewPnt;
       if (Surf1->IsUClosed())
@@ -1342,13 +1339,13 @@ void IntPatch_PrmPrmIntersection::Perform (const Handle(Adaptor3d_HSurface)&    
         {
           NewU1 = Surf1->LastUParameter();
           NewPnt.SetValue( NewU1, V1, U2, V2 );
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
         else if (Abs(U1 - Surf1->LastUParameter()) <= TolPar)
         {
           NewU1 = Surf1->FirstUParameter();
           NewPnt.SetValue( NewU1, V1, U2, V2 );
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
       }
       if (Surf1->IsVClosed())
@@ -1357,13 +1354,13 @@ void IntPatch_PrmPrmIntersection::Perform (const Handle(Adaptor3d_HSurface)&    
         {
           NewV1 = Surf1->LastVParameter();
           NewPnt.SetValue( U1, NewV1, U2, V2 );
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
         else if (Abs(V1 - Surf1->LastVParameter()) <= TolPar)
         {
           NewV1 = Surf1->FirstVParameter();
           NewPnt.SetValue( U1, NewV1, U2, V2 );
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
       }
       if (Surf2->IsUClosed())
@@ -1372,13 +1369,13 @@ void IntPatch_PrmPrmIntersection::Perform (const Handle(Adaptor3d_HSurface)&    
         {
           NewU2 = Surf2->LastUParameter();
           NewPnt.SetValue( U1, V1, NewU2, V2);
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
         else if (Abs(U2 - Surf2->LastUParameter()) <= TolPar)
         {
           NewU2 = Surf2->FirstUParameter();
           NewPnt.SetValue( U1, V1, NewU2, V2);
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
       }
       if (Surf2->IsVClosed())
@@ -1387,41 +1384,39 @@ void IntPatch_PrmPrmIntersection::Perform (const Handle(Adaptor3d_HSurface)&    
         {
           NewV2 = Surf2->LastVParameter();
           NewPnt.SetValue( U1, V1, U2, NewV2 );
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
         else if (Abs(V2 - Surf2->LastVParameter()) <= TolPar)
         {
           NewV2 = Surf2->FirstVParameter();
           NewPnt.SetValue( U1, V1, U2, NewV2 );
-          AdditionalPnts.Append(NewPnt);
+          AdditionalPnts.push_back(NewPnt);
         }
       }
     }
     //Cut repeated points
-    for (IterLOP1.Initialize(LOfPnts); IterLOP1.More(); IterLOP1.Next())
+    for (IntSurf_PntOn2S aPnt : LOfPnts)
     {
-      IntSurf_PntOn2S aPnt = IterLOP1.Value();
       aPnt.Parameters(U1, V1, U2, V2);
-      IntSurf_ListIteratorOfListOfPntOn2S iter2(AdditionalPnts);
-      while (iter2.More())
+      IntSurf_ListIteratorOfListOfPntOn2S iter2(AdditionalPnts.begin());
+      while (iter2 != AdditionalPnts.end())
       {
-        IntSurf_PntOn2S aNewPnt = iter2.Value();
+        IntSurf_PntOn2S aNewPnt = *iter2;
         aNewPnt.Parameters(NewU1, NewV1, NewU2, NewV2);
         if (Abs(U1 - NewU1) <= TolPar &&
             Abs(V1 - NewV1) <= TolPar &&
             Abs(U2 - NewU2) <= TolPar &&
             Abs(V2 - NewV2) <= TolPar)
-          AdditionalPnts.Remove(iter2);
+          iter2 = AdditionalPnts.erase(iter2);
         else
-          iter2.Next();
+          ++iter2;
       }
     }
 
-    LOfPnts.Append(AdditionalPnts);
+    LOfPnts.insert(LOfPnts.end(), AdditionalPnts.begin(), AdditionalPnts.end());
   }
 
-  for(IterLOP1.Initialize(LOfPnts); IterLOP1.More(); IterLOP1.Next()){
-    IntSurf_PntOn2S Pnt = IterLOP1.Value();
+  for (IntSurf_PntOn2S Pnt : LOfPnts) {
     Pnt.Parameters(U1, V1, U2, V2);
     if(U1>UmaxLig1) UmaxLig1=U1;
     if(V1>VmaxLig1) VmaxLig1=V1;
@@ -1445,10 +1440,8 @@ void IntPatch_PrmPrmIntersection::Perform (const Handle(Adaptor3d_HSurface)&    
   TColStd_Array1OfReal StartParams(1,4);
   IntWalk_PWalking PW(Surf1,Surf2,TolTangency,Epsilon,Deflection,Increment);  
 
-  IntSurf_ListIteratorOfListOfPntOn2S IterLOP2(LOfPnts);
-  for(; IterLOP2.More(); IterLOP2.Next() ){
+  for (IntSurf_PntOn2S cPnt : LOfPnts) {
 
-    IntSurf_PntOn2S cPnt = IterLOP2.Value();
     cPnt.Parameters(U1, V1, U2, V2);
 
     StartParams(1) = U1;

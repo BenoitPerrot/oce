@@ -14,6 +14,7 @@
 #include <ModelingAlgorithms/BOPDS/BOPDS_PDS.hxx>
 #include <ModelingAlgorithms/BOPDS/BOPDS_PIterator.hxx>
 #include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
+#include <ModelingAlgorithms/IntSurf/IntSurf_ListOfPntOn2S.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_SectionAttribute.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
@@ -43,7 +44,6 @@ class TopoDS_Vertex;
 class gp_Pnt;
 class BOPDS_Curve;
 class TopoDS_Face;
-class IntSurf_ListOfPntOn2S;
 
 
 
