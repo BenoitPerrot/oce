@@ -6,85 +6,8 @@
 #ifndef _HLRAlgo_ListIteratorOfListOfBPoint_HeaderFile
 #define _HLRAlgo_ListIteratorOfListOfBPoint_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_ListNodeOfListOfBPoint.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class HLRAlgo_ListOfBPoint;
-class HLRAlgo_BiPoint;
-class HLRAlgo_ListNodeOfListOfBPoint;
-
-
-
-class HLRAlgo_ListIteratorOfListOfBPoint 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT HLRAlgo_ListIteratorOfListOfBPoint();
-  
-  Standard_EXPORT HLRAlgo_ListIteratorOfListOfBPoint(const HLRAlgo_ListOfBPoint& L);
-  
-  Standard_EXPORT   void Initialize (const HLRAlgo_ListOfBPoint& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   HLRAlgo_BiPoint& Value()  const;
-
-
-friend class HLRAlgo_ListOfBPoint;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item HLRAlgo_BiPoint
-#define Item_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_BiPoint.hxx>
-#define TCollection_ListNode HLRAlgo_ListNodeOfListOfBPoint
-#define TCollection_ListNode_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListNodeOfListOfBPoint.hxx>
-#define TCollection_ListIterator HLRAlgo_ListIteratorOfListOfBPoint
-#define TCollection_ListIterator_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListIteratorOfListOfBPoint.hxx>
-#define Handle_TCollection_ListNode Handle_HLRAlgo_ListNodeOfListOfBPoint
-#define TCollection_ListNode_Type_() HLRAlgo_ListNodeOfListOfBPoint_Type_()
-#define TCollection_List HLRAlgo_ListOfBPoint
-#define TCollection_List_hxx <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef HLRAlgo_ListOfBPoint::iterator HLRAlgo_ListIteratorOfListOfBPoint;
 
 #endif // _HLRAlgo_ListIteratorOfListOfBPoint_HeaderFile

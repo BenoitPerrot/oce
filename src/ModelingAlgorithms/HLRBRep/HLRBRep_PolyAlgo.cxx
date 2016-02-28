@@ -1623,7 +1623,7 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 	YTI2 = Y2;
 	ZTI2 = Z2;
 	TIMultiply(XTI2,YTI2,ZTI2);
-	List.Prepend(HLRAlgo_BiPoint
+	List.push_front(HLRAlgo_BiPoint
 		     (XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2,
 		      X1  ,Y1  ,Z1  ,X2  ,Y2  ,Z2  ,   e,
 		      0));
@@ -1812,7 +1812,7 @@ Interpolation (HLRAlgo_ListOfBPoint& List,
 			X4,Y4,Z4,XTI4,YTI4,ZTI4,coef4,U4,insP4,mP4P1,flag);
   }
   else                                             // p1 p2
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2,
 		  X1  ,Y1  ,Z1  ,X2  ,Y2  ,Z2  ,   e,
 		  i1  ,i1p1,i1p2,i2  ,i2p1,i2p2, flag));
@@ -1930,7 +1930,7 @@ MoveOrInsertPoint (HLRAlgo_ListOfBPoint& List,
       Nod11Scal  = 0;
       Nod11Flag |= NMskOutL;
       UpdateAroundNode(i1p1,Nod11Indices,TData1,PISeg1,PINod1);
-      Standard_Address Coordinates = List.First().Coordinates();
+      Standard_Address Coordinates = List.front().Coordinates();
       PntX2   = X3;
       PntY2   = Y3;
       PntZ2   = Z3;
@@ -1985,17 +1985,17 @@ MoveOrInsertPoint (HLRAlgo_ListOfBPoint& List,
     pid1->UpdateLinks(i1p1,i1p2,i1p3,
 		      TData1,TData2,PISeg1,PISeg2,PINod1,PINod2);
     UpdateAroundNode(i1p3,Nod13Indices,TData1,PISeg1,PINod1);
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI1,YTI1,ZTI1,XTI3,YTI3,ZTI3,
 		  X1  ,Y1  ,Z1  ,X3  ,Y3  ,Z3  ,   e,
 		  i1  ,i1p1,i1p3, flag));
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI3,YTI3,ZTI3,XTI2,YTI2,ZTI2,
 		  X3  ,Y3  ,Z3  ,X2  ,Y2  ,Z2  ,   e,
 		  i1  ,i1p3,i1p2, flag));
   }
   else                                             // p1 p2
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2,
 		  X1  ,Y1  ,Z1  ,X2  ,Y2  ,Z2  ,   e,
 		  i1  ,i1p1,i1p2, flag));
@@ -2107,7 +2107,7 @@ MoveOrInsertPoint (HLRAlgo_ListOfBPoint& List,
       Nod21Scal  = 0;
       Nod21Flag |= NMskOutL;
       UpdateAroundNode(i2p1,Nod21Indices,TData2,PISeg2,PINod2);
-      Standard_Address Coordinates = List.First().Coordinates();
+      Standard_Address Coordinates = List.front().Coordinates();
       PntX2   = X3;
       PntY2   = Y3;
       PntZ2   = Z3;
@@ -2195,17 +2195,17 @@ MoveOrInsertPoint (HLRAlgo_ListOfBPoint& List,
 		      TData2,TData1,PISeg2,PISeg1,PINod2,PINod1);
     UpdateAroundNode(i1p3,Nod13Indices,TData1,PISeg1,PINod1);
     UpdateAroundNode(i2p3,Nod23Indices,TData2,PISeg2,PINod2);
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI1,YTI1,ZTI1,XTI3,YTI3,ZTI3,
 		  X1  ,Y1  ,Z1  ,X3  ,Y3  ,Z3  ,   e,
 		  i1  ,i1p1,i1p3,i2  ,i2p1,i2p3, flag));
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI3,YTI3,ZTI3,XTI2,YTI2,ZTI2,
 		  X3  ,Y3  ,Z3  ,X2  ,Y2  ,Z2  ,   e,
 		  i1  ,i1p3,i1p2,i2  ,i2p3,i2p2, flag));
   }
   else                                             // p1 p2
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2,
 		  X1  ,Y1  ,Z1  ,X2  ,Y2  ,Z2  ,   e,
 		  i1  ,i1p1,i1p2,i2  ,i2p1,i2p2, flag));
@@ -2328,7 +2328,7 @@ MoveOrInsertPoint (HLRAlgo_ListOfBPoint& List,
       Nod21Scal  = 0;
       Nod21Flag |= NMskOutL;
       UpdateAroundNode(i2p1,Nod21Indices,TData2,PISeg2,PINod2);
-      Standard_Address Coordinates = List.First().Coordinates();
+      Standard_Address Coordinates = List.front().Coordinates();
       PntX2   = X3;
       PntY2   = Y3;
       PntZ2   = Z3;
@@ -2469,22 +2469,22 @@ MoveOrInsertPoint (HLRAlgo_ListOfBPoint& List,
       UpdateAroundNode(i2p3,Nod23Indices,TData2,PISeg2,PINod2);
       UpdateAroundNode(i1p4,Nod14Indices,TData1,PISeg1,PINod1);
       UpdateAroundNode(i2p4,Nod24Indices,TData2,PISeg2,PINod2);
-      List.Prepend(HLRAlgo_BiPoint
+      List.push_front(HLRAlgo_BiPoint
 		   (XTI1,YTI1,ZTI1,XTI3,YTI3,ZTI3,
 		    X1  ,Y1  ,Z1  ,X3  ,Y3  ,Z3  ,   e,
 		    i1  ,i1p1,i1p3,i2  ,i2p1,i2p3, flag));
-      List.Prepend(HLRAlgo_BiPoint
+      List.push_front(HLRAlgo_BiPoint
 		   (XTI3,YTI3,ZTI3,XTI4,YTI4,ZTI4,
 		    X3  ,Y3  ,Z3  ,X4  ,Y4  ,Z4  ,   e,
 		    i1  ,i1p3,i1p4,i2  ,i2p3,i2p4, flag));
-      List.Prepend(HLRAlgo_BiPoint
+      List.push_front(HLRAlgo_BiPoint
 		   (XTI4,YTI4,ZTI4,XTI2,YTI2,ZTI2,
 		    X4  ,Y4  ,Z4  ,X2  ,Y2  ,Z2  ,   e,
 		    i1  ,i1p4,i1p2,i2  ,i2p4,i2p2, flag));
     }
   }
   else                                             // p1 p2
-    List.Prepend(HLRAlgo_BiPoint
+    List.push_front(HLRAlgo_BiPoint
 		 (XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2,
 		  X1  ,Y1  ,Z1  ,X2  ,Y2  ,Z2  ,   e,
 		  i1  ,i1p1,i1p2,i2  ,i2p1,i2p2, flag));
@@ -2805,10 +2805,8 @@ HLRBRep_PolyAlgo::CheckFrBackTriangles (HLRAlgo_ListOfBPoint& List,
     }
     if (FrBackInList) {
       Standard_Address IndexPtr,Coordinates;
-      HLRAlgo_ListIteratorOfListOfBPoint it;
       
-      for (it.Initialize(List); it.More(); it.Next()) {      
-	HLRAlgo_BiPoint& BP = it.Value();
+      for (HLRAlgo_BiPoint& BP : List) {      
 	IndexPtr = BP.Indices();
 	if (F1Index != 0) {
 	  const Handle(HLRAlgo_PolyInternalData)& pid1 =
@@ -3530,7 +3528,7 @@ HLRBRep_PolyAlgo::UpdateOutLines (HLRAlgo_ListOfBPoint& List,
 	      ZTI2 = Z2 = Nod2PntZ;
 	      TIMultiply(XTI1,YTI1,ZTI1);
 	      TIMultiply(XTI2,YTI2,ZTI2);
-	      List.Append(HLRAlgo_BiPoint(XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2,
+	      List.push_back(HLRAlgo_BiPoint(XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2,
 					  X1  ,Y1  ,Z1  ,X2  ,Y2  ,Z2  ,
 					  f,f,pd,pf,f,pd,pf,12));
 	    }
@@ -3554,10 +3552,8 @@ UpdateEdgesBiPoints (HLRAlgo_ListOfBPoint& List,
 		     const Standard_Boolean closed)
 {
   Standard_Integer itri1,itri2,tbid;
-  HLRAlgo_ListIteratorOfListOfBPoint it;
   
-  for (it.Initialize(List); it.More(); it.Next()) {      
-    HLRAlgo_BiPoint& BP = it.Value();
+  for (HLRAlgo_BiPoint& BP : List) {
 //    Standard_Integer i[5];
     Standard_Address IndexPtr = BP.Indices();
     if (F1Index != 0 && F2Index != 0) {
@@ -3824,14 +3820,12 @@ HLRBRep_PolyAlgo::OutLinedShape (const TopoDS_Shape& S) const
       TopTools_Array1OfShape NewF(1,nbFace);
       TColStd_Array1OfTransient& Shell = myAlgo->PolyShell();
       Standard_Integer nbShell = Shell.Upper();
-      HLRAlgo_ListIteratorOfListOfBPoint it;
       
       for (Standard_Integer iShell = 1; iShell <= nbShell; iShell++) {
 	HLRAlgo_ListOfBPoint& List =
 	  (*(Handle(HLRAlgo_PolyShellData)*)&(Shell(iShell)))->Edges();
 	
-	for (it.Initialize(List); it.More(); it.Next()) {
-	  HLRAlgo_BiPoint& BP = it.Value();
+	for (HLRAlgo_BiPoint& BP : List) {
 	  if (BP.IntLine()) {
 	    Standard_Address IndexPtr = BP.Indices();
 	    if (Map.Contains(myFMap(ShapeIndex))) {

@@ -11,6 +11,7 @@
 #include <ModelingAlgorithms/HLRBRep/Handle_HLRBRep_PolyAlgo.hxx>
 
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Projector.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_ListOfBPoint.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
@@ -34,7 +35,6 @@ class TColStd_Array1OfTransient;
 class TColStd_Array1OfInteger;
 class TopTools_MapOfShape;
 class TopoDS_Edge;
-class HLRAlgo_ListOfBPoint;
 class TopTools_ListOfShape;
 class HLRAlgo_PolyInternalData;
 class HLRAlgo_EdgeStatus;

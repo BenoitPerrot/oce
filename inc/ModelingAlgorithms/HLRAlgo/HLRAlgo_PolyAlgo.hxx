@@ -74,6 +74,7 @@ private:
   Handle(TColStd_HArray1OfTransient) myHShell;
   Standard_Real myRealPtr[10];
   HLRAlgo_ListIteratorOfListOfBPoint mySegListIt;
+  HLRAlgo_ListIteratorOfListOfBPoint mySegListEnd;
   Standard_Integer myNbrShell;
   Standard_Integer myCurShell;
   Standard_Boolean myFound;

@@ -19,7 +19,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TColStd_HArray1OfTransient;
 class TColStd_Array1OfTransient;
-class HLRAlgo_ListOfBPoint;
 
 
 //! All the PolyData of a Shell

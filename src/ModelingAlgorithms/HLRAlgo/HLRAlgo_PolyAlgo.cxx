@@ -193,10 +193,12 @@ void HLRAlgo_PolyAlgo::Update ()
     yShellMax = -Big;
     zShellMax = -Big;
 
-    for (mySegListIt.Initialize((*psd2)->Edges());
-	 mySegListIt.More();
-	 mySegListIt.Next()) {      
-      HLRAlgo_BiPoint& BP = mySegListIt.Value();
+    mySegListIt = (*psd2)->Edges().begin();
+    mySegListEnd = (*psd2)->Edges().end();
+    for (;
+	 mySegListIt != mySegListEnd;
+	 ++mySegListIt) {      
+      HLRAlgo_BiPoint& BP = *mySegListIt;
       const Standard_Address Coordinates = BP.Coordinates();
       const Standard_Address IndexPtr    = BP.Indices();
       if (PntXP1 < PntXP2) { xSegmnMin = PntXP1; xSegmnMax = PntXP2; }
@@ -407,8 +409,8 @@ void HLRAlgo_PolyAlgo::NextHide ()
 {
   myFound = Standard_False;
   if (myCurShell != 0) {
-    mySegListIt.Next();
-    if (mySegListIt.More()) myFound = Standard_True;
+    ++mySegListIt;
+    if (mySegListIt != mySegListEnd) myFound = Standard_True;
   }
   if (!myFound) {
     myCurShell++;
@@ -421,8 +423,9 @@ void HLRAlgo_PolyAlgo::NextHide ()
     while (myCurShell <= myNbrShell && !myFound) {
 	  Handle(HLRAlgo_PolyShellData) data = 
 		  Handle(HLRAlgo_PolyShellData)::DownCast(myHShell->Value(myCurShell));
-      mySegListIt.Initialize(data->Edges());
-      if (mySegListIt.More()) myFound = Standard_True;
+      mySegListIt = data->Edges().begin();
+      mySegListEnd = data->Edges().end();
+      if (mySegListIt != mySegListEnd) myFound = Standard_True;
       else                    myCurShell++;
     }
   }
@@ -441,7 +444,7 @@ void HLRAlgo_PolyAlgo::Hide (Standard_Address& Coordinates,
 			     Standard_Boolean& outl,
 			     Standard_Boolean& intl)
 {
-  HLRAlgo_BiPoint& BP             = mySegListIt.Value();
+  HLRAlgo_BiPoint& BP             = *mySegListIt;
   Coordinates                     = BP.Coordinates();
   const Standard_Address IndexPtr = BP.Indices();
   status = HLRAlgo_EdgeStatus(0.,(Standard_ShortReal)myTolParam,1.,(Standard_ShortReal)myTolParam);
@@ -493,17 +496,18 @@ void HLRAlgo_PolyAlgo::NextShow ()
 {
   myFound = Standard_False;
   if (myCurShell != 0) {
-    mySegListIt.Next();
-    if (mySegListIt.More()) myFound = Standard_True;
+    ++mySegListIt;
+    if (mySegListIt != mySegListEnd) myFound = Standard_True;
   }
   if (!myFound) {
     myCurShell++;
 
     while (myCurShell <= myNbrShell && !myFound) {
-      mySegListIt.Initialize((*(Handle(HLRAlgo_PolyShellData)*)&
-			      (myHShell->ChangeValue(myCurShell)))
-			     ->Edges());
-      if (mySegListIt.More()) myFound = Standard_True;
+      auto l = (*(Handle(HLRAlgo_PolyShellData)*)&
+		(myHShell->ChangeValue(myCurShell)))->Edges();
+      mySegListIt = l.begin();
+      mySegListEnd = l.end();
+      if (mySegListIt != mySegListEnd) myFound = Standard_True;
       else                    myCurShell++;
     }
   }
@@ -521,7 +525,7 @@ void HLRAlgo_PolyAlgo::Show (Standard_Address& Coordinates,
 			     Standard_Boolean& outl,
 			     Standard_Boolean& intl)
 {
-  HLRAlgo_BiPoint& BP = mySegListIt.Value();
+  HLRAlgo_BiPoint& BP = *mySegListIt;
   Standard_Address IndexPtr = BP.Indices();
   Coordinates = BP.Coordinates();
   Index = ShapeIndex;

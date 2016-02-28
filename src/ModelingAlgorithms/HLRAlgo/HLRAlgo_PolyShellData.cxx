@@ -73,10 +73,7 @@ void
 HLRAlgo_PolyShellData::
 UpdateGlobalMinMax(const Standard_Address TotMinMax)
 {
-  HLRAlgo_ListIteratorOfListOfBPoint it;
-  
-  for (it.Initialize(mySegList); it.More(); it.Next()) {      
-    HLRAlgo_BiPoint& BP = it.Value();
+  for (HLRAlgo_BiPoint& BP : mySegList) {
     const Standard_Address Coordinates = BP.Coordinates();
     if (PntXP1 < PntXP2) {
       if      (TotXMin > PntXP1) TotXMin = PntXP1;
