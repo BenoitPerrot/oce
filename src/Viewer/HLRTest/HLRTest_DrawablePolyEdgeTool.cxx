@@ -66,8 +66,8 @@ HLRTest_DrawablePolyEdgeTool (const Handle(HLRBRep_PolyAlgo)& Alg,
   Standard_Real sta,end,dx,dy,dz;
   Standard_ShortReal tolsta,tolend;
   HLRAlgo_EdgeIterator It;
-  myBiPntVis.Clear();
-  myBiPntHid.Clear();
+  myBiPntVis.clear();
+  myBiPntHid.clear();
   Standard_Address Coordinates;
   HLRAlgo_EdgeStatus status;
   TopoDS_Shape S;
@@ -83,7 +83,7 @@ HLRTest_DrawablePolyEdgeTool (const Handle(HLRBRep_PolyAlgo)& Alg,
 	 It.MoreVisible();
 	 It.NextVisible()) {
       It.Visible(sta,tolsta,end,tolend);
-      myBiPntVis.Append
+      myBiPntVis.push_back
 	(HLRBRep_BiPoint
 	 (PntX1 + sta * dx,PntY1 + sta * dy,PntZ1 + sta * dz,
 	  PntX1 + end * dx,PntY1 + end * dy,PntZ1 + end * dz,
@@ -94,7 +94,7 @@ HLRTest_DrawablePolyEdgeTool (const Handle(HLRBRep_PolyAlgo)& Alg,
 	 It.MoreHidden();
 	 It.NextHidden()) {
       It.Hidden(sta,tolsta,end,tolend);
-      myBiPntHid.Append
+      myBiPntHid.push_back
 	(HLRBRep_BiPoint
 	 (PntX1 + sta * dx,PntY1 + sta * dy,PntZ1 + sta * dz,
 	  PntX1 + end * dx,PntY1 + end * dy,PntZ1 + end * dz,
@@ -117,14 +117,10 @@ void HLRTest_DrawablePolyEdgeTool::DrawOn (Draw_Display& D) const
 {
   if (myViewId == D.ViewId()) {
     if (myHideMode) {
-      HLRBRep_ListIteratorOfListOfBPoint It;
       if (myDispHid) {
 	D.SetColor(Draw_bleu);
 	
-	for (It.Initialize(myBiPntHid);
-	     It.More();
-	     It.Next()) {
-	  const HLRBRep_BiPoint& BP = It.Value();
+	for (const HLRBRep_BiPoint& BP : myBiPntHid) {
 	  Standard_Boolean todraw = Standard_True;
 	  if ((!myDispRg1 && BP.Rg1Line() && !BP.OutLine()) ||
 	      (!myDispRgN && BP.RgNLine() && !BP.OutLine()))
@@ -137,10 +133,7 @@ void HLRTest_DrawablePolyEdgeTool::DrawOn (Draw_Display& D) const
       }
       D.SetColor(Draw_vert);
       
-      for (It.Initialize(myBiPntVis);
-	   It.More();
-	   It.Next()) {
-	const HLRBRep_BiPoint& BP = It.Value();
+      for (const HLRBRep_BiPoint& BP : myBiPntVis) {
 	Standard_Boolean todraw = Standard_True;
 	if ((!myDispRg1 && BP.Rg1Line() && !BP.OutLine()) ||
 	    (!myDispRgN && BP.RgNLine() && !BP.OutLine()))

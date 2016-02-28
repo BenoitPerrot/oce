@@ -49,8 +49,6 @@ class HLRBRep_Algo;
 class HLRBRep_PolyAlgo;
 class HLRBRep_BiPoint;
 class HLRBRep_BiPnt2D;
-class HLRBRep_ListOfBPoint;
-class HLRBRep_ListOfBPnt2D;
 class HLRBRep_PolyHLRToShape;
 class HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter;
 class HLRBRep_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter;
@@ -76,10 +74,6 @@ class HLRBRep_TheExactInterCSurf;
 class HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf;
 class HLRBRep_TheQuadCurvExactInterCSurf;
 class HLRBRep_SequenceNodeOfSeqOfShapeBounds;
-class HLRBRep_ListNodeOfListOfBPoint;
-class HLRBRep_ListIteratorOfListOfBPoint;
-class HLRBRep_ListNodeOfListOfBPnt2D;
-class HLRBRep_ListIteratorOfListOfBPnt2D;
 
 
 //! Hidden Lines Removal
@@ -150,8 +144,6 @@ friend class HLRBRep_Algo;
 friend class HLRBRep_PolyAlgo;
 friend class HLRBRep_BiPoint;
 friend class HLRBRep_BiPnt2D;
-friend class HLRBRep_ListOfBPoint;
-friend class HLRBRep_ListOfBPnt2D;
 friend class HLRBRep_PolyHLRToShape;
 friend class HLRBRep_TheCurveLocatorOfTheProjPCurOfCInter;
 friend class HLRBRep_SequenceNodeOfSeqPCOfPCLocFOfTheLocateExtPCOfTheProjPCurOfCInter;
@@ -177,10 +169,6 @@ friend class HLRBRep_TheExactInterCSurf;
 friend class HLRBRep_TheQuadCurvFuncOfTheQuadCurvExactInterCSurf;
 friend class HLRBRep_TheQuadCurvExactInterCSurf;
 friend class HLRBRep_SequenceNodeOfSeqOfShapeBounds;
-friend class HLRBRep_ListNodeOfListOfBPoint;
-friend class HLRBRep_ListIteratorOfListOfBPoint;
-friend class HLRBRep_ListNodeOfListOfBPnt2D;
-friend class HLRBRep_ListIteratorOfListOfBPnt2D;
 
 };
 

@@ -98,7 +98,7 @@ void StdPrs_HLRPolyShape::Add(const Handle (Prs3d_Presentation)& aPresentation,
     for (It.InitVisible(status); It.MoreVisible(); It.NextVisible())
     {
       It.Visible(sta,tolsta,end,tolend);
-      BiPntVis.Append
+      BiPntVis.push_back
         (HLRBRep_BiPoint
            (PntX1 + sta * dx,PntY1 + sta * dy,PntZ1 + sta * dz,
             PntX1 + end * dx,PntY1 + end * dy,PntZ1 + end * dz,
@@ -108,7 +108,7 @@ void StdPrs_HLRPolyShape::Add(const Handle (Prs3d_Presentation)& aPresentation,
     for (It.InitHidden(status); It.MoreHidden(); It.NextHidden())
     {
       It.Hidden(sta,tolsta,end,tolend);
-      BiPntHid.Append
+      BiPntHid.push_back
         (HLRBRep_BiPoint
            (PntX1 + sta * dx,PntY1 + sta * dy,PntZ1 + sta * dz,
             PntX1 + end * dx,PntY1 + end * dy,PntZ1 + end * dz,
@@ -117,11 +117,9 @@ void StdPrs_HLRPolyShape::Add(const Handle (Prs3d_Presentation)& aPresentation,
   }
   
   // storage in the group:
-  HLRBRep_ListIteratorOfListOfBPoint ItB;
 
   if (aDrawer->DrawHiddenLine()) {
-    for (ItB.Initialize(BiPntHid); ItB.More(); ItB.Next()) {
-      const HLRBRep_BiPoint& BP = ItB.Value();
+    for (const HLRBRep_BiPoint& BP : BiPntHid) {
       if (!BP.RgNLine() || BP.OutLine()) {
         HiddenPnts.Append(BP.P1());
         HiddenPnts.Append(BP.P2());
@@ -129,8 +127,7 @@ void StdPrs_HLRPolyShape::Add(const Handle (Prs3d_Presentation)& aPresentation,
     }
   }
 
-  for (ItB.Initialize(BiPntVis); ItB.More(); ItB.Next()) {
-    const HLRBRep_BiPoint& BP = ItB.Value();
+  for (const HLRBRep_BiPoint& BP : BiPntVis) {
     if (!BP.RgNLine() || BP.OutLine()) {
       SeenPnts.Append(BP.P1());
       SeenPnts.Append(BP.P2());

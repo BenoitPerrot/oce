@@ -63,8 +63,8 @@ void DBRep_HideData::Set(const Standard_Integer viewID,
   Standard_Real sta,end,dx,dy,dz;
   Standard_ShortReal tolsta,tolend;
   HLRAlgo_EdgeIterator It;
-  myBiPntVis.Clear();
-  myBiPntHid.Clear();
+  myBiPntVis.clear();
+  myBiPntHid.clear();
   TopoDS_Shape Sori;
   Standard_Boolean reg1,regn,outl,intl;
   Standard_Address Coordinates;
@@ -80,7 +80,7 @@ void DBRep_HideData::Set(const Standard_Integer viewID,
 	 It.MoreVisible();
 	 It.NextVisible()) {
       It.Visible(sta,tolsta,end,tolend);
-      myBiPntVis.Append
+      myBiPntVis.push_back
 	(HLRBRep_BiPoint
 	 (PntX1 + sta * dx,PntY1 + sta * dy,PntZ1 + sta * dz,
 	  PntX1 + end * dx,PntY1 + end * dy,PntZ1 + end * dz,
@@ -91,7 +91,7 @@ void DBRep_HideData::Set(const Standard_Integer viewID,
 	 It.MoreHidden();
 	 It.NextHidden()) {
       It.Hidden(sta,tolsta,end,tolend);
-      myBiPntHid.Append
+      myBiPntHid.push_back
 	(HLRBRep_BiPoint
 	 (PntX1 + sta * dx,PntY1 + sta * dy,PntZ1 + sta * dz,
 	  PntX1 + end * dx,PntY1 + end * dy,PntZ1 + end * dz,
@@ -145,16 +145,12 @@ void DBRep_HideData::DrawOn(Draw_Display& D,
 			    const Draw_Color& HidCol)
 {
   Standard_Boolean firstPick = Standard_True;
-  HLRBRep_ListIteratorOfListOfBPoint It;
 //  Standard_Boolean reg1,regn,outl;
 
   if (withHid) {
     D.SetColor(HidCol);
       
-    for (It.Initialize(myBiPntHid);
-	 It.More();
-	 It.Next()) {
-      const HLRBRep_BiPoint& BP = It.Value();
+    for (const HLRBRep_BiPoint& BP : myBiPntHid) {
       Standard_Boolean todraw = Standard_True;
       if ((!withRg1 && BP.Rg1Line() && !BP.OutLine()) ||
 	  (!withRgN && BP.RgNLine() && !BP.OutLine()))
@@ -171,10 +167,7 @@ void DBRep_HideData::DrawOn(Draw_Display& D,
   }
   D.SetColor(VisCol);
 
-  for (It.Initialize(myBiPntVis);
-       It.More();
-       It.Next()) {
-    const HLRBRep_BiPoint& BP = It.Value();
+  for (const HLRBRep_BiPoint& BP : myBiPntVis) {
     Standard_Boolean todraw = Standard_True;
     if ((!withRg1 && BP.Rg1Line() && !BP.OutLine()) ||
 	(!withRgN && BP.RgNLine() && !BP.OutLine()))
