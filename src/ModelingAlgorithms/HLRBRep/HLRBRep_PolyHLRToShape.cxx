@@ -56,8 +56,8 @@ void HLRBRep_PolyHLRToShape::Update (const Handle(HLRBRep_PolyAlgo)& A)
   Standard_Real sta,end,XSta,YSta,ZSta,XEnd,YEnd,ZEnd,dx,dy;
   Standard_ShortReal tolsta,tolend;
   HLRAlgo_EdgeIterator It;
-  myBiPntVis.Clear();
-  myBiPntHid.Clear();
+  myBiPntVis.clear();
+  myBiPntHid.clear();
   TopoDS_Shape S;
   Standard_Boolean reg1,regn,outl,intl;
   const gp_Trsf& T = myAlgo->Projector().Transformation();
@@ -82,7 +82,7 @@ void HLRBRep_PolyHLRToShape::Update (const Handle(HLRBRep_PolyAlgo)& A)
 	   It.MoreVisible();
 	   It.NextVisible()) {
 	It.Visible(sta,tolsta,end,tolend);
-	myBiPntVis.Append
+	myBiPntVis.push_back
 	  (HLRBRep_BiPnt2D
 	   (XSta + sta * dx,YSta + sta * dy,
 	    XSta + end * dx,YSta + end * dy,
@@ -93,7 +93,7 @@ void HLRBRep_PolyHLRToShape::Update (const Handle(HLRBRep_PolyAlgo)& A)
 	   It.MoreHidden();
 	   It.NextHidden()) {
 	It.Hidden(sta,tolsta,end,tolend);
-	myBiPntHid.Append
+	myBiPntHid.push_back
 	  (HLRBRep_BiPnt2D
 	   (XSta + sta * dx,YSta + sta * dy,
 	    XSta + end * dx,YSta + end * dy,
@@ -128,12 +128,7 @@ HLRBRep_PolyHLRToShape::InternalCompound (const Standard_Integer typ,
   B.MakeCompound(TopoDS::Compound(Result));
 
   if (myHideMode) {
-    HLRBRep_ListIteratorOfListOfBPnt2D It;
-    if (visible) It.Initialize(myBiPntVis);
-    else         It.Initialize(myBiPntHid);
-    
-    for (; It.More(); It.Next()) {
-      const HLRBRep_BiPnt2D& BP = It.Value();
+    for (const HLRBRep_BiPnt2D& BP : (visible ? myBiPntVis : myBiPntHid)) {
       reg1 = BP.Rg1Line();
       regn = BP.RgNLine();
       outl = BP.OutLine();
