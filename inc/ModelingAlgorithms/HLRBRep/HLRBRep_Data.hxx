@@ -29,6 +29,7 @@
 #include <ModelingAlgorithms/HLRBRep/HLRBRep_Intersector.hxx>
 #include <ModelingAlgorithms/BRepTopAdaptor/Handle_BRepTopAdaptor_TopolTool.hxx>
 #include <ModelingAlgorithms/HLRAlgo/HLRAlgo_Interference.hxx>
+#include <ModelingAlgorithms/HLRAlgo/HLRAlgo_InterferenceList.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 class BRepTopAdaptor_TopolTool;
@@ -41,7 +42,6 @@ class BRepTopAdaptor_MapOfShapeTool;
 class HLRAlgo_Interference;
 class gp_Dir2d;
 class HLRBRep_EdgeData;
-class HLRAlgo_InterferenceList;
 class HLRBRep_FaceData;
 class IntRes2d_IntersectionPoint;
 

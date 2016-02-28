@@ -33,8 +33,10 @@
 
 HLRBRep_VertexList::
 HLRBRep_VertexList(const HLRBRep_EdgeInterferenceTool& T, 
-		   const HLRAlgo_ListIteratorOfInterferenceList& I) :
+		   const HLRAlgo_ListIteratorOfInterferenceList& I,
+		   const HLRAlgo_ListIteratorOfInterferenceList& End) :
        myIterator(I),
+       myIteratorEnd(End),
        myTool(T),
        fromEdge(Standard_False),
        fromInterf(Standard_False)
@@ -71,15 +73,15 @@ Standard_Boolean  HLRBRep_VertexList::More()const
 void  HLRBRep_VertexList::Next()
 {
   if (fromInterf)
-    myIterator.Next();
+    ++myIterator;
   if (fromEdge)
     myTool.NextVertex();
-  fromInterf = myIterator.More();
+  fromInterf = myIterator != myIteratorEnd;
   fromEdge   = myTool.MoreVertices();
   if (fromEdge && fromInterf) {
-    if (!myTool.SameVertexAndInterference( myIterator.Value())) {
+    if (!myTool.SameVertexAndInterference(*myIterator)) {
       if (myTool.CurrentParameter() <
-	  myTool.ParameterOfInterference(myIterator.Value())) {
+	  myTool.ParameterOfInterference(*myIterator)) {
 	fromInterf = Standard_False;
       }
       else {
@@ -99,7 +101,7 @@ const HLRAlgo_Intersection &  HLRBRep_VertexList::Current() const
   if (fromEdge)
     return myTool.CurrentVertex();
   else if (fromInterf)
-    return myIterator.Value().Intersection();
+    return myIterator->Intersection();
   else
     Standard_NoSuchObject::Raise("HLRBRep_VertexList::Current");
   return myTool.CurrentVertex(); // only for WNT.
@@ -147,7 +149,7 @@ TopAbs_Orientation  HLRBRep_VertexList::Orientation() const
 TopAbs_Orientation  HLRBRep_VertexList::Transition() const 
 {
   if (fromInterf)
-    return myIterator.Value().Transition();
+    return myIterator->Transition();
   else
     Standard_DomainError::Raise("HLRBRep_VertexList::Transition");
   return TopAbs_EXTERNAL; // only for WNT.
@@ -161,7 +163,7 @@ TopAbs_Orientation  HLRBRep_VertexList::Transition() const
 TopAbs_Orientation  HLRBRep_VertexList::BoundaryTransition() const 
 {
   if (fromInterf)
-    return myIterator.Value().BoundaryTransition();
+    return myIterator->BoundaryTransition();
   else
     Standard_DomainError::Raise("HLRBRep_VertexList::BoundaryTransition");
   return TopAbs_EXTERNAL; // only for WNT.

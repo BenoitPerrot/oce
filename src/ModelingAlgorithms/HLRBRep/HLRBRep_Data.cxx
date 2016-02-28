@@ -1570,17 +1570,15 @@ HLRBRep_Data::HidingStartLevel (const Standard_Integer E,
 				const HLRAlgo_InterferenceList& IL)
 {
   Standard_Boolean Loop;
-  HLRAlgo_ListIteratorOfInterferenceList It;
   const HLRBRep_Curve& EC = EData.Geometry();
   Standard_Real sta = EC.Parameter3d(EC.FirstParameter());
   Standard_Real end = EC.Parameter3d(EC.LastParameter());
   Standard_Real tolpar = (end - sta) * 0.01;
   Standard_Real param;
   Loop = Standard_True;
-  It.Initialize(IL);
-  
-  while(It.More() && Loop) {
-    param = It.Value().Intersection().Parameter();
+
+  for (HLRAlgo_InterferenceList::const_iterator It(IL.begin()); It != IL.end() && Loop; ++It) {
+    param = It->Intersection().Parameter();
     if (param > end)
       Loop = Standard_False;
     else {
@@ -1589,25 +1587,22 @@ HLRBRep_Data::HidingStartLevel (const Standard_Integer E,
       else
         sta = param;
     }
-    It.Next();
   }
   param = 0.5 * (sta + end);
   Standard_Integer level = 0;
   /*TopAbs_State st = */Classify(E,EData,Standard_True,level,param);
   Loop = Standard_True;
-  It.Initialize(IL);
 
-  while(It.More() && Loop) {
-    HLRAlgo_Interference& Int = It.Value();
-    Standard_Real p = Int.Intersection().Parameter();
+  for (HLRAlgo_InterferenceList::const_iterator It(IL.begin()); It != IL.end() && Loop; ++It) {
+    Standard_Real p = It->Intersection().Parameter();
     if (p < param - tolpar) {
-      switch (Int.Transition()) {
+      switch (It->Transition()) {
 	
       case TopAbs_FORWARD  :
-        level -= Int.Intersection().Level();
+        level -= It->Intersection().Level();
         break;
       case TopAbs_REVERSED :
-        level += Int.Intersection().Level();
+        level += It->Intersection().Level();
         break;
       case TopAbs_EXTERNAL :
       case TopAbs_INTERNAL :
@@ -1623,7 +1618,6 @@ HLRBRep_Data::HidingStartLevel (const Standard_Integer E,
       cout << "Bad Parameter." << endl;
 #endif
     }
-    It.Next();
   }
   return level;
 }

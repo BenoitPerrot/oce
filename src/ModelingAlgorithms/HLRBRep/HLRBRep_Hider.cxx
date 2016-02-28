@@ -144,14 +144,14 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
       Standard_Boolean Modif;
       do { 
 	Modif = Standard_False; 
-	HLRAlgo_ListIteratorOfInterferenceList ItSegHidden1(ILHidden);
-	while(ItSegHidden1.More() && Modif==Standard_False) { 
-	  HLRAlgo_Interference& Int1 = ItSegHidden1.Value();
+	HLRAlgo_ListIteratorOfInterferenceList ItSegHidden1(ILHidden.begin());
+	while(ItSegHidden1 != ILHidden.end() && Modif==Standard_False) { 
+	  HLRAlgo_Interference& Int1 = *ItSegHidden1;
 	  Standard_Integer numseg1=Int1.Intersection().SegIndex();
 	  if(numseg1!=0) { 
-	    HLRAlgo_ListIteratorOfInterferenceList ItSegHidden2(ILHidden);
-	    while(ItSegHidden2.More()  && Modif==Standard_False) {
-	      HLRAlgo_Interference& Int2 = ItSegHidden2.Value();
+	    HLRAlgo_ListIteratorOfInterferenceList ItSegHidden2(ILHidden.begin());
+	    while(ItSegHidden2 != ILHidden.end()  && Modif==Standard_False) {
+	      HLRAlgo_Interference& Int2 = *ItSegHidden2;
 	      Standard_Integer numseg2=Int2.Intersection().SegIndex();
 	      if(numseg1+numseg2 == 0) { 
 		//--printf("\nHidden Traitement du segment %d  %d\n",numseg1,numseg2); fflush(stdout);
@@ -187,7 +187,7 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 			inter.Parameter((p1+p2)*0.5);
 			Int1.BoundaryTransition(TopAbs_EXTERNAL);
 
-			ILHidden.Remove(ItSegHidden2);
+			ItSegHidden2 = ILHidden.erase(ItSegHidden2);
 			Modif=Standard_True;
 		      }
 		    }
@@ -195,12 +195,12 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 		}
 	      }
 	      if(Modif==Standard_False) { 
-		ItSegHidden2.Next();
+		++ItSegHidden2;
 	      }
 	    }
 	  }
 	  if(Modif==Standard_False) { 
-	    ItSegHidden1.Next();
+	    ++ItSegHidden1;
 	  }
 	}
       }
@@ -210,18 +210,18 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
       //-- ============================================================
 
 
-      if (!ILOn.IsEmpty()) {         // process the interferences on ILOn
+      if (!ILOn.empty()) {         // process the interferences on ILOn
 	                             // *********************************
       
 	HLRBRep_EdgeIList::ProcessComplex   // complex transition on ILOn
 	  (ILOn,EIT);                       // **************************
 
-	HLRAlgo_ListIteratorOfInterferenceList It(ILOn); 
+	HLRAlgo_ListIteratorOfInterferenceList It(ILOn.begin()); 
 	
-	while(It.More()) {           // process Intersections on the Face
+	while(It != ILOn.end()) {           // process Intersections on the Face
                                      // *********************************
 	  
-	  HLRAlgo_Interference& Int = It.Value();
+	  HLRAlgo_Interference& Int = *It;
 	  TopAbs_State stbef, staft;                // read the 3d states
 	  Int.Boundary().State3D(stbef,staft);      // ******************
 
@@ -229,40 +229,40 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 	  case TopAbs_FORWARD  :
 	    switch (staft) {
 	    case TopAbs_OUT     :
-	      ILOn.Remove(It);                            break;
+	      It = ILOn.erase(It);                            break;
 	    case TopAbs_IN      :
 	      HLRBRep_EdgeIList::AddInterference(ILHidden,Int,EIT);
-	      ILOn.Remove(It);                            break;
+	      It = ILOn.erase(It);                            break;
 	    case TopAbs_UNKNOWN : 
 #ifdef OCCT_DEBUG
               cout << "UNKNOWN state staft" << endl;
 #endif
 	    case TopAbs_ON      :
-	      It.Next();                                  break;
+	      ++It;                                  break;
 	    }                                             break;
 	  case TopAbs_REVERSED :
 	    switch (stbef) {
 	    case TopAbs_OUT     :
-	      ILOn.Remove(It);                            break;
+	      It = ILOn.erase(It);                            break;
 	    case TopAbs_IN      :
 	      HLRBRep_EdgeIList::AddInterference(ILHidden,Int,EIT);
-	      ILOn.Remove(It);                            break;
+	      It = ILOn.erase(It);                            break;
 	    case TopAbs_UNKNOWN :
 #ifdef OCCT_DEBUG
               cout << "UNKNOWN state stbef" << endl;
 #endif
 	    case TopAbs_ON      :
-	      It.Next();                                  break;
+	      ++It;                                  break;
 	    }                                             break;
 	  case TopAbs_EXTERNAL :
-	    ILOn.Remove(It);                              break;
+	    It = ILOn.erase(It);                              break;
 	  case TopAbs_INTERNAL :
 	    switch (stbef) {
 	    case TopAbs_IN        :
 	      switch (staft) {
 	      case TopAbs_IN      :
 		HLRBRep_EdgeIList::AddInterference(ILHidden,Int,EIT);
-		ILOn.Remove(It);                          break;
+		It = ILOn.erase(It);                          break;
 	      case TopAbs_ON      :
 		Int.Transition(TopAbs_FORWARD );      // FORWARD  in ILOn,
 		HLRBRep_EdgeIList::AddInterference    // REVERSED in ILHidden
@@ -272,16 +272,16 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 		    Int.Orientation(),
 		    TopAbs_REVERSED,
 		    Int.BoundaryTransition()),EIT);
-		It.Next();                                break;
+		++It;                                break;
 	      case TopAbs_OUT     :
 		Int.Transition(TopAbs_REVERSED);      // set REVERSED
 		HLRBRep_EdgeIList::AddInterference(ILHidden,Int,EIT);
-		ILOn.Remove(It);                          break;
+		It = ILOn.erase(It);                          break;
 	      case TopAbs_UNKNOWN :
 #ifdef OCCT_DEBUG
 		cout << "UNKNOWN state after" << endl;
 #endif
-		It.Next();                                break;
+		++It;                                break;
 	      }                                           break;
 	    case TopAbs_ON :
 	      switch (staft) {
@@ -303,23 +303,23 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 #endif
                 break;
 	      }	    
-	      It.Next();                                  break;
+	      ++It;                                  break;
 	    case TopAbs_OUT :
 	      switch (staft) {
 	      case TopAbs_IN      :
 		Int.Transition(TopAbs_FORWARD);       // set FORWARD
 		HLRBRep_EdgeIList::AddInterference(ILHidden,Int,EIT);
-		ILOn.Remove(It);                          break;
+		It = ILOn.erase(It);                          break;
 	      case TopAbs_ON      :
 		Int.Transition(TopAbs_FORWARD );      // FORWARD  in ILOn
-		It.Next();                                break;
+		++It;                                break;
 	      case TopAbs_OUT     :
-		ILOn.Remove(It);                          break;
+		It = ILOn.erase(It);                          break;
 	      case TopAbs_UNKNOWN :
 #ifdef OCCT_DEBUG
 		cout << "UNKNOWN state after" << endl;
 #endif
-		It.Next();                                break;
+		++It;                                break;
 	      }                                           break;
 	    case TopAbs_UNKNOWN :
 #ifdef OCCT_DEBUG
@@ -331,7 +331,7 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 	}
       }
       
-      if (ILHidden.IsEmpty() && ILOn.IsEmpty() && !hasOut) {
+      if (ILHidden.empty() && ILOn.empty() && !hasOut) {
 	HLRBRep_EdgeData& ed = myEData(E);
 	TopAbs_State st = myDS->Compare(E,ed);              // Classification
 	if (st == TopAbs_IN || st == TopAbs_ON)             // **************
@@ -346,55 +346,55 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 
 	Standard_Boolean foundHidden = Standard_False;
 	
-	if (!ILHidden.IsEmpty()) {    
+	if (!ILHidden.empty()) {    
 
 	  HLRBRep_EdgeIList::ProcessComplex // complex transition on ILHidden
 	    (ILHidden,EIT);                 // ******************************
 	  Standard_Integer level = 0;
 	  if (!myDS->SimpleHidingFace())                    // Level at Start
 	    level = myDS->HidingStartLevel(E,ed,ILHidden);  // **************
-	  	  HLRAlgo_ListIteratorOfInterferenceList It(ILHidden); 
+	  HLRAlgo_ListIteratorOfInterferenceList It(ILHidden.begin()); 
 	  
-	  while(It.More()) {           // suppress multi-inside Intersections
+	  while(It != ILHidden.end()) {           // suppress multi-inside Intersections
 	                               // ***********************************
 	  
-	    HLRAlgo_Interference& Int = It.Value();
+	    HLRAlgo_Interference& Int = *It;
 	    switch (Int.Transition()) {
 	      
 	    case TopAbs_FORWARD  :
 	      {
 		Standard_Integer decal = Int.Intersection().Level();
-		if (level > 0) ILHidden.Remove(It);
-		else           It.Next();
+		if (level > 0) It = ILHidden.erase(It);
+		else           ++It;
 		level = level + decal;
 	      }
 	      break;
 	    case TopAbs_REVERSED : 
 	      { 
 		level = level - Int.Intersection().Level();
-		if (level > 0) ILHidden.Remove(It);
-		else           It.Next();
+		if (level > 0) It = ILHidden.erase(It);
+		else           ++It;
 	      }
 	      break;
 	    case TopAbs_EXTERNAL :
-	      It.Next();
+	      ++It;
 	      break;
 	    case TopAbs_INTERNAL :
-	      It.Next();
+	      ++It;
 	      break;
 	    default :
-	      It.Next();
+	      ++It;
 	      break;
 	    }
 	  }
-	  if (ILHidden.IsEmpty())                             // Edge hidden
+	  if (ILHidden.empty())                             // Edge hidden
 	    ES.HideAll();                                     // ***********
 	  else
 	    foundHidden = Standard_True;
 	}
 
 
-	if (!ILHidden.IsEmpty()) {
+	if (!ILHidden.empty()) {
 	  //IFV
 
 	  TopAbs_State aBuildIN = TopAbs_IN;
@@ -407,24 +407,22 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 	  pmin = RealLast();
 	  pmax = -pmin;
 
-	  if(ILHidden.Extent() > 1 ) {
+	  if(ILHidden.size() > 1 ) {
 	    allInt = Standard_True;
 	    allFor = Standard_True;
 	    allRev = Standard_True;
-	    HLRAlgo_ListIteratorOfInterferenceList It(ILHidden);
-	    for(;It.More(); It.Next()) {
-	      Standard_Real p = It.Value().Intersection().Parameter();
-	      allFor = allFor && ( It.Value().Transition() == TopAbs_FORWARD);
-	      allRev = allRev && ( It.Value().Transition() == TopAbs_REVERSED);
-	      allInt = allInt && ( It.Value().Transition() == TopAbs_INTERNAL);
+	    for (auto itf : ILHidden) {
+	      Standard_Real p = itf.Intersection().Parameter();
+	      allFor = allFor && ( itf.Transition() == TopAbs_FORWARD);
+	      allRev = allRev && ( itf.Transition() == TopAbs_REVERSED);
+	      allInt = allInt && ( itf.Transition() == TopAbs_INTERNAL);
 	      if(p < pmin) pmin = p;
 	      if(p > pmax) pmax = p;
 	    }
 
 	  }
 	  
-	  HLRAlgo_ListIteratorOfInterferenceList Itl(ILHidden);
-	  HLRBRep_VertexList IL(EIT,Itl);
+	  HLRBRep_VertexList IL(EIT,ILHidden.begin(),ILHidden.end());
 
 
 	  HLRBRep_EdgeBuilder EB(IL);
@@ -515,46 +513,46 @@ void HLRBRep_Hider::Hide(const Standard_Integer FI,
 	  }
 	}      
 	
-	if (!ILOn.IsEmpty()) {
+	if (!ILOn.empty()) {
 	  Standard_Integer level = 0;
 	  if (!myDS->SimpleHidingFace())                    // Level at Start
 	    level = myDS->HidingStartLevel(E,ed,ILOn);      // **************
 	  if (level > 0) {
-	    HLRAlgo_ListIteratorOfInterferenceList It(ILOn); 
+	    HLRAlgo_ListIteratorOfInterferenceList It(ILOn.begin()); 
 	    
-	    while(It.More()) {         // suppress multi-inside Intersections
+	    while(It != ILOn.end()) {         // suppress multi-inside Intersections
 	                               // ***********************************
 	      
-	      HLRAlgo_Interference& Int = It.Value();
+	      HLRAlgo_Interference& Int = *It;
 	      switch (Int.Transition()) {
 		
 	      case TopAbs_FORWARD  :
 		{
 		  Standard_Integer decal = Int.Intersection().Level();
-		  if (level > 0) ILOn.Remove(It);
-		  else           It.Next();
+		  if (level > 0) It = ILOn.erase(It);
+		  else           ++It;
 		  level = level + decal;
 		}
 		break;
 	      case TopAbs_REVERSED :
 		level = level - Int.Intersection().Level();
-		if (level > 0) ILOn.Remove(It);
-		else           It.Next();
+		if (level > 0) It = ILOn.erase(It);
+		else           ++It;
 		break;
 	      case TopAbs_EXTERNAL :
 	      case TopAbs_INTERNAL :
 		default :
-		It.Next();
+		++It;
 		break;
 	      }
 	    }
-	    if (ILOn.IsEmpty() && !foundHidden)               // Edge hidden
+	    if (ILOn.empty() && !foundHidden)               // Edge hidden
 	      ES.HideAll();                                   // ***********
 	  }
 	}
 	
-	if (!ILOn.IsEmpty()) {
-	  HLRBRep_VertexList IL(EIT,ILOn);
+	if (!ILOn.empty()) {
+	  HLRBRep_VertexList IL(EIT,ILOn.begin(),ILOn.end());
 	  HLRBRep_EdgeBuilder EB(IL);
 	  
 	  EB.Builds (TopAbs_IN);                   // build parts on the Face

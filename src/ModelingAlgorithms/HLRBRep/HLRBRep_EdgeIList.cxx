@@ -35,16 +35,16 @@ AddInterference(HLRAlgo_InterferenceList& IL,
 		const HLRAlgo_Interference& I,
 		const HLRBRep_EdgeInterferenceTool& T)
 {
-  HLRAlgo_ListIteratorOfInterferenceList It(IL);
+  HLRAlgo_ListIteratorOfInterferenceList It(IL.begin());
   Standard_Real p = T.ParameterOfInterference(I);
-  while (It.More()) {
-    if (p < T.ParameterOfInterference(It.Value())) {
-      IL.InsertBefore(I,It);
+  while (It != IL.end()) {
+    if (p < T.ParameterOfInterference(*It)) {
+      IL.insert(It,I);
       return;
     }
-    It.Next();
+    ++It;
   }
-  IL.Append(I);
+  IL.push_back(I);
 }
 
 //=======================================================================
@@ -81,49 +81,47 @@ ProcessComplex(HLRAlgo_InterferenceList& IL,
   gp_Dir TgtE, NormE, TgtI, NormI;
   const Standard_Real TolAng = 0.0001;
   Standard_Real CurvE, CurvI;
-  HLRAlgo_ListIteratorOfInterferenceList It1(IL);
 
-  while (It1.More()) {
+  for (HLRAlgo_ListIteratorOfInterferenceList It1(IL.begin()); It1 != IL.end(); ++It1) {
     HLRAlgo_ListIteratorOfInterferenceList It2(It1);
-    It2.Next();
-    if (It2.More()) {
-      if (T.SameInterferences(It1.Value(),It2.Value())
+    ++It2;
+    if (It2 != IL.end()) {
+      if (T.SameInterferences(*It1,*It2)
 #ifdef OCCT_DEBUG_SI
-          || SimilarInterference(It1.Value(),It2.Value())
+          || SimilarInterference(*It1,*It2)
 #endif
           )
 {
-	T.EdgeGeometry(T.ParameterOfInterference(It1.Value()),
+	T.EdgeGeometry(T.ParameterOfInterference(*It1),
 		       TgtE, NormE, CurvE);
 	transTool.Reset(TgtE,NormE,CurvE);
-	T.InterferenceBoundaryGeometry(It1.Value(),TgtI,NormI,CurvI);
+	T.InterferenceBoundaryGeometry(*It1,TgtI,NormI,CurvI);
 	transTool.AddInterference(TolAng,
 				  TgtI,NormI,CurvI,
-				  It1.Value().Orientation(),
-				  It1.Value().Transition(),
-				  It1.Value().BoundaryTransition());
+				  It1->Orientation(),
+				  It1->Transition(),
+				  It1->BoundaryTransition());
 
-	while (It2.More()) {
-	  if (!(T.SameInterferences(It1.Value(),It2.Value())
+	while (It2 != IL.end()) {
+	  if (!(T.SameInterferences(*It1,*It2)
 #ifdef OCCT_DEBUG_SI
-          || SimilarInterference(It1.Value(),It2.Value())
+          || SimilarInterference(*It1,*It2)
 #endif
      )) break;
 
-	  T.InterferenceBoundaryGeometry(It2.Value(),TgtI,NormI,CurvI);
+	  T.InterferenceBoundaryGeometry(*It2,TgtI,NormI,CurvI);
 	  transTool.AddInterference(TolAng,
 				    TgtI,NormI,CurvI,
-				    It2.Value().Orientation(),
-				    It2.Value().Transition(),
-				    It2.Value().BoundaryTransition());
-	  IL.Remove(It2);
+				    It2->Orientation(),
+				    It2->Transition(),
+				    It2->BoundaryTransition());
+	  It2 = IL.erase(It2);
 	}
 	// get the cumulated results
-	It1.Value().Transition(transTool.Transition());
-	It1.Value().BoundaryTransition(transTool.BoundaryTransition());
+	It1->Transition(transTool.Transition());
+	It1->BoundaryTransition(transTool.BoundaryTransition());
       }
     }
-    It1.Next();
   }
 
 /*  

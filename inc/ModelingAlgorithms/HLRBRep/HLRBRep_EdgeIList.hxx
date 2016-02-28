@@ -10,7 +10,6 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
-class HLRAlgo_InterferenceList;
 class HLRAlgo_Interference;
 class HLRBRep_EdgeInterferenceTool;
 

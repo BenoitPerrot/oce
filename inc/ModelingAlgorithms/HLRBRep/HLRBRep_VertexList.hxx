@@ -15,7 +15,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 class HLRBRep_EdgeInterferenceTool;
-class HLRAlgo_ListIteratorOfInterferenceList;
 class HLRAlgo_Intersection;
 
 
@@ -27,7 +26,7 @@ public:
   DEFINE_STANDARD_ALLOC
 
   
-  Standard_EXPORT HLRBRep_VertexList(const HLRBRep_EdgeInterferenceTool& T, const HLRAlgo_ListIteratorOfInterferenceList& I);
+  Standard_EXPORT HLRBRep_VertexList(const HLRBRep_EdgeInterferenceTool& T, const HLRAlgo_ListIteratorOfInterferenceList& I, const HLRAlgo_ListIteratorOfInterferenceList& End);
   
   //! Returns True when the curve is periodic.
   Standard_EXPORT   Standard_Boolean IsPeriodic()  const;
@@ -75,6 +74,7 @@ private:
 
 
   HLRAlgo_ListIteratorOfInterferenceList myIterator;
+  HLRAlgo_ListIteratorOfInterferenceList myIteratorEnd;
   HLRBRep_EdgeInterferenceTool myTool;
   Standard_Boolean fromEdge;
   Standard_Boolean fromInterf;

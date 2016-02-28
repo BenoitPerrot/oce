@@ -35,14 +35,11 @@ class HLRAlgo_Projector;
 class HLRAlgo_Intersection;
 class HLRAlgo_Coincidence;
 class HLRAlgo_Interference;
-class HLRAlgo_InterferenceList;
 class HLRAlgo_EdgesBlock;
 class HLRAlgo_WiresBlock;
 class HLRAlgo_EdgeIterator;
 class HLRAlgo_ListNodeOfListOfBPoint;
 class HLRAlgo_ListIteratorOfListOfBPoint;
-class HLRAlgo_ListNodeOfInterferenceList;
-class HLRAlgo_ListIteratorOfInterferenceList;
 
 
 //! In order to have the precision required in
@@ -129,14 +126,11 @@ friend class HLRAlgo_Projector;
 friend class HLRAlgo_Intersection;
 friend class HLRAlgo_Coincidence;
 friend class HLRAlgo_Interference;
-friend class HLRAlgo_InterferenceList;
 friend class HLRAlgo_EdgesBlock;
 friend class HLRAlgo_WiresBlock;
 friend class HLRAlgo_EdgeIterator;
 friend class HLRAlgo_ListNodeOfListOfBPoint;
 friend class HLRAlgo_ListIteratorOfListOfBPoint;
-friend class HLRAlgo_ListNodeOfInterferenceList;
-friend class HLRAlgo_ListIteratorOfInterferenceList;
 
 };
 
