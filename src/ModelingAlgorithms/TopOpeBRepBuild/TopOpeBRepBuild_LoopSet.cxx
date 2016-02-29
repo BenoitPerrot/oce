@@ -38,8 +38,9 @@ void TopOpeBRepBuild_LoopSet::Delete()
 
 void TopOpeBRepBuild_LoopSet::InitLoop()
 {
-  myLoopIterator.Initialize(myListOfLoop);
-  myLoopIndex = 1; myNbLoop = myListOfLoop.Extent();
+  myLoopIterator = myListOfLoop.begin();
+  myLoopIndex = 1;
+  myNbLoop = myListOfLoop.size();
 }
 
 //=======================================================================
@@ -49,8 +50,7 @@ void TopOpeBRepBuild_LoopSet::InitLoop()
 
 Standard_Boolean TopOpeBRepBuild_LoopSet::MoreLoop() const
 {
-  Standard_Boolean b = myLoopIterator.More();
-  return b;
+  return myLoopIterator != myListOfLoop.end();
 }
 
 //=======================================================================
@@ -61,7 +61,7 @@ Standard_Boolean TopOpeBRepBuild_LoopSet::MoreLoop() const
 void TopOpeBRepBuild_LoopSet::NextLoop()
 {
   myLoopIndex++;
-  myLoopIterator.Next();
+  ++myLoopIterator;
 }
 
 //=======================================================================
@@ -71,8 +71,7 @@ void TopOpeBRepBuild_LoopSet::NextLoop()
 
 const Handle(TopOpeBRepBuild_Loop)& TopOpeBRepBuild_LoopSet::Loop() const
 {
-  const Handle(TopOpeBRepBuild_Loop)& L = myLoopIterator.Value();
-  return L;
+  return *myLoopIterator;
 }
 
 

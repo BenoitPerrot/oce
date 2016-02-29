@@ -129,7 +129,7 @@ void TopOpeBRepBuild_Area1dBuilder::InitAreaBuilder
         Loopinside = Standard_False; 
         for (AreaIter = myArea.begin(); AreaIter != myArea.end(); ++AreaIter) {
 	TopOpeBRepBuild_ListOfLoop& aArea = *AreaIter;
-	if ( aArea.IsEmpty() ) continue;
+	if ( aArea.empty() ) continue;
 	state = CompareLoopWithListOfLoop(LC,L,aArea,TopOpeBRepBuild_BLOCK);
 	if (state == TopAbs_UNKNOWN) Atomize(state,TopAbs_IN);
 	Loopinside = ( state == TopAbs_IN);
@@ -161,7 +161,7 @@ void TopOpeBRepBuild_Area1dBuilder::InitAreaBuilder
       Loopinside = Standard_False;
       for (AreaIter = myArea.begin(); AreaIter != myArea.end(); ++AreaIter) {
 	TopOpeBRepBuild_ListOfLoop& aArea = *AreaIter;
-	if ( aArea.IsEmpty() ) continue;
+	if ( aArea.empty() ) continue;
  	state = CompareLoopWithListOfLoop(LC,L,aArea,TopOpeBRepBuild_ANYLOOP);
 	if (state == TopAbs_UNKNOWN) Atomize(state,TopAbs_IN);
  	Loopinside = (state == TopAbs_IN);
@@ -172,13 +172,13 @@ void TopOpeBRepBuild_Area1dBuilder::InitAreaBuilder
 	TopOpeBRepBuild_ListOfLoop& aArea = *AreaIter;
 	Standard_Boolean allShape = Standard_True;
 	TopOpeBRepBuild_ListOfLoop removedLoops;
-	LoopIter.Initialize(aArea);
-	while (LoopIter.More()) {
-	  state = LC.Compare(LoopIter.Value(),L);
+	LoopIter = aArea.begin();
+	while (LoopIter != aArea.end()) {
+	  state = LC.Compare(*LoopIter,L);
 	  if (state == TopAbs_UNKNOWN) Atomize(state,TopAbs_IN); // not OUT
 	  loopoutside = ( state == TopAbs_OUT );
 	  if ( loopoutside ) {
-	    const Handle(TopOpeBRepBuild_Loop)& curL = LoopIter.Value();
+	    const Handle(TopOpeBRepBuild_Loop)& curL = *LoopIter;
 	    // remove the loop from the area
 	    ADD_Loop_TO_LISTOFLoop
 	      (curL,removedLoops,(void*)("loopoutside = 1, area = removedLoops"));
@@ -188,12 +188,12 @@ void TopOpeBRepBuild_Area1dBuilder::InitAreaBuilder
 	      (LoopIter,*AreaIter,(void*)("loop of cur. area, cur. area"));
 	  }
 	  else {
-	    LoopIter.Next();
+	    ++LoopIter;
 	  }
 	}
 	// insert the loop in the area
 	ADD_Loop_TO_LISTOFLoop(L,aArea,(void*)("area = current"));
-	if ( ! removedLoops.IsEmpty() ) {
+	if ( ! removedLoops.empty() ) {
 	  if ( allShape ) {
 	    ADD_LISTOFLoop_TO_LISTOFLoop
 	      (removedLoops,boundaryloops,
@@ -217,19 +217,19 @@ void TopOpeBRepBuild_Area1dBuilder::InitAreaBuilder
 	TopOpeBRepBuild_ListOfLoop& newArea0 = myArea.back();
 	ADD_Loop_TO_LISTOFLoop(L,newArea0,(void*)("new area"));
 	
-        LoopIter.Initialize(boundaryloops);
-        while ( LoopIter.More() ) {
+        LoopIter = boundaryloops.begin();
+        while ( LoopIter != boundaryloops.end() ) {
           ashapeinside = ablockinside = Standard_False;
-	  state = LC.Compare(LoopIter.Value(),L);
+	  state = LC.Compare(*LoopIter,L);
 	  if (state == TopAbs_UNKNOWN) Atomize(state,TopAbs_IN);
           ashapeinside = (state == TopAbs_IN);
           if (ashapeinside) {
-	    state = LC.Compare(L,LoopIter.Value());
+	    state = LC.Compare(L,*LoopIter);
 	    if (state == TopAbs_UNKNOWN) Atomize(state,TopAbs_IN);
 	    ablockinside = (state == TopAbs_IN);
 	  }
 	  if ( ashapeinside && ablockinside ) {
-	    const Handle(TopOpeBRepBuild_Loop)& curL = LoopIter.Value();
+	    const Handle(TopOpeBRepBuild_Loop)& curL = *LoopIter;
 	    ADD_Loop_TO_LISTOFLoop
 	      (curL,newArea0,(void*)("ashapeinside && ablockinside, new area"));
 
@@ -237,7 +237,7 @@ void TopOpeBRepBuild_Area1dBuilder::InitAreaBuilder
 	      (LoopIter,boundaryloops,(void*)("loop of boundaryloops, boundaryloops"));
 	  }
           else { 
-	    LoopIter.Next();
+	    ++LoopIter;
 	  }
 	} // end of boundaryloops scan
       } // Loopinside == False
@@ -272,7 +272,7 @@ void TopOpeBRepBuild_Area1dBuilder::ADD_Loop_TO_LISTOFLoop
 #endif
   ) const
 {
-  LOL.Append(L);
+  LOL.push_back(L);
   
 #ifdef OCCT_DEBUG
   if (TopOpeBRepBuild_GettraceAREA()) {
@@ -312,7 +312,7 @@ const Standard_Address) const
   }
 #endif
   
-  A.Remove(ITA);
+  ITA = A.erase(ITA);
   
 #ifdef OCCT_DEBUG
   if (TopOpeBRepBuild_GettraceAREA()) {
@@ -353,7 +353,7 @@ void TopOpeBRepBuild_Area1dBuilder::ADD_LISTOFLoop_TO_LISTOFLoop
   }
 #endif
   
-  A2.Append(A1);
+  A2.insert(A2.end(), A1.begin(), A1.end());
   
 #ifdef OCCT_DEBUG
   if (TopOpeBRepBuild_GettraceAREA()) {

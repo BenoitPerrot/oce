@@ -15,8 +15,6 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_Loop.hxx>
-class TopOpeBRepBuild_ListOfLoop;
-class TopOpeBRepBuild_Loop;
 
 
 

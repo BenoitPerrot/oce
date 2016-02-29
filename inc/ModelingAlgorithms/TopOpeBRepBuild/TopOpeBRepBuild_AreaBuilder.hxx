@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfLoop.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfListOfLoop.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListIteratorOfListOfListOfLoop.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
@@ -22,8 +23,6 @@
 class TopOpeBRepBuild_LoopSet;
 class TopOpeBRepBuild_LoopClassifier;
 class TopOpeBRepBuild_Loop;
-class TopOpeBRepBuild_ListOfLoop;
-class TopOpeBRepBuild_ListIteratorOfListOfLoop;
 
 
 
@@ -101,6 +100,7 @@ protected:
   TopOpeBRepBuild_ListOfListOfLoop myArea;
   TopOpeBRepBuild_ListIteratorOfListOfListOfLoop myAreaIterator;
   TopOpeBRepBuild_ListIteratorOfListOfLoop myLoopIterator;
+  TopOpeBRepBuild_ListIteratorOfListOfLoop myLoopEnd;
   Standard_Boolean myUNKNOWNRaise;
 
 

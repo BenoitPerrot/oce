@@ -668,18 +668,18 @@ void TopOpeBRepBuild_FaceBuilder::MakeLoops(TopOpeBRepBuild_ShapeSet& SS)
   // - on blocks of the BlockBuilder (BB)
 
   // Add shapes of SS as shape loops
-  LL.Clear();
+  LL.clear();
   for(SS.InitShapes();SS.MoreShapes();SS.NextShape()) {
     const TopoDS_Shape& S = SS.Shape();
     Handle(TopOpeBRepBuild_Loop) ShapeLoop = new TopOpeBRepBuild_Loop(S);
-    LL.Append(ShapeLoop);
+    LL.push_back(ShapeLoop);
   }
   
   // Add blocks of BB as block loops
   for (BB.InitBlock();BB.MoreBlock();BB.NextBlock()) {
     TopOpeBRepBuild_BlockIterator BI = BB.BlockIterator();
     Handle(TopOpeBRepBuild_Loop) BlockLoop = new TopOpeBRepBuild_Loop(BI);
-    LL.Append(BlockLoop);
+    LL.push_back(BlockLoop);
   }
 
 }

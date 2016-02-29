@@ -10,6 +10,8 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfLoop.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListIteratorOfListOfLoop.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_AreaBuilder.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_Loop.hxx>
@@ -19,8 +21,6 @@ class TopOpeBRepBuild_PaveClassifier;
 class TopOpeBRepBuild_LoopSet;
 class TopOpeBRepBuild_LoopClassifier;
 class TopOpeBRepBuild_Loop;
-class TopOpeBRepBuild_ListOfLoop;
-class TopOpeBRepBuild_ListIteratorOfListOfLoop;
 
 
 
