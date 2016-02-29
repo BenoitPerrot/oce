@@ -125,7 +125,7 @@ void IntTools_SurfaceRangeLocalizeData::ListRangeOut(IntTools_ListOfSurfaceRange
   IntTools_MapIteratorOfMapOfSurfaceSample anIt( myMapRangeOut);
 
   for(; anIt.More(); anIt.Next())
-    theList.Append(anIt.Key());
+    theList.push_back(anIt.Key());
 }
 
 void IntTools_SurfaceRangeLocalizeData::RemoveRangeOutAll() 

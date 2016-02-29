@@ -6,85 +6,8 @@
 #ifndef _IntTools_ListIteratorOfListOfSurfaceRangeSample_HeaderFile
 #define _IntTools_ListIteratorOfListOfSurfaceRangeSample_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfSurfaceRangeSample.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <ModelingAlgorithms/IntTools/Handle_IntTools_ListNodeOfListOfSurfaceRangeSample.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class IntTools_ListOfSurfaceRangeSample;
-class IntTools_SurfaceRangeSample;
-class IntTools_ListNodeOfListOfSurfaceRangeSample;
-
-
-
-class IntTools_ListIteratorOfListOfSurfaceRangeSample 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT IntTools_ListIteratorOfListOfSurfaceRangeSample();
-  
-  Standard_EXPORT IntTools_ListIteratorOfListOfSurfaceRangeSample(const IntTools_ListOfSurfaceRangeSample& L);
-  
-  Standard_EXPORT   void Initialize (const IntTools_ListOfSurfaceRangeSample& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   IntTools_SurfaceRangeSample& Value()  const;
-
-
-friend class IntTools_ListOfSurfaceRangeSample;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item IntTools_SurfaceRangeSample
-#define Item_hxx <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeSample.hxx>
-#define TCollection_ListNode IntTools_ListNodeOfListOfSurfaceRangeSample
-#define TCollection_ListNode_hxx <ModelingAlgorithms/IntTools/IntTools_ListNodeOfListOfSurfaceRangeSample.hxx>
-#define TCollection_ListIterator IntTools_ListIteratorOfListOfSurfaceRangeSample
-#define TCollection_ListIterator_hxx <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
-#define Handle_TCollection_ListNode Handle_IntTools_ListNodeOfListOfSurfaceRangeSample
-#define TCollection_ListNode_Type_() IntTools_ListNodeOfListOfSurfaceRangeSample_Type_()
-#define TCollection_List IntTools_ListOfSurfaceRangeSample
-#define TCollection_List_hxx <ModelingAlgorithms/IntTools/IntTools_ListOfSurfaceRangeSample.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef IntTools_ListOfSurfaceRangeSample::iterator IntTools_ListIteratorOfListOfSurfaceRangeSample;
 
 #endif // _IntTools_ListIteratorOfListOfSurfaceRangeSample_HeaderFile

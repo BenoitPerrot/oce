@@ -1552,7 +1552,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
   
   if(!bAllowSamplingC && !bAllowSamplingU && !bAllowSamplingV) {
     theListCurveRange.push_back(theCurveRange);
-    theListSurfaceRange.Append(theSurfaceRange);
+    theListSurfaceRange.push_back(theSurfaceRange);
     return Standard_True;
   }
   // ranges check.end
@@ -1805,7 +1805,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
         
         if(!bHasOutC) {
           aListCurveRangeFound.push_back(aNewRangeC);
-          aListSurfaceRangeFound.Append(aNewRangeS);
+          aListSurfaceRangeFound.push_back(aNewRangeS);
         }
         else {
           
@@ -1849,15 +1849,15 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
 
   if(!bHasOut) {
     theListCurveRange.push_back(theCurveRange);
-    theListSurfaceRange.Append(theSurfaceRange);    
+    theListSurfaceRange.push_back(theSurfaceRange);    
   }
   else {
     IntTools_ListIteratorOfListOfCurveRangeSample anIt1(aListCurveRangeFound.begin());
-    IntTools_ListIteratorOfListOfSurfaceRangeSample anIt2(aListSurfaceRangeFound);
+    IntTools_ListIteratorOfListOfSurfaceRangeSample anIt2(aListSurfaceRangeFound.begin());
 
-    for(; anIt1 != aListCurveRangeFound.end() && anIt2.More(); ++anIt1, anIt2.Next()) {
+    for(; anIt1 != aListCurveRangeFound.end() && anIt2 != aListSurfaceRangeFound.end(); ++anIt1, ++anIt2) {
       theListCurveRange.push_back(*anIt1);
-      theListSurfaceRange.Append(anIt2.Value());
+      theListSurfaceRange.push_back(*anIt2);
     }
   }
   return Standard_True;
@@ -1959,12 +1959,12 @@ Standard_Boolean IntTools_BeanFaceIntersector::ComputeLocalized() {
     MergeSolutions(aListCurveRange, aListSurfaceRange, aListCurveRangeSort, aListSurfaceRangeSort);
     
     IntTools_ListIteratorOfListOfCurveRangeSample anItC(aListCurveRangeSort.begin());
-    IntTools_ListIteratorOfListOfSurfaceRangeSample anItS(aListSurfaceRangeSort);
+    IntTools_ListIteratorOfListOfSurfaceRangeSample anItS(aListSurfaceRangeSort.begin());
     IntTools_SurfaceRangeSample aRangeSPrev;
     
     Extrema_GenExtCS anExtremaGen;
     
-    for(; anItC != aListCurveRangeSort.end() && anItS.More(); ++anItC, anItS.Next()) {
+    for(; anItC != aListCurveRangeSort.end() && anItS != aListSurfaceRangeSort.end(); ++anItC, ++anItS) {
       
       IntTools_Range aRangeC(myFirstParameter, myLastParameter);
 
@@ -1974,12 +1974,12 @@ Standard_Boolean IntTools_BeanFaceIntersector::ComputeLocalized() {
       IntTools_Range aRangeU(myUMinParameter, myUMaxParameter);
 
       if(bAllowSamplingU) 
-        aRangeU = anItS.Value().GetRangeU(myUMinParameter, myUMaxParameter, nbSampleU);
+        aRangeU = anItS->GetRangeU(myUMinParameter, myUMaxParameter, nbSampleU);
       
       IntTools_Range aRangeV(myVMinParameter, myVMaxParameter);
       
       if(bAllowSamplingV) 
-        aRangeV = anItS.Value().GetRangeV(myVMinParameter, myVMaxParameter, nbSampleV);
+        aRangeV = anItS->GetRangeV(myVMinParameter, myVMaxParameter, nbSampleV);
       
       Standard_Real anarg1 = aRangeC.First(), anarg2 = aRangeC.Last();
       
@@ -2027,7 +2027,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::ComputeLocalized() {
       Standard_Real parUF = aRangeU.First(), parUL = aRangeU.Last();
       Standard_Real parVF = aRangeV.First(), parVL = aRangeV.Last();
       
-      if(aRangeSPrev.IsEqual(anItS.Value())) {
+      if(aRangeSPrev.IsEqual(*anItS)) {
         anExtremaGen.Perform(myCurve, 10, anarg1, anarg2, Tol);
       }
       else {
@@ -2077,7 +2077,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::ComputeLocalized() {
         myRangeManager.InsertRange(anarg1, anarg2, 0);
       }
       
-      aRangeSPrev = anItS.Value();
+      aRangeSPrev = *anItS;
     }
     
     //
@@ -2474,23 +2474,21 @@ static void MergeSolutions(const IntTools_ListOfCurveRangeSample& theListCurveRa
                            IntTools_ListOfCurveRangeSample& theListCurveRangeSort,
                            IntTools_ListOfSurfaceRangeSample& theListSurfaceRangeSort) {
   
-  IntTools_ListIteratorOfListOfSurfaceRangeSample anItS1(theListSurfaceRange), anItS2;
   IntTools_MapOfSurfaceSample aMapToAvoid;
 
-  for(; anItS1.More(); anItS1.Next()) {
-    const IntTools_SurfaceRangeSample& aRangeS = anItS1.Value();
+  for (const IntTools_SurfaceRangeSample& aRangeS : theListSurfaceRange) {
 
     if(aMapToAvoid.Contains(aRangeS))
       continue;
     aMapToAvoid.Add(aRangeS);
 
     IntTools_ListOfCurveRangeSample::const_iterator anItC2(theListCurveRange.begin());
-    anItS2.Initialize(theListSurfaceRange);
+    IntTools_ListOfSurfaceRangeSample::const_iterator anItS2(theListSurfaceRange.begin());
 
-    for(; anItS2.More() && anItC2 != theListCurveRange.end(); anItS2.Next(), ++anItC2) {
-      if(aRangeS.IsEqual(anItS2.Value())) {
+    for(; anItS2 != theListSurfaceRange.end() && anItC2 != theListCurveRange.end(); ++anItS2, ++anItC2) {
+      if(aRangeS.IsEqual(*anItS2)) {
         theListCurveRangeSort.push_back(*anItC2);
-        theListSurfaceRangeSort.Append(anItS2.Value());
+        theListSurfaceRangeSort.push_back(*anItS2);
       }
     }
   }

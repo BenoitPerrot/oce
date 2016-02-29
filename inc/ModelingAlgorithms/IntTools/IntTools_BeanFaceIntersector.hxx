@@ -18,6 +18,7 @@
 #include <ModelingAlgorithms/GeomAPI/GeomAPI_ProjectPointOnSurf.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MarkedRangeSet.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListOfCurveRangeSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfSurfaceRangeSample.hxx>
 #include <ModelingAlgorithms/IntTools/Handle_IntTools_Context.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_SequenceOfRanges.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -34,7 +35,6 @@ class Bnd_Box;
 class IntTools_SurfaceRangeSample;
 class IntTools_CurveRangeLocalizeData;
 class IntTools_SurfaceRangeLocalizeData;
-class IntTools_ListOfSurfaceRangeSample;
 
 
 //! The class BeanFaceIntersector computes ranges of parameters on
