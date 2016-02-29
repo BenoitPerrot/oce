@@ -443,7 +443,7 @@ Handle(GeomFill_TrihedronLaw) GeomFill_CorrectedFrenet::Copy() const
       if(isFrenet)
         isFrenet = Standard_False;
     }
-    Handle(Law_Composite)::DownCast(EvolAroundT)->ChangeLaws().Append(Func);
+    Handle(Law_Composite)::DownCast(EvolAroundT)->ChangeLaws().push_back(Func);
   }
   if(myTrimmed->IsPeriodic()) 
     Handle(Law_Composite)::DownCast(EvolAroundT)->SetPeriodic();

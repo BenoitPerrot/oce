@@ -81,12 +81,9 @@ GeomAbs_Shape Law_Composite::Continuity() const
 //=======================================================================
 Standard_Integer Law_Composite::NbIntervals(const GeomAbs_Shape S) const 
 {
- Law_ListIteratorOfLaws It(funclist);
- Handle(Law_Function) func;
  Standard_Integer nbr_interval =0;
 
- for(; It.More(); It.Next()){
-   func = It.Value();
+ for (auto func : funclist) {
    nbr_interval += func->NbIntervals(S);
  }
  return nbr_interval;
@@ -98,16 +95,13 @@ Standard_Integer Law_Composite::NbIntervals(const GeomAbs_Shape S) const
 //=======================================================================
 void Law_Composite::Intervals(TColStd_Array1OfReal& T, const GeomAbs_Shape S) const 
 {
-  Law_ListIteratorOfLaws It(funclist);
-  Handle(Law_Function) func;
   Handle(TColStd_HArray1OfReal) LocT;
   Standard_Integer nb_index, Iloc, IGlob=2;
 
-  func = funclist.First();
-  func->Bounds(T(1),T(2));
+  funclist.front()->Bounds(T(1),T(2));
 
-  for(; It.More(); It.Next()){
-    func = It.Value();
+#warning first entry processed twice; intended?
+  for (Handle(Law_Function) func : funclist) {
     nb_index = func->NbIntervals(S)+1;
     LocT = new (TColStd_HArray1OfReal)(1, nb_index);
     func->Intervals(LocT->ChangeArray1(), S);
@@ -198,9 +192,9 @@ void Law_Composite::Prepare(Standard_Real& W)
   else                    { Eps = -PTol;}
 
   if(curfunc.IsNull()){
-    curfunc = funclist.Last();
+    curfunc = funclist.back();
     curfunc->Bounds(f,last);
-    curfunc = funclist.First();
+    curfunc = funclist.front();
     curfunc->Bounds(first,l);
   }
   
@@ -213,15 +207,14 @@ void Law_Composite::Prepare(Standard_Real& W)
   curfunc->Bounds(f,l); 
   if(f <= Wtest && Wtest <= l) return; 
   if(W <= first) {
-    curfunc = funclist.First();
+    curfunc = funclist.front();
   }
   else if(W >= last) {
-    curfunc = funclist.Last();
+    curfunc = funclist.back();
   }
   else{
-    Law_ListIteratorOfLaws It(funclist);
-    for(; It.More(); It.Next()){
-      curfunc = It.Value();
+    for (Law_ListIteratorOfLaws It(funclist.begin()); It != funclist.end(); ++It) {
+      curfunc = *It;
       curfunc->Bounds(f,l);
       if (f <= Wtest && Wtest <= l) return;
     }

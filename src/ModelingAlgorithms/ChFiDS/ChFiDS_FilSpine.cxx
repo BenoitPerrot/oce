@@ -63,7 +63,7 @@ ChFiDS_Spine(Tol)
 void ChFiDS_FilSpine::Reset(const Standard_Boolean AllData)
 {
   ChFiDS_Spine::Reset(AllData);
-  laws.Clear();
+  laws.clear();
   if(AllData)
     parandrad.Clear();
   else //Complete parandrad
@@ -193,16 +193,16 @@ void  ChFiDS_FilSpine::SetRadius(const gp_XY&           UandR,
   //correspondant au parametre W 
   if (splitdone) {
     ChFiDS_ListIteratorOfListOfHElSpine It(elspines.begin());
-    Law_ListIteratorOfLaws Itl(laws);
+    Law_ListIteratorOfLaws Itl(laws.begin());
     Handle(ChFiDS_HElSpine) Els = *It;
-    if (Els->IsPeriodic()) Itl.Value() = ComputeLaw(Els);
+    if (Els->IsPeriodic()) (*Itl) = ComputeLaw(Els);
     else{
-      for (; It != elspines.end(); ++It, Itl.Next()) {
+      for (; It != elspines.end(); ++It, ++Itl) {
 	Els = *It;
 	Standard_Real uf = Els->FirstParameter();
 	Standard_Real ul = Els->LastParameter();
 	if(uf <= W && W <= ul) {
-	  Itl.Value() = ComputeLaw(Els);
+            (*Itl) = ComputeLaw(Els);
 	}
       }  
     }
@@ -236,7 +236,7 @@ void  ChFiDS_FilSpine::SetRadius(const Handle(Law_Function)& C,
   splitdone = Standard_False;
   Handle(Law_Composite) prout = new Law_Composite();
   Law_Laws& lst = prout->ChangeLaws();
-  lst.Append(C);
+  lst.push_back(C);
   parandrad.Clear();
 }
 
@@ -379,7 +379,7 @@ void ChFiDS_FilSpine::AppendElSpine(const Handle(ChFiDS_HElSpine)& Els)
 void ChFiDS_FilSpine::AppendLaw(const Handle(ChFiDS_HElSpine)& Els)
 {
   Handle(Law_Composite) l = ComputeLaw(Els);
-  laws.Append(l);
+  laws.push_back(l);
 }
 
 static void mklaw(Law_Laws&                  res, 
@@ -429,12 +429,12 @@ static void mklaw(Law_Laws&                  res,
       Standard_Real r = (Rfin<0.)? Rdeb  : Rfin;
       Handle(Law_Constant) loi = new Law_Constant();
       loi->Set(r,curdeb,curfin);
-      res.Append(loi);
+      res.push_back(loi);
     }
     else{
       Handle(Law_S) loi = new Law_S();
       loi->Set(curdeb,Rdeb,curfin,Rfin);
-      res.Append(loi);
+      res.push_back(loi);
     }
   }
   else{
@@ -467,7 +467,7 @@ static void mklaw(Law_Laws&                  res,
     if(rad < 0.) {
       Handle(Law_Constant) loi = new Law_Constant();
       loi->Set(npr.First().Y(),curdeb,npr.First().X());
-      res.Append(loi);
+      res.push_back(loi);
     }
     if(nbp > 1){
       TColgp_Array1OfPnt2d tpr(1,nbp);
@@ -476,12 +476,12 @@ static void mklaw(Law_Laws&                  res,
       }
       Handle(Law_Interpol) curloi = new Law_Interpol();
       curloi->Set(tpr,0.,0.,Standard_False);
-      res.Append(curloi);
+      res.push_back(curloi);
     }
     if(raf < 0.) {
       Handle(Law_Constant) loi = new Law_Constant();
       loi->Set(npr.Last().Y(),npr.Last().X(),curfin);
-      res.Append(loi);
+      res.push_back(loi);
     }
   }
 }
@@ -549,7 +549,7 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
 	else curfin = ElCLib::InPeriod(LastParameter(k),spinedeb,spinefin);
 	Handle(Law_Constant) curloi = new Law_Constant();
 	curloi->Set(Rdeb,curdeb,curfin);
-	list.Append(curloi);
+	list.push_back(curloi);
 	curdeb = curfin;
 	break;
       }
@@ -571,7 +571,7 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
       pr(nbp).SetCoord(fin,pr(1).Y());
       Handle(Law_Interpol) curloi = new Law_Interpol();
       curloi->Set(pr,Standard_True);
-      list.Append(curloi);
+      list.push_back(curloi);
       return loi;
     }
   }
@@ -584,7 +584,7 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
       curfin = Min(fin,curfin);
       Handle(Law_Constant) curloi = new Law_Constant();
       curloi->Set(Rdeb,curdeb,curfin);
-      list.Append(curloi);
+      list.push_back(curloi);
       curdeb = curfin;
       icur++;
     } 
@@ -617,7 +617,7 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
       curfin = Min(fin,LastParameter(ind(1)));
       Handle(Law_Constant) curloi = new Law_Constant();
       curloi->Set(Rdeb,curdeb,curfin);
-      list.Append(curloi);
+      list.push_back(curloi);
       curdeb = curfin;
       icur++;
     } 
@@ -657,7 +657,7 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
 	Law_Laws temp;
 	mklaw(temp,parandrad,curdeb,curfin,Rdeb,Rcur,
 	      IsPeriodic(),spinedeb,spinefin,tol3d);
-	list.Append(temp);
+	list.insert(list.end(), temp.begin(), temp.end());
 	lawencours = Standard_False;
 	curdeb = curfin;
       }
@@ -678,7 +678,7 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
 	Rdeb = Rcur;
 	Handle(Law_Constant) curloi = new Law_Constant();
 	curloi->Set(Rdeb,curdeb,curfin);
-	list.Append(curloi);
+	list.push_back(curloi);
 	curdeb = curfin;
       }
     }
@@ -704,11 +704,11 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
 	Law_Laws temp;
 	mklaw(temp,parandrad,curdeb,curfin,Rdeb,Rfin,
 	      IsPeriodic(),spinedeb,spinefin,tol3d);
-	list.Append(temp);
+	list.insert(list.end(), temp.begin(), temp.end());
       }
     }
   }
-  if(!lastloi.IsNull()) list.Append(lastloi);
+  if(!lastloi.IsNull()) list.push_back(lastloi);
   return loi;
 }
 
@@ -719,10 +719,10 @@ Handle(Law_Composite) ChFiDS_FilSpine::ComputeLaw
 
 Handle(Law_Composite) ChFiDS_FilSpine::Law(const Handle(ChFiDS_HElSpine)& Els) const 
 {
-  Law_ListIteratorOfLaws Itl(laws);
-  for(ChFiDS_ListOfHElSpine::const_iterator Itsp(elspines.begin()); Itsp != elspines.end(); ++Itsp, Itl.Next()){
+  Law_Laws::const_iterator Itl(laws.begin());
+  for(ChFiDS_ListOfHElSpine::const_iterator Itsp(elspines.begin()); Itsp != elspines.end(); ++Itsp, ++Itl){
     if(Els == *Itsp){
-      return Handle(Law_Composite)::DownCast(Itl.Value());
+      return Handle(Law_Composite)::DownCast(*Itl);
     }
   }
   return Handle(Law_Composite)();
@@ -762,10 +762,8 @@ Standard_Real  ChFiDS_FilSpine::MaxRadFromSeqAndLaws()const
     if (parandrad(i).Y() > MaxRad)
       MaxRad = parandrad(i).Y();
 
-  Law_ListIteratorOfLaws itl( laws );
-  for (; itl.More(); itl.Next())
+  for (Handle(Law_Function) law : laws)
     {
-      Handle(Law_Function) law = itl.Value();
       Standard_Real fpar, lpar, par, delta, rad;
       law->Bounds( fpar, lpar );
       delta = (lpar - fpar)*0.2;

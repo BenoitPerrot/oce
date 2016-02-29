@@ -20,7 +20,6 @@
 class Law_Function;
 class Standard_OutOfRange;
 class TColStd_Array1OfReal;
-class Law_Laws;
 
 
 //! Loi  composite constituee  d une liste  de lois de
