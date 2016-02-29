@@ -38,7 +38,6 @@ class TopOpeBRep_ShapeIntersector2d;
 class TopOpeBRep_PointGeomTool;
 class TopOpeBRep_FFTransitionTool;
 class TopOpeBRep_Bipoint;
-class TopOpeBRep_ListOfBipoint;
 class TopOpeBRep_FacesFiller;
 class TopOpeBRep_FFDumper;
 class TopOpeBRep_EdgesFiller;
@@ -47,8 +46,6 @@ class TopOpeBRep_DSFiller;
 class TopOpeBRep_DataMapNodeOfDataMapOfTopolTool;
 class TopOpeBRep_DataMapIteratorOfDataMapOfTopolTool;
 class TopOpeBRep_SequenceNodeOfSequenceOfPoint2d;
-class TopOpeBRep_ListNodeOfListOfBipoint;
-class TopOpeBRep_ListIteratorOfListOfBipoint;
 
 
 //! This package provides  the topological  operations
@@ -104,7 +101,6 @@ friend class TopOpeBRep_ShapeIntersector2d;
 friend class TopOpeBRep_PointGeomTool;
 friend class TopOpeBRep_FFTransitionTool;
 friend class TopOpeBRep_Bipoint;
-friend class TopOpeBRep_ListOfBipoint;
 friend class TopOpeBRep_FacesFiller;
 friend class TopOpeBRep_FFDumper;
 friend class TopOpeBRep_EdgesFiller;
@@ -113,8 +109,6 @@ friend class TopOpeBRep_DSFiller;
 friend class TopOpeBRep_DataMapNodeOfDataMapOfTopolTool;
 friend class TopOpeBRep_DataMapIteratorOfDataMapOfTopolTool;
 friend class TopOpeBRep_SequenceNodeOfSequenceOfPoint2d;
-friend class TopOpeBRep_ListNodeOfListOfBipoint;
-friend class TopOpeBRep_ListIteratorOfListOfBipoint;
 
 };
 
