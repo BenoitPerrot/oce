@@ -11,6 +11,8 @@
 // Alternatively, this file may be used under the terms of Open CASCADE
 // commercial license or contractual agreement.
 
+#include <vector>
+
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_Context.hxx>
 #include <ModelingData/TopoDS/TopoDS_Edge.hxx>
@@ -40,8 +42,6 @@
 #include <ModelingAlgorithms/IntTools/IntTools_EdgeFace.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListOfCurveRangeSample.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListOfSurfaceRangeSample.hxx>
-#include <ModelingAlgorithms/IntTools/IntTools_ListOfBox.hxx>
-#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfBox.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfCurveSample.hxx>
@@ -1662,7 +1662,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
         continue;
       }
       
-      IntTools_ListOfBox aListOfBox;
+      std::vector<Bnd_Box> aListOfBox;
       TColStd_ListOfInteger aListOfIndex;
       
       Standard_Boolean bHasOutC = Standard_False;
@@ -1735,7 +1735,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
         //
         
         aListOfIndex.Append(tIt);
-        aListOfBox.Append(aBoxC);
+        aListOfBox.push_back(aBoxC);
       } // end for(tIt...)
       
       bGlobalCheckDone = Standard_True;
@@ -1751,12 +1751,12 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
       
       aCurIndex = aCurIndexInit;
       TColStd_ListIteratorOfListOfInteger anItI(aListOfIndex);
-      IntTools_ListIteratorOfListOfBox anItBox(aListOfBox);
+      std::vector<Bnd_Box>::iterator anItBox(aListOfBox.begin());
       Standard_Boolean bUseOldC = Standard_False;
       Standard_Boolean bUseOldS = Standard_False;
       Standard_Boolean bCheckSize = !bHasOutC;
       
-      for(; anItI.More() && anItBox.More(); anItI.Next(), anItBox.Next()) {
+      for(; anItI.More() && anItBox != aListOfBox.end(); anItI.Next(), ++anItBox) {
         aCurIndex = aCurIndexInit + anItI.Value() - 1;
 
         bUseOldS = Standard_False;
@@ -1777,7 +1777,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
           else if((theCurveRange.GetDepth() < 4) &&
                   (theSurfaceRange.GetDepthU() < 4) &&
                   (theSurfaceRange.GetDepthV() < 4)) {
-            Bnd_Box aBoxC = anItBox.Value();
+            Bnd_Box aBoxC = *anItBox;
             
             if(!aBoxC.IsWhole() && !aBoxS.IsWhole()) {
               Standard_Real aDiagC = aBoxC.SquareExtent();
@@ -1817,7 +1817,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
             return Standard_False;
           }
           
-          if(!LocalizeSolutions(aNewRangeC, anItBox.Value(), 
+          if(!LocalizeSolutions(aNewRangeC, *anItBox, 
                                 ((bUseOldS) ? theSurfaceRange : aNewRangeS), 
                                 ((bUseOldS) ? theBoxSurface : aBoxS),
                                 theCurveData, theSurfaceData,
@@ -1827,7 +1827,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
       }
       // end (tIt...)
       aListOfIndex.Clear();
-      aListOfBox.Clear();
+      aListOfBox.clear();
       
       if(bHasOutV) {
         // 	theSurfaceData.AddBox(aNewRangeS, aBoxS);

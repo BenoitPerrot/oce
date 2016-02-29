@@ -18,7 +18,6 @@
 #include <ModelingAlgorithms/IntTools/IntTools_ListOfCurveRangeSample.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_CurveRangeLocalizeData.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfCurveRangeSample.hxx>
-#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfBox.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfCurveSample.hxx>
 
 IntTools_CurveRangeLocalizeData::IntTools_CurveRangeLocalizeData(const Standard_Integer theNbSample,

@@ -21,7 +21,6 @@
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_SurfaceRangeLocalizeData.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfSurfaceRangeSample.hxx>
-#include <ModelingAlgorithms/IntTools/IntTools_ListIteratorOfListOfBox.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MapIteratorOfMapOfSurfaceSample.hxx>
 #include <Mathematics/Precision/Precision.hxx>
 
