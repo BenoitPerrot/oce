@@ -1551,7 +1551,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
   //
   
   if(!bAllowSamplingC && !bAllowSamplingU && !bAllowSamplingV) {
-    theListCurveRange.Append(theCurveRange);
+    theListCurveRange.push_back(theCurveRange);
     theListSurfaceRange.Append(theSurfaceRange);
     return Standard_True;
   }
@@ -1804,7 +1804,7 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
         
         
         if(!bHasOutC) {
-          aListCurveRangeFound.Append(aNewRangeC);
+          aListCurveRangeFound.push_back(aNewRangeC);
           aListSurfaceRangeFound.Append(aNewRangeS);
         }
         else {
@@ -1848,15 +1848,15 @@ Standard_Boolean IntTools_BeanFaceIntersector::LocalizeSolutions(const IntTools_
   }
 
   if(!bHasOut) {
-    theListCurveRange.Append(theCurveRange);
+    theListCurveRange.push_back(theCurveRange);
     theListSurfaceRange.Append(theSurfaceRange);    
   }
   else {
-    IntTools_ListIteratorOfListOfCurveRangeSample anIt1(aListCurveRangeFound);
+    IntTools_ListIteratorOfListOfCurveRangeSample anIt1(aListCurveRangeFound.begin());
     IntTools_ListIteratorOfListOfSurfaceRangeSample anIt2(aListSurfaceRangeFound);
 
-    for(; anIt1.More() && anIt2.More(); anIt1.Next(), anIt2.Next()) {
-      theListCurveRange.Append(anIt1.Value());
+    for(; anIt1 != aListCurveRangeFound.end() && anIt2.More(); ++anIt1, anIt2.Next()) {
+      theListCurveRange.push_back(*anIt1);
       theListSurfaceRange.Append(anIt2.Value());
     }
   }
@@ -1958,18 +1958,18 @@ Standard_Boolean IntTools_BeanFaceIntersector::ComputeLocalized() {
     
     MergeSolutions(aListCurveRange, aListSurfaceRange, aListCurveRangeSort, aListSurfaceRangeSort);
     
-    IntTools_ListIteratorOfListOfCurveRangeSample anItC(aListCurveRangeSort);
+    IntTools_ListIteratorOfListOfCurveRangeSample anItC(aListCurveRangeSort.begin());
     IntTools_ListIteratorOfListOfSurfaceRangeSample anItS(aListSurfaceRangeSort);
     IntTools_SurfaceRangeSample aRangeSPrev;
     
     Extrema_GenExtCS anExtremaGen;
     
-    for(; anItC.More() && anItS.More(); anItC.Next(), anItS.Next()) {
+    for(; anItC != aListCurveRangeSort.end() && anItS.More(); ++anItC, anItS.Next()) {
       
       IntTools_Range aRangeC(myFirstParameter, myLastParameter);
 
       if(bAllowSamplingC) 
-        aRangeC = anItC.Value().GetRange(myFirstParameter, myLastParameter, nbSampleC);
+        aRangeC = anItC->GetRange(myFirstParameter, myLastParameter, nbSampleC);
       
       IntTools_Range aRangeU(myUMinParameter, myUMaxParameter);
 
@@ -2086,10 +2086,9 @@ Standard_Boolean IntTools_BeanFaceIntersector::ComputeLocalized() {
   
   //
   if(bAllowSamplingC) {
-    IntTools_ListIteratorOfListOfCurveRangeSample anItC(aListOut);
-    
-    for(; anItC.More(); anItC.Next()) {
-      IntTools_Range aRangeC =anItC.Value().GetRange(myFirstParameter, myLastParameter, nbSampleC);
+
+    for (auto crs : aListOut) {
+      IntTools_Range aRangeC = crs.GetRange(myFirstParameter, myLastParameter, nbSampleC);
       myRangeManager.InsertRange(aRangeC.First(), aRangeC.Last(), 1);
     }
   }
@@ -2475,7 +2474,6 @@ static void MergeSolutions(const IntTools_ListOfCurveRangeSample& theListCurveRa
                            IntTools_ListOfCurveRangeSample& theListCurveRangeSort,
                            IntTools_ListOfSurfaceRangeSample& theListSurfaceRangeSort) {
   
-  IntTools_ListIteratorOfListOfCurveRangeSample anItC2;
   IntTools_ListIteratorOfListOfSurfaceRangeSample anItS1(theListSurfaceRange), anItS2;
   IntTools_MapOfSurfaceSample aMapToAvoid;
 
@@ -2486,12 +2484,12 @@ static void MergeSolutions(const IntTools_ListOfCurveRangeSample& theListCurveRa
       continue;
     aMapToAvoid.Add(aRangeS);
 
-    anItC2.Initialize(theListCurveRange);
+    IntTools_ListOfCurveRangeSample::const_iterator anItC2(theListCurveRange.begin());
     anItS2.Initialize(theListSurfaceRange);
 
-    for(; anItS2.More() && anItC2.More(); anItS2.Next(), anItC2.Next()) {
+    for(; anItS2.More() && anItC2 != theListCurveRange.end(); anItS2.Next(), ++anItC2) {
       if(aRangeS.IsEqual(anItS2.Value())) {
-        theListCurveRangeSort.Append(anItC2.Value());
+        theListCurveRangeSort.push_back(*anItC2);
         theListSurfaceRangeSort.Append(anItS2.Value());
       }
     }

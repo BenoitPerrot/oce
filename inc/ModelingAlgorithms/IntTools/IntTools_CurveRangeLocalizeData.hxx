@@ -13,11 +13,11 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_MapOfCurveSample.hxx>
+#include <ModelingAlgorithms/IntTools/IntTools_ListOfCurveRangeSample.hxx>
 #include <ModelingAlgorithms/IntTools/IntTools_DataMapOfCurveSampleBox.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class IntTools_CurveRangeSample;
 class Bnd_Box;
-class IntTools_ListOfCurveRangeSample;
 
 
 
