@@ -6,13 +6,15 @@
 #ifndef _NLPlate_NLPlate_HeaderFile
 #define _NLPlate_NLPlate_HeaderFile
 
+#include <list>
+
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Geometry/Geom/Handle_Geom_Surface.hxx>
+#include <ModelingAlgorithms/Plate/Plate_Plate.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_SequenceOfHGPPConstraint.hxx>
-#include <ModelingAlgorithms/NLPlate/NLPlate_StackOfPlate.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/NLPlate/Handle_NLPlate_HGPPConstraint.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -81,7 +83,7 @@ private:
 
   Handle(Geom_Surface) myInitialSurface;
   NLPlate_SequenceOfHGPPConstraint myHGPPConstraints;
-  NLPlate_StackOfPlate mySOP;
+  std::list<Plate_Plate> mySOP;
   Standard_Boolean OK;
 
 

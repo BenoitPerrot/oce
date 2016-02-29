@@ -27,8 +27,6 @@
 #include <ModelingAlgorithms/Plate/Plate_PinpointConstraint.hxx>
 #include <ModelingAlgorithms/Plate/Plate_FreeGtoCConstraint.hxx>
 
-#include <ModelingAlgorithms/NLPlate/NLPlate_ListIteratorOfStackOfPlate.hxx>
-
 #include <Geometry/Geom/Geom_Surface.hxx>
 #include <ModelingAlgorithms/NLPlate/NLPlate_HGPPConstraint.hxx>
 #include <Mathematics/Primitives/gp_XYZ.hxx>
@@ -77,7 +75,7 @@ NLPlate_NLPlate::NLPlate_NLPlate(const Handle(Geom_Surface)& InitialSurface) :
   if(ordre<maxOrder+2) ordre = maxOrder+2;
   if(Iterate(0,ord)) 
     {
-      mySOP.First().SetPolynomialPartOnly(Standard_True);
+      mySOP.front().SetPolynomialPartOnly(Standard_True);
       ConstraintsSliding();
     }
       
@@ -137,7 +135,7 @@ NLPlate_NLPlate::NLPlate_NLPlate(const Handle(Geom_Surface)& InitialSurface) :
 
  void NLPlate_NLPlate::Init() 
 {
-  mySOP.Clear();
+  mySOP.clear();
   myHGPPConstraints.Clear();
 }
 //=======================================================================
@@ -156,10 +154,10 @@ NLPlate_NLPlate::NLPlate_NLPlate(const Handle(Geom_Surface)& InitialSurface) :
   else
     Value = myInitialSurface->DN(point2d.X(),point2d.Y(),iu,iv).XYZ();
 
-  for(NLPlate_ListIteratorOfStackOfPlate SI(mySOP);SI.More();SI.Next())
+  for (auto p : mySOP)
     {
-      if(SI.Value().IsDone())
-	Value += SI.Value().EvaluateDerivative(point2d,iu,iv);
+      if(p.IsDone())
+	Value += p.EvaluateDerivative(point2d,iu,iv);
     }
   return Value;
 }
@@ -172,9 +170,9 @@ NLPlate_NLPlate::NLPlate_NLPlate(const Handle(Geom_Surface)& InitialSurface) :
     {
       if(!(myInitialSurface->IsCNu(cont+1)&&myInitialSurface->IsCNv(cont+1)))break;
     }
-  for(NLPlate_ListIteratorOfStackOfPlate SI(mySOP);SI.More();SI.Next())
+  for (auto p : mySOP)
     {
-      if((SI.Value().IsDone())&&(cont > SI.Value().Continuity())) cont = SI.Value().Continuity();
+      if((p.IsDone())&&(cont > p.Continuity())) cont = p.Continuity();
     }
   return cont;
 }
@@ -185,8 +183,8 @@ const Standard_Integer ResolutionOrder,
 const Standard_Real IncrementalLoading) 
 {
   Plate_Plate EmptyPlate;
-  mySOP.Prepend(EmptyPlate);
-  Plate_Plate &TopP = mySOP.First();
+  mySOP.push_front(EmptyPlate);
+  Plate_Plate &TopP = mySOP.front();
   for(Standard_Integer index =1; index <= myHGPPConstraints.Length(); index++)
     {
       const Handle(NLPlate_HGPPConstraint) &HGPP = myHGPPConstraints(index);
@@ -269,7 +267,7 @@ const Standard_Real IncrementalLoading)
   TopP.SolveTI(ResolutionOrder);
   if(!TopP.IsDone())
     {
-      mySOP.RemoveFirst();
+      mySOP.pop_front();
       return Standard_False;
     }
   else
