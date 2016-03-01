@@ -749,7 +749,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
     
     PVS.NextLoop();
     if (!PVS.MoreLoop()) {
-      aPVSlist.Append(aPave1);
+      aPVSlist.push_back(aPave1);
       break;
     }
       
@@ -785,11 +785,11 @@ void TopOpeBRepBuild_Builder1::Destroy()
         Standard_Boolean HasSDV;
         TopAbs_Orientation anOriOpp;
         if (takeFirst) {
-          aPVSlist.Append(aPave1);
+          aPVSlist.push_back(aPave1);
           aVer = aV1; HasSDV = HasSDV1; anOriOpp = aV2.Orientation();
         }
         else {
-          aPVSlist.Append(aPave2);
+          aPVSlist.push_back(aPave2);
           aVer = aV2; HasSDV = HasSDV2; anOriOpp = aV1.Orientation();
         }
 
@@ -812,12 +812,12 @@ void TopOpeBRepBuild_Builder1::Destroy()
         continue;
       }
     }
-    aPVSlist.Append(aPave1);
+    aPVSlist.push_back(aPave1);
   }
 
-  TopOpeBRepBuild_ListIteratorOfListOfPave aPVSit(aPVSlist);
-  while (aPVSit.More()) {
-    Handle(TopOpeBRepBuild_Pave) aPave1 = aPVSit.Value();
+  TopOpeBRepBuild_ListIteratorOfListOfPave aPVSit(aPVSlist.begin());
+  while (aPVSit != aPVSlist.end()) {
+    Handle(TopOpeBRepBuild_Pave) aPave1 = *aPVSit;
     TopoDS_Shape aV1= aPave1->Vertex();
     aV1.Orientation(TopAbs_FORWARD);
     aPar1    = aPave1->Parameter();
@@ -834,11 +834,11 @@ void TopOpeBRepBuild_Builder1::Destroy()
       }
     }
 
-    aPVSit.Next();
+    ++aPVSit;
 
-    if (!aPVSit.More()) break;
+    if (aPVSit != aPVSlist.end()) break;
 
-    Handle(TopOpeBRepBuild_Pave) aPave2 = aPVSit.Value();
+    Handle(TopOpeBRepBuild_Pave) aPave2 = *aPVSit;
     TopoDS_Shape aV2= aPave2->Vertex();
     aV2.Orientation(TopAbs_REVERSED);
     aPar2    = aPave2->Parameter();

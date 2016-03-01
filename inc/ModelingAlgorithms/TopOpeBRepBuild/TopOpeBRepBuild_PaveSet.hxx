@@ -22,7 +22,6 @@ class TopoDS_Shape;
 class TopOpeBRepBuild_Pave;
 class TopOpeBRepBuild_Loop;
 class TopoDS_Edge;
-class TopOpeBRepBuild_ListOfPave;
 
 
 
