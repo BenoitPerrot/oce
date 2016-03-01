@@ -12,9 +12,10 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopOpeBRepBuild_ListOfShapeListOfShape;
+
 class TopTools_ShapeMapHasher;
 class TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape;
 class TopOpeBRepBuild_DataMapNodeOfDataMapOfShapeListOfShapeListOfShape;

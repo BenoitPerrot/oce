@@ -15,7 +15,6 @@
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopoDS_Shape;
-class TopOpeBRepBuild_ListOfShapeListOfShape;
 class TopTools_ShapeMapHasher;
 class TopOpeBRepBuild_DataMapOfShapeListOfShapeListOfShape;
 class TopOpeBRepBuild_DataMapIteratorOfDataMapOfShapeListOfShapeListOfShape;

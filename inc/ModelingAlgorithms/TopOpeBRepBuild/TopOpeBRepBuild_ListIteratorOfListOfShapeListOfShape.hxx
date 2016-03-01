@@ -6,85 +6,8 @@
 #ifndef _TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape_HeaderFile
 #define _TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape_HeaderFile
 
-#include <Foundation/Standard/Standard.hxx>
-#include <Foundation/Standard/Standard_DefineAlloc.hxx>
-#include <Foundation/Standard/Standard_Macro.hxx>
+#include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
 
-#include <Foundation/Standard/Standard_Address.hxx>
-#include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>
-#include <Foundation/Standard/Standard_Boolean.hxx>
-class Standard_NoMoreObject;
-class Standard_NoSuchObject;
-class TopOpeBRepBuild_ListOfShapeListOfShape;
-class TopOpeBRepBuild_ShapeListOfShape;
-class TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape;
-
-
-
-class TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape 
-{
-public:
-
-  DEFINE_STANDARD_ALLOC
-
-  
-  Standard_EXPORT TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape();
-  
-  Standard_EXPORT TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape(const TopOpeBRepBuild_ListOfShapeListOfShape& L);
-  
-  Standard_EXPORT   void Initialize (const TopOpeBRepBuild_ListOfShapeListOfShape& L) ;
-  
-      Standard_Boolean More()  const;
-  
-  Standard_EXPORT   void Next() ;
-  
-  Standard_EXPORT   TopOpeBRepBuild_ShapeListOfShape& Value()  const;
-
-
-friend class TopOpeBRepBuild_ListOfShapeListOfShape;
-
-
-protected:
-
-
-
-
-
-private:
-
-
-
-  Standard_Address current;
-  Standard_Address previous;
-
-
-};
-
-#define Item TopOpeBRepBuild_ShapeListOfShape
-#define Item_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeListOfShape.hxx>
-#define TCollection_ListNode TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape
-#define TCollection_ListNode_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape.hxx>
-#define TCollection_ListIterator TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape
-#define TCollection_ListIterator_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape.hxx>
-#define Handle_TCollection_ListNode Handle_TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape
-#define TCollection_ListNode_Type_() TopOpeBRepBuild_ListNodeOfListOfShapeListOfShape_Type_()
-#define TCollection_List TopOpeBRepBuild_ListOfShapeListOfShape
-#define TCollection_List_hxx <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ListOfShapeListOfShape.hxx>
-
-#include <Foundation/TCollection/TCollection_ListIterator.lxx>
-
-#undef Item
-#undef Item_hxx
-#undef TCollection_ListNode
-#undef TCollection_ListNode_hxx
-#undef TCollection_ListIterator
-#undef TCollection_ListIterator_hxx
-#undef Handle_TCollection_ListNode
-#undef TCollection_ListNode_Type_
-#undef TCollection_List
-#undef TCollection_List_hxx
-
-
-
+typedef TopOpeBRepBuild_ListOfShapeListOfShape::iterator TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape;
 
 #endif // _TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape_HeaderFile

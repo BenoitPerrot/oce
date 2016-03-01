@@ -248,8 +248,8 @@ static void FUN_selLEE(TopTools_ListOfShape& LE,const TopoDS_Edge& E,const TopAb
 Standard_Boolean FUN_FindEinSLOS(const TopoDS_Shape& E,const TopOpeBRepBuild_ListOfShapeListOfShape& loslos)
 {
   Standard_Boolean f = Standard_False;
-  for (TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape it(loslos); it.More(); it.Next()) {
-    const TopoDS_Shape& S = it.Value().Shape();
+  for (auto L : loslos) {
+    const TopoDS_Shape& S = L.Shape();
     Standard_Boolean issame = (S.IsSame(E));
     if (issame) {
       f = Standard_True;
@@ -410,15 +410,15 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
 	  }
 	  {
             TopOpeBRepBuild_ShapeListOfShape thelist3;
-	    LE1loslos.Append(thelist3);
-	    TopOpeBRepBuild_ShapeListOfShape& E1slos = LE1loslos.Last();
+	    LE1loslos.push_back(thelist3);
+	    TopOpeBRepBuild_ShapeListOfShape& E1slos = LE1loslos.back();
 	    E1slos.ChangeShape() = E2;
 	    GCopyList(LR,E1slos.ChangeList());
 	  }
 	  {
             TopOpeBRepBuild_ShapeListOfShape thelist4;
-	    LE2loslos.Append(thelist4);
-	    TopOpeBRepBuild_ShapeListOfShape& E2slos = LE2loslos.Last();
+	    LE2loslos.push_back(thelist4);
+	    TopOpeBRepBuild_ShapeListOfShape& E2slos = LE2loslos.back();
 	    E2slos.ChangeShape() = E1;
 	    GCopyList(LR,E2slos.ChangeList());
 	  }
@@ -482,8 +482,8 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
 #ifdef OCCT_DEBUG
 //      Standard_Integer nloslos = loslos.Extent();
 #endif
-      for (TopOpeBRepBuild_ListIteratorOfListOfShapeListOfShape it(loslos); it.More(); it.Next()) {
-	const TopTools_ListOfShape& los = it.Value().List();
+      for (auto L : loslos) {
+	const TopTools_ListOfShape& los = L.List();
 #ifdef OCCT_DEBUG
 //	Standard_Integer nlos = los.Extent();
 #endif
